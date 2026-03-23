@@ -2,17 +2,18 @@ name: Pitinvest Daily Report
 
 on:
   schedule:
-    - cron: '30 22 * * 0-4' # 한국 시간 아침 07:30 (월~금)
-    - cron: '0 8 * * 1-5'   # 한국 시간 오후 17:00 (월~금)
-  workflow_dispatch: # 💡 수동 실행 버튼 추가
+    # 한국 시간 기준: 아침 07:30 (월~금), 오후 17:00 (월~금)
+    - cron: '30 22 * * 0-4' 
+    - cron: '0 8 * * 1-5'   
+  workflow_dispatch: 
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # v3에서 v4로 업데이트
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # v4에서 v5로 업데이트
         with:
           python-version: '3.9'
       - name: Install tools
