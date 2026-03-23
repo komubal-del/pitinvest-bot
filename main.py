@@ -4,30 +4,82 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import pytz
 import os
+import warnings
 
-# 🔑 비밀번호(Secrets)에서 불러오기
+warnings.filterwarnings('ignore')
+
+# 🔑 GitHub Secrets에서 불러오기
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-def get_report():
+def get_market_data():
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
+    net_buy, vix, cnn, ksv, news = 0.0, 0.0, 50.0, 0.0, 0
+    
+    try:
+        # A. 수급 (네이버 금융)
+        res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=headers, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        dds = soup.find('dl', class_='lst_kos_info').find_all('dd')
+        f_val = float(dds[1].text.replace('외국인','').replace('억','').replace(',','').replace('+','').strip())
+        i_val = float(dds[2].text.replace('기관','').replace('억','').replace(',','').replace('+','').strip())
+        net_buy = (f_val + i_val) / 10000 
+        
+        # B. VIX & CNN
+        vix = yf.Ticker("^VIX").history(period="1d")['Close'].iloc[-1]
+        cnn_res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=headers, timeout=10).json()
+        cnn = cnn_res['fear_and_greed']['score']
+        
+        # C. KSVKOSPI (Investing.com)
+        ksv_res = requests.get("https://kr.investing.com/indices/kospi-volatility", headers=headers, timeout=15)
+        ksv_tag = BeautifulSoup(ksv_res.text, 'html.parser').find(attrs={"data-test": "instrument-price-last"})
+        ksv = float(ksv_tag.text.replace(',','')) if ksv_tag else 0.0
+        
+        # D. 뉴스 카운트
+        rss_url = f"https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+        news = len(BeautifulSoup(requests.get(rss_url, timeout=10).text, 'xml').find_all('item'))
+        
+    except Exception as e:
+        print(f"⚠️ 데이터 수집 지연: {e}")
+    return net_buy, vix, cnn, ksv, news
+
+def generate_report():
     kst = pytz.timezone('Asia/Seoul')
     date_str = datetime.now(kst).strftime('%m.%d')
-    ratio_str = "00:60:40"  # 💡 대표님의 현재 비중
-
-    # 실시간 데이터 수집 (VIX, CNN)
-    vix = yf.Ticker("^VIX").history(period="1d")['Close'].iloc[-1]
-    res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers={'User-Agent': 'Mozilla/5.0'}).json()
-    cnn = res['fear_and_greed']['score']
+    l_buy, l_vix, l_cnn, l_ksv, l_news = get_market_data()
+    
+    # 💡 현재 비중 (00:60:40)
+    ratio_str = "00:60:40"
+    
+    # 원칙 체크
+    c_ok = "O" if l_cnn <= 10 else "X"
+    v_ok = "O" if l_vix > 25 else "X"
+    n_ok = "O" if (l_buy >= 1.0 and l_news >= 1) else "X"
+    
+    met_count = sum([c_ok == "O", v_ok == "O", n_ok == "O"])
+    
+    # 지침 결정
+    if met_count == 3 and l_ksv >= 50:
+        action_msg = "🚨 KSVKOSPI 50 돌파! KORU 100% 매수 신호"
+    elif met_count > 0:
+        action_msg = f"⚠️ 조건 {met_count}개 충족! 위성 확대 고려"
+    else:
+        action_msg = "✅ 조건 미달 상황 유지 및 관망"
 
     return f"""
-✅ 구덩이 매수원칙 리포트 ({date_str})
------------------------------------
-1) CNN 공탐 10 이하 : [{"O" if cnn <= 10 else "X"}] (실시간: {cnn:.1f})
-2) VIX 25 초과      : [{"O" if vix > 25 else "X"}] (실시간: {vix:.2f})
------------------------------------
-📊 투자 요약 : {ratio_str}
-👉 지침: 상황 유지 및 관망 (GitHub 무인 보고)
-===================================
+========================================
+✅ 구덩이 매수원칙 확인 ({date_str})
+  1) CNN 공탐지수 10 이하 : [{c_ok}] (실시간: {l_cnn:.1f})
+  2) VIX 지수 25 초과    : [{v_ok}] (실시간: {l_vix:.2f})
+  3) 수급 1조+뉴스        : [{n_ok}] (수급: {l_buy:+.2f}조 / 뉴스: {l_news}건)
+----------------------------------------
+📊 투자 요약 (날짜 | 비중 | VIX | 공탐 | 반매)
+{date_str} | {ratio_str} |  {v_ok}  |  {c_ok}  |    {n_ok}
+👉 지침: {action_msg}
+----------------------------------------
+📡 [보조지표 실시간]
+CNN: {l_cnn:.1f} / KSVKOSPI: {l_ksv:.2f} / 수급: {l_buy:+.2f}조
+========================================
 """
 
 def send_telegram(msg):
@@ -35,4 +87,4 @@ def send_telegram(msg):
     requests.post(url, json={"chat_id": CHAT_ID, "text": msg})
 
 if __name__ == "__main__":
-    send_telegram(get_report())
+    send_telegram(generate_report())
