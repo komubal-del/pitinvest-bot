@@ -1,0 +1,24 @@
+name: Pitinvest Daily Report
+
+on:
+  schedule:
+    - cron: '30 22 * * 0-4' # 한국 시간 아침 07:30 (월~금)
+    - cron: '0 8 * * 1-5'   # 한국 시간 오후 17:00 (월~금)
+  workflow_dispatch: # 💡 수동 실행 버튼 추가
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install tools
+        run: pip install -r requirements.txt
+      - name: Run Pitinvest Engine
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python main.py
