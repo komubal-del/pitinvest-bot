@@ -1,7 +1,8 @@
 {
-    "keep_log": "03.24 | 00:60:40 | O | O | X | 깃허브 초기 세팅 완료",
-    "tqqq_avg": 0,
-    "soxl_avg": 0,
-    "koru_avg": 354.0835,
-    "expert_sell_view": false
+    "date": "03.24",
+    "ratio_raw": "60:00:40",
+    "vix": "O",
+    "cnn": "O",
+    "news": "X",
+    "memo": "투자원칙대로 매수3원칙 나오기 전에는 코어가 아닌 현금 보유"
 }
