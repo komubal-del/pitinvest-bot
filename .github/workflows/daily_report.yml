@@ -2,12 +2,9 @@ name: Pitinvest Daily Report
 
 on:
   schedule:
-    # 한국 시간 기준: 아침 07:30 (월~금), 오후 17:00 (월~금)
-    - cron: '30 22 * * 0-4' 
-    - cron: '0 8 * * 1-5'   
-  workflow_dispatch: 
-
-name: Pitinvest Daily Report
+    - cron: '0 21 * * *' # 한국 시간(KST) 오전 06:00 실행
+    - cron: '0 7 * * *'  # 한국 시간(KST) 오후 16:00 실행
+  workflow_dispatch:
 
 jobs:
   build:
