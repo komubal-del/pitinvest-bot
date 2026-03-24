@@ -1,102 +1,113 @@
 import requests
-import yfinance as yf
 from bs4 import BeautifulSoup
+import yfinance as yf
 from datetime import datetime
 import pytz
+import json
 import os
 import warnings
 
 warnings.filterwarnings('ignore')
 
-def get_market_data():
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
-    v_max, c_now, n_buy, ksv, v_now, n_count = 0.0, 50.0, 0.0, 0.0, 0.0, 0
+# ⏰ [1. 환경 설정] - 깃허브 Secrets에서 불러옵니다.
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
+CHAT_ID = os.environ.get('CHAT_ID')
+kst = pytz.timezone('Asia/Seoul')
+date_str = datetime.now(kst).strftime('%m.%d')
+
+# 📂 [2. 데이터 로드: Keep 일지 (수동 입력부)]
+def get_keep_data():
+    # 💡 깃허브 자동화 시에는 이 부분의 텍스트를 최신 상태로 갱신해주시면 됩니다.
+    keep_content = "03.23 | 00:60:40 | O | O | X | 공탐지수 10이하 터치로 위성 40%로 확대"
+    parts = [p.strip() for p in keep_content.split('|')]
+    r_parts = parts[1].split(':')
+    formatted_ratio = f"(현금){r_parts[0].strip()}:(코어){r_parts[1].strip()}:(위성){r_parts[2].strip()}"
     
-    try:
-        # 1. VIX (오늘의 최고점 & 실시간)
-        vix_ticker = yf.Ticker("^VIX")
-        vix_hist = vix_ticker.history(period="2d")
-        v_max = vix_hist['High'].max()
-        v_now = vix_hist['Close'].iloc[-1]
+    return {
+        "ratio": formatted_ratio,
+        "vix_mem": parts[2], "cnn_mem": parts[3], "news_mem": parts[4],
+        "memo": parts[5] if len(parts) > 5 else "",
+        "core_val": int(r_parts[1].strip()) # 코어 비중 숫자만 추출 (재매수 판단용)
+    }
 
-        # 2. CNN 공탐지수
-        cnn_res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=headers, timeout=15)
-        c_now = cnn_res.json()['fear_and_greed']['score']
+def load_exit_settings():
+    # 깃허브 환경에서는 같은 폴더의 json 파일을 읽습니다.
+    if os.path.exists("exit_settings.json"):
+        with open("exit_settings.json", 'r', encoding='utf-8') as f: return json.load(f)
+    return {"tqqq_avg": 0, "soxl_avg": 0, "koru_avg": 0, "expert_sell_view": False}
 
-        # 3. 네이버 수급 (외인+기관 합산)
-        n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=headers, timeout=15)
-        soup = BeautifulSoup(n_res.text, 'html.parser')
-        dds = soup.find('dl', class_='lst_kos_info').find_all('dd')
-        n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').replace('+','').strip()) + 
-                 float(dds[2].text.replace('기관','').replace('억','').replace(',','').replace('+','').strip())) / 10000 
+keep_log = get_keep_data()
+exit_set = load_exit_settings()
 
-        # 4. 📰 [복구] 반대매매 뉴스 카운트 (최근 24시간)
-        rss_url = "https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko"
-        news_res = requests.get(rss_url, timeout=15)
-        n_count = len(BeautifulSoup(news_res.text, 'xml').find_all('item'))
+# 📡 [3. 시장 데이터 수집 (CNN 보안 회피 및 방탄 로직)]
+def fetch_market():
+    v_max, v_now, cnn, n_buy, news, ksv = 0.0, 0.0, 50.0, 0.0, 0, 0.0
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    try: # CNN
+        cnn_h = {'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.cnn.com/markets/fear-and-greed'}
+        res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=cnn_h, timeout=10)
+        cnn = res.json()['fear_and_greed']['score']
+    except: pass
 
-        # 5. KSVKOSPI
-        ksv_res = requests.get("https://kr.investing.com/indices/kospi-volatility", headers=headers, timeout=15)
-        ksv_tag = BeautifulSoup(ksv_res.text, 'html.parser').find(attrs={"data-test": "instrument-price-last"})
-        ksv = float(ksv_tag.text.replace(',','')) if ksv_tag else 0.0
+    def get_dd(symbol):
+        try:
+            t = yf.Ticker(symbol)
+            df = t.history(period="5d")
+            h52 = t.history(period="1y")['High'].max()
+            now, yest = df['Close'].iloc[-1], df['Close'].iloc[-2]
+            n_dd, y_dd = (now/h52-1)*100, (yest/h52-1)*100
+            return now, n_dd, (y_dd > -10.0 and n_dd <= -10.0), (y_dd <= -10.0 and n_dd <= -10.0)
+        except: return 0.0, 0.0, False, False
 
-    except Exception as e:
-        print(f"⚠️ 데이터 수집 중 일부 지연 발생: {e}")
+    nas_p, nas_dd, n_new, n_old = get_dd("^IXIC")
+    kos_p, kos_dd, k_new, k_old = get_dd("^KS11")
+    
+    try: # VIX
+        v_h = yf.Ticker("^VIX").history(period="1d")
+        v_max, v_now = v_h['High'].max(), v_h['Close'].iloc[-1]
+    except: pass
+
+    try: # 네이버 수급, 뉴스, KSV
+        n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=headers, timeout=10)
+        dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
+        n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').strip()) + 
+                 float(dds[2].text.replace('기관','').replace('억','').replace(',','').replace('+','').strip())) / 10000
+        news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
+        ksv_res = requests.get("https://kr.investing.com/indices/kospi-volatility", headers=headers, timeout=10)
+        ksv = float(BeautifulSoup(ksv_res.text, 'html.parser').find(attrs={"data-test": "instrument-price-last"}).text.replace(',',''))
+    except: pass
+
+    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv)
+
+m = fetch_market()
+
+# 📡 [4. 매도 원칙 상세 데이터 (보유 종목만 트래킹)]
+def get_sell_details():
+    p_list = []
+    for name, ticker, avg in [("TQQQ","TQQQ",exit_set.get('tqqq_avg',0)), ("SOXL","SOXL",exit_set.get('soxl_avg',0)), ("KORU","KORU",exit_set.get('koru_avg',0))]:
+        if avg > 0:
+            try:
+                cur = yf.Ticker(ticker).history(period="1d")['Close'].iloc[-1]
+                rate = (cur/avg-1)*100
+                p_list.append(f"{name} {rate:+.1f}%")
+            except: pass
+    
+    def get_up(code):
+        try:
+            h = yf.Ticker(f"{code}.KS").history(period="5d")['Close'].tail(4).tolist()
+            return sum(1 for i in range(len(h)-1) if h[i] < h[i+1])
+        except: return 0
         
-    return v_max, c_now, n_buy, ksv, v_now, n_count
+    return ", ".join(p_list) if p_list else "보유자산 없음", get_up("005930"), get_up("000660")
 
-def generate_report():
-    kst = pytz.timezone('Asia/Seoul')
-    now = datetime.now(kst)
-    date_display = now.strftime('%m.%d %H:%M')
-    v_max, c_now, l_buy, l_ksv, l_v_now, l_news = get_market_data()
-    
-    # 📝 일지 읽기 (주인님의 기록 확인)
-    try:
-        with open("trade_log.txt", "r", encoding='utf-8') as f:
-            lines = f.readlines()
-            last_log = lines[-1].strip() if lines else "기록 없음"
-    except:
-        last_log = "기록 없음"
+profit_info, sec_up, hix_up = get_sell_details()
 
-    # 💡 [판단 로직] 데이터 or 일지 기록 중 하나라도 O면 [O]
-    v_ok = "O" if (v_max > 25 or "VIX" in last_log) else "X"
-    c_ok = "O" if (c_now <= 10 or "공탐" in last_log or "10 이하" in last_log) else "X"
-    # 💡 수급 1조 이상 AND 뉴스 1건 이상일 때만 [O]
-    n_ok = "O" if ((l_buy >= 1.0 and l_news >= 1) or "수급" in last_log or "반대매매" in last_log) else "X"
+# 🤖 [5. 최종 판단 및 지능형 지침]
+c_ok = "O" if (m[10] <= 10 or keep_log['cnn_mem'] == 'O') else "X"
+v_ok = "O" if (m[8] > 25 or keep_log['vix_mem'] == 'O') else "X"
+n_ok = "O" if (m[11] >= 1.0 and m[12] >= 1) else "X"
 
-    met_count = sum([v_ok == "O", c_ok == "O", n_ok == "O"])
-    
-    # 지침 결정
-    if met_count == 3 and l_ksv >= 50:
-        action = "🚨 KSVKOSPI 50 돌파! KORU 100% 매수 신호"
-    elif met_count > 0:
-        action = f"⚠️ 조건 {met_count}개 충족! 대응 비중 유지"
-    else:
-        action = "✅ 관망 유지 및 구덩이 대기"
-
-    return f"""
-========================================
-✅ 구덩이 매수원칙 보고서 ({date_display})
-----------------------------------------
-📊 [ Jerome 대표님 최신 확정 비중 ]
-👉 {last_log}
-----------------------------------------
-📡 [ 매수 원칙 통합 체크 ]
-1) CNN 공탐 10 이하  : [{c_ok}] (실시간: {c_now:.1f})
-2) VIX 25 초과       : [{v_ok}] (오늘최고: {v_max:.2f})
-3) 수급 1조 + 뉴스    : [{n_ok}] (수급: {l_buy:+.2f}조 / 뉴스: {l_news}건)
-----------------------------------------
-👉 지침: {action}
-----------------------------------------
-📡 [ 보조지표 ] KSVKOSPI: {l_ksv:.2f} / VIX실시간: {l_v_now:.2f}
-========================================
-"""
-
-def send_telegram(msg):
-    TOKEN = os.environ.get('TELEGRAM_TOKEN')
-    ID = os.environ.get('CHAT_ID')
-    requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage", json={"chat_id": ID, "text": msg})
-
-if __name__ == "__main__":
-    send_telegram(generate_report())
+if m[2] or m[6]:
+    action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도 후 현금 확보!!"
+elif keep_log['core_val'] == 0 and n_ok == "O
