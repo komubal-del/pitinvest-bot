@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 
 print("🔵 [시스템] 깃허브(GitHub) 무인 관제 모드 가동 중...")
 
-# ⏰ 1. 환경 설정 (Secrets에서 호출)
+# ⏰ 1. 환경 설정
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 kst = pytz.timezone('Asia/Seoul')
@@ -84,4 +84,64 @@ def fetch_market():
         ksv = float(BeautifulSoup(ksv_res.text, 'html.parser').find(attrs={"data-test": "instrument-price-last"}).text.replace(',',''))
     except: pass
 
-    return (nas_p, nas_
+    # 💡 바로 이 부분이 짤렸던 그곳입니다! 이번엔 온전합니다.
+    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv)
+
+m = fetch_market()
+
+# 📡 4. 매도 원칙 데이터
+p_list = []
+for name, ticker, avg in [("TQQQ","TQQQ",data.get('tqqq_avg',0)), ("SOXL","SOXL",data.get('soxl_avg',0)), ("KORU","KORU",data.get('koru_avg',0))]:
+    if avg > 0:
+        try:
+            cur = yf.Ticker(ticker).history(period="1d")['Close'].iloc[-1]
+            rate = (cur/avg-1)*100
+            p_list.append(f"{name} {rate:+.1f}%")
+        except: pass
+
+def get_up(code):
+    try:
+        h = yf.Ticker(f"{code}.KS").history(period="5d")['Close'].tail(4).tolist()
+        return sum(1 for i in range(len(h)-1) if h[i] < h[i+1])
+    except: return 0
+
+profit_info = ", ".join(p_list) if p_list else "보유자산 없음"
+sec_up, hix_up = get_up("005930"), get_up("000660")
+
+# 🤖 5. 지능형 지침
+c_ok = "O" if (m[10] <= 10 or keep_log['cnn_mem'] == 'O') else "X"
+v_ok = "O" if (m[8] > 25 or keep_log['vix_mem'] == 'O') else "X"
+n_ok = "O" if (m[11] >= 1.0 and m[12] >= 1) else "X"
+
+if m[2] or m[6]: action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도 후 현금 확보!!"
+elif keep_log['core_val'] == 0 and n_ok == "O": action = "🚀 [긴급탈출 후 재매수] 하락장 진정 및 수급 확인! 코어 자산 재매입 시작"
+elif m[3] or m[7]: action = "🚨 [긴급탈출] 코스피 전날 10% 하락 발생으로 오늘 신호 없음"
+else: action = "✅ 권장 비중 유지 (특이사항 없음)"
+
+# 📊 6. 리포트 생성 및 전송
+report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
+----------------------------------------
+📊 [ Jerome 대표님 최신 확정 비중 ]
+👉 {keep_log['ratio']}, {keep_log['memo']}
+----------------------------------------
+📊 현재 권장 비중 : {keep_log['ratio']}
+👉 지침: {action}
+----------------------------------------
+📉 [지수별 구덩이 깊이 & 현재가]
+- 나스닥(Nasdaq) : {m[0]:,.2f} ({m[1]:+.2f}%) 🕳️
+- 코스피(KOSPI)  : {m[4]:,.2f} ({m[5]:+.2f}%) 🕳️
+----------------------------------------
+📡 [매수 원칙 상세 체크]
+1) CNN 공탐 10 이하 : [{c_ok}] (실시간: {m[10]:.1f})
+2) VIX 지수 25 초과  : [{v_ok}] (오늘최고: {m[8]:.2f})
+3) 수급 1조 + 뉴스    : [{n_ok}] (수급: {m[11]:+.2f}조 / 뉴스: {m[12]}건)
+----------------------------------------
+📡 [매도 원칙 상세 체크]
+1) 위성 100% 수익률 : [{'O' if '100%' in profit_info else 'X'}] (실시간: {profit_info})
+2) 주도주 개인매수 상승 3일 : [{'O' if sec_up>=3 or hix_up>=3 else 'X'}] (삼성전자 {sec_up}일, 하이닉스 {hix_up}일)
+3) 전문가 매도의견 : [{'O' if data.get('expert_sell_view', False) else 'X'}]
+----------------------------------------
+📡 [실시간] KSVKOSPI: {m[13]:.2f} / VIX현재: {m[9]:.2f}
+========================================"""
+print(report)
+requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
