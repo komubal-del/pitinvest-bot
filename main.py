@@ -1,4 +1,4 @@
-# @title 🚀 Pitinvest 최종 통합 엔진 (CNN & KSVKOSPI 복구 버전)
+# @title 🚀 Pitinvest 최종 통합 엔진 (데이터 수집 완전 정복 버전)
 import requests
 from bs4 import BeautifulSoup
 import yfinance as yf
@@ -24,9 +24,8 @@ else:
     CHAT_ID = os.environ.get('CHAT_ID')
     settings_file = "exit_settings.json"
 
-# 📂 [2. 데이터 로드: 1번 모듈(장부) 읽기]
+# 📂 [2. 데이터 로드: 장부 읽기]
 def load_keep_log():
-    # 💡 파일(master_data.json)이 있으면 읽고, 없으면 기본값 사용
     if os.path.exists('master_data.json'):
         with open('master_data.json', 'r', encoding='utf-8') as f:
             stored = json.load(f)
@@ -39,37 +38,32 @@ def load_keep_log():
             "memo": stored.get('memo', ""),
             "core_val": int(r[1])
         }
-    else:
-        # 파일이 없을 때를 대비한 기본값 (03.23 데이터)
-        return {"ratio": "(현금)00:(코어)60:(위성)40", "vix_mem":"O", "cnn_mem":"O", "news_mem":"X", "memo":"장부 로드 실패", "core_val":60}
+    return {"ratio": "(현금)00:(코어)60:(위성)40", "vix_mem":"O", "cnn_mem":"O", "news_mem":"X", "memo":"장부 미로드", "core_val":60}
 
 keep_log = load_keep_log()
 
-# 📡 [3. 시장 데이터 수집 (방탄 헤더 적용)]
+# 📡 [3. 시장 데이터 수집 (안정성 최우선 개조)]
 def fetch_market():
     v_max, v_now, cnn, n_buy, news, ksv = 0.0, 0.0, 50.0, 0.0, 0, 0.0
-    
-    # 1) CNN Fear & Greed (헤더 강화)
+    # 💡 브라우저 가면(헤더) 최신화
+    h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
+
+    # A) CNN Fear & Greed
     try:
-        cnn_url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
-        cnn_h = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Origin': 'https://www.cnn.com',
-            'Referer': 'https://www.cnn.com/markets/fear-and-greed'
-        }
-        res = requests.get(cnn_url, headers=cnn_h, timeout=15)
-        if res.status_code == 200:
-            cnn = float(res.json()['fear_and_greed']['score'])
+        cnn_h = h.copy()
+        cnn_h.update({'Origin': 'https://www.cnn.com', 'Referer': 'https://www.cnn.com/markets/fear-and-greed'})
+        res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=cnn_h, timeout=10)
+        cnn = float(res.json()['fear_and_greed']['score'])
     except: pass
 
-    # 2) 지수 및 VIX (Yahoo Finance)
+    # B) 지수 및 VIX (Yahoo Finance)
     def get_dd(symbol):
         try:
             t = yf.Ticker(symbol)
             df = t.history(period="5d")
             h52 = t.history(period="1y")['High'].max()
-            now, yest = df['Close'].iloc[-1], df['Close'].iloc[-2]
-            n_dd, y_dd = (now/h52-1)*100, (yest/h52-1)*100
+            now, n_dd = df['Close'].iloc[-1], (df['Close'].iloc[-1]/h52-1)*100
+            y_dd = (df['Close'].iloc[-2]/h52-1)*100
             return now, n_dd, (y_dd > -10.0 and n_dd <= -10.0), (y_dd <= -10.0 and n_dd <= -10.0)
         except: return 0.0, 0.0, False, False
 
@@ -82,22 +76,27 @@ def fetch_market():
         if v_max <= 0: v_max = v_now
     except: pass
 
-    # 3) KOSPI 수급/뉴스/KSVKOSPI (네이버 & 인베스팅)
+    # C) 네이버 금융 통합 수집 (수급 + KSVKOSPI)
     try:
-        h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        # 수급
+        # 1. 수급 (코스피 메인페이지)
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=h, timeout=10)
-        dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
+        soup = BeautifulSoup(n_res.text, 'html.parser')
+        dds = soup.find('dl', class_='lst_kos_info').find_all('dd')
         n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').strip()) +
                  float(dds[2].text.replace('기관','').replace('억','').replace(',','').replace('+','').strip())) / 10000
-        # 뉴스
-        news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
-        # KSVKOSPI (헤더 보강)
-        ksv_url = "https://kr.investing.com/indices/kospi-volatility"
-        ksv_res = requests.get(ksv_url, headers=h, timeout=15)
-        soup = BeautifulSoup(ksv_res.text, 'html.parser')
-        ksv_val = soup.find(attrs={"data-test": "instrument-price-last"}).text
-        ksv = float(ksv_val.replace(',', ''))
+        
+        # 2. KSVKOSPI (네이버 변동성 지수 페이지로 우회하여 차단 방지)
+        ksv_res = requests.get("https://finance.naver.com/sise/v_kospi.naver", headers=h, timeout=10)
+        ksv_soup = BeautifulSoup(ksv_res.text, 'html.parser')
+        ksv = float(ksv_soup.find('em', id='now_value').text.replace(',', ''))
+    except: pass
+
+    # D) 구글 뉴스 (RSS 파싱 방식 개선)
+    try:
+        news_url = "https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+        news_res = requests.get(news_url, headers=h, timeout=10)
+        news_soup = BeautifulSoup(news_res.text, 'xml')
+        news = len(news_soup.find_all('item'))
     except: pass
 
     return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv)
@@ -109,12 +108,9 @@ c_ok = "O" if (m[10] <= 10 or keep_log['cnn_mem'] == 'O') else "X"
 v_ok = "O" if (m[8] > 25 or keep_log['vix_mem'] == 'O') else "X"
 n_ok = "O" if (m[11] >= 1.0 and m[12] >= 1) else "X"
 
-if m[2] or m[6]:
-    action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도 후 현금 확보!!"
-elif keep_log['core_val'] == 0 and n_ok == "O":
-    action = "🚀 [긴급탈출 후 재매수] 하락장 진정 및 수급 확인! 코어 자산 재매입 시작"
-else:
-    action = "✅ 권장 비중 유지 (특이사항 없음)"
+if m[2] or m[6]: action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도 후 현금 확보!!"
+elif keep_log['core_val'] == 0 and n_ok == "O": action = "🚀 [긴급탈출 후 재매수] 하락장 진정 및 수급 확인! 코어 자산 재매입 시작"
+else: action = "✅ 권장 비중 유지 (특이사항 없음)"
 
 # 📊 [5. 최종 리포트 출력]
 report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
