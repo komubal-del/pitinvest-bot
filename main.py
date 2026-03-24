@@ -1,3 +1,25 @@
+# @title 🚀 Pitinvest 메인 관제 엔진 (파일 로드 방식)
+import json
+import os
+
+# 📂 [중요] 저장된 파일을 읽어옵니다.
+if os.path.exists('master_data.json'):
+    with open('master_data.json', 'r', encoding='utf-8') as f:
+        stored_data = json.load(f)
+    
+    # 데이터 매핑 (파일에서 읽어온 값 사용)
+    r_parts = stored_data['ratio_raw'].split(':')
+    keep_log = {
+        "ratio": f"(현금){r_parts[0]}:(코어){r_parts[1]}:(위성){r_parts[2]}",
+        "vix_mem": stored_data['vix'],
+        "cnn_mem": stored_data['cnn'],
+        "news_mem": stored_data['news'],
+        "memo": stored_data['memo']
+    }
+    print(f"📡 {stored_data['date']} 데이터를 창고에서 성공적으로 가져왔습니다.")
+else:
+    print("⚠️ 데이터 파일(master_data.json)을 찾을 수 없습니다!")
+
 import os
 import json
 import requests
