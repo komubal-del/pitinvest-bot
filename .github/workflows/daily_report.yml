@@ -7,19 +7,23 @@ on:
     - cron: '0 8 * * 1-5'   
   workflow_dispatch: 
 
+name: Pitinvest Daily Report
+
 jobs:
-  run-bot:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # v3에서 v4로 업데이트
+      - uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v5 # v4에서 v5로 업데이트
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
-      - name: Install tools
-        run: pip install -r requirements.txt
-      - name: Run Pitinvest Engine
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run main script
         env:
+          # 깃허브 Secrets에 저장된 토큰을 불러와 파이썬으로 넘겨줍니다.
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python main.py
