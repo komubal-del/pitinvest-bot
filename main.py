@@ -37,28 +37,20 @@ def load_master_data():
 
 keep_log = load_master_data()
 
-# 📡 3. 시장 데이터 수집 (인베스팅닷컴 타격 로직 포함)
+# 📡 3. 시장 데이터 수집 (인베스팅닷컴 타격 로직)
 def fetch_market():
     v_max, v_now, cnn, n_buy, news, ksv = 0.0, 0.0, 50.0, 0.0, 0, 0.0
-    
-    # 💡 인베스팅닷컴 전용 초강력 가면(Headers)
-    # 📌 이 정도는 돼야 인베스팅닷컴이 문을 열어줍니다.
     investing_h = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache',
         'Referer': 'https://www.google.com/',
     }
 
-    # A) CNN Fear & Greed
-    try:
+    try: # CNN
         cnn_res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=investing_h, timeout=10)
         cnn = float(cnn_res.json()['fear_and_greed']['score'])
     except: pass
 
-    # B) Yahoo Finance (지수 & VIX)
     def get_dd(symbol):
         try:
             t = yf.Ticker(symbol)
@@ -72,14 +64,13 @@ def fetch_market():
     nas_p, nas_dd, n_new, n_old = get_dd("^IXIC")
     kos_p, kos_dd, k_new, k_old = get_dd("^KS11")
     
-    try:
+    try: # VIX
         v_h = yf.Ticker("^VIX").history(period="5d")
         v_now, v_max = v_h['Close'].iloc[-1], v_h['High'].max()
         if v_max <= 0: v_max = v_now
     except: pass
 
-    # C) KOSPI 수급 & 뉴스 (네이버/구글)
-    try:
+    try: # KOSPI 수급 & 뉴스
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=investing_h, timeout=10)
         dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
         n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').strip()) + 
@@ -87,20 +78,11 @@ def fetch_market():
         news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
     except: pass
 
-    # D) ⭐ KSVKOSPI (Investing.com 정밀 타격)
-    try:
+    try: # KSVKOSPI
         ksv_url = "https://kr.investing.com/indices/kospi-volatility"
-        # 💡 세션을 유지해서 쿠키를 굽고 접근합니다 (보안 우회)
-        session = requests.Session()
-        ksv_res = session.get(ksv_url, headers=investing_h, timeout=15)
-        ksv_soup = BeautifulSoup(ksv_res.text, 'html.parser')
-        
-        # 💡 인베스팅닷컴이 현재 사용 중인 가격 데이터 태그를 정확히 매칭합니다.
-        # 데이터-테스트 속성이나 아이디가 자주 변하므로 다중 필터를 적용합니다.
-        ksv_val = ksv_soup.find(attrs={"data-test": "instrument-price-last"}).text
-        ksv = float(ksv_val.replace(',', ''))
+        ksv_res = requests.Session().get(ksv_url, headers=investing_h, timeout=15)
+        ksv = float(BeautifulSoup(ksv_res.text, 'html.parser').find(attrs={"data-test": "instrument-price-last"}).text.replace(',', ''))
     except:
-        # 💡 만약 인베스팅이 끝까지 거부하면, 리포트의 연속성을 위해 네이버에서 백업 데이터를 가져옵니다.
         try:
             bk_res = requests.get("https://finance.naver.com/sise/v_kospi.naver", headers=investing_h, timeout=5)
             ksv = float(BeautifulSoup(bk_res.text, 'html.parser').find('em', id='now_value').text.replace(',', ''))
@@ -110,17 +92,43 @@ def fetch_market():
 
 m = fetch_market()
 
-# 🤖 4. 지능형 지침
-c_ok = "O" if (m[10] <= 10 or keep_log['cnn_mem'] == 'O') else "X"
-v_ok = "O" if (m[8] > 25 or keep_log['vix_mem'] == 'O') else "X"
-n_ok = "O" if (m[11] >= 1.0 and m[12] >= 1) else "X"
+# 🤖 4. [업그레이드] 지능형 판단 로직 (스텝 1~3 적용)
+# 스텝 1&2: 메모장 O 우선, X일 경우 데이터 검토
+c_upgraded, v_upgraded, n_upgraded = False, False, False
 
-if m[2] or m[6]: action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도 후 현금 확보!!"
-elif keep_log['core_val'] == 0 and n_ok == "O": action = "🚀 [긴급탈출 후 재매수] 하락장 진정 및 수급 확인! 코어 자산 재매입 시작"
-else: action = "✅ 권장 비중 유지 (특이사항 없음)"
+# 1) CNN 공탐
+c_ok = keep_log['cnn_mem']
+if c_ok == 'X' and m[10] <= 10:
+    c_ok = 'O'
+    c_upgraded = True
+
+# 2) VIX 지수
+v_ok = keep_log['vix_mem']
+if v_ok == 'X' and m[8] > 25:
+    v_ok = 'O'
+    v_upgraded = True
+
+# 3) 수급/뉴스
+n_ok = keep_log['news_mem']
+if n_ok == 'X' and (m[11] >= 1.0 and m[12] >= 1):
+    n_ok = 'O'
+    n_upgraded = True
+
+# 스텝 3: X에서 O로 바뀐 경우 의견 추가
+upgrade_msg = ""
+if c_upgraded or v_upgraded or n_upgraded:
+    upgrade_msg = "\n💡 [데이터 감지] 실시간 지표 호전으로 위성 비중 확대 검토 권장!"
+
+# 최종 액션 결정
+if m[2] or m[6]: 
+    action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도!"
+elif keep_log['core_val'] == 0 and n_ok == "O": 
+    action = "🚀 [긴급탈출 후 재매수] 하락장 진정 및 수급 확인! 코어 자산 재매입 시작"
+else: 
+    action = f"✅ 권장 비중 유지 (특이사항 없음){upgrade_msg}"
 
 # 📊 5. 리포트 생성 및 전송
-def send_to_telegram(m, keep_log, action):
+def send_to_telegram(m, keep_log, action, c_ok, v_ok, n_ok):
     send_time = datetime.now(kst).strftime('%m.%d %H:%M')
     report = f"""✅ Pitinvest 통합 관제 리포트 ({send_time})
 ----------------------------------------
@@ -141,7 +149,6 @@ def send_to_telegram(m, keep_log, action):
 ----------------------------------------
 📡 [실시간] KSVKOSPI: {m[13]:.2f} / VIX현재: {m[9]:.2f}
 ========================================"""
-    print(report)
     requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
 
-send_to_telegram(m, keep_log, action)
+send_to_telegram(m, keep_log, action, c_ok, v_ok, n_ok)
