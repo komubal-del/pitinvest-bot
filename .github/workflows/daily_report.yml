@@ -22,3 +22,12 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python main.py
+
+# 👇 여기서부터 새로 추가된 부분입니다! (CSV 파일을 깃허브에 저장하는 역할) 👇
+      - name: 커밋 및 푸시 (CSV 파일 깃허브에 저장)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add pitinvest_history.csv
+          git commit -m "📈 일일 백테스팅 데이터 자동 업데이트" || echo "저장할 변경사항이 없습니다."
+          git push
