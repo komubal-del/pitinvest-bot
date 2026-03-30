@@ -16,6 +16,7 @@ TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 kst = pytz.timezone('Asia/Seoul')
 date_str = datetime.now(kst).strftime('%m.%d')
+full_date_str = datetime.now(kst).strftime('%Y-%m-%d') # 백테스팅 기록용 (YYYY-MM-DD)
 
 # 📂 2. 데이터 로드 (장부 & 탈출 전략)
 def load_all_settings():
@@ -39,7 +40,8 @@ master, exit_set = load_all_settings()
 
 # 📡 3. 시장 데이터 수집 (인베스팅 & 야후 & 네이버)
 def fetch_market():
-    v_max, v_now, cnn, n_buy, news, ksv = 0.0, 0.0, 50.0, 0.0, 0, 0.0
+    # usdkrw 변수 추가
+    v_max, v_now, cnn, n_buy, news, ksv, usdkrw = 0.0, 0.0, 50.0, 0.0, 0, 0.0, 0.0
     h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', 'Referer': 'https://www.google.com/'}
 
     try: # CNN
@@ -66,6 +68,10 @@ def fetch_market():
         if v_max <= 0: v_max = v_now
     except: pass
 
+    try: # 환율 (USD/KRW) - 신규 추가!
+        usdkrw = yf.Ticker("KRW=X").history(period="1d")['Close'].iloc[-1]
+    except: pass
+
     try: # KOSPI 수급/뉴스/KSVKOSPI
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=h, timeout=10)
         dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
@@ -80,7 +86,8 @@ def fetch_market():
             ksv = float(BeautifulSoup(bk.text, 'html.parser').find('em', id='now_value').text.replace(',', ''))
         except: pass
 
-    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv)
+    # usdkrw를 튜플 맨 마지막(14번째 인덱스)에 추가
+    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv, usdkrw)
 
 m = fetch_market()
 
@@ -133,6 +140,7 @@ elif core_val == 0 and n_ok == "O": action = "🚀 [긴급탈출 후 재매수] 
 else: action = f"✅ 권장 비중 유지 (특이사항 없음){upgrade_msg}"
 
 # 📊 6. 최종 리포트 전송
+# 환율 데이터(m[14]) 리포트에 추가
 report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 ----------------------------------------
 📊 [ Jerome 대표님 최신 확정 비중 ]
@@ -144,6 +152,7 @@ report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 📉 [지수별 구덩이 깊이 & 현재가]
 - 나스닥(Nasdaq) : {m[0]:,.2f} ({m[1]:+.2f}%) 🕳️
 - 코스피(KOSPI)  : {m[4]:,.2f} ({m[5]:+.2f}%) 🕳️
+- 원/달러 환율   : {m[14]:,.1f} 원 💵
 ----------------------------------------
 📡 [매수 원칙 상세 체크 (데이터 보정형)]
 1) CNN 공탐 10 이하 : [{c_ok}] (실시간: {m[10]:.1f})
@@ -158,4 +167,44 @@ report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 📡 [실시간] KSVKOSPI: {m[13]:.2f} / VIX현재: {m[9]:.2f}
 ========================================"""
 
-requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
+try:
+    requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
+except Exception as e:
+    print(f"텔레그램 전송 실패: {e}")
+
+# 💾 7. 데이터 축적 (백테스팅용 CSV 기록 - 중복 날짜 덮어쓰기 적용!)
+csv_filename = 'pitinvest_history.csv'
+file_exists = os.path.isfile(csv_filename)
+header = "Date,FGI,VIX_Max,VIX_Close,KOSPI_NetBuy,News_Count,USD_KRW,Nasdaq_Close,Kospi_Close\n"
+
+# 오늘 저장할 최신 데이터 한 줄
+new_row_str = f"{full_date_str},{m[10]:.1f},{m[8]:.2f},{m[9]:.2f},{m[11]:.2f},{m[12]},{m[14]:.2f},{m[0]:.2f},{m[4]:.2f}\n"
+
+try:
+    lines = []
+    # 1. 기존 파일이 있으면 모든 줄을 읽어옴
+    if file_exists:
+        with open(csv_filename, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    else:
+        lines = [header] # 파일이 없으면 헤더만 생성
+        
+    # 2. 오늘 날짜(full_date_str)가 이미 기록되어 있는지 찾기
+    updated = False
+    for i in range(1, len(lines)):
+        if lines[i].startswith(full_date_str):
+            lines[i] = new_row_str  # 찾았다면 그 줄을 최신 데이터로 덮어치기!
+            updated = True
+            break
+            
+    # 3. 오늘 날짜가 없으면 맨 아래에 새롭게 추가
+    if not updated:
+        lines.append(new_row_str)
+        
+    # 4. 정리된 전체 데이터를 파일에 다시 저장 ('w' 모드로 덮어쓰기)
+    with open(csv_filename, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+        
+    print(f"✅ 백테스팅용 데이터가 {csv_filename}에 성공적으로 기록/업데이트 되었습니다!")
+except Exception as e:
+    print(f"❌ 데이터 축적 실패: {e}")
