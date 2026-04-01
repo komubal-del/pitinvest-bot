@@ -9,7 +9,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 23.8) 가동 중...")
+print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 23.9) 가동 중...")
 
 # ⏰ 1. 환경 설정
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
@@ -18,7 +18,7 @@ kst = pytz.timezone('Asia/Seoul')
 date_str = datetime.now(kst).strftime('%m.%d')
 full_date_str = datetime.now(kst).strftime('%Y-%m-%d')
 
-# 📂 2. 데이터 로드
+# 📂 2. 데이터 로드 (장부 & 탈출 전략)
 def load_all_settings():
     try:
         with open('master_data.json', 'r', encoding='utf-8') as f:
@@ -35,10 +35,11 @@ def load_all_settings():
 
 master, exit_set = load_all_settings()
 
-# 📡 3. 시장 데이터 수집 엔진
+# 📡 3. 시장 데이터 수집 엔진 (에러 방지 및 데이터 고정)
 def fetch_market():
     h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
     
+    # 1) 지수 상세 (나스닥, 코스피)
     def get_market_details(symbol):
         try:
             t = yf.Ticker(symbol)
@@ -54,38 +55,47 @@ def fetch_market():
     nas_p, nas_dd, n_hit, nas_h52, nas_target = get_market_details("^IXIC")
     kos_p, kos_dd, k_hit, kos_h52, kos_target = get_market_details("^KS11")
 
+    # 2) 거시지표, 원자재, 코인 (기본값 설정 후 수집)
+    tnx_10y, hy_spread, wti, gold, btc, v_max, v_now, cnn, usdkrw = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 50.0, 0.0
+
     try:
+        # 야후 파이낸스 일괄 수집
         tnx_10y = yf.Ticker("^TNX").history(period="1d")['Close'].iloc[-1]
         usdkrw = yf.Ticker("KRW=X").history(period="1d")['Close'].iloc[-1]
         wti = yf.Ticker("CL=F").history(period="1d")['Close'].iloc[-1]
         gold = yf.Ticker("GC=F").history(period="1d")['Close'].iloc[-1]
         btc = yf.Ticker("BTC-USD").history(period="1d")['Close'].iloc[-1]
         
+        # 하이일드 (Yahoo 데이터는 flacky할 수 있으므로 안전장치)
         hy_data = yf.Ticker("BAMLH0A0HYM2").history(period="1d")
         hy_spread = hy_data['Close'].iloc[-1] if not hy_data.empty else 0.0
         
+        # VIX
         v_h = yf.Ticker("^VIX").history(period="5d")
         v_now, v_max = v_h['Close'].iloc[-1], v_h['High'].max()
         
+        # CNN F&G (헤더 강화)
         cnn_res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=h, timeout=10)
         cnn = float(cnn_res.json()['fear_and_greed']['score'])
-    except: 
-        tnx_10y, hy_spread, wti, gold, btc, v_max, v_now, cnn = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 50.0
+    except: pass
 
+    # 3) 국내 수급 & 뉴스
+    n_buy, news = 0.0, 0
     try:
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=h, timeout=10)
         dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
         n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').strip()) + 
                  float(dds[2].text.replace('기관','').replace('억','').replace(',','').replace('+','').strip())) / 10000
         news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
-    except: n_buy, news = 0.0, 0
+    except: pass
 
+    # 최종 21개 데이터 튜플 반환
     return (nas_p, nas_dd, n_hit, nas_h52, nas_target, 
             kos_p, kos_dd, k_hit, kos_h52, kos_target,
             tnx_10y, hy_spread, wti, gold, btc,
             v_max, v_now, cnn, n_buy, news, usdkrw)
 
-# 🚀 [데이터 실행 및 언팩킹]
+# 🚀 [실행부] 여기서 m을 먼저 만들고 언팩킹합니다.
 m = fetch_market()
 (nas_p, nas_dd, n_hit, nas_h52, nas_target, 
  kos_p, kos_dd, k_hit, kos_h52, kos_target,
@@ -110,12 +120,14 @@ def check_exit_strategy():
             h = yf.Ticker(f"{code}.KS").history(period="5d")['Close'].tail(4).tolist()
             return sum(1 for i in range(len(h)-1) if h[i+1] > h[i]) >= 3
         except: return False
-    sec_up, hix_up = ("O" if is_3day_up("005930") else "X"), ("O" if is_3day_up("000660") else "X")
+    
+    sec_up = "O" if is_3day_up("005930") else "X"
+    hix_up = "O" if is_3day_up("000660") else "X"
     return is_100_profit, ", ".join(p_results) if p_results else "보유자산없음", sec_up, hix_up
 
 exit_100, profit_detail, s_up, h_up = check_exit_strategy()
 
-# 🤖 5. 지능형 판단
+# 🤖 5. 지능형 판단 (데이터 보정형)
 c_ok = 'O' if (master['cnn'] == 'O' or cnn <= 10) else 'X'
 v_ok = 'O' if (master['vix'] == 'O' or v_max > 25) else 'X'
 n_ok = 'O' if (master['news'] == 'O' or (n_buy >= 1.0 and news >= 1)) else 'X'
@@ -125,9 +137,10 @@ ratio_str = f"(현금){r_raw[0]}:(코어){r_raw[1]}:(위성){r_raw[2]}"
 
 if n_hit or k_hit: 
     action = f"🚨 [긴급탈출] {'나스닥' if n_hit else ''} {'코스피' if k_hit else ''} 손절선 돌파! 전량 현금화!"
-else: action = "✅ 권장 비중 유지 (특이사항 없음)"
+else: 
+    action = "✅ 권장 비중 유지 (특이사항 없음)"
 
-# 📊 6. 최종 리포트 전송
+# 📊 6. 최종 리포트 전송 (요청하신 양식 100% 반영)
 report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 ----------------------------------------
 📊 [ Jerome 대표님 최신 확정 비중 ]
@@ -152,16 +165,20 @@ report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 2) VIX 지수 25 초과  : [{v_ok}] (오늘최고: {v_max:.2f})
 3) 수급 1조 + 뉴스    : [{n_ok}] (수급: {n_buy:+.2f}조 / 뉴스: {news}건)
 ----------------------------------------
+📡 [매도 원칙 상세 체크]
+1) 위성 100% 수익률 : [{exit_100}] (실시간: {profit_detail})
+2) 주도주 3일 연속 상승 : [삼성:{s_up} / 하닉:{h_up}]
+3) 전문가 매도의견 : [{'O' if exit_set['expert_sell_view'] else 'X'}]
+----------------------------------------
 📡 [실시간] KSVKOSPI: 0.00 (수동확인) / VIX현재: {v_now:.2f}
 ========================================"""
 
-requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
+try:
+    requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
+except Exception as e:
+    print(f"텔레그램 전송 실패: {e}")
 
 # 💾 7. 데이터 축적 (CSV 기록)
 new_row = f"{full_date_str},{cnn:.1f},{v_max:.2f},{v_now:.2f},{n_buy:.2f},{news},{usdkrw:.2f},{nas_p:.2f},{kos_p:.2f}\n"
-try:
-    with open('pitinvest_history.csv', 'a', encoding='utf-8') as f:
-        f.write(new_row)
-    print("✅ 데이터 기록 완료!")
-except:
-    print("❌ CSV 기록 실패")
+with open('pitinvest_history.csv', 'a', encoding='utf-8') as f:
+    f.write(new_row)
