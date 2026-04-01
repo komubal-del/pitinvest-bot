@@ -9,7 +9,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 23.7) 가동 중...")
+print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 23.8) 가동 중...")
 
 # ⏰ 1. 환경 설정
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
@@ -39,7 +39,6 @@ master, exit_set = load_all_settings()
 def fetch_market():
     h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
     
-    # 지수 상세 수집 (현재가, 등락, 고가, 손절선)
     def get_market_details(symbol):
         try:
             t = yf.Ticker(symbol)
@@ -55,7 +54,6 @@ def fetch_market():
     nas_p, nas_dd, n_hit, nas_h52, nas_target = get_market_details("^IXIC")
     kos_p, kos_dd, k_hit, kos_h52, kos_target = get_market_details("^KS11")
 
-    # 거시지표 & 원자재 & 코인 수집
     try:
         tnx_10y = yf.Ticker("^TNX").history(period="1d")['Close'].iloc[-1]
         usdkrw = yf.Ticker("KRW=X").history(period="1d")['Close'].iloc[-1]
@@ -74,7 +72,6 @@ def fetch_market():
     except: 
         tnx_10y, hy_spread, wti, gold, btc, v_max, v_now, cnn = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 50.0
 
-    # 국내 수급 & 뉴스
     try:
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=h, timeout=10)
         dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
@@ -121,4 +118,50 @@ exit_100, profit_detail, s_up, h_up = check_exit_strategy()
 # 🤖 5. 지능형 판단
 c_ok = 'O' if (master['cnn'] == 'O' or cnn <= 10) else 'X'
 v_ok = 'O' if (master['vix'] == 'O' or v_max > 25) else 'X'
-n
+n_ok = 'O' if (master['news'] == 'O' or (n_buy >= 1.0 and news >= 1)) else 'X'
+
+r_raw = master['ratio_raw'].split(':')
+ratio_str = f"(현금){r_raw[0]}:(코어){r_raw[1]}:(위성){r_raw[2]}"
+
+if n_hit or k_hit: 
+    action = f"🚨 [긴급탈출] {'나스닥' if n_hit else ''} {'코스피' if k_hit else ''} 손절선 돌파! 전량 현금화!"
+else: action = "✅ 권장 비중 유지 (특이사항 없음)"
+
+# 📊 6. 최종 리포트 전송
+report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
+----------------------------------------
+📊 [ Jerome 대표님 최신 확정 비중 ]
+👉 {ratio_str}, {master['memo']}
+----------------------------------------
+📊 현재 권장 비중 : {ratio_str}
+👉 지침: {action}
+----------------------------------------
+📉 [나스닥] 현재: {nas_p:,.2f} ({nas_dd:+.2f}%)
+      | 52주 고가: {nas_h52:,.2f} | 🚨손절선: {nas_target:,.2f}
+📉 [코스피] 현재: {kos_p:,.2f} ({kos_dd:+.2f}%)
+      | 52주 고가: {kos_h52:,.2f} | 🚨손절선: {kos_target:,.2f}
+----------------------------------------
+💎 [원자재/코인] 유가: ${wti:.2f} | 금: ${gold:,.1f} | BTC: ${btc:,.0f}
+----------------------------------------
+🌐 [거시 경제 레이더]
+- 🇺🇸 10년물 국채금리 : {tnx_10y:.2f}% / 🏛️ 하이일드: {hy_spread:.2f}%
+- 💵 원/달러 환율    : {usdkrw:,.1f} 원
+----------------------------------------
+📡 [매수 원칙 상세 체크 (데이터 보정형)]
+1) CNN 공탐 10 이하 : [{c_ok}] (실시간: {cnn:.1f})
+2) VIX 지수 25 초과  : [{v_ok}] (오늘최고: {v_max:.2f})
+3) 수급 1조 + 뉴스    : [{n_ok}] (수급: {n_buy:+.2f}조 / 뉴스: {news}건)
+----------------------------------------
+📡 [실시간] KSVKOSPI: 0.00 (수동확인) / VIX현재: {v_now:.2f}
+========================================"""
+
+requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
+
+# 💾 7. 데이터 축적 (CSV 기록)
+new_row = f"{full_date_str},{cnn:.1f},{v_max:.2f},{v_now:.2f},{n_buy:.2f},{news},{usdkrw:.2f},{nas_p:.2f},{kos_p:.2f}\n"
+try:
+    with open('pitinvest_history.csv', 'a', encoding='utf-8') as f:
+        f.write(new_row)
+    print("✅ 데이터 기록 완료!")
+except:
+    print("❌ CSV 기록 실패")
