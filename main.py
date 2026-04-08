@@ -92,6 +92,19 @@ def fetch_market():
 m = fetch_market()
 
 # 🛡️ 4. 매도 원칙 실시간 체크
+
+# 💡 [신규 추가] 특정 종목의 '개인' 순매수 여부 확인
+def is_retail_buying(code):
+    try:
+        url = f"https://finance.naver.com/item/frgn.naver?code={code}"
+        h = {'User-Agent': 'Mozilla/5.0'}
+        res = requests.get(url, headers=h, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        # 네이버 매매동향 테이블에서 오늘자(첫 줄) 개인 순매수량 추출
+        retail_val = soup.find('table', class_='type_2').find_all('tr')[3].find_all('td')[1].text
+        return int(retail_val.replace(',', '')) > 0 # 0보다 크면 개인이 사고 있는 것
+    except: return False
+        
 def check_exit_strategy():
     p_results = []
     is_100_profit = "X"
@@ -109,9 +122,10 @@ def check_exit_strategy():
             h = yf.Ticker(f"{code}.KS").history(period="5d")['Close'].tail(4).tolist()
             return sum(1 for i in range(len(h)-1) if h[i+1] > h[i]) >= 3
         except: return False
-    
-    sec_up = "O" if is_3day_up("005930") else "X"
-    hix_up = "O" if is_3day_up("000660") else "X"
+
+    # 💡 [수정] (3일 연속 상승) AND (개인 순매수) 일 때만 'O' 신호 발생
+    sec_up = "O" if (is_3day_up("005930") and is_retail_buying("005930")) else "X"
+    hix_up = "O" if (is_3day_up("000660") and is_retail_buying("000660")) else "X"
     
     return is_100_profit, ", ".join(p_results) if p_results else "보유자산없음", sec_up, hix_up
 
@@ -157,7 +171,33 @@ report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 
 requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
 
-# 💾 7. 데이터 축적 (CSV)
+# 💾 [수정] 데이터 축적 (동일 날짜면 덮어쓰기)
+csv_filename = 'pitinvest_history.csv'
+header = "Date,FGI,VIX_Max,VIX_Close,KOSPI_NetBuy,News_Count,USD_KRW,Nasdaq_Close,Kospi_Close\n"
 new_row = f"{full_date_str},{m[10]:.1f},{m[8]:.2f},{m[9]:.2f},{m[11]:.2f},{m[12]},{m[14]:.2f},{m[0]:.2f},{m[4]:.2f}\n"
-with open('pitinvest_history.csv', 'a', encoding='utf-8') as f:
-    f.write(new_row)
+
+try:
+    lines = []
+    if os.path.isfile(csv_filename):
+        with open(csv_filename, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    else:
+        lines = [header]
+
+    # 오늘 날짜 데이터가 이미 있으면 업데이트, 없으면 추가
+    updated = False
+    for i, line in enumerate(lines):
+        if line.startswith(full_date_str):
+            lines[i] = new_row
+            updated = True
+            break
+    
+    if not updated:
+        lines.append(new_row)
+
+    # 전체 데이터를 다시 쓰기 ('w' 모드)
+    with open(csv_filename, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+    print("✅ CSV 업데이트 완료 (중복 방지 적용)")
+except Exception as e:
+    print(f"❌ CSV 기록 실패: {e}")
