@@ -168,17 +168,25 @@ def build_history(output_path='pitinvest_history.csv'):
 
         row['signal_count'] = row['cnn_trigger'] + row['vix_trigger'] + row['margin_trigger']
 
-        # 포지션 상태 (기본 백필 불가 — 오늘부터 기록. 단 사이클 리셋 날짜는 명시)
+        # 포지션 상태 + 매도 트리거 (CYCLE_RESETS = 매도 3조건 모두 충족한 날)
         if date in CYCLE_RESETS:
             row['ratio_cash'] = 100
             row['ratio_core'] = 0
             row['ratio_sat']  = 0
             row['memo']       = CYCLE_RESETS[date]
+            row['sell_leverage_trigger'] = 1
+            row['sell_leading_trigger']  = 1
+            row['sell_expert_trigger']   = 1
+            row['sell_signal_count']     = 3
         else:
             row['ratio_cash'] = None
             row['ratio_core'] = None
             row['ratio_sat']  = None
             row['memo']       = ''
+            row['sell_leverage_trigger'] = 0
+            row['sell_leading_trigger']  = 0
+            row['sell_expert_trigger']   = 0
+            row['sell_signal_count']     = 0
 
         rows.append(row)
 
@@ -190,6 +198,7 @@ def build_history(output_path='pitinvest_history.csv'):
         + [f'{k}_drop_pct' for k in INDEX_KEYS]
         + ['tqqq_close', 'soxl_close', 'koru_close', 'smh_close']
         + ['cnn_trigger', 'vix_trigger', 'margin_trigger', 'signal_count']
+        + ['sell_leverage_trigger', 'sell_leading_trigger', 'sell_expert_trigger', 'sell_signal_count']
         + ['ratio_cash', 'ratio_core', 'ratio_sat', 'memo']
     )
 

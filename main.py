@@ -709,18 +709,34 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
 
 
 def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
-    """snapshot + master_data → CSV에 오늘 행 덮어쓰기/추가. snapshot.signals는 이미 sticky 상태."""
+    """snapshot + master_data → CSV에 오늘 행 덮어쓰기/추가. snapshot.signals는 이미 sticky 상태.
+    매도 트리거도 기존 today 행과 sticky 병합 (장중 한 번이라도 발동하면 유지)."""
     today = datetime.now(kst).strftime('%Y-%m-%d')
 
     df = pd.read_csv(csv_path) if os.path.isfile(csv_path) else pd.DataFrame()
 
-    # 오늘 행이 이미 있으면 제거 (재실행 대비)
-    if not df.empty and 'date' in df.columns and today in df['date'].astype(str).values:
-        df = df[df['date'].astype(str) != today]
+    # 오늘 행 기존값 읽기 (sticky 병합용)
+    existing_row = None
+    if not df.empty and 'date' in df.columns:
+        today_rows = df[df['date'].astype(str) == today]
+        if not today_rows.empty:
+            existing_row = today_rows.iloc[0]
+            df = df[df['date'].astype(str) != today]
+
+    def _prev_int(col):
+        if existing_row is None:
+            return 0
+        v = existing_row.get(col)
+        try:
+            return int(float(v)) if v is not None and not pd.isna(v) else 0
+        except (ValueError, TypeError):
+            return 0
 
     idx = snapshot.get('indices', {})
     vol = snapshot.get('volatility', {})
     sig = snapshot.get('signals', {})
+    lev = snapshot.get('leverage_profit', {}) or {}
+    sell = snapshot.get('sell_signals', {}) or {}
     ratio = parse_ratio_raw(master_data.get('ratio_raw', ''))
 
     row = {
@@ -746,6 +762,15 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     row['margin_trigger'] = int(bool(sig.get('margin_call_trigger')))
     row['signal_count']   = sig.get('count', 0)
 
+    # 매도 트리거 (sticky: 기존 행과 OR)
+    cur_sell_lev    = int(any((lev.get(f'{k}_profit_pct') or 0) >= 100 for k in ('tqqq', 'soxl', 'koru')))
+    cur_sell_lead   = int(bool(sell.get('leading_stock_rising_3d')))
+    cur_sell_expert = int(bool(sell.get('expert_warning')))
+    row['sell_leverage_trigger'] = max(_prev_int('sell_leverage_trigger'), cur_sell_lev)
+    row['sell_leading_trigger']  = max(_prev_int('sell_leading_trigger'),  cur_sell_lead)
+    row['sell_expert_trigger']   = max(_prev_int('sell_expert_trigger'),   cur_sell_expert)
+    row['sell_signal_count']     = row['sell_leverage_trigger'] + row['sell_leading_trigger'] + row['sell_expert_trigger']
+
     row['ratio_cash'] = ratio[0]
     row['ratio_core'] = ratio[1]
     row['ratio_sat']  = ratio[2]
@@ -754,7 +779,7 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
     df = df.sort_values('date').reset_index(drop=True)
     df.to_csv(csv_path, index=False)
-    print(f"✅ CSV 기록 완료 ({len(df)}행, 오늘: {today})")
+    print(f"✅ CSV 기록 완료 ({len(df)}행, 오늘: {today}, 매도sig={row['sell_signal_count']})")
 
 
 # 🤖 5. 지능형 판단 (현재 시점 raw 신호)
