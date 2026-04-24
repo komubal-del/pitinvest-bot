@@ -492,7 +492,7 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
 CHANNEL_ID_SAMPRO = 'UChlv4GSd7OQl3js-jkLOnFA'  # 삼프로TV_경제의신과함께
 TARGET_EXPERTS = ('박병창', '윤지호')
 EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
-GEMINI_MODEL_NAME = 'gemini-2.0-flash'  # 무료 한도 넉넉한 빠른 모델
+GEMINI_MODEL_NAME = 'gemini-1.5-flash'  # 무료 티어 안정적 (15 RPM / 1500 RPD)
 
 
 def fetch_channel_rss(channel_id=CHANNEL_ID_SAMPRO):
