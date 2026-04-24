@@ -853,8 +853,51 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
 CHANNEL_ID_SAMPRO = 'UChlv4GSd7OQl3js-jkLOnFA'  # 삼프로TV_경제의신과함께
 TARGET_EXPERTS = ('박병창', '윤지호')
 EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
+VIDEO_HISTORY_PATH = 'video_analysis_history.json'  # 영상별 분석 영구 캐시
 GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모델
 PROMPT_VERSION   = 'v2-strict-warning'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화
+
+# 키워드 기반 fallback 분류기 (Gemini 429 쿼터 초과 시)
+WARNING_KW = [
+    '현금 비중', '현금비중', '현금화', '비중 축소', '비중축소',
+    '익절', '매도할', '정리할', '팔고 나가', '팔고나가',
+    '빠져나와', '빠져나오', '비중 줄', '비중줄',
+]
+BULLISH_KW = [
+    '매수 기회', '매수기회', '저점 매수', '저점매수',
+    '추가 매수', '추가매수', '분할 매수', '반등', '기회',
+]
+
+
+def keyword_scan_stance(text):
+    """Gemini 실패/429 시 fallback: 현금화 권고 키워드 카운팅."""
+    if not text:
+        return {'stance': 'unknown', 'reason': '텍스트 없음'}
+    w = sum(text.count(kw) for kw in WARNING_KW)
+    b = sum(text.count(kw) for kw in BULLISH_KW)
+    if w >= 2 and w > b:
+        return {'stance': 'warning', 'reason': f'키워드 스캔 · 현금화 권고 {w}회', 'fallback': True}
+    if b >= 2 and b > w:
+        return {'stance': 'bullish', 'reason': f'키워드 스캔 · 매수/반등 {b}회', 'fallback': True}
+    return {'stance': 'neutral', 'reason': f'키워드 스캔 · warning {w} / bullish {b}', 'fallback': True}
+
+
+def load_video_history():
+    if os.path.isfile(VIDEO_HISTORY_PATH):
+        try:
+            with open(VIDEO_HISTORY_PATH, encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[video history] load fail: {e}")
+    return {}
+
+
+def save_video_history(history):
+    try:
+        with open(VIDEO_HISTORY_PATH, 'w', encoding='utf-8') as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[video history] save fail: {e}")
 
 
 def fetch_channel_rss(channel_id=CHANNEL_ID_SAMPRO):
@@ -1022,8 +1065,15 @@ JSON 단일 객체로만 답하세요. 다른 텍스트·코드블록·설명 �
             stance = 'unknown'
         return {'stance': stance, 'reason': verdict.get('reason', '')}
     except Exception as e:
+        err_str = str(e)
         print(f"[Gemini] fail: {e}")
-        return {'stance': 'unknown', 'reason': '분석 실패', 'error': str(e)}
+        # 429 쿼터 초과 / quota exceeded → 키워드 fallback
+        if '429' in err_str or 'quota' in err_str.lower() or 'exceeded' in err_str.lower():
+            print("[Gemini] 429 → 키워드 스캔 fallback")
+            fb = keyword_scan_stance(text)
+            fb['error'] = 'gemini_429'
+            return fb
+        return {'stance': 'unknown', 'reason': '분석 실패', 'error': err_str}
 
 
 def analyze_experts_daily():
@@ -1092,17 +1142,45 @@ def analyze_experts_daily():
             break
     print(f"  - [{source}] 전체 {len(all_videos)}개 → 전문가별 최신 {len(expert_videos)}개 선택 ({', '.join(seen_experts)})")
 
+    # 영상별 영구 캐시 로드 (같은 video_id 는 한 번만 Gemini 호출)
+    video_history = load_video_history()
+
     for v in expert_videos:
-        transcript = get_transcript_safe(v['video_id'])
-        has_transcript = bool(transcript)
-        text = transcript[:8000] if transcript else v['title']
-        analysis = analyze_with_gemini(text, v['title'], has_transcript)
+        vid = v['video_id']
+        cached_entry = video_history.get(vid) or {}
+        cached_analysis = (cached_entry.get('analyses') or {}).get(PROMPT_VERSION)
+
+        if cached_analysis and cached_analysis.get('stance') in ('warning', 'bullish', 'neutral'):
+            # 영구 캐시 히트 (같은 프롬프트 버전 + 유효 판정)
+            analysis = cached_analysis
+            has_transcript = cached_entry.get('transcript_available', False)
+            print(f"  ↻ [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']} (캐시)")
+        else:
+            transcript = get_transcript_safe(vid)
+            has_transcript = bool(transcript)
+            text = transcript[:4000] if transcript else v['title']
+            analysis = analyze_with_gemini(text, v['title'], has_transcript)
+            print(f"  - [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']}")
+            # 영구 캐시 저장 (fallback 아닌 제대로 된 판정만)
+            if analysis.get('stance') in ('warning', 'bullish', 'neutral') and not analysis.get('fallback'):
+                if vid not in video_history:
+                    video_history[vid] = {
+                        'title': v['title'],
+                        'published': v['published'],
+                        'url': v['url'],
+                        'transcript_available': has_transcript,
+                        'analyses': {},
+                    }
+                video_history[vid]['analyses'][PROMPT_VERSION] = analysis
+
         result['videos'].append({
             **v,
             'transcript_available': has_transcript,
             'analysis': analysis,
         })
-        print(f"  - [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']}")
+
+    # 영구 캐시 저장
+    save_video_history(video_history)
 
     # 종합 판정: 박병창 AND 윤지호 모두 'warning' (현금화 의견 일치) → True
     expert_stance = {}
