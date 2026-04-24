@@ -18,7 +18,9 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run main script
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN:  ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID:         ${{ secrets.CHAT_ID }}
         run: python main.py
 
       - name: 커밋 및 푸시 (데이터 자동 업데이트)

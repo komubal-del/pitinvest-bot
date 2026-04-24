@@ -1005,6 +1005,110 @@ def analyze_experts_daily():
     return result
 
 
+STAGE_LABELS = {
+    'emergency': '🚨 긴급탈출',
+    'reset':     '♻️ 자동 리셋 직후',
+    'sell_near': '📉 매도 임박',
+    'exit':      '🚪 구덩이 탈출',
+    'full':      '🔥 구덩이 충족',
+    'deepening': '🕳️ 구덩이 심화',
+    'entry':     '💡 구덩이 진입',
+    'normal':    '🌤️ 평시 운용',
+}
+
+
+def load_last_known_stage(csv_path='pitinvest_history.csv'):
+    """
+    현재까지 기록된 가장 최근 stage 반환.
+    - 오늘 행이 있으면 오늘 stage (= 직전 run 결과)
+    - 없으면 전일 stage
+    - 데이터 없으면 None
+    """
+    today_str = datetime.now(kst).strftime('%Y-%m-%d')
+    if not os.path.isfile(csv_path):
+        return None
+    try:
+        df = pd.read_csv(csv_path)
+        if df.empty or 'date' not in df.columns or 'stage' not in df.columns:
+            return None
+        # 1차: 오늘 행
+        today_rows = df[df['date'].astype(str) == today_str]
+        if not today_rows.empty:
+            v = today_rows.iloc[0].get('stage')
+            if v is not None and not pd.isna(v) and str(v).strip():
+                return str(v).strip()
+        # 2차: 전일 행
+        prev = df[df['date'].astype(str) < today_str]
+        if prev.empty:
+            return None
+        v = prev.iloc[-1].get('stage')
+        if v is None or pd.isna(v) or not str(v).strip():
+            return None
+        return str(v).strip()
+    except Exception as e:
+        print(f"[last stage] fail: {e}")
+        return None
+
+
+def send_telegram_stage_alert(snapshot, csv_path='pitinvest_history.csv'):
+    """stage 변화 시 텔레그램으로 알림 발송. 이미 같은 stage면 skip."""
+    token   = os.environ.get('TELEGRAM_TOKEN', '').strip()
+    chat_id = os.environ.get('CHAT_ID', '').strip()
+    if not token or not chat_id:
+        print("[telegram] TELEGRAM_TOKEN/CHAT_ID 미설정, skip")
+        return False
+
+    sig = snapshot.get('signals', {}) or {}
+    current_raw = sig.get('stage_key_raw')
+    if not current_raw:
+        return False
+
+    prev_raw = load_last_known_stage(csv_path)
+    if prev_raw == current_raw:
+        return False  # 변화 없음 → skip
+    if prev_raw is None and current_raw == 'normal':
+        return False  # 최초 실행 + 평시 → skip
+
+    # 메시지 구성
+    prev_label = STAGE_LABELS.get(prev_raw, f"({prev_raw or '-'})")
+    curr_label = STAGE_LABELS.get(current_raw, current_raw)
+    action = snapshot.get('recommended_action', '-')
+    now = datetime.now(kst).strftime('%m-%d %H:%M')
+
+    buy_count  = sig.get('count', 0)
+    sell_count = sig.get('sell_count', 0)
+    chk = lambda v: '✓' if v else '✗'
+
+    msg = (
+        f"🔔 구덩이 매매법 알림\n"
+        f"[{now} KST]\n\n"
+        f"{prev_label} → {curr_label}\n\n"
+        f"💬 오늘의 액션:\n{action}\n\n"
+        f"📊 시그널 현황:\n"
+        f"매수 {buy_count}/3 · 매도 {sell_count}/3\n"
+        f"CNN<10:{chk(sig.get('cnn_under_10'))} "
+        f"VIX>25:{chk(sig.get('vix_over_25'))} "
+        f"강제청산:{chk(sig.get('margin_call_trigger'))}\n"
+        f"레버리지+100%:{chk(sig.get('sell_leverage'))} "
+        f"주도주:{chk(sig.get('sell_leading'))} "
+        f"전문가:{chk(sig.get('sell_expert'))}\n\n"
+        f"https://github.com/komubal-del/pitinvest-bot"
+    )
+    try:
+        res = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": msg},
+            timeout=10
+        )
+        if res.status_code == 200:
+            print(f"✅ 텔레그램 알림 전송: {prev_raw} → {current_raw}")
+            return True
+        print(f"[telegram] http {res.status_code}: {res.text[:200]}")
+    except Exception as e:
+        print(f"[telegram] fail: {e}")
+    return False
+
+
 def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.json'):
     """매도 3조건 모두 충족 시 master_data.json을 '100:0:0' 으로 자동 리셋.
     멱등: 이미 100:0:0이면 스킵. 반환: (reset_fired: bool)"""
@@ -1178,7 +1282,14 @@ if snapshot is not None:
     except Exception as e:
         print(f"❌ auto reset 실패: {e}")
 
-# 💾 8. CSV 기록 (새 스키마)
+# 🔔 8. stage 변화 시 텔레그램 알림 (CSV 업데이트 전에 실행 — prev vs current 비교)
+if snapshot is not None:
+    try:
+        send_telegram_stage_alert(snapshot)
+    except Exception as e:
+        print(f"❌ 텔레그램 알림 실패: {e}")
+
+# 💾 9. CSV 기록 (새 스키마)
 if snapshot is not None:
     try:
         save_daily_row(snapshot, master)
