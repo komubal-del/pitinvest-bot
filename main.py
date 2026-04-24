@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import pandas as pd
 from bs4 import BeautifulSoup
 import yfinance as yf
 from datetime import datetime
@@ -302,6 +303,79 @@ def save_snapshot(snapshot):
     print("✅ current_snapshot.json 저장 완료")
 
 
+# 📜 4-ter. pitinvest_history.csv 일별 기록 (새 스키마 32컬럼)
+def fetch_close_today(ticker):
+    try:
+        h = yf.Ticker(ticker).history(period="5d")
+        return round(float(h['Close'].iloc[-1]), 2) if not h.empty else None
+    except Exception:
+        return None
+
+
+def parse_ratio_raw(raw):
+    """'00:50:50' → [0, 50, 50] (현금, 코어, 위성)"""
+    if not raw or not isinstance(raw, str):
+        return [0, 0, 0]
+    out = []
+    for p in raw.split(':')[:3]:
+        try:
+            out.append(int(p))
+        except Exception:
+            out.append(0)
+    while len(out) < 3:
+        out.append(0)
+    return out
+
+
+def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
+    """snapshot + master_data → CSV에 오늘 행 덮어쓰기/추가. 새 스키마 32컬럼."""
+    today = datetime.now(kst).strftime('%Y-%m-%d')
+
+    df = pd.read_csv(csv_path) if os.path.isfile(csv_path) else pd.DataFrame()
+
+    # 오늘 행이 이미 있으면 제거 (재실행 대비)
+    if not df.empty and 'date' in df.columns and today in df['date'].astype(str).values:
+        df = df[df['date'].astype(str) != today]
+
+    idx = snapshot.get('indices', {})
+    vol = snapshot.get('volatility', {})
+    sig = snapshot.get('signals', {})
+    ratio = parse_ratio_raw(master_data.get('ratio_raw', ''))
+
+    row = {
+        'date':    today,
+        'cnn_fng': snapshot.get('sentiment', {}).get('cnn_fng'),
+        'vix':     vol.get('vix'),
+        'vvix':    vol.get('vvix'),
+        'skew':    vol.get('skew'),
+    }
+    for k in ['nasdaq', 'kospi', 'sp500', 'russell2k', 'soxx']:
+        d = idx.get(k, {})
+        row[f'{k}_close']    = d.get('current')
+        row[f'{k}_52w_high'] = d.get('high_52w')
+        row[f'{k}_drop_pct'] = d.get('drop_pct')
+
+    row['tqqq_close'] = fetch_close_today('TQQQ')
+    row['soxl_close'] = fetch_close_today('SOXL')
+    row['koru_close'] = fetch_close_today('KORU')
+    row['smh_close']  = fetch_close_today('SMH')
+
+    row['cnn_trigger']    = int(bool(sig.get('cnn_under_10')))
+    row['vix_trigger']    = int(bool(sig.get('vix_over_25')))
+    row['margin_trigger'] = int(bool(sig.get('margin_call_trigger')))
+    row['signal_count']   = sig.get('count', 0)
+
+    row['ratio_cash'] = ratio[0]
+    row['ratio_core'] = ratio[1]
+    row['ratio_sat']  = ratio[2]
+    row['memo']       = master_data.get('memo', '')
+
+    df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+    df = df.sort_values('date').reset_index(drop=True)
+    df.to_csv(csv_path, index=False)
+    print(f"✅ CSV 기록 완료 ({len(df)}행, 오늘: {today})")
+
+
 # 🤖 5. 지능형 판단
 c_ok = 'O' if (master['cnn'] == 'O' or m[10] <= 10) else 'X'
 v_ok = 'O' if (master['vix'] == 'O' or m[8] > 25) else 'X'
@@ -343,6 +417,7 @@ report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
 
 # 📸 7. 웹 대시보드용 snapshot 저장
+snapshot = None
 try:
     signals_count = sum(1 for x in [c_ok, v_ok, n_ok] if x == 'O')
     market_dict = {
@@ -359,33 +434,9 @@ try:
 except Exception as e:
     print(f"❌ Snapshot 생성 실패: {e}")
 
-# 💾 [수정] 데이터 축적 (동일 날짜면 덮어쓰기)
-csv_filename = 'pitinvest_history.csv'
-header = "Date,FGI,VIX_Max,VIX_Close,KOSPI_NetBuy,News_Count,USD_KRW,Nasdaq_Close,Kospi_Close\n"
-new_row = f"{full_date_str},{m[10]:.1f},{m[8]:.2f},{m[9]:.2f},{m[11]:.2f},{m[12]},{m[14]:.2f},{m[0]:.2f},{m[4]:.2f}\n"
-
-try:
-    lines = []
-    if os.path.isfile(csv_filename):
-        with open(csv_filename, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-    else:
-        lines = [header]
-
-    # 오늘 날짜 데이터가 이미 있으면 업데이트, 없으면 추가
-    updated = False
-    for i, line in enumerate(lines):
-        if line.startswith(full_date_str):
-            lines[i] = new_row
-            updated = True
-            break
-    
-    if not updated:
-        lines.append(new_row)
-
-    # 전체 데이터를 다시 쓰기 ('w' 모드)
-    with open(csv_filename, 'w', encoding='utf-8') as f:
-        f.writelines(lines)
-    print("✅ CSV 업데이트 완료 (중복 방지 적용)")
-except Exception as e:
-    print(f"❌ CSV 기록 실패: {e}")
+# 💾 8. CSV 기록 (새 스키마)
+if snapshot is not None:
+    try:
+        save_daily_row(snapshot, master)
+    except Exception as e:
+        print(f"❌ CSV 기록 실패: {e}")
