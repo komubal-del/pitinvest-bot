@@ -40,12 +40,29 @@ master, exit_set = load_all_settings()
 
 # 📡 3. 시장 데이터 수집 (인베스팅 & 야후 & 네이버)
 def fetch_market():
-    v_max, v_now, cnn, n_buy, news, ksv, usdkrw = 0.0, 0.0, 50.0, 0.0, 0, 0.0, 0.0
+    v_max, v_now, cnn, n_buy, news, ksv, usdkrw, retail_buy = 0.0, 0.0, 50.0, 0.0, 0, 0.0, 0.0, 0.0
+    cnn_components_raw = {
+        "momentum": None, "strength": None, "breadth": None,
+        "put_call": None, "junk_bond": None, "volatility": None, "safe_haven": None,
+    }
     h = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', 'Referer': 'https://www.google.com/'}
 
-    try: # CNN
+    try: # CNN (score + 구성요소 7개)
         res = requests.get("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", headers=h, timeout=10)
-        cnn = float(res.json()['fear_and_greed']['score'])
+        d = res.json()
+        cnn = float(d['fear_and_greed']['score'])
+        def _s(key):
+            v = d.get(key, {}).get('score')
+            return round(float(v), 1) if v is not None else None
+        cnn_components_raw = {
+            "momentum":   _s("market_momentum_sp500"),
+            "strength":   _s("stock_price_strength"),
+            "breadth":    _s("stock_price_breadth"),
+            "put_call":   _s("put_call_options"),
+            "junk_bond":  _s("junk_bond_demand"),
+            "volatility": _s("market_volatility_vix"),
+            "safe_haven": _s("safe_haven_demand"),
+        }
     except: pass
 
     def get_dd(symbol):
@@ -74,8 +91,11 @@ def fetch_market():
     try: # KOSPI 수급/뉴스/KSVKOSPI
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=h, timeout=10)
         dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
-        n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').strip()) + 
+        n_buy = (float(dds[1].text.replace('외국인','').replace('억','').replace(',','').strip()) +
                  float(dds[2].text.replace('기관','').replace('억','').replace(',','').replace('+','').strip())) / 10000
+        try:
+            retail_buy = float(dds[0].text.replace('개인','').replace('억','').replace(',','').replace('+','').strip()) / 10000
+        except: pass
         news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
         
         # KSVKOSPI 수집 (에러 시 pass)
@@ -87,7 +107,7 @@ def fetch_market():
             ksv = float(BeautifulSoup(bk.text, 'html.parser').find('em', id='now_value').text.replace(',', ''))
     except: pass
 
-    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv, usdkrw)
+    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv, usdkrw, retail_buy, cnn_components_raw)
 
 m = fetch_market()
 
@@ -232,15 +252,21 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count):
     leverage = compute_leverage_profit(exit_settings)
     leading = check_leading_stock_rising("SMH", 3)
 
+    # VKOSPI는 fetch_market()이 이미 수집 → market_data 통해 전달받음
+    vol = dict(ext["volatility"])
+    vkospi = market_data.get("vkospi")
+    if vkospi and vkospi > 0:
+        vol["vkospi"] = round(float(vkospi), 2)
+
     return {
         "timestamp": now,
         "sentiment": {
             "cnn_fng": cnn_value,
-            "cnn_components": fetch_cnn_components(),
+            "cnn_components": market_data.get("cnn_components") or fetch_cnn_components(),
             "put_call_ratio": None,
             "aaii_bull_bear_spread": None,
         },
-        "volatility": ext["volatility"],
+        "volatility": vol,
         "korea_flow": {
             "foreign_inst_buy_krw": market_data.get("foreign_inst_buy_krw"),
             "retail_net_buy_krw": market_data.get("retail_net_buy_krw"),
@@ -322,9 +348,11 @@ try:
     market_dict = {
         "cnn": m[10],
         "foreign_inst_buy_krw": int(m[11] * 1e12),
-        "retail_net_buy_krw": None,
+        "retail_net_buy_krw": int(m[15] * 1e12),
         "margin_call_triggered": (n_ok == 'O'),
         "recommended_action": action,
+        "cnn_components": m[16],
+        "vkospi": m[13],
     }
     snapshot = build_snapshot(market_dict, exit_set, m[10], signals_count)
     save_snapshot(snapshot)
