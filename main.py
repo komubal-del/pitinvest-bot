@@ -92,6 +92,26 @@ def fetch_market():
         usdkrw = yf.Ticker("KRW=X").history(period="1d")['Close'].iloc[-1]
     except: pass
 
+    # 신용잔고 (네이버 증시자금동향 페이지)
+    margin_loan_krw = None
+    try:
+        dep_res = requests.get("https://finance.naver.com/sise/sise_deposit.naver", headers=h, timeout=10)
+        dep_soup = BeautifulSoup(dep_res.content.decode('euc-kr', errors='replace'), 'html.parser')
+        dep_table = dep_soup.find('table', class_='type_1')
+        if dep_table:
+            for tr in dep_table.find_all('tr'):
+                tds = tr.find_all('td')
+                if len(tds) >= 4:
+                    # cells: [date, 고객예탁금, 전일비, 신용잔고, ...]
+                    credit_raw = tds[3].get_text().replace(',', '').strip()
+                    try:
+                        margin_loan_krw = int(float(credit_raw) * 1e8)  # 억원 → KRW
+                        break
+                    except (ValueError, TypeError):
+                        continue
+    except Exception as e:
+        print(f"[credit balance] fail: {e}")
+
     try: # KOSPI 수급/뉴스/KSVKOSPI
         n_res = requests.get("https://finance.naver.com/sise/sise_index.naver?code=KOSPI", headers=h, timeout=10)
         dds = BeautifulSoup(n_res.text, 'html.parser').find('dl', class_='lst_kos_info').find_all('dd')
@@ -111,7 +131,7 @@ def fetch_market():
             ksv = float(BeautifulSoup(bk.text, 'html.parser').find('em', id='now_value').text.replace(',', ''))
     except: pass
 
-    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv, usdkrw, retail_buy, cnn_components_raw)
+    return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv, usdkrw, retail_buy, cnn_components_raw, margin_loan_krw)
 
 m = fetch_market()
 
@@ -130,8 +150,8 @@ def fetch_extended_market():
             print(f"[vol] {key} fail: {e}")
 
     idx_tickers = {
-        "nasdaq": "^IXIC", "kospi": "^KS11", "sp500": "^GSPC",
-        "russell2k": "^RUT", "soxx": "SOXX",
+        "nasdaq": "^IXIC", "kospi": "^KS11", "kosdaq": "^KQ11",
+        "sp500": "^GSPC", "russell2k": "^RUT", "soxx": "SOXX",
     }
     for key, ticker in idx_tickers.items():
         try:
@@ -151,7 +171,7 @@ def fetch_extended_market():
     try:
         spy = yf.Ticker("SPY").history(period="3mo")
         spy_ret = (spy["Close"].iloc[-1] / spy["Close"].iloc[0]) if not spy.empty else 1.0
-        for tkr in ["XLK", "SMH", "BOTZ", "ARKK", "XLF", "XLE"]:
+        for tkr in ["XLK", "SMH", "BOTZ", "IGV", "XLF", "XLE"]:
             try:
                 h = yf.Ticker(tkr).history(period="3mo")
                 if not h.empty and spy_ret:
@@ -278,7 +298,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
         "korea_flow": {
             "foreign_inst_buy_krw": market_data.get("foreign_inst_buy_krw"),
             "retail_net_buy_krw": market_data.get("retail_net_buy_krw"),
-            "margin_loan_krw": None,
+            "margin_loan_krw": market_data.get("margin_loan_krw"),
             "short_sale_balance": None,
             "foreign_ownership_pct": None,
         },
@@ -815,6 +835,7 @@ try:
         "cnn": m[10],
         "foreign_inst_buy_krw": int(m[11] * 1e12),
         "retail_net_buy_krw": int(m[15] * 1e12),
+        "margin_loan_krw": m[17],
         "recommended_action": action,
         "cnn_components": m[16],
         "vkospi": m[13],
