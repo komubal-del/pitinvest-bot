@@ -29,6 +29,17 @@ TICKERS = {
 
 INDEX_KEYS = ['nasdaq', 'kospi', 'sp500', 'russell2k', 'soxx']
 
+# 사용자 수동 보정 (historical data 한계 보완) ===========================
+# 사이클 리셋 포인트: 매도 시그널 충족으로 전량 청산한 날
+#   → ratio_sat=0 으로 찍어서 compute_theoretical_avg의 사이클 시작점 정의
+CYCLE_RESETS = {
+    '2026-02-27': '사이클 리셋 (매도 시그널 충족 — 전량 청산)',
+}
+# 장중 CNN<10 (종가로 못 잡은 트리거)
+KNOWN_CNN_INTRADAY_TRIGGERS = {
+    '2026-03-23',
+}
+
 
 def fetch_cnn_history():
     """CNN Fear & Greed 과거 값 (약 2년)"""
@@ -65,6 +76,19 @@ def fetch_yf_close(ticker, period='1y'):
         return {}
 
 
+def fetch_yf_high(ticker, period='1y'):
+    """일별 최고가 dict — 장중 돌파 감지용"""
+    try:
+        h = yf.Ticker(ticker).history(period=period)
+        if h.empty:
+            return {}
+        return {d.strftime('%Y-%m-%d'): round(float(v), 2)
+                for d, v in h['High'].items()}
+    except Exception as e:
+        print(f"[{ticker}_high] fail: {e}")
+        return {}
+
+
 def compute_rolling_52w_high(series_dict):
     """각 시점까지의 rolling 52주 신고가·낙폭(%)"""
     dates = sorted(series_dict.keys())
@@ -85,6 +109,10 @@ def build_history(output_path='pitinvest_history.csv'):
     for name, tkr in TICKERS.items():
         yf_data[name] = fetch_yf_close(tkr, period='1y')
         print(f"  - {name:10s}: {len(yf_data[name]):>4}일")
+
+    # VIX 장중 최고가 (종가 기준 트리거 놓치지 않도록)
+    vix_high_data = fetch_yf_high('^VIX', period='1y')
+    print(f"  - vix_high : {len(vix_high_data):>4}일")
 
     print("\n[2/3] CNN Fear & Greed 히스토리 수집 중...")
     cnn_data = fetch_cnn_history()
@@ -121,19 +149,30 @@ def build_history(output_path='pitinvest_history.csv'):
         for key in ['tqqq', 'soxl', 'koru', 'smh']:
             row[f'{key}_close'] = yf_data.get(key, {}).get(date)
 
-        # 시그널
+        # 시그널 (VIX는 장중 최고값 기준 → 종가로 놓친 트리거 포착)
         cnn_val = row['cnn_fng']
-        vix_val = row['vix']
+        vix_high_val = vix_high_data.get(date)
         row['cnn_trigger']    = 1 if cnn_val is not None and cnn_val < 10 else 0
-        row['vix_trigger']    = 1 if vix_val is not None and vix_val > 25 else 0
+        row['vix_trigger']    = 1 if vix_high_val is not None and vix_high_val > 25 else 0
         row['margin_trigger'] = 0  # 백필 불가 (과거는 0, 오늘부터 수집)
-        row['signal_count']   = row['cnn_trigger'] + row['vix_trigger'] + row['margin_trigger']
 
-        # 포지션 상태 (백필 불가 — 오늘부터 기록)
-        row['ratio_cash'] = None
-        row['ratio_core'] = None
-        row['ratio_sat']  = None
-        row['memo']       = ''
+        # 장중 CNN < 10 수동 보정
+        if date in KNOWN_CNN_INTRADAY_TRIGGERS:
+            row['cnn_trigger'] = 1
+
+        row['signal_count'] = row['cnn_trigger'] + row['vix_trigger'] + row['margin_trigger']
+
+        # 포지션 상태 (기본 백필 불가 — 오늘부터 기록. 단 사이클 리셋 날짜는 명시)
+        if date in CYCLE_RESETS:
+            row['ratio_cash'] = 100
+            row['ratio_core'] = 0
+            row['ratio_sat']  = 0
+            row['memo']       = CYCLE_RESETS[date]
+        else:
+            row['ratio_cash'] = None
+            row['ratio_core'] = None
+            row['ratio_sat']  = None
+            row['memo']       = ''
 
         rows.append(row)
 

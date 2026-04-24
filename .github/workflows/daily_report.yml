@@ -1,9 +1,8 @@
-name: Pitinvest Daily Report
+name: Pitinvest Half-Hourly Update
 
 on:
   schedule:
-    - cron: '0 21 * * 1-5'
-    - cron: '0 7 * * 1-5'
+    - cron: '*/30 * * * 1-5'   # 평일 30분마다 (UTC 기준)
   workflow_dispatch:
 
 jobs:
