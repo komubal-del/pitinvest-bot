@@ -511,6 +511,9 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     slots = {'cnn': False, 'vix': False, 'margin': False}
     cum_pct = 0.0
     daily_series = []
+    prev_in_emergency = False
+    prev_in_sell3     = False
+    EMERGENCY_THRESHOLD = -10.0  # 강령: 52주 신고가 −10% 도달시 전량 현금화
 
     def _portfolio_value(prices):
         v = cash
@@ -529,63 +532,69 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             daily_series.append({'date': row.get('date'), 'ret_pct': round((pv / initial_capital - 1) * 100, 3)})
             continue
 
-        # 긴급탈출 / 매도 3조건 → 전량 현금화
+        # 오늘 상태
         nd = _n(row.get('nasdaq_drop_pct'))
         kd = _n(row.get('kospi_drop_pct'))
-        emergency_today = (nd is not None and nd <= -9.0) or (kd is not None and kd <= -9.0)
-        sell_today = (
+        emergency_today = (nd is not None and nd <= EMERGENCY_THRESHOLD) or (kd is not None and kd <= EMERGENCY_THRESHOLD)
+        sell3_today = (
             int(float(row.get('sell_leverage_trigger') or 0)) +
             int(float(row.get('sell_leading_trigger')  or 0)) +
             int(float(row.get('sell_expert_trigger')   or 0))
-        )
+        ) == 3
 
-        if emergency_today or sell_today == 3:
+        # 전이(transition) 시에만 전량 현금화 — 지속 상태면 이미 현금이므로 재청산 X
+        emergency_transition = emergency_today and not prev_in_emergency
+        sell3_transition     = sell3_today     and not prev_in_sell3
+
+        if emergency_transition or sell3_transition:
             cash = _portfolio_value(prices)
             shares = {t: 0.0 for t in all_tickers}
             slots = {'cnn': False, 'vix': False, 'margin': False}
             cum_pct = 0.0
-        else:
-            # 매수 이벤트
-            c  = int(float(row.get('cnn_trigger') or 0))
-            v_ = int(float(row.get('vix_trigger') or 0))
-            mg = int(float(row.get('margin_trigger') or 0))
 
-            pct = 0
-            if c  and not slots['cnn']:    pct += 20; slots['cnn'] = True
-            if v_ and not slots['vix']:    pct += 20; slots['vix'] = True
-            if mg and not slots['margin']: pct += 20; slots['margin'] = True
-            if slots['cnn'] and slots['vix'] and slots['margin'] and cum_pct < 100:
-                pct += 5
+        # 매수 로직은 emergency 지속 여부와 무관하게 실행 (이미 현금에서 위성 진입)
+        c  = int(float(row.get('cnn_trigger') or 0))
+        v_ = int(float(row.get('vix_trigger') or 0))
+        mg = int(float(row.get('margin_trigger') or 0))
 
-            if pct > 0 and cum_pct < 100:
-                pct = min(pct, 100 - cum_pct)
-                cum_pct += pct
-                pv = _portfolio_value(prices)
-                amount = pv * pct / 100.0
+        pct = 0
+        if c  and not slots['cnn']:    pct += 20; slots['cnn'] = True
+        if v_ and not slots['vix']:    pct += 20; slots['vix'] = True
+        if mg and not slots['margin']: pct += 20; slots['margin'] = True
+        if slots['cnn'] and slots['vix'] and slots['margin'] and cum_pct < 100:
+            pct += 5
 
-                # 자금: 현금 우선
-                from_cash = min(cash, amount)
-                cash -= from_cash
-                remaining = amount - from_cash
+        if pct > 0 and cum_pct < 100:
+            pct = min(pct, 100 - cum_pct)
+            cum_pct += pct
+            pv = _portfolio_value(prices)
+            amount = pv * pct / 100.0
 
-                # 나머지는 코어 비례 매도
-                if remaining > 0:
-                    core_val = sum(shares[t] * prices[t] for t in core_tickers)
-                    if core_val > 0:
-                        sell_ratio = min(1.0, remaining / core_val)
-                        for t in core_tickers:
-                            shares[t] *= (1 - sell_ratio)
+            # 자금: 현금 우선, 나머지 코어 비례 매도
+            from_cash = min(cash, amount)
+            cash -= from_cash
+            remaining = amount - from_cash
+            if remaining > 0:
+                core_val = sum(shares[t] * prices[t] for t in core_tickers)
+                if core_val > 0:
+                    sell_ratio = min(1.0, remaining / core_val)
+                    for t in core_tickers:
+                        shares[t] *= (1 - sell_ratio)
 
-                # 위성 3종 균등 매수
-                per_sat = amount / 3.0
-                for t in sat_tickers:
-                    if prices[t] and prices[t] > 0:
-                        shares[t] += per_sat / prices[t]
+            # 위성 3종 균등 매수
+            per_sat = amount / 3.0
+            for t in sat_tickers:
+                if prices[t] and prices[t] > 0:
+                    shares[t] += per_sat / prices[t]
 
         # 평가
         pv = _portfolio_value(prices)
         ret_pct = (pv / initial_capital - 1) * 100
         daily_series.append({'date': row.get('date'), 'ret_pct': round(ret_pct, 3)})
+
+        # 상태 업데이트 (다음 날 전이 판정용)
+        prev_in_emergency = emergency_today
+        prev_in_sell3     = sell3_today
 
     final_ret = daily_series[-1]['ret_pct'] if daily_series else None
     return {
