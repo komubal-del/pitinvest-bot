@@ -1,11 +1,67 @@
 {
   "date": "2026-04-25",
-  "analyzed_at": "2026-04-25T02:33:56.703898+09:00",
+  "analyzed_at": "2026-04-25T02:52:12.902230+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
   ],
-  "expert_warning": false,
-  "videos": [],
+  "expert_warning": true,
+  "videos": [
+    {
+      "video_id": "c_38QXQK8rU",
+      "title": "옆으로 가는 시장…?‘상승 전 마지막 단계’ |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+      "published": "2026-04-24T00:30:06Z",
+      "url": "https://youtube.com/watch?v=c_38QXQK8rU",
+      "transcript_available": false,
+      "analysis": {
+        "stance": "bullish",
+        "reason": "현재 '옆으로 가는 시장'을 '상승 전 마지막 단계'로 명시하여, 현 상황이 상승장 진입을 위한 준비 단계이며 곧 상승할 것이라는 기대를 표명합니다."
+      }
+    },
+    {
+      "video_id": "xfBYiLFi5wk",
+      "title": "\"매도했다면 미련을 버리세요\"...여러 섹터가 주도하는 진짜 강세장 대처법ㅣ박병창 교보증권 자산관리전략부 이사 [여의도 인사이트]",
+      "published": "2026-04-23T09:34:35Z",
+      "url": "https://youtube.com/watch?v=xfBYiLFi5wk",
+      "transcript_available": false,
+      "analysis": {
+        "stance": "bullish",
+        "reason": "제목에서 '진짜 강세장'을 명확히 언급하며, '매도했다면 미련을 버리세요'라는 문구는 시장의 상승세를 긍정적으로 보고 매도를 후회할 수 있음을 암시합니다."
+      }
+    },
+    {
+      "video_id": "foDqLUUPJ3k",
+      "title": "예전이랑 달라진 ‘요즘’ 시장! 종목 분석 할 때가 아니다? |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+      "published": "2026-04-23T00:23:27Z",
+      "url": "https://youtube.com/watch?v=foDqLUUPJ3k",
+      "transcript_available": false,
+      "analysis": {
+        "stance": "warning",
+        "reason": "예전과 달라진 시장에서 '종목 분석 할 때가 아니다?'라는 질문은 개별 종목 분석이 어려운 시장 상황, 즉 변동성 증가나 전반적인 시장 하락 위험에 대한 경고로 해석될 수 있습니다."
+      }
+    },
+    {
+      "video_id": "gZzQnodrvn4",
+      "title": "대한민국 슈퍼사이클…시장의 흐름은 어디로? | 박병창 이사 [마켓 인사이드]",
+      "published": "2026-04-22T00:19:01Z",
+      "url": "https://youtube.com/watch?v=gZzQnodrvn4",
+      "transcript_available": false,
+      "analysis": {
+        "stance": "neutral",
+        "reason": "제목은 '슈퍼사이클'이라는 긍정적 현상을 언급하며 시장의 흐름에 대한 분석적 질문을 던져, 특정 방향성을 제시하기보다 현상 분석 및 정보 제공에 초점을 맞추고 있습니다."
+      }
+    },
+    {
+      "video_id": "qdXszlAXM84",
+      "title": "“수급으로 오른 시장… 돌파 전 마지막 흔들림 온다” | 박병창 이사 [마켓 인사이드]",
+      "published": "2026-04-21T00:59:40Z",
+      "url": "https://youtube.com/watch?v=qdXszlAXM84",
+      "transcript_available": false,
+      "analysis": {
+        "stance": "warning",
+        "reason": "돌파 전 '마지막 흔들림 온다'는 표현은 시장에 조정이나 변동성이 임박했음을 경고하는 내용입니다."
+      }
+    }
+  ],
   "error": null
 }
