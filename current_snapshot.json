@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-04-24T16:39:33.316746+09:00",
+  "sentiment": {
+    "cnn_fng": 66.6857142857143,
+    "cnn_components": {
+      "momentum": null,
+      "strength": null,
+      "breadth": null,
+      "put_call": null,
+      "junk_bond": null,
+      "volatility": null,
+      "safe_haven": null
+    },
+    "put_call_ratio": null,
+    "aaii_bull_bear_spread": null
+  },
+  "volatility": {
+    "vix": 18.92,
+    "vvix": 98.57,
+    "skew": 139.59,
+    "move": 67.7
+  },
+  "korea_flow": {
+    "foreign_inst_buy_krw": -1144400000000,
+    "retail_net_buy_krw": null,
+    "margin_loan_krw": null,
+    "short_sale_balance": null,
+    "foreign_ownership_pct": null
+  },
+  "indices": {
+    "nasdaq": {
+      "current": 24438.5,
+      "high_52w": 24664.87,
+      "drop_pct": -0.92
+    },
+    "kospi": {
+      "current": 6475.63,
+      "high_52w": 6557.76,
+      "drop_pct": -1.25
+    },
+    "sp500": {
+      "current": 7108.4,
+      "high_52w": 7147.78,
+      "drop_pct": -0.55
+    },
+    "russell2k": {
+      "current": 2775.1,
+      "high_52w": 2817.96,
+      "drop_pct": -1.52
+    },
+    "soxx": {
+      "current": 441.0,
+      "high_52w": 446.64,
+      "drop_pct": -1.26
+    }
+  },
+  "sector_rs": {
+    "XLK": 1.042,
+    "SMH": 1.178,
+    "BOTZ": 0.942,
+    "ARKK": 0.933,
+    "XLF": 0.951,
+    "XLE": 1.136
+  },
+  "signals": {
+    "cnn_under_10": false,
+    "vix_over_25": false,
+    "margin_call_trigger": false,
+    "count": 0,
+    "emergency_exit_warning": false
+  },
+  "leverage_profit": {
+    "tqqq_profit_pct": null,
+    "soxl_profit_pct": null,
+    "koru_profit_pct": 110.0
+  },
+  "sell_signals": {
+    "leading_stock_rising_3d": true,
+    "expert_warning": false,
+    "retail_net_buy_positive": false
+  },
+  "recommended_action": "✅ 권장 비중 유지 (특이사항 없음)"
+}
