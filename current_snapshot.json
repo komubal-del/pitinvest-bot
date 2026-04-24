@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-04-24T16:39:33.316746+09:00",
+  "timestamp": "2026-04-24T16:50:13.995031+09:00",
   "sentiment": {
     "cnn_fng": 66.6857142857143,
     "cnn_components": {
-      "momentum": null,
-      "strength": null,
-      "breadth": null,
-      "put_call": null,
-      "junk_bond": null,
-      "volatility": null,
-      "safe_haven": null
+      "momentum": 94.2,
+      "strength": 45.0,
+      "breadth": 72.4,
+      "put_call": 56.6,
+      "junk_bond": 49.2,
+      "volatility": 50.0,
+      "safe_haven": 99.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null
   },
   "volatility": {
-    "vix": 18.92,
+    "vix": 18.95,
     "vvix": 98.57,
     "skew": 139.59,
     "move": 67.7
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -1144400000000,
-    "retail_net_buy_krw": null,
+    "retail_net_buy_krw": 1183500000000,
     "margin_loan_krw": null,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -77,7 +77,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": true,
     "expert_warning": false,
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "recommended_action": "✅ 권장 비중 유지 (특이사항 없음)"
 }
