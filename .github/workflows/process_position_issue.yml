@@ -1,0 +1,71 @@
+name: Process Position Issue
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process:
+    # 라벨 'portfolio' 이거나 제목에 '포지션' 포함된 이슈만 처리
+    if: |
+      contains(github.event.issue.labels.*.name, 'portfolio') ||
+      contains(github.event.issue.title, '포지션')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Process screenshot
+        id: proc
+        env:
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          ISSUE_BODY:      ${{ github.event.issue.body }}
+          ISSUE_NUMBER:    ${{ github.event.issue.number }}
+        continue-on-error: true
+        run: python process_issue.py
+
+      - name: Commit changes
+        if: steps.proc.outcome == 'success'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add master_data.json journal.csv
+          git diff --staged --quiet || git commit -m "📸 이슈 #${{ github.event.issue.number }} 포지션 업데이트"
+          git push
+
+      - name: Comment & close issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '❌ 처리 중 에러가 발생했어요. Actions 로그를 확인해주세요.';
+            try {
+              if (fs.existsSync('.issue_comment.md')) {
+                body = fs.readFileSync('.issue_comment.md', 'utf8');
+              }
+            } catch (e) {}
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: context.issue.number,
+              body: body,
+            });
+            // 성공 시에만 close
+            if ('${{ steps.proc.outcome }}' === 'success') {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed',
+                state_reason: 'completed',
+              });
+            }
