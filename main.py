@@ -156,15 +156,22 @@ def fetch_extended_market():
     for key, ticker in idx_tickers.items():
         try:
             hist = yf.Ticker(ticker).history(period="1y")
-            if not hist.empty:
-                current = float(hist["Close"].iloc[-1])
-                high_52w = float(hist["High"].max())
-                drop_pct = (current / high_52w - 1) * 100
-                result["indices"][key] = {
-                    "current": round(current, 2),
-                    "high_52w": round(high_52w, 2),
-                    "drop_pct": round(drop_pct, 2),
-                }
+            if hist.empty:
+                continue
+            # NaN close 제거 (장 마감 직후 KOSPI/KOSDAQ이 NaN으로 올 때 대응)
+            clean = hist.dropna(subset=["Close"])
+            if clean.empty:
+                continue
+            current  = float(clean["Close"].iloc[-1])
+            high_52w = float(clean["High"].max())
+            if not (current > 0 and high_52w > 0):
+                continue
+            drop_pct = (current / high_52w - 1) * 100
+            result["indices"][key] = {
+                "current":  round(current, 2),
+                "high_52w": round(high_52w, 2),
+                "drop_pct": round(drop_pct, 2),
+            }
         except Exception as e:
             print(f"[idx] {key} fail: {e}")
 
