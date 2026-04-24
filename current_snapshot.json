@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T17:07:23.210990+09:00",
+  "timestamp": "2026-04-24T17:51:04.604815+09:00",
   "sentiment": {
     "cnn_fng": 66.6857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null
   },
   "volatility": {
-    "vix": 18.95,
+    "vix": 19.14,
     "vvix": 98.57,
     "skew": 139.59,
     "move": 67.7
@@ -70,9 +70,21 @@
     "emergency_exit_warning": false
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
-    "soxl_profit_pct": null,
-    "koru_profit_pct": 110.0
+    "tqqq_profit_pct": 25.84,
+    "tqqq_avg_used": 47.06,
+    "tqqq_avg_actual": null,
+    "tqqq_avg_theoretical": 47.06,
+    "tqqq_avg_source": "theoretical",
+    "soxl_profit_pct": 94.77,
+    "soxl_avg_used": 57.9,
+    "soxl_avg_actual": null,
+    "soxl_avg_theoretical": 57.9,
+    "soxl_avg_source": "theoretical",
+    "koru_profit_pct": 110.0,
+    "koru_avg_used": 233.55,
+    "koru_avg_actual": 233.55,
+    "koru_avg_theoretical": 481.2,
+    "koru_avg_source": "actual"
   },
   "sell_signals": {
     "leading_stock_rising_3d": true,
