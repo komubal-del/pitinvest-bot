@@ -857,12 +857,79 @@ GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모�
 
 
 def fetch_channel_rss(channel_id=CHANNEL_ID_SAMPRO):
-    """유튜브 채널 RSS → XML root"""
+    """유튜브 채널 RSS → XML root (최근 15개 영상)"""
     import xml.etree.ElementTree as ET
     url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
     res = requests.get(url, timeout=10)
     res.raise_for_status()
     return ET.fromstring(res.content)
+
+
+def fetch_channel_videos_api(channel_id=CHANNEL_ID_SAMPRO, days=14, max_pages=3):
+    """YouTube Data API v3로 최근 N일간의 영상 목록 조회 (RSS 15개 제한 우회).
+    YOUTUBE_API_KEY 없거나 에러 시 None 반환 → 호출측에서 RSS fallback."""
+    api_key = os.environ.get('YOUTUBE_API_KEY', '').strip()
+    if not api_key:
+        return None
+
+    uploads_playlist = 'UU' + channel_id[2:]  # UC... → UU... (업로드 플레이리스트 규약)
+    from datetime import timedelta
+    cutoff = datetime.now(kst) - timedelta(days=days)
+
+    videos = []
+    page_token = None
+    for _ in range(max_pages):
+        params = {
+            'key':        api_key,
+            'playlistId': uploads_playlist,
+            'part':       'snippet',
+            'maxResults': 50,
+        }
+        if page_token:
+            params['pageToken'] = page_token
+
+        try:
+            res = requests.get(
+                'https://www.googleapis.com/youtube/v3/playlistItems',
+                params=params, timeout=15
+            )
+            if res.status_code == 403:
+                print("[yt api] 403 quota exceeded · RSS fallback")
+                return None
+            res.raise_for_status()
+            data = res.json()
+        except Exception as e:
+            print(f"[yt api] fail: {e}")
+            return None
+
+        stop = False
+        for item in data.get('items', []):
+            sn = item.get('snippet', {}) or {}
+            vid = (sn.get('resourceId') or {}).get('videoId', '')
+            published = sn.get('publishedAt', '')
+            if not vid:
+                continue
+            # ISO 8601 → datetime
+            try:
+                pub_dt = datetime.fromisoformat(published.replace('Z', '+00:00'))
+                if pub_dt.astimezone(kst) < cutoff:
+                    stop = True
+                    break
+            except Exception:
+                pass
+            videos.append({
+                'video_id':  vid,
+                'title':     sn.get('title', ''),
+                'published': published,
+                'url':       f'https://youtube.com/watch?v={vid}',
+            })
+
+        page_token = data.get('nextPageToken')
+        if stop or not page_token:
+            break
+
+    print(f"[yt api] {days}일간 {len(videos)}개 영상 수집")
+    return videos
 
 
 def parse_rss(root):
@@ -992,15 +1059,21 @@ def analyze_experts_daily():
         'error': None,
     }
 
-    try:
-        root = fetch_channel_rss()
-        all_videos = parse_rss(root)
-        expert_videos = filter_expert_videos(all_videos)[:5]
-        print(f"  - RSS에서 {len(all_videos)}개 중 전문가 영상 {len(expert_videos)}개 매칭")
-    except Exception as e:
-        print(f"[expert RSS] fail: {e}")
-        result['error'] = f'RSS fail: {e}'
-        expert_videos = []
+    # 1순위: YouTube Data API (최근 14일, ~100+개 영상). 2순위: RSS (15개 제한).
+    all_videos = fetch_channel_videos_api(days=14)
+    source = 'youtube_api'
+    if all_videos is None:
+        try:
+            root = fetch_channel_rss()
+            all_videos = parse_rss(root)
+            source = 'rss'
+        except Exception as e:
+            print(f"[expert RSS] fail: {e}")
+            result['error'] = f'RSS fail: {e}'
+            all_videos = []
+
+    expert_videos = filter_expert_videos(all_videos)[:5]
+    print(f"  - [{source}] 전체 {len(all_videos)}개 중 전문가 영상 {len(expert_videos)}개 매칭")
 
     for v in expert_videos:
         transcript = get_transcript_safe(v['video_id'])
