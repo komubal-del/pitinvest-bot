@@ -193,6 +193,39 @@ def fetch_cnn_components():
     }
 
 
+def fetch_news_sentiment():
+    """구글 뉴스 RSS에서 오늘자 국내 증시 과열/공포 뉴스 플로우 수집."""
+    result = {
+        'greed_count': 0,
+        'fear_count': 0,
+        'greed_articles': [],
+        'fear_articles': [],
+    }
+    queries = {
+        'greed': '주식+과열+OR+버블+OR+고점',
+        'fear':  '주식+공포+OR+폭락+OR+급락+OR+패닉',
+    }
+    for cat, q in queries.items():
+        try:
+            url = f'https://news.google.com/rss/search?q={q}+when:1d&hl=ko&gl=KR&ceid=KR:ko'
+            res = requests.get(url, timeout=10)
+            soup = BeautifulSoup(res.text, 'xml')
+            items = soup.find_all('item')
+            result[f'{cat}_count'] = len(items)
+            for it in items[:5]:  # 상위 5개만
+                title = (it.find('title').text if it.find('title') else '').strip()
+                link  = (it.find('link').text  if it.find('link')  else '').strip()
+                pub   = (it.find('pubDate').text if it.find('pubDate') else '').strip()
+                src_tag = it.find('source')
+                source = src_tag.text.strip() if src_tag else ''
+                result[f'{cat}_articles'].append({
+                    'title': title, 'link': link, 'pub_date': pub, 'source': source,
+                })
+        except Exception as e:
+            print(f"[news {cat}] fail: {e}")
+    return result
+
+
 def compute_leverage_profit(exit_settings):
     result = {}
     pairs = {
@@ -286,6 +319,49 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     if vkospi and vkospi > 0:
         vol["vkospi"] = round(float(vkospi), 2)
 
+    # --- 매수 시그널 flag & count (sticky 기준) ---
+    cnn_fired    = bool(market_data.get("cnn_sticky"))
+    vix_fired    = bool(market_data.get("vix_sticky"))
+    margin_fired = bool(market_data.get("margin_sticky"))
+    buy_count = int(cnn_fired) + int(vix_fired) + int(margin_fired)
+
+    # --- 매도 시그널 flag & count ---
+    leverage_over = any((leverage.get(f'{k}_profit_pct') or 0) >= 100 for k in ('tqqq', 'soxl', 'koru'))
+    over_tickers = [k.upper() for k in ('tqqq', 'soxl', 'koru') if (leverage.get(f'{k}_profit_pct') or 0) >= 100]
+    sell_leading_fired = bool(leading)
+    sell_expert_fired  = bool(expert_result.get('expert_warning', False)) or bool(exit_settings.get("expert_sell_view", False))
+    sell_count = int(leverage_over) + int(sell_leading_fired) + int(sell_expert_fired)
+
+    emergency = any((v.get("drop_pct", 0) or 0) <= -9.0 for v in ext["indices"].values())
+
+    # --- 오늘의 액션 계산 (데이터 기반) ---
+    if emergency:
+        action = "🚨 긴급탈출 · 전량 현금화"
+    elif sell_count == 3:
+        action = "♻️ 매도 3조건 모두 충족 · 자동 리셋 완료 · 다음 구덩이 대기"
+    elif sell_count == 2:
+        action = "📉 위성 비중 축소 준비 · 마지막 매도 조건 임박"
+    elif sell_count == 1:
+        if leverage_over:
+            action = f"📉 {'/'.join(over_tickers)} 50% 매도하여 코어로 이동"
+        elif sell_leading_fired:
+            action = "📉 삼전/하닉 주도주 상승 · 위성 비중 −20%p 축소"
+        else:
+            action = "📉 전문가 경고 · 매일 위성 −5%p 점진 축소"
+    elif buy_count == 3:
+        action = "📈 매수 3조건 모두 충족 · 매일 +5%p 매수 (100% 도달까지)"
+    elif buy_count == 2:
+        active = []
+        if cnn_fired:    active.append("CNN<10")
+        if vix_fired:    active.append("VIX>25")
+        if margin_fired: active.append("강제청산")
+        action = f"📈 매수 2조건 ({' + '.join(active)}) 충족 · 빈 슬롯 +20%p 매수"
+    elif buy_count == 1:
+        slot = "CNN<10" if cnn_fired else ("VIX>25" if vix_fired else "강제청산")
+        action = f"📈 {slot} 슬롯 +20%p 매수"
+    else:
+        action = "✅ 평시 유지 · 다음 구덩이 대기"
+
     return {
         "timestamp": now,
         "sentiment": {
@@ -293,26 +369,29 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "cnn_components": market_data.get("cnn_components") or fetch_cnn_components(),
             "put_call_ratio": None,
             "aaii_bull_bear_spread": None,
+            "news_sentiment": fetch_news_sentiment(),
         },
         "volatility": vol,
         "korea_flow": {
             "foreign_inst_buy_krw": market_data.get("foreign_inst_buy_krw"),
             "retail_net_buy_krw": market_data.get("retail_net_buy_krw"),
             "margin_loan_krw": market_data.get("margin_loan_krw"),
+            "news_count": market_data.get("news_count"),
             "short_sale_balance": None,
             "foreign_ownership_pct": None,
         },
         "indices": ext["indices"],
         "sector_rs": ext["sector_rs"],
         "signals": {
-            "cnn_under_10":        bool(market_data.get("cnn_sticky", False)),
-            "vix_over_25":         bool(market_data.get("vix_sticky", False)),
-            "margin_call_trigger": bool(market_data.get("margin_sticky", False)),
-            "count": signals_count,
-            "emergency_exit_warning": any(
-                (v.get("drop_pct", 0) or 0) <= -9.0
-                for v in ext["indices"].values()
-            ),
+            "cnn_under_10":        cnn_fired,
+            "vix_over_25":         vix_fired,
+            "margin_call_trigger": margin_fired,
+            "count":               buy_count,
+            "sell_leverage":       leverage_over,
+            "sell_leading":        sell_leading_fired,
+            "sell_expert":         sell_expert_fired,
+            "sell_count":          sell_count,
+            "emergency_exit_warning": emergency,
         },
         "leverage_profit": leverage,
         "sell_signals": {
@@ -328,7 +407,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "retail_net_buy_positive": (market_data.get("retail_net_buy_krw", 0) or 0) > 0,
         },
         "expert_analysis": expert_result,
-        "recommended_action": market_data.get("recommended_action", "평시 유지"),
+        "recommended_action": action,
     }
 
 
@@ -822,11 +901,7 @@ r_raw = master['ratio_raw'].split(':')
 ratio_str = f"(현금){r_raw[0]}:(코어){r_raw[1]}:(위성){r_raw[2]}"
 core_val = int(r_raw[1])
 
-action = "✅ 권장 비중 유지 (특이사항 없음)"
-if m[2] or m[6]: action = f"🚨 [긴급탈출] {'나스닥' if m[2] else ''} {'코스피' if m[6] else ''} 지수 10% 하락 발생! 전량 매도!"
-elif core_val == 0 and n_ok == "O": action = "🚀 [긴급탈출 후 재매수] 하락장 진정 및 수급 확인! 코어 자산 재매입 시작"
-
-# 📸 6. 웹 대시보드용 snapshot 저장 (텔레그램 리포트는 제거됨)
+# 📸 6. 웹 대시보드용 snapshot 저장 (action은 build_snapshot이 내부에서 결정)
 snapshot = None
 try:
     signals_count = sum(1 for x in [c_ok, v_ok, n_ok] if x == 'O')
@@ -836,7 +911,7 @@ try:
         "foreign_inst_buy_krw": int(m[11] * 1e12),
         "retail_net_buy_krw": int(m[15] * 1e12),
         "margin_loan_krw": m[17],
-        "recommended_action": action,
+        "news_count": m[12],
         "cnn_components": m[16],
         "vkospi": m[13],
         "cnn_sticky":    sticky_cnn,
