@@ -334,32 +334,49 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
 
     emergency = any((v.get("drop_pct", 0) or 0) <= -9.0 for v in ext["indices"].values())
 
-    # --- 오늘의 액션 계산 (데이터 기반) ---
-    if emergency:
+    # --- 오늘 RAW 상태 + 전날 비교 ---
+    raw_stage = compute_raw_stage_key(emergency, buy_count, sell_count)
+    prev_stage = load_prev_stage_key('pitinvest_history.csv')
+    is_new_change = (prev_stage != raw_stage)
+
+    # --- 액션 계산 ---
+    # 전날과 상태 동일 → 평시 운용으로 표기 (emergency만 예외: 매일 경고 유지)
+    if not is_new_change and raw_stage != 'emergency':
+        display_stage = 'normal'
+        action = "✅ 평시 유지 · 전일 상태 지속 (추가 액션 없음)"
+    elif raw_stage == 'emergency':
+        display_stage = 'emergency'
         action = "🚨 긴급탈출 · 전량 현금화"
-    elif sell_count == 3:
+    elif raw_stage == 'reset':
+        display_stage = 'reset'
         action = "♻️ 매도 3조건 모두 충족 · 자동 리셋 완료 · 다음 구덩이 대기"
-    elif sell_count == 2:
+    elif raw_stage == 'sell_near':
+        display_stage = 'sell_near'
         action = "📉 위성 비중 축소 준비 · 마지막 매도 조건 임박"
-    elif sell_count == 1:
+    elif raw_stage == 'exit':
+        display_stage = 'exit'
         if leverage_over:
             action = f"📉 {'/'.join(over_tickers)} 50% 매도하여 코어로 이동"
         elif sell_leading_fired:
             action = "📉 삼전/하닉 주도주 상승 · 위성 비중 −20%p 축소"
         else:
             action = "📉 전문가 경고 · 매일 위성 −5%p 점진 축소"
-    elif buy_count == 3:
+    elif raw_stage == 'full':
+        display_stage = 'full'
         action = "📈 매수 3조건 모두 충족 · 매일 +5%p 매수 (100% 도달까지)"
-    elif buy_count == 2:
+    elif raw_stage == 'deepening':
+        display_stage = 'deepening'
         active = []
         if cnn_fired:    active.append("CNN<10")
         if vix_fired:    active.append("VIX>25")
         if margin_fired: active.append("강제청산")
         action = f"📈 매수 2조건 ({' + '.join(active)}) 충족 · 빈 슬롯 +20%p 매수"
-    elif buy_count == 1:
+    elif raw_stage == 'entry':
+        display_stage = 'entry'
         slot = "CNN<10" if cnn_fired else ("VIX>25" if vix_fired else "강제청산")
         action = f"📈 {slot} 슬롯 +20%p 매수"
-    else:
+    else:  # 'normal'
+        display_stage = 'normal'
         action = "✅ 평시 유지 · 다음 구덩이 대기"
 
     return {
@@ -392,6 +409,8 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "sell_expert":         sell_expert_fired,
             "sell_count":          sell_count,
             "emergency_exit_warning": emergency,
+            "stage_key":     display_stage,   # 웹 Hero 카드 표시용 (전일 동일 시 normal)
+            "stage_key_raw": raw_stage,       # 실제 데이터 기반 raw 상태
         },
         "leverage_profit": leverage,
         "sell_signals": {
@@ -439,6 +458,39 @@ def parse_ratio_raw(raw):
     while len(out) < 3:
         out.append(0)
     return out
+
+
+def compute_raw_stage_key(emergency, buy_count, sell_count):
+    """순수 데이터 기반 구덩이 상태 키."""
+    if emergency:         return 'emergency'
+    if sell_count == 3:   return 'reset'
+    if sell_count == 2:   return 'sell_near'
+    if sell_count == 1:   return 'exit'
+    if buy_count == 3:    return 'full'
+    if buy_count == 2:    return 'deepening'
+    if buy_count == 1:    return 'entry'
+    return 'normal'
+
+
+def load_prev_stage_key(csv_path='pitinvest_history.csv'):
+    """오늘 이전(다른 날짜) 행 중 가장 최근 stage 값."""
+    today_str = datetime.now(kst).strftime('%Y-%m-%d')
+    if not os.path.isfile(csv_path):
+        return None
+    try:
+        df = pd.read_csv(csv_path)
+        if df.empty or 'date' not in df.columns or 'stage' not in df.columns:
+            return None
+        prev = df[df['date'].astype(str) < today_str]
+        if prev.empty:
+            return None
+        v = prev.iloc[-1].get('stage')
+        if v is None or pd.isna(v) or str(v).strip() == '':
+            return None
+        return str(v).strip()
+    except Exception as e:
+        print(f"[prev stage] fail: {e}")
+        return None
 
 
 def load_today_triggers(csv_path, today_str):
@@ -874,6 +926,8 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     row['ratio_core'] = ratio[1]
     row['ratio_sat']  = ratio[2]
     row['memo']       = master_data.get('memo', '')
+    # 구덩이 상태 (내일 비교용 — 항상 raw 저장)
+    row['stage'] = sig.get('stage_key_raw') or sig.get('stage_key', '')
 
     df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
     df = df.sort_values('date').reset_index(drop=True)

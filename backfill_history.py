@@ -188,6 +188,22 @@ def build_history(output_path='pitinvest_history.csv'):
             row['sell_expert_trigger']   = 0
             row['sell_signal_count']     = 0
 
+        # 구덩이 상태 (내부 룰)
+        nd = row.get('nasdaq_drop_pct')
+        kd = row.get('kospi_drop_pct')
+        emergency = (nd is not None and nd <= -9.0) or (kd is not None and kd <= -9.0)
+        bc = row['signal_count']
+        sc = row['sell_signal_count']
+        if   emergency:     stage = 'emergency'
+        elif sc == 3:       stage = 'reset'
+        elif sc == 2:       stage = 'sell_near'
+        elif sc == 1:       stage = 'exit'
+        elif bc == 3:       stage = 'full'
+        elif bc == 2:       stage = 'deepening'
+        elif bc == 1:       stage = 'entry'
+        else:               stage = 'normal'
+        row['stage'] = stage
+
         rows.append(row)
 
     # 최종 컬럼 순서
@@ -199,7 +215,7 @@ def build_history(output_path='pitinvest_history.csv'):
         + ['tqqq_close', 'soxl_close', 'koru_close', 'smh_close']
         + ['cnn_trigger', 'vix_trigger', 'margin_trigger', 'signal_count']
         + ['sell_leverage_trigger', 'sell_leading_trigger', 'sell_expert_trigger', 'sell_signal_count']
-        + ['ratio_cash', 'ratio_core', 'ratio_sat', 'memo']
+        + ['ratio_cash', 'ratio_core', 'ratio_sat', 'memo', 'stage']
     )
 
     df = pd.DataFrame(rows)
