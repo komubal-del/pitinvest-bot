@@ -100,7 +100,7 @@ def fetch_market():
         try:
             retail_buy = float(dds[0].text.replace('개인','').replace('억','').replace(',','').replace('+','').strip()) / 10000
         except: pass
-        news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+최대+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
+        news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
         
         # KSVKOSPI 수집 (에러 시 pass)
         try:
@@ -224,7 +224,7 @@ def is_retail_buying_kr(code):
 
 
 def check_kr_leading_stocks():
-    """삼전/하닉 중 하나라도 (3일 연속↑ AND 개미 순매수) → True
+    """삼전 AND 하닉 모두 (3일 연속↑ AND 개미 순매수) → True
     반환: (triggered: bool, detail: dict)"""
     try:
         sec_up     = is_3day_up_kr("005930")
@@ -235,7 +235,7 @@ def check_kr_leading_stocks():
         sec_ok = sec_up and sec_retail
         hyn_ok = hyn_up and hyn_retail
 
-        return (sec_ok or hyn_ok), {
+        return (sec_ok and hyn_ok), {
             "samsung_3d_up": sec_up,
             "samsung_retail_buying": sec_retail,
             "samsung_ok": sec_ok,
@@ -490,6 +490,49 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
     return result
 
 
+def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.json'):
+    """매도 3조건 모두 충족 시 master_data.json을 '100:0:0' 으로 자동 리셋.
+    멱등: 이미 100:0:0이면 스킵. 반환: (reset_fired: bool)"""
+    sell = snapshot.get('sell_signals', {}) or {}
+    lev  = snapshot.get('leverage_profit', {}) or {}
+
+    # 매도 조건 1: 레버리지 수익률 +100% (TQQQ/SOXL/KORU 중 하나라도)
+    cond_leverage = any(
+        (lev.get(f'{k}_profit_pct') or 0) >= 100
+        for k in ('tqqq', 'soxl', 'koru')
+    )
+    # 매도 조건 2: 주도주 3일↑ (삼전 AND 하닉)
+    cond_leading = bool(sell.get('leading_stock_rising_3d'))
+    # 매도 조건 3: 전문가 경고 (현재는 exit_settings 수동 플래그, 추후 유튜브 자동화)
+    cond_expert  = bool(sell.get('expert_warning'))
+
+    if not (cond_leverage and cond_leading and cond_expert):
+        return False
+
+    # 이미 100:0:0이면 재리셋 방지
+    if master_data.get('ratio_raw') == '100:0:0':
+        return False
+
+    today_md   = datetime.now(kst).strftime('%m.%d')
+    today_full = datetime.now(kst).strftime('%Y-%m-%d')
+    new_master = {
+        **master_data,
+        'date':      today_md,
+        'ratio_raw': '100:0:0',
+        'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 전량 청산',
+    }
+    try:
+        with open(master_path, 'w', encoding='utf-8') as f:
+            json.dump(new_master, f, ensure_ascii=False, indent=4)
+        print(f"🔄 자동 사이클 리셋 · master_data.json → 100:0:0")
+        master_data.clear()
+        master_data.update(new_master)
+        return True
+    except Exception as e:
+        print(f"[auto reset] fail: {e}")
+        return False
+
+
 def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     """snapshot + master_data → CSV에 오늘 행 덮어쓰기/추가. snapshot.signals는 이미 sticky 상태."""
     today = datetime.now(kst).strftime('%Y-%m-%d')
@@ -583,6 +626,16 @@ try:
     save_snapshot(snapshot)
 except Exception as e:
     print(f"❌ Snapshot 생성 실패: {e}")
+
+# 🔄 7. 매도 3조건 충족 시 자동 사이클 리셋 (master_data.json 100:0:0 덮어쓰기)
+if snapshot is not None:
+    try:
+        if auto_reset_if_sell_signals(snapshot, master):
+            # 리셋된 master 상태를 snapshot.recommended_action 에도 반영하고 재저장
+            snapshot['recommended_action'] = "🔄 자동 리셋 · 매도 3조건 충족 · 전량 청산, 다음 구덩이 대기"
+            save_snapshot(snapshot)
+    except Exception as e:
+        print(f"❌ auto reset 실패: {e}")
 
 # 💾 8. CSV 기록 (새 스키마)
 if snapshot is not None:
