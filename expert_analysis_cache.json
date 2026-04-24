@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "analyzed_at": "2026-04-24T18:44:19.028353+09:00",
+  "analyzed_at": "2026-04-24T18:46:35.596984+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -14,9 +14,8 @@
       "url": "https://youtube.com/watch?v=c_38QXQK8rU",
       "transcript_available": false,
       "analysis": {
-        "stance": "unknown",
-        "reason": "분석 실패",
-        "error": "404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+        "stance": "bullish",
+        "reason": "현재 시장의 옆걸음을 '상승 전 마지막 단계'로 진단하며 향후 상승을 기대하는 긍정적인 전망을 제시합니다."
       }
     }
   ],
