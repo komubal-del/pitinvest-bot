@@ -25,6 +25,8 @@ TICKERS = {
     'soxl':      'SOXL',
     'koru':      'KORU',
     'smh':       'SMH',
+    'qqq':       'QQQ',   # 코어 · 나스닥 ETF
+    'ewy':       'EWY',   # 코어 · 한국 ETF (MSCI South Korea)
 }
 
 INDEX_KEYS = ['nasdaq', 'kospi', 'sp500', 'russell2k', 'soxx']
@@ -149,8 +151,8 @@ def build_history(output_path='pitinvest_history.csv'):
             row[f'{key}_52w_high'] = highs[key].get(date)
             row[f'{key}_drop_pct'] = drops[key].get(date)
 
-        # 레버리지·주도주 종가
-        for key in ['tqqq', 'soxl', 'koru', 'smh']:
+        # 위성·주도주·코어 종가
+        for key in ['tqqq', 'soxl', 'koru', 'smh', 'qqq', 'ewy']:
             row[f'{key}_close'] = yf_data.get(key, {}).get(date)
 
         # 시그널 (VIX는 장중 최고값 기준 → 종가로 놓친 트리거 포착)
@@ -212,7 +214,7 @@ def build_history(output_path='pitinvest_history.csv'):
         + [f'{k}_close'    for k in INDEX_KEYS]
         + [f'{k}_52w_high' for k in INDEX_KEYS]
         + [f'{k}_drop_pct' for k in INDEX_KEYS]
-        + ['tqqq_close', 'soxl_close', 'koru_close', 'smh_close']
+        + ['tqqq_close', 'soxl_close', 'koru_close', 'smh_close', 'qqq_close', 'ewy_close']
         + ['cnn_trigger', 'vix_trigger', 'margin_trigger', 'signal_count']
         + ['sell_leverage_trigger', 'sell_leading_trigger', 'sell_expert_trigger', 'sell_signal_count']
         + ['ratio_cash', 'ratio_core', 'ratio_sat', 'memo', 'stage']

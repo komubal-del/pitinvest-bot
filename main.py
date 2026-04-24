@@ -426,7 +426,20 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "retail_net_buy_positive": (market_data.get("retail_net_buy_krw", 0) or 0) > 0,
         },
         "expert_analysis": expert_result,
+        "ytd_returns": _build_ytd_returns(history_rows),
         "recommended_action": action,
+    }
+
+
+def _build_ytd_returns(history_rows):
+    """구덩이 매매법 YTD 백테스트 결과 → snapshot.ytd_returns 구조."""
+    if not history_rows:
+        return {"strategy_pct": None, "daily_series": [], "calc_note": "CSV 데이터 없음"}
+    bt = backtest_strategy(history_rows, start_date='2026-01-01')
+    return {
+        "strategy_pct": bt.get('final_return_pct'),
+        "daily_series": bt.get('daily_series', []),
+        "calc_note":    "평시: 코어(QQQ/SOXX/EWY 균등 1/3) · 매수 신호 시 위성(TQQQ/SOXL/KORU 균등 1/3)으로 %p만큼 이동 · 매도 3조건 or 긴급탈출 시 전량 현금화",
     }
 
 
@@ -458,6 +471,127 @@ def parse_ratio_raw(raw):
     while len(out) < 3:
         out.append(0)
     return out
+
+
+def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100.0):
+    """구덩이 매매법 YTD 백테스트.
+    - 시작: 100% 코어 (QQQ/SOXX/EWY 균등 1/3)
+    - 매수 이벤트 (슬롯 fill 또는 3종 동시 +5%p): 포트폴리오 가치의 해당 %p를 위성 (TQQQ/SOXL/KORU 균등)으로 이동
+      · 자금 출처: 현금 우선, 없으면 코어 비례 매도
+    - 매도 3조건 or 긴급탈출: 전량 현금화 + 슬롯 리셋
+    - 반환: {final_return_pct, daily_series[{date, ret_pct}]}"""
+    def _n(v):
+        try:
+            x = float(v)
+            if pd.isna(x): return None
+            return x
+        except (ValueError, TypeError):
+            return None
+
+    ytd = [r for r in history_rows if str(r.get('date', '')) >= start_date]
+    if not ytd:
+        return {'final_return_pct': None, 'daily_series': []}
+
+    core_tickers = ('qqq', 'soxx', 'ewy')
+    sat_tickers  = ('tqqq', 'soxl', 'koru')
+    all_tickers  = core_tickers + sat_tickers
+
+    # 초기 가격
+    first = ytd[0]
+    p0 = {t: _n(first.get(f'{t}_close')) for t in all_tickers}
+    if any(p0[t] is None or p0[t] <= 0 for t in core_tickers):
+        return {'final_return_pct': None, 'daily_series': [], 'error': 'missing_initial_core_price'}
+
+    # 초기: 코어 3종 균등
+    shares = {t: 0.0 for t in all_tickers}
+    for t in core_tickers:
+        shares[t] = (initial_capital / 3.0) / p0[t]
+    cash = 0.0
+
+    slots = {'cnn': False, 'vix': False, 'margin': False}
+    cum_pct = 0.0
+    daily_series = []
+
+    def _portfolio_value(prices):
+        v = cash
+        for t in all_tickers:
+            p = prices.get(t)
+            if p is not None:
+                v += shares[t] * p
+        return v
+
+    for row in ytd:
+        prices = {t: _n(row.get(f'{t}_close')) for t in all_tickers}
+
+        # 필수 가격 누락 시 평가만 (매매 스킵)
+        if any(prices[t] is None for t in all_tickers):
+            pv = _portfolio_value({t: (prices[t] if prices[t] else p0[t]) for t in all_tickers})
+            daily_series.append({'date': row.get('date'), 'ret_pct': round((pv / initial_capital - 1) * 100, 3)})
+            continue
+
+        # 긴급탈출 / 매도 3조건 → 전량 현금화
+        nd = _n(row.get('nasdaq_drop_pct'))
+        kd = _n(row.get('kospi_drop_pct'))
+        emergency_today = (nd is not None and nd <= -9.0) or (kd is not None and kd <= -9.0)
+        sell_today = (
+            int(float(row.get('sell_leverage_trigger') or 0)) +
+            int(float(row.get('sell_leading_trigger')  or 0)) +
+            int(float(row.get('sell_expert_trigger')   or 0))
+        )
+
+        if emergency_today or sell_today == 3:
+            cash = _portfolio_value(prices)
+            shares = {t: 0.0 for t in all_tickers}
+            slots = {'cnn': False, 'vix': False, 'margin': False}
+            cum_pct = 0.0
+        else:
+            # 매수 이벤트
+            c  = int(float(row.get('cnn_trigger') or 0))
+            v_ = int(float(row.get('vix_trigger') or 0))
+            mg = int(float(row.get('margin_trigger') or 0))
+
+            pct = 0
+            if c  and not slots['cnn']:    pct += 20; slots['cnn'] = True
+            if v_ and not slots['vix']:    pct += 20; slots['vix'] = True
+            if mg and not slots['margin']: pct += 20; slots['margin'] = True
+            if slots['cnn'] and slots['vix'] and slots['margin'] and cum_pct < 100:
+                pct += 5
+
+            if pct > 0 and cum_pct < 100:
+                pct = min(pct, 100 - cum_pct)
+                cum_pct += pct
+                pv = _portfolio_value(prices)
+                amount = pv * pct / 100.0
+
+                # 자금: 현금 우선
+                from_cash = min(cash, amount)
+                cash -= from_cash
+                remaining = amount - from_cash
+
+                # 나머지는 코어 비례 매도
+                if remaining > 0:
+                    core_val = sum(shares[t] * prices[t] for t in core_tickers)
+                    if core_val > 0:
+                        sell_ratio = min(1.0, remaining / core_val)
+                        for t in core_tickers:
+                            shares[t] *= (1 - sell_ratio)
+
+                # 위성 3종 균등 매수
+                per_sat = amount / 3.0
+                for t in sat_tickers:
+                    if prices[t] and prices[t] > 0:
+                        shares[t] += per_sat / prices[t]
+
+        # 평가
+        pv = _portfolio_value(prices)
+        ret_pct = (pv / initial_capital - 1) * 100
+        daily_series.append({'date': row.get('date'), 'ret_pct': round(ret_pct, 3)})
+
+    final_ret = daily_series[-1]['ret_pct'] if daily_series else None
+    return {
+        'final_return_pct': final_ret,
+        'daily_series': daily_series,
+    }
 
 
 def compute_raw_stage_key(emergency, buy_count, sell_count):
@@ -907,6 +1041,8 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     row['soxl_close'] = fetch_close_today('SOXL')
     row['koru_close'] = fetch_close_today('KORU')
     row['smh_close']  = fetch_close_today('SMH')
+    row['qqq_close']  = fetch_close_today('QQQ')
+    row['ewy_close']  = fetch_close_today('EWY')
 
     row['cnn_trigger']    = int(bool(sig.get('cnn_under_10')))
     row['vix_trigger']    = int(bool(sig.get('vix_over_25')))
