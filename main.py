@@ -489,9 +489,22 @@ def _build_ytd_returns(history_rows):
     }
 
 
+def _sanitize_nan(obj):
+    """재귀적으로 NaN/Infinity → None. JS JSON.parse() 호환 보장."""
+    import math
+    if isinstance(obj, float):
+        return None if (math.isnan(obj) or math.isinf(obj)) else obj
+    if isinstance(obj, dict):
+        return {k: _sanitize_nan(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_sanitize_nan(v) for v in obj]
+    return obj
+
+
 def save_snapshot(snapshot):
+    clean = _sanitize_nan(snapshot)
     with open("current_snapshot.json", "w", encoding="utf-8") as f:
-        json.dump(snapshot, f, ensure_ascii=False, indent=2)
+        json.dump(clean, f, ensure_ascii=False, indent=2, allow_nan=False)
     print("✅ current_snapshot.json 저장 완료")
 
 
