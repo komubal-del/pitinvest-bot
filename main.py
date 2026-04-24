@@ -854,6 +854,7 @@ CHANNEL_ID_SAMPRO = 'UChlv4GSd7OQl3js-jkLOnFA'  # 삼프로TV_경제의신과함
 TARGET_EXPERTS = ('박병창', '윤지호')
 EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
 GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모델
+PROMPT_VERSION   = 'v2-strict-warning'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화
 
 
 def fetch_channel_rss(channel_id=CHANNEL_ID_SAMPRO):
@@ -991,10 +992,14 @@ def analyze_with_gemini(text, title, has_transcript):
 [내용]
 {text}
 
-이 전문가가 현재 주식 시장에 대해 어떤 입장인지 판단해주세요:
-- "warning": 명확히 매도/비중축소/위험 경고 (고점·조정·리스크 강조)
-- "bullish": 매수 기회·저점·반등 강조
-- "neutral": 단순 설명이나 중립적 톤
+이 전문가가 현재 주식 시장에 대해 어떤 입장인지 판단해주세요.
+
+stance 분류 기준 (엄격하게 적용):
+- "warning": **현금화 / 비중 축소 / 매도** 같은 구체적 행동 권고가 명확히 있을 때만.
+  · 예시 표현: "현금 비중을 늘려야 한다", "비중을 줄이세요", "매도할 시점", "익절", "정리", "팔고 나가라", "빠져나와라"
+  · ⚠️ '조심하세요', '경계해야', '리스크 있다', '과열 우려', '고점 주의' 같은 단순 경각심 언급은 warning 아님 → neutral 로 분류
+- "bullish": 매수 기회 · 저점 매수 · 반등 강조 · "추가 매수", "지금이 기회"
+- "neutral": 중립적 시장 분석. 방향 없이 상황 설명만. 리스크 언급만 있고 행동 권고 없음. 이것저것 지켜보자는 식.
 
 JSON 단일 객체로만 답하세요. 다른 텍스트·코드블록·설명 금지.
 형식: {{"stance": "warning|bullish|neutral", "reason": "핵심 근거 한 문장"}}"""
@@ -1036,8 +1041,9 @@ def analyze_experts_daily():
         except Exception as e:
             print(f"[expert cache] load fail: {e}")
 
-    # 오늘 이미 분석이 유효하면 그대로 재사용
-    if existing_cache and existing_cache.get('date') == today:
+    # 오늘 이미 분석이 유효하고 프롬프트 버전이 같으면 그대로 재사용
+    if existing_cache and existing_cache.get('date') == today \
+       and existing_cache.get('prompt_version') == PROMPT_VERSION:
         videos = existing_cache.get('videos') or []
         valid = any(
             v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
@@ -1112,6 +1118,7 @@ def analyze_experts_daily():
         all(s == 'warning' for s in expert_stance.values())
     )
     result['expert_stance_map'] = expert_stance  # 각 전문가 stance 기록 (디버그/표시용)
+    result['prompt_version'] = PROMPT_VERSION    # 프롬프트 변경 시 기존 캐시 자동 재분석
 
     # 새 분석에 유효 판정이 하나라도 있으면 → 캐시 업데이트
     has_valid = any(
