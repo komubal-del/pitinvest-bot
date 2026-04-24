@@ -144,7 +144,11 @@ def read_current_stage(snapshot_path='current_snapshot.json'):
         return ''
 
 
-def update_master_data(ratio_cash, ratio_core, ratio_sat, notes, master_path='master_data.json'):
+ALL_TARGET_TICKERS = ['QQQ', 'SOXX', 'EWY', 'TQQQ', 'SOXL', 'KORU']
+
+
+def update_master_data(ratio_cash, ratio_core, ratio_sat, notes,
+                      holdings=None, total_krw=None, master_path='master_data.json'):
     today_md = datetime.now(kst).strftime('%m.%d')
     try:
         with open(master_path, encoding='utf-8') as f:
@@ -156,6 +160,10 @@ def update_master_data(ratio_cash, ratio_core, ratio_sat, notes, master_path='ma
         'ratio_raw': f"{ratio_cash:02d}:{ratio_core:02d}:{ratio_sat:02d}",
         'memo':      notes,
     })
+    if holdings is not None:
+        master['holdings'] = holdings
+    if total_krw is not None:
+        master['total_krw'] = int(total_krw)
     with open(master_path, 'w', encoding='utf-8') as f:
         json.dump(master, f, ensure_ascii=False, indent=4)
     return master
@@ -245,7 +253,13 @@ def main():
         + ', '.join(f"{h['ticker']}:{h['eval_krw'] // 1000000}M" for h in core + sat)
     )
 
-    update_master_data(rc, ro, rs, notes)
+    # 6개 타겟 자산 eval_krw 맵 (보유 안 하면 0)
+    holdings_map = {t: 0 for t in ALL_TARGET_TICKERS}
+    for h in core + sat:
+        if h['ticker'] in holdings_map:
+            holdings_map[h['ticker']] = h['eval_krw']
+
+    update_master_data(rc, ro, rs, notes, holdings=holdings_map, total_krw=total_krw)
     update_exit_settings(sat)
     append_journal_row({
         'date':             datetime.now(kst).strftime('%Y-%m-%d'),

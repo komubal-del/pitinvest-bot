@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from upload_position import (
     gemini_parse_screenshot, classify_holdings,
     update_master_data, append_journal_row, read_current_stage,
+    update_exit_settings, ALL_TARGET_TICKERS,
 )
 
 kst = pytz.timezone('Asia/Seoul')
@@ -119,7 +120,14 @@ def main():
         f"{h['ticker']}:{h['eval_krw']//1_000_000}M" for h in core + sat
     )
 
-    update_master_data(rc, ro, rs, notes)
+    # 6개 타겟 자산 eval_krw 맵
+    holdings_map = {t: 0 for t in ALL_TARGET_TICKERS}
+    for h in core + sat:
+        if h['ticker'] in holdings_map:
+            holdings_map[h['ticker']] = h['eval_krw']
+
+    update_master_data(rc, ro, rs, notes, holdings=holdings_map, total_krw=total_krw)
+    update_exit_settings(sat)
     append_journal_row({
         'date':             datetime.now(kst).strftime('%Y-%m-%d'),
         'timestamp':        datetime.now(kst).isoformat(),

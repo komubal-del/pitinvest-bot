@@ -1148,11 +1148,14 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
 
     today_md   = datetime.now(kst).strftime('%m.%d')
     today_full = datetime.now(kst).strftime('%Y-%m-%d')
+    # 전량 현금화 → 6개 타겟 자산 모두 0
+    cleared_holdings = {t: 0 for t in ['QQQ', 'SOXX', 'EWY', 'TQQQ', 'SOXL', 'KORU']}
     new_master = {
         **master_data,
         'date':      today_md,
         'ratio_raw': '100:0:0',
         'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 전량 청산',
+        'holdings':  cleared_holdings,
     }
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
