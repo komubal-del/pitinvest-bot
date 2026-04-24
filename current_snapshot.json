@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T19:26:26.693285+09:00",
+  "timestamp": "2026-04-24T20:42:34.808140+09:00",
   "sentiment": {
     "cnn_fng": 66.6857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null
   },
   "volatility": {
-    "vix": 19.32,
+    "vix": 18.5,
     "vvix": 98.57,
     "skew": 139.59,
     "move": 67.7
@@ -23,7 +23,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -1144300000000,
     "retail_net_buy_krw": 1183200000000,
-    "margin_loan_krw": null,
+    "margin_loan_krw": 34387400000000,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
   },
@@ -37,6 +37,11 @@
       "current": 6475.63,
       "high_52w": 6557.76,
       "drop_pct": -1.25
+    },
+    "kosdaq": {
+      "current": 1203.84,
+      "high_52w": 1215.67,
+      "drop_pct": -0.97
     },
     "sp500": {
       "current": 7108.4,
@@ -58,7 +63,7 @@
     "XLK": 1.042,
     "SMH": 1.178,
     "BOTZ": 0.942,
-    "ARKK": 0.933,
+    "IGV": 0.825,
     "XLF": 0.951,
     "XLE": 1.136
   },
