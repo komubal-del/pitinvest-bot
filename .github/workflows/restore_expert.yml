@@ -1,0 +1,42 @@
+name: Restore Expert Analysis (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: 'YouTube Video ID (주소 watch?v= 뒤 11자)'
+        required: true
+      title:
+        description: '영상 제목 (선택 · 비우면 "Video <id>")'
+        required: false
+      published:
+        description: '발행일 YYYY-MM-DD (선택 · 비우면 오늘)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Restore
+        env:
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          VIDEO_ID:        ${{ inputs.video_id }}
+          VIDEO_TITLE:     ${{ inputs.title }}
+          VIDEO_PUBLISHED: ${{ inputs.published }}
+        run: python restore_expert.py
+      - name: Commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add expert_analysis_cache.json
+          git diff --staged --quiet || git commit -m "🎙️ 전문가 분석 수동 복구: ${{ inputs.video_id }} [skip ci]"
+          git push
