@@ -39,6 +39,10 @@ CYCLE_RESETS = {
 KNOWN_CNN_INTRADAY_TRIGGERS = {
     '2026-03-23',
 }
+# 강제청산 (반대매매 뉴스 + 개미 1조+ 매도) — 백필 구간엔 수동 기록
+KNOWN_MARGIN_INTRADAY_TRIGGERS = {
+    '2026-03-30',
+}
 
 
 def fetch_cnn_history():
@@ -156,9 +160,11 @@ def build_history(output_path='pitinvest_history.csv'):
         row['vix_trigger']    = 1 if vix_high_val is not None and vix_high_val > 25 else 0
         row['margin_trigger'] = 0  # 백필 불가 (과거는 0, 오늘부터 수집)
 
-        # 장중 CNN < 10 수동 보정
+        # 장중 수동 보정
         if date in KNOWN_CNN_INTRADAY_TRIGGERS:
             row['cnn_trigger'] = 1
+        if date in KNOWN_MARGIN_INTRADAY_TRIGGERS:
+            row['margin_trigger'] = 1
 
         row['signal_count'] = row['cnn_trigger'] + row['vix_trigger'] + row['margin_trigger']
 

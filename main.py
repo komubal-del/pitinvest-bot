@@ -422,8 +422,8 @@ def compute_theoretical_avg(history_rows, ticker):
         if mg and not slots['margin']:
             pct += 20; slots['margin'] = True
 
-        # 3개 동시 트리거 → 매일 +5%p
-        if c and v and mg:
+        # 3개 슬롯 모두 충족되면 → 100% 될 때까지 매일 +5%p
+        if slots['cnn'] and slots['vix'] and slots['margin']:
             pct += 5
 
         if pct <= 0:
@@ -454,22 +454,13 @@ def compute_theoretical_avg(history_rows, ticker):
 
 
 def compute_leverage_profit_v2(exit_settings, history_rows):
-    """실제 평단 있으면 사용, 없으면 이론 평단."""
+    """이론 평단(백테스팅)만 사용 — 수동 입력 제거, 완전 자동화."""
     result = {}
-    tickers = {
-        'tqqq': ('TQQQ', exit_settings.get('tqqq_avg', 0)),
-        'soxl': ('SOXL', exit_settings.get('soxl_avg', 0)),
-        'koru': ('KORU', exit_settings.get('koru_avg', 0)),
-    }
-    for key, (ticker, actual) in tickers.items():
+    tickers = {'tqqq': 'TQQQ', 'soxl': 'SOXL', 'koru': 'KORU'}
+    for key, ticker in tickers.items():
         theoretical = compute_theoretical_avg(history_rows, ticker)
-
-        if actual and actual > 0:
-            used, source = actual, 'actual'
-        elif theoretical:
-            used, source = theoretical, 'theoretical'
-        else:
-            used, source = None, 'none'
+        used   = theoretical
+        source = 'theoretical' if theoretical else 'none'
 
         profit = None
         if used:
@@ -483,7 +474,6 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
 
         result[f'{key}_profit_pct']      = profit
         result[f'{key}_avg_used']        = used
-        result[f'{key}_avg_actual']      = actual if actual and actual > 0 else None
         result[f'{key}_avg_theoretical'] = theoretical
         result[f'{key}_avg_source']      = source
 
