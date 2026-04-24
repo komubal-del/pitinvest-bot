@@ -431,14 +431,60 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     }
 
 
+def _compute_monthly_breakdown(daily_series):
+    """daily_series [{date, ret_pct}] → 월별 {month, return_pct, end_ret_pct, max_dd_pct}."""
+    if not daily_series:
+        return []
+    from collections import defaultdict
+    by_month = defaultdict(list)
+    for d in daily_series:
+        date = d.get('date')
+        if not date or len(date) < 7:
+            continue
+        by_month[date[:7]].append(d)
+
+    out = []
+    prev_end = 0.0
+    for month in sorted(by_month.keys()):
+        days = by_month[month]
+        if not days:
+            continue
+        # 이 달 시작 시점 누적 = 이전 달 끝 (첫 달은 0)
+        start_cum = prev_end
+        end_cum = days[-1]['ret_pct']
+        # 월 내 MDD: 해당 달의 일별 시리즈를 "월 시작 대비 상대" 로 계산
+        # 방법: 월 내 peak 대비 trough 최대 하락
+        rel = [(d['ret_pct'] - start_cum) for d in days]
+        peak = rel[0]
+        max_dd = 0.0
+        for r in rel:
+            if r > peak:
+                peak = r
+            dd = peak - r  # 양수
+            if dd > max_dd:
+                max_dd = dd
+        # 월 수익률 (복리 근사): end_cum - start_cum 을 그대로 월 변화량으로 씀
+        month_change = end_cum - start_cum
+        out.append({
+            'month':       month,
+            'return_pct':  round(month_change, 2),
+            'end_ret_pct': round(end_cum, 2),
+            'max_dd_pct':  round(max_dd, 2),
+        })
+        prev_end = end_cum
+    return out
+
+
 def _build_ytd_returns(history_rows):
     """구덩이 매매법 YTD 백테스트 결과 → snapshot.ytd_returns 구조."""
     if not history_rows:
-        return {"strategy_pct": None, "daily_series": [], "calc_note": "CSV 데이터 없음"}
+        return {"strategy_pct": None, "daily_series": [], "monthly_breakdown": [], "calc_note": "CSV 데이터 없음"}
     bt = backtest_strategy(history_rows, start_date='2026-01-01')
+    daily = bt.get('daily_series', [])
     return {
         "strategy_pct": bt.get('final_return_pct'),
-        "daily_series": bt.get('daily_series', []),
+        "daily_series": daily,
+        "monthly_breakdown": _compute_monthly_breakdown(daily),
         "calc_note":    "평시: 코어(QQQ/SOXX/EWY 균등 1/3) · 매수 신호 시 위성(TQQQ/SOXL/KORU 균등 1/3)으로 %p만큼 이동 · 매도 3조건 or 긴급탈출 시 전량 현금화",
     }
 
