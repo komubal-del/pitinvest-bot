@@ -1,0 +1,31 @@
+name: Process Upload
+
+on:
+  push:
+    paths:
+      - 'incoming/**'
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Process uploads
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python process_uploads.py
+      - name: Commit results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add master_data.json journal.csv exit_settings.json incoming/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "📸 포지션 업로드 처리 [skip ci]"
+          git push
