@@ -39,7 +39,10 @@ def process_one(path):
 
     stage = read_current_stage()
     fname = os.path.basename(path)
-    notes = ''   # Gemini가 메모까지는 못 뽑음. 빈값.
+    # 커밋 메시지 body = 사용자가 업로드 모달에 입력한 메모
+    commit_msg = os.environ.get('COMMIT_MSG', '')
+    parts = commit_msg.split('\n', 1)
+    notes = parts[1].strip() if len(parts) > 1 else ''
 
     holdings_map = {t: 0 for t in ALL_TARGET_TICKERS}
     for h in core + sat:

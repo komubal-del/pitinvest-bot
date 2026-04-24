@@ -21,6 +21,7 @@ jobs:
       - name: Process uploads
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          COMMIT_MSG:     ${{ github.event.head_commit.message }}
         run: python process_uploads.py
       - name: Commit results
         run: |
