@@ -258,6 +258,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     else:
         leverage = compute_leverage_profit(exit_settings)
     leading, leading_detail = check_kr_leading_stocks()
+    expert_result = analyze_experts_daily()  # 하루 1회 Gemini 분석 (캐시 기반)
 
     # VKOSPI는 fetch_market()이 이미 수집 → market_data 통해 전달받음
     vol = dict(ext["volatility"])
@@ -297,9 +298,16 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
         "sell_signals": {
             "leading_stock_rising_3d": leading,
             "leading_detail": leading_detail,
-            "expert_warning": exit_settings.get("expert_sell_view", False),
+            # 전문가 경고: Gemini 자동 판정 (실패 시 수동 fallback)
+            "expert_warning": bool(expert_result.get('expert_warning', False))
+                              or exit_settings.get("expert_sell_view", False),
+            "expert_videos_analyzed": len(expert_result.get('videos', [])),
+            "expert_source": 'auto_gemini' if expert_result.get('videos') else (
+                'manual' if exit_settings.get("expert_sell_view") else 'none'
+            ),
             "retail_net_buy_positive": (market_data.get("retail_net_buy_krw", 0) or 0) > 0,
         },
+        "expert_analysis": expert_result,
         "recommended_action": market_data.get("recommended_action", "평시 유지"),
     }
 
@@ -476,6 +484,176 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
         result[f'{key}_avg_used']        = used
         result[f'{key}_avg_theoretical'] = theoretical
         result[f'{key}_avg_source']      = source
+
+    return result
+
+
+# 🎙️ 4-quad. 전문가 경고 자동화 (YouTube RSS + Gemini API)
+CHANNEL_ID_SAMPRO = 'UChlv4GSd7OQl3js-jkLOnFA'  # 삼프로TV_경제의신과함께
+TARGET_EXPERTS = ('박병창', '윤지호')
+EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
+GEMINI_MODEL_NAME = 'gemini-2.0-flash'  # 무료 한도 넉넉한 빠른 모델
+
+
+def fetch_channel_rss(channel_id=CHANNEL_ID_SAMPRO):
+    """유튜브 채널 RSS → XML root"""
+    import xml.etree.ElementTree as ET
+    url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
+    res = requests.get(url, timeout=10)
+    res.raise_for_status()
+    return ET.fromstring(res.content)
+
+
+def parse_rss(root):
+    """RSS root → [{video_id, title, published, url}, ...]"""
+    ns = {
+        'atom': 'http://www.w3.org/2005/Atom',
+        'yt':   'http://www.youtube.com/xml/schemas/2015',
+    }
+    out = []
+    for entry in root.findall('atom:entry', ns):
+        vid = entry.find('yt:videoId', ns)
+        title = entry.find('atom:title', ns)
+        pub = entry.find('atom:published', ns)
+        if vid is None or title is None:
+            continue
+        out.append({
+            'video_id': vid.text,
+            'title':    title.text,
+            'published': pub.text if pub is not None else '',
+            'url':      f'https://youtube.com/watch?v={vid.text}',
+        })
+    return out
+
+
+def filter_expert_videos(videos, experts=TARGET_EXPERTS):
+    """제목에 지정 전문가 이름이 포함된 영상만"""
+    return [v for v in videos if any(e in v['title'] for e in experts)]
+
+
+def get_transcript_safe(video_id):
+    """youtube-transcript-api v1.x 로 한국어 자막 추출. 실패 시 None."""
+    try:
+        from youtube_transcript_api import YouTubeTranscriptApi
+        api = YouTubeTranscriptApi()
+        fetched = api.fetch(video_id, languages=['ko'])
+        return ' '.join(snippet.text for snippet in fetched)
+    except Exception as e:
+        print(f"[transcript] {video_id} fail: {e}")
+        return None
+
+
+def analyze_with_gemini(text, title, has_transcript):
+    """Gemini 2.0 Flash로 전문가 시장 입장 판정.
+    반환: {stance: 'warning|bullish|neutral|unknown', reason: str}"""
+    api_key = os.environ.get('GEMINI_API_KEY', '')
+    if not api_key:
+        return {'stance': 'unknown', 'reason': 'GEMINI_API_KEY 미설정', 'error': 'no_key'}
+
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel(GEMINI_MODEL_NAME)
+
+        source_desc = "영상 자막" if has_transcript else "영상 제목만 (자막 없음 → 정확도 낮음)"
+        prompt = f"""다음은 한국 주식 전문가의 {source_desc}입니다.
+
+제목: {title}
+
+[내용]
+{text}
+
+이 전문가가 현재 주식 시장에 대해 어떤 입장인지 판단해주세요:
+- "warning": 명확히 매도/비중축소/위험 경고 (고점·조정·리스크 강조)
+- "bullish": 매수 기회·저점·반등 강조
+- "neutral": 단순 설명이나 중립적 톤
+
+JSON 단일 객체로만 답하세요. 다른 텍스트·코드블록·설명 금지.
+형식: {{"stance": "warning|bullish|neutral", "reason": "핵심 근거 한 문장"}}"""
+
+        response = model.generate_content(prompt)
+        text_out = (response.text or '').strip()
+
+        # 마크다운 코드블록 제거
+        if text_out.startswith('```'):
+            parts = text_out.split('```')
+            if len(parts) >= 2:
+                text_out = parts[1]
+                if text_out.lower().startswith('json'):
+                    text_out = text_out[4:]
+                text_out = text_out.strip()
+
+        verdict = json.loads(text_out)
+        stance = verdict.get('stance', 'unknown')
+        if stance not in ('warning', 'bullish', 'neutral'):
+            stance = 'unknown'
+        return {'stance': stance, 'reason': verdict.get('reason', '')}
+    except Exception as e:
+        print(f"[Gemini] fail: {e}")
+        return {'stance': 'unknown', 'reason': '분석 실패', 'error': str(e)}
+
+
+def analyze_experts_daily():
+    """하루 1회 전문가 영상 분석. 캐시 기반 (같은 날 재호출 시 캐시 사용)."""
+    today = datetime.now(kst).strftime('%Y-%m-%d')
+
+    # 캐시 히트
+    if os.path.isfile(EXPERT_CACHE_PATH):
+        try:
+            with open(EXPERT_CACHE_PATH, encoding='utf-8') as f:
+                cache = json.load(f)
+            if cache.get('date') == today:
+                print(f"✅ 전문가 분석 캐시 히트 ({today})")
+                return cache
+        except Exception as e:
+            print(f"[expert cache] load fail: {e}")
+
+    # 새 분석
+    print(f"🎙️  전문가 영상 분석 시작 ({today})")
+    result = {
+        'date': today,
+        'analyzed_at': datetime.now(kst).isoformat(),
+        'experts_queried': list(TARGET_EXPERTS),
+        'expert_warning': False,
+        'videos': [],
+        'error': None,
+    }
+
+    try:
+        root = fetch_channel_rss()
+        all_videos = parse_rss(root)
+        expert_videos = filter_expert_videos(all_videos)[:5]
+        print(f"  - RSS에서 {len(all_videos)}개 중 전문가 영상 {len(expert_videos)}개 매칭")
+    except Exception as e:
+        print(f"[expert RSS] fail: {e}")
+        result['error'] = f'RSS fail: {e}'
+        expert_videos = []
+
+    for v in expert_videos:
+        transcript = get_transcript_safe(v['video_id'])
+        has_transcript = bool(transcript)
+        text = transcript[:8000] if transcript else v['title']
+        analysis = analyze_with_gemini(text, v['title'], has_transcript)
+        result['videos'].append({
+            **v,
+            'transcript_available': has_transcript,
+            'analysis': analysis,
+        })
+        print(f"  - [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']}")
+
+    # 종합 판정: warning 하나라도 있으면 경고 발동
+    result['expert_warning'] = any(
+        v.get('analysis', {}).get('stance') == 'warning'
+        for v in result['videos']
+    )
+
+    # 캐시 저장
+    try:
+        with open(EXPERT_CACHE_PATH, 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"✅ 전문가 분석 캐시 저장 (경고 = {result['expert_warning']})")
+    except Exception as e:
+        print(f"[expert cache save] fail: {e}")
 
     return result
 

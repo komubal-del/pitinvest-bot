@@ -2,3 +2,6 @@ requests
 beautifulsoup4
 yfinance
 pytz
+pandas
+google-generativeai
+youtube-transcript-api
