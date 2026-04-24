@@ -597,14 +597,21 @@ def analyze_experts_daily():
     """하루 1회 전문가 영상 분석. 캐시 기반 (같은 날 재호출 시 캐시 사용)."""
     today = datetime.now(kst).strftime('%Y-%m-%d')
 
-    # 캐시 히트
+    # 캐시 히트 (단, 최소 1개 영상은 정상 판정돼야 유효 — 에러만 있으면 재시도)
     if os.path.isfile(EXPERT_CACHE_PATH):
         try:
             with open(EXPERT_CACHE_PATH, encoding='utf-8') as f:
                 cache = json.load(f)
             if cache.get('date') == today:
-                print(f"✅ 전문가 분석 캐시 히트 ({today})")
-                return cache
+                videos = cache.get('videos') or []
+                valid = any(
+                    v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
+                    for v in videos
+                )
+                if valid or not videos:  # 정상 판정 하나라도 있거나, 아예 영상 없었으면 유효
+                    print(f"✅ 전문가 분석 캐시 히트 ({today})")
+                    return cache
+                print(f"⚠️  캐시 있으나 전부 분석 실패 → 재시도")
         except Exception as e:
             print(f"[expert cache] load fail: {e}")
 
