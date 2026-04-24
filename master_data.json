@@ -4,5 +4,14 @@
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "04-25 스크린샷 · TQQQ:40M, KORU:38M, SOXL:40M"
+    "memo": "04-25 스크린샷 · TQQQ:40M, KORU:38M, SOXL:40M",
+    "holdings": {
+        "QQQ": 0,
+        "SOXX": 0,
+        "EWY": 0,
+        "TQQQ": 40508149,
+        "SOXL": 40160534,
+        "KORU": 38717690
+    },
+    "total_krw": 119355560
 }
