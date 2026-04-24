@@ -339,45 +339,46 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     prev_stage = load_prev_stage_key('pitinvest_history.csv')
     is_new_change = (prev_stage != raw_stage)
 
-    # --- 액션 계산 ---
-    # 전날과 상태 동일 → 평시 운용으로 표기 (emergency만 예외: 매일 경고 유지)
-    if not is_new_change and raw_stage != 'emergency':
-        display_stage = 'normal'
-        action = "✅ 평시 유지 · 전일 상태 지속 (추가 액션 없음)"
-    elif raw_stage == 'emergency':
-        display_stage = 'emergency'
-        action = "🚨 긴급탈출 · 전량 현금화"
+    # --- 액션 계산 (라벨은 항상 raw_stage 그대로) ---
+    display_stage = raw_stage
+
+    # stage별 구체적 액션
+    if raw_stage == 'emergency':
+        specific_action = "🚨 긴급탈출 · 전량 현금화"
     elif raw_stage == 'reset':
-        display_stage = 'reset'
-        action = "♻️ 매도 3조건 모두 충족 · 자동 리셋 완료 · 다음 구덩이 대기"
+        specific_action = "♻️ 매도 3조건 모두 충족 · 자동 리셋 완료 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
-        display_stage = 'sell_near'
-        action = "📉 위성 비중 축소 준비 · 마지막 매도 조건 임박"
+        specific_action = "📉 위성 비중 축소 준비 · 마지막 매도 조건 임박"
     elif raw_stage == 'exit':
-        display_stage = 'exit'
         if leverage_over:
-            action = f"📉 {'/'.join(over_tickers)} 50% 매도하여 코어로 이동"
+            specific_action = f"📉 {'/'.join(over_tickers)} 50% 매도하여 코어로 이동"
         elif sell_leading_fired:
-            action = "📉 삼전/하닉 주도주 상승 · 위성 비중 −20%p 축소"
+            specific_action = "📉 삼전/하닉 주도주 상승 · 위성 비중 −20%p 축소"
         else:
-            action = "📉 전문가 경고 · 매일 위성 −5%p 점진 축소"
+            specific_action = "📉 전문가 경고 · 매일 위성 −5%p 점진 축소"
     elif raw_stage == 'full':
-        display_stage = 'full'
-        action = "📈 매수 3조건 모두 충족 · 매일 +5%p 매수 (100% 도달까지)"
+        specific_action = "📈 매수 3조건 모두 충족 · 매일 +5%p 매수 (100% 도달까지)"
     elif raw_stage == 'deepening':
-        display_stage = 'deepening'
         active = []
         if cnn_fired:    active.append("CNN<10")
         if vix_fired:    active.append("VIX>25")
         if margin_fired: active.append("강제청산")
-        action = f"📈 매수 2조건 ({' + '.join(active)}) 충족 · 빈 슬롯 +20%p 매수"
+        specific_action = f"📈 매수 2조건 ({' + '.join(active)}) 충족 · 빈 슬롯 +20%p 매수"
     elif raw_stage == 'entry':
-        display_stage = 'entry'
         slot = "CNN<10" if cnn_fired else ("VIX>25" if vix_fired else "강제청산")
-        action = f"📈 {slot} 슬롯 +20%p 매수"
+        specific_action = f"📈 {slot} 슬롯 +20%p 매수"
     else:  # 'normal'
-        display_stage = 'normal'
-        action = "✅ 평시 유지 · 다음 구덩이 대기"
+        specific_action = "✅ 평시 유지 · 다음 구덩이 대기"
+
+    # 전일 동일 + emergency/normal 제외 → 지속 안내 (구체 액션 suppress)
+    if not is_new_change and raw_stage not in ('emergency', 'normal'):
+        _short = {
+            'reset': '자동 리셋', 'sell_near': '매도 임박', 'exit': '구덩이 탈출',
+            'full': '구덩이 충족', 'deepening': '구덩이 심화', 'entry': '구덩이 진입',
+        }
+        action = f"✅ 전일 {_short.get(raw_stage, raw_stage)} 상태 지속 · 추가 액션 없음"
+    else:
+        action = specific_action
 
     return {
         "timestamp": now,
