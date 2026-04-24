@@ -61,14 +61,16 @@ def gemini_parse_screenshot(image_path):
 다음 정보를 JSON으로 정확히 추출하세요:
 - total_krw: 총자산 (원화 숫자, 콤마 제거)
 - total_eval_krw: 평가금액 합계 (원화)
-- holdings: 보유 종목 배열. 각 항목은 {ticker, eval_krw}
-  · ticker: 영문 티커 심볼 (TQQQ, KORU, SOXL, QQQ, SOXX, EWY 등). 한글 종목명에서 영문 티커를 추정하세요.
-  · eval_krw: 해당 종목의 평가금액(원)
+- holdings: 보유 종목 배열. 각 항목:
+  · ticker: 영문 티커 (TQQQ, KORU, SOXL, QQQ, SOXX, EWY 등). 한글 종목명에서 영문 티커를 추정하세요.
+  · eval_krw: 평가금액(원)
+  · avg_cost_usd: 매입가 (달러 · 외화 평균단가). 화면에 "매입가(외)" 또는 소수점 2~4자리 숫자로 보이는 값.
+  · current_price_usd: 현재가 (달러). "현재가(외)" 값.
 
 JSON 외 다른 텍스트·설명·마크다운·코드블록 포함 금지. 한 줄 JSON으로 출력하세요.
 
 예시:
-{"total_krw":119355560,"total_eval_krw":119386373,"holdings":[{"ticker":"TQQQ","eval_krw":40508149},{"ticker":"KORU","eval_krw":38717690},{"ticker":"SOXL","eval_krw":40160534}]}"""
+{"total_krw":119355560,"total_eval_krw":119386373,"holdings":[{"ticker":"TQQQ","eval_krw":40508149,"avg_cost_usd":59.31,"current_price_usd":61.62},{"ticker":"KORU","eval_krw":38717690,"avg_cost_usd":500.00,"current_price_usd":523.00},{"ticker":"SOXL","eval_krw":40160534,"avg_cost_usd":123.72,"current_price_usd":126.75}]}"""
 
     response = model.generate_content([
         {'mime_type': mime, 'data': image_bytes},
@@ -85,14 +87,26 @@ JSON 외 다른 텍스트·설명·마크다운·코드블록 포함 금지. 한
     return json.loads(text)
 
 
+def _safe_float(v):
+    try:
+        f = float(v)
+        return f if f > 0 else None
+    except (ValueError, TypeError):
+        return None
+
+
 def classify_holdings(holdings):
     core, sat, other = [], [], []
     for h in holdings or []:
         t = str(h.get('ticker', '')).upper().strip()
         if not t:
             continue
-        eval_krw = int(h.get('eval_krw') or 0)
-        entry = {'ticker': t, 'eval_krw': eval_krw}
+        entry = {
+            'ticker':            t,
+            'eval_krw':          int(h.get('eval_krw') or 0),
+            'avg_cost_usd':      _safe_float(h.get('avg_cost_usd')),
+            'current_price_usd': _safe_float(h.get('current_price_usd')),
+        }
         if t in CORE_TICKERS:
             core.append({**entry, 'category': 'core'})
         elif t in SAT_TICKERS:
@@ -100,6 +114,23 @@ def classify_holdings(holdings):
         else:
             other.append({**entry, 'category': 'other'})
     return core, sat, other
+
+
+def update_exit_settings(sat_holdings, exit_path='exit_settings.json'):
+    """위성 종목의 평균단가를 exit_settings.json 에 업데이트 (웹 '위성 평균단가' 카드용)."""
+    try:
+        with open(exit_path, encoding='utf-8') as f:
+            cfg = json.load(f)
+    except Exception:
+        cfg = {}
+    for h in sat_holdings:
+        key = f"{h['ticker'].lower()}_avg"
+        avg = h.get('avg_cost_usd')
+        if avg:
+            cfg[key] = round(float(avg), 4)
+    with open(exit_path, 'w', encoding='utf-8') as f:
+        json.dump(cfg, f, ensure_ascii=False, indent=4)
+    return cfg
 
 
 def read_current_stage(snapshot_path='current_snapshot.json'):
@@ -194,7 +225,10 @@ def main():
     print("  보유 종목:")
     for h in core + sat:
         icon = '🛡️ ' if h['category'] == 'core' else '🚀'
-        print(f"    {icon} {h['ticker']:<6}  {fmt_krw(h['eval_krw']):>15}원")
+        avg = h.get('avg_cost_usd')
+        cur = h.get('current_price_usd')
+        extra = f"  @${avg:.2f} → ${cur:.2f}" if avg and cur else ""
+        print(f"    {icon} {h['ticker']:<6}  {fmt_krw(h['eval_krw']):>15}원{extra}")
     if other:
         print(f"  ⚠️  전략 외 종목 {len(other)}개 (other):")
         for h in other:
@@ -212,6 +246,7 @@ def main():
     )
 
     update_master_data(rc, ro, rs, notes)
+    update_exit_settings(sat)
     append_journal_row({
         'date':             datetime.now(kst).strftime('%Y-%m-%d'),
         'timestamp':        datetime.now(kst).isoformat(),
