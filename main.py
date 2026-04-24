@@ -131,6 +131,151 @@ def check_exit_strategy():
 
 exit_100, profit_detail, s_up, h_up = check_exit_strategy()
 
+# 📸 4-bis. 웹 대시보드용 snapshot 생성 함수들
+def fetch_extended_market():
+    """웹 대시보드용 확장 데이터 (변동성/지수/섹터 RS)"""
+    result = {"volatility": {}, "indices": {}, "sector_rs": {}}
+
+    vol_tickers = {"vix": "^VIX", "vvix": "^VVIX", "skew": "^SKEW", "move": "^MOVE"}
+    for key, ticker in vol_tickers.items():
+        try:
+            hist = yf.Ticker(ticker).history(period="5d")
+            if not hist.empty:
+                result["volatility"][key] = round(float(hist["Close"].iloc[-1]), 2)
+        except Exception as e:
+            print(f"[vol] {key} fail: {e}")
+
+    idx_tickers = {
+        "nasdaq": "^IXIC", "kospi": "^KS11", "sp500": "^GSPC",
+        "russell2k": "^RUT", "soxx": "SOXX",
+    }
+    for key, ticker in idx_tickers.items():
+        try:
+            hist = yf.Ticker(ticker).history(period="1y")
+            if not hist.empty:
+                current = float(hist["Close"].iloc[-1])
+                high_52w = float(hist["High"].max())
+                drop_pct = (current / high_52w - 1) * 100
+                result["indices"][key] = {
+                    "current": round(current, 2),
+                    "high_52w": round(high_52w, 2),
+                    "drop_pct": round(drop_pct, 2),
+                }
+        except Exception as e:
+            print(f"[idx] {key} fail: {e}")
+
+    try:
+        spy = yf.Ticker("SPY").history(period="3mo")
+        spy_ret = (spy["Close"].iloc[-1] / spy["Close"].iloc[0]) if not spy.empty else 1.0
+        for tkr in ["XLK", "SMH", "BOTZ", "ARKK", "XLF", "XLE"]:
+            try:
+                h = yf.Ticker(tkr).history(period="3mo")
+                if not h.empty and spy_ret:
+                    sec_ret = h["Close"].iloc[-1] / h["Close"].iloc[0]
+                    result["sector_rs"][tkr] = round(float(sec_ret / spy_ret), 3)
+            except Exception as e:
+                print(f"[sector] {tkr} fail: {e}")
+    except Exception as e:
+        print(f"[sector base] fail: {e}")
+
+    return result
+
+
+def fetch_cnn_components():
+    # TODO: CNN Data Biz API 응답 파싱 필요 (현재는 placeholder)
+    return {
+        "momentum": None, "strength": None, "breadth": None,
+        "put_call": None, "junk_bond": None, "volatility": None, "safe_haven": None,
+    }
+
+
+def compute_leverage_profit(exit_settings):
+    result = {}
+    pairs = {
+        "tqqq_profit_pct": ("TQQQ", exit_settings.get("tqqq_avg", 0)),
+        "soxl_profit_pct": ("SOXL", exit_settings.get("soxl_avg", 0)),
+        "koru_profit_pct": ("KORU", exit_settings.get("koru_avg", 0)),
+    }
+    for key, (ticker, avg) in pairs.items():
+        if not avg or avg <= 0:
+            result[key] = None
+            continue
+        try:
+            hist = yf.Ticker(ticker).history(period="5d")
+            if hist.empty:
+                result[key] = None
+                continue
+            current = float(hist["Close"].iloc[-1])
+            result[key] = round((current / avg - 1) * 100, 2)
+        except Exception as e:
+            print(f"[leverage] {ticker} fail: {e}")
+            result[key] = None
+    return result
+
+
+def check_leading_stock_rising(ticker="SMH", days=3):
+    try:
+        hist = yf.Ticker(ticker).history(period="10d")
+        if len(hist) < days + 1:
+            return None
+        closes = hist["Close"].tail(days + 1).values
+        return all(closes[i + 1] > closes[i] for i in range(days))
+    except Exception as e:
+        print(f"[leading] fail: {e}")
+        return None
+
+
+def build_snapshot(market_data, exit_settings, cnn_value, signals_count):
+    """웹 대시보드(index.html)가 읽는 current_snapshot.json 구조 생성"""
+    now = datetime.now(kst).isoformat()
+    ext = fetch_extended_market()
+    leverage = compute_leverage_profit(exit_settings)
+    leading = check_leading_stock_rising("SMH", 3)
+
+    return {
+        "timestamp": now,
+        "sentiment": {
+            "cnn_fng": cnn_value,
+            "cnn_components": fetch_cnn_components(),
+            "put_call_ratio": None,
+            "aaii_bull_bear_spread": None,
+        },
+        "volatility": ext["volatility"],
+        "korea_flow": {
+            "foreign_inst_buy_krw": market_data.get("foreign_inst_buy_krw"),
+            "retail_net_buy_krw": market_data.get("retail_net_buy_krw"),
+            "margin_loan_krw": None,
+            "short_sale_balance": None,
+            "foreign_ownership_pct": None,
+        },
+        "indices": ext["indices"],
+        "sector_rs": ext["sector_rs"],
+        "signals": {
+            "cnn_under_10": (cnn_value is not None and cnn_value < 10),
+            "vix_over_25": (ext["volatility"].get("vix", 0) > 25),
+            "margin_call_trigger": market_data.get("margin_call_triggered", False),
+            "count": signals_count,
+            "emergency_exit_warning": any(
+                (v.get("drop_pct", 0) or 0) <= -9.0
+                for v in ext["indices"].values()
+            ),
+        },
+        "leverage_profit": leverage,
+        "sell_signals": {
+            "leading_stock_rising_3d": leading,
+            "expert_warning": exit_settings.get("expert_sell_view", False),
+            "retail_net_buy_positive": (market_data.get("retail_net_buy_krw", 0) or 0) > 0,
+        },
+        "recommended_action": market_data.get("recommended_action", "평시 유지"),
+    }
+
+
+def save_snapshot(snapshot):
+    with open("current_snapshot.json", "w", encoding="utf-8") as f:
+        json.dump(snapshot, f, ensure_ascii=False, indent=2)
+    print("✅ current_snapshot.json 저장 완료")
+
+
 # 🤖 5. 지능형 판단
 c_ok = 'O' if (master['cnn'] == 'O' or m[10] <= 10) else 'X'
 v_ok = 'O' if (master['vix'] == 'O' or m[8] > 25) else 'X'
@@ -170,6 +315,21 @@ report = f"""✅ Pitinvest 통합 관제 리포트 ({date_str})
 ==============================="""
 
 requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", json={"chat_id": CHAT_ID, "text": report})
+
+# 📸 7. 웹 대시보드용 snapshot 저장
+try:
+    signals_count = sum(1 for x in [c_ok, v_ok, n_ok] if x == 'O')
+    market_dict = {
+        "cnn": m[10],
+        "foreign_inst_buy_krw": int(m[11] * 1e12),
+        "retail_net_buy_krw": None,
+        "margin_call_triggered": (n_ok == 'O'),
+        "recommended_action": action,
+    }
+    snapshot = build_snapshot(market_dict, exit_set, m[10], signals_count)
+    save_snapshot(snapshot)
+except Exception as e:
+    print(f"❌ Snapshot 생성 실패: {e}")
 
 # 💾 [수정] 데이터 축적 (동일 날짜면 덮어쓰기)
 csv_filename = 'pitinvest_history.csv'
