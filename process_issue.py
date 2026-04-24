@@ -116,9 +116,10 @@ def main():
         rc = ro = rs = 0
 
     stage = read_current_stage()
-    notes = f"issue #{issue_number} · " + ', '.join(
-        f"{h['ticker']}:{h['eval_krw']//1_000_000}M" for h in core + sat
-    )
+    # 이슈 본문에서 이미지 마크다운 제거 후 남는 텍스트를 메모로 사용
+    clean_body = re.sub(r'!\[[^\]]*\]\([^)]+\)', '', issue_body or '').strip()
+    clean_body = re.sub(r'<img[^>]+>', '', clean_body).strip()
+    notes = clean_body[:200] if clean_body else ''
 
     # 6개 타겟 자산 eval_krw 맵
     holdings_map = {t: 0 for t in ALL_TARGET_TICKERS}

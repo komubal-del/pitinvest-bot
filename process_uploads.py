@@ -39,9 +39,7 @@ def process_one(path):
 
     stage = read_current_stage()
     fname = os.path.basename(path)
-    notes = f"web 업로드 · " + ', '.join(
-        f"{h['ticker']}:{h['eval_krw']//1_000_000}M" for h in core + sat
-    )
+    notes = ''   # Gemini가 메모까지는 못 뽑음. 빈값.
 
     holdings_map = {t: 0 for t in ALL_TARGET_TICKERS}
     for h in core + sat:

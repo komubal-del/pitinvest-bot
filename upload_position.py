@@ -170,12 +170,25 @@ def update_master_data(ratio_cash, ratio_core, ratio_sat, notes,
 
 
 def append_journal_row(row, journal_path='journal.csv'):
-    exists = os.path.isfile(journal_path)
-    with open(journal_path, 'a', newline='', encoding='utf-8') as f:
+    """오늘 날짜 행이 이미 있으면 교체(최신 덮어쓰기), 없으면 추가. 하루에 1행만 유지."""
+    today = str(row.get('date', ''))
+    rows = []
+    if os.path.isfile(journal_path):
+        try:
+            with open(journal_path, encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for r in reader:
+                    if r.get('date') != today:
+                        rows.append(r)
+        except Exception as e:
+            print(f"[journal read] fail: {e}")
+    rows.append({k: ('' if row.get(k) is None else str(row.get(k))) for k in JOURNAL_COLS})
+    # 날짜 오름차순 정렬
+    rows.sort(key=lambda r: r.get('date', ''))
+    with open(journal_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=JOURNAL_COLS)
-        if not exists:
-            writer.writeheader()
-        writer.writerow({k: row.get(k, '') for k in JOURNAL_COLS})
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def fmt_krw(n):
@@ -248,10 +261,7 @@ def main():
         print("취소됨.")
         sys.exit(0)
 
-    notes = args.notes or (
-        f"{datetime.now(kst).strftime('%m-%d')} 스크린샷 · "
-        + ', '.join(f"{h['ticker']}:{h['eval_krw'] // 1000000}M" for h in core + sat)
-    )
+    notes = args.notes or ''   # 사용자가 --notes로 직접 입력한 메모만 기록
 
     # 6개 타겟 자산 eval_krw 맵 (보유 안 하면 0)
     holdings_map = {t: 0 for t in ALL_TARGET_TICKERS}
