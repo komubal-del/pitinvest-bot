@@ -1072,8 +1072,19 @@ def analyze_experts_daily():
             result['error'] = f'RSS fail: {e}'
             all_videos = []
 
-    expert_videos = filter_expert_videos(all_videos)[:5]
-    print(f"  - [{source}] 전체 {len(all_videos)}개 중 전문가 영상 {len(expert_videos)}개 매칭")
+    # 각 전문가(박병창·윤지호)의 최신 영상 1개씩만 선택 (AND 조건용)
+    expert_videos = []
+    seen_experts = set()
+    for v in all_videos:  # 최신순 정렬되어 있음
+        title = v.get('title', '')
+        for expert in TARGET_EXPERTS:
+            if expert in title and expert not in seen_experts:
+                expert_videos.append(v)
+                seen_experts.add(expert)
+                break
+        if len(seen_experts) == len(TARGET_EXPERTS):
+            break
+    print(f"  - [{source}] 전체 {len(all_videos)}개 → 전문가별 최신 {len(expert_videos)}개 선택 ({', '.join(seen_experts)})")
 
     for v in expert_videos:
         transcript = get_transcript_safe(v['video_id'])
@@ -1087,11 +1098,20 @@ def analyze_experts_daily():
         })
         print(f"  - [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']}")
 
-    # 종합 판정: warning 하나라도 있으면 경고 발동
-    result['expert_warning'] = any(
-        v.get('analysis', {}).get('stance') == 'warning'
-        for v in result['videos']
+    # 종합 판정: 박병창 AND 윤지호 모두 'warning' (현금화 의견 일치) → True
+    expert_stance = {}
+    for v in result['videos']:
+        title = v.get('title', '')
+        stance = (v.get('analysis') or {}).get('stance', '')
+        for expert in TARGET_EXPERTS:
+            if expert in title:
+                expert_stance[expert] = stance
+                break
+    result['expert_warning'] = (
+        len(expert_stance) == len(TARGET_EXPERTS) and
+        all(s == 'warning' for s in expert_stance.values())
     )
+    result['expert_stance_map'] = expert_stance  # 각 전문가 stance 기록 (디버그/표시용)
 
     # 새 분석에 유효 판정이 하나라도 있으면 → 캐시 업데이트
     has_valid = any(
