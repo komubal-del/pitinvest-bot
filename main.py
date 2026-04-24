@@ -955,26 +955,31 @@ JSON 단일 객체로만 답하세요. 다른 텍스트·코드블록·설명 �
 
 
 def analyze_experts_daily():
-    """하루 1회 전문가 영상 분석. 캐시 기반 (같은 날 재호출 시 캐시 사용)."""
+    """하루 1회 전문가 영상 분석. 캐시 기반.
+    오늘 박병창/윤지호 영상이 없으면 기존 캐시(어제 분석)를 유지하고 _stale 마커로 반환.
+    """
     today = datetime.now(kst).strftime('%Y-%m-%d')
 
-    # 캐시 히트 (단, 최소 1개 영상은 정상 판정돼야 유효 — 에러만 있으면 재시도)
+    # 기존 캐시 먼저 로드 (fallback 용도)
+    existing_cache = None
     if os.path.isfile(EXPERT_CACHE_PATH):
         try:
             with open(EXPERT_CACHE_PATH, encoding='utf-8') as f:
-                cache = json.load(f)
-            if cache.get('date') == today:
-                videos = cache.get('videos') or []
-                valid = any(
-                    v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
-                    for v in videos
-                )
-                if valid or not videos:  # 정상 판정 하나라도 있거나, 아예 영상 없었으면 유효
-                    print(f"✅ 전문가 분석 캐시 히트 ({today})")
-                    return cache
-                print(f"⚠️  캐시 있으나 전부 분석 실패 → 재시도")
+                existing_cache = json.load(f)
         except Exception as e:
             print(f"[expert cache] load fail: {e}")
+
+    # 오늘 이미 분석이 유효하면 그대로 재사용
+    if existing_cache and existing_cache.get('date') == today:
+        videos = existing_cache.get('videos') or []
+        valid = any(
+            v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
+            for v in videos
+        )
+        if valid:
+            print(f"✅ 전문가 분석 캐시 히트 ({today})")
+            return existing_cache
+        # 오늘 분석했지만 videos 없거나 전부 에러 → 아래에서 재시도
 
     # 새 분석
     print(f"🎙️  전문가 영상 분석 시작 ({today})")
@@ -1015,14 +1020,38 @@ def analyze_experts_daily():
         for v in result['videos']
     )
 
-    # 캐시 저장
+    # 새 분석에 유효 판정이 하나라도 있으면 → 캐시 업데이트
+    has_valid = any(
+        v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
+        for v in result['videos']
+    )
+
+    if has_valid:
+        try:
+            with open(EXPERT_CACHE_PATH, 'w', encoding='utf-8') as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+            print(f"✅ 전문가 분석 캐시 저장 (경고 = {result['expert_warning']})")
+        except Exception as e:
+            print(f"[expert cache save] fail: {e}")
+        return result
+
+    # 오늘 영상이 없거나 전부 분석 실패 → 기존 캐시가 있고 유효하면 그대로 유지
+    if existing_cache and existing_cache.get('videos'):
+        any_existing_valid = any(
+            v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
+            for v in existing_cache.get('videos', [])
+        )
+        if any_existing_valid:
+            print(f"⚠️  오늘 새 분석 가능한 영상 없음 → 직전 분석 유지 ({existing_cache.get('date')})")
+            return {**existing_cache, '_stale': True, 'checked_today': today}
+
+    # 정말 아무것도 없음 → 빈 결과 저장 (최초 실행 등)
     try:
         with open(EXPERT_CACHE_PATH, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
-        print(f"✅ 전문가 분석 캐시 저장 (경고 = {result['expert_warning']})")
+        print(f"ℹ️  영상 없음 · 빈 결과 저장")
     except Exception as e:
         print(f"[expert cache save] fail: {e}")
-
     return result
 
 
