@@ -197,16 +197,55 @@ def compute_leverage_profit(exit_settings):
     return result
 
 
-def check_leading_stock_rising(ticker="SMH", days=3):
+def is_3day_up_kr(code):
+    """KOSPI 종목 최근 4일 종가 모두 상승 (3 pair all up)"""
     try:
-        hist = yf.Ticker(ticker).history(period="10d")
-        if len(hist) < days + 1:
-            return None
-        closes = hist["Close"].tail(days + 1).values
-        return all(closes[i + 1] > closes[i] for i in range(days))
+        h = yf.Ticker(f"{code}.KS").history(period="5d")['Close'].tail(4).tolist()
+        if len(h) < 4:
+            return False
+        return all(h[i + 1] > h[i] for i in range(3))
     except Exception as e:
-        print(f"[leading] fail: {e}")
-        return None
+        print(f"[3day_up {code}] fail: {e}")
+        return False
+
+
+def is_retail_buying_kr(code):
+    """네이버 매매동향에서 오늘 개인 순매수 > 0"""
+    try:
+        url = f"https://finance.naver.com/item/frgn.naver?code={code}"
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        res = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        retail_val = soup.find('table', class_='type_2').find_all('tr')[3].find_all('td')[1].text
+        return int(retail_val.replace(',', '')) > 0
+    except Exception as e:
+        print(f"[retail {code}] fail: {e}")
+        return False
+
+
+def check_kr_leading_stocks():
+    """삼전/하닉 중 하나라도 (3일 연속↑ AND 개미 순매수) → True
+    반환: (triggered: bool, detail: dict)"""
+    try:
+        sec_up     = is_3day_up_kr("005930")
+        sec_retail = is_retail_buying_kr("005930") if sec_up else False
+        hyn_up     = is_3day_up_kr("000660")
+        hyn_retail = is_retail_buying_kr("000660") if hyn_up else False
+
+        sec_ok = sec_up and sec_retail
+        hyn_ok = hyn_up and hyn_retail
+
+        return (sec_ok or hyn_ok), {
+            "samsung_3d_up": sec_up,
+            "samsung_retail_buying": sec_retail,
+            "samsung_ok": sec_ok,
+            "hynix_3d_up": hyn_up,
+            "hynix_retail_buying": hyn_retail,
+            "hynix_ok": hyn_ok,
+        }
+    except Exception as e:
+        print(f"[kr_leading] fail: {e}")
+        return False, {}
 
 
 def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history_rows=None):
@@ -218,7 +257,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
         leverage = compute_leverage_profit_v2(exit_settings, history_rows)
     else:
         leverage = compute_leverage_profit(exit_settings)
-    leading = check_leading_stock_rising("SMH", 3)
+    leading, leading_detail = check_kr_leading_stocks()
 
     # VKOSPI는 fetch_market()이 이미 수집 → market_data 통해 전달받음
     vol = dict(ext["volatility"])
@@ -257,6 +296,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
         "leverage_profit": leverage,
         "sell_signals": {
             "leading_stock_rising_3d": leading,
+            "leading_detail": leading_detail,
             "expert_warning": exit_settings.get("expert_sell_view", False),
             "retail_net_buy_positive": (market_data.get("retail_net_buy_krw", 0) or 0) > 0,
         },
