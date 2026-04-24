@@ -1,11 +1,11 @@
 {
   "date": "2026-04-25",
-  "analyzed_at": "2026-04-25T02:52:12.902230+09:00",
+  "analyzed_at": "2026-04-25T03:03:22.989905+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
   ],
-  "expert_warning": true,
+  "expert_warning": false,
   "videos": [
     {
       "video_id": "c_38QXQK8rU",
@@ -15,53 +15,26 @@
       "transcript_available": false,
       "analysis": {
         "stance": "bullish",
-        "reason": "현재 '옆으로 가는 시장'을 '상승 전 마지막 단계'로 명시하여, 현 상황이 상승장 진입을 위한 준비 단계이며 곧 상승할 것이라는 기대를 표명합니다."
+        "reason": "현재 시장을 '상승 전 마지막 단계'로 표현하며, 곧 시장이 상승할 것임을 암시하여 긍정적인 전망을 제시합니다."
       }
     },
     {
-      "video_id": "xfBYiLFi5wk",
-      "title": "\"매도했다면 미련을 버리세요\"...여러 섹터가 주도하는 진짜 강세장 대처법ㅣ박병창 교보증권 자산관리전략부 이사 [여의도 인사이트]",
-      "published": "2026-04-23T09:34:35Z",
-      "url": "https://youtube.com/watch?v=xfBYiLFi5wk",
+      "video_id": "ZNuhFy4nfyU",
+      "title": "“지금은 분산의 시대…반도체만 보면 늦는다” | 윤지호 경제평론가 [신과대화]",
+      "published": "2026-04-18T02:00:27Z",
+      "url": "https://youtube.com/watch?v=ZNuhFy4nfyU",
       "transcript_available": false,
       "analysis": {
-        "stance": "bullish",
-        "reason": "제목에서 '진짜 강세장'을 명확히 언급하며, '매도했다면 미련을 버리세요'라는 문구는 시장의 상승세를 긍정적으로 보고 매도를 후회할 수 있음을 암시합니다."
-      }
-    },
-    {
-      "video_id": "foDqLUUPJ3k",
-      "title": "예전이랑 달라진 ‘요즘’ 시장! 종목 분석 할 때가 아니다? |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
-      "published": "2026-04-23T00:23:27Z",
-      "url": "https://youtube.com/watch?v=foDqLUUPJ3k",
-      "transcript_available": false,
-      "analysis": {
-        "stance": "warning",
-        "reason": "예전과 달라진 시장에서 '종목 분석 할 때가 아니다?'라는 질문은 개별 종목 분석이 어려운 시장 상황, 즉 변동성 증가나 전반적인 시장 하락 위험에 대한 경고로 해석될 수 있습니다."
-      }
-    },
-    {
-      "video_id": "gZzQnodrvn4",
-      "title": "대한민국 슈퍼사이클…시장의 흐름은 어디로? | 박병창 이사 [마켓 인사이드]",
-      "published": "2026-04-22T00:19:01Z",
-      "url": "https://youtube.com/watch?v=gZzQnodrvn4",
-      "transcript_available": false,
-      "analysis": {
-        "stance": "neutral",
-        "reason": "제목은 '슈퍼사이클'이라는 긍정적 현상을 언급하며 시장의 흐름에 대한 분석적 질문을 던져, 특정 방향성을 제시하기보다 현상 분석 및 정보 제공에 초점을 맞추고 있습니다."
-      }
-    },
-    {
-      "video_id": "qdXszlAXM84",
-      "title": "“수급으로 오른 시장… 돌파 전 마지막 흔들림 온다” | 박병창 이사 [마켓 인사이드]",
-      "published": "2026-04-21T00:59:40Z",
-      "url": "https://youtube.com/watch?v=qdXszlAXM84",
-      "transcript_available": false,
-      "analysis": {
-        "stance": "warning",
-        "reason": "돌파 전 '마지막 흔들림 온다'는 표현은 시장에 조정이나 변동성이 임박했음을 경고하는 내용입니다."
+        "stance": "unknown",
+        "reason": "분석 실패",
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 27.823412796s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 27\n}\n]"
       }
     }
   ],
-  "error": null
+  "error": null,
+  "expert_stance_map": {
+    "박병창": "bullish",
+    "윤지호": "unknown"
+  },
+  "prompt_version": "v2-strict-warning"
 }
