@@ -1,1 +1,2 @@
 date,timestamp,source,total_krw,cash_krw,core_krw,satellite_krw,ratio_cash,ratio_core,ratio_sat,holdings_json,stage_at_capture,notes
+2026-04-25,2026-04-25T01:10:56.543732+09:00,screenshot:KakaoTalk_Photo_2026-04-25-00-07-32.png,119355560,0,0,119386373,0,0,100,"[{""ticker"": ""TQQQ"", ""eval_krw"": 40508149, ""category"": ""satellite""}, {""ticker"": ""KORU"", ""eval_krw"": 38717690, ""category"": ""satellite""}, {""ticker"": ""SOXL"", ""eval_krw"": 40160534, ""category"": ""satellite""}]",exit,"04-25 스크린샷 · TQQQ:40M, KORU:38M, SOXL:40M"
