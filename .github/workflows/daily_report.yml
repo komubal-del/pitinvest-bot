@@ -1,8 +1,8 @@
-name: Pitinvest Half-Hourly Update
+name: Pitinvest Hourly Update
 
 on:
   schedule:
-    - cron: '*/30 * * * 1-5'   # 평일 30분마다 (UTC 기준)
+    - cron: '0 * * * 1-5'   # 평일 매시 정각 (UTC 기준)
   workflow_dispatch:
 
 jobs:
