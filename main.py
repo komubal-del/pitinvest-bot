@@ -10,7 +10,8 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 21.0) 가동 중...")
+if __name__ == '__main__':
+    print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 21.0) 가동 중...")
 
 # ⏰ 1. 환경 설정
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
@@ -133,7 +134,8 @@ def fetch_market():
 
     return (nas_p, nas_dd, n_new, n_old, kos_p, kos_dd, k_new, k_old, v_max, v_now, cnn, n_buy, news, ksv, usdkrw, retail_buy, cnn_components_raw, margin_loan_krw)
 
-m = fetch_market()
+if __name__ == '__main__':
+    m = fetch_market()
 
 # 📸 4-bis. 웹 대시보드용 snapshot 생성 함수들
 def fetch_extended_market():
@@ -1461,68 +1463,69 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     print(f"✅ CSV 기록 완료 ({len(df)}행, 오늘: {today}, 매도sig={row['sell_signal_count']})")
 
 
-# 🤖 5. 지능형 판단 (현재 시점 raw 신호)
-current_cnn_trigger    = (m[10] < 10)
-current_vix_trigger    = (m[8] > 25)                           # v_max = 오늘 장중 최고
-current_margin_trigger = (m[12] >= 1 and m[15] <= -1.0)        # 반대매매 뉴스 AND 개인 1조 이상 매도
+if __name__ == '__main__':
+    # 🤖 5. 지능형 판단 (현재 시점 raw 신호)
+    current_cnn_trigger    = (m[10] < 10)
+    current_vix_trigger    = (m[8] > 25)                           # v_max = 오늘 장중 최고
+    current_margin_trigger = (m[12] >= 1 and m[15] <= -1.0)        # 반대매매 뉴스 AND 개인 1조 이상 매도
 
-# 🧲 Sticky merge — 오늘 CSV에 이미 찍힌 트리거와 OR (장중 순간 트리거 보존)
-sticky_base = load_today_triggers('pitinvest_history.csv', full_date_str)
-sticky_cnn    = sticky_base['cnn']    or current_cnn_trigger
-sticky_vix    = sticky_base['vix']    or current_vix_trigger
-sticky_margin = sticky_base['margin'] or current_margin_trigger
+    # 🧲 Sticky merge — 오늘 CSV에 이미 찍힌 트리거와 OR (장중 순간 트리거 보존)
+    sticky_base = load_today_triggers('pitinvest_history.csv', full_date_str)
+    sticky_cnn    = sticky_base['cnn']    or current_cnn_trigger
+    sticky_vix    = sticky_base['vix']    or current_vix_trigger
+    sticky_margin = sticky_base['margin'] or current_margin_trigger
 
-# 사용자 master 오버라이드도 반영 (수기 O = 강제 트리거)
-c_ok = 'O' if (master['cnn']  == 'O' or sticky_cnn)    else 'X'
-v_ok = 'O' if (master['vix']  == 'O' or sticky_vix)    else 'X'
-n_ok = 'O' if (master['news'] == 'O' or sticky_margin) else 'X'
+    # 사용자 master 오버라이드도 반영 (수기 O = 강제 트리거)
+    c_ok = 'O' if (master['cnn']  == 'O' or sticky_cnn)    else 'X'
+    v_ok = 'O' if (master['vix']  == 'O' or sticky_vix)    else 'X'
+    n_ok = 'O' if (master['news'] == 'O' or sticky_margin) else 'X'
 
-r_raw = master['ratio_raw'].split(':')
-ratio_str = f"(현금){r_raw[0]}:(코어){r_raw[1]}:(위성){r_raw[2]}"
-core_val = int(r_raw[1])
+    r_raw = master['ratio_raw'].split(':')
+    ratio_str = f"(현금){r_raw[0]}:(코어){r_raw[1]}:(위성){r_raw[2]}"
+    core_val = int(r_raw[1])
 
-# 📸 6. 웹 대시보드용 snapshot 저장 (action은 build_snapshot이 내부에서 결정)
-snapshot = None
-try:
-    signals_count = sum(1 for x in [c_ok, v_ok, n_ok] if x == 'O')
-    history_rows = load_history_rows('pitinvest_history.csv')
-    market_dict = {
-        "cnn": m[10],
-        "foreign_inst_buy_krw": int(m[11] * 1e12),
-        "retail_net_buy_krw": int(m[15] * 1e12),
-        "margin_loan_krw": m[17],
-        "news_count": m[12],
-        "cnn_components": m[16],
-        "vkospi": m[13],
-        "cnn_sticky":    sticky_cnn,
-        "vix_sticky":    sticky_vix,
-        "margin_sticky": sticky_margin,
-    }
-    snapshot = build_snapshot(market_dict, exit_set, m[10], signals_count, history_rows=history_rows)
-    save_snapshot(snapshot)
-except Exception as e:
-    print(f"❌ Snapshot 생성 실패: {e}")
-
-# 🔄 7. 매도 3조건 충족 시 자동 사이클 리셋 (master_data.json 100:0:0 덮어쓰기)
-if snapshot is not None:
+    # 📸 6. 웹 대시보드용 snapshot 저장 (action은 build_snapshot이 내부에서 결정)
+    snapshot = None
     try:
-        if auto_reset_if_sell_signals(snapshot, master):
-            # 리셋된 master 상태를 snapshot.recommended_action 에도 반영하고 재저장
-            snapshot['recommended_action'] = "🔄 자동 리셋 · 매도 3조건 충족 · 전량 청산, 다음 구덩이 대기"
-            save_snapshot(snapshot)
+        signals_count = sum(1 for x in [c_ok, v_ok, n_ok] if x == 'O')
+        history_rows = load_history_rows('pitinvest_history.csv')
+        market_dict = {
+            "cnn": m[10],
+            "foreign_inst_buy_krw": int(m[11] * 1e12),
+            "retail_net_buy_krw": int(m[15] * 1e12),
+            "margin_loan_krw": m[17],
+            "news_count": m[12],
+            "cnn_components": m[16],
+            "vkospi": m[13],
+            "cnn_sticky":    sticky_cnn,
+            "vix_sticky":    sticky_vix,
+            "margin_sticky": sticky_margin,
+        }
+        snapshot = build_snapshot(market_dict, exit_set, m[10], signals_count, history_rows=history_rows)
+        save_snapshot(snapshot)
     except Exception as e:
-        print(f"❌ auto reset 실패: {e}")
+        print(f"❌ Snapshot 생성 실패: {e}")
 
-# 🔔 8. stage 변화 시 텔레그램 알림 (CSV 업데이트 전에 실행 — prev vs current 비교)
-if snapshot is not None:
-    try:
-        send_telegram_stage_alert(snapshot)
-    except Exception as e:
-        print(f"❌ 텔레그램 알림 실패: {e}")
+    # 🔄 7. 매도 3조건 충족 시 자동 사이클 리셋 (master_data.json 100:0:0 덮어쓰기)
+    if snapshot is not None:
+        try:
+            if auto_reset_if_sell_signals(snapshot, master):
+                # 리셋된 master 상태를 snapshot.recommended_action 에도 반영하고 재저장
+                snapshot['recommended_action'] = "🔄 자동 리셋 · 매도 3조건 충족 · 전량 청산, 다음 구덩이 대기"
+                save_snapshot(snapshot)
+        except Exception as e:
+            print(f"❌ auto reset 실패: {e}")
 
-# 💾 9. CSV 기록 (새 스키마)
-if snapshot is not None:
-    try:
-        save_daily_row(snapshot, master)
-    except Exception as e:
-        print(f"❌ CSV 기록 실패: {e}")
+    # 🔔 8. stage 변화 시 텔레그램 알림 (CSV 업데이트 전에 실행 — prev vs current 비교)
+    if snapshot is not None:
+        try:
+            send_telegram_stage_alert(snapshot)
+        except Exception as e:
+            print(f"❌ 텔레그램 알림 실패: {e}")
+
+    # 💾 9. CSV 기록 (새 스키마)
+    if snapshot is not None:
+        try:
+            save_daily_row(snapshot, master)
+        except Exception as e:
+            print(f"❌ CSV 기록 실패: {e}")
