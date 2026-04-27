@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T10:45:51.405074+09:00",
+  "timestamp": "2026-04-27T13:59:47.231972+09:00",
   "sentiment": {
     "cnn_fng": 66.0285714285714,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 66.97
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 801100000000,
-    "retail_net_buy_krw": -805500000000,
+    "foreign_inst_buy_krw": 1964400000000,
+    "retail_net_buy_krw": -1953000000000,
     "margin_loan_krw": 34649300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.07
     },
     "kospi": {
-      "current": 6580.04,
-      "high_52w": 6603.01,
-      "drop_pct": -0.35
+      "current": 6653.54,
+      "high_52w": 6657.22,
+      "drop_pct": -0.06
     },
     "kosdaq": {
-      "current": 1224.35,
-      "high_52w": 1224.89,
-      "drop_pct": -0.04
+      "current": 1227.87,
+      "high_52w": 1229.42,
+      "drop_pct": -0.13
     },
     "sp500": {
       "current": 7165.08,
@@ -505,7 +505,7 @@
         "max_dd_pct": 7.3
       }
     ],
-    "calc_note": "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 or 긴급탈출 시 전량 현금화"
+    "calc_note": "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 시 전량 현금화 · 긴급탈출(−10%) 시 위성만 청산, 코어 유지"
   },
   "recommended_action": "✅ 전일 구덩이 탈출 상태 지속 · 추가 액션 없음"
 }
