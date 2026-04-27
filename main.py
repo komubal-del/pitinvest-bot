@@ -596,7 +596,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
 
     # stage별 구체적 액션
     if raw_stage == 'emergency':
-        specific_action = "🚨 긴급탈출 · 전량 현금화"
+        specific_action = "🚨 긴급탈출 · 위성 전량 청산 (코어 유지)"
     elif raw_stage == 'reset':
         specific_action = "♻️ 매도 3조건 모두 충족 · 자동 리셋 완료 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
@@ -743,7 +743,7 @@ def _build_ytd_returns(history_rows):
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
-        "calc_note":    "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 or 긴급탈출 시 전량 현금화",
+        "calc_note":    "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 시 전량 현금화 · 긴급탈출(−10%) 시 위성만 청산, 코어 유지",
     }
 
 
@@ -797,7 +797,8 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     - 기본 시작: 100% 코어 (QQQ/SOXX/EWY 균등 1/3)
     - 매수 이벤트 (슬롯 fill 또는 3종 동시 +5%p): 포트폴리오 가치의 해당 %p를 위성 (TQQQ/SOXL/KORU 균등)으로 이동
       · 자금 출처: 현금 우선, 없으면 코어 비례 매도
-    - 매도 3조건 or 긴급탈출: 전량 현금화 + 슬롯 리셋
+    - 매도 3조건: 전량 현금화 + 슬롯 리셋
+    - 긴급탈출 (−10%): 위성만 청산, 코어 유지 (V2 룰)
     - 반환: {final_return_pct, daily_series[{date, ret_pct}]}
 
     초기 배분 옵션 (default = 현재 동작 100% 보존):
@@ -844,7 +845,7 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     daily_series = []
     prev_in_emergency = False
     prev_in_sell3     = False
-    EMERGENCY_THRESHOLD = -10.0  # 강령: 52주 신고가 −10% 도달시 전량 현금화
+    EMERGENCY_THRESHOLD = -10.0  # 강령: 52주 신고가 −10% 도달시 위성만 청산 (코어 유지)
 
     def _portfolio_value(prices):
         v = cash
@@ -873,13 +874,22 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             int(float(row.get('sell_expert_trigger')   or 0))
         ) == 3
 
-        # 전이(transition) 시에만 전량 현금화 — 지속 상태면 이미 현금이므로 재청산 X
+        # 전이(transition) 시에만 청산 — 지속 상태면 이미 청산 완료
         emergency_transition = emergency_today and not prev_in_emergency
         sell3_transition     = sell3_today     and not prev_in_sell3
 
-        if emergency_transition or sell3_transition:
+        if sell3_transition:
+            # 매도 3조건 모두 충족 → 전량 현금화 (코어 + 위성)
             cash = _portfolio_value(prices)
             shares = {t: 0.0 for t in all_tickers}
+            slots = {'cnn': False, 'vix': False, 'margin': False}
+            cum_pct = 0.0
+        elif emergency_transition:
+            # 긴급탈출 -10% → 위성만 청산, 코어는 유지 (V2 룰)
+            sat_value = sum(shares[t] * prices[t] for t in sat_tickers)
+            cash += sat_value
+            for t in sat_tickers:
+                shares[t] = 0.0
             slots = {'cnn': False, 'vix': False, 'margin': False}
             cum_pct = 0.0
 

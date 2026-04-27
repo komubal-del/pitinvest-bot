@@ -4,8 +4,8 @@
 가용 가능한 데이터로 simplified strategy 돌려서 진짜 리스크 프로파일 측정.
 
 Proxy 매핑 (역사적 데이터 부재):
-  - 매수1 (CNN<10) → VIX > 35 (둘 다 극단적 공포)
-  - 매수2 (VIX>25) → VIX > 25 (그대로)
+  - 매수1 (CNN<15, relaxed) → VIX 일중 high > 28 (CNN<10은 종가 기준 거의 안 잡힘)
+  - 매수2 (VIX>25) → VIX 일중 high > 25 (장중 high 기준 — 기존 룰 일치)
   - 매수3 (강제청산) → SPY 252d high 대비 -7% 미만 (패닉 proxy)
   - 매도1 (위성 +100%) → 그대로 (이론평단 추적)
   - 매도2 (주도주 3일↑) → SOXX 3일 연속 + 1년 신고가의 95% 이내 (강한 회복 proxy)
@@ -43,16 +43,16 @@ SAT_TICKERS  = ['TQQQ', 'SOXL', 'KORU']
 ALL_TICKERS  = CORE_TICKERS + SAT_TICKERS
 EXTRA = ['SPY', '^VIX']
 
-START = '2013-01-01'
-END   = '2024-12-31'
+DEFAULT_START = '2013-01-01'
+DEFAULT_END   = '2024-12-31'
 LOOKBACK_HIGH = 252  # 1y rolling
 
 # ────────────────────────────── data ──────────────────────────────
-def fetch_data():
-    print(f"⏳ yfinance batch download: {len(ALL_TICKERS) + len(EXTRA)} tickers, {START}~{END}")
+def fetch_data(start=DEFAULT_START, end=DEFAULT_END):
+    print(f"⏳ yfinance batch download: {len(ALL_TICKERS) + len(EXTRA)} tickers, {start}~{end}")
     df = yf.download(
         tickers=' '.join(ALL_TICKERS + EXTRA),
-        start=START, end=END,
+        start=start, end=end,
         interval='1d', group_by='ticker', threads=True,
         auto_adjust=False, progress=False,
     )
@@ -70,12 +70,20 @@ def close_of(df, t):
 
 # ────────────────────────────── trigger 생성 ──────────────────────────────
 def build_triggers(df):
-    """일별 trigger flag DataFrame 생성. proxy rules 적용."""
+    """일별 trigger flag DataFrame 생성. proxy rules 적용.
+    매수1 (CNN<15) → VIX 일중 high > 28 (장중 스파이크 캐치)
+    매수2 (VIX>25) → VIX 일중 high > 25 (장중 high 기준 기존 룰과 일치)"""
     out = pd.DataFrame(index=df.index)
     spy  = close_of(df, 'SPY')
     qqq  = close_of(df, 'QQQ')
     soxx = close_of(df, 'SOXX')
     vix  = close_of(df, '^VIX')
+
+    # VIX 일중 high (장중 스파이크 캐치용)
+    try:
+        vix_high = df['^VIX']['High'].dropna()
+    except Exception:
+        vix_high = vix  # fallback to close
 
     # 252d rolling high
     spy_high = spy.rolling(LOOKBACK_HIGH, min_periods=20).max()
@@ -84,14 +92,17 @@ def build_triggers(df):
     spy_drop = (spy / spy_high) - 1.0
     qqq_drop = (qqq / qqq_high) - 1.0
 
-    out['spy_drop'] = spy_drop
-    out['qqq_drop'] = qqq_drop
-    out['vix']      = vix
+    out['spy_drop']  = spy_drop
+    out['qqq_drop']  = qqq_drop
+    out['vix']       = vix
+    out['vix_high']  = vix_high
 
-    # 매수 트리거 (proxy)
-    out['buy_cnn']    = (vix > 35).fillna(False)
-    out['buy_vix']    = (vix > 25).fillna(False)
+    # 매수 트리거 (proxy) — VIX 일중 high 기준
+    out['buy_cnn']    = (vix_high > 28).fillna(False)   # CNN<15 proxy (relaxed)
+    out['buy_vix']    = (vix_high > 25).fillna(False)
     out['buy_margin'] = (spy_drop < -0.07).fillna(False)
+    # min drop은 emergency 임계 변경 시 사용 (run_strategy 내부에서 비교)
+    out['min_drop'] = pd.concat([spy_drop, qqq_drop], axis=1).min(axis=1)
 
     # 매도 2: SOXX 3일 연속 상승 + 신고가 95% 이내
     soxx_high = soxx.rolling(LOOKBACK_HIGH, min_periods=20).max()
@@ -109,8 +120,18 @@ def build_triggers(df):
 
 
 # ────────────────────────────── strategy engine ──────────────────────────────
-def run_strategy(df, trig, initial_capital=100.0):
-    """이벤트 기반 simulation. 일별 portfolio value 시계열 반환."""
+def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
+                  emergency_threshold=-0.10, emergency_mode='all'):
+    """이벤트 기반 simulation. 일별 portfolio value 시계열 반환.
+    emergency_mode:
+      - 'all': 코어+위성 모두 청산 (원래 룰)
+      - 'sat_only': 위성만 청산 (코어 유지) — emergency_keep_core=True와 동일
+      - 'core_only': 코어만 청산, 위성 유지 (위성 어차피 매수됐으니 손실 확정 회피)
+    emergency_threshold: -0.10 (default), -0.20 (강화), None (긴급탈출 비활성)
+    """
+    # backward compat
+    if emergency_keep_core:
+        emergency_mode = 'sat_only'
     prices = {t: close_of(df, t) for t in ALL_TICKERS}
     # 모든 ticker 데이터 있는 날만
     dates = df.index
@@ -141,6 +162,7 @@ def run_strategy(df, trig, initial_capital=100.0):
     series = []
     prev_emergency = False
     sat_max_pct = 0.0
+    em_events = []  # 긴급탈출 발동 일자 기록
 
     for d in common_dates:
         p = {t: float(prices[t].loc[d]) for t in ALL_TICKERS}
@@ -154,15 +176,41 @@ def run_strategy(df, trig, initial_capital=100.0):
             return v
 
         # ─── 1) 긴급탈출 transition ───
-        em_today = bool(flags['emergency']) if flags is not None else False
+        # emergency: dynamic threshold 적용
+        if emergency_threshold is None:
+            em_today = False  # 긴급탈출 비활성
+        elif flags is None:
+            em_today = False
+        else:
+            min_drop = float(flags.get('min_drop', 0)) if flags is not None else 0
+            em_today = (min_drop <= emergency_threshold)
         if em_today and not prev_emergency:
-            # 전량 현금화
-            cash = pv()
-            shares = {t: 0.0 for t in ALL_TICKERS}
-            slots = {'cnn': False, 'vix': False, 'margin': False}
-            cum_pct = 0.0
-            sat_cost = {t: 0.0 for t in SAT_TICKERS}
-            sat_units = {t: 0.0 for t in SAT_TICKERS}
+            em_events.append(d.date().isoformat())
+            if emergency_mode == 'sat_only':
+                # 위성만 청산, 코어는 유지
+                sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
+                cash += sat_value
+                for t in SAT_TICKERS:
+                    shares[t] = 0.0
+                slots = {'cnn': False, 'vix': False, 'margin': False}
+                cum_pct = 0.0
+                sat_cost = {t: 0.0 for t in SAT_TICKERS}
+                sat_units = {t: 0.0 for t in SAT_TICKERS}
+            elif emergency_mode == 'core_only':
+                # 코어만 청산, 위성 유지 (위성은 어차피 매수됐으니 회복 대기)
+                core_value = sum(shares[t] * p[t] for t in CORE_TICKERS)
+                cash += core_value
+                for t in CORE_TICKERS:
+                    shares[t] = 0.0
+                # 위성 슬롯 / cum_pct / sat_cost는 유지 (포지션 그대로 들고 감)
+            else:
+                # 원래 룰: 전량 현금화 (코어 + 위성)
+                cash = pv()
+                shares = {t: 0.0 for t in ALL_TICKERS}
+                slots = {'cnn': False, 'vix': False, 'margin': False}
+                cum_pct = 0.0
+                sat_cost = {t: 0.0 for t in SAT_TICKERS}
+                sat_units = {t: 0.0 for t in SAT_TICKERS}
 
         # ─── 2) 매도 1 (위성 +100%) ───
         if not em_today:
@@ -274,7 +322,7 @@ def run_strategy(df, trig, initial_capital=100.0):
 
         prev_emergency = em_today
 
-    return pd.DataFrame(series).set_index('date'), sat_max_pct
+    return pd.DataFrame(series).set_index('date'), sat_max_pct, em_events
 
 
 # ────────────────────────────── 벤치마크 ──────────────────────────────
@@ -288,6 +336,30 @@ def run_buy_hold(df, ticker, initial_capital=100.0, dates=None):
         return None
     units = initial_capital / float(s.iloc[0])
     return s * units
+
+
+def run_buy_hold_core(df, initial_capital=100.0, dates=None):
+    """코어 100% (QQQ/SOXX/EWY 1/3) 정적 보유 — 신호 무시, 그냥 들고만 감.
+    구덩이매매법의 '평시' 상태와 동일한 베이스라인."""
+    closes = {t: close_of(df, t) for t in CORE_TICKERS}
+    if dates is not None:
+        for t in closes:
+            if closes[t] is not None:
+                closes[t] = closes[t].loc[closes[t].index.isin(dates)]
+    first_dates = [closes[t].index[0] for t in CORE_TICKERS if closes[t] is not None and not closes[t].empty]
+    if not first_dates:
+        return None
+    start = max(first_dates)
+    p0 = {t: float(closes[t].loc[start]) for t in CORE_TICKERS}
+    units = {t: (initial_capital / 3.0) / p0[t] for t in CORE_TICKERS}
+    common_idx = closes[CORE_TICKERS[0]].loc[start:].index
+    for t in CORE_TICKERS[1:]:
+        if closes[t] is not None:
+            common_idx = common_idx.intersection(closes[t].loc[start:].index)
+    out = pd.Series(index=common_idx, dtype=float)
+    for d in common_idx:
+        out.loc[d] = sum(units[t] * float(closes[t].loc[d]) for t in CORE_TICKERS)
+    return out
 
 
 def run_static_60_40(df, initial_capital=100.0, dates=None):
@@ -450,31 +522,61 @@ def write_md(md_path, results, sat_max):
     print(f'\n📝 markdown report: {md_path}')
 
 
-def main(md_out=None):
-    df = fetch_data()
+def main(md_out=None, start=DEFAULT_START, end=DEFAULT_END):
+    df = fetch_data(start, end)
     trig = build_triggers(df)
-    print(f"⏳ strategy backtest...")
-    sim, sat_max = run_strategy(df, trig)
-    if sim is None:
-        print('❌ strategy 시뮬 실패')
-        return 1
-    strat_metrics = compute_metrics(sim['value'], '구덩이매매법 (proxy)')
+    # 트리거 통계
+    print()
+    print('▶ 매수 트리거 발동 일수 (proxy)')
+    print(f"  · CNN<15 (VIX_high > 28): {int(trig['buy_cnn'].sum())} 거래일")
+    print(f"  · VIX>25 (VIX_high > 25): {int(trig['buy_vix'].sum())} 거래일")
+    print(f"  · 강제청산 (SPY drop -7%): {int(trig['buy_margin'].sum())} 거래일")
+    print(f"  · 매도2 (SOXX 3일↑+신고가): {int(trig['sell_leading'].sum())} 거래일")
+    print(f"  · 긴급탈출 (-10% from high): {int(trig['emergency'].sum())} 거래일")
+    print()
+
+    print(f"⏳ V1: 원래 룰 (-10%, sell all)...")
+    sim_v1, satmax_v1, em_v1 = run_strategy(df, trig, emergency_threshold=-0.10, emergency_keep_core=False)
+    m_v1 = compute_metrics(sim_v1['value'], 'V1 -10% sell all (원래)')
+
+    print(f"⏳ V2: -10%에서 위성만 청산 (코어 유지)...")
+    sim_v2, satmax_v2, em_v2 = run_strategy(df, trig, emergency_threshold=-0.10, emergency_keep_core=True)
+    m_v2 = compute_metrics(sim_v2['value'], 'V2 -10% sat only')
+
+    print(f"⏳ V3: -20%에서만 발동 (sell all)...")
+    sim_v3, satmax_v3, em_v3 = run_strategy(df, trig, emergency_threshold=-0.20, emergency_keep_core=False)
+    m_v3 = compute_metrics(sim_v3['value'], 'V3 -20% sell all')
+
+    print(f"⏳ V4: 긴급탈출 비활성 (위성 take-profit만)...")
+    sim_v4, satmax_v4, em_v4 = run_strategy(df, trig, emergency_threshold=None)
+    m_v4 = compute_metrics(sim_v4['value'], 'V4 긴급탈출 없음')
+
+    print(f"⏳ V5: -10%에서 코어만 청산, 위성 유지...")
+    sim_v5, satmax_v5, em_v5 = run_strategy(df, trig, emergency_threshold=-0.10, emergency_mode='core_only')
+    m_v5 = compute_metrics(sim_v5['value'], 'V5 -10% core only')
+
+    # 호환용 — print 코드가 sat_max/em_events 참조함
+    sat_max = satmax_v1
+    em_events = em_v1
 
     # 벤치마크들 — 같은 거래일 기준으로
-    common_dates = sim.index
+    common_dates = sim_v1.index
+    core_v  = run_buy_hold_core(df, dates=common_dates)
     qqq_v   = run_buy_hold(df, 'QQQ', dates=common_dates)
     spy_v   = run_buy_hold(df, 'SPY', dates=common_dates)
     static_v = run_static_60_40(df, dates=common_dates)
 
-    qqq_m = compute_metrics(qqq_v, 'Buy-Hold QQQ')
-    spy_m = compute_metrics(spy_v, 'Buy-Hold SPY')
+    core_m   = compute_metrics(core_v,   '코어 1/3 buy-hold (베이스)')
+    qqq_m    = compute_metrics(qqq_v,    'Buy-Hold QQQ')
+    spy_m    = compute_metrics(spy_v,    'Buy-Hold SPY')
     static_m = compute_metrics(static_v, '정적 60:40 (set&forget)')
 
-    results = [strat_metrics, qqq_m, spy_m, static_m]
+    results = [m_v1, m_v2, m_v3, m_v4, m_v5, core_m, qqq_m, spy_m, static_m]
     print_summary(results)
     print_yearly(results)
     print()
     print(f'위성 비중 최대치 (구덩이매매법): {sat_max:.1f}%')
+    print(f'긴급탈출 발동 횟수: {len(em_events)}회 — {", ".join(em_events) if em_events else "없음"}')
     print()
 
     write_md(md_out, results, sat_max)
@@ -484,5 +586,7 @@ def main(md_out=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--md', default=None, help='markdown report path')
+    parser.add_argument('--start', default=DEFAULT_START, help=f'start date (default {DEFAULT_START})')
+    parser.add_argument('--end',   default=DEFAULT_END,   help=f'end date (default {DEFAULT_END})')
     args = parser.parse_args()
-    sys.exit(main(md_out=args.md))
+    sys.exit(main(md_out=args.md, start=args.start, end=args.end))
