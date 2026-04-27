@@ -11,6 +11,12 @@ import warnings
 warnings.filterwarnings('ignore')
 
 if __name__ == '__main__':
+    # 한국 주말 가드: 한국 토/일은 시장 닫혀있으므로 row 생성 skip.
+    # cron은 UTC 평일이라 한국 시간으로 토요일 새벽까지 돌 수 있어서 명시적 가드 필요.
+    _kst_now = datetime.now(pytz.timezone('Asia/Seoul'))
+    if _kst_now.weekday() >= 5:  # 5=토, 6=일
+        print(f"🛌 한국 시간 {_kst_now.strftime('%Y-%m-%d (%a)')} — 주말 skip. 다음 영업일에 row 생성.")
+        import sys; sys.exit(0)
     print("🔵 [시스템] Pitinvest 완전체 엔진(Ver 21.0) 가동 중...")
 
 # ⏰ 1. 환경 설정
