@@ -27,6 +27,7 @@ RS_LOOKBACK_N = 30  # ~6주
 RS_TIER1_ETFS = [
     {'ticker': 'XLK',  'name': 'Tech broad'},
     {'ticker': 'SOXX', 'name': '반도체'},
+    {'ticker': 'EWY',  'name': '한국'},
     {'ticker': 'XLC',  'name': 'Communication'},
     {'ticker': 'XLY',  'name': 'Consumer Disc'},
     {'ticker': 'XLF',  'name': 'Financials'},
@@ -40,6 +41,9 @@ RS_TIER1_ETFS = [
 RS_TIER2_MAP = {
     'XLK':  ['AAPL', 'MSFT', 'NVDA', 'AVGO', 'ORCL'],
     'SOXX': ['NVDA', 'AVGO', 'AMD',  'TSM',  'INTC'],
+    # 한국 — yfinance .KS suffix. 005930=삼성전자, 000660=SK하이닉스, 005380=현대차,
+    # 373220=LG에너지솔루션, 035420=네이버. EWY 시총 가중 상위.
+    'EWY':  ['005930.KS', '000660.KS', '005380.KS', '373220.KS', '035420.KS'],
     'XLC':  ['META', 'GOOG', 'NFLX'],
     'XLY':  ['AMZN', 'TSLA', 'HD',   'MCD',  'NKE'],
     'XLF':  ['JPM',  'BRK-B','BAC',  'WFC'],
@@ -50,7 +54,17 @@ RS_TIER2_MAP = {
     'MAGS': ['AAPL', 'MSFT', 'NVDA', 'GOOG', 'META', 'AMZN', 'TSLA'],
 }
 
-RS_KR_TICKERS = {'samsung': '005930.KS', 'usdkrw': 'KRW=X'}
+# 한국 종목명 매핑 (Tier 2 표시용 — yfinance ticker → 한글명)
+RS_KR_NAME_MAP = {
+    '005930.KS': '삼성전자',
+    '000660.KS': 'SK하이닉스',
+    '005380.KS': '현대차',
+    '373220.KS': 'LG에너지솔루션',
+    '035420.KS': '네이버',
+}
+
+# 한국 panel 잔여 항목 — USD/KRW 환율만 (삼성전자는 EWY Tier 2로 이동)
+RS_KR_TICKERS = {'usdkrw': 'KRW=X'}
 
 # 📂 2. 데이터 로드 (장부 & 탈출 전략)
 def load_all_settings():
@@ -337,11 +351,15 @@ def fetch_rs_monitor(master_data):
             if sc is None:
                 errors.append(f'{t}/{sub}: no data')
                 continue
-            tier2_list.append({
+            entry_t2 = {
                 'ticker': sub,
                 'rs_roc': _rs_roc(sc, spy_close),
                 'price':  round(float(sc.iloc[-1]), 2),
-            })
+            }
+            # 한국 종목이면 한글명 추가 (yfinance ticker → 사람이 읽는 이름)
+            if sub in RS_KR_NAME_MAP:
+                entry_t2['name'] = RS_KR_NAME_MAP[sub]
+            tier2_list.append(entry_t2)
         tier1.append({
             'ticker': t, 'name': entry['name'],
             'rs_roc': roc, 'rs_line': line,
@@ -374,19 +392,9 @@ def fetch_rs_monitor(master_data):
             'weeks_at_rank1': None,  # v2: rs_history.json 누적
         }
 
-    # 한국
-    sam_c = close_of(RS_KR_TICKERS['samsung'])
+    # 한국 panel — 환율만 (개별 종목은 EWY Tier 2로 이동)
     fx_c  = close_of(RS_KR_TICKERS['usdkrw'])
     korea = {}
-    if sam_c is not None:
-        korea['samsung'] = {
-            'ticker':    RS_KR_TICKERS['samsung'],
-            'price_krw': round(float(sam_c.iloc[-1]), 0),
-            'rs_roc':    _rs_roc(sam_c, spy_close),
-            'rs_line':   _rs_line(sam_c, spy_close, recov_date),
-        }
-    else:
-        errors.append('005930.KS: no data')
     if fx_c is not None and len(fx_c) > RS_LOOKBACK_N:
         korea['usdkrw'] = {
             'ticker': 'KRW=X',
