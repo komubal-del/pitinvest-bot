@@ -1613,6 +1613,8 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         'ratio_raw': '100:0:0',
         'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 전량 청산',
         'holdings':  cleared_holdings,
+        # 사이클 리셋 시 6주 카운터 anchor도 초기화
+        'sell1_first_fired_date': None,
     }
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
@@ -1624,6 +1626,35 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
     except Exception as e:
         print(f"[auto reset] fail: {e}")
         return False
+
+
+def update_sell1_marker(snapshot, master_data, master_path='master_data.json'):
+    """1차 매도 신호가 처음 발동된 날짜를 master_data.json에 sticky하게 기록.
+    - sell_count >= 1 AND 마커 없음 → 오늘 날짜로 set
+    - sell_count == 3 인 경우의 clear는 auto_reset_if_sell_signals 가 이미 처리
+    - sell_count 가 다시 0으로 떨어져도 자동 clear 안 함 (사이클 동안 anchor 유지)
+    반환: (changed: bool, current_date: str|None)"""
+    sig = snapshot.get('signals', {}) or {}
+    sell_count = int(sig.get('sell_count') or 0)
+    today_full = datetime.now(kst).strftime('%Y-%m-%d')
+    current = master_data.get('sell1_first_fired_date')
+
+    # 이미 마커 있거나, 매도 신호 0개면 스킵
+    # sell_count==3 (auto_reset 발동 day)도 스킵 — auto_reset이 직전에 clear했을 수 있음
+    if current or sell_count < 1 or sell_count >= 3:
+        return False, current
+
+    new_master = {**master_data, 'sell1_first_fired_date': today_full}
+    try:
+        with open(master_path, 'w', encoding='utf-8') as f:
+            json.dump(new_master, f, ensure_ascii=False, indent=4)
+        master_data.clear()
+        master_data.update(new_master)
+        print(f"📅 1차 매도 첫 발동 마커 기록: {today_full} (6주 카운터 시작)")
+        return True, today_full
+    except Exception as e:
+        print(f"[sell1 marker] fail: {e}")
+        return False, current
 
 
 def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
@@ -1763,6 +1794,13 @@ if __name__ == '__main__':
                 save_snapshot(snapshot)
         except Exception as e:
             print(f"❌ auto reset 실패: {e}")
+
+    # 📅 7-bis. 1차 매도 첫 발동 시점 마커 기록 (auto_reset 후 — 리셋 시 clear가 우선됨)
+    if snapshot is not None:
+        try:
+            update_sell1_marker(snapshot, master)
+        except Exception as e:
+            print(f"❌ sell1 marker 실패: {e}")
 
     # 🔔 8. stage 변화 시 텔레그램 알림 (CSV 업데이트 전에 실행 — prev vs current 비교)
     if snapshot is not None:
