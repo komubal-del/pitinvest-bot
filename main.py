@@ -20,6 +20,38 @@ kst = pytz.timezone('Asia/Seoul')
 date_str = datetime.now(kst).strftime('%m.%d')
 full_date_str = datetime.now(kst).strftime('%Y-%m-%d')
 
+# 📊 RS Monitor universe (1차 매도 후 코어 회전 결정용)
+RS_BENCHMARK = 'SPY'
+RS_LOOKBACK_N = 30  # ~6주
+
+RS_TIER1_ETFS = [
+    {'ticker': 'XLK',  'name': 'Tech broad'},
+    {'ticker': 'SOXX', 'name': '반도체'},
+    {'ticker': 'XLC',  'name': 'Communication'},
+    {'ticker': 'XLY',  'name': 'Consumer Disc'},
+    {'ticker': 'XLF',  'name': 'Financials'},
+    {'ticker': 'XLV',  'name': 'Healthcare'},
+    {'ticker': 'XLE',  'name': 'Energy'},
+    {'ticker': 'XLI',  'name': 'Industrials'},
+    {'ticker': 'BOTZ', 'name': 'AI/Robotics'},
+    {'ticker': 'MAGS', 'name': 'Magnificent 7'},
+]
+
+RS_TIER2_MAP = {
+    'XLK':  ['AAPL', 'MSFT', 'NVDA', 'AVGO', 'ORCL'],
+    'SOXX': ['NVDA', 'AVGO', 'AMD',  'TSM',  'INTC'],
+    'XLC':  ['META', 'GOOG', 'NFLX'],
+    'XLY':  ['AMZN', 'TSLA', 'HD',   'MCD',  'NKE'],
+    'XLF':  ['JPM',  'BRK-B','BAC',  'WFC'],
+    'XLV':  ['LLY',  'UNH',  'JNJ',  'MRK'],
+    'XLE':  ['XOM',  'CVX',  'COP',  'EOG'],
+    'XLI':  ['GE',   'CAT',  'RTX',  'BA'],
+    'BOTZ': ['NVDA', 'ABBV', 'ISRG', 'KEYS'],
+    'MAGS': ['AAPL', 'MSFT', 'NVDA', 'GOOG', 'META', 'AMZN', 'TSLA'],
+}
+
+RS_KR_TICKERS = {'samsung': '005930.KS', 'usdkrw': 'KRW=X'}
+
 # 📂 2. 데이터 로드 (장부 & 탈출 전략)
 def load_all_settings():
     # 1) 조종석 일지 로드 (master_data.json)
@@ -192,6 +224,196 @@ def fetch_extended_market():
         print(f"[sector base] fail: {e}")
 
     return result
+
+
+def _rs_detect_recovery_start(spy_close):
+    """SPY 직전 1년에서 가장 깊은 trough(최저가) 날짜 ISO."""
+    if spy_close is None or spy_close.empty:
+        return None
+    high = spy_close.cummax()
+    dd = spy_close / high - 1.0
+    return dd.idxmin().date().isoformat()
+
+
+def _rs_roc(ticker_close, spy_close, n=RS_LOOKBACK_N):
+    """RS_ROC: (P_t/P_t-n) / (SPY_t/SPY_t-n) - 1"""
+    if ticker_close is None or spy_close is None:
+        return None
+    if len(ticker_close) <= n or len(spy_close) <= n:
+        return None
+    try:
+        t_ret = float(ticker_close.iloc[-1]) / float(ticker_close.iloc[-n - 1])
+        s_ret = float(spy_close.iloc[-1])    / float(spy_close.iloc[-n - 1])
+        return round(t_ret / s_ret - 1.0, 4)
+    except Exception:
+        return None
+
+
+def _rs_line(ticker_close, spy_close, base_date_iso):
+    """회복시작일 기준 normalized RS_line (값=1.0 시작)."""
+    if ticker_close is None or spy_close is None or not base_date_iso:
+        return []
+    try:
+        ratio = ticker_close / spy_close
+        base_ts = pd.Timestamp(base_date_iso)
+        sub = ratio[ratio.index >= base_ts].dropna()
+        if sub.empty:
+            return []
+        base_val = float(sub.iloc[0])
+        if base_val == 0:
+            return []
+        # 너무 dense 하면 payload 큼 → 매주 금요일만 sample (또는 5일 간격)
+        out = []
+        for i, (idx, v) in enumerate(sub.items()):
+            if i % 1 == 0:  # 일봉 그대로. 6개월 = 약 130개 → OK
+                out.append({'date': idx.date().isoformat(),
+                            'value': round(float(v) / base_val, 4)})
+        return out
+    except Exception:
+        return []
+
+
+def fetch_rs_monitor(master_data):
+    """Tier-1 섹터 ETF + Tier-2 대표 종목 + 한국 panel RS 데이터 생성.
+    yf.download 한 번에 모든 ticker batch로 받음."""
+    now_iso = datetime.now(kst).isoformat()
+
+    tier1_tickers = [e['ticker'] for e in RS_TIER1_ETFS]
+    tier2_tickers = sorted({t for lst in RS_TIER2_MAP.values() for t in lst})
+    kr_tickers    = list(RS_KR_TICKERS.values())
+    all_tickers   = list(dict.fromkeys([RS_BENCHMARK] + tier1_tickers + tier2_tickers + kr_tickers))
+
+    errors = []
+    try:
+        df = yf.download(
+            tickers=' '.join(all_tickers),
+            period='1y', interval='1d',
+            group_by='ticker', threads=True,
+            auto_adjust=False, progress=False,
+        )
+    except Exception as e:
+        return {
+            'timestamp': now_iso, 'benchmark': RS_BENCHMARK, 'lookback_days': RS_LOOKBACK_N,
+            'recovery_start': None, 'leader': None, 'tier1': [], 'korea': None,
+            'errors': [f'batch download fail: {e}'],
+        }
+
+    def close_of(t):
+        try:
+            s = df[t]['Close'].dropna()
+            return s if not s.empty else None
+        except Exception:
+            return None
+
+    spy_close = close_of(RS_BENCHMARK)
+    if spy_close is None or len(spy_close) < RS_LOOKBACK_N + 5:
+        return {
+            'timestamp': now_iso, 'benchmark': RS_BENCHMARK, 'lookback_days': RS_LOOKBACK_N,
+            'recovery_start': None, 'leader': None, 'tier1': [], 'korea': None,
+            'errors': ['SPY data missing or insufficient'],
+        }
+
+    # 회복시작일 (manual override → master_data.recovery_start_date)
+    manual = (master_data or {}).get('recovery_start_date')
+    if manual:
+        recov_date, recov_src = str(manual), 'manual'
+    else:
+        recov_date = _rs_detect_recovery_start(spy_close)
+        recov_src  = 'auto'
+
+    # Tier-1 + Tier-2
+    tier1 = []
+    for entry in RS_TIER1_ETFS:
+        t = entry['ticker']
+        c = close_of(t)
+        if c is None:
+            errors.append(f'{t}: no data')
+            continue
+        roc = _rs_roc(c, spy_close)
+        line = _rs_line(c, spy_close, recov_date)
+        tier2_list = []
+        for sub in RS_TIER2_MAP.get(t, []):
+            sc = close_of(sub)
+            if sc is None:
+                errors.append(f'{t}/{sub}: no data')
+                continue
+            tier2_list.append({
+                'ticker': sub,
+                'rs_roc': _rs_roc(sc, spy_close),
+                'price':  round(float(sc.iloc[-1]), 2),
+            })
+        tier1.append({
+            'ticker': t, 'name': entry['name'],
+            'rs_roc': roc, 'rs_line': line,
+            'tier2': tier2_list,
+        })
+
+    # rank by RS_ROC desc (None 마지막)
+    tier1.sort(key=lambda x: (x['rs_roc'] is None, -(x['rs_roc'] or 0)))
+    for i, x in enumerate(tier1, start=1):
+        x['rank'] = i
+
+    # Leader 확정 heuristic
+    leader = None
+    if tier1:
+        top = tier1[0]
+        line_vals = [p['value'] for p in (top.get('rs_line') or [])]
+        sma5_now  = sum(line_vals[-5:]) / 5  if len(line_vals) >= 5 else None
+        sma5_prev = sum(line_vals[-10:-5]) / 5 if len(line_vals) >= 10 else None
+        rising = (sma5_now is not None and sma5_prev is not None and sma5_now > sma5_prev)
+        # rank=1 4주 신고가 근사: 최근 20거래일에서 line이 신고가
+        confirmed = (
+            rising
+            and len(line_vals) >= 20
+            and line_vals[-1] >= max(line_vals[-20:])
+        )
+        leader = {
+            'ticker': top['ticker'],
+            'confirmed': bool(confirmed),
+            'rs_line_sma5_rising': bool(rising),
+            'weeks_at_rank1': None,  # v2: rs_history.json 누적
+        }
+
+    # 한국
+    sam_c = close_of(RS_KR_TICKERS['samsung'])
+    fx_c  = close_of(RS_KR_TICKERS['usdkrw'])
+    korea = {}
+    if sam_c is not None:
+        korea['samsung'] = {
+            'ticker':    RS_KR_TICKERS['samsung'],
+            'price_krw': round(float(sam_c.iloc[-1]), 0),
+            'rs_roc':    _rs_roc(sam_c, spy_close),
+            'rs_line':   _rs_line(sam_c, spy_close, recov_date),
+        }
+    else:
+        errors.append('005930.KS: no data')
+    if fx_c is not None and len(fx_c) > RS_LOOKBACK_N:
+        korea['usdkrw'] = {
+            'ticker': 'KRW=X',
+            'value':  round(float(fx_c.iloc[-1]), 2),
+            'change_30d_pct': round(float(fx_c.iloc[-1] / fx_c.iloc[-RS_LOOKBACK_N - 1] - 1) * 100, 2),
+        }
+    else:
+        errors.append('KRW=X: no data')
+
+    return {
+        'timestamp':      now_iso,
+        'benchmark':      RS_BENCHMARK,
+        'lookback_days':  RS_LOOKBACK_N,
+        'recovery_start': {'date': recov_date, 'source': recov_src},
+        'leader':         leader,
+        'tier1':          tier1,
+        'korea':          korea,
+        'errors':         errors,
+    }
+
+
+def save_rs_monitor(rs_data, path='rs_monitor.json'):
+    clean = _sanitize_nan(rs_data)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(clean, f, ensure_ascii=False, indent=2, allow_nan=False)
+    print(f"✅ {path} 저장 완료 (tier1: {len(rs_data.get('tier1', []))}개, "
+          f"errors: {len(rs_data.get('errors', []))})")
 
 
 def fetch_cnn_components():
@@ -1524,6 +1746,13 @@ if __name__ == '__main__':
         save_snapshot(snapshot)
     except Exception as e:
         print(f"❌ Snapshot 생성 실패: {e}")
+
+    # 📊 6-bis. RS Monitor (섹터 회전 분석) — 독립 파일, 실패해도 메인 파이프라인 영향 X
+    try:
+        rs_data = fetch_rs_monitor(master)
+        save_rs_monitor(rs_data)
+    except Exception as e:
+        print(f"❌ RS Monitor 생성 실패: {e}")
 
     # 🔄 7. 매도 3조건 충족 시 자동 사이클 리셋 (master_data.json 100:0:0 덮어쓰기)
     if snapshot is not None:

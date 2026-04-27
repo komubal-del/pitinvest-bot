@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add pitinvest_history.csv current_snapshot.json master_data.json expert_analysis_cache.json video_analysis_history.json
+          git add pitinvest_history.csv current_snapshot.json master_data.json expert_analysis_cache.json video_analysis_history.json rs_monitor.json
           git commit -m "📈 데이터 + 스냅샷 + 전문가분석 자동 업데이트" || echo "저장할 변경사항이 없습니다."
           git push
