@@ -63,8 +63,8 @@ RS_KR_NAME_MAP = {
     '035420.KS': '네이버',
 }
 
-# 한국 panel 잔여 항목 — USD/KRW 환율만 (삼성전자는 EWY Tier 2로 이동)
-RS_KR_TICKERS = {'usdkrw': 'KRW=X'}
+# 거시 지표 panel — USD/KRW 환율 + 미국 10년물 국채 수익률 (^TNX, 단위 %)
+RS_MACRO_TICKERS = {'usdkrw': 'KRW=X', 'us10y': '^TNX'}
 
 # 📂 2. 데이터 로드 (장부 & 탈출 전략)
 def load_all_settings():
@@ -294,8 +294,8 @@ def fetch_rs_monitor(master_data):
 
     tier1_tickers = [e['ticker'] for e in RS_TIER1_ETFS]
     tier2_tickers = sorted({t for lst in RS_TIER2_MAP.values() for t in lst})
-    kr_tickers    = list(RS_KR_TICKERS.values())
-    all_tickers   = list(dict.fromkeys([RS_BENCHMARK] + tier1_tickers + tier2_tickers + kr_tickers))
+    macro_tickers = list(RS_MACRO_TICKERS.values())
+    all_tickers   = list(dict.fromkeys([RS_BENCHMARK] + tier1_tickers + tier2_tickers + macro_tickers))
 
     errors = []
     try:
@@ -392,17 +392,30 @@ def fetch_rs_monitor(master_data):
             'weeks_at_rank1': None,  # v2: rs_history.json 누적
         }
 
-    # 한국 panel — 환율만 (개별 종목은 EWY Tier 2로 이동)
-    fx_c  = close_of(RS_KR_TICKERS['usdkrw'])
-    korea = {}
+    # 거시 지표 panel — USD/KRW + US 10Y
+    macro = {}
+    fx_c = close_of(RS_MACRO_TICKERS['usdkrw'])
     if fx_c is not None and len(fx_c) > RS_LOOKBACK_N:
-        korea['usdkrw'] = {
+        macro['usdkrw'] = {
             'ticker': 'KRW=X',
             'value':  round(float(fx_c.iloc[-1]), 2),
             'change_30d_pct': round(float(fx_c.iloc[-1] / fx_c.iloc[-RS_LOOKBACK_N - 1] - 1) * 100, 2),
         }
     else:
         errors.append('KRW=X: no data')
+
+    tnx_c = close_of(RS_MACRO_TICKERS['us10y'])
+    if tnx_c is not None and len(tnx_c) > RS_LOOKBACK_N:
+        # ^TNX는 단위가 % (예: 4.25 → 4.25%). 변화는 절대 차이 (%p) 가 직관적.
+        cur = round(float(tnx_c.iloc[-1]), 2)
+        prev = round(float(tnx_c.iloc[-RS_LOOKBACK_N - 1]), 2)
+        macro['us10y'] = {
+            'ticker': '^TNX',
+            'value': cur,                                          # %
+            'change_30d_pp': round(cur - prev, 2),                 # 절대 차이 (%p)
+        }
+    else:
+        errors.append('^TNX: no data')
 
     return {
         'timestamp':      now_iso,
@@ -411,7 +424,7 @@ def fetch_rs_monitor(master_data):
         'recovery_start': {'date': recov_date, 'source': recov_src},
         'leader':         leader,
         'tier1':          tier1,
-        'korea':          korea,
+        'macro':          macro,
         'errors':         errors,
     }
 
