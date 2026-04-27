@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-04-27T23:56:20.124845+09:00",
+  "timestamp": "2026-04-28T01:21:17.490787+09:00",
   "sentiment": {
-    "cnn_fng": 67.2571428571429,
+    "cnn_fng": 67.0285714285714,
     "cnn_components": {
       "momentum": 98.0,
       "strength": 47.0,
-      "breadth": 74.4,
-      "put_call": 47.8,
-      "junk_bond": 52.6,
+      "breadth": 73.6,
+      "put_call": 46.0,
+      "junk_bond": 54.8,
       "volatility": 50.0,
       "safe_haven": 99.8
     },
@@ -21,8 +21,8 @@
     }
   },
   "volatility": {
-    "vix": 18.71,
-    "vvix": 97.28,
+    "vix": 18.59,
+    "vvix": 95.83,
     "skew": 139.08,
     "move": 66.97
   },
@@ -36,43 +36,43 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24762.5,
+      "current": 24799.91,
       "high_52w": 24854.04,
-      "drop_pct": -0.37
+      "drop_pct": -0.22
     },
     "kospi": {
-      "current": 6615.03,
-      "high_52w": 6657.22,
-      "drop_pct": -0.63
+      "current": 6475.63,
+      "high_52w": 6557.76,
+      "drop_pct": -1.25
     },
     "kosdaq": {
-      "current": 1226.18,
-      "high_52w": 1229.42,
-      "drop_pct": -0.26
+      "current": 1203.84,
+      "high_52w": 1215.67,
+      "drop_pct": -0.97
     },
     "sp500": {
-      "current": 7157.62,
+      "current": 7162.84,
       "high_52w": 7168.59,
-      "drop_pct": -0.15
+      "drop_pct": -0.08
     },
     "russell2k": {
-      "current": 2790.87,
+      "current": 2786.86,
       "high_52w": 2817.96,
-      "drop_pct": -0.96
+      "drop_pct": -1.1
     },
     "soxx": {
-      "current": 450.13,
+      "current": 451.96,
       "high_52w": 463.87,
-      "drop_pct": -2.96
+      "drop_pct": -2.57
     }
   },
   "sector_rs": {
-    "XLK": 1.046,
-    "SMH": 1.193,
-    "BOTZ": 0.974,
-    "IGV": 0.853,
-    "XLF": 0.956,
-    "XLE": 1.124
+    "XLK": 1.049,
+    "SMH": 1.197,
+    "BOTZ": 0.975,
+    "IGV": 0.851,
+    "XLF": 0.955,
+    "XLE": 1.117
   },
   "signals": {
     "cnn_under_10": false,
@@ -88,11 +88,11 @@
     "stage_key_raw": "exit"
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 40.98,
+    "tqqq_profit_pct": 41.49,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 122.17,
+    "soxl_profit_pct": 124.88,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
@@ -117,8 +117,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-04-27",
-    "analyzed_at": "2026-04-27T09:26:45.406699+09:00",
+    "date": "2026-04-28",
+    "analyzed_at": "2026-04-28T01:21:20.331179+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -126,14 +126,14 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "c_38QXQK8rU",
-        "title": "옆으로 가는 시장…?‘상승 전 마지막 단계’ |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
-        "published": "2026-04-24T00:30:06Z",
-        "url": "https://youtube.com/watch?v=c_38QXQK8rU",
+        "video_id": "iTNXEFnP16w",
+        "title": "“반도체 40% 폭등…이유는 딱 하나!” | 박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+        "published": "2026-04-27T00:52:34Z",
+        "url": "https://youtube.com/watch?v=iTNXEFnP16w",
         "transcript_available": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "현재 시장을 '상승 전 마지막 단계'로 진단하여 향후 주식 시장의 상승을 예측하고 기대하는 입장이다."
+          "stance": "neutral",
+          "reason": "제목은 반도체 주식의 폭등 현상과 그 이유를 설명하겠다는 내용으로, 특정 행동(매수/매도/현금화 등)을 권고하는 표현이 명확히 없어 중립적 시장 분석에 해당합니다."
         }
       },
       {
@@ -150,13 +150,13 @@
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "bullish",
+      "박병창": "neutral",
       "윤지호": "neutral"
     },
     "prompt_version": "v2-strict-warning"
   },
   "ytd_returns": {
-    "strategy_pct": 214.207,
+    "strategy_pct": 207.83,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -476,7 +476,7 @@
       },
       {
         "date": "2026-04-27",
-        "ret_pct": 214.207
+        "ret_pct": 207.83
       }
     ],
     "monthly_breakdown": [
@@ -500,8 +500,8 @@
       },
       {
         "month": "2026-04",
-        "return_pct": 151.15,
-        "end_ret_pct": 214.21,
+        "return_pct": 144.77,
+        "end_ret_pct": 207.83,
         "max_dd_pct": 7.3
       }
     ],

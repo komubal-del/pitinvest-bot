@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-27",
-  "analyzed_at": "2026-04-27T09:26:45.406699+09:00",
+  "date": "2026-04-28",
+  "analyzed_at": "2026-04-28T01:21:20.331179+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,14 +8,14 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "c_38QXQK8rU",
-      "title": "옆으로 가는 시장…?‘상승 전 마지막 단계’ |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
-      "published": "2026-04-24T00:30:06Z",
-      "url": "https://youtube.com/watch?v=c_38QXQK8rU",
+      "video_id": "iTNXEFnP16w",
+      "title": "“반도체 40% 폭등…이유는 딱 하나!” | 박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+      "published": "2026-04-27T00:52:34Z",
+      "url": "https://youtube.com/watch?v=iTNXEFnP16w",
       "transcript_available": false,
       "analysis": {
-        "stance": "bullish",
-        "reason": "현재 시장을 '상승 전 마지막 단계'로 진단하여 향후 주식 시장의 상승을 예측하고 기대하는 입장이다."
+        "stance": "neutral",
+        "reason": "제목은 반도체 주식의 폭등 현상과 그 이유를 설명하겠다는 내용으로, 특정 행동(매수/매도/현금화 등)을 권고하는 표현이 명확히 없어 중립적 시장 분석에 해당합니다."
       }
     },
     {
@@ -32,7 +32,7 @@
   ],
   "error": null,
   "expert_stance_map": {
-    "박병창": "bullish",
+    "박병창": "neutral",
     "윤지호": "neutral"
   },
   "prompt_version": "v2-strict-warning"
