@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import yfinance as yf
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import warnings
 
@@ -1611,6 +1611,68 @@ def send_telegram_stage_alert(snapshot, csv_path='pitinvest_history.csv'):
     return False
 
 
+def notify_sector_change_dday(master_data, master_path='master_data.json'):
+    """1차 매도 발동일 + 42일 (D-day) 도달 시 텔레그램 알림. 사이클 1회만 발송 (sticky flag).
+    반환: True if sent."""
+    fire_date = master_data.get('sell1_first_fired_date')
+    if not fire_date:
+        return False
+    if master_data.get('sell1_d_day_notified'):
+        return False  # 이미 발송됨
+
+    try:
+        fire_dt = datetime.strptime(str(fire_date), '%Y-%m-%d').date()
+    except Exception:
+        return False
+    target = fire_dt + timedelta(days=42)
+    today = datetime.now(kst).date()
+    if today < target:
+        return False  # 아직 D-day 안 됨
+
+    token   = os.environ.get('TELEGRAM_TOKEN', '').strip()
+    chat_id = os.environ.get('CHAT_ID', '').strip()
+    sent = False
+    if token and chat_id:
+        elapsed = (today - target).days
+        msg = (
+            f"🎯 섹터 변경 D-DAY 도달\n\n"
+            f"1차 매도 발동: {fire_date}\n"
+            f"6주 경과: {target.isoformat()}"
+            + (f" (D+{elapsed})" if elapsed > 0 else " (오늘)")
+            + f"\n\n"
+            f"📊 RS Monitor 탭에서 확정 leader 섹터 확인 후 코어 분배 결정.\n"
+            f"  · DD > -25%: QQQ:SOXX:EWY = 1:1:1\n"
+            f"  · -40% ~ -25%: SOXX 비중 상향\n"
+            f"  · DD < -40%: 50% 코어 + 50% 현금 → leader에 집중 투입\n\n"
+            f"https://komubal-del.github.io/pitinvest-web/rs.html"
+        )
+        try:
+            res = requests.post(
+                f"https://api.telegram.org/bot{token}/sendMessage",
+                json={"chat_id": chat_id, "text": msg}, timeout=10,
+            )
+            if res.status_code == 200:
+                print(f"✅ 텔레그램 D-day 알림 전송 ({fire_date} + 42d)")
+                sent = True
+            else:
+                print(f"[telegram dday] http {res.status_code}: {res.text[:200]}")
+        except Exception as e:
+            print(f"[telegram dday] fail: {e}")
+    else:
+        print(f"[telegram dday] TELEGRAM_TOKEN/CHAT_ID 미설정, flag만 set")
+
+    # flag set: 통신 실패해도 한 번 시도했으면 이번 사이클 안 보냄 (스팸 방지)
+    new_master = {**master_data, 'sell1_d_day_notified': True}
+    try:
+        with open(master_path, 'w', encoding='utf-8') as f:
+            json.dump(new_master, f, ensure_ascii=False, indent=4)
+        master_data.clear()
+        master_data.update(new_master)
+    except Exception as e:
+        print(f"[dday flag] fail: {e}")
+    return sent
+
+
 def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.json'):
     """매도 3조건 모두 충족 시 master_data.json을 '100:0:0' 으로 자동 리셋.
     멱등: 이미 100:0:0이면 스킵. 반환: (reset_fired: bool)"""
@@ -1644,8 +1706,9 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         'ratio_raw': '100:0:0',
         'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 전량 청산',
         'holdings':  cleared_holdings,
-        # 사이클 리셋 시 6주 카운터 anchor도 초기화
+        # 사이클 리셋 시 6주 카운터 anchor + D-day 알림 플래그 초기화
         'sell1_first_fired_date': None,
+        'sell1_d_day_notified': False,
     }
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
@@ -1868,6 +1931,12 @@ if __name__ == '__main__':
             update_sell1_marker(snapshot, master)
         except Exception as e:
             print(f"❌ sell1 marker 실패: {e}")
+
+    # 🎯 7-ter. 섹터 변경 D-day (1차 매도 +42일) 텔레그램 알림 (사이클 1회만)
+    try:
+        notify_sector_change_dday(master)
+    except Exception as e:
+        print(f"❌ D-day 알림 실패: {e}")
 
     # 🔔 8. stage 변화 시 텔레그램 알림 (CSV 업데이트 전에 실행 — prev vs current 비교)
     if snapshot is not None:
