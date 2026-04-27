@@ -489,13 +489,18 @@ def _build_ytd_returns(history_rows):
     """구덩이 매매법 YTD 백테스트 결과 → snapshot.ytd_returns 구조."""
     if not history_rows:
         return {"strategy_pct": None, "daily_series": [], "monthly_breakdown": [], "calc_note": "CSV 데이터 없음"}
-    bt = backtest_strategy(history_rows, start_date='2026-01-01')
+    # 1/1 실제 시작 포지션: 코어 60% / 위성 40% · 매수 슬롯 3종 모두 이미 채워진 상태
+    bt = backtest_strategy(
+        history_rows, start_date='2026-01-01',
+        initial_core_pct=60.0, initial_sat_pct=40.0,
+        initial_slots_filled=True,
+    )
     daily = bt.get('daily_series', [])
     return {
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
-        "calc_note":    "평시: 코어(QQQ/SOXX/EWY 균등 1/3) · 매수 신호 시 위성(TQQQ/SOXL/KORU 균등 1/3)으로 %p만큼 이동 · 매도 3조건 or 긴급탈출 시 전량 현금화",
+        "calc_note":    "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 or 긴급탈출 시 전량 현금화",
     }
 
 
