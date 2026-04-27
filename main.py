@@ -1659,9 +1659,40 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         return False
 
 
-def update_sell1_marker(snapshot, master_data, master_path='master_data.json'):
+def _find_sell1_first_date_from_csv(csv_path='pitinvest_history.csv'):
+    """CSV에서 현재 사이클의 첫 sell_signal_count>=1 일자 backfill.
+    가장 최근 sell_signal_count==3 (cycle reset) 이후 첫 발동일 찾음.
+    reset이 없으면 CSV 처음부터 검색.
+    """
+    if not os.path.isfile(csv_path):
+        return None
+    try:
+        df = pd.read_csv(csv_path)
+        if 'date' not in df.columns or 'sell_signal_count' not in df.columns:
+            return None
+        df['date'] = df['date'].astype(str)
+        df = df.sort_values('date').reset_index(drop=True)
+        df['ssc'] = pd.to_numeric(df['sell_signal_count'], errors='coerce').fillna(0).astype(int)
+
+        # 가장 최근 reset (ssc==3) 행 인덱스
+        reset_rows = df[df['ssc'] >= 3]
+        start_idx = (reset_rows.index.max() + 1) if not reset_rows.empty else 0
+
+        # 그 이후 첫 ssc >= 1 행
+        cycle_df = df.iloc[start_idx:]
+        fired = cycle_df[(cycle_df['ssc'] >= 1) & (cycle_df['ssc'] < 3)]
+        if fired.empty:
+            return None
+        return str(fired.iloc[0]['date'])
+    except Exception as e:
+        print(f"[sell1 backfill] fail: {e}")
+        return None
+
+
+def update_sell1_marker(snapshot, master_data, master_path='master_data.json',
+                         csv_path='pitinvest_history.csv'):
     """1차 매도 신호가 처음 발동된 날짜를 master_data.json에 sticky하게 기록.
-    - sell_count >= 1 AND 마커 없음 → 오늘 날짜로 set
+    - 마커 없음 + sell_count >= 1 → CSV에서 backfill 시도 (cycle 첫 발동일), 실패 시 오늘
     - sell_count == 3 인 경우의 clear는 auto_reset_if_sell_signals 가 이미 처리
     - sell_count 가 다시 0으로 떨어져도 자동 clear 안 함 (사이클 동안 anchor 유지)
     반환: (changed: bool, current_date: str|None)"""
@@ -1675,14 +1706,19 @@ def update_sell1_marker(snapshot, master_data, master_path='master_data.json'):
     if current or sell_count < 1 or sell_count >= 3:
         return False, current
 
-    new_master = {**master_data, 'sell1_first_fired_date': today_full}
+    # CSV에서 현재 사이클의 첫 발동일 backfill 시도
+    backfilled = _find_sell1_first_date_from_csv(csv_path)
+    fire_date = backfilled or today_full
+
+    new_master = {**master_data, 'sell1_first_fired_date': fire_date}
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
             json.dump(new_master, f, ensure_ascii=False, indent=4)
         master_data.clear()
         master_data.update(new_master)
-        print(f"📅 1차 매도 첫 발동 마커 기록: {today_full} (6주 카운터 시작)")
-        return True, today_full
+        src = 'CSV backfill' if backfilled else '오늘 기준'
+        print(f"📅 1차 매도 첫 발동 마커 기록: {fire_date} ({src})")
+        return True, fire_date
     except Exception as e:
         print(f"[sell1 marker] fail: {e}")
         return False, current
