@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T05:51:28.316269+09:00",
+  "timestamp": "2026-04-28T06:45:18.001875+09:00",
   "sentiment": {
     "cnn_fng": 67.3428571428571,
     "cnn_components": {
@@ -23,7 +23,7 @@
   "volatility": {
     "vix": 18.02,
     "vvix": 93.86,
-    "skew": 139.08,
+    "skew": 139.64,
     "move": 68.42
   },
   "korea_flow": {
@@ -156,7 +156,7 @@
     "prompt_version": "v2-strict-warning"
   },
   "ytd_returns": {
-    "strategy_pct": 210.96,
+    "strategy_pct": 213.217,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -480,7 +480,7 @@
       },
       {
         "date": "2026-04-28",
-        "ret_pct": 210.96
+        "ret_pct": 213.217
       }
     ],
     "monthly_breakdown": [
@@ -504,8 +504,8 @@
       },
       {
         "month": "2026-04",
-        "return_pct": 147.9,
-        "end_ret_pct": 210.96,
+        "return_pct": 150.16,
+        "end_ret_pct": 213.22,
         "max_dd_pct": 7.3
       }
     ],
