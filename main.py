@@ -542,13 +542,19 @@ def parse_ratio_raw(raw):
     return out
 
 
-def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100.0):
+def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100.0,
+                      initial_core_pct=100.0, initial_sat_pct=0.0,
+                      initial_slots_filled=False):
     """구덩이 매매법 YTD 백테스트.
-    - 시작: 100% 코어 (QQQ/SOXX/EWY 균등 1/3)
+    - 기본 시작: 100% 코어 (QQQ/SOXX/EWY 균등 1/3)
     - 매수 이벤트 (슬롯 fill 또는 3종 동시 +5%p): 포트폴리오 가치의 해당 %p를 위성 (TQQQ/SOXL/KORU 균등)으로 이동
       · 자금 출처: 현금 우선, 없으면 코어 비례 매도
     - 매도 3조건 or 긴급탈출: 전량 현금화 + 슬롯 리셋
-    - 반환: {final_return_pct, daily_series[{date, ret_pct}]}"""
+    - 반환: {final_return_pct, daily_series[{date, ret_pct}]}
+
+    초기 배분 옵션 (default = 현재 동작 100% 보존):
+    - initial_core_pct, initial_sat_pct: 1월 1일 시작 시 코어/위성 비중. 합은 100 (현금 0 가정).
+    - initial_slots_filled: True면 cum_pct=initial_sat_pct, slots 전부 True (이미 모든 매수 트리거 발동된 상태로 간주)."""
     def _n(v):
         try:
             x = float(v)
@@ -570,15 +576,23 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     p0 = {t: _n(first.get(f'{t}_close')) for t in all_tickers}
     if any(p0[t] is None or p0[t] <= 0 for t in core_tickers):
         return {'final_return_pct': None, 'daily_series': [], 'error': 'missing_initial_core_price'}
+    if initial_sat_pct > 0 and any(p0[t] is None or p0[t] <= 0 for t in sat_tickers):
+        return {'final_return_pct': None, 'daily_series': [], 'error': 'missing_initial_sat_price'}
 
-    # 초기: 코어 3종 균등
+    # 초기: 코어/위성 각각 3종 균등
     shares = {t: 0.0 for t in all_tickers}
-    for t in core_tickers:
-        shares[t] = (initial_capital / 3.0) / p0[t]
+    core_amount = initial_capital * initial_core_pct / 100.0
+    sat_amount  = initial_capital * initial_sat_pct  / 100.0
+    if core_amount > 0:
+        for t in core_tickers:
+            shares[t] = (core_amount / 3.0) / p0[t]
+    if sat_amount > 0:
+        for t in sat_tickers:
+            shares[t] = (sat_amount / 3.0) / p0[t]
     cash = 0.0
 
-    slots = {'cnn': False, 'vix': False, 'margin': False}
-    cum_pct = 0.0
+    slots = {'cnn': initial_slots_filled, 'vix': initial_slots_filled, 'margin': initial_slots_filled}
+    cum_pct = float(initial_sat_pct)
     daily_series = []
     prev_in_emergency = False
     prev_in_sell3     = False
