@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T10:33:30.500836+09:00",
+  "timestamp": "2026-04-27T10:45:57.481097+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -1102,8 +1102,8 @@
   "korea": {
     "samsung": {
       "ticker": "005930.KS",
-      "price_krw": 222750.0,
-      "rs_roc": 0.1013,
+      "price_krw": 221750.0,
+      "rs_roc": 0.0963,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1185,8 +1185,8 @@
     },
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1474.18,
-      "change_30d_pct": -1.84
+      "value": 1474.36,
+      "change_30d_pct": -1.82
     }
   },
   "errors": []
