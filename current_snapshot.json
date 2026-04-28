@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T05:59:00.664269+09:00",
+  "timestamp": "2026-04-29T06:57:20.089683+09:00",
   "sentiment": {
     "cnn_fng": 63.8,
     "cnn_components": {
@@ -23,7 +23,7 @@
   "volatility": {
     "vix": 17.83,
     "vvix": 91.03,
-    "skew": 139.64,
+    "skew": 138.16,
     "move": 68.68
   },
   "korea_flow": {
@@ -158,7 +158,7 @@
     "prompt_version": "v3-with-description"
   },
   "ytd_returns": {
-    "strategy_pct": 192.51,
+    "strategy_pct": 191.181,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -486,7 +486,7 @@
       },
       {
         "date": "2026-04-29",
-        "ret_pct": 192.51
+        "ret_pct": 191.181
       }
     ],
     "monthly_breakdown": [
@@ -510,9 +510,9 @@
       },
       {
         "month": "2026-04",
-        "return_pct": 129.45,
-        "end_ret_pct": 192.51,
-        "max_dd_pct": 21.7
+        "return_pct": 128.12,
+        "end_ret_pct": 191.18,
+        "max_dd_pct": 23.03
       }
     ],
     "calc_note": "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 시 전량 현금화 · 긴급탈출(−10%) 시 위성만 청산, 코어 유지"
