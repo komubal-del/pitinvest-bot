@@ -1284,15 +1284,49 @@ def filter_expert_videos(videos, experts=TARGET_EXPERTS):
 
 
 def get_transcript_safe(video_id):
-    """youtube-transcript-api v1.x 로 한국어 자막 추출. 실패 시 None."""
+    """youtube-transcript-api로 한국어 자막 추출. 수동/자동 자막 모두 시도.
+    YouTube의 '더보기 → 스크립트 표시' 데이터와 같은 source.
+    실패 시 None + 어떤 트랙이 있는지 진단 로그."""
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
         api = YouTubeTranscriptApi()
-        fetched = api.fetch(video_id, languages=['ko'])
-        return ' '.join(snippet.text for snippet in fetched)
     except Exception as e:
-        print(f"[transcript] {video_id} fail: {e}")
+        print(f"[transcript] import fail: {e}")
         return None
+
+    # 1차: 가장 일반적인 ko / ko-KR 시도 (수동 자막 우선, 자동 자막 fallback)
+    for langs in (['ko', 'ko-KR'], ['ko-KR', 'ko']):
+        try:
+            fetched = api.fetch(video_id, languages=langs)
+            return ' '.join(s.text for s in fetched)
+        except Exception:
+            continue
+
+    # 2차: list_transcripts로 사용 가능한 모든 트랙 검색 (자동 자막 포함)
+    try:
+        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        available = []
+        for t in transcript_list:
+            available.append(f"{t.language_code}({'auto' if t.is_generated else 'manual'})")
+            # 한국어 트랙 (자동/수동 무관) 시도
+            if t.language_code.startswith('ko'):
+                try:
+                    data = t.fetch()
+                    return ' '.join(s.text for s in data)
+                except Exception:
+                    continue
+        # 한국어 자막 없으면 영어 자동 자막이라도 시도 (의미 분석용)
+        for t in transcript_list:
+            if t.language_code == 'en' and t.is_generated:
+                try:
+                    data = t.fetch()
+                    return ' '.join(s.text for s in data)
+                except Exception:
+                    continue
+        print(f"[transcript] {video_id} no usable track. 사용 가능: {', '.join(available) or '(없음)'}")
+    except Exception as e:
+        print(f"[transcript] {video_id} list fail: {e}")
+    return None
 
 
 def get_video_description(video_id):
@@ -1468,7 +1502,12 @@ def analyze_experts_daily():
             # 1) transcript 시도
             transcript = get_transcript_safe(vid)
             if transcript:
-                text, text_source = transcript[:4000], 'transcript'
+                # 자막 길이 ≤ 10k자 그대로, 초과 시 첫 6k + 마지막 4k (도입 + 결론)
+                if len(transcript) <= 10000:
+                    text = transcript
+                else:
+                    text = transcript[:6000] + '\n\n... [중간 생략] ...\n\n' + transcript[-4000:]
+                text_source = 'transcript'
             else:
                 # 2) description fallback
                 desc = get_video_description(vid)
