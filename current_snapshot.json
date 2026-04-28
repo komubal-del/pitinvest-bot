@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T17:05:28.174324+09:00",
+  "timestamp": "2026-04-28T19:53:51.149287+09:00",
   "sentiment": {
     "cnn_fng": 67.8571428571429,
     "cnn_components": {
@@ -21,14 +21,14 @@
     }
   },
   "volatility": {
-    "vix": 18.27,
+    "vix": 18.43,
     "vvix": 93.86,
     "skew": 139.64,
     "move": 68.42
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 166600000000,
-    "retail_net_buy_krw": -130399999999,
+    "foreign_inst_buy_krw": 168900000000,
+    "retail_net_buy_krw": -130600000000,
     "margin_loan_krw": 35031700000000,
     "news_count": 0,
     "short_sale_balance": null,
