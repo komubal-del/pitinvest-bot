@@ -1135,7 +1135,7 @@ TARGET_EXPERTS = ('박병창', '윤지호')
 EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
 VIDEO_HISTORY_PATH = 'video_analysis_history.json'  # 영상별 분석 영구 캐시
 GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모델
-PROMPT_VERSION   = 'v2-strict-warning'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화
+PROMPT_VERSION   = 'v3-with-description'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화
 
 # 키워드 기반 fallback 분류기 (Gemini 429 쿼터 초과 시)
 WARNING_KW = [
@@ -1295,7 +1295,30 @@ def get_transcript_safe(video_id):
         return None
 
 
-def analyze_with_gemini(text, title, has_transcript):
+def get_video_description(video_id):
+    """YouTube Data API videos.list → snippet.description 반환. 자막 없는 영상에 fallback.
+    실패 시 None."""
+    api_key = os.environ.get('YOUTUBE_API_KEY')
+    if not api_key:
+        return None
+    try:
+        url = (f'https://www.googleapis.com/youtube/v3/videos'
+               f'?id={video_id}&part=snippet&key={api_key}')
+        r = requests.get(url, timeout=10)
+        if r.status_code != 200:
+            print(f"[desc] {video_id} http {r.status_code}")
+            return None
+        items = r.json().get('items', [])
+        if not items:
+            return None
+        desc = items[0].get('snippet', {}).get('description', '').strip()
+        return desc or None
+    except Exception as e:
+        print(f"[desc] {video_id} fail: {e}")
+        return None
+
+
+def analyze_with_gemini(text, title, text_source):
     """Gemini 2.0 Flash로 전문가 시장 입장 판정.
     반환: {stance: 'warning|bullish|neutral|unknown', reason: str}"""
     api_key = os.environ.get('GEMINI_API_KEY', '')
@@ -1307,7 +1330,11 @@ def analyze_with_gemini(text, title, has_transcript):
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(GEMINI_MODEL_NAME)
 
-        source_desc = "영상 자막" if has_transcript else "영상 제목만 (자막 없음 → 정확도 낮음)"
+        source_desc = {
+            'transcript':  "영상 자막 (정확도 높음)",
+            'description': "영상 설명란 (자막 없음 → 정확도 중간)",
+            'title':       "영상 제목만 (자막/설명 없음 → 정확도 낮음)",
+        }.get(text_source, "분석 텍스트")
         prompt = f"""다음은 한국 주식 전문가의 {source_desc}입니다.
 
 제목: {title}
@@ -1433,14 +1460,25 @@ def analyze_experts_daily():
         if cached_analysis and cached_analysis.get('stance') in ('warning', 'bullish', 'neutral'):
             # 영구 캐시 히트 (같은 프롬프트 버전 + 유효 판정)
             analysis = cached_analysis
-            has_transcript = cached_entry.get('transcript_available', False)
-            print(f"  ↻ [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']} (캐시)")
+            text_source = cached_entry.get('text_source') or (
+                'transcript' if cached_entry.get('transcript_available') else 'title'
+            )
+            print(f"  ↻ [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']} (캐시 · {text_source})")
         else:
+            # 1) transcript 시도
             transcript = get_transcript_safe(vid)
-            has_transcript = bool(transcript)
-            text = transcript[:4000] if transcript else v['title']
-            analysis = analyze_with_gemini(text, v['title'], has_transcript)
-            print(f"  - [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']}")
+            if transcript:
+                text, text_source = transcript[:4000], 'transcript'
+            else:
+                # 2) description fallback
+                desc = get_video_description(vid)
+                if desc:
+                    text, text_source = desc[:4000], 'description'
+                else:
+                    # 3) 제목만 (마지막 fallback)
+                    text, text_source = v['title'], 'title'
+            analysis = analyze_with_gemini(text, v['title'], text_source)
+            print(f"  - [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']} ({text_source})")
             # 영구 캐시 저장 (fallback 아닌 제대로 된 판정만)
             if analysis.get('stance') in ('warning', 'bullish', 'neutral') and not analysis.get('fallback'):
                 if vid not in video_history:
@@ -1448,14 +1486,20 @@ def analyze_experts_daily():
                         'title': v['title'],
                         'published': v['published'],
                         'url': v['url'],
-                        'transcript_available': has_transcript,
+                        'text_source': text_source,
+                        'transcript_available': (text_source == 'transcript'),
                         'analyses': {},
                     }
+                else:
+                    # 기존 entry 업데이트 (text_source 추가)
+                    video_history[vid]['text_source'] = text_source
+                    video_history[vid]['transcript_available'] = (text_source == 'transcript')
                 video_history[vid]['analyses'][PROMPT_VERSION] = analysis
 
         result['videos'].append({
             **v,
-            'transcript_available': has_transcript,
+            'text_source': text_source,
+            'transcript_available': (text_source == 'transcript'),  # 호환용
             'analysis': analysis,
         })
 
