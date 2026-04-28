@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-28T21:20:17.983926+09:00",
+  "timestamp": "2026-04-29T00:15:22.580379+09:00",
   "sentiment": {
-    "cnn_fng": 67.8571428571429,
+    "cnn_fng": 67.7142857142857,
     "cnn_components": {
-      "momentum": 98.6,
-      "strength": 50.4,
-      "breadth": 73.6,
-      "put_call": 46.0,
+      "momentum": 93.4,
+      "strength": 49.0,
+      "breadth": 72.2,
+      "put_call": 54.2,
       "junk_bond": 56.6,
       "volatility": 50.0,
-      "safe_haven": 99.8
+      "safe_haven": 97.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -21,8 +21,8 @@
     }
   },
   "volatility": {
-    "vix": 19.24,
-    "vvix": 93.86,
+    "vix": 18.48,
+    "vvix": 94.31,
     "skew": 139.64,
     "move": 68.42
   },
@@ -36,67 +36,67 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24887.1,
+      "current": 24600.77,
       "high_52w": 24899.37,
-      "drop_pct": -0.05
+      "drop_pct": -1.2
     },
     "kospi": {
-      "current": 6641.02,
-      "high_52w": 6712.73,
-      "drop_pct": -1.07
+      "current": 6615.03,
+      "high_52w": 6657.22,
+      "drop_pct": -0.63
     },
     "kosdaq": {
-      "current": 1215.58,
+      "current": 1226.18,
       "high_52w": 1229.42,
-      "drop_pct": -1.13
+      "drop_pct": -0.26
     },
     "sp500": {
-      "current": 7173.91,
+      "current": 7127.67,
       "high_52w": 7178.74,
-      "drop_pct": -0.07
+      "drop_pct": -0.71
     },
     "russell2k": {
-      "current": 2788.19,
+      "current": 2753.99,
       "high_52w": 2817.96,
-      "drop_pct": -1.06
+      "drop_pct": -2.27
     },
     "soxx": {
-      "current": 455.41,
+      "current": 434.7,
       "high_52w": 463.87,
-      "drop_pct": -1.82
+      "drop_pct": -6.29
     }
   },
   "sector_rs": {
-    "XLK": 1.045,
-    "SMH": 1.178,
-    "BOTZ": 0.982,
-    "IGV": 0.854,
-    "XLF": 0.953,
-    "XLE": 1.107
+    "XLK": 1.028,
+    "SMH": 1.139,
+    "BOTZ": 0.965,
+    "IGV": 0.855,
+    "XLF": 0.964,
+    "XLE": 1.135
   },
   "signals": {
     "cnn_under_10": false,
     "vix_over_25": false,
     "margin_call_trigger": false,
     "count": 0,
-    "sell_leverage": true,
+    "sell_leverage": false,
     "sell_leading": false,
     "sell_expert": false,
-    "sell_count": 1,
+    "sell_count": 0,
     "emergency_exit_warning": false,
-    "stage_key": "exit",
-    "stage_key_raw": "exit"
+    "stage_key": "normal",
+    "stage_key_raw": "normal"
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 42.46,
+    "tqqq_profit_pct": 36.85,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 130.64,
+    "soxl_profit_pct": 98.72,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 49.82,
+    "koru_profit_pct": 39.52,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -117,8 +117,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-04-28",
-    "analyzed_at": "2026-04-28T14:22:23.981879+09:00",
+    "date": "2026-04-29",
+    "analyzed_at": "2026-04-29T00:15:26.401100+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -513,5 +513,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 시 전량 현금화 · 긴급탈출(−10%) 시 위성만 청산, 코어 유지"
   },
-  "recommended_action": "✅ 전일 구덩이 탈출 상태 지속 · 추가 액션 없음"
+  "recommended_action": "✅ 평시 유지 · 다음 구덩이 대기"
 }
