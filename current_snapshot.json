@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T10:53:14.136205+09:00",
+  "timestamp": "2026-04-28T14:22:21.785926+09:00",
   "sentiment": {
     "cnn_fng": 67.3428571428571,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 68.42
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 773800000000,
-    "retail_net_buy_krw": -733100000000,
+    "foreign_inst_buy_krw": 484200000000,
+    "retail_net_buy_krw": -456900000000,
     "margin_loan_krw": 35031700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.05
     },
     "kospi": {
-      "current": 6694.85,
+      "current": 6675.2,
       "high_52w": 6712.73,
-      "drop_pct": -0.27
+      "drop_pct": -0.56
     },
     "kosdaq": {
-      "current": 1217.43,
+      "current": 1219.92,
       "high_52w": 1229.42,
-      "drop_pct": -0.98
+      "drop_pct": -0.77
     },
     "sp500": {
       "current": 7173.91,
@@ -118,7 +118,7 @@
   },
   "expert_analysis": {
     "date": "2026-04-28",
-    "analyzed_at": "2026-04-28T01:21:20.331179+09:00",
+    "analyzed_at": "2026-04-28T14:22:23.981879+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -126,14 +126,15 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "iTNXEFnP16w",
-        "title": "“반도체 40% 폭등…이유는 딱 하나!” | 박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
-        "published": "2026-04-27T00:52:34Z",
-        "url": "https://youtube.com/watch?v=iTNXEFnP16w",
+        "video_id": "GmI5_ulddRw",
+        "title": "지수만 쫓아가면 큰일…여름부터 진짜 승부 시작?! |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+        "published": "2026-04-28T00:28:28Z",
+        "url": "https://youtube.com/watch?v=GmI5_ulddRw",
+        "text_source": "description",
         "transcript_available": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 반도체 주식의 폭등 현상과 그 이유를 설명하겠다는 내용으로, 특정 행동(매수/매도/현금화 등)을 권고하는 표현이 명확히 없어 중립적 시장 분석에 해당합니다."
+          "reason": "제목에서 지수를 쫓는 투자에 대한 경고와 함께 여름부터 시장의 중요한 변화를 예고하고 있으나, 구체적인 현금화, 비중 축소 또는 매수 행동 권고는 없습니다."
         }
       },
       {
@@ -141,10 +142,11 @@
         "title": "“지금은 분산의 시대…반도체만 보면 늦는다” | 윤지호 경제평론가 [신과대화]",
         "published": "2026-04-18T02:00:27Z",
         "url": "https://youtube.com/watch?v=ZNuhFy4nfyU",
+        "text_source": "description",
         "transcript_available": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 '분산의 시대'를 강조하며 '반도체만 보면 늦는다'고 조언하지만, 이는 특정 투자 전략에 대한 분석 및 권고일 뿐 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 명확하지 않습니다. 또한 매수를 권하는 'bullish' 입장도 아닙니다."
+          "reason": "제목은 '분산 투자'를 권고하고 특정 섹터(반도체)에만 집중하는 것을 경계하라는 조언을 담고 있을 뿐, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 없으므로 중립으로 판단합니다."
         }
       }
     ],
@@ -153,7 +155,7 @@
       "박병창": "neutral",
       "윤지호": "neutral"
     },
-    "prompt_version": "v2-strict-warning"
+    "prompt_version": "v3-with-description"
   },
   "ytd_returns": {
     "strategy_pct": 213.217,
