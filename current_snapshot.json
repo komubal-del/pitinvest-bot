@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T08:44:23.648699+09:00",
+  "timestamp": "2026-04-29T10:55:46.172804+09:00",
   "sentiment": {
     "cnn_fng": 63.8,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 68.68
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 168900000000,
-    "retail_net_buy_krw": -130600000000,
+    "foreign_inst_buy_krw": -272500000000,
+    "retail_net_buy_krw": 310700000000,
     "margin_loan_krw": 35087000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.95
     },
     "kospi": {
-      "current": 6615.03,
-      "high_52w": 6657.22,
-      "drop_pct": -0.63
+      "current": 6636.69,
+      "high_52w": 6712.73,
+      "drop_pct": -1.13
     },
     "kosdaq": {
-      "current": 1226.18,
+      "current": 1210.2,
       "high_52w": 1229.42,
-      "drop_pct": -0.26
+      "drop_pct": -1.56
     },
     "sp500": {
       "current": 7138.8,
@@ -85,7 +85,16 @@
     "sell_count": 1,
     "emergency_exit_warning": false,
     "stage_key": "exit",
-    "stage_key_raw": "exit"
+    "stage_key_raw": "exit",
+    "today": {
+      "cnn_under_10": false,
+      "vix_over_25": false,
+      "margin_call_trigger": false,
+      "sell_leverage": true,
+      "sell_leading": false,
+      "sell_expert": false
+    },
+    "first_fired": {}
   },
   "leverage_profit": {
     "tqqq_profit_pct": 38.14,
@@ -107,14 +116,14 @@
       "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_ok": false
     },
     "expert_warning": false,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-04-29",
@@ -158,364 +167,364 @@
     "prompt_version": "v3-with-description"
   },
   "ytd_returns": {
-    "strategy_pct": 191.181,
+    "strategy_pct": 125.763,
     "daily_series": [
       {
         "date": "2026-01-02",
-        "ret_pct": 0.0
+        "ret_pct": -0.0
       },
       {
         "date": "2026-01-05",
-        "ret_pct": 3.031
+        "ret_pct": 2.87
       },
       {
         "date": "2026-01-06",
-        "ret_pct": 7.779
+        "ret_pct": 7.135
       },
       {
         "date": "2026-01-07",
-        "ret_pct": 6.562
+        "ret_pct": 6.1
       },
       {
         "date": "2026-01-08",
-        "ret_pct": 4.475
+        "ret_pct": 4.397
       },
       {
         "date": "2026-01-09",
-        "ret_pct": 9.239
+        "ret_pct": 8.157
       },
       {
         "date": "2026-01-12",
-        "ret_pct": 9.827
+        "ret_pct": 8.587
       },
       {
         "date": "2026-01-13",
-        "ret_pct": 9.184
+        "ret_pct": 8.14
       },
       {
         "date": "2026-01-14",
-        "ret_pct": 9.635
+        "ret_pct": 8.481
       },
       {
         "date": "2026-01-15",
-        "ret_pct": 13.015
+        "ret_pct": 10.724
       },
       {
         "date": "2026-01-16",
-        "ret_pct": 15.761
+        "ret_pct": 12.499
       },
       {
         "date": "2026-01-20",
-        "ret_pct": 12.97
+        "ret_pct": 9.225
       },
       {
         "date": "2026-01-21",
-        "ret_pct": 23.11
+        "ret_pct": 15.293
       },
       {
         "date": "2026-01-22",
-        "ret_pct": 24.512
+        "ret_pct": 16.103
       },
       {
         "date": "2026-01-23",
-        "ret_pct": 25.634
+        "ret_pct": 16.774
       },
       {
         "date": "2026-01-26",
-        "ret_pct": 24.807
+        "ret_pct": 16.274
       },
       {
         "date": "2026-01-27",
-        "ret_pct": 34.984
+        "ret_pct": 22.249
       },
       {
         "date": "2026-01-28",
-        "ret_pct": 42.711
+        "ret_pct": 26.687
       },
       {
         "date": "2026-01-29",
-        "ret_pct": 40.742
+        "ret_pct": 25.59
       },
       {
         "date": "2026-01-30",
-        "ret_pct": 30.456
+        "ret_pct": 19.75
       },
       {
         "date": "2026-02-02",
-        "ret_pct": 31.836
+        "ret_pct": 20.547
       },
       {
         "date": "2026-02-03",
-        "ret_pct": 31.387
+        "ret_pct": 20.332
       },
       {
         "date": "2026-02-04",
-        "ret_pct": 19.034
+        "ret_pct": 13.116
       },
       {
         "date": "2026-02-05",
-        "ret_pct": 17.4
+        "ret_pct": 12.206
       },
       {
         "date": "2026-02-06",
-        "ret_pct": 30.534
+        "ret_pct": 20.044
       },
       {
         "date": "2026-02-09",
-        "ret_pct": 34.712
+        "ret_pct": 22.452
       },
       {
         "date": "2026-02-10",
-        "ret_pct": 31.732
+        "ret_pct": 20.725
       },
       {
         "date": "2026-02-11",
-        "ret_pct": 43.002
+        "ret_pct": 27.248
       },
       {
         "date": "2026-02-12",
-        "ret_pct": 38.208
+        "ret_pct": 24.399
       },
       {
         "date": "2026-02-13",
-        "ret_pct": 43.897
+        "ret_pct": 27.642
       },
       {
         "date": "2026-02-17",
-        "ret_pct": 39.045
+        "ret_pct": 24.907
       },
       {
         "date": "2026-02-18",
-        "ret_pct": 43.885
+        "ret_pct": 27.741
       },
       {
         "date": "2026-02-19",
-        "ret_pct": 46.108
+        "ret_pct": 28.93
       },
       {
         "date": "2026-02-20",
-        "ret_pct": 58.379
+        "ret_pct": 35.762
       },
       {
         "date": "2026-02-23",
-        "ret_pct": 52.33
+        "ret_pct": 32.349
       },
       {
         "date": "2026-02-24",
-        "ret_pct": 63.465
+        "ret_pct": 38.557
       },
       {
         "date": "2026-02-25",
-        "ret_pct": 74.735
+        "ret_pct": 44.752
       },
       {
         "date": "2026-02-26",
-        "ret_pct": 71.634
+        "ret_pct": 42.858
       },
       {
         "date": "2026-02-27",
-        "ret_pct": 71.098
+        "ret_pct": 42.493
       },
       {
         "date": "2026-03-02",
-        "ret_pct": 71.098
+        "ret_pct": 41.754
       },
       {
         "date": "2026-03-03",
-        "ret_pct": 65.485
+        "ret_pct": 29.717
       },
       {
         "date": "2026-03-04",
-        "ret_pct": 66.908
+        "ret_pct": 32.809
       },
       {
         "date": "2026-03-05",
-        "ret_pct": 66.908
+        "ret_pct": 30.819
       },
       {
         "date": "2026-03-06",
-        "ret_pct": 65.171
+        "ret_pct": 27.536
       },
       {
         "date": "2026-03-09",
-        "ret_pct": 68.46
+        "ret_pct": 34.315
       },
       {
         "date": "2026-03-10",
-        "ret_pct": 67.77
+        "ret_pct": 32.868
       },
       {
         "date": "2026-03-11",
-        "ret_pct": 68.723
+        "ret_pct": 34.817
       },
       {
         "date": "2026-03-12",
-        "ret_pct": 64.396
+        "ret_pct": 26.237
       },
       {
         "date": "2026-03-13",
-        "ret_pct": 64.346
+        "ret_pct": 26.256
       },
       {
         "date": "2026-03-16",
-        "ret_pct": 67.446
+        "ret_pct": 32.689
       },
       {
         "date": "2026-03-17",
-        "ret_pct": 68.277
+        "ret_pct": 34.298
       },
       {
         "date": "2026-03-18",
-        "ret_pct": 66.986
+        "ret_pct": 31.713
       },
       {
         "date": "2026-03-19",
-        "ret_pct": 67.772
+        "ret_pct": 33.375
       },
       {
         "date": "2026-03-20",
-        "ret_pct": 63.947
+        "ret_pct": 25.762
       },
       {
         "date": "2026-03-23",
-        "ret_pct": 66.504
+        "ret_pct": 31.152
       },
       {
         "date": "2026-03-24",
-        "ret_pct": 64.371
+        "ret_pct": 27.803
       },
       {
         "date": "2026-03-25",
-        "ret_pct": 65.189
+        "ret_pct": 29.005
       },
       {
         "date": "2026-03-26",
-        "ret_pct": 56.843
+        "ret_pct": 16.074
       },
       {
         "date": "2026-03-27",
-        "ret_pct": 54.874
+        "ret_pct": 13.152
       },
       {
         "date": "2026-03-30",
-        "ret_pct": 50.107
+        "ret_pct": 5.649
       },
       {
         "date": "2026-03-31",
-        "ret_pct": 63.061
+        "ret_pct": 20.789
       },
       {
         "date": "2026-04-01",
-        "ret_pct": 70.471
+        "ret_pct": 28.784
       },
       {
         "date": "2026-04-02",
-        "ret_pct": 67.912
+        "ret_pct": 26.269
       },
       {
         "date": "2026-04-06",
-        "ret_pct": 73.295
+        "ret_pct": 31.305
       },
       {
         "date": "2026-04-07",
-        "ret_pct": 76.333
+        "ret_pct": 33.981
       },
       {
         "date": "2026-04-08",
-        "ret_pct": 106.526
+        "ret_pct": 58.999
       },
       {
         "date": "2026-04-09",
-        "ret_pct": 112.55
+        "ret_pct": 63.025
       },
       {
         "date": "2026-04-10",
-        "ret_pct": 116.687
+        "ret_pct": 66.267
       },
       {
         "date": "2026-04-13",
-        "ret_pct": 126.708
+        "ret_pct": 73.8
       },
       {
         "date": "2026-04-14",
-        "ret_pct": 144.194
+        "ret_pct": 86.811
       },
       {
         "date": "2026-04-15",
-        "ret_pct": 144.697
+        "ret_pct": 87.283
       },
       {
         "date": "2026-04-16",
-        "ret_pct": 152.405
+        "ret_pct": 93.021
       },
       {
         "date": "2026-04-17",
-        "ret_pct": 170.34
+        "ret_pct": 106.412
       },
       {
         "date": "2026-04-20",
-        "ret_pct": 167.217
+        "ret_pct": 104.2
       },
       {
         "date": "2026-04-21",
-        "ret_pct": 163.04
+        "ret_pct": 101.267
       },
       {
         "date": "2026-04-22",
-        "ret_pct": 189.166
+        "ret_pct": 120.681
       },
       {
         "date": "2026-04-23",
-        "ret_pct": 186.523
+        "ret_pct": 119.105
       },
       {
         "date": "2026-04-24",
-        "ret_pct": 203.958
+        "ret_pct": 132.335
       },
       {
         "date": "2026-04-25",
-        "ret_pct": 214.207
+        "ret_pct": 137.446
       },
       {
         "date": "2026-04-27",
-        "ret_pct": 207.83
+        "ret_pct": 134.071
       },
       {
         "date": "2026-04-28",
-        "ret_pct": 213.217
+        "ret_pct": 136.807
       },
       {
         "date": "2026-04-29",
-        "ret_pct": 191.181
+        "ret_pct": 125.763
       }
     ],
     "monthly_breakdown": [
       {
         "month": "2026-01",
-        "return_pct": 30.46,
-        "end_ret_pct": 30.46,
-        "max_dd_pct": 12.25
+        "return_pct": 19.75,
+        "end_ret_pct": 19.75,
+        "max_dd_pct": 6.94
       },
       {
         "month": "2026-02",
-        "return_pct": 40.64,
-        "end_ret_pct": 71.1,
-        "max_dd_pct": 14.44
+        "return_pct": 22.74,
+        "end_ret_pct": 42.49,
+        "max_dd_pct": 8.34
       },
       {
         "month": "2026-03",
-        "return_pct": -8.04,
-        "end_ret_pct": 63.06,
-        "max_dd_pct": 20.99
+        "return_pct": -21.7,
+        "end_ret_pct": 20.79,
+        "max_dd_pct": 36.1
       },
       {
         "month": "2026-04",
-        "return_pct": 128.12,
-        "end_ret_pct": 191.18,
-        "max_dd_pct": 23.03
+        "return_pct": 104.97,
+        "end_ret_pct": 125.76,
+        "max_dd_pct": 11.68
       }
     ],
-    "calc_note": "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 시 전량 현금화 · 긴급탈출(−10%) 시 위성만 청산, 코어 유지"
+    "calc_note": "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · v5.0: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매수3종 다 발동 → 카운터 리셋. 매도3종 다 발동 또는 긴급탈출(−10%) → 위성 0%, 코어 유지"
   },
   "recommended_action": "✅ 전일 구덩이 탈출 상태 지속 · 추가 액션 없음"
 }

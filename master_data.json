@@ -14,5 +14,8 @@
         "KORU": 54445165
     },
     "total_krw": 112076528,
-    "sell1_first_fired_date": "2026-04-24"
+    "sell1_first_fired_date": "2026-04-24",
+    "signal_first_fired": {
+        "sell_leverage": "2026-04-24"
+    }
 }
