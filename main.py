@@ -600,31 +600,30 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     # --- 액션 계산 (라벨은 항상 raw_stage 그대로) ---
     display_stage = raw_stage
 
-    # stage별 구체적 액션
+    # v5.0 액션: 매수/매도 모두 1/3 step (33.33%p)
     if raw_stage == 'emergency':
         specific_action = "🚨 긴급탈출 · 위성 전량 청산 (코어 유지)"
     elif raw_stage == 'reset':
-        specific_action = "♻️ 매도 3조건 모두 충족 · 자동 리셋 완료 · 다음 구덩이 대기"
+        specific_action = "♻️ 매도 3조건 모두 충족 · 위성 전량 청산 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
-        specific_action = "📉 위성 비중 축소 준비 · 마지막 매도 조건 임박"
+        specific_action = "📉 매도 2조건 충족 · 위성 −33%p 추가 매도. 마지막 조건 대기"
     elif raw_stage == 'exit':
-        if leverage_over:
-            specific_action = f"📉 {'/'.join(over_tickers)} 50% 매도하여 코어로 이동"
-        elif sell_leading_fired:
-            specific_action = "📉 삼전/하닉 주도주 상승 · 위성 비중 −20%p 축소"
-        else:
-            specific_action = "📉 전문가 경고 · 매일 위성 −5%p 점진 축소"
+        active_sell = []
+        if leverage_over:        active_sell.append("위성+100%")
+        if sell_leading_fired:   active_sell.append("주도주 3일↑")
+        if sell_expert_fired:    active_sell.append("전문가 경고")
+        specific_action = f"📉 매도1 ({' / '.join(active_sell)}) 발동 · 위성 −33%p 매도 (보유 위성 균등)"
     elif raw_stage == 'full':
-        specific_action = "📈 매수 3조건 모두 충족 · 매일 +5%p 매수 (100% 도달까지)"
+        specific_action = "📈 매수 3조건 모두 충족 · 위성 100% (cap). 카운터 리셋 · 다음 매수 대기"
     elif raw_stage == 'deepening':
         active = []
         if cnn_fired:    active.append("CNN<10")
         if vix_fired:    active.append("VIX>25")
         if margin_fired: active.append("강제청산")
-        specific_action = f"📈 매수 2조건 ({' + '.join(active)}) 충족 · 빈 슬롯 +20%p 매수"
+        specific_action = f"📈 매수2 ({' + '.join(active)}) 충족 · 위성 +33%p 추가 매수"
     elif raw_stage == 'entry':
         slot = "CNN<10" if cnn_fired else ("VIX>25" if vix_fired else "강제청산")
-        specific_action = f"📈 {slot} 슬롯 +20%p 매수"
+        specific_action = f"📈 매수1 ({slot}) 발동 · 위성 +33%p 매수 (보유 위성 균등)"
     else:  # 'normal'
         specific_action = "✅ 평시 유지 · 다음 구덩이 대기"
 
@@ -749,7 +748,7 @@ def _build_ytd_returns(history_rows):
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
-        "calc_note":    "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · 매수 슬롯 3종 채움 상태 · 3종 동시 트리거 시 +5%p 일일 매수 · 매도 3조건 시 전량 현금화 · 긴급탈출(−10%) 시 위성만 청산, 코어 유지",
+        "calc_note":    "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · v5.0: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매수3종 다 발동 → 카운터 리셋. 매도3종 다 발동 또는 긴급탈출(−10%) → 위성 0%, 코어 유지",
     }
 
 
@@ -861,6 +860,10 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
                 v += shares[t] * p
         return v
 
+    # v5.0: 매수/매도 sticky 카운터 (사이클 동안 발동된 신호 누적)
+    sell_slots = {'lev': False, 'lead': False, 'expert': False}
+    STEP_PCT = 100.0 / 3.0  # 33.33%p
+
     for row in ytd:
         prices = {t: _n(row.get(f'{t}_close')) for t in all_tickers}
 
@@ -880,42 +883,64 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             int(float(row.get('sell_expert_trigger')   or 0))
         ) == 3
 
-        # 전이(transition) 시에만 청산 — 지속 상태면 이미 청산 완료
+        # 전이 (transition) 시에만 사이클 리셋 액션
         emergency_transition = emergency_today and not prev_in_emergency
         sell3_transition     = sell3_today     and not prev_in_sell3
 
-        if sell3_transition:
-            # 매도 3조건 모두 충족 → 전량 현금화 (코어 + 위성)
-            cash = _portfolio_value(prices)
-            shares = {t: 0.0 for t in all_tickers}
-            slots = {'cnn': False, 'vix': False, 'margin': False}
-            cum_pct = 0.0
-        elif emergency_transition:
-            # 긴급탈출 -10% → 위성만 청산, 코어는 유지 (V2 룰)
+        # v5.0: 사이클 리셋 (매도3종 또는 긴급탈출) — 둘 다 위성만 청산, 코어 유지
+        if sell3_transition or emergency_transition:
             sat_value = sum(shares[t] * prices[t] for t in sat_tickers)
             cash += sat_value
             for t in sat_tickers:
                 shares[t] = 0.0
             slots = {'cnn': False, 'vix': False, 'margin': False}
+            sell_slots = {'lev': False, 'lead': False, 'expert': False}
             cum_pct = 0.0
 
-        # 매수 로직은 emergency 지속 여부와 무관하게 실행 (이미 현금에서 위성 진입)
+        # 매도 신호 처리 (sticky, 첫 발동 시에만 -33.33%p)
+        sl  = int(float(row.get('sell_leverage_trigger') or 0))
+        sld = int(float(row.get('sell_leading_trigger')  or 0))
+        se  = int(float(row.get('sell_expert_trigger')   or 0))
+
+        sell_pct = 0.0
+        # 매도3 transition으로 이미 처리한 경우 (sell3_transition=True) 추가 매도 안 함
+        if not sell3_transition and not emergency_transition:
+            if sl  and not sell_slots['lev']:    sell_pct += STEP_PCT; sell_slots['lev']    = True
+            if sld and not sell_slots['lead']:   sell_pct += STEP_PCT; sell_slots['lead']   = True
+            if se  and not sell_slots['expert']: sell_pct += STEP_PCT; sell_slots['expert'] = True
+
+        if sell_pct > 0 and cum_pct > 0:
+            sell_pct = min(sell_pct, cum_pct)
+            cum_pct -= sell_pct
+            # 위성 균등 매도 (보유 중인 위성에 한해)
+            sat_value = sum(shares[t] * prices[t] for t in sat_tickers)
+            if sat_value > 0:
+                pv = _portfolio_value(prices)
+                amount = min(sat_value, pv * sell_pct / 100.0)
+                ratio = amount / sat_value
+                for t in sat_tickers:
+                    shares[t] *= (1 - ratio)
+                cash += amount  # 매도 자금은 현금으로 (사용자 수동 결정)
+
+        # 매수 신호 처리 (sticky, 첫 발동 시에만 +33.33%p)
         c  = int(float(row.get('cnn_trigger') or 0))
         v_ = int(float(row.get('vix_trigger') or 0))
         mg = int(float(row.get('margin_trigger') or 0))
 
-        pct = 0
-        if c  and not slots['cnn']:    pct += 20; slots['cnn'] = True
-        if v_ and not slots['vix']:    pct += 20; slots['vix'] = True
-        if mg and not slots['margin']: pct += 20; slots['margin'] = True
-        if slots['cnn'] and slots['vix'] and slots['margin'] and cum_pct < 100:
-            pct += 5
+        buy_pct = 0.0
+        if c  and not slots['cnn']:    buy_pct += STEP_PCT; slots['cnn']    = True
+        if v_ and not slots['vix']:    buy_pct += STEP_PCT; slots['vix']    = True
+        if mg and not slots['margin']: buy_pct += STEP_PCT; slots['margin'] = True
 
-        if pct > 0 and cum_pct < 100:
-            pct = min(pct, 100 - cum_pct)
-            cum_pct += pct
+        # 매수 3종 다 발동 → buy_slots 리셋 (다음 매수 사이클 가능)
+        if slots['cnn'] and slots['vix'] and slots['margin']:
+            slots = {'cnn': False, 'vix': False, 'margin': False}
+
+        if buy_pct > 0 and cum_pct < 100:
+            buy_pct = min(buy_pct, 100 - cum_pct)
+            cum_pct += buy_pct
             pv = _portfolio_value(prices)
-            amount = pv * pct / 100.0
+            amount = pv * buy_pct / 100.0
 
             # 자금: 현금 우선, 나머지 코어 비례 매도
             from_cash = min(cash, amount)
@@ -1701,9 +1726,11 @@ def send_telegram_stage_alert(snapshot, csv_path='pitinvest_history.csv'):
 
 
 def notify_sector_change_dday(master_data, master_path='master_data.json'):
-    """1차 매도 발동일 + 42일 (D-day) 도달 시 텔레그램 알림. 사이클 1회만 발송 (sticky flag).
+    """1차 매도 (sell_leverage) 발동일 + 42일 (D-day) 도달 시 텔레그램 알림. 사이클 1회만 발송 (sticky flag).
+    v5.0: signal_first_fired.sell_leverage 우선, 옛 sell1_first_fired_date fallback.
     반환: True if sent."""
-    fire_date = master_data.get('sell1_first_fired_date')
+    sf = master_data.get('signal_first_fired') or {}
+    fire_date = sf.get('sell_leverage') or master_data.get('sell1_first_fired_date')
     if not fire_date:
         return False
     if master_data.get('sell1_d_day_notified'):
@@ -1763,46 +1790,63 @@ def notify_sector_change_dday(master_data, master_path='master_data.json'):
 
 
 def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.json'):
-    """매도 3조건 모두 충족 시 master_data.json을 '100:0:0' 으로 자동 리셋.
-    멱등: 이미 100:0:0이면 스킵. 반환: (reset_fired: bool)"""
+    """매도 3조건 모두 충족 시 사이클 리셋.
+    v5.0: 위성만 청산, 코어 유지 (긴급탈출 룰과 일관). signal_first_fired 6키 모두 clear.
+    멱등: 이미 위성 0이고 마커 비어있으면 스킵. 반환: (reset_fired: bool)"""
     sell = snapshot.get('sell_signals', {}) or {}
     lev  = snapshot.get('leverage_profit', {}) or {}
 
-    # 매도 조건 1: 레버리지 수익률 +100% (TQQQ/SOXL/KORU 중 하나라도)
     cond_leverage = any(
         (lev.get(f'{k}_profit_pct') or 0) >= 100
         for k in ('tqqq', 'soxl', 'koru')
     )
-    # 매도 조건 2: 주도주 3일↑ (삼전 AND 하닉)
     cond_leading = bool(sell.get('leading_stock_rising_3d'))
-    # 매도 조건 3: 전문가 경고 (현재는 exit_settings 수동 플래그, 추후 유튜브 자동화)
     cond_expert  = bool(sell.get('expert_warning'))
 
     if not (cond_leverage and cond_leading and cond_expert):
         return False
 
-    # 이미 100:0:0이면 재리셋 방지
-    if master_data.get('ratio_raw') == '100:0:0':
+    # 멱등: 이미 위성 0% (매도 카운터 모두 clear) 이면 스킵
+    parts = parse_ratio_raw(master_data.get('ratio_raw', ''))
+    sat_pct = parts[2] if len(parts) >= 3 else 0
+    has_signal_markers = bool((master_data.get('signal_first_fired') or {}).values()) and \
+                         any((master_data.get('signal_first_fired') or {}).values())
+    if sat_pct == 0 and not has_signal_markers:
         return False
 
     today_md   = datetime.now(kst).strftime('%m.%d')
     today_full = datetime.now(kst).strftime('%Y-%m-%d')
-    # 전량 현금화 → 6개 타겟 자산 모두 0
-    cleared_holdings = {t: 0 for t in ['QQQ', 'SOXX', 'EWY', 'TQQQ', 'SOXL', 'KORU']}
+
+    # v5.0: 위성만 청산, 코어 유지
+    cur_holdings = master_data.get('holdings') or {}
+    new_holdings = dict(cur_holdings)
+    for t in ('TQQQ', 'SOXL', 'KORU'):
+        new_holdings[t] = 0
+
+    # ratio_raw도 위성 부분만 0으로 (현금:코어:위성)
+    cur_cash = parts[0]
+    cur_core = parts[1]
+    # 위성 매도분은 현금으로 이동 (코어로 안 옮김 — 사용자가 수동 결정)
+    new_cash = cur_cash + sat_pct
+    new_ratio = f'{int(round(new_cash))}:{int(round(cur_core))}:0'
+
+    # 6 신호 마커 모두 clear
+    cleared_signals = {key: None for key, _ in _SIGNAL_KEYS}
+
     new_master = {
         **master_data,
         'date':      today_md,
-        'ratio_raw': '100:0:0',
-        'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 전량 청산',
-        'holdings':  cleared_holdings,
-        # 사이클 리셋 시 6주 카운터 anchor + D-day 알림 플래그 초기화
-        'sell1_first_fired_date': None,
+        'ratio_raw': new_ratio,
+        'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 위성 청산, 코어 유지',
+        'holdings':  new_holdings,
+        'signal_first_fired': cleared_signals,
+        'sell1_first_fired_date': None,  # 옛 호환 필드도 clear
         'sell1_d_day_notified': False,
     }
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
             json.dump(new_master, f, ensure_ascii=False, indent=4)
-        print(f"🔄 자동 사이클 리셋 · master_data.json → 100:0:0")
+        print(f"🔄 자동 사이클 리셋 (v5.0) · 위성 청산, ratio → {new_ratio}, 신호 마커 clear")
         master_data.clear()
         master_data.update(new_master)
         return True
@@ -1811,69 +1855,118 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         return False
 
 
-def _find_sell1_first_date_from_csv(csv_path='pitinvest_history.csv'):
-    """CSV에서 현재 사이클의 첫 sell_signal_count>=1 일자 backfill.
-    가장 최근 sell_signal_count==3 (cycle reset) 이후 첫 발동일 찾음.
-    reset이 없으면 CSV 처음부터 검색.
-    """
+# v5.0: 6 신호별 sticky first_fired_date 추적
+# (key: master_data.signal_first_fired field name, value: snapshot.signals/sell_signals 매핑)
+_SIGNAL_KEYS = (
+    ('buy_cnn',       'cnn_under_10'),         # signals.cnn_under_10
+    ('buy_vix',       'vix_over_25'),          # signals.vix_over_25
+    ('buy_margin',    'margin_call_trigger'),  # signals.margin_call_trigger
+    ('sell_leverage', 'sell_leverage'),        # signals.sell_leverage
+    ('sell_leading',  'sell_leading'),         # signals.sell_leading
+    ('sell_expert',   'sell_expert'),          # signals.sell_expert
+)
+
+# CSV column 매핑 (backfill 용)
+_SIGNAL_CSV_COLUMNS = {
+    'buy_cnn':       'cnn_trigger',
+    'buy_vix':       'vix_trigger',
+    'buy_margin':    'margin_trigger',
+    'sell_leverage': 'sell_leverage_trigger',
+    'sell_leading':  'sell_leading_trigger',
+    'sell_expert':   'sell_expert_trigger',
+}
+
+
+def _find_signal_first_dates_from_csv(csv_path='pitinvest_history.csv'):
+    """CSV에서 현재 사이클 내 6 신호별 첫 발동일 backfill.
+    가장 최근 사이클 reset (sell_signal_count==3 또는 ratio_sat==0) 이후 첫 trigger=1 일자 검색.
+    반환: dict — {key: 'YYYY-MM-DD' or None}"""
+    out = {key: None for key, _ in _SIGNAL_KEYS}
     if not os.path.isfile(csv_path):
-        return None
+        return out
     try:
         df = pd.read_csv(csv_path)
-        if 'date' not in df.columns or 'sell_signal_count' not in df.columns:
-            return None
+        if 'date' not in df.columns:
+            return out
         df['date'] = df['date'].astype(str)
         df = df.sort_values('date').reset_index(drop=True)
-        df['ssc'] = pd.to_numeric(df['sell_signal_count'], errors='coerce').fillna(0).astype(int)
 
-        # 가장 최근 reset (ssc==3) 행 인덱스
-        reset_rows = df[df['ssc'] >= 3]
-        start_idx = (reset_rows.index.max() + 1) if not reset_rows.empty else 0
+        # 사이클 reset 시점: prev row의 ssc==3 또는 ratio_sat==0
+        ssc = pd.to_numeric(df.get('sell_signal_count', pd.Series([0]*len(df))), errors='coerce').fillna(0)
+        sat = pd.to_numeric(df.get('ratio_sat', pd.Series([0]*len(df))), errors='coerce').fillna(0)
+        cycle_end_at = (ssc == 3) | (sat == 0)
+        # cycle_end가 True인 마지막 idx 다음부터가 새 사이클
+        ends = df[cycle_end_at]
+        start_idx = (ends.index.max() + 1) if not ends.empty else 0
 
-        # 그 이후 첫 ssc >= 1 행
         cycle_df = df.iloc[start_idx:]
-        fired = cycle_df[(cycle_df['ssc'] >= 1) & (cycle_df['ssc'] < 3)]
-        if fired.empty:
-            return None
-        return str(fired.iloc[0]['date'])
+
+        for key, _sig_field in _SIGNAL_KEYS:
+            col = _SIGNAL_CSV_COLUMNS[key]
+            if col not in cycle_df.columns:
+                continue
+            vals = pd.to_numeric(cycle_df[col], errors='coerce').fillna(0)
+            fired = cycle_df[vals >= 1]
+            if not fired.empty:
+                out[key] = str(fired.iloc[0]['date'])
     except Exception as e:
-        print(f"[sell1 backfill] fail: {e}")
-        return None
+        print(f"[signal backfill] fail: {e}")
+    return out
 
 
-def update_sell1_marker(snapshot, master_data, master_path='master_data.json',
-                         csv_path='pitinvest_history.csv'):
-    """1차 매도 신호가 처음 발동된 날짜를 master_data.json에 sticky하게 기록.
-    - 마커 없음 + sell_count >= 1 → CSV에서 backfill 시도 (cycle 첫 발동일), 실패 시 오늘
-    - sell_count == 3 인 경우의 clear는 auto_reset_if_sell_signals 가 이미 처리
-    - sell_count 가 다시 0으로 떨어져도 자동 clear 안 함 (사이클 동안 anchor 유지)
-    반환: (changed: bool, current_date: str|None)"""
+def update_signal_markers(snapshot, master_data, master_path='master_data.json',
+                           csv_path='pitinvest_history.csv'):
+    """6 신호 (매수3 + 매도3) 의 첫 발동일을 master_data.signal_first_fired에 sticky 저장.
+    - 신호 발동 (snapshot.signals[field]==True) AND first_fired 없음 → 오늘 또는 CSV backfill 결과로 set
+    - 사이클 리셋 시 clear는 auto_reset_if_sell_signals가 처리
+    - 한 번 set된 마커는 자동 clear 안 함 (sticky)
+    반환: (changed: bool, current dict)"""
     sig = snapshot.get('signals', {}) or {}
-    sell_count = int(sig.get('sell_count') or 0)
     today_full = datetime.now(kst).strftime('%Y-%m-%d')
-    current = master_data.get('sell1_first_fired_date')
 
-    # 이미 마커 있거나, 매도 신호 0개면 스킵
-    # sell_count==3 (auto_reset 발동 day)도 스킵 — auto_reset이 직전에 clear했을 수 있음
-    if current or sell_count < 1 or sell_count >= 3:
+    # 기존 dict (없으면 생성)
+    current = dict(master_data.get('signal_first_fired') or {})
+    backfilled = None  # lazy load
+    changed = False
+
+    for key, sig_field in _SIGNAL_KEYS:
+        if current.get(key):
+            continue  # 이미 마커 있음 (sticky)
+        is_fired = bool(sig.get(sig_field))
+        if not is_fired:
+            continue
+        # 발동 + 마커 없음 → backfill 시도, 실패 시 오늘
+        if backfilled is None:
+            backfilled = _find_signal_first_dates_from_csv(csv_path)
+        fire_date = backfilled.get(key) or today_full
+        current[key] = fire_date
+        changed = True
+        src = 'CSV backfill' if backfilled.get(key) else '오늘 기준'
+        print(f"📅 신호 마커 기록: {key} = {fire_date} ({src})")
+
+    if not changed:
         return False, current
 
-    # CSV에서 현재 사이클의 첫 발동일 backfill 시도
-    backfilled = _find_sell1_first_date_from_csv(csv_path)
-    fire_date = backfilled or today_full
-
-    new_master = {**master_data, 'sell1_first_fired_date': fire_date}
+    new_master = {**master_data, 'signal_first_fired': current}
+    # 옛 sell1_first_fired_date 호환 — sell_leverage 마커가 있으면 같이 set
+    if current.get('sell_leverage'):
+        new_master['sell1_first_fired_date'] = current['sell_leverage']
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
             json.dump(new_master, f, ensure_ascii=False, indent=4)
         master_data.clear()
         master_data.update(new_master)
-        src = 'CSV backfill' if backfilled else '오늘 기준'
-        print(f"📅 1차 매도 첫 발동 마커 기록: {fire_date} ({src})")
-        return True, fire_date
+        return True, current
     except Exception as e:
-        print(f"[sell1 marker] fail: {e}")
+        print(f"[signal markers] fail: {e}")
         return False, current
+
+
+# 옛 함수 호환 wrapper (auto_reset 등 옛 코드가 호출 시 무해하게 작동)
+def update_sell1_marker(snapshot, master_data, master_path='master_data.json',
+                         csv_path='pitinvest_history.csv'):
+    """v5.0 호환 wrapper — update_signal_markers 호출."""
+    return update_signal_markers(snapshot, master_data, master_path, csv_path)
 
 
 def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):

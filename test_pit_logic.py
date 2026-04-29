@@ -161,35 +161,35 @@ def test_build_snapshot_scenarios():
     print(f"\n{_C.B}[2] build_snapshot — 시나리오별 stage_key + 액션{_C.E}")
 
     scenarios = [
-        # name, inputs, expected stage_key_raw, expected action 부분문자열
+        # name, inputs, expected stage_key_raw, expected action 부분문자열 (v5.0)
         ("평시 (신호 0)",
          {'cnn': False, 'vix': False, 'margin': False, 'prev_stage': 'normal'},
          'normal', '평시 유지'),
 
         ("매수1: CNN<10 (전일 normal)",
          {'cnn': True, 'vix': False, 'margin': False, 'prev_stage': 'normal'},
-         'entry', 'CNN<10 슬롯 +20%p'),
+         'entry', '+33%p'),
 
         ("매수1: VIX>25 (전일 normal)",
          {'cnn': False, 'vix': True, 'margin': False, 'prev_stage': 'normal'},
-         'entry', 'VIX>25 슬롯 +20%p'),
+         'entry', 'VIX>25'),
 
         ("매수1: 강제청산 (전일 normal)",
          {'cnn': False, 'vix': False, 'margin': True, 'prev_stage': 'normal'},
-         'entry', '강제청산 슬롯 +20%p'),
+         'entry', '강제청산'),
 
         ("매수2: CNN+VIX",
          {'cnn': True, 'vix': True, 'margin': False, 'prev_stage': 'entry'},
-         'deepening', '매수 2조건'),
+         'deepening', '매수2'),
 
-        ("매수3 모두 충족",
+        ("매수3 모두 충족 (카운터 리셋)",
          {'cnn': True, 'vix': True, 'margin': True, 'prev_stage': 'deepening'},
-         'full', '매일 +5%p'),
+         'full', '매수 3조건'),
 
         ("매도1: 레버리지 +100% (TQQQ 120%)",
          {'cnn': False, 'vix': False, 'margin': False,
           'lev_profit': {'tqqq': 120}, 'prev_stage': 'normal'},
-         'exit', 'TQQQ'),
+         'exit', '−33%p'),
 
         ("매도1: 주도주 3일↑ + 개인매수",
          {'cnn': False, 'vix': False, 'margin': False,
@@ -204,13 +204,13 @@ def test_build_snapshot_scenarios():
         ("매도2: 레버리지 + 주도주",
          {'cnn': False, 'vix': False, 'margin': False,
           'lev_profit': {'soxl': 110}, 'leading': True, 'prev_stage': 'exit'},
-         'sell_near', '마지막 매도 조건'),
+         'sell_near', '마지막 조건'),
 
-        ("매도3 모두: 사이클 리셋",
+        ("매도3 모두: 위성 청산 (코어 유지)",
          {'cnn': False, 'vix': False, 'margin': False,
           'lev_profit': {'tqqq': 130, 'soxl': 110, 'koru': 105},
           'leading': True, 'expert_warn': True, 'prev_stage': 'sell_near'},
-         'reset', '리셋'),
+         'reset', '위성 전량 청산'),
 
         ("긴급탈출: 나스닥 -10%",
          {'cnn': True, 'vix': True, 'margin': True,  # 매수 다 떠 있어도 emergency가 우선
@@ -224,7 +224,7 @@ def test_build_snapshot_scenarios():
         ("우선순위: 매수3 + 매도1 → exit (매도 우선)",
          {'cnn': True, 'vix': True, 'margin': True,
           'lev_profit': {'koru': 105}, 'prev_stage': 'normal'},
-         'exit', 'KORU'),
+         'exit', '매도1'),
     ]
 
     for name, inp, expected_stage, expected_action_substr in scenarios:
@@ -278,21 +278,23 @@ def _run_reset(snap, master):
 def test_auto_reset():
     print(f"\n{_C.B}[3] auto_reset_if_sell_signals — 사이클 리셋 동작{_C.E}")
 
-    # case 1: 매도 3조건 모두 + ratio≠100:0:0 → 리셋 발동
+    # case 1 (v5.0): 매도 3조건 + 위성 보유 → 위성만 청산, 코어 유지
     snap = _make_snap(lev_pct={'tqqq_profit_pct': 110, 'soxl_profit_pct': 50, 'koru_profit_pct': 30},
                        leading=True, expert=True)
     master = _make_master('10:30:60')
     fired, after_mem, after_file = _run_reset(snap, master)
-    ok = (fired and after_mem['ratio_raw'] == '100:0:0'
-          and after_file['ratio_raw'] == '100:0:0'
-          and all(after_mem['holdings'][t] == 0 for t in ['QQQ', 'TQQQ', 'SOXL', 'KORU', 'SOXX', 'EWY']))
-    check("매도 3조건 + 비중 변화 → 리셋 발동 + 100:0:0 + holdings 전부 0",
-          ok, f"fired={fired}, ratio_after={after_mem['ratio_raw']}")
+    # ratio: 10(현금)+30(코어)+60(위성=0) → 70:30:0
+    ok = (fired and after_mem['ratio_raw'] == '70:30:0'
+          and after_file['ratio_raw'] == '70:30:0'
+          # 위성만 0, 코어는 그대로
+          and all(after_mem['holdings'][t] == 0 for t in ['TQQQ', 'SOXL', 'KORU']))
+    check("매도 3조건 → 위성만 청산 (코어 유지) · ratio 70:30:0",
+          ok, f"fired={fired}, ratio_after={after_mem['ratio_raw']}, holdings={after_mem['holdings']}")
 
-    # case 2: 이미 100:0:0 → idempotent (재발동 X)
+    # case 2: 이미 위성 0% + 마커 비어있음 → idempotent (재발동 X)
     master = _make_master('100:0:0')
     fired, after_mem, _ = _run_reset(snap, master)
-    check("이미 100:0:0 → 재리셋 안함 (idempotent)",
+    check("이미 위성 0% + 마커 없음 → 재리셋 안함 (idempotent)",
           (not fired), f"fired={fired}")
 
     # case 3: 매도 2개만 → 발동 X
@@ -308,11 +310,12 @@ def test_auto_reset():
     fired, _, _ = _run_reset(snap, master)
     check("매도 0개 → 발동 안함", (not fired), f"fired={fired}")
 
-    # case 5: 레버리지가 정확히 100% (경계) → 발동
+    # case 5: 레버리지가 정확히 100% (경계) → 발동 (위성만 청산)
     snap = _make_snap(lev_pct={'koru_profit_pct': 100}, leading=True, expert=True)
     master = _make_master('5:35:60')
     fired, after_mem, _ = _run_reset(snap, master)
-    check("KORU 정확히 100% (경계) → 발동", fired, f"fired={fired}, after={after_mem['ratio_raw']}")
+    # 5+35+60=100, 위성 0 → 65:35:0
+    check("KORU 정확히 100% (경계) → 발동, ratio 65:35:0", fired, f"fired={fired}, after={after_mem['ratio_raw']}")
 
     # case 6: 레버리지 99.99% → 발동 X
     snap = _make_snap(lev_pct={'tqqq_profit_pct': 99.99, 'soxl_profit_pct': 99.99},
