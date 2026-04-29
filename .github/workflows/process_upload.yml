@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
-          git add master_data.json journal.csv exit_settings.json incoming/ 2>/dev/null || true
+          git add master_data.json journal.csv exit_settings.json monthly_returns.json incoming/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "📸 포지션 업로드 처리 [skip ci]"
           git push

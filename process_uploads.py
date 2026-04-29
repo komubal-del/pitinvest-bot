@@ -14,9 +14,28 @@ from upload_position import (
     gemini_parse_screenshot, classify_holdings,
     update_master_data, append_journal_row, read_current_stage,
     update_exit_settings, ALL_TARGET_TICKERS,
+    gemini_parse_monthly, update_monthly_returns,
 )
 
 kst = pytz.timezone('Asia/Seoul')
+
+
+def is_monthly_upload(path):
+    """파일명이 monthly_ 로 시작하면 월별 자산추이 업로드."""
+    return os.path.basename(path).lower().startswith('monthly_')
+
+
+def process_monthly(path):
+    print(f"📊 월별 자산추이: {path}")
+    parsed = gemini_parse_monthly(path)
+    months = parsed.get('months') or []
+    if not months:
+        print("   ⚠️ 추출된 월 데이터 없음")
+        return
+    data = update_monthly_returns(months)
+    summary = ", ".join(f"{m['month']}({m['total_pnl']:+,})" for m in months[:6])
+    print(f"   ✅ {len(months)}개월 갱신: {summary}")
+    print(f"   누적 {len(data.get('months', []))}개월")
 
 
 def process_one(path):
@@ -85,7 +104,10 @@ def main():
     print(f"📥 {len(files)}개 이미지 처리 시작")
     for f in files:
         try:
-            process_one(f)
+            if is_monthly_upload(f):
+                process_monthly(f)
+            else:
+                process_one(f)
             os.remove(f)
             print(f"   🗑️ {f} 삭제")
         except Exception as e:

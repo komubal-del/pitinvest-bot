@@ -87,6 +87,86 @@ JSON 외 다른 텍스트·설명·마크다운·코드블록 포함 금지. 한
     return json.loads(text)
 
 
+def gemini_parse_monthly(image_path):
+    """Gemini Vision으로 월별 자산추이 스크린샷 파싱.
+
+    예상 입력: 증권사 앱의 "계좌자산추이" 화면 (조회일자 · 기말자산 · 총손익 표 포함).
+    반환: {"months": [{"month": "2026-01", "end_assets": 76703648, "total_pnl": 23413676}, ...]}
+    """
+    import google.generativeai as genai
+    api_key = os.environ.get('GEMINI_API_KEY', '').strip()
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY 환경변수 필요.")
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel(GEMINI_MODEL)
+
+    with open(image_path, 'rb') as f:
+        image_bytes = f.read()
+    ext = os.path.splitext(image_path)[1].lower()
+    mime = {
+        '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
+        '.webp': 'image/webp', '.heic': 'image/heic',
+    }.get(ext, 'image/png')
+
+    prompt = """이 이미지는 한국 증권사 앱의 "계좌자산추이" 화면입니다.
+화면 하단의 월별 표 (조회일자 · 기말자산 · 총손익 컬럼)에서 모든 월 데이터를 추출하세요.
+
+반환 JSON 스키마:
+{
+  "months": [
+    {"month": "YYYY-MM", "end_assets": 정수원, "total_pnl": 정수원(음수 가능)},
+    ...
+  ]
+}
+
+규칙:
+- month: "2026.04" 형태를 "2026-04"로 변환
+- end_assets, total_pnl: 콤마 제거한 정수
+- 손실은 음수 부호 유지 (예: -32,464,125 → -32464125)
+- JSON 외 텍스트·마크다운·코드블록 금지. 한 줄 JSON.
+
+예시:
+{"months":[{"month":"2026-04","end_assets":123004322,"total_pnl":56243632},{"month":"2026-03","end_assets":66128446,"total_pnl":-32464125}]}"""
+
+    response = model.generate_content([
+        {'mime_type': mime, 'data': image_bytes},
+        prompt,
+    ])
+    text = (response.text or '').strip()
+    if text.startswith('```'):
+        parts = text.split('```')
+        if len(parts) >= 2:
+            text = parts[1]
+            if text.lower().startswith('json'):
+                text = text[4:]
+            text = text.strip()
+    return json.loads(text)
+
+
+def update_monthly_returns(new_months, path='monthly_returns.json'):
+    """monthly_returns.json 갱신. 같은 month는 덮어쓰기, 새 month는 추가."""
+    try:
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception:
+        data = {'months': []}
+    existing = {m.get('month'): m for m in data.get('months', []) if m.get('month')}
+    for m in new_months or []:
+        key = str(m.get('month') or '').strip()
+        if not key:
+            continue
+        existing[key] = {
+            'month':      key,
+            'end_assets': int(m.get('end_assets') or 0),
+            'total_pnl':  int(m.get('total_pnl') or 0),
+        }
+    data['months'] = sorted(existing.values(), key=lambda x: x['month'])
+    data['updated_at'] = datetime.now(kst).isoformat()
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    return data
+
+
 def _safe_float(v):
     try:
         f = float(v)
