@@ -157,7 +157,9 @@ def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
     sat_units = {t: 0.0 for t in SAT_TICKERS}     # 누적 매수 share
 
     slots = {'cnn': False, 'vix': False, 'margin': False}
+    sell_slots = {'lev': False, 'lead': False, 'expert': False}  # v5.0
     cum_pct = 0.0  # 위성 누적 비중
+    STEP_PCT = 100.0 / 3.0  # 33.33%p (v5.0 룰)
 
     series = []
     prev_emergency = False
@@ -187,109 +189,104 @@ def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
         if em_today and not prev_emergency:
             em_events.append(d.date().isoformat())
             if emergency_mode == 'sat_only':
-                # 위성만 청산, 코어는 유지
+                # 위성만 청산, 코어는 유지 (v5.0 default)
                 sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
                 cash += sat_value
                 for t in SAT_TICKERS:
                     shares[t] = 0.0
                 slots = {'cnn': False, 'vix': False, 'margin': False}
+                sell_slots = {'lev': False, 'lead': False, 'expert': False}
                 cum_pct = 0.0
                 sat_cost = {t: 0.0 for t in SAT_TICKERS}
                 sat_units = {t: 0.0 for t in SAT_TICKERS}
             elif emergency_mode == 'core_only':
-                # 코어만 청산, 위성 유지 (위성은 어차피 매수됐으니 회복 대기)
+                # 코어만 청산, 위성 유지
                 core_value = sum(shares[t] * p[t] for t in CORE_TICKERS)
                 cash += core_value
                 for t in CORE_TICKERS:
                     shares[t] = 0.0
-                # 위성 슬롯 / cum_pct / sat_cost는 유지 (포지션 그대로 들고 감)
             else:
-                # 원래 룰: 전량 현금화 (코어 + 위성)
+                # 옛 룰 비교용: 전량 현금화 (코어 + 위성)
                 cash = pv()
                 shares = {t: 0.0 for t in ALL_TICKERS}
                 slots = {'cnn': False, 'vix': False, 'margin': False}
+                sell_slots = {'lev': False, 'lead': False, 'expert': False}
                 cum_pct = 0.0
                 sat_cost = {t: 0.0 for t in SAT_TICKERS}
                 sat_units = {t: 0.0 for t in SAT_TICKERS}
 
-        # ─── 2) 매도 1 (위성 +100%) ───
+        # ─── v5.0 매도/매수 통합 처리 ───
+        # 매도 신호 sticky 카운터: 첫 발동 시 -33.33%p (위성 균등)
         if not em_today:
-            for t in SAT_TICKERS:
-                if sat_units[t] > 0:
-                    avg_cost = sat_cost[t] / sat_units[t]
-                    profit_pct = p[t] / avg_cost - 1.0
-                    if profit_pct >= 1.00:
-                        # 50% 매도, 코어로 이동
-                        sell_shares = shares[t] * 0.5
-                        sell_value = sell_shares * p[t]
-                        shares[t] -= sell_shares
-                        # 코어 3종 균등 매수
-                        per_core = sell_value / 3.0
-                        for ct in CORE_TICKERS:
-                            shares[ct] += per_core / p[ct]
-                        # 위성 추적 업데이트 (50% 비중 감소)
-                        sat_cost[t] *= 0.5
-                        sat_units[t] *= 0.5
+            sell_pct_today = 0.0
 
-            # ─── 3) 매도 2 (주도주 3일↑) ───
-            if flags is not None and bool(flags['sell_leading']) and cum_pct > 0:
-                shed_pct = min(20.0, cum_pct)
-                cum_pct -= shed_pct
-                # 위성 prorata 매도
+            # 매도1: 위성 +100% (이론평단 기준)
+            if not sell_slots['lev']:
+                for t in SAT_TICKERS:
+                    if sat_units[t] > 0:
+                        avg_cost = sat_cost[t] / sat_units[t]
+                        if p[t] / avg_cost - 1.0 >= 1.00:
+                            sell_slots['lev'] = True
+                            sell_pct_today += STEP_PCT
+                            break
+
+            # 매도2: 주도주 (proxy = SOXX 3일↑ + 신고가)
+            if flags is not None and bool(flags.get('sell_leading')) and not sell_slots['lead']:
+                sell_slots['lead'] = True
+                sell_pct_today += STEP_PCT
+
+            # 매도3: 전문가 (proxy = VIX < 13)
+            if flags is not None and bool(flags.get('sell_expert')) and not sell_slots['expert']:
+                sell_slots['expert'] = True
+                sell_pct_today += STEP_PCT
+
+            # 매도 액션: 위성 균등 매도, 자금은 현금으로
+            if sell_pct_today > 0 and cum_pct > 0:
+                sell_pct_today = min(sell_pct_today, cum_pct)
+                cum_pct -= sell_pct_today
                 total_sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
                 if total_sat_value > 0:
                     portfolio = pv()
-                    sell_amount = portfolio * shed_pct / 100.0
-                    sell_amount = min(sell_amount, total_sat_value)
+                    sell_amount = min(portfolio * sell_pct_today / 100.0, total_sat_value)
                     ratio = sell_amount / total_sat_value
                     for t in SAT_TICKERS:
-                        sold_shares = shares[t] * ratio
-                        shares[t] -= sold_shares
+                        shares[t] *= (1 - ratio)
                         if sat_units[t] > 0:
                             sat_cost[t] *= (1 - ratio)
                             sat_units[t] *= (1 - ratio)
-                    # 코어로 이동
-                    per_core = sell_amount / 3.0
-                    for ct in CORE_TICKERS:
-                        shares[ct] += per_core / p[ct]
+                    cash += sell_amount  # v5.0: 현금으로
 
-            # ─── 4) 매도 3 proxy (VIX < 13) — 매일 -5%p ───
-            if flags is not None and bool(flags['sell_expert']) and cum_pct > 0:
-                shed_pct = min(5.0, cum_pct)
-                cum_pct -= shed_pct
-                total_sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
-                if total_sat_value > 0:
-                    portfolio = pv()
-                    sell_amount = min(portfolio * shed_pct / 100.0, total_sat_value)
-                    ratio = sell_amount / total_sat_value
-                    for t in SAT_TICKERS:
-                        sold_shares = shares[t] * ratio
-                        shares[t] -= sold_shares
-                        if sat_units[t] > 0:
-                            sat_cost[t] *= (1 - ratio)
-                            sat_units[t] *= (1 - ratio)
-                    per_core = sell_amount / 3.0
-                    for ct in CORE_TICKERS:
-                        shares[ct] += per_core / p[ct]
+            # 매도3종 다 발동 → 위성 0% + 카운터 리셋 (사이클 종료)
+            if all(sell_slots.values()):
+                sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
+                cash += sat_value
+                for t in SAT_TICKERS:
+                    shares[t] = 0.0
+                slots = {'cnn': False, 'vix': False, 'margin': False}
+                sell_slots = {'lev': False, 'lead': False, 'expert': False}
+                cum_pct = 0.0
+                sat_cost = {t: 0.0 for t in SAT_TICKERS}
+                sat_units = {t: 0.0 for t in SAT_TICKERS}
 
-            # ─── 5) 매수 신호 ───
+            # ─── 매수 신호 (sticky, +33%p step) ───
             buy_pct = 0.0
             if flags is not None:
                 if bool(flags['buy_cnn']) and not slots['cnn']:
-                    buy_pct += 20.0; slots['cnn'] = True
+                    buy_pct += STEP_PCT; slots['cnn'] = True
                 if bool(flags['buy_vix']) and not slots['vix']:
-                    buy_pct += 20.0; slots['vix'] = True
+                    buy_pct += STEP_PCT; slots['vix'] = True
                 if bool(flags['buy_margin']) and not slots['margin']:
-                    buy_pct += 20.0; slots['margin'] = True
-                if all(slots.values()) and cum_pct < 100:
-                    buy_pct += 5.0  # daily
+                    buy_pct += STEP_PCT; slots['margin'] = True
+
+            # 매수3종 다 발동 → buy_slots 리셋 (cum_pct는 그대로)
+            if all(slots.values()):
+                slots = {'cnn': False, 'vix': False, 'margin': False}
 
             if buy_pct > 0 and cum_pct < 100:
                 buy_pct = min(buy_pct, 100 - cum_pct)
                 cum_pct += buy_pct
                 portfolio = pv()
                 amount = portfolio * buy_pct / 100.0
-                # 자금: 현금 우선, 그 다음 코어 prorata
                 from_cash = min(cash, amount)
                 cash -= from_cash
                 remaining = amount - from_cash
@@ -299,7 +296,6 @@ def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
                         sell_ratio = min(1.0, remaining / core_val)
                         for t in CORE_TICKERS:
                             shares[t] *= (1 - sell_ratio)
-                # 위성 3종 균등 매수
                 per_sat = amount / 3.0
                 for t in SAT_TICKERS:
                     new_shares = per_sat / p[t]
