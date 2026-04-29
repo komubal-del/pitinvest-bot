@@ -121,13 +121,16 @@ def build_triggers(df):
 
 # ────────────────────────────── strategy engine ──────────────────────────────
 def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
-                  emergency_threshold=-0.10, emergency_mode='all'):
+                  emergency_threshold=-0.10, emergency_mode='all', sell_to='cash'):
     """이벤트 기반 simulation. 일별 portfolio value 시계열 반환.
     emergency_mode:
       - 'all': 코어+위성 모두 청산 (원래 룰)
       - 'sat_only': 위성만 청산 (코어 유지) — emergency_keep_core=True와 동일
-      - 'core_only': 코어만 청산, 위성 유지 (위성 어차피 매수됐으니 손실 확정 회피)
+      - 'core_only': 코어만 청산, 위성 유지
     emergency_threshold: -0.10 (default), -0.20 (강화), None (긴급탈출 비활성)
+    sell_to: 매도/긴급탈출 시 위성 청산 자금 행선지
+      - 'cash' (default): 현금 보유
+      - 'core': 코어 3종 균등 매수
     """
     # backward compat
     if emergency_keep_core:
@@ -191,7 +194,12 @@ def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
             if emergency_mode == 'sat_only':
                 # 위성만 청산, 코어는 유지 (v5.0 default)
                 sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
-                cash += sat_value
+                if sell_to == 'core':
+                    per_core = sat_value / len(CORE_TICKERS)
+                    for ct in CORE_TICKERS:
+                        shares[ct] += per_core / p[ct]
+                else:
+                    cash += sat_value
                 for t in SAT_TICKERS:
                     shares[t] = 0.0
                 slots = {'cnn': False, 'vix': False, 'margin': False}
@@ -254,12 +262,22 @@ def run_strategy(df, trig, initial_capital=100.0, emergency_keep_core=False,
                         if sat_units[t] > 0:
                             sat_cost[t] *= (1 - ratio)
                             sat_units[t] *= (1 - ratio)
-                    cash += sell_amount  # v5.0: 현금으로
+                    if sell_to == 'core':
+                        per_core = sell_amount / len(CORE_TICKERS)
+                        for ct in CORE_TICKERS:
+                            shares[ct] += per_core / p[ct]
+                    else:
+                        cash += sell_amount  # v5.0 default: 현금으로
 
             # 매도3종 다 발동 → 위성 0% + 카운터 리셋 (사이클 종료)
             if all(sell_slots.values()):
                 sat_value = sum(shares[t] * p[t] for t in SAT_TICKERS)
-                cash += sat_value
+                if sell_to == 'core':
+                    per_core = sat_value / len(CORE_TICKERS)
+                    for ct in CORE_TICKERS:
+                        shares[ct] += per_core / p[ct]
+                else:
+                    cash += sat_value
                 for t in SAT_TICKERS:
                     shares[t] = 0.0
                 slots = {'cnn': False, 'vix': False, 'margin': False}
@@ -531,25 +549,25 @@ def main(md_out=None, start=DEFAULT_START, end=DEFAULT_END):
     print(f"  · 긴급탈출 (-10% from high): {int(trig['emergency'].sum())} 거래일")
     print()
 
-    print(f"⏳ V1: 원래 룰 (-10%, sell all)...")
-    sim_v1, satmax_v1, em_v1 = run_strategy(df, trig, emergency_threshold=-0.10, emergency_keep_core=False)
-    m_v1 = compute_metrics(sim_v1['value'], 'V1 -10% sell all (원래)')
+    print(f"⏳ A: 매도자금 → 현금 (현재 v5.0 default)...")
+    sim_a, satmax_a, em_a = run_strategy(df, trig, emergency_threshold=-0.10, emergency_keep_core=True, sell_to='cash')
+    m_a = compute_metrics(sim_a['value'], 'A · 매도→현금 (현재)')
 
-    print(f"⏳ V2: -10%에서 위성만 청산 (코어 유지)...")
-    sim_v2, satmax_v2, em_v2 = run_strategy(df, trig, emergency_threshold=-0.10, emergency_keep_core=True)
-    m_v2 = compute_metrics(sim_v2['value'], 'V2 -10% sat only')
+    print(f"⏳ B: 매도자금 → 코어 균등 매수...")
+    sim_b, satmax_b, em_b = run_strategy(df, trig, emergency_threshold=-0.10, emergency_keep_core=True, sell_to='core')
+    m_b = compute_metrics(sim_b['value'], 'B · 매도→코어')
 
-    print(f"⏳ V3: -20%에서만 발동 (sell all)...")
-    sim_v3, satmax_v3, em_v3 = run_strategy(df, trig, emergency_threshold=-0.20, emergency_keep_core=False)
-    m_v3 = compute_metrics(sim_v3['value'], 'V3 -20% sell all')
-
-    print(f"⏳ V4: 긴급탈출 비활성 (위성 take-profit만)...")
-    sim_v4, satmax_v4, em_v4 = run_strategy(df, trig, emergency_threshold=None)
-    m_v4 = compute_metrics(sim_v4['value'], 'V4 긴급탈출 없음')
-
-    print(f"⏳ V5: -10%에서 코어만 청산, 위성 유지...")
-    sim_v5, satmax_v5, em_v5 = run_strategy(df, trig, emergency_threshold=-0.10, emergency_mode='core_only')
-    m_v5 = compute_metrics(sim_v5['value'], 'V5 -10% core only')
+    # 옛 V1~V5 비교는 잠시 보류 (이번 비교에 집중)
+    sim_v1, satmax_v1, em_v1 = sim_a, satmax_a, em_a
+    sim_v2, satmax_v2, em_v2 = sim_a, satmax_a, em_a
+    sim_v3, satmax_v3, em_v3 = sim_a, satmax_a, em_a
+    sim_v4, satmax_v4, em_v4 = sim_a, satmax_a, em_a
+    sim_v5, satmax_v5, em_v5 = sim_a, satmax_a, em_a
+    m_v1 = m_a
+    m_v2 = m_b
+    m_v3 = None
+    m_v4 = None
+    m_v5 = None
 
     # 호환용 — print 코드가 sat_max/em_events 참조함
     sat_max = satmax_v1
