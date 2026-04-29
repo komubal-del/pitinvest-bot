@@ -611,17 +611,17 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
 
     # v5.0 액션: 매수/매도 모두 1/3 step (33.33%p)
     if raw_stage == 'emergency':
-        specific_action = "🚨 긴급탈출 · 위성 전량 청산 (코어 유지)"
+        specific_action = "🚨 긴급탈출 · 위성 전량 매도 → 코어 균등 매수 (v5.1)"
     elif raw_stage == 'reset':
-        specific_action = "♻️ 매도 3조건 모두 충족 · 위성 전량 청산 · 다음 구덩이 대기"
+        specific_action = "♻️ 매도 3조건 모두 충족 · 위성 전량 → 코어 매수 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
-        specific_action = "📉 매도 2조건 충족 · 위성 −33%p 추가 매도. 마지막 조건 대기"
+        specific_action = "📉 매도 2조건 충족 · 위성 −33%p → 코어 매수. 마지막 조건 대기"
     elif raw_stage == 'exit':
         active_sell = []
         if leverage_over:        active_sell.append("위성+100%")
         if sell_leading_fired:   active_sell.append("주도주 3일↑")
         if sell_expert_fired:    active_sell.append("전문가 경고")
-        specific_action = f"📉 매도1 ({' / '.join(active_sell)}) 발동 · 위성 −33%p 매도 (보유 위성 균등)"
+        specific_action = f"📉 매도1 ({' / '.join(active_sell)}) 발동 · 위성 −33%p 매도 → 코어 균등 매수"
     elif raw_stage == 'full':
         specific_action = "📈 매수 3조건 모두 충족 · 위성 100% (cap). 카운터 리셋 · 다음 매수 대기"
     elif raw_stage == 'deepening':
@@ -769,7 +769,7 @@ def _build_ytd_returns(history_rows):
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
-        "calc_note":    "1/1 시작: 코어 60% (QQQ/SOXX/EWY 균등) / 위성 40% (TQQQ/SOXL/KORU 균등) · v5.0: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매수3종 다 발동 → 카운터 리셋. 매도3종 다 발동 또는 긴급탈출(−10%) → 위성 0%, 코어 유지",
+        "calc_note":    "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수",
     }
 
 
@@ -823,8 +823,8 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     - 기본 시작: 100% 코어 (QQQ/SOXX/EWY 균등 1/3)
     - 매수 이벤트 (슬롯 fill 또는 3종 동시 +5%p): 포트폴리오 가치의 해당 %p를 위성 (TQQQ/SOXL/KORU 균등)으로 이동
       · 자금 출처: 현금 우선, 없으면 코어 비례 매도
-    - 매도 3조건: 전량 현금화 + 슬롯 리셋
-    - 긴급탈출 (−10%): 위성만 청산, 코어 유지 (V2 룰)
+    - 매도 신호: 위성 −33.33%p → 코어 균등 매수 (v5.1)
+    - 매도 3조건 / 긴급탈출 (−10%): 위성 0% → 코어로 전부 이동, 코어 비중 ↑
     - 반환: {final_return_pct, daily_series[{date, ret_pct}]}
 
     초기 배분 옵션 (default = 현재 동작 100% 보존):
@@ -908,10 +908,13 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
         emergency_transition = emergency_today and not prev_in_emergency
         sell3_transition     = sell3_today     and not prev_in_sell3
 
-        # v5.0: 사이클 리셋 (매도3종 또는 긴급탈출) — 둘 다 위성만 청산, 코어 유지
+        # v5.1: 사이클 리셋 (매도3종 또는 긴급탈출) — 위성 매도분 코어 균등 매수
         if sell3_transition or emergency_transition:
             sat_value = sum(shares[t] * prices[t] for t in sat_tickers)
-            cash += sat_value
+            per_core = sat_value / len(core_tickers)
+            for ct in core_tickers:
+                if prices[ct] and prices[ct] > 0:
+                    shares[ct] += per_core / prices[ct]
             for t in sat_tickers:
                 shares[t] = 0.0
             slots = {'cnn': False, 'vix': False, 'margin': False}
@@ -941,7 +944,11 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
                 ratio = amount / sat_value
                 for t in sat_tickers:
                     shares[t] *= (1 - ratio)
-                cash += amount  # 매도 자금은 현금으로 (사용자 수동 결정)
+                # v5.1: 매도 자금 → 코어 균등 매수 (cash buffer X)
+                per_core = amount / len(core_tickers)
+                for ct in core_tickers:
+                    if prices[ct] and prices[ct] > 0:
+                        shares[ct] += per_core / prices[ct]
 
         # 매수 신호 처리 (sticky, 첫 발동 시에만 +33.33%p)
         c  = int(float(row.get('cnn_trigger') or 0))
@@ -1880,18 +1887,17 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
     today_md   = datetime.now(kst).strftime('%m.%d')
     today_full = datetime.now(kst).strftime('%Y-%m-%d')
 
-    # v5.0: 위성만 청산, 코어 유지
+    # v5.1: 위성 매도분 → 코어 매수 (cash buffer X)
     cur_holdings = master_data.get('holdings') or {}
     new_holdings = dict(cur_holdings)
     for t in ('TQQQ', 'SOXL', 'KORU'):
         new_holdings[t] = 0
 
-    # ratio_raw도 위성 부분만 0으로 (현금:코어:위성)
+    # ratio_raw: 위성 비중을 코어로 이동 (현금:코어:위성)
     cur_cash = parts[0]
     cur_core = parts[1]
-    # 위성 매도분은 현금으로 이동 (코어로 안 옮김 — 사용자가 수동 결정)
-    new_cash = cur_cash + sat_pct
-    new_ratio = f'{int(round(new_cash))}:{int(round(cur_core))}:0'
+    new_core = cur_core + sat_pct
+    new_ratio = f'{int(round(cur_cash))}:{int(round(new_core))}:0'
 
     # 6 신호 마커 모두 clear
     cleared_signals = {key: None for key, _ in _SIGNAL_KEYS}
@@ -1900,7 +1906,7 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         **master_data,
         'date':      today_md,
         'ratio_raw': new_ratio,
-        'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 위성 청산, 코어 유지',
+        'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 위성 청산, 코어 추가 매수',
         'holdings':  new_holdings,
         'signal_first_fired': cleared_signals,
         'sell1_first_fired_date': None,  # 옛 호환 필드도 clear
@@ -1909,7 +1915,7 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
             json.dump(new_master, f, ensure_ascii=False, indent=4)
-        print(f"🔄 자동 사이클 리셋 (v5.0) · 위성 청산, ratio → {new_ratio}, 신호 마커 clear")
+        print(f"🔄 자동 사이클 리셋 (v5.1) · 위성 → 코어 매수, ratio → {new_ratio}, 신호 마커 clear")
         master_data.clear()
         master_data.update(new_master)
         return True

@@ -206,11 +206,11 @@ def test_build_snapshot_scenarios():
           'lev_profit': {'soxl': 110}, 'leading': True, 'prev_stage': 'exit'},
          'sell_near', '마지막 조건'),
 
-        ("매도3 모두: 위성 청산 (코어 유지)",
+        ("매도3 모두: 위성 → 코어 매수 (v5.1)",
          {'cnn': False, 'vix': False, 'margin': False,
           'lev_profit': {'tqqq': 130, 'soxl': 110, 'koru': 105},
           'leading': True, 'expert_warn': True, 'prev_stage': 'sell_near'},
-         'reset', '위성 전량 청산'),
+         'reset', '코어 매수'),
 
         ("긴급탈출: 나스닥 -10%",
          {'cnn': True, 'vix': True, 'margin': True,  # 매수 다 떠 있어도 emergency가 우선
@@ -278,17 +278,16 @@ def _run_reset(snap, master):
 def test_auto_reset():
     print(f"\n{_C.B}[3] auto_reset_if_sell_signals — 사이클 리셋 동작{_C.E}")
 
-    # case 1 (v5.0): 매도 3조건 + 위성 보유 → 위성만 청산, 코어 유지
+    # case 1 (v5.1): 매도 3조건 + 위성 보유 → 위성 매도분 코어로 (cash buffer X)
     snap = _make_snap(lev_pct={'tqqq_profit_pct': 110, 'soxl_profit_pct': 50, 'koru_profit_pct': 30},
                        leading=True, expert=True)
     master = _make_master('10:30:60')
     fired, after_mem, after_file = _run_reset(snap, master)
-    # ratio: 10(현금)+30(코어)+60(위성=0) → 70:30:0
-    ok = (fired and after_mem['ratio_raw'] == '70:30:0'
-          and after_file['ratio_raw'] == '70:30:0'
-          # 위성만 0, 코어는 그대로
+    # ratio: 10(현금) + (30+60=90 코어) + 0(위성) → 10:90:0
+    ok = (fired and after_mem['ratio_raw'] == '10:90:0'
+          and after_file['ratio_raw'] == '10:90:0'
           and all(after_mem['holdings'][t] == 0 for t in ['TQQQ', 'SOXL', 'KORU']))
-    check("매도 3조건 → 위성만 청산 (코어 유지) · ratio 70:30:0",
+    check("매도 3조건 → 위성 매도 → 코어 매수 · ratio 10:90:0",
           ok, f"fired={fired}, ratio_after={after_mem['ratio_raw']}, holdings={after_mem['holdings']}")
 
     # case 2: 이미 위성 0% + 마커 비어있음 → idempotent (재발동 X)
@@ -310,12 +309,12 @@ def test_auto_reset():
     fired, _, _ = _run_reset(snap, master)
     check("매도 0개 → 발동 안함", (not fired), f"fired={fired}")
 
-    # case 5: 레버리지가 정확히 100% (경계) → 발동 (위성만 청산)
+    # case 5 (v5.1): 레버리지가 정확히 100% (경계) → 발동, 위성 매도분 코어로
     snap = _make_snap(lev_pct={'koru_profit_pct': 100}, leading=True, expert=True)
     master = _make_master('5:35:60')
     fired, after_mem, _ = _run_reset(snap, master)
-    # 5+35+60=100, 위성 0 → 65:35:0
-    check("KORU 정확히 100% (경계) → 발동, ratio 65:35:0", fired, f"fired={fired}, after={after_mem['ratio_raw']}")
+    # 5(cash) + (35+60=95 core) + 0(sat) → 5:95:0
+    check("KORU 정확히 100% (경계) → 발동, ratio 5:95:0", fired, f"fired={fired}, after={after_mem['ratio_raw']}")
 
     # case 6: 레버리지 99.99% → 발동 X
     snap = _make_snap(lev_pct={'tqqq_profit_pct': 99.99, 'soxl_profit_pct': 99.99},
