@@ -559,9 +559,10 @@ def check_kr_leading_stocks():
         return False, {}
 
 
-def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history_rows=None):
+def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history_rows=None, master_data=None):
     """웹 대시보드(index.html)가 읽는 current_snapshot.json 구조 생성.
-    history_rows가 주어지면 이론 평단 계산 (compute_leverage_profit_v2)."""
+    history_rows가 주어지면 이론 평단 계산 (compute_leverage_profit_v2).
+    master_data가 주어지면 signal_first_fired sticky 신호 적용 (v5.0)."""
     now = datetime.now(kst).isoformat()
     ext = fetch_extended_market()
     if history_rows is not None:
@@ -577,17 +578,25 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     if vkospi and vkospi > 0:
         vol["vkospi"] = round(float(vkospi), 2)
 
-    # --- 매수 시그널 flag & count (sticky 기준) ---
-    cnn_fired    = bool(market_data.get("cnn_sticky"))
-    vix_fired    = bool(market_data.get("vix_sticky"))
-    margin_fired = bool(market_data.get("margin_sticky"))
-    buy_count = int(cnn_fired) + int(vix_fired) + int(margin_fired)
-
-    # --- 매도 시그널 flag & count ---
-    leverage_over = any((leverage.get(f'{k}_profit_pct') or 0) >= 100 for k in ('tqqq', 'soxl', 'koru'))
+    # --- 오늘 raw 시그널 (today 기준) ---
+    cnn_today    = bool(market_data.get("cnn_sticky"))
+    vix_today    = bool(market_data.get("vix_sticky"))
+    margin_today = bool(market_data.get("margin_sticky"))
+    leverage_today = any((leverage.get(f'{k}_profit_pct') or 0) >= 100 for k in ('tqqq', 'soxl', 'koru'))
     over_tickers = [k.upper() for k in ('tqqq', 'soxl', 'koru') if (leverage.get(f'{k}_profit_pct') or 0) >= 100]
-    sell_leading_fired = bool(leading)
-    sell_expert_fired  = bool(expert_result.get('expert_warning', False)) or bool(exit_settings.get("expert_sell_view", False))
+    leading_today = bool(leading)
+    expert_today  = bool(expert_result.get('expert_warning', False)) or bool(exit_settings.get("expert_sell_view", False))
+
+    # --- v5.0 sticky 신호: master_data.signal_first_fired 가 있으면 today=False여도 sticky=True ---
+    sf = (master_data or {}).get('signal_first_fired') or {}
+    cnn_fired    = cnn_today    or bool(sf.get('buy_cnn'))
+    vix_fired    = vix_today    or bool(sf.get('buy_vix'))
+    margin_fired = margin_today or bool(sf.get('buy_margin'))
+    leverage_over      = leverage_today or bool(sf.get('sell_leverage'))
+    sell_leading_fired = leading_today  or bool(sf.get('sell_leading'))
+    sell_expert_fired  = expert_today   or bool(sf.get('sell_expert'))
+
+    buy_count  = int(cnn_fired) + int(vix_fired) + int(margin_fired)
     sell_count = int(leverage_over) + int(sell_leading_fired) + int(sell_expert_fired)
 
     emergency = any((v.get("drop_pct", 0) or 0) <= -9.0 for v in ext["indices"].values())
@@ -658,6 +667,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
         "indices": ext["indices"],
         "sector_rs": ext["sector_rs"],
         "signals": {
+            # sticky 값 (오늘 OR 사이클 내 마커 있음)
             "cnn_under_10":        cnn_fired,
             "vix_over_25":         vix_fired,
             "margin_call_trigger": margin_fired,
@@ -667,8 +677,19 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "sell_expert":         sell_expert_fired,
             "sell_count":          sell_count,
             "emergency_exit_warning": emergency,
-            "stage_key":     display_stage,   # 웹 Hero 카드 표시용 (전일 동일 시 normal)
-            "stage_key_raw": raw_stage,       # 실제 데이터 기반 raw 상태
+            "stage_key":     display_stage,
+            "stage_key_raw": raw_stage,
+            # v5.0: today raw 값 (sticky와 별도로 오늘만)
+            "today": {
+                "cnn_under_10":        cnn_today,
+                "vix_over_25":         vix_today,
+                "margin_call_trigger": margin_today,
+                "sell_leverage":       leverage_today,
+                "sell_leading":        leading_today,
+                "sell_expert":         expert_today,
+            },
+            # v5.0: 6 신호별 첫 발동일 (master_data.signal_first_fired)
+            "first_fired": dict(sf),
         },
         "leverage_profit": leverage,
         "sell_signals": {
@@ -1161,6 +1182,48 @@ EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
 VIDEO_HISTORY_PATH = 'video_analysis_history.json'  # 영상별 분석 영구 캐시
 GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모델
 PROMPT_VERSION   = 'v3-with-description'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화
+
+# 키워드 기반 fallback 분류기 (Gemini 429 쿼터 초과 시)
+WARNING_KW = [
+    '현금 비중', '현금비중', '현금화', '비중 축소', '비중축소',
+    '익절', '매도할', '정리할', '팔고 나가', '팔고나가',
+    '빠져나와', '빠져나오', '비중 줄', '비중줄',
+]
+BULLISH_KW = [
+    '매수 기회', '매수기회', '저점 매수', '저점매수',
+    '추가 매수', '추가매수', '분할 매수', '반등', '기회',
+]
+
+
+def keyword_scan_stance(text):
+    """Gemini 실패/429 시 fallback: 현금화 권고 키워드 카운팅."""
+    if not text:
+        return {'stance': 'unknown', 'reason': '텍스트 없음'}
+    w = sum(text.count(kw) for kw in WARNING_KW)
+    b = sum(text.count(kw) for kw in BULLISH_KW)
+    if w >= 2 and w > b:
+        return {'stance': 'warning', 'reason': f'키워드 스캔 · 현금화 권고 {w}회', 'fallback': True}
+    if b >= 2 and b > w:
+        return {'stance': 'bullish', 'reason': f'키워드 스캔 · 매수/반등 {b}회', 'fallback': True}
+    return {'stance': 'neutral', 'reason': f'키워드 스캔 · warning {w} / bullish {b}', 'fallback': True}
+
+
+def load_video_history():
+    if os.path.isfile(VIDEO_HISTORY_PATH):
+        try:
+            with open(VIDEO_HISTORY_PATH, encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[video history] load fail: {e}")
+    return {}
+
+
+def save_video_history(history):
+    try:
+        with open(VIDEO_HISTORY_PATH, 'w', encoding='utf-8') as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[video history] save fail: {e}")
 
 # 키워드 기반 fallback 분류기 (Gemini 429 쿼터 초과 시)
 WARNING_KW = [
@@ -2085,7 +2148,7 @@ if __name__ == '__main__':
             "vix_sticky":    sticky_vix,
             "margin_sticky": sticky_margin,
         }
-        snapshot = build_snapshot(market_dict, exit_set, m[10], signals_count, history_rows=history_rows)
+        snapshot = build_snapshot(market_dict, exit_set, m[10], signals_count, history_rows=history_rows, master_data=master)
         save_snapshot(snapshot)
     except Exception as e:
         print(f"❌ Snapshot 생성 실패: {e}")
@@ -2110,7 +2173,7 @@ if __name__ == '__main__':
     # 📅 7-bis. 1차 매도 첫 발동 시점 마커 기록 (auto_reset 후 — 리셋 시 clear가 우선됨)
     if snapshot is not None:
         try:
-            update_sell1_marker(snapshot, master)
+            update_signal_markers(snapshot, master)
         except Exception as e:
             print(f"❌ sell1 marker 실패: {e}")
 
