@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-29T21:10:38.210082+09:00",
+  "timestamp": "2026-04-30T00:02:58.567590+09:00",
   "sentiment": {
-    "cnn_fng": 63.8285714285714,
+    "cnn_fng": 64.1142857142857,
     "cnn_components": {
-      "momentum": 94.0,
-      "strength": 50.6,
-      "breadth": 71.0,
-      "put_call": 31.6,
-      "junk_bond": 52.4,
+      "momentum": 93.2,
+      "strength": 50.4,
+      "breadth": 70.4,
+      "put_call": 33.2,
+      "junk_bond": 55.6,
       "volatility": 50.0,
-      "safe_haven": 97.2
+      "safe_haven": 96.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -21,8 +21,8 @@
     }
   },
   "volatility": {
-    "vix": 17.97,
-    "vvix": 91.03,
+    "vix": 17.99,
+    "vvix": 92.34,
     "skew": 138.16,
     "move": 68.68
   },
@@ -36,43 +36,43 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24663.8,
+      "current": 24681.64,
       "high_52w": 24899.37,
-      "drop_pct": -0.95
+      "drop_pct": -0.87
     },
     "kospi": {
-      "current": 6690.9,
+      "current": 6641.02,
       "high_52w": 6712.73,
-      "drop_pct": -0.33
+      "drop_pct": -1.07
     },
     "kosdaq": {
-      "current": 1220.26,
+      "current": 1215.58,
       "high_52w": 1229.42,
-      "drop_pct": -0.75
+      "drop_pct": -1.13
     },
     "sp500": {
-      "current": 7138.8,
+      "current": 7134.86,
       "high_52w": 7178.74,
-      "drop_pct": -0.56
+      "drop_pct": -0.61
     },
     "russell2k": {
-      "current": 2756.05,
+      "current": 2751.18,
       "high_52w": 2817.96,
-      "drop_pct": -2.2
+      "drop_pct": -2.37
     },
     "soxx": {
-      "current": 438.71,
+      "current": 448.61,
       "high_52w": 463.87,
-      "drop_pct": -5.42
+      "drop_pct": -3.29
     }
   },
   "sector_rs": {
-    "XLK": 1.047,
-    "SMH": 1.144,
-    "BOTZ": 0.965,
-    "IGV": 0.896,
-    "XLF": 0.947,
-    "XLE": 1.118
+    "XLK": 1.055,
+    "SMH": 1.162,
+    "BOTZ": 0.96,
+    "IGV": 0.883,
+    "XLF": 0.949,
+    "XLE": 1.133
   },
   "signals": {
     "cnn_under_10": false,
@@ -99,15 +99,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 38.14,
+    "tqqq_profit_pct": 40.05,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 104.79,
+    "soxl_profit_pct": 118.58,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 42.97,
+    "koru_profit_pct": 47.04,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -123,13 +123,13 @@
       "hynix_ok": false
     },
     "expert_warning": false,
-    "expert_videos_analyzed": 2,
+    "expert_videos_analyzed": 1,
     "expert_source": "auto_gemini",
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-04-29",
-    "analyzed_at": "2026-04-29T00:15:26.401100+09:00",
+    "date": "2026-04-30",
+    "analyzed_at": "2026-04-30T00:03:01.151413+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -137,34 +137,21 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "GmI5_ulddRw",
-        "title": "지수만 쫓아가면 큰일…여름부터 진짜 승부 시작?! |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
-        "published": "2026-04-28T00:28:28Z",
-        "url": "https://youtube.com/watch?v=GmI5_ulddRw",
+        "video_id": "clspQ5OwBXs",
+        "title": "\"대형주가 될 상인가?\"... 칠천피 바라보는 시장 속 기업의 '재탄생의 신호'는?ㅣ박병창 교보증권 자산관리전략부 이사 [여의도 인사이트]",
+        "published": "2026-04-29T09:11:20Z",
+        "url": "https://youtube.com/watch?v=clspQ5OwBXs",
         "text_source": "description",
         "transcript_available": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 지수를 쫓는 투자에 대한 경고와 함께 여름부터 시장의 중요한 변화를 예고하고 있으나, 구체적인 현금화, 비중 축소 또는 매수 행동 권고는 없습니다."
-        }
-      },
-      {
-        "video_id": "ZNuhFy4nfyU",
-        "title": "“지금은 분산의 시대…반도체만 보면 늦는다” | 윤지호 경제평론가 [신과대화]",
-        "published": "2026-04-18T02:00:27Z",
-        "url": "https://youtube.com/watch?v=ZNuhFy4nfyU",
-        "text_source": "description",
-        "transcript_available": false,
-        "analysis": {
-          "stance": "neutral",
-          "reason": "제목은 '분산 투자'를 권고하고 특정 섹터(반도체)에만 집중하는 것을 경계하라는 조언을 담고 있을 뿐, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 없으므로 중립으로 판단합니다."
+          "reason": "영상 제목이 시장의 잠재적 성장 가능성을 제시하며 기업의 '재탄생 신호'를 찾는 질문을 던질 뿐, 구체적인 매수/매도/보유 등 행동 권고는 포함하고 있지 않습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
-      "윤지호": "neutral"
+      "박병창": "neutral"
     },
     "prompt_version": "v3-with-description"
   },
