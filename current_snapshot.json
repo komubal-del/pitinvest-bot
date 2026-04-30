@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-04-30T21:08:15.060941+09:00",
+  "timestamp": "2026-04-30T23:58:55.204158+09:00",
   "sentiment": {
-    "cnn_fng": 63.4285714285714,
+    "cnn_fng": 64.8857142857143,
     "cnn_components": {
       "momentum": 93.2,
-      "strength": 51.8,
-      "breadth": 67.0,
-      "put_call": 30.8,
-      "junk_bond": 54.8,
+      "strength": 52.0,
+      "breadth": 69.6,
+      "put_call": 36.0,
+      "junk_bond": 57.0,
       "volatility": 50.0,
       "safe_haven": 96.4
     },
@@ -21,8 +21,8 @@
     }
   },
   "volatility": {
-    "vix": 18.0,
-    "vvix": 96.02,
+    "vix": 17.69,
+    "vvix": 94.46,
     "skew": 141.88,
     "move": 74.33
   },
@@ -36,9 +36,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24673.24,
+      "current": 24685.15,
       "high_52w": 24899.37,
-      "drop_pct": -0.91
+      "drop_pct": -0.86
     },
     "kospi": {
       "current": 6598.87,
@@ -51,26 +51,26 @@
       "drop_pct": -3.02
     },
     "sp500": {
-      "current": 7135.95,
+      "current": 7163.93,
       "high_52w": 7178.74,
-      "drop_pct": -0.6
+      "drop_pct": -0.21
     },
     "russell2k": {
-      "current": 2739.47,
+      "current": 2763.25,
       "high_52w": 2817.96,
-      "drop_pct": -2.79
+      "drop_pct": -1.94
     },
     "soxx": {
-      "current": 449.99,
+      "current": 455.41,
       "high_52w": 463.87,
-      "drop_pct": -2.99
+      "drop_pct": -1.82
     }
   },
   "sector_rs": {
-    "XLK": 1.074,
-    "SMH": 1.201,
-    "BOTZ": 0.97,
-    "IGV": 0.907,
+    "XLK": 1.065,
+    "SMH": 1.202,
+    "BOTZ": 0.988,
+    "IGV": 0.895,
     "XLF": 0.947,
     "XLE": 1.129
   },
@@ -99,15 +99,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 40.69,
+    "tqqq_profit_pct": 41.21,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 120.5,
+    "soxl_profit_pct": 128.62,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 41.83,
+    "koru_profit_pct": 49.08,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
