@@ -1351,6 +1351,41 @@ def fetch_channel_videos_api(channel_id=CHANNEL_ID_SAMPRO, days=14, max_pages=3)
     return videos
 
 
+def search_channel_for_expert(expert, channel_id=CHANNEL_ID_SAMPRO, max_results=5):
+    """YouTube Data API search.list로 채널 내에서 expert 이름이 들어간 최신 영상 검색.
+    14일 이내 영상이 없을 때 fallback으로 사용 (search.list는 100 quota units, playlistItems는 1)."""
+    api_key = os.environ.get('YOUTUBE_API_KEY', '').strip()
+    if not api_key:
+        return []
+    try:
+        r = requests.get(
+            'https://www.googleapis.com/youtube/v3/search',
+            params={
+                'key':        api_key,
+                'channelId':  channel_id,
+                'q':          expert,
+                'part':       'snippet',
+                'type':       'video',
+                'order':      'date',
+                'maxResults': max_results,
+            },
+            timeout=15,
+        )
+        if r.status_code != 200:
+            print(f"[search] {expert} http {r.status_code}: {r.text[:120]}")
+            return []
+        items = r.json().get('items', []) or []
+        return [{
+            'video_id':  it['id']['videoId'],
+            'title':     it['snippet'].get('title', ''),
+            'published': it['snippet'].get('publishedAt', ''),
+            'url':       f"https://youtube.com/watch?v={it['id']['videoId']}",
+        } for it in items if (it.get('id') or {}).get('videoId')]
+    except Exception as e:
+        print(f"[search] {expert} fail: {e}")
+        return []
+
+
 def parse_rss(root):
     """RSS root → [{video_id, title, published, url}, ...]"""
     ns = {
@@ -1583,6 +1618,19 @@ def analyze_experts_daily():
             break
     print(f"  - [{source}] 전체 {len(all_videos)}개 → 전문가별 최신 {len(expert_videos)}개 선택 ({', '.join(seen_experts)})")
 
+    # 14일 내 누락된 전문가 → search.list로 채널 전체 기간 fallback
+    fallback_used = set()
+    for missing in (set(TARGET_EXPERTS) - seen_experts):
+        matches = search_channel_for_expert(missing)
+        # 검색은 부분일치도 잡히므로 이름이 실제로 제목에 있는지 한번 더 확인
+        for v in matches:
+            if missing in v.get('title', ''):
+                expert_videos.append(v)
+                seen_experts.add(missing)
+                fallback_used.add(missing)
+                print(f"  ⏪ [{missing}] 14일 외 fallback: [{v['published'][:10]}] {v['title'][:50]}")
+                break
+
     # 영상별 영구 캐시 로드 (같은 video_id 는 한 번만 Gemini 호출)
     video_history = load_video_history()
 
@@ -1635,32 +1683,35 @@ def analyze_experts_daily():
                     video_history[vid]['transcript_available'] = (text_source == 'transcript')
                 video_history[vid]['analyses'][PROMPT_VERSION] = analysis
 
+        # fallback 영상이면 expert 이름 추출해서 마크 (UI에서 "이전 영상" 배지)
+        is_stale = any(name in v.get('title', '') for name in fallback_used)
         result['videos'].append({
             **v,
             'text_source': text_source,
             'transcript_available': (text_source == 'transcript'),  # 호환용
+            'is_stale_fallback': is_stale,
             'analysis': analysis,
         })
 
     # 영구 캐시 저장
     save_video_history(video_history)
 
-    # 누락 전문가 (최근 14일 영상 없음) → placeholder 카드 추가
-    today_str = datetime.now(kst).strftime('%Y-%m-%d')
+    # 14일 + search.list fallback에도 영상 없으면 placeholder 카드 추가
     for missing in (set(TARGET_EXPERTS) - seen_experts):
         result['videos'].append({
             'video_id':            None,
-            'title':               f'{missing} · 최근 14일 새 영상 없음',
+            'title':               f'{missing} · 영상 없음',
             'published':           '',
             'url':                 None,
             'text_source':         'missing',
             'transcript_available': False,
+            'is_stale_fallback':   False,
             'analysis': {
                 'stance': 'unknown',
-                'reason': f'최근 14일간 삼프로TV에서 "{missing}" 출연 영상이 발견되지 않음. (전체 {len(all_videos)}개 영상 검색)',
+                'reason': f'삼프로TV에서 "{missing}" 출연 영상이 발견되지 않음 (14일 내 + 채널 전체 검색).',
             },
         })
-        print(f"  ⚠️  [{missing}] 최근 14일 영상 없음 → unknown placeholder")
+        print(f"  ⚠️  [{missing}] 영상 없음 → unknown placeholder")
 
     # 종합 판정: 박병창 AND 윤지호 모두 'warning' (현금화 의견 일치) → True
     expert_stance = {}
