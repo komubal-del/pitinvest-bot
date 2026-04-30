@@ -1188,7 +1188,7 @@ TARGET_EXPERTS = ('박병창', '윤지호')
 EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
 VIDEO_HISTORY_PATH = 'video_analysis_history.json'  # 영상별 분석 영구 캐시
 GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모델
-PROMPT_VERSION   = 'v3-with-description'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화
+PROMPT_VERSION   = 'v4-api-1.2.4'   # 프롬프트 변경 시 증가 → 옛 캐시 무효화 (v4: youtube-transcript-api 1.2.4 호환)
 
 # 키워드 기반 fallback 분류기 (Gemini 429 쿼터 초과 시)
 WARNING_KW = [
@@ -1381,7 +1381,10 @@ def filter_expert_videos(videos, experts=TARGET_EXPERTS):
 def get_transcript_safe(video_id):
     """youtube-transcript-api로 한국어 자막 추출. 수동/자동 자막 모두 시도.
     YouTube의 '더보기 → 스크립트 표시' 데이터와 같은 source.
-    실패 시 None + 어떤 트랙이 있는지 진단 로그."""
+    실패 시 None + 진단 로그.
+
+    v1.2.4 API: instance methods `api.fetch()`, `api.list()`. (이전 `YouTubeTranscriptApi.list_transcripts`는 제거됨)
+    """
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
         api = YouTubeTranscriptApi()
@@ -1389,28 +1392,28 @@ def get_transcript_safe(video_id):
         print(f"[transcript] import fail: {e}")
         return None
 
-    # 1차: 가장 일반적인 ko / ko-KR 시도 (수동 자막 우선, 자동 자막 fallback)
+    # 1차: 한국어 우선 fetch (수동/자동 자동 fallback). 실패 시 마지막 에러 보존
+    last_err = None
     for langs in (['ko', 'ko-KR'], ['ko-KR', 'ko']):
         try:
             fetched = api.fetch(video_id, languages=langs)
             return ' '.join(s.text for s in fetched)
-        except Exception:
-            continue
+        except Exception as e:
+            last_err = e
 
-    # 2차: list_transcripts로 사용 가능한 모든 트랙 검색 (자동 자막 포함)
+    # 2차: list()로 사용 가능한 모든 트랙 검색 (자동 자막 포함)
     try:
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        transcript_list = api.list(video_id)
         available = []
         for t in transcript_list:
             available.append(f"{t.language_code}({'auto' if t.is_generated else 'manual'})")
-            # 한국어 트랙 (자동/수동 무관) 시도
             if t.language_code.startswith('ko'):
                 try:
                     data = t.fetch()
                     return ' '.join(s.text for s in data)
                 except Exception:
                     continue
-        # 한국어 자막 없으면 영어 자동 자막이라도 시도 (의미 분석용)
+        # 한국어 트랙 없으면 영어 자동 자막 fallback
         for t in transcript_list:
             if t.language_code == 'en' and t.is_generated:
                 try:
@@ -1420,7 +1423,9 @@ def get_transcript_safe(video_id):
                     continue
         print(f"[transcript] {video_id} no usable track. 사용 가능: {', '.join(available) or '(없음)'}")
     except Exception as e:
-        print(f"[transcript] {video_id} list fail: {e}")
+        print(f"[transcript] {video_id} list fail: {type(e).__name__}: {e}")
+        if last_err is not None:
+            print(f"[transcript] {video_id} 1st-tier err: {type(last_err).__name__}: {str(last_err)[:200]}")
     return None
 
 
@@ -1639,6 +1644,23 @@ def analyze_experts_daily():
 
     # 영구 캐시 저장
     save_video_history(video_history)
+
+    # 누락 전문가 (최근 14일 영상 없음) → placeholder 카드 추가
+    today_str = datetime.now(kst).strftime('%Y-%m-%d')
+    for missing in (set(TARGET_EXPERTS) - seen_experts):
+        result['videos'].append({
+            'video_id':            None,
+            'title':               f'{missing} · 최근 14일 새 영상 없음',
+            'published':           '',
+            'url':                 None,
+            'text_source':         'missing',
+            'transcript_available': False,
+            'analysis': {
+                'stance': 'unknown',
+                'reason': f'최근 14일간 삼프로TV에서 "{missing}" 출연 영상이 발견되지 않음. (전체 {len(all_videos)}개 영상 검색)',
+            },
+        })
+        print(f"  ⚠️  [{missing}] 최근 14일 영상 없음 → unknown placeholder")
 
     # 종합 판정: 박병창 AND 윤지호 모두 'warning' (현금화 의견 일치) → True
     expert_stance = {}
