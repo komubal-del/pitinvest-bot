@@ -1351,11 +1351,12 @@ def fetch_channel_videos_api(channel_id=CHANNEL_ID_SAMPRO, days=14, max_pages=3)
     return videos
 
 
-def search_channel_for_expert(expert, channel_id=CHANNEL_ID_SAMPRO, max_results=5):
+def search_channel_for_expert(expert, channel_id=CHANNEL_ID_SAMPRO, max_results=10):
     """YouTube Data API search.list로 채널 내에서 expert 이름이 들어간 최신 영상 검색.
     14일 이내 영상이 없을 때 fallback으로 사용 (search.list는 100 quota units, playlistItems는 1)."""
     api_key = os.environ.get('YOUTUBE_API_KEY', '').strip()
     if not api_key:
+        print(f"[search] {expert} skip · YOUTUBE_API_KEY 미설정")
         return []
     try:
         r = requests.get(
@@ -1372,15 +1373,19 @@ def search_channel_for_expert(expert, channel_id=CHANNEL_ID_SAMPRO, max_results=
             timeout=15,
         )
         if r.status_code != 200:
-            print(f"[search] {expert} http {r.status_code}: {r.text[:120]}")
+            print(f"[search] {expert} http {r.status_code}: {r.text[:200]}")
             return []
         items = r.json().get('items', []) or []
-        return [{
+        results = [{
             'video_id':  it['id']['videoId'],
             'title':     it['snippet'].get('title', ''),
             'published': it['snippet'].get('publishedAt', ''),
             'url':       f"https://youtube.com/watch?v={it['id']['videoId']}",
         } for it in items if (it.get('id') or {}).get('videoId')]
+        print(f"[search] {expert} channel={channel_id[:8]}.. → {len(results)}개 hit")
+        for r in results[:3]:
+            print(f"  · [{r['published'][:10]}] {r['title'][:80]}")
+        return results
     except Exception as e:
         print(f"[search] {expert} fail: {e}")
         return []
@@ -1419,10 +1424,23 @@ def get_transcript_safe(video_id):
     실패 시 None + 진단 로그.
 
     v1.2.4 API: instance methods `api.fetch()`, `api.list()`. (이전 `YouTubeTranscriptApi.list_transcripts`는 제거됨)
+
+    GitHub Actions IP는 YouTube가 RequestBlocked 처리 → WEBSHARE_USERNAME/PASSWORD 시크릿 설정 시 프록시 사용.
+    Webshare 가입: https://www.webshare.io/ (free tier 10 proxies, residential IP)
     """
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
-        api = YouTubeTranscriptApi()
+        ws_user = os.environ.get('WEBSHARE_USERNAME', '').strip()
+        ws_pass = os.environ.get('WEBSHARE_PASSWORD', '').strip()
+        if ws_user and ws_pass:
+            from youtube_transcript_api.proxies import WebshareProxyConfig
+            api = YouTubeTranscriptApi(proxy_config=WebshareProxyConfig(
+                proxy_username=ws_user,
+                proxy_password=ws_pass,
+            ))
+            print(f"[transcript] {video_id} using Webshare proxy")
+        else:
+            api = YouTubeTranscriptApi()
     except Exception as e:
         print(f"[transcript] import fail: {e}")
         return None
