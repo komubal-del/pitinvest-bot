@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "analyzed_at": "2026-04-30T00:03:01.151413+09:00",
+  "analyzed_at": "2026-04-30T17:02:19.074664+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,21 +8,38 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "clspQ5OwBXs",
-      "title": "\"대형주가 될 상인가?\"... 칠천피 바라보는 시장 속 기업의 '재탄생의 신호'는?ㅣ박병창 교보증권 자산관리전략부 이사 [여의도 인사이트]",
-      "published": "2026-04-29T09:11:20Z",
-      "url": "https://youtube.com/watch?v=clspQ5OwBXs",
+      "video_id": "KmB90WZdxp0",
+      "title": "삼성전자 실적발표...오늘이 진짜! |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+      "published": "2026-04-30T00:20:44Z",
+      "url": "https://youtube.com/watch?v=KmB90WZdxp0",
       "text_source": "description",
       "transcript_available": false,
+      "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 제목이 시장의 잠재적 성장 가능성을 제시하며 기업의 '재탄생 신호'를 찾는 질문을 던질 뿐, 구체적인 매수/매도/보유 등 행동 권고는 포함하고 있지 않습니다."
+        "reason": "키워드 스캔 · warning 0 / bullish 0",
+        "fallback": true,
+        "error": "gemini_429"
+      }
+    },
+    {
+      "video_id": null,
+      "title": "윤지호 · 영상 없음",
+      "published": "",
+      "url": null,
+      "text_source": "missing",
+      "transcript_available": false,
+      "is_stale_fallback": false,
+      "analysis": {
+        "stance": "unknown",
+        "reason": "삼프로TV에서 \"윤지호\" 출연 영상이 발견되지 않음 (14일 내 + 채널 전체 검색)."
       }
     }
   ],
   "error": null,
   "expert_stance_map": {
-    "박병창": "neutral"
+    "박병창": "neutral",
+    "윤지호": "unknown"
   },
-  "prompt_version": "v3-with-description"
+  "prompt_version": "v4-api-1.2.4"
 }
