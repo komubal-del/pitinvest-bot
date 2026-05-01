@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-01T20:50:30.396937+09:00",
+  "timestamp": "2026-05-01T21:53:59.678305+09:00",
   "sentiment": {
-    "cnn_fng": 66.7142857142857,
+    "cnn_fng": 66.7714285714286,
     "cnn_components": {
       "momentum": 99.8,
       "strength": 57.2,
@@ -21,7 +21,7 @@
     }
   },
   "volatility": {
-    "vix": 16.98,
+    "vix": 16.81,
     "vvix": 93.7,
     "skew": 143.33,
     "move": 72.07
