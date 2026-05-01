@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-01T17:00:42.305682+09:00",
+  "timestamp": "2026-05-01T19:14:52.327788+09:00",
   "sentiment": {
-    "cnn_fng": 67.4285714285714,
+    "cnn_fng": 66.7142857142857,
     "cnn_components": {
       "momentum": 99.8,
       "strength": 57.2,
