@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-05T05:58:00.820496+09:00",
+  "timestamp": "2026-05-05T06:56:51.374101+09:00",
   "sentiment": {
     "cnn_fng": 62.9142857142857,
     "cnn_components": {
@@ -23,7 +23,7 @@
   "volatility": {
     "vix": 18.29,
     "vvix": 98.29,
-    "skew": 141.38,
+    "skew": 141.74,
     "move": 77.86
   },
   "korea_flow": {
@@ -171,7 +171,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 144.192,
+    "strategy_pct": 144.138,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -515,7 +515,7 @@
       },
       {
         "date": "2026-05-05",
-        "ret_pct": 144.192
+        "ret_pct": 144.138
       }
     ],
     "monthly_breakdown": [
@@ -545,9 +545,9 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 12.62,
-        "end_ret_pct": 144.19,
-        "max_dd_pct": 1.47
+        "return_pct": 12.57,
+        "end_ret_pct": 144.14,
+        "max_dd_pct": 1.52
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
