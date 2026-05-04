@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-01",
-  "analyzed_at": "2026-05-01T01:18:47.458534+09:00",
+  "date": "2026-05-04",
+  "analyzed_at": "2026-05-04T10:50:29.067172+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "KmB90WZdxp0",
-      "title": "삼성전자 실적발표...오늘이 진짜! |  박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
-      "published": "2026-04-30T00:20:44Z",
-      "url": "https://youtube.com/watch?v=KmB90WZdxp0",
+      "video_id": "7SjxHrdhjNk",
+      "title": "습관적 셀 인 메이?…우려요인과 기대요인은? | 박병창 교보증권 자산관리전략부 이사 [마켓 인사이드]",
+      "published": "2026-05-04T00:26:46Z",
+      "url": "https://youtube.com/watch?v=7SjxHrdhjNk",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 영상 설명란은 전문가의 시장 분석이나 투자 권고 없이 대부분 광고 및 채널 운영 관련 정보로 구성되어 있어, 특정 시장 입장을 판단할 근거가 없습니다."
+        "reason": "제목에서 '우려요인과 기대요인'을 동시에 다루고 있어 중립적인 시장 분석을 제시하며, 구체적인 매도 또는 매수 행동 권고가 없습니다."
       }
     },
     {
