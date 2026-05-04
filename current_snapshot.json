@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-04T10:50:24.333375+09:00",
+  "timestamp": "2026-05-04T14:25:03.162999+09:00",
   "sentiment": {
     "cnn_fng": 66.6,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 70.41
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2229000000000,
-    "retail_net_buy_krw": -2162500000000,
+    "foreign_inst_buy_krw": 4338300000000,
+    "retail_net_buy_krw": -4231800000000,
     "margin_loan_krw": 35594300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.43
     },
     "kospi": {
-      "current": 6813.24,
-      "high_52w": 6813.24,
-      "drop_pct": 0.0
+      "current": 6889.37,
+      "high_52w": 6911.83,
+      "drop_pct": -0.32
     },
     "kosdaq": {
-      "current": 1216.33,
+      "current": 1211.5,
       "high_52w": 1229.42,
-      "drop_pct": -1.06
+      "drop_pct": -1.46
     },
     "sp500": {
       "current": 7230.12,
@@ -171,7 +171,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 145.662,
+    "strategy_pct": 144.369,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -508,6 +508,10 @@
       {
         "date": "2026-05-01",
         "ret_pct": 145.662
+      },
+      {
+        "date": "2026-05-04",
+        "ret_pct": 144.369
       }
     ],
     "monthly_breakdown": [
@@ -537,9 +541,9 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 14.09,
-        "end_ret_pct": 145.66,
-        "max_dd_pct": 0.0
+        "return_pct": 12.8,
+        "end_ret_pct": 144.37,
+        "max_dd_pct": 1.29
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
