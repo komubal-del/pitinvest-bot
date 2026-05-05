@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-05-05T10:50:44.265455+09:00",
+  "timestamp": "2026-05-05T13:54:01.546637+09:00",
   "sentiment": {
-    "cnn_fng": 62.9142857142857,
+    "cnn_fng": 62.8285714285714,
     "cnn_components": {
       "momentum": 97.0,
       "strength": 58.4,
       "breadth": 68.0,
       "put_call": 37.4,
-      "junk_bond": 33.6,
+      "junk_bond": 33.0,
       "volatility": 50.0,
       "safe_haven": 96.0
     },
