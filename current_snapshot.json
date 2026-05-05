@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-05T16:11:51.418397+09:00",
+  "timestamp": "2026-05-05T18:52:15.845592+09:00",
   "sentiment": {
-    "cnn_fng": 62.8285714285714,
+    "cnn_fng": 62.1714285714286,
     "cnn_components": {
       "momentum": 97.0,
-      "strength": 58.4,
-      "breadth": 68.0,
+      "strength": 59.0,
+      "breadth": 62.8,
       "put_call": 37.4,
       "junk_bond": 33.0,
       "volatility": 50.0,
@@ -21,7 +21,7 @@
     }
   },
   "volatility": {
-    "vix": 18.29,
+    "vix": 17.75,
     "vvix": 98.29,
     "skew": 141.74,
     "move": 77.86
