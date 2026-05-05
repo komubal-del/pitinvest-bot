@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-05T08:43:01.152940+09:00",
+  "timestamp": "2026-05-05T10:50:44.265455+09:00",
   "sentiment": {
     "cnn_fng": 62.9142857142857,
     "cnn_components": {
@@ -41,14 +41,14 @@
       "drop_pct": -0.62
     },
     "kospi": {
-      "current": 6598.87,
-      "high_52w": 6750.27,
-      "drop_pct": -2.24
+      "current": 6936.99,
+      "high_52w": 6937.0,
+      "drop_pct": -0.0
     },
     "kosdaq": {
-      "current": 1192.35,
+      "current": 1213.74,
       "high_52w": 1229.42,
-      "drop_pct": -3.02
+      "drop_pct": -1.28
     },
     "sp500": {
       "current": 7200.75,
