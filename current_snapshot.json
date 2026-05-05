@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-06T06:53:20.419059+09:00",
+  "timestamp": "2026-05-06T07:45:12.167057+09:00",
   "sentiment": {
     "cnn_fng": 66.9428571428572,
     "cnn_components": {
@@ -29,7 +29,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 4940600000000,
     "retail_net_buy_krw": -4793600000000,
-    "margin_loan_krw": 35594300000000,
+    "margin_loan_krw": 35238300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
