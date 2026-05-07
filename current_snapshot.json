@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T17:13:49.114462+09:00",
+  "timestamp": "2026-05-07T20:00:17.687796+09:00",
   "sentiment": {
     "cnn_fng": 68.6285714285714,
     "cnn_components": {
@@ -27,7 +27,7 @@
     "move": 70.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6053900000000,
+    "foreign_inst_buy_krw": -5807000000000,
     "retail_net_buy_krw": 5992500000000,
     "margin_loan_krw": 35357800000000,
     "news_count": 0,
