@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T08:40:16.309361+09:00",
+  "timestamp": "2026-05-07T10:53:52.652525+09:00",
   "sentiment": {
     "cnn_fng": 68.3714285714286,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 70.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 819100000000,
-    "retail_net_buy_krw": -571500000000,
+    "foreign_inst_buy_krw": -3904300000000,
+    "retail_net_buy_krw": 3893800000000,
     "margin_loan_krw": 35357800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.04
     },
     "kospi": {
-      "current": 6936.99,
-      "high_52w": 6937.0,
-      "drop_pct": -0.0
+      "current": 7293.44,
+      "high_52w": 7531.88,
+      "drop_pct": -3.17
     },
     "kosdaq": {
-      "current": 1213.74,
+      "current": 1200.49,
       "high_52w": 1229.42,
-      "drop_pct": -1.28
+      "drop_pct": -2.35
     },
     "sp500": {
       "current": 7365.12,
@@ -125,7 +125,7 @@
     "expert_warning": false,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-05-07",
