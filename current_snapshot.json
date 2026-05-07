@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-05-07T21:58:27.715826+09:00",
+  "timestamp": "2026-05-08T00:27:37.656895+09:00",
   "sentiment": {
-    "cnn_fng": 68.6285714285714,
+    "cnn_fng": 69.4,
     "cnn_components": {
-      "momentum": 99.8,
-      "strength": 63.6,
-      "breadth": 69.2,
-      "put_call": 78.4,
+      "momentum": 99.6,
+      "strength": 61.4,
+      "breadth": 66.6,
+      "put_call": 89.2,
       "junk_bond": 24.4,
       "volatility": 50.0,
-      "safe_haven": 95.0
+      "safe_haven": 94.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -21,8 +21,8 @@
     }
   },
   "volatility": {
-    "vix": 17.35,
-    "vvix": 93.7,
+    "vix": 17.22,
+    "vvix": 92.47,
     "skew": 135.42,
     "move": 70.63
   },
@@ -36,43 +36,43 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25838.94,
-      "high_52w": 25850.19,
-      "drop_pct": -0.04
+      "current": 25959.26,
+      "high_52w": 26036.38,
+      "drop_pct": -0.3
     },
     "kospi": {
-      "current": 7490.05,
-      "high_52w": 7531.88,
-      "drop_pct": -0.56
+      "current": 7384.56,
+      "high_52w": 7426.6,
+      "drop_pct": -0.57
     },
     "kosdaq": {
-      "current": 1199.18,
+      "current": 1210.17,
       "high_52w": 1229.42,
-      "drop_pct": -2.46
+      "drop_pct": -1.57
     },
     "sp500": {
-      "current": 7365.12,
-      "high_52w": 7369.22,
-      "drop_pct": -0.06
+      "current": 7371.47,
+      "high_52w": 7385.02,
+      "drop_pct": -0.18
     },
     "russell2k": {
-      "current": 2886.77,
+      "current": 2871.86,
       "high_52w": 2888.62,
-      "drop_pct": -0.06
+      "drop_pct": -0.58
     },
     "soxx": {
-      "current": 506.87,
+      "current": 499.67,
       "high_52w": 506.94,
-      "drop_pct": -0.01
+      "drop_pct": -1.44
     }
   },
   "sector_rs": {
-    "XLK": 1.12,
-    "SMH": 1.275,
-    "BOTZ": 0.986,
-    "IGV": 0.974,
-    "XLF": 0.911,
-    "XLE": 1.009
+    "XLK": 1.127,
+    "SMH": 1.266,
+    "BOTZ": 0.994,
+    "IGV": 1.015,
+    "XLF": 0.908,
+    "XLE": 0.981
   },
   "signals": {
     "cnn_under_10": false,
@@ -99,15 +99,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 62.77,
+    "tqqq_profit_pct": 65.16,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 210.0,
+    "soxl_profit_pct": 197.12,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 128.13,
+    "koru_profit_pct": 119.9,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -115,10 +115,10 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_ok": false
     },
@@ -128,8 +128,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-07",
-    "analyzed_at": "2026-05-07T00:22:08.150230+09:00",
+    "date": "2026-05-08",
+    "analyzed_at": "2026-05-08T00:27:42.803652+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -137,16 +137,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "ra_Mf5ed_EE",
-        "title": "반도체‘만’ 가는 시장...과연 정상일까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-06T00:25:31Z",
-        "url": "https://youtube.com/watch?v=ra_Mf5ed_EE",
+        "video_id": "bSR3m6g1s4o",
+        "title": "아무 종목이나 오르는 장 아닙니다…지금 시장 핵심 구조 분석 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-05-07T00:27:32Z",
+        "url": "https://youtube.com/watch?v=bSR3m6g1s4o",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 반도체 쏠림 시장의 정상 여부에 대한 질문을 던지며 잠재적 리스크를 언급하고 있지만, 현금화, 비중 축소, 매도 등 구체적인 행동 권고가 명시되어 있지 않습니다."
+          "reason": "제목은 시장이 전반적으로 상승하는 장이 아니며 종목별 차별화가 필요하다는 분석을 제시하지만, 특정 행동(매수, 매도, 비중 조절)을 명확히 권고하지 않고 시장 구조 분석에 초점을 맞추고 있어 중립적입니다."
         }
       },
       {
