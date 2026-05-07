@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-07T14:23:18.619761+09:00",
+  "timestamp": "2026-05-07T17:13:49.114462+09:00",
   "sentiment": {
-    "cnn_fng": 68.3142857142857,
+    "cnn_fng": 68.6285714285714,
     "cnn_components": {
       "momentum": 99.8,
-      "strength": 62.2,
-      "breadth": 68.4,
+      "strength": 63.6,
+      "breadth": 69.2,
       "put_call": 78.4,
       "junk_bond": 24.4,
       "volatility": 50.0,
@@ -21,14 +21,14 @@
     }
   },
   "volatility": {
-    "vix": 17.39,
+    "vix": 17.51,
     "vvix": 93.7,
     "skew": 135.42,
     "move": 70.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -5750000000000,
-    "retail_net_buy_krw": 5698300000000,
+    "foreign_inst_buy_krw": -6053900000000,
+    "retail_net_buy_krw": 5992500000000,
     "margin_loan_krw": 35357800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.04
     },
     "kospi": {
-      "current": 7421.27,
+      "current": 7490.05,
       "high_52w": 7531.88,
-      "drop_pct": -1.47
+      "drop_pct": -0.56
     },
     "kosdaq": {
-      "current": 1200.51,
+      "current": 1199.18,
       "high_52w": 1229.42,
-      "drop_pct": -2.35
+      "drop_pct": -2.46
     },
     "sp500": {
       "current": 7365.12,
