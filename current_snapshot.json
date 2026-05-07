@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-05-08T00:27:37.656895+09:00",
+  "timestamp": "2026-05-08T02:40:29.840777+09:00",
   "sentiment": {
-    "cnn_fng": 69.4,
+    "cnn_fng": 68.0571428571428,
     "cnn_components": {
       "momentum": 99.6,
       "strength": 61.4,
-      "breadth": 66.6,
-      "put_call": 89.2,
-      "junk_bond": 24.4,
+      "breadth": 66.0,
+      "put_call": 82.2,
+      "junk_bond": 22.8,
       "volatility": 50.0,
-      "safe_haven": 94.6
+      "safe_haven": 94.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -21,8 +21,8 @@
     }
   },
   "volatility": {
-    "vix": 17.22,
-    "vvix": 92.47,
+    "vix": 17.19,
+    "vvix": 92.94,
     "skew": 135.42,
     "move": 70.63
   },
@@ -36,9 +36,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25959.26,
+      "current": 25814.28,
       "high_52w": 26036.38,
-      "drop_pct": -0.3
+      "drop_pct": -0.85
     },
     "kospi": {
       "current": 7384.56,
@@ -51,28 +51,28 @@
       "drop_pct": -1.57
     },
     "sp500": {
-      "current": 7371.47,
+      "current": 7339.02,
       "high_52w": 7385.02,
-      "drop_pct": -0.18
+      "drop_pct": -0.62
     },
     "russell2k": {
-      "current": 2871.86,
+      "current": 2841.88,
       "high_52w": 2888.62,
-      "drop_pct": -0.58
+      "drop_pct": -1.62
     },
     "soxx": {
-      "current": 499.67,
+      "current": 493.37,
       "high_52w": 506.94,
-      "drop_pct": -1.44
+      "drop_pct": -2.68
     }
   },
   "sector_rs": {
-    "XLK": 1.127,
-    "SMH": 1.266,
-    "BOTZ": 0.994,
-    "IGV": 1.015,
+    "XLK": 1.122,
+    "SMH": 1.259,
+    "BOTZ": 0.99,
+    "IGV": 1.008,
     "XLF": 0.908,
-    "XLE": 0.981
+    "XLE": 0.993
   },
   "signals": {
     "cnn_under_10": false,
@@ -99,15 +99,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.16,
+    "tqqq_profit_pct": 62.14,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 197.12,
+    "soxl_profit_pct": 185.34,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 119.9,
+    "koru_profit_pct": 111.39,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -171,7 +171,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 193.418,
+    "strategy_pct": 187.335,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -524,6 +524,10 @@
       {
         "date": "2026-05-07",
         "ret_pct": 193.418
+      },
+      {
+        "date": "2026-05-08",
+        "ret_pct": 187.335
       }
     ],
     "monthly_breakdown": [
@@ -553,9 +557,9 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 61.85,
-        "end_ret_pct": 193.42,
-        "max_dd_pct": 1.52
+        "return_pct": 55.77,
+        "end_ret_pct": 187.34,
+        "max_dd_pct": 6.08
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"

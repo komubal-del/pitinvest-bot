@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T00:27:54.835803+09:00",
+  "timestamp": "2026-05-08T02:40:33.858533+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -16,7 +16,7 @@
     {
       "ticker": "SOXX",
       "name": "반도체",
-      "rs_roc": 0.2935,
+      "rs_roc": 0.2827,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -128,34 +128,34 @@
         },
         {
           "date": "2026-05-07",
-          "value": 1.3871
+          "value": 1.3755
         }
       ],
       "tier2": [
         {
           "ticker": "NVDA",
-          "rs_roc": 0.0603,
-          "price": 211.94
+          "rs_roc": 0.0696,
+          "price": 212.83
         },
         {
           "ticker": "AVGO",
-          "rs_roc": 0.1818,
-          "price": 421.5
+          "rs_roc": 0.1692,
+          "price": 415.12
         },
         {
           "ticker": "AMD",
-          "rs_roc": 0.6674,
-          "price": 410.87
+          "rs_roc": 0.6595,
+          "price": 407.08
         },
         {
           "ticker": "TSM",
-          "rs_roc": 0.0722,
-          "price": 417.11
+          "rs_roc": 0.0621,
+          "price": 411.31
         },
         {
           "ticker": "INTC",
-          "rs_roc": 1.1301,
-          "price": 112.43
+          "rs_roc": 1.1166,
+          "price": 111.21
         }
       ],
       "rank": 1
@@ -163,7 +163,7 @@
     {
       "ticker": "EWY",
       "name": "한국",
-      "rs_roc": 0.2591,
+      "rs_roc": 0.2465,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -275,37 +275,37 @@
         },
         {
           "date": "2026-05-07",
-          "value": 1.3292
+          "value": 1.3158
         }
       ],
       "tier2": [
         {
           "ticker": "005930.KS",
-          "rs_roc": 0.2763,
+          "rs_roc": 0.2821,
           "price": 266000.0,
           "name": "삼성전자"
         },
         {
           "ticker": "000660.KS",
-          "rs_roc": 0.5339,
+          "rs_roc": 0.5409,
           "price": 1601000.0,
           "name": "SK하이닉스"
         },
         {
           "ticker": "005380.KS",
-          "rs_roc": 0.0137,
+          "rs_roc": 0.0183,
           "price": 550000.0,
           "name": "현대차"
         },
         {
           "ticker": "373220.KS",
-          "rs_roc": 0.2103,
+          "rs_roc": 0.2158,
           "price": 482000.0,
           "name": "LG에너지솔루션"
         },
         {
           "ticker": "035420.KS",
-          "rs_roc": -0.1104,
+          "rs_roc": -0.1063,
           "price": 208000.0,
           "name": "네이버"
         }
@@ -315,7 +315,7 @@
     {
       "ticker": "XLK",
       "name": "Tech broad",
-      "rs_roc": 0.1196,
+      "rs_roc": 0.1149,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -427,34 +427,34 @@
         },
         {
           "date": "2026-05-07",
-          "value": 1.1555
+          "value": 1.1506
         }
       ],
       "tier2": [
         {
           "ticker": "AAPL",
-          "rs_roc": 0.0285,
-          "price": 290.65
+          "rs_roc": 0.0263,
+          "price": 288.73
         },
         {
           "ticker": "MSFT",
-          "rs_roc": 0.0234,
-          "price": 424.78
+          "rs_roc": 0.0205,
+          "price": 421.67
         },
         {
           "ticker": "NVDA",
-          "rs_roc": 0.0603,
-          "price": 211.94
+          "rs_roc": 0.0696,
+          "price": 212.83
         },
         {
           "ticker": "AVGO",
-          "rs_roc": 0.1818,
-          "price": 421.5
+          "rs_roc": 0.1692,
+          "price": 415.12
         },
         {
           "ticker": "ORCL",
-          "rs_roc": 0.2058,
-          "price": 196.96
+          "rs_roc": 0.1965,
+          "price": 194.57
         }
       ],
       "rank": 3
@@ -462,7 +462,7 @@
     {
       "ticker": "MAGS",
       "name": "Magnificent 7",
-      "rs_roc": 0.0498,
+      "rs_roc": 0.0507,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -574,44 +574,44 @@
         },
         {
           "date": "2026-05-07",
-          "value": 1.075
+          "value": 1.076
         }
       ],
       "tier2": [
         {
           "ticker": "AAPL",
-          "rs_roc": 0.0285,
-          "price": 290.65
+          "rs_roc": 0.0263,
+          "price": 288.73
         },
         {
           "ticker": "MSFT",
-          "rs_roc": 0.0234,
-          "price": 424.78
+          "rs_roc": 0.0205,
+          "price": 421.67
         },
         {
           "ticker": "NVDA",
-          "rs_roc": 0.0603,
-          "price": 211.94
+          "rs_roc": 0.0696,
+          "price": 212.83
         },
         {
           "ticker": "GOOG",
-          "rs_roc": 0.2157,
-          "price": 393.83
+          "rs_roc": 0.2222,
+          "price": 394.15
         },
         {
           "ticker": "META",
-          "rs_roc": -0.0652,
-          "price": 622.09
+          "rs_roc": -0.0712,
+          "price": 615.32
         },
         {
           "ticker": "AMZN",
-          "rs_roc": 0.154,
-          "price": 273.31
+          "rs_roc": 0.1544,
+          "price": 272.17
         },
         {
           "ticker": "TSLA",
-          "rs_roc": -0.0539,
-          "price": 408.5
+          "rs_roc": -0.0528,
+          "price": 407.12
         }
       ],
       "rank": 4
@@ -619,7 +619,7 @@
     {
       "ticker": "BOTZ",
       "name": "AI/Robotics",
-      "rs_roc": 0.0465,
+      "rs_roc": 0.0427,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -731,29 +731,29 @@
         },
         {
           "date": "2026-05-07",
-          "value": 1.0822
+          "value": 1.0782
         }
       ],
       "tier2": [
         {
           "ticker": "NVDA",
-          "rs_roc": 0.0603,
-          "price": 211.94
+          "rs_roc": 0.0696,
+          "price": 212.83
         },
         {
           "ticker": "ABBV",
-          "rs_roc": -0.1236,
-          "price": 203.13
+          "rs_roc": -0.1193,
+          "price": 203.21
         },
         {
           "ticker": "ISRG",
-          "rs_roc": -0.1264,
-          "price": 459.31
+          "rs_roc": -0.133,
+          "price": 453.77
         },
         {
           "ticker": "KEYS",
-          "rs_roc": 0.1055,
-          "price": 362.49
+          "rs_roc": 0.0963,
+          "price": 357.86
         }
       ],
       "rank": 5
@@ -761,7 +761,7 @@
     {
       "ticker": "XLY",
       "name": "Consumer Disc",
-      "rs_roc": -0.0301,
+      "rs_roc": -0.0299,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -873,34 +873,34 @@
         },
         {
           "date": "2026-05-07",
-          "value": 0.978
+          "value": 0.9781
         }
       ],
       "tier2": [
         {
           "ticker": "AMZN",
-          "rs_roc": 0.154,
-          "price": 273.31
+          "rs_roc": 0.1544,
+          "price": 272.17
         },
         {
           "ticker": "TSLA",
-          "rs_roc": -0.0539,
-          "price": 408.5
+          "rs_roc": -0.0528,
+          "price": 407.12
         },
         {
           "ticker": "HD",
-          "rs_roc": -0.1297,
-          "price": 323.72
+          "rs_roc": -0.1277,
+          "price": 323.0
         },
         {
           "ticker": "MCD",
-          "rs_roc": -0.1876,
-          "price": 283.28
+          "rs_roc": -0.1859,
+          "price": 282.58
         },
         {
           "ticker": "NKE",
-          "rs_roc": -0.2492,
-          "price": 44.5
+          "rs_roc": -0.2505,
+          "price": 44.22
         }
       ],
       "rank": 6
@@ -908,7 +908,7 @@
     {
       "ticker": "XLI",
       "name": "Industrials",
-      "rs_roc": -0.0495,
+      "rs_roc": -0.0521,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1020,29 +1020,29 @@
         },
         {
           "date": "2026-05-07",
-          "value": 0.9641
+          "value": 0.9615
         }
       ],
       "tier2": [
         {
           "ticker": "GE",
-          "rs_roc": -0.0735,
-          "price": 307.36
+          "rs_roc": -0.0805,
+          "price": 303.67
         },
         {
           "ticker": "CAT",
-          "rs_roc": 0.1263,
-          "price": 905.94
+          "rs_roc": 0.1184,
+          "price": 895.54
         },
         {
           "ticker": "RTX",
-          "rs_roc": -0.1984,
-          "price": 174.85
+          "rs_roc": -0.1931,
+          "price": 175.23
         },
         {
           "ticker": "BA",
-          "rs_roc": 0.0539,
-          "price": 235.34
+          "rs_roc": 0.0427,
+          "price": 231.78
         }
       ],
       "rank": 7
@@ -1050,7 +1050,7 @@
     {
       "ticker": "XLC",
       "name": "Communication",
-      "rs_roc": -0.0533,
+      "rs_roc": -0.0553,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1162,24 +1162,24 @@
         },
         {
           "date": "2026-05-07",
-          "value": 0.9402
+          "value": 0.9383
         }
       ],
       "tier2": [
         {
           "ticker": "META",
-          "rs_roc": -0.0652,
-          "price": 622.09
+          "rs_roc": -0.0712,
+          "price": 615.32
         },
         {
           "ticker": "GOOG",
-          "rs_roc": 0.2157,
-          "price": 393.83
+          "rs_roc": 0.2222,
+          "price": 394.15
         },
         {
           "ticker": "NFLX",
-          "rs_roc": -0.141,
-          "price": 88.68
+          "rs_roc": -0.1412,
+          "price": 88.26
         }
       ],
       "rank": 8
@@ -1187,7 +1187,7 @@
     {
       "ticker": "XLF",
       "name": "Financials",
-      "rs_roc": -0.0627,
+      "rs_roc": -0.0629,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1299,29 +1299,29 @@
         },
         {
           "date": "2026-05-07",
-          "value": 0.9201
+          "value": 0.9199
         }
       ],
       "tier2": [
         {
           "ticker": "JPM",
-          "rs_roc": -0.0597,
-          "price": 310.77
+          "rs_roc": -0.0647,
+          "price": 307.71
         },
         {
           "ticker": "BRK-B",
-          "rs_roc": -0.1081,
-          "price": 475.12
+          "rs_roc": -0.1063,
+          "price": 473.92
         },
         {
           "ticker": "BAC",
-          "rs_roc": -0.0214,
-          "price": 53.37
+          "rs_roc": -0.0262,
+          "price": 52.87
         },
         {
           "ticker": "WFC",
-          "rs_roc": -0.1192,
-          "price": 79.08
+          "rs_roc": -0.1174,
+          "price": 78.89
         }
       ],
       "rank": 9
@@ -1329,7 +1329,7 @@
     {
       "ticker": "XLV",
       "name": "Healthcare",
-      "rs_roc": -0.1171,
+      "rs_roc": -0.1136,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1441,29 +1441,29 @@
         },
         {
           "date": "2026-05-07",
-          "value": 0.8638
+          "value": 0.8672
         }
       ],
       "tier2": [
         {
           "ticker": "LLY",
-          "rs_roc": -0.0492,
-          "price": 974.61
+          "rs_roc": -0.0475,
+          "price": 971.96
         },
         {
           "ticker": "UNH",
-          "rs_roc": 0.2106,
-          "price": 366.39
+          "rs_roc": 0.2203,
+          "price": 367.67
         },
         {
           "ticker": "JNJ",
-          "rs_roc": -0.1762,
-          "price": 221.12
+          "rs_roc": -0.1703,
+          "price": 221.7
         },
         {
           "ticker": "MRK",
-          "rs_roc": -0.1645,
-          "price": 111.57
+          "rs_roc": -0.1606,
+          "price": 111.59
         }
       ],
       "rank": 10
@@ -1471,7 +1471,7 @@
     {
       "ticker": "XLE",
       "name": "Energy",
-      "rs_roc": -0.1808,
+      "rs_roc": -0.1709,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1583,29 +1583,29 @@
         },
         {
           "date": "2026-05-07",
-          "value": 0.7705
+          "value": 0.7798
         }
       ],
       "tier2": [
         {
           "ticker": "XOM",
-          "rs_roc": -0.2061,
-          "price": 145.0
+          "rs_roc": -0.1964,
+          "price": 146.11
         },
         {
           "ticker": "CVX",
-          "rs_roc": -0.2129,
-          "price": 180.63
+          "rs_roc": -0.2006,
+          "price": 182.63
         },
         {
           "ticker": "COP",
-          "rs_roc": -0.2026,
-          "price": 115.0
+          "rs_roc": -0.1942,
+          "price": 115.7
         },
         {
           "ticker": "EOG",
-          "rs_roc": -0.1883,
-          "price": 130.04
+          "rs_roc": -0.1797,
+          "price": 130.82
         }
       ],
       "rank": 11
@@ -1614,13 +1614,13 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1453.38,
-      "change_30d_pct": -3.17
+      "value": 1456.55,
+      "change_30d_pct": -2.96
     },
     "us10y": {
       "ticker": "^TNX",
-      "value": 4.35,
-      "change_30d_pp": 0.02
+      "value": 4.38,
+      "change_30d_pp": 0.05
     }
   },
   "errors": []
