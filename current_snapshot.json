@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T13:53:50.034968+09:00",
+  "timestamp": "2026-05-08T15:28:12.748125+09:00",
   "sentiment": {
     "cnn_fng": 67.6,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 72.24
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3526400000000,
-    "retail_net_buy_krw": 3444100000000,
+    "foreign_inst_buy_krw": -3707200000000,
+    "retail_net_buy_krw": 3648100000000,
     "margin_loan_krw": 34963500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.88
     },
     "kospi": {
-      "current": 7451.18,
+      "current": 7499.86,
       "high_52w": 7531.88,
-      "drop_pct": -1.07
+      "drop_pct": -0.43
     },
     "kosdaq": {
-      "current": 1205.93,
+      "current": 1205.09,
       "high_52w": 1229.42,
-      "drop_pct": -1.91
+      "drop_pct": -1.98
     },
     "sp500": {
       "current": 7337.11,
@@ -118,7 +118,7 @@
       "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_ok": false
     },
