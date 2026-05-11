@@ -173,7 +173,9 @@ def fetch_market():
         try:
             retail_buy = float(dds[0].text.replace('개인','').replace('억','').replace(',','').replace('+','').strip()) / 10000
         except: pass
-        news = len(BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item'))
+        # 반대매매 뉴스: KST 캘린더 오늘 발행분만 카운트 (when:1d 는 직전 24시간 rolling)
+        _margin_items = BeautifulSoup(requests.get("https://news.google.com/rss/search?q=신용융자+반대매매+when:1d&hl=ko&gl=KR&ceid=KR:ko").text, 'xml').find_all('item')
+        news = sum(1 for it in _margin_items if _is_today_kst((it.find('pubDate').text if it.find('pubDate') else '').strip()))
         
         # KSVKOSPI 수집 (에러 시 pass)
         try:
@@ -451,8 +453,26 @@ def fetch_cnn_components():
     }
 
 
+def _is_today_kst(pub_date_str):
+    """RSS pubDate (RFC 2822 형식) → KST 캘린더 오늘 여부 판정.
+    Google News RSS는 'Mon, 11 May 2026 03:30:00 GMT' 같은 RFC 2822 + GMT.
+    파싱 실패하면 False (보수적으로 카운트 안 함)."""
+    if not pub_date_str:
+        return False
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(pub_date_str)
+        if dt is None:
+            return False
+        kst_date = dt.astimezone(kst).date()
+        return kst_date == datetime.now(kst).date()
+    except Exception:
+        return False
+
+
 def fetch_news_sentiment():
-    """구글 뉴스 RSS에서 오늘자 국내 증시 과열/공포 뉴스 플로우 수집."""
+    """구글 뉴스 RSS에서 KST 캘린더 오늘자 국내 증시 과열/공포 뉴스 플로우 수집.
+    when:1d 으로 직전 24시간 가져온 뒤 pubDate를 KST 변환해서 오늘 날짜만 카운트."""
     result = {
         'greed_count': 0,
         'fear_count': 0,
@@ -469,8 +489,13 @@ def fetch_news_sentiment():
             res = requests.get(url, timeout=10)
             soup = BeautifulSoup(res.text, 'xml')
             items = soup.find_all('item')
-            result[f'{cat}_count'] = len(items)
-            for it in items[:5]:  # 상위 5개만
+            todays = []  # KST 오늘 발행분만
+            for it in items:
+                pub = (it.find('pubDate').text if it.find('pubDate') else '').strip()
+                if _is_today_kst(pub):
+                    todays.append(it)
+            result[f'{cat}_count'] = len(todays)
+            for it in todays[:5]:  # 상위 5개만 (이미 최신순)
                 title = (it.find('title').text if it.find('title') else '').strip()
                 link  = (it.find('link').text  if it.find('link')  else '').strip()
                 pub   = (it.find('pubDate').text if it.find('pubDate') else '').strip()
