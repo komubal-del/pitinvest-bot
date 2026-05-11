@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-11T19:28:01.135622+09:00",
+  "timestamp": "2026-05-11T22:37:07.789382+09:00",
   "sentiment": {
-    "cnn_fng": 66.9142857142857,
+    "cnn_fng": 66.6857142857143,
     "cnn_components": {
       "momentum": 99.6,
       "strength": 61.4,
@@ -9,14 +9,20 @@
       "put_call": 77.4,
       "junk_bond": 24.0,
       "volatility": 50.0,
-      "safe_haven": 93.6
+      "safe_haven": 92.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 8,
+      "greed_count": 7,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "증시 활황에 빚투 확산… 마이너스 통장 잔액 40조 돌파 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KUUNPbEQzUVdlUTZWMlJMZXZQUGRqdklmaUtZM1NDWmZSX1dXWHFBaTE1NFpOUVBDam0zbnlmMjZFSEowS0hDa3pOUEM5LWs?oc=5",
+          "pub_date": "Mon, 11 May 2026 12:25:17 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "삼성·SK그룹, 국내 증시 시총 절반 넘었다...반도체 랠리에 쏠림 심화 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVU1OUlM5TlNFa2g5Y3hCckZINHhOREVlanFpaWpDYVBOQjVIUlZPbUZkRTUydzJqaDRPZVk3NjFzczRLNmxZSWJHTnVRTl9yTEhOelNxWkZXMnVtME9wREp3b2ZRdmR4X3VJMGRrVEthbEhnelRtZ1VNX1ZaZW9fS1dDREN6RDNk?oc=5",
@@ -24,16 +30,10 @@
           "source": "글로벌이코노믹"
         },
         {
-          "title": "금감원 “증시 급등에 단타·빚투 급증…리스크 관리 필요” - mstoday.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mTHRYc1F2b0lQN3VGVzZkSFh2LWxtUTNzSEtvTG5xUW12RjVYOHpSa2s4a044RVhOUjl4emhWN2psbmlfVjZxUWhZeG1VT0hMRC1Cb19GS05yMVNWZjNTNllzc24ySGVGWVYxWVVB?oc=5",
-          "pub_date": "Mon, 11 May 2026 07:40:52 GMT",
-          "source": "mstoday.co.kr"
-        },
-        {
-          "title": "닛케이 \"日국채 불안·실물경제 위기, 증시 활황에 가려져\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wWE1UOGt6U0pOTHFsVFZVcXNXVFdpenRYbm51TVZjRzYzZXd4N0t1XzFzam55cjlVYVZRVzk4OWdmOGlreWdPXzk0bTJYd0p6QjdhYjhVRDVLWEtzUW1VOdIBYEFVX3lxTE0wWE1UOGt6U0pOTHFsVFZVcXNXVFdpenRYbm51TVZjRzYzZXd4N0t1XzFzam55cjlVYVZRVzk4OWdmOGlreWdPXzk0bTJYd0p6QjdhYjhVRDVLWEtzUW1VOQ?oc=5",
-          "pub_date": "Mon, 11 May 2026 07:27:03 GMT",
-          "source": "연합뉴스"
+          "title": "코스피 활황인데…인천 상장사 '역주행' - 인천일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvSHlvc3BuTjR5NUJTMXZoVkJVNGxkSGlDajVyckdUbzd5eU8xOFQtb1hWRGNfQm1FS2F5SkZjZTNLcE9uVGxjTXFrbDNHbUNtczE5dF9LUXh1TlRqWEI2Vk9tX3hlUm1UVDlsbE02ZTY?oc=5",
+          "pub_date": "Mon, 11 May 2026 10:44:00 GMT",
+          "source": "인천일보"
         },
         {
           "title": "[주도 섹터] 8,000선 넘보는 K-증시, 과열 경고 속 실적 주도주 대응 전략 (2026.05.11) - 네이버 프리미엄콘텐츠",
@@ -42,17 +42,17 @@
           "source": "네이버 프리미엄콘텐츠"
         },
         {
-          "title": "나스닥·니케이도 쏠림에 휘청…반도체 축제 끝난 코스피 “멀쩡할까” - 네이버 프리미엄콘텐츠",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ0YzdTZqY3BDdWFCWFo2TWg4Q1FwNUlvOHFZcXZCN1FaUGdsWk1xWVY3clNzSWdOTEFGZWRrRnpocXNlZV9uLVFJWDZyTmhMT3JPUVRjeV9xSXdTUGl4dHJlOWx2b2NvYjVEVE9uMFl5aS13YmliSmRZVXJvX3lxaW9qVQ?oc=5",
-          "pub_date": "Mon, 11 May 2026 08:01:00 GMT",
-          "source": "네이버 프리미엄콘텐츠"
+          "title": "금감원 “증시 급등에 단타·빚투 급증…리스크 관리 필요” - mstoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mTHRYc1F2b0lQN3VGVzZkSFh2LWxtUTNzSEtvTG5xUW12RjVYOHpSa2s4a044RVhOUjl4emhWN2psbmlfVjZxUWhZeG1VT0hMRC1Cb19GS05yMVNWZjNTNllzc24ySGVGWVYxWVVB?oc=5",
+          "pub_date": "Mon, 11 May 2026 07:40:52 GMT",
+          "source": "mstoday.co.kr"
         }
       ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.13,
+    "vix": 18.24,
     "vvix": 96.78,
     "skew": 138.21,
     "move": 67.25
@@ -67,9 +67,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26247.08,
+      "current": 26192.35,
       "high_52w": 26248.62,
-      "drop_pct": -0.01
+      "drop_pct": -0.21
     },
     "kospi": {
       "current": 7822.24,
@@ -82,9 +82,9 @@
       "drop_pct": -1.8
     },
     "sp500": {
-      "current": 7398.93,
+      "current": 7397.75,
       "high_52w": 7401.5,
-      "drop_pct": -0.03
+      "drop_pct": -0.05
     },
     "russell2k": {
       "current": 2861.21,
@@ -92,18 +92,18 @@
       "drop_pct": -0.95
     },
     "soxx": {
-      "current": 520.3,
-      "high_52w": 520.46,
-      "drop_pct": -0.03
+      "current": 527.59,
+      "high_52w": 531.9,
+      "drop_pct": -0.81
     }
   },
   "sector_rs": {
-    "XLK": 1.15,
-    "SMH": 1.307,
-    "BOTZ": 1.02,
-    "IGV": 1.005,
-    "XLF": 0.896,
-    "XLE": 0.981
+    "XLK": 1.159,
+    "SMH": 1.291,
+    "BOTZ": 1.013,
+    "IGV": 1.015,
+    "XLF": 0.912,
+    "XLE": 0.969
   },
   "signals": {
     "cnn_under_10": false,
@@ -130,15 +130,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 73.48,
+    "tqqq_profit_pct": 73.91,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 230.73,
+    "soxl_profit_pct": 245.83,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 156.19,
+    "koru_profit_pct": 165.51,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
