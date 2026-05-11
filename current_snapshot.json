@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T07:50:45.608586+09:00",
+  "timestamp": "2026-05-12T08:46:15.497227+09:00",
   "sentiment": {
     "cnn_fng": 66.9714285714286,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 9,
+      "greed_count": 11,
       "fear_count": 0,
       "greed_articles": [
         {
@@ -24,16 +24,10 @@
           "source": "중앙일보"
         },
         {
-          "title": "뉴욕증시 연일 최고치…\"10% 추가상승\" vs \"버블붕괴 직전\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRFduOFpSSUtvdXJHTzdRMVV5b1JLdmNMOHBDVmhXNXJ3YUY2RjRuZ0hXSWpTQ2o1WWRQSG1BeVpBMFo4b3RJSnE3THZCeDdwODF1X2twSG5BekXSAWBBVV95cUxNUERMNkgzMDNIbFp4X0NYRHNLaDRBRWYzdUptd2lCMWw3STJsclprYU5UcnBvVWI5VlRQbHNlYmhBZW1kdldaVVdVUEdKY0lreFAwdWdlLVdPZVRYTThRVWk?oc=5",
-          "pub_date": "Mon, 11 May 2026 20:02:23 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[속보]“버블? 웃기고 있네” 뉴욕증시 또 사상최고 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94cW9uS29oNkotS1Z4eVAxMlpiOWs4Q0xKUlpXSk5JRUpyX3pHcUtFOUZXTGlQUzM2bFNUOWQ1amxYcW9JUThVNEJZV1o0a1BW?oc=5",
-          "pub_date": "Mon, 11 May 2026 20:56:34 GMT",
-          "source": "문화일보"
+          "title": "[증시 포인트] 상승 출발 전망...쏠림 현상에는 유의 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PUERzdHlOb1NNUFJWTVhoNk1aSEdXQmlzUXEyTEVEWTBiT0NHVWRBMnE3ZWRZWmp3bnloZHFMSGZWMWFpaU1Hb2Zxc0R4b05PZTdNNDVHUEZoUWdjQ01QY2ZBY2U4eWtWTm1TZXAzaEcxUQ?oc=5",
+          "pub_date": "Mon, 11 May 2026 23:30:15 GMT",
+          "source": "오피니언뉴스"
         },
         {
           "title": "사상 최고치 경신 뉴욕증시, ‘추가상승’ vs ‘거품’ 논란...K증시 미칠 영향은 - 경북매일",
@@ -42,10 +36,16 @@
           "source": "경북매일"
         },
         {
-          "title": "코스피 7800시대, '정당한 상승' VS '너무 빠른 과열 상승' - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UNmsyUTFLWUJvcl8taDUtRzFPOUpzaVYzQ0xjUG1RcFBON2IyTUwtNXc5bFRQdDBnQ21lak1iUkJtOGd6Z3BmaF83RnFxWTQza01GeA?oc=5",
-          "pub_date": "Mon, 11 May 2026 21:00:00 GMT",
-          "source": "이투데이"
+          "title": "[투자노트] ‘코스피 폭등’ 이끈 AI 데이터센터 붐… 과거 버블과 비교해보니 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTEdmaU94Y0VDNGo5RGdMZTN4dzNRYUZ3Ri1ZSzVvekUzaDczVjhaWFp3a2xqRXBwS3cxMDVuU2lIc2U4MjFJQlBRTmdtQ3VqWFVTMTl5UGEwVEFiSlRPUm5zNmJ4blo0NWNSdU5vV2g2TFg0NWI0U2pmRTl6QjZOQjNyNNIBlwFBVV95cUxQcktDUm1RSEN2VUQ2RUtYczY0UVpqQkNCU3pjQUdMbWJYYmlKWnFLdnBNZ211VkU1WTFrdVJVdHk1NFRMeklEcUFBdk9oUVBVUjBMT24zcnBRM2RpMncxeEI4WXFOMnRzaUs0QVVQUXlpT3dpWWZrcllXVHJPQkxQeEtMQXdrbXBOeTVBRGhxYXJGVmVUX1hV?oc=5",
+          "pub_date": "Mon, 11 May 2026 22:51:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "뉴욕증시 연일 최고치…\"10% 추가상승\" vs \"버블붕괴 직전\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRFduOFpSSUtvdXJHTzdRMVV5b1JLdmNMOHBDVmhXNXJ3YUY2RjRuZ0hXSWpTQ2o1WWRQSG1BeVpBMFo4b3RJSnE3THZCeDdwODF1X2twSG5BekXSAWBBVV95cUxNUERMNkgzMDNIbFp4X0NYRHNLaDRBRWYzdUptd2lCMWw3STJsclprYU5UcnBvVWI5VlRQbHNlYmhBZW1kdldaVVdVUEdKY0lreFAwdWdlLVdPZVRYTThRVWk?oc=5",
+          "pub_date": "Mon, 11 May 2026 20:02:23 GMT",
+          "source": "연합뉴스"
         }
       ],
       "fear_articles": []
