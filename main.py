@@ -470,42 +470,83 @@ def _is_today_kst(pub_date_str):
         return False
 
 
+# 시장 컨텍스트 토큰 (제목/요약에 하나라도 있어야 카운트) — 개별종목 기사 배제 목적
+MARKET_CONTEXT_TOKENS = ('코스피', '코스닥', '증시', 'KOSPI', '시장', '국장')
+
+# 개별종목/외국증시 노이즈 소스 (도메인 키워드)
+NOISE_SOURCES = ('simplywall.st', 'Vietnam.vn', 'Benzinga')
+
+# 카테고리별 키워드 (제목/요약에 하나라도 매칭되어야 분류)
+GREED_KEYWORDS = ('과열', '버블', '거품', '고점', 'FOMO', '광풍', '활황', '쏠림', '빚투', '빚내서')
+FEAR_KEYWORDS  = ('폭락', '급락', '패닉', '투매', '매도세', '하락 전환', '대량 매도')
+
+# "공포에 사라" 같은 contrarian 매수 패턴 (fear 카테고리에서 빼야 함)
+FEAR_CONTRA_PATTERNS = ('공포에 사라', '공포에 산', '공포에 매수', '저점 매수', '저가 매수')
+
+
+def _classify_article_sentiment(title, summary=''):
+    """제목+요약을 보고 greed/fear/neutral 판정. 룰 기반.
+    1) 시장 컨텍스트 토큰 必 (개별종목 기사 컷)
+    2) contrarian 패턴 (예: "공포에 사라") 우선 처리 → greed 로 분류
+    3) greed/fear 키워드 매칭 (greed 우선 — "고점·과열"이 "급락" 보다 정보량 큼)
+    """
+    text = (title or '') + ' ' + (summary or '')
+    # 1) 시장 컨텍스트 미포함 → skip
+    if not any(tok in text for tok in MARKET_CONTEXT_TOKENS):
+        return None
+    # 2) contrarian 우선 (공포 키워드를 greed 카테고리로 흡수)
+    if any(p in text for p in FEAR_CONTRA_PATTERNS):
+        return 'greed'
+    # 3) greed 키워드 우선
+    if any(kw in text for kw in GREED_KEYWORDS):
+        return 'greed'
+    if any(kw in text for kw in FEAR_KEYWORDS):
+        return 'fear'
+    return None
+
+
 def fetch_news_sentiment():
     """구글 뉴스 RSS에서 KST 캘린더 오늘자 국내 증시 과열/공포 뉴스 플로우 수집.
-    when:1d 으로 직전 24시간 가져온 뒤 pubDate를 KST 변환해서 오늘 날짜만 카운트."""
+    1) when:1d 으로 직전 24시간 fetch
+    2) pubDate → KST 캘린더 오늘만
+    3) NOISE_SOURCES 도메인 제외
+    4) _classify_article_sentiment 로 시장 컨텍스트 + 키워드 분류 후 집계
+    """
     result = {
         'greed_count': 0,
         'fear_count': 0,
         'greed_articles': [],
         'fear_articles': [],
     }
-    queries = {
-        'greed': '주식+과열+OR+버블+OR+고점',
-        'fear':  '주식+공포+OR+폭락+OR+급락+OR+패닉',
-    }
-    for cat, q in queries.items():
-        try:
-            url = f'https://news.google.com/rss/search?q={q}+when:1d&hl=ko&gl=KR&ceid=KR:ko'
-            res = requests.get(url, timeout=10)
-            soup = BeautifulSoup(res.text, 'xml')
-            items = soup.find_all('item')
-            todays = []  # KST 오늘 발행분만
-            for it in items:
-                pub = (it.find('pubDate').text if it.find('pubDate') else '').strip()
-                if _is_today_kst(pub):
-                    todays.append(it)
-            result[f'{cat}_count'] = len(todays)
-            for it in todays[:5]:  # 상위 5개만 (이미 최신순)
-                title = (it.find('title').text if it.find('title') else '').strip()
-                link  = (it.find('link').text  if it.find('link')  else '').strip()
-                pub   = (it.find('pubDate').text if it.find('pubDate') else '').strip()
-                src_tag = it.find('source')
-                source = src_tag.text.strip() if src_tag else ''
+    # 단일 쿼리로 후보군 폭넓게 모으고 분류는 룰로 (이중 매칭 방지)
+    candidate_query = '코스피+OR+코스닥+OR+증시'
+    try:
+        url = f'https://news.google.com/rss/search?q={candidate_query}+when:1d&hl=ko&gl=KR&ceid=KR:ko'
+        res = requests.get(url, timeout=10)
+        soup = BeautifulSoup(res.text, 'xml')
+        items = soup.find_all('item')
+        for it in items:
+            pub = (it.find('pubDate').text if it.find('pubDate') else '').strip()
+            if not _is_today_kst(pub):
+                continue
+            title = (it.find('title').text if it.find('title') else '').strip()
+            link  = (it.find('link').text  if it.find('link')  else '').strip()
+            desc  = (it.find('description').text if it.find('description') else '').strip()
+            src_tag = it.find('source')
+            source = src_tag.text.strip() if src_tag else ''
+            # 노이즈 소스 컷
+            if any(ns.lower() in (source + ' ' + title).lower() for ns in NOISE_SOURCES):
+                continue
+            cat = _classify_article_sentiment(title, desc)
+            if not cat:
+                continue
+            result[f'{cat}_count'] += 1
+            if len(result[f'{cat}_articles']) < 5:
                 result[f'{cat}_articles'].append({
                     'title': title, 'link': link, 'pub_date': pub, 'source': source,
                 })
-        except Exception as e:
-            print(f"[news {cat}] fail: {e}")
+    except Exception as e:
+        print(f"[news] fail: {e}")
     return result
 
 
