@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-08",
-  "analyzed_at": "2026-05-08T00:27:42.803652+09:00",
+  "date": "2026-05-11",
+  "analyzed_at": "2026-05-11T11:01:46.395846+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "bSR3m6g1s4o",
-      "title": "아무 종목이나 오르는 장 아닙니다…지금 시장 핵심 구조 분석 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-05-07T00:27:32Z",
-      "url": "https://youtube.com/watch?v=bSR3m6g1s4o",
+      "video_id": "OWOyEXYmo-A",
+      "title": "시장은 더 간다는데…끝까지 갈까? 여기서 내릴까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-05-11T00:49:15Z",
+      "url": "https://youtube.com/watch?v=OWOyEXYmo-A",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목은 시장이 전반적으로 상승하는 장이 아니며 종목별 차별화가 필요하다는 분석을 제시하지만, 특정 행동(매수, 매도, 비중 조절)을 명확히 권고하지 않고 시장 구조 분석에 초점을 맞추고 있어 중립적입니다."
+        "reason": "영상 설명란에는 시장에 대한 구체적인 매수, 매도 또는 비중 조절과 같은 행동 권고가 없으며, 제목 또한 시장의 방향성에 대한 질문을 던질 뿐 특정 입장을 명확히 제시하지 않습니다."
       }
     },
     {
