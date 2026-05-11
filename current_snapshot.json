@@ -1,59 +1,28 @@
 {
-  "timestamp": "2026-05-11T22:37:07.789382+09:00",
+  "timestamp": "2026-05-12T01:23:43.215510+09:00",
   "sentiment": {
-    "cnn_fng": 66.6857142857143,
+    "cnn_fng": 68.1428571428571,
     "cnn_components": {
       "momentum": 99.6,
-      "strength": 61.4,
-      "breadth": 62.2,
-      "put_call": 77.4,
-      "junk_bond": 24.0,
+      "strength": 61.2,
+      "breadth": 58.2,
+      "put_call": 89.2,
+      "junk_bond": 25.4,
       "volatility": 50.0,
-      "safe_haven": 92.2
+      "safe_haven": 93.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 7,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "증시 활황에 빚투 확산… 마이너스 통장 잔액 40조 돌파 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KUUNPbEQzUVdlUTZWMlJMZXZQUGRqdklmaUtZM1NDWmZSX1dXWHFBaTE1NFpOUVBDam0zbnlmMjZFSEowS0hDa3pOUEM5LWs?oc=5",
-          "pub_date": "Mon, 11 May 2026 12:25:17 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "삼성·SK그룹, 국내 증시 시총 절반 넘었다...반도체 랠리에 쏠림 심화 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVU1OUlM5TlNFa2g5Y3hCckZINHhOREVlanFpaWpDYVBOQjVIUlZPbUZkRTUydzJqaDRPZVk3NjFzczRLNmxZSWJHTnVRTl9yTEhOelNxWkZXMnVtME9wREp3b2ZRdmR4X3VJMGRrVEthbEhnelRtZ1VNX1ZaZW9fS1dDREN6RDNk?oc=5",
-          "pub_date": "Mon, 11 May 2026 09:05:00 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "코스피 활황인데…인천 상장사 '역주행' - 인천일보",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvSHlvc3BuTjR5NUJTMXZoVkJVNGxkSGlDajVyckdUbzd5eU8xOFQtb1hWRGNfQm1FS2F5SkZjZTNLcE9uVGxjTXFrbDNHbUNtczE5dF9LUXh1TlRqWEI2Vk9tX3hlUm1UVDlsbE02ZTY?oc=5",
-          "pub_date": "Mon, 11 May 2026 10:44:00 GMT",
-          "source": "인천일보"
-        },
-        {
-          "title": "[주도 섹터] 8,000선 넘보는 K-증시, 과열 경고 속 실적 주도주 대응 전략 (2026.05.11) - 네이버 프리미엄콘텐츠",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaXJnV1VQeFhCU29mSHJkUVBKNmlwdlg0a2RNRXFJc0VNNVRpaC1KbzJkamRqeEdRcXFULXVJWkNpNThkb1BlYVJLMVZlNnlYZ0lqZ0VhUEJuVnBIQzR1YXBkTWE1Zkt0VjlVWEsyWHdOY1ZzY3dyZkctY0dDUkJyd2JRQ3ctUkdNTEE?oc=5",
-          "pub_date": "Mon, 11 May 2026 08:17:00 GMT",
-          "source": "네이버 프리미엄콘텐츠"
-        },
-        {
-          "title": "금감원 “증시 급등에 단타·빚투 급증…리스크 관리 필요” - mstoday.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mTHRYc1F2b0lQN3VGVzZkSFh2LWxtUTNzSEtvTG5xUW12RjVYOHpSa2s4a044RVhOUjl4emhWN2psbmlfVjZxUWhZeG1VT0hMRC1Cb19GS05yMVNWZjNTNllzc24ySGVGWVYxWVVB?oc=5",
-          "pub_date": "Mon, 11 May 2026 07:40:52 GMT",
-          "source": "mstoday.co.kr"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.24,
-    "vvix": 96.78,
+    "vix": 18.0,
+    "vvix": 97.89,
     "skew": 138.21,
     "move": 67.25
   },
@@ -67,43 +36,43 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26192.35,
-      "high_52w": 26248.62,
-      "drop_pct": -0.21
+      "current": 26341.99,
+      "high_52w": 26356.61,
+      "drop_pct": -0.06
     },
     "kospi": {
-      "current": 7822.24,
-      "high_52w": 7899.32,
-      "drop_pct": -0.98
+      "current": 7498.0,
+      "high_52w": 7531.88,
+      "drop_pct": -0.45
     },
     "kosdaq": {
-      "current": 1207.34,
+      "current": 1207.72,
       "high_52w": 1229.42,
-      "drop_pct": -1.8
+      "drop_pct": -1.77
     },
     "sp500": {
-      "current": 7397.75,
-      "high_52w": 7401.5,
-      "drop_pct": -0.05
+      "current": 7423.4,
+      "high_52w": 7425.18,
+      "drop_pct": -0.02
     },
     "russell2k": {
-      "current": 2861.21,
+      "current": 2881.26,
       "high_52w": 2888.62,
-      "drop_pct": -0.95
+      "drop_pct": -0.25
     },
     "soxx": {
-      "current": 527.59,
-      "high_52w": 531.9,
-      "drop_pct": -0.81
+      "current": 530.96,
+      "high_52w": 532.47,
+      "drop_pct": -0.28
     }
   },
   "sector_rs": {
-    "XLK": 1.159,
-    "SMH": 1.291,
-    "BOTZ": 1.013,
+    "XLK": 1.162,
+    "SMH": 1.295,
+    "BOTZ": 1.014,
     "IGV": 1.015,
-    "XLF": 0.912,
-    "XLE": 0.969
+    "XLF": 0.908,
+    "XLE": 0.97
   },
   "signals": {
     "cnn_under_10": false,
@@ -130,15 +99,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 73.91,
+    "tqqq_profit_pct": 75.61,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 245.83,
+    "soxl_profit_pct": 252.19,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 165.51,
+    "koru_profit_pct": 170.27,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -149,9 +118,9 @@
       "samsung_3d_up": false,
       "samsung_retail_buying": true,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": true,
-      "hynix_ok": true,
+      "hynix_ok": false,
       "history": {
         "samsung": [
           {
@@ -245,8 +214,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-11",
-    "analyzed_at": "2026-05-11T11:01:46.395846+09:00",
+    "date": "2026-05-12",
+    "analyzed_at": "2026-05-12T01:23:48.228206+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -288,7 +257,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 213.574,
+    "strategy_pct": 221.693,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -648,7 +617,7 @@
       },
       {
         "date": "2026-05-11",
-        "ret_pct": 213.574
+        "ret_pct": 221.693
       }
     ],
     "monthly_breakdown": [
@@ -678,8 +647,8 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 82.01,
-        "end_ret_pct": 213.57,
+        "return_pct": 90.12,
+        "end_ret_pct": 221.69,
         "max_dd_pct": 1.52
       }
     ],
