@@ -520,6 +520,46 @@ def is_3day_up_kr(code):
         return False
 
 
+def get_kr_history_5d(code):
+    """카드 모달 표시용: 최근 5거래일 종가/등락률/투자자 순매매.
+    반환: [{date, close, change_pct, retail_net, inst_net, foreign_net}, ...] 최신순"""
+    out = []
+    try:
+        url = f"https://finance.naver.com/item/frgn.naver?code={code}"
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        res = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        tables = soup.find_all('table', class_='type2')
+        if len(tables) < 2:
+            return out
+        for r in tables[1].find_all('tr'):
+            tds = r.find_all('td')
+            if len(tds) < 9:
+                continue
+            try:
+                date = tds[0].text.strip()
+                close = int(tds[1].text.replace(',', '').strip())
+                change_pct = float(tds[3].text.replace('%', '').strip())
+                inst = int(tds[5].text.replace(',', '').replace('+', '').strip())
+                foreign = int(tds[6].text.replace(',', '').replace('+', '').strip())
+                retail = -(inst + foreign)
+                out.append({
+                    'date':        date,
+                    'close':       close,
+                    'change_pct':  change_pct,
+                    'retail_net':  retail,
+                    'inst_net':    inst,
+                    'foreign_net': foreign,
+                })
+                if len(out) >= 5:
+                    break
+            except (ValueError, IndexError):
+                continue
+    except Exception as e:
+        print(f"[history_5d {code}] fail: {e}")
+    return out
+
+
 def is_retail_buying_kr(code):
     """네이버 외인기관 매매동향에서 최신일 개인 순매수 > 0 여부.
     네이버는 외국인·기관만 공시 → 개인 = −(기관 + 외국인) 으로 계산.
@@ -560,10 +600,13 @@ def check_kr_leading_stocks():
     반환: (triggered: bool, detail: dict)
     detail은 상승/매수 여부를 종목별 진단용으로 항상 채워서 반환."""
     try:
+        sec_hist = get_kr_history_5d("005930")
+        hyn_hist = get_kr_history_5d("000660")
         sec_up     = is_3day_up_kr("005930")
-        sec_retail = is_retail_buying_kr("005930")
         hyn_up     = is_3day_up_kr("000660")
-        hyn_retail = is_retail_buying_kr("000660")
+        # 최신 행에서 개인 순매수 여부 판정 (스크래퍼와 동일 데이터)
+        sec_retail = bool(sec_hist) and sec_hist[0]['retail_net'] > 0
+        hyn_retail = bool(hyn_hist) and hyn_hist[0]['retail_net'] > 0
 
         sec_ok = sec_up and sec_retail
         hyn_ok = hyn_up and hyn_retail
@@ -575,6 +618,10 @@ def check_kr_leading_stocks():
             "hynix_3d_up": hyn_up,
             "hynix_retail_buying": hyn_retail,
             "hynix_ok": hyn_ok,
+            "history": {
+                "samsung": sec_hist,
+                "hynix":   hyn_hist,
+            },
         }
     except Exception as e:
         print(f"[kr_leading] fail: {e}")
