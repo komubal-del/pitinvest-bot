@@ -1,19 +1,19 @@
 {
-    "date": "05.05",
-    "ratio_raw": "00:33:67",
+    "date": "05.11",
+    "ratio_raw": "01:63:36",
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "단기투자 물량 정리하고 구덩이 탈출 원칙으로 복귀",
+    "memo": "장중 삼성전자 하이닉스 3일연속 개인매수 우위와 상승으로 위성 축소",
     "holdings": {
         "QQQ": 0,
-        "SOXX": 21518464,
-        "EWY": 22475328,
+        "SOXX": 53905259,
+        "EWY": 57202587,
         "TQQQ": 0,
-        "SOXL": 44679770,
-        "KORU": 46457610
+        "SOXL": 30533554,
+        "KORU": 34409952
     },
-    "total_krw": 135234321,
+    "total_krw": 177009227,
     "sell1_first_fired_date": "2026-04-24",
     "signal_first_fired": {
         "sell_leverage": "2026-04-24"
