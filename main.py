@@ -521,14 +521,35 @@ def is_3day_up_kr(code):
 
 
 def is_retail_buying_kr(code):
-    """네이버 매매동향에서 오늘 개인 순매수 > 0"""
+    """네이버 외인기관 매매동향에서 최신일 개인 순매수 > 0 여부.
+    네이버는 외국인·기관만 공시 → 개인 = −(기관 + 외국인) 으로 계산.
+
+    테이블 구조 (2026 기준, class='type2'):
+      [0]날짜 [1]종가 [2]전일비 [3]등락률 [4]거래량 [5]기관순매매 [6]외국인순매매 [7]보유주수 [8]보유율
+    """
     try:
         url = f"https://finance.naver.com/item/frgn.naver?code={code}"
         headers = {'User-Agent': 'Mozilla/5.0'}
         res = requests.get(url, headers=headers, timeout=10)
         soup = BeautifulSoup(res.text, 'html.parser')
-        retail_val = soup.find('table', class_='type_2').find_all('tr')[3].find_all('td')[1].text
-        return int(retail_val.replace(',', '')) > 0
+        tables = soup.find_all('table', class_='type2')
+        if len(tables) < 2:
+            print(f"[retail {code}] type2 tables {len(tables)}개 (예상 2)")
+            return False
+        rows = tables[1].find_all('tr')
+        for r in rows:
+            tds = r.find_all('td')
+            if len(tds) < 9:
+                continue
+            try:
+                inst = int(tds[5].text.replace(',', '').replace('+', '').strip())
+                foreign = int(tds[6].text.replace(',', '').replace('+', '').strip())
+                retail = -(inst + foreign)
+                return retail > 0
+            except ValueError:
+                continue
+        print(f"[retail {code}] 데이터 행 없음")
+        return False
     except Exception as e:
         print(f"[retail {code}] fail: {e}")
         return False
@@ -536,12 +557,13 @@ def is_retail_buying_kr(code):
 
 def check_kr_leading_stocks():
     """삼전 AND 하닉 모두 (3일 연속↑ AND 개미 순매수) → True
-    반환: (triggered: bool, detail: dict)"""
+    반환: (triggered: bool, detail: dict)
+    detail은 상승/매수 여부를 종목별 진단용으로 항상 채워서 반환."""
     try:
         sec_up     = is_3day_up_kr("005930")
-        sec_retail = is_retail_buying_kr("005930") if sec_up else False
+        sec_retail = is_retail_buying_kr("005930")
         hyn_up     = is_3day_up_kr("000660")
-        hyn_retail = is_retail_buying_kr("000660") if hyn_up else False
+        hyn_retail = is_retail_buying_kr("000660")
 
         sec_ok = sec_up and sec_retail
         hyn_ok = hyn_up and hyn_retail
