@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T06:57:40.507356+09:00",
+  "timestamp": "2026-05-12T07:50:45.608586+09:00",
   "sentiment": {
     "cnn_fng": 66.9714285714286,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
+      "greed_count": 9,
       "fear_count": 0,
       "greed_articles": [
         {
@@ -36,16 +36,16 @@
           "source": "문화일보"
         },
         {
+          "title": "사상 최고치 경신 뉴욕증시, ‘추가상승’ vs ‘거품’ 논란...K증시 미칠 영향은 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93TUZob2YtdTR1MDhLb0M5RnpNWG1IXy0zZVhpbkZ0cElHa3pQeE4yVm5ZMzQ5clFyakVXYktCMmtZWHBYUzhSdnd0VTBucGZ2bGhQcjdFQlVrZw?oc=5",
+          "pub_date": "Mon, 11 May 2026 22:34:00 GMT",
+          "source": "경북매일"
+        },
+        {
           "title": "코스피 7800시대, '정당한 상승' VS '너무 빠른 과열 상승' - 이투데이",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UNmsyUTFLWUJvcl8taDUtRzFPOUpzaVYzQ0xjUG1RcFBON2IyTUwtNXc5bFRQdDBnQ21lak1iUkJtOGd6Z3BmaF83RnFxWTQza01GeA?oc=5",
           "pub_date": "Mon, 11 May 2026 21:00:00 GMT",
           "source": "이투데이"
-        },
-        {
-          "title": "대신證, 증시 활황에 실적 급반등…1분기 영업익 1천억원 돌파 - ER 이코노믹리뷰",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EVlFYZ0dVQlFNa2M5YzljTkJGb0N5SVV4blY5Uy1nZFI5UEJUZlQ1TzVSWHVyV1d4a2RWbkNpbE9iNHdIb29TdzBJTzNfdUFwSjN5V0xIUkg5WjVIeTYxOGNpSHhaVUpSZWJYWg?oc=5",
-          "pub_date": "Mon, 11 May 2026 19:52:33 GMT",
-          "source": "ER 이코노믹리뷰"
         }
       ],
       "fear_articles": []
@@ -60,7 +60,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -2860500000000,
     "retail_net_buy_krw": 2866900000000,
-    "margin_loan_krw": 35027100000000,
+    "margin_loan_krw": 35434000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
