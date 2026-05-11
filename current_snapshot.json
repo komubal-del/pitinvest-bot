@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-11T11:01:43.632795+09:00",
+  "timestamp": "2026-05-11T12:57:17.124266+09:00",
   "sentiment": {
     "cnn_fng": 66.9142857142857,
     "cnn_components": {
@@ -27,8 +27,8 @@
     "move": 67.25
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1007400000000,
-    "retail_net_buy_krw": 1043400000000,
+    "foreign_inst_buy_krw": -1812300000000,
+    "retail_net_buy_krw": 1819500000000,
     "margin_loan_krw": 35027100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +41,14 @@
       "drop_pct": -0.01
     },
     "kospi": {
-      "current": 7836.58,
+      "current": 7819.6,
       "high_52w": 7876.6,
-      "drop_pct": -0.51
+      "drop_pct": -0.72
     },
     "kosdaq": {
-      "current": 1205.7,
+      "current": 1210.54,
       "high_52w": 1229.42,
-      "drop_pct": -1.93
+      "drop_pct": -1.54
     },
     "sp500": {
       "current": 7398.93,
@@ -116,11 +116,97 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_ok": false,
       "hynix_3d_up": true,
-      "hynix_retail_buying": false,
-      "hynix_ok": false
+      "hynix_retail_buying": true,
+      "hynix_ok": true,
+      "history": {
+        "samsung": [
+          {
+            "date": "2026.05.08",
+            "close": 268500,
+            "change_pct": -1.1,
+            "retail_net": 8521293,
+            "inst_net": 1074644,
+            "foreign_net": -9595937
+          },
+          {
+            "date": "2026.05.07",
+            "close": 271500,
+            "change_pct": 2.07,
+            "retail_net": 9705444,
+            "inst_net": 638888,
+            "foreign_net": -10344332
+          },
+          {
+            "date": "2026.05.06",
+            "close": 266000,
+            "change_pct": 14.41,
+            "retail_net": -9619821,
+            "inst_net": -2222367,
+            "foreign_net": 11842188
+          },
+          {
+            "date": "2026.05.04",
+            "close": 232500,
+            "change_pct": 5.44,
+            "retail_net": -9550024,
+            "inst_net": 4335045,
+            "foreign_net": 5214979
+          },
+          {
+            "date": "2026.04.30",
+            "close": 220500,
+            "change_pct": -2.43,
+            "retail_net": 682310,
+            "inst_net": 158634,
+            "foreign_net": -840944
+          }
+        ],
+        "hynix": [
+          {
+            "date": "2026.05.08",
+            "close": 1686000,
+            "change_pct": 1.93,
+            "retail_net": 892955,
+            "inst_net": 181374,
+            "foreign_net": -1074329
+          },
+          {
+            "date": "2026.05.07",
+            "close": 1654000,
+            "change_pct": 3.31,
+            "retail_net": 1275585,
+            "inst_net": 292253,
+            "foreign_net": -1567838
+          },
+          {
+            "date": "2026.05.06",
+            "close": 1601000,
+            "change_pct": 10.64,
+            "retail_net": 10336,
+            "inst_net": -127899,
+            "foreign_net": 117563
+          },
+          {
+            "date": "2026.05.04",
+            "close": 1447000,
+            "change_pct": 12.52,
+            "retail_net": -1936565,
+            "inst_net": 707441,
+            "foreign_net": 1229124
+          },
+          {
+            "date": "2026.04.30",
+            "close": 1286000,
+            "change_pct": -0.54,
+            "retail_net": -54707,
+            "inst_net": 74538,
+            "foreign_net": -19831
+          }
+        ]
+      }
     },
     "expert_warning": false,
     "expert_videos_analyzed": 2,
@@ -171,7 +257,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 200.318,
+    "strategy_pct": 213.574,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -528,6 +614,10 @@
       {
         "date": "2026-05-08",
         "ret_pct": 200.318
+      },
+      {
+        "date": "2026-05-11",
+        "ret_pct": 213.574
       }
     ],
     "monthly_breakdown": [
@@ -557,8 +647,8 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 68.75,
-        "end_ret_pct": 200.32,
+        "return_pct": 82.01,
+        "end_ret_pct": 213.57,
         "max_dd_pct": 1.52
       }
     ],
