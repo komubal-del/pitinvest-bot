@@ -74,6 +74,19 @@ def is_3day_up(prices_sorted_dates, prices, target_date):
     return all(last4[i+1] > last4[i] for i in range(3))
 
 
+def is_at_60d_high(prices_sorted_dates, prices, target_date):
+    """target_date 종가가 직전 60거래일(target_date 포함) 종가 중 최고 (=신고가 영역)."""
+    if target_date not in prices_sorted_dates:
+        return False
+    idx = prices_sorted_dates.index(target_date)
+    start = max(0, idx - 59)
+    window = prices_sorted_dates[start:idx+1]
+    if len(window) < 5:
+        return False
+    max_close = max(prices[d] for d in window)
+    return prices[target_date] >= max_close
+
+
 def main():
     print("📈 yfinance: 005930, 000660 가격 fetch")
     sec_px = fetch_prices('005930')
@@ -103,13 +116,15 @@ def main():
     updates = 0
     for row in target_rows:
         date = row['date']
-        # 종목별 RAW trigger
+        # 종목별 RAW trigger (3일↑ + 개인매수 + 60일 신고가)
         sec_up = is_3day_up(sec_dates, sec_px, date)
         hyn_up = is_3day_up(hyn_dates, hyn_px, date)
         sec_retail_ok = sec_retail.get(date, 0) > 0
         hyn_retail_ok = hyn_retail.get(date, 0) > 0
-        sec_ok = sec_up and sec_retail_ok
-        hyn_ok = hyn_up and hyn_retail_ok
+        sec_near_high = is_at_60d_high(sec_dates, sec_px, date)
+        hyn_near_high = is_at_60d_high(hyn_dates, hyn_px, date)
+        sec_ok = sec_up and sec_retail_ok and sec_near_high
+        hyn_ok = hyn_up and hyn_retail_ok and hyn_near_high
         cur = int(sec_ok or hyn_ok)
 
         # sticky max

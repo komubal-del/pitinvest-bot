@@ -586,6 +586,21 @@ def is_3day_up_kr(code):
         return False
 
 
+def is_at_60d_high_kr(code):
+    """KOSPI 종목 오늘 종가가 직전 60거래일 종가 중 최고 (=신고가 영역).
+    매도-2 룰: 주도주 3일↑ + 개인매수 + 신고가 영역 (과열 시그널)."""
+    try:
+        h = yf.Ticker(f"{code}.KS").history(period="3mo")['Close']
+        if len(h) < 5:
+            return False
+        today_close = float(h.iloc[-1])
+        max_60d = float(h.tail(60).max())
+        return today_close >= max_60d
+    except Exception as e:
+        print(f"[60d_high {code}] fail: {e}")
+        return False
+
+
 def get_kr_history_5d(code):
     """카드 모달 표시용: 최근 5거래일 종가/등락률/투자자 순매매.
     반환: [{date, close, change_pct, retail_net, inst_net, foreign_net}, ...] 최신순"""
@@ -662,7 +677,7 @@ def is_retail_buying_kr(code):
 
 
 def check_kr_leading_stocks():
-    """삼전 OR 하닉 중 하나라도 (3일 연속↑ AND 개미 순매수) → True
+    """삼전 OR 하닉 중 하나라도 (3일 연속↑ AND 개미 순매수 AND 60일 신고가 영역) → True
     반환: (triggered: bool, detail: dict)
     detail은 상승/매수 여부를 종목별 진단용으로 항상 채워서 반환."""
     try:
@@ -670,19 +685,23 @@ def check_kr_leading_stocks():
         hyn_hist = get_kr_history_5d("000660")
         sec_up     = is_3day_up_kr("005930")
         hyn_up     = is_3day_up_kr("000660")
+        sec_near_high = is_at_60d_high_kr("005930")
+        hyn_near_high = is_at_60d_high_kr("000660")
         # 최신 행에서 개인 순매수 여부 판정 (스크래퍼와 동일 데이터)
         sec_retail = bool(sec_hist) and sec_hist[0]['retail_net'] > 0
         hyn_retail = bool(hyn_hist) and hyn_hist[0]['retail_net'] > 0
 
-        sec_ok = sec_up and sec_retail
-        hyn_ok = hyn_up and hyn_retail
+        sec_ok = sec_up and sec_retail and sec_near_high
+        hyn_ok = hyn_up and hyn_retail and hyn_near_high
 
         return (sec_ok or hyn_ok), {
             "samsung_3d_up": sec_up,
             "samsung_retail_buying": sec_retail,
+            "samsung_at_60d_high": sec_near_high,
             "samsung_ok": sec_ok,
             "hynix_3d_up": hyn_up,
             "hynix_retail_buying": hyn_retail,
+            "hynix_at_60d_high": hyn_near_high,
             "hynix_ok": hyn_ok,
             "history": {
                 "samsung": sec_hist,
