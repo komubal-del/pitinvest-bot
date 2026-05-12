@@ -662,7 +662,7 @@ def is_retail_buying_kr(code):
 
 
 def check_kr_leading_stocks():
-    """삼전 AND 하닉 모두 (3일 연속↑ AND 개미 순매수) → True
+    """삼전 OR 하닉 중 하나라도 (3일 연속↑ AND 개미 순매수) → True
     반환: (triggered: bool, detail: dict)
     detail은 상승/매수 여부를 종목별 진단용으로 항상 채워서 반환."""
     try:
@@ -677,7 +677,7 @@ def check_kr_leading_stocks():
         sec_ok = sec_up and sec_retail
         hyn_ok = hyn_up and hyn_retail
 
-        return (sec_ok and hyn_ok), {
+        return (sec_ok or hyn_ok), {
             "samsung_3d_up": sec_up,
             "samsung_retail_buying": sec_retail,
             "samsung_ok": sec_ok,
