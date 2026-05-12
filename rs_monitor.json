@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-13T05:25:35.384232+09:00",
+  "timestamp": "2026-05-13T07:03:12.413204+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -151,7 +151,7 @@
         },
         {
           "ticker": "AVGO",
-          "rs_roc": 0.2235,
+          "rs_roc": 0.2234,
           "price": 419.3
         },
         {
@@ -166,7 +166,7 @@
         },
         {
           "ticker": "INTC",
-          "rs_roc": 1.5069,
+          "rs_roc": 1.5068,
           "price": 120.61
         }
       ],
@@ -305,7 +305,7 @@
       "tier2": [
         {
           "ticker": "005930.KS",
-          "rs_roc": 0.3263,
+          "rs_roc": 0.3262,
           "price": 279000.0,
           "name": "삼성전자"
         },
@@ -339,7 +339,7 @@
     {
       "ticker": "XLK",
       "name": "Tech broad",
-      "rs_roc": 0.1765,
+      "rs_roc": 0.1764,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -463,7 +463,7 @@
         },
         {
           "date": "2026-05-12",
-          "value": 1.1765
+          "value": 1.1764
         }
       ],
       "tier2": [
@@ -484,7 +484,7 @@
         },
         {
           "ticker": "AVGO",
-          "rs_roc": 0.2235,
+          "rs_roc": 0.2234,
           "price": 419.3
         },
         {
@@ -643,7 +643,7 @@
         },
         {
           "ticker": "KEYS",
-          "rs_roc": 0.1493,
+          "rs_roc": 0.1492,
           "price": 361.65
         }
       ],
@@ -1110,7 +1110,7 @@
       "tier2": [
         {
           "ticker": "GE",
-          "rs_roc": -0.068,
+          "rs_roc": -0.0681,
           "price": 297.45
         },
         {
@@ -1746,8 +1746,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1492.08,
-      "change_30d_pct": -1.59
+      "value": 1492.24,
+      "change_30d_pct": -1.58
     },
     "us10y": {
       "ticker": "^TNX",
