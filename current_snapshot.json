@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T15:42:48.617198+09:00",
+  "timestamp": "2026-05-12T15:44:34.807996+09:00",
   "sentiment": {
     "cnn_fng": 66.8857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 19,
+      "fear_count": 20,
       "greed_articles": [
         {
           "title": "'팔천피' 턱밑 찍고 7600대 후퇴한 코스피…\"반도체 쏠림 부작용\" - v.daum.net",
@@ -25,7 +25,7 @@
         },
         {
           "title": "[마켓 프리뷰] \"곧 8천피 간다\" 코스피 질주 속 변동성·빚투 경고음 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KeWVqcGJNT3VzV21DQkJ3aXhXQnJtTVdTeTF6WlB0RnVrWHNvZUxaR3VZTUpEb25iLVp2WlpjSUhpODRhUjlHUGlYc0JKQms?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xR2x6aGNGdURNNjJUanVtdTRmbDlQVDZndWtIdm1hUldTQ1RLSFBrVDVDeFpDR1FKMVpoVDViVzJ1ZVFjcVVzMktacWdqYmVIOTlSLQ?oc=5",
           "pub_date": "Mon, 11 May 2026 22:28:17 GMT",
           "source": "v.daum.net"
         },
@@ -77,8 +77,8 @@
     "move": 70.74
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6817600000000,
-    "retail_net_buy_krw": 6676800000000,
+    "foreign_inst_buy_krw": -6817900000000,
+    "retail_net_buy_krw": 6677000000000,
     "margin_loan_krw": 35434000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -130,12 +130,12 @@
     "margin_call_trigger": false,
     "count": 0,
     "sell_leverage": true,
-    "sell_leading": false,
+    "sell_leading": true,
     "sell_expert": false,
-    "sell_count": 1,
+    "sell_count": 2,
     "emergency_exit_warning": false,
-    "stage_key": "exit",
-    "stage_key_raw": "exit",
+    "stage_key": "sell_near",
+    "stage_key_raw": "sell_near",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
@@ -145,7 +145,8 @@
       "sell_expert": false
     },
     "first_fired": {
-      "sell_leverage": "2026-04-24"
+      "sell_leverage": "2026-04-24",
+      "sell_leading": "2026-05-07"
     }
   },
   "leverage_profit": {
@@ -711,5 +712,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
   },
-  "recommended_action": "✅ 전일 구덩이 탈출 상태 지속 · 추가 액션 없음"
+  "recommended_action": "📉 매도 2조건 충족 · 위성 −33%p → 코어 매수. 마지막 조건 대기"
 }
