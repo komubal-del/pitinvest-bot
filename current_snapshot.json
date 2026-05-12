@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-13T08:25:38.312481+09:00",
+  "timestamp": "2026-05-13T08:31:12.280425+09:00",
   "sentiment": {
     "cnn_fng": 66.6,
     "cnn_components": {
@@ -87,33 +87,33 @@
   "indices": {
     "nasdaq": {
       "current": 26088.2,
-      "high_52w": 26274.13,
-      "drop_pct": -0.71
+      "high_52w": 26359.31,
+      "drop_pct": -1.03
     },
     "kospi": {
       "current": 7822.24,
-      "high_52w": 7822.24,
-      "drop_pct": 0.0
+      "high_52w": 7999.67,
+      "drop_pct": -2.22
     },
     "kosdaq": {
       "current": 1207.34,
-      "high_52w": 1226.18,
-      "drop_pct": -1.54
+      "high_52w": 1229.42,
+      "drop_pct": -1.8
     },
     "sp500": {
       "current": 7400.96,
-      "high_52w": 7412.84,
-      "drop_pct": -0.16
+      "high_52w": 7428.97,
+      "drop_pct": -0.38
     },
     "russell2k": {
       "current": 2842.83,
-      "high_52w": 2886.77,
-      "drop_pct": -1.52
+      "high_52w": 2888.62,
+      "drop_pct": -1.59
     },
     "soxx": {
       "current": 515.99,
-      "high_52w": 532.76,
-      "drop_pct": -3.15
+      "high_52w": 533.74,
+      "drop_pct": -3.33
     }
   },
   "sector_rs": {
