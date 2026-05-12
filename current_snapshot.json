@@ -1,26 +1,32 @@
 {
-  "timestamp": "2026-05-12T20:11:29.930673+09:00",
+  "timestamp": "2026-05-12T22:52:06.704473+09:00",
   "sentiment": {
-    "cnn_fng": 65.9142857142857,
+    "cnn_fng": 66.7142857142857,
     "cnn_components": {
-      "momentum": 99.4,
-      "strength": 58.4,
+      "momentum": 99.0,
+      "strength": 57.4,
       "breadth": 52.2,
-      "put_call": 85.6,
-      "junk_bond": 22.8,
+      "put_call": 94.8,
+      "junk_bond": 24.4,
       "volatility": 50.0,
-      "safe_haven": 93.0
+      "safe_haven": 89.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 4,
       "fear_count": 26,
       "greed_articles": [
         {
-          "title": "‘지금도 늦지 않았다?’ 역대급 코스피 상승에 ‘빚투’ 고민 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90aVFxUzRjdUYzMG83SU5pTE1sc1h5SXpFdzNMYnVEV0ctZTZLQ0pidmdkQ1UzSXNEX1ZWdDFaY3JVV1VCeDcwOHBSdDRmTkk?oc=5",
-          "pub_date": "Tue, 12 May 2026 10:02:08 GMT",
+          "title": "코스피 불장에 ‘빚투’도 최대 규모 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8taFE4cWRLNFM0LURmVFBNeUc5dldfaVZjSjUtbjFwd09zTEZLWlA4MkV1ZVJpaE85MmJQYWc5OFFjcXJLU0h3RVJTYVRYZGdJX25HTjYzanpKZUE?oc=5",
+          "pub_date": "Tue, 12 May 2026 12:38:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "반도체 쏠림 흔들리자 외국인 6.6조 던졌다…코스피, 8000 앞두고 ‘와르르’ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd2d6TjVSbzlqS3YwcDRsNVlQakpuclJHNm42NGxUQ000VnVWTWp4My1RdHVLRG40dkdsNlUzZV83YkxXaHV0azZtQ1NpWms?oc=5",
+          "pub_date": "Tue, 12 May 2026 07:58:53 GMT",
           "source": "v.daum.net"
         },
         {
@@ -28,6 +34,12 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa0FEZmVZLUZxa1ZDQlVWWU82YzF2bE03T3lYV2EwcTMxMW14NGZWcVU4U3lyYUtJV0dub0E2azJCMWFHS3daYmJfazdtdUVHMFRRR2wxOGhWektfQTdqcDRiMk9hNWdrbmlyREUxTUFlczA5SE9wLUJIT0xWZjQ2SXZlQjcyMmFDb3c?oc=5",
           "pub_date": "Tue, 12 May 2026 09:20:00 GMT",
           "source": "네이버 프리미엄콘텐츠"
+        },
+        {
+          "title": "‘지금도 늦지 않았다?’ 역대급 코스피 상승에 ‘빚투’ 고민 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90aVFxUzRjdUYzMG83SU5pTE1sc1h5SXpFdzNMYnVEV0ctZTZLQ0pidmdkQ1UzSXNEX1ZWdDFaY3JVV1VCeDcwOHBSdDRmTkk?oc=5",
+          "pub_date": "Tue, 12 May 2026 10:02:08 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
@@ -38,9 +50,9 @@
           "source": "경향신문"
         },
         {
-          "title": "급랭한 증시… 차익 실현 물량 나오며 코스피 폭락 중 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmU1eDJXWjFnd3NJWHo3aFlHaGwtVndkZDRrTE1CTTFZNjM1MU9ucDdNWDRrMDZOWlh5bEZXcGt4OV9obVNqd0VWbFloQXhjSWstZW9VQUFnck1TNzUzaEoxWFBXOF9teTNmMndTSG5NM0loTzRGVXhpbHZ4YVRJTHRRUDhpOGdX0gGcAUFVX3lxTE1RdHZDa3htX2ZUa1RfSnFrbExUWG9obW4xVlZkaU9mMEZ3VjlpV21wbHFBWHdMN2xBQ1NXa0cyejBoSFNXVWc4dU9jM2h0NUx4UWpXc1R1RTI4RFFva3g5a25fdTFoSWxHckFUVmlxbDBpOEZpUktDc0hBbjJjNmRrc3IxZF9aQnBkQk0yczVHSTJVbWlXLW1Sb1JKOQ?oc=5",
-          "pub_date": "Tue, 12 May 2026 05:46:00 GMT",
+          "title": "“韓 코스피 급락, AI 초과이익 환수 논란 탓” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVkM4eFdUR1hjVm96cTNLcWhWc2trd3J5c21jYmZPYk9CTUxqWllHaVQ2Q1FVQUtmZmpaN2pHcUlMWXNrWmhudTQzZEk2LW9rTFRrQjIycExCdVJyQktPWlB3empOQ0tDQ3pSTDc3UkdVci1Obi10Z1pnRWhXVVZpbkR4NVYzU012WXA1dm1lUUNuLWF2RnVzc25Nci1xQdIBsgFBVV95cUxQOXJ1S045RWY3eGI4TktvaGx2NHRYYVZpSG4wRl9MVXc0OER5ejNqZklNNkNCcWdjT3FnQkIwSWlCRWQ4OERwMjI1LW1qS3RPRDFfODMzZ3BQVG5xOTA5eVhXTWlHdkJqaU9vai0wajBPT2hhRUxjUWdhMHZ2SkVOTzlJbnlSV00ydldwNFpOU3RUbHVNckZMRjN5VFJLeDNuUXBWQ2tXQUNJaWUxeFdfT2xn?oc=5",
+          "pub_date": "Tue, 12 May 2026 11:42:00 GMT",
           "source": "Chosunbiz"
         },
         {
@@ -65,8 +77,8 @@
     }
   },
   "volatility": {
-    "vix": 18.9,
-    "vvix": 98.06,
+    "vix": 18.77,
+    "vvix": 102.22,
     "skew": 140.21,
     "move": 70.74
   },
@@ -80,9 +92,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26274.13,
+      "current": 26098.5,
       "high_52w": 26359.31,
-      "drop_pct": -0.32
+      "drop_pct": -0.99
     },
     "kospi": {
       "current": 7643.15,
@@ -95,28 +107,28 @@
       "drop_pct": -4.08
     },
     "sp500": {
-      "current": 7412.84,
+      "current": 7375.2,
       "high_52w": 7428.97,
-      "drop_pct": -0.22
+      "drop_pct": -0.72
     },
     "russell2k": {
-      "current": 2870.64,
+      "current": 2845.41,
       "high_52w": 2888.62,
-      "drop_pct": -0.62
+      "drop_pct": -1.5
     },
     "soxx": {
-      "current": 532.76,
+      "current": 520.43,
       "high_52w": 533.74,
-      "drop_pct": -0.18
+      "drop_pct": -2.49
     }
   },
   "sector_rs": {
-    "XLK": 1.176,
-    "SMH": 1.304,
-    "BOTZ": 1.0,
-    "IGV": 1.029,
-    "XLF": 0.915,
-    "XLE": 0.98
+    "XLK": 1.169,
+    "SMH": 1.287,
+    "BOTZ": 0.99,
+    "IGV": 1.021,
+    "XLF": 0.914,
+    "XLE": 0.988
   },
   "signals": {
     "cnn_under_10": false,
@@ -144,15 +156,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 75.03,
+    "tqqq_profit_pct": 70.77,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 255.93,
+    "soxl_profit_pct": 230.71,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 167.31,
+    "koru_profit_pct": 125.68,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
