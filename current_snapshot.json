@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T08:46:15.497227+09:00",
+  "timestamp": "2026-05-12T10:58:48.288070+09:00",
   "sentiment": {
     "cnn_fng": 66.9714285714286,
     "cnn_components": {
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 11,
-      "fear_count": 0,
+      "greed_count": 5,
+      "fear_count": 8,
       "greed_articles": [
         {
-          "title": "또 최고치 찍은 뉴욕증시…“10% 더 오른다”vs“버블 붕괴 직전” - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mVmxfbGdxTUxBT3I3X1pIbDAwakU5czdzcFBUXzVScTJuLXI0Q1dpaGZXUHU2d0hYVnlOMmVuSjJaU3pRRFNIdEJXSU9KN2M2R2lVdjd3?oc=5",
-          "pub_date": "Mon, 11 May 2026 21:03:44 GMT",
-          "source": "중앙일보"
+          "title": "[투자노트] ‘코스피 폭등’ 이끈 AI 데이터센터 붐… 과거 버블과 비교해보니 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTEdmaU94Y0VDNGo5RGdMZTN4dzNRYUZ3Ri1ZSzVvekUzaDczVjhaWFp3a2xqRXBwS3cxMDVuU2lIc2U4MjFJQlBRTmdtQ3VqWFVTMTl5UGEwVEFiSlRPUm5zNmJ4blo0NWNSdU5vV2g2TFg0NWI0U2pmRTl6QjZOQjNyNNIBlwFBVV95cUxQcktDUm1RSEN2VUQ2RUtYczY0UVpqQkNCU3pjQUdMbWJYYmlKWnFLdnBNZ211VkU1WTFrdVJVdHk1NFRMeklEcUFBdk9oUVBVUjBMT24zcnBRM2RpMncxeEI4WXFOMnRzaUs0QVVQUXlpT3dpWWZrcllXVHJPQkxQeEtMQXdrbXBOeTVBRGhxYXJGVmVUX1hV?oc=5",
+          "pub_date": "Mon, 11 May 2026 22:51:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "[마켓 프리뷰] \"곧 8천피 간다\" 코스피 질주 속 변동성·빚투 경고음 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KeWVqcGJNT3VzV21DQkJ3aXhXQnJtTVdTeTF6WlB0RnVrWHNvZUxaR3VZTUpEb25iLVp2WlpjSUhpODRhUjlHUGlYc0JKQms?oc=5",
+          "pub_date": "Mon, 11 May 2026 22:28:17 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "[증시 포인트] 상승 출발 전망...쏠림 현상에는 유의 - 오피니언뉴스",
@@ -30,25 +36,50 @@
           "source": "오피니언뉴스"
         },
         {
-          "title": "사상 최고치 경신 뉴욕증시, ‘추가상승’ vs ‘거품’ 논란...K증시 미칠 영향은 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93TUZob2YtdTR1MDhLb0M5RnpNWG1IXy0zZVhpbkZ0cElHa3pQeE4yVm5ZMzQ5clFyakVXYktCMmtZWHBYUzhSdnd0VTBucGZ2bGhQcjdFQlVrZw?oc=5",
-          "pub_date": "Mon, 11 May 2026 22:34:00 GMT",
-          "source": "경북매일"
-        },
-        {
-          "title": "[투자노트] ‘코스피 폭등’ 이끈 AI 데이터센터 붐… 과거 버블과 비교해보니 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTEdmaU94Y0VDNGo5RGdMZTN4dzNRYUZ3Ri1ZSzVvekUzaDczVjhaWFp3a2xqRXBwS3cxMDVuU2lIc2U4MjFJQlBRTmdtQ3VqWFVTMTl5UGEwVEFiSlRPUm5zNmJ4blo0NWNSdU5vV2g2TFg0NWI0U2pmRTl6QjZOQjNyNNIBlwFBVV95cUxQcktDUm1RSEN2VUQ2RUtYczY0UVpqQkNCU3pjQUdMbWJYYmlKWnFLdnBNZ211VkU1WTFrdVJVdHk1NFRMeklEcUFBdk9oUVBVUjBMT24zcnBRM2RpMncxeEI4WXFOMnRzaUs0QVVQUXlpT3dpWWZrcllXVHJPQkxQeEtMQXdrbXBOeTVBRGhxYXJGVmVUX1hV?oc=5",
-          "pub_date": "Mon, 11 May 2026 22:51:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
           "title": "뉴욕증시 연일 최고치…\"10% 추가상승\" vs \"버블붕괴 직전\" - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRFduOFpSSUtvdXJHTzdRMVV5b1JLdmNMOHBDVmhXNXJ3YUY2RjRuZ0hXSWpTQ2o1WWRQSG1BeVpBMFo4b3RJSnE3THZCeDdwODF1X2twSG5BekXSAWBBVV95cUxNUERMNkgzMDNIbFp4X0NYRHNLaDRBRWYzdUptd2lCMWw3STJsclprYU5UcnBvVWI5VlRQbHNlYmhBZW1kdldaVVdVUEdKY0lreFAwdWdlLVdPZVRYTThRVWk?oc=5",
           "pub_date": "Mon, 11 May 2026 20:02:23 GMT",
           "source": "연합뉴스"
+        },
+        {
+          "title": "[속보]“버블? 웃기고 있네” 뉴욕증시 또 사상최고 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94cW9uS29oNkotS1Z4eVAxMlpiOWs4Q0xKUlpXSk5JRUpyX3pHcUtFOUZXTGlQUzM2bFNUOWQ1amxYcW9JUThVNEJZV1o0a1BW?oc=5",
+          "pub_date": "Mon, 11 May 2026 20:56:34 GMT",
+          "source": "문화일보"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "“코스피 폭락” 외치더니…8천피 앞에 힘 빠진 ‘간달프’ [머니+] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yZzBJWm1WZEY4U2tkbzJRLTdXdzMtRVNPSjJEWUZucEF0VnNWSjMxSGxRb056MS1hNXV5eGVSeFNpTVUyVEJiZ0FNaTJ4SVA1aEkyeGhNZlEyZ1Rmal84MTlNSQ?oc=5",
+          "pub_date": "Tue, 12 May 2026 01:38:16 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "[속보] 8000선 넘보던 코스피, 장중 하락 전환 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XVXJxbU1Jb1YzYlQ4b0gzbnR4ZUpYQWY4VVJ5MFBYdEZDMkc3MnItanZ6UFRPSTNfYXl1TFh3cVBMak5kSmQtRzV0UjU4cWlCbjZQNkYyVDAzNXdBb3RrTDVkdzZGVU1hMzdwSlRVNnVYYndCdVBSQWdZZWFFZw?oc=5",
+          "pub_date": "Tue, 12 May 2026 01:18:10 GMT",
+          "source": "서울신문"
+        },
+        {
+          "title": "[속보]코스피, 外人매도에 밀려 3%대 하락 전환…7500선까지 후퇴 - newsis.com",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nMXdSQXRBRXZPSVdRaUJ1M2xpb19hQnAxQUQ4bVZLRm8tcDJYSXhBa3dYQ1VVbGktYk9HcnlPU3BVWWx2eklETE5MTGZMWFZXM3Vnc1JSQXBHbVRhVU5DStIBeEFVX3lxTE5oeFJFcTVuRjZkU1FWSFZERjdIWFh3RDd4MmpwMk1IX2s1bENReW9idkZ2c1pLZ1BDaTBkS0o2SHRNeGcwaVRYSkNQVWptVDFlakVrazRIcjBRQnM5VFY2MFgxb2FnVWFNV204a2hBakNEeVZJTGxBaA?oc=5",
+          "pub_date": "Tue, 12 May 2026 01:37:56 GMT",
+          "source": "newsis.com"
+        },
+        {
+          "title": "급랭한 증시… 차익 실현 물량 나오며 코스피 폭락 중 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmU1eDJXWjFnd3NJWHo3aFlHaGwtVndkZDRrTE1CTTFZNjM1MU9ucDdNWDRrMDZOWlh5bEZXcGt4OV9obVNqd0VWbFloQXhjSWstZW9VQUFnck1TNzUzaEoxWFBXOF9teTNmMndTSG5NM0loTzRGVXhpbHZ4YVRJTHRRUDhpOGdX0gGcAUFVX3lxTE1RdHZDa3htX2ZUa1RfSnFrbExUWG9obW4xVlZkaU9mMEZ3VjlpV21wbHFBWHdMN2xBQ1NXa0cyejBoSFNXVWc4dU9jM2h0NUx4UWpXc1R1RTI4RFFva3g5a25fdTFoSWxHckFUVmlxbDBpOEZpUktDc0hBbjJjNmRrc3IxZF9aQnBkQk0yczVHSTJVbWlXLW1Sb1JKOQ?oc=5",
+          "pub_date": "Tue, 12 May 2026 01:39:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피 장중 5% 급락…7,400대로 후퇴 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6WG9BN0NQb05kLUY3ZlF2ai1EU2trdU1TbFVfZG43VXJrQ2dSWmpza01Zam91ZzlkS3Fud1BVR0pCNmJRbE0ySlNoXzZ5VjNtdHVqOTJMMklPUlpDWVVoaTdZQlp4ZzI0blZzb0J5Y2fSAXRBVV95cUxPQjhYdGVzWjhnVFhHZVVDYUR6QkptRGVqSVgyS2RtbFZhUnBqc0JrTTY3dHZ4WXN6RExPUHZyVmZhTzl4cEJjR2hfSnJ3bGFfeDloZHItY3hQVkU4Rm4zSFFiamNINjUyUFl3N1Y2YjRRZnFIag?oc=5",
+          "pub_date": "Tue, 12 May 2026 01:45:17 GMT",
+          "source": "연합인포맥스"
+        }
+      ]
     }
   },
   "volatility": {
@@ -58,8 +89,8 @@
     "move": 70.74
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2860500000000,
-    "retail_net_buy_krw": 2866900000000,
+    "foreign_inst_buy_krw": -2357200000000,
+    "retail_net_buy_krw": 2329900000000,
     "margin_loan_krw": 35434000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -72,14 +103,14 @@
       "drop_pct": -0.32
     },
     "kospi": {
-      "current": 7498.0,
-      "high_52w": 7531.88,
-      "drop_pct": -0.45
+      "current": 7481.31,
+      "high_52w": 7999.67,
+      "drop_pct": -6.48
     },
     "kosdaq": {
-      "current": 1207.72,
+      "current": 1149.22,
       "high_52w": 1229.42,
-      "drop_pct": -1.77
+      "drop_pct": -6.52
     },
     "sp500": {
       "current": 7412.84,
@@ -149,9 +180,9 @@
       "samsung_3d_up": false,
       "samsung_retail_buying": true,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": true,
-      "hynix_ok": true,
+      "hynix_ok": false,
       "history": {
         "samsung": [
           {
