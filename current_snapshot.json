@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T17:24:14.917995+09:00",
+  "timestamp": "2026-05-12T20:11:29.930673+09:00",
   "sentiment": {
     "cnn_fng": 65.9142857142857,
     "cnn_components": {
@@ -14,59 +14,65 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 25,
+      "greed_count": 2,
+      "fear_count": 26,
       "greed_articles": [
         {
-          "title": "'팔천피' 턱밑 찍고 7600대 후퇴한 코스피…\"반도체 쏠림 부작용\" - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5bndxQ3hTYlZBNDZ6Y1lhYU1GcnJEV0lpX2JFRFIwOUxDSnJHUWQzUU5KcUlPZkwzYXB1bGcyVmstVmFuQ21QTkxYVjZFZEwzejgtVUxCOWhSUQ?oc=5",
-          "pub_date": "Tue, 12 May 2026 06:34:15 GMT",
-          "source": "한국경제"
+          "title": "‘지금도 늦지 않았다?’ 역대급 코스피 상승에 ‘빚투’ 고민 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90aVFxUzRjdUYzMG83SU5pTE1sc1h5SXpFdzNMYnVEV0ctZTZLQ0pidmdkQ1UzSXNEX1ZWdDFaY3JVV1VCeDcwOHBSdDRmTkk?oc=5",
+          "pub_date": "Tue, 12 May 2026 10:02:08 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[주도 섹터] 변동성 극대화된 증시… 과열 해소 국면 속 주목할 슈퍼위크 변수는? (2026.05.12) - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa0FEZmVZLUZxa1ZDQlVWWU82YzF2bE03T3lYV2EwcTMxMW14NGZWcVU4U3lyYUtJV0dub0E2azJCMWFHS3daYmJfazdtdUVHMFRRR2wxOGhWektfQTdqcDRiMk9hNWdrbmlyREUxTUFlczA5SE9wLUJIT0xWZjQ2SXZlQjcyMmFDb3c?oc=5",
+          "pub_date": "Tue, 12 May 2026 09:20:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
         }
       ],
       "fear_articles": [
         {
-          "title": "블룸버그 \"코스피 5% 급락은 김용범 AI 국민배당금 제안 탓\" - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc1FZRTZnWmdEV20yWXVJbURKMUd1cFZqMzhrdk1tVWpTVkJlQVBMa0NNSE5PSFBnUVk4Z2d6a0cyUGpCX2hBV09nbW5JVFVQUXB2bGYyZEZNemhISzU5aXRmWmozSGp6Rjc5TlJGWnNWalM2S1gtZC13N2VPUmR3aA?oc=5",
-          "pub_date": "Tue, 12 May 2026 06:38:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "코스피 급락 전환…한때 7400대까지 후퇴(상보) - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1URjNSeDl6RmdFeEM1Nmk0c0xvVUlQbFluUkdFS0pabnEwcEhSUFd5TUF0QTVVQmUwY0ZEYm9JUHBfQ08xMmhLZnFNNksyMFZBTjdHSTE0NWxOLVlwVGFCc1JQU2FLS2V4blVvazMzbWE?oc=5",
-          "pub_date": "Tue, 12 May 2026 02:05:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[속보]코스피 5% 급락 전환…외인 2.5조 매물 폭탄 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55Zks4NW82MlJWUmM4NEd1STBONHVfOGxWTlpObkNweGRfSXQzd0RlaFNfNHpKZzN3b3Y1cnZnWWRldjJiNHV2czNtM2xHdHct?oc=5",
-          "pub_date": "Tue, 12 May 2026 01:44:57 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "코스피, 차익실현·국민배당금 발언에 8000선 앞두고 '급락'…코스닥 2.32%↓ - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZV2I0NGM0b3hNV1p0eXRVX3ZuRlI5TnA0RV9qalVsNHFoYUtWWWhSRE9hWmM0UU83UERqazdwaDRVOVh5WnNsNGFBNGwtX1ZJYlZFLVprS2E3eElMeHJ6Yw?oc=5",
-          "pub_date": "Tue, 12 May 2026 07:26:37 GMT",
-          "source": "프라임경제"
+          "title": "‘8000피’ 문턱서 급락한 코스피…‘1만피’ 전망 속 변동성도 극대화 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14N3BSck01d2hsRTJuSUYtcktTZ2stQjVpd0tfLWxKdlc2UFFMb2dpYzBuOG0wdEluQk1BeEY4ZUhndTFpMXFMM1dJYi1oTmZDdWR0VVZHQTNoZ9IBX0FVX3lxTE9xblc5TU5CQlJ5NXg2M0U2NWx3bUt4QWYtdENCY1ZIcy1YS1VrcGd0WEpCTDFGM1ladGNrS3ZpQVNRMzNobTlWTWNQelU0VzVURU1yTmg0eFdoYTdyeWR3?oc=5",
+          "pub_date": "Tue, 12 May 2026 08:00:00 GMT",
+          "source": "경향신문"
         },
         {
           "title": "급랭한 증시… 차익 실현 물량 나오며 코스피 폭락 중 - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmU1eDJXWjFnd3NJWHo3aFlHaGwtVndkZDRrTE1CTTFZNjM1MU9ucDdNWDRrMDZOWlh5bEZXcGt4OV9obVNqd0VWbFloQXhjSWstZW9VQUFnck1TNzUzaEoxWFBXOF9teTNmMndTSG5NM0loTzRGVXhpbHZ4YVRJTHRRUDhpOGdX0gGcAUFVX3lxTE1RdHZDa3htX2ZUa1RfSnFrbExUWG9obW4xVlZkaU9mMEZ3VjlpV21wbHFBWHdMN2xBQ1NXa0cyejBoSFNXVWc4dU9jM2h0NUx4UWpXc1R1RTI4RFFva3g5a25fdTFoSWxHckFUVmlxbDBpOEZpUktDc0hBbjJjNmRrc3IxZF9aQnBkQk0yczVHSTJVbWlXLW1Sb1JKOQ?oc=5",
           "pub_date": "Tue, 12 May 2026 05:46:00 GMT",
           "source": "Chosunbiz"
+        },
+        {
+          "title": "블룸버그 “코스피 급락, 김용범 ‘국민배당금’ 발언 때문” - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeklTbGw0MWtuQndQdGZrUnNDRDRaaW5FblYwbW9sQXMwal9LNTRJNTNFcEgwdHJ0SVE4aUJqazZZcHRTWjhGZnVLZTdVeXBlbFRCNGdB?oc=5",
+          "pub_date": "Tue, 12 May 2026 06:44:04 GMT",
+          "source": "중앙일보"
+        },
+        {
+          "title": "김용범 한마디에 급락한 코스피?...외신이 분석한 핵심은 [지금이뉴스] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaaFpJVmxvVVNXb2g4VW1pNnJlc0NTN280c3pTWXFFWDNQMEtrbE9fSms4Rm5haFlNQXlzUktkSzUwM1Q5WEhJdUdCYUlDRVRWc1dlM3ZfY1poM1dEV2c?oc=5",
+          "pub_date": "Tue, 12 May 2026 06:59:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "블룸버그 \"코스피 5% 급락은 김용범 AI 국민배당금 제안 탓\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc1FZRTZnWmdEV20yWXVJbURKMUd1cFZqMzhrdk1tVWpTVkJlQVBMa0NNSE5PSFBnUVk4Z2d6a0cyUGpCX2hBV09nbW5JVFVQUXB2bGYyZEZNemhISzU5aXRmWmozSGp6Rjc5TlJGWnNWalM2S1gtZC13N2VPUmR3aA?oc=5",
+          "pub_date": "Tue, 12 May 2026 06:44:07 GMT",
+          "source": "조선일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.8,
+    "vix": 18.9,
     "vvix": 98.06,
     "skew": 140.21,
     "move": 70.74
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6822900000000,
-    "retail_net_buy_krw": 6682000000000,
+    "foreign_inst_buy_krw": -6822800000000,
+    "retail_net_buy_krw": 6681800000000,
     "margin_loan_krw": 35434000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -166,6 +172,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.05.12",
+            "close": 279000,
+            "change_pct": -2.28,
+            "retail_net": 7902377,
+            "inst_net": -78144,
+            "foreign_net": -7824233
+          },
+          {
             "date": "2026.05.11",
             "close": 285500,
             "change_pct": 6.33,
@@ -196,17 +210,17 @@
             "retail_net": -9619821,
             "inst_net": -2222367,
             "foreign_net": 11842188
-          },
-          {
-            "date": "2026.05.04",
-            "close": 232500,
-            "change_pct": 5.44,
-            "retail_net": -9550024,
-            "inst_net": 4335045,
-            "foreign_net": 5214979
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.12",
+            "close": 1835000,
+            "change_pct": -2.39,
+            "retail_net": 2129943,
+            "inst_net": -495350,
+            "foreign_net": -1634593
+          },
           {
             "date": "2026.05.11",
             "close": 1880000,
@@ -238,14 +252,6 @@
             "retail_net": 10336,
             "inst_net": -127899,
             "foreign_net": 117563
-          },
-          {
-            "date": "2026.05.04",
-            "close": 1447000,
-            "change_pct": 12.52,
-            "retail_net": -1936565,
-            "inst_net": 707441,
-            "foreign_net": 1229124
           }
         ]
       }
