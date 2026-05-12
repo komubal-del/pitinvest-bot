@@ -123,7 +123,7 @@ def fetch_market():
         try:
             t = yf.Ticker(symbol)
             df = t.history(period="5d")
-            h52 = t.history(period="1y")['High'].max()
+            h52 = t.history(period="1y")['Close'].max()  # 종가 기준 52주 신고가
             now, n_dd = df['Close'].iloc[-1], (df['Close'].iloc[-1]/h52-1)*100
             y_dd = (df['Close'].iloc[-2]/h52-1)*100
             return now, n_dd, (y_dd > -10.0 and n_dd <= -10.0), (y_dd <= -10.0 and n_dd <= -10.0)
@@ -219,7 +219,7 @@ def fetch_extended_market():
             if clean.empty:
                 continue
             current  = float(clean["Close"].iloc[-1])
-            high_52w = float(clean["High"].max())
+            high_52w = float(clean["Close"].max())  # 종가 기준 52주 신고가 (장중 spike 영향 제거)
             if not (current > 0 and high_52w > 0):
                 continue
             drop_pct = (current / high_52w - 1) * 100
