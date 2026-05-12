@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-12T15:44:34.807996+09:00",
+  "timestamp": "2026-05-12T17:24:14.917995+09:00",
   "sentiment": {
-    "cnn_fng": 66.8857142857143,
+    "cnn_fng": 65.9142857142857,
     "cnn_components": {
       "momentum": 99.4,
-      "strength": 61.0,
-      "breadth": 56.4,
+      "strength": 58.4,
+      "breadth": 52.2,
       "put_call": 85.6,
       "junk_bond": 22.8,
       "volatility": 50.0,
@@ -14,40 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 20,
+      "greed_count": 1,
+      "fear_count": 25,
       "greed_articles": [
         {
-          "title": "'팔천피' 턱밑 찍고 7600대 후퇴한 코스피…\"반도체 쏠림 부작용\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yVERiai0wVnAybEhlMll1S21GanVNTHpKYzktblFKcnlIdEJNR2xmdTVONE9EZG9oc25WSlBGdzNaZVJYcjhJb2tiUUYxdUE?oc=5",
-          "pub_date": "Tue, 12 May 2026 06:36:17 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[마켓 프리뷰] \"곧 8천피 간다\" 코스피 질주 속 변동성·빚투 경고음 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xR2x6aGNGdURNNjJUanVtdTRmbDlQVDZndWtIdm1hUldTQ1RLSFBrVDVDeFpDR1FKMVpoVDViVzJ1ZVFjcVVzMktacWdqYmVIOTlSLQ?oc=5",
-          "pub_date": "Mon, 11 May 2026 22:28:17 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[트렌드 키워드] 코스피는 7900은 거품이다?… ‘버핏 지수’ - 여성신문",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qZUlJSHRlcE9DMUZJbC1BMkc2X1YyNjd4TjFWT01sYjlpdGxGNHdIM1RHamtoR2kzOF9WSS13NF8zM3hGWVdsQWpvWk9JSjhvN0JNbnV3R3NwSVRuSXdKdUdwYS1MU3hhSndkWXNCRdIBc0FVX3lxTFBLV3IzQ0RQRjJVeHBKbG1JeHREVExxUVBESURFUTJsZW54UVRSWHdocEt0T2cwei1NSGd6N0dTd2J6ZUlnbkFFaUNnX0dpcjVtWUtOMW9EV3p2LTVfbTlOcXdLNEJmbDN6NkxTZlYycldfTzA?oc=5",
-          "pub_date": "Tue, 12 May 2026 00:48:53 GMT",
-          "source": "여성신문"
+          "title": "'팔천피' 턱밑 찍고 7600대 후퇴한 코스피…\"반도체 쏠림 부작용\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5bndxQ3hTYlZBNDZ6Y1lhYU1GcnJEV0lpX2JFRFIwOUxDSnJHUWQzUU5KcUlPZkwzYXB1bGcyVmstVmFuQ21QTkxYVjZFZEwzejgtVUxCOWhSUQ?oc=5",
+          "pub_date": "Tue, 12 May 2026 06:34:15 GMT",
+          "source": "한국경제"
         }
       ],
       "fear_articles": [
+        {
+          "title": "블룸버그 \"코스피 5% 급락은 김용범 AI 국민배당금 제안 탓\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc1FZRTZnWmdEV20yWXVJbURKMUd1cFZqMzhrdk1tVWpTVkJlQVBMa0NNSE5PSFBnUVk4Z2d6a0cyUGpCX2hBV09nbW5JVFVQUXB2bGYyZEZNemhISzU5aXRmWmozSGp6Rjc5TlJGWnNWalM2S1gtZC13N2VPUmR3aA?oc=5",
+          "pub_date": "Tue, 12 May 2026 06:38:00 GMT",
+          "source": "조선일보"
+        },
         {
           "title": "코스피 급락 전환…한때 7400대까지 후퇴(상보) - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1URjNSeDl6RmdFeEM1Nmk0c0xvVUlQbFluUkdFS0pabnEwcEhSUFd5TUF0QTVVQmUwY0ZEYm9JUHBfQ08xMmhLZnFNNksyMFZBTjdHSTE0NWxOLVlwVGFCc1JQU2FLS2V4blVvazMzbWE?oc=5",
           "pub_date": "Tue, 12 May 2026 02:05:00 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "급랭한 증시… 차익 실현 물량 나오며 코스피 폭락 중 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmU1eDJXWjFnd3NJWHo3aFlHaGwtVndkZDRrTE1CTTFZNjM1MU9ucDdNWDRrMDZOWlh5bEZXcGt4OV9obVNqd0VWbFloQXhjSWstZW9VQUFnck1TNzUzaEoxWFBXOF9teTNmMndTSG5NM0loTzRGVXhpbHZ4YVRJTHRRUDhpOGdX0gGcAUFVX3lxTE1RdHZDa3htX2ZUa1RfSnFrbExUWG9obW4xVlZkaU9mMEZ3VjlpV21wbHFBWHdMN2xBQ1NXa0cyejBoSFNXVWc4dU9jM2h0NUx4UWpXc1R1RTI4RFFva3g5a25fdTFoSWxHckFUVmlxbDBpOEZpUktDc0hBbjJjNmRrc3IxZF9aQnBkQk0yczVHSTJVbWlXLW1Sb1JKOQ?oc=5",
-          "pub_date": "Tue, 12 May 2026 01:39:00 GMT",
-          "source": "Chosunbiz"
         },
         {
           "title": "[속보]코스피 5% 급락 전환…외인 2.5조 매물 폭탄 - 문화일보",
@@ -56,29 +44,29 @@
           "source": "문화일보"
         },
         {
-          "title": "코스피, 장중 최고치 찍고 3% 넘게 급락 전환…7600선 아래로 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90V1dFQlM0VzJvRXlKWlk2SFNqdVZnY21aUFhZNEtuYzUxNkJBLWRvOFRfZmViX1A4bDV1cHdxUG43MW9QMDdDRUhrLVRuRW41VzZ2bTFtRWxaZ9IBVEFVX3lxTE90bHAtMG9xM0VYT2pUTy15SXhfdlJGQWYtVmxSVVRycXVKSUJqRlRwd1NhX3FtR053OGIweC1OTldzTC1hT2VsQ0JSeThEZHA5V3NmWg?oc=5",
-          "pub_date": "Tue, 12 May 2026 01:35:32 GMT",
-          "source": "한국경제"
+          "title": "코스피, 차익실현·국민배당금 발언에 8000선 앞두고 '급락'…코스닥 2.32%↓ - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZV2I0NGM0b3hNV1p0eXRVX3ZuRlI5TnA0RV9qalVsNHFoYUtWWWhSRE9hWmM0UU83UERqazdwaDRVOVh5WnNsNGFBNGwtX1ZJYlZFLVprS2E3eElMeHJ6Yw?oc=5",
+          "pub_date": "Tue, 12 May 2026 07:26:37 GMT",
+          "source": "프라임경제"
         },
         {
-          "title": "[속보] 8000선 넘보던 코스피, 장중 하락 전환 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XVXJxbU1Jb1YzYlQ4b0gzbnR4ZUpYQWY4VVJ5MFBYdEZDMkc3MnItanZ6UFRPSTNfYXl1TFh3cVBMak5kSmQtRzV0UjU4cWlCbjZQNkYyVDAzNXdBb3RrTDVkdzZGVU1hMzdwSlRVNnVYYndCdVBSQWdZZWFFZw?oc=5",
-          "pub_date": "Tue, 12 May 2026 01:18:10 GMT",
-          "source": "서울신문"
+          "title": "급랭한 증시… 차익 실현 물량 나오며 코스피 폭락 중 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmU1eDJXWjFnd3NJWHo3aFlHaGwtVndkZDRrTE1CTTFZNjM1MU9ucDdNWDRrMDZOWlh5bEZXcGt4OV9obVNqd0VWbFloQXhjSWstZW9VQUFnck1TNzUzaEoxWFBXOF9teTNmMndTSG5NM0loTzRGVXhpbHZ4YVRJTHRRUDhpOGdX0gGcAUFVX3lxTE1RdHZDa3htX2ZUa1RfSnFrbExUWG9obW4xVlZkaU9mMEZ3VjlpV21wbHFBWHdMN2xBQ1NXa0cyejBoSFNXVWc4dU9jM2h0NUx4UWpXc1R1RTI4RFFva3g5a25fdTFoSWxHckFUVmlxbDBpOEZpUktDc0hBbjJjNmRrc3IxZF9aQnBkQk0yczVHSTJVbWlXLW1Sb1JKOQ?oc=5",
+          "pub_date": "Tue, 12 May 2026 05:46:00 GMT",
+          "source": "Chosunbiz"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.38,
+    "vix": 18.8,
     "vvix": 98.06,
     "skew": 140.21,
     "move": 70.74
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6817900000000,
-    "retail_net_buy_krw": 6677000000000,
+    "foreign_inst_buy_krw": -6822900000000,
+    "retail_net_buy_krw": 6682000000000,
     "margin_loan_krw": 35434000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -91,14 +79,14 @@
       "drop_pct": -0.32
     },
     "kospi": {
-      "current": 7690.59,
+      "current": 7643.15,
       "high_52w": 7999.67,
-      "drop_pct": -3.86
+      "drop_pct": -4.46
     },
     "kosdaq": {
-      "current": 1181.55,
+      "current": 1179.29,
       "high_52w": 1229.42,
-      "drop_pct": -3.89
+      "drop_pct": -4.08
     },
     "sp500": {
       "current": 7412.84,
