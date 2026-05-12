@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-12",
-  "analyzed_at": "2026-05-12T01:23:48.228206+09:00",
+  "date": "2026-05-13",
+  "analyzed_at": "2026-05-13T01:13:07.231749+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "OWOyEXYmo-A",
-      "title": "시장은 더 간다는데…끝까지 갈까? 여기서 내릴까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-05-11T00:49:15Z",
-      "url": "https://youtube.com/watch?v=OWOyEXYmo-A",
+      "video_id": "CTzJ6kwhqaI",
+      "title": "외국인 '대량매도'에도 폭등…지금 시장 핵심은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-05-12T00:27:38Z",
+      "url": "https://youtube.com/watch?v=CTzJ6kwhqaI",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 설명란에는 시장에 대한 구체적인 매수, 매도 또는 비중 조절과 같은 행동 권고가 없으며, 제목 또한 시장의 방향성에 대한 질문을 던질 뿐 특정 입장을 명확히 제시하지 않습니다."
+        "reason": "제공된 내용에는 전문가의 시장 분석이나 구체적인 투자 행동 권고가 없으며, 단지 시장의 특정 상황을 언급하고 핵심이 무엇인지 질문하고 있습니다."
       }
     },
     {
