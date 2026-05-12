@@ -1,4 +1,5 @@
 import os
+import csv
 import json
 import requests
 import pandas as pd
@@ -123,7 +124,7 @@ def fetch_market():
         try:
             t = yf.Ticker(symbol)
             df = t.history(period="5d")
-            h52 = t.history(period="1y")['Close'].max()  # 종가 기준 52주 신고가
+            h52 = t.history(period="1y")['High'].max()  # 장중 고가 기준 52주 신고가
             now, n_dd = df['Close'].iloc[-1], (df['Close'].iloc[-1]/h52-1)*100
             y_dd = (df['Close'].iloc[-2]/h52-1)*100
             return now, n_dd, (y_dd > -10.0 and n_dd <= -10.0), (y_dd <= -10.0 and n_dd <= -10.0)
@@ -192,8 +193,30 @@ if __name__ == '__main__':
     m = fetch_market()
 
 # 📸 4-bis. 웹 대시보드용 snapshot 생성 함수들
-def fetch_extended_market():
-    """웹 대시보드용 확장 데이터 (변동성/지수/섹터 RS)"""
+def _csv_max(csv_path, col):
+    """pitinvest_history.csv 에서 컬럼 최대값 (yfinance staleness fallback 용)."""
+    try:
+        if not os.path.isfile(csv_path):
+            return 0.0
+        max_v = 0.0
+        with open(csv_path, encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for r in reader:
+                try:
+                    v = float(r.get(col) or 0)
+                    if v > max_v:
+                        max_v = v
+                except (ValueError, TypeError):
+                    pass
+        return max_v
+    except Exception:
+        return 0.0
+
+
+def fetch_extended_market(csv_path='pitinvest_history.csv'):
+    """웹 대시보드용 확장 데이터 (변동성/지수/섹터 RS).
+    52주 신고가는 yfinance 장중 high.max() 와 CSV 의 과거 52w_high 값 중 큰 값을 사용
+    (yfinance가 가끔 어제 데이터 누락 시 fallback)."""
     result = {"volatility": {}, "indices": {}, "sector_rs": {}}
 
     vol_tickers = {"vix": "^VIX", "vvix": "^VVIX", "skew": "^SKEW", "move": "^MOVE"}
@@ -219,7 +242,9 @@ def fetch_extended_market():
             if clean.empty:
                 continue
             current  = float(clean["Close"].iloc[-1])
-            high_52w = float(clean["Close"].max())  # 종가 기준 52주 신고가 (장중 spike 영향 제거)
+            high_52w_yf  = float(clean["High"].max())  # 장중 고가 기준 (yfinance)
+            high_52w_csv = _csv_max(csv_path, f'{key}_52w_high')  # CSV 과거 기록 fallback
+            high_52w = max(high_52w_yf, high_52w_csv)
             if not (current > 0 and high_52w > 0):
                 continue
             drop_pct = (current / high_52w - 1) * 100
