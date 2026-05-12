@@ -677,9 +677,13 @@ def is_retail_buying_kr(code):
 
 
 def check_kr_leading_stocks():
-    """삼전 OR 하닉 중 하나라도 (3일 연속↑ AND 개미 순매수 AND 60일 신고가 영역) → True
+    """매도-2 룰:
+    [Gate] 삼전 AND 하닉 둘 다 60일 신고가 영역 (시장 과열 컨텍스트)
+    [Trigger] 삼전 OR 하닉 중 하나라도 (3일 연속↑ AND 개미 순매수)
+    → 둘 다 만족시 True
+
     반환: (triggered: bool, detail: dict)
-    detail은 상승/매수 여부를 종목별 진단용으로 항상 채워서 반환."""
+    detail에는 종목별 상승/매수/신고가 + gate_passed 진단 포함."""
     try:
         sec_hist = get_kr_history_5d("005930")
         hyn_hist = get_kr_history_5d("000660")
@@ -691,18 +695,24 @@ def check_kr_leading_stocks():
         sec_retail = bool(sec_hist) and sec_hist[0]['retail_net'] > 0
         hyn_retail = bool(hyn_hist) and hyn_hist[0]['retail_net'] > 0
 
-        sec_ok = sec_up and sec_retail and sec_near_high
-        hyn_ok = hyn_up and hyn_retail and hyn_near_high
+        # Gate: 둘 다 신고가
+        gate_passed = sec_near_high and hyn_near_high
+        # Trigger: 종목별 (3일↑ AND 개인매수). 신고가는 gate 에서 이미 확인.
+        sec_trigger = sec_up and sec_retail
+        hyn_trigger = hyn_up and hyn_retail
 
-        return (sec_ok or hyn_ok), {
+        fired = gate_passed and (sec_trigger or hyn_trigger)
+
+        return fired, {
             "samsung_3d_up": sec_up,
             "samsung_retail_buying": sec_retail,
             "samsung_at_60d_high": sec_near_high,
-            "samsung_ok": sec_ok,
+            "samsung_ok": sec_trigger,    # 종목 트리거 조건
             "hynix_3d_up": hyn_up,
             "hynix_retail_buying": hyn_retail,
             "hynix_at_60d_high": hyn_near_high,
-            "hynix_ok": hyn_ok,
+            "hynix_ok": hyn_trigger,      # 종목 트리거 조건
+            "gate_passed": gate_passed,   # 둘 다 신고가 (필수 컨텍스트)
             "history": {
                 "samsung": sec_hist,
                 "hynix":   hyn_hist,

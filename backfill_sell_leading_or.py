@@ -116,16 +116,18 @@ def main():
     updates = 0
     for row in target_rows:
         date = row['date']
-        # 종목별 RAW trigger (3일↑ + 개인매수 + 60일 신고가)
+        # Gate: 삼전 AND 하닉 둘 다 60일 신고가
+        # Trigger: 종목별 (3일↑ AND 개인매수)
         sec_up = is_3day_up(sec_dates, sec_px, date)
         hyn_up = is_3day_up(hyn_dates, hyn_px, date)
         sec_retail_ok = sec_retail.get(date, 0) > 0
         hyn_retail_ok = hyn_retail.get(date, 0) > 0
         sec_near_high = is_at_60d_high(sec_dates, sec_px, date)
         hyn_near_high = is_at_60d_high(hyn_dates, hyn_px, date)
-        sec_ok = sec_up and sec_retail_ok and sec_near_high
-        hyn_ok = hyn_up and hyn_retail_ok and hyn_near_high
-        cur = int(sec_ok or hyn_ok)
+        gate = sec_near_high and hyn_near_high
+        sec_trig = sec_up and sec_retail_ok
+        hyn_trig = hyn_up and hyn_retail_ok
+        cur = int(gate and (sec_trig or hyn_trig))
 
         # sticky max
         new_sticky = max(sticky, cur)
@@ -152,7 +154,7 @@ def main():
                 pass
             updates += 1
             mark = '⤴' if new_sticky > old else '⤵'
-            print(f"  {mark} {date}: sell_leading {old}→{new_sticky} (sec_ok={sec_ok}, hyn_ok={hyn_ok})")
+            print(f"  {mark} {date}: sell_leading {old}→{new_sticky} (gate={gate} sec_trig={sec_trig} hyn_trig={hyn_trig})")
 
         sticky = new_sticky
 
