@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-14T06:15:57.145912+09:00",
+  "timestamp": "2026-05-14T07:56:33.560024+09:00",
   "sentiment": {
     "cnn_fng": 65.8571428571429,
     "cnn_components": {
@@ -29,7 +29,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -2035100000000,
     "retail_net_buy_krw": 1886800000000,
-    "margin_loan_krw": 35464400000000,
+    "margin_loan_krw": 35712700000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -261,7 +261,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 196.232,
+    "strategy_pct": 195.274,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -633,7 +633,7 @@
       },
       {
         "date": "2026-05-14",
-        "ret_pct": 196.232
+        "ret_pct": 195.274
       }
     ],
     "monthly_breakdown": [
@@ -663,8 +663,8 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 75.2,
-        "end_ret_pct": 196.23,
+        "return_pct": 74.24,
+        "end_ret_pct": 195.27,
         "max_dd_pct": 12.7
       }
     ],
