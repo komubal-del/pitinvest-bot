@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-13T15:16:59.535661+09:00",
+  "timestamp": "2026-05-13T18:35:00.660314+09:00",
   "sentiment": {
-    "cnn_fng": 66.5714285714286,
+    "cnn_fng": 65.5428571428572,
     "cnn_components": {
       "momentum": 99.2,
-      "strength": 57.4,
-      "breadth": 52.4,
+      "strength": 55.4,
+      "breadth": 47.2,
       "put_call": 87.0,
       "junk_bond": 28.6,
       "volatility": 50.0,
@@ -14,71 +14,59 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 11,
+      "greed_count": 4,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "[오후장 체크포인트] 기관·개인 저가 매수세에 코스피 낙폭 줄이며 상승 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZMWRZR3Q5WTRqMzVyOEJ3bjRfcjlWb2JXWjFUQzdndHJNaVNBTHlSLUk1UTJpNzlFR1hETl9iRzhEQXp6MEUwUGZpVEY0TzQ?oc=5",
-          "pub_date": "Wed, 13 May 2026 04:55:20 GMT",
+          "title": "'7천 시대 코스피'…8천 전망 속 AI·반도체 쏠림 짙어져 - 매일경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oS2xBVU9qb21xcEpWUUNtZmpRZC01VGR4ZWFCczZramd0N2ZLVzk1ZFNtelQ4UFBvOHlsWnBjdm5rVmtCWk9wdThTMGNEYmpyOXBFd0tFMWNLYWE1Nk5pM21mbXppS0d6?oc=5",
+          "pub_date": "Wed, 13 May 2026 07:57:00 GMT",
+          "source": "매일경제TV"
+        },
+        {
+          "title": "삼전닉스 쏠림·황제株 등장에 코스피 거래량 줄어도 대금 '쑥' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wMkNGX3MzT2NMSF9RekM0YW83U0JkaDU0X1FMVXlhcVhIcmhyZ2RSck9UTXJYaHhma0FXZ1g2OExFVEMzMnJsQnNtUjVPWHM?oc=5",
+          "pub_date": "Wed, 13 May 2026 09:03:12 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "증시는 활황인데… 올 기업공개 57% 급감 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DTWY4UDVhUEI5Zk5aU3lqVWREY2JTS21VLUZWRjlmUFBod2VTVlVfUG9qZDN0LVpBR2VvWko4S1dNRlNsYmJOVFZjY2J3VFRH?oc=5",
-          "pub_date": "Wed, 13 May 2026 02:44:10 GMT",
-          "source": "문화일보"
+          "title": "'7천 시대 코스피'…8천 전망 속 AI·반도체 쏠림 짙어져 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NMXJPRXdhUmg1UkRlVnYxcGdjdUdoaHZ6Q1phRTVuZ2xGb3pRTThiU29sNFp0dGVOVlRnU2RSYXktLWxON3VFeUZYeENkR1lwT2hkSDZuYUhNbDVQRWJDbg?oc=5",
+          "pub_date": "Wed, 13 May 2026 08:09:39 GMT",
+          "source": "매일경제 마켓"
         },
         {
-          "title": "코스피 활황에 가계 뭉칫돈 증시로…3월 통화량 18.5조↑ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96a1ZfMUtJWXRKQ3U1YVFhb05Ja01FTi1zNGwydGRYQXY2dThTa2o4ME92RC1vMmxWTmtlUHdZaHFpV1JmbTdXVlg3V3Y2d2c?oc=5",
-          "pub_date": "Wed, 13 May 2026 04:51:00 GMT",
-          "source": "v.daum.net"
+          "title": "[증권브리핑] 증시 활황에 리테일 경쟁 격화···증권사들 고객 유치전 확대 - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wTXhhM3BCMUpVcVQyV3pob2JvX2pVSTRkRmtKb29xemQ3ZjFIOWxmeWpIMmhZbUNqVHM4UHlDNEdQSDl6QnJBUjNxeldPRExldHVOc3BZSUt3QkxhdElWV3V3NWFIY215Vnc?oc=5",
+          "pub_date": "Wed, 13 May 2026 08:04:00 GMT",
+          "source": "서울파이낸스"
         }
       ],
       "fear_articles": [
         {
-          "title": "삼성전자 노사협상 결렬·미 CPI충격에 코스피 2%대 급락 출발 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nckQyMjBSNzFJUnY0cUxUSFdkM2V4V3BoN2ZRdHRPbTAxczEtZ0VBdWNfY25pUXNKY0x3RndiTTNrNE5ZVXlyTjVoZVdVdFlkWl9rQmdoS202aEY5WmFlQ2JpeDVZSzRJM1JPM1B0Qkg4TjUy?oc=5",
-          "pub_date": "Wed, 13 May 2026 00:23:45 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피, 장 초반 급락 딛고 최고치 '7800선 탈환'…코스닥 0.20%↓ - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0M21SY0ZyenlZSUdKeHhlMjFLX2pBeU5ZTXVoRTItTG40QkdMRHBSNEZTOEpPWWhvZHZjZjRERmV2SENhaUV0WC1BcnV2QnhCTWFaME1NcTlYczZmUVRDUHdERFRhb1pkamc1TA?oc=5",
+          "pub_date": "Wed, 13 May 2026 07:21:55 GMT",
+          "source": "프라임경제"
         },
         {
-          "title": "美 인플레이션 우려·삼성전자 5%대 급락에…코스피 7400선까지 후퇴 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOVgzTDk3NUhGemdVVWNOc29pQ3JEdWdpTzZuSmxLaERKRWQ1eWdMYWxyTlU0UjFFcFRjZ01YSDNOUHlKX1NiY0JqMzNhOVpLZkFvSGFDbXlVc3BiUXJWaENPa1R3eWtWVVM0Sm96VEwzR2VESDFzaGVuQ2hiUDFCYW10SXZIZmVC0gGcAUFVX3lxTE01SFo5Z0Rwd2hRbHpSVGo1QTY2Z2hnSDNFTk9ibTRtWlVWck5sMWZLci1QN2IxNUh6aVp3X1hFUFJQUThjRk9yTkZiNEFSR3FubzA2bVYtUXgzODR0NGtScnBxNURPT09qWjJwUlBOQlYyOGZsQ0JBemU2Wmtzc2FuMTZzVTVvSF9EZG5aWnFvT01hdjVjT3pOTUJwVQ?oc=5",
-          "pub_date": "Wed, 13 May 2026 00:17:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "[뉴스1 PICK]코스피, 반도체주 급락에 7400선 후퇴…외국인 1조원대 순매도 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByV0F5dm9NRFMxOTZtQ3p1WUVVODNmRDI4TWxia1lscHVKS2RFT216WVpkMlBtaGI2UW1BVGR0eFpkNWRxRTFzSDZCdDJZV1NyN2pRUVBxQjk1UEE?oc=5",
-          "pub_date": "Wed, 13 May 2026 00:43:40 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "삼전닉스 동반 급락에…코스피 2%대 약세 출발[개장시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6NWk4MjV6Q3UwZGdzSTl2VjFyMTJYSlVuNTh6V1laWHl2VU9LNE1aRnA4cjV5WnMtbFZTN1lBcWlFRXJBdHc4eDBIUmlnTEJPU2ZKV2RUVEVxcTA?oc=5",
-          "pub_date": "Wed, 13 May 2026 00:19:09 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "코스피, 장초반 급락 딛고 상승 전환…7600선 회복 - 서울경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9id2dGcV9JUUpLN09KY1J5RFB6bUFSY2pRYkRsd0VlLTJmOHh1R0g1bWw3Tm9nUFUzOTZrUHY2YUZEWTRGZW1VMkx2T0VCdnR0LU91WE5qLVRLaFdsRmtoYks2VEk?oc=5",
-          "pub_date": "Wed, 13 May 2026 01:33:03 GMT",
-          "source": "서울경제TV"
+          "title": "코스피, 장중 급락 딛고 7,844 최고치 - 전라매일",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tNXg4bDVHTktYbERLV2xfOEF6a0dHbHppdjBBODM1VmhNdllKclhOc25qcVpJbzZaaXBab3VTOWhsQVVyTGJXaFo2RjRpVnB5Ymc?oc=5",
+          "pub_date": "Wed, 13 May 2026 08:31:00 GMT",
+          "source": "전라매일"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.99,
+    "vix": 17.96,
     "vvix": 98.55,
     "skew": 139.41,
     "move": 71.68
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1663100000000,
-    "retail_net_buy_krw": 1530900000000,
+    "foreign_inst_buy_krw": 0,
+    "retail_net_buy_krw": 0,
     "margin_loan_krw": 35464400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -91,14 +79,14 @@
       "drop_pct": -1.03
     },
     "kospi": {
-      "current": 7842.18,
+      "current": 7844.01,
       "high_52w": 7999.67,
-      "drop_pct": -1.97
+      "drop_pct": -1.95
     },
     "kosdaq": {
-      "current": 1171.4,
+      "current": 1176.93,
       "high_52w": 1229.42,
-      "drop_pct": -4.72
+      "drop_pct": -4.27
     },
     "sp500": {
       "current": 7400.96,
@@ -178,6 +166,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.05.13",
+            "close": 284000,
+            "change_pct": 1.79,
+            "retail_net": 4033835,
+            "inst_net": 1642009,
+            "foreign_net": -5675844
+          },
+          {
             "date": "2026.05.12",
             "close": 279000,
             "change_pct": -2.28,
@@ -208,17 +204,17 @@
             "retail_net": 9705444,
             "inst_net": 638888,
             "foreign_net": -10344332
-          },
-          {
-            "date": "2026.05.06",
-            "close": 266000,
-            "change_pct": 14.41,
-            "retail_net": -9619821,
-            "inst_net": -2222367,
-            "foreign_net": 11842188
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.13",
+            "close": 1976000,
+            "change_pct": 7.68,
+            "retail_net": 452545,
+            "inst_net": 465314,
+            "foreign_net": -917859
+          },
           {
             "date": "2026.05.12",
             "close": 1835000,
@@ -250,14 +246,6 @@
             "retail_net": 1275585,
             "inst_net": 292253,
             "foreign_net": -1567838
-          },
-          {
-            "date": "2026.05.06",
-            "close": 1601000,
-            "change_pct": 10.64,
-            "retail_net": 10336,
-            "inst_net": -127899,
-            "foreign_net": 117563
           }
         ]
       }
@@ -265,7 +253,7 @@
     "expert_warning": false,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-05-13",
