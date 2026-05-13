@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-13T08:50:07.628550+09:00",
+  "timestamp": "2026-05-13T11:02:56.887891+09:00",
   "sentiment": {
     "cnn_fng": 66.6,
     "cnn_components": {
@@ -14,64 +14,52 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 7,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 16,
       "greed_articles": [
         {
-          "title": "같은 코스피 추종 ETF인데 왜… 대형주 쏠림 현상에 소외된 동일가중 ETF - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR282S01hcEtFY1hTT291LWNWZUNIUmRWSzNOY19lTzd6VzhtQ2JmZkI5eDkxSHRiWjdFNWtZc3JDYUE3VW1nX2x1XzYyZFMxUWNQem1QRWRBc0QtaTBnRHM5d3ZiaFphUm1Ua0FnRHEwdHEycUg0MWRTRkJlUlk4UmR3NzduM0pJ0gGcAUFVX3lxTE9vVEZIN1htVTNpMlZaOUdCQnBWQWVTS1NfcHhNXzBtZ3pmWU1RTDJ0VXpBMUNIX3ZydTVnNFMxSWpMdFdOT1NxMFFrMHdjdkNIZmQ4QmhMUGRrZGtwVl9memZDUFpZZkUtWUlzbjhJNlE3VndrbUxZczRzc1hzcTBsdmZOSmlCcjMwVllDOHQ0NkdnaXR3aEw2R1U2VQ?oc=5",
-          "pub_date": "Tue, 12 May 2026 21:00:00 GMT",
-          "source": "Chosunbiz"
+          "title": "코스피 불장에 ‘빚투’도 최대 규모 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ET2xMOTQtSEt3dUM1dXh0ZUtXXzc4Nmh1UlN4ODBXdmJNbFZqNVZXaE1mWm53cmwtRS1QSFRQLWhRRFVsSHBjNHMxdVpTaXVRb0RiVnc4cENuSE0?oc=5",
+          "pub_date": "Tue, 12 May 2026 22:07:00 GMT",
+          "source": "KBS 뉴스"
         },
         {
-          "title": "8000 고지 눈앞 코스피…\"닷컴버블 이후 가장 강력한 상승\" [1분 브리프] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wcUlJLU5lNWc5cHlqTkFMM1hVMTNVeWJ6cnZSTEkwckE5R0NiQlNVZjFjeDlKNUpMVTJoYjFuZkhmSEQ3aGZJckFQdkhabUk?oc=5",
-          "pub_date": "Tue, 12 May 2026 23:02:04 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 불장에 ‘빚투’도 최대 규모 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13SnJybWMxQ2I3MGRmT2lOR3E2SlNVMW5PcGpqVEhxOGJLR3hwMXpuTXZKa0JWWFI1RVdjMFJWcmVUWUExVzV1RnIyQktTQlU?oc=5",
-          "pub_date": "Tue, 12 May 2026 21:21:10 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "“증시 쏠림 꺾일까”…하나은행 단기 예금금리 인상 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1COTdadjFBeGJSb3cwZ1ZwM2ozSlBIOXpaamlReXlhTDU0VmdiSkxvWjh3OV8xZ2ljZlA4b3BmV19GLVRiLWU1c2JjLVlxM2RTRkdmaXBIVFRMa0ZFbGNxWU5R?oc=5",
-          "pub_date": "Tue, 12 May 2026 20:30:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "8000 고지 눈앞 코스피…\"닷컴버블 이후 가장 강력한 상승\" [1분 브리프] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZaUJjTGFUTzR2OHVucnR1NVQ5dUdTa2NuQ0s4WjlhTXh1NDBHb2Vwb3pVemdSSFJxTThSMWxmZWNTemZjY1hDVGh2emJjTzlXNVJidWJscXdONi1GYW85b2dzSV9WYmNGcHphc3Q0UHRDbjRPTGZV?oc=5",
-          "pub_date": "Tue, 12 May 2026 23:00:00 GMT",
-          "source": "아시아경제"
+          "title": "코스피, 7500선 붕괴 후 'V자' 반등 … 반도체·자동차주 저가 매수세 유입 - 뉴데일리 경제",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YRHQzMnNPUlhocDBlTUdpckw3QTM4bWdPcGFVcVJ4QjlCOWFUMmpRdXF3RHUtLUVLRUNOM0NxaHF1VEwtV0s4ZFJBVDBfRTVkRWhtT2dJcF9mZTk5QTg2QUpVdVZUVjdUdXlFSHFhWWVlWWNxaGxLZUdIcw?oc=5",
+          "pub_date": "Wed, 13 May 2026 01:38:02 GMT",
+          "source": "뉴데일리 경제"
         }
       ],
       "fear_articles": [
+        {
+          "title": "[뉴스1 PICK]코스피, 반도체주 급락에 7400선 후퇴…외국인 1조원대 순매도 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByV0F5dm9NRFMxOTZtQ3p1WUVVODNmRDI4TWxia1lscHVKS2RFT216WVpkMlBtaGI2UW1BVGR0eFpkNWRxRTFzSDZCdDJZV1NyN2pRUVBxQjk1UEE?oc=5",
+          "pub_date": "Wed, 13 May 2026 00:43:40 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "삼전닉스 동반 급락에…코스피 2%대 약세 출발[개장시황] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6NWk4MjV6Q3UwZGdzSTl2VjFyMTJYSlVuNTh6V1laWHl2VU9LNE1aRnA4cjV5WnMtbFZTN1lBcWlFRXJBdHc4eDBIUmlnTEJPU2ZKV2RUVEVxcTA?oc=5",
+          "pub_date": "Wed, 13 May 2026 00:19:09 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "삼성전자 노사협상 결렬·미 CPI충격에 코스피 2%대 급락 출발 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MOWQtbUZrUXV3M3ZoOE1WSXlDblNuN3hhVXJISWtJZlhJVXZnZ0RMdU01c3ZhWWR1Ykxtd3RQQm9jUFBtd3F3anhULVJIMmJORmJlQUVYdlp5MnJXeHRWaWRGRWFyYlhLLTRkZE9hWlM?oc=5",
+          "pub_date": "Wed, 13 May 2026 00:19:26 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "美 인플레이션 우려·삼성전자 5%대 급락에…코스피 7400선까지 후퇴 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOVgzTDk3NUhGemdVVWNOc29pQ3JEdWdpTzZuSmxLaERKRWQ1eWdMYWxyTlU0UjFFcFRjZ01YSDNOUHlKX1NiY0JqMzNhOVpLZkFvSGFDbXlVc3BiUXJWaENPa1R3eWtWVVM0Sm96VEwzR2VESDFzaGVuQ2hiUDFCYW10SXZIZmVC0gGcAUFVX3lxTE01SFo5Z0Rwd2hRbHpSVGo1QTY2Z2hnSDNFTk9ibTRtWlVWck5sMWZLci1QN2IxNUh6aVp3X1hFUFJQUThjRk9yTkZiNEFSR3FubzA2bVYtUXgzODR0NGtScnBxNURPT09qWjJwUlBOQlYyOGZsQ0JBemU2Wmtzc2FuMTZzVTVvSF9EZG5aWnFvT01hdjVjT3pOTUJwVQ?oc=5",
+          "pub_date": "Wed, 13 May 2026 00:17:00 GMT",
+          "source": "Chosunbiz"
+        },
         {
           "title": "\"12일 외국인 매도로 급락했지만… 코스피 1만도 가능\" - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa09Ca2tjQlJvbkE1cms5M2UyRGo5RW9QS2tCUzRMRVFmUzlsa1ZBQlV2UFBDU1Y1Q2NpWlRWaWJ1QXpsQmthS0l0UlpneEN0emE4WFpSQjVyaXJQZUkzSUZkN1pSYWphU2xmX2FVQU55c1dqamk3alZrckdnZnRIWA?oc=5",
           "pub_date": "Tue, 12 May 2026 15:31:00 GMT",
           "source": "조선일보"
-        },
-        {
-          "title": "\"코스피 천당에서 지옥으로\"…외국인 6조 투매 'AI 국민배당' 쇼크였나 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0Vm1OZThvdS03UE5JVnZuU3djQW41UXNFMWpaZFU3bDdiZDJGS0k0R2NtcXUxUjJCNFJYRXZ0V3FRUTc0WE5ZRFFYRDVwQ0lfVDFMdmlXdnljb3J3RmN0blJRMDZ4aGg2?oc=5",
-          "pub_date": "Tue, 12 May 2026 21:52:54 GMT",
-          "source": "ebn.co.kr"
-        },
-        {
-          "title": "“반도체 팔아치웠다”…뉴욕증시, 인플레 공포에 나스닥 급락 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzdGczUDY4Ukd2RGtMYzRYWGVGT3VhRFp1azZtNzY1Ql9JUEh4d0hGTWRWWm5zVXZCNi1NZ0Z6V0Y5TEhndE5PVW5kREFjZw?oc=5",
-          "pub_date": "Tue, 12 May 2026 22:43:50 GMT",
-          "source": "전자신문"
-        },
-        {
-          "title": "뉴욕증시, 유가·물가 쇼크에 '털썩'…퀄컴 11.5% 급락 - 마켓인",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzUHBuOTdURW9nVVQwT0dEcjFHNzkzaGY1T3AzUkJ0MGtITF9JR3Fsb1BENnFHZXVkeVVtVHFORGs1MmtaWnBEWWZrazV2VGxEYlpOcmxxUzNGQTNHaFV0eVFWZF9DSHNpdGU1Z2lRMVI5Nnc?oc=5",
-          "pub_date": "Tue, 12 May 2026 20:16:54 GMT",
-          "source": "마켓인"
         }
       ]
     }
@@ -83,8 +71,8 @@
     "move": 71.68
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6822800000000,
-    "retail_net_buy_krw": 6681800000000,
+    "foreign_inst_buy_krw": -1797700000000,
+    "retail_net_buy_krw": 1719800000000,
     "margin_loan_krw": 35464400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -97,14 +85,14 @@
       "drop_pct": -1.03
     },
     "kospi": {
-      "current": 7822.24,
+      "current": 7753.01,
       "high_52w": 7999.67,
-      "drop_pct": -2.22
+      "drop_pct": -3.08
     },
     "kosdaq": {
-      "current": 1207.34,
+      "current": 1180.87,
       "high_52w": 1229.42,
-      "drop_pct": -1.8
+      "drop_pct": -3.95
     },
     "sp500": {
       "current": 7400.96,
@@ -178,7 +166,7 @@
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
-      "hynix_at_60d_high": false,
+      "hynix_at_60d_high": true,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
