@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-05-13T20:54:33.723991+09:00",
+  "timestamp": "2026-05-13T23:04:27.460584+09:00",
   "sentiment": {
-    "cnn_fng": 65.5428571428572,
+    "cnn_fng": 65.0571428571429,
     "cnn_components": {
-      "momentum": 99.2,
-      "strength": 55.4,
-      "breadth": 47.2,
-      "put_call": 87.0,
-      "junk_bond": 28.6,
+      "momentum": 98.8,
+      "strength": 54.8,
+      "breadth": 45.0,
+      "put_call": 94.8,
+      "junk_bond": 22.6,
       "volatility": 50.0,
-      "safe_haven": 91.4
+      "safe_haven": 89.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "삼전닉스 쏠림·황제株 등장에 코스피 거래량 줄어도 대금 '쑥' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wMkNGX3MzT2NMSF9RekM0YW83U0JkaDU0X1FMVXlhcVhIcmhyZ2RSck9UTXJYaHhma0FXZ1g2OExFVEMzMnJsQnNtUjVPWHM?oc=5",
+          "pub_date": "Wed, 13 May 2026 09:03:12 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "'7천 시대 코스피'…8천 전망 속 AI·반도체 쏠림 짙어져 - 매일경제TV",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oS2xBVU9qb21xcEpWUUNtZmpRZC01VGR4ZWFCczZramd0N2ZLVzk1ZFNtelQ4UFBvOHlsWnBjdm5rVmtCWk9wdThTMGNEYmpyOXBFd0tFMWNLYWE1Nk5pM21mbXppS0d6?oc=5",
@@ -26,29 +32,17 @@
       ],
       "fear_articles": [
         {
-          "title": "코스피, 장중 급락 딛고 7,844 최고치 - 전라매일",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tNXg4bDVHTktYbERLV2xfOEF6a0dHbHppdjBBODM1VmhNdllKclhOc25qcVpJbzZaaXBab3VTOWhsQVVyTGJXaFo2RjRpVnB5Ymc?oc=5",
-          "pub_date": "Wed, 13 May 2026 08:31:00 GMT",
-          "source": "전라매일"
-        },
-        {
           "title": "코스피, 장 초반 급락 딛고 최고치 '7800선 탈환'…코스닥 0.20%↓ - 프라임경제",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0M21SY0ZyenlZSUdKeHhlMjFLX2pBeU5ZTXVoRTItTG40QkdMRHBSNEZTOEpPWWhvZHZjZjRERmV2SENhaUV0WC1BcnV2QnhCTWFaME1NcTlYczZmUVRDUHdERFRhb1pkamc1TA?oc=5",
           "pub_date": "Wed, 13 May 2026 07:21:55 GMT",
           "source": "프라임경제"
-        },
-        {
-          "title": "[속보] ‘롤러코스터’ 코스피, 급락 후 급반등…7844 사상 최고 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBBcTVoMWdINmoybzJWN3lIRm1VeHViQm14NUd5MWduMnpfNTA0OTdQcnI1V1hXQndfeWV5cWxMLWxVWEwxVUE?oc=5",
-          "pub_date": "Wed, 13 May 2026 06:39:00 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.84,
-    "vvix": 98.55,
+    "vix": 18.31,
+    "vvix": 99.07,
     "skew": 139.41,
     "move": 71.68
   },
@@ -62,9 +56,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26088.2,
+      "current": 26098.54,
       "high_52w": 26359.31,
-      "drop_pct": -1.03
+      "drop_pct": -0.99
     },
     "kospi": {
       "current": 7844.01,
@@ -77,27 +71,27 @@
       "drop_pct": -4.27
     },
     "sp500": {
-      "current": 7400.96,
+      "current": 7392.99,
       "high_52w": 7428.97,
-      "drop_pct": -0.38
+      "drop_pct": -0.48
     },
     "russell2k": {
-      "current": 2842.83,
+      "current": 2818.57,
       "high_52w": 2888.62,
-      "drop_pct": -1.59
+      "drop_pct": -2.42
     },
     "soxx": {
-      "current": 515.99,
+      "current": 520.27,
       "high_52w": 533.74,
-      "drop_pct": -3.33
+      "drop_pct": -2.52
     }
   },
   "sector_rs": {
-    "XLK": 1.158,
-    "SMH": 1.268,
-    "BOTZ": 0.978,
-    "IGV": 0.995,
-    "XLF": 0.925,
+    "XLK": 1.157,
+    "SMH": 1.275,
+    "BOTZ": 0.993,
+    "IGV": 0.981,
+    "XLF": 0.92,
     "XLE": 0.982
   },
   "signals": {
@@ -126,15 +120,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 70.48,
+    "tqqq_profit_pct": 70.0,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 222.47,
+    "soxl_profit_pct": 229.03,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 107.0,
+    "koru_profit_pct": 132.68,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
