@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-13",
-  "analyzed_at": "2026-05-13T01:13:07.231749+09:00",
+  "date": "2026-05-14",
+  "analyzed_at": "2026-05-14T02:07:56.465989+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "CTzJ6kwhqaI",
-      "title": "외국인 '대량매도'에도 폭등…지금 시장 핵심은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-05-12T00:27:38Z",
-      "url": "https://youtube.com/watch?v=CTzJ6kwhqaI",
+      "video_id": "ehAg-LoYGWU",
+      "title": "반도체보다 더 중요한 시장 변수…이제 종목보단 금리? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-05-13T00:56:51Z",
+      "url": "https://youtube.com/watch?v=ehAg-LoYGWU",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 내용에는 전문가의 시장 분석이나 구체적인 투자 행동 권고가 없으며, 단지 시장의 특정 상황을 언급하고 핵심이 무엇인지 질문하고 있습니다."
+        "reason": "전문가는 반도체보다 금리가 더 중요한 시장 변수라고 언급하며 분석의 초점을 제시할 뿐, 구체적인 매수/매도 권고나 시장 방향에 대한 단정적인 입장을 밝히지 않고 있습니다."
       }
     },
     {
