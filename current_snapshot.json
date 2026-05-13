@@ -1,36 +1,54 @@
 {
-  "timestamp": "2026-05-13T11:02:56.887891+09:00",
+  "timestamp": "2026-05-13T15:16:59.535661+09:00",
   "sentiment": {
-    "cnn_fng": 66.6,
+    "cnn_fng": 66.5714285714286,
     "cnn_components": {
       "momentum": 99.2,
       "strength": 57.4,
       "breadth": 52.4,
       "put_call": 87.0,
-      "junk_bond": 28.8,
+      "junk_bond": 28.6,
       "volatility": 50.0,
       "safe_haven": 91.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 16,
+      "greed_count": 3,
+      "fear_count": 11,
       "greed_articles": [
         {
-          "title": "코스피 불장에 ‘빚투’도 최대 규모 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ET2xMOTQtSEt3dUM1dXh0ZUtXXzc4Nmh1UlN4ODBXdmJNbFZqNVZXaE1mWm53cmwtRS1QSFRQLWhRRFVsSHBjNHMxdVpTaXVRb0RiVnc4cENuSE0?oc=5",
-          "pub_date": "Tue, 12 May 2026 22:07:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "[오후장 체크포인트] 기관·개인 저가 매수세에 코스피 낙폭 줄이며 상승 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZMWRZR3Q5WTRqMzVyOEJ3bjRfcjlWb2JXWjFUQzdndHJNaVNBTHlSLUk1UTJpNzlFR1hETl9iRzhEQXp6MEUwUGZpVEY0TzQ?oc=5",
+          "pub_date": "Wed, 13 May 2026 04:55:20 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "코스피, 7500선 붕괴 후 'V자' 반등 … 반도체·자동차주 저가 매수세 유입 - 뉴데일리 경제",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YRHQzMnNPUlhocDBlTUdpckw3QTM4bWdPcGFVcVJ4QjlCOWFUMmpRdXF3RHUtLUVLRUNOM0NxaHF1VEwtV0s4ZFJBVDBfRTVkRWhtT2dJcF9mZTk5QTg2QUpVdVZUVjdUdXlFSHFhWWVlWWNxaGxLZUdIcw?oc=5",
-          "pub_date": "Wed, 13 May 2026 01:38:02 GMT",
-          "source": "뉴데일리 경제"
+          "title": "증시는 활황인데… 올 기업공개 57% 급감 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DTWY4UDVhUEI5Zk5aU3lqVWREY2JTS21VLUZWRjlmUFBod2VTVlVfUG9qZDN0LVpBR2VvWko4S1dNRlNsYmJOVFZjY2J3VFRH?oc=5",
+          "pub_date": "Wed, 13 May 2026 02:44:10 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "코스피 활황에 가계 뭉칫돈 증시로…3월 통화량 18.5조↑ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96a1ZfMUtJWXRKQ3U1YVFhb05Ja01FTi1zNGwydGRYQXY2dThTa2o4ME92RC1vMmxWTmtlUHdZaHFpV1JmbTdXVlg3V3Y2d2c?oc=5",
+          "pub_date": "Wed, 13 May 2026 04:51:00 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
+        {
+          "title": "삼성전자 노사협상 결렬·미 CPI충격에 코스피 2%대 급락 출발 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nckQyMjBSNzFJUnY0cUxUSFdkM2V4V3BoN2ZRdHRPbTAxczEtZ0VBdWNfY25pUXNKY0x3RndiTTNrNE5ZVXlyTjVoZVdVdFlkWl9rQmdoS202aEY5WmFlQ2JpeDVZSzRJM1JPM1B0Qkg4TjUy?oc=5",
+          "pub_date": "Wed, 13 May 2026 00:23:45 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "美 인플레이션 우려·삼성전자 5%대 급락에…코스피 7400선까지 후퇴 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOVgzTDk3NUhGemdVVWNOc29pQ3JEdWdpTzZuSmxLaERKRWQ1eWdMYWxyTlU0UjFFcFRjZ01YSDNOUHlKX1NiY0JqMzNhOVpLZkFvSGFDbXlVc3BiUXJWaENPa1R3eWtWVVM0Sm96VEwzR2VESDFzaGVuQ2hiUDFCYW10SXZIZmVC0gGcAUFVX3lxTE01SFo5Z0Rwd2hRbHpSVGo1QTY2Z2hnSDNFTk9ibTRtWlVWck5sMWZLci1QN2IxNUh6aVp3X1hFUFJQUThjRk9yTkZiNEFSR3FubzA2bVYtUXgzODR0NGtScnBxNURPT09qWjJwUlBOQlYyOGZsQ0JBemU2Wmtzc2FuMTZzVTVvSF9EZG5aWnFvT01hdjVjT3pOTUJwVQ?oc=5",
+          "pub_date": "Wed, 13 May 2026 00:17:00 GMT",
+          "source": "Chosunbiz"
+        },
         {
           "title": "[뉴스1 PICK]코스피, 반도체주 급락에 7400선 후퇴…외국인 1조원대 순매도 - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByV0F5dm9NRFMxOTZtQ3p1WUVVODNmRDI4TWxia1lscHVKS2RFT216WVpkMlBtaGI2UW1BVGR0eFpkNWRxRTFzSDZCdDJZV1NyN2pRUVBxQjk1UEE?oc=5",
@@ -44,22 +62,10 @@
           "source": "뉴스1"
         },
         {
-          "title": "삼성전자 노사협상 결렬·미 CPI충격에 코스피 2%대 급락 출발 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MOWQtbUZrUXV3M3ZoOE1WSXlDblNuN3hhVXJISWtJZlhJVXZnZ0RMdU01c3ZhWWR1Ykxtd3RQQm9jUFBtd3F3anhULVJIMmJORmJlQUVYdlp5MnJXeHRWaWRGRWFyYlhLLTRkZE9hWlM?oc=5",
-          "pub_date": "Wed, 13 May 2026 00:19:26 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "美 인플레이션 우려·삼성전자 5%대 급락에…코스피 7400선까지 후퇴 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOVgzTDk3NUhGemdVVWNOc29pQ3JEdWdpTzZuSmxLaERKRWQ1eWdMYWxyTlU0UjFFcFRjZ01YSDNOUHlKX1NiY0JqMzNhOVpLZkFvSGFDbXlVc3BiUXJWaENPa1R3eWtWVVM0Sm96VEwzR2VESDFzaGVuQ2hiUDFCYW10SXZIZmVC0gGcAUFVX3lxTE01SFo5Z0Rwd2hRbHpSVGo1QTY2Z2hnSDNFTk9ibTRtWlVWck5sMWZLci1QN2IxNUh6aVp3X1hFUFJQUThjRk9yTkZiNEFSR3FubzA2bVYtUXgzODR0NGtScnBxNURPT09qWjJwUlBOQlYyOGZsQ0JBemU2Wmtzc2FuMTZzVTVvSF9EZG5aWnFvT01hdjVjT3pOTUJwVQ?oc=5",
-          "pub_date": "Wed, 13 May 2026 00:17:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "\"12일 외국인 매도로 급락했지만… 코스피 1만도 가능\" - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa09Ca2tjQlJvbkE1cms5M2UyRGo5RW9QS2tCUzRMRVFmUzlsa1ZBQlV2UFBDU1Y1Q2NpWlRWaWJ1QXpsQmthS0l0UlpneEN0emE4WFpSQjVyaXJQZUkzSUZkN1pSYWphU2xmX2FVQU55c1dqamk3alZrckdnZnRIWA?oc=5",
-          "pub_date": "Tue, 12 May 2026 15:31:00 GMT",
-          "source": "조선일보"
+          "title": "코스피, 장초반 급락 딛고 상승 전환…7600선 회복 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9id2dGcV9JUUpLN09KY1J5RFB6bUFSY2pRYkRsd0VlLTJmOHh1R0g1bWw3Tm9nUFUzOTZrUHY2YUZEWTRGZW1VMkx2T0VCdnR0LU91WE5qLVRLaFdsRmtoYks2VEk?oc=5",
+          "pub_date": "Wed, 13 May 2026 01:33:03 GMT",
+          "source": "서울경제TV"
         }
       ]
     }
@@ -71,8 +77,8 @@
     "move": 71.68
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1797700000000,
-    "retail_net_buy_krw": 1719800000000,
+    "foreign_inst_buy_krw": -1663100000000,
+    "retail_net_buy_krw": 1530900000000,
     "margin_loan_krw": 35464400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -85,14 +91,14 @@
       "drop_pct": -1.03
     },
     "kospi": {
-      "current": 7753.01,
+      "current": 7842.18,
       "high_52w": 7999.67,
-      "drop_pct": -3.08
+      "drop_pct": -1.97
     },
     "kosdaq": {
-      "current": 1180.87,
+      "current": 1171.4,
       "high_52w": 1229.42,
-      "drop_pct": -3.95
+      "drop_pct": -4.72
     },
     "sp500": {
       "current": 7400.96,
