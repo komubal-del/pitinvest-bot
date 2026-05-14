@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-14T15:15:01.106173+09:00",
+  "timestamp": "2026-05-14T18:26:28.472411+09:00",
   "sentiment": {
-    "cnn_fng": 65.8,
+    "cnn_fng": 64.3714285714286,
     "cnn_components": {
       "momentum": 99.2,
-      "strength": 55.6,
-      "breadth": 46.0,
+      "strength": 54.2,
+      "breadth": 37.4,
       "put_call": 90.0,
       "junk_bond": 28.4,
       "volatility": 50.0,
@@ -14,40 +14,53 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 0,
+      "greed_count": 4,
+      "fear_count": 1,
       "greed_articles": [
         {
-          "title": "AI 버블 장세, 경기침체 우려에도 미국 증시가 강한 이유 - 치과신문",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1enJwd0ZBR3F0Z0dNNmRjMVNUeVc3bXNzU1RqNjFWci15ZE9IOU5mZC1ja0lTWGs2Yk5SbGNQZ2VPRk5tTVIyNWtqOUZybThpdjdFSlNpMDE4V2luS1I1R2RkamJ4UQ?oc=5",
-          "pub_date": "Thu, 14 May 2026 02:47:49 GMT",
-          "source": "치과신문"
+          "title": "코스피 8000 앞두고 '빚투' 급증…신용대출 7거래일만에 2조 늘었다 - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhT0dEUkpDYVBmZkZEbF82M1YwRDB2UGwyTWpmVU0tRk9saUtUNXM5NVlHT1ZUZkRTUnRZWkZxTERKUXo0ZGNhTjlPWUtPYWFxaTMwajM4cEloRllnNGNobUJFMjJCeWNNbUVrQ3R5UmdLeTg?oc=5",
+          "pub_date": "Thu, 14 May 2026 07:24:14 GMT",
+          "source": "마켓인"
         },
         {
-          "title": "이러다 개미들만 '고점' 물리나...코스피 상승에도 '매도 폭탄' [굿모닝경제] - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44Y2MtOWFOREhvOExYbVJmb1lOWmpaakdkbk9MUC1ZcjZUWVJ2V2ZBNTJWYm9xa051QTZsdXlSb2FVdFQ0Vzg3OURReDJndDNVcy1CWFZEbFRZNzZieVE?oc=5",
-          "pub_date": "Thu, 14 May 2026 01:02:00 GMT",
-          "source": "YTN"
+          "title": "[목요논박] 코스피 8천 눈앞···“반도체 초호황 기대 속 과열·쏠림 경계해야” - 대구MBC",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1R0hmbXdVX1Zval9qWUdxSUxubEQ4TDVkYmFSR3pHcm41OUo0aEp6VU1GbUtjRWdxZWE3aWxZb3liUnR6cUc4Nk9FdlI?oc=5",
+          "pub_date": "Thu, 14 May 2026 06:27:58 GMT",
+          "source": "대구MBC"
         },
         {
-          "title": "증시 활황 속 증권사 CP·전단채 잔액 나날이 최대…소화 여력은 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QbnRKM1NXbXJlTXZxZ2Y1UXNhOVRJR0ZoNnVzYlZEZ053NjYybUpCY0lJUzJydFpSSG5jZURhSHJLYTQ3QU9HVThDX0pzSkpJd19ubk5IVnVuNlF3QVU0bm1xU0tYT0NDWGZYZlNLamE?oc=5",
-          "pub_date": "Thu, 14 May 2026 01:44:04 GMT",
-          "source": "연합인포맥스"
+          "title": "증시 활황에 얼어붙은 가상자산...거래대금·보유금액 ‘반토막’ - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvcFUtUUk3dWlQZk8tT1c1S0dDdXhtSEN4YXJqMzJycTc5bU5iRHZuX2VHcFF4RXlELXFLSkxrOTZaSXd6ZmtCS3dHc0tkTVl2OHpIUHJ3?oc=5",
+          "pub_date": "Thu, 14 May 2026 09:04:25 GMT",
+          "source": "중앙일보"
+        },
+        {
+          "title": "빚투에 레버리지…블룸버그 \"200% 랠리 코스피 과열 조짐\" - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrMmNWRjlReXBPNS1YcDFZbHl1YThLYXpBMXJoaDBDNDd2ZU51M3pkRTZPaVNpZlRzVE5MNTVRYzM3QkN0UXcyYi0zdHJ6V2VxMmcyN3N6RjI1RGk1cGc?oc=5",
+          "pub_date": "Thu, 14 May 2026 07:06:02 GMT",
+          "source": "뉴스1"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "7900 머무르는 코스피…코스닥은 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01bU9fbmQxd2c4QWhRM1ZMRld4U0UxcXgxb3RZczFtWXdBWHkydW0tMmx5azhjSVFubWNiWXFBaUY4cVR0Zk1wRjhtaXdEcTQ?oc=5",
+          "pub_date": "Thu, 14 May 2026 05:10:55 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 17.87,
+    "vix": 17.82,
     "vvix": 98.36,
     "skew": 141.51,
     "move": 70.24
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2371100000000,
-    "retail_net_buy_krw": 2256400000000,
+    "foreign_inst_buy_krw": -1952300000000,
+    "retail_net_buy_krw": 1849900000000,
     "margin_loan_krw": 35712700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -60,14 +73,14 @@
       "drop_pct": -0.27
     },
     "kospi": {
-      "current": 7901.55,
+      "current": 7981.41,
       "high_52w": 7999.67,
-      "drop_pct": -1.23
+      "drop_pct": -0.23
     },
     "kosdaq": {
-      "current": 1183.64,
+      "current": 1191.09,
       "high_52w": 1229.42,
-      "drop_pct": -3.72
+      "drop_pct": -3.12
     },
     "sp500": {
       "current": 7444.25,
@@ -136,7 +149,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": true,
       "samsung_ok": false,
       "hynix_3d_up": false,
@@ -146,6 +159,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.05.14",
+            "close": 296000,
+            "change_pct": 4.23,
+            "retail_net": -1018338,
+            "inst_net": 260989,
+            "foreign_net": 757349
+          },
           {
             "date": "2026.05.13",
             "close": 284000,
@@ -177,17 +198,17 @@
             "retail_net": 8521293,
             "inst_net": 1074644,
             "foreign_net": -9595937
-          },
-          {
-            "date": "2026.05.07",
-            "close": 271500,
-            "change_pct": 2.07,
-            "retail_net": 9705444,
-            "inst_net": 638888,
-            "foreign_net": -10344332
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.14",
+            "close": 1970000,
+            "change_pct": -0.3,
+            "retail_net": 1031405,
+            "inst_net": -216196,
+            "foreign_net": -815209
+          },
           {
             "date": "2026.05.13",
             "close": 1976000,
@@ -219,14 +240,6 @@
             "retail_net": 892955,
             "inst_net": 181374,
             "foreign_net": -1074329
-          },
-          {
-            "date": "2026.05.07",
-            "close": 1654000,
-            "change_pct": 3.31,
-            "retail_net": 1275585,
-            "inst_net": 292253,
-            "foreign_net": -1567838
           }
         ]
       }
