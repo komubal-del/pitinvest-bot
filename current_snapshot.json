@@ -1,59 +1,28 @@
 {
-  "timestamp": "2026-05-14T22:28:15.827600+09:00",
+  "timestamp": "2026-05-15T01:04:45.508786+09:00",
   "sentiment": {
-    "cnn_fng": 64.3714285714286,
+    "cnn_fng": 66.1714285714286,
     "cnn_components": {
-      "momentum": 99.2,
-      "strength": 54.2,
-      "breadth": 37.4,
-      "put_call": 90.0,
-      "junk_bond": 28.4,
+      "momentum": 99.8,
+      "strength": 55.2,
+      "breadth": 43.8,
+      "put_call": 98.0,
+      "junk_bond": 25.2,
       "volatility": 50.0,
-      "safe_haven": 91.4
+      "safe_haven": 91.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "코스피 8000 앞두고 '빚투' 급증…신용대출 7거래일만에 2조 늘었다 - 마켓인",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhT0dEUkpDYVBmZkZEbF82M1YwRDB2UGwyTWpmVU0tRk9saUtUNXM5NVlHT1ZUZkRTUnRZWkZxTERKUXo0ZGNhTjlPWUtPYWFxaTMwajM4cEloRllnNGNobUJFMjJCeWNNbUVrQ3R5UmdLeTg?oc=5",
-          "pub_date": "Thu, 14 May 2026 07:24:14 GMT",
-          "source": "마켓인"
-        },
-        {
-          "title": "증시 활황에 얼어붙은 가상자산...거래대금·보유금액 ‘반토막’ - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvcFUtUUk3dWlQZk8tT1c1S0dDdXhtSEN4YXJqMzJycTc5bU5iRHZuX2VHcFF4RXlELXFLSkxrOTZaSXd6ZmtCS3dHc0tkTVl2OHpIUHJ3?oc=5",
-          "pub_date": "Thu, 14 May 2026 09:04:25 GMT",
-          "source": "중앙일보"
-        },
-        {
-          "title": "[목요논박] 코스피 8천 눈앞···“반도체 초호황 기대 속 과열·쏠림 경계해야” - 대구MBC",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1R0hmbXdVX1Zval9qWUdxSUxubEQ4TDVkYmFSR3pHcm41OUo0aEp6VU1GbUtjRWdxZWE3aWxZb3liUnR6cUc4Nk9FdlI?oc=5",
-          "pub_date": "Thu, 14 May 2026 06:27:58 GMT",
-          "source": "대구MBC"
-        },
-        {
-          "title": "증시 고점 신호인가…8000피 앞두고 상장사 임원들 잇단 지분 매각 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aMHdkcWEyVThDTHQtTEYyQlBHaWhpNUI3aXFabG12aHFBNlZxcV9Ta25XYUFfOW0yd0R4YkxaY29HcV9VN3hienQ5NThsbTA?oc=5",
-          "pub_date": "Thu, 14 May 2026 07:15:29 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "빚투에 레버리지…블룸버그 \"200% 랠리 코스피 과열 조짐\" - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrMmNWRjlReXBPNS1YcDFZbHl1YThLYXpBMXJoaDBDNDd2ZU51M3pkRTZPaVNpZlRzVE5MNTVRYzM3QkN0UXcyYi0zdHJ6V2VxMmcyN3N6RjI1RGk1cGc?oc=5",
-          "pub_date": "Thu, 14 May 2026 07:06:02 GMT",
-          "source": "뉴스1"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.9,
-    "vvix": 98.36,
+    "vix": 17.82,
+    "vvix": 96.98,
     "skew": 141.51,
     "move": 70.24
   },
@@ -67,43 +36,43 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26402.34,
-      "high_52w": 26474.18,
-      "drop_pct": -0.27
+      "current": 26698.81,
+      "high_52w": 26699.39,
+      "drop_pct": -0.0
     },
     "kospi": {
-      "current": 7981.41,
+      "current": 7844.01,
       "high_52w": 7999.67,
-      "drop_pct": -0.23
+      "drop_pct": -1.95
     },
     "kosdaq": {
-      "current": 1191.09,
+      "current": 1176.93,
       "high_52w": 1229.42,
-      "drop_pct": -3.12
+      "drop_pct": -4.27
     },
     "sp500": {
-      "current": 7444.25,
-      "high_52w": 7460.04,
-      "drop_pct": -0.21
+      "current": 7516.04,
+      "high_52w": 7516.5,
+      "drop_pct": -0.01
     },
     "russell2k": {
-      "current": 2843.93,
+      "current": 2863.18,
       "high_52w": 2888.62,
-      "drop_pct": -1.55
+      "drop_pct": -0.88
     },
     "soxx": {
-      "current": 528.29,
+      "current": 531.0,
       "high_52w": 533.74,
-      "drop_pct": -1.02
+      "drop_pct": -0.51
     }
   },
   "sector_rs": {
-    "XLK": 1.165,
-    "SMH": 1.289,
-    "BOTZ": 0.989,
-    "IGV": 1.004,
-    "XLF": 0.901,
-    "XLE": 0.99
+    "XLK": 1.173,
+    "SMH": 1.291,
+    "BOTZ": 0.97,
+    "IGV": 1.021,
+    "XLF": 0.9,
+    "XLE": 0.985
   },
   "signals": {
     "cnn_under_10": false,
@@ -131,15 +100,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 75.67,
+    "tqqq_profit_pct": 81.03,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 244.37,
+    "soxl_profit_pct": 250.09,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 143.05,
+    "koru_profit_pct": 149.07,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -149,7 +118,7 @@
     "leading_detail": {
       "samsung_3d_up": false,
       "samsung_retail_buying": false,
-      "samsung_at_60d_high": true,
+      "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
@@ -249,8 +218,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-14",
-    "analyzed_at": "2026-05-14T02:07:56.465989+09:00",
+    "date": "2026-05-15",
+    "analyzed_at": "2026-05-15T01:04:54.397620+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -258,16 +227,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "ehAg-LoYGWU",
-        "title": "반도체보다 더 중요한 시장 변수…이제 종목보단 금리? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-13T00:56:51Z",
-        "url": "https://youtube.com/watch?v=ehAg-LoYGWU",
+        "video_id": "au9zltyrWRw",
+        "title": "전세계 돈 몰리는 AI 반도체...‘수급’이 지배한다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-05-14T00:55:36Z",
+        "url": "https://youtube.com/watch?v=au9zltyrWRw",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 반도체보다 금리가 더 중요한 시장 변수라고 언급하며 분석의 초점을 제시할 뿐, 구체적인 매수/매도 권고나 시장 방향에 대한 단정적인 입장을 밝히지 않고 있습니다."
+          "reason": "영상 설명란에는 특정 주식 시장 스탠스를 나타내는 구체적인 투자 행동 권고(매수/매도/현금화 등)가 전혀 없으며, 대부분 채널 관련 정보 및 광고로 구성되어 있다."
         }
       },
       {
