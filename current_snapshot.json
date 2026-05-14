@@ -1,37 +1,42 @@
 {
-  "timestamp": "2026-05-14T11:06:18.460513+09:00",
+  "timestamp": "2026-05-14T15:15:01.106173+09:00",
   "sentiment": {
-    "cnn_fng": 65.8571428571429,
+    "cnn_fng": 65.8,
     "cnn_components": {
       "momentum": 99.2,
       "strength": 55.6,
       "breadth": 46.0,
       "put_call": 90.0,
-      "junk_bond": 28.8,
+      "junk_bond": 28.4,
       "volatility": 50.0,
       "safe_haven": 91.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
+      "greed_count": 3,
+      "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "AI 버블 장세, 경기침체 우려에도 미국 증시가 강한 이유 - 치과신문",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1enJwd0ZBR3F0Z0dNNmRjMVNUeVc3bXNzU1RqNjFWci15ZE9IOU5mZC1ja0lTWGs2Yk5SbGNQZ2VPRk5tTVIyNWtqOUZybThpdjdFSlNpMDE4V2luS1I1R2RkamJ4UQ?oc=5",
+          "pub_date": "Thu, 14 May 2026 02:47:49 GMT",
+          "source": "치과신문"
+        },
         {
           "title": "이러다 개미들만 '고점' 물리나...코스피 상승에도 '매도 폭탄' [굿모닝경제] - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44Y2MtOWFOREhvOExYbVJmb1lOWmpaakdkbk9MUC1ZcjZUWVJ2V2ZBNTJWYm9xa051QTZsdXlSb2FVdFQ0Vzg3OURReDJndDNVcy1CWFZEbFRZNzZieVE?oc=5",
           "pub_date": "Thu, 14 May 2026 01:02:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "증시 활황 속 증권사 CP·전단채 잔액 나날이 최대…소화 여력은 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QbnRKM1NXbXJlTXZxZ2Y1UXNhOVRJR0ZoNnVzYlZEZ053NjYybUpCY0lJUzJydFpSSG5jZURhSHJLYTQ3QU9HVThDX0pzSkpJd19ubk5IVnVuNlF3QVU0bm1xU0tYT0NDWGZYZlNLamE?oc=5",
+          "pub_date": "Thu, 14 May 2026 01:44:04 GMT",
+          "source": "연합인포맥스"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "\"외국인 선물 8조 베팅에도 코스피 급락 제한적\" By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ta2xjMWFIUXFLWUN2YmVubVNBUmt5WTdaNS1pWEpyZnBQaFA3RnNCUHNLWktvUktyWUh6eXljS3NvWmx5dU4wSWFTOFVBX3Qya3cxcEs4dlhfY2pGR2l0cVdOU0JTOVE4ZW9QN3BXd2U?oc=5",
-          "pub_date": "Thu, 14 May 2026 00:44:00 GMT",
-          "source": "Investing.com 한국어"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -41,8 +46,8 @@
     "move": 70.24
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1691100000000,
-    "retail_net_buy_krw": 1641000000000,
+    "foreign_inst_buy_krw": -2371100000000,
+    "retail_net_buy_krw": 2256400000000,
     "margin_loan_krw": 35712700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -55,14 +60,14 @@
       "drop_pct": -0.27
     },
     "kospi": {
-      "current": 7941.41,
+      "current": 7901.55,
       "high_52w": 7999.67,
-      "drop_pct": -0.73
+      "drop_pct": -1.23
     },
     "kosdaq": {
-      "current": 1168.92,
+      "current": 1183.64,
       "high_52w": 1229.42,
-      "drop_pct": -4.92
+      "drop_pct": -3.72
     },
     "sp500": {
       "current": 7444.25,
