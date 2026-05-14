@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T05:23:01.402783+09:00",
+  "timestamp": "2026-05-15T07:00:39.866901+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -355,7 +355,7 @@
     {
       "ticker": "XLK",
       "name": "Tech broad",
-      "rs_roc": 0.1651,
+      "rs_roc": 0.1653,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -487,7 +487,7 @@
         },
         {
           "date": "2026-05-14",
-          "value": 1.1891
+          "value": 1.1892
         }
       ],
       "tier2": [
@@ -1834,8 +1834,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1492.07,
-      "change_30d_pct": -1.32
+      "value": 1492.27,
+      "change_30d_pct": -1.12
     },
     "us10y": {
       "ticker": "^TNX",
