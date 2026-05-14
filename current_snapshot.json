@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-14T08:51:17.349646+09:00",
+  "timestamp": "2026-05-14T11:06:18.460513+09:00",
   "sentiment": {
     "cnn_fng": 65.8571428571429,
     "cnn_components": {
@@ -14,10 +14,24 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "이러다 개미들만 '고점' 물리나...코스피 상승에도 '매도 폭탄' [굿모닝경제] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44Y2MtOWFOREhvOExYbVJmb1lOWmpaakdkbk9MUC1ZcjZUWVJ2V2ZBNTJWYm9xa051QTZsdXlSb2FVdFQ0Vzg3OURReDJndDNVcy1CWFZEbFRZNzZieVE?oc=5",
+          "pub_date": "Thu, 14 May 2026 01:02:00 GMT",
+          "source": "YTN"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "\"외국인 선물 8조 베팅에도 코스피 급락 제한적\" By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ta2xjMWFIUXFLWUN2YmVubVNBUmt5WTdaNS1pWEpyZnBQaFA3RnNCUHNLWktvUktyWUh6eXljS3NvWmx5dU4wSWFTOFVBX3Qya3cxcEs4dlhfY2pGR2l0cVdOU0JTOVE4ZW9QN3BXd2U?oc=5",
+          "pub_date": "Thu, 14 May 2026 00:44:00 GMT",
+          "source": "Investing.com 한국어"
+        }
+      ]
     }
   },
   "volatility": {
@@ -27,8 +41,8 @@
     "move": 70.24
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2035100000000,
-    "retail_net_buy_krw": 1886800000000,
+    "foreign_inst_buy_krw": -1691100000000,
+    "retail_net_buy_krw": 1641000000000,
     "margin_loan_krw": 35712700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -41,14 +55,14 @@
       "drop_pct": -0.27
     },
     "kospi": {
-      "current": 7643.15,
+      "current": 7941.41,
       "high_52w": 7999.67,
-      "drop_pct": -4.46
+      "drop_pct": -0.73
     },
     "kosdaq": {
-      "current": 1179.29,
+      "current": 1168.92,
       "high_52w": 1229.42,
-      "drop_pct": -4.08
+      "drop_pct": -4.92
     },
     "sp500": {
       "current": 7444.25,
@@ -118,11 +132,11 @@
     "leading_detail": {
       "samsung_3d_up": false,
       "samsung_retail_buying": true,
-      "samsung_at_60d_high": false,
+      "samsung_at_60d_high": true,
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
-      "hynix_at_60d_high": true,
+      "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
