@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T18:38:14.456800+09:00",
+  "timestamp": "2026-05-15T20:46:44.038113+09:00",
   "sentiment": {
     "cnn_fng": 65.3428571428571,
     "cnn_components": {
@@ -14,15 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 49,
+      "greed_count": 3,
+      "fear_count": 45,
       "greed_articles": [
-        {
-          "title": "코스피 사상 첫 8000 찍고 급락 \"단기과열 해소, 매물 소화\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xWGpRYXNHcG5iR0Q3VC0zMjdDRUhYeHlmcU9PWlFHQ2x5aU5HZ05EM1BwTnlwQkxhTFlCdVdIM3gtT1otcnNBT2gzc1EyQVE?oc=5",
-          "pub_date": "Fri, 15 May 2026 08:57:53 GMT",
-          "source": "v.daum.net"
-        },
         {
           "title": "[코스피 8000] 닛케이 버블 비웃는 ‘K-광속 질주’… 29만전자·190만닉스가 만들었다 - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDUyWVBuM0pzWXZrd3dyaGVhUnNidEstOXZEajI2cDJKNWlUcnR6UGVrTmZnTkk1TWlIaDFHSVNoR0Q4TnNiMng2SmZQOG9Ia1dlM3c3VUV5QmU3QklZTDhSa2Y2emhqUVdJa080dTJ0REQ2amRrRENZcjRTdFlmdFNCSVotVFp30gGcAUFVX3lxTE1tRFJtODJJbzBBRm40LVpoYmFoNWRQZWlIdC1MX0ZlT1pNQzA3Z2ZBLW1BY294alQybGk4bHA0OWJJQzA0dXhmay1jbjJhRGJjV0h1X2hLMFg1b2daWE82RXRNTThGMl9nY1NIM0FRMmNmcU8zQlhpNFRfVTBES0dDcE5YU2FsV1JoYjBqaTF3Sy01NHByZjZicmF4cw?oc=5",
@@ -30,14 +24,14 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "\"한국 대표지수 맞나\"…반도체 쏠림이 부른 롤러코스터 코스피 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hZklJcEdIQXlwNmFXaTg2V0tueF9IaTE2NUVNbXNpbmNtUnlkX3NxZERwRVctRW5fMjJFSXhlSHJlbURiVTlTZEttVkJFVS1uVVc5S0xxakNKX1BuQVRHN1RsY0w4TzJv?oc=5",
-          "pub_date": "Fri, 15 May 2026 07:31:52 GMT",
-          "source": "ebn.co.kr"
+          "title": "코스피 사상 첫 8000 찍고 급락 \"단기과열 해소, 매물 소화\" - 오마이뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54MlBlZWFmajdxRlJmSjN1LXl2UTlfQ0pHbVllZjg4WlVTMlM0T29pWkJqa0Nab3ZMNDU5VmhINXVGNGFIQVotN0drcklwZU9PcjBfdXllTUZPR1VWYkJLYWZUSkl3Z1JvemNEeUdtSEFTaWtvRlI4?oc=5",
+          "pub_date": "Fri, 15 May 2026 08:55:00 GMT",
+          "source": "오마이뉴스"
         },
         {
           "title": "두나무, 1Q 영업익 80% 급감한 880억...증시 활황에 코인거래 '뚝' - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RQVlhdGdZbVNPQk5VTnV3N25QVnV4YXY3VVlENWhLMnhDUkJycm1yd1lVTE0yaXRvN1VCV3FMWGZRa0ExTkIyNmEyaWFTNjRoN0JBckp1T0dKeDMtWHVvcW91UzB3T2swZDhrRHRaWU4?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Rc1hPckhnVkVUajUxdjl5dzd4eHRyUTdXQUI0Q0ZCNTVrNENFaW11T2xubUVHMlZGYndZVXAxV1FobnJLTWIwNTcxMjRlZlZ5NlR5S0ZmaXN2TldBbUFobkNDdVBlSFk0QkVUeWp1dXNVdw?oc=5",
           "pub_date": "Fri, 15 May 2026 09:24:49 GMT",
           "source": "오피니언뉴스"
         }
@@ -46,7 +40,7 @@
         {
           "title": "코스피 8000 찍더니 7500선 급락…매도 사이드카 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PT0MwdF9lY0RhWUtKcUptaEd5MWpQOGRwZ0VlNUJ0RC1hMXNMeEw5OWZoYzFzZjdzT21HQmdOSUt3V3BLRy1ST0lpcEFCMHU5YlZ6VHdiNGc1aTE1Qm1zN0gzZm9aUE0?oc=5",
-          "pub_date": "Fri, 15 May 2026 07:14:00 GMT",
+          "pub_date": "Fri, 15 May 2026 11:15:00 GMT",
           "source": "한겨레"
         },
         {
@@ -62,22 +56,22 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피 8000 축포 하루도 못 갔다…외국인 투매에 6% 급락 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCZHlNSmljYXJ3V1dlOWEyckQ4YmdXaVQ1dUJseUJTcy16OGNzQ2lhZzUwbFlqSW5qY3lfUnlQN1gzWmJBTUlKT21TVDR2S1B6VXBfbU13?oc=5",
-          "pub_date": "Fri, 15 May 2026 09:16:00 GMT",
-          "source": "중앙일보"
+          "title": "'8천피' 찍었지만, 코스피 급락 '매도 사이드카'···6.12% 내린 7493.18로 마감 - 대구MBC",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjUzFmUGxCNVZGZ2Z3VVZTRGdFTXFfaUEwT1Vpd1BuOVA4RGVwRDRvWWlER1AyTG5Ud09JTjhacHZxTWlpMVY3YlJIOTE?oc=5",
+          "pub_date": "Fri, 15 May 2026 06:47:44 GMT",
+          "source": "대구MBC"
         },
         {
-          "title": "[속보] \"8000선 환호가 비명으로\"…코스피, 외인 '매도 폭탄'에 6%대 급락 마감 - 경기일보",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CYXh1aGFicHFJY3F4TFg1Rk9UY013dXV4M2VuY04wRkVjTXF0Vjg5UUNJd3U2bXZwRlI1RTBKLUE5NklkY1JSM3AxalVZN25wZENoSk55VGdibTA?oc=5",
-          "pub_date": "Fri, 15 May 2026 06:55:00 GMT",
-          "source": "경기일보"
+          "title": "[집중진단] 코스피 8천 돌파 후 급락…외국인 매도 공포 언제까지? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rYW5LSktUZno0NlM4Q0xUSm5tOTdyMWVtWk1NWDhGUmF6N0liZjJtVFI2OVFOdVo0SDhyUUZrQUVpUEVrc3RkOUxOU3VmcTQ?oc=5",
+          "pub_date": "Fri, 15 May 2026 09:37:11 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.76,
+    "vix": 18.59,
     "vvix": 94.26,
     "skew": 139.32,
     "move": 69.63
