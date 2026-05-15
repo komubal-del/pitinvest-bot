@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T08:58:36.229277+09:00",
+  "timestamp": "2026-05-15T11:55:07.263460+09:00",
   "sentiment": {
     "cnn_fng": 66.1428571428572,
     "cnn_components": {
@@ -14,17 +14,42 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 3,
       "greed_articles": [
         {
-          "title": "뉴욕증시, 다우 5만선 재돌파…'버블 상징' 시스코의 부활 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xSzA4TlFlamYxV0FQSklqNHlQc19KLWdQdDhxZHkxaDh4cndUYmw4VEQzNE5oSVZwSWVDbnFEQlJhV3NNSHV3VGh0aHZmbm9mTTJWZDZrZlhJTmZLZENhNXVJcFFPZkxwOUEyUHVsaXM?oc=5",
-          "pub_date": "Thu, 14 May 2026 20:55:00 GMT",
-          "source": "연합인포맥스"
+          "title": "[코스피 8000] 닛케이 버블 비웃는 ‘K-광속 질주’… 29만전자·190만닉스가 만들었다 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDUyWVBuM0pzWXZrd3dyaGVhUnNidEstOXZEajI2cDJKNWlUcnR6UGVrTmZnTkk1TWlIaDFHSVNoR0Q4TnNiMng2SmZQOG9Ia1dlM3c3VUV5QmU3QklZTDhSa2Y2emhqUVdJa080dTJ0REQ2amRrRENZcjRTdFlmdFNCSVotVFp30gGcAUFVX3lxTE1tRFJtODJJbzBBRm40LVpoYmFoNWRQZWlIdC1MX0ZlT1pNQzA3Z2ZBLW1BY294alQybGk4bHA0OWJJQzA0dXhmay1jbjJhRGJjV0h1X2hLMFg1b2daWE82RXRNTThGMl9nY1NIM0FRMmNmcU8zQlhpNFRfVTBES0dDcE5YU2FsV1JoYjBqaTF3Sy01NHByZjZicmF4cw?oc=5",
+          "pub_date": "Fri, 15 May 2026 01:27:26 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "주식 광풍 뒤 개미들은 '주식 거지'가 되었다...코스피 8000 시대의 역설 - 한국일보",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9saDVIR0djUXJqYnpGMXdtcFBNX24xMXJHRGIxTy01OC0zSEY2QnlfajFIaGJYbEtwejA0MVM4QUZPa1J3YW1mLV9kbmdiTV80OXVnQl9RVElpSHFlb1J4bTJIaWNIendnTE1NMUJqd0JiS2_SAXNBVV95cUxPbGg1SEdHY1FyamJ6RjF3bXBQTV9uMTFyR0RiMU8tNTgtM0hGNkJ5X2oxSGhiWGxLcHowNDFTOEFGT2tSd2FtZi1fZG5nYk1fNDl1Z0JfUVRJaUhxZW9SeG0ySGljSHp3Z0xNTTFCandCYktv?oc=5",
+          "pub_date": "Fri, 15 May 2026 01:39:00 GMT",
+          "source": "한국일보"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[속보]8000찍은 코스피 3% 급락…외국인 2조 매도 폭탄 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WUEdkX1FIWkk4YnUyWk5EdjFJZG0tT2FfMU9xbEM1MGJGYkVGdnh4VnhUU1dGaVVxcVR1YUxEX2JfcTB3eGhKcDJLdzFiUnFv?oc=5",
+          "pub_date": "Fri, 15 May 2026 02:19:29 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "[속보] 코스피, ‘8천피’ 찍고 3%대 급락…7600선까지 밀려 - 강원도민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hMU1CNWJWdTNjMmtZNVhNby1YZ1Nhbk96ZnB1MnJqLTdlS1VKWUkzS1JPRkNMbkVIN3hIMHBLNUtxSGdfT3MxdVZmbmpGY2ZleGtQdDZ0YUl1SDRYeGVEVUlIUndtbnM?oc=5",
+          "pub_date": "Fri, 15 May 2026 02:34:02 GMT",
+          "source": "강원도민일보"
+        },
+        {
+          "title": "코스피 8,000선 돌파했지만…차익 실현에 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ac1VMcjF5enBrUEQ2WUhsaHVGZWVaX2NWUXJxSFpsUEdtVVltR1A5Z2NVMGozM1VtLU1QZnlTTWV4dlRoT09qeWRjV0trdHc?oc=5",
+          "pub_date": "Fri, 15 May 2026 02:38:56 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
@@ -34,8 +59,8 @@
     "move": 69.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1952300000000,
-    "retail_net_buy_krw": 1849900000000,
+    "foreign_inst_buy_krw": -3270000000000,
+    "retail_net_buy_krw": 3205800000000,
     "margin_loan_krw": 35502400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -48,14 +73,14 @@
       "drop_pct": -0.27
     },
     "kospi": {
-      "current": 7844.01,
-      "high_52w": 7999.67,
-      "drop_pct": -1.95
+      "current": 7729.32,
+      "high_52w": 8046.78,
+      "drop_pct": -3.95
     },
     "kosdaq": {
-      "current": 1176.93,
+      "current": 1154.58,
       "high_52w": 1229.42,
-      "drop_pct": -4.27
+      "drop_pct": -6.09
     },
     "sp500": {
       "current": 7501.24,
@@ -125,7 +150,7 @@
     "leading_detail": {
       "samsung_3d_up": false,
       "samsung_retail_buying": false,
-      "samsung_at_60d_high": true,
+      "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
