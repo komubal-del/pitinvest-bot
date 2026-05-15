@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-05-15T11:55:07.263460+09:00",
+  "timestamp": "2026-05-15T15:23:18.299189+09:00",
   "sentiment": {
-    "cnn_fng": 66.1428571428572,
+    "cnn_fng": 66.0571428571429,
     "cnn_components": {
       "momentum": 99.6,
       "strength": 55.6,
       "breadth": 43.2,
       "put_call": 97.0,
-      "junk_bond": 26.2,
+      "junk_bond": 25.6,
       "volatility": 50.0,
       "safe_haven": 91.4
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 3,
+      "fear_count": 23,
       "greed_articles": [
         {
           "title": "[코스피 8000] 닛케이 버블 비웃는 ‘K-광속 질주’… 29만전자·190만닉스가 만들었다 - 조선비즈 - Chosunbiz",
@@ -26,28 +26,40 @@
         {
           "title": "주식 광풍 뒤 개미들은 '주식 거지'가 되었다...코스피 8000 시대의 역설 - 한국일보",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9saDVIR0djUXJqYnpGMXdtcFBNX24xMXJHRGIxTy01OC0zSEY2QnlfajFIaGJYbEtwejA0MVM4QUZPa1J3YW1mLV9kbmdiTV80OXVnQl9RVElpSHFlb1J4bTJIaWNIendnTE1NMUJqd0JiS2_SAXNBVV95cUxPbGg1SEdHY1FyamJ6RjF3bXBQTV9uMTFyR0RiMU8tNTgtM0hGNkJ5X2oxSGhiWGxLcHowNDFTOEFGT2tSd2FtZi1fZG5nYk1fNDl1Z0JfUVRJaUhxZW9SeG0ySGljSHp3Z0xNTTFCandCYktv?oc=5",
-          "pub_date": "Fri, 15 May 2026 01:39:00 GMT",
+          "pub_date": "Fri, 15 May 2026 02:46:00 GMT",
           "source": "한국일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "[속보]8000찍은 코스피 3% 급락…외국인 2조 매도 폭탄 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WUEdkX1FIWkk4YnUyWk5EdjFJZG0tT2FfMU9xbEM1MGJGYkVGdnh4VnhUU1dGaVVxcVR1YUxEX2JfcTB3eGhKcDJLdzFiUnFv?oc=5",
-          "pub_date": "Fri, 15 May 2026 02:19:29 GMT",
-          "source": "문화일보"
+          "title": "[속보] 코스피 8000 찍더니 7500선 급락…매도 사이드카 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PT0MwdF9lY0RhWUtKcUptaEd5MWpQOGRwZ0VlNUJ0RC1hMXNMeEw5OWZoYzFzZjdzT21HQmdOSUt3V3BLRy1ST0lpcEFCMHU5YlZ6VHdiNGc1aTE1Qm1zN0gzZm9aUE0?oc=5",
+          "pub_date": "Fri, 15 May 2026 05:50:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "[속보] 코스피, ‘8천피’ 찍고 3%대 급락…7600선까지 밀려 - 강원도민일보",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hMU1CNWJWdTNjMmtZNVhNby1YZ1Nhbk96ZnB1MnJqLTdlS1VKWUkzS1JPRkNMbkVIN3hIMHBLNUtxSGdfT3MxdVZmbmpGY2ZleGtQdDZ0YUl1SDRYeGVEVUlIUndtbnM?oc=5",
-          "pub_date": "Fri, 15 May 2026 02:34:02 GMT",
-          "source": "강원도민일보"
+          "title": "코스피 외국인 5조 투매에 6% 넘게 폭락…7,500선 하회 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ibExyd1BNOVpVaDUwYnNFVXV6V2phM3A5Y1ozVzFLSDJuZ2JrRUJaQU50ZVAyR2dRWS1HRGxtcG9oWmd4R1lTTHF2YWM3YVJaYU50ZmRjQWhkbThuZTluLVJQOXhfRjVrbUhCSXVoeGvSAXRBVV95cUxPZmVNbXduTWppZno5RUs4dU05SmdTYXh5RjV6Mkk3eXFVR1lDWlZjeHN6VTBQVWxDdktxZ0Q4dnVCTlFtT2RuaWExUTl2dkNPWnhRWG9lUHF5TXRRNE1SXzJ2M0FYUWtEYWNYeTI4eEg2ZFoySQ?oc=5",
+          "pub_date": "Fri, 15 May 2026 05:52:48 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 8,000선 돌파했지만…차익 실현에 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ac1VMcjF5enBrUEQ2WUhsaHVGZWVaX2NWUXJxSFpsUEdtVVltR1A5Z2NVMGozM1VtLU1QZnlTTWV4dlRoT09qeWRjV0trdHc?oc=5",
-          "pub_date": "Fri, 15 May 2026 02:38:56 GMT",
+          "title": "[속보] ‘하락전환’ 코스피, 급락에 매도 사이드카 발동 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZN1ZKWnp4dXRabWRDY3FwQlBzVUpTNHVXNUZDQ2xWV0ZVQjN1YTBPVDJiQXVhMEVmWTdHNGxZVjNWeWhISGZhYkRoZjMxWWc?oc=5",
+          "pub_date": "Fri, 15 May 2026 04:37:07 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 급락에 매도 사이드카 발동 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10ZExBbXY2SUx4N0w1WVNVcmhyOEpXZVRLb0NWLU1XQ21MQnNndGtQNFhXaVZWRjFLVzVCMWF2Z0NCSGpMQ0VseFFiWC13Yi1ER1FkUi1fdVNhZ9IBVEFVX3lxTE1haHZ1ajBsTDMzWHBsS3lzdUFWT3FILWNCTEQyVjBBMm1ObmZyT2c5ZDdJbXhDZU5xMVFqTGd6MkFsNEV6UGhabEc3YmJHRWwzWmFOaA?oc=5",
+          "pub_date": "Fri, 15 May 2026 04:36:27 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "코스피 6%대 급락…원·달러 환율은 1500원 위로 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNVm1hMHhZeUd1bnJBOENPRkRYa1VUMThYcmpYb3ZsN2hZbThGbmhSNDYwOWRlcDJUaDF4a3RZNWs1ZElfWngwSXRrbU5WQ0FJRWlGRHZB?oc=5",
+          "pub_date": "Fri, 15 May 2026 05:44:12 GMT",
+          "source": "지디넷코리아"
         }
       ]
     }
@@ -59,8 +71,8 @@
     "move": 69.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3270000000000,
-    "retail_net_buy_krw": 3205800000000,
+    "foreign_inst_buy_krw": -6805200000000,
+    "retail_net_buy_krw": 6715800000000,
     "margin_loan_krw": 35502400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -73,14 +85,14 @@
       "drop_pct": -0.27
     },
     "kospi": {
-      "current": 7729.32,
+      "current": 7378.3,
       "high_52w": 8046.78,
-      "drop_pct": -3.95
+      "drop_pct": -8.31
     },
     "kosdaq": {
-      "current": 1154.58,
+      "current": 1110.78,
       "high_52w": 1229.42,
-      "drop_pct": -6.09
+      "drop_pct": -9.65
     },
     "sp500": {
       "current": 7501.24,
@@ -115,9 +127,9 @@
     "sell_leading": true,
     "sell_expert": false,
     "sell_count": 2,
-    "emergency_exit_warning": false,
-    "stage_key": "sell_near",
-    "stage_key_raw": "sell_near",
+    "emergency_exit_warning": true,
+    "stage_key": "emergency",
+    "stage_key_raw": "emergency",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
@@ -706,5 +718,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
   },
-  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
+  "recommended_action": "🚨 긴급탈출 · 위성 전량 매도 → 코어 균등 매수 (v5.1)"
 }
