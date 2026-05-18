@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T11:10:42.807841+09:00",
+  "timestamp": "2026-05-18T15:13:39.769951+09:00",
   "sentiment": {
     "cnn_fng": 62.9142857142857,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 29,
+      "greed_count": 5,
+      "fear_count": 32,
       "greed_articles": [
+        {
+          "title": "주식시장 활황에 코스피 시총, 수도권 주택 시총 첫 역전 - 데일리굿뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MZjhTQzVKTi1HSThJVGt1ZUdjWVVIejNadGFLbDdPZXA4ZEFiVnY2NFppaDJIUG9qUkhZWWhnQURxTXp0eVRuSUVYVDlzSEVkczlkbEE3UVNzdnBsR2ZhVUJkaTBpOWl1YkVfYdIBcEFVX3lxTE50VGV4YlpVMloyZnBYQUU0ZUx1bUktd0Q4bHdSWmVjSXR4SXlfVXUzQ1FlNnEzengwWXY2bkh4bVRXckdOUWlvTXRLUmt6M0NOS2JIU0p4ZElJYm9sRTA4YmpaU0hpbEpzS0FlNTJocUU?oc=5",
+          "pub_date": "Mon, 18 May 2026 02:13:58 GMT",
+          "source": "데일리굿뉴스"
+        },
         {
           "title": "[초동시각]증시활황이 불러온 긍정 효과들 - 아시아경제",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5R3BxX0hna3BxcDcwYUhBdThiTW1qZDNLa2lYUTFXU1h1RnMzdi05M1l2bF9jaHlJUExxUXdPN2VjRkZxWjdOck9TZjBwY1NPMnUzSWhlaXJXajBtQnFQSg?oc=5",
@@ -24,35 +30,35 @@
           "source": "아시아경제"
         },
         {
-          "title": "증시 활황에 작년 증권사 해외 점포 순이익 68% 뛰었다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mWmo2QVl4cmhJbmJPWkpFNU0zdENCcHo3T05jNXdyNmlvQkNhclVoME9WaWpjT3Y0WXdQeTUtM2NrcFlzQmc5SzJqMkFlMHc?oc=5",
-          "pub_date": "Sun, 17 May 2026 22:57:02 GMT",
-          "source": "v.daum.net"
+          "title": "증시 쏠림에 코인 거래소 ‘실적 쇼크’… 업비트만 흑자 예상 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmF4SldHTkZkRkhVYXVrVm1oOUxZNjFOaVl3VFdDWTRBQjIwTFJjVy1ZYTRsZGNrb3RwcUJ5aUM3ZklQMFBoZkVxNUNxazB0dnJEaUN3akFIU2QxenZMLXdIek9EMk1iTEwtU1h5QlI5dnpMRm9wZVgtckotZFl5TNIBlAFBVV95cUxNam9peXVCREZCNnpMZTZ2RWU2LUZnc0k2cFBjVTVxSE9QelpPVkR5LVdaYXpfbmp2UXZPdDhHdUI0RmlCZGx3TENodVVRNFJvbEJ6aFpUYmtUMVBZSjFxOUYyVG5Hb19hZFRqdXhfZElrTkdmVmlsSE5nTDZaTnBHeXpHZWxYeFloenhwN3prMlJkbTdi?oc=5",
+          "pub_date": "Mon, 18 May 2026 04:22:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "반도체주가 끌어올린 美증시⋯\"AI 랠리 뒤 거품 경고음\" - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xREVPY3p2Z3VGbUk0T3hkemV4VzdYTkNLVm5aZ2wyWTZCS3ZUTUJmMHpkd2k4OXFfS1N4aF9Bc1o5cmJPWWo3N1dzbkpOOVFjVGNabWFTeUc4NEZQU3c?oc=5",
-          "pub_date": "Mon, 18 May 2026 01:57:09 GMT",
-          "source": "포커스온경제"
+          "title": "은행권, 증시활황에 앞다퉈 예금금리 인상...전달 보다 0.05~0.1%p 올려 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vX3BURlNnQWdXQWhoZ3hMNktPc0psSFQyTVFoZnpQN2xqM1otY2NieUhQTlFwTGFZdE43WGhxdkY1U29rbkgyUTZNYjJnd2hOXzhXZkp1aFlaVlEyRlZzYzNtY3dpTTZhMC1HNUZUcXA3QQ?oc=5",
+          "pub_date": "Mon, 18 May 2026 05:36:49 GMT",
+          "source": "인더스트리뉴스"
+        },
+        {
+          "title": "'8000피' 찍고 고꾸라진 코스피…불어난 빚투 '경고음' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vWEo3U0drczJOMzd3WFIzZ0l1amRONk5vVmkyMUFoZ0ltWXh2ZGphZVBHUGV5bnV3MXU3MlgzOEllc054WlQ0X2RnajRiSmdvby1PVFlpUl9vUU5zRHhGMHRzOTdvNy1kenFRN9IBbEFVX3lxTE9vWEo3U0drczJOMzd3WFIzZ0l1amRONk5vVmkyMUFoZ0ltWXh2ZGphZVBHUGV5bnV3MXU3MlgzOEllc054WlQ0X2RnajRiSmdvby1PVFlpUl9vUU5zRHhGMHRzOTdvNy1kenFRNw?oc=5",
+          "pub_date": "Mon, 18 May 2026 02:25:18 GMT",
+          "source": "블로터"
         }
       ],
       "fear_articles": [
         {
-          "title": "[속보] 급락장에 코스피 매도 사이드카 발동 - 전자신문",
+          "title": "급락장에 코스피 매도 사이드카 발동 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNR1hMekEyTjkzR3VHNWFtUk1tN3RMeEx2WHMzSW9lUjFFbXZIMmMzY1VGRmx0VXZLVUhPYXpRU2ptd0ppcGhrM3BjRGhhdw?oc=5",
           "pub_date": "Mon, 18 May 2026 00:22:11 GMT",
           "source": "전자신문"
         },
         {
-          "title": "[포토타임] 장중 4% 급락 코스피... 매도 사이드카 발동 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWbmZtZ01YLVNRTDdfT2dBc2xrTDE0OXZqVG1oY1pHaXBzbUUzZjB5Y3YtS0JQRDZicG1HQ3NmOThJbngtVElMZDIzdTducU9LeFBkX0Vn?oc=5",
-          "pub_date": "Mon, 18 May 2026 00:53:25 GMT",
-          "source": "중앙일보"
-        },
-        {
-          "title": "[마켓 프리뷰] 역대급 급락에 코스피 '비명'…뉴욕증시 반도체도 '뚝' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mMkUxbG5KaGVlUGFZOFlqdllkNElzX2FzcVpWLWRVUDZMVUhQbFBSXzlkRTZWazVJX3pSY0JVNjdycjlmZDkzdUxFU1FlMEU?oc=5",
-          "pub_date": "Sun, 17 May 2026 22:31:00 GMT",
+          "title": "[셀럽의 한 수] 뉴욕증시, 지난주 말 기술주 급락에 일제히 하락 마감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLQ05YRUpObXp3ZTN2WXhtNXFmQURCS0ZCb0VSWmFIcm5vV29GRnQ3ck9XTTFjUFpCRG9pSzFoRl9ybWUwYWpQUzhyMGRRRFk?oc=5",
+          "pub_date": "Mon, 18 May 2026 05:25:16 GMT",
           "source": "v.daum.net"
         },
         {
@@ -62,10 +68,16 @@
           "source": "경향신문"
         },
         {
-          "title": "[뉴스1 PICK]무너지는 코스피…7,100선 폭락에 매도 사이드카 발동 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5Y0tabUE4c0ZLRU5TX01rTGg1VlU4dnlLZE1UWVg1V1RKZkZnRnNVV0FVdGx0Q21oZVB2aVlHdGdXVWdCdXZ5WFh5X0sxemRwS3l3YkpmV0w3bDg?oc=5",
-          "pub_date": "Mon, 18 May 2026 00:52:56 GMT",
-          "source": "뉴스1"
+          "title": "[속보] 코스피, 장 초반 4%대 급락…7100선 후퇴 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55V2RwcTZwNTdGWVBGdHV6Vk5wYV9ka0dncGwybXF4TEZFT3V4QjMxc1ptMzNmTXNoRmpCT0hzZUFwdGVCekIzdXh3SUpkdw?oc=5",
+          "pub_date": "Mon, 18 May 2026 00:18:23 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "코스피, 장 초반 급락 딛고 강보합 전환…7,500 회복 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YVEJ0d2JkU1FQdmJvTmxMLUhjNkl0dW0yVlR6ZGtPRW5KX0FsUl92VnE2eXdJYklCV0QzU1phcWhYQ0dRZnliLUZ0SmstTEdZN1F2TGd4TXdYRGhCMmFLaFp6S3loNWVLbG4yWkJIZ3c?oc=5",
+          "pub_date": "Mon, 18 May 2026 02:12:20 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
@@ -77,8 +89,8 @@
     "move": 79.87
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1886000000000,
-    "retail_net_buy_krw": 1838600000000,
+    "foreign_inst_buy_krw": -2101400000000,
+    "retail_net_buy_krw": 2059800000000,
     "margin_loan_krw": 35897000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -88,32 +100,38 @@
     "nasdaq": {
       "current": 26225.14,
       "high_52w": 26707.14,
-      "drop_pct": -1.8
+      "drop_pct": -1.8,
+      "intraday_low_drop_pct": -2.28
     },
     "kospi": {
-      "current": 7485.45,
+      "current": 7567.78,
       "high_52w": 8046.78,
-      "drop_pct": -6.98
+      "drop_pct": -5.95,
+      "intraday_low_drop_pct": -11.24
     },
     "kosdaq": {
-      "current": 1104.92,
+      "current": 1112.84,
       "high_52w": 1229.42,
-      "drop_pct": -10.13
+      "drop_pct": -9.48,
+      "intraday_low_drop_pct": -12.83
     },
     "sp500": {
       "current": 7408.5,
       "high_52w": 7517.12,
-      "drop_pct": -1.44
+      "drop_pct": -1.44,
+      "intraday_low_drop_pct": -1.59
     },
     "russell2k": {
       "current": 2793.3,
       "high_52w": 2888.62,
-      "drop_pct": -3.3
+      "drop_pct": -3.3,
+      "intraday_low_drop_pct": -3.36
     },
     "soxx": {
       "current": 508.52,
       "high_52w": 533.74,
-      "drop_pct": -4.73
+      "drop_pct": -4.73,
+      "intraday_low_drop_pct": -5.15
     }
   },
   "sector_rs": {
@@ -133,9 +151,12 @@
     "sell_leading": true,
     "sell_expert": false,
     "sell_count": 2,
-    "emergency_exit_warning": true,
-    "stage_key": "emergency",
-    "stage_key_raw": "emergency",
+    "emergency_exit_warning": false,
+    "emergency_today": true,
+    "emergency_marker_active": true,
+    "emergency_first_fired_date": "2026-05-15",
+    "stage_key": "sell_near",
+    "stage_key_raw": "sell_near",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
@@ -311,7 +332,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 198.627,
+    "strategy_pct": 177.537,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -688,6 +709,10 @@
       {
         "date": "2026-05-15",
         "ret_pct": 198.627
+      },
+      {
+        "date": "2026-05-18",
+        "ret_pct": 177.537
       }
     ],
     "monthly_breakdown": [
@@ -717,12 +742,12 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 77.59,
-        "end_ret_pct": 198.63,
-        "max_dd_pct": 12.7
+        "return_pct": 56.5,
+        "end_ret_pct": 177.54,
+        "max_dd_pct": 21.96
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
   },
-  "recommended_action": "🚨 긴급탈출 · 위성 전량 매도 → 코어 균등 매수 (v5.1)"
+  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
 }
