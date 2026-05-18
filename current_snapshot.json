@@ -1,122 +1,128 @@
 {
-  "timestamp": "2026-05-15T22:27:36.182813+09:00",
+  "timestamp": "2026-05-18T11:10:42.807841+09:00",
   "sentiment": {
-    "cnn_fng": 65.3428571428571,
+    "cnn_fng": 62.9142857142857,
     "cnn_components": {
-      "momentum": 99.6,
-      "strength": 53.4,
-      "breadth": 40.4,
-      "put_call": 97.0,
-      "junk_bond": 25.6,
+      "momentum": 98.2,
+      "strength": 49.0,
+      "breadth": 33.2,
+      "put_call": 95.0,
+      "junk_bond": 26.0,
       "volatility": 50.0,
-      "safe_haven": 91.4
+      "safe_haven": 89.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 43,
+      "greed_count": 3,
+      "fear_count": 29,
       "greed_articles": [
         {
-          "title": "[코스피 8000] 닛케이 버블 비웃는 ‘K-광속 질주’… 29만전자·190만닉스가 만들었다 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDUyWVBuM0pzWXZrd3dyaGVhUnNidEstOXZEajI2cDJKNWlUcnR6UGVrTmZnTkk1TWlIaDFHSVNoR0Q4TnNiMng2SmZQOG9Ia1dlM3c3VUV5QmU3QklZTDhSa2Y2emhqUVdJa080dTJ0REQ2amRrRENZcjRTdFlmdFNCSVotVFp30gGcAUFVX3lxTE1tRFJtODJJbzBBRm40LVpoYmFoNWRQZWlIdC1MX0ZlT1pNQzA3Z2ZBLW1BY294alQybGk4bHA0OWJJQzA0dXhmay1jbjJhRGJjV0h1X2hLMFg1b2daWE82RXRNTThGMl9nY1NIM0FRMmNmcU8zQlhpNFRfVTBES0dDcE5YU2FsV1JoYjBqaTF3Sy01NHByZjZicmF4cw?oc=5",
-          "pub_date": "Fri, 15 May 2026 04:41:00 GMT",
-          "source": "Chosunbiz"
+          "title": "[초동시각]증시활황이 불러온 긍정 효과들 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5R3BxX0hna3BxcDcwYUhBdThiTW1qZDNLa2lYUTFXU1h1RnMzdi05M1l2bF9jaHlJUExxUXdPN2VjRkZxWjdOck9TZjBwY1NPMnUzSWhlaXJXajBtQnFQSg?oc=5",
+          "pub_date": "Mon, 18 May 2026 01:59:00 GMT",
+          "source": "아시아경제"
         },
         {
-          "title": "코스피 사상 첫 8000 찍고 급락 \"단기과열 해소, 매물 소화\" - 오마이뉴스",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54MlBlZWFmajdxRlJmSjN1LXl2UTlfQ0pHbVllZjg4WlVTMlM0T29pWkJqa0Nab3ZMNDU5VmhINXVGNGFIQVotN0drcklwZU9PcjBfdXllTUZPR1VWYkJLYWZUSkl3Z1JvemNEeUdtSEFTaWtvRlI4?oc=5",
-          "pub_date": "Fri, 15 May 2026 08:55:00 GMT",
-          "source": "오마이뉴스"
+          "title": "증시 활황에 작년 증권사 해외 점포 순이익 68% 뛰었다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mWmo2QVl4cmhJbmJPWkpFNU0zdENCcHo3T05jNXdyNmlvQkNhclVoME9WaWpjT3Y0WXdQeTUtM2NrcFlzQmc5SzJqMkFlMHc?oc=5",
+          "pub_date": "Sun, 17 May 2026 22:57:02 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "반도체주가 끌어올린 美증시⋯\"AI 랠리 뒤 거품 경고음\" - 포커스온경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xREVPY3p2Z3VGbUk0T3hkemV4VzdYTkNLVm5aZ2wyWTZCS3ZUTUJmMHpkd2k4OXFfS1N4aF9Bc1o5cmJPWWo3N1dzbkpOOVFjVGNabWFTeUc4NEZQU3c?oc=5",
+          "pub_date": "Mon, 18 May 2026 01:57:09 GMT",
+          "source": "포커스온경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 8000 찍더니 7500선 급락…매도 사이드카 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PT0MwdF9lY0RhWUtKcUptaEd5MWpQOGRwZ0VlNUJ0RC1hMXNMeEw5OWZoYzFzZjdzT21HQmdOSUt3V3BLRy1ST0lpcEFCMHU5YlZ6VHdiNGc1aTE1Qm1zN0gzZm9aUE0?oc=5",
-          "pub_date": "Fri, 15 May 2026 12:13:00 GMT",
-          "source": "한겨레"
+          "title": "[속보] 급락장에 코스피 매도 사이드카 발동 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNR1hMekEyTjkzR3VHNWFtUk1tN3RMeEx2WHMzSW9lUjFFbXZIMmMzY1VGRmx0VXZLVUhPYXpRU2ptd0ppcGhrM3BjRGhhdw?oc=5",
+          "pub_date": "Mon, 18 May 2026 00:22:11 GMT",
+          "source": "전자신문"
         },
         {
-          "title": "코스피 6%대 급락…원·달러 환율 1500원 돌파 - 지디넷코리아",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNVm1hMHhZeUd1bnJBOENPRkRYa1VUMThYcmpYb3ZsN2hZbThGbmhSNDYwOWRlcDJUaDF4a3RZNWs1ZElfWngwSXRrbU5WQ0FJRWlGRHZB?oc=5",
-          "pub_date": "Fri, 15 May 2026 05:44:12 GMT",
-          "source": "지디넷코리아"
+          "title": "[포토타임] 장중 4% 급락 코스피... 매도 사이드카 발동 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWbmZtZ01YLVNRTDdfT2dBc2xrTDE0OXZqVG1oY1pHaXBzbUUzZjB5Y3YtS0JQRDZicG1HQ3NmOThJbngtVElMZDIzdTducU9LeFBkX0Vn?oc=5",
+          "pub_date": "Mon, 18 May 2026 00:53:25 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "코스피 외국인 5조 투매에 6% 넘게 폭락…7,500선 하회 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ibExyd1BNOVpVaDUwYnNFVXV6V2phM3A5Y1ozVzFLSDJuZ2JrRUJaQU50ZVAyR2dRWS1HRGxtcG9oWmd4R1lTTHF2YWM3YVJaYU50ZmRjQWhkbThuZTluLVJQOXhfRjVrbUhCSXVoeGvSAXRBVV95cUxPZmVNbXduTWppZno5RUs4dU05SmdTYXh5RjV6Mkk3eXFVR1lDWlZjeHN6VTBQVWxDdktxZ0Q4dnVCTlFtT2RuaWExUTl2dkNPWnhRWG9lUHF5TXRRNE1SXzJ2M0FYUWtEYWNYeTI4eEg2ZFoySQ?oc=5",
-          "pub_date": "Fri, 15 May 2026 05:52:48 GMT",
-          "source": "연합인포맥스"
+          "title": "[마켓 프리뷰] 역대급 급락에 코스피 '비명'…뉴욕증시 반도체도 '뚝' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mMkUxbG5KaGVlUGFZOFlqdllkNElzX2FzcVpWLWRVUDZMVUhQbFBSXzlkRTZWazVJX3pSY0JVNjdycjlmZDkzdUxFU1FlMEU?oc=5",
+          "pub_date": "Sun, 17 May 2026 22:31:00 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "\"8000선 환호가 비명으로\"…코스피, 외인 '매도 폭탄'에 6%대 급락 마감 - 경기일보",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CYXh1aGFicHFJY3F4TFg1Rk9UY013dXV4M2VuY04wRkVjTXF0Vjg5UUNJd3U2bXZwRlI1RTBKLUE5NklkY1JSM3AxalVZN25wZENoSk55VGdibTA?oc=5",
-          "pub_date": "Fri, 15 May 2026 06:55:00 GMT",
-          "source": "경기일보"
+          "title": "[속보]3% 급락한 코스피, 매도사이드카 발동 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmVFJJM1F2anpTd3FodFNHMkxBakVYdHFhdXZ4N1JtWENRYU9nTGo5SmdPSml3M1FTNFRhUDhDal91NWNiUUkzaU5aZTFyVHMwNEZpRGZsVzBEZ9IBX0FVX3lxTE9mREU2VExRVkl4MU9jUXdFWTVFUFRNamZOZlpvSmlKcnV0Tlo5NTRjZ2xsU1RqSHZITUk5OG45V3RHUDkyWGlzUkhKQ2VxRVVQc0lKaDZ0aGxwUlI0QTdV?oc=5",
+          "pub_date": "Mon, 18 May 2026 00:24:00 GMT",
+          "source": "경향신문"
         },
         {
-          "title": "'8천피' 찍었지만, 코스피 급락 '매도 사이드카'···6.12% 내린 7493.18로 마감 - 대구MBC",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjUzFmUGxCNVZGZ2Z3VVZTRGdFTXFfaUEwT1Vpd1BuOVA4RGVwRDRvWWlER1AyTG5Ud09JTjhacHZxTWlpMVY3YlJIOTE?oc=5",
-          "pub_date": "Fri, 15 May 2026 06:47:44 GMT",
-          "source": "대구MBC"
+          "title": "[뉴스1 PICK]무너지는 코스피…7,100선 폭락에 매도 사이드카 발동 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5Y0tabUE4c0ZLRU5TX01rTGg1VlU4dnlLZE1UWVg1V1RKZkZnRnNVV0FVdGx0Q21oZVB2aVlHdGdXVWdCdXZ5WFh5X0sxemRwS3l3YkpmV0w3bDg?oc=5",
+          "pub_date": "Mon, 18 May 2026 00:52:56 GMT",
+          "source": "뉴스1"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.06,
-    "vvix": 94.26,
-    "skew": 139.32,
-    "move": 69.63
+    "vix": 18.43,
+    "vvix": 92.94,
+    "skew": 145.77,
+    "move": 79.87
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -7338700000000,
-    "retail_net_buy_krw": 7230800000000,
-    "margin_loan_krw": 35502400000000,
+    "foreign_inst_buy_krw": -1886000000000,
+    "retail_net_buy_krw": 1838600000000,
+    "margin_loan_krw": 35897000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
   },
   "indices": {
     "nasdaq": {
-      "current": 26635.22,
+      "current": 26225.14,
       "high_52w": 26707.14,
-      "drop_pct": -0.27
+      "drop_pct": -1.8
     },
     "kospi": {
-      "current": 7493.18,
+      "current": 7485.45,
       "high_52w": 8046.78,
-      "drop_pct": -6.88
+      "drop_pct": -6.98
     },
     "kosdaq": {
-      "current": 1129.82,
+      "current": 1104.92,
       "high_52w": 1229.42,
-      "drop_pct": -8.1
+      "drop_pct": -10.13
     },
     "sp500": {
-      "current": 7501.24,
+      "current": 7408.5,
       "high_52w": 7517.12,
-      "drop_pct": -0.21
+      "drop_pct": -1.44
     },
     "russell2k": {
-      "current": 2863.09,
+      "current": 2793.3,
       "high_52w": 2888.62,
-      "drop_pct": -0.88
+      "drop_pct": -3.3
     },
     "soxx": {
-      "current": 530.03,
+      "current": 508.52,
       "high_52w": 533.74,
-      "drop_pct": -0.7
+      "drop_pct": -4.73
     }
   },
   "sector_rs": {
-    "XLK": 1.173,
-    "SMH": 1.292,
-    "BOTZ": 0.969,
-    "IGV": 1.019,
-    "XLF": 0.899,
-    "XLE": 0.99
+    "XLK": 1.166,
+    "SMH": 1.258,
+    "BOTZ": 0.96,
+    "IGV": 1.044,
+    "XLF": 0.907,
+    "XLE": 1.025
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,9 +133,9 @@
     "sell_leading": true,
     "sell_expert": false,
     "sell_count": 2,
-    "emergency_exit_warning": false,
-    "stage_key": "sell_near",
-    "stage_key_raw": "sell_near",
+    "emergency_exit_warning": true,
+    "stage_key": "emergency",
+    "stage_key_raw": "emergency",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
@@ -144,15 +150,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 79.55,
+    "tqqq_profit_pct": 71.34,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 248.02,
+    "soxl_profit_pct": 206.88,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 150.12,
+    "koru_profit_pct": 104.3,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -262,8 +268,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-15",
-    "analyzed_at": "2026-05-15T01:04:54.397620+09:00",
+    "date": "2026-05-18",
+    "analyzed_at": "2026-05-18T11:10:51.619113+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -271,16 +277,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "au9zltyrWRw",
-        "title": "전세계 돈 몰리는 AI 반도체...‘수급’이 지배한다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-14T00:55:36Z",
-        "url": "https://youtube.com/watch?v=au9zltyrWRw",
+        "video_id": "zbQyY5JVfEU",
+        "title": "질질 끌려가는 시장…이번 조정은 폭보다 기간 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-05-18T00:40:37Z",
+        "url": "https://youtube.com/watch?v=zbQyY5JVfEU",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란에는 특정 주식 시장 스탠스를 나타내는 구체적인 투자 행동 권고(매수/매도/현금화 등)가 전혀 없으며, 대부분 채널 관련 정보 및 광고로 구성되어 있다."
+          "reason": "전문가는 시장이 '질질 끌려가는' 상태이며, 이번 조정이 '폭보다 기간'으로 나타날 것이라고 설명하여 시장의 어려운 상황과 장기화될 가능성을 분석했지만, 현금화, 비중 축소, 매도 등 구체적인 투자 행동을 명확하게 권고하지는 않았습니다."
         }
       },
       {
@@ -718,5 +724,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
   },
-  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
+  "recommended_action": "🚨 긴급탈출 · 위성 전량 매도 → 코어 균등 매수 (v5.1)"
 }
