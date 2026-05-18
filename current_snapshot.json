@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T05:42:54.380158+09:00",
+  "timestamp": "2026-05-19T07:10:55.803446+09:00",
   "sentiment": {
     "cnn_fng": 62.8,
     "cnn_components": {
@@ -14,15 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 3,
+      "greed_articles": [
+        {
+          "title": "“까르띠에 다무르 품절 났어요”…K증시 활황에 번진 ‘부의 효과’ - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tVnNfOW8yM1JacUJMaGxkdHA4N2dRVFJrdGlvYW5kVTRKNEFSeWh2Y0V2MGVMX3k4YjkzZjZ0VEtCRGwtUjFNcm9IOW1fVlBaSHfSAVNBVV95cUxOQ1Y0OC1zMWNHV0JVSEFfMUExSmlzVWxaczVGNmpLLW5Xc3c0aXNEa3BNYmREMkV3MDhKaHNXeDdWRlNLanZZQTBRYlB4TzBQRnY2dw?oc=5",
+          "pub_date": "Mon, 18 May 2026 21:31:00 GMT",
+          "source": "서울경제"
+        },
+        {
+          "title": "증시 활황이 농촌·교육을 살찌운다?… ‘목적세’ 대체 뭐길래 [스토리텔링경제] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sbDVSazA5Vl9IRnpPOVRPNmJnRGRIU1ZfUUtKald3T2FvRjFyY25QejhoTzNueW9XVWZFNXpTeS1TNVFKVXdEUDZTcV9IWGc?oc=5",
+          "pub_date": "Mon, 18 May 2026 21:03:15 GMT",
+          "source": "v.daum.net"
+        }
+      ],
       "fear_articles": [
         {
           "title": "[뉴욕증시] 반도체주 급락에 나스닥 하락…중동 리스크·고금리 공포에 '발목' - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaTJVM0JBYThMdW9yVFFZc2tCTzV2SUg4Rl9BbFFSN29qd3FJRllwRVJFU1FXRllUcFN5bVRDNG9ZcWVQRjF5WU96SkIyeHhsNGh4akw2N1Vzcm1NVmFzc3dyZFdjTFc4N3hMV1kteE50UVVaZU5jYzdhdUNkN1ZId3Y4X1NMb3Nj?oc=5",
           "pub_date": "Mon, 18 May 2026 20:29:16 GMT",
           "source": "글로벌이코노믹"
+        },
+        {
+          "title": "100조 투매에도 지분율은 상승… 코스피 불장이 만든 ‘외인 지분 미스터리’ - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm1oVVVsV3FfeXFOTzk1UnJyamRVMWRPS09LVjhSWFEtbHNBUkY2eVJINm1jSmlmLWx0OGhQcGZFUTdmR2x3YzdHNVE4MkNlcE9YMnBtdXlyb0p3bXRuNXRpaXQ0aXNKUHE4M1lWT3E0eDRQaHVvSkNTaFlZVGFqektvX3BNS1Jm0gGcAUFVX3lxTFBlMWpZVlNWRzJrTHlzX25hRXV0dUNkaTFNZHZ0cDd1WVJuaE5SM0VEbnhNR1lmY2dyQkVaUnotY1ppT0hRN2RSenRxenJ3X24wQkNSRWZtQ0FKaDJTX2F4NWhqa2EtMVZ6LUgzNDhGRk9tNGhqTDFXa0RXeXRwVmpVeEZ6QmdYQVlDbHBMQkpxZmxmR2hPODhaaTBpcA?oc=5",
+          "pub_date": "Mon, 18 May 2026 21:05:52 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "메모리 칩 급락, 뉴욕 증시 혼조 마감…트럼프, \"19일 이란 공격 취소\" - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50TTNoWmYwcHF5VmtqOTZZbDA5ZS1zVzJpcGtGYkVEV0ZaUmJDa19WYndsMlA2NWhYUVpwdjQ0UkZET0FaUEFURG9PUVFrN3E3TzZCQW5xUlpjWGVRX3ZNb0pjZVM?oc=5",
+          "pub_date": "Mon, 18 May 2026 20:25:36 GMT",
+          "source": "디지털데일리"
         }
       ]
     }
@@ -30,8 +55,8 @@
   "volatility": {
     "vix": 17.82,
     "vvix": 91.18,
-    "skew": 145.77,
-    "move": 79.87
+    "skew": 138.4,
+    "move": 86.07
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -2258800000000,
@@ -277,7 +302,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 165.893,
+    "strategy_pct": 169.732,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -661,7 +686,7 @@
       },
       {
         "date": "2026-05-19",
-        "ret_pct": 165.893
+        "ret_pct": 169.732
       }
     ],
     "monthly_breakdown": [
@@ -691,9 +716,9 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 44.86,
-        "end_ret_pct": 165.89,
-        "max_dd_pct": 33.6
+        "return_pct": 48.7,
+        "end_ret_pct": 169.73,
+        "max_dd_pct": 29.76
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
