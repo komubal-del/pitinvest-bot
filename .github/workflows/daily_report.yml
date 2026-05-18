@@ -2,7 +2,9 @@ name: Pitinvest Hourly Update
 
 on:
   schedule:
-    - cron: '0 * * * 1-5'   # 평일 매시 정각 (UTC 기준)
+    # GitHub cron은 정각에 부하 집중 → skip 빈번. 7분 오프셋으로 분산.
+    # UTC 기준. 평일 매시 7분 (KST = UTC+9, KST 매시 7분에 실행)
+    - cron: '7 * * * 1-5'
   workflow_dispatch:
 
 jobs:
