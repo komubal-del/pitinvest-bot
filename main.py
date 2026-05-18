@@ -1797,6 +1797,7 @@ def analyze_experts_daily():
             print(f"[expert cache] load fail: {e}")
 
     # 오늘 이미 분석이 유효하고 프롬프트 버전이 같으면 그대로 재사용
+    # 단, 일부 전문가가 missing placeholder 상태면 재시도 (fallback 채널 검색)
     if existing_cache and existing_cache.get('date') == today \
        and existing_cache.get('prompt_version') == PROMPT_VERSION:
         videos = existing_cache.get('videos') or []
@@ -1804,9 +1805,22 @@ def analyze_experts_daily():
             v.get('analysis', {}).get('stance') in ('warning', 'bullish', 'neutral')
             for v in videos
         )
-        if valid:
+        # 모든 전문가가 실제 영상 (missing 아님) 으로 분석되었는지 확인
+        analyzed_experts = set()
+        for v in videos:
+            if v.get('text_source') == 'missing':
+                continue
+            title = v.get('title', '') or ''
+            for ex in TARGET_EXPERTS:
+                if ex in title:
+                    analyzed_experts.add(ex)
+        all_covered = analyzed_experts >= set(TARGET_EXPERTS)
+        if valid and all_covered:
             print(f"✅ 전문가 분석 캐시 히트 ({today})")
             return existing_cache
+        if valid and not all_covered:
+            missing_now = set(TARGET_EXPERTS) - analyzed_experts
+            print(f"🔁 캐시 부분 재시도 — 누락 전문가: {', '.join(missing_now)} (보조 채널 검색)")
         # 오늘 분석했지만 videos 없거나 전부 에러 → 아래에서 재시도
 
     # 새 분석
