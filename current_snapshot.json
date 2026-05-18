@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T18:19:35.259015+09:00",
+  "timestamp": "2026-05-18T20:12:07.729398+09:00",
   "sentiment": {
     "cnn_fng": 62.9142857142857,
     "cnn_components": {
@@ -15,28 +15,22 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 22,
+      "fear_count": 18,
       "greed_articles": [
+        {
+          "title": "[매경포럼] 증시 활황과 성과급, 집값 향방은 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OYkhpcGVNWnBiTjFLZ1ZGQTN4Tms5RkkwNzI3TUxacFRjUnNYZjBTaXNXb0lpaVlaRHZ4dk9BZ0RGSUczWDVzRlYtUUJQZE5neEtpdFRld0o?oc=5",
+          "pub_date": "Mon, 18 May 2026 10:12:27 GMT",
+          "source": "매일경제"
+        },
         {
           "title": "[애프터마켓 브리핑] 증시 활황 속 대체거래소도 호실적 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VU10b1RRVW1iTGUwZExCSGJjU3ZHdWlhVVRWaHVUMTdFdkc4NzVDSlRCZVlDakNoem9Mbk54LXNRZTg3MEJSdWdFbWpUY0U?oc=5",
           "pub_date": "Mon, 18 May 2026 07:45:20 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "주식시장 활황에 코스피 시총, 수도권 주택 시총 첫 역전 - 데일리굿뉴스",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MZjhTQzVKTi1HSThJVGt1ZUdjWVVIejNadGFLbDdPZXA4ZEFiVnY2NFppaDJIUG9qUkhZWWhnQURxTXp0eVRuSUVYVDlzSEVkczlkbEE3UVNzdnBsR2ZhVUJkaTBpOWl1YkVfYdIBcEFVX3lxTE50VGV4YlpVMloyZnBYQUU0ZUx1bUktd0Q4bHdSWmVjSXR4SXlfVXUzQ1FlNnEzengwWXY2bkh4bVRXckdOUWlvTXRLUmt6M0NOS2JIU0p4ZElJYm9sRTA4YmpaU0hpbEpzS0FlNTJocUU?oc=5",
-          "pub_date": "Mon, 18 May 2026 02:13:58 GMT",
-          "source": "데일리굿뉴스"
         }
       ],
       "fear_articles": [
-        {
-          "title": "코스피 매도사이드카 급락에도 상승 마감 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRbHJYRkU2LXhzSFFIZ2dseUh2ckJKUk0zZFpLdE1ibE9iT3N2LTgySWdLRzVaZjFxQUdzTktUOC00ZzQ1Tk5KR2ZtOXQ2Zmc?oc=5",
-          "pub_date": "Mon, 18 May 2026 07:51:23 GMT",
-          "source": "v.daum.net"
-        },
         {
           "title": "코스피, 오전 급락 딛고 7510선 마감…삼성전자 반등에 변동성 장세 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvdHdKWGYzMkdJWGtpRlhIb0puSV9ScHAzemMxQVBoOHhxU1NXeEtDdzZJRm5xdWZ0YVVnUDVXRU9kVXJhTXA1eUI3NWFIZw?oc=5",
@@ -44,10 +38,10 @@
           "source": "전자신문"
         },
         {
-          "title": "'검은 월요일' 될 뻔 했는데…코스피, 급락 후 반등 - 노컷뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRmMxektyeGtGbW9zNDlhcGZ4OEs1TUZOUGNZd1IweHpwMmZfdWl2Q3pjYURuWThOSm5HOHptclVuV25zb0szVHg1bjYwTTZhQ0E?oc=5",
-          "pub_date": "Mon, 18 May 2026 07:23:00 GMT",
-          "source": "노컷뉴스"
+          "title": "코스피 매도사이드카 급락에도 상승 마감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRbHJYRkU2LXhzSFFIZ2dseUh2ckJKUk0zZFpLdE1ibE9iT3N2LTgySWdLRzVaZjFxQUdzTktUOC00ZzQ1Tk5KR2ZtOXQ2Zmc?oc=5",
+          "pub_date": "Mon, 18 May 2026 07:51:23 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "[증시-마감] 코스피, 급락 딛고 7,500선 회복…삼성전자 반등 - 연합인포맥스",
@@ -60,12 +54,18 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZTVFUQk5TTE9LVmZaZF9TaWxtd2lYYzZaRlQwRUpmVGZsLUFicFdKSlV1ZkVCSnNqVVNoTDlULXV2bVFlOG5nVnF5QUl5VmxUSW1kRWlrRVVhMlRlbjBV?oc=5",
           "pub_date": "Mon, 18 May 2026 07:15:50 GMT",
           "source": "뉴스1"
+        },
+        {
+          "title": "7500선 지켜낸 코스피…개인이 막은 급락 [마감시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BSzc3bTJ0VVVIZ21vNjBiOG5ZMmsyNGg5X1NIZUxza21xcnpjckh1VDBBb05Ma09Wa1QwN21pZmhuMVh4VHA2cUpMdWlJbEp4Z2g0MGpCbEZtdE0?oc=5",
+          "pub_date": "Mon, 18 May 2026 07:05:28 GMT",
+          "source": "에너지경제신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.93,
+    "vix": 19.14,
     "vvix": 92.94,
     "skew": 145.77,
     "move": 79.87
@@ -181,6 +181,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.05.18",
+            "close": 281000,
+            "change_pct": 3.88,
+            "retail_net": 1682696,
+            "inst_net": 2803397,
+            "foreign_net": -4486093
+          },
+          {
             "date": "2026.05.15",
             "close": 270500,
             "change_pct": -8.61,
@@ -211,17 +219,17 @@
             "retail_net": 7902377,
             "inst_net": -78144,
             "foreign_net": -7824233
-          },
-          {
-            "date": "2026.05.11",
-            "close": 285500,
-            "change_pct": 6.33,
-            "retail_net": 6398738,
-            "inst_net": 1599184,
-            "foreign_net": -7997922
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.18",
+            "close": 1840000,
+            "change_pct": 1.15,
+            "retail_net": 292567,
+            "inst_net": 267189,
+            "foreign_net": -559756
+          },
           {
             "date": "2026.05.15",
             "close": 1819000,
@@ -253,14 +261,6 @@
             "retail_net": 2129943,
             "inst_net": -495350,
             "foreign_net": -1634593
-          },
-          {
-            "date": "2026.05.11",
-            "close": 1880000,
-            "change_pct": 11.51,
-            "retail_net": 427881,
-            "inst_net": 26698,
-            "foreign_net": -454579
           }
         ]
       }
