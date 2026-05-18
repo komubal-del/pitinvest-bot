@@ -1,72 +1,28 @@
 {
-  "timestamp": "2026-05-18T20:12:07.729398+09:00",
+  "timestamp": "2026-05-19T00:54:34.081410+09:00",
   "sentiment": {
-    "cnn_fng": 62.9142857142857,
+    "cnn_fng": 62.0285714285714,
     "cnn_components": {
-      "momentum": 98.2,
-      "strength": 49.0,
-      "breadth": 33.2,
-      "put_call": 95.0,
-      "junk_bond": 26.0,
+      "momentum": 96.0,
+      "strength": 46.2,
+      "breadth": 29.8,
+      "put_call": 88.4,
+      "junk_bond": 35.4,
       "volatility": 50.0,
-      "safe_haven": 89.0
+      "safe_haven": 88.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 18,
-      "greed_articles": [
-        {
-          "title": "[매경포럼] 증시 활황과 성과급, 집값 향방은 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OYkhpcGVNWnBiTjFLZ1ZGQTN4Tms5RkkwNzI3TUxacFRjUnNYZjBTaXNXb0lpaVlaRHZ4dk9BZ0RGSUczWDVzRlYtUUJQZE5neEtpdFRld0o?oc=5",
-          "pub_date": "Mon, 18 May 2026 10:12:27 GMT",
-          "source": "매일경제"
-        },
-        {
-          "title": "[애프터마켓 브리핑] 증시 활황 속 대체거래소도 호실적 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VU10b1RRVW1iTGUwZExCSGJjU3ZHdWlhVVRWaHVUMTdFdkc4NzVDSlRCZVlDakNoem9Mbk54LXNRZTg3MEJSdWdFbWpUY0U?oc=5",
-          "pub_date": "Mon, 18 May 2026 07:45:20 GMT",
-          "source": "v.daum.net"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피, 오전 급락 딛고 7510선 마감…삼성전자 반등에 변동성 장세 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvdHdKWGYzMkdJWGtpRlhIb0puSV9ScHAzemMxQVBoOHhxU1NXeEtDdzZJRm5xdWZ0YVVnUDVXRU9kVXJhTXA1eUI3NWFIZw?oc=5",
-          "pub_date": "Mon, 18 May 2026 06:46:06 GMT",
-          "source": "전자신문"
-        },
-        {
-          "title": "코스피 매도사이드카 급락에도 상승 마감 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRbHJYRkU2LXhzSFFIZ2dseUh2ckJKUk0zZFpLdE1ibE9iT3N2LTgySWdLRzVaZjFxQUdzTktUOC00ZzQ1Tk5KR2ZtOXQ2Zmc?oc=5",
-          "pub_date": "Mon, 18 May 2026 07:51:23 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[증시-마감] 코스피, 급락 딛고 7,500선 회복…삼성전자 반등 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CaGotaC1FTTBGOHBhRDZDdDlEajlHMlNRZEwxZ1IyVG12WEVjbEx2T1V0ajU0ZHVadzhLOU5QNHgzOVhvWXZad0thQTFCYTdudWJ5MHNObl9rTzNPdnMtZTRPTHdFdE02QkxfOEFKbXU?oc=5",
-          "pub_date": "Mon, 18 May 2026 06:54:12 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 장 초반 급락 딛고 0.31% 상승…삼전 '파업 동력' 약화 [시황종합] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZTVFUQk5TTE9LVmZaZF9TaWxtd2lYYzZaRlQwRUpmVGZsLUFicFdKSlV1ZkVCSnNqVVNoTDlULXV2bVFlOG5nVnF5QUl5VmxUSW1kRWlrRVVhMlRlbjBV?oc=5",
-          "pub_date": "Mon, 18 May 2026 07:15:50 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "7500선 지켜낸 코스피…개인이 막은 급락 [마감시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BSzc3bTJ0VVVIZ21vNjBiOG5ZMmsyNGg5X1NIZUxza21xcnpjckh1VDBBb05Ma09Wa1QwN21pZmhuMVh4VHA2cUpMdWlJbEp4Z2g0MGpCbEZtdE0?oc=5",
-          "pub_date": "Mon, 18 May 2026 07:05:28 GMT",
-          "source": "에너지경제신문"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 19.14,
-    "vvix": 92.94,
+    "vix": 18.61,
+    "vvix": 92.21,
     "skew": 145.77,
     "move": 79.87
   },
@@ -80,49 +36,49 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26225.14,
+      "current": 26058.34,
       "high_52w": 26707.14,
-      "drop_pct": -1.8,
-      "intraday_low_drop_pct": -2.28
+      "drop_pct": -2.43,
+      "intraday_low_drop_pct": -2.69
     },
     "kospi": {
-      "current": 7516.04,
+      "current": 7493.18,
       "high_52w": 8046.78,
-      "drop_pct": -6.6,
-      "intraday_low_drop_pct": -11.24
+      "drop_pct": -6.88,
+      "intraday_low_drop_pct": -8.39
     },
     "kosdaq": {
-      "current": 1111.09,
+      "current": 1129.82,
       "high_52w": 1229.42,
-      "drop_pct": -9.62,
-      "intraday_low_drop_pct": -12.83
+      "drop_pct": -8.1,
+      "intraday_low_drop_pct": -9.7
     },
     "sp500": {
-      "current": 7408.5,
+      "current": 7388.27,
       "high_52w": 7517.12,
-      "drop_pct": -1.44,
-      "intraday_low_drop_pct": -1.59
+      "drop_pct": -1.71,
+      "intraday_low_drop_pct": -1.93
     },
     "russell2k": {
-      "current": 2793.3,
+      "current": 2777.73,
       "high_52w": 2888.62,
-      "drop_pct": -3.3,
-      "intraday_low_drop_pct": -3.36
+      "drop_pct": -3.84,
+      "intraday_low_drop_pct": -4.0
     },
     "soxx": {
-      "current": 508.52,
+      "current": 497.82,
       "high_52w": 533.74,
-      "drop_pct": -4.73,
-      "intraday_low_drop_pct": -5.15
+      "drop_pct": -6.73,
+      "intraday_low_drop_pct": -7.66
     }
   },
   "sector_rs": {
-    "XLK": 1.166,
-    "SMH": 1.258,
-    "BOTZ": 0.96,
-    "IGV": 1.044,
-    "XLF": 0.907,
-    "XLE": 1.025
+    "XLK": 1.147,
+    "SMH": 1.231,
+    "BOTZ": 0.963,
+    "IGV": 1.041,
+    "XLF": 0.915,
+    "XLE": 1.03
   },
   "signals": {
     "cnn_under_10": false,
@@ -134,7 +90,7 @@
     "sell_expert": false,
     "sell_count": 2,
     "emergency_exit_warning": false,
-    "emergency_today": true,
+    "emergency_today": false,
     "emergency_marker_active": true,
     "emergency_first_fired_date": "2026-05-15",
     "stage_key": "sell_near",
@@ -153,15 +109,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 71.34,
+    "tqqq_profit_pct": 67.86,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 206.88,
+    "soxl_profit_pct": 186.86,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 104.3,
+    "koru_profit_pct": 98.49,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_source": "theoretical"
@@ -271,8 +227,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-18",
-    "analyzed_at": "2026-05-18T18:19:43.361130+09:00",
+    "date": "2026-05-19",
+    "analyzed_at": "2026-05-19T00:54:38.674701+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
