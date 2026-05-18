@@ -18,5 +18,6 @@
     "signal_first_fired": {
         "sell_leverage": "2026-04-24",
         "sell_leading": "2026-05-07"
-    }
+    },
+    "emergency_first_fired_date": "2026-05-15"
 }

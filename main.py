@@ -242,16 +242,19 @@ def fetch_extended_market(csv_path='pitinvest_history.csv'):
             if clean.empty:
                 continue
             current  = float(clean["Close"].iloc[-1])
+            today_low = float(clean["Low"].iloc[-1])  # 오늘 장중 저점 (긴급탈출 raw 트리거용)
             high_52w_yf  = float(clean["High"].max())  # 장중 고가 기준 (yfinance)
             high_52w_csv = _csv_max(csv_path, f'{key}_52w_high')  # CSV 과거 기록 fallback
             high_52w = max(high_52w_yf, high_52w_csv)
             if not (current > 0 and high_52w > 0):
                 continue
             drop_pct = (current / high_52w - 1) * 100
+            intraday_low_drop_pct = (today_low / high_52w - 1) * 100  # 장중 저점 기준
             result["indices"][key] = {
                 "current":  round(current, 2),
                 "high_52w": round(high_52w, 2),
                 "drop_pct": round(drop_pct, 2),
+                "intraday_low_drop_pct": round(intraday_low_drop_pct, 2),
             }
         except Exception as e:
             print(f"[idx] {key} fail: {e}")
@@ -788,7 +791,17 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     buy_count  = int(cnn_fired) + int(vix_fired) + int(margin_fired)
     sell_count = int(leverage_over) + int(sell_leading_fired) + int(sell_expert_fired)
 
-    emergency = any((v.get("drop_pct", 0) or 0) <= -9.0 for v in ext["indices"].values())
+    # 긴급탈출: 장중 저점 또는 종가 중 하나라도 −10% 도달 시 sticky 발동.
+    # 사이클 리셋(위성=0) 전까지 1회만 카운트. 가격이 다시 위로 올라가도 액션 신호 재발동 X.
+    def _idx_emergency(v):
+        return ((v.get("drop_pct", 0) or 0) <= -10.0
+                or (v.get("intraday_low_drop_pct", 0) or 0) <= -10.0)
+    emergency_today = any(_idx_emergency(v) for v in ext["indices"].values())
+    emergency_marker = bool((master_data or {}).get('emergency_first_fired_date'))
+    # 마커 있으면 (이미 발동된 사이클) emergency stage를 더 이상 안 띄움.
+    # 마커는 사이클 리셋 (위성=0% + 신호 marker clear) 시점에 함께 clear됨.
+    emergency = emergency_today and not emergency_marker
+    emergency_marker_active = emergency_marker
 
     # --- 오늘 RAW 상태 + 전날 비교 ---
     raw_stage = compute_raw_stage_key(emergency, buy_count, sell_count)
@@ -800,7 +813,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
 
     # v5.0 액션: 매수/매도 모두 1/3 step (33.33%p)
     if raw_stage == 'emergency':
-        specific_action = "🚨 긴급탈출 · 위성 전량 매도 → 코어 균등 매수 (v5.1)"
+        specific_action = "🚨 긴급탈출 첫 발동 · 위성 전량 매도 → 코어 균등 매수 (v5.1) · 사이클 리셋 전까지 1회만"
     elif raw_stage == 'reset':
         specific_action = "♻️ 매도 3조건 모두 충족 · 위성 전량 → 코어 매수 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
@@ -866,6 +879,9 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "sell_expert":         sell_expert_fired,
             "sell_count":          sell_count,
             "emergency_exit_warning": emergency,
+            "emergency_today":       emergency_today,    # raw (게이지/뱃지 용)
+            "emergency_marker_active": emergency_marker_active,
+            "emergency_first_fired_date": (master_data or {}).get('emergency_first_fired_date'),
             "stage_key":     display_stage,
             "stage_key_raw": raw_stage,
             # v5.0: today raw 값 (sticky와 별도로 오늘만)
@@ -1373,7 +1389,13 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
 
 # 🎙️ 4-quad. 전문가 경고 자동화 (YouTube RSS + Gemini API)
 CHANNEL_ID_SAMPRO = 'UChlv4GSd7OQl3js-jkLOnFA'  # 삼프로TV_경제의신과함께
+CHANNEL_ID_YONHAP_ECON = 'UC6kZpTl39-_SqfBrF1-N2oQ'  # 연합뉴스경제TV
 TARGET_EXPERTS = ('박병창', '윤지호')
+
+# 전문가별 보조 채널 (1순위 삼프로TV에서 누락 시 폴백 검색)
+EXPERT_FALLBACK_CHANNELS = {
+    '윤지호': [CHANNEL_ID_YONHAP_ECON],
+}
 EXPERT_CACHE_PATH = 'expert_analysis_cache.json'
 VIDEO_HISTORY_PATH = 'video_analysis_history.json'  # 영상별 분석 영구 캐시
 GEMINI_MODEL_NAME = 'gemini-2.5-flash'  # 2026 기준 무료 티어 기본 모델
@@ -1825,17 +1847,46 @@ def analyze_experts_daily():
             break
     print(f"  - [{source}] 전체 {len(all_videos)}개 → 전문가별 최신 {len(expert_videos)}개 선택 ({', '.join(seen_experts)})")
 
-    # 14일 내 누락된 전문가 → search.list로 채널 전체 기간 fallback
+    # 14일 내 누락된 전문가 → (1) 보조 채널 14일 → (2) 채널별 search.list 전체 기간 fallback
     fallback_used = set()
     for missing in (set(TARGET_EXPERTS) - seen_experts):
-        matches = search_channel_for_expert(missing)
-        # 검색은 부분일치도 잡히므로 이름이 실제로 제목에 있는지 한번 더 확인
-        for v in matches:
-            if missing in v.get('title', ''):
-                expert_videos.append(v)
-                seen_experts.add(missing)
-                fallback_used.add(missing)
-                print(f"  ⏪ [{missing}] 14일 외 fallback: [{v['published'][:10]}] {v['title'][:50]}")
+        found = False
+        extra_channels = EXPERT_FALLBACK_CHANNELS.get(missing, [])
+
+        # (1) 보조 채널 최근 14일에서 직접 매칭
+        for ch_id in extra_channels:
+            extras = fetch_channel_videos_api(channel_id=ch_id, days=14)
+            if extras is None:
+                try:
+                    extras = parse_rss(fetch_channel_rss(channel_id=ch_id))
+                except Exception as e:
+                    print(f"[expert RSS {ch_id}] fail: {e}")
+                    extras = []
+            for v in (extras or []):
+                if missing in v.get('title', ''):
+                    expert_videos.append(v)
+                    seen_experts.add(missing)
+                    found = True
+                    print(f"  ➕ [{missing}] 보조 채널 14일: [{v['published'][:10]}] {v['title'][:50]}")
+                    break
+            if found:
+                break
+
+        if found:
+            continue
+
+        # (2) 검색 API — 삼프로 채널 + 보조 채널 모두
+        for ch_id in [CHANNEL_ID_SAMPRO] + extra_channels:
+            matches = search_channel_for_expert(missing, channel_id=ch_id)
+            for v in matches:
+                if missing in v.get('title', ''):
+                    expert_videos.append(v)
+                    seen_experts.add(missing)
+                    fallback_used.add(missing)
+                    print(f"  ⏪ [{missing}] 14일 외 fallback (ch={ch_id[:8]}..): [{v['published'][:10]}] {v['title'][:50]}")
+                    found = True
+                    break
+            if found:
                 break
 
     # 영상별 영구 캐시 로드 (같은 video_id 는 한 번만 Gemini 호출)
@@ -2191,6 +2242,7 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         'signal_first_fired': cleared_signals,
         'sell1_first_fired_date': None,  # 옛 호환 필드도 clear
         'sell1_d_day_notified': False,
+        'emergency_first_fired_date': None,  # 긴급탈출 마커도 clear → 새 사이클 시작
     }
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
@@ -2293,10 +2345,21 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
         src = 'CSV backfill' if backfilled.get(key) else '오늘 기준'
         print(f"📅 신호 마커 기록: {key} = {fire_date} ({src})")
 
+    # 긴급탈출 sticky 마커: 별도 처리 (signal_first_fired와 분리, 6신호 카운트와 무관)
+    emergency_fire_today = bool(sig.get('emergency_exit_warning'))
+    emergency_marker_existing = master_data.get('emergency_first_fired_date')
+    emergency_master_update = None
+    if emergency_fire_today and not emergency_marker_existing:
+        emergency_master_update = today_full
+        changed = True
+        print(f"🚨 긴급탈출 마커 기록: {today_full} (사이클 리셋 전까지 sticky)")
+
     if not changed:
         return False, current
 
     new_master = {**master_data, 'signal_first_fired': current}
+    if emergency_master_update:
+        new_master['emergency_first_fired_date'] = emergency_master_update
     # 옛 sell1_first_fired_date 호환 — sell_leverage 마커가 있으면 같이 set
     if current.get('sell_leverage'):
         new_master['sell1_first_fired_date'] = current['sell_leverage']
