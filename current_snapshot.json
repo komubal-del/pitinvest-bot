@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T15:13:39.769951+09:00",
+  "timestamp": "2026-05-18T18:19:35.259015+09:00",
   "sentiment": {
     "cnn_fng": 62.9142857142857,
     "cnn_components": {
@@ -14,83 +14,65 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 32,
+      "greed_count": 2,
+      "fear_count": 22,
       "greed_articles": [
+        {
+          "title": "[애프터마켓 브리핑] 증시 활황 속 대체거래소도 호실적 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VU10b1RRVW1iTGUwZExCSGJjU3ZHdWlhVVRWaHVUMTdFdkc4NzVDSlRCZVlDakNoem9Mbk54LXNRZTg3MEJSdWdFbWpUY0U?oc=5",
+          "pub_date": "Mon, 18 May 2026 07:45:20 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "주식시장 활황에 코스피 시총, 수도권 주택 시총 첫 역전 - 데일리굿뉴스",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MZjhTQzVKTi1HSThJVGt1ZUdjWVVIejNadGFLbDdPZXA4ZEFiVnY2NFppaDJIUG9qUkhZWWhnQURxTXp0eVRuSUVYVDlzSEVkczlkbEE3UVNzdnBsR2ZhVUJkaTBpOWl1YkVfYdIBcEFVX3lxTE50VGV4YlpVMloyZnBYQUU0ZUx1bUktd0Q4bHdSWmVjSXR4SXlfVXUzQ1FlNnEzengwWXY2bkh4bVRXckdOUWlvTXRLUmt6M0NOS2JIU0p4ZElJYm9sRTA4YmpaU0hpbEpzS0FlNTJocUU?oc=5",
           "pub_date": "Mon, 18 May 2026 02:13:58 GMT",
           "source": "데일리굿뉴스"
-        },
-        {
-          "title": "[초동시각]증시활황이 불러온 긍정 효과들 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5R3BxX0hna3BxcDcwYUhBdThiTW1qZDNLa2lYUTFXU1h1RnMzdi05M1l2bF9jaHlJUExxUXdPN2VjRkZxWjdOck9TZjBwY1NPMnUzSWhlaXJXajBtQnFQSg?oc=5",
-          "pub_date": "Mon, 18 May 2026 01:59:00 GMT",
-          "source": "아시아경제"
-        },
-        {
-          "title": "증시 쏠림에 코인 거래소 ‘실적 쇼크’… 업비트만 흑자 예상 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmF4SldHTkZkRkhVYXVrVm1oOUxZNjFOaVl3VFdDWTRBQjIwTFJjVy1ZYTRsZGNrb3RwcUJ5aUM3ZklQMFBoZkVxNUNxazB0dnJEaUN3akFIU2QxenZMLXdIek9EMk1iTEwtU1h5QlI5dnpMRm9wZVgtckotZFl5TNIBlAFBVV95cUxNam9peXVCREZCNnpMZTZ2RWU2LUZnc0k2cFBjVTVxSE9QelpPVkR5LVdaYXpfbmp2UXZPdDhHdUI0RmlCZGx3TENodVVRNFJvbEJ6aFpUYmtUMVBZSjFxOUYyVG5Hb19hZFRqdXhfZElrTkdmVmlsSE5nTDZaTnBHeXpHZWxYeFloenhwN3prMlJkbTdi?oc=5",
-          "pub_date": "Mon, 18 May 2026 04:22:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "은행권, 증시활황에 앞다퉈 예금금리 인상...전달 보다 0.05~0.1%p 올려 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vX3BURlNnQWdXQWhoZ3hMNktPc0psSFQyTVFoZnpQN2xqM1otY2NieUhQTlFwTGFZdE43WGhxdkY1U29rbkgyUTZNYjJnd2hOXzhXZkp1aFlaVlEyRlZzYzNtY3dpTTZhMC1HNUZUcXA3QQ?oc=5",
-          "pub_date": "Mon, 18 May 2026 05:36:49 GMT",
-          "source": "인더스트리뉴스"
-        },
-        {
-          "title": "'8000피' 찍고 고꾸라진 코스피…불어난 빚투 '경고음' - 블로터",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vWEo3U0drczJOMzd3WFIzZ0l1amRONk5vVmkyMUFoZ0ltWXh2ZGphZVBHUGV5bnV3MXU3MlgzOEllc054WlQ0X2RnajRiSmdvby1PVFlpUl9vUU5zRHhGMHRzOTdvNy1kenFRN9IBbEFVX3lxTE9vWEo3U0drczJOMzd3WFIzZ0l1amRONk5vVmkyMUFoZ0ltWXh2ZGphZVBHUGV5bnV3MXU3MlgzOEllc054WlQ0X2RnajRiSmdvby1PVFlpUl9vUU5zRHhGMHRzOTdvNy1kenFRNw?oc=5",
-          "pub_date": "Mon, 18 May 2026 02:25:18 GMT",
-          "source": "블로터"
         }
       ],
       "fear_articles": [
         {
-          "title": "급락장에 코스피 매도 사이드카 발동 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBNR1hMekEyTjkzR3VHNWFtUk1tN3RMeEx2WHMzSW9lUjFFbXZIMmMzY1VGRmx0VXZLVUhPYXpRU2ptd0ppcGhrM3BjRGhhdw?oc=5",
-          "pub_date": "Mon, 18 May 2026 00:22:11 GMT",
-          "source": "전자신문"
-        },
-        {
-          "title": "[셀럽의 한 수] 뉴욕증시, 지난주 말 기술주 급락에 일제히 하락 마감 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLQ05YRUpObXp3ZTN2WXhtNXFmQURCS0ZCb0VSWmFIcm5vV29GRnQ3ck9XTTFjUFpCRG9pSzFoRl9ybWUwYWpQUzhyMGRRRFk?oc=5",
-          "pub_date": "Mon, 18 May 2026 05:25:16 GMT",
+          "title": "코스피 매도사이드카 급락에도 상승 마감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRbHJYRkU2LXhzSFFIZ2dseUh2ckJKUk0zZFpLdE1ibE9iT3N2LTgySWdLRzVaZjFxQUdzTktUOC00ZzQ1Tk5KR2ZtOXQ2Zmc?oc=5",
+          "pub_date": "Mon, 18 May 2026 07:51:23 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "[속보]3% 급락한 코스피, 매도사이드카 발동 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmVFJJM1F2anpTd3FodFNHMkxBakVYdHFhdXZ4N1JtWENRYU9nTGo5SmdPSml3M1FTNFRhUDhDal91NWNiUUkzaU5aZTFyVHMwNEZpRGZsVzBEZ9IBX0FVX3lxTE9mREU2VExRVkl4MU9jUXdFWTVFUFRNamZOZlpvSmlKcnV0Tlo5NTRjZ2xsU1RqSHZITUk5OG45V3RHUDkyWGlzUkhKQ2VxRVVQc0lKaDZ0aGxwUlI0QTdV?oc=5",
-          "pub_date": "Mon, 18 May 2026 00:24:00 GMT",
-          "source": "경향신문"
-        },
-        {
-          "title": "[속보] 코스피, 장 초반 4%대 급락…7100선 후퇴 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55V2RwcTZwNTdGWVBGdHV6Vk5wYV9ka0dncGwybXF4TEZFT3V4QjMxc1ptMzNmTXNoRmpCT0hzZUFwdGVCekIzdXh3SUpkdw?oc=5",
-          "pub_date": "Mon, 18 May 2026 00:18:23 GMT",
+          "title": "코스피, 오전 급락 딛고 7510선 마감…삼성전자 반등에 변동성 장세 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvdHdKWGYzMkdJWGtpRlhIb0puSV9ScHAzemMxQVBoOHhxU1NXeEtDdzZJRm5xdWZ0YVVnUDVXRU9kVXJhTXA1eUI3NWFIZw?oc=5",
+          "pub_date": "Mon, 18 May 2026 06:46:06 GMT",
           "source": "전자신문"
         },
         {
-          "title": "코스피, 장 초반 급락 딛고 강보합 전환…7,500 회복 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YVEJ0d2JkU1FQdmJvTmxMLUhjNkl0dW0yVlR6ZGtPRW5KX0FsUl92VnE2eXdJYklCV0QzU1phcWhYQ0dRZnliLUZ0SmstTEdZN1F2TGd4TXdYRGhCMmFLaFp6S3loNWVLbG4yWkJIZ3c?oc=5",
-          "pub_date": "Mon, 18 May 2026 02:12:20 GMT",
+          "title": "'검은 월요일' 될 뻔 했는데…코스피, 급락 후 반등 - 노컷뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yRmMxektyeGtGbW9zNDlhcGZ4OEs1TUZOUGNZd1IweHpwMmZfdWl2Q3pjYURuWThOSm5HOHptclVuV25zb0szVHg1bjYwTTZhQ0E?oc=5",
+          "pub_date": "Mon, 18 May 2026 07:23:00 GMT",
+          "source": "노컷뉴스"
+        },
+        {
+          "title": "[증시-마감] 코스피, 급락 딛고 7,500선 회복…삼성전자 반등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CaGotaC1FTTBGOHBhRDZDdDlEajlHMlNRZEwxZ1IyVG12WEVjbEx2T1V0ajU0ZHVadzhLOU5QNHgzOVhvWXZad0thQTFCYTdudWJ5MHNObl9rTzNPdnMtZTRPTHdFdE02QkxfOEFKbXU?oc=5",
+          "pub_date": "Mon, 18 May 2026 06:54:12 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 장 초반 급락 딛고 0.31% 상승…삼전 '파업 동력' 약화 [시황종합] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZTVFUQk5TTE9LVmZaZF9TaWxtd2lYYzZaRlQwRUpmVGZsLUFicFdKSlV1ZkVCSnNqVVNoTDlULXV2bVFlOG5nVnF5QUl5VmxUSW1kRWlrRVVhMlRlbjBV?oc=5",
+          "pub_date": "Mon, 18 May 2026 07:15:50 GMT",
+          "source": "뉴스1"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.43,
+    "vix": 18.93,
     "vvix": 92.94,
     "skew": 145.77,
     "move": 79.87
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2101400000000,
-    "retail_net_buy_krw": 2059800000000,
+    "foreign_inst_buy_krw": -2258800000000,
+    "retail_net_buy_krw": 2209400000000,
     "margin_loan_krw": 35897000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -104,15 +86,15 @@
       "intraday_low_drop_pct": -2.28
     },
     "kospi": {
-      "current": 7567.78,
+      "current": 7516.04,
       "high_52w": 8046.78,
-      "drop_pct": -5.95,
+      "drop_pct": -6.6,
       "intraday_low_drop_pct": -11.24
     },
     "kosdaq": {
-      "current": 1112.84,
+      "current": 1111.09,
       "high_52w": 1229.42,
-      "drop_pct": -9.48,
+      "drop_pct": -9.62,
       "intraday_low_drop_pct": -12.83
     },
     "sp500": {
@@ -290,7 +272,7 @@
   },
   "expert_analysis": {
     "date": "2026-05-18",
-    "analyzed_at": "2026-05-18T11:10:51.619113+09:00",
+    "analyzed_at": "2026-05-18T18:19:43.361130+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -311,23 +293,23 @@
         }
       },
       {
-        "video_id": null,
-        "title": "윤지호 · 영상 없음",
-        "published": "",
-        "url": null,
-        "text_source": "missing",
+        "video_id": "leJZkRwUhCA",
+        "title": "결국 시장을 흔드는 건 '금리'입니다 (윤지호) | 인포맥스라이브 260514",
+        "published": "2026-05-15T21:00:45Z",
+        "url": "https://youtube.com/watch?v=leJZkRwUhCA",
+        "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "unknown",
-          "reason": "삼프로TV에서 \"윤지호\" 출연 영상이 발견되지 않음 (14일 내 + 채널 전체 검색)."
+          "stance": "neutral",
+          "reason": "시장 분석 주제들은 금리와 물가, AI 생태계의 복합적인 상황과 잠재적 리스크(예: 현금 가치, 하이퍼스케일러의 자금 조달, 프로젝트 지연)를 다루고 있으나, 특정 투자 행동(매수, 매도, 현금화, 비중 축소)을 직접적으로 권고하는 표현이 없습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
       "박병창": "neutral",
-      "윤지호": "unknown"
+      "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
