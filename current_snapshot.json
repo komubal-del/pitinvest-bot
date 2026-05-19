@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T07:10:55.803446+09:00",
+  "timestamp": "2026-05-19T09:16:53.029367+09:00",
   "sentiment": {
     "cnn_fng": 62.8,
     "cnn_components": {
@@ -7,35 +7,29 @@
       "strength": 46.2,
       "breadth": 30.0,
       "put_call": 87.8,
-      "junk_bond": 40.6,
+      "junk_bond": 38.6,
       "volatility": 50.0,
       "safe_haven": 90.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 3,
+      "greed_count": 1,
+      "fear_count": 8,
       "greed_articles": [
         {
           "title": "“까르띠에 다무르 품절 났어요”…K증시 활황에 번진 ‘부의 효과’ - 서울경제",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tVnNfOW8yM1JacUJMaGxkdHA4N2dRVFJrdGlvYW5kVTRKNEFSeWh2Y0V2MGVMX3k4YjkzZjZ0VEtCRGwtUjFNcm9IOW1fVlBaSHfSAVNBVV95cUxOQ1Y0OC1zMWNHV0JVSEFfMUExSmlzVWxaczVGNmpLLW5Xc3c0aXNEa3BNYmREMkV3MDhKaHNXeDdWRlNLanZZQTBRYlB4TzBQRnY2dw?oc=5",
           "pub_date": "Mon, 18 May 2026 21:31:00 GMT",
           "source": "서울경제"
-        },
-        {
-          "title": "증시 활황이 농촌·교육을 살찌운다?… ‘목적세’ 대체 뭐길래 [스토리텔링경제] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sbDVSazA5Vl9IRnpPOVRPNmJnRGRIU1ZfUUtKald3T2FvRjFyY25QejhoTzNueW9XVWZFNXpTeS1TNVFKVXdEUDZTcV9IWGc?oc=5",
-          "pub_date": "Mon, 18 May 2026 21:03:15 GMT",
-          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
         {
-          "title": "[뉴욕증시] 반도체주 급락에 나스닥 하락…중동 리스크·고금리 공포에 '발목' - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaTJVM0JBYThMdW9yVFFZc2tCTzV2SUg4Rl9BbFFSN29qd3FJRllwRVJFU1FXRllUcFN5bVRDNG9ZcWVQRjF5WU96SkIyeHhsNGh4akw2N1Vzcm1NVmFzc3dyZFdjTFc4N3hMV1kteE50UVVaZU5jYzdhdUNkN1ZId3Y4X1NMb3Nj?oc=5",
-          "pub_date": "Mon, 18 May 2026 20:29:16 GMT",
-          "source": "글로벌이코노믹"
+          "title": "[마켓 라이브] 중동 긴장·기술주 급락…코스피 7000 후반 재안착 여부 주목 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfZUxEbEt1NW5meURFQ1lmQ3daNzVkSURHQkVVeXZjaHl2Nlh6MkxJbmFibjI3MWJsVkpKWUcyc2U4UDRWTXFTdUNxbmxFRnA0dzE3cXBSdWFvUQ?oc=5",
+          "pub_date": "Mon, 18 May 2026 23:42:56 GMT",
+          "source": "한국경제"
         },
         {
           "title": "100조 투매에도 지분율은 상승… 코스피 불장이 만든 ‘외인 지분 미스터리’ - 조선비즈 - Chosunbiz",
@@ -44,10 +38,22 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "메모리 칩 급락, 뉴욕 증시 혼조 마감…트럼프, \"19일 이란 공격 취소\" - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50TTNoWmYwcHF5VmtqOTZZbDA5ZS1zVzJpcGtGYkVEV0ZaUmJDa19WYndsMlA2NWhYUVpwdjQ0UkZET0FaUEFURG9PUVFrN3E3TzZCQW5xUlpjWGVRX3ZNb0pjZVM?oc=5",
-          "pub_date": "Mon, 18 May 2026 20:25:36 GMT",
-          "source": "디지털데일리"
+          "title": "[뉴욕증시] 반도체주 급락에 나스닥 하락…중동 리스크·고금리 공포에 '발목' - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaTJVM0JBYThMdW9yVFFZc2tCTzV2SUg4Rl9BbFFSN29qd3FJRllwRVJFU1FXRllUcFN5bVRDNG9ZcWVQRjF5WU96SkIyeHhsNGh4akw2N1Vzcm1NVmFzc3dyZFdjTFc4N3hMV1kteE50UVVaZU5jYzdhdUNkN1ZId3Y4X1NMb3Nj?oc=5",
+          "pub_date": "Mon, 18 May 2026 20:29:16 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "이란 전쟁 주시하며 혼조 마감…마이크론 6% 급락 [뉴욕증시 브리핑] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12dVZPUXpVMmlJMHJoWDRpVGNldURfUWtxb05GT211NVFzWEJQUFhzQlMwMzhGZl94ZXJERUNIblR2Z096dGU4ODNWY3hKRjA?oc=5",
+          "pub_date": "Mon, 18 May 2026 22:25:06 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "뉴욕증시, 기술주 급락에 혼조…반도체·AI株 흔들리고 유가 급등 - 뉴시안",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44QW5FZVZzcER6T0tWXzFrZUJZQzlpaWp1UE1nTURWQWxZTXlhNnpjSUNjUHJpMHJhLXZRdXVidDl3WVdOcXpPWElnRFNyQXhwNkk5dVNmRmRNZ3N2TjBkeUpXZXBiWWpwd1HSAW5BVV95cUxNWWxWcVpJWEhQX19LbXdvTFpqZVAxX3R3X3BxRjZjRHYyYk1Hdm9TMFJlbEhtLUd4SFN3a3lkeF9yYTZlQUJTcGFRajJkSFBQM2NZQWlkaGNFVDBCd0RyQXlveVBYOEFONFlIZWEtUQ?oc=5",
+          "pub_date": "Mon, 18 May 2026 22:32:13 GMT",
+          "source": "뉴시안"
         }
       ]
     }
@@ -59,9 +65,9 @@
     "move": 86.07
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2258800000000,
-    "retail_net_buy_krw": 2209400000000,
-    "margin_loan_krw": 35897000000000,
+    "foreign_inst_buy_krw": -907700000000,
+    "retail_net_buy_krw": 896100000000,
+    "margin_loan_krw": 35988600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
