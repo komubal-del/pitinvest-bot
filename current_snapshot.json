@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-19T14:11:32.149407+09:00",
+  "timestamp": "2026-05-19T19:03:36.916276+09:00",
   "sentiment": {
-    "cnn_fng": 62.6571428571429,
+    "cnn_fng": 62.1714285714286,
     "cnn_components": {
       "momentum": 97.0,
-      "strength": 46.2,
-      "breadth": 30.0,
+      "strength": 44.0,
+      "breadth": 28.8,
       "put_call": 87.8,
       "junk_bond": 37.6,
       "volatility": 50.0,
@@ -15,64 +15,64 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 12,
+      "fear_count": 20,
       "greed_articles": [
         {
-          "title": "코스피 폭등하는데 ‘내 계좌’ 왜 이럴까… ‘36조 빚투’ 파티 뒤에 숨은 부메랑 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWVdob0tsY0JSUXVwQ1ZFTnZCMk5CM2o2MXdQem9JTEJVbVJkZUpLeW5fcnJHNmpMRS1hWTFWQklfaFlsZlk5ZThISUhxU1pNOTdISjJ6ZjY1bkJBeWNUNTNKeGM2Szh1bzdSWGh5b1RnVEJGVERaTmQtTE1BOXVfZ3U0VVhhbHRG?oc=5",
-          "pub_date": "Tue, 19 May 2026 01:47:17 GMT",
-          "source": "글로벌이코노믹"
+          "title": "시총 제자리인데 빚투만 늘어… 코스닥 신용 융자 비중 코스피 3배 넘어 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Tc1BvLVVUSERuaEpYWkpUNHhNRFJaUnBxTXdPVUVEYTNMN0pSU1N1ZFRQeHZPZE1vTHFEZW9FdzJoZ08wT2FWM1NJX1NxX0dGckRHTjFKTHBMMlN5Ujg1RjNRbFM1QVZkaTZVQjhKc3Q2NGFzbWp6NVBvaGo3UQ?oc=5",
+          "pub_date": "Tue, 19 May 2026 09:19:31 GMT",
+          "source": "서울신문"
         },
         {
-          "title": "증시 활황에 판 뒤집힌 금융권…증권사, 은행 턱밑 추격 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93YXJvVDlkdnZmbnBuNkNjZ3JWT1dQa3M3aWRPQ1ZTaElGVzRlS2NwSDdUVHdjTmxOaEV5ZXlMWlRyZnhNSkJRQUQwY3JMdlRXRndvYzZGQlE3ZjdfaGR4aVBrMzVJUnhNeGU2alpGbndqZw?oc=5",
-          "pub_date": "Tue, 19 May 2026 02:36:39 GMT",
-          "source": "인더스트리뉴스"
+          "title": "막고 풀고… 수십번 뒤집었다, 증시 흔든 ‘증권사 빚투 관리’ - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1kcFpINlYtYVpUdmVITFgtNWV5c09zbDAwZ05KYk80dDBzRnRRTlVpdFdFMC1fYXFldFg3LUpKNnVzNFcxeE5fUVc5eDFGbGdvakRUWUZpdmdBS1ZGcEVfYnBycXRLa3FmSFJuNkxIVFNBMjZ2SFdBNW1R?oc=5",
+          "pub_date": "Tue, 19 May 2026 09:10:54 GMT",
+          "source": "서울신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 또 변동성 확대…4%대 급락하며 7,100선까지 밀려 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xWU5tMUc2MDdJczhFekV2S242MkdRWF9DaVh6V1o3TURFN2dadFdJN25iZGNYeDRQWlBtelBBOEotMjJKSWFlRU1TZzBZU05fSkNaeTZJdG5uM03SAWBBVV95cUxORHBhbW83eFdHMTNya2RrSDJzOXVfZ2ROaFgzMTlQV0xfUU5BY2lPMTVSMFFmcE1sblBCR1VpdWRZYUdITmo4WmRlaTVxVElnRng1SE5OZFYzb0NWalF2ekI?oc=5",
-          "pub_date": "Tue, 19 May 2026 02:27:22 GMT",
-          "source": "연합뉴스"
+          "title": "코스피, 3%대 급락 마감…외국인 6조 매도 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sdXVxckpBM1RoWVMzY3QzQ2luVWtybzluMldicjJlY0NEcjY4MHlvbko1azVvTFFtd3ptaWQxTE1rU09uMnlmM2FUSzNoUQ?oc=5",
+          "pub_date": "Tue, 19 May 2026 06:51:42 GMT",
+          "source": "전자신문"
         },
         {
-          "title": "악재 겹친 코스피, 4%대 급락…장중 7140선 '털썩'[장중시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLQUxSaHBjNHlqYzkxVlY5c2N0TndOMGpBNGI3ZW8yVGZha0dkOHBQMGJHa1U5ckZDb1VabFZ1UWYtVmxJc3piYi1QVkp4VXQ0Tk5NcGl5MV9QOVZDUFN3?oc=5",
-          "pub_date": "Tue, 19 May 2026 02:47:15 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "외국인 9거래일째 ‘팔자’에…코스피 4% 급락해 7100선 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQblUyeXJlZEcycWpDdFNoakZxeV8xTUt0WUw3X05uM1k3dTQwVUhJSDl1Q1c5VUppbU5rZ2VwTkQ2LS1GbjVfdlJleld1VmI2WWRXYnBRcTQyVERUV3JRUHpWNjN1RXE5SWZqYy1sb1FEaU9VU3ZtNHVDdmhjYVdINzdlRTNDbk4x0gGcAUFVX3lxTE1ZMWRweEJNQ3hxNW5OVTQtTU9WVHJVSWw2RlFpNmtmaERPRnVlQmU0RnBvOF9wQ19YVnh3SDZWNUZLV3NTUGxoY0RhNThhT19JWTc0N3pOd0JZZ1FzWFVoYVNmV2p5M0ZJeXh6ZUpqSVJGMXhNSXk0VVVBYXlyVm1keklfNXdQWlRJdjFkbV9DRDZSR21ySEFWV0UzUw?oc=5",
-          "pub_date": "Tue, 19 May 2026 02:13:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "반도체주 약세에 코스피 급락…장중 7200선 붕괴 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTb2dzVGhheFdhM19kVm1mbTlTOFpHRUdhVXNoRFpVcGd5bng3eGZ5UmdEdTNvMWd6anllQ2tCcmNHRlByamgtWDlxWWdZQXc?oc=5",
-          "pub_date": "Tue, 19 May 2026 02:40:10 GMT",
+          "title": "코스피 3% 급락 7200선 내려앉아…외국인 6조 넘게 순매도 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50NFRnQXBYNWFIeThsOEplZW1Rdm5PcmJsYXhNQkhxOXVKNEFXQWtEMUQzM25VOFE4ejVIUUY4QTg3QXQwRWpSQjdxcmpCTmc?oc=5",
+          "pub_date": "Tue, 19 May 2026 07:54:40 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "'단기 과속' 코스피, 차익 실현·금리 부담에 장중 5% 급락 - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FbnhGOGFtN3UtckJ6WkFvV0RlZjZEYWhLQTd4a01GMkF3dVdoSXk2VjhtVHVzLTRsNDVqSGZxb1Q5NUViZG5fTjZadHA0ejkxY3cxSzRWYTRvZGNyN1UxbXN0VWhFNnFiN0E?oc=5",
-          "pub_date": "Tue, 19 May 2026 03:51:06 GMT",
-          "source": "서울파이낸스"
+          "title": "美 반도체 쇼크에 국내 증시 흔들…코스피 3.25% 급락해 7200선 마감 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZNHdpWENrdDROV0ozUXJETmh6bWtHRHFKemJrOWRmUGIxZzBaemRGUVJXdzhORFhldzdnX1JxREhaUDNZZnlIVVI5YkpqUEgyM1hqV3BqbnNldEFiU2dMR3dBM3RSMHlfLUhBamd2OUZXZw?oc=5",
+          "pub_date": "Tue, 19 May 2026 08:03:28 GMT",
+          "source": "인더스트리뉴스"
+        },
+        {
+          "title": "[마감시황] 코스피, 외국인 투매에 3%대 하락…원·달러 환율 상승 - 신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTbnEybUF5MDZjcUpTamRpa3NMWWhKMzB4YjNOZFMwZzh6dGtBN05zclNiSzk3N0dnUGF3Y3FtT0JEYTltNERubWU4eHZVa0dTUkloUEprV2pTS3o3eFB2d2s1WTUzWGVWd2dOcTBvWUc?oc=5",
+          "pub_date": "Tue, 19 May 2026 07:00:52 GMT",
+          "source": "신아일보"
+        },
+        {
+          "title": "외국인 6조원 넘게 던졌다…코스피 3% 급락하며 7270선 후퇴 - 굿모닝경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pUWNpdmNuWXJtbXg2cWZEMXZTRW9tZ0xMTF9PbDU1a1FkcmVPOFRFN29FdXlDNzdUQ2dDdWpSMHNxS3hEZXJHcU5DT3NIUUE3OUVrUUpCMHNXZ2o2WlpSTk9XUDVEQzNxZzI5Mw?oc=5",
+          "pub_date": "Tue, 19 May 2026 08:27:13 GMT",
+          "source": "굿모닝경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.82,
+    "vix": 18.31,
     "vvix": 91.18,
     "skew": 138.4,
     "move": 86.07
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4689900000000,
-    "retail_net_buy_krw": 4597100000000,
+    "foreign_inst_buy_krw": -5566700000000,
+    "retail_net_buy_krw": 5628900000000,
     "margin_loan_krw": 35988600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -86,15 +86,15 @@
       "intraday_low_drop_pct": -3.14
     },
     "kospi": {
-      "current": 7214.86,
+      "current": 7271.66,
       "high_52w": 8046.78,
-      "drop_pct": -10.34,
+      "drop_pct": -9.63,
       "intraday_low_drop_pct": -11.25
     },
     "kosdaq": {
-      "current": 1071.68,
+      "current": 1084.36,
       "high_52w": 1229.42,
-      "drop_pct": -12.83,
+      "drop_pct": -11.8,
       "intraday_low_drop_pct": -13.51
     },
     "sp500": {
@@ -178,6 +178,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.05.19",
+            "close": 275500,
+            "change_pct": -1.96,
+            "retail_net": 7844141,
+            "inst_net": 1418906,
+            "foreign_net": -9263047
+          },
+          {
             "date": "2026.05.18",
             "close": 281000,
             "change_pct": 3.88,
@@ -208,17 +216,17 @@
             "retail_net": 4033835,
             "inst_net": 1642009,
             "foreign_net": -5675844
-          },
-          {
-            "date": "2026.05.12",
-            "close": 279000,
-            "change_pct": -2.28,
-            "retail_net": 7902377,
-            "inst_net": -78144,
-            "foreign_net": -7824233
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.19",
+            "close": 1745000,
+            "change_pct": -5.16,
+            "retail_net": 1250568,
+            "inst_net": -122347,
+            "foreign_net": -1128221
+          },
           {
             "date": "2026.05.18",
             "close": 1840000,
@@ -250,14 +258,6 @@
             "retail_net": 452545,
             "inst_net": 465314,
             "foreign_net": -917859
-          },
-          {
-            "date": "2026.05.12",
-            "close": 1835000,
-            "change_pct": -2.39,
-            "retail_net": 2129943,
-            "inst_net": -495350,
-            "foreign_net": -1634593
           }
         ]
       }
