@@ -1,22 +1,34 @@
 {
-  "timestamp": "2026-05-20T04:15:18.799541+09:00",
+  "timestamp": "2026-05-20T06:42:01.144147+09:00",
   "sentiment": {
-    "cnn_fng": 60.6571428571429,
+    "cnn_fng": 60.4285714285714,
     "cnn_components": {
-      "momentum": 93.4,
-      "strength": 42.8,
-      "breadth": 25.2,
-      "put_call": 83.4,
-      "junk_bond": 44.2,
+      "momentum": 92.2,
+      "strength": 43.0,
+      "breadth": 25.0,
+      "put_call": 82.6,
+      "junk_bond": 46.4,
       "volatility": 50.0,
-      "safe_haven": 85.8
+      "safe_haven": 84.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 1,
+      "greed_count": 6,
+      "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "증시 최대 뇌관 된 '금리'…외국인 이탈·반도체 쏠림 부추긴다 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mMVE4OXBNRWhaRldrb2pZd3RQdWhaTVprUjhpUnZOejRwalZVREhGdE9oZGhzTEhrVjJkM09sbndCb3MtcnhZV1hSV2dZWkdxcXVOel83UmlvZGc?oc=5",
+          "pub_date": "Tue, 19 May 2026 21:00:00 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "뉴욕증시 과열 시그널?...시타델 \"자금 흐름 역전 위험 커져\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yaS1mNlFCN2FZWlZacE1uay1GV1FzbEpTb3JXZ3JzcnM5UVUtVG55a09JOGZIU0dvN0FBTEljWkJSYU5sWk1qdUV1dmk2TlE?oc=5",
+          "pub_date": "Tue, 19 May 2026 19:45:01 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "시총 제자리인데 빚투만 늘어… 코스닥 신용 융자 비중 코스피 3배 넘어 - 서울신문",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lWEE4QWVpRWlfQ19rNjJPTHFIMFRQa3hWalI1ZHo1cXpfSDVHVHlZMUlCM1RoWlJHMUhBUURDV3Z2eHRUNG8xWmk2ZVhoLUFka2lVbXBKYTlTVUVEb3lRYnRmNUNzczBGQ3NKRDVvYlRQNDE0TEdNZnlSRUc4QQ?oc=5",
@@ -28,6 +40,12 @@
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DaExqVDgwYVlTSE1VQWtkVGxYN3U1Qmo5Q05VSDdLM29SZUpEUGtqNGlhTTJjYjRFM3VBYXhyT3c5Z2cxZm4zam41QzhMLXBidlVGcWpMM2J5ZGpSQjBJWGM3UzhjOTZlY3k0TXJ2Mk5VckgxX2M0M1lB?oc=5",
           "pub_date": "Tue, 19 May 2026 15:44:00 GMT",
           "source": "서울신문"
+        },
+        {
+          "title": "[우주칼럼] 머스크 스페이스X發 광풍, 한국 증시 흔든다…6월 상장 앞두고 韓 우주 테마주 '들썩' - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RbFdPNlYwY0dfUEJ2LWluRjRFN2l0T0xOdkNhSXdjRXNhUUpKck5SZlJQZjE3RElIYmE1YVJCRmNqa2piZVltODJtVkRxblZrRlhKRDBNYzhVOWpMblhr?oc=5",
+          "pub_date": "Tue, 19 May 2026 20:00:01 GMT",
+          "source": "뉴스스페이스"
         }
       ],
       "fear_articles": [
@@ -36,15 +54,21 @@
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05VXluVFBxMjlkMlJaNWxhVTNMdUt4UGJTejJ0OWJ5ZC05WUtzME1zNXNySlEtRXN2T2FPRTd6MHdqX09BcG9CZ0xUWmMybThpbm9YOUx2azIwU041MXNjU2VKeks?oc=5",
           "pub_date": "Tue, 19 May 2026 17:08:24 GMT",
           "source": "베타뉴스"
+        },
+        {
+          "title": "채권금리 급등에 기술주 급락…뉴욕증시, 3대 지수 동반 하락 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xOTlCQXR0TGhSNkJhbE5UUFlJVVE4U1poM1lMVFVrR2dEMUFybXI1dFV3NTFXc0JKcHJZME9FQ1FhUFRPVldaMFpfeTg0anVpdFV3NGxJLVZmd0h0UkxuWkw4enV2RGh6?oc=5",
+          "pub_date": "Tue, 19 May 2026 21:22:52 GMT",
+          "source": "ebn.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.07,
-    "vvix": 94.68,
-    "skew": 138.4,
-    "move": 86.07
+    "vix": 18.06,
+    "vvix": 94.61,
+    "skew": 135.5,
+    "move": 85.32
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -5566700000000,
@@ -56,9 +80,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25981.47,
+      "current": 25870.71,
       "high_52w": 26707.14,
-      "drop_pct": -2.72,
+      "drop_pct": -3.13,
       "intraday_low_drop_pct": -3.77
     },
     "kospi": {
@@ -74,31 +98,31 @@
       "intraday_low_drop_pct": -12.83
     },
     "sp500": {
-      "current": 7378.03,
+      "current": 7353.61,
       "high_52w": 7517.12,
-      "drop_pct": -1.85,
+      "drop_pct": -2.18,
       "intraday_low_drop_pct": -2.44
     },
     "russell2k": {
-      "current": 2750.2,
+      "current": 2747.07,
       "high_52w": 2888.62,
-      "drop_pct": -4.79,
+      "drop_pct": -4.9,
       "intraday_low_drop_pct": -5.74
     },
     "soxx": {
-      "current": 502.66,
+      "current": 496.74,
       "high_52w": 533.74,
-      "drop_pct": -5.82,
+      "drop_pct": -6.93,
       "intraday_low_drop_pct": -10.45
     }
   },
   "sector_rs": {
-    "XLK": 1.155,
-    "SMH": 1.243,
-    "BOTZ": 0.937,
-    "IGV": 1.048,
-    "XLF": 0.918,
-    "XLE": 1.038
+    "XLK": 1.154,
+    "SMH": 1.228,
+    "BOTZ": 0.934,
+    "IGV": 1.067,
+    "XLF": 0.917,
+    "XLE": 1.053
   },
   "signals": {
     "cnn_under_10": false,
@@ -287,7 +311,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 169.339,
+    "strategy_pct": 172.348,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -675,7 +699,7 @@
       },
       {
         "date": "2026-05-20",
-        "ret_pct": 169.339
+        "ret_pct": 172.348
       }
     ],
     "monthly_breakdown": [
@@ -705,9 +729,9 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 48.3,
-        "end_ret_pct": 169.34,
-        "max_dd_pct": 30.15
+        "return_pct": 51.31,
+        "end_ret_pct": 172.35,
+        "max_dd_pct": 29.76
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
