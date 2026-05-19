@@ -4,7 +4,7 @@
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "자동 사이클 리셋 (2026-05-19): 긴급탈출 발동 → 위성 청산, 코어 매수, 모든 신호 리셋",
+    "memo": "사이클 리셋 (긴급탈출 5/15): 위성 청산, 코어 매수, 모든 신호 마커 리셋",
     "holdings": {
         "QQQ": 0,
         "SOXX": 53905259,
@@ -14,15 +14,8 @@
         "KORU": 0
     },
     "total_krw": 177009227,
-    "sell1_first_fired_date": "2026-04-24",
-    "signal_first_fired": {
-        "buy_cnn": null,
-        "buy_vix": null,
-        "buy_margin": null,
-        "sell_leverage": "2026-04-24",
-        "sell_leading": null,
-        "sell_expert": null
-    },
-    "emergency_first_fired_date": "2026-05-19",
+    "sell1_first_fired_date": null,
+    "signal_first_fired": {},
+    "emergency_first_fired_date": "2026-05-15",
     "sell1_d_day_notified": false
 }

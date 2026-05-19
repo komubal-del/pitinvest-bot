@@ -2258,23 +2258,21 @@ def _do_cycle_reset(master_data, master_path, reason_label, emergency_marker_dat
 
 
 def auto_reset_if_emergency(snapshot, master_data, master_path='master_data.json'):
-    """긴급탈출 (장중/종가 −10%) 발동 시 사이클 리셋.
-    - 동일 발동일에 1회만 (emergency_first_fired_date 마커가 오늘이면 스킵)
+    """긴급탈출 (장중/종가 −10%) 첫 발동 시 사이클 리셋.
+    - 한 사이클에 1회만: emergency_first_fired_date 마커가 이미 있으면 (어떤 날이든) 스킵
+    - 마커는 매도 3조건 사이클 리셋 시점에만 clear 됨 (auto_reset_if_sell_signals)
     - 위성 → 코어 균등 매수 + 매수/매도 6 신호 마커 모두 clear
-    - emergency_first_fired_date 마커는 박은 상태로 유지 (다음 hourly run에서 emergency stage 재발동 X)
     반환: (reset_fired: bool)"""
     sig = snapshot.get('signals', {}) or {}
     today_full = datetime.now(kst).strftime('%Y-%m-%d')
-    # raw 트리거: 종가 OR 장중 저점 -10%
     emergency_today = bool(sig.get('emergency_today'))
     existing_marker = master_data.get('emergency_first_fired_date')
-    # 이미 오늘 발동된 적 있으면 (마커=오늘) 스킵
     if not emergency_today:
         return False
-    if existing_marker == today_full:
-        # 같은 날 다시 hourly run으로 들어왔을 때 추가 reset 안 함
+    if existing_marker:
+        # 이미 박혀 있으면 (어떤 날짜든) 재발동 안 함 — 1회 sticky
         return False
-    # 발동: 사이클 리셋 + 마커 박기 (오늘 날짜로)
+    # 첫 발동: 사이클 리셋 + 마커 박기 (오늘 날짜로)
     return _do_cycle_reset(master_data, master_path,
                            reason_label=f'긴급탈출 발동 → 위성 청산, 코어 매수, 모든 신호 리셋',
                            emergency_marker_date=today_full)
@@ -2376,6 +2374,13 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
     backfilled = None  # lazy load
     changed = False
 
+    # 긴급탈출 마커가 있으면 CSV backfill 무시 (사이클 리셋된 상태 — 이전 사이클 옛 신호 박지 않음)
+    emergency_marker = master_data.get('emergency_first_fired_date')
+    skip_csv_backfill = bool(emergency_marker)
+    if skip_csv_backfill:
+        # backfill을 빈 dict로 두어 today_full 사용
+        backfilled = {key: None for key, _ in _SIGNAL_KEYS}
+
     for key, sig_field in _SIGNAL_KEYS:
         if current.get(key):
             continue  # 이미 마커 있음 (sticky)
@@ -2388,7 +2393,7 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
         fire_date = backfilled.get(key) or today_full
         current[key] = fire_date
         changed = True
-        src = 'CSV backfill' if backfilled.get(key) else '오늘 기준'
+        src = '오늘 기준 (긴급탈출 후 새 사이클)' if skip_csv_backfill else ('CSV backfill' if backfilled.get(key) else '오늘 기준')
         print(f"📅 신호 마커 기록: {key} = {fire_date} ({src})")
 
     # 긴급탈출 sticky 마커: 별도 처리 (signal_first_fired와 분리, 6신호 카운트와 무관)
