@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-19",
-  "analyzed_at": "2026-05-19T00:54:38.674701+09:00",
+  "date": "2026-05-20",
+  "analyzed_at": "2026-05-20T01:31:01.353599+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "zbQyY5JVfEU",
-      "title": "질질 끌려가는 시장…이번 조정은 폭보다 기간 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-05-18T00:40:37Z",
-      "url": "https://youtube.com/watch?v=zbQyY5JVfEU",
+      "video_id": "mKMPYzFCUhQ",
+      "title": "시장 흔들릴수록 중요한 건 ‘리밸런싱’ | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-05-19T00:31:32Z",
+      "url": "https://youtube.com/watch?v=mKMPYzFCUhQ",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "전문가는 시장이 '질질 끌려가는' 상태이며, 이번 조정이 '폭보다 기간'으로 나타날 것이라고 설명하여 시장의 어려운 상황과 장기화될 가능성을 분석했지만, 현금화, 비중 축소, 매도 등 구체적인 투자 행동을 명확하게 권고하지는 않았습니다."
+        "reason": "제목에서 시장이 흔들릴 때 '리밸런싱'이 중요하다고 언급하며 변동성 장세에 대한 포트폴리오 관리 전략을 제시할 뿐, 특정 방향으로의 매수 또는 매도 권고가 명확하지 않습니다."
       }
     },
     {

@@ -1,78 +1,41 @@
 {
-  "timestamp": "2026-05-19T21:52:11.130467+09:00",
+  "timestamp": "2026-05-20T01:30:53.618925+09:00",
   "sentiment": {
-    "cnn_fng": 62.1714285714286,
+    "cnn_fng": 60.7428571428571,
     "cnn_components": {
-      "momentum": 97.0,
-      "strength": 44.0,
-      "breadth": 28.8,
-      "put_call": 87.8,
-      "junk_bond": 37.6,
+      "momentum": 92.8,
+      "strength": 43.4,
+      "breadth": 25.0,
+      "put_call": 83.6,
+      "junk_bond": 43.6,
       "volatility": 50.0,
-      "safe_haven": 90.0
+      "safe_haven": 85.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 25,
+      "greed_count": 2,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "[올댓차이나] 홍콩 증시, 저가 매수로 사흘 만에 반등 마감…H주 0.49%↑ - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTaFpseW5vZFRKN3BlM190TExReHI2cnhWREJJN21BN3RpZ20tX2didUdBcXU3TnpxNWhTOU5FOGJNZTNfSFhMYXdFSVloazZtNG1oZW9NdFFsZEZZcmdlS9IBeEFVX3lxTFBDU2E5SEo1Z3QzUnhPdFNIUkNtSmdPVm1OdWREZFhfcmlQYjF3S1VPc2lVV25zMy1WSW5sa3I0VTV1T2tRVXBGNFJGUjRYWkZ3RF9VX2tGRlVsRzZIeWoxZlE5NG9KeDdHMUUzcjAyd0FpbVQ2RDVIVQ?oc=5",
-          "pub_date": "Tue, 19 May 2026 10:09:47 GMT",
-          "source": "뉴시스"
-        },
-        {
           "title": "시총 제자리인데 빚투만 늘어… 코스닥 신용 융자 비중 코스피 3배 넘어 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Tc1BvLVVUSERuaEpYWkpUNHhNRFJaUnBxTXdPVUVEYTNMN0pSU1N1ZFRQeHZPZE1vTHFEZW9FdzJoZ08wT2FWM1NJX1NxX0dGckRHTjFKTHBMMlN5Ujg1RjNRbFM1QVZkaTZVQjhKc3Q2NGFzbWp6NVBvaGo3UQ?oc=5",
-          "pub_date": "Tue, 19 May 2026 09:19:31 GMT",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lWEE4QWVpRWlfQ19rNjJPTHFIMFRQa3hWalI1ZHo1cXpfSDVHVHlZMUlCM1RoWlJHMUhBUURDV3Z2eHRUNG8xWmk2ZVhoLUFka2lVbXBKYTlTVUVEb3lRYnRmNUNzczBGQ3NKRDVvYlRQNDE0TEdNZnlSRUc4QQ?oc=5",
+          "pub_date": "Tue, 19 May 2026 15:40:13 GMT",
           "source": "서울신문"
         },
         {
-          "title": "“한국증시, 미국보다 훨씬 과열…절반 차익실현해라” 씨티 경고, 왜 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOd2dKeURpOWFYdXBDTWUwU2ZaWWJ2MkVWdDNmTWxJejFRNTc4RWZBZ3pCTlp3N0MyeEJUdVVyWmVXRE1UbFkxWjJ3VFlPY3c?oc=5",
-          "pub_date": "Tue, 19 May 2026 09:01:00 GMT",
-          "source": "v.daum.net"
+          "title": "막고 풀고… 수십번 뒤집었다, 증시 흔든 ‘증권사 빚투 관리’ - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DaExqVDgwYVlTSE1VQWtkVGxYN3U1Qmo5Q05VSDdLM29SZUpEUGtqNGlhTTJjYjRFM3VBYXhyT3c5Z2cxZm4zam41QzhMLXBidlVGcWpMM2J5ZGpSQjBJWGM3UzhjOTZlY3k0TXJ2Mk5VckgxX2M0M1lB?oc=5",
+          "pub_date": "Tue, 19 May 2026 15:44:00 GMT",
+          "source": "서울신문"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "코스피, 외인 7.3조 투매에 7200선 후퇴…코스닥도 2%대 급락 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QdUFEb0lXRGF4Q1dUZ3NYRnZXbXVhVW1DSUZ3TkZQdUhVeUVfaFBIOFNqYTl0bDBZdTNoNzlQd0huUXZQaHFjQmppcHYxV2FueDZISk9xWl9fd9IBVEFVX3lxTE55Qldpcno3bGg3dnNkb3hkZm8tNmVtVkxjbXVGN0VPajZ5emxOOVdNZEVBSld4dFRrNTFlN2VIc1dXSFFrS1FXaU1fSWhJX0tsMkViOA?oc=5",
-          "pub_date": "Tue, 19 May 2026 07:00:04 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "코스피, 3%대 급락 마감…외국인 6조 매도 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sdXVxckpBM1RoWVMzY3QzQ2luVWtybzluMldicjJlY0NEcjY4MHlvbko1azVvTFFtd3ptaWQxTE1rU09uMnlmM2FUSzNoUQ?oc=5",
-          "pub_date": "Tue, 19 May 2026 06:51:42 GMT",
-          "source": "전자신문"
-        },
-        {
-          "title": "코스피 3% 급락 7200선 내려앉아…외국인 6조 넘게 순매도 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50NFRnQXBYNWFIeThsOEplZW1Rdm5PcmJsYXhNQkhxOXVKNEFXQWtEMUQzM25VOFE4ejVIUUY4QTg3QXQwRWpSQjdxcmpCTmc?oc=5",
-          "pub_date": "Tue, 19 May 2026 07:54:40 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 외인 매도세…“과속부담 덜 해소” - 국제신문",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGlWakxnQnlNVDVlS3BzQU93NGVYQzBudTl3UGtCc0g4dDVJTmJRY1ctYnowRzliNEZ5VmJncy1jdDNjaktYV0dIdDkzWnRVSU9XSkxyZmdtQkN2aHYwdHlNU0F2WDFjd184VTlTUWhxdGtkOHRYNlA1Z1VaQW1NaGNjVU43dzZvcUdXZDcyZElncjQ?oc=5",
-          "pub_date": "Tue, 19 May 2026 10:10:00 GMT",
-          "source": "국제신문"
-        },
-        {
-          "title": "美 반도체 쇼크에 국내 증시 흔들…코스피 3.25% 급락해 7200선 마감 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZNHdpWENrdDROV0ozUXJETmh6bWtHRHFKemJrOWRmUGIxZzBaemRGUVJXdzhORFhldzdnX1JxREhaUDNZZnlIVVI5YkpqUEgyM1hqV3BqbnNldEFiU2dMR3dBM3RSMHlfLUhBamd2OUZXZw?oc=5",
-          "pub_date": "Tue, 19 May 2026 08:03:28 GMT",
-          "source": "인더스트리뉴스"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.95,
-    "vvix": 91.18,
+    "vix": 18.11,
+    "vvix": 95.73,
     "skew": 138.4,
     "move": 86.07
   },
@@ -86,49 +49,49 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26090.73,
+      "current": 25869.21,
       "high_52w": 26707.14,
-      "drop_pct": -2.31,
-      "intraday_low_drop_pct": -3.14
+      "drop_pct": -3.14,
+      "intraday_low_drop_pct": -3.77
     },
     "kospi": {
-      "current": 7271.66,
+      "current": 7516.04,
       "high_52w": 8046.78,
-      "drop_pct": -9.63,
-      "intraday_low_drop_pct": -11.25
+      "drop_pct": -6.6,
+      "intraday_low_drop_pct": -11.24
     },
     "kosdaq": {
-      "current": 1084.36,
+      "current": 1111.09,
       "high_52w": 1229.42,
-      "drop_pct": -11.8,
-      "intraday_low_drop_pct": -13.51
+      "drop_pct": -9.62,
+      "intraday_low_drop_pct": -12.83
     },
     "sp500": {
-      "current": 7403.05,
+      "current": 7364.75,
       "high_52w": 7517.12,
-      "drop_pct": -1.52,
-      "intraday_low_drop_pct": -2.18
+      "drop_pct": -2.03,
+      "intraday_low_drop_pct": -2.44
     },
     "russell2k": {
-      "current": 2775.1,
+      "current": 2739.93,
       "high_52w": 2888.62,
-      "drop_pct": -3.93,
-      "intraday_low_drop_pct": -4.56
+      "drop_pct": -5.15,
+      "intraday_low_drop_pct": -5.74
     },
     "soxx": {
-      "current": 495.87,
+      "current": 498.27,
       "high_52w": 533.74,
-      "drop_pct": -7.1,
-      "intraday_low_drop_pct": -8.77
+      "drop_pct": -6.65,
+      "intraday_low_drop_pct": -10.45
     }
   },
   "sector_rs": {
     "XLK": 1.151,
-    "SMH": 1.23,
-    "BOTZ": 0.953,
-    "IGV": 1.049,
-    "XLF": 0.922,
-    "XLE": 1.021
+    "SMH": 1.238,
+    "BOTZ": 0.935,
+    "IGV": 1.044,
+    "XLF": 0.923,
+    "XLE": 1.035
   },
   "signals": {
     "cnn_under_10": false,
@@ -274,8 +237,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-19",
-    "analyzed_at": "2026-05-19T00:54:38.674701+09:00",
+    "date": "2026-05-20",
+    "analyzed_at": "2026-05-20T01:31:01.353599+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -283,16 +246,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "zbQyY5JVfEU",
-        "title": "질질 끌려가는 시장…이번 조정은 폭보다 기간 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-18T00:40:37Z",
-        "url": "https://youtube.com/watch?v=zbQyY5JVfEU",
+        "video_id": "mKMPYzFCUhQ",
+        "title": "시장 흔들릴수록 중요한 건 ‘리밸런싱’ | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-05-19T00:31:32Z",
+        "url": "https://youtube.com/watch?v=mKMPYzFCUhQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 시장이 '질질 끌려가는' 상태이며, 이번 조정이 '폭보다 기간'으로 나타날 것이라고 설명하여 시장의 어려운 상황과 장기화될 가능성을 분석했지만, 현금화, 비중 축소, 매도 등 구체적인 투자 행동을 명확하게 권고하지는 않았습니다."
+          "reason": "제목에서 시장이 흔들릴 때 '리밸런싱'이 중요하다고 언급하며 변동성 장세에 대한 포트폴리오 관리 전략을 제시할 뿐, 특정 방향으로의 매수 또는 매도 권고가 명확하지 않습니다."
         }
       },
       {
