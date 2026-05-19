@@ -1090,6 +1090,15 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     sell_slots = {'lev': False, 'lead': False, 'expert': False}
     STEP_PCT = 100.0 / 3.0  # 33.33%p
 
+    # 긴급탈출 노이즈 회피:
+    # 1) 워밍업 기간 (백테스트 시작 후 20거래일) 동안은 발동 X — 52w_high가 안정화 되기 전
+    # 2) 사이클 시작 후 peak 대비 drop 으로 재계산 (백테스트 전체 윈도우 내 누적 peak 기반)
+    EMERGENCY_WARMUP = 20  # 거래일
+    # 백테스트 윈도우 내 지수별 peak 누적 (close 기준)
+    nas_peak = 0.0
+    kos_peak = 0.0
+    bar_idx = -1  # for warmup counting (excluding skipped rows)
+
     for row in ytd:
         prices = {t: _n(row.get(f'{t}_close')) for t in all_tickers}
 
@@ -1098,11 +1107,20 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             pv = _portfolio_value({t: (prices[t] if prices[t] else p0[t]) for t in all_tickers})
             daily_series.append({'date': row.get('date'), 'ret_pct': round((pv / initial_capital - 1) * 100, 3)})
             continue
+        bar_idx += 1
 
-        # 오늘 상태
-        nd = _n(row.get('nasdaq_drop_pct'))
-        kd = _n(row.get('kospi_drop_pct'))
-        emergency_today = (nd is not None and nd <= EMERGENCY_THRESHOLD) or (kd is not None and kd <= EMERGENCY_THRESHOLD)
+        # 오늘 상태 — emergency 는 워밍업 후 + 백테스트 내 peak 기준
+        nas_close = _n(row.get('nasdaq_close'))
+        kos_close = _n(row.get('kospi_close'))
+        if nas_close: nas_peak = max(nas_peak, nas_close)
+        if kos_close: kos_peak = max(kos_peak, kos_close)
+        nas_local_dd = ((nas_close / nas_peak - 1) * 100) if (nas_close and nas_peak) else None
+        kos_local_dd = ((kos_close / kos_peak - 1) * 100) if (kos_close and kos_peak) else None
+        in_warmup = bar_idx < EMERGENCY_WARMUP
+        emergency_today = False
+        if not in_warmup:
+            emergency_today = ((nas_local_dd is not None and nas_local_dd <= EMERGENCY_THRESHOLD)
+                            or (kos_local_dd is not None and kos_local_dd <= EMERGENCY_THRESHOLD))
         sell3_today = (
             int(float(row.get('sell_leverage_trigger') or 0)) +
             int(float(row.get('sell_leading_trigger')  or 0)) +
