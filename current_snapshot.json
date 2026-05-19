@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T09:16:53.029367+09:00",
+  "timestamp": "2026-05-19T10:43:17.450285+09:00",
   "sentiment": {
     "cnn_fng": 62.8,
     "cnn_components": {
@@ -14,17 +14,22 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 8,
-      "greed_articles": [
-        {
-          "title": "“까르띠에 다무르 품절 났어요”…K증시 활황에 번진 ‘부의 효과’ - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tVnNfOW8yM1JacUJMaGxkdHA4N2dRVFJrdGlvYW5kVTRKNEFSeWh2Y0V2MGVMX3k4YjkzZjZ0VEtCRGwtUjFNcm9IOW1fVlBaSHfSAVNBVV95cUxOQ1Y0OC1zMWNHV0JVSEFfMUExSmlzVWxaczVGNmpLLW5Xc3c0aXNEa3BNYmREMkV3MDhKaHNXeDdWRlNLanZZQTBRYlB4TzBQRnY2dw?oc=5",
-          "pub_date": "Mon, 18 May 2026 21:31:00 GMT",
-          "source": "서울경제"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "코스피 7400선 등락…외국인 1조원대 매도세에 지수 약세 [개장시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41R1RBVEFDUDFxY2VsLVZFT2NqVDV1MUtfNllqOERBT3NFUWROOFNsNFZFd2VQRjRsbWFhbjJUVEtLd2pnUmZ3WDJ0aWtOZW1QYm9ZX2dDbU5lOHM?oc=5",
+          "pub_date": "Tue, 19 May 2026 00:30:08 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "100조 투매에도 지분율은 상승… 코스피 불장이 만든 ‘외인 지분 미스터리’ - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm1oVVVsV3FfeXFOTzk1UnJyamRVMWRPS09LVjhSWFEtbHNBUkY2eVJINm1jSmlmLWx0OGhQcGZFUTdmR2x3YzdHNVE4MkNlcE9YMnBtdXlyb0p3bXRuNXRpaXQ0aXNKUHE4M1lWT3E0eDRQaHVvSkNTaFlZVGFqektvX3BNS1Jm?oc=5",
+          "pub_date": "Mon, 18 May 2026 21:00:00 GMT",
+          "source": "Chosunbiz"
+        },
         {
           "title": "[마켓 라이브] 중동 긴장·기술주 급락…코스피 7000 후반 재안착 여부 주목 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfZUxEbEt1NW5meURFQ1lmQ3daNzVkSURHQkVVeXZjaHl2Nlh6MkxJbmFibjI3MWJsVkpKWUcyc2U4UDRWTXFTdUNxbmxFRnA0dzE3cXBSdWFvUQ?oc=5",
@@ -32,28 +37,16 @@
           "source": "한국경제"
         },
         {
-          "title": "100조 투매에도 지분율은 상승… 코스피 불장이 만든 ‘외인 지분 미스터리’ - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm1oVVVsV3FfeXFOTzk1UnJyamRVMWRPS09LVjhSWFEtbHNBUkY2eVJINm1jSmlmLWx0OGhQcGZFUTdmR2x3YzdHNVE4MkNlcE9YMnBtdXlyb0p3bXRuNXRpaXQ0aXNKUHE4M1lWT3E0eDRQaHVvSkNTaFlZVGFqektvX3BNS1Jm0gGcAUFVX3lxTFBlMWpZVlNWRzJrTHlzX25hRXV0dUNkaTFNZHZ0cDd1WVJuaE5SM0VEbnhNR1lmY2dyQkVaUnotY1ppT0hRN2RSenRxenJ3X24wQkNSRWZtQ0FKaDJTX2F4NWhqa2EtMVZ6LUgzNDhGRk9tNGhqTDFXa0RXeXRwVmpVeEZ6QmdYQVlDbHBMQkpxZmxmR2hPODhaaTBpcA?oc=5",
-          "pub_date": "Mon, 18 May 2026 21:05:52 GMT",
-          "source": "Chosunbiz"
+          "title": "[오늘증시] 코스피 7400선대로 밀렸다…美반도체 급락에 ‘숨고르기’ - 오늘경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vNXU3cUZaaUczNGtBVkpwblgyM0RFRjBFbGtuWmY0ZGhEdlhCZkdUbkhhMHhXTnNyaHIyTzBMZDU3UUNVOElONjE0dXpfRjFaT3FpT2J0ZG9ndVpoOGpoT19jdndWVldWbi16UURPSXdjamM?oc=5",
+          "pub_date": "Tue, 19 May 2026 00:55:35 GMT",
+          "source": "오늘경제"
         },
         {
-          "title": "[뉴욕증시] 반도체주 급락에 나스닥 하락…중동 리스크·고금리 공포에 '발목' - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaTJVM0JBYThMdW9yVFFZc2tCTzV2SUg4Rl9BbFFSN29qd3FJRllwRVJFU1FXRllUcFN5bVRDNG9ZcWVQRjF5WU96SkIyeHhsNGh4akw2N1Vzcm1NVmFzc3dyZFdjTFc4N3hMV1kteE50UVVaZU5jYzdhdUNkN1ZId3Y4X1NMb3Nj?oc=5",
-          "pub_date": "Mon, 18 May 2026 20:29:16 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "이란 전쟁 주시하며 혼조 마감…마이크론 6% 급락 [뉴욕증시 브리핑] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12dVZPUXpVMmlJMHJoWDRpVGNldURfUWtxb05GT211NVFzWEJQUFhzQlMwMzhGZl94ZXJERUNIblR2Z096dGU4ODNWY3hKRjA?oc=5",
-          "pub_date": "Mon, 18 May 2026 22:25:06 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "뉴욕증시, 기술주 급락에 혼조…반도체·AI株 흔들리고 유가 급등 - 뉴시안",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44QW5FZVZzcER6T0tWXzFrZUJZQzlpaWp1UE1nTURWQWxZTXlhNnpjSUNjUHJpMHJhLXZRdXVidDl3WVdOcXpPWElnRFNyQXhwNkk5dVNmRmRNZ3N2TjBkeUpXZXBiWWpwd1HSAW5BVV95cUxNWWxWcVpJWEhQX19LbXdvTFpqZVAxX3R3X3BxRjZjRHYyYk1Hdm9TMFJlbEhtLUd4SFN3a3lkeF9yYTZlQUJTcGFRajJkSFBQM2NZQWlkaGNFVDBCd0RyQXlveVBYOEFONFlIZWEtUQ?oc=5",
-          "pub_date": "Mon, 18 May 2026 22:32:13 GMT",
-          "source": "뉴시안"
+          "title": "코스피 장중 3%대 급락…7300선 밑으로 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByYkNaa3V6dTVvRFloLWpBRVk5S2pkUFZRazlhUWpDNDZoYkdSYXlDRUpJVExHRmctMmxRY09FT05xZ0dCYmNnTHdsVXBfdHVsNUdIOEQwTzY2bkR4MDRMONIBeEFVX3lxTE5jejB5by1vdjBjQ1JvU0UyUllxRzdPZjFmQUxMM3BXNTg1RFJZZV91R3ZEUDgyRFRGbmFlaXZ4TGh6SFdhU2cxMWRMRDZtOHNJdXFpMExtYW1vWEFpV3dTMFY4eE5KRlJXMVAzSFZkb2w0cFE4R3BqeA?oc=5",
+          "pub_date": "Tue, 19 May 2026 01:24:15 GMT",
+          "source": "뉴시스"
         }
       ]
     }
@@ -65,8 +58,8 @@
     "move": 86.07
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -907700000000,
-    "retail_net_buy_krw": 896100000000,
+    "foreign_inst_buy_krw": -2582400000000,
+    "retail_net_buy_krw": 2518100000000,
     "margin_loan_krw": 35988600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -80,16 +73,16 @@
       "intraday_low_drop_pct": -3.14
     },
     "kospi": {
-      "current": 7493.18,
+      "current": 7242.1,
       "high_52w": 8046.78,
-      "drop_pct": -6.88,
-      "intraday_low_drop_pct": -8.39
+      "drop_pct": -10.0,
+      "intraday_low_drop_pct": -10.08
     },
     "kosdaq": {
-      "current": 1129.82,
+      "current": 1078.34,
       "high_52w": 1229.42,
-      "drop_pct": -8.1,
-      "intraday_low_drop_pct": -9.7
+      "drop_pct": -12.29,
+      "intraday_low_drop_pct": -12.35
     },
     "sp500": {
       "current": 7403.05,
@@ -124,15 +117,15 @@
     "margin_call_trigger": false,
     "count": 0,
     "sell_leverage": true,
-    "sell_leading": true,
+    "sell_leading": false,
     "sell_expert": false,
-    "sell_count": 2,
+    "sell_count": 1,
     "emergency_exit_warning": false,
-    "emergency_today": false,
+    "emergency_today": true,
     "emergency_marker_active": true,
     "emergency_first_fired_date": "2026-05-15",
-    "stage_key": "sell_near",
-    "stage_key_raw": "sell_near",
+    "stage_key": "exit",
+    "stage_key_raw": "exit",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
@@ -141,10 +134,7 @@
       "sell_leading": false,
       "sell_expert": false
     },
-    "first_fired": {
-      "sell_leverage": "2026-04-24",
-      "sell_leading": "2026-05-07"
-    }
+    "first_fired": {}
   },
   "leverage_profit": {
     "tqqq_profit_pct": 69.02,
@@ -729,5 +719,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수"
   },
-  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
+  "recommended_action": "🚨 긴급탈출 발동 · 위성 청산 → 코어 매수 · 매수/매도 신호 리셋 · 평시 운용 시작"
 }
