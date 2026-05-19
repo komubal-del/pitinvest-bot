@@ -1,23 +1,21 @@
 {
     "date": "05.11",
-    "ratio_raw": "01:63:36",
+    "ratio_raw": "01:99:00",
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "장중 삼성전자 하이닉스 3일연속 개인매수 우위와 상승으로 위성 축소",
+    "memo": "자동 사이클 리셋 (2026-05-15 긴급탈출 backfill): 위성 청산, 코어 매수, 모든 신호 마커 리셋",
     "holdings": {
         "QQQ": 0,
         "SOXX": 53905259,
         "EWY": 57202587,
         "TQQQ": 0,
-        "SOXL": 30533554,
-        "KORU": 34409952
+        "SOXL": 0,
+        "KORU": 0
     },
     "total_krw": 177009227,
-    "sell1_first_fired_date": "2026-04-24",
-    "signal_first_fired": {
-        "sell_leverage": "2026-04-24",
-        "sell_leading": "2026-05-07"
-    },
-    "emergency_first_fired_date": "2026-05-15"
+    "sell1_first_fired_date": null,
+    "signal_first_fired": {},
+    "emergency_first_fired_date": "2026-05-15",
+    "sell1_d_day_notified": false
 }

@@ -2204,10 +2204,86 @@ def notify_sector_change_dday(master_data, master_path='master_data.json'):
     return sent
 
 
+def _do_cycle_reset(master_data, master_path, reason_label, emergency_marker_date=None):
+    """공통 사이클 리셋 로직. 위성 → 코어 이동 + 6 신호 마커 clear.
+    emergency_marker_date 가 주어지면 emergency_first_fired_date 도 함께 set.
+    None 이면 clear.
+    반환: True (변경됨) / False (이미 reset 상태)"""
+    parts = parse_ratio_raw(master_data.get('ratio_raw', ''))
+    sat_pct = parts[2] if len(parts) >= 3 else 0
+    has_signal_markers = any((master_data.get('signal_first_fired') or {}).values())
+    cur_emergency_marker = bool(master_data.get('emergency_first_fired_date'))
+    if sat_pct == 0 and not has_signal_markers and (
+        (emergency_marker_date is None and not cur_emergency_marker)
+        or (emergency_marker_date and master_data.get('emergency_first_fired_date') == emergency_marker_date)
+    ):
+        return False
+
+    today_md   = datetime.now(kst).strftime('%m.%d')
+    today_full = datetime.now(kst).strftime('%Y-%m-%d')
+
+    cur_holdings = master_data.get('holdings') or {}
+    new_holdings = dict(cur_holdings)
+    for t in ('TQQQ', 'SOXL', 'KORU'):
+        new_holdings[t] = 0
+
+    cur_cash = parts[0]
+    cur_core = parts[1]
+    new_core = cur_core + sat_pct
+    new_ratio = f'{int(round(cur_cash))}:{int(round(new_core))}:0'
+    cleared_signals = {key: None for key, _ in _SIGNAL_KEYS}
+
+    new_master = {
+        **master_data,
+        'date':      today_md,
+        'ratio_raw': new_ratio,
+        'memo':      f'자동 사이클 리셋 ({today_full}): {reason_label}',
+        'holdings':  new_holdings,
+        'signal_first_fired': cleared_signals,
+        'sell1_first_fired_date': None,
+        'sell1_d_day_notified': False,
+        'emergency_first_fired_date': emergency_marker_date,
+    }
+    try:
+        with open(master_path, 'w', encoding='utf-8') as f:
+            json.dump(new_master, f, ensure_ascii=False, indent=4)
+        print(f"🔄 자동 사이클 리셋 · {reason_label} · ratio → {new_ratio}, 마커 clear"
+              + (f", emergency 마커 = {emergency_marker_date}" if emergency_marker_date else ""))
+        master_data.clear()
+        master_data.update(new_master)
+        return True
+    except Exception as e:
+        print(f"[cycle reset] fail: {e}")
+        return False
+
+
+def auto_reset_if_emergency(snapshot, master_data, master_path='master_data.json'):
+    """긴급탈출 (장중/종가 −10%) 발동 시 사이클 리셋.
+    - 동일 발동일에 1회만 (emergency_first_fired_date 마커가 오늘이면 스킵)
+    - 위성 → 코어 균등 매수 + 매수/매도 6 신호 마커 모두 clear
+    - emergency_first_fired_date 마커는 박은 상태로 유지 (다음 hourly run에서 emergency stage 재발동 X)
+    반환: (reset_fired: bool)"""
+    sig = snapshot.get('signals', {}) or {}
+    today_full = datetime.now(kst).strftime('%Y-%m-%d')
+    # raw 트리거: 종가 OR 장중 저점 -10%
+    emergency_today = bool(sig.get('emergency_today'))
+    existing_marker = master_data.get('emergency_first_fired_date')
+    # 이미 오늘 발동된 적 있으면 (마커=오늘) 스킵
+    if not emergency_today:
+        return False
+    if existing_marker == today_full:
+        # 같은 날 다시 hourly run으로 들어왔을 때 추가 reset 안 함
+        return False
+    # 발동: 사이클 리셋 + 마커 박기 (오늘 날짜로)
+    return _do_cycle_reset(master_data, master_path,
+                           reason_label=f'긴급탈출 발동 → 위성 청산, 코어 매수, 모든 신호 리셋',
+                           emergency_marker_date=today_full)
+
+
 def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.json'):
     """매도 3조건 모두 충족 시 사이클 리셋.
-    v5.0: 위성만 청산, 코어 유지 (긴급탈출 룰과 일관). signal_first_fired 6키 모두 clear.
-    멱등: 이미 위성 0이고 마커 비어있으면 스킵. 반환: (reset_fired: bool)"""
+    v5.1: 위성 매도분 → 코어 균등 매수, signal_first_fired 6키 + emergency 마커 모두 clear.
+    반환: (reset_fired: bool)"""
     sell = snapshot.get('sell_signals', {}) or {}
     lev  = snapshot.get('leverage_profit', {}) or {}
 
@@ -2221,53 +2297,9 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
     if not (cond_leverage and cond_leading and cond_expert):
         return False
 
-    # 멱등: 이미 위성 0% (매도 카운터 모두 clear) 이면 스킵
-    parts = parse_ratio_raw(master_data.get('ratio_raw', ''))
-    sat_pct = parts[2] if len(parts) >= 3 else 0
-    has_signal_markers = bool((master_data.get('signal_first_fired') or {}).values()) and \
-                         any((master_data.get('signal_first_fired') or {}).values())
-    if sat_pct == 0 and not has_signal_markers:
-        return False
-
-    today_md   = datetime.now(kst).strftime('%m.%d')
-    today_full = datetime.now(kst).strftime('%Y-%m-%d')
-
-    # v5.1: 위성 매도분 → 코어 매수 (cash buffer X)
-    cur_holdings = master_data.get('holdings') or {}
-    new_holdings = dict(cur_holdings)
-    for t in ('TQQQ', 'SOXL', 'KORU'):
-        new_holdings[t] = 0
-
-    # ratio_raw: 위성 비중을 코어로 이동 (현금:코어:위성)
-    cur_cash = parts[0]
-    cur_core = parts[1]
-    new_core = cur_core + sat_pct
-    new_ratio = f'{int(round(cur_cash))}:{int(round(new_core))}:0'
-
-    # 6 신호 마커 모두 clear
-    cleared_signals = {key: None for key, _ in _SIGNAL_KEYS}
-
-    new_master = {
-        **master_data,
-        'date':      today_md,
-        'ratio_raw': new_ratio,
-        'memo':      f'자동 사이클 리셋 ({today_full}): 매도 3조건 충족 → 위성 청산, 코어 추가 매수',
-        'holdings':  new_holdings,
-        'signal_first_fired': cleared_signals,
-        'sell1_first_fired_date': None,  # 옛 호환 필드도 clear
-        'sell1_d_day_notified': False,
-        'emergency_first_fired_date': None,  # 긴급탈출 마커도 clear → 새 사이클 시작
-    }
-    try:
-        with open(master_path, 'w', encoding='utf-8') as f:
-            json.dump(new_master, f, ensure_ascii=False, indent=4)
-        print(f"🔄 자동 사이클 리셋 (v5.1) · 위성 → 코어 매수, ratio → {new_ratio}, 신호 마커 clear")
-        master_data.clear()
-        master_data.update(new_master)
-        return True
-    except Exception as e:
-        print(f"[auto reset] fail: {e}")
-        return False
+    return _do_cycle_reset(master_data, master_path,
+                           reason_label='매도 3조건 충족 → 위성 청산, 코어 추가 매수',
+                           emergency_marker_date=None)
 
 
 # v5.0: 6 신호별 sticky first_fired_date 추적
@@ -2523,11 +2555,15 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"❌ RS Monitor 생성 실패: {e}")
 
-    # 🔄 7. 매도 3조건 충족 시 자동 사이클 리셋 (master_data.json 100:0:0 덮어쓰기)
+    # 🔄 7. 자동 사이클 리셋
     if snapshot is not None:
         try:
+            # 7a. 긴급탈출 첫 발동 → 위성 청산 + 모든 신호 마커 clear (당일 1회만)
+            if auto_reset_if_emergency(snapshot, master):
+                snapshot['recommended_action'] = "🚨 긴급탈출 발동 · 위성 청산 → 코어 매수 · 매수/매도 신호 리셋 · 평시 운용 시작"
+                save_snapshot(snapshot)
+            # 7b. 매도 3조건 모두 충족 → 사이클 리셋
             if auto_reset_if_sell_signals(snapshot, master):
-                # 리셋된 master 상태를 snapshot.recommended_action 에도 반영하고 재저장
                 snapshot['recommended_action'] = "🔄 자동 리셋 · 매도 3조건 충족 · 전량 청산, 다음 구덩이 대기"
                 save_snapshot(snapshot)
         except Exception as e:
