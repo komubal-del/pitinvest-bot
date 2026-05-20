@@ -1,71 +1,59 @@
 {
-  "timestamp": "2026-05-20T08:17:39.882367+09:00",
+  "timestamp": "2026-05-20T13:23:18.819580+09:00",
   "sentiment": {
-    "cnn_fng": 60.4285714285714,
+    "cnn_fng": 60.2857142857143,
     "cnn_components": {
       "momentum": 92.2,
       "strength": 43.0,
       "breadth": 25.0,
       "put_call": 82.6,
-      "junk_bond": 45.2,
+      "junk_bond": 44.2,
       "volatility": 50.0,
       "safe_haven": 84.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 5,
+      "greed_count": 1,
+      "fear_count": 16,
       "greed_articles": [
         {
-          "title": "증시 최대 뇌관 된 '금리'…외국인 이탈·반도체 쏠림 부추긴다 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mMVE4OXBNRWhaRldrb2pZd3RQdWhaTVprUjhpUnZOejRwalZVREhGdE9oZGhzTEhrVjJkM09sbndCb3MtcnhZV1hSV2dZWkdxcXVOel83UmlvZGc?oc=5",
-          "pub_date": "Tue, 19 May 2026 21:00:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "뉴욕증시 과열 시그널?...시타델 \"자금 흐름 역전 위험 커져\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yaS1mNlFCN2FZWlZacE1uay1GV1FzbEpTb3JXZ3JzcnM5UVUtVG55a09JOGZIU0dvN0FBTEljWkJSYU5sWk1qdUV1dmk2TlE?oc=5",
-          "pub_date": "Tue, 19 May 2026 19:45:01 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[뉴욕증시] 미 국채의 역습, 과열 시그널? 속수무책···반도체주 '선방' - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvNTZhNDRJeFBiTWxTVnVBSWxhY0ZWLWpDaEVaZC0zSWUwWXc1NU1WRG9NMU9HMUlrdGRYOC1UdXY0dFdFdExXaWNGOG84cmIxejB6UWFVZlBsYVo2cWpZbHlNd0paSlFzU1E?oc=5",
-          "pub_date": "Tue, 19 May 2026 21:43:10 GMT",
-          "source": "서울파이낸스"
+          "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
+          "pub_date": "Wed, 20 May 2026 01:46:19 GMT",
+          "source": "시사IN"
         }
       ],
       "fear_articles": [
         {
-          "title": "“美 국채금리 18년 만 최고”…뉴욕증시 동반 급락, 나스닥 0.84%↓ - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GSjNfS01ZQ2lTUGdFcVJMV2RFNmhOWUtmajBxZkg5czVMS1FYR3Zma1RVMnBaREtLMGJSY0swWjhsSjJZeTlTNG5SZk9Vdw?oc=5",
-          "pub_date": "Tue, 19 May 2026 22:42:23 GMT",
-          "source": "전자신문"
+          "title": "외국인 1.5조 팔자에 코스피 급락…7100선대로 밀려 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4Njk2emxpU090YWhXRlZLVUhoZVV6N0tNcUJzbFlGTUIwZHktNS1GNzNrZlF5OHZ4MUFQX1BwSXNVM2pMS3FTUVM1UmxHbjNNdkxSVndyUUhBTkswMTNSYkJoN25fQXBuV0VvdUdxT2hHUQ?oc=5",
+          "pub_date": "Wed, 20 May 2026 02:15:35 GMT",
+          "source": "인더스트리뉴스"
         },
         {
-          "title": "한 달새 109% 뛰었다…코스피 급락에도 '최고가' 터진 회사 [종목+] - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pMjFlTm9TU1QxbEhsY3hlYlpjU0lQMTN3UnZZeTBkOXIwUHgxRGI3SDh5Y3Y1dlJkSVB2aXNLLWl0ZHBoeEJrYlB6NDI0azV6UW5ETFBxX0phd9IBVEFVX3lxTFAweGRzeDk1Ynl2c0swcy1FenJ6eHByX0tsTE5GbWhQZllEbjVnczBfd09ZLUVFT3RtZmdESV9wQ3k1SGRpcHRvWGdvQUR2WHJOdVRIZw?oc=5",
-          "pub_date": "Tue, 19 May 2026 22:42:00 GMT",
-          "source": "한국경제"
+          "title": "외국인 매도세·삼전 협상 결렬에…코스피 지수 2% 하락세 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQkNzV3ZtSFlCUkg3VG5nMFZuajVDU2c2RUcyckJuckJsQ3h2TS1LTjVFY3ZHeUtsY2VHSXRFNVZKX0t5eFhaMWFpTXdGQmpQb2k3TkRpU1g3Zi1fUVhaQldPLWtXX3pzRmdUUFdrZkY2WjhmeF9reTFfLUxITUxRUm1YS0NuekJy0gGcAUFVX3lxTE05SjEydGN6ak1EZDdYdWEtaXpYUVhQMEZPZGVsTk53cFYtZWpOMk40R2RYc3VtTjZRSkVMSWtpclpldXMycGYzanRSZEc5QUpUWEcyRko2TzRoME1YMl9IZ2ZLaUI2ZUlRM1dvWFRteWcwaHZ3Q2RiczVFRzRBdG1WeDg5emtHZDBhaHNPZ2xwaWtndk5VUnZYRGJKUw?oc=5",
+          "pub_date": "Wed, 20 May 2026 02:53:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "코스피, 외인 순매도세에 하락마감...반도체 '약세' - 베타뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05VXluVFBxMjlkMlJaNWxhVTNMdUt4UGJTejJ0OWJ5ZC05WUtzME1zNXNySlEtRXN2T2FPRTd6MHdqX09BcG9CZ0xUWmMybThpbm9YOUx2azIwU041MXNjU2VKeks?oc=5",
-          "pub_date": "Tue, 19 May 2026 17:08:24 GMT",
-          "source": "베타뉴스"
+          "title": "코스피, 삼전 파업 소식에 곤두박질…2%대 하락 전환[장중시황] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OSF9XdlJBbml5OGhReXFJMDFrVVIzU3ZMMWpxZUFDM1FSUDBPMTFTV0l5U0NnSW9DRldSU1Jfb1RuZ1pIU2haN0NDMW1DOFFIQzV0WXBsNmMtZWRFS3FB?oc=5",
+          "pub_date": "Wed, 20 May 2026 02:52:01 GMT",
+          "source": "뉴스1"
         },
         {
-          "title": "코스피 3.25% 급락 7271.66…외국인 9거일 연속 42조 순매도 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WR3VmMjlTZXJ5TmpDLVJJczFBdjJDUUVPR2k2UUNwMmRDMEtsdFctRjJyWFVvbmhjOTZaZkd1ekZhUUlKejZybTlwekNSanM?oc=5",
-          "pub_date": "Tue, 19 May 2026 21:46:50 GMT",
+          "title": "코스피, 장중 3%대 급락…7100선 아래로 후퇴 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxRDFfTm0tajdkdllXU2MzS3lDZ1RnTlhLdnhLSlQxU1c3VDJDWXA4TjhXeVV4YjNPSmFqUG5obnFRVVdIVmp2by1veDhhQjN0VFFfQWZVRTFZZUF1Y3k3dkdOM2U1UFR0MXRYOS1nekJXQ2huQklLN9IBeEFVX3lxTFBxRDFfTm0tajdkdllXU2MzS3lDZ1RnTlhLdnhLSlQxU1c3VDJDWXA4TjhXeVV4YjNPSmFqUG5obnFRVVdIVmp2by1veDhhQjN0VFFfQWZVRTFZZUF1Y3k3dkdOM2U1UFR0MXRYOS1nekJXQ2huQklLNw?oc=5",
+          "pub_date": "Wed, 20 May 2026 00:35:45 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "‘57만전자’ 현실로?…코스피 폭락에도 삼성은 ‘빨간불’ [오늘, 이 종목] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2RjNqeUhXZ0c5OFNFUEtRaUIyQU5mRWFQZHFLTGZPNkpERy1mUEtzZkRDemVTMTQ4R1pKTmtwS2pvaHE5SE51dWU0Rlh0eHc?oc=5",
+          "pub_date": "Wed, 20 May 2026 02:42:04 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "채권금리 급등에 기술주 급락…뉴욕증시, 3대 지수 동반 하락 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xOTlCQXR0TGhSNkJhbE5UUFlJVVE4U1poM1lMVFVrR2dEMUFybXI1dFV3NTFXc0JKcHJZME9FQ1FhUFRPVldaMFpfeTg0anVpdFV3NGxJLVZmd0h0UkxuWkw4enV2RGh6?oc=5",
-          "pub_date": "Tue, 19 May 2026 21:22:52 GMT",
-          "source": "ebn.co.kr"
         }
       ]
     }
@@ -77,8 +65,8 @@
     "move": 85.32
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -5566700000000,
-    "retail_net_buy_krw": 5628900000000,
+    "foreign_inst_buy_krw": -963300000000,
+    "retail_net_buy_krw": 924600000000,
     "margin_loan_krw": 35812200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -92,16 +80,16 @@
       "intraday_low_drop_pct": -3.77
     },
     "kospi": {
-      "current": 7516.04,
+      "current": 7128.58,
       "high_52w": 8046.78,
-      "drop_pct": -6.6,
-      "intraday_low_drop_pct": -11.24
+      "drop_pct": -11.41,
+      "intraday_low_drop_pct": -12.34
     },
     "kosdaq": {
-      "current": 1111.09,
+      "current": 1048.41,
       "high_52w": 1229.42,
-      "drop_pct": -9.62,
-      "intraday_low_drop_pct": -12.83
+      "drop_pct": -14.72,
+      "intraday_low_drop_pct": -15.55
     },
     "sp500": {
       "current": 7353.61,
