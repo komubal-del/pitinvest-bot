@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-20T13:23:18.819580+09:00",
+  "timestamp": "2026-05-20T17:34:27.304521+09:00",
   "sentiment": {
-    "cnn_fng": 60.2857142857143,
+    "cnn_fng": 59.2571428571429,
     "cnn_components": {
       "momentum": 92.2,
-      "strength": 43.0,
-      "breadth": 25.0,
+      "strength": 41.4,
+      "breadth": 19.4,
       "put_call": 82.6,
       "junk_bond": 44.2,
       "volatility": 50.0,
@@ -14,14 +14,32 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 16,
+      "greed_count": 4,
+      "fear_count": 10,
       "greed_articles": [
+        {
+          "title": "코스피 ‘올해 1만피’ 낙관론 속…고개 드는 ‘슈퍼버블’ 경고음 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PajB1c21YUnFBdTltbDlDUGdGc244M2lXYkdzeVNrUVJ2RFJySE9zeGtxRVJ6QlcydWE2dW9xUmVFUi16d21mbnZJYzduczlFRE1HMQ?oc=5",
+          "pub_date": "Wed, 20 May 2026 07:15:00 GMT",
+          "source": "JTBC"
+        },
         {
           "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
-          "pub_date": "Wed, 20 May 2026 01:46:19 GMT",
+          "pub_date": "Wed, 20 May 2026 04:45:45 GMT",
           "source": "시사IN"
+        },
+        {
+          "title": "\"코스피 랠리, 닷컴 버블 때 美나스닥보다 빨랐다\" - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xYzhoZkpoWmRMUHZNSExGTFFITTFIYnRhS2hOLXpWTDJkV1pSaDE2cW9WTFVlVzhwSjBKVjNhbVRFVTBuRWdlV1lka0lxaGM3OEFkbDZsbnk3RkhodzhRcdIBeEFVX3lxTE4zMmJaam5fMzhlZmJwMXRka0NZVmhMM00xZXJUTDVnbnZ2WDEtVkNQRmMwUkxXSGp2MElWT2JXeV9WZ2JxRW0tSmYxWFE4Nm42VmFpOG9UOFpfQXk2RkJHRUx0RVg3ZWRJSnUwYTFsZGpDbmhONW83bQ?oc=5",
+          "pub_date": "Wed, 20 May 2026 06:29:13 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "코스피 하락세에 반대매매 부담 확대…빚투 개미 ‘긴장’ By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jUVUzNWhZVmc0dW1hdGJ1cFVJUlREb2FMb29ScUVPNDZOU1JLS1RYNWNIb0UxalZkTl9QNWVNNk5WRnc5X3M2SW5oRjI4V2J2bWpTUjRuSV9UaDdmdl9RRldJTUJyUTdXV2E5eWNrYUw?oc=5",
+          "pub_date": "Wed, 20 May 2026 06:42:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ],
       "fear_articles": [
@@ -32,41 +50,41 @@
           "source": "인더스트리뉴스"
         },
         {
-          "title": "외국인 매도세·삼전 협상 결렬에…코스피 지수 2% 하락세 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQkNzV3ZtSFlCUkg3VG5nMFZuajVDU2c2RUcyckJuckJsQ3h2TS1LTjVFY3ZHeUtsY2VHSXRFNVZKX0t5eFhaMWFpTXdGQmpQb2k3TkRpU1g3Zi1fUVhaQldPLWtXX3pzRmdUUFdrZkY2WjhmeF9reTFfLUxITUxRUm1YS0NuekJy0gGcAUFVX3lxTE05SjEydGN6ak1EZDdYdWEtaXpYUVhQMEZPZGVsTk53cFYtZWpOMk40R2RYc3VtTjZRSkVMSWtpclpldXMycGYzanRSZEc5QUpUWEcyRko2TzRoME1YMl9IZ2ZLaUI2ZUlRM1dvWFRteWcwaHZ3Q2RiczVFRzRBdG1WeDg5emtHZDBhaHNPZ2xwaWtndk5VUnZYRGJKUw?oc=5",
-          "pub_date": "Wed, 20 May 2026 02:53:00 GMT",
+          "title": "“이러다 증시 폭락한다”…월가 덮친 美 국채금리 공포 [머니+] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zanZSaEtXdExPcU04dkNRV21FdEVSLXNTbDJoWTNQd2dFRG10TmZTZ3Z1ZlZSUDI5SDZCaEhlczBxdm9rODR6N1pnNGxjY3p2RndvZ09XY01OLXM?oc=5",
+          "pub_date": "Wed, 20 May 2026 05:49:40 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "삼성전자 총파업 우려에 주가 장중 4% 급락…코스피 7,200선 하락 마감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ieEE2YXZfWWF6YkVZMEE2NllINHZNejNLbmYxY3c3RzdicjlpOUE5Qm5ONndwamlSUnNBWG5LcGRiOU50U295VEQ5Z3pTRlU?oc=5",
+          "pub_date": "Wed, 20 May 2026 08:22:50 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[마켓뷰] 삼전 노사 결렬·외인 투매 폭탄… 코스피 7200선 턱걸이 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWTJNdlBQYWsxam9XYXFsSE9sS0xteDlqeWFpN2FxMF9iR2JVRzV3RGR6OE53c2ZJOF84MTF2S2p1LWo5QlFGb0xieERES3dJRVAzdFhEa3ZHN3g4Vl90WVcxZ25jQzdaXy1kV3pld3RiUjdxVm1mZ01TQklQX2kzYzc0cTR5WW1n0gGcAUFVX3lxTE5LX21ScDR5bnFHWDFHY2tsS0poVTVRNVZxdmFuSE1pTm1TWVdhX1ctLWlVOHpLbEhGal9uUUdpcHV0dUh5LXZ3cU9qZUc2cHVNMEFsTTV2NlRaM003X2NwVmg3TzlseHlnbW5FNUloRXk3U1hVTkwtNTZtWHpqcjB6UTAyRVZUTWF5cXYtQ2RKVzZEcHhvVnNKVHhRSQ?oc=5",
+          "pub_date": "Wed, 20 May 2026 07:31:00 GMT",
           "source": "Chosunbiz"
         },
         {
-          "title": "코스피, 삼전 파업 소식에 곤두박질…2%대 하락 전환[장중시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OSF9XdlJBbml5OGhReXFJMDFrVVIzU3ZMMWpxZUFDM1FSUDBPMTFTV0l5U0NnSW9DRldSU1Jfb1RuZ1pIU2haN0NDMW1DOFFIQzV0WXBsNmMtZWRFS3FB?oc=5",
-          "pub_date": "Wed, 20 May 2026 02:52:01 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "코스피, 장중 3%대 급락…7100선 아래로 후퇴 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxRDFfTm0tajdkdllXU2MzS3lDZ1RnTlhLdnhLSlQxU1c3VDJDWXA4TjhXeVV4YjNPSmFqUG5obnFRVVdIVmp2by1veDhhQjN0VFFfQWZVRTFZZUF1Y3k3dkdOM2U1UFR0MXRYOS1nekJXQ2huQklLN9IBeEFVX3lxTFBxRDFfTm0tajdkdllXU2MzS3lDZ1RnTlhLdnhLSlQxU1c3VDJDWXA4TjhXeVV4YjNPSmFqUG5obnFRVVdIVmp2by1veDhhQjN0VFFfQWZVRTFZZUF1Y3k3dkdOM2U1UFR0MXRYOS1nekJXQ2huQklLNw?oc=5",
-          "pub_date": "Wed, 20 May 2026 00:35:45 GMT",
-          "source": "뉴시스"
-        },
-        {
-          "title": "‘57만전자’ 현실로?…코스피 폭락에도 삼성은 ‘빨간불’ [오늘, 이 종목] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2RjNqeUhXZ0c5OFNFUEtRaUIyQU5mRWFQZHFLTGZPNkpERy1mUEtzZkRDemVTMTQ4R1pKTmtwS2pvaHE5SE51dWU0Rlh0eHc?oc=5",
-          "pub_date": "Wed, 20 May 2026 02:42:04 GMT",
-          "source": "v.daum.net"
+          "title": "협상 결렬 소식에‥코스피·삼성전자 주가 '급락' - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jNlNPWDdXbUgwRjlqVXl5WERzOVhRdWQxb0tEeVo1czRMaVdic3BGOXBaRE1ZX01JaUNlNXJHci1rQlBId1gydkVRaXVTUlNUbWQ2YUtXWGVJdXUzc3g5LU1kcUtxcXRmZUIwUHlReHhjM1BPd0F4Z9IBeEFVX3lxTE5tMjBGcXRsbXdPbERKTldSLUx1YktvOGhkSjdhS0ZheHhpNXZNeXpORWc4Z0lNN0J6VklBV3ZnSDVBem83YlJLWDY1WGJYYU5xLTEwNzdocjZSNEFHSFpaajg5dlRSYmxTMVVlYmoyaHZGNkZfR21GMw?oc=5",
+          "pub_date": "Wed, 20 May 2026 03:03:08 GMT",
+          "source": "MBC 뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.06,
+    "vix": 18.08,
     "vvix": 94.61,
     "skew": 135.5,
     "move": 85.32
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -963300000000,
-    "retail_net_buy_krw": 924600000000,
+    "foreign_inst_buy_krw": -1824000000000,
+    "retail_net_buy_krw": 1710600000000,
     "margin_loan_krw": 35812200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -80,15 +98,15 @@
       "intraday_low_drop_pct": -3.77
     },
     "kospi": {
-      "current": 7128.58,
+      "current": 7208.95,
       "high_52w": 8046.78,
-      "drop_pct": -11.41,
+      "drop_pct": -10.41,
       "intraday_low_drop_pct": -12.34
     },
     "kosdaq": {
-      "current": 1048.41,
+      "current": 1056.07,
       "high_52w": 1229.42,
-      "drop_pct": -14.72,
+      "drop_pct": -14.1,
       "intraday_low_drop_pct": -15.55
     },
     "sp500": {
