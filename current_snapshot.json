@@ -1,35 +1,28 @@
 {
-  "timestamp": "2026-05-21T00:52:41.940200+09:00",
+  "timestamp": "2026-05-21T03:28:37.992423+09:00",
   "sentiment": {
-    "cnn_fng": 60.4285714285714,
+    "cnn_fng": 60.6571428571429,
     "cnn_components": {
       "momentum": 95.8,
-      "strength": 42.0,
-      "breadth": 24.0,
-      "put_call": 83.6,
-      "junk_bond": 42.2,
+      "strength": 42.2,
+      "breadth": 24.2,
+      "put_call": 82.2,
+      "junk_bond": 43.4,
       "volatility": 50.0,
-      "safe_haven": 87.2
+      "safe_haven": 86.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "한국·대만증시, AI 덕에 급부상했지만 '쏠림 심화'는 리스크 - 블로터",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00aEJLcGt0SWZXdkJobmVyM2VBUVFUY2tKcEpKQUxYQ2hFbEFrTkZCSnZtZHNpQWh0NUJFclY5cHEwRlNtaXl3QTdOazBVYjM5cDFobExELWEwS2E5VERyamdDM3o3SGVJ0gFsQVVfeXFMTVBSeFhhZnFXeDVQem44UWROTGk0aVRWSVRaaF8tc0FKWGFONjNfUS1kQTZXX3JCMDl1Sm5KbExvOUhzSmpxWk4wS05rSnJzTXVzQU5jbFNwU2dZaS1GelI0RnhYVzhTN2lyZXot?oc=5",
-          "pub_date": "Wed, 20 May 2026 15:10:00 GMT",
-          "source": "블로터"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.62,
-    "vvix": 94.37,
+    "vix": 17.48,
+    "vvix": 94.31,
     "skew": 135.5,
     "move": 85.32
   },
@@ -43,9 +36,9 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26226.66,
+      "current": 26201.63,
       "high_52w": 26707.14,
-      "drop_pct": -1.8,
+      "drop_pct": -1.89,
       "intraday_low_drop_pct": -2.92
     },
     "kospi": {
@@ -61,31 +54,31 @@
       "intraday_low_drop_pct": -13.51
     },
     "sp500": {
-      "current": 7427.12,
+      "current": 7417.98,
       "high_52w": 7517.12,
-      "drop_pct": -1.2,
+      "drop_pct": -1.32,
       "intraday_low_drop_pct": -2.12
     },
     "russell2k": {
-      "current": 2806.09,
+      "current": 2809.98,
       "high_52w": 2888.62,
-      "drop_pct": -2.86,
+      "drop_pct": -2.72,
       "intraday_low_drop_pct": -4.6
     },
     "soxx": {
-      "current": 518.22,
+      "current": 516.05,
       "high_52w": 533.74,
-      "drop_pct": -2.91,
+      "drop_pct": -3.31,
       "intraday_low_drop_pct": -5.09
     }
   },
   "sector_rs": {
     "XLK": 1.165,
-    "SMH": 1.259,
-    "BOTZ": 0.931,
-    "IGV": 1.062,
-    "XLF": 0.917,
-    "XLE": 1.028
+    "SMH": 1.255,
+    "BOTZ": 0.932,
+    "IGV": 1.066,
+    "XLF": 0.918,
+    "XLE": 1.021
   },
   "signals": {
     "cnn_under_10": false,
@@ -274,7 +267,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 167.422,
+    "strategy_pct": 181.559,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -663,6 +656,10 @@
       {
         "date": "2026-05-20",
         "ret_pct": 167.422
+      },
+      {
+        "date": "2026-05-21",
+        "ret_pct": 181.559
       }
     ],
     "monthly_breakdown": [
@@ -692,8 +689,8 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 46.39,
-        "end_ret_pct": 167.42,
+        "return_pct": 60.52,
+        "end_ret_pct": 181.56,
         "max_dd_pct": 32.07
       }
     ],
