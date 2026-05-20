@@ -1,72 +1,35 @@
 {
-  "timestamp": "2026-05-20T20:57:14.872956+09:00",
+  "timestamp": "2026-05-21T00:52:41.940200+09:00",
   "sentiment": {
-    "cnn_fng": 59.2571428571429,
+    "cnn_fng": 60.4285714285714,
     "cnn_components": {
-      "momentum": 92.2,
-      "strength": 41.4,
-      "breadth": 19.4,
-      "put_call": 82.6,
-      "junk_bond": 44.2,
+      "momentum": 95.8,
+      "strength": 42.0,
+      "breadth": 24.0,
+      "put_call": 83.6,
+      "junk_bond": 42.2,
       "volatility": 50.0,
-      "safe_haven": 84.8
+      "safe_haven": 87.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 8,
+      "greed_count": 1,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
-          "pub_date": "Wed, 20 May 2026 07:47:00 GMT",
-          "source": "시사IN"
-        },
-        {
-          "title": "코스피 ‘올해 1만피’ 낙관론 속…고개 드는 ‘슈퍼버블’ 경고음 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PajB1c21YUnFBdTltbDlDUGdGc244M2lXYkdzeVNrUVJ2RFJySE9zeGtxRVJ6QlcydWE2dW9xUmVFUi16d21mbnZJYzduczlFRE1HMQ?oc=5",
-          "pub_date": "Wed, 20 May 2026 07:15:00 GMT",
-          "source": "JTBC"
+          "title": "한국·대만증시, AI 덕에 급부상했지만 '쏠림 심화'는 리스크 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00aEJLcGt0SWZXdkJobmVyM2VBUVFUY2tKcEpKQUxYQ2hFbEFrTkZCSnZtZHNpQWh0NUJFclY5cHEwRlNtaXl3QTdOazBVYjM5cDFobExELWEwS2E5VERyamdDM3o3SGVJ0gFsQVVfeXFMTVBSeFhhZnFXeDVQem44UWROTGk0aVRWSVRaaF8tc0FKWGFONjNfUS1kQTZXX3JCMDl1Sm5KbExvOUhzSmpxWk4wS05rSnJzTXVzQU5jbFNwU2dZaS1GelI0RnhYVzhTN2lyZXot?oc=5",
+          "pub_date": "Wed, 20 May 2026 15:10:00 GMT",
+          "source": "블로터"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "금융시장 덮친 ‘파업 공포’… 환율 1510원 찍고, 코스피 3% 급락 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zZU9BLXppSWdBVFZCV3hIeDA0QXFZNXl3UjNmS0VVQzVuMHY3Njk4MjF2NUkxajJFZmxQNm9TMW1VOWpzTDV6WWg0WlFFMzhiN0RiMG1kVHRQekM4MjZOeEU4dWdzX3NqOVZnbENMeXN3b0t1cUVBOWlR?oc=5",
-          "pub_date": "Wed, 20 May 2026 11:10:55 GMT",
-          "source": "서울신문"
-        },
-        {
-          "title": "코스피, 외인 매도세에 약보합마감 - 베타뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5peVlUblQwSm85X21XQjhIQ2tpdGFKMXdLSXZHOUJfd3YyMmdtQlRKTFZhTFFqYTQwLTR5UmNFQmRza3Q5NHhyemd3Mk9kM0dHdWRUVE14STdzSjhWUTFxZE5VY0o?oc=5",
-          "pub_date": "Wed, 20 May 2026 11:11:26 GMT",
-          "source": "베타뉴스"
-        },
-        {
-          "title": "외국인 1.5조 팔자에 코스피 급락…7100선대로 밀려 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4Njk2emxpU090YWhXRlZLVUhoZVV6N0tNcUJzbFlGTUIwZHktNS1GNzNrZlF5OHZ4MUFQX1BwSXNVM2pMS3FTUVM1UmxHbjNNdkxSVndyUUhBTkswMTNSYkJoN25fQXBuV0VvdUdxT2hHUQ?oc=5",
-          "pub_date": "Wed, 20 May 2026 02:15:35 GMT",
-          "source": "인더스트리뉴스"
-        },
-        {
-          "title": "[마켓뷰] 삼전 노사 결렬·외인 투매 폭탄… 코스피 7200선 턱걸이 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWTJNdlBQYWsxam9XYXFsSE9sS0xteDlqeWFpN2FxMF9iR2JVRzV3RGR6OE53c2ZJOF84MTF2S2p1LWo5QlFGb0xieERES3dJRVAzdFhEa3ZHN3g4Vl90WVcxZ25jQzdaXy1kV3pld3RiUjdxVm1mZ01TQklQX2kzYzc0cTR5WW1n0gGcAUFVX3lxTE5LX21ScDR5bnFHWDFHY2tsS0poVTVRNVZxdmFuSE1pTm1TWVdhX1ctLWlVOHpLbEhGal9uUUdpcHV0dUh5LXZ3cU9qZUc2cHVNMEFsTTV2NlRaM003X2NwVmg3TzlseHlnbW5FNUloRXk3U1hVTkwtNTZtWHpqcjB6UTAyRVZUTWF5cXYtQ2RKVzZEcHhvVnNKVHhRSQ?oc=5",
-          "pub_date": "Wed, 20 May 2026 07:31:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "“이러다 증시 폭락한다”…월가 덮친 美 국채금리 공포 [머니+] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zanZSaEtXdExPcU04dkNRV21FdEVSLXNTbDJoWTNQd2dFRG10TmZTZ3Z1ZlZSUDI5SDZCaEhlczBxdm9rODR6N1pnNGxjY3p2RndvZ09XY01OLXM?oc=5",
-          "pub_date": "Wed, 20 May 2026 05:49:40 GMT",
-          "source": "에너지경제신문"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.96,
-    "vvix": 94.61,
+    "vix": 17.62,
+    "vvix": 94.37,
     "skew": 135.5,
     "move": 85.32
   },
@@ -80,49 +43,49 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25870.71,
+      "current": 26226.66,
       "high_52w": 26707.14,
-      "drop_pct": -3.13,
-      "intraday_low_drop_pct": -3.77
+      "drop_pct": -1.8,
+      "intraday_low_drop_pct": -2.92
     },
     "kospi": {
-      "current": 7208.95,
+      "current": 7271.66,
       "high_52w": 8046.78,
-      "drop_pct": -10.41,
-      "intraday_low_drop_pct": -12.34
+      "drop_pct": -9.63,
+      "intraday_low_drop_pct": -11.25
     },
     "kosdaq": {
-      "current": 1056.07,
+      "current": 1084.36,
       "high_52w": 1229.42,
-      "drop_pct": -14.1,
-      "intraday_low_drop_pct": -15.55
+      "drop_pct": -11.8,
+      "intraday_low_drop_pct": -13.51
     },
     "sp500": {
-      "current": 7353.61,
+      "current": 7427.12,
       "high_52w": 7517.12,
-      "drop_pct": -2.18,
-      "intraday_low_drop_pct": -2.44
+      "drop_pct": -1.2,
+      "intraday_low_drop_pct": -2.12
     },
     "russell2k": {
-      "current": 2747.07,
+      "current": 2806.09,
       "high_52w": 2888.62,
-      "drop_pct": -4.9,
-      "intraday_low_drop_pct": -5.74
+      "drop_pct": -2.86,
+      "intraday_low_drop_pct": -4.6
     },
     "soxx": {
-      "current": 496.74,
+      "current": 518.22,
       "high_52w": 533.74,
-      "drop_pct": -6.93,
-      "intraday_low_drop_pct": -10.45
+      "drop_pct": -2.91,
+      "intraday_low_drop_pct": -5.09
     }
   },
   "sector_rs": {
-    "XLK": 1.154,
-    "SMH": 1.228,
-    "BOTZ": 0.934,
-    "IGV": 1.067,
+    "XLK": 1.165,
+    "SMH": 1.259,
+    "BOTZ": 0.931,
+    "IGV": 1.062,
     "XLF": 0.917,
-    "XLE": 1.053
+    "XLE": 1.028
   },
   "signals": {
     "cnn_under_10": false,
@@ -268,8 +231,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-05-20",
-    "analyzed_at": "2026-05-20T01:31:01.353599+09:00",
+    "date": "2026-05-21",
+    "analyzed_at": "2026-05-21T00:52:47.193115+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -277,16 +240,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "mKMPYzFCUhQ",
-        "title": "시장 흔들릴수록 중요한 건 ‘리밸런싱’ | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-19T00:31:32Z",
-        "url": "https://youtube.com/watch?v=mKMPYzFCUhQ",
+        "video_id": "KHLSwzlaW54",
+        "title": "\"아침에 사면 물려요\" 약세장 진입한 한국 증시, 고금리 씹어 먹을 '진짜 주도주' 구별법ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+        "published": "2026-05-20T09:12:01Z",
+        "url": "https://youtube.com/watch?v=KHLSwzlaW54",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "제목에서 시장이 흔들릴 때 '리밸런싱'이 중요하다고 언급하며 변동성 장세에 대한 포트폴리오 관리 전략을 제시할 뿐, 특정 방향으로의 매수 또는 매도 권고가 명확하지 않습니다."
+          "stance": "warning",
+          "reason": "제목에서 '아침에 사면 물려요'라고 명확히 매수에 대한 경고를 하고 있으며, '약세장 진입한 한국 증시'임을 밝혀 현재 시장 상황에 대한 부정적인 시각을 제시합니다."
         }
       },
       {
@@ -305,7 +268,7 @@
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
+      "박병창": "warning",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
