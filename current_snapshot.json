@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-20T17:34:27.304521+09:00",
+  "timestamp": "2026-05-20T20:57:14.872956+09:00",
   "sentiment": {
     "cnn_fng": 59.2571428571429,
     "cnn_components": {
@@ -14,52 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 10,
+      "greed_count": 2,
+      "fear_count": 8,
       "greed_articles": [
+        {
+          "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
+          "pub_date": "Wed, 20 May 2026 07:47:00 GMT",
+          "source": "시사IN"
+        },
         {
           "title": "코스피 ‘올해 1만피’ 낙관론 속…고개 드는 ‘슈퍼버블’ 경고음 - JTBC",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PajB1c21YUnFBdTltbDlDUGdGc244M2lXYkdzeVNrUVJ2RFJySE9zeGtxRVJ6QlcydWE2dW9xUmVFUi16d21mbnZJYzduczlFRE1HMQ?oc=5",
           "pub_date": "Wed, 20 May 2026 07:15:00 GMT",
           "source": "JTBC"
-        },
-        {
-          "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
-          "pub_date": "Wed, 20 May 2026 04:45:45 GMT",
-          "source": "시사IN"
-        },
-        {
-          "title": "\"코스피 랠리, 닷컴 버블 때 美나스닥보다 빨랐다\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xYzhoZkpoWmRMUHZNSExGTFFITTFIYnRhS2hOLXpWTDJkV1pSaDE2cW9WTFVlVzhwSjBKVjNhbVRFVTBuRWdlV1lka0lxaGM3OEFkbDZsbnk3RkhodzhRcdIBeEFVX3lxTE4zMmJaam5fMzhlZmJwMXRka0NZVmhMM00xZXJUTDVnbnZ2WDEtVkNQRmMwUkxXSGp2MElWT2JXeV9WZ2JxRW0tSmYxWFE4Nm42VmFpOG9UOFpfQXk2RkJHRUx0RVg3ZWRJSnUwYTFsZGpDbmhONW83bQ?oc=5",
-          "pub_date": "Wed, 20 May 2026 06:29:13 GMT",
-          "source": "뉴시스"
-        },
-        {
-          "title": "코스피 하락세에 반대매매 부담 확대…빚투 개미 ‘긴장’ By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jUVUzNWhZVmc0dW1hdGJ1cFVJUlREb2FMb29ScUVPNDZOU1JLS1RYNWNIb0UxalZkTl9QNWVNNk5WRnc5X3M2SW5oRjI4V2J2bWpTUjRuSV9UaDdmdl9RRldJTUJyUTdXV2E5eWNrYUw?oc=5",
-          "pub_date": "Wed, 20 May 2026 06:42:00 GMT",
-          "source": "Investing.com 한국어"
         }
       ],
       "fear_articles": [
+        {
+          "title": "금융시장 덮친 ‘파업 공포’… 환율 1510원 찍고, 코스피 3% 급락 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zZU9BLXppSWdBVFZCV3hIeDA0QXFZNXl3UjNmS0VVQzVuMHY3Njk4MjF2NUkxajJFZmxQNm9TMW1VOWpzTDV6WWg0WlFFMzhiN0RiMG1kVHRQekM4MjZOeEU4dWdzX3NqOVZnbENMeXN3b0t1cUVBOWlR?oc=5",
+          "pub_date": "Wed, 20 May 2026 11:10:55 GMT",
+          "source": "서울신문"
+        },
+        {
+          "title": "코스피, 외인 매도세에 약보합마감 - 베타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5peVlUblQwSm85X21XQjhIQ2tpdGFKMXdLSXZHOUJfd3YyMmdtQlRKTFZhTFFqYTQwLTR5UmNFQmRza3Q5NHhyemd3Mk9kM0dHdWRUVE14STdzSjhWUTFxZE5VY0o?oc=5",
+          "pub_date": "Wed, 20 May 2026 11:11:26 GMT",
+          "source": "베타뉴스"
+        },
         {
           "title": "외국인 1.5조 팔자에 코스피 급락…7100선대로 밀려 - 인더스트리뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4Njk2emxpU090YWhXRlZLVUhoZVV6N0tNcUJzbFlGTUIwZHktNS1GNzNrZlF5OHZ4MUFQX1BwSXNVM2pMS3FTUVM1UmxHbjNNdkxSVndyUUhBTkswMTNSYkJoN25fQXBuV0VvdUdxT2hHUQ?oc=5",
           "pub_date": "Wed, 20 May 2026 02:15:35 GMT",
           "source": "인더스트리뉴스"
-        },
-        {
-          "title": "“이러다 증시 폭락한다”…월가 덮친 美 국채금리 공포 [머니+] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zanZSaEtXdExPcU04dkNRV21FdEVSLXNTbDJoWTNQd2dFRG10TmZTZ3Z1ZlZSUDI5SDZCaEhlczBxdm9rODR6N1pnNGxjY3p2RndvZ09XY01OLXM?oc=5",
-          "pub_date": "Wed, 20 May 2026 05:49:40 GMT",
-          "source": "에너지경제신문"
-        },
-        {
-          "title": "삼성전자 총파업 우려에 주가 장중 4% 급락…코스피 7,200선 하락 마감 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ieEE2YXZfWWF6YkVZMEE2NllINHZNejNLbmYxY3c3RzdicjlpOUE5Qm5ONndwamlSUnNBWG5LcGRiOU50U295VEQ5Z3pTRlU?oc=5",
-          "pub_date": "Wed, 20 May 2026 08:22:50 GMT",
-          "source": "v.daum.net"
         },
         {
           "title": "[마켓뷰] 삼전 노사 결렬·외인 투매 폭탄… 코스피 7200선 턱걸이 - 조선비즈 - Chosunbiz",
@@ -68,23 +56,23 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "협상 결렬 소식에‥코스피·삼성전자 주가 '급락' - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jNlNPWDdXbUgwRjlqVXl5WERzOVhRdWQxb0tEeVo1czRMaVdic3BGOXBaRE1ZX01JaUNlNXJHci1rQlBId1gydkVRaXVTUlNUbWQ2YUtXWGVJdXUzc3g5LU1kcUtxcXRmZUIwUHlReHhjM1BPd0F4Z9IBeEFVX3lxTE5tMjBGcXRsbXdPbERKTldSLUx1YktvOGhkSjdhS0ZheHhpNXZNeXpORWc4Z0lNN0J6VklBV3ZnSDVBem83YlJLWDY1WGJYYU5xLTEwNzdocjZSNEFHSFpaajg5dlRSYmxTMVVlYmoyaHZGNkZfR21GMw?oc=5",
-          "pub_date": "Wed, 20 May 2026 03:03:08 GMT",
-          "source": "MBC 뉴스"
+          "title": "“이러다 증시 폭락한다”…월가 덮친 美 국채금리 공포 [머니+] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zanZSaEtXdExPcU04dkNRV21FdEVSLXNTbDJoWTNQd2dFRG10TmZTZ3Z1ZlZSUDI5SDZCaEhlczBxdm9rODR6N1pnNGxjY3p2RndvZ09XY01OLXM?oc=5",
+          "pub_date": "Wed, 20 May 2026 05:49:40 GMT",
+          "source": "에너지경제신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.08,
+    "vix": 17.96,
     "vvix": 94.61,
     "skew": 135.5,
     "move": 85.32
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -1824000000000,
-    "retail_net_buy_krw": 1710600000000,
+    "retail_net_buy_krw": 1710400000000,
     "margin_loan_krw": 35812200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -190,6 +178,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.05.20",
+            "close": 276000,
+            "change_pct": 0.18,
+            "retail_net": 2976567,
+            "inst_net": 2756787,
+            "foreign_net": -5733354
+          },
+          {
             "date": "2026.05.19",
             "close": 275500,
             "change_pct": -1.96,
@@ -220,17 +216,17 @@
             "retail_net": -1018338,
             "inst_net": 260989,
             "foreign_net": 757349
-          },
-          {
-            "date": "2026.05.13",
-            "close": 284000,
-            "change_pct": 1.79,
-            "retail_net": 4033835,
-            "inst_net": 1642009,
-            "foreign_net": -5675844
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.20",
+            "close": 1745000,
+            "change_pct": 0.0,
+            "retail_net": 463644,
+            "inst_net": 240569,
+            "foreign_net": -704213
+          },
           {
             "date": "2026.05.19",
             "close": 1745000,
@@ -262,14 +258,6 @@
             "retail_net": 1031405,
             "inst_net": -216196,
             "foreign_net": -815209
-          },
-          {
-            "date": "2026.05.13",
-            "close": 1976000,
-            "change_pct": 7.68,
-            "retail_net": 452545,
-            "inst_net": 465314,
-            "foreign_net": -917859
           }
         ]
       }
