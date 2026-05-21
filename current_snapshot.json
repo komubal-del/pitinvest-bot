@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-05-21T09:15:57.608016+09:00",
+  "timestamp": "2026-05-21T14:17:52.375685+09:00",
   "sentiment": {
-    "cnn_fng": 60.9142857142857,
+    "cnn_fng": 60.8571428571429,
     "cnn_components": {
       "momentum": 97.0,
       "strength": 42.2,
       "breadth": 24.0,
       "put_call": 79.8,
-      "junk_bond": 45.8,
+      "junk_bond": 45.4,
       "volatility": 50.0,
       "safe_haven": 87.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 2,
+      "greed_count": 3,
+      "fear_count": 1,
       "greed_articles": [
-        {
-          "title": "8000선 돌파 후 휘청이는 코스피…'닷컴버블' 재현될까 [1분 브리프] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fNzZwSHBDeDZERGl1ZWJDbEJvN1dYd3pjV0FNVGhLWEEwMVc1TXJEUjRBR3YzenNsaDZBckJLMTZkWFMyNXNDQ21VeXBzQVZRVFh2Z0pKYTYzR00xQUhNbg?oc=5",
-          "pub_date": "Wed, 20 May 2026 23:00:00 GMT",
-          "source": "아시아경제"
-        },
         {
           "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
-          "pub_date": "Wed, 20 May 2026 16:55:22 GMT",
+          "pub_date": "Thu, 21 May 2026 02:23:18 GMT",
           "source": "시사IN"
+        },
+        {
+          "title": "IT 버블과 비교한 코스피 과열 수준은 [오대정의 경제지표 읽기] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zNnZvdzljc1Jnb0laZDF6MFlUR0hBUDJWcklKZ1V2V3JVX25aNnpYdFZwUnhVSlk3d1R0R1VEVmZfN2ZWZnI0VUxkUVJFQlE?oc=5",
+          "pub_date": "Thu, 21 May 2026 04:13:59 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "미국 증시, AI 버블 랠리 속 사상 최고치 경신 이후 첫 조정 국면 진입 - 치과신문",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiVkVGSUEtOWVPMlIwLU1ON1g0QjMxSl94UV9xQWYtRm5EUlNPS0Y5WUZ5TE9JeWxBS19JNU9HaWRiNlJXWklKRVk2bGtHR3RrSTZDemRvYjdnUnZxZ2NhalR1amRmUQ?oc=5",
+          "pub_date": "Thu, 21 May 2026 03:57:13 GMT",
+          "source": "치과신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "급락했던 코스피, 삼성전자 노사 합의에 반등 주목 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yM1hiUld0YkN3RnlnR2NoT2s2a1BYREhRMXdpYXNobEFkVUxZLVpadGI0NUNkNTV2SlJsV2FxcGdlNjNDdWpqNlVPUXBwa2V0MlZHaEpDZ1NFcjVWZkE?oc=5",
-          "pub_date": "Wed, 20 May 2026 19:39:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "종전 기대감에 발작 진정...국채금리 급락에 美증시 반등[월가월부] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qMW5lRW4wWjFiSzBKRmN1dkY0bWMxYy12SlF5eXl1X3NqN203dkVwMGpfdHkwV0I3dlNveExmOFpLQmF6UFZpZHJMVm1JTzQ?oc=5",
-          "pub_date": "Wed, 20 May 2026 20:45:00 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 개인 매수에 7,500선 회복…유가 급락·반도체 투심 회복 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iamUzMDNKenZoNmowQS1NR2FnUjhUekprZ3BnWXp1M18yY3AyS2VOX2I4d1kyVnRtc05rSnB1aHdYTnJxS0lfcUVrOGpycE1zc19IT3g0eWF4WURQTkpKWk51Y2JsZjJVSk9qVzlvY0I?oc=5",
+          "pub_date": "Thu, 21 May 2026 00:22:19 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
@@ -53,8 +53,8 @@
     "move": 81.53
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -505700000000,
-    "retail_net_buy_krw": 519100000000,
+    "foreign_inst_buy_krw": 1923700000000,
+    "retail_net_buy_krw": -1919900000000,
     "margin_loan_krw": 35286800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -68,16 +68,16 @@
       "intraday_low_drop_pct": -2.92
     },
     "kospi": {
-      "current": 7271.66,
+      "current": 7784.46,
       "high_52w": 8046.78,
-      "drop_pct": -9.63,
-      "intraday_low_drop_pct": -11.25
+      "drop_pct": -3.26,
+      "intraday_low_drop_pct": -6.96
     },
     "kosdaq": {
-      "current": 1084.36,
+      "current": 1109.09,
       "high_52w": 1229.42,
-      "drop_pct": -11.8,
-      "intraday_low_drop_pct": -13.51
+      "drop_pct": -9.79,
+      "intraday_low_drop_pct": -11.72
     },
     "sp500": {
       "current": 7432.97,
@@ -86,7 +86,7 @@
       "intraday_low_drop_pct": -2.12
     },
     "russell2k": {
-      "current": 2817.36,
+      "current": 2817.37,
       "high_52w": 2888.62,
       "drop_pct": -2.47,
       "intraday_low_drop_pct": -4.6
@@ -150,7 +150,7 @@
     "leading_detail": {
       "samsung_3d_up": false,
       "samsung_retail_buying": true,
-      "samsung_at_60d_high": false,
+      "samsung_at_60d_high": true,
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
@@ -247,7 +247,7 @@
     "expert_warning": false,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-05-21",
