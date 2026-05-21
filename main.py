@@ -999,27 +999,33 @@ def _build_ytd_returns(history_rows):
     }
 
 
-def _compute_my_return(journal_path='journal.csv'):
-    """실계좌 '내 수익률' = 최신 포지션 업로드(journal)의 보유 종목 평가수익률(평가액 가중평균).
-    avg_cost/current_price 가 있는 종목만 사용. 반환: (pct or None, note)."""
+def _compute_my_return(monthly_path='monthly_returns.json'):
+    """실계좌 '내 수익률' (YTD) = monthly_returns.json 월별 수익률의 복리 누적.
+    월 수익률 = total_pnl / (end_assets - total_pnl)  (= 월초 자산 대비, 입출금 영향 배제한 시간가중수익률).
+    전략 시뮬(strategy_pct)과 동일하게 연초~ 기준이라 직접 비교 가능. 반환: (pct or None, note)."""
     try:
-        if not os.path.isfile(journal_path):
-            return None, '포지션 업로드 시 표시'
-        rows = list(csv.DictReader(open(journal_path, encoding='utf-8')))
-        if not rows:
-            return None, '포지션 업로드 시 표시'
-        last = rows[-1]
-        holdings = json.loads(last.get('holdings_json') or '[]')
-        tot, wsum = 0.0, 0.0
-        for h in holdings:
-            ev  = h.get('eval_krw'); avg = h.get('avg_cost_usd'); cur = h.get('current_price_usd')
-            if ev and avg and cur and avg > 0:
-                tot  += ev
-                wsum += ev * (cur / avg - 1)
-        if tot <= 0:
-            return None, '평단가 정보 없음'
-        pct = round(wsum / tot * 100, 2)
-        return pct, f"내 보유 평가 ({last.get('date')})"
+        if not os.path.isfile(monthly_path):
+            return None, '월별 수익률 데이터 없음'
+        data = json.load(open(monthly_path, encoding='utf-8'))
+        months = data.get('months') or []
+        if not months:
+            return None, '월별 수익률 데이터 없음'
+        cum = 1.0
+        used = 0
+        for m in months:
+            end = m.get('end_assets'); pnl = m.get('total_pnl')
+            if end is None or pnl is None:
+                continue
+            start = end - pnl
+            if start <= 0:
+                continue
+            cum *= (1 + pnl / start)
+            used += 1
+        if used == 0:
+            return None, '월별 수익률 데이터 없음'
+        pct = round((cum - 1) * 100, 2)
+        last_month = months[-1].get('month', '')
+        return pct, f"실계좌 월별 누적 (~{last_month})"
     except Exception as e:
         print(f"[my_return] fail: {e}")
         return None, '계산 불가'
