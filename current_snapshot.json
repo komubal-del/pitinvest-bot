@@ -1,54 +1,28 @@
 {
-  "timestamp": "2026-05-21T21:55:51.386917+09:00",
+  "timestamp": "2026-05-22T01:23:03.664360+09:00",
   "sentiment": {
-    "cnn_fng": 60.8285714285714,
+    "cnn_fng": 57.8857142857143,
     "cnn_components": {
-      "momentum": 97.0,
-      "strength": 40.8,
-      "breadth": 25.2,
-      "put_call": 79.8,
-      "junk_bond": 45.4,
+      "momentum": 95.2,
+      "strength": 40.4,
+      "breadth": 21.4,
+      "put_call": 71.0,
+      "junk_bond": 43.6,
       "volatility": 50.0,
-      "safe_haven": 87.6
+      "safe_haven": 83.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "장하준의 일침 “코스피 활황? 한국, 너무 한가하다” - 시사IN",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
-          "pub_date": "Thu, 21 May 2026 02:23:18 GMT",
-          "source": "시사IN"
-        },
-        {
-          "title": "역대급 변동성 코스피...금융당국, '빚투·레버리지' 모니터링 강화 - 디지털투데이",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55Y1k5aU01NERja2t2eW5nc3Q2WkhBR3QyRVNqSGY4bUk3bnRhQ3RSRk1KSlF6VXJsYmJxYVU5aldnc1BxcEtJTTgtQXkyOWM1YzQwYzVJYkNwMTFtd0RDaGFFZER6Nlhwa1lUMjZhWlRnX2M?oc=5",
-          "pub_date": "Thu, 21 May 2026 12:07:00 GMT",
-          "source": "디지털투데이"
-        },
-        {
-          "title": "삼성전자·SK하이닉스 쏠림에 코스닥 부진하지만 공모주는 '열풍' - 시사저널e",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zbS10MnRZVXBqVnNxc0E1cXNvZWhBc0ZQMDdJRjgzQlZTUHgzWmFzRXpnUERWX19RUFVrUnpZazBseVhDTVhvUDB6OXp6V3RPTHFxX29TbmlkVWcxdzk1Y0FQbnhkSFppSmJxejhVdDA3QdIBdkFVX3lxTE0tRHBXdFZuajRHVjFoUHlWTl8tWG9OUkZPbEh6ODlHRUNjU3pkSHY5VksxWURoVThJbDFQdS1nckl2OEtkbUpkemhPWHZSZXYtRHpkTlVQeDB4Y0ttLWFySG1uODBQNkhSaENTemtFVFBxX1g0SFE?oc=5",
-          "pub_date": "Thu, 21 May 2026 08:36:59 GMT",
-          "source": "시사저널e"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "‘패닉 장세’ 딛고 급반등한 코스피 7815선 마감…606.64포인트 상승 '역대 최대' - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YQXhBSXcwdXM5Tm05UV9WTWdIeUZYTFktbXcwbnJVY0V0d05ZSThoN2xvU3ZLc1kxWW1wdHJvdEpNbUZnY3pBOWNxRENaemhiNzU0d0xqYVpVVHIwSVNEN2UyVlVuRjJyV0dtbVBuUW9lUQ?oc=5",
-          "pub_date": "Thu, 21 May 2026 08:36:30 GMT",
-          "source": "인더스트리뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.63,
-    "vvix": 96.45,
+    "vix": 17.22,
+    "vvix": 93.44,
     "skew": 132.31,
     "move": 81.53
   },
@@ -62,61 +36,61 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26270.36,
+      "current": 26128.98,
       "high_52w": 26707.14,
-      "drop_pct": -1.64,
-      "intraday_low_drop_pct": -2.92,
-      "sma_200": 23034.25,
+      "drop_pct": -2.16,
+      "intraday_low_drop_pct": -2.5,
+      "sma_200": 23060.31,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7815.59,
+      "current": 7208.95,
       "high_52w": 8046.78,
-      "drop_pct": -2.87,
-      "intraday_low_drop_pct": -6.96,
-      "sma_200": 4656.13,
+      "drop_pct": -10.41,
+      "intraday_low_drop_pct": -12.34,
+      "sma_200": 4633.01,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1105.97,
+      "current": 1056.07,
       "high_52w": 1229.42,
-      "drop_pct": -10.04,
-      "intraday_low_drop_pct": -11.72,
-      "sma_200": 976.72,
+      "drop_pct": -14.1,
+      "intraday_low_drop_pct": -15.55,
+      "sma_200": 975.24,
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7432.97,
+      "current": 7402.85,
       "high_52w": 7517.12,
-      "drop_pct": -1.12,
-      "intraday_low_drop_pct": -2.12,
-      "sma_200": 6796.28,
+      "drop_pct": -1.52,
+      "intraday_low_drop_pct": -1.7,
+      "sma_200": 6801.8,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2817.37,
+      "current": 2822.27,
       "high_52w": 2888.62,
-      "drop_pct": -2.47,
-      "intraday_low_drop_pct": -4.6,
-      "sma_200": 2536.55,
+      "drop_pct": -2.3,
+      "intraday_low_drop_pct": -3.13,
+      "sma_200": 2539.53,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 520.31,
+      "current": 518.23,
       "high_52w": 533.74,
-      "drop_pct": -2.52,
-      "intraday_low_drop_pct": -5.09,
-      "sma_200": 326.46,
+      "drop_pct": -2.91,
+      "intraday_low_drop_pct": -3.51,
+      "sma_200": 327.86,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.176,
-    "SMH": 1.256,
-    "BOTZ": 0.934,
-    "IGV": 1.114,
-    "XLF": 0.94,
-    "XLE": 1.002
+    "XLK": 1.178,
+    "SMH": 1.253,
+    "BOTZ": 0.938,
+    "IGV": 1.104,
+    "XLF": 0.939,
+    "XLE": 1.004
   },
   "signals": {
     "cnn_under_10": true,
@@ -134,9 +108,9 @@
     "stage_key": "sell_near",
     "stage_key_raw": "sell_near",
     "today": {
-      "cnn_under_10": true,
-      "vix_over_25": true,
-      "margin_call_trigger": true,
+      "cnn_under_10": false,
+      "vix_over_25": false,
+      "margin_call_trigger": false,
       "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": false
@@ -150,15 +124,15 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 0.0,
+    "tqqq_profit_pct": -1.62,
     "tqqq_avg_used": 76.51,
     "tqqq_avg_theoretical": 76.51,
     "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": -0.0,
+    "soxl_profit_pct": -0.96,
     "soxl_avg_used": 173.2,
     "soxl_avg_theoretical": 173.2,
     "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 0.0,
+    "koru_profit_pct": 3.59,
     "koru_avg_used": 760.7,
     "koru_avg_theoretical": 760.7,
     "koru_avg_source": "theoretical"
@@ -168,7 +142,7 @@
     "leading_detail": {
       "samsung_3d_up": false,
       "samsung_retail_buying": false,
-      "samsung_at_60d_high": true,
+      "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": false,
@@ -268,8 +242,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-05-21",
-    "analyzed_at": "2026-05-21T00:52:47.193115+09:00",
+    "date": "2026-05-22",
+    "analyzed_at": "2026-05-22T01:23:08.018039+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -291,12 +265,12 @@
       },
       {
         "video_id": "leJZkRwUhCA",
-        "title": "결국 시장을 흔드는 건 '금리'입니다 (윤지호) | 인포맥스라이브 260514",
+        "title": "결국 시장을 흔드는 건 &#39;금리&#39;입니다 (윤지호) | 인포맥스라이브 260514",
         "published": "2026-05-15T21:00:45Z",
         "url": "https://youtube.com/watch?v=leJZkRwUhCA",
         "text_source": "description",
         "transcript_available": false,
-        "is_stale_fallback": false,
+        "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
           "reason": "시장 분석 주제들은 금리와 물가, AI 생태계의 복합적인 상황과 잠재적 리스크(예: 현금 가치, 하이퍼스케일러의 자금 조달, 프로젝트 지연)를 다루고 있으나, 특정 투자 행동(매수, 매도, 현금화, 비중 축소)을 직접적으로 권고하는 표현이 없습니다."
@@ -740,5 +714,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋."
   },
-  "recommended_action": "📉 매도 2조건 충족 · 위성 −33%p → 코어 매수. 마지막 조건 대기"
+  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
 }

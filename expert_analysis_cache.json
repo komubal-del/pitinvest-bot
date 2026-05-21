@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-21",
-  "analyzed_at": "2026-05-21T00:52:47.193115+09:00",
+  "date": "2026-05-22",
+  "analyzed_at": "2026-05-22T01:23:08.018039+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -22,12 +22,12 @@
     },
     {
       "video_id": "leJZkRwUhCA",
-      "title": "결국 시장을 흔드는 건 '금리'입니다 (윤지호) | 인포맥스라이브 260514",
+      "title": "결국 시장을 흔드는 건 &#39;금리&#39;입니다 (윤지호) | 인포맥스라이브 260514",
       "published": "2026-05-15T21:00:45Z",
       "url": "https://youtube.com/watch?v=leJZkRwUhCA",
       "text_source": "description",
       "transcript_available": false,
-      "is_stale_fallback": false,
+      "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
         "reason": "시장 분석 주제들은 금리와 물가, AI 생태계의 복합적인 상황과 잠재적 리스크(예: 현금 가치, 하이퍼스케일러의 자금 조달, 프로젝트 지연)를 다루고 있으나, 특정 투자 행동(매수, 매도, 현금화, 비중 축소)을 직접적으로 권고하는 표현이 없습니다."
