@@ -113,20 +113,20 @@
     "XLE": 1.002
   },
   "signals": {
-    "cnn_under_10": false,
-    "vix_over_25": false,
-    "margin_call_trigger": false,
-    "count": 0,
-    "sell_leverage": false,
-    "sell_leading": false,
+    "cnn_under_10": true,
+    "vix_over_25": true,
+    "margin_call_trigger": true,
+    "count": 3,
+    "sell_leverage": true,
+    "sell_leading": true,
     "sell_expert": false,
-    "sell_count": 0,
+    "sell_count": 2,
     "emergency_exit_warning": false,
     "emergency_today": false,
     "emergency_marker_active": false,
     "emergency_first_fired_date": null,
-    "stage_key": "normal",
-    "stage_key_raw": "normal",
+    "stage_key": "sell_near",
+    "stage_key_raw": "sell_near",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
@@ -135,7 +135,13 @@
       "sell_leading": false,
       "sell_expert": false
     },
-    "first_fired": {}
+    "first_fired": {
+      "buy_vix": "2026-03-02",
+      "buy_cnn": "2026-03-23",
+      "buy_margin": "2026-03-30",
+      "sell_leverage": "2026-04-24",
+      "sell_leading": "2026-05-07"
+    }
   },
   "leverage_profit": {
     "tqqq_profit_pct": null,
@@ -728,5 +734,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋."
   },
-  "recommended_action": "✅ 평시 유지 · 다음 구덩이 대기"
+  "recommended_action": "📉 매도 2조건 충족(레버리지+100% · 주도주 3일↑) · 위성 −33%p → 코어 매수. 마지막 조건(전문가 경고) 대기. 위성 33% 유지 중"
 }

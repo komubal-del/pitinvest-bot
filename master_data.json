@@ -1,10 +1,10 @@
 {
     "date": "05.19",
-    "ratio_raw": "1:99:0",
+    "ratio_raw": "1:66:33",
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "사이클 리셋 (긴급탈출 5/15): 위성 청산, 코어 매수, 모든 신호 마커 리셋 [v5.3 재분류: 200일선 30일 기준상 5/15는 긴급탈출 아님 — 마커 해제]",
+    "memo": "v5.3 복원: 5/15 긴급탈출은 200일선 30일 기준상 무효 → 사이클 유지. 매수 3조건(VIX 3/02·CNN 3/23·마진 3/30) 충족, 매도 2조건(레버리지 4/24·주도주 5/07) 진행 = 매도 임박. 위성 33% (1/3 컨셉, holdings 실수치는 다음 업로드 시 갱신)",
     "holdings": {
         "QQQ": 0,
         "SOXX": 53905259,
@@ -14,8 +14,14 @@
         "KORU": 0
     },
     "total_krw": 177009227,
-    "sell1_first_fired_date": null,
-    "signal_first_fired": {},
+    "sell1_first_fired_date": "2026-04-24",
+    "signal_first_fired": {
+        "buy_vix": "2026-03-02",
+        "buy_cnn": "2026-03-23",
+        "buy_margin": "2026-03-30",
+        "sell_leverage": "2026-04-24",
+        "sell_leading": "2026-05-07"
+    },
     "emergency_first_fired_date": null,
     "sell1_d_day_notified": false
 }
