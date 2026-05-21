@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-21T14:17:52.375685+09:00",
+  "timestamp": "2026-05-21T19:00:43.941933+09:00",
   "sentiment": {
-    "cnn_fng": 60.8571428571429,
+    "cnn_fng": 60.8285714285714,
     "cnn_components": {
       "momentum": 97.0,
-      "strength": 42.2,
-      "breadth": 24.0,
+      "strength": 40.8,
+      "breadth": 25.2,
       "put_call": 79.8,
       "junk_bond": 45.4,
       "volatility": 50.0,
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 2,
       "fear_count": 1,
       "greed_articles": [
         {
@@ -24,37 +24,31 @@
           "source": "시사IN"
         },
         {
-          "title": "IT 버블과 비교한 코스피 과열 수준은 [오대정의 경제지표 읽기] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zNnZvdzljc1Jnb0laZDF6MFlUR0hBUDJWcklKZ1V2V3JVX25aNnpYdFZwUnhVSlk3d1R0R1VEVmZfN2ZWZnI0VUxkUVJFQlE?oc=5",
-          "pub_date": "Thu, 21 May 2026 04:13:59 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "미국 증시, AI 버블 랠리 속 사상 최고치 경신 이후 첫 조정 국면 진입 - 치과신문",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiVkVGSUEtOWVPMlIwLU1ON1g0QjMxSl94UV9xQWYtRm5EUlNPS0Y5WUZ5TE9JeWxBS19JNU9HaWRiNlJXWklKRVk2bGtHR3RrSTZDemRvYjdnUnZxZ2NhalR1amRmUQ?oc=5",
-          "pub_date": "Thu, 21 May 2026 03:57:13 GMT",
-          "source": "치과신문"
+          "title": "삼성전자·SK하이닉스 쏠림에 코스닥 부진하지만 공모주는 '열풍' - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zbS10MnRZVXBqVnNxc0E1cXNvZWhBc0ZQMDdJRjgzQlZTUHgzWmFzRXpnUERWX19RUFVrUnpZazBseVhDTVhvUDB6OXp6V3RPTHFxX29TbmlkVWcxdzk1Y0FQbnhkSFppSmJxejhVdDA3QdIBdkFVX3lxTE0tRHBXdFZuajRHVjFoUHlWTl8tWG9OUkZPbEh6ODlHRUNjU3pkSHY5VksxWURoVThJbDFQdS1nckl2OEtkbUpkemhPWHZSZXYtRHpkTlVQeDB4Y0ttLWFySG1uODBQNkhSaENTemtFVFBxX1g0SFE?oc=5",
+          "pub_date": "Thu, 21 May 2026 08:36:59 GMT",
+          "source": "시사저널e"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 개인 매수에 7,500선 회복…유가 급락·반도체 투심 회복 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iamUzMDNKenZoNmowQS1NR2FnUjhUekprZ3BnWXp1M18yY3AyS2VOX2I4d1kyVnRtc05rSnB1aHdYTnJxS0lfcUVrOGpycE1zc19IT3g0eWF4WURQTkpKWk51Y2JsZjJVSk9qVzlvY0I?oc=5",
-          "pub_date": "Thu, 21 May 2026 00:22:19 GMT",
-          "source": "연합인포맥스"
+          "title": "‘패닉 장세’ 딛고 급반등한 코스피 7815선 마감…606.64포인트 상승 '역대 최대' - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YQXhBSXcwdXM5Tm05UV9WTWdIeUZYTFktbXcwbnJVY0V0d05ZSThoN2xvU3ZLc1kxWW1wdHJvdEpNbUZnY3pBOWNxRENaemhiNzU0d0xqYVpVVHIwSVNEN2UyVlVuRjJyV0dtbVBuUW9lUQ?oc=5",
+          "pub_date": "Thu, 21 May 2026 08:36:30 GMT",
+          "source": "인더스트리뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.44,
+    "vix": 17.21,
     "vvix": 96.45,
     "skew": 132.31,
     "move": 81.53
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1923700000000,
-    "retail_net_buy_krw": -1919900000000,
+    "foreign_inst_buy_krw": 2679600000000,
+    "retail_net_buy_krw": -2675400000000,
     "margin_loan_krw": 35286800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -70,18 +64,20 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7784.46,
+      "current": 7815.59,
       "high_52w": 8046.78,
-      "drop_pct": -3.26,
+      "drop_pct": -2.87,
       "intraday_low_drop_pct": -6.96,
-      "sma_200": 4656.09,
+      "sma_200": 4656.13,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1109.09,
+      "current": 1105.97,
       "high_52w": 1229.42,
-      "drop_pct": -9.79,
-      "intraday_low_drop_pct": -11.72
+      "drop_pct": -10.04,
+      "intraday_low_drop_pct": -11.72,
+      "sma_200": 976.72,
+      "below_sma200_streak": 0
     },
     "sp500": {
       "current": 7432.97,
@@ -95,13 +91,17 @@
       "current": 2817.37,
       "high_52w": 2888.62,
       "drop_pct": -2.47,
-      "intraday_low_drop_pct": -4.6
+      "intraday_low_drop_pct": -4.6,
+      "sma_200": 2536.55,
+      "below_sma200_streak": 0
     },
     "soxx": {
       "current": 520.31,
       "high_52w": 533.74,
       "drop_pct": -2.52,
-      "intraday_low_drop_pct": -5.09
+      "intraday_low_drop_pct": -5.09,
+      "sma_200": 326.46,
+      "below_sma200_streak": 0
     }
   },
   "sector_rs": {
@@ -161,16 +161,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": true,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.05.21",
+            "close": 299500,
+            "change_pct": 8.51,
+            "retail_net": -6280909,
+            "inst_net": 2608486,
+            "foreign_net": 3672423
+          },
           {
             "date": "2026.05.20",
             "close": 276000,
@@ -202,17 +210,17 @@
             "retail_net": 10385685,
             "inst_net": -1529944,
             "foreign_net": -8855741
-          },
-          {
-            "date": "2026.05.14",
-            "close": 296000,
-            "change_pct": 4.23,
-            "retail_net": -1018338,
-            "inst_net": 260989,
-            "foreign_net": 757349
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.21",
+            "close": 1940000,
+            "change_pct": 11.17,
+            "retail_net": -319021,
+            "inst_net": 738512,
+            "foreign_net": -419491
+          },
           {
             "date": "2026.05.20",
             "close": 1745000,
@@ -244,14 +252,6 @@
             "retail_net": 1889463,
             "inst_net": -497490,
             "foreign_net": -1391973
-          },
-          {
-            "date": "2026.05.14",
-            "close": 1970000,
-            "change_pct": -0.3,
-            "retail_net": 1031405,
-            "inst_net": -216196,
-            "foreign_net": -815209
           }
         ]
       }
@@ -734,5 +734,5 @@
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋."
   },
-  "recommended_action": "📉 매도 2조건 충족(레버리지+100% · 주도주 3일↑) · 위성 −33%p → 코어 매수. 마지막 조건(전문가 경고) 대기. 위성 33% 유지 중"
+  "recommended_action": "📉 매도 2조건 충족 · 위성 −33%p → 코어 매수. 마지막 조건 대기"
 }
