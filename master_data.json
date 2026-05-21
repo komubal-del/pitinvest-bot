@@ -1,19 +1,19 @@
 {
     "date": "05.21",
-    "ratio_raw": "00:00:100",
+    "ratio_raw": "00:66:34",
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "지수 단기 10% 급락으로 위성 단기 매수",
+    "memo": "단기매매 종료하고 구덩이 상태대로 복귀",
     "holdings": {
         "QQQ": 0,
         "SOXX": 0,
-        "EWY": 0,
+        "EWY": 121062088,
         "TQQQ": 0,
         "SOXL": 0,
-        "KORU": 189915111
+        "KORU": 61715871
     },
-    "total_krw": 190633333,
+    "total_krw": 183085464,
     "sell1_first_fired_date": "2026-04-24",
     "signal_first_fired": {
         "buy_vix": "2026-03-02",
