@@ -250,11 +250,26 @@ def fetch_extended_market(csv_path='pitinvest_history.csv'):
                 continue
             drop_pct = (current / high_52w - 1) * 100
             intraday_low_drop_pct = (today_low / high_52w - 1) * 100  # 장중 저점 기준
+            # v5.3: 200일 이동평균 + '200일선 아래 연속 거래일수' (레짐 필터 긴급탈출용)
+            closes = clean["Close"]
+            sma_200 = None
+            below_sma200_streak = 0
+            if len(closes) >= 200:
+                sma_series = closes.rolling(window=200).mean()
+                sma_200 = float(sma_series.iloc[-1])
+                for k in range(len(closes) - 1, -1, -1):
+                    s = sma_series.iloc[k]
+                    if pd.notna(s) and float(closes.iloc[k]) < float(s):
+                        below_sma200_streak += 1
+                    else:
+                        break
             result["indices"][key] = {
                 "current":  round(current, 2),
                 "high_52w": round(high_52w, 2),
                 "drop_pct": round(drop_pct, 2),
                 "intraday_low_drop_pct": round(intraday_low_drop_pct, 2),
+                "sma_200":  round(sma_200, 2) if sma_200 is not None else None,
+                "below_sma200_streak": below_sma200_streak,
             }
         except Exception as e:
             print(f"[idx] {key} fail: {e}")
@@ -791,12 +806,15 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     buy_count  = int(cnn_fired) + int(vix_fired) + int(margin_fired)
     sell_count = int(leverage_over) + int(sell_leading_fired) + int(sell_expert_fired)
 
-    # 긴급탈출: 장중 저점 또는 종가 중 하나라도 −10% 도달 시 sticky 발동.
-    # 사이클 리셋(위성=0) 전까지 1회만 카운트. 가격이 다시 위로 올라가도 액션 신호 재발동 X.
+    # 긴급탈출 (v5.3): 레짐 필터. 나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속 → 발동.
+    # 살 만한 딥(중앙값 3일)·V반등은 무시하고 '지속된 추세 하락(=레짐 체인지)'만 잡는다. → 위성 전량 현금화.
+    EMERGENCY_TREND_INDICES = ("nasdaq", "sp500", "kospi")
+    EMERGENCY_STREAK_DAYS = 30
     def _idx_emergency(v):
-        return ((v.get("drop_pct", 0) or 0) <= -10.0
-                or (v.get("intraday_low_drop_pct", 0) or 0) <= -10.0)
-    emergency_today = any(_idx_emergency(v) for v in ext["indices"].values())
+        return (v.get("below_sma200_streak", 0) or 0) >= EMERGENCY_STREAK_DAYS
+    emergency_today = any(
+        _idx_emergency(ext["indices"].get(k, {})) for k in EMERGENCY_TREND_INDICES
+    )
     emergency_marker = bool((master_data or {}).get('emergency_first_fired_date'))
     # 마커 있으면 (이미 발동된 사이클) emergency stage를 더 이상 안 띄움.
     # 마커는 사이클 리셋 (위성=0% + 신호 marker clear) 시점에 함께 clear됨.
@@ -813,7 +831,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
 
     # v5.0 액션: 매수/매도 모두 1/3 step (33.33%p)
     if raw_stage == 'emergency':
-        specific_action = "🚨 긴급탈출 첫 발동 · 위성 전량 매도 → 코어 균등 매수 (v5.1) · 사이클 리셋 전까지 1회만"
+        specific_action = "🚨 긴급탈출(레짐 체인지) 발동 · 200일선 아래 30일 연속 · 위성 전량 현금화 (코어 유지) · 200일선 회복 시 재진입"
     elif raw_stage == 'reset':
         specific_action = "♻️ 매도 3조건 모두 충족 · 위성 전량 → 코어 매수 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
@@ -974,7 +992,7 @@ def _build_ytd_returns(history_rows):
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
-        "calc_note":    "1/1 시작: 코어 60% / 위성 40% · v5.1: 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 매도/긴급탈출 자금은 코어 균등 매수 (cash buffer X). 매수3종 다 발동 → 카운터 리셋. 매도3종/긴급탈출 → 위성 0% + 코어 추가 매수",
+        "calc_note":    "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
     }
 
 
@@ -1029,7 +1047,9 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     - 매수 이벤트 (슬롯 fill 또는 3종 동시 +5%p): 포트폴리오 가치의 해당 %p를 위성 (TQQQ/SOXL/KORU 균등)으로 이동
       · 자금 출처: 현금 우선, 없으면 코어 비례 매도
     - 매도 신호: 위성 −33.33%p → 코어 균등 매수 (v5.1)
-    - 매도 3조건 / 긴급탈출 (−10%): 위성 0% → 코어로 전부 이동, 코어 비중 ↑
+    - 매도 3조건: 위성 0% → 코어로 전부 이동
+    - 긴급탈출 (v5.3, 200일선 아래 30거래일 연속 = 레짐 체인지): 위성 0% → 전량 현금화, 200일선 회복까지 재매수 보류
+      · CSV에 nasdaq_sma200/sp500_sma200/kospi_sma200 컬럼 필요
     - 반환: {final_return_pct, daily_series[{date, ret_pct}]}
 
     초기 배분 옵션 (default = 현재 동작 100% 보존):
@@ -1076,7 +1096,10 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     daily_series = []
     prev_in_emergency = False
     prev_in_sell3     = False
-    EMERGENCY_THRESHOLD = -10.0  # 강령: 52주 신고가 −10% 도달시 위성만 청산 (코어 유지)
+    # v5.3 긴급탈출: 200일선 아래 N거래일 연속(레짐 체인지) → 위성 전량 현금화.
+    EMERGENCY_STREAK_DAYS = 30
+    EMERGENCY_TREND_KEYS  = ('nasdaq', 'sp500', 'kospi')
+    below_streak = {k: 0 for k in EMERGENCY_TREND_KEYS}  # 지수별 200일선 아래 연속일수
 
     def _portfolio_value(prices):
         v = cash
@@ -1090,14 +1113,7 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     sell_slots = {'lev': False, 'lead': False, 'expert': False}
     STEP_PCT = 100.0 / 3.0  # 33.33%p
 
-    # 긴급탈출 노이즈 회피:
-    # 1) 워밍업 기간 (백테스트 시작 후 20거래일) 동안은 발동 X — 52w_high가 안정화 되기 전
-    # 2) 사이클 시작 후 peak 대비 drop 으로 재계산 (백테스트 전체 윈도우 내 누적 peak 기반)
-    EMERGENCY_WARMUP = 20  # 거래일
-    # 백테스트 윈도우 내 지수별 peak 누적 (close 기준)
-    nas_peak = 0.0
-    kos_peak = 0.0
-    bar_idx = -1  # for warmup counting (excluding skipped rows)
+    bar_idx = -1
 
     for row in ytd:
         prices = {t: _n(row.get(f'{t}_close')) for t in all_tickers}
@@ -1109,18 +1125,14 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             continue
         bar_idx += 1
 
-        # 오늘 상태 — emergency 는 워밍업 후 + 백테스트 내 peak 기준
-        nas_close = _n(row.get('nasdaq_close'))
-        kos_close = _n(row.get('kospi_close'))
-        if nas_close: nas_peak = max(nas_peak, nas_close)
-        if kos_close: kos_peak = max(kos_peak, kos_close)
-        nas_local_dd = ((nas_close / nas_peak - 1) * 100) if (nas_close and nas_peak) else None
-        kos_local_dd = ((kos_close / kos_peak - 1) * 100) if (kos_close and kos_peak) else None
-        in_warmup = bar_idx < EMERGENCY_WARMUP
-        emergency_today = False
-        if not in_warmup:
-            emergency_today = ((nas_local_dd is not None and nas_local_dd <= EMERGENCY_THRESHOLD)
-                            or (kos_local_dd is not None and kos_local_dd <= EMERGENCY_THRESHOLD))
+        # v5.3 긴급탈출: 각 지수 종가 vs 200일선(CSV의 {key}_sma200) → 아래면 연속일수 누적, 위면 0 리셋.
+        # 하나라도 30거래일 연속 아래 = 레짐 체인지 → emergency.
+        for k in EMERGENCY_TREND_KEYS:
+            c   = _n(row.get(f'{k}_close'))
+            sma = _n(row.get(f'{k}_sma200'))
+            if c is not None and sma is not None:
+                below_streak[k] = below_streak[k] + 1 if c < sma else 0
+        emergency_today = any(below_streak[k] >= EMERGENCY_STREAK_DAYS for k in EMERGENCY_TREND_KEYS)
         sell3_today = (
             int(float(row.get('sell_leverage_trigger') or 0)) +
             int(float(row.get('sell_leading_trigger')  or 0)) +
@@ -1131,15 +1143,20 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
         emergency_transition = emergency_today and not prev_in_emergency
         sell3_transition     = sell3_today     and not prev_in_sell3
 
-        # v5.1: 사이클 리셋 (매도3종 또는 긴급탈출) — 위성 매도분 코어 균등 매수
+        # 사이클 리셋: 위성 전량 청산. 단 자금 행선지가 다르다.
+        #  · 매도3종(회복 국면 익절) → 코어 균등 매수 (v5.1 근거)
+        #  · 긴급탈출(레짐 체인지) → 현금화 (v5.3): 베어 국면엔 코어도 동반 하락하므로 현금 보유
         if sell3_transition or emergency_transition:
             sat_value = sum(shares[t] * prices[t] for t in sat_tickers)
-            per_core = sat_value / len(core_tickers)
-            for ct in core_tickers:
-                if prices[ct] and prices[ct] > 0:
-                    shares[ct] += per_core / prices[ct]
             for t in sat_tickers:
                 shares[t] = 0.0
+            if emergency_transition:
+                cash += sat_value                      # v5.3: 위성 → 현금
+            else:
+                per_core = sat_value / len(core_tickers)
+                for ct in core_tickers:               # 매도3종 → 코어 균등 매수
+                    if prices[ct] and prices[ct] > 0:
+                        shares[ct] += per_core / prices[ct]
             slots = {'cnn': False, 'vix': False, 'margin': False}
             sell_slots = {'lev': False, 'lead': False, 'expert': False}
             cum_pct = 0.0
@@ -1186,6 +1203,10 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
         # 매수 3종 다 발동 → buy_slots 리셋 (다음 매수 사이클 가능)
         if slots['cnn'] and slots['vix'] and slots['margin']:
             slots = {'cnn': False, 'vix': False, 'margin': False}
+
+        # v5.3: 긴급탈출(레짐 체인지) 지속 중에는 위성 재매수 금지 — 200일선 위로 회복할 때까지 현금 방어 유지.
+        if emergency_today:
+            buy_pct = 0.0
 
         if buy_pct > 0 and cum_pct < 100:
             buy_pct = min(buy_pct, 100 - cum_pct)
@@ -2493,6 +2514,9 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
         row[f'{k}_close']    = d.get('current')
         row[f'{k}_52w_high'] = d.get('high_52w')
         row[f'{k}_drop_pct'] = d.get('drop_pct')
+        # v5.3: 긴급탈출(레짐 필터) 백테스트용 200일선 (3개 트리거 지수만)
+        if k in ('nasdaq', 'sp500', 'kospi'):
+            row[f'{k}_sma200'] = d.get('sma_200')
 
     row['tqqq_close'] = fetch_close_today('TQQQ')
     row['soxl_close'] = fetch_close_today('SOXL')

@@ -4,7 +4,7 @@
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "사이클 리셋 (긴급탈출 5/15): 위성 청산, 코어 매수, 모든 신호 마커 리셋",
+    "memo": "사이클 리셋 (긴급탈출 5/15): 위성 청산, 코어 매수, 모든 신호 마커 리셋 [v5.3 재분류: 200일선 30일 기준상 5/15는 긴급탈출 아님 — 마커 해제]",
     "holdings": {
         "QQQ": 0,
         "SOXX": 53905259,
@@ -16,6 +16,6 @@
     "total_krw": 177009227,
     "sell1_first_fired_date": null,
     "signal_first_fired": {},
-    "emergency_first_fired_date": "2026-05-15",
+    "emergency_first_fired_date": null,
     "sell1_d_day_notified": false
 }

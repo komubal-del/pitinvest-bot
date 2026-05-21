@@ -129,6 +129,21 @@ def build_history(output_path='pitinvest_history.csv'):
     for key in INDEX_KEYS:
         highs[key], drops[key] = compute_rolling_52w_high(yf_data.get(key, {}))
 
+    # v5.3: 200일선 (긴급탈출 레짐 필터용) — 나스닥/S&P500/코스피. 2년치로 받아 유효 SMA 확보.
+    sma200 = {}
+    for key, tkr in [('nasdaq', '^IXIC'), ('sp500', '^GSPC'), ('kospi', '^KS11')]:
+        closes_2y = fetch_yf_close(tkr, period='2y')
+        ds = sorted(closes_2y.keys())
+        vals = [closes_2y[d] for d in ds]
+        m = {}
+        for i in range(len(ds)):
+            if i >= 199:
+                window = vals[i-199:i+1]
+                if all(v is not None for v in window):
+                    m[ds[i]] = round(sum(window) / 200, 2)
+        sma200[key] = m
+        print(f"  - {key}_sma200: {len(m):>4}일")
+
     # 날짜 기준: 나스닥 거래일
     dates = sorted(yf_data.get('nasdaq', {}).keys())
     print(f"\n[3/3] CSV 생성 중... ({len(dates)}행)")
@@ -150,6 +165,9 @@ def build_history(output_path='pitinvest_history.csv'):
             row[f'{key}_close']    = yf_data.get(key, {}).get(date)
             row[f'{key}_52w_high'] = highs[key].get(date)
             row[f'{key}_drop_pct'] = drops[key].get(date)
+        # v5.3: 200일선 (긴급탈출 레짐 필터용)
+        for key in ('nasdaq', 'sp500', 'kospi'):
+            row[f'{key}_sma200'] = sma200.get(key, {}).get(date)
 
         # 위성·주도주·코어 종가
         for key in ['tqqq', 'soxl', 'koru', 'smh', 'qqq', 'ewy']:
