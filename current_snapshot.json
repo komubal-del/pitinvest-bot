@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-21T19:00:43.941933+09:00",
+  "timestamp": "2026-05-21T21:55:51.386917+09:00",
   "sentiment": {
     "cnn_fng": 60.8285714285714,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 3,
       "fear_count": 1,
       "greed_articles": [
         {
@@ -22,6 +22,12 @@
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRkkydWlGTFZnOTE1WnhLaEtsZjVhNlliQVVKZzFoeE16YmRMSk10WWVFU2stRWpsREx6ZWZjLVpJdVltSXFhbW8ySEY3Y1dDek53WThWM0VkckozeEUydFU0RzQtNE1CRkE?oc=5",
           "pub_date": "Thu, 21 May 2026 02:23:18 GMT",
           "source": "시사IN"
+        },
+        {
+          "title": "역대급 변동성 코스피...금융당국, '빚투·레버리지' 모니터링 강화 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55Y1k5aU01NERja2t2eW5nc3Q2WkhBR3QyRVNqSGY4bUk3bnRhQ3RSRk1KSlF6VXJsYmJxYVU5aldnc1BxcEtJTTgtQXkyOWM1YzQwYzVJYkNwMTFtd0RDaGFFZER6Nlhwa1lUMjZhWlRnX2M?oc=5",
+          "pub_date": "Thu, 21 May 2026 12:07:00 GMT",
+          "source": "디지털투데이"
         },
         {
           "title": "삼성전자·SK하이닉스 쏠림에 코스닥 부진하지만 공모주는 '열풍' - 시사저널e",
@@ -41,7 +47,7 @@
     }
   },
   "volatility": {
-    "vix": 17.21,
+    "vix": 17.63,
     "vvix": 96.45,
     "skew": 132.31,
     "move": 81.53
@@ -128,9 +134,9 @@
     "stage_key": "sell_near",
     "stage_key_raw": "sell_near",
     "today": {
-      "cnn_under_10": false,
-      "vix_over_25": false,
-      "margin_call_trigger": false,
+      "cnn_under_10": true,
+      "vix_over_25": true,
+      "margin_call_trigger": true,
       "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": false
@@ -144,18 +150,18 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
-    "tqqq_avg_used": null,
-    "tqqq_avg_theoretical": null,
-    "tqqq_avg_source": "none",
-    "soxl_profit_pct": null,
-    "soxl_avg_used": null,
-    "soxl_avg_theoretical": null,
-    "soxl_avg_source": "none",
-    "koru_profit_pct": null,
-    "koru_avg_used": null,
-    "koru_avg_theoretical": null,
-    "koru_avg_source": "none"
+    "tqqq_profit_pct": 0.0,
+    "tqqq_avg_used": 76.51,
+    "tqqq_avg_theoretical": 76.51,
+    "tqqq_avg_source": "theoretical",
+    "soxl_profit_pct": -0.0,
+    "soxl_avg_used": 173.2,
+    "soxl_avg_theoretical": 173.2,
+    "soxl_avg_source": "theoretical",
+    "koru_profit_pct": 0.0,
+    "koru_avg_used": 760.7,
+    "koru_avg_theoretical": 760.7,
+    "koru_avg_source": "theoretical"
   },
   "sell_signals": {
     "leading_stock_rising_3d": false,
