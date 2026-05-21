@@ -988,12 +988,41 @@ def _build_ytd_returns(history_rows):
         initial_slots_filled=True,
     )
     daily = bt.get('daily_series', [])
+    my_pct, my_note = _compute_my_return()
     return {
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
         "calc_note":    "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
+        "my_pct":  my_pct,    # 실계좌 보유 평가수익률 (일지 무관, 전략 시뮬과 별개)
+        "my_note": my_note,
     }
+
+
+def _compute_my_return(journal_path='journal.csv'):
+    """실계좌 '내 수익률' = 최신 포지션 업로드(journal)의 보유 종목 평가수익률(평가액 가중평균).
+    avg_cost/current_price 가 있는 종목만 사용. 반환: (pct or None, note)."""
+    try:
+        if not os.path.isfile(journal_path):
+            return None, '포지션 업로드 시 표시'
+        rows = list(csv.DictReader(open(journal_path, encoding='utf-8')))
+        if not rows:
+            return None, '포지션 업로드 시 표시'
+        last = rows[-1]
+        holdings = json.loads(last.get('holdings_json') or '[]')
+        tot, wsum = 0.0, 0.0
+        for h in holdings:
+            ev  = h.get('eval_krw'); avg = h.get('avg_cost_usd'); cur = h.get('current_price_usd')
+            if ev and avg and cur and avg > 0:
+                tot  += ev
+                wsum += ev * (cur / avg - 1)
+        if tot <= 0:
+            return None, '평단가 정보 없음'
+        pct = round(wsum / tot * 100, 2)
+        return pct, f"내 보유 평가 ({last.get('date')})"
+    except Exception as e:
+        print(f"[my_return] fail: {e}")
+        return None, '계산 불가'
 
 
 def _sanitize_nan(obj):
