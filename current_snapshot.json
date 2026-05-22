@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T13:24:53.439152+09:00",
+  "timestamp": "2026-05-22T15:16:54.994786+09:00",
   "sentiment": {
     "cnn_fng": 58.2,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 4,
       "fear_count": 3,
       "greed_articles": [
         {
@@ -30,6 +30,12 @@
           "source": "연합뉴스"
         },
         {
+          "title": "반도체·증시 활황에 소비심리 11개월만 최대폭 증가 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWxnRW5idGE5V3Zxam5udTZPU1lfQlhQM3VQTTVPc1hMUUhvbFZNeXNqbFU5dnZaYThwXzB4N0dueGc1dm5LMFdxc0ZZRVNQZHpoWjlvT3padHRnWjI1SnpwRFlZLVp1ck9vT2o3cEt1OFJJU0pTRl9GOXM5UjNPSjE2WVBXMTQ0N09TSmZqME8zbjNkLUFlSFZ4UVdDLXUxVElwMEliNUlVcHY40gFfQVVfeXFMT21zWlJJTTFCcURFdnhIVEtJOHFTdFR2ZFRHLV91NXlKOUExelo5VGV3QTlJVzNUQm56NlY0MEFYR1ozLTB1aGJNZGNGTHpjT0x4cFlUMllEOEduNnVROTQ?oc=5",
+          "pub_date": "Fri, 22 May 2026 04:55:00 GMT",
+          "source": "경향신문"
+        },
+        {
           "title": "수출 호조·증시 활황에 소비심리 석달 만에 반등 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oSmQwT0ZHMVZfNFdGdm85LXJ4dVk4emJWWEtUQ05wMExrNGRubFRGdnJOejhXQXRvandqU3R1X3RscGd4NzVRamRwckZZX29peU03Y1NQVXpWblhyMVFYT3R2SG1NLVBsakxHaUtrN0xmdw?oc=5",
           "pub_date": "Thu, 21 May 2026 22:42:00 GMT",
@@ -38,22 +44,22 @@
       ],
       "fear_articles": [
         {
+          "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ocnJpNE4zS0tzRHJVVXpNNUl0SHhtVENXdmswYVlyLW10eUYwVXJKaV9MOXVKVmgyM2t3SmcxcWxuVVBuZnYyTHliZDBwM2M?oc=5",
+          "pub_date": "Fri, 22 May 2026 05:30:03 GMT",
+          "source": "v.daum.net"
+        },
+        {
           "title": "코스피 강보합 안팎 '숨 고르기'…'30만전자' 찍고 하락 전환[개장시황] - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jdV84dGpvRFRDWEdJbzBwM3pRUWFFYnJKSEdlOUNmeThsTEx6LU1hNXBJb3ZsMnloRk8zamUwVHJaaUk5aDdXYkx4TnF4WWFKVzU5Qnd3aDB0bnB5a093?oc=5",
           "pub_date": "Fri, 22 May 2026 00:34:16 GMT",
           "source": "뉴스1"
         },
         {
-          "title": "잦아든 외인 증시 매도세…달러·원 1.4원 내린 1500원대 출발 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5X3gzYk9sSVg4a0hJTFBWQXhoVHo5RmFDMExTU0dQMFdyNmI0VVdXR1I0a085eFM1Uk5nTEx6M2R4LXh6QVZKdVV1aVBCeTZ5QWhBZUo2elBKdGM?oc=5",
-          "pub_date": "Fri, 22 May 2026 01:00:42 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "美 증시 훈풍에도…삼전·닉스 '차익 실현' 하락 전환[핫종목] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xaTNGbzhOdWs2RHVwalFnY2lPNGFDWTkyT2lsTDlPTTJNbUY0OFdUeVJlYzdNYUtjeEZPNVZzcHVQYU1vaHRPX3BYX3hGVW1MNGFGcTcyVUlEMDJ1dzFZ?oc=5",
-          "pub_date": "Fri, 22 May 2026 00:54:34 GMT",
-          "source": "뉴스1"
+          "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSMl8zbkNtamFfNW9VQ19Wcms0V3ZWeTI1Wi1lakdTa1BPZUlSbW05alZOaHNfQ2RhREkyZHFLYy1TaWFoRENlTTdzWGJNT1F3SXMxNjVTT2Q4UDZmck5Uek1KdlhldGhENjZla2Jrb1NpUQ?oc=5",
+          "pub_date": "Fri, 22 May 2026 05:17:11 GMT",
+          "source": "KB Think"
         }
       ]
     }
@@ -65,8 +71,8 @@
     "move": 79.72
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1125200000000,
-    "retail_net_buy_krw": 1063900000000,
+    "foreign_inst_buy_krw": -1136900000000,
+    "retail_net_buy_krw": 1052000000000,
     "margin_loan_krw": 35654200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -82,19 +88,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7849.38,
+      "current": 7853.62,
       "high_52w": 8046.78,
-      "drop_pct": -2.45,
+      "drop_pct": -2.4,
       "intraday_low_drop_pct": -3.31,
-      "sma_200": 4679.4,
+      "sma_200": 4679.42,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1163.29,
+      "current": 1160.23,
       "high_52w": 1229.42,
-      "drop_pct": -5.38,
+      "drop_pct": -5.63,
       "intraday_low_drop_pct": -8.95,
-      "sma_200": 978.5,
+      "sma_200": 978.49,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -131,10 +137,10 @@
     "XLE": 0.989
   },
   "signals": {
-    "cnn_under_10": false,
-    "vix_over_25": false,
-    "margin_call_trigger": false,
-    "count": 0,
+    "cnn_under_10": true,
+    "vix_over_25": true,
+    "margin_call_trigger": true,
+    "count": 3,
     "sell_leverage": true,
     "sell_leading": true,
     "sell_expert": false,
@@ -146,9 +152,9 @@
     "stage_key": "sell_near",
     "stage_key_raw": "sell_near",
     "today": {
-      "cnn_under_10": false,
-      "vix_over_25": false,
-      "margin_call_trigger": false,
+      "cnn_under_10": true,
+      "vix_over_25": true,
+      "margin_call_trigger": true,
       "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": false
@@ -762,5 +768,5 @@
     "my_pct": 222.58,
     "my_note": "실계좌 월별 누적 (~2026-05)"
   },
-  "recommended_action": "📉 매도 2조건 충족(레버리지+100%·주도주) · 위성 −33%p → 코어 매수. 마지막 조건 대기 (매수 카운트 0, 3월 충족분 리셋)"
+  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
 }
