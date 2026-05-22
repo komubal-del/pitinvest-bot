@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T17:30:42.118057+09:00",
+  "timestamp": "2026-05-22T20:53:21.610544+09:00",
   "sentiment": {
     "cnn_fng": 58.0285714285714,
     "cnn_components": {
@@ -14,47 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "코스닥, '완판 행진' 국민성장펀드 수혜 기대에 자금 쏠림 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZaW02aVpPd1Z4NTVPZnZleW5ValhlVmk2R1FoVlhmZDZPZUY1d0kxN3pWamxuZmVOcm9oRS12c3Jxc3hiNV9Wb1diX0FyZnI1RnJvck5uaDZqbnZ0MVEzd3Rzb2lIbFZQ?oc=5",
-          "pub_date": "Fri, 22 May 2026 06:40:00 GMT",
-          "source": "ebn.co.kr"
-        },
-        {
-          "title": "코스닥, ’완판 행진’ 국민성장펀드 수혜 기대에 자금 쏠림 EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYjRjRXl2MmF5UnVWeUJiOFAxUWFJMWhUTEdUbjdvaUxqZGZzSXYta0RUYWFCS0J3ZnBBRTZ3aGNjT2RhX2Vycks1eUl1Rmo1cXNHWG9LRHdKQzlKVmxUVVoxNU9lazg1RVAwakp6amhNUDlUSE9yNk1sZkhxTTVMbg?oc=5",
-          "pub_date": "Fri, 22 May 2026 06:41:00 GMT",
-          "source": "Investing.com 한국어"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 1,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kcExhYWlQRktLTmFfSVJaOWc4YlJSaHQ1a2hRbjkzbXpYNVBTMGU2Rzg5TGlNMUJIazJ0Rm8xajVMNnBYY3Y4M3NRNi14ajNzbXVxWUZrbk0zSmY1cUxMRExfWi01bzgzcERhMVlqTE0?oc=5",
           "pub_date": "Fri, 22 May 2026 07:17:16 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwelN3eFU3akNCWlRBVzZ3czR4YXp2ZUMyek91eXlnQmcwMVF0LWFXeGVyeDkzVFktYXJOMi1zU3pEQzdXTVVPVzBDaWdNLTAyelFkdw?oc=5",
-          "pub_date": "Fri, 22 May 2026 05:30:03 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.74,
+    "vix": 17.01,
     "vvix": 91.88,
     "skew": 136.96,
     "move": 79.72
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1164000000000,
-    "retail_net_buy_krw": 1065600000000,
+    "foreign_inst_buy_krw": -1163800000000,
+    "retail_net_buy_krw": 1065499999999,
     "margin_loan_krw": 35654200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -171,16 +152,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": false,
+      "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.05.22",
+            "close": 292500,
+            "change_pct": -2.34,
+            "retail_net": 3727326,
+            "inst_net": -307631,
+            "foreign_net": -3419695
+          },
           {
             "date": "2026.05.21",
             "close": 299500,
@@ -212,17 +201,17 @@
             "retail_net": 1682696,
             "inst_net": 2803397,
             "foreign_net": -4486093
-          },
-          {
-            "date": "2026.05.15",
-            "close": 270500,
-            "change_pct": -8.61,
-            "retail_net": 10385685,
-            "inst_net": -1529944,
-            "foreign_net": -8855741
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.22",
+            "close": 1941000,
+            "change_pct": 0.05,
+            "retail_net": 5052,
+            "inst_net": 152990,
+            "foreign_net": -158042
+          },
           {
             "date": "2026.05.21",
             "close": 1940000,
@@ -254,14 +243,6 @@
             "retail_net": 292567,
             "inst_net": 267189,
             "foreign_net": -559756
-          },
-          {
-            "date": "2026.05.15",
-            "close": 1819000,
-            "change_pct": -7.66,
-            "retail_net": 1889463,
-            "inst_net": -497490,
-            "foreign_net": -1391973
           }
         ]
       }
