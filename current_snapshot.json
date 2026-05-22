@@ -131,10 +131,10 @@
     "XLE": 0.989
   },
   "signals": {
-    "cnn_under_10": true,
-    "vix_over_25": true,
-    "margin_call_trigger": true,
-    "count": 3,
+    "cnn_under_10": false,
+    "vix_over_25": false,
+    "margin_call_trigger": false,
+    "count": 0,
     "sell_leverage": true,
     "sell_leading": true,
     "sell_expert": false,
@@ -146,14 +146,18 @@
     "stage_key": "sell_near",
     "stage_key_raw": "sell_near",
     "today": {
-      "cnn_under_10": true,
-      "vix_over_25": true,
-      "margin_call_trigger": true,
+      "cnn_under_10": false,
+      "vix_over_25": false,
+      "margin_call_trigger": false,
       "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": false
     },
     "first_fired": {
+      "sell_leverage": "2026-04-24",
+      "sell_leading": "2026-05-07"
+    },
+    "last_fired": {
       "buy_vix": "2026-03-02",
       "buy_cnn": "2026-03-23",
       "buy_margin": "2026-03-30",
@@ -758,5 +762,5 @@
     "my_pct": 222.58,
     "my_note": "실계좌 월별 누적 (~2026-05)"
   },
-  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
+  "recommended_action": "📉 매도 2조건 충족(레버리지+100%·주도주) · 위성 −33%p → 코어 매수. 마지막 조건 대기 (매수 카운트 0, 3월 충족분 리셋)"
 }

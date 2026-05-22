@@ -913,6 +913,8 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             },
             # v5.0: 6 신호별 첫 발동일 (master_data.signal_first_fired)
             "first_fired": dict(sf),
+            # v5.3: 사이클 리셋돼도 유지되는 '가장 최근 충족일' (카드 표시 전용, 카운트와 무관)
+            "last_fired": dict((master_data or {}).get('signal_last_fired') or {}),
         },
         "leverage_profit": leverage,
         "sell_signals": {
@@ -2445,8 +2447,15 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
 
     # 기존 dict (없으면 생성)
     current = dict(master_data.get('signal_first_fired') or {})
+    # last_fired: 사이클 리셋돼도 유지되는 '가장 최근 충족일' (표시 전용, 카운트와 무관)
+    last = dict(master_data.get('signal_last_fired') or {})
     backfilled = None  # lazy load
     changed = False
+    # 현재 first_fired 날짜를 last_fired에 반영 (아직 없을 때)
+    for _k, _v in current.items():
+        if _v and last.get(_k) != _v:
+            last[_k] = _v
+            changed = True
 
     # 긴급탈출 마커가 있으면 CSV backfill 무시 (사이클 리셋된 상태 — 이전 사이클 옛 신호 박지 않음)
     emergency_marker = master_data.get('emergency_first_fired_date')
@@ -2466,6 +2475,7 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
             backfilled = _find_signal_first_dates_from_csv(csv_path)
         fire_date = backfilled.get(key) or today_full
         current[key] = fire_date
+        last[key] = fire_date          # 최근 충족일도 갱신 (리셋돼도 유지)
         changed = True
         src = '오늘 기준 (긴급탈출 후 새 사이클)' if skip_csv_backfill else ('CSV backfill' if backfilled.get(key) else '오늘 기준')
         print(f"📅 신호 마커 기록: {key} = {fire_date} ({src})")
@@ -2482,7 +2492,7 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
     if not changed:
         return False, current
 
-    new_master = {**master_data, 'signal_first_fired': current}
+    new_master = {**master_data, 'signal_first_fired': current, 'signal_last_fired': last}
     if emergency_master_update:
         new_master['emergency_first_fired_date'] = emergency_master_update
     # 옛 sell1_first_fired_date 호환 — sell_leverage 마커가 있으면 같이 set
