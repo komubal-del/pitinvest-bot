@@ -2570,10 +2570,13 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
     row['qqq_close']  = fetch_close_today('QQQ')
     row['ewy_close']  = fetch_close_today('EWY')
 
-    row['cnn_trigger']    = int(bool(sig.get('cnn_under_10')))
-    row['vix_trigger']    = int(bool(sig.get('vix_over_25')))
-    row['margin_trigger'] = int(bool(sig.get('margin_call_trigger')))
-    row['signal_count']   = sig.get('count', 0)
+    # v5.3 fix: 일별 트리거 컬럼은 '오늘 raw 조건'(today)을 기록해야 한다.
+    # sticky값(sig.cnn_under_10)을 쓰면 마커가 한 번 박힌 뒤 매일 1로 오염됨 → 백필이 재생성하는 자기강화 버그.
+    _t = sig.get('today', {}) or {}
+    row['cnn_trigger']    = int(bool(_t.get('cnn_under_10')))
+    row['vix_trigger']    = int(bool(_t.get('vix_over_25')))
+    row['margin_trigger'] = int(bool(_t.get('margin_call_trigger')))
+    row['signal_count']   = row['cnn_trigger'] + row['vix_trigger'] + row['margin_trigger']
 
     # 매도 트리거 (sticky: 기존 행과 OR)
     cur_sell_lev    = int(any((lev.get(f'{k}_profit_pct') or 0) >= 100 for k in ('tqqq', 'soxl', 'koru')))

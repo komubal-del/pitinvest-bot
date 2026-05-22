@@ -17,17 +17,14 @@
     "sell1_first_fired_date": "2026-04-24",
     "signal_first_fired": {
         "sell_leverage": "2026-04-24",
-        "sell_leading": "2026-05-07",
-        "buy_cnn": "2026-05-21",
-        "buy_vix": "2026-05-21",
-        "buy_margin": "2026-05-21"
+        "sell_leading": "2026-05-07"
     },
     "emergency_first_fired_date": null,
     "sell1_d_day_notified": false,
     "signal_last_fired": {
-        "buy_vix": "2026-05-21",
-        "buy_cnn": "2026-05-21",
-        "buy_margin": "2026-05-21",
+        "buy_vix": "2026-03-02",
+        "buy_cnn": "2026-03-23",
+        "buy_margin": "2026-03-30",
         "sell_leverage": "2026-04-24",
         "sell_leading": "2026-05-07"
     }

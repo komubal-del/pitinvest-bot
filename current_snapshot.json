@@ -137,10 +137,10 @@
     "XLE": 0.989
   },
   "signals": {
-    "cnn_under_10": true,
-    "vix_over_25": true,
-    "margin_call_trigger": true,
-    "count": 3,
+    "cnn_under_10": false,
+    "vix_over_25": false,
+    "margin_call_trigger": false,
+    "count": 0,
     "sell_leverage": true,
     "sell_leading": true,
     "sell_expert": false,
@@ -152,9 +152,9 @@
     "stage_key": "sell_near",
     "stage_key_raw": "sell_near",
     "today": {
-      "cnn_under_10": true,
-      "vix_over_25": true,
-      "margin_call_trigger": true,
+      "cnn_under_10": false,
+      "vix_over_25": false,
+      "margin_call_trigger": false,
       "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": false
