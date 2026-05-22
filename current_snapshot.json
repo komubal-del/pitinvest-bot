@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-22T15:16:54.994786+09:00",
+  "timestamp": "2026-05-22T17:30:42.118057+09:00",
   "sentiment": {
-    "cnn_fng": 58.2,
+    "cnn_fng": 58.0285714285714,
     "cnn_components": {
       "momentum": 96.4,
-      "strength": 41.2,
-      "breadth": 24.4,
+      "strength": 39.0,
+      "breadth": 25.4,
       "put_call": 70.4,
       "junk_bond": 40.0,
       "volatility": 50.0,
@@ -14,65 +14,47 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 3,
+      "greed_count": 2,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "코스피 ‘빚투’ 사상 첫 26조 돌파…‘삼전' 레버리지 쏠림 속 하락 베팅도 고개 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZlgzdFo4QUNVbWZtVjRVdF9Xd0xOVzhhV2YtWHNTSlVuMGxzM1VGZzIxMnYyVkRGSkgwSUMzOWhUaG1rbUtRbWItTEsxNlR6eEVhRHNWZWJLbmJ6MHBxaWRRdUo3clExeVZGV3htdmlfR2F3MFBhR1VaUUpIQTBodE5yRlIwT0JPQkhka2JB?oc=5",
-          "pub_date": "Fri, 22 May 2026 00:07:00 GMT",
-          "source": "조선일보"
+          "title": "코스닥, '완판 행진' 국민성장펀드 수혜 기대에 자금 쏠림 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZaW02aVpPd1Z4NTVPZnZleW5ValhlVmk2R1FoVlhmZDZPZUY1d0kxN3pWamxuZmVOcm9oRS12c3Jxc3hiNV9Wb1diX0FyZnI1RnJvck5uaDZqbnZ0MVEzd3Rzb2lIbFZQ?oc=5",
+          "pub_date": "Fri, 22 May 2026 06:40:00 GMT",
+          "source": "ebn.co.kr"
         },
         {
-          "title": "반도체 호조·증시 활황에 5월 소비심리 반등 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tQVhlTjR2TFhIcW9TUmxna0tfeTFLQnVRVTBsOE15cTI0ZmtfSHUyaWtiZHZVWk16X2syYl94dUlJUkFOODdMcjNpTE43cHFrN0RIUEszenAteTdfRV95cNIBYEFVX3lxTE1tQVhlTjR2TFhIcW9TUmxna0tfeTFLQnVRVTBsOE15cTI0ZmtfSHUyaWtiZHZVWk16X2syYl94dUlJUkFOODdMcjNpTE43cHFrN0RIUEszenAteTdfRV95cA?oc=5",
-          "pub_date": "Thu, 21 May 2026 21:26:03 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "반도체·증시 활황에 소비심리 11개월만 최대폭 증가 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWxnRW5idGE5V3Zxam5udTZPU1lfQlhQM3VQTTVPc1hMUUhvbFZNeXNqbFU5dnZaYThwXzB4N0dueGc1dm5LMFdxc0ZZRVNQZHpoWjlvT3padHRnWjI1SnpwRFlZLVp1ck9vT2o3cEt1OFJJU0pTRl9GOXM5UjNPSjE2WVBXMTQ0N09TSmZqME8zbjNkLUFlSFZ4UVdDLXUxVElwMEliNUlVcHY40gFfQVVfeXFMT21zWlJJTTFCcURFdnhIVEtJOHFTdFR2ZFRHLV91NXlKOUExelo5VGV3QTlJVzNUQm56NlY0MEFYR1ozLTB1aGJNZGNGTHpjT0x4cFlUMllEOEduNnVROTQ?oc=5",
-          "pub_date": "Fri, 22 May 2026 04:55:00 GMT",
-          "source": "경향신문"
-        },
-        {
-          "title": "수출 호조·증시 활황에 소비심리 석달 만에 반등 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oSmQwT0ZHMVZfNFdGdm85LXJ4dVk4emJWWEtUQ05wMExrNGRubFRGdnJOejhXQXRvandqU3R1X3RscGd4NzVRamRwckZZX29peU03Y1NQVXpWblhyMVFYT3R2SG1NLVBsakxHaUtrN0xmdw?oc=5",
-          "pub_date": "Thu, 21 May 2026 22:42:00 GMT",
-          "source": "한겨레"
+          "title": "코스닥, ’완판 행진’ 국민성장펀드 수혜 기대에 자금 쏠림 EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYjRjRXl2MmF5UnVWeUJiOFAxUWFJMWhUTEdUbjdvaUxqZGZzSXYta0RUYWFCS0J3ZnBBRTZ3aGNjT2RhX2Vycks1eUl1Rmo1cXNHWG9LRHdKQzlKVmxUVVoxNU9lazg1RVAwakp6amhNUDlUSE9yNk1sZkhxTTVMbg?oc=5",
+          "pub_date": "Fri, 22 May 2026 06:41:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ],
       "fear_articles": [
         {
+          "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kcExhYWlQRktLTmFfSVJaOWc4YlJSaHQ1a2hRbjkzbXpYNVBTMGU2Rzg5TGlNMUJIazJ0Rm8xajVMNnBYY3Y4M3NRNi14ajNzbXVxWUZrbk0zSmY1cUxMRExfWi01bzgzcERhMVlqTE0?oc=5",
+          "pub_date": "Fri, 22 May 2026 07:17:16 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ocnJpNE4zS0tzRHJVVXpNNUl0SHhtVENXdmswYVlyLW10eUYwVXJKaV9MOXVKVmgyM2t3SmcxcWxuVVBuZnYyTHliZDBwM2M?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwelN3eFU3akNCWlRBVzZ3czR4YXp2ZUMyek91eXlnQmcwMVF0LWFXeGVyeDkzVFktYXJOMi1zU3pEQzdXTVVPVzBDaWdNLTAyelFkdw?oc=5",
           "pub_date": "Fri, 22 May 2026 05:30:03 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 강보합 안팎 '숨 고르기'…'30만전자' 찍고 하락 전환[개장시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jdV84dGpvRFRDWEdJbzBwM3pRUWFFYnJKSEdlOUNmeThsTEx6LU1hNXBJb3ZsMnloRk8zamUwVHJaaUk5aDdXYkx4TnF4WWFKVzU5Qnd3aDB0bnB5a093?oc=5",
-          "pub_date": "Fri, 22 May 2026 00:34:16 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "BofA \"유럽증시, 급락 신호 커지고 있어\" - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSMl8zbkNtamFfNW9VQ19Wcms0V3ZWeTI1Wi1lakdTa1BPZUlSbW05alZOaHNfQ2RhREkyZHFLYy1TaWFoRENlTTdzWGJNT1F3SXMxNjVTT2Q4UDZmck5Uek1KdlhldGhENjZla2Jrb1NpUQ?oc=5",
-          "pub_date": "Fri, 22 May 2026 05:17:11 GMT",
-          "source": "KB Think"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.76,
+    "vix": 16.74,
     "vvix": 91.88,
     "skew": 136.96,
     "move": 79.72
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1136900000000,
-    "retail_net_buy_krw": 1052000000000,
+    "foreign_inst_buy_krw": -1164000000000,
+    "retail_net_buy_krw": 1065600000000,
     "margin_loan_krw": 35654200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -88,17 +70,17 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7853.62,
+      "current": 7847.71,
       "high_52w": 8046.78,
-      "drop_pct": -2.4,
+      "drop_pct": -2.47,
       "intraday_low_drop_pct": -3.31,
-      "sma_200": 4679.42,
+      "sma_200": 4679.39,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1160.23,
+      "current": 1161.13,
       "high_52w": 1229.42,
-      "drop_pct": -5.63,
+      "drop_pct": -5.55,
       "intraday_low_drop_pct": -8.95,
       "sma_200": 978.49,
       "below_sma200_streak": 0
@@ -172,18 +154,18 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 0.54,
-    "tqqq_avg_used": 76.54,
-    "tqqq_avg_theoretical": 76.54,
-    "tqqq_avg_source": "theoretical",
-    "soxl_profit_pct": 2.78,
-    "soxl_avg_used": 173.57,
-    "soxl_avg_theoretical": 173.57,
-    "soxl_avg_source": "theoretical",
-    "koru_profit_pct": 9.49,
-    "koru_avg_used": 766.29,
-    "koru_avg_theoretical": 766.29,
-    "koru_avg_source": "theoretical"
+    "tqqq_profit_pct": null,
+    "tqqq_avg_used": null,
+    "tqqq_avg_theoretical": null,
+    "tqqq_avg_source": "none",
+    "soxl_profit_pct": null,
+    "soxl_avg_used": null,
+    "soxl_avg_theoretical": null,
+    "soxl_avg_source": "none",
+    "koru_profit_pct": null,
+    "koru_avg_used": null,
+    "koru_avg_theoretical": null,
+    "koru_avg_source": "none"
   },
   "sell_signals": {
     "leading_stock_rising_3d": false,
