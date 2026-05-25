@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T02:51:25.652304+09:00",
+  "timestamp": "2026-05-26T04:56:15.570790+09:00",
   "sentiment": {
     "cnn_fng": 58.5714285714286,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "증시 활황에 은행권 펀드 신규 고객 1년새 2배로 늘어 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBoV1VkUHZhNm5SRGc0Wjd4S3ZlbDN0VlhjbDhWSlhsNUhLcGF4ZENGMnFYeE10UUFDWmtYNjB5RkRvak55TFE?oc=5",
+          "pub_date": "Mon, 25 May 2026 15:32:21 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "증시 활황에 은행권 펀드 신규 고객 1년새 2배로 늘어 - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vSE1mV05iN3FIdGMtckxUbDk0ZkFXVERBcUZwWjJYWkVRczFsVElCM3h3Yng5SnBXbmo2MHVUa1BmWjNVZU9IdjdRUGlIWldwQTBubkZrM0E1cXVGUmh1NExIWU5QZ9IBZkFVX3lxTE1vSE1mV05iN3FIdGMtckxUbDk0ZkFXVERBcUZwWjJYWkVRczFsVElCM3h3Yng5SnBXbmo2MHVUa1BmWjNVZU9IdjdRUGlIWldwQTBubkZrM0E1cXVGUmh1NExIWU5QZw?oc=5",
