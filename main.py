@@ -773,7 +773,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     now = datetime.now(kst).isoformat()
     ext = fetch_extended_market()
     if history_rows is not None:
-        leverage = compute_leverage_profit_v2(exit_settings, history_rows)
+        leverage = compute_leverage_profit_v2(exit_settings, history_rows, master_data=master_data)
     else:
         leverage = compute_leverage_profit(exit_settings)
     leading, leading_detail = check_kr_leading_stocks()
@@ -1436,14 +1436,48 @@ def compute_theoretical_avg(history_rows, ticker):
     return round(total_cost / total_wt, 2) if total_wt > 0 else None
 
 
-def compute_leverage_profit_v2(exit_settings, history_rows):
-    """이론 평단(백테스팅)만 사용 — 수동 입력 제거, 완전 자동화."""
+def compute_leverage_profit_v2(exit_settings, history_rows, master_data=None):
+    """이론 평단 + 카드 표시용 수익률.
+    우선순위:
+      1) sell_leverage 가 이미 발동한 사이클이면 (master_data.signal_first_fired.sell_leverage
+         또는 sell1_first_fired_date) → 그 발동일까지로 history를 잘라 lock-in 평단 사용.
+         (카드에서 "신호가 발동된 시점의 평단" 기준 현재 수익률을 표시.)
+      2) 발동 전이면 → 현재까지의 running theoretical 평단.
+      3) 둘 다 None 이면 → exit_settings 수동 평단 fallback (수동 평단 마지막으로 남은 값).
+    avg_source ∈ {'theoretical_locked', 'theoretical', 'manual', 'none'}.
+    """
     result = {}
     tickers = {'tqqq': 'TQQQ', 'soxl': 'SOXL', 'koru': 'KORU'}
+    exit_settings = exit_settings or {}
+    master_data   = master_data or {}
+
+    # sell_leverage 트리거 lock-in 날짜 추출
+    sf = master_data.get('signal_first_fired') or {}
+    lock_date = sf.get('sell_leverage') or master_data.get('sell1_first_fired_date')
+    if isinstance(lock_date, str) and len(lock_date) >= 10:
+        lock_date = lock_date[:10]
+        rows_for_avg = [r for r in (history_rows or []) if str(r.get('date', ''))[:10] <= lock_date]
+    else:
+        lock_date = None
+        rows_for_avg = history_rows or []
+
     for key, ticker in tickers.items():
-        theoretical = compute_theoretical_avg(history_rows, ticker)
-        used   = theoretical
-        source = 'theoretical' if theoretical else 'none'
+        theoretical = compute_theoretical_avg(rows_for_avg, ticker)
+        manual_raw  = exit_settings.get(f'{key}_avg')
+        try:
+            manual = float(manual_raw) if manual_raw not in (None, '', 0) else None
+            if manual is not None and manual <= 0:
+                manual = None
+        except (TypeError, ValueError):
+            manual = None
+
+        if theoretical:
+            used   = theoretical
+            source = 'theoretical_locked' if lock_date else 'theoretical'
+        elif manual is not None:
+            used, source = manual, 'manual'
+        else:
+            used, source = None, 'none'
 
         profit = None
         if used:
@@ -1458,7 +1492,9 @@ def compute_leverage_profit_v2(exit_settings, history_rows):
         result[f'{key}_profit_pct']      = profit
         result[f'{key}_avg_used']        = used
         result[f'{key}_avg_theoretical'] = theoretical
+        result[f'{key}_avg_manual']      = manual
         result[f'{key}_avg_source']      = source
+        result[f'{key}_avg_locked_date'] = lock_date
 
     return result
 
