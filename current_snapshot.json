@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T01:00:05.136752+09:00",
+  "timestamp": "2026-05-26T02:51:25.652304+09:00",
   "sentiment": {
     "cnn_fng": 58.5714285714286,
     "cnn_components": {
@@ -19,7 +19,7 @@
       "greed_articles": [
         {
           "title": "증시 활황에 은행권 펀드 신규 고객 1년새 2배로 늘어 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCbW9iTW5iRXZQYzhoQThLOHpFUks3d0VJZlVCNkxGcmNZbkpERGp5b0NGeFFNQ3p2VmNzeEE0QndFSEp1RkFRaEM5QW1uSndfNDkxY2MwNmg2OUlQWF9YMWxvREcxTnZleEtTU0Rya0lTeDdYZXfSAWZBVV95cUxNb0hNZldOYjdxSHRjLXJMVGw5NGZBV1REQXFGcFoyWFpFUXMxbFRJQjN4d2J4OUpwV25qNjB1VGtQZlozVWVPSHY3UVBpSFpXcEEwbm5GazNBNXF1RlJodTRMSFlOUGc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vSE1mV05iN3FIdGMtckxUbDk0ZkFXVERBcUZwWjJYWkVRczFsVElCM3h3Yng5SnBXbmo2MHVUa1BmWjNVZU9IdjdRUGlIWldwQTBubkZrM0E1cXVGUmh1NExIWU5QZ9IBZkFVX3lxTE1vSE1mV05iN3FIdGMtckxUbDk0ZkFXVERBcUZwWjJYWkVRczFsVElCM3h3Yng5SnBXbmo2MHVUa1BmWjNVZU9IdjdRUGlIWldwQTBubkZrM0E1cXVGUmh1NExIWU5QZw?oc=5",
           "pub_date": "Mon, 25 May 2026 15:30:00 GMT",
           "source": "동아일보"
         }
@@ -696,6 +696,10 @@
       },
       {
         "date": "2026-05-25",
+        "ret_pct": 215.324
+      },
+      {
+        "date": "2026-05-26",
         "ret_pct": 215.324
       }
     ],

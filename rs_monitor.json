@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T01:00:13.052247+09:00",
+  "timestamp": "2026-05-26T02:51:32.135649+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -2098,8 +2098,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1513.1,
-      "change_30d_pct": 2.09
+      "value": 1511.24,
+      "change_30d_pct": 1.96
     },
     "us10y": {
       "ticker": "^TNX",
