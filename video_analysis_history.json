@@ -180,5 +180,31 @@
         "reason": "제목에서 '아침에 사면 물려요'라고 명확히 매수에 대한 경고를 하고 있으며, '약세장 진입한 한국 증시'임을 밝혀 현재 시장 상황에 대한 부정적인 시각을 제시합니다."
       }
     }
+  },
+  "14l8gSoOUc4": {
+    "title": "\"AI 시대 최대 리스크 등장\" 조심하셔야 합니다 | 윤지호 경제평론가 [주말인터뷰]",
+    "published": "2026-05-24T02:00:01Z",
+    "url": "https://youtube.com/watch?v=14l8gSoOUc4",
+    "text_source": "description",
+    "transcript_available": false,
+    "analyses": {
+      "v4-api-1.2.4": {
+        "stance": "neutral",
+        "reason": "제목에서 '조심하셔야 합니다', '최대 리스크 등장'과 같이 시장에 대한 경각심을 언급하고 있으나, 현금화/비중 축소/매도 등 구체적인 행동 권고가 없어 'neutral'로 분류됩니다."
+      }
+    }
+  },
+  "QM-c9JsSvOc": {
+    "title": "외국인 팔았는데 시장 분위기 완전히 바뀌었다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+    "published": "2026-05-22T00:17:43Z",
+    "url": "https://youtube.com/watch?v=QM-c9JsSvOc",
+    "text_source": "description",
+    "transcript_available": false,
+    "analyses": {
+      "v4-api-1.2.4": {
+        "stance": "neutral",
+        "reason": "영상 설명란에는 시장 분위기 변화에 대한 언급만 있을 뿐, 특정 행동(매수, 매도, 비중 조절)을 명확히 권고하는 내용이 없습니다."
+      }
+    }
   }
 }
