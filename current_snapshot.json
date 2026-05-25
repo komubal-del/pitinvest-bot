@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-25T13:47:13.076608+09:00",
+  "timestamp": "2026-05-25T21:43:26.364869+09:00",
   "sentiment": {
     "cnn_fng": 58.5714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 8,
-      "fear_count": 1,
+      "greed_count": 9,
+      "fear_count": 3,
       "greed_articles": [
         {
           "title": "코스피 일평균 거래대금 첫 40조원 돌파…반도체주에 ′쏠림′ - 연합뉴스TV",
@@ -24,31 +24,43 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 거래대금 첫 40조 돌파…'삼전닉스 쏠림'에 손바뀜은 둔화 - 이데일리TV",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlenNnWi1tNDIwNzNJbVVTOUZwZnVUUHl2a2xrQmFnbG9lX01SRk1zb0hsNnVXbWtWUUVTU2JleUhTc2I0UDc5RHZyTEFxYzBkaHhKVkVtQ3FjcTdLMzFpU2s5a1EzOU12QkotZXEyS1A4UGVreVNud2VGYw?oc=5",
-          "pub_date": "Mon, 25 May 2026 02:00:00 GMT",
-          "source": "이데일리TV"
+          "title": "긴축 공포 커지는데…'역대 최대 빚투' 증시 뇌관 되나 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LRkl0REMzak5ZSXFhTTRNLVhrTlZvMTdVVGtXV3hyMHVCSklEbHQ5cHJZeEV5azYwc085RHV2b1NvWlZBZEJhaXpsdnlQZ1B6cU5NUG1GOXFZZVE?oc=5",
+          "pub_date": "Mon, 25 May 2026 04:53:13 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "코스피 거래대금 48조 신기록… 반도체 쏠림에 회전율은 뒷걸음 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtUmVDUjkwekszQ0FIY3ZkQVRYWUtPeWtpTUN5STlJZzZYVHJyejZsWEhaVXdpRTN4TnJDNENiSllLWXhCZjBYZXlXMU5TSl9MQ1FyMUdCZFVMUGMxb0NnM1RlVnY5RDR6TmNzZkJKUQ?oc=5",
+          "pub_date": "Mon, 25 May 2026 07:01:11 GMT",
+          "source": "서울신문"
+        },
+        {
+          "title": "긴축 공포 커지는데…'역대 최대 빚투' 증시 뇌관 되나 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xVF9DRGZIT1JWdlJyd2hRRno1aHFlZGVPdmFYbXNlM2FDN1lVRk9vazNsYkNUY3JGWnRtWWQ3Snc3SHdRWWZpb1RTM2R2cmRiZTB4OA?oc=5",
+          "pub_date": "Mon, 25 May 2026 04:54:49 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "반도체주 쏠림에 코스피 일평균 거래대금 첫 40조 돌파 - 금융소비자뉴스",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPTjlpRWVpc3RlQjJ4QldjRmlsc2tLTXM3dnhWVnNVTkd4LWNFMnB6T19UUlJSOWpUM29mOGJDbXdzRXRKQ1FvMjJLNWdsM0lKbjVXUXRTVldHWHN3SDFiWXh4YUhMRWZfRVE?oc=5",
           "pub_date": "Mon, 25 May 2026 02:15:00 GMT",
           "source": "금융소비자뉴스"
-        },
-        {
-          "title": "반도체 쏠림이 심하다고?… ‘삼전·SK하닉’ 확실한 스타 덕분에 코스피 급상승 가능했다 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZlFPakxTaTJuNTdDV1ZjbU1YNklHazdQVmNCQnhhcDlhSldZWEZRMXlNWjJNQWIyMGtVa0dpNFo5VmpWNTg3blF5NjNJOTFqZ25rNXpQN3NLU2UwWmwzUkhzM3FTd9IBZkFVX3lxTE44ZlFPakxTaTJuNTdDV1ZjbU1YNklHazdQVmNCQnhhcDlhSldZWEZRMXlNWjJNQWIyMGtVa0dpNFo5VmpWNTg3blF5NjNJOTFqZ25rNXpQN3NLU2UwWmwzUkhzM3FTdw?oc=5",
-          "pub_date": "Sun, 24 May 2026 23:06:00 GMT",
-          "source": "동아일보"
-        },
-        {
-          "title": "코스피 거래대금 첫 40조 돌파…대형주 쏠림에 ‘손바뀜’ 둔화 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zcG9XQmtRQWJIWHBPS1JpeVNGMVN6SzhwZFJNaU9ZWktLcEZFb1VORkJQaURHSW1naW5KcUU3NGhXZWFHX2Z0bXRhZkJBaTB1U1JfeA?oc=5",
-          "pub_date": "Mon, 25 May 2026 01:05:00 GMT",
-          "source": "이투데이"
         }
       ],
       "fear_articles": [
+        {
+          "title": "중동 평화 협상 기대감에 글로벌 증시 급등·유가 급락 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uMG1yN25RUGt4X01hWlUyS1lNTUNXT2R2QjRmdmdKNEVnVDBkeUxmN1c0cTdFd05HSElxSkZ6RGtZOTFFRVd0eHl4aG0xWEgxNXFybThDSUN4ZG52bFNOLUUxanZobUlCb25PZi1Jd2w?oc=5",
+          "pub_date": "Mon, 25 May 2026 11:15:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[인도증시] 유가 급락에 투심 개선, 상승...석유株·은행株 ↑ - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jV3p6UmpQeEVMQ1A2eUlfd25HQVpETnVDVFM3MEcxOThFb0UxTnNudW5LZTg2VkhNcWxsSzlDZER4WXVKSXNWeE5OSWZtV0U5bGVicEVlemtHM3JU?oc=5",
+          "pub_date": "Mon, 25 May 2026 11:08:00 GMT",
+          "source": "뉴스핌"
+        },
         {
           "title": "코스피 '40조' 불장이라는데…'중소형주' 거래량은 24% 폭락 - 이코노미스트",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lRUEzWnVaVDVGem9kTVk0YUx5SC01b0piNDI3TnJLdTIwTmpBbXdkeTdOX2xlS0VQM0hIYS1NY2xwZ3o0bkVtZG82NURuQ3FzbkNoQzVla0FycWJHeXV2bUlB?oc=5",
@@ -59,7 +71,7 @@
     }
   },
   "volatility": {
-    "vix": 16.7,
+    "vix": 16.6,
     "vvix": 91.16,
     "skew": 137.39,
     "move": 78.43
@@ -327,7 +339,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 211.522,
+    "strategy_pct": 215.324,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -724,6 +736,10 @@
       {
         "date": "2026-05-22",
         "ret_pct": 211.522
+      },
+      {
+        "date": "2026-05-25",
+        "ret_pct": 215.324
       }
     ],
     "monthly_breakdown": [
@@ -753,8 +769,8 @@
       },
       {
         "month": "2026-05",
-        "return_pct": 92.41,
-        "end_ret_pct": 211.52,
+        "return_pct": 96.21,
+        "end_ret_pct": 215.32,
         "max_dd_pct": 63.0
       }
     ],
