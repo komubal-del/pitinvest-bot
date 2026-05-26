@@ -1742,15 +1742,33 @@ def filter_expert_videos(videos, experts=TARGET_EXPERTS):
 
 
 def get_transcript_safe(video_id):
-    """youtube-transcript-api로 한국어 자막 추출. 수동/자동 자막 모두 시도.
-    YouTube의 '더보기 → 스크립트 표시' 데이터와 같은 source.
+    """한국어 자막 추출. 우선순위:
+      0차) 디스크 사전-fetch 캐시 `transcripts/{video_id}.txt` — 로컬에서 미리 받아 commit한 자막.
+           GHA datacenter IP가 YouTube에서 차단(transcript_api·yt-dlp 둘 다)되는 경우 가장 확실한 우회.
+      1차) youtube-transcript-api (Webshare 프록시 지원).
+      2차) youtube-transcript-api list() 로 트랙 탐색.
+      3차) yt-dlp `--write-auto-subs` (player_client 멀티) — get_transcript_via_ytdlp().
     실패 시 None + 진단 로그.
 
     v1.2.4 API: instance methods `api.fetch()`, `api.list()`. (이전 `YouTubeTranscriptApi.list_transcripts`는 제거됨)
 
-    GitHub Actions IP는 YouTube가 RequestBlocked 처리 → WEBSHARE_USERNAME/PASSWORD 시크릿 설정 시 프록시 사용.
+    GitHub Actions IP는 YouTube가 RequestBlocked / "Sign in to confirm you're not a bot" 차단.
+    근본 우회: (a) `transcripts/<vid>.txt` 사전 commit, (b) WEBSHARE_USERNAME/PASSWORD 시크릿.
     Webshare 가입: https://www.webshare.io/ (free tier 10 proxies, residential IP)
     """
+    # 0차: 디스크 사전-fetch 캐시 — 로컬에서 fetch + commit한 자막을 가장 먼저 본다.
+    disk_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             'transcripts', f'{video_id}.txt')
+    if os.path.isfile(disk_path):
+        try:
+            with open(disk_path, encoding='utf-8') as f:
+                text = f.read().strip()
+            if text:
+                print(f"[transcript] {video_id} disk cache hit ({len(text):,}자)")
+                return text
+        except Exception as e:
+            print(f"[transcript] {video_id} disk cache read fail: {e}")
+
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
         ws_user = os.environ.get('WEBSHARE_USERNAME', '').strip()
