@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "analyzed_at": "2026-05-26T14:03:52.436645+09:00",
+  "analyzed_at": "2026-05-26T14:11:10.040920+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -38,10 +38,10 @@
       "title": "외국인 팔았는데 시장 분위기 완전히 바뀌었다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
       "published": "2026-05-26",
       "url": "https://youtube.com/watch?v=QM-c9JsSvOc",
-      "transcript_available": false,
+      "transcript_available": true,
       "analysis": {
         "stance": "bullish",
-        "reason": "외국인 매도에도 불구하고 시장 분위기가 완전히 바뀌었다고 언급하며 시장의 긍정적 전환을 강조하고 있습니다."
+        "reason": "전문가는 시장의 놀라운 상승을 긍정적으로 평가하며, 특정 섹터(메모리, HBM, 전력 설비, 원자력)에 대한 직접적인 투자 권고와 함께 국민연금의 국내 주식 보유 한도 상향 검토 등 시장에 긍정적인 요인들을 강조하고 있습니다."
       }
     }
   ],
