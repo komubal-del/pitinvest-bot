@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T13:22:06.748774+09:00",
+  "timestamp": "2026-05-26T14:25:59.334627+09:00",
   "sentiment": {
     "cnn_fng": 58.5714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
+      "greed_count": 4,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "일본 증시도 7만 가나…반도체 쏠림에 닛케이-토픽스 비율도 56년 만 최고 - 조선일보",
@@ -24,16 +24,22 @@
           "source": "조선일보"
         },
         {
+          "title": "고점 찍고 -20% 폭락해도 다시 간다? 코스피 '더블 탑'의 역사 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pTENVU3V0d2x3dS1fSmZ6UkoydFJ6Wk0wVmI1Ui1pRFYzRTJJd04zZFA3Rk1zaGpyLWgxQ0dQeXh5NWx6SWpjb1ZjUVVLWXRFbWVsZnRDbDc2d0FYMjFuSE9reE5naEgyeExhbl8wdmLSAXRBVV95cUxOUllHUjF6Sk94MVBWSFlCSnFQcmdVZlNkdGN3a3VVN0NsOXlUQVBvOTVsdVpSR3RQU0VvUTVXZGltdGpUbjRQcmxJZU5iN3pUWFBjQjN6SV9xcHJzZDlUdHA4ZzdzbUhGbjZDMXdMRzlJUGJxMQ?oc=5",
+          "pub_date": "Tue, 26 May 2026 00:26:41 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "“지수는 최고치인데 돈은 빠진다”…미국 증시 뒤덮은 ‘AI 쏠림’ - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qWTh5VGJFd0dCcHFEOHkyS2F0TVZsbTk2VlpkVjBiZ1FISXA1SWZPdjBJbVdMU0xqeHdlS29nMjJPZ2pXc1M0T0hFSHZnYWZ2eG1HV09BNUs1d9IBVEFVX3lxTE9mUWJRZ1VrSHpDZGdlZTJVODFiX3pwZlVET1ladURmcFlRSy03UV9KRjVTWDRyX3huXzJSeWd5ZW1vcVoxUkRweGpVd2ZXb2lRdGNORw?oc=5",
           "pub_date": "Tue, 26 May 2026 04:00:05 GMT",
           "source": "한국경제"
         },
         {
-          "title": "고점 찍고 -20% 폭락해도 다시 간다? 코스피 '더블 탑'의 역사 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pTENVU3V0d2x3dS1fSmZ6UkoydFJ6Wk0wVmI1Ui1pRFYzRTJJd04zZFA3Rk1zaGpyLWgxQ0dQeXh5NWx6SWpjb1ZjUVVLWXRFbWVsZnRDbDc2d0FYMjFuSE9reE5naEgyeExhbl8wdmLSAXRBVV95cUxOUllHUjF6Sk94MVBWSFlCSnFQcmdVZlNkdGN3a3VVN0NsOXlUQVBvOTVsdVpSR3RQU0VvUTVXZGltdGpUbjRQcmxJZU5iN3pUWFBjQjN6SV9xcHJzZDlUdHA4ZzdzbUhGbjZDMXdMRzlJUGJxMQ?oc=5",
-          "pub_date": "Tue, 26 May 2026 00:26:41 GMT",
-          "source": "연합인포맥스"
+          "title": "[NZSI INDEX] 2026년 5월 15일 코스피 급락에도 식지 않는 ‘빚투’ 열기…포모 심리 경계해야 - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wbGxBRlY2QkJ0V20xdjFYaFB1bS1NckItb21BSm5EWV9OcDVCMnE4QlIzU05tLThPQl82bmM1bEV4UWxIUVVyOUFIUHMwVy02REJxdHBzTmg0WFdrdWU4Wi1QcDZCOFE?oc=5",
+          "pub_date": "Mon, 25 May 2026 23:55:13 GMT",
+          "source": "세종의소리"
         }
       ],
       "fear_articles": [
@@ -41,6 +47,12 @@
           "title": "[마켓 프리뷰] 국제유가 급락·반도체주 강세…코스피 8000선 돌파 시도 이어지나 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3eWxaZzk2VXRaRk16bk5kb1d3Zm1sMWhHMU53cjY4UjE2dGRPMUExOHJ6WnhpRnBFOGE5RUtiMHhEODlYWU1HbE1qR3k3WXM?oc=5",
           "pub_date": "Mon, 25 May 2026 23:41:48 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "\"오늘 올랐다고 웃을 때 아니다\"…코스피 반등 뒤 도사린 폭락 경고 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QVnZNaEFBWVhBOTBKQnRGNXY2STBZUWdMc2t2ZXBKM1ZKN2psS1ZHdWZJZGJ1SElVUE9qZWNneUJpNTA4eURqQW5RbkcxYjQ?oc=5",
+          "pub_date": "Tue, 26 May 2026 01:00:02 GMT",
           "source": "v.daum.net"
         }
       ]
@@ -53,8 +65,8 @@
     "move": 78.43
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1747100000000,
-    "retail_net_buy_krw": -1634700000000,
+    "foreign_inst_buy_krw": 1375900000000,
+    "retail_net_buy_krw": -1259700000000,
     "margin_loan_krw": 35896000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -70,19 +82,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8105.91,
+      "current": 8047.73,
       "high_52w": 8131.15,
-      "drop_pct": -0.31,
+      "drop_pct": -1.03,
       "intraday_low_drop_pct": -1.51,
-      "sma_200": 4703.87,
+      "sma_200": 4703.58,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1177.5,
+      "current": 1173.36,
       "high_52w": 1229.42,
-      "drop_pct": -4.22,
-      "intraday_low_drop_pct": -4.51,
-      "sma_200": 980.36,
+      "drop_pct": -4.56,
+      "intraday_low_drop_pct": -4.57,
+      "sma_200": 980.34,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -279,7 +291,7 @@
   },
   "expert_analysis": {
     "date": "2026-05-26",
-    "analyzed_at": "2026-05-26T13:22:13.843700+09:00",
+    "analyzed_at": "2026-05-26T14:26:03.821866+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -296,7 +308,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란은 광고, 프로그램 편성표, 채널 안내 등 정보성 내용으로 구성되어 있으며, 전문가의 구체적인 주식 시장 전망이나 투자 행동 권고가 포함되어 있지 않습니다."
+          "reason": "제공된 영상 설명란은 주로 홍보성 내용과 프로그램 정보로 구성되어 있으며, 제목은 당일 시장의 특징적인 분야를 언급할 뿐 매수/매도/보유 등 어떠한 구체적인 투자 행동 권고나 시장 방향성에 대한 의견을 명확히 제시하고 있지 않습니다."
         }
       },
       {
@@ -304,12 +316,12 @@
         "title": "\"AI 시대 최대 리스크 등장\" 조심하셔야 합니다 | 윤지호 경제평론가 [주말인터뷰]",
         "published": "2026-05-24T02:00:01Z",
         "url": "https://youtube.com/watch?v=14l8gSoOUc4",
-        "text_source": "description",
-        "transcript_available": false,
+        "text_source": "transcript",
+        "transcript_available": true,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목에서 'AI 시대 최대 리스크 등장' 및 '조심하셔야 합니다'라고 언급하며 경각심을 주지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 없어 neutral로 분류됩니다."
+          "reason": "전문가는 현재 강세장을 인정하면서도 금리 상승이 기업 투자와 전반적인 경제에 장기적인 리스크가 될 수 있음을 경고하며, 즉각적인 행동 권고보다는 지속적인 주의와 관찰을 강조합니다."
         }
       }
     ],
