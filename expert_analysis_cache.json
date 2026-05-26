@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "analyzed_at": "2026-05-26T13:22:13.843700+09:00",
+  "analyzed_at": "2026-05-26T14:03:52.436645+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -32,12 +32,19 @@
         "stance": "neutral",
         "reason": "영상 제목에서 'AI 시대 최대 리스크 등장' 및 '조심하셔야 합니다'라고 언급하며 경각심을 주지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 없어 neutral로 분류됩니다."
       }
+    },
+    {
+      "video_id": "QM-c9JsSvOc",
+      "title": "외국인 팔았는데 시장 분위기 완전히 바뀌었다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-05-26",
+      "url": "https://youtube.com/watch?v=QM-c9JsSvOc",
+      "transcript_available": false,
+      "analysis": {
+        "stance": "bullish",
+        "reason": "외국인 매도에도 불구하고 시장 분위기가 완전히 바뀌었다고 언급하며 시장의 긍정적 전환을 강조하고 있습니다."
+      }
     }
   ],
   "error": null,
-  "expert_stance_map": {
-    "박병창": "neutral",
-    "윤지호": "neutral"
-  },
-  "prompt_version": "v4-api-1.2.4"
+  "restored_manually": true
 }
