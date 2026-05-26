@@ -1802,6 +1802,72 @@ def get_transcript_safe(video_id):
         print(f"[transcript] {video_id} list fail: {type(e).__name__}: {e}")
         if last_err is not None:
             print(f"[transcript] {video_id} 1st-tier err: {type(last_err).__name__}: {str(last_err)[:200]}")
+
+    # 3차: yt-dlp fallback — youtube-transcript-api 가 GHA IP 에서 RequestBlocked 자주 받음.
+    # yt-dlp 는 player config 경로가 달라서 통과 빈도 높다 (web/android/ios/mweb 멀티 클라이언트).
+    text = get_transcript_via_ytdlp(video_id)
+    if text:
+        return text
+    return None
+
+
+def get_transcript_via_ytdlp(video_id, timeout=90):
+    """yt-dlp 로 자동 생성 한국어 자막 (vtt) 다운로드 → 평문 반환. 실패 시 None.
+    youtube-transcript-api 가 GHA IP 에서 차단될 때 fallback.
+    1차 ko, 2차 ko-orig 트랙 시도. 멀티 player_client 사용해서 auto-caption 노출률 증가.
+    """
+    import sys, tempfile, subprocess, glob, html, re
+    for langs in ('ko,ko-orig', 'ko-orig,ko'):
+        with tempfile.TemporaryDirectory() as td:
+            out_tmpl = os.path.join(td, '%(id)s')
+            cmd = [
+                sys.executable, '-m', 'yt_dlp',
+                '--skip-download', '--write-auto-subs',
+                '--sub-langs', langs,
+                '--sub-format', 'vtt',
+                '--no-warnings', '--quiet',
+                '--extractor-args', 'youtube:player_client=web,android,ios,mweb',
+                '-o', out_tmpl,
+                f'https://youtube.com/watch?v={video_id}',
+            ]
+            try:
+                r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
+            except (subprocess.TimeoutExpired, FileNotFoundError) as e:
+                print(f"[ytdlp] {video_id} subprocess fail: {type(e).__name__}: {e}")
+                return None
+            if r.returncode != 0:
+                err = (r.stderr or '').strip()[:250]
+                print(f"[ytdlp] {video_id} langs={langs} returncode={r.returncode}: {err}")
+                continue
+            vtts = sorted(glob.glob(os.path.join(td, '*.vtt')))
+            if not vtts:
+                print(f"[ytdlp] {video_id} langs={langs} no vtt produced")
+                continue
+            try:
+                with open(vtts[0], encoding='utf-8') as f:
+                    raw = f.read()
+            except Exception as e:
+                print(f"[ytdlp] {video_id} vtt read fail: {e}")
+                continue
+            # VTT → 평문: 헤더/타임스탬프/인라인태그 제거 + 연속 중복 라인 dedupe.
+            lines = []
+            prev = None
+            for line in raw.splitlines():
+                line = line.strip()
+                if (not line
+                    or line.startswith(('WEBVTT', 'Kind:', 'Language:', 'NOTE'))
+                    or '-->' in line
+                    or re.match(r'^\d+$', line)):
+                    continue
+                line = re.sub(r'<[^>]+>', '', line).strip()
+                if not line or line == prev:
+                    continue
+                lines.append(line)
+                prev = line
+            text = html.unescape(' '.join(lines))
+            if text:
+                print(f"[ytdlp] {video_id} ok ({len(text):,}자, lang_pref={langs.split(',')[0]})")
+                return text
     return None
 
 
@@ -1927,9 +1993,17 @@ def analyze_experts_daily():
                 if ex in title:
                     analyzed_experts.add(ex)
         all_covered = analyzed_experts >= set(TARGET_EXPERTS)
-        if valid and all_covered:
+        # 트랜스크립트 기반 분석만 신뢰 캐시 — description/title 캐시는 yt-dlp 도입 후 업그레이드 재분석.
+        all_transcript = all(
+            (v.get('text_source') in ('transcript', 'missing'))
+            for v in videos
+        )
+        if valid and all_covered and all_transcript:
             print(f"✅ 전문가 분석 캐시 히트 ({today})")
             return existing_cache
+        if valid and all_covered and not all_transcript:
+            non_tr = [v for v in videos if v.get('text_source') not in ('transcript', 'missing')]
+            print(f"🔁 캐시 업그레이드 재분석 — 트랜스크립트 아닌 영상 {len(non_tr)}개 (yt-dlp 재시도)")
         if valid and not all_covered:
             missing_now = set(TARGET_EXPERTS) - analyzed_experts
             print(f"🔁 캐시 부분 재시도 — 누락 전문가: {', '.join(missing_now)} (보조 채널 검색)")
@@ -2022,14 +2096,19 @@ def analyze_experts_daily():
         vid = v['video_id']
         cached_entry = video_history.get(vid) or {}
         cached_analysis = (cached_entry.get('analyses') or {}).get(PROMPT_VERSION)
+        cached_source   = cached_entry.get('text_source')
 
-        if cached_analysis and cached_analysis.get('stance') in ('warning', 'bullish', 'neutral'):
-            # 영구 캐시 히트 (같은 프롬프트 버전 + 유효 판정)
+        # 캐시 히트 조건: 유효 판정 + 트랜스크립트 기반(가장 신뢰도 높음).
+        # description/title 기반 옛 캐시는 yt-dlp fallback 도입 후 트랜스크립트로 업그레이드 재분석.
+        cache_hit = (
+            cached_analysis
+            and cached_analysis.get('stance') in ('warning', 'bullish', 'neutral')
+            and cached_source == 'transcript'
+        )
+        if cache_hit:
             analysis = cached_analysis
-            text_source = cached_entry.get('text_source') or (
-                'transcript' if cached_entry.get('transcript_available') else 'title'
-            )
-            print(f"  ↻ [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']} (캐시 · {text_source})")
+            text_source = 'transcript'
+            print(f"  ↻ [{v['published'][:10]}] {v['title'][:40]} → {analysis['stance']} (캐시 · transcript)")
         else:
             # 1) transcript 시도
             transcript = get_transcript_safe(vid)
