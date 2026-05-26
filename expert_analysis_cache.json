@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "analyzed_at": "2026-05-26T14:11:10.040920+09:00",
+  "analyzed_at": "2026-05-26T14:12:56.485809+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -21,19 +21,6 @@
       }
     },
     {
-      "video_id": "14l8gSoOUc4",
-      "title": "\"AI 시대 최대 리스크 등장\" 조심하셔야 합니다 | 윤지호 경제평론가 [주말인터뷰]",
-      "published": "2026-05-24T02:00:01Z",
-      "url": "https://youtube.com/watch?v=14l8gSoOUc4",
-      "text_source": "description",
-      "transcript_available": false,
-      "is_stale_fallback": false,
-      "analysis": {
-        "stance": "neutral",
-        "reason": "영상 제목에서 'AI 시대 최대 리스크 등장' 및 '조심하셔야 합니다'라고 언급하며 경각심을 주지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 없어 neutral로 분류됩니다."
-      }
-    },
-    {
       "video_id": "QM-c9JsSvOc",
       "title": "외국인 팔았는데 시장 분위기 완전히 바뀌었다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
       "published": "2026-05-26",
@@ -42,6 +29,17 @@
       "analysis": {
         "stance": "bullish",
         "reason": "전문가는 시장의 놀라운 상승을 긍정적으로 평가하며, 특정 섹터(메모리, HBM, 전력 설비, 원자력)에 대한 직접적인 투자 권고와 함께 국민연금의 국내 주식 보유 한도 상향 검토 등 시장에 긍정적인 요인들을 강조하고 있습니다."
+      }
+    },
+    {
+      "video_id": "14l8gSoOUc4",
+      "title": "\"AI 시대 최대 리스크 등장\" 조심하셔야 합니다 | 윤지호 경제평론가 [주말인터뷰]",
+      "published": "2026-05-26",
+      "url": "https://youtube.com/watch?v=14l8gSoOUc4",
+      "transcript_available": true,
+      "analysis": {
+        "stance": "neutral",
+        "reason": "명확한 현금화, 비중 축소, 매도 등 구체적인 행동 권고 없이, 현재 강세장 속 잠재적 리스크 요인(금리 상승, 재정 문제, 과열 심리)을 분석하고 주의를 당부하는 내용입니다."
       }
     }
   ],
