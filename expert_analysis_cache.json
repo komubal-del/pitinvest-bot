@@ -1,12 +1,27 @@
 {
-  "date": "2026-05-26",
-  "analyzed_at": "2026-05-26T14:29:09.149217+09:00",
+  "date": "2026-05-27",
+  "analyzed_at": "2026-05-27T13:45:48.704053+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
   ],
   "expert_warning": false,
   "videos": [
+    {
+      "video_id": "uicPmzLfSAU",
+      "title": "'3고 위기' 상황...맹목적인 장기 투자, 조정 오면 계좌 무너집니다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-05-27T00:47:45Z",
+      "url": "https://youtube.com/watch?v=uicPmzLfSAU",
+      "text_source": "description",
+      "transcript_available": false,
+      "is_stale_fallback": false,
+      "analysis": {
+        "stance": "neutral",
+        "reason": "키워드 스캔 · warning 0 / bullish 0",
+        "fallback": true,
+        "error": "gemini_429"
+      }
+    },
     {
       "video_id": "14l8gSoOUc4",
       "title": "\"AI 시대 최대 리스크 등장\" 조심하셔야 합니다 | 윤지호 경제평론가 [주말인터뷰]",
@@ -19,19 +34,12 @@
         "stance": "neutral",
         "reason": "전문가는 현재 강세장을 인정하면서도 금리 상승이 기업 투자와 전반적인 경제에 장기적인 리스크가 될 수 있음을 경고하며, 즉각적인 행동 권고보다는 지속적인 주의와 관찰을 강조합니다."
       }
-    },
-    {
-      "video_id": "qYxZ-6gVb2Q",
-      "title": "오늘 시장은 결국 반도체·AI·전력 인프라였다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-05-26",
-      "url": "https://youtube.com/watch?v=qYxZ-6gVb2Q",
-      "transcript_available": true,
-      "analysis": {
-        "stance": "bullish",
-        "reason": "AI 섹터의 이익 성장이 고금리 우려를 상쇄하며 시장 상승을 이끌 것이라는 긍정적인 전망을 제시하고 있으며, 전반적인 시장의 8주 연속 상승에 대해 '걱정 없다'고 평가하고 있기 때문입니다."
-      }
     }
   ],
   "error": null,
-  "restored_manually": true
+  "expert_stance_map": {
+    "박병창": "neutral",
+    "윤지호": "neutral"
+  },
+  "prompt_version": "v4-api-1.2.4"
 }

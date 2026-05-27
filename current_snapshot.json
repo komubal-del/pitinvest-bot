@@ -1,134 +1,103 @@
 {
-  "timestamp": "2026-05-26T14:25:59.334627+09:00",
+  "timestamp": "2026-05-27T13:45:44.245656+09:00",
   "sentiment": {
-    "cnn_fng": 58.5714285714286,
+    "cnn_fng": 60.7428571428571,
     "cnn_components": {
-      "momentum": 97.8,
-      "strength": 40.0,
-      "breadth": 25.4,
-      "put_call": 80.0,
-      "junk_bond": 33.2,
+      "momentum": 98.4,
+      "strength": 40.2,
+      "breadth": 28.4,
+      "put_call": 86.6,
+      "junk_bond": 34.8,
       "volatility": 50.0,
-      "safe_haven": 83.6
+      "safe_haven": 86.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 2,
+      "greed_count": 1,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "일본 증시도 7만 가나…반도체 쏠림에 닛케이-토픽스 비율도 56년 만 최고 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTjkzRUd4STZpa01NNnF4OTJZMlhPRTJZRnZXODJQUC1CVnd3eTJOa2VyM2I2X3BDVmlWdmVpbjNiYXlkY2NSUFVKanBjS3F3b0pWSUVBUWstVVRMbWE5elc3b1l0Qm5mWUliUS0xWVltdUhlNjQxVmtxdWxKbkJuWQ?oc=5",
-          "pub_date": "Mon, 25 May 2026 23:43:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "고점 찍고 -20% 폭락해도 다시 간다? 코스피 '더블 탑'의 역사 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pTENVU3V0d2x3dS1fSmZ6UkoydFJ6Wk0wVmI1Ui1pRFYzRTJJd04zZFA3Rk1zaGpyLWgxQ0dQeXh5NWx6SWpjb1ZjUVVLWXRFbWVsZnRDbDc2d0FYMjFuSE9reE5naEgyeExhbl8wdmLSAXRBVV95cUxOUllHUjF6Sk94MVBWSFlCSnFQcmdVZlNkdGN3a3VVN0NsOXlUQVBvOTVsdVpSR3RQU0VvUTVXZGltdGpUbjRQcmxJZU5iN3pUWFBjQjN6SV9xcHJzZDlUdHA4ZzdzbUhGbjZDMXdMRzlJUGJxMQ?oc=5",
-          "pub_date": "Tue, 26 May 2026 00:26:41 GMT",
+          "title": "야데니 \"美 증시 랠리, FOMO 때와 달라…FEMO가 주도\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KU2xWYUt5TGV0TnJIcTItc3F3c3Y1OTNGMnFkb0dHSGtLRkZmQ1hwcVlvUzVEUDc2RXExdGJzUHEwMnJLNmJNOXdpWHpWV1B3MUxPZUlNTFljbTVLMVNxN3pMTUVUWkFzSnRLQlB3elM?oc=5",
+          "pub_date": "Wed, 27 May 2026 02:24:22 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "“지수는 최고치인데 돈은 빠진다”…미국 증시 뒤덮은 ‘AI 쏠림’ - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qWTh5VGJFd0dCcHFEOHkyS2F0TVZsbTk2VlpkVjBiZ1FISXA1SWZPdjBJbVdMU0xqeHdlS29nMjJPZ2pXc1M0T0hFSHZnYWZ2eG1HV09BNUs1d9IBVEFVX3lxTE9mUWJRZ1VrSHpDZGdlZTJVODFiX3pwZlVET1ladURmcFlRSy03UV9KRjVTWDRyX3huXzJSeWd5ZW1vcVoxUkRweGpVd2ZXb2lRdGNORw?oc=5",
-          "pub_date": "Tue, 26 May 2026 04:00:05 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "[NZSI INDEX] 2026년 5월 15일 코스피 급락에도 식지 않는 ‘빚투’ 열기…포모 심리 경계해야 - 세종의소리",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wbGxBRlY2QkJ0V20xdjFYaFB1bS1NckItb21BSm5EWV9OcDVCMnE4QlIzU05tLThPQl82bmM1bEV4UWxIUVVyOUFIUHMwVy02REJxdHBzTmg0WFdrdWU4Wi1QcDZCOFE?oc=5",
-          "pub_date": "Mon, 25 May 2026 23:55:13 GMT",
-          "source": "세종의소리"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "[마켓 프리뷰] 국제유가 급락·반도체주 강세…코스피 8000선 돌파 시도 이어지나 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3eWxaZzk2VXRaRk16bk5kb1d3Zm1sMWhHMU53cjY4UjE2dGRPMUExOHJ6WnhpRnBFOGE5RUtiMHhEODlYWU1HbE1qR3k3WXM?oc=5",
-          "pub_date": "Mon, 25 May 2026 23:41:48 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"오늘 올랐다고 웃을 때 아니다\"…코스피 반등 뒤 도사린 폭락 경고 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QVnZNaEFBWVhBOTBKQnRGNXY2STBZUWdMc2t2ZXBKM1ZKN2psS1ZHdWZJZGJ1SElVUE9qZWNneUJpNTA4eURqQW5RbkcxYjQ?oc=5",
-          "pub_date": "Tue, 26 May 2026 01:00:02 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.59,
-    "vvix": 91.16,
-    "skew": 137.39,
-    "move": 78.43
+    "vix": 17.01,
+    "vvix": 89.55,
+    "skew": 139.04,
+    "move": 74.95
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1375900000000,
-    "retail_net_buy_krw": -1259700000000,
-    "margin_loan_krw": 35896000000000,
+    "foreign_inst_buy_krw": 212900000000,
+    "retail_net_buy_krw": -50400000000,
+    "margin_loan_krw": 35791900000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
   },
   "indices": {
     "nasdaq": {
-      "current": 26343.97,
-      "high_52w": 26707.14,
-      "drop_pct": -1.36,
-      "intraday_low_drop_pct": -1.49,
-      "sma_200": 23087.01,
+      "current": 26656.18,
+      "high_52w": 26725.29,
+      "drop_pct": -0.26,
+      "intraday_low_drop_pct": -0.77,
+      "sma_200": 23114.07,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8047.73,
-      "high_52w": 8131.15,
-      "drop_pct": -1.03,
-      "intraday_low_drop_pct": -1.51,
-      "sma_200": 4703.58,
+      "current": 8353.88,
+      "high_52w": 8457.09,
+      "drop_pct": -1.22,
+      "intraday_low_drop_pct": -2.8,
+      "sma_200": 4729.2,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1173.36,
+      "current": 1140.85,
       "high_52w": 1229.42,
-      "drop_pct": -4.56,
-      "intraday_low_drop_pct": -4.57,
-      "sma_200": 980.34,
+      "drop_pct": -7.2,
+      "intraday_low_drop_pct": -7.33,
+      "sma_200": 982.02,
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7473.47,
-      "high_52w": 7517.12,
-      "drop_pct": -0.58,
-      "intraday_low_drop_pct": -0.72,
-      "sma_200": 6807.66,
+      "current": 7519.12,
+      "high_52w": 7539.09,
+      "drop_pct": -0.26,
+      "intraday_low_drop_pct": -0.5,
+      "sma_200": 6813.55,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2869.23,
-      "high_52w": 2888.62,
-      "drop_pct": -0.67,
-      "intraday_low_drop_pct": -1.16,
-      "sma_200": 2542.88,
+      "current": 2920.54,
+      "high_52w": 2923.04,
+      "drop_pct": -0.09,
+      "intraday_low_drop_pct": -1.05,
+      "sma_200": 2546.41,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 537.33,
-      "high_52w": 541.89,
-      "drop_pct": -0.84,
-      "intraday_low_drop_pct": -2.16,
-      "sma_200": 329.4,
+      "current": 570.09,
+      "high_52w": 572.95,
+      "drop_pct": -0.5,
+      "intraday_low_drop_pct": -3.06,
+      "sma_200": 331.05,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.19,
-    "SMH": 1.274,
-    "BOTZ": 0.953,
-    "IGV": 1.115,
-    "XLF": 0.939,
-    "XLE": 0.991
+    "XLK": 1.218,
+    "SMH": 1.351,
+    "BOTZ": 0.955,
+    "IGV": 1.051,
+    "XLF": 0.924,
+    "XLE": 0.949
   },
   "signals": {
     "cnn_under_10": false,
@@ -150,7 +119,7 @@
       "vix_over_25": false,
       "margin_call_trigger": false,
       "sell_leverage": true,
-      "sell_leading": true,
+      "sell_leading": false,
       "sell_expert": false
     },
     "first_fired": {
@@ -166,19 +135,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 77.03,
+    "tqqq_profit_pct": 86.38,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 256.19,
+    "soxl_profit_pct": 322.04,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 112.18,
+    "koru_profit_pct": 175.98,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -186,19 +155,27 @@
     "koru_avg_locked_date": "2026-04-24"
   },
   "sell_signals": {
-    "leading_stock_rising_3d": true,
+    "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": true,
       "samsung_ok": false,
       "hynix_3d_up": true,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": true,
-      "hynix_ok": true,
+      "hynix_ok": false,
       "gate_passed": true,
       "history": {
         "samsung": [
+          {
+            "date": "2026.05.26",
+            "close": 299000,
+            "change_pct": 2.22,
+            "retail_net": -3405203,
+            "inst_net": 1513469,
+            "foreign_net": 1891734
+          },
           {
             "date": "2026.05.22",
             "close": 292500,
@@ -230,17 +207,17 @@
             "retail_net": 7844141,
             "inst_net": 1418906,
             "foreign_net": -9263047
-          },
-          {
-            "date": "2026.05.18",
-            "close": 281000,
-            "change_pct": 3.88,
-            "retail_net": 1682696,
-            "inst_net": 2803397,
-            "foreign_net": -4486093
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.26",
+            "close": 2052000,
+            "change_pct": 5.72,
+            "retail_net": -278472,
+            "inst_net": 386967,
+            "foreign_net": -108495
+          },
           {
             "date": "2026.05.22",
             "close": 1941000,
@@ -272,14 +249,6 @@
             "retail_net": 1250568,
             "inst_net": -122347,
             "foreign_net": -1128221
-          },
-          {
-            "date": "2026.05.18",
-            "close": 1840000,
-            "change_pct": 1.15,
-            "retail_net": 292567,
-            "inst_net": 267189,
-            "foreign_net": -559756
           }
         ]
       }
@@ -290,8 +259,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-05-26",
-    "analyzed_at": "2026-05-26T14:26:03.821866+09:00",
+    "date": "2026-05-27",
+    "analyzed_at": "2026-05-27T13:45:48.704053+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -299,16 +268,18 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "qYxZ-6gVb2Q",
-        "title": "오늘 시장은 결국 반도체·AI·전력 인프라였다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-26T00:09:49Z",
-        "url": "https://youtube.com/watch?v=qYxZ-6gVb2Q",
+        "video_id": "uicPmzLfSAU",
+        "title": "'3고 위기' 상황...맹목적인 장기 투자, 조정 오면 계좌 무너집니다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-05-27T00:47:45Z",
+        "url": "https://youtube.com/watch?v=uicPmzLfSAU",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란은 주로 홍보성 내용과 프로그램 정보로 구성되어 있으며, 제목은 당일 시장의 특징적인 분야를 언급할 뿐 매수/매도/보유 등 어떠한 구체적인 투자 행동 권고나 시장 방향성에 대한 의견을 명확히 제시하고 있지 않습니다."
+          "reason": "키워드 스캔 · warning 0 / bullish 0",
+          "fallback": true,
+          "error": "gemini_429"
         }
       },
       {
