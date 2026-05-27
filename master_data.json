@@ -1,19 +1,19 @@
 {
-    "date": "05.21",
-    "ratio_raw": "00:66:34",
+    "date": "05.27",
+    "ratio_raw": "01:99:00",
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "매도 임박 유지(매도2). 매수 3조건은 3월 충족 후 카운터 리셋→현재 0. 카드엔 최근 충족일(last_fired) 표시.",
+    "memo": "금일 삼전 닉스 거래터진 윗꼬리 발생 및 2배 레버리지 관심 확대로 위성 제거",
     "holdings": {
-        "QQQ": 0,
-        "SOXX": 0,
-        "EWY": 121062088,
+        "QQQ": 77196186,
+        "SOXX": 68526138,
+        "EWY": 67006868,
         "TQQQ": 0,
         "SOXL": 0,
-        "KORU": 61715871
+        "KORU": 0
     },
-    "total_krw": 183085464,
+    "total_krw": 215301430,
     "sell1_first_fired_date": "2026-04-24",
     "signal_first_fired": {
         "sell_leverage": "2026-04-24",
