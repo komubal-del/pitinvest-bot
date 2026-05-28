@@ -232,5 +232,18 @@
         "reason": "영상 설명란은 현재 주식 시장의 특정 현상(삼전닉스 레버리지 ETF 광풍, 코스피 상승)을 언급하고 그 지속 여부에 대한 질문을 던질 뿐, 특정 투자 행동(매수, 매도, 비중 축소 등)을 명확히 권고하지 않습니다."
       }
     }
+  },
+  "l0QNrAxarLo": {
+    "title": "반도체만 보지 마세요…시황에 묻힌 기회가 있습니다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+    "published": "2026-05-28T00:33:24Z",
+    "url": "https://youtube.com/watch?v=l0QNrAxarLo",
+    "text_source": "description",
+    "transcript_available": false,
+    "analyses": {
+      "v4-api-1.2.4": {
+        "stance": "bullish",
+        "reason": "제목에서 '시황에 묻힌 기회가 있습니다'라고 명확히 언급하며 투자 기회를 강조하고 있기 때문입니다."
+      }
+    }
   }
 }
