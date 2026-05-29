@@ -777,7 +777,13 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     else:
         leverage = compute_leverage_profit(exit_settings)
     leading, leading_detail = check_kr_leading_stocks()
-    expert_result = analyze_experts_daily()  # 하루 1회 Gemini 분석 (캐시 기반)
+    # 전문가 분석: KST 09·13시대에만 실제 분석(Gemini 호출). 그 외 시간(매시간 cron)엔
+    # 기존 캐시만 로드 → 지표는 매시간 갱신, 전문가는 하루 2번만 갱신.
+    _expert_hour = datetime.now(kst).hour
+    if _expert_hour in EXPERT_RUN_HOURS:
+        expert_result = analyze_experts_daily()  # 09·13시: 정상 분석/갱신
+    else:
+        expert_result = load_expert_cache_only()  # 그 외: 캐시 그대로 (재분석 X)
 
     # VKOSPI는 fetch_market()이 이미 수집 → market_data 통해 전달받음
     vol = dict(ext["volatility"])
@@ -1975,6 +1981,34 @@ JSON 단일 객체로만 답하세요. 다른 텍스트·코드블록·설명 �
             fb['error'] = 'gemini_429'
             return fb
         return {'stance': 'unknown', 'reason': '분석 실패', 'error': err_str}
+
+
+# 전문가 분석을 실제로 돌리는 KST 시각 (매시간 cron 중 이 시간대에만 Gemini 호출).
+# 지표는 매시간 갱신하되 전문가는 하루 2번(오전·오후)만 갱신해 비용/부담 ↓.
+EXPERT_RUN_HOURS = (9, 13)
+
+
+def load_expert_cache_only():
+    """전문가 분석을 새로 돌리지 않고 기존 expert_analysis_cache.json 만 로드해 반환.
+    매시간 cron 중 EXPERT_RUN_HOURS 가 아닌 시간대에 사용 (Gemini 호출 0).
+    캐시 없으면 빈 placeholder 반환.
+    """
+    if os.path.isfile(EXPERT_CACHE_PATH):
+        try:
+            with open(EXPERT_CACHE_PATH, encoding='utf-8') as f:
+                cache = json.load(f)
+            print(f"♻️  전문가 분석 캐시 로드 (재분석 skip · {cache.get('date')})")
+            return cache
+        except Exception as e:
+            print(f"[expert cache-only] load fail: {e}")
+    return {
+        'date': datetime.now(kst).strftime('%Y-%m-%d'),
+        'analyzed_at': None,
+        'experts_queried': list(TARGET_EXPERTS),
+        'expert_warning': False,
+        'videos': [],
+        'error': 'no_cache',
+    }
 
 
 def analyze_experts_daily():
