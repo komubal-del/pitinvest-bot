@@ -1,28 +1,72 @@
 {
-  "timestamp": "2026-05-29T19:13:12.754268+09:00",
+  "timestamp": "2026-05-29T23:15:07.399308+09:00",
   "sentiment": {
-    "cnn_fng": 60.3142857142857,
+    "cnn_fng": 59.8,
     "cnn_components": {
       "momentum": 98.4,
-      "strength": 39.4,
-      "breadth": 35.4,
-      "put_call": 95.8,
-      "junk_bond": 21.8,
+      "strength": 39.0,
+      "breadth": 33.2,
+      "put_call": 99.0,
+      "junk_bond": 18.8,
       "volatility": 50.0,
-      "safe_haven": 81.4
+      "safe_haven": 80.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 6,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "[마켓뷰] 코스피, 또 사상 최고… 대형주 쏠림에 8470선 안착 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcGNJZUZMRnhVTGhVczFkc3NLRXpBN2tLazZxVHdPbmtIQllSNnI4Zml4RzJDS0RhWmQ1RjdTZExsV205WEthNjZZZVk5U2VnanNXRTllY2x5QnZzNURZcUpscmJYTVgzeTQ5Q1prT2l3QjJSd3JDU1BMSFZzX0h4VXBZc3RDdGPSAZsBQVVfeXFMTlFCUXo5N01RRlNLYVdXa3l4eE43SGtvcHdpNUtIMl9iYi1KcmlTRHFMYnhySXlvR0hPdzBncVlBOTRINnc2dmpyZ05CR2s0SUxoUHE0d2FPSXM4dWxRd0gwNkNuekNhOVJZSlhfNmFrcDNLcmxoY0kwX2VTMUdBTzVmajZZd2c4WVhQT0hyY0dBbERFOTVVSmZ4QU0?oc=5",
+          "pub_date": "Fri, 29 May 2026 07:36:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피, 종가 기준 최고치 경신…전고점도 넘어 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nVDQ0eVFucmJFTFFiNDNXV3Itb3QwZnFJU043b2E0dW9LTjRaWU40NDNWc3FCUzhYTm1wTG9LWjVrby03VW1JVjltZkMzWlB2WDBaRg?oc=5",
+          "pub_date": "Fri, 29 May 2026 07:07:37 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[애프터마켓 브리핑] 코스피 ADR 작년말 대비 절반…AI 대형주 쏠림 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ILWhZMG1yMFFWbkZWQnZiQ1FaT2lqa3JWd0R0M0t1NHM5dFV2R2JCaTJkcVBacHFqcGxPdW9oYm9PYjFzMnpIcDVGenFPTnM?oc=5",
+          "pub_date": "Fri, 29 May 2026 07:45:16 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "증시 호황에 연금 기금 68조 늘었지만 … 국내주식 쏠림은 '불안' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zZ0xhMFJSTmZMNXlidW95aHRCU3VMSHA0SUoyS1BZZDB4WTd6c3JiQ1U4dlVCNnFxWkpWQjE3NkUwUTdEa2JmMWxkWWRlYkk?oc=5",
+          "pub_date": "Fri, 29 May 2026 08:57:10 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 8476 또 최고치…AI·반도체 쏠림 - mstoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAweE92R0x6M0Z1WmxSdHdpU2RJbTdlLXhwY3ZmQ05fMDNrNnBHRl9ILTVwSzdxUlM4QXJhajdDeU5VT3NsQ3pZTlBfcy13Q2VSYmFwdjlBSHhPTk1RX2xfZ0hEbFBVQUc0QjY3dw?oc=5",
+          "pub_date": "Fri, 29 May 2026 07:40:18 GMT",
+          "source": "mstoday.co.kr"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "코스피, 상승 출발하며 8,400대 안착 시도…코스닥은 하락 전환(종합) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BUm5kMmRCLWlobHcyM0dWa0NlVDdrYjRXTHZRcU1KSEowaXNqY3NKZ0NkeDB1bFNFYTdzczEtZGhRNnhRWGJOSnQyR0lFMVU?oc=5",
+          "pub_date": "Fri, 29 May 2026 00:46:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 상승 출발하며 8,400대 안착 시도…코스닥은 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rTWlVRkJ5ZnBCNUphaGV2M1RFd3NtS1BKdU16b2dvX1ZCeHZhb0QwRXJRaGE5cEFpRTRJVDl3aVJBblR5MFYwZ0U3ekRCSC0yUWhtbg?oc=5",
+          "pub_date": "Fri, 29 May 2026 01:06:01 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 15.84,
-    "vvix": 86.03,
+    "vix": 15.59,
+    "vvix": 85.17,
     "skew": 139.52,
     "move": 69.74
   },
@@ -36,11 +80,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26917.47,
-      "high_52w": 26934.84,
-      "drop_pct": -0.06,
-      "intraday_low_drop_pct": -1.29,
-      "sma_200": 23167.86,
+      "current": 27016.05,
+      "high_52w": 27094.8,
+      "drop_pct": -0.29,
+      "intraday_low_drop_pct": -0.56,
+      "sma_200": 23194.53,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -60,37 +104,37 @@
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7563.63,
-      "high_52w": 7568.72,
-      "drop_pct": -0.07,
-      "intraday_low_drop_pct": -0.8,
-      "sma_200": 6825.16,
+      "current": 7590.09,
+      "high_52w": 7599.38,
+      "drop_pct": -0.12,
+      "intraday_low_drop_pct": -0.33,
+      "sma_200": 6830.88,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2936.57,
+      "current": 2924.16,
       "high_52w": 2942.61,
-      "drop_pct": -0.21,
-      "intraday_low_drop_pct": -1.52,
-      "sma_200": 2553.51,
+      "drop_pct": -0.63,
+      "intraday_low_drop_pct": -0.73,
+      "sma_200": 2556.72,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 569.47,
+      "current": 577.77,
       "high_52w": 584.5,
-      "drop_pct": -2.57,
-      "intraday_low_drop_pct": -5.08,
-      "sma_200": 334.3,
+      "drop_pct": -1.15,
+      "intraday_low_drop_pct": -1.85,
+      "sma_200": 335.95,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.216,
-    "SMH": 1.339,
-    "BOTZ": 0.957,
-    "IGV": 1.049,
-    "XLF": 0.911,
-    "XLE": 0.912
+    "XLK": 1.239,
+    "SMH": 1.353,
+    "BOTZ": 0.95,
+    "IGV": 1.079,
+    "XLF": 0.91,
+    "XLE": 0.901
   },
   "signals": {
     "cnn_under_10": false,
@@ -128,19 +172,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 90.31,
+    "tqqq_profit_pct": 93.4,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 319.87,
+    "soxl_profit_pct": 336.85,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 199.14,
+    "koru_profit_pct": 203.7,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
