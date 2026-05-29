@@ -1,158 +1,128 @@
 {
-  "timestamp": "2026-05-28T13:36:30.423174+09:00",
+  "timestamp": "2026-05-29T13:00:24.072426+09:00",
   "sentiment": {
-    "cnn_fng": 60.6857142857143,
+    "cnn_fng": 60.2285714285714,
     "cnn_components": {
-      "momentum": 98.0,
-      "strength": 40.4,
-      "breadth": 30.2,
-      "put_call": 96.4,
-      "junk_bond": 26.0,
+      "momentum": 98.4,
+      "strength": 41.4,
+      "breadth": 32.8,
+      "put_call": 95.8,
+      "junk_bond": 21.8,
       "volatility": 50.0,
-      "safe_haven": 83.8
+      "safe_haven": 81.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 7,
-      "fear_count": 8,
+      "greed_count": 1,
+      "fear_count": 4,
       "greed_articles": [
         {
-          "title": "BofA \"과열된 美 증시…여름 조정에 대비해야\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43NUJnMU9XcWUtZDk4UGFmSnp0eDF3SHk0dENnYUt4MFBDY2MyYUp0LXpnT3NlemkwWEJnVE5kT0p5Z1RSTHFXS0xMZk03ZmtlejBhQkJvQnpwYkdUdUtoM3ZLMjY1ZFk5ZTR2dk9GTHY?oc=5",
-          "pub_date": "Thu, 28 May 2026 00:45:26 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피 절반 삼킨 '삼전닉스'…\"쏠림 완화가 오히려 붕괴 전조\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyMkxtSlVoNGZUbmIwam1KMEZYcDF1Nk5ZR3BJaFZUMzFkMEI3N0NUTU9YdTFMZDk1YzA5RDQtX3dXVWRyazRhM0dsVEFNcHVjT3ZBRXdvNHRRaU5fLUttLXp5dDlwQWNmNlN3ZFdPcmQ?oc=5",
-          "pub_date": "Thu, 28 May 2026 00:27:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "K증시 활황에 지갑 열렸나…1분기 가계소비, 3년만 최대 증가 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzSXhGM0hLSVFUSUtnakpTS2s5NFlGOFM0MlJjUlZRdjM5bEZqRWIyaHpPUEE2SDBJMTBMcWJFV0RONUM2U25CVVRIaWJEajA?oc=5",
-          "pub_date": "Thu, 28 May 2026 03:02:10 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 활황에 외국인 배당금 11조 돌파…삼성전자만 2조 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiVmFxRmN6YnNNaXF2T1BkUWRlMmFkX1ZNSUFxRkdTQm1jOWl0d2VTZWt1SUlDMmpxRmxhYm1Dd0FxdzdLaV82OWRuMGhYaWtqbnlCaHl5eXREWWJ3aUNzcTVieHZLVjA?oc=5",
-          "pub_date": "Thu, 28 May 2026 02:56:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "\"새 차 뽑고 여행 가고\"…증시 활황에 씀씀이 커졌다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04MEJhamtOaVR6cnV1MHNsck9MZnltZGVQWmx6REpzbVI5MGJoUHBYMm9OSkgwbGZseHhqSDhtTXdaeVdqUTlPTU1jLXQzdEU?oc=5",
-          "pub_date": "Thu, 28 May 2026 03:47:39 GMT",
-          "source": "v.daum.net"
+          "title": "\"트럼프 승인만 남았다\" … 코스피, 반도체 쏠림장세 2%대 강세 - 뉴데일리 경제",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1POGZxSnNZcnJDeUJvUFE3WkRuRFBEVG12YmU0U0lhcDV6NkdnUWFaa2pBejNONmFGMHNJcmxQd0RJbnM2RjJ4LUxwdFNuc2FZU1VMWl9lY3hFQVlOM3BXN3NnVmhGOTQtMGd2N1F0emlKYUstSmF4SUJMVQ?oc=5",
+          "pub_date": "Fri, 29 May 2026 01:02:21 GMT",
+          "source": "뉴데일리 경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 개인·외인 수급 공방 속 반등 모색…코스닥 하락 전환(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80VXFRcHZoM3FtNmVtSUJYV0NfQUhmbGQ4aFRwbF94ZXhzUkZrdkMwNkVYQ0ttMnoxOGgtaUJlOVNQeFdvSTVxcUZydjVkNUt0QU44TWJ1bUgtdknSAWBBVV95cUxPQVFQRXp2QmdLV3pUMi1lY0M3c2ZtZ3NNYkhFQlEwdml3MVBLQlg2NjByTmdzREJ6ZjcyX1k4M1dpNFVFYi1Yd0pZR1k1WmZkZzdFU2ZNTlVscEVCVUx2SzU?oc=5",
-          "pub_date": "Thu, 28 May 2026 01:03:11 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[개장시황] 코스피, 차익실현 매물에 숨고르기…외인 매도세 확대 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Ga3FhNXFBTVFuVXg1T24yeWFDdFZXa29rR1llYU9HNTNrU3lFT2syLS1HTzN3OXduQkNpd3lVaEltWU9BV3NNaDRjbXo4QTQ?oc=5",
-          "pub_date": "Thu, 28 May 2026 00:15:03 GMT",
+          "title": "코스피, 상승 출발하며 8,400대 안착 시도…코스닥은 하락 전환(종합) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BUm5kMmRCLWlobHcyM0dWa0NlVDdrYjRXTHZRcU1KSEowaXNqY3NKZ0NkeDB1bFNFYTdzczEtZGhRNnhRWGJOSnQyR0lFMVU?oc=5",
+          "pub_date": "Fri, 29 May 2026 00:46:03 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "코스피 8,200선서 숨고르기…코스닥도 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MRVl5SF9HOVYxZjN5QmlQSy1mcmtwaFRQekNDVU1HRTNrY3pTWEZsdDBiUUVOTkNMWmY2N1NSRjdHZGtPMGhTX1JYVDdKeTQ?oc=5",
-          "pub_date": "Thu, 28 May 2026 01:33:41 GMT",
+          "title": "코스피, 상승 출발하며 8,400대 안착 시도…코스닥은 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IOUxuclUxYkUya3F1Unh5OEN2OEt2djFuODlEUmtjWXF2S0ZkeXozai1nUXpadmV0dTFGWnpGNDdDdWpXTkllb3R6dU5NTGc?oc=5",
+          "pub_date": "Fri, 29 May 2026 01:06:01 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "코스피, 외국인 매도세에 장중 약세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yWTNkTmVXMmd1ME1vYzZCS25IWGxIakRqU05xU2NWUWp0TW5iZ015ZmhrWlhlSXVjOXdmM1VaMV9yaDRWUm1MenVSa1VsSGs?oc=5",
-          "pub_date": "Thu, 28 May 2026 01:14:02 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 종전 기대·AI 훈풍에 8400선 시도… 코스닥은 하락 전환 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54dkxxeGxEblFyM3lJR1ZWd2t3ek9xWkhxLWR6UHMzSkVBWTAyeW50UFRSeTZrN3FuLVhLNTdQSTRIOTlXdFNFWGpzX1pYNmJUemtwajdyZjBqeUFTYlJsUVBpMVNvcXRQZTBMXzVwUQ?oc=5",
+          "pub_date": "Fri, 29 May 2026 00:54:27 GMT",
+          "source": "서울신문"
         },
         {
-          "title": "코스피 하락 개장…반도체 부진에 외인 매도세 겹쳐 [개장시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2Ry1taFJ0Tm9TQ0V0bmJGMEd4S2FxNzQ0aUttMjl6VGllTkRscDh4TUlKWUx1OXdlTFRYYnI3RlZ0YlJrNzJITlN1Rm80a1F3bmxuX3hzUXktR3ZUSTdyVWZDNA?oc=5",
-          "pub_date": "Thu, 28 May 2026 00:42:28 GMT",
-          "source": "에너지경제신문"
+          "title": "코스피 1.59% 상승 중… 반도체·전자부품 강세, 외국인 매도세 지속 [오전10시 시황] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1bks0OGh3M0xyTld4V2VPaXpDNWJwbFFsak5GaV9GS0lhODBhamdtbTh0am9TWmhQZjFibm0yWS1sa1hHOGlYbHpJRGN2MTdsbFhRa1o1aXhlUdIBVEFVX3lxTE5LYzNyUWJiNWdNTERqNFI5WHV6MkpBeTNVcm4xQ3ZnWGU5NmhZek1ZQll6N25na09aUTFnSjJmaTNuWEJGaXpuaXpVWTR5dWUtVGF2Ug?oc=5",
+          "pub_date": "Fri, 29 May 2026 01:38:11 GMT",
+          "source": "한국경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.29,
-    "vvix": 87.53,
-    "skew": 138.57,
-    "move": 70.9
+    "vix": 15.74,
+    "vvix": 86.03,
+    "skew": 139.52,
+    "move": 69.74
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2695400000000,
-    "retail_net_buy_krw": 2632200000000,
-    "margin_loan_krw": 35687000000000,
+    "foreign_inst_buy_krw": 607800000000,
+    "retail_net_buy_krw": -635200000000,
+    "margin_loan_krw": 36111100000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
   },
   "indices": {
     "nasdaq": {
-      "current": 26674.73,
-      "high_52w": 26725.29,
-      "drop_pct": -0.19,
-      "intraday_low_drop_pct": -0.7,
-      "sma_200": 23140.2,
+      "current": 26917.47,
+      "high_52w": 26934.84,
+      "drop_pct": -0.06,
+      "intraday_low_drop_pct": -1.29,
+      "sma_200": 23167.86,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7872.62,
+      "current": 8394.31,
       "high_52w": 8457.09,
-      "drop_pct": -6.91,
-      "intraday_low_drop_pct": -6.91,
-      "sma_200": 4751.66,
+      "drop_pct": -0.74,
+      "intraday_low_drop_pct": -2.17,
+      "sma_200": 4778.97,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1069.04,
+      "current": 1079.83,
       "high_52w": 1229.42,
-      "drop_pct": -13.05,
-      "intraday_low_drop_pct": -13.07,
-      "sma_200": 983.3,
+      "drop_pct": -12.17,
+      "intraday_low_drop_pct": -13.93,
+      "sma_200": 984.85,
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7520.36,
-      "high_52w": 7539.09,
-      "drop_pct": -0.25,
-      "intraday_low_drop_pct": -0.52,
-      "sma_200": 6819.21,
+      "current": 7563.63,
+      "high_52w": 7568.72,
+      "drop_pct": -0.07,
+      "intraday_low_drop_pct": -0.8,
+      "sma_200": 6825.16,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2919.94,
-      "high_52w": 2932.74,
-      "drop_pct": -0.44,
-      "intraday_low_drop_pct": -0.82,
-      "sma_200": 2549.91,
+      "current": 2936.57,
+      "high_52w": 2942.61,
+      "drop_pct": -0.21,
+      "intraday_low_drop_pct": -1.52,
+      "sma_200": 2553.51,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 563.98,
+      "current": 569.47,
       "high_52w": 584.5,
-      "drop_pct": -3.51,
-      "intraday_low_drop_pct": -5.58,
-      "sma_200": 332.66,
+      "drop_pct": -2.57,
+      "intraday_low_drop_pct": -5.08,
+      "sma_200": 334.3,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.207,
-    "SMH": 1.337,
+    "XLK": 1.216,
+    "SMH": 1.339,
     "BOTZ": 0.957,
-    "IGV": 1.025,
-    "XLF": 0.919,
-    "XLE": 0.917
+    "IGV": 1.049,
+    "XLF": 0.911,
+    "XLE": 0.912
   },
   "signals": {
     "cnn_under_10": false,
@@ -174,7 +144,7 @@
       "vix_over_25": false,
       "margin_call_trigger": false,
       "sell_leverage": true,
-      "sell_leading": false,
+      "sell_leading": true,
       "sell_expert": false
     },
     "first_fired": {
@@ -190,19 +160,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 85.74,
+    "tqqq_profit_pct": 90.31,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 307.44,
+    "soxl_profit_pct": 319.87,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 166.14,
+    "koru_profit_pct": 199.14,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -210,19 +180,27 @@
     "koru_avg_locked_date": "2026-04-24"
   },
   "sell_signals": {
-    "leading_stock_rising_3d": false,
+    "leading_stock_rising_3d": true,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
-      "samsung_at_60d_high": false,
+      "samsung_retail_buying": true,
+      "samsung_at_60d_high": true,
       "samsung_ok": false,
-      "hynix_3d_up": false,
-      "hynix_retail_buying": false,
-      "hynix_at_60d_high": false,
-      "hynix_ok": false,
-      "gate_passed": false,
+      "hynix_3d_up": true,
+      "hynix_retail_buying": true,
+      "hynix_at_60d_high": true,
+      "hynix_ok": true,
+      "gate_passed": true,
       "history": {
         "samsung": [
+          {
+            "date": "2026.05.28",
+            "close": 299500,
+            "change_pct": -2.44,
+            "retail_net": 6786687,
+            "inst_net": -1613562,
+            "foreign_net": -5173125
+          },
           {
             "date": "2026.05.27",
             "close": 307000,
@@ -254,17 +232,17 @@
             "retail_net": -6280909,
             "inst_net": 2608486,
             "foreign_net": 3672423
-          },
-          {
-            "date": "2026.05.20",
-            "close": 276000,
-            "change_pct": 0.18,
-            "retail_net": 2976567,
-            "inst_net": 2756787,
-            "foreign_net": -5733354
           }
         ],
         "hynix": [
+          {
+            "date": "2026.05.28",
+            "close": 2289000,
+            "change_pct": 2.05,
+            "retail_net": 761896,
+            "inst_net": 22893,
+            "foreign_net": -784789
+          },
           {
             "date": "2026.05.27",
             "close": 2243000,
@@ -296,14 +274,6 @@
             "retail_net": -319021,
             "inst_net": 738512,
             "foreign_net": -419491
-          },
-          {
-            "date": "2026.05.20",
-            "close": 1745000,
-            "change_pct": 0.0,
-            "retail_net": 463644,
-            "inst_net": 240569,
-            "foreign_net": -704213
           }
         ]
       }
@@ -311,11 +281,11 @@
     "expert_warning": false,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-05-28",
-    "analyzed_at": "2026-05-28T13:36:35.313121+09:00",
+    "date": "2026-05-29",
+    "analyzed_at": "2026-05-29T13:00:28.678918+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -323,16 +293,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "l0QNrAxarLo",
-        "title": "반도체만 보지 마세요…시황에 묻힌 기회가 있습니다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-05-28T00:33:24Z",
-        "url": "https://youtube.com/watch?v=l0QNrAxarLo",
+        "video_id": "yH6Qf2puAmw",
+        "title": "\"삼성전자, 하이닉스 고점이다\" 생각하는 사람들 주목 | 박병창 MP파트너스 대표",
+        "published": "2026-05-29T03:16:10Z",
+        "url": "https://youtube.com/watch?v=yH6Qf2puAmw",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "bullish",
-          "reason": "제목에서 '시황에 묻힌 기회가 있습니다'라고 명확히 언급하며 투자 기회를 강조하고 있기 때문입니다."
+          "reason": "영상 설명란에 '여전히 주도주를 사라'는 명확한 매수 권고가 포함되어 있습니다."
         }
       },
       {
