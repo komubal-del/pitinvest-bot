@@ -1,59 +1,28 @@
 {
-  "timestamp": "2026-06-01T23:45:34.527300+09:00",
+  "timestamp": "2026-06-02T04:34:31.228790+09:00",
   "sentiment": {
-    "cnn_fng": 59.6571428571429,
+    "cnn_fng": 59.8571428571429,
     "cnn_components": {
-      "momentum": 97.0,
-      "strength": 36.6,
+      "momentum": 98.4,
+      "strength": 37.4,
       "breadth": 35.2,
-      "put_call": 98.8,
-      "junk_bond": 16.8,
+      "put_call": 98.4,
+      "junk_bond": 15.8,
       "volatility": 50.0,
-      "safe_haven": 82.0
+      "safe_haven": 83.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 11,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "코스피 신고점 행진에도 못 웃는 충청권 상장사…온도차 '극심' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16OG1yYnlfQUFvajRCTEY3ZER3MUplQ1R0bTNQZXJoTnFMcl8zenVQeGJmaE5iQXlVekZ0VDhYVU9sdTRkVWxCd01CNGNub28?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 08:06:02 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "8800피인데 내 주식은 왜…반도체 쏠림에 코스닥 '휘청' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jemxxaVY1Q3RjUzhPV2ItWUJSclc1Z0lyWlRYVzNjTHpRNkt2cTBEeVMtSDgxZDFYTXZPVEgtZWtjQjVYZ3VTckhiVldHNVU?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 09:13:07 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"강세장 주도주 쏠림은 흔한 일\"‥박스권 갇힌 코스닥 활성화는? - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qSjlwTHh3OTduWGR1dTM1ampoZzQ4QnlUcVBJYmNuWks5MWxwZ1BTVVR0WlBaX2otbm81YWhPeDNXRXBMblhRaTZqUEpXN0Z2Ym1OOEpzR0h0Q3FqVFA5ZDBINldnZW9UTDdzUG9zZ0QtN0ZQUXkwa9IBeEFVX3lxTE9qSjlwTHh3OTduWGR1dTM1ampoZzQ4QnlUcVBJYmNuWks5MWxwZ1BTVVR0WlBaX2otbm81YWhPeDNXRXBMblhRaTZqUEpXN0Z2Ym1OOEpzR0h0Q3FqVFA5ZDBINldnZW9UTDdzUG9zZ0QtN0ZQUXkwaw?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 11:39:03 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "코스피 28% 뛸 때 코스닥은 10% 하락, 반도체 쏠림에 밀린 코스닥…하반기 반등 변수는 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUQ0dWJzbEs0VjdrRDlRbS1Vd0dkeVZHSC05dHNra25waF8tbDQzMzFEcG45NTFhVzVtbU90bUJGUGdNaEplX3RpaVJtVDFNRkVkeEVHWnd4dkdUT3pNRTVwYjIySVlqTFhOUFVCVWRib3p5b21acTVyMDJsX1ZhYg?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 00:10:55 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "코스피로 몰려간 '빚투'…반도체 쏠림에 코스닥 신용잔고 10조도 무너졌다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVTVRlamRKZkNNS0J5WUIwYXRHNUpENGV0OWI2UHNKaS1ELUxHcG5hQ2tHcnVsWlUtMFh6a1VsV0cwR0NvdTl5M1dvS0Y0eVk?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 06:34:26 GMT",
-          "source": "v.daum.net"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.09,
-    "vvix": 89.03,
+    "vix": 15.81,
+    "vvix": 89.68,
     "skew": 144.18,
     "move": 70.22
   },
@@ -67,61 +36,61 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26995.43,
-      "high_52w": 27094.8,
-      "drop_pct": -0.37,
-      "intraday_low_drop_pct": -0.67,
-      "sma_200": 23220.72,
+      "current": 27131.5,
+      "high_52w": 27190.21,
+      "drop_pct": -0.22,
+      "intraday_low_drop_pct": -1.02,
+      "sma_200": 23221.4,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8788.38,
+      "current": 8476.15,
       "high_52w": 8874.16,
-      "drop_pct": -0.97,
-      "intraday_low_drop_pct": -4.38,
-      "sma_200": 4807.72,
+      "drop_pct": -4.49,
+      "intraday_low_drop_pct": -6.77,
+      "sma_200": 4779.38,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1050.03,
+      "current": 1074.8,
       "high_52w": 1229.42,
-      "drop_pct": -14.59,
-      "intraday_low_drop_pct": -15.09,
-      "sma_200": 986.22,
+      "drop_pct": -12.58,
+      "intraday_low_drop_pct": -13.93,
+      "sma_200": 984.83,
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7574.87,
-      "high_52w": 7599.38,
-      "drop_pct": -0.32,
-      "intraday_low_drop_pct": -0.48,
-      "sma_200": 6836.37,
+      "current": 7609.63,
+      "high_52w": 7617.66,
+      "drop_pct": -0.11,
+      "intraday_low_drop_pct": -0.72,
+      "sma_200": 6836.54,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2887.9,
+      "current": 2911.84,
       "high_52w": 2942.61,
-      "drop_pct": -1.86,
-      "intraday_low_drop_pct": -1.94,
-      "sma_200": 2559.5,
+      "drop_pct": -1.05,
+      "intraday_low_drop_pct": -2.1,
+      "sma_200": 2559.62,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 567.75,
+      "current": 571.24,
       "high_52w": 584.5,
-      "drop_pct": -2.87,
+      "drop_pct": -2.27,
       "intraday_low_drop_pct": -4.64,
-      "sma_200": 337.48,
+      "sma_200": 337.5,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.26,
-    "SMH": 1.344,
-    "BOTZ": 0.956,
-    "IGV": 1.151,
+    "XLK": 1.266,
+    "SMH": 1.346,
+    "BOTZ": 0.959,
+    "IGV": 1.175,
     "XLF": 0.909,
-    "XLE": 0.922
+    "XLE": 0.913
   },
   "signals": {
     "cnn_under_10": false,
@@ -159,19 +128,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 92.93,
+    "tqqq_profit_pct": 96.26,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 315.33,
+    "soxl_profit_pct": 323.23,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 221.94,
+    "koru_profit_pct": 245.12,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -326,7 +295,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 284.444,
+    "strategy_pct": 293.682,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -746,7 +715,7 @@
       },
       {
         "date": "2026-06-01",
-        "ret_pct": 284.444
+        "ret_pct": 293.682
       }
     ],
     "monthly_breakdown": [
@@ -782,8 +751,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -10.89,
-        "end_ret_pct": 284.44,
+        "return_pct": -1.66,
+        "end_ret_pct": 293.68,
         "max_dd_pct": 0.0
       }
     ],
