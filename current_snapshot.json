@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T07:26:45.381133+09:00",
+  "timestamp": "2026-06-02T08:51:58.633151+09:00",
   "sentiment": {
     "cnn_fng": 59.0857142857143,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 5,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "\"美 증시, 20개 종목만 신고가…닷컴 버블 정점과 유사\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KekJrRkhja0JNYk9RWUdOTXh2b01pdWEwM3FmMWJ2UmlLYVNSakE1RV9VZDBhbjRCck1XTTFZSF81dlhwSUtVYUx0c3UzT21SZXNwYlRfN19GVUZSYW1jRHZYcm00SHdJREhoRmlaa24?oc=5",
+          "pub_date": "Mon, 01 Jun 2026 23:28:32 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "코스피 2배 만든 삼전·닉스 '쏠림'…6월엔 '온기 확산' vs '불안한 변동성' - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VYWJ1NFpweFZyb2RjNnY1SUxTWW5UTGhfVnhkQzNpcWhfU0p0RGZOUDhUek5OMjJpVjItTXU0bEVzbmN2SlI2eUxwS3d1ZmtKNEIyRXpoM0tRTTFOYkM4?oc=5",
@@ -30,10 +36,16 @@
           "source": "뉴스1"
         },
         {
-          "title": "증시 활황에 금 인기 식었다…펀드 수익률 석달 새 10% '뚝' - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pZm9IMEZtc01hR2NEMUYyWmp1U0xGU0pVdnN3bHdnRGtkVml2QS05N3NOLVhncWo1dmFPRTNrVl9xMVFDdDA1VDgwNFE2azh4RW0tRw?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 20:35:00 GMT",
-          "source": "이투데이"
+          "title": "닷컴버블 닮은 AI 랠리…실적 기대가 증시 밀어올려 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EcUZIaHV0eWhpWThjZ2UyZENzdnJ6aUNiZDhnekdmekp4VjdSMmJ1NmpnUEdBWHFoWFg2ZmJ5VXNIYS1MeE5KVkNpQkhZc2ZNeTJrYk5kNUVtUdIBVEFVX3lxTE1KQlZndVVTZnpHOFdRUzZKUGZXYloxTnBGUWtTa19KWnpBQVRpUUViUFdFejI5ZTRmc0hMU2psV2JRV1BkMTJmdWp3WUZuWkVCUkgydg?oc=5",
+          "pub_date": "Mon, 01 Jun 2026 23:25:08 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[프리마켓 포커스] 뉴욕증시 온기에 코스피 9000선 정조준..삼전닉스 쏠림 여전 - the-biz.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tRHJKQjlPbGhtSmM0VTFWanJUU3dEeWRxQmpzT2l1Q0RMWmlXd0hJRTI2X0RQMW1RRVhIZXE4dmVCZnpaMWd2aVliLUtKaFdnS2gySkZoSzA0THBfZFI5OHNhbklMSXZueHJxNg?oc=5",
+          "pub_date": "Mon, 01 Jun 2026 23:19:32 GMT",
+          "source": "the-biz.co.kr"
         }
       ],
       "fear_articles": []
@@ -48,7 +60,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -379200000000,
     "retail_net_buy_krw": 386200000000,
-    "margin_loan_krw": 36459300000000,
+    "margin_loan_krw": 37418800000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -314,7 +326,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 308.531,
+    "strategy_pct": 308.196,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -738,7 +750,7 @@
       },
       {
         "date": "2026-06-02",
-        "ret_pct": 308.531
+        "ret_pct": 308.196
       }
     ],
     "monthly_breakdown": [
@@ -774,8 +786,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 13.19,
-        "end_ret_pct": 308.53,
+        "return_pct": 12.86,
+        "end_ret_pct": 308.2,
         "max_dd_pct": 0.0
       }
     ],
