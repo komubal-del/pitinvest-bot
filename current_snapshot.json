@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-01T13:08:27.959062+09:00",
+  "timestamp": "2026-06-01T14:11:47.611535+09:00",
   "sentiment": {
     "cnn_fng": 60.1714285714286,
     "cnn_components": {
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 5,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "[직설] 불장 기록한 코스피, 고점 부담 커졌다…6월 랠리 이어갈까? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JVmwybzc5RzdXanVya1lzd3dWeUN4UzV1bGpQZHNkRldLeDk4R0RTOUZESTJ1UG9oRkNDeUxQQUJLck5ramVBT1BEcFp2MTg?oc=5",
+          "pub_date": "Mon, 01 Jun 2026 04:43:37 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "코스피 랠리에 불붙은 빚투…신용대출, 주담대의 100배 증가 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50akhxcjRXS3FVeXBkTVFzd2xnaDJvaGdVbGw1QlpsczVaZU8tSHNhMG50WkE4Q3lXNFJyNzFMWE51dXF5R1V2eGNrLTFobkE?oc=5",
           "pub_date": "Mon, 01 Jun 2026 02:40:27 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 28% 뛸 때 코스닥은 10% 하락, 반도체 쏠림에 밀린 코스닥…하반기 반등 변수는 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUQ0dWJzbEs0VjdrRDlRbS1Vd0dkeVZHSC05dHNra25waF8tbDQzMzFEcG45NTFhVzVtbU90bUJGUGdNaEplX3RpaVJtVDFNRkVkeEVHWnd4dkdUT3pNRTVwYjIySVlqTFhOUFVCVWRib3p5b21acTVyMDJsX1ZhYg?oc=5",
+          "pub_date": "Sun, 31 May 2026 23:56:00 GMT",
+          "source": "조선일보"
         },
         {
           "title": "코스피 새 역사 썼다… 증시 활황에 증권주 '들썩' - 인포스탁데일리",
@@ -30,16 +42,10 @@
           "source": "인포스탁데일리"
         },
         {
-          "title": "美증시 특정 쏠림 탓 높아진 취약성…어떻게 대응할까 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Ea3h4MnZrVUNaQ2pKRzFjSENONXpWc1hGSDB0ZjVaREJ1eUNUdWh2TkppMmdra1ptZGNfV3pSYzNOOFBWVzNHbzVfT1VLcDBfTlFxUndhTy1MOHRJT1JZNW0yY3NKd0hra0RYZXl3Slk?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 00:53:16 GMT",
+          "title": "美증시 특정 쏠림 탓 높아진 취약성…어떻게 대응할까 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03N1FYaGNTcmJyMWRrMHgzLU13a1NPUkRtU214UENwaVZrUnM4YnpBUmlXRzI0YlFRVFpIWi1waDZxZXlyNWVnbEpxcGU1YXhhTHpBZUxzdlo1bEd4QUJRdEZSZFB4N2pTckF0VHQ2TXJjNmls?oc=5",
+          "pub_date": "Mon, 01 Jun 2026 00:58:46 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피 28% 뛸 때 코스닥은 10% 하락, 반도체 쏠림에 밀린 코스닥…하반기 반등 변수는 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUQ0dWJzbEs0VjdrRDlRbS1Vd0dkeVZHSC05dHNra25waF8tbDQzMzFEcG45NTFhVzVtbU90bUJGUGdNaEplX3RpaVJtVDFNRkVkeEVHWnd4dkdUT3pNRTVwYjIySVlqTFhOUFVCVWRib3p5b21acTVyMDJsX1ZhYg?oc=5",
-          "pub_date": "Sun, 31 May 2026 23:56:00 GMT",
-          "source": "조선일보"
         }
       ],
       "fear_articles": []
@@ -52,8 +58,8 @@
     "move": 70.22
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 379000000000,
-    "retail_net_buy_krw": -349500000000,
+    "foreign_inst_buy_krw": 378000000000,
+    "retail_net_buy_krw": -365400000000,
     "margin_loan_krw": 36459300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -69,19 +75,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8845.3,
+      "current": 8852.86,
       "high_52w": 8874.16,
-      "drop_pct": -0.33,
+      "drop_pct": -0.24,
       "intraday_low_drop_pct": -4.38,
-      "sma_200": 4808.01,
+      "sma_200": 4808.05,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1050.63,
+      "current": 1045.95,
       "high_52w": 1229.42,
-      "drop_pct": -14.54,
-      "intraday_low_drop_pct": -14.68,
-      "sma_200": 986.22,
+      "drop_pct": -14.92,
+      "intraday_low_drop_pct": -14.95,
+      "sma_200": 986.19,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -320,7 +326,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 295.338,
+    "strategy_pct": 284.444,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -737,6 +743,10 @@
       {
         "date": "2026-05-29",
         "ret_pct": 295.338
+      },
+      {
+        "date": "2026-06-01",
+        "ret_pct": 284.444
       }
     ],
     "monthly_breakdown": [
@@ -769,6 +779,12 @@
         "return_pct": 176.23,
         "end_ret_pct": 295.34,
         "max_dd_pct": 63.0
+      },
+      {
+        "month": "2026-06",
+        "return_pct": -10.89,
+        "end_ret_pct": 284.44,
+        "max_dd_pct": 0.0
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
