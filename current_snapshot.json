@@ -1,66 +1,47 @@
 {
-  "timestamp": "2026-06-02T21:55:32.311877+09:00",
+  "timestamp": "2026-06-03T02:49:02.238868+09:00",
   "sentiment": {
-    "cnn_fng": 57.1428571428571,
+    "cnn_fng": 56.9428571428572,
     "cnn_components": {
-      "momentum": 97.8,
-      "strength": 36.8,
+      "momentum": 97.4,
+      "strength": 37.2,
       "breadth": 35.4,
-      "put_call": 98.0,
-      "junk_bond": 13.6,
+      "put_call": 98.8,
+      "junk_bond": 0.0,
       "volatility": 50.0,
-      "safe_haven": 82.0
+      "safe_haven": 79.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 2,
+      "greed_count": 3,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "\"코스피 5000이 고점인줄 알았지\"…하락장 베팅한 개미 '눈물' - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2R0lOdTQwUFBIa3VXTElYUlJrWDR0cjhQOGJaZVZvZ1c3cUhNSk5FaWpma2N1ZmtBU0NJU0d2c0puSkFZcVdnN2pmNEVIUGJjTkhRSlR4MFBrQdIBVEFVX3lxTE4xdVRRWVZZck4tOFZndW1SX2JobHA0WWdjaEZnOHk4MnhqRzVaTVp1Q0VJMWNsUTNjTlRhbFlVaGNwLVBFXzJYTVhvbXZiUHg1a2xwUg?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 06:10:38 GMT",
-          "source": "한국경제"
+          "title": "코스피 최고치에도 웃지 못한 은행주…반도체 쏠림에 '나홀로 부진' - 더구루",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Ycm1nTEdBU25CZ1doRFFxVW9UWVVJNnRzWXRPYjNFaTgyYWlsSlpBUU9xbk5neVdLRmxCbVphUDJJejR0bnFqbEtjM1NDZGNndExjT1FpM0pRWnNSRkFVUm5KTQ?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 15:00:39 GMT",
+          "source": "더구루"
         },
         {
-          "title": "\"미국 증시 불장, 닷컴버블 정점 때와 기묘하게 닮아\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95WXBjNUN2eWJfT25iN3I1RDVfM2ZBU0cxQVJtbXRjeUtkUERCLUtXajFXOHdUaDNfZGxEX0lIWVlEeFdUdXlMUXRVZWdsbFRLYVJrckZRQUIwODdTdS05WNIBYEFVX3lxTE95WXBjNUN2eWJfT25iN3I1RDVfM2ZBU0cxQVJtbXRjeUtkUERCLUtXajFXOHdUaDNfZGxEX0lIWVlEeFdUdXlMUXRVZWdsbFRLYVJrckZRQUIwODdTdS05WA?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 06:35:37 GMT",
-          "source": "연합뉴스"
+          "title": "“코스닥 대신 레버리지”… 수급 쏠림에 ‘천스닥’도 위태 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zQUVyaGxzSlNBSDgyUXFYM3NQcXo5bl9jbWozc0pYOUh3N2RxcmpiR1hPa3VFdWtZcXdvTGRFZ1JQaTN3UHRTU2F1TlhaZkN3SzRLMjBUck9NMXFFTHh3UldRTnlNLWvSAWxBVV95cUxPQVdJSldlSkpVcFJNektfc3kzNnNSaFc2MURVdERoLWYyM29kZi1GZlZuQzYyYjR3dXFvSGxTRXRuaVpOZURuZkVNdEZPSFduUllYMVhoVlg0RUFmN2lhQ3VOTUFFcFlEbHU3bEE?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 17:24:00 GMT",
+          "source": "국민일보"
         },
         {
-          "title": "\"미국 증시 불장, 닷컴버블 정점 때와 기묘하게 닮아\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0U3BlcUlsOEJhQVZnVFdQRTgwbHM4OEpoOXFTUkUwVEo2aDJFdHZHWHM5OS0zOTVJbi1tYmtXNFZXTzJ6ZnloclUzWUFMYTA?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 06:37:12 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"2026년 미국 증시, 2000년 닷컴 버블 정점 시기와 닮아\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHcVY4YlVIR25pT3pKeGRIbWFaVDJiMDJBMlVNWGtsdG1laHljYkVXNXdLd0w3eXhxTEFORXZ3dTdTSi1rb3dFaEFFT25EOGM?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 06:57:05 GMT",
-          "source": "v.daum.net"
+          "title": "\"FOMO는 필패\" 코스피 8000시대 지속 가능한 수익 만드는 주식 투자법 [2026 싱글파이어 머니쇼] - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wSFp5NnZ2bVJ2QmFlWFFWeXJXWVpVcDFqUGJNQTZLUUhubXZMellCWVFfZ1pFU04wNTdnVWtnUUphSnpyOFNqZFNObnY2cjNXYXA0?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 16:30:27 GMT",
+          "source": "머니투데이"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "'롤러코스터' 코스피, 상승 출발 뒤 급락…8,900선 돌파 후 8,500선까지 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFVllNWUptRTB1M2VrOTI2alA0NWc5YnNrRnhJRTdYS2tGYWtGbHhSWGlXQmpmNjBVTXpJN1JGdHk1eUdpNE9jYVAzMXVJdXlwd3NDSUZua3FRTjZTaTRIb0oyR0QxdmhJUldMdUtKd2g?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 00:36:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피 8933 찍고 하락 전환…코스닥 5거래일째 하락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SMTNaTEpnUVNHeXVhaERMMTZHZUZyNGJJaXBNdXVSRDBkMVp5X2FqanVjcmI5X2IzU3NHamloaEVmcFBxajZsU05RQUhFV3M?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 06:39:05 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.17,
-    "vvix": 91.6,
+    "vix": 16.03,
+    "vvix": 91.38,
     "skew": 142.46,
     "move": 73.33
   },
@@ -74,61 +55,61 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 27086.81,
+      "current": 27099.87,
       "high_52w": 27190.21,
-      "drop_pct": -0.38,
-      "intraday_low_drop_pct": -1.02,
-      "sma_200": 23221.18,
+      "drop_pct": -0.33,
+      "intraday_low_drop_pct": -0.95,
+      "sma_200": 23248.13,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8801.49,
+      "current": 8788.38,
       "high_52w": 8933.62,
-      "drop_pct": -1.48,
-      "intraday_low_drop_pct": -4.82,
-      "sma_200": 4835.99,
+      "drop_pct": -1.63,
+      "intraday_low_drop_pct": -5.01,
+      "sma_200": 4807.72,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1026.03,
+      "current": 1050.03,
       "high_52w": 1229.42,
-      "drop_pct": -16.54,
-      "intraday_low_drop_pct": -17.87,
-      "sma_200": 987.42,
+      "drop_pct": -14.59,
+      "intraday_low_drop_pct": -15.09,
+      "sma_200": 986.22,
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7599.96,
-      "high_52w": 7617.66,
-      "drop_pct": -0.23,
-      "intraday_low_drop_pct": -0.72,
-      "sma_200": 6836.5,
+      "current": 7608.75,
+      "high_52w": 7620.9,
+      "drop_pct": -0.16,
+      "intraday_low_drop_pct": -0.5,
+      "sma_200": 6842.2,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2905.76,
+      "current": 2925.11,
       "high_52w": 2942.61,
-      "drop_pct": -1.25,
-      "intraday_low_drop_pct": -2.1,
-      "sma_200": 2559.59,
+      "drop_pct": -0.59,
+      "intraday_low_drop_pct": -1.42,
+      "sma_200": 2562.72,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 571.93,
-      "high_52w": 584.5,
-      "drop_pct": -2.15,
-      "intraday_low_drop_pct": -4.64,
-      "sma_200": 337.5,
+      "current": 596.6,
+      "high_52w": 601.19,
+      "drop_pct": -0.76,
+      "intraday_low_drop_pct": -3.19,
+      "sma_200": 339.22,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.268,
-    "SMH": 1.35,
+    "XLK": 1.275,
+    "SMH": 1.387,
     "BOTZ": 0.959,
-    "IGV": 1.174,
-    "XLF": 0.909,
-    "XLE": 0.912
+    "IGV": 1.136,
+    "XLF": 0.91,
+    "XLE": 0.923
   },
   "signals": {
     "cnn_under_10": false,
@@ -166,19 +147,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 95.68,
+    "tqqq_profit_pct": 97.2,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 324.36,
+    "soxl_profit_pct": 379.41,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 243.94,
+    "koru_profit_pct": 224.09,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -188,10 +169,10 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": true,
-      "samsung_at_60d_high": true,
-      "samsung_ok": true,
+      "samsung_at_60d_high": false,
+      "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
