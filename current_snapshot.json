@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-02T13:57:34.884707+09:00",
+  "timestamp": "2026-06-02T18:17:35.387765+09:00",
   "sentiment": {
-    "cnn_fng": 59.0285714285714,
+    "cnn_fng": 57.1428571428571,
     "cnn_components": {
       "momentum": 97.8,
-      "strength": 37.6,
-      "breadth": 34.2,
+      "strength": 36.8,
+      "breadth": 35.4,
       "put_call": 98.0,
       "junk_bond": 13.6,
       "volatility": 50.0,
@@ -14,46 +14,46 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 14,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "‘1만피 코앞’ 코스피, 언제 팔까…‘고점 신호’ 4가지 [QnA] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FR1J0S19OZTdOVHJiYktfcWNBc2l2cXhXaDRpYmhLeHdpNFhDSFpZSHl6Nk9qVHR0RUpVSTJaU1BxRFp2OXkyM1BwRjNjNm8?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 03:01:53 GMT",
+          "title": "\"코스피 5000이 고점인줄 알았지\"…하락장 베팅한 개미 '눈물' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2R0lOdTQwUFBIa3VXTElYUlJrWDR0cjhQOGJaZVZvZ1c3cUhNSk5FaWpma2N1ZmtBU0NJU0d2c0puSkFZcVdnN2pmNEVIUGJjTkhRSlR4MFBrQdIBVEFVX3lxTE4xdVRRWVZZck4tOFZndW1SX2JobHA0WWdjaEZnOHk4MnhqRzVaTVp1Q0VJMWNsUTNjTlRhbFlVaGNwLVBFXzJYTVhvbXZiUHg1a2xwUg?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 07:28:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"미국 증시 불장, 닷컴버블 정점 때와 기묘하게 닮아\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95WXBjNUN2eWJfT25iN3I1RDVfM2ZBU0cxQVJtbXRjeUtkUERCLUtXajFXOHdUaDNfZGxEX0lIWVlEeFdUdXlMUXRVZWdsbFRLYVJrckZRQUIwODdTdS05WNIBYEFVX3lxTE95WXBjNUN2eWJfT25iN3I1RDVfM2ZBU0cxQVJtbXRjeUtkUERCLUtXajFXOHdUaDNfZGxEX0lIWVlEeFdUdXlMUXRVZWdsbFRLYVJrckZRQUIwODdTdS05WA?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 06:35:37 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "\"2026년 미국 증시, 2000년 닷컴 버블 정점 시기와 닮아\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHcVY4YlVIR25pT3pKeGRIbWFaVDJiMDJBMlVNWGtsdG1laHljYkVXNXdLd0w3eXhxTEFORXZ3dTdTSi1rb3dFaEFFT25EOGM?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 06:57:05 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "\"닷컴버블 무분별한 열기 닮았다\" 8900 찍고 하락하는 코스피에 커지는 반도체 거품론 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzRTcxLVQ5NzUtel9xVHNsSVZGaGxBUW54cDBFTEsxX1Y0emJZLVZmdHdlMFdUUmpqNGIxdnpYZE54ZjJpYS0xSG53ZmNMSUU?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 01:26:00 GMT",
+          "title": "“오르는 종목만 오르네”…코스피 9000 바라보고 있지만 쏠림은 심해져 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kZVkyWlRUdkRsdlpmMllEM0F3Smt5SmhtODZ3WnpqUHNFTnZRZzBPSU9DaGpkZUJMYmFkd2tuSllQdjY5ZlNzY0tOa3hURlk?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 06:51:01 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "\"美 증시, 20개 종목만 신고가…닷컴 버블 정점과 유사\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KekJrRkhja0JNYk9RWUdOTXh2b01pdWEwM3FmMWJ2UmlLYVNSakE1RV9VZDBhbjRCck1XTTFZSF81dlhwSUtVYUx0c3UzT21SZXNwYlRfN19GVUZSYW1jRHZYcm00SHdJREhoRmlaa24?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 23:28:32 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "증시 활황에 금 인기 식었다…펀드 수익률 석달 새 10% '뚝' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uVXRKcDdmUGJab2xXYm1kczBtclRzZXFuZ0k1T3FUNGpubm53YU1yUElRNDRsUV93dTJjQWk0c1NzUGZfR1R1WW0waDR3X0E?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 20:36:03 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"닷컴버블 무분별한 열기 닮았다\" 8900 찍고 하락하는 코스피에 커지는 반도체 거품론 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0QUFILW5jMTBHcFE3TTNPeXgzWWd4U3pRQVpvSTZ0OEdwdksyREtnRWhFMmNLSWJTQ2hfdVJacnlXVDd4Y18yQ3MtT0lILXpNRlBSZV9Ia2VNMktsQndZVQ?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 01:24:17 GMT",
-          "source": "아시아경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "'9천피' 앞둔 코스피, 8,900 찍고 하락 전환 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DbGdOc1BqWmlvSXpTNzZoYTBVTWNCLTd5ODZvaHhxMlBESHl1QlQyX0JuSlFDSTdTYXY1QWlOS2phZ1Faa0RkR2N5blY0amdxLXRNNW1UTkFSdDZrTGc?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 00:45:00 GMT",
-          "source": "YTN"
+          "title": "코스피 8933 찍고 하락 전환…코스닥 5거래일째 하락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SMTNaTEpnUVNHeXVhaERMMTZHZUZyNGJJaXBNdXVSRDBkMVp5X2FqanVjcmI5X2IzU3NHamloaEVmcFBxajZsU05RQUhFV3M?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 06:39:05 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[食전食후] 코스피, 외국인 7조원대 매도에 2%대 급락…8600선 후퇴 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tV1BCQmtZcFhSUVVQOG8xY3lWLS1KeXZaVndPTXpnRUtnYW9LV0lhMzZVZElQWTJ3MUg0ZkRFbk1WRHBMY3QtWFhET0pqN1k?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 05:28:02 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "'롤러코스터' 코스피, 상승 출발 뒤 급락…8,900선 돌파 후 8,500선까지 | - 연합인포맥스",
@@ -62,35 +62,29 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "“9000피 코앞인데”…코스피, 8900선 넘었다가 하락 전환 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DX19zTXNfc1dlUnphbG01Q1duVFFIZkFuSDJrZVBXMTNGZmFwcVdYRUM2SXFjWGg3d3ZiQy1NTXJoQjVSTVV4OGZVOXZ6Yzk1dnc?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 00:25:04 GMT",
-          "source": "매일경제"
+          "title": "[마감시황] 코스닥, 2.29% 급락한 1026.03 마감…2차전지·바이오 약세에 닷새째 하락 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDZTgyX0hLLVlUcVlEVG1fOU1sN2RyeDBZblBGcVpZMVlJbmRyM0xnNU9GTWx0dGFaMUhRVVF6X1RRNTc1VlhOc3lLVnNHQjI2M2R4R1NYbFFMOUZaeDJCNHdnaXhmc2pmX2pZbnF2RXpwRDZaZ056RGJ0ZEQ0dw?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 07:45:58 GMT",
+          "source": "서울신문"
         },
         {
-          "title": "코스피, 장중 8,900선 돌파 후 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rNlNvMUo0NXhzYlJjREthSFBZWmRIV3ZWdnFjN0tHZ2JCcGFOci1KX0E1aERwa3JLZUJxT2RucnFkd0pMeXE4WC00cG1IYVlWSkJwZzJjVk1sek0?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 03:12:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "코스피, 8900 돌파 뒤 한때 8500대로 추락…급락 전환 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNSHJBVFNXZDdZSVFQd1Jmc2RvbktEbnRuMEl2T2pFbUNlWXhQWDQ2SThiamk4ZElXbnB4cTJiRkNvTUlQYXhYU2Q4alRxeVFSUUlneQ?oc=5",
-          "pub_date": "Tue, 02 Jun 2026 00:05:00 GMT",
-          "source": "JTBC"
+          "title": "[증시 레이더] 8,900선 첫 돌파한 코스피⋯급락 딛고 최고가 경신 - 포커스온경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RcFBVTHdjUGtlYkdnR0ptektLSk5hVFdYcDR6d0g4cUs4WVY2UjV1WVNNQ2ZXeGdMYzZoQUlVWlViWEh5TDg5UWhZdHFXNUxYQ3BGZlZEVjZlVHRnUEE?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 06:53:19 GMT",
+          "source": "포커스온경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.05,
+    "vix": 16.2,
     "vvix": 91.6,
     "skew": 142.46,
     "move": 73.33
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -5902500000000,
-    "retail_net_buy_krw": 5931400000000,
+    "foreign_inst_buy_krw": -6358100000000,
+    "retail_net_buy_krw": 6353700000000,
     "margin_loan_krw": 37418800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -106,19 +100,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8601.98,
+      "current": 8801.49,
       "high_52w": 8933.62,
-      "drop_pct": -3.71,
+      "drop_pct": -1.48,
       "intraday_low_drop_pct": -4.82,
-      "sma_200": 4834.99,
+      "sma_200": 4835.99,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1021.32,
+      "current": 1026.03,
       "high_52w": 1229.42,
-      "drop_pct": -16.93,
+      "drop_pct": -16.54,
       "intraday_low_drop_pct": -17.87,
-      "sma_200": 987.4,
+      "sma_200": 987.42,
       "below_sma200_streak": 0
     },
     "sp500": {
