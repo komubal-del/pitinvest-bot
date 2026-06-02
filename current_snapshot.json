@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T06:22:32.096532+09:00",
+  "timestamp": "2026-06-03T08:14:27.625035+09:00",
   "sentiment": {
     "cnn_fng": 57.0285714285714,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 4,
       "fear_count": 0,
       "greed_articles": [
         {
@@ -25,9 +25,21 @@
         },
         {
           "title": "“코스닥 대신 레버리지”… 수급 쏠림에 ‘천스닥’도 위태 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zQUVyaGxzSlNBSDgyUXFYM3NQcXo5bl9jbWozc0pYOUh3N2RxcmpiR1hPa3VFdWtZcXdvTGRFZ1JQaTN3UHRTU2F1TlhaZkN3SzRLMjBUck9NMXFFTHh3UldRTnlNLWvSAWxBVV95cUxPQVdJSldlSkpVcFJNektfc3kzNnNSaFc2MURVdERoLWYyM29kZi1GZlZuQzYyYjR3dXFvSGxTRXRuaVpOZURuZkVNdEZPSFduUllYMVhoVlg0RUFmN2lhQ3VOTUFFcFlEbHU3bEE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BV0lKV2VKSlVwUk16S19zeTM2c1JoVzYxRFV0RGgtZjIzb2RmLUZmVm5DNjJiNHd1cW9IbFNFdG5pWk5lRG5mRU10Rk9IV25SWVgxWGhWWDRFQWY3aWFDdU5NQUVwWURsdTdsQdIBbEFVX3lxTE9BV0lKV2VKSlVwUk16S19zeTM2c1JoVzYxRFV0RGgtZjIzb2RmLUZmVm5DNjJiNHd1cW9IbFNFdG5pWk5lRG5mRU10Rk9IV25SWVgxWGhWWDRFQWY3aWFDdU5NQUVwWURsdTdsQQ?oc=5",
           "pub_date": "Tue, 02 Jun 2026 17:24:00 GMT",
           "source": "국민일보"
+        },
+        {
+          "title": "\"FOMO는 필패\" 코스피 8000시대 지속 가능한 수익 만드는 주식 투자법 [2026 싱글파이어 머니쇼] - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wSFp5NnZ2bVJ2QmFlWFFWeXJXWVpVcDFqUGJNQTZLUUhubXZMellCWVFfZ1pFU04wNTdnVWtnUUphSnpyOFNqZFNObnY2cjNXYXA0?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 21:00:27 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "코스피 최고치 이면의 '쏠림' 논쟁…'삼전·하닉 장세'에 엇갈린 시선 - 메트로신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94bzU4eXo4S0I3czdRbkNnN1NJOXI0RlRMeHlOR3NuSUwtdEdBNnN2d0Z1Nm1yNnBFd200VkVzc0UwMkNZaEtZbV9VQUVGZlVCdTV4YlRHZVp4S1hGdWJVTA?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 22:03:27 GMT",
+          "source": "메트로신문"
         }
       ],
       "fear_articles": []
@@ -308,7 +320,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 323.923,
+    "strategy_pct": 336.155,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -736,7 +748,7 @@
       },
       {
         "date": "2026-06-03",
-        "ret_pct": 323.923
+        "ret_pct": 336.155
       }
     ],
     "monthly_breakdown": [
@@ -772,8 +784,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 28.58,
-        "end_ret_pct": 323.92,
+        "return_pct": 40.82,
+        "end_ret_pct": 336.15,
         "max_dd_pct": 0.0
       }
     ],
