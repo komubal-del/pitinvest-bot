@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-02T08:51:58.633151+09:00",
+  "timestamp": "2026-06-02T13:57:34.884707+09:00",
   "sentiment": {
-    "cnn_fng": 59.0857142857143,
+    "cnn_fng": 59.0285714285714,
     "cnn_components": {
       "momentum": 97.8,
       "strength": 37.6,
       "breadth": 34.2,
       "put_call": 98.0,
-      "junk_bond": 14.0,
+      "junk_bond": 13.6,
       "volatility": 50.0,
       "safe_haven": 82.0
     },
@@ -15,8 +15,20 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 5,
-      "fear_count": 0,
+      "fear_count": 14,
       "greed_articles": [
+        {
+          "title": "‘1만피 코앞’ 코스피, 언제 팔까…‘고점 신호’ 4가지 [QnA] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FR1J0S19OZTdOVHJiYktfcWNBc2l2cXhXaDRpYmhLeHdpNFhDSFpZSHl6Nk9qVHR0RUpVSTJaU1BxRFp2OXkyM1BwRjNjNm8?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 03:01:53 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "\"닷컴버블 무분별한 열기 닮았다\" 8900 찍고 하락하는 코스피에 커지는 반도체 거품론 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzRTcxLVQ5NzUtel9xVHNsSVZGaGxBUW54cDBFTEsxX1Y0emJZLVZmdHdlMFdUUmpqNGIxdnpYZE54ZjJpYS0xSG53ZmNMSUU?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 01:26:00 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "\"美 증시, 20개 종목만 신고가…닷컴 버블 정점과 유사\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KekJrRkhja0JNYk9RWUdOTXh2b01pdWEwM3FmMWJ2UmlLYVNSakE1RV9VZDBhbjRCck1XTTFZSF81dlhwSUtVYUx0c3UzT21SZXNwYlRfN19GVUZSYW1jRHZYcm00SHdJREhoRmlaa24?oc=5",
@@ -24,31 +36,50 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피 2배 만든 삼전·닉스 '쏠림'…6월엔 '온기 확산' vs '불안한 변동성' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VYWJ1NFpweFZyb2RjNnY1SUxTWW5UTGhfVnhkQzNpcWhfU0p0RGZOUDhUek5OMjJpVjItTXU0bEVzbmN2SlI2eUxwS3d1ZmtKNEIyRXpoM0tRTTFOYkM4?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 21:00:00 GMT",
-          "source": "뉴스1"
+          "title": "증시 활황에 금 인기 식었다…펀드 수익률 석달 새 10% '뚝' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uVXRKcDdmUGJab2xXYm1kczBtclRzZXFuZ0k1T3FUNGpubm53YU1yUElRNDRsUV93dTJjQWk0c1NzUGZfR1R1WW0waDR3X0E?oc=5",
+          "pub_date": "Mon, 01 Jun 2026 20:36:03 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "'구천피' 턱밑까지 올라선 증시…공매도·빚투도 '사상 최고' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5teGpPbFAzMXNGNmZPNnN5OHpVUy1JczNCOW9HRFl4UXFOc0VLNHRjR2VFVWpHM0xtSXdERVZZNFRhWEJvOUVxaDdWRGJmX2F3ZnRWRkRCVS1Gai1PLUI4?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 21:00:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "닷컴버블 닮은 AI 랠리…실적 기대가 증시 밀어올려 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EcUZIaHV0eWhpWThjZ2UyZENzdnJ6aUNiZDhnekdmekp4VjdSMmJ1NmpnUEdBWHFoWFg2ZmJ5VXNIYS1MeE5KVkNpQkhZc2ZNeTJrYk5kNUVtUdIBVEFVX3lxTE1KQlZndVVTZnpHOFdRUzZKUGZXYloxTnBGUWtTa19KWnpBQVRpUUViUFdFejI5ZTRmc0hMU2psV2JRV1BkMTJmdWp3WUZuWkVCUkgydg?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 23:25:08 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "[프리마켓 포커스] 뉴욕증시 온기에 코스피 9000선 정조준..삼전닉스 쏠림 여전 - the-biz.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tRHJKQjlPbGhtSmM0VTFWanJUU3dEeWRxQmpzT2l1Q0RMWmlXd0hJRTI2X0RQMW1RRVhIZXE4dmVCZnpaMWd2aVliLUtKaFdnS2gySkZoSzA0THBfZFI5OHNhbklMSXZueHJxNg?oc=5",
-          "pub_date": "Mon, 01 Jun 2026 23:19:32 GMT",
-          "source": "the-biz.co.kr"
+          "title": "\"닷컴버블 무분별한 열기 닮았다\" 8900 찍고 하락하는 코스피에 커지는 반도체 거품론 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0QUFILW5jMTBHcFE3TTNPeXgzWWd4U3pRQVpvSTZ0OEdwdksyREtnRWhFMmNLSWJTQ2hfdVJacnlXVDd4Y18yQ3MtT0lILXpNRlBSZV9Ia2VNMktsQndZVQ?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 01:24:17 GMT",
+          "source": "아시아경제"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "'9천피' 앞둔 코스피, 8,900 찍고 하락 전환 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DbGdOc1BqWmlvSXpTNzZoYTBVTWNCLTd5ODZvaHhxMlBESHl1QlQyX0JuSlFDSTdTYXY1QWlOS2phZ1Faa0RkR2N5blY0amdxLXRNNW1UTkFSdDZrTGc?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 00:45:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "'롤러코스터' 코스피, 상승 출발 뒤 급락…8,900선 돌파 후 8,500선까지 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mZGRYSFZUVExUU3kwbEN4UnE5REF5TTBrcFJBbVdWOW9JV2wyN3hRckcwZG9WWGltUGVDay04a25qZ0dISnN3eldwOFNQUFVtMlJYYzVSLTczT1lkWlh2UVJmV0YyNUNxcUJzd2ZzNzRJM3Bt?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 00:42:38 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "“9000피 코앞인데”…코스피, 8900선 넘었다가 하락 전환 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DX19zTXNfc1dlUnphbG01Q1duVFFIZkFuSDJrZVBXMTNGZmFwcVdYRUM2SXFjWGg3d3ZiQy1NTXJoQjVSTVV4OGZVOXZ6Yzk1dnc?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 00:25:04 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "코스피, 장중 8,900선 돌파 후 급락 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rNlNvMUo0NXhzYlJjREthSFBZWmRIV3ZWdnFjN0tHZ2JCcGFOci1KX0E1aERwa3JLZUJxT2RucnFkd0pMeXE4WC00cG1IYVlWSkJwZzJjVk1sek0?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 03:12:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "코스피, 8900 돌파 뒤 한때 8500대로 추락…급락 전환 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNSHJBVFNXZDdZSVFQd1Jmc2RvbktEbnRuMEl2T2pFbUNlWXhQWDQ2SThiamk4ZElXbnB4cTJiRkNvTUlQYXhYU2Q4alRxeVFSUUlneQ?oc=5",
+          "pub_date": "Tue, 02 Jun 2026 00:05:00 GMT",
+          "source": "JTBC"
+        }
+      ]
     }
   },
   "volatility": {
@@ -58,8 +89,8 @@
     "move": 73.33
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -379200000000,
-    "retail_net_buy_krw": 386200000000,
+    "foreign_inst_buy_krw": -5902500000000,
+    "retail_net_buy_krw": 5931400000000,
     "margin_loan_krw": 37418800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,19 +106,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8476.15,
-      "high_52w": 8874.16,
-      "drop_pct": -4.49,
-      "intraday_low_drop_pct": -6.77,
-      "sma_200": 4779.38,
+      "current": 8601.98,
+      "high_52w": 8933.62,
+      "drop_pct": -3.71,
+      "intraday_low_drop_pct": -4.82,
+      "sma_200": 4834.99,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1074.8,
+      "current": 1021.32,
       "high_52w": 1229.42,
-      "drop_pct": -12.58,
-      "intraday_low_drop_pct": -13.93,
-      "sma_200": 984.83,
+      "drop_pct": -16.93,
+      "intraday_low_drop_pct": -17.87,
+      "sma_200": 987.4,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -181,15 +212,15 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": true,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
-      "hynix_at_60d_high": true,
+      "hynix_at_60d_high": false,
       "hynix_ok": false,
-      "gate_passed": true,
+      "gate_passed": false,
       "history": {
         "samsung": [
           {
@@ -283,8 +314,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-06-01",
-    "analyzed_at": "2026-06-01T13:08:32.684641+09:00",
+    "date": "2026-06-02",
+    "analyzed_at": "2026-06-02T13:57:39.536368+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -292,16 +323,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "z_lLiCeJeo8",
-        "title": "역대급 소외된 코스닥, 정책 변화 기대감 커지나 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-06-01T00:27:49Z",
-        "url": "https://youtube.com/watch?v=z_lLiCeJeo8",
+        "video_id": "WqeFyUywKzY",
+        "title": "삼성전자 10% 폭등! AI·로봇 쏠림 장세 어디까지 갈까 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-06-02T00:45:25Z",
+        "url": "https://youtube.com/watch?v=WqeFyUywKzY",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매수/매도/보유 등 행동 권고나 명확한 방향성 제시가 없으며, 제목에서 코스닥 시장의 현황과 정책 변화에 대한 기대감을 질문 형태로 제시하고 있습니다."
+          "reason": "영상 설명란에는 구체적인 매수/매도/현금화 등 투자 행동 권고가 없으며, 제목은 시장 상황을 설명하고 향후 추세에 대한 질문을 던지는 중립적인 어조를 띠고 있습니다."
         }
       },
       {
