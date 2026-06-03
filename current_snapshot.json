@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T08:46:43.143990+09:00",
+  "timestamp": "2026-06-04T08:48:03.328942+09:00",
   "sentiment": {
     "cnn_fng": 54.0,
     "cnn_components": {
@@ -155,21 +155,21 @@
     "count": 0,
     "sell_leverage": true,
     "sell_leading": true,
-    "sell_expert": false,
-    "sell_count": 2,
+    "sell_expert": true,
+    "sell_count": 3,
     "emergency_exit_warning": false,
     "emergency_today": false,
     "emergency_marker_active": false,
     "emergency_first_fired_date": null,
-    "stage_key": "sell_near",
-    "stage_key_raw": "sell_near",
+    "stage_key": "reset",
+    "stage_key_raw": "reset",
     "today": {
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
       "sell_leverage": true,
       "sell_leading": false,
-      "sell_expert": false
+      "sell_expert": true
     },
     "first_fired": {
       "sell_leverage": "2026-04-24",
@@ -302,7 +302,7 @@
         ]
       }
     },
-    "expert_warning": false,
+    "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
     "retail_net_buy_positive": true
@@ -828,5 +828,5 @@
     "my_pct": 303.17,
     "my_note": "실계좌 월별 누적 (~2026-05)"
   },
-  "recommended_action": "✅ 전일 매도 임박 상태 지속 · 추가 액션 없음"
+  "recommended_action": "♻️ 매도 3조건 모두 충족 · 위성 전량 → 코어 매수 · 다음 구덩이 대기"
 }
