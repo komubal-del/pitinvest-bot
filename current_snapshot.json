@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-04T05:34:25.973812+09:00",
+  "timestamp": "2026-06-04T07:54:45.194731+09:00",
   "sentiment": {
-    "cnn_fng": 54.0285714285714,
+    "cnn_fng": 54.0,
     "cnn_components": {
       "momentum": 93.4,
       "strength": 35.0,
       "breadth": 31.6,
-      "put_call": 97.6,
+      "put_call": 97.4,
       "junk_bond": 0.4,
       "volatility": 50.0,
       "safe_haven": 70.2
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 2,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 4,
+      "greed_articles": [
+        {
+          "title": "[논현광장_김한진의 시황읽기] ‘증시 거품론’ 닷컴버블 때와는 다르다 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJNnlvM1p4dFpNNHRjall1QUV1WmY4TmhrbVdnUDRkc0pEOXZoUGtxSXUzS2FTUGg4elo3dWx4bFZhXzNsREVsX0RIQkFCSzQ1VXZFSQ?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 21:00:00 GMT",
+          "source": "이투데이"
+        }
+      ],
       "fear_articles": [
         {
           "title": "[뉴욕증시] '사상 최고' 엿새 만에 막 내려…팔란티어, 6.6% 급락 - v.daum.net",
@@ -25,8 +32,20 @@
           "source": "v.daum.net"
         },
         {
+          "title": "[뉴욕증시] 미·이란 무력 충돌-금리 인상 가능성에 다우 620P 급락 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTJEWmtuMjFtUjY1N2hQSXp5a1VUcm5KQXVJT1lFRVQ0V0F3c0puWF9GbHctVzEwVy1fOUcyMUhjS00zYkVrR1JoN1p0d1E1aEJBTkI4bEhOWG1DSlFTTHZYSTNhUUJ6djhrWGI5blJJaWJaQmR6c203NGE3T2NFZ1NrcWJRWTBL?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 20:47:50 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
           "title": "[속보] 엔비디아 3.7% 급락… 미증시 사상 최고 행진 끝 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNEZjcm56OVl4RzN1cDBPVkNCdnN4NENMd1BZakpVbEpmSlQ5c3VxWGZsaGRfZi03ZzBRT2xUYVg1UUlPSEFEOTFPR0ZuVEFweWhRaWQ5WEhaX192OEhQS2VKOU5DLURMQi1hNXd3amF1WEZpVE1FZ1JpLVNGa3hHYjNwUW10UdIBbEFVX3lxTE9ydU82OURJWUtOT2R6bU9iTEFLWUtYTTAzNVZVS3lzTEdHNVJrN0NReUFMajJYaHY3Q2RwODRpTDFEbXdiSXJEOFZMUHNMakN2VWI5VThsOW1sX1ljVlpNQkMyM0JxSmg3dmxfTw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41V3M0YlFJMUY2U196X19TSmdTbWNlLVBzQnlieTJEZ1J0WG53MWVsR1B2VnRYbVd2UkYtNXl2NmN2cDl6MTBEMWhBRWRFdDltTzJfZEhycUFXeHhrYk42X0lYVGg4SWfSAWxBVV95cUxPcnVPNjlESVlLTk9kem1PYkxBS1lLWE0wMzVWVUt5c0xHRzVSazdDUXlBTGoyWGh2N0NkcDg0aUwxRG13YklyRDhWTFBzTGpDdlViOVU4bDltbF9ZY1ZaTUJDMjNCcUpoN3ZsX08?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 20:05:00 GMT",
+          "source": "국민일보"
+        },
+        {
+          "title": "[속보] 엔비디아 3.7% 급락… 미증시 사상 최고 행진 끝 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ydU82OURJWUtOT2R6bU9iTEFLWUtYTTAzNVZVS3lzTEdHNVJrN0NReUFMajJYaHY3Q2RwODRpTDFEbXdiSXJEOFZMUHNMakN2VWI5VThsOW1sX1ljVlpNQkMyM0JxSmg3dmxfT9IBbEFVX3lxTE9ydU82OURJWUtOT2R6bU9iTEFLWUtYTTAzNVZVS3lzTEdHNVJrN0NReUFMajJYaHY3Q2RwODRpTDFEbXdiSXJEOFZMUHNMakN2VWI5VThsOW1sX1ljVlpNQkMyM0JxSmg3dmxfTw?oc=5",
           "pub_date": "Wed, 03 Jun 2026 20:05:00 GMT",
           "source": "국민일보"
         }
@@ -36,13 +55,13 @@
   "volatility": {
     "vix": 16.06,
     "vvix": 89.8,
-    "skew": 143.24,
-    "move": 73.43
+    "skew": 136.86,
+    "move": 73.58
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -6358100000000,
     "retail_net_buy_krw": 6353700000000,
-    "margin_loan_krw": 37418800000000,
+    "margin_loan_krw": 37093700000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -308,7 +327,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 333.596,
+    "strategy_pct": 343.695,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -740,7 +759,7 @@
       },
       {
         "date": "2026-06-04",
-        "ret_pct": 333.596
+        "ret_pct": 343.695
       }
     ],
     "monthly_breakdown": [
@@ -776,9 +795,9 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 38.26,
-        "end_ret_pct": 333.6,
-        "max_dd_pct": 2.56
+        "return_pct": 48.36,
+        "end_ret_pct": 343.69,
+        "max_dd_pct": 0.0
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
