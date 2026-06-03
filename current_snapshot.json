@@ -1,59 +1,28 @@
 {
-  "timestamp": "2026-06-03T21:06:44.747358+09:00",
+  "timestamp": "2026-06-04T02:15:18.774545+09:00",
   "sentiment": {
-    "cnn_fng": 56.9714285714286,
+    "cnn_fng": 54.1142857142857,
     "cnn_components": {
-      "momentum": 97.6,
-      "strength": 36.2,
-      "breadth": 36.4,
-      "put_call": 98.4,
+      "momentum": 93.6,
+      "strength": 35.0,
+      "breadth": 31.6,
+      "put_call": 97.6,
       "junk_bond": 0.4,
       "volatility": 50.0,
-      "safe_haven": 79.8
+      "safe_haven": 70.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 13,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "코스피 변동성에 춤추는 ‘빚투’…신용잔고 38조 돌파 속 반대매매 공포 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WRzNpTjJrSFUzbS1RMC11X3FlVW9nNXBGQ2tKbGhxU3FJUjYxX1FrUHk5NzZ2dXdVRmY0T0syVkgxUkxISUZocktXVVkzZGQ2SF83RA?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 02:37:00 GMT",
-          "source": "JTBC"
-        },
-        {
-          "title": "코스피 신고점 랠리에도 대전상장기업 주가는 여전히 '흐림' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hRy1JeEwxR0xRY1RQOERjRl9GVnpEeTdvR1MyRU9vby1Xek5CZ0tyQnd1ZVNYRkItOWZCRkxPS0FGMGM0Z1FJQVd5YVZJTFE?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 07:10:38 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 변동성에 춤추는 '빚투'…신용잔고 38조 돌파 속 반대매매 공포 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42V0Z6b2VVajEwa00xcXpCa0RKM1VYSDFMU3Nhc3FMTjhlQndXQWIwZ1dGQkk0dW1QenhFSkp4aTlfQmlHOUpGbnZ2enZMamdzQlhiTA?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 02:37:42 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피는 9000 코앞인데…코스닥은 고점 대비 16% ‘미끄럼’ - 이데일리",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSUNDQktYamUyRmlWUXNMeVAzNGlUVTNVSDJBUDJLcmFRbmRPcVJQaWR5OEgydmt1N3FNQmgzRzMwNV9mNUpCcms0SDhpOHI4TTd0REctYjF4VlNoV3doWUVPUzl2bkM5bGlRUjRQOEt5WkM0OFN0cDZKcjhkZWJZWg?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 05:40:16 GMT",
-          "source": "이데일리"
-        },
-        {
-          "title": "증시 활황에 밀린 비트코인…금리·유동성 겹악재 우려 - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BeGRJalY1SkUzTkxVSjVyMzBQY1dUclRQM0dPVGZnNzNZQ0JBM3ljYUJ4cDdFVXp2WFVPRVpPT0lmNXNOeG1XVFh5M194eVJK?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 07:17:20 GMT",
-          "source": "블루밍비트"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.07,
-    "vvix": 90.53,
+    "vix": 16.22,
+    "vvix": 91.17,
     "skew": 143.24,
     "move": 73.43
   },
@@ -67,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 27093.9,
+      "current": 26803.67,
       "high_52w": 27190.21,
-      "drop_pct": -0.35,
-      "intraday_low_drop_pct": -0.95,
-      "sma_200": 23248.1,
+      "drop_pct": -1.42,
+      "intraday_low_drop_pct": -1.55,
+      "sma_200": 23274.0,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -91,37 +60,37 @@
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7609.78,
+      "current": 7558.34,
       "high_52w": 7620.9,
-      "drop_pct": -0.15,
-      "intraday_low_drop_pct": -0.5,
-      "sma_200": 6842.2,
+      "drop_pct": -0.82,
+      "intraday_low_drop_pct": -0.91,
+      "sma_200": 6847.75,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2931.96,
+      "current": 2889.9,
       "high_52w": 2942.61,
-      "drop_pct": -0.36,
-      "intraday_low_drop_pct": -1.42,
-      "sma_200": 2562.75,
+      "drop_pct": -1.79,
+      "intraday_low_drop_pct": -1.94,
+      "sma_200": 2565.77,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 605.02,
-      "high_52w": 605.44,
-      "drop_pct": -0.07,
-      "intraday_low_drop_pct": -3.88,
-      "sma_200": 339.26,
+      "current": 611.64,
+      "high_52w": 618.84,
+      "drop_pct": -1.16,
+      "intraday_low_drop_pct": -3.37,
+      "sma_200": 341.08,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.289,
-    "SMH": 1.444,
-    "BOTZ": 0.984,
-    "IGV": 1.112,
-    "XLF": 0.902,
-    "XLE": 0.922
+    "XLK": 1.28,
+    "SMH": 1.461,
+    "BOTZ": 0.98,
+    "IGV": 1.069,
+    "XLF": 0.9,
+    "XLE": 0.948
   },
   "signals": {
     "cnn_under_10": false,
@@ -159,19 +128,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 98.36,
+    "tqqq_profit_pct": 95.26,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 397.79,
+    "soxl_profit_pct": 414.63,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 233.04,
+    "koru_profit_pct": 213.23,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
