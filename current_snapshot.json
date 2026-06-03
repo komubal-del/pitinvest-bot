@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T07:54:45.194731+09:00",
+  "timestamp": "2026-06-04T08:46:43.143990+09:00",
   "sentiment": {
     "cnn_fng": 54.0,
     "cnn_components": {
@@ -14,9 +14,27 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
+        {
+          "title": "\"닷컴버블 데자뷔?\"…코스피 하락에 반도체 거품론 솔솔 [1분 브리프] - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VaUFWdTIxMnVXQXlBdFFpX1ZKZ2lnVmg0bkNtcVRsSzdwTG5nR2hDMnRNUWJlWGw2RlZjYkk4Ml9mU3FYak9BWG8ycDNjVmhWMS1wc3JLQm1Na1E5SHZyaA?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 23:00:00 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "지방선거 이후, 증시는 어디로…與 압승에 ‘정책 랠리’ 기대, 과열 경고도 커진다 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIeWJDamRpX2FiMUxsSGpEd0pLNUxDWGVONlVWaUl1QnQ0UE5wc3Z4TFZnUUxOV1g2a3o0M0t2SHdDaG5aQmd5ZUFnUm5faXlyS1ZfbDBfdWF3ZXZMQWtQb1kxaHY0NXJj?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 21:49:02 GMT",
+          "source": "ebn.co.kr"
+        },
+        {
+          "title": "[오늘의 투자전략] 코스피, 미 증시 고점 부담에 장중 변동성 장세 연출 전망 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92Z3Z3Slo2amNqNWpJbF9QZy1abi1GTjF5bWEzSnM3dVMta3BuUUdsZEpSek11Vk8xZEt6ZElOaXNRTkhya1dMVV9yQVJUMUdObEVmUQ?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 23:20:00 GMT",
+          "source": "이투데이"
+        },
         {
           "title": "[논현광장_김한진의 시황읽기] ‘증시 거품론’ 닷컴버블 때와는 다르다 - 이투데이",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJNnlvM1p4dFpNNHRjall1QUV1WmY4TmhrbVdnUDRkc0pEOXZoUGtxSXUzS2FTUGg4elo3dWx4bFZhXzNsREVsX0RIQkFCSzQ1VXZFSQ?oc=5",
@@ -26,28 +44,34 @@
       ],
       "fear_articles": [
         {
+          "title": "뉴욕증시 급락, 한국증시는 어디로 가나 - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1STmk3WUhLQVNMZ3pZVVlwZVBlVE1scnRrRnZTZk9rYnlFU2ZJdk1OamhWZlhkbndEWDRmVDRudmcxT0w0TXVTX1pNd3RkNE5wZ1JoTktRMmpXS1RpQk1EYVhlN2dUQjA?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 23:29:59 GMT",
+          "source": "세종의소리"
+        },
+        {
+          "title": "美증시 조정·브로드컴 급락…삼전·SK하닉, 프리마켓서 약세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IdHhGUkY5M0pGVllDOTRJTVhzTDd2RmNkZnJ0d0o0eFFYbldEVGx0cGd3TmpPUkZWNjE3YVVtWWduSVphbjZrNTdnbkRaU2s?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 23:22:50 GMT",
+          "source": "v.daum.net"
+        },
+        {
           "title": "[뉴욕증시] '사상 최고' 엿새 만에 막 내려…팔란티어, 6.6% 급락 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LR19KN2lrWWFFaXZMbkxUWnk1UDlROVhPRWJiWGdvSl9SSGNKZl9EdjlzekRRT25ZemZQX201M2xiOXVBdG9jczJBWjU4VGc?oc=5",
           "pub_date": "Wed, 03 Jun 2026 20:24:02 GMT",
           "source": "v.daum.net"
         },
         {
+          "title": "중동 전운에 뉴욕증시 급락…다우 620포인트 하락 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51NG83Q3RRTnVrSUxhYnZTeDZlbW9ieFVsUTkxMzBtZ012OVRpdlJWNjZxRlBlVzQyb1hVRGY0WDN6NXo0c2VaTnM1cFZiZw?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 23:17:55 GMT",
+          "source": "전자신문"
+        },
+        {
           "title": "[뉴욕증시] 미·이란 무력 충돌-금리 인상 가능성에 다우 620P 급락 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTJEWmtuMjFtUjY1N2hQSXp5a1VUcm5KQXVJT1lFRVQ0V0F3c0puWF9GbHctVzEwVy1fOUcyMUhjS00zYkVrR1JoN1p0d1E1aEJBTkI4bEhOWG1DSlFTTHZYSTNhUUJ6djhrWGI5blJJaWJaQmR6c203NGE3T2NFZ1NrcWJRWTBL?oc=5",
           "pub_date": "Wed, 03 Jun 2026 20:47:50 GMT",
           "source": "글로벌이코노믹"
-        },
-        {
-          "title": "[속보] 엔비디아 3.7% 급락… 미증시 사상 최고 행진 끝 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41V3M0YlFJMUY2U196X19TSmdTbWNlLVBzQnlieTJEZ1J0WG53MWVsR1B2VnRYbVd2UkYtNXl2NmN2cDl6MTBEMWhBRWRFdDltTzJfZEhycUFXeHhrYk42X0lYVGg4SWfSAWxBVV95cUxPcnVPNjlESVlLTk9kem1PYkxBS1lLWE0wMzVWVUt5c0xHRzVSazdDUXlBTGoyWGh2N0NkcDg0aUwxRG13YklyRDhWTFBzTGpDdlViOVU4bDltbF9ZY1ZaTUJDMjNCcUpoN3ZsX08?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 20:05:00 GMT",
-          "source": "국민일보"
-        },
-        {
-          "title": "[속보] 엔비디아 3.7% 급락… 미증시 사상 최고 행진 끝 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ydU82OURJWUtOT2R6bU9iTEFLWUtYTTAzNVZVS3lzTEdHNVJrN0NReUFMajJYaHY3Q2RwODRpTDFEbXdiSXJEOFZMUHNMakN2VWI5VThsOW1sX1ljVlpNQkMyM0JxSmg3dmxfT9IBbEFVX3lxTE9ydU82OURJWUtOT2R6bU9iTEFLWUtYTTAzNVZVS3lzTEdHNVJrN0NReUFMajJYaHY3Q2RwODRpTDFEbXdiSXJEOFZMUHNMakN2VWI5VThsOW1sX1ljVlpNQkMyM0JxSmg3dmxfTw?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 20:05:00 GMT",
-          "source": "국민일보"
         }
       ]
     }
