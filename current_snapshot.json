@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-06-04T19:43:42.052482+09:00",
+  "timestamp": "2026-06-04T22:50:57.850677+09:00",
   "sentiment": {
-    "cnn_fng": 53.5142857142857,
+    "cnn_fng": 53.4857142857143,
     "cnn_components": {
-      "momentum": 93.4,
-      "strength": 32.2,
-      "breadth": 25.0,
-      "put_call": 97.4,
-      "junk_bond": 0.4,
+      "momentum": 91.0,
+      "strength": 32.6,
+      "breadth": 30.0,
+      "put_call": 96.8,
+      "junk_bond": 5.8,
       "volatility": 50.0,
-      "safe_haven": 70.2
+      "safe_haven": 66.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 7,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
+        {
+          "title": "AI 쏠림 완화, 코스닥 반등↑ - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vclp5LXVWTVhEQkRBajhwUWhqVzY2NE9Zck5zXy1NZTFEVVlCZmJKMjhTSVhjaHJDSG9OODlwdG5zRndUNGZ0c1Nvb3Ezd0RVcHpSb0NFZjBEQXBkUDJmRmQ1SlhQNHJjZTZsTw?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 07:07:08 GMT",
+          "source": "KB Think"
+        },
         {
           "title": "개미 증시대기자금 130조 폭탄...코스피 엔진 과열 우려 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54VEU4VUZBblFYcmdtV0JvWndQeHlLYnE5WUZHbVFhaWM1WU92QkNRRmhoM2lUclBYVUJmSThUTmoySm1RRjhPUTNIX000Q05PMmdRTlRGZFdXUmVhMVdnTm85QWxWSnFN0gFuQVVfeXFMTjlZTWdhYlZJdzViaHBzUWNOU19oQ1E1bGdCOTQxSGxFOWNtVkdvU2dWRGFReTdYUHZYMnkyOUNBbXlIMVVwRlVZUnVaV052WXVoN2hGb3EtU3lObTVxdzhjU28wTG5oRnd1X1AxbEE?oc=5",
@@ -51,28 +57,28 @@
         },
         {
           "title": "코스피, 하락 전환 ‘숨 고르기’…반도체·자동차 줄 하락 [마감시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5R2pmNU41MTQ4Vm1RanFPQjA0QmZfY1Z0U2pxR1ZmSVl0ZFFaYmF1Q2o2S0w1SmRXd25YOHp2SE51dlJsc2V6V0k0bjRMZ19jUXFtcWdvOHVTemJHVEIzUjFMUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQY1hGY2dKdDVnaHRROVVOMnhJX0V4OUI3TnotWEpuaUNUVkV4S2JxMVMzeFpMSnI4QURfVHJCaGl2ZE1CUWpfdVotR09lakFXTk5OMjM0b2I2LVU?oc=5",
           "pub_date": "Thu, 04 Jun 2026 07:01:55 GMT",
           "source": "에너지경제신문"
+        },
+        {
+          "title": "코스피, 나흘 만에 하락 마감…환율 급등+외인 대량 매도 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Fc3R0MEQtWE1VQXgwRjgyX0FVSlBHSnNsY2VsdTRUU0tzOHV6Y3dUcFBTcUVSVmNpN2FPcGZobE1QUjY3MUlUNlVWWkRrUHhyb0J1anpEVHJzdnZOaHJGVmNpeEs?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 06:47:38 GMT",
+          "source": "서울경제TV"
         },
         {
           "title": "코스피, 외국인 매도세에 하락…환율 1530원 찍어 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IbFVRTzZRMDJmNDVwQXF2M0pJcVRvUEJvT3REMDc3Q1FOcDdHeFJzYWwwdFBKQVJMNHRNb2xxTHdYQzYzTHlCMGMwYldsY2M?oc=5",
           "pub_date": "Thu, 04 Jun 2026 05:17:10 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[食전食후] 코스피, 외국인 4조원대 매도에 2%대 급락…코스닥은 3% 넘게 반등 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pdk9XU0pORFZGdnR0SzNPbHVxX0V4UE9ob0hxYnNnQ0FuLTRWUFBYcE9kNVlpSTJJLU9pX3lONC1aQ3g2YWZ4SDd0dVJLZ0U?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 02:21:45 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.56,
-    "vvix": 89.8,
+    "vix": 16.21,
+    "vvix": 90.64,
     "skew": 136.86,
     "move": 73.58
   },
@@ -86,11 +92,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26853.98,
+      "current": 26608.16,
       "high_52w": 27190.21,
-      "drop_pct": -1.24,
-      "intraday_low_drop_pct": -1.55,
-      "sma_200": 23274.25,
+      "drop_pct": -2.14,
+      "intraday_low_drop_pct": -2.34,
+      "sma_200": 23299.14,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -110,37 +116,37 @@
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7553.68,
+      "current": 7539.83,
       "high_52w": 7620.9,
-      "drop_pct": -0.88,
-      "intraday_low_drop_pct": -0.91,
-      "sma_200": 6847.72,
+      "drop_pct": -1.06,
+      "intraday_low_drop_pct": -1.37,
+      "sma_200": 6853.18,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2893.51,
+      "current": 2894.15,
       "high_52w": 2942.61,
-      "drop_pct": -1.67,
-      "intraday_low_drop_pct": -1.94,
-      "sma_200": 2565.78,
+      "drop_pct": -1.65,
+      "intraday_low_drop_pct": -1.97,
+      "sma_200": 2568.78,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 615.68,
+      "current": 586.03,
       "high_52w": 618.84,
-      "drop_pct": -0.51,
-      "intraday_low_drop_pct": -3.37,
-      "sma_200": 341.1,
+      "drop_pct": -5.3,
+      "intraday_low_drop_pct": -5.94,
+      "sma_200": 342.79,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.273,
-    "SMH": 1.448,
-    "BOTZ": 0.983,
-    "IGV": 1.06,
-    "XLF": 0.899,
-    "XLE": 0.953
+    "XLK": 1.24,
+    "SMH": 1.393,
+    "BOTZ": 0.976,
+    "IGV": 1.061,
+    "XLF": 0.919,
+    "XLE": 0.952
   },
   "signals": {
     "cnn_under_10": false,
@@ -180,19 +186,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 96.86,
+    "tqqq_profit_pct": 89.64,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 424.37,
+    "soxl_profit_pct": 349.23,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 225.4,
+    "koru_profit_pct": 163.08,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
