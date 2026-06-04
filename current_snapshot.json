@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T10:47:31.982515+09:00",
+  "timestamp": "2026-06-04T15:54:06.947923+09:00",
   "sentiment": {
     "cnn_fng": 54.0,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
+      "greed_count": 4,
       "fear_count": 9,
       "greed_articles": [
+        {
+          "title": "[이슈딜] 코스피 삼전닉스 쏠림?…\"이전과는 레벨이 다르다\" - DealSite경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqcldLMzJ0UXM0QkVnRExhdC03UnQtTzROMlNMd296VW5DNE1rSFU5d1dXdng0bVFadXNpTFdacG9NOC1CaGRvWEo3TndndUVfYmdKOVFn?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 06:03:32 GMT",
+          "source": "DealSite경제TV"
+        },
         {
           "title": "한은 \"FOMO에 후발투자자 '빚투' 증가 시 증시 변동성 증폭 가능\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OVpNNkpwWE9VMFNjaDJSMFJDYWhQdkhlMXpqWmtzV0NsSFFSQ2pzaTVOWFJTZ0d6Ni1sWUk4ZXlLang2Qy1EQ0hlclNvLTB0TFRnTWZmMmZobjN2RWhhbGNPdVM3RC01SFlabVVoTTQ?oc=5",
@@ -24,28 +30,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "“손흥민도 축구 빼면 보통 사람” 이재명 대통령 발언…'코스피 쏠림'으로 '파란 코스닥' - 더밸류뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mdXo1Wkd1czVLWnI4dEFDRWZBZEw2UHNTdDJadGRUNFpuMTAzbF8zMWkyb29lbnhybVJtTnBPQ095WWhzeGZuXzdnOE9HZHhSUUZwSA?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 00:14:35 GMT",
-          "source": "더밸류뉴스"
+          "title": "‘8000 질주’ 코스피, 38조 빚투에 갇혔다…5월 반대매매 3배 폭증 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkUllFczlSN0V5cVVEZWZ5T3F3Qk9SR2w3a1ljbFBIRF83eUo1dlY1NEZjQ1BJV1h6b2tFMVVzTnBidmJGVmlJUUtOZTlaOWh2Vmo0aGQ3b1lNQQ?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 05:56:00 GMT",
+          "source": "브릿지경제"
         },
         {
-          "title": "증시 호조 속 ‘빚투’ 경고등…정부, 선제적 리스크 관리 강화 - BBS불교방송",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QVHBteGYwMmdZUHNkTDQ5TDJCNElLYURzbE9sRjNIMkdfUDZZS3ljRTFxcmEwcVREN3l1NkVneGZieElzTVo4TUo5bkJ6aEVFdXNmb2ZFaVM3RWVhSGdEZ3ZZUTlXb0EzbVdJ?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 01:26:11 GMT",
-          "source": "BBS불교방송"
-        },
-        {
-          "title": "\"닷컴버블 데자뷔?\"…코스피 하락에 반도체 거품론 솔솔 [1분 브리프] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VaUFWdTIxMnVXQXlBdFFpX1ZKZ2lnVmg0bkNtcVRsSzdwTG5nR2hDMnRNUWJlWGw2RlZjYkk4Ml9mU3FYak9BWG8ycDNjVmhWMS1wc3JLQm1Na1E5SHZyaA?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 23:00:00 GMT",
-          "source": "아시아경제"
-        },
-        {
-          "title": "“거품 아니다?”…‘삼전닉스’ 제외해도 코스피 이익 전망 10% 올랐다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsVThILWZfMjd0X0pBdUkxeGgtNzBhdC1ycjlLTkFFVGo1QmM2WEJSRmlBb2ZJMUQ0RDFwQmtnTVdOZVBaZFJOV1NiZ28xY0E?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 22:02:52 GMT",
-          "source": "v.daum.net"
+          "title": "\"고금리로 증시 변동성 확대…반도체株 쏠림 지속\" - MTN 머니투데이방송",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84eFdBdEF1NGlCbXluQXM0bHRxTVhUNXh4QTQzMFRwYm5NX0dOck8wMVRabm9DUnhVb29RbmhuTmZpWGkyZ0RlMVVPV1pIcGZpd2c3RkhFdk5TYjMzcFpoTXpDYm8?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 02:01:20 GMT",
+          "source": "MTN 머니투데이방송"
         }
       ],
       "fear_articles": [
@@ -56,10 +50,16 @@
           "source": "조선일보"
         },
         {
-          "title": "코스피, 외국인 매도세에 하락 출발…원달러 환율 1520원대 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45cXVvMU41RVJYRV9OWGpXM3NuV2NGTmdrNU1PU2JtSS1XbkgzeHZiWjRnV09ZSzNaWV85LXFMVU1KRjRLLXZicTJmY0M3QmNUZVlXV0NzUTA1UkU?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 00:53:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "코스피, 외국인 매도세에 하락…환율 1530원 찍어 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IbFVRTzZRMDJmNDVwQXF2M0pJcVRvUEJvT3REMDc3Q1FOcDdHeFJzYWwwdFBKQVJMNHRNb2xxTHdYQzYzTHlCMGMwYldsY2M?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 05:17:10 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "외국인 매도세에…코스피 8600선 사수 공방 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVHJUb2pUQ2lmcUNvV3VLVUd0Z1gzQ0loOFRiVHBqdmRGQmFlaElXelVYemsyQURWMW43TmYwRzRCZFlOUVByWDR5cDlEbEVZeVgydXZ3dGVzMXJhWW1Dd2tObGt6ekNPVzRqemF2VWkzNnF0a1dUa2prdVFpeDNrNEZDUXJwR3JU0gGcAUFVX3lxTE9HOFluWXZ3aEl5NTRIN1hhUkhQUXczWlc3SWtLZEx4WWpUYUZ0SGNqVXlKYmM5WWV6RGhiY1pxQ2huYktFdEZ2Mm1ZOUdWY0RpRTVNR0dFY29MUk9pcGRVNzBGS2xRN2M5aUVmR21RM0RaR2ZMVmhKSzZtVmkxTjJmNUtkZG5ZR0F4emlTSXNpeXVDUFJlVzNxVk5mcQ?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 02:27:00 GMT",
+          "source": "Chosunbiz"
         },
         {
           "title": "美 증시 부진·브로드컴 급락…코스피 2% 안팎 약세[개장시황] - 뉴스1",
@@ -68,16 +68,10 @@
           "source": "뉴스1"
         },
         {
-          "title": "뉴욕증시 급락, 한국증시는 어디로 가나 - 세종의소리",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1STmk3WUhLQVNMZ3pZVVlwZVBlVE1scnRrRnZTZk9rYnlFU2ZJdk1OamhWZlhkbndEWDRmVDRudmcxT0w0TXVTX1pNd3RkNE5wZ1JoTktRMmpXS1RpQk1EYVhlN2dUQjA?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 23:29:59 GMT",
-          "source": "세종의소리"
-        },
-        {
-          "title": "美증시 조정·브로드컴 급락…삼전·SK하닉, 프리마켓서 약세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IdHhGUkY5M0pGVllDOTRJTVhzTDd2RmNkZnJ0d0o0eFFYbldEVGx0cGd3TmpPUkZWNjE3YVVtWWduSVphbjZrNTdnbkRaU2s?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 23:22:50 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 외국인 매도세에 하락 출발…원달러 환율 1520원대 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45cXVvMU41RVJYRV9OWGpXM3NuV2NGTmdrNU1PU2JtSS1XbkgzeHZiWjRnV09ZSzNaWV85LXFMVU1KRjRLLXZicTJmY0M3QmNUZVlXV0NzUTA1UkU?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 00:53:00 GMT",
+          "source": "KBS 뉴스"
         }
       ]
     }
@@ -89,8 +83,8 @@
     "move": 73.58
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3078700000000,
-    "retail_net_buy_krw": 3001200000000,
+    "foreign_inst_buy_krw": -5143800000000,
+    "retail_net_buy_krw": 5015900000000,
     "margin_loan_krw": 37093700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -106,19 +100,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8634.51,
+      "current": 8639.41,
       "high_52w": 8933.62,
-      "drop_pct": -3.35,
-      "intraday_low_drop_pct": -3.95,
-      "sma_200": 4863.17,
+      "drop_pct": -3.29,
+      "intraday_low_drop_pct": -3.99,
+      "sma_200": 4863.2,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1057.97,
+      "current": 1049.73,
       "high_52w": 1229.42,
-      "drop_pct": -13.95,
+      "drop_pct": -14.62,
       "intraday_low_drop_pct": -16.03,
-      "sma_200": 988.72,
+      "sma_200": 988.68,
       "below_sma200_streak": 0
     },
     "sp500": {
