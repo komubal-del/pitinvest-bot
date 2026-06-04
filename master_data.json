@@ -21,7 +21,7 @@
         "sell_expert": "2026-06-04"
     },
     "emergency_first_fired_date": null,
-    "sell1_d_day_notified": false,
+    "sell1_d_day_notified": true,
     "signal_last_fired": {
         "buy_vix": "2026-03-02",
         "buy_cnn": "2026-03-23",
