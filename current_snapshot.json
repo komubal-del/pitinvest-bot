@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T08:48:03.328942+09:00",
+  "timestamp": "2026-06-04T10:47:31.982515+09:00",
   "sentiment": {
     "cnn_fng": 54.0,
     "cnn_components": {
@@ -14,9 +14,27 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 5,
+      "greed_count": 5,
+      "fear_count": 9,
       "greed_articles": [
+        {
+          "title": "한은 \"FOMO에 후발투자자 '빚투' 증가 시 증시 변동성 증폭 가능\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OVpNNkpwWE9VMFNjaDJSMFJDYWhQdkhlMXpqWmtzV0NsSFFSQ2pzaTVOWFJTZ0d6Ni1sWUk4ZXlLang2Qy1EQ0hlclNvLTB0TFRnTWZmMmZobjN2RWhhbGNPdVM3RC01SFlabVVoTTQ?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 00:55:55 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "“손흥민도 축구 빼면 보통 사람” 이재명 대통령 발언…'코스피 쏠림'으로 '파란 코스닥' - 더밸류뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mdXo1Wkd1czVLWnI4dEFDRWZBZEw2UHNTdDJadGRUNFpuMTAzbF8zMWkyb29lbnhybVJtTnBPQ095WWhzeGZuXzdnOE9HZHhSUUZwSA?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 00:14:35 GMT",
+          "source": "더밸류뉴스"
+        },
+        {
+          "title": "증시 호조 속 ‘빚투’ 경고등…정부, 선제적 리스크 관리 강화 - BBS불교방송",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QVHBteGYwMmdZUHNkTDQ5TDJCNElLYURzbE9sRjNIMkdfUDZZS3ljRTFxcmEwcVREN3l1NkVneGZieElzTVo4TUo5bkJ6aEVFdXNmb2ZFaVM3RWVhSGdEZ3ZZUTlXb0EzbVdJ?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 01:26:11 GMT",
+          "source": "BBS불교방송"
+        },
         {
           "title": "\"닷컴버블 데자뷔?\"…코스피 하락에 반도체 거품론 솔솔 [1분 브리프] - 아시아경제",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VaUFWdTIxMnVXQXlBdFFpX1ZKZ2lnVmg0bkNtcVRsSzdwTG5nR2hDMnRNUWJlWGw2RlZjYkk4Ml9mU3FYak9BWG8ycDNjVmhWMS1wc3JLQm1Na1E5SHZyaA?oc=5",
@@ -24,25 +42,31 @@
           "source": "아시아경제"
         },
         {
-          "title": "지방선거 이후, 증시는 어디로…與 압승에 ‘정책 랠리’ 기대, 과열 경고도 커진다 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIeWJDamRpX2FiMUxsSGpEd0pLNUxDWGVONlVWaUl1QnQ0UE5wc3Z4TFZnUUxOV1g2a3o0M0t2SHdDaG5aQmd5ZUFnUm5faXlyS1ZfbDBfdWF3ZXZMQWtQb1kxaHY0NXJj?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 21:49:02 GMT",
-          "source": "ebn.co.kr"
-        },
-        {
-          "title": "[오늘의 투자전략] 코스피, 미 증시 고점 부담에 장중 변동성 장세 연출 전망 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92Z3Z3Slo2amNqNWpJbF9QZy1abi1GTjF5bWEzSnM3dVMta3BuUUdsZEpSek11Vk8xZEt6ZElOaXNRTkhya1dMVV9yQVJUMUdObEVmUQ?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 23:20:00 GMT",
-          "source": "이투데이"
-        },
-        {
-          "title": "[논현광장_김한진의 시황읽기] ‘증시 거품론’ 닷컴버블 때와는 다르다 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJNnlvM1p4dFpNNHRjall1QUV1WmY4TmhrbVdnUDRkc0pEOXZoUGtxSXUzS2FTUGg4elo3dWx4bFZhXzNsREVsX0RIQkFCSzQ1VXZFSQ?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 21:00:00 GMT",
-          "source": "이투데이"
+          "title": "“거품 아니다?”…‘삼전닉스’ 제외해도 코스피 이익 전망 10% 올랐다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsVThILWZfMjd0X0pBdUkxeGgtNzBhdC1ycjlLTkFFVGo1QmM2WEJSRmlBb2ZJMUQ0RDFwQmtnTVdOZVBaZFJOV1NiZ28xY0E?oc=5",
+          "pub_date": "Wed, 03 Jun 2026 22:02:52 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스피 8600선에서 등락...LG전자 15% 폭락 등 로봇주 약세 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdGZXNl94eVNIRi1fV192dVVqUEZYbjIxM28xR3lsZjhQMEI5bGlfT2VRSlVpajlqODA2U25DYjJ5cS1LSXhoR2JQWFFHQzJxczdNM1ZKb3ZKbTljbE9pdjhkczdZMTJNcGU3TXZoUVo2NDZjQW8xcnhNWW85QmZ4Yw?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 01:11:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "코스피, 외국인 매도세에 하락 출발…원달러 환율 1520원대 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45cXVvMU41RVJYRV9OWGpXM3NuV2NGTmdrNU1PU2JtSS1XbkgzeHZiWjRnV09ZSzNaWV85LXFMVU1KRjRLLXZicTJmY0M3QmNUZVlXV0NzUTA1UkU?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 00:53:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "美 증시 부진·브로드컴 급락…코스피 2% 안팎 약세[개장시황] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1abUdrd0JocVNsWUxUd0J1UTc3UW4wdm5YSlc0OUxzZ2YwbTdhYV9EcERLdGVlbkY3Y3VySnFjdkhfN0ZBRVc1MWJsV0U4MmlkUGRtWXdhaEJZRFlWTl9Z?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 00:43:56 GMT",
+          "source": "뉴스1"
+        },
         {
           "title": "뉴욕증시 급락, 한국증시는 어디로 가나 - 세종의소리",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1STmk3WUhLQVNMZ3pZVVlwZVBlVE1scnRrRnZTZk9rYnlFU2ZJdk1OamhWZlhkbndEWDRmVDRudmcxT0w0TXVTX1pNd3RkNE5wZ1JoTktRMmpXS1RpQk1EYVhlN2dUQjA?oc=5",
@@ -54,24 +78,6 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IdHhGUkY5M0pGVllDOTRJTVhzTDd2RmNkZnJ0d0o0eFFYbldEVGx0cGd3TmpPUkZWNjE3YVVtWWduSVphbjZrNTdnbkRaU2s?oc=5",
           "pub_date": "Wed, 03 Jun 2026 23:22:50 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[뉴욕증시] '사상 최고' 엿새 만에 막 내려…팔란티어, 6.6% 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LR19KN2lrWWFFaXZMbkxUWnk1UDlROVhPRWJiWGdvSl9SSGNKZl9EdjlzekRRT25ZemZQX201M2xiOXVBdG9jczJBWjU4VGc?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 20:24:02 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "중동 전운에 뉴욕증시 급락…다우 620포인트 하락 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51NG83Q3RRTnVrSUxhYnZTeDZlbW9ieFVsUTkxMzBtZ012OVRpdlJWNjZxRlBlVzQyb1hVRGY0WDN6NXo0c2VaTnM1cFZiZw?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 23:17:55 GMT",
-          "source": "전자신문"
-        },
-        {
-          "title": "[뉴욕증시] 미·이란 무력 충돌-금리 인상 가능성에 다우 620P 급락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTJEWmtuMjFtUjY1N2hQSXp5a1VUcm5KQXVJT1lFRVQ0V0F3c0puWF9GbHctVzEwVy1fOUcyMUhjS00zYkVrR1JoN1p0d1E1aEJBTkI4bEhOWG1DSlFTTHZYSTNhUUJ6djhrWGI5blJJaWJaQmR6c203NGE3T2NFZ1NrcWJRWTBL?oc=5",
-          "pub_date": "Wed, 03 Jun 2026 20:47:50 GMT",
-          "source": "글로벌이코노믹"
         }
       ]
     }
@@ -83,8 +89,8 @@
     "move": 73.58
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6358100000000,
-    "retail_net_buy_krw": 6353700000000,
+    "foreign_inst_buy_krw": -3078700000000,
+    "retail_net_buy_krw": 3001200000000,
     "margin_loan_krw": 37093700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -100,19 +106,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8801.49,
+      "current": 8634.51,
       "high_52w": 8933.62,
-      "drop_pct": -1.48,
-      "intraday_low_drop_pct": -4.82,
-      "sma_200": 4835.99,
+      "drop_pct": -3.35,
+      "intraday_low_drop_pct": -3.95,
+      "sma_200": 4863.17,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1026.03,
+      "current": 1057.97,
       "high_52w": 1229.42,
-      "drop_pct": -16.54,
-      "intraday_low_drop_pct": -17.87,
-      "sma_200": 987.42,
+      "drop_pct": -13.95,
+      "intraday_low_drop_pct": -16.03,
+      "sma_200": 988.72,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -173,14 +179,16 @@
     },
     "first_fired": {
       "sell_leverage": "2026-04-24",
-      "sell_leading": "2026-05-07"
+      "sell_leading": "2026-05-07",
+      "sell_expert": "2026-06-04"
     },
     "last_fired": {
       "buy_vix": "2026-03-02",
       "buy_cnn": "2026-03-23",
       "buy_margin": "2026-03-30",
       "sell_leverage": "2026-04-24",
-      "sell_leading": "2026-05-07"
+      "sell_leading": "2026-05-07",
+      "sell_expert": "2026-06-04"
     }
   },
   "leverage_profit": {
@@ -206,10 +214,10 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": true,
-      "samsung_at_60d_high": true,
-      "samsung_ok": true,
+      "samsung_at_60d_high": false,
+      "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
