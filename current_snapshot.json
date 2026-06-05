@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T07:52:11.512658+09:00",
+  "timestamp": "2026-06-05T09:18:13.900780+09:00",
   "sentiment": {
     "cnn_fng": 54.7428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 3,
+      "fear_count": 11,
       "greed_articles": [
         {
           "title": "美 주식공모 과열 양상…140년된 은광도 뉴욕증시 상장 - 연합뉴스",
@@ -24,18 +24,18 @@
           "source": "연합뉴스"
         },
         {
-          "title": "[N2 포커스] 이재명 정부 1년, ‘만스피’ 눈앞인데…반도체 쏠림·코스닥 침체는 숙제 - 뉴스투데이",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tSVRFUXR1UHRvekJYWlc1eDlJa1JMMm8wWUVEbWlIcVdRZl9fTjlYLXh5OVIzM2RWZDREZmhraW4xV2NIYTFDeHh0Z2o0Y3l4QU4tb0o4SzgxR1VwdVE?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 19:40:00 GMT",
-          "source": "뉴스투데이"
+          "title": "美 주식공모 과열 양상…140년된 은광도 뉴욕증시 상장 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1bWxnZ0lCUTVDVzlnTk1rRW9zcEk0WVhMOC03aFZDWDRQbUJwVmttN2F0cHlUTk5Idnk4Z2NXTDdhR3lMUFNEZDV0YnVSbzQ?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 21:50:03 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 브로드컴 실망감에 반도체주 투매…혼조 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01eHpZYTZ5YVFBb0FhSkJyTUhLQU1URTdzb2pXcGZoUUt3YnM3Nl85aEVEdEhaRHBSSU16SXVvTEZpOUN0cUxRbE9aSTVmSHBFY3BKaFJxSXRpN0lFdjI5LUZTeXp3d2ZheVdPMEJObWE?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 20:58:29 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피, 급락장에 매도 사이드카 발동 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0R3BweVpiS05ILW9zWDEzanRmLUZiaHpDaTZpNUxMc1g5U2plYjN2bjBuVnJnbGozWFJMUW5WU0tSaVl2bUE2czJyZEQyODR2ZGU4c3RVbGhBUllrdTg0MVZCU0lFU0pWUGxjYnlJTkJIZw?oc=5",
+          "pub_date": "Fri, 05 Jun 2026 00:16:49 GMT",
+          "source": "인더스트리뉴스"
         },
         {
           "title": "[뉴욕증시-1보] 브로드컴 실망감에 반도체주 투매…혼조 마감 - 연합인포맥스",
@@ -44,10 +44,22 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "[김대호 진단] 뉴욕증시 브로드컴 주가 폭락과 위스퍼 넘버의 함정 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRmNHUkd4Z1N5RkhHQWpzeHNRWmVKenNsdFZXQ0lTSnh1SW1tc0hlLXEwUXBFeDBLSDVsVTdlZFlpd2lWdE1TOFlJTk5NU1E1NFdrNGMxMUFhYzN5VHg5MUFobVZTUkozcWJFYzhRNDFkY1J1X3FjaUVMMlowOGEyX2xpbEh5djNL?oc=5",
-          "pub_date": "Thu, 04 Jun 2026 15:00:00 GMT",
-          "source": "글로벌이코노믹"
+          "title": "뉴욕증시, 브로드컴 실망감에 반도체주 투매…혼조 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01eHpZYTZ5YVFBb0FhSkJyTUhLQU1URTdzb2pXcGZoUUt3YnM3Nl85aEVEdEhaRHBSSU16SXVvTEZpOUN0cUxRbE9aSTVmSHBFY3BKaFJxSXRpN0lFdjI5LUZTeXp3d2ZheVdPMEJObWE?oc=5",
+          "pub_date": "Thu, 04 Jun 2026 20:58:29 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 장 초반 4%대 급락해 8,200선…코스닥도 하락 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SX2RUVVN2NVVLbjExTWtyWXFldi1QSC1zelYzNXFYNTNxd0hmdTdyUVd3bDhwaGhmX3ZDamdwVG1mN1lxTVVkWEJMalBxQVRXZVE?oc=5",
+          "pub_date": "Fri, 05 Jun 2026 00:04:36 GMT",
+          "source": "매일경제 마켓"
+        },
+        {
+          "title": "코스피, 3%대 급락 출발…8200선 후퇴 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5Q0VkN1puM3NWaFk3ZWxxU2JJbkhnTTZ3UmNvSXR4YzFCeThKVGR2TTJVamRUVHdjU2d0LTVITzdaTi1FZ2JiMlBVZUNIR2kxeTB0ZjlMZVhBVW5JTTdPTGtadzY?oc=5",
+          "pub_date": "Fri, 05 Jun 2026 00:12:05 GMT",
+          "source": "서울경제TV"
         }
       ]
     }
@@ -59,8 +71,8 @@
     "move": 71.16
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -5140800000000,
-    "retail_net_buy_krw": 5013500000000,
+    "foreign_inst_buy_krw": -721000000000,
+    "retail_net_buy_krw": 679800000000,
     "margin_loan_krw": 37109200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -286,8 +298,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-06-02",
-    "analyzed_at": "2026-06-02T13:57:39.536368+09:00",
+    "date": "2026-06-05",
+    "analyzed_at": "2026-06-05T09:18:21.125559+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -295,16 +307,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "WqeFyUywKzY",
-        "title": "삼성전자 10% 폭등! AI·로봇 쏠림 장세 어디까지 갈까 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-06-02T00:45:25Z",
-        "url": "https://youtube.com/watch?v=WqeFyUywKzY",
+        "video_id": "WSyUnaJZMQA",
+        "title": "지금 당장 '가지치기' 할 종목?...주도주에 2등, 3등은 없다!ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+        "published": "2026-06-04T08:56:22Z",
+        "url": "https://youtube.com/watch?v=WSyUnaJZMQA",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "영상 설명란에는 구체적인 매수/매도/현금화 등 투자 행동 권고가 없으며, 제목은 시장 상황을 설명하고 향후 추세에 대한 질문을 던지는 중립적인 어조를 띠고 있습니다."
+          "stance": "warning",
+          "reason": "제목의 '지금 당장 가지치기 할 종목'이라는 표현은 투자 종목 중 일부를 정리하거나 비중을 줄여야 한다는 구체적인 행동 권고를 담고 있습니다."
         }
       },
       {
@@ -323,7 +335,7 @@
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
+      "박병창": "warning",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
