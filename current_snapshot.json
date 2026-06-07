@@ -1,90 +1,102 @@
 {
-  "timestamp": "2026-06-05T21:18:46.117890+09:00",
+  "timestamp": "2026-06-08T08:57:30.477678+09:00",
   "sentiment": {
-    "cnn_fng": 55.0,
+    "cnn_fng": 42.0571428571429,
     "cnn_components": {
-      "momentum": 93.8,
-      "strength": 32.2,
-      "breadth": 34.4,
-      "put_call": 96.6,
-      "junk_bond": 6.2,
+      "momentum": 58.4,
+      "strength": 31.2,
+      "breadth": 28.0,
+      "put_call": 76.0,
+      "junk_bond": 5.8,
       "volatility": 50.0,
-      "safe_haven": 71.8
+      "safe_haven": 45.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 46,
+      "greed_count": 4,
+      "fear_count": 14,
       "greed_articles": [
         {
-          "title": "‘브로드컴 쇼크’에 반도체 고점론 부상…코스피 5%대 추락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBydW1XMm8wQ3paRGdxUjlSTHFyUmtEYmk0SWUxQ0k2T1RFQlI5bzVPMndKbFRrUGdyRVR6X3JiMkJFdjZ5LUhScko2NGoxZXM?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 07:02:17 GMT",
-          "source": "v.daum.net"
+          "title": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNnNpSHhSSy1JV2RlY3k0YWlyY2U5WjRaM0NKazNPVkhpREV2dldZV0JmT1QwX3NnVm1kMU44dHpCcjBsaTJrM1NBaElLcTJ1YjRnYVV0VUNuSUtNblpBdXZWdWVNMXl0V3VrYks3V0ZZNFRwdkp6UmZ2cGRtZUtBaQ?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 20:37:57 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "씨티, 글로벌 증시 거품 수준 2008년 이후 최고치 경고 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iWktVWU5IMHo3NU9NM3d5T2pqRE5VZFJoZElkZldFUFdvN2FpUVlFX0pYeExZQ3BDcmg5dWtSNW02WnV5MlIyN3lXZV9oeVZzdkNwOVp5NHVTNEM1MkF3dzJYcEtyWHFIdU5pd3VEMjk?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 10:34:00 GMT",
+          "title": "한국 증시 과열 우려…강세론자들도 하락 대비 헤지 작전 돌입 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tM1Jad3JxR1lfZG93emJrM2E0SVNuQ29jNkY1Mk1qc3BHZUI5NklrekNRZE9aeTNCVzZsdlpFQlpOYzZnanB0Mml2ckEwakNYTVVhT2dOUzAyWjlUdGlRSkJVMWZaXzU4?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 21:27:18 GMT",
+          "source": "ebn.co.kr"
+        },
+        {
+          "title": "[0608개장체크] 美 증시, 고점 부담 속 반도체株 폭락…나스닥 지수 4.18% 급락 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NTEZQYW52ZGhfd1VvTzRhZ2ZmanNnb3dQN0JMcGFzVlcycVRjaldjNlJIVjY0bTdjT1JiLXlTc3hWSkg4b1lCYmQydS1lZjdScnY5UVVLNElxbnZ6bzV2MFFTNnhaLWdxejZWanZyMV8?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 23:29:00 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "\"거품은 아니지만\"…韓증시 비중 줄이는 글로벌 큰손들 - citytimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85b1U3YWNqUnZ3UmNnbzI3ZTdWN3ZuT1lBQlJ0akRtN3RxZXdGMjlLNkItMjBxQUtiTHdCTXAxOGJWX3N1YjdtLTdHeFpVMnhXQ3dGNGo1allrajJhU0RMWGt0d0xZMl9CSFZJRVlB?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 22:24:56 GMT",
+          "source": "citytimes.co.kr"
         }
       ],
       "fear_articles": [
         {
-          "title": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZERKR0JJVmpJN1ctU0NoWjlqQldHc19za1dUUWJPbHI3TWwyVEJrdk1qS1ZQODlVbWlDUEVRVHpKdU0zdTg5WGdRRTI5SDVrUWdkX3ltd1dqd3ZXUWpXWHVkSU1zdm5EbG8wQUdXYlg4Nk1YWEhSQjJGdUtUR0lnUUM4NG5vNWfSAZsBQVVfeXFMTk1tM0l4ZkszbFVkZGdYbXFnZjlpZ0RWSDRGMnkyaEhOOEZCNlh0ZUhrdlB3VTB4SDZMYktBVGRXZmZiQVhEMFFUcGVHek5jWHZsSmJ0RUJYSlc1bklFWkhpSlV3ZW9iUlU1aVBib0h4MU53cHpRLWVjZmktRk1uYnFrUjNLdkhKSVg0dDYzMlplc0RGYUdzXzNXM2M?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 07:29:00 GMT",
-          "source": "Chosunbiz"
+          "title": "[굿모닝 증시]美 증시 급락에…'검은 월요일' 오나 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6aHdUaU5XTkwxWlBtem9Vd2licUFVNjFlWEtzQ1JhSUxlT3JKdDNiZFZpbFYyWG1ndENEcTBlaW1DNHNyS3FiMkxWQkJwdUhOZG9YdGVrbFZvb2ZGbHlYdzd3?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 23:21:46 GMT",
+          "source": "아시아경제"
         },
         {
-          "title": "코스피 8,100선 마감…삼전·하이닉스 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52MkwxLVdUVmJJS200bVJ5ck1UODdNYWFqS1gtWkR5YmI2VG9rYTRYX2U1WWs2NEhxRnlQMUVqY0tDQUdWTkZYdS1YQ2tyTEpzMFpHYzZ6OXY1d00?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 10:10:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "반도체로 급등했던 코스피, 반도체 악재에 '급락'…\"대형 IPO 앞두고 현금화\" 움직임도 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRN0l5MHNPLUZBclVMVGVqYjI4eDZjc2pab1RVTEJzektZSzJ6MXNFT1AxbEZRd1FjUXhmaldOc0NUSDFfcGdyS2RYcDUyWnAyWEloamR1VE1oQdIBVEFVX3lxTFA3T3Q3S0RhUjR5N25YbDVPSXNGdFY3T3VLZkhnbmdrQnZKZjhNR2Zwd3RQWUNiMGROcW5YV2JOaHU1Z1dlTXJieWdHcXJNV1Q2cGRKSA?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 07:55:16 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "[속보]'브로드컴發 검은 금요일' 코스피·코스닥 5%대 동반 급락 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGTDJLRzZiZXFhTVhYc256ekllMGJqY3ZhUGd1bmR1dnNqMWRQWERtN0tvX1N4TWU3WHNldmc1ZGNral9iUF9rTVJmYlNvdGpjTVloQ0UzMl8zUVVoaDFINA?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 08:09:57 GMT",
-          "source": "KBC광주방송"
-        },
-        {
-          "title": "[증시-마감] 젠슨 황 방한에도 韓 반도체 급락…코스피 8,100선 후퇴 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vd3RiU25rbEpxb1Vzd3BMMXVOaThWMHNqMGg2TmtFbmFpYzQ4d0F5dzFXSjA5WkZlMXdjdHgxaWVEUG5mblpORk4xM3h2elFWUXd6Qi1GaUhic1BvV2ZvVl9ZbXlzMy1sNmFVUzRxZWo?oc=5",
-          "pub_date": "Fri, 05 Jun 2026 07:44:26 GMT",
+          "title": "증시 급락에…한국거래소, '긴급 회의' 열고 전사 대응 돌입 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yb0lrQ0Q4TkltdXBxVE5hQ21GZ21xTVJhcVZuVmE1T3J1dnZLUmNRYzRNZllUMkJteVFLZ1Znc0VhY05OTjRzSUdPNWZXSl85R05mbFJSQ0ZtcHNPcHd2WVJVazJBelFJWkhPbXJic1A?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 23:42:27 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 상위종목 프리마켓 동반 급락...삼성전자·하이닉스 -10% - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00TktDMl8zTGJtQ0lpUTRnU1pkcnVJajJmMGczWnpMRDZNOVB1TmpvTU9DNk9YaGxuTDdfaHQwYWhnbUMzQmFyRlFUSkpScUxfZFdYakhrSTY4eHBMOVhkclJVQTBGN2RrbGxfLU11b05PZw?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 23:26:13 GMT",
+          "source": "오피니언뉴스"
+        },
+        {
+          "title": "[증시 긴급진단] 美 반도체 폭락 여진에도…\"투매 말라\" 이유는 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QNmpZYk5RRnhNU1p4UDE0LUlrS1Y3Q1E1U0JMQ0lYMW9wWTFmdG9sS01qMDZVRU1nVXhoMEVUdi1KUFRwTjkxUUI1bkhiNHJTX1M0TE5URmUyYVF0UmZWS0dYMmk0YjVQbVdSNVJ0SnXSAXRBVV95cUxOcGlINU1SdDhneHQtZlNhNXNEV2dHLWRYdldxdVZ6d1BIaE1UekVGNENlSVhMMVU1anVyYUhTOTdqZklQMF9Cb0M0a0Y5RUx3QTBmYW9YejdVMlNTTTBCbjA5VHZfalFva0xyV3ExSzZlajNCWQ?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 23:36:42 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "거래소, 증시 급락에 긴급 점검…사이드카 적시 가동·불법 공매도 감시 강화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zSFRXbExBMmtPejBDQ0JzQUlaTXNhX1RpMkNDeXpwdTQzTXA1V19sSEwxSkJqT1BJWDQyVlQ2ZUtuOU9rSDlaaEswWjZfS2c?oc=5",
+          "pub_date": "Sun, 07 Jun 2026 23:48:17 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.72,
-    "vvix": 89.8,
-    "skew": 142.15,
-    "move": 73.58
+    "vix": 21.51,
+    "vvix": 102.04,
+    "skew": 152.25,
+    "move": 75.2
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -4144700000000,
     "retail_net_buy_krw": 4224000000000,
-    "margin_loan_krw": 37109200000000,
+    "margin_loan_krw": 37116600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
   },
   "indices": {
     "nasdaq": {
-      "current": 26830.96,
+      "current": 25709.43,
       "high_52w": 27190.21,
-      "drop_pct": -1.32,
-      "intraday_low_drop_pct": -2.34,
-      "sma_200": 23300.26,
+      "drop_pct": -5.45,
+      "intraday_low_drop_pct": -5.67,
+      "sma_200": 23322.23,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -100,41 +112,41 @@
       "high_52w": 1229.42,
       "drop_pct": -18.46,
       "intraday_low_drop_pct": -19.25,
-      "sma_200": 988.44,
+      "sma_200": 989.68,
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7584.31,
+      "current": 7383.74,
       "high_52w": 7620.9,
-      "drop_pct": -0.48,
-      "intraday_low_drop_pct": -1.37,
-      "sma_200": 6853.4,
+      "drop_pct": -3.11,
+      "intraday_low_drop_pct": -3.31,
+      "sma_200": 6858.26,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2935.33,
+      "current": 2833.5,
       "high_52w": 2943.97,
-      "drop_pct": -0.29,
-      "intraday_low_drop_pct": -2.02,
-      "sma_200": 2568.99,
+      "drop_pct": -3.75,
+      "intraday_low_drop_pct": -4.24,
+      "sma_200": 2571.77,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 602.72,
+      "current": 539.77,
       "high_52w": 618.84,
-      "drop_pct": -2.6,
-      "intraday_low_drop_pct": -6.67,
-      "sma_200": 342.88,
+      "drop_pct": -12.78,
+      "intraday_low_drop_pct": -12.81,
+      "sma_200": 344.35,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.238,
-    "SMH": 1.425,
-    "BOTZ": null,
-    "IGV": 1.025,
-    "XLF": 0.919,
-    "XLE": 0.94
+    "XLK": 1.195,
+    "SMH": 1.361,
+    "BOTZ": 0.957,
+    "IGV": 0.991,
+    "XLF": 0.945,
+    "XLE": 0.933
   },
   "signals": {
     "cnn_under_10": false,
@@ -174,19 +186,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 93.81,
+    "tqqq_profit_pct": 66.14,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 391.03,
+    "soxl_profit_pct": 241.2,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": 65.87,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
