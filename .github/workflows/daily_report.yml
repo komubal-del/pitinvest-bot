@@ -4,9 +4,10 @@ on:
   schedule:
     # GHA schedule은 best-effort라 자주 skip. 매시간 안에 3번 시도(7/27/47분)해서
     # 1개라도 잡힐 확률 ↑ (실제 매시간 보장은 cron-job.org 같은 외부 트리거 필요).
-    # 평일 매시 7·27·47분 KST. 지표·스냅샷은 매시간 갱신.
+    # 매시 7·27·47분(UTC). GHA cron 요일필터는 UTC라 1-5를 쓰면 월요일 아침 KST가 빠짐 → 매일 실행.
+    # 주말은 종가 변화 없어 무해(변화없음 커밋/스킵). 지표·스냅샷은 매시간 갱신.
     # 전문가 분석(Gemini)은 main.py 내부에서 KST 09·13시대에만 실행(EXPERT_RUN_HOURS) → 하루 2번.
-    - cron: '7,27,47 * * * 1-5'
+    - cron: '7,27,47 * * * *'
   workflow_dispatch:
 
 jobs:
