@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-08T13:56:56.113888+09:00",
+  "timestamp": "2026-06-08T18:52:43.122142+09:00",
   "sentiment": {
     "cnn_fng": 42.0571428571429,
     "cnn_components": {
@@ -14,83 +14,83 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 9,
-      "fear_count": 46,
+      "greed_count": 5,
+      "fear_count": 58,
       "greed_articles": [
         {
-          "title": "9000 바라보던 코스피 급제동… 빚투·레버리지 개미 비명 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdE5fa3A0TzdLeTluZUlZcnhHVlh4ODNIbHRBenBGRnhkeGFxUW5QXzctN2k1eE04TUVCNWpGX1NsQUFlYUtWekgwLUtfYzNRbjlxTEE5M1JMTzB2eUhQWV9aQW9KT045VUtmcUNQaWx3VTNKaGVnYzY4RVY4WV9JOA?oc=5",
-          "pub_date": "Sun, 07 Jun 2026 23:52:00 GMT",
-          "source": "조선일보"
+          "title": "검은 월요일…코스피 7500선도 붕괴, “고점 대비 20% 하락할 수도” - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JdDBHR0lUclNDQnRfQzk5RFI1QzdWU2NlcHNFZEdxR01BNUVCSDVsbV9KMU1hWEE3SlJjdmhaLXdtNlc3bDBZSFRlenhGNmFwNUtlY2tR?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 07:43:14 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "불과 사흘전 고점찍고 8천피 밑으로 급락…코스피 상승세 꺾이나 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QMUFsa01iQTZhUkYweVhEclR0Vm5jbk9qNHRTLVlnWjkySkxULXJTamtQUU1faXgybFpHVmQ1QThHUmhZNGxDQWtHLVdpOFJuWmd1YThXaDhlRknSAWBBVV95cUxNZ0pwMi0tMFVsMjFpbHllbnNFS2VMVm9Dbi12NzE4RURLellCUnZxQkpTUHh0TlZtUW93M0l1ZnZmc0dhZGQxWllWUWcyeXBHYkhlOWZEZVJVUFN0a1lza2g?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 02:42:49 GMT",
-          "source": "연합뉴스"
+          "title": "코스피·코스닥 ‘서킷 브레이커’…“과열 식히는 과정”[마감시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOZlB1WE4xREFLdlJGTjc3ekZOREd5RTFNeGpRbnZYRnpCVzJsMkJPaHhVWFRITzlKY1pqNURpVUpvZUM5MDF4Z1MyZ0p3bGs4am9ZVTRnbkZCNkw1d0xXb19jVQ?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 07:57:13 GMT",
+          "source": "에너지경제신문"
         },
         {
-          "title": "[증시 긴급진단] \"개인 ETF투자로 KOSPI 대형주 쏠림·변동성 심화\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QM0ZwN2FxbXUySDJCSkYzUHNRdlU4SXdQTFB6eF9fcnJadGlZT0ZkOWFJSUV4Z3UwcTNYNGdkYTBxSERNQmFoT0NyTkhVVTV3TWlkZ1RiSEc0Y1A2ck1Wd1FLcHduamNXckE4YjFGbm1UNXZV0gF0QVVfeXFMT1AzRnA3YXFtdTJIMkJKRjNQc1F2VThJd1BMUHp4X19yclp0aVlPRmQ5YUlJRXhndTBxM1g0Z2RhMHFIRE1CYWhPQ3JOSFVVNXdNaWRnVGJIRzRjUDZyTVZ3UUtwd25qY1dyQThiMUZubVQ1dlU?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 00:03:06 GMT",
-          "source": "연합인포맥스"
+          "title": "美 증시 급락에 국장도 '블랙 먼데이'…빚투 개미는 패닉 - MTN 머니투데이방송",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55eklxRC1TcXEwMDgyQ0cyM29aWEMxVGhxLUJTZzRBVlZFU250eS02bTFYeFlReU9tOHc5QS1EX2ppbFpLTnFGQThleGFpVTJrZWk0ZFJfX0dqWGtQcnJ0R0hYVGs?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 08:39:11 GMT",
+          "source": "MTN 머니투데이방송"
         },
         {
-          "title": "블룸버그 “코스피 과열 경계감 확산”…글로벌 투자자들 헤지 강화 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Mb1RLM1k1bGxfQXlIeWRXOUhCbmszODNWczZKWldyelhiRDh5S1RiNWtKOEJTdGhSMzEwcnlnQUFiU0xfTEFGem5QMWEyV1U?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 01:15:15 GMT",
-          "source": "v.daum.net"
+          "title": "[뉴스줌인]코스피·코스닥 멈춘 블랙먼데이…AI 랠리 과열에 금리 쇼크 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84dl9xdE9KUkd2c1B1NDdCUFNLc1hiVjMwRTI4bF9KQUdTYjNkMmVzWUtzRGNVeHlWcW9CMDlsSjJqNnFmbHgtSDZXNUtvUQ?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 06:35:07 GMT",
+          "source": "전자신문"
         },
         {
-          "title": "증시 문열자 한때 8% 폭락… 빚투·레버리지 개미들 “잠깐 먹고 나가려다 딱 걸렸다” - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40MGhBRXZXY1YxR0JNaUE1cHhKQ3FqV3ppQnBiYl9KRW9sQWtDcTZGcDlfV2w3WG11Mll3U2hoTnlrdGJqckVWaEwxV2QwN2lt?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 03:03:18 GMT",
-          "source": "문화일보"
+          "title": "“AI 버블 끝?” 공포 확산…‘코스피 1만2000’ 외친 전문가 전망은 [머니+] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GbExwM1ZIVFNQdU9BUlRtdTVfbjd2ZzdKTXAyRk43UzY4aGpfbXl2Q1YtQ0dwRGR0MXZOeGlkYWxkUU12Z3BvQV94NUVDbWVZVExRUl9qYlhMX1E?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 08:25:28 GMT",
+          "source": "에너지경제신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 개장 직후 8% 폭락…서킷 브레이커 발동 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1dWJwMXRnMjhQakdoNE04Z1U0OTloN0VHclc2cV9mRU90N21rT3JqYnNDYUlNWXBPaWpCMDF5WnZQUkRVdUloeVVLVzN4NzRGaGRzWWp2OF9nRFNJOGxWUjZ2Ql9ocVE?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 01:50:00 GMT",
-          "source": "한겨레"
+          "title": "[속보] ‘검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdl9xNVV4aVZSdVpvcjM3Wl9yckVtLTV1TW4yRU5SUUJiLWZtOHlHZXk1N1NZNG1oNDV0T252Q0FfR1hlS1JqUjY2WEdJWmtZeFRXczZqbDZpOGxDT1ZUMXdjOEpyLUlIbWdXanpwaFhrNHI5SFR3N3hoVDRKaktONE1HdUJMdHRvX0h3?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 07:05:12 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…8000선 붕괴 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53OFN5aUE4aEoyVjJMejRDMllYTXlWNUtfT0FFNzBKejZEcnM4RVctbkNselF5R3p5dEpCN1VRcG9fdzdfMTQ1SENvcjZBeTg4WTIwelE1LTdqd9IBX0FVX3lxTFBibTFPQVZzb2VTcXZzdkJYcHJHcFZVTGNkRTY3NEZXWWpCWnBzSFdXeGtJcGxzWVhHODJ6UWFlUUFOYTdwa3lsM3I2MHExeEVPNEhsWk1qS2phc3cyLVNJ?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 00:07:00 GMT",
-          "source": "경향신문"
+          "title": "외인은 팔고 개미가 받아낸 코스피...코스닥도 동반 폭락에 패닉 [지금이뉴스] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YRUlmeTZaNk03SjE5VnpNWXZrUkxaVEVFVWVoV0N4OFJuSmgyYWtZTnhYX0NvcUFvWUpTSUxSeENUNmdCbWphcXpuMFlVaFU2NDQ5RzRLTlhtUUE4TXc?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 08:55:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "코스피 급락, 8,000선 붕괴…'서킷브레이커' 20분간 매매중단도(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11eHZtYUZHM0dRVkNjZy0wZGN2N09ZUzcyNjBKcVBHbzREM2FEYlJWVGRQTllEX1A1Q29NRjB0WUsxZDUyQUhHdEIzdXdROXpmZzlfdWd4c1otd21BTkowONIBYEFVX3lxTE11eHZtYUZHM0dRVkNjZy0wZGN2N09ZUzcyNjBKcVBHbzREM2FEYlJWVGRQTllEX1A1Q29NRjB0WUsxZDUyQUhHdEIzdXdROXpmZzlfdWd4c1otd21BTkowOA?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 01:15:06 GMT",
+          "title": "반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Xd1EwMzNaWGZFTnFYLUJQZHVzZXdVWFE5LWVfaWsxWklaX0lZRVRFclV4VmpoSUc2bmdpZWdDbEdQalp0ZHV0LWNyS05WbWIzOVNRdFVfUEdaZmhXWHBqRNIBYEFVX3lxTE9Xd1EwMzNaWGZFTnFYLUJQZHVzZXdVWFE5LWVfaWsxWklaX0lZRVRFclV4VmpoSUc2bmdpZWdDbEdQalp0ZHV0LWNyS05WbWIzOVNRdFVfUEdaZmhXWHBqRA?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 06:00:00 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "코스피 급락…환율 17년 3개월 만에 최고치 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GbldHTzRISjUxck8zTWhKS1RFd1g4SWxIaWRWanF4ZjB2YnNGeFl3RDNIYV9nSk0wNnRWcDlNYmYwYXlQT2xKYzVtQnFTaloySEkyeExkdkhTMFk?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 03:55:00 GMT",
+          "title": "코스피 8%대 급락 7,400선 마감…코스닥 9%↓ - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WNFFpU0pTWkhGUjRrUmV5d0ZiWEVQdUY1Ynl3Z2IwelVsOHFYTWM0Rlc5aG8xbkRnYzVzR1hxMDduWnR2Z08zaXNQV1Q2dDNqcTNOS0xxZDJvdEE?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 07:25:00 GMT",
           "source": "KBS 뉴스"
         },
         {
-          "title": "'검은 월요일' 급락장에 코스피 서킷 브레이커 발동...20분간 매매 중단 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iQmdhUHpxZE4tMEppcXZFM1lPNnBsc3JrWmpRU04xbm0xSHlnYmdPR2R1Y0RMbW8zRllRdW1fc0lUWTdaMU1SakhUTTJ6ZGxhS25GMVg1bWp1Q1dIV29KUg?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 00:17:51 GMT",
-          "source": "KBC광주방송"
+          "title": "李대통령·젠슨 황도 못 막았다…코스피 8% 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11MXQxM0Q5OWhBbk5ITGdGbVM1MkJUUWVSQkZtWGJDTDF5YmU1T0tOWkI4M3ZTWmI4NzRRRTVLU0c3cFd3ZGJMN2U0TUMzNFVud2lWTXJPU1NUM0IxWFJNbkVSRGFRWnJQVkNrX20tQ2Q?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 07:10:00 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 21.51,
+    "vix": 19.75,
     "vvix": 102.04,
     "skew": 152.25,
     "move": 75.2
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1142100000000,
-    "retail_net_buy_krw": 964300000000,
+    "foreign_inst_buy_krw": -1980800000000,
+    "retail_net_buy_krw": 1762800000000,
     "margin_loan_krw": 37116600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -106,19 +106,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7735.66,
+      "current": 7484.41,
       "high_52w": 8933.62,
-      "drop_pct": -13.41,
+      "drop_pct": -16.22,
       "intraday_low_drop_pct": -16.69,
-      "sma_200": 4910.55,
+      "sma_200": 4909.29,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 936.35,
+      "current": 911.39,
       "high_52w": 1229.42,
-      "drop_pct": -23.84,
-      "intraday_low_drop_pct": -24.8,
-      "sma_200": 990.33,
+      "drop_pct": -25.87,
+      "intraday_low_drop_pct": -26.11,
+      "sma_200": 990.2,
       "below_sma200_streak": 1
     },
     "sp500": {
@@ -226,6 +226,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.06.08",
+            "close": 295500,
+            "change_pct": -10.18,
+            "retail_net": 5111500,
+            "inst_net": -3937194,
+            "foreign_net": -1174306
+          },
+          {
             "date": "2026.06.05",
             "close": 329000,
             "change_pct": -6.4,
@@ -256,17 +264,17 @@
             "retail_net": -3651830,
             "inst_net": 3832695,
             "foreign_net": -180865
-          },
-          {
-            "date": "2026.05.29",
-            "close": 317000,
-            "change_pct": 5.84,
-            "retail_net": -4252563,
-            "inst_net": 5314304,
-            "foreign_net": -1061741
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.08",
+            "close": 1911000,
+            "change_pct": -7.68,
+            "retail_net": 240761,
+            "inst_net": -86029,
+            "foreign_net": -154732
+          },
           {
             "date": "2026.06.05",
             "close": 2070000,
@@ -298,14 +306,6 @@
             "retail_net": -130929,
             "inst_net": 859988,
             "foreign_net": -729059
-          },
-          {
-            "date": "2026.05.29",
-            "close": 2333000,
-            "change_pct": 1.92,
-            "retail_net": 479843,
-            "inst_net": -42513,
-            "foreign_net": -437330
           }
         ]
       }
