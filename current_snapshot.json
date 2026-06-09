@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T08:19:32.173067+09:00",
+  "timestamp": "2026-06-09T10:25:48.138003+09:00",
   "sentiment": {
     "cnn_fng": 40.1142857142857,
     "cnn_components": {
@@ -15,8 +15,20 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 6,
-      "fear_count": 12,
+      "fear_count": 21,
       "greed_articles": [
+        {
+          "title": "롤러코스터 증시에 하루 ‘반대매매’ 1662억...올해 최대 청산에 빚투 개미들 비명 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaVg1dHV0MUlYbjNSSjZmMGJiY1VwMFBzNFpYdnNKVnkwdFR2WDY5ZXhXZXJlaFFrUXRwd1o3N25RSWJ1dmprVVAwTjFxRG5yd05zZy1GdWlHOGhKVFpnRjFtejI3T1ltSmJoY2VfUkNxRUNXS2N6QnNnR1dabEhjVw?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:49:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "\"美증시 버블이라 보기엔 아직 부족해\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VdnRyWnpNUWtKUlF0N1RPdkp6ZjJiSlg1aUwyZWlRdzNwQ3pCSzNYZjcweVlYUXlrQUgxN1R4QmZvdmx3U1RHZklTV0FyZlB1LUZ5THlEYVRjTVlxOTZuRWtqOVpaaC0wVjBfRXdXUGs?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:57:29 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "뉴욕증시, 저가 매수세에 기술주 안도…나스닥 0.9%↑ - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSEJRWTVpaU1Lbi1QS1hPcVR1bVdiUVlabkVUY3hsLTZWdVJKbnFCR2hYVndnOU1SX2UwOWQ2TUlwV2Vpa3RBM3Z4bGpfLXdWQ0k2UjktRlNSYjRGdkdPMEhucVI5cHpOc09XM2t4Yjg?oc=5",
@@ -24,59 +36,47 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "[뉴욕증시-1보] 저가 매수세에 일단 기술주 반등…나스닥 0.9%↑ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93MFhhMVROQmZTdmdoamRyY2JnZnMxT0JHbFRZNG0zR0VtT09KS2tEOXZERWZKQmRaZEJVZ0VJN3I2UGczX3JwejZ2NGdVSUVZdVkxTUpuNmg2RlY2Y3hXYUx0cG1uSDhweDBJZkNhSDhsR0tH0gF0QVVfeXFMT3cwWGExVE5CZlN2Z2hqZHJjYmdmczFPQkdsVFk0bTNHRW1PT0pLa0Q5dkRFZkpCZFpkQlVnRUk3cjZQZzNfcnB6NnY0Z1VJRVl1WTFNSm42aDZGVjZjeFdhTHRwbW5IOHB4MElmQ2FIOGxHS0c?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 20:16:22 GMT",
+          "title": "\"아직 FOMO 정점 아니다…현 美증시 단기 조정 중\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oMm1Rc3JaWUNoM0VPaElMUTZkaDk2S3BoQmVKR085dENNR0FXeFNqMldLeWVFVWt2UjByRzhDYjJXbmU4c2NfdHhZZnRjRldfbHVDUnd3bG1HbkNtZnFfMWNNVWRxeWV0dWFYSUZ4c2U?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:28:53 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "[칼럼]버블과 정상화, 기로에 선 한국 증시 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MM01vZVI3Y2k4SG1ZNm5WOGN3YjJWUXRiRFdEYUNUamNWRE8tNzRFbzUwcDA0cXc3bHprWlh3dWZsRDAxV2wtY2dPRVduZ28?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 20:03:07 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[데스크칼럼] 포모(FOMO) 공포에 빠진 코스닥 상장사 - 뉴스톱",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtRThKR3RScDdEMS1vYndPeXM1dFU1QmJoVlI3RGFTWXc1UzliZk5CYWEyUjMxRUtNN2JHQmNPTXRjRndvbEpjRXg2bEp0WFh1OHoyVEs1Sy0wZVM2Tm1GMGZRYWItWUlNcm9sMnR2QQ?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 20:44:01 GMT",
-          "source": "뉴스톱"
-        },
-        {
-          "title": "코스닥 제약지수 두 달 새 41% 급락…“수급 악화·섹터 쏠림 영향” - 메디코파마",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LV1ZJNVdLZmlJVkotTUVFNGpjaDhNODNYX1BZdUZOODlGRHZVbWFFekwxT0M1d3ZOUUZsbW85eHNJSkZVQUR1Y0ItRE4teWtSWm1KR2JaSGZ4T01IOHA2eEVpYThYLU1GMjV2RHBZMk0zQQ?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 22:38:42 GMT",
-          "source": "메디코파마"
+          "title": "AI붐 타고 코스피 266.8% ‘폭풍성장’… 반도체 쏠림 극복은 과제[문화금융리포트 2026] - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9La2tRNkliV0tkeUpsTzdHWjdfbmNRaDVXSHlZazZTbTdnQmlqNjBiZWxudlREempZZ0xVX2N4OEVOSlFPYXRMVEJUbWhYR1Ex?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:11:34 GMT",
+          "source": "문화일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "[경제]코스피 폭락에 삼성전자 글로벌 시총 11위로 밀려 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xbjh3ZUo5LUcxM0lEak9XblF4NnJUQ3ZYQkNQTUUzS0dCbGJQb3F5NF9RbWFabnk0d1ZlbXRHaGNueEpmejJyVmcwanRTYlhKOS1Xb1F2SXZHSG9fZFJLdF81Qkx2VndRWG4tWkhnVQ?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 19:19:00 GMT",
-          "source": "YTN"
+          "title": "코스피, 급락 딛고 하루 만에 반등…7,690선 출발 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11ZW02RFJaSXpCekZWbElWMmRLUVEyNllhX1RPZksxcUJhSTd0VU8yb0FUOVF6OVVfc2tZMk1ZN0o5X2ZhUnBDUDlXU19iOXByZW1hbFAtSWpfN0R3T1FLclBXaUFTbkk?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:05:44 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "골드만삭스 \"코스피 급락은 기술적 조정\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sWXlyMTl5VHB6VzNHWVZoSmtPZWlybFR4bnJFTDJmdU9EcTUza2tIMWNFVEZqNUNEaE40N3k0SnVUZmZhOE1veUFWWkhnOEk?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 21:51:07 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 하루 만에 급락 딛고 4%대 반등…장중 매수 사이드카 발동 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBRGlHcmRYb2tqSlNoWUZJVzhWS0FkQWsyRS1yaVZHNi0zWlQ2Nkgtc3VsWXh5T1hFbjFqajVwN1ZrMjN5YlhvdmlXd19RaTBmWWlDTXNDOXNXT1RBVnlMdzlpNXFOTXFRRFpUb0tSQXA?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:30:27 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 급락 '검은 월요일'... 8.29% 하락, 올해 두 번째 낙폭 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJYzhPYk1sQ3hKaDJNcTJ0SURSZVl6Z21DVjhSRFZhN0RPT2JwYlZUYXNmSEprRHJPT2tMYzNFdGNFRGxTbmFRWTNJWlRRUTctbU5ORVE2cmZzUmFNeWc?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 22:11:00 GMT",
-          "source": "YTN"
+          "title": "‘미국발 겹악재’ 코스피 8% 급락…서킷 브레이커 발동 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GbkVyMVJCSGpUblJNOVc1YjRLU1ZmMTJFS21oS1hGTlhnVWpsZ19YOU90b1ZRN2JyU1ZYLTRlbnprbVJyc2tSRWdWV0lEbFRoYXJqbQ?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 23:04:00 GMT",
+          "source": "JTBC"
         },
         {
-          "title": "코스피 하루 8% 급락 후 과거에는 어땠나…\"실적주 선별 기회\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYV0pmUHhieWdNdDQ0UXlhblVINWJMQVBCMWt4SGJQRjYzdS1wQm9ZNHM1TXNHNmdGeTlGLThSZ0dsSFREMk56NWphRlRVZ2ttaElYbGhrMW91MU1KYUhwcmdQVkl1VXc4Sm9KaGoxRjZ5TXNCRkFLMNIBeEFVX3lxTFBYV0pmUHhieWdNdDQ0UXlhblVINWJMQVBCMWt4SGJQRjYzdS1wQm9ZNHM1TXNHNmdGeTlGLThSZ0dsSFREMk56NWphRlRVZ2ttaElYbGhrMW91MU1KYUhwcmdQVkl1VXc4Sm9KaGoxRjZ5TXNCRkFLMA?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 22:00:00 GMT",
-          "source": "뉴시스"
+          "title": "코스피, 폭락 딛고 4%대 반등…매수 사이드카 발동 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lRDNlWnVkSWpfc3J3VXZLNmc3bEJHRVl5bEhSU2lBcV9vQjctcjhnaE05WmhmUkQzbC1MSFNoVlZZYUd5ZzRHMmhzX084LWkzSXg2NlBwTGNqdktGX1p6STUxM2JfUVk?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 00:47:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "[뉴욕증시] 반도체 반등 속 다우지수만 하락…'공포지수' 13% 폭락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zSHRzQ2FINGxLSlFaRndrWkc1cEpfb2h0alNoOE9qQlVrZUFpd0lKLTRGek9yakhDeWdxUXJJODIxanVhaEpwSTJkRC1iZVE?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 20:25:22 GMT",
+          "title": "[마켓뷰] 코스피, 급락 딛고 반등 시도하나…당분간 변동성 주목 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tMjhRWXZqV0J5NXozTWZyajlocks4bndDNy1aUmphS0RMcG5vRHNGeGdOVGRyR2dwZXRUVXRMS2VBbjc3SlFTVXFDcDRDaWM?oc=5",
+          "pub_date": "Mon, 08 Jun 2026 23:18:50 GMT",
           "source": "v.daum.net"
         }
       ]
@@ -89,8 +89,8 @@
     "move": 76.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1980800000000,
-    "retail_net_buy_krw": 1762800000000,
+    "foreign_inst_buy_krw": -439400000000,
+    "retail_net_buy_krw": 423100000000,
     "margin_loan_krw": 37228200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -106,20 +106,20 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8160.59,
+      "current": 7692.04,
       "high_52w": 8933.62,
-      "drop_pct": -8.65,
-      "intraday_low_drop_pct": -10.02,
-      "sma_200": 4888.01,
+      "drop_pct": -13.9,
+      "intraday_low_drop_pct": -14.09,
+      "sma_200": 4910.33,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1002.44,
+      "current": 961.89,
       "high_52w": 1229.42,
-      "drop_pct": -18.46,
-      "intraday_low_drop_pct": -19.25,
-      "sma_200": 989.68,
-      "below_sma200_streak": 0
+      "drop_pct": -21.76,
+      "intraday_low_drop_pct": -23.78,
+      "sma_200": 990.97,
+      "below_sma200_streak": 2
     },
     "sp500": {
       "current": 7405.73,
