@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-09T14:39:53.146282+09:00",
+  "timestamp": "2026-06-09T17:50:05.972448+09:00",
   "sentiment": {
-    "cnn_fng": 40.0857142857143,
+    "cnn_fng": 39.3714285714286,
     "cnn_components": {
       "momentum": 64.6,
-      "strength": 30.8,
-      "breadth": 24.0,
+      "strength": 29.8,
+      "breadth": 20.0,
       "put_call": 58.0,
       "junk_bond": 10.4,
       "volatility": 50.0,
@@ -14,83 +14,83 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 16,
+      "greed_count": 6,
+      "fear_count": 18,
       "greed_articles": [
         {
-          "title": "롤러코스터 증시에 하루 ‘반대매매’ 1662억...올해 최대 청산에 빚투 개미들 비명 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaVg1dHV0MUlYbjNSSjZmMGJiY1VwMFBzNFpYdnNKVnkwdFR2WDY5ZXhXZXJlaFFrUXRwd1o3N25RSWJ1dmprVVAwTjFxRG5yd05zZy1GdWlHOGhKVFpnRjFtejI3T1ltSmJoY2VfUkNxRUNXS2N6QnNnR1dabEhjVw?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 00:49:00 GMT",
-          "source": "조선일보"
+          "title": "증시 급락 이틀간 반대매매 3천억원 쏟아져…빚투 직격탄 - 티제이비",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNbWlRVUlBVnhFTzBHc1hGY3JWem5wZmhoNi1pR0hYWVJSYXBPZThGV0djbTVoQ3dGcEpiV19zQ29Yd2RPbk5LU0NBVzVaZW9aaHM1aE5OTnlKZERoR3ZmSVhXTnZhM0l0Y3Rz?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:02:39 GMT",
+          "source": "티제이비"
         },
         {
-          "title": "\"美증시 버블이라 보기엔 아직 부족해\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VdnRyWnpNUWtKUlF0N1RPdkp6ZjJiSlg1aUwyZWlRdzNwQ3pCSzNYZjcweVlYUXlrQUgxN1R4QmZvdmx3U1RHZklTV0FyZlB1LUZ5THlEYVRjTVlxOTZuRWtqOVpaaC0wVjBfRXdXUGs?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 00:57:29 GMT",
-          "source": "연합인포맥스"
+          "title": "[중국증시-마감] 반도체 저가 매수에 반등 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhamxXcWF6VGJLNG02OXY0WlJ0XzhXLW5BQWhVVFNFbktyY1djUS1vT0RSSGlWREdDYk9pTWhvd3ZUV3J0b3o1Wk1Ba3phQ1NRWlFPZndHdklvNFJ3Rl9rVDVrSEpYM21uVmRhM1VGNGtqdw?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:22:32 GMT",
+          "source": "KB Think"
         },
         {
-          "title": "AI붐 타고 코스피 266.8% ‘폭풍성장’… 반도체 쏠림 극복은 과제[문화금융리포트 2026] - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9La2tRNkliV0tkeUpsTzdHWjdfbmNRaDVXSHlZazZTbTdnQmlqNjBiZWxudlREempZZ0xVX2N4OEVOSlFPYXRMVEJUbWhYR1Ex?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 00:11:34 GMT",
-          "source": "문화일보"
+          "title": "“공포에 산 개미가 옳았다”...코스피, 폭락 딛고 8%대 급등 ‘대반전’ - ntoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FdGRHRGlQMkZqd09LMENZcWVxQVZFQUJneDFLNm1yY29kR1loalh1eG8zM1NzRXZtSFhfWUNyNmNEWVpMR2RScHo2cTRkOWNXLUJOOEtLTnU3azB2OHVaRDNzUlhsRWc2eVQ40gFvQVVfeXFMTS1FdXJZT1VPa2wzWVRXZ1ViRHQwbWptaXktSmpIMDJzTE55U2JtWUp5OUtLcHVnU2FUcjZzMzFsdFdUZWFEOGZtLVdURWR3a0tOYTI4OE03RF8zd0JyRkY2M1ZUSVNQTXNnN0NWdmRZ?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:23:05 GMT",
+          "source": "ntoday.co.kr"
         },
         {
-          "title": "증시급락에 찾아온 공포...떠는 '빚투·레버리지 올인' 투자자 [이슈톺] - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KZTY1RV9XUGs2M2NaX1dNU3VmQkgwYXNiWmVpMVZENHE2cE5kaVpSTGE0cjduYnlhQXozb194UWNldUw2NTVaZ2kxY19xMkRIRDRoNTMxdV85RWwtRXc?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 01:37:00 GMT",
-          "source": "YTN"
+          "title": "'레벨 부담' 덜어낸 코스피 8090대로 쏠림현상 해소…SK하이닉스 16%↑ - 중소기업신문",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tVDI3bHdteGhyZkpMWGRGYmZTckhCa0I3RlVhX2lnRmdKVl8ya042M3JPYTVoenBHRTFPX0Q2cEVaQ29wSlBOWUVoSDQ1YUt0Qy05TnFxclpaTkxUNDVlb3RnNE5qU1BpVHo1OXJn?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:05:15 GMT",
+          "source": "중소기업신문"
         },
         {
-          "title": "뉴욕증시, 저가 매수세에 기술주 안도…나스닥 0.9%↑ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSEJRWTVpaU1Lbi1QS1hPcVR1bVdiUVlabkVUY3hsLTZWdVJKbnFCR2hYVndnOU1SX2UwOWQ2TUlwV2Vpa3RBM3Z4bGpfLXdWQ0k2UjktRlNSYjRGdkdPMEhucVI5cHpOc09XM2t4Yjg?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 20:50:38 GMT",
-          "source": "연합인포맥스"
+          "title": "반도체 쏠림에 밀린 충청권…증시 온기 못 누렸다 - 충청투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GeXJ1c2E1TnRCRHFMOEI2bGJsMm9lZ2FzX0RBdmxXTWY2RlVPZy04U3I4dmpGT25SZTJTWHFuMkVmUHNYcjhVNEJVdlNEVHhGTUh1MF9pMmZEQTBlR0luQzluUkRMeTZhcmRQa0NB?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 06:46:00 GMT",
+          "source": "충청투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "급락 하루만에…코스피·코스닥 ′매수 사이드카′ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Ib1ZCVVJPbklyYTRrZFNLdmI0ZDFFNmhZUWczcHNlQlR2aTdxY1lHMTRPd0xXM2pyNS12NDltdHdZV0dhS0pJZWZiejc1c203NEFKc3E0ZkxpMUtyRGl2RnhEVVhSS1E?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 03:38:21 GMT",
-          "source": "연합뉴스TV"
+          "title": "코스피 급락 이틀간 개인 보유 3000억 '강제처분' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sa1daM1FzX2xoMW1IMWpmZzRHbFNxYjh4ekFkME9kTVlXd2RSX0FHclVrcW1WeVVyd0lvUkQ3QUM2OHY1SkVEczhJMjN5UGpSeUVJUlNqbHBRd9IBVEFVX3lxTE5Zd2R5aTZQcnNrVHluM1o5aTduak5OcGR4RHU4LW9LUDRwQ2RUNXdJOWI2VFZacF9GRW9TVlhBaFp0akFOTjUxOGhtUlpiMGFZY0p5MQ?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:29:10 GMT",
+          "source": "한국경제"
         },
         {
-          "title": "코스피, 하루 만에 급락 딛고 4%대 반등…장중 매수 사이드카 발동 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZcTFNelJDczRZLS1tdmpxY2dJbXBoMnpxcDVDSGlGaEtKaC0zdEI1SHZadEMzd1dSWmp4TTRIdVcxWF91dE1ZV3F6RnYzNHA2Z1dsY3FUTTlzbExhekxvVERMNUNfQ0p1S0luLWVJNUFiRmE3?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 00:36:04 GMT",
-          "source": "연합인포맥스"
+          "title": "[속보] 코스피, 8% 급등해 8천피 회복…전날 급락분 만회 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LTUpkTEpwX1lQQU1HNnctNjlxY2tyQ2dfWFl4WXp2aXhZcURtdUdJQVJSdU4xMWd4dTlYcUI4UGM5Mmo0NWR4dUd5SUkwZk0?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 06:35:12 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "[마켓뷰] 코스피, 급락 딛고 반등 시도하나…당분간 변동성 주목 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xYzE3RkdULUt0NmpLbWFjRmU3LTI1TVhYZ1VpWk5BUGNVWVlqaktYRmhCSXdJYnMtTDloY2hQSlFoMEVEZlc2ZWM0NXpfU1llNE1DZlQ5a2pUUTTSAWBBVV95cUxPYTRoeTNCZU1MX29renRZUWNfOWlfbHpDOC0yTDB6Xy1xdTJQZHRsUGFHbXd2dzlFd2ZxVXJvUHhxM0ZKYlpsaHpjMmd6TkN6M3NrRkYxQWNEMldtVWl6Z18?oc=5",
-          "pub_date": "Mon, 08 Jun 2026 23:16:51 GMT",
+          "title": "[속보] 코스피, 8% 급등해 8천피 회복…전날 급락분 만회 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zdV9lVm9COFRlNkhncG5SUEozcjhlM2xtZ29HZlpQbnd3X1hNd1V4QktSQmJuVW1mMEpNWW1pZmN0aHdpQkc4NjlPS3lydFZ4SlQ2V1Fwdmp2Slh0SGZzc9IBYEFVX3lxTE9zdV9lVm9COFRlNkhncG5SUEozcjhlM2xtZ29HZlpQbnd3X1hNd1V4QktSQmJuVW1mMEpNWW1pZmN0aHdpQkc4NjlPS3lydFZ4SlQ2V1Fwdmp2Slh0SGZzcw?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 06:33:42 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "코스피, 폭락 딛고 4%대 반등…매수 사이드카 발동 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lRDNlWnVkSWpfc3J3VXZLNmc3bEJHRVl5bEhSU2lBcV9vQjctcjhnaE05WmhmUkQzbC1MSFNoVlZZYUd5ZzRHMmhzX084LWkzSXg2NlBwTGNqdktGX1p6STUxM2JfUVk?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 00:51:00 GMT",
-          "source": "한겨레"
+          "title": "코스피 급락 이틀간 개인 보유 3천억원 주식 '강제처분' - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mWGJfOWVrc2RDb1NSYmJqVlBNZklHRUdwSEhiNGxlTVQzTXNMUW1PZVlLVnlpTEhUQzNPQ2RjUk0xUXRWVWp4YWs0MlVWLXJCc0hfTHE2dUhVWnFFdWk2V9IBYEFVX3lxTE5mWGJfOWVrc2RDb1NSYmJqVlBNZklHRUdwSEhiNGxlTVQzTXNMUW1PZVlLVnlpTEhUQzNPQ2RjUk0xUXRWVWp4YWs0MlVWLXJCc0hfTHE2dUhVWnFFdWk2Vw?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 06:48:50 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "'검은 월요일' 코스피·코스닥 폭락...오늘 증시는? - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xNzJvRlFKcmVucDlfUTRZdHBMZllDZEs0UXd5bnBqY0tHQ2djYlZya0ZCUERnbTlvb09mM2tjU21CVUlpTThrdkdVakVSa3hGcGNiN2wtb1lfX2pqVUE?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 00:14:00 GMT",
-          "source": "YTN"
+          "title": "[오후장 체크포인트] 폭락장 딛고 반등한 코스피 이대로 안도랠리 진입? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sLXF2RTBkbW94SzdhdlFEWjM4bWV1d3FHaTF6U01nWjRaYkF4Q3NwNmI5YUI1VEFndlNNQlpFcGFjQUFUbzJtWkljaG02ZjA?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 05:07:23 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.92,
+    "vix": 18.17,
     "vvix": 92.4,
     "skew": 145.0,
     "move": 76.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 342300000000,
-    "retail_net_buy_krw": -430000000000,
+    "foreign_inst_buy_krw": 498500000000,
+    "retail_net_buy_krw": -618200000000,
     "margin_loan_krw": 37228200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -106,19 +106,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8050.91,
+      "current": 8096.93,
       "high_52w": 8933.62,
-      "drop_pct": -9.88,
+      "drop_pct": -9.37,
       "intraday_low_drop_pct": -14.94,
-      "sma_200": 4933.5,
+      "sma_200": 4933.73,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 976.27,
+      "current": 967.81,
       "high_52w": 1229.42,
-      "drop_pct": -20.59,
+      "drop_pct": -21.28,
       "intraday_low_drop_pct": -23.78,
-      "sma_200": 991.04,
+      "sma_200": 991.0,
       "below_sma200_streak": 2
     },
     "sp500": {
