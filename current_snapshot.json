@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T17:50:05.972448+09:00",
+  "timestamp": "2026-06-09T21:13:32.907760+09:00",
   "sentiment": {
     "cnn_fng": 39.3714285714286,
     "cnn_components": {
@@ -14,20 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 18,
+      "greed_count": 3,
+      "fear_count": 21,
       "greed_articles": [
         {
-          "title": "증시 급락 이틀간 반대매매 3천억원 쏟아져…빚투 직격탄 - 티제이비",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNbWlRVUlBVnhFTzBHc1hGY3JWem5wZmhoNi1pR0hYWVJSYXBPZThGV0djbTVoQ3dGcEpiV19zQ29Yd2RPbk5LU0NBVzVaZW9aaHM1aE5OTnlKZERoR3ZmSVhXTnZhM0l0Y3Rz?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:02:39 GMT",
-          "source": "티제이비"
-        },
-        {
-          "title": "[중국증시-마감] 반도체 저가 매수에 반등 - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhamxXcWF6VGJLNG02OXY0WlJ0XzhXLW5BQWhVVFNFbktyY1djUS1vT0RSSGlWREdDYk9pTWhvd3ZUV3J0b3o1Wk1Ba3phQ1NRWlFPZndHdklvNFJ3Rl9rVDVrSEpYM21uVmRhM1VGNGtqdw?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:22:32 GMT",
-          "source": "KB Think"
+          "title": "[중국증시-마감] 반도체 저가 매수에 반등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4ZmRYcGI3WjdQY1ZnZTdvOW13NFBBOUJ1WlBmcUg4OWdLQlh6QXRsRDBNY2FEd3lFSWFvaksxQzZObUhWOVJCUmdrMktHWFhXd2lwLUozUEo2Mk56NFZNRDRndDB2bjVmNURBUTBrb3E?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 09:22:44 GMT",
+          "source": "연합인포맥스"
         },
         {
           "title": "“공포에 산 개미가 옳았다”...코스피, 폭락 딛고 8%대 급등 ‘대반전’ - ntoday.co.kr",
@@ -36,61 +30,55 @@
           "source": "ntoday.co.kr"
         },
         {
-          "title": "'레벨 부담' 덜어낸 코스피 8090대로 쏠림현상 해소…SK하이닉스 16%↑ - 중소기업신문",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tVDI3bHdteGhyZkpMWGRGYmZTckhCa0I3RlVhX2lnRmdKVl8ya042M3JPYTVoenBHRTFPX0Q2cEVaQ29wSlBOWUVoSDQ1YUt0Qy05TnFxclpaTkxUNDVlb3RnNE5qU1BpVHo1OXJn?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:05:15 GMT",
-          "source": "중소기업신문"
-        },
-        {
-          "title": "반도체 쏠림에 밀린 충청권…증시 온기 못 누렸다 - 충청투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GeXJ1c2E1TnRCRHFMOEI2bGJsMm9lZ2FzX0RBdmxXTWY2RlVPZy04U3I4dmpGT25SZTJTWHFuMkVmUHNYcjhVNEJVdlNEVHhGTUh1MF9pMmZEQTBlR0luQzluUkRMeTZhcmRQa0NB?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 06:46:00 GMT",
-          "source": "충청투데이"
+          "title": "증시 급락 이틀간 반대매매 3천억원 쏟아져…빚투 직격탄 - 티제이비",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNbWlRVUlBVnhFTzBHc1hGY3JWem5wZmhoNi1pR0hYWVJSYXBPZThGV0djbTVoQ3dGcEpiV19zQ29Yd2RPbk5LU0NBVzVaZW9aaHM1aE5OTnlKZERoR3ZmSVhXTnZhM0l0Y3Rz?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:02:39 GMT",
+          "source": "티제이비"
         }
       ],
       "fear_articles": [
+        {
+          "title": "8% 급락했다 하루만에 V자 반등…증시 널뛰기에 공포지수 최고 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUeVZPTXdRQy1HeEJEQm1WWEJhV0NrRWVIS1FVTXR3WExBWjFoR3h3dnZHYThTTHQycVZUNk1HN1d6Qlk4dDlHSDVyMDh6XzdpcnZPZHhoSE1QS2xqVVJ2bNIBYEFVX3lxTFBUeVZPTXdRQy1HeEJEQm1WWEJhV0NrRWVIS1FVTXR3WExBWjFoR3h3dnZHYThTTHQycVZUNk1HN1d6Qlk4dDlHSDVyMDh6XzdpcnZPZHhoSE1QS2xqVVJ2bA?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 07:39:51 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피 급락 이틀 동안 개인보유 주식 3천억 원 '강제처분' - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtYTlPc1hQYk9ISU0wN3VkenhhR3Vub2NXbnVraGFQWE16eklFSFVsQ3o4bmVuT0d6V1p4VUgtbmtDZ1M3UnZkNUtwdlRqcHZoaGRMYnF0QklhMG1lUVhlZFctRWE1ekNUeHJYcHZ3dlpSVjI50gF0QVVfeXFMTkg5dndTMk1hQjZ5bWpzY3FURmxvSTUxYzdkbjQzdUg2NWx0ajV5WmR5Yk1oT2NVUlNROEItY1hBYzB5UVdOanY3aE5GOGdtLWJfWDI2QjVld3dxbFFpZmt3bDNMbkpQY3dGdTBNQXJjdVFOcVQ?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 08:59:21 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "코스피 급락 이틀간 개인 보유 3천억원 주식 '강제처분' - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYbm55SnV5TE1oX3FVc0lFMTdrNkM4Q1VTV20xY3dycTMwV0dPOTZlT29Gc1VURzRzZDh4WUdNckZyWm9GUTBjaXIzQmtiQ0ZKdFRSUUlvdXotbHfSAWBBVV95cUxOZlhiXzlla3NkQ29TUmJialZQTWZJR0VHcEhIYjRsZU1UM01zTFFtT2VZS1Z5aUxIVEMzT0NkY1JNMVF0VlVqeGFrNDJVVi1yQnNIX0xxNnVIVVpxRXVpNlc?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 06:48:50 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[속보] 코스피, 8% 급등해 8천피 회복…전날 급락분 만회 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82dk4taVJFd1hoOHBjNVVGbkszTTlhWVE1RE83bGVuUVk2MjM5dzUxNDFwbnk4OGhhd3AzelJJRkREYlRnVnlqZzhJZzZRcmY0THpPQktVRENnQjTSAWBBVV95cUxPc3VfZVZvQjhUZTZIZ3BuUlBKM3I4ZTNsbWdvR2ZaUG53d19YTXdVeEJLUkJiblVtZjBKTVltaWZjdGh3aUJHODY5T0t5cnRWeEpUNldRcHZqdkpYdEhmc3M?oc=5",
+          "pub_date": "Tue, 09 Jun 2026 06:33:42 GMT",
+          "source": "연합뉴스"
+        },
         {
           "title": "코스피 급락 이틀간 개인 보유 3000억 '강제처분' - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sa1daM1FzX2xoMW1IMWpmZzRHbFNxYjh4ekFkME9kTVlXd2RSX0FHclVrcW1WeVVyd0lvUkQ3QUM2OHY1SkVEczhJMjN5UGpSeUVJUlNqbHBRd9IBVEFVX3lxTE5Zd2R5aTZQcnNrVHluM1o5aTduak5OcGR4RHU4LW9LUDRwQ2RUNXdJOWI2VFZacF9GRW9TVlhBaFp0akFOTjUxOGhtUlpiMGFZY0p5MQ?oc=5",
           "pub_date": "Tue, 09 Jun 2026 07:29:10 GMT",
           "source": "한국경제"
-        },
-        {
-          "title": "[속보] 코스피, 8% 급등해 8천피 회복…전날 급락분 만회 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LTUpkTEpwX1lQQU1HNnctNjlxY2tyQ2dfWFl4WXp2aXhZcURtdUdJQVJSdU4xMWd4dTlYcUI4UGM5Mmo0NWR4dUd5SUkwZk0?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 06:35:12 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[속보] 코스피, 8% 급등해 8천피 회복…전날 급락분 만회 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zdV9lVm9COFRlNkhncG5SUEozcjhlM2xtZ29HZlpQbnd3X1hNd1V4QktSQmJuVW1mMEpNWW1pZmN0aHdpQkc4NjlPS3lydFZ4SlQ2V1Fwdmp2Slh0SGZzc9IBYEFVX3lxTE9zdV9lVm9COFRlNkhncG5SUEozcjhlM2xtZ29HZlpQbnd3X1hNd1V4QktSQmJuVW1mMEpNWW1pZmN0aHdpQkc4NjlPS3lydFZ4SlQ2V1Fwdmp2Slh0SGZzcw?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 06:33:42 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 급락 이틀간 개인 보유 3천억원 주식 '강제처분' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mWGJfOWVrc2RDb1NSYmJqVlBNZklHRUdwSEhiNGxlTVQzTXNMUW1PZVlLVnlpTEhUQzNPQ2RjUk0xUXRWVWp4YWs0MlVWLXJCc0hfTHE2dUhVWnFFdWk2V9IBYEFVX3lxTE5mWGJfOWVrc2RDb1NSYmJqVlBNZklHRUdwSEhiNGxlTVQzTXNMUW1PZVlLVnlpTEhUQzNPQ2RjUk0xUXRWVWp4YWs0MlVWLXJCc0hfTHE2dUhVWnFFdWk2Vw?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 06:48:50 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[오후장 체크포인트] 폭락장 딛고 반등한 코스피 이대로 안도랠리 진입? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sLXF2RTBkbW94SzdhdlFEWjM4bWV1d3FHaTF6U01nWjRaYkF4Q3NwNmI5YUI1VEFndlNNQlpFcGFjQUFUbzJtWkljaG02ZjA?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 05:07:23 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.17,
+    "vix": 18.08,
     "vvix": 92.4,
     "skew": 145.0,
     "move": 76.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 498500000000,
-    "retail_net_buy_krw": -618200000000,
+    "foreign_inst_buy_krw": 498400000000,
+    "retail_net_buy_krw": -616700000000,
     "margin_loan_krw": 37228200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -215,16 +203,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.09",
+            "close": 322000,
+            "change_pct": 8.97,
+            "retail_net": -170849,
+            "inst_net": 1767022,
+            "foreign_net": -1596173
+          },
           {
             "date": "2026.06.08",
             "close": 295500,
@@ -256,17 +252,17 @@
             "retail_net": 7928709,
             "inst_net": 3088203,
             "foreign_net": -11016912
-          },
-          {
-            "date": "2026.06.01",
-            "close": 349000,
-            "change_pct": 10.09,
-            "retail_net": -3651830,
-            "inst_net": 3832695,
-            "foreign_net": -180865
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.09",
+            "close": 2215000,
+            "change_pct": 15.91,
+            "retail_net": -228549,
+            "inst_net": 854714,
+            "foreign_net": -626165
+          },
           {
             "date": "2026.06.08",
             "close": 1911000,
@@ -298,14 +294,6 @@
             "retail_net": 326359,
             "inst_net": 90158,
             "foreign_net": -416517
-          },
-          {
-            "date": "2026.06.01",
-            "close": 2363000,
-            "change_pct": 1.29,
-            "retail_net": -130929,
-            "inst_net": 859988,
-            "foreign_net": -729059
           }
         ]
       }
