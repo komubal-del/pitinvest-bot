@@ -1,78 +1,28 @@
 {
-  "timestamp": "2026-06-09T21:13:32.907760+09:00",
+  "timestamp": "2026-06-10T00:31:25.279561+09:00",
   "sentiment": {
-    "cnn_fng": 39.3714285714286,
+    "cnn_fng": 33.7142857142857,
     "cnn_components": {
-      "momentum": 64.6,
-      "strength": 29.8,
-      "breadth": 20.0,
-      "put_call": 58.0,
-      "junk_bond": 10.4,
+      "momentum": 48.8,
+      "strength": 30.8,
+      "breadth": 21.0,
+      "put_call": 41.8,
+      "junk_bond": 11.0,
       "volatility": 50.0,
-      "safe_haven": 42.8
+      "safe_haven": 32.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 21,
-      "greed_articles": [
-        {
-          "title": "[중국증시-마감] 반도체 저가 매수에 반등 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4ZmRYcGI3WjdQY1ZnZTdvOW13NFBBOUJ1WlBmcUg4OWdLQlh6QXRsRDBNY2FEd3lFSWFvaksxQzZObUhWOVJCUmdrMktHWFhXd2lwLUozUEo2Mk56NFZNRDRndDB2bjVmNURBUTBrb3E?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 09:22:44 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "“공포에 산 개미가 옳았다”...코스피, 폭락 딛고 8%대 급등 ‘대반전’ - ntoday.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FdGRHRGlQMkZqd09LMENZcWVxQVZFQUJneDFLNm1yY29kR1loalh1eG8zM1NzRXZtSFhfWUNyNmNEWVpMR2RScHo2cTRkOWNXLUJOOEtLTnU3azB2OHVaRDNzUlhsRWc2eVQ40gFvQVVfeXFMTS1FdXJZT1VPa2wzWVRXZ1ViRHQwbWptaXktSmpIMDJzTE55U2JtWUp5OUtLcHVnU2FUcjZzMzFsdFdUZWFEOGZtLVdURWR3a0tOYTI4OE03RF8zd0JyRkY2M1ZUSVNQTXNnN0NWdmRZ?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:23:05 GMT",
-          "source": "ntoday.co.kr"
-        },
-        {
-          "title": "증시 급락 이틀간 반대매매 3천억원 쏟아져…빚투 직격탄 - 티제이비",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNbWlRVUlBVnhFTzBHc1hGY3JWem5wZmhoNi1pR0hYWVJSYXBPZThGV0djbTVoQ3dGcEpiV19zQ29Yd2RPbk5LU0NBVzVaZW9aaHM1aE5OTnlKZERoR3ZmSVhXTnZhM0l0Y3Rz?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:02:39 GMT",
-          "source": "티제이비"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "8% 급락했다 하루만에 V자 반등…증시 널뛰기에 공포지수 최고 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUeVZPTXdRQy1HeEJEQm1WWEJhV0NrRWVIS1FVTXR3WExBWjFoR3h3dnZHYThTTHQycVZUNk1HN1d6Qlk4dDlHSDVyMDh6XzdpcnZPZHhoSE1QS2xqVVJ2bNIBYEFVX3lxTFBUeVZPTXdRQy1HeEJEQm1WWEJhV0NrRWVIS1FVTXR3WExBWjFoR3h3dnZHYThTTHQycVZUNk1HN1d6Qlk4dDlHSDVyMDh6XzdpcnZPZHhoSE1QS2xqVVJ2bA?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:39:51 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 급락 이틀 동안 개인보유 주식 3천억 원 '강제처분' - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtYTlPc1hQYk9ISU0wN3VkenhhR3Vub2NXbnVraGFQWE16eklFSFVsQ3o4bmVuT0d6V1p4VUgtbmtDZ1M3UnZkNUtwdlRqcHZoaGRMYnF0QklhMG1lUVhlZFctRWE1ekNUeHJYcHZ3dlpSVjI50gF0QVVfeXFMTkg5dndTMk1hQjZ5bWpzY3FURmxvSTUxYzdkbjQzdUg2NWx0ajV5WmR5Yk1oT2NVUlNROEItY1hBYzB5UVdOanY3aE5GOGdtLWJfWDI2QjVld3dxbFFpZmt3bDNMbkpQY3dGdTBNQXJjdVFOcVQ?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 08:59:21 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "코스피 급락 이틀간 개인 보유 3천억원 주식 '강제처분' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYbm55SnV5TE1oX3FVc0lFMTdrNkM4Q1VTV20xY3dycTMwV0dPOTZlT29Gc1VURzRzZDh4WUdNckZyWm9GUTBjaXIzQmtiQ0ZKdFRSUUlvdXotbHfSAWBBVV95cUxOZlhiXzlla3NkQ29TUmJialZQTWZJR0VHcEhIYjRsZU1UM01zTFFtT2VZS1Z5aUxIVEMzT0NkY1JNMVF0VlVqeGFrNDJVVi1yQnNIX0xxNnVIVVpxRXVpNlc?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 06:48:50 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[속보] 코스피, 8% 급등해 8천피 회복…전날 급락분 만회 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82dk4taVJFd1hoOHBjNVVGbkszTTlhWVE1RE83bGVuUVk2MjM5dzUxNDFwbnk4OGhhd3AzelJJRkREYlRnVnlqZzhJZzZRcmY0THpPQktVRENnQjTSAWBBVV95cUxPc3VfZVZvQjhUZTZIZ3BuUlBKM3I4ZTNsbWdvR2ZaUG53d19YTXdVeEJLUkJiblVtZjBKTVltaWZjdGh3aUJHODY5T0t5cnRWeEpUNldRcHZqdkpYdEhmc3M?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 06:33:42 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 급락 이틀간 개인 보유 3000억 '강제처분' - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sa1daM1FzX2xoMW1IMWpmZzRHbFNxYjh4ekFkME9kTVlXd2RSX0FHclVrcW1WeVVyd0lvUkQ3QUM2OHY1SkVEczhJMjN5UGpSeUVJUlNqbHBRd9IBVEFVX3lxTE5Zd2R5aTZQcnNrVHluM1o5aTduak5OcGR4RHU4LW9LUDRwQ2RUNXdJOWI2VFZacF9GRW9TVlhBaFp0akFOTjUxOGhtUlpiMGFZY0p5MQ?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 07:29:10 GMT",
-          "source": "한국경제"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.08,
-    "vvix": 92.4,
+    "vix": 19.16,
+    "vvix": 93.61,
     "skew": 145.0,
     "move": 76.98
   },
@@ -86,61 +36,61 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25929.66,
+      "current": 25450.58,
       "high_52w": 27190.21,
-      "drop_pct": -4.64,
-      "intraday_low_drop_pct": -4.85,
-      "sma_200": 23346.01,
+      "drop_pct": -6.4,
+      "intraday_low_drop_pct": -6.47,
+      "sma_200": 23367.76,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8096.93,
+      "current": 7484.41,
       "high_52w": 8933.62,
-      "drop_pct": -9.37,
-      "intraday_low_drop_pct": -14.94,
-      "sma_200": 4933.73,
+      "drop_pct": -16.22,
+      "intraday_low_drop_pct": -16.69,
+      "sma_200": 4909.29,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 967.81,
+      "current": 911.39,
       "high_52w": 1229.42,
-      "drop_pct": -21.28,
-      "intraday_low_drop_pct": -23.78,
-      "sma_200": 991.0,
-      "below_sma200_streak": 2
+      "drop_pct": -25.87,
+      "intraday_low_drop_pct": -26.11,
+      "sma_200": 990.2,
+      "below_sma200_streak": 1
     },
     "sp500": {
-      "current": 7405.73,
+      "current": 7321.09,
       "high_52w": 7620.9,
-      "drop_pct": -2.82,
-      "intraday_low_drop_pct": -2.96,
-      "sma_200": 6863.31,
+      "drop_pct": -3.93,
+      "intraday_low_drop_pct": -3.96,
+      "sma_200": 6868.06,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2855.42,
+      "current": 2867.3,
       "high_52w": 2943.97,
-      "drop_pct": -3.01,
-      "intraday_low_drop_pct": -3.08,
-      "sma_200": 2574.7,
+      "drop_pct": -2.6,
+      "intraday_low_drop_pct": -2.87,
+      "sma_200": 2577.67,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 571.45,
+      "current": 549.6,
       "high_52w": 618.84,
-      "drop_pct": -7.66,
-      "intraday_low_drop_pct": -9.38,
-      "sma_200": 346.0,
+      "drop_pct": -11.19,
+      "intraday_low_drop_pct": -11.36,
+      "sma_200": 347.54,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.207,
-    "SMH": 1.388,
-    "BOTZ": 0.972,
-    "IGV": 0.998,
-    "XLF": 0.95,
-    "XLE": 0.954
+    "XLK": 1.184,
+    "SMH": 1.359,
+    "BOTZ": 0.959,
+    "IGV": 0.974,
+    "XLF": 0.962,
+    "XLE": 0.947
   },
   "signals": {
     "cnn_under_10": false,
@@ -180,19 +130,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 73.46,
+    "tqqq_profit_pct": 63.02,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 295.21,
+    "soxl_profit_pct": 251.93,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 92.9,
+    "koru_profit_pct": 82.83,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
