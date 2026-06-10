@@ -1,96 +1,96 @@
 {
-  "timestamp": "2026-06-10T10:35:31.568589+09:00",
+  "timestamp": "2026-06-10T15:07:14.425983+09:00",
   "sentiment": {
-    "cnn_fng": 33.4285714285714,
+    "cnn_fng": 33.5428571428571,
     "cnn_components": {
       "momentum": 52.0,
       "strength": 30.2,
       "breadth": 21.4,
       "put_call": 38.6,
-      "junk_bond": 6.8,
+      "junk_bond": 7.6,
       "volatility": 50.0,
       "safe_haven": 35.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 12,
-      "fear_count": 7,
+      "greed_count": 6,
+      "fear_count": 33,
       "greed_articles": [
         {
-          "title": "코스피 조정에 개미 '빚투'…이틀간 마통 6천억 증가 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8ydzBhbmhwMEVWYnRLOTdRRXRCZlVLd25FbGkySTlmNTYzR2FlS1JPZkZnUnphd1NqMVlkM3plVkVyWDlCMXE2OHpDSzk1bXR0NkVBaUhSOW5TN082M0szSA?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 20:51:01 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 ‘출렁’에도 개미들 ‘빚투’ 나섰다…이틀간 마통 6000억 증가 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83Z2Zic1ZQSFZ0V25qaDBCMzZVeGpfMVAxS3JMMVVSNXhkcHdVRUMxeV9Qal83akkzLV9QbnRGY2dzRVE0bGRLQ0J6cTVBVFU?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 00:06:48 GMT",
+          "title": "\"코스피 반등해도 코스닥 부진은 그대로\"…쏠림장 후폭풍 넘을까 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9heFJmRXNjOFZYQXlpdE4tbTRUR3lUeVV5NktCSzJkOGp5T3hIZ2lSRmtyb1h4Y1doZ3p0NUtuc3Rhd1dwT0V6S0YtUEZYTkE?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 05:07:02 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "[속보] 코스피 8,000선 이탈·환율 요동…'빚투' 개미들 마통 잔액 6천 억 급증 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBweG1CV3hWb1FqaTJua0R1Z29GbHRqaElRdkZ4aWN2WDk0Q0pwSFhDR21KVnlIN1YxczktMkZ5QndqR202QVVZbXJVSjV0cDA?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 00:22:46 GMT",
+          "title": "코스피 8,000선 이탈·환율 요동…'빚투' 마통 잔액 6천 억 급증 - 경기일보",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GNS0zRmdUSTB5bElxWUVEQU5ROVdSbktGN05BT1phejlkeV94R0szNEhMT2JPRExGcU52anFzaXY4eWttcE4zUE1RQmhnaFlSWTU4aC1kaFctTzg?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 00:22:00 GMT",
+          "source": "경기일보"
+        },
+        {
+          "title": "[경제읽기] '롤러코스터' 장세 지속…코스피 조정에 '빚투'↑ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LLTVUbklKMDRqVlVnekg3ekF3b3h1ZW1Pc3g2UGlzMkxDYVpvTm1iYWJESVdxUVRwSmZ6U3lWcWZWRW41aGJTbld2YlV5ZUE?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 04:15:25 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "코스피 급락하자 개미들 ‘빚투’ 급증…이틀간 마통 6000억원 증가 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuUml1V04wbEQxMUF4azZsWXpMaDV6V29fY1pqc2NqQlNpMm81bGd1eFRwa09KXzFSVlVZM0pRSXNPZlVERHNBUEhpVktsUnc?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 23:40:48 GMT",
+          "title": "고환율은 여전, 美 증시 쏠림도 지속…RIA 두 마리 토끼 놓쳤나 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OdHZHSnl5VTNYLU1qQm5iSFo0V0hMcXpkWXIzcWFaY1RwSEFoQ0RBejdPTjJVMTZxOTIyeDRoRkY5cDl3TUNRaEFiRDQzMkE?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 05:30:47 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "[뉴스초점] 코스피 변동성에 개미 '빚투'…마통 대출 급증 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82cXFnRzVrX04zTTJVT2xqeWxneVk5RGZobkZTa0ZKOVBydzhJemY0eE1SUXhUZ1l1T005empjQ2xES2M1VmZfUnRHd0RKVWc?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 00:05:30 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 급락하자 빚내서 샀다…마통 잔액 이틀 새 6058억 늘어 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01bUlZR3huanBFRklrSjhIX0NUTlA1V0xxZWwxRDJTTUt4TVNkdTFWVE5RSlljMEdqV0VqdmpqU0gtTmVlRGFucGhzemEtUmhiclMyTFJET0pueXM5VTZ0RVdYZGZmVFROcXVlSVZ30gFuQVVfeXFMTTVtSVlHeG5qcEVGSWtKOEhfQ1ROUDVXTHFlbDFEMlNNS3hNU2R1MVZUTlFKWWMwR2pXRWp2ampTSC1OZWVEYW5waHN6YS1SaGJyUzJMUkRPSm55czlVNnRFV1hkZmZUVE5xdWVJVnc?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 01:03:14 GMT",
+          "source": "조선일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 급락에 ‘마통 대출’ 이틀 만에 6000억원 증가 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUHM3WkZZUHJrRHh4MEFVeFFNbnJiYVRNcE9Dc3JkYUpIY3lXT3VLRThydjRyd2RWaFZqdnpod01xT3RHSU5HaGtWWjYxdl9HV1VldUdERGRwUk1CWFFvSnA3Z3ozR0sxb0VqbTE1cTJKNjZHMzRMclFvRi1tLURLRERGTnYzMTNt0gGcAUFVX3lxTE1kZjdwcFozX1JicW02a1lUV19TVXowdHlRYWZzRHZkc1AwWkQyQWZXMUtBc0pHRlVFOTNuNDlwemJlQ2JhTkQyTzAzS3pTazRJODF4c1NCQ0xBUVREelVTV2RBcElWalVEWmJZTUVCMk9GWEYxTk1FUjA3cFVtaWdOS1lnQl9VRDlpNXM1SXljZmRCRG5mLW1uQ0RFQg?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 00:06:57 GMT",
-          "source": "Chosunbiz"
+          "title": "[속보] 코스피 급락에 매도 사이드카 발동 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VdTdZeUtzWDhQN2lUdXk5TGNscGdkNHNGcEJWbmVkVGp4Vzhkb3I4a2NicHl6cUVnMm00ZEctZFZZUXBYenhoM05lQ2VWbmlhRXpFbm5R?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 04:18:18 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "달러-원, 증시 급락에 위험 회피 반영…1,532.70원 마감 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuWVdIUzJyT25fdHdUTnhROVY0R2ZZMDM5bGpPQkZVZG1LTHdmSTFPV1lsMW50UllWVkp2bF85UW5LSXlQVUJDZElxYklyTmlPSmlmN1BndW5JZmhZdXFLYdIBYEFVX3lxTFBuWVdIUzJyT25fdHdUTnhROVY0R2ZZMDM5bGpPQkZVZG1LTHdmSTFPV1lsMW50UllWVkp2bF85UW5LSXlQVUJDZElxYklyTmlPSmlmN1BndW5JZmhZdXFLYQ?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 18:46:31 GMT",
-          "source": "연합뉴스"
+          "title": "코스피 급락에 매도 사이드카 발동 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qSUZZaDNDY3VvQnQ0Z3gtaUVXcFlVWENHSXBEWGdpWHlrUkV4YkZKd2EzU04tVHVIMUpHQ291TU9PRlpySGNpTFdYdjVSUmRNeUxUUTJGcG84YTA?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 04:39:00 GMT",
+          "source": "KBS 뉴스"
         },
         {
-          "title": "하루만에 다시 꺾인 코스피…외인 투매에 8천선 반납 - 경제타임스",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxbUJRSmpBX2ZXWlFvQTAtN1dsQXpEbnVhRXgwSzRfU1RXTTFpZzlseEs3bFZKb09DSDlZVTNuN2NlUFRTUkR0aHF2V045MHR4Zllz?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 01:06:30 GMT",
-          "source": "경제타임스"
+          "title": "[경제][속보] 코스피 급락에 '매도 사이드카' 발동 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoUGhjekJmNGQ0OUJfQjZrQmszX3lIZXM4b1JaUEtwczNKWGx5MWFoTDNyMXNBaC13Q19xNmVKRU0wYzhOcHNad0tyRlkzdWVETlZGWWg3R2tVWE5HaFBGSlpWM3lKYi1xaEM5VWEwdw?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 04:33:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "“코스피 급락 땡큐, 은행빚 땡겨서 풀매수”…이틀간 마통 6천억 늘었다 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80VW55ZXYtZ2FSbVVMbG9xUzJid1pla193UlptMEJwSUZRWlhjb3A1NlNpN2w4UEFBRWVsRDRpS2VEdTVSbG1uWktkRHhSY09Wd0pubFU4dkV2X1FvSUw3ag?oc=5",
+          "title": "코스피, 장중 낙폭 키워 ′매도 사이드카′…6%대 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWbW81OTFvVm1oTWtYMGpfRmxmYWJlc2hoN0lQb3U1Vk5pS21ISVN6UXVsTjFSUmhLVnFxNjZxVlQ3OEN2MHF2ZGQyUUJabnhGbVBtQ2hobHRkVEtEYllmWlhtemxDNHc?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 04:58:20 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "“코스피 급락 땡큐, 은행빚 땡겨서 풀매수”…이틀간 마통 6천억 늘었다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uN01zc3BBdDRiY1YzTlNBak1reFFodk5fTF9aa1VVdFM0SHpLR0FRd0o2QTJnV3VSZ3NmN3A2dTNsMlRqMGxfUEpYdVRkVHc3Z1R5cQ?oc=5",
           "pub_date": "Tue, 09 Jun 2026 23:48:56 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "코스피 3% 급락, 8000선 다시 붕괴…삼성전자 4.8%↓ - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OOGVXVjlIVF9YY1pHQll0cFpCd3dKOF9URzhmdDByZU9YVHRiR2FLenJ6NzZTNnhsU2NtOVVlb1lZVmhtNTI0UG5wNmZ2ZHNTTlplak4xTHBvQmJqclctbGZMY2k?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 00:51:48 GMT",
-          "source": "디지털데일리"
+          "source": "매일경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.87,
-    "vvix": 95.81,
-    "skew": 141.97,
-    "move": 77.03
+    "vix": 18.92,
+    "vvix": 92.4,
+    "skew": 145.0,
+    "move": 76.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1908500000000,
-    "retail_net_buy_krw": 1847400000000,
+    "foreign_inst_buy_krw": -5063900000000,
+    "retail_net_buy_krw": 4890500000000,
     "margin_loan_krw": 37175200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -98,61 +98,61 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25678.82,
+      "current": 25929.66,
       "high_52w": 27190.21,
-      "drop_pct": -5.56,
-      "intraday_low_drop_pct": -8.13,
-      "sma_200": 23368.91,
+      "drop_pct": -4.64,
+      "intraday_low_drop_pct": -4.85,
+      "sma_200": 23346.01,
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7890.99,
+      "current": 7550.66,
       "high_52w": 8933.62,
-      "drop_pct": -11.67,
-      "intraday_low_drop_pct": -12.61,
-      "sma_200": 4932.7,
+      "drop_pct": -15.48,
+      "intraday_low_drop_pct": -15.59,
+      "sma_200": 4931.0,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 974.82,
+      "current": 935.24,
       "high_52w": 1229.42,
-      "drop_pct": -20.71,
-      "intraday_low_drop_pct": -22.16,
-      "sma_200": 991.03,
+      "drop_pct": -23.93,
+      "intraday_low_drop_pct": -24.17,
+      "sma_200": 990.83,
       "below_sma200_streak": 2
     },
     "sp500": {
-      "current": 7386.65,
+      "current": 7405.73,
       "high_52w": 7620.9,
-      "drop_pct": -3.07,
-      "intraday_low_drop_pct": -5.03,
-      "sma_200": 6868.39,
+      "drop_pct": -2.82,
+      "intraday_low_drop_pct": -2.96,
+      "sma_200": 6863.31,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2867.02,
+      "current": 2855.42,
       "high_52w": 2943.97,
-      "drop_pct": -2.61,
-      "intraday_low_drop_pct": -5.04,
-      "sma_200": 2577.67,
+      "drop_pct": -3.01,
+      "intraday_low_drop_pct": -3.08,
+      "sma_200": 2574.7,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 562.14,
+      "current": 571.45,
       "high_52w": 618.84,
-      "drop_pct": -9.16,
-      "intraday_low_drop_pct": -15.61,
-      "sma_200": 347.6,
+      "drop_pct": -7.66,
+      "intraday_low_drop_pct": -9.38,
+      "sma_200": 346.0,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.187,
-    "SMH": 1.363,
-    "BOTZ": 0.95,
-    "IGV": 0.994,
-    "XLF": 0.965,
-    "XLE": 0.952
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -173,7 +173,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -192,19 +192,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 67.66,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 276.97,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 88.17,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
