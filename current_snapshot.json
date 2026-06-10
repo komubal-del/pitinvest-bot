@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-10T15:07:14.425983+09:00",
+  "timestamp": "2026-06-10T19:20:45.517875+09:00",
   "sentiment": {
-    "cnn_fng": 33.5428571428571,
+    "cnn_fng": 33.6571428571429,
     "cnn_components": {
       "momentum": 52.0,
-      "strength": 30.2,
+      "strength": 31.0,
       "breadth": 21.4,
       "put_call": 38.6,
       "junk_bond": 7.6,
@@ -14,38 +14,32 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 33,
+      "greed_count": 4,
+      "fear_count": 36,
       "greed_articles": [
         {
-          "title": "\"코스피 반등해도 코스닥 부진은 그대로\"…쏠림장 후폭풍 넘을까 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9heFJmRXNjOFZYQXlpdE4tbTRUR3lUeVV5NktCSzJkOGp5T3hIZ2lSRmtyb1h4Y1doZ3p0NUtuc3Rhd1dwT0V6S0YtUEZYTkE?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 05:07:02 GMT",
+          "title": "[경제읽기] '롤러코스터' 장세 지속…코스피 조정에 '빚투'↑ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13ZkNaSTgzenFWS1p6cnRydlgxbmRQOTBuZFhfMS1CalliNWN2eTRCYUVGV2EtS0tGQlVpRE1tQ0VDVTVaNFRGUUVZV3FQM281Q0lILVhtMTJ3SkctQ3B5Y9IBYEFVX3lxTE13ZkNaSTgzenFWS1p6cnRydlgxbmRQOTBuZFhfMS1CalliNWN2eTRCYUVGV2EtS0tGQlVpRE1tQ0VDVTVaNFRGUUVZV3FQM281Q0lILVhtMTJ3SkctQ3B5Yw?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 04:14:21 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "파랗게 질린 코스피, 3053억원 강제청산…개미는 여전히 ‘빚투’ - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lOUZBYWFuVUVXNGJxSUtuNVdSTlMxX3JBYmIxRWUxX0Y2M3Y4WmNHOGtzTDdvUDBJekpIWUtfa29sSTRyY0U2bllaelQyWEZzTnpuOTVMX1FrOTgyNndNNGIzSQ?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 07:50:47 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "8천선 넘은 코스피의 민낯…빚투·반도체 쏠림에 급락장 재현 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DTnMtcm5mclphTlFuelFuMVNybVZGNGRLZ2RrRHpHcDNGQmtjVlNvRk15a1RIcTU5M25GOTZxcnVPN0FvSGV3WS1xbmhRQnM?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 06:55:07 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "코스피 8,000선 이탈·환율 요동…'빚투' 마통 잔액 6천 억 급증 - 경기일보",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GNS0zRmdUSTB5bElxWUVEQU5ROVdSbktGN05BT1phejlkeV94R0szNEhMT2JPRExGcU52anFzaXY4eWttcE4zUE1RQmhnaFlSWTU4aC1kaFctTzg?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 00:22:00 GMT",
-          "source": "경기일보"
-        },
-        {
-          "title": "[경제읽기] '롤러코스터' 장세 지속…코스피 조정에 '빚투'↑ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LLTVUbklKMDRqVlVnekg3ekF3b3h1ZW1Pc3g2UGlzMkxDYVpvTm1iYWJESVdxUVRwSmZ6U3lWcWZWRW41aGJTbld2YlV5ZUE?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 04:15:25 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "고환율은 여전, 美 증시 쏠림도 지속…RIA 두 마리 토끼 놓쳤나 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OdHZHSnl5VTNYLU1qQm5iSFo0V0hMcXpkWXIzcWFaY1RwSEFoQ0RBejdPTjJVMTZxOTIyeDRoRkY5cDl3TUNRaEFiRDQzMkE?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 05:30:47 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 급락하자 빚내서 샀다…마통 잔액 이틀 새 6058억 늘어 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01bUlZR3huanBFRklrSjhIX0NUTlA1V0xxZWwxRDJTTUt4TVNkdTFWVE5RSlljMEdqV0VqdmpqU0gtTmVlRGFucGhzemEtUmhiclMyTFJET0pueXM5VTZ0RVdYZGZmVFROcXVlSVZ30gFuQVVfeXFMTTVtSVlHeG5qcEVGSWtKOEhfQ1ROUDVXTHFlbDFEMlNNS3hNU2R1MVZUTlFKWWMwR2pXRWp2ampTSC1OZWVEYW5waHN6YS1SaGJyUzJMUkRPSm55czlVNnRFV1hkZmZUVE5xdWVJVnc?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 01:03:14 GMT",
-          "source": "조선일보"
+          "title": "코스피 반등 기대 개미 ‘빚투’…이틀 새 마통 6000억 증가 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14dzhIdU5fOHo4aEU2bFFSal9obm1VMGZCYlVzY2s5aFhZWXMySHk1Y2N4RV94WGx1MFJGVGRYbUhNeHAyMW1sTXl1VEI2dTdxaWJXdw?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 05:28:00 GMT",
+          "source": "JTBC"
         }
       ],
       "fear_articles": [
@@ -56,41 +50,41 @@
           "source": "중앙일보"
         },
         {
-          "title": "코스피 급락에 매도 사이드카 발동 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qSUZZaDNDY3VvQnQ0Z3gtaUVXcFlVWENHSXBEWGdpWHlrUkV4YkZKd2EzU04tVHVIMUpHQ291TU9PRlpySGNpTFdYdjVSUmRNeUxUUTJGcG84YTA?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 04:39:00 GMT",
+          "title": "코스피 4%대 급락, 8천선 아래서 마감 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96bGxtOEoxbEZmYlZJbDNIZng2cF9lVXJJSXBPOERHUHNoTjQwMW9vMk5qdFZocnV4OHNaY0txbUpwNVRnenR1ZWJOTlRmX1NZUmxCM2VpaTNWSUU?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 07:13:00 GMT",
           "source": "KBS 뉴스"
         },
         {
-          "title": "[경제][속보] 코스피 급락에 '매도 사이드카' 발동 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoUGhjekJmNGQ0OUJfQjZrQmszX3lIZXM4b1JaUEtwczNKWGx5MWFoTDNyMXNBaC13Q19xNmVKRU0wYzhOcHNad0tyRlkzdWVETlZGWWg3R2tVWE5HaFBGSlpWM3lKYi1xaEM5VWEwdw?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 04:33:00 GMT",
+          "title": "폭락 → 폭등 → 폭락...날마다 급변하는 '롤러코스피' - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MS2tTZTBWdGJHM3lsNFViVkdyLWpod20yQUFaMXlaWWdHZ0gwbmRBbkRRUXBrcEdwXy1UYUp5QW1JM0V1aENKX0VKaG95RUhDeUtSWDA0Z0JaU1c2cnc?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 09:23:00 GMT",
           "source": "YTN"
         },
         {
-          "title": "코스피, 장중 낙폭 키워 ′매도 사이드카′…6%대 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWbW81OTFvVm1oTWtYMGpfRmxmYWJlc2hoN0lQb3U1Vk5pS21ISVN6UXVsTjFSUmhLVnFxNjZxVlQ3OEN2MHF2ZGQyUUJabnhGbVBtQ2hobHRkVEtEYllmWlhtemxDNHc?oc=5",
-          "pub_date": "Wed, 10 Jun 2026 04:58:20 GMT",
-          "source": "연합뉴스TV"
+          "title": "靑, 증시 급락에 \"일희일비 안해…자본시장 체질개선 집중\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5dlRxcGZkN0JidEpZbjQ5RnBQOXlvQnBwOERaaVQ5TjhqUHNpc2lrWER0aWhKdHk4TFRHT250VkU5d3hGOENLWGw3bWJhN0dYb2YtQlhhX2E0d1BpOVdxb0VtczJTWkoweU9TcEdsMHg?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 08:51:31 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "“코스피 급락 땡큐, 은행빚 땡겨서 풀매수”…이틀간 마통 6천억 늘었다 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uN01zc3BBdDRiY1YzTlNBak1reFFodk5fTF9aa1VVdFM0SHpLR0FRd0o2QTJnV3VSZ3NmN3A2dTNsMlRqMGxfUEpYdVRkVHc3Z1R5cQ?oc=5",
-          "pub_date": "Tue, 09 Jun 2026 23:48:56 GMT",
-          "source": "매일경제"
+          "title": "'현기증' 코스피 4%대 급락…7700선 털썩 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLdDNyTjM1aEM3Vy01UVVvdkNwc0RwVnh4d21XTTN3SFdMaEx5UGtNNExyNk56d0lmWW55aTZHV05tNEJPb0lhbk5SS2pYdzQ?oc=5",
+          "pub_date": "Wed, 10 Jun 2026 09:10:24 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.92,
+    "vix": 21.06,
     "vvix": 92.4,
     "skew": 145.0,
     "move": 76.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -5063900000000,
-    "retail_net_buy_krw": 4890500000000,
+    "foreign_inst_buy_krw": -5041900000000,
+    "retail_net_buy_krw": 4864300000000,
     "margin_loan_krw": 37175200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -106,19 +100,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7550.66,
+      "current": 7730.82,
       "high_52w": 8933.62,
-      "drop_pct": -15.48,
+      "drop_pct": -13.46,
       "intraday_low_drop_pct": -15.59,
-      "sma_200": 4931.0,
+      "sma_200": 4931.9,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 935.24,
+      "current": 951.63,
       "high_52w": 1229.42,
-      "drop_pct": -23.93,
+      "drop_pct": -22.6,
       "intraday_low_drop_pct": -24.17,
-      "sma_200": 990.83,
+      "sma_200": 990.92,
       "below_sma200_streak": 2
     },
     "sp500": {
@@ -215,16 +209,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": false,
+      "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.10",
+            "close": 302500,
+            "change_pct": -6.06,
+            "retail_net": 6692111,
+            "inst_net": -2851841,
+            "foreign_net": -3840270
+          },
           {
             "date": "2026.06.09",
             "close": 322000,
@@ -256,17 +258,17 @@
             "retail_net": 9160932,
             "inst_net": 3253812,
             "foreign_net": -12414744
-          },
-          {
-            "date": "2026.06.02",
-            "close": 360500,
-            "change_pct": 3.3,
-            "retail_net": 7928709,
-            "inst_net": 3088203,
-            "foreign_net": -11016912
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.10",
+            "close": 2048000,
+            "change_pct": -7.54,
+            "retail_net": 975933,
+            "inst_net": -702023,
+            "foreign_net": -273910
+          },
           {
             "date": "2026.06.09",
             "close": 2215000,
@@ -298,14 +300,6 @@
             "retail_net": 202394,
             "inst_net": 114049,
             "foreign_net": -316443
-          },
-          {
-            "date": "2026.06.02",
-            "close": 2360000,
-            "change_pct": -0.13,
-            "retail_net": 326359,
-            "inst_net": 90158,
-            "foreign_net": -416517
           }
         ]
       }
@@ -359,7 +353,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 210.206,
+    "strategy_pct": 10.567,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -807,7 +801,7 @@
       },
       {
         "date": "2026-06-10",
-        "ret_pct": 210.206
+        "ret_pct": 10.567
       }
     ],
     "monthly_breakdown": [
@@ -843,9 +837,9 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -85.13,
-        "end_ret_pct": 210.21,
-        "max_dd_pct": 125.95
+        "return_pct": -284.77,
+        "end_ret_pct": 10.57,
+        "max_dd_pct": 325.59
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
