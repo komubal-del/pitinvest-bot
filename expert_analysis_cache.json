@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-08",
-  "analyzed_at": "2026-06-08T13:57:00.636531+09:00",
+  "date": "2026-06-11",
+  "analyzed_at": "2026-06-11T13:53:12.019407+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "7NRNvdqNIz0",
-      "title": "반도체 폭락·환율 급등, 한국 증시 어디까지 밀릴까 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-06-08T00:17:06Z",
-      "url": "https://youtube.com/watch?v=7NRNvdqNIz0",
+      "video_id": "RSOtKvknTKg",
+      "title": "흔들리는 시장...대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-06-11T00:27:28Z",
+      "url": "https://youtube.com/watch?v=RSOtKvknTKg",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매수/매도 또는 현금화 권고가 없으며, 제목은 시장의 하락 가능성에 대한 질문을 던지는 중립적인 분석 주제를 제시할 뿐입니다."
+        "reason": "제공된 내용은 영상의 설명란으로, 시장 상황에 대한 질문을 던질 뿐(흔들리는 시장, 대응 전략은 무엇?) 전문가의 구체적인 시장 판단이나 투자 행동 권고를 담고 있지 않습니다."
       }
     },
     {
