@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-06-12T04:39:48.668944+09:00",
+  "timestamp": "2026-06-12T06:50:34.841631+09:00",
   "sentiment": {
-    "cnn_fng": 29.4,
+    "cnn_fng": 29.6857142857143,
     "cnn_components": {
-      "momentum": 50.0,
+      "momentum": 51.2,
       "strength": 31.6,
-      "breadth": 19.6,
-      "put_call": 26.6,
-      "junk_bond": 5.8,
+      "breadth": 19.2,
+      "put_call": 27.0,
+      "junk_bond": 6.4,
       "volatility": 50.0,
-      "safe_haven": 23.2
+      "safe_haven": 22.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 0,
       "greed_articles": [
         {
@@ -22,16 +22,22 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaF8tNWY0NTh5VHF0bk02dlFYLVdGUUxLYUZQdy1DZEI4bk8wZ0l6OVBNR3VOVlNhaUh6Y3k1Vkh3V09xTUhSeTUwaVVyckxuNTR2cUFnQzVFMms2bktHRDdBMVlodFNhaGhwMXNlT0R3Yl81blQ5bDZGWGU1N0wySzMxVG9zZVpsa2fSAZ4BQVVfeXFMT3ZTUUtiTEkzSldubmJ1X21KaDFIWkk3MnBKbmN6WWMtNzl6YXU4VjBtVC15WXpzb0F6cGNGZVFNZ0Y2THZUWFd4VW5jODdZZXR2ZUtabzZUa00wUUQtM2tpMVl4M1VWRm9ianhlMWEweF80OG56NnZVXzhHU1ZwQ0pGYWc3X0lFUm1wczhWOUQ5OG1WZi0xeUN3a3V5Rnc?oc=5",
           "pub_date": "Thu, 11 Jun 2026 15:14:00 GMT",
           "source": "Chosunbiz"
+        },
+        {
+          "title": "증시 활황에 증권사 1분기 순익 4조 돌파…채권·외환 손실은 부담 - 뉴스웍스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwRTZXaDZJOGxGZTdTY2JENXVmaHk1MF8tczJ0X3oyU1poZnBHV2V5WTJ4Vk9fNVRVNDh1VF85R2FraVUtNW40ZHlhWFZNNmZZUkJFRmNoUW1mOGNuelFvUHRMWkdyd01faml2cUxESdIBc0FVX3lxTE1ReFd1YTVpOE56TmhHakZXMWFuWURCaEtaeUxGVU9lZzBWa2ZKaXlxU1NNd0Y2dG05NHZqcEVPVzBKeTN4QmJ3VWl5OVlHV3ZzSVVNQWkxTERTR1cxN01tRXdQQnpTeUNuaGRpUnF0Wi04TGs?oc=5",
+          "pub_date": "Thu, 11 Jun 2026 21:00:00 GMT",
+          "source": "뉴스웍스"
         }
       ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 19.61,
-    "vvix": 102.57,
-    "skew": 143.08,
-    "move": 73.95
+    "vix": 19.44,
+    "vvix": 100.63,
+    "skew": 142.98,
+    "move": 69.45
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -2220100000000,
@@ -43,11 +49,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25794.52,
+      "current": 25809.66,
       "high_52w": 27190.21,
-      "drop_pct": -5.13,
+      "drop_pct": -5.08,
       "intraday_low_drop_pct": -7.65,
-      "sma_200": 23409.0,
+      "sma_200": 23409.07,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -67,37 +73,37 @@
       "below_sma200_streak": 3
     },
     "sp500": {
-      "current": 7402.8,
+      "current": 7394.3,
       "high_52w": 7620.9,
-      "drop_pct": -2.86,
+      "drop_pct": -2.97,
       "intraday_low_drop_pct": -4.77,
-      "sma_200": 6877.21,
+      "sma_200": 6877.17,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2912.41,
+      "current": 2921.03,
       "high_52w": 2943.97,
-      "drop_pct": -1.07,
+      "drop_pct": -0.78,
       "intraday_low_drop_pct": -3.05,
-      "sma_200": 2582.9,
+      "sma_200": 2582.94,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 583.75,
+      "current": 586.93,
       "high_52w": 618.84,
-      "drop_pct": -5.67,
+      "drop_pct": -5.16,
       "intraday_low_drop_pct": -10.35,
-      "sma_200": 350.75,
+      "sma_200": 350.77,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.19,
-    "SMH": 1.384,
-    "BOTZ": 0.937,
-    "IGV": 0.968,
-    "XLF": 0.974,
-    "XLE": 0.924
+    "XLK": 1.198,
+    "SMH": 1.414,
+    "BOTZ": 0.943,
+    "IGV": 0.963,
+    "XLF": 0.975,
+    "XLE": 0.9
   },
   "signals": {
     "cnn_under_10": false,
@@ -137,19 +143,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 72.96,
+    "tqqq_profit_pct": 72.87,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 313.87,
+    "soxl_profit_pct": 318.67,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 127.2,
+    "koru_profit_pct": 128.95,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -304,7 +310,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 206.979,
+    "strategy_pct": 245.09,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -760,7 +766,7 @@
       },
       {
         "date": "2026-06-12",
-        "ret_pct": 206.979
+        "ret_pct": 245.09
       }
     ],
     "monthly_breakdown": [
@@ -796,8 +802,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -88.36,
-        "end_ret_pct": 206.98,
+        "return_pct": -50.25,
+        "end_ret_pct": 245.09,
         "max_dd_pct": 154.19
       }
     ],
