@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-06-12T20:07:00.293287+09:00",
+  "timestamp": "2026-06-12T23:14:44.994243+09:00",
   "sentiment": {
-    "cnn_fng": 30.9428571428571,
+    "cnn_fng": 31.5142857142857,
     "cnn_components": {
-      "momentum": 51.2,
-      "strength": 31.4,
-      "breadth": 21.8,
-      "put_call": 78.8,
-      "junk_bond": 6.6,
+      "momentum": 46.4,
+      "strength": 31.6,
+      "breadth": 19.8,
+      "put_call": 34.6,
+      "junk_bond": 9.4,
       "volatility": 50.0,
-      "safe_haven": 22.4
+      "safe_haven": 28.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 2,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "코스피 널뛰기 장세에 ‘빚투 강제청산’ 2년8개월만의 최대 규모 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tVWI4TkxSZ3BRNHRkUFVJemdxQmp0M3h3elNrb0VHcHg0dlZtLWhuYXVJZUZmZjM3YkdmSmRjejJTaTRQSXpuSzVCTndiZ2M?oc=5",
+          "pub_date": "Fri, 12 Jun 2026 07:47:35 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "코스피 널뛰기 장세에 ‘빚투 강제청산’ 2년8개월만의 최대 규모 - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1OVd1Rmk3c1hTWGItN2k0ak5qSHZ5eUpKZ2xDVmtabWtOR2Rsa1N1elNFMlNFRkdITmJtbl8xY0hTaWtCZlktRlN2bUp6S1pvZTBmanViNUpIdUk4ZHh3ZXZyRjlmaUptUlNKM1Zva0JhZkFUakHSAWZBVV95cUxNUm4zMEtmVml3WFNPVTBGZzNfODJ2cG5jVk9IZVJ4cWg5Vl8zRzVlX0c4ZTRuMFdMME9mVnJvbEU5UEVPaXdlV3pIWjlaZFBpWFlFak5Bck52NWJGalBZTGZYTDBROGc?oc=5",
@@ -30,19 +36,13 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96UWhRVzBnMGN1QmRqTkZkeVFEODhyQ0N5ZkFqN3JXVjh5TE1uLXQzOWtZNnFxc2NSVkRSSno4WEY5eElzbkt0SEZkSHdCR0k?oc=5",
           "pub_date": "Fri, 12 Jun 2026 01:24:49 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "인도네시아 증시 급락세···현지 베팅한 국내 금융권 '긴장' - 시사저널e",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUcDdEcnRBcnhaX09QRDM3MlVoQXR5YlhleGJiUml3dWlmMlRDLUpWMGtseVhvZEdObGI4eHc2MzNqc3VuWHA3bGhzTmFLeHhWeGVKa2VMY0MybjhsOEtLT1hNQXFOMmVqQ0FNQXdtamJYVXRiS3fSAXZBVV95cUxQVHA3RHJ0QXJ4Wl9PUEQzNzJVaEF0eWJYZXhiYlJpd3VpZjJUQy1KVjBrbHlYb2RHTmxiOHh3NjMzanN1blhwN2xoc05hS3h4VnhlSmtlTGNDMm44bDhLS09YTUFxTjJlakNBTUF3bWpiWFV0Ykt3?oc=5",
-          "pub_date": "Fri, 12 Jun 2026 07:18:45 GMT",
-          "source": "시사저널e"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.16,
-    "vvix": 100.63,
+    "vix": 19.32,
+    "vvix": 99.25,
     "skew": 142.98,
     "move": 69.45
   },
@@ -56,11 +56,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25809.66,
+      "current": 25809.39,
       "high_52w": 27190.21,
       "drop_pct": -5.08,
-      "intraday_low_drop_pct": -7.65,
-      "sma_200": 23409.07,
+      "intraday_low_drop_pct": -5.85,
+      "sma_200": 23430.4,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -80,37 +80,37 @@
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7394.3,
+      "current": 7407.74,
       "high_52w": 7620.9,
-      "drop_pct": -2.97,
-      "intraday_low_drop_pct": -4.77,
-      "sma_200": 6877.17,
+      "drop_pct": -2.8,
+      "intraday_low_drop_pct": -3.38,
+      "sma_200": 6881.88,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2921.03,
+      "current": 2936.45,
       "high_52w": 2943.97,
-      "drop_pct": -0.78,
-      "intraday_low_drop_pct": -3.05,
-      "sma_200": 2582.94,
+      "drop_pct": -0.26,
+      "intraday_low_drop_pct": -0.77,
+      "sma_200": 2585.83,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 586.93,
+      "current": 595.05,
       "high_52w": 618.84,
-      "drop_pct": -5.16,
-      "intraday_low_drop_pct": -10.35,
-      "sma_200": 350.77,
+      "drop_pct": -3.84,
+      "intraday_low_drop_pct": -6.51,
+      "sma_200": 352.49,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.198,
-    "SMH": 1.414,
-    "BOTZ": 0.943,
-    "IGV": 0.963,
-    "XLF": 0.975,
-    "XLE": 0.9
+    "XLK": 1.205,
+    "SMH": 1.43,
+    "BOTZ": 0.936,
+    "IGV": 0.951,
+    "XLF": 0.979,
+    "XLE": 0.908
   },
   "signals": {
     "cnn_under_10": false,
@@ -150,19 +150,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 72.87,
+    "tqqq_profit_pct": 74.62,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 318.67,
+    "soxl_profit_pct": 336.9,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 128.95,
+    "koru_profit_pct": 123.68,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
