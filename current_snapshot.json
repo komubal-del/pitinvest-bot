@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T08:46:49.184201+09:00",
+  "timestamp": "2026-06-12T11:01:02.894362+09:00",
   "sentiment": {
     "cnn_fng": 29.6857142857143,
     "cnn_components": {
@@ -15,53 +15,28 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 4,
+      "fear_count": 0,
       "greed_articles": [
         {
+          "title": "증시 활황에 증권사 1분기 순이익 4.3조… 분기 기준 최대 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWUYxVkUwM1E2TGVURjNGQnE1azRnLWJ0Ty1ualJJdzdFZjRTS192NDdOWFJQSUdpRnU0Q1luOUEtYjRIZzh2c1MtcGs2MjdZY0dBSjBRbElmR1pSUHRPT2FodUZTOTdLUnFkMGdSQlFLZ0lWcWdPTHM5aXpVQzJFWDNWMDl2NG1wbmtJ?oc=5",
+          "pub_date": "Fri, 12 Jun 2026 00:43:00 GMT",
+          "source": "조선일보"
+        },
+        {
           "title": "국내 증시 활황에 증권사 1분기에만 4조원 넘게 벌었다 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CTExPb1ZhMEV3T0pSaDRSbWtYV0F3MWFPMTV3X3YwaVBNdXpQOHhBaVdSb3lOVWRGdTRGeFZiNXhvVmFEVC1VRnBwWjhGNHA1V1BMSW42VUl2UdIBX0FVX3lxTE9IOXY2UDhkMFpXYmVHbzJlWjE2cUdfMVN3anRvbkFhU0NOVjg1TUFEd2dvTTZWeF9xUDFmVDRZT29YOGZNQjcyVU9JS3haelpfMXNQSzJoSVBzd3NkcWNV?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ1ZVSUpoU1hXOTI0WmRNcEo2VE1MWnBqNDZzOTJ2Z3JZZ28wS0dRd3M2OWFJTTl6bmdkTGRCYnNSdzZTWGhFZ0J3OFhCMzRURE9BSkVxeEctSUszdkk2TWdUcnhFalozcFVQb184UXJ0dG04dTBrZWlsa2dpM2piV1pOeGd4cmVJcmN3SnRySTNiTWRBZ0MzQk5NSGR2ay1Ocl8xUU1FVkFRUdIBX0FVX3lxTE9IOXY2UDhkMFpXYmVHbzJlWjE2cUdfMVN3anRvbkFhU0NOVjg1TUFEd2dvTTZWeF9xUDFmVDRZT29YOGZNQjcyVU9JS3haelpfMXNQSzJoSVBzd3NkcWNV?oc=5",
           "pub_date": "Thu, 11 Jun 2026 22:48:00 GMT",
           "source": "경향신문"
         },
         {
-          "title": "증시 활황에 증권사 1분기 순익 4조 돌파…채권·외환 손실은 부담 - 뉴스웍스",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ReFd1YTVpOE56TmhHakZXMWFuWURCaEtaeUxGVU9lZzBWa2ZKaXlxU1NNd0Y2dG05NHZqcEVPVzBKeTN4QmJ3VWl5OVlHV3ZzSVVNQWkxTERTR1cxN01tRXdQQnpTeUNuaGRpUnF0Wi04TGvSAXNBVV95cUxNUXhXdWE1aThOek5oR2pGVzFhbllEQmhLWnlMRlVPZWcwVmtmSml5cVNTTXdGNnRtOTR2anBFT1cwSnkzeEJid1VpeTlZR1d2c0lVTUFpMUxEU0dXMTdNbUV3UEJ6U3lDbmhkaVJxdFotOExr?oc=5",
-          "pub_date": "Thu, 11 Jun 2026 21:10:04 GMT",
-          "source": "뉴스웍스"
-        },
-        {
-          "title": "대어 상장 붐의 역설…“증시 고점 경고음” [AI 상장 대전환 ②] - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42TFloVVlmblFxMy1KNmhXS0N1MWdXOWh4YkxJaU9OWGRkTF9ldXBXeEc3RjhhZU1VMFBjMkxway1NeG11d2EyUGtpYkczUXlBemh3SA?oc=5",
-          "pub_date": "Thu, 11 Jun 2026 20:01:00 GMT",
-          "source": "이투데이"
+          "title": "증권사, 코스피 광풍에 '방긋'…1분기에만 4.3조원 '사상 최대' - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mc1dDaUh3Z1RnaTZDUTNxaklac29DN1gwTHhUMHAyODR4d1gxMkp5MHgyWWJhUFdCQTFxOFVjcklsMTBFNU9OemVvQjd0LWRwbmxpWU40c01uWjFtdmRiMXdB?oc=5",
+          "pub_date": "Fri, 12 Jun 2026 00:34:00 GMT",
+          "source": "이코노미스트"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "“레버리지 투자했다 3분의 1 증발”…증시 급등락에 개미들 ‘패닉’ [잇슈 머니] - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02VVdZcFFzT0ZJQ2NFdU5MRTI1UTNYLW5ucVk0eVNYTDBJYml3WWJ0dG80dGFWYzVLTHhSSEdSZDhJMU5iRmRrRENLR2JkcGR0RTdGUHM1Umt0Sjg?oc=5",
-          "pub_date": "Thu, 11 Jun 2026 21:56:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "[모닝 리포트] \"코스피 급락 진정되나…변동성 완화 기대\"\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JaTlfLXlyYVYyLU5yd3ltTXZfdmdBazc5Y0Zma0FMMGNWREs4c2pKbEFMUmR5djdFaDlWYVVUbVBjZ09DNmV6b05qNWs2Q2tJZjdFZHByeTVYc3VG?oc=5",
-          "pub_date": "Thu, 11 Jun 2026 23:13:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[심층] 카카오, 코스피 랠리에도 38% 폭락…파업 겹악재에 개미들 ′비명′ - 알파경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TZjZtVGlNdFBkVVBxZ0I4cmloV2NLMzFpQVJjOE95NURhaUNmSDJPbXlKYUZXdDVYdDQwY3RXQ0JoWmNodE51OHZ3dU91c1pXMWNXeXd5WFFUWnpLbVHSAW5BVV95cUxQclh1N1hRVDNlVUs1c1A5ZV9EODRKVTV4cy1ISHczZ3Rkc01CWjVoYTF4MFdabmpaTHFlZ1I0dWNybnpVUUJXeXB3Zlh4b3ozNGxtdk96d1J5eVpVTkxIMlJYNGFXUzdtMWNiOHh0dw?oc=5",
-          "pub_date": "Thu, 11 Jun 2026 23:16:31 GMT",
-          "source": "알파경제"
-        },
-        {
-          "title": "트럼프 '이란과 합의' 시사에 월가 안도 … 美증시 급등·유가 급락 - 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJd0R1ZDRyb0x3bzY4ZVRtOFdBZ3hjWHdwQXZNZ1NwTVJ5WFBGR2swVUNLdVlCTlBQYXpveVgyOWhXS2lXZzRVRlh4VG1zTHVCUy1wNWhFc3JOTDdlRFF0amJBR2VCSkh5YkRtOUtvRklEMGZOVERqLUR3?oc=5",
-          "pub_date": "Thu, 11 Jun 2026 22:01:10 GMT",
-          "source": "뉴데일리"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -71,8 +46,8 @@
     "move": 69.45
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2220100000000,
-    "retail_net_buy_krw": 2080299999999,
+    "foreign_inst_buy_krw": 2659000000000,
+    "retail_net_buy_krw": -2519500000000,
     "margin_loan_krw": 36190100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -88,20 +63,20 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 7730.82,
+      "current": 8299.87,
       "high_52w": 8933.62,
-      "drop_pct": -13.46,
-      "intraday_low_drop_pct": -15.59,
-      "sma_200": 4956.35,
+      "drop_pct": -7.09,
+      "intraday_low_drop_pct": -7.5,
+      "sma_200": 5004.6,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 951.63,
+      "current": 1029.9,
       "high_52w": 1229.42,
-      "drop_pct": -22.6,
-      "intraday_low_drop_pct": -24.17,
-      "sma_200": 991.69,
-      "below_sma200_streak": 3
+      "drop_pct": -16.23,
+      "intraday_low_drop_pct": -16.88,
+      "sma_200": 993.72,
+      "below_sma200_streak": 0
     },
     "sp500": {
       "current": 7394.3,
@@ -295,7 +270,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-06-11",
