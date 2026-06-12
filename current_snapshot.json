@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-12T15:52:35.128788+09:00",
+  "timestamp": "2026-06-12T20:07:00.293287+09:00",
   "sentiment": {
-    "cnn_fng": 29.7142857142857,
+    "cnn_fng": 30.9428571428571,
     "cnn_components": {
       "momentum": 51.2,
-      "strength": 31.6,
-      "breadth": 19.2,
-      "put_call": 27.0,
+      "strength": 31.4,
+      "breadth": 21.8,
+      "put_call": 78.8,
       "junk_bond": 6.6,
       "volatility": 50.0,
       "safe_haven": 22.4
@@ -15,13 +15,13 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "증시 활황에 증권사 1분기 순이익 4.3조… 분기 기준 최대 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWUYxVkUwM1E2TGVURjNGQnE1azRnLWJ0Ty1ualJJdzdFZjRTS192NDdOWFJQSUdpRnU0Q1luOUEtYjRIZzh2c1MtcGs2MjdZY0dBSjBRbElmR1pSUHRPT2FodUZTOTdLUnFkMGdSQlFLZ0lWcWdPTHM5aXpVQzJFWDNWMDl2NG1wbmtJ?oc=5",
-          "pub_date": "Fri, 12 Jun 2026 00:43:00 GMT",
-          "source": "조선일보"
+          "title": "코스피 널뛰기 장세에 ‘빚투 강제청산’ 2년8개월만의 최대 규모 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1OVd1Rmk3c1hTWGItN2k0ak5qSHZ5eUpKZ2xDVmtabWtOR2Rsa1N1elNFMlNFRkdITmJtbl8xY0hTaWtCZlktRlN2bUp6S1pvZTBmanViNUpIdUk4ZHh3ZXZyRjlmaUptUlNKM1Zva0JhZkFUakHSAWZBVV95cUxNUm4zMEtmVml3WFNPVTBGZzNfODJ2cG5jVk9IZVJ4cWg5Vl8zRzVlX0c4ZTRuMFdMME9mVnJvbEU5UEVPaXdlV3pIWjlaZFBpWFlFak5Bck52NWJGalBZTGZYTDBROGc?oc=5",
+          "pub_date": "Fri, 12 Jun 2026 07:46:00 GMT",
+          "source": "동아일보"
         }
       ],
       "fear_articles": [
@@ -30,19 +30,25 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96UWhRVzBnMGN1QmRqTkZkeVFEODhyQ0N5ZkFqN3JXVjh5TE1uLXQzOWtZNnFxc2NSVkRSSno4WEY5eElzbkt0SEZkSHdCR0k?oc=5",
           "pub_date": "Fri, 12 Jun 2026 01:24:49 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "인도네시아 증시 급락세···현지 베팅한 국내 금융권 '긴장' - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUcDdEcnRBcnhaX09QRDM3MlVoQXR5YlhleGJiUml3dWlmMlRDLUpWMGtseVhvZEdObGI4eHc2MzNqc3VuWHA3bGhzTmFLeHhWeGVKa2VMY0MybjhsOEtLT1hNQXFOMmVqQ0FNQXdtamJYVXRiS3fSAXZBVV95cUxQVHA3RHJ0QXJ4Wl9PUEQzNzJVaEF0eWJYZXhiYlJpd3VpZjJUQy1KVjBrbHlYb2RHTmxiOHh3NjMzanN1blhwN2xoc05hS3h4VnhlSmtlTGNDMm44bDhLS09YTUFxTjJlakNBTUF3bWpiWFV0Ykt3?oc=5",
+          "pub_date": "Fri, 12 Jun 2026 07:18:45 GMT",
+          "source": "시사저널e"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.44,
+    "vix": 19.16,
     "vvix": 100.63,
     "skew": 142.98,
     "move": 69.45
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 4486500000000,
-    "retail_net_buy_krw": -4314300000000,
+    "foreign_inst_buy_krw": 4491100000000,
+    "retail_net_buy_krw": -4317400000000,
     "margin_loan_krw": 36190100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -58,19 +64,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8114.2,
+      "current": 8123.62,
       "high_52w": 8933.62,
-      "drop_pct": -9.17,
+      "drop_pct": -9.07,
       "intraday_low_drop_pct": -9.56,
-      "sma_200": 5003.67,
+      "sma_200": 5003.72,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1027.13,
+      "current": 1029.05,
       "high_52w": 1229.42,
-      "drop_pct": -16.45,
+      "drop_pct": -16.3,
       "intraday_low_drop_pct": -16.91,
-      "sma_200": 993.71,
+      "sma_200": 993.72,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -167,16 +173,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.12",
+            "close": 322500,
+            "change_pct": 7.86,
+            "retail_net": -6175315,
+            "inst_net": 3295009,
+            "foreign_net": 2880306
+          },
           {
             "date": "2026.06.11",
             "close": 299000,
@@ -208,17 +222,17 @@
             "retail_net": 5111500,
             "inst_net": -3937194,
             "foreign_net": -1174306
-          },
-          {
-            "date": "2026.06.05",
-            "close": 329000,
-            "change_pct": -6.4,
-            "retail_net": 5687342,
-            "inst_net": -1446498,
-            "foreign_net": -4240844
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.12",
+            "close": 2150000,
+            "change_pct": 2.33,
+            "retail_net": -303262,
+            "inst_net": -270178,
+            "foreign_net": 573440
+          },
           {
             "date": "2026.06.11",
             "close": 2101000,
@@ -250,14 +264,6 @@
             "retail_net": 240761,
             "inst_net": -86029,
             "foreign_net": -154732
-          },
-          {
-            "date": "2026.06.05",
-            "close": 2070000,
-            "change_pct": -9.92,
-            "retail_net": 1018634,
-            "inst_net": -411774,
-            "foreign_net": -606860
           }
         ]
       }
