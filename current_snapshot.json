@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-15T04:50:51.094118+09:00",
+  "timestamp": "2026-06-15T06:23:18.835071+09:00",
   "sentiment": {
     "cnn_fng": 34.0,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "국내 증시의 반도체 쏠림 현상 제대로 알아보기 - 데일리바이트(DAILY BYTE)",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXlUTktnWHVqaW5nc1JRX1FrNEtzQ19NN29ESEFxLXoxS1AtM09TZzlaSTJia3VXWkVYaC12VGdDaS02OFZOUGp6aVpTb0h4QlJRNkplZWNwYmtDVFVrZnFmc211UjNCVTFyTF9vUFpXUnRNMFB0YVlmYzhodTcteUJ1c2N1RXRtUGFB?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 20:18:54 GMT",
+          "source": "데일리바이트(DAILY BYTE)"
+        }
+      ],
       "fear_articles": []
     }
   },
