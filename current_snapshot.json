@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-15T07:38:01.426398+09:00",
+  "timestamp": "2026-06-15T08:50:18.599922+09:00",
   "sentiment": {
     "cnn_fng": 34.0,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 1,
+      "greed_count": 6,
+      "fear_count": 4,
       "greed_articles": [
+        {
+          "title": "'인플레 아닌 쏠림해소'…조정 거친 韓증시, 반도체 투심 지속 전망 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV0JreFdGWC1QOEJ3elZQWEc4aDItSjRWekRPTTN1bXVYTEI1dFN6cF9TRGljWXowN2ZiY0dOVV80ci1KbmlPT1RfWU5zTzJSMVdzWTdNQ01RYzdfY3I3cWNHcU5VanJmcmVleTFYOEw?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:44:17 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "코스피 활황에 농특세 수입 역대급…농업부문 투자 확대를 - 농수축산신문",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hZWM0X1BkZnBTbkVkRVNWQVc5SnI1cHJhRHVTR0lWajJyVExlM1RwNXhQTnRDeHU1QVJwN3pXVUc0allYaFo1cTYxZ3h0SENKWnk1YjY5aEpHNmJ6akt2VlUxbU9CYk1DT0pWMg?oc=5",
@@ -24,30 +30,48 @@
           "source": "농수축산신문"
         },
         {
+          "title": "[오늘의 증시]미·이란 협상 타결…8100 안착 코스피, 전고점 뚫을까 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzaWNneXN0OHdTQ3p1NTNpdVRUWnVySVgxYjdnOGtFWnIzLW92d0NicFJBRG1jbkhId3hCMHNla29GQ1VCeDRfTWJXLWdwVERDTTRPN3FMcmlKRWpsU2dSa9IBeEFVX3lxTE1rX2NyUEZNQ3VDWTZERTVmSndZb2dJbjlyN1JPYW5BWjNoSFFRdGs3QWRLRWxqaEExSkZKX0FiSUdnT3g3RmFEcUxJZnJvVlQwWXZwNUxyZTJXckQ2MkktVmhzcnhQOUpWVEV4aGVVeFV4dWFxNFFNeA?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 22:56:01 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "미래에셋 인니 \"현지 증시 하락세, 우량주 저가 매수 기회\" - 더구루",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fcmtldkxRZUc5WHVtU0xOdnF2N2ZtMnA5NmxURVlzRVJqVC1Fb0lYZDJmRWl0TjBpSWtCeUlyZHlweWtGX08tYzhPTkxlN2s3bkZRbDhGWUFhaGZqR2c?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:39:05 GMT",
+          "source": "더구루"
+        },
+        {
           "title": "국내 증시의 반도체 쏠림 현상 제대로 알아보기 - 데일리바이트(DAILY BYTE)",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXlUTktnWHVqaW5nc1JRX1FrNEtzQ19NN29ESEFxLXoxS1AtM09TZzlaSTJia3VXWkVYaC12VGdDaS02OFZOUGp6aVpTb0h4QlJRNkplZWNwYmtDVFVrZnFmc211UjNCVTFyTF9vUFpXUnRNMFB0YVlmYzhodTcteUJ1c2N1RXRtUGFB?oc=5",
           "pub_date": "Sun, 14 Jun 2026 20:18:54 GMT",
           "source": "데일리바이트(DAILY BYTE)"
-        },
-        {
-          "title": "74조 팔던 외국인, 2조 '폭풍 매수' 전환…종전 기대감 탄 코스피 전고점 뚫을까 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Tb3Eybmg2YWZKNFB0cm1TYWlRZC1GcllxN0NyY2c5cUFfeUd5MEJrV19nX19hQmpTUy1zWTVqWE91S2ctYVVpaHFRUkdHeU9iWG81MFRmS2U2Z9IBXkFVX3lxTE9hY2xsQUREaWNTWnM2eWoxMUoyZWZZclFRMUZjZU9seXduMlRRLS04d2ZZa0FERlFmY1VqZ1MzaXJMSjhMbmNlWjhiZWxXLS1KQXJLSFZNVHoyN1lhVlE?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 21:25:44 GMT",
-          "source": "파이낸셜뉴스"
-        },
-        {
-          "title": "74조 팔던 외국인, 2조 '폭풍 매수' 전환…종전 기대감 탄 코스피 전고점 뚫을까 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kOFcwYXpfd0NVTkluVEN0RGZNdHF0T0NDWkQ1RjNrMUZaQk1DVmg4cXQ2OVBlWWhzMl9rQnRaVkRQWTg2dEFMR19WblNEbWp0c2FF?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 21:26:00 GMT",
-          "source": "네이트"
         }
       ],
       "fear_articles": [
+        {
+          "title": "스페이스X 청약 무산 후폭풍…미래에셋증권, 증시훈풍 속 나홀로 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BaWd0Mmp2QldHdUNrRzcyRmxMakIzZWZOMlBlbkxIdjVZcklJQTN4TUd2N2tSaG4waGdGazliNjJfRU1XQmJkOXRTRHdiRHBYNE5CNTV1Smh0ZEcxT182RHdjeHA5TXdHZmNNMDNxeUE?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:15:47 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "“일본, 내일 금리 올릴 듯”…2년 전 코스피는 8%대 폭락했다 [잇슈 머니] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wWG9EUE1nNkZMbkdLNjBNQVYzVUdibHg5SnRRNzdkN0wtdGtPWnlSVHB3VlYwV1FaNkJzbG5Ld1Zqc2lkSnNVMHIydnNEMjQ?oc=5",
           "pub_date": "Sun, 14 Jun 2026 22:22:46 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "미·이란 종전 MOU 합의에 뉴욕증시 선물 오르고 유가 급락 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BOTFLOERTN25qd0ZtaUx6ajRoLTN0Tnc0d2ZlbmpyOTRSdXJUQWVSYkVjZE16OE5hY2t5RnNSMUhaRDhlbDMtWXVHUGkxdm1oTVptdE9zT28?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:00:37 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "코스피 급락 이틀에 마이너스통장 '6085억원 증가'...은행권 신용대출 조인다 - 뉴스후플러스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BdzR0Qzd3Ynp0el9WNTFUWFZKaWxaRjF1YkF4OWZqbUJWWTN4eGhkM2xHRHVMWjFucWYxU0QxTWotMjZVaWhJUnlhbm01UU8xR0UxbEhrT19kVmNxQUcydjNaNkhDMmhLekZUbnVR?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 22:30:00 GMT",
+          "source": "뉴스후플러스"
         }
       ]
     }
