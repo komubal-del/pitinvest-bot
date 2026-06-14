@@ -1,50 +1,30 @@
 {
-  "timestamp": "2026-06-12T23:14:44.994243+09:00",
+  "timestamp": "2026-06-15T01:44:12.918347+09:00",
   "sentiment": {
-    "cnn_fng": 31.5142857142857,
+    "cnn_fng": 34.0,
     "cnn_components": {
-      "momentum": 46.4,
-      "strength": 31.6,
-      "breadth": 19.8,
-      "put_call": 34.6,
-      "junk_bond": 9.4,
+      "momentum": 64.6,
+      "strength": 32.4,
+      "breadth": 21.4,
+      "put_call": 33.8,
+      "junk_bond": 7.2,
       "volatility": 50.0,
-      "safe_haven": 28.2
+      "safe_haven": 28.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "코스피 널뛰기 장세에 ‘빚투 강제청산’ 2년8개월만의 최대 규모 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tVWI4TkxSZ3BRNHRkUFVJemdxQmp0M3h3elNrb0VHcHg0dlZtLWhuYXVJZUZmZjM3YkdmSmRjejJTaTRQSXpuSzVCTndiZ2M?oc=5",
-          "pub_date": "Fri, 12 Jun 2026 07:47:35 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 널뛰기 장세에 ‘빚투 강제청산’ 2년8개월만의 최대 규모 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1OVd1Rmk3c1hTWGItN2k0ak5qSHZ5eUpKZ2xDVmtabWtOR2Rsa1N1elNFMlNFRkdITmJtbl8xY0hTaWtCZlktRlN2bUp6S1pvZTBmanViNUpIdUk4ZHh3ZXZyRjlmaUptUlNKM1Zva0JhZkFUakHSAWZBVV95cUxNUm4zMEtmVml3WFNPVTBGZzNfODJ2cG5jVk9IZVJ4cWg5Vl8zRzVlX0c4ZTRuMFdMME9mVnJvbEU5UEVPaXdlV3pIWjlaZFBpWFlFak5Bck52NWJGalBZTGZYTDBROGc?oc=5",
-          "pub_date": "Fri, 12 Jun 2026 07:46:00 GMT",
-          "source": "동아일보"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "'외국인' 때문에 코스피 급락?...\"이제 판 바뀐다\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96UWhRVzBnMGN1QmRqTkZkeVFEODhyQ0N5ZkFqN3JXVjh5TE1uLXQzOWtZNnFxc2NSVkRSSno4WEY5eElzbkt0SEZkSHdCR0k?oc=5",
-          "pub_date": "Fri, 12 Jun 2026 01:24:49 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 19.32,
-    "vvix": 99.25,
-    "skew": 142.98,
-    "move": 69.45
+    "vix": 17.68,
+    "vvix": 93.82,
+    "skew": 142.6,
+    "move": 69.36
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 4491100000000,
@@ -56,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25809.39,
+      "current": 25888.84,
       "high_52w": 27190.21,
-      "drop_pct": -5.08,
+      "drop_pct": -4.79,
       "intraday_low_drop_pct": -5.85,
-      "sma_200": 23430.4,
+      "sma_200": 23430.8,
       "below_sma200_streak": 0
     },
     "kospi": {
@@ -80,37 +60,37 @@
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7407.74,
+      "current": 7431.46,
       "high_52w": 7620.9,
-      "drop_pct": -2.8,
+      "drop_pct": -2.49,
       "intraday_low_drop_pct": -3.38,
-      "sma_200": 6881.88,
+      "sma_200": 6881.99,
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2936.45,
-      "high_52w": 2943.97,
-      "drop_pct": -0.26,
-      "intraday_low_drop_pct": -0.77,
-      "sma_200": 2585.83,
+      "current": 2943.99,
+      "high_52w": 2969.43,
+      "drop_pct": -0.86,
+      "intraday_low_drop_pct": -1.62,
+      "sma_200": 2585.87,
       "below_sma200_streak": 0
     },
     "soxx": {
-      "current": 595.05,
+      "current": 596.25,
       "high_52w": 618.84,
-      "drop_pct": -3.84,
+      "drop_pct": -3.65,
       "intraday_low_drop_pct": -6.51,
-      "sma_200": 352.49,
+      "sma_200": 352.5,
       "below_sma200_streak": 0
     }
   },
   "sector_rs": {
-    "XLK": 1.205,
-    "SMH": 1.43,
-    "BOTZ": 0.936,
-    "IGV": 0.951,
-    "XLF": 0.979,
-    "XLE": 0.908
+    "XLK": 1.204,
+    "SMH": 1.425,
+    "BOTZ": 0.949,
+    "IGV": 0.959,
+    "XLF": 0.976,
+    "XLE": 0.894
   },
   "signals": {
     "cnn_under_10": false,
@@ -150,19 +130,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 74.62,
+    "tqqq_profit_pct": 76.3,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 336.9,
+    "soxl_profit_pct": 338.65,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 123.68,
+    "koru_profit_pct": 124.29,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -317,7 +297,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 247.56,
+    "strategy_pct": 253.908,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -773,7 +753,7 @@
       },
       {
         "date": "2026-06-12",
-        "ret_pct": 247.56
+        "ret_pct": 253.908
       }
     ],
     "monthly_breakdown": [
@@ -809,8 +789,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -47.78,
-        "end_ret_pct": 247.56,
+        "return_pct": -41.43,
+        "end_ret_pct": 253.91,
         "max_dd_pct": 154.19
       }
     ],
