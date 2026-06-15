@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-15T14:21:27.390536+09:00",
+  "timestamp": "2026-06-15T20:25:59.653916+09:00",
   "sentiment": {
     "cnn_fng": 34.0,
     "cnn_components": {
@@ -14,53 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "'인플레 아닌 쏠림해소'…조정 거친 韓증시, 반도체 투심 지속 전망 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14bGpqREo3UXFpTVpFOU5QNXYwSDRJdTdaVUtYQWp1Rjc4SmJmeDJGRHhvdElsdmU4UEMzRTYyN1Q2RmVUWWltZ3RCQktzUGNaZGlBNUlwdUlfczdkOE82Yi1IQnBYdkJmU2l5S2dNcHNweU5I?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:48:00 GMT",
-          "source": "연합인포맥스"
+          "title": "국내증시, 대형주 쏠림 심화...코스피 급등에 코스닥 강보합 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtREtna0Fjd0huVTk4RnFraXFzbHFMeWxjazhLRVdERklTakc0RkI0WklleC1zQ0d6N1RhbGJsOVkta3BDRmppN0pYZTFHYzJmVUN5dWw0dnZKaUZjVEJJZDc3WVdDblZ1MXB3cDRxc24?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 06:48:07 GMT",
+          "source": "오피니언뉴스"
+        },
+        {
+          "title": "긍정 시그널 부는 한국 증시…반도체 쏠림도 완화 기대 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RYU1rX2xrWEdiMFJ4MExFWkI0YU1TeGtnbGVKek5fZVRzdzhyT2k0TlBmakZzVHFWOGM0SzJBTDJmTlNLX0MzN3hqdjd5SHJlU2I5VDV0em4zcW4yWDN4Snp2YzVEc2paOUUzTTJ30gFuQVVfeXFMTlFhTWtfbGtYR2IwUngwTEVaQjRhTVN4a2dsZUp6Tl9lVHN3OHJPaTROUGZqRnNUcVY4YzRLMkFMMmZOU0tfQzM3eGp2N3lIcmVTYjlUNXR6bjNxbjJYM3hKenZjNURzalo5RTNNMnc?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 07:19:25 GMT",
+          "source": "머니투데이"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "중동발 먹구름 걷히자 금융시장 환호… 유가 급락에 코스피 급반등 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS29qZ2pwZ2c0NVN6Y19jaHhRMnhsWXhFcUxsSmtDdllXRzhTeDNuaVlkOFhOeU5rdV9oODlvekd2SE41SVdKZ2FxNi1CZzBRRDZRdTl2RGhZalZIb1F3R3hMek1keC04X0R6b0kyUk9QREdibk9IcWNwbFJUODVTdFRXNzZ4aXRpUld2eUt3?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 00:02:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "코스피 단숨에 8500선 돌파…국제유가 4% 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZjdROU5yUE5UY05XYTFWeGRRRnVhbGI3cnFtNUJILTlEc3pxWFZQZk1ndUZkVWs4RW5ERFFNd2hkS3BHOWJMcGtCMURNdjQ?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 02:36:14 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "스페이스X 청약 무산 후폭풍…미래에셋증권, 증시훈풍 속 나홀로 급락 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjQ2lXcXBqendTUzhpLXZhWnpINmFPX1huZkJPdzlwcF9VZzMtMjlVNnZ3RDc4bnY3RWZ0cFRTd1EzZFdPUWFQeEhxLUdQTWxMakl5SXV4QkpZR085MW5sQXpwcEdBTTdjR19OR0NESUtLMFRy?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:21:52 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "미·이란 종전 합의에 뉴욕 증시 선물 오르고 국제유가 급락 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rT1RvdWI2eUJLaDF5ZVVVcFVyZkR1a3NvcnhlUU1oS2ZOd2pnRU5HZk5JaUJvbjd0c2NzRDdwYWdhS3FCNGZJUm4tN3dQTGNOcTFyRFlaekhjQdIBX0FVX3lxTFBVclBkNTdMbnp2cTNtY3AzY205RFRwdlNCTHB0eEZ6YVZBLTh6M1VGbW1KWWhpb2dBUk1hTGNRYjVWMHZjT2J6bUx1ampWdDRnM0QtSFphZ0JIVzNmN3lj?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:43:00 GMT",
-          "source": "경향신문"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.68,
+    "vix": 16.72,
     "vvix": 93.82,
     "skew": 142.6,
     "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1993000000000,
-    "retail_net_buy_krw": -1960200000000,
+    "foreign_inst_buy_krw": 1523600000000,
+    "retail_net_buy_krw": -1512400000000,
     "margin_loan_krw": 36075200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -76,17 +57,17 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8564.61,
+      "current": 8545.98,
       "high_52w": 8933.62,
-      "drop_pct": -4.13,
+      "drop_pct": -4.34,
       "intraday_low_drop_pct": -5.41,
-      "sma_200": 5030.41,
+      "sma_200": 5030.32,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1034.48,
+      "current": 1034.03,
       "high_52w": 1229.42,
-      "drop_pct": -15.86,
+      "drop_pct": -15.89,
       "intraday_low_drop_pct": -16.59,
       "sma_200": 994.81,
       "below_sma200_streak": 0
@@ -185,7 +166,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": true,
@@ -195,6 +176,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.15",
+            "close": 337000,
+            "change_pct": 4.5,
+            "retail_net": 1297243,
+            "inst_net": 531697,
+            "foreign_net": -1828940
+          },
           {
             "date": "2026.06.12",
             "close": 322500,
@@ -226,17 +215,17 @@
             "retail_net": -170849,
             "inst_net": 1767022,
             "foreign_net": -1596173
-          },
-          {
-            "date": "2026.06.08",
-            "close": 295500,
-            "change_pct": -10.18,
-            "retail_net": 5111500,
-            "inst_net": -3937194,
-            "foreign_net": -1174306
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.15",
+            "close": 2288000,
+            "change_pct": 6.42,
+            "retail_net": -345471,
+            "inst_net": 165238,
+            "foreign_net": 180233
+          },
           {
             "date": "2026.06.12",
             "close": 2150000,
@@ -268,14 +257,6 @@
             "retail_net": -228549,
             "inst_net": 854714,
             "foreign_net": -626165
-          },
-          {
-            "date": "2026.06.08",
-            "close": 1911000,
-            "change_pct": -7.68,
-            "retail_net": 240761,
-            "inst_net": -86029,
-            "foreign_net": -154732
           }
         ]
       }
