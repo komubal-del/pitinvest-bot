@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-15T08:50:18.599922+09:00",
+  "timestamp": "2026-06-15T14:21:27.390536+09:00",
   "sentiment": {
     "cnn_fng": 34.0,
     "cnn_components": {
@@ -14,64 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
+      "greed_count": 1,
       "fear_count": 4,
       "greed_articles": [
         {
-          "title": "'인플레 아닌 쏠림해소'…조정 거친 韓증시, 반도체 투심 지속 전망 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV0JreFdGWC1QOEJ3elZQWEc4aDItSjRWekRPTTN1bXVYTEI1dFN6cF9TRGljWXowN2ZiY0dOVV80ci1KbmlPT1RfWU5zTzJSMVdzWTdNQ01RYzdfY3I3cWNHcU5VanJmcmVleTFYOEw?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:44:17 GMT",
+          "title": "'인플레 아닌 쏠림해소'…조정 거친 韓증시, 반도체 투심 지속 전망 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14bGpqREo3UXFpTVpFOU5QNXYwSDRJdTdaVUtYQWp1Rjc4SmJmeDJGRHhvdElsdmU4UEMzRTYyN1Q2RmVUWWltZ3RCQktzUGNaZGlBNUlwdUlfczdkOE82Yi1IQnBYdkJmU2l5S2dNcHNweU5I?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:48:00 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피 활황에 농특세 수입 역대급…농업부문 투자 확대를 - 농수축산신문",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hZWM0X1BkZnBTbkVkRVNWQVc5SnI1cHJhRHVTR0lWajJyVExlM1RwNXhQTnRDeHU1QVJwN3pXVUc0allYaFo1cTYxZ3h0SENKWnk1YjY5aEpHNmJ6akt2VlUxbU9CYk1DT0pWMg?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 22:00:00 GMT",
-          "source": "농수축산신문"
-        },
-        {
-          "title": "[오늘의 증시]미·이란 협상 타결…8100 안착 코스피, 전고점 뚫을까 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzaWNneXN0OHdTQ3p1NTNpdVRUWnVySVgxYjdnOGtFWnIzLW92d0NicFJBRG1jbkhId3hCMHNla29GQ1VCeDRfTWJXLWdwVERDTTRPN3FMcmlKRWpsU2dSa9IBeEFVX3lxTE1rX2NyUEZNQ3VDWTZERTVmSndZb2dJbjlyN1JPYW5BWjNoSFFRdGs3QWRLRWxqaEExSkZKX0FiSUdnT3g3RmFEcUxJZnJvVlQwWXZwNUxyZTJXckQ2MkktVmhzcnhQOUpWVEV4aGVVeFV4dWFxNFFNeA?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 22:56:01 GMT",
-          "source": "뉴시스"
-        },
-        {
-          "title": "미래에셋 인니 \"현지 증시 하락세, 우량주 저가 매수 기회\" - 더구루",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fcmtldkxRZUc5WHVtU0xOdnF2N2ZtMnA5NmxURVlzRVJqVC1Fb0lYZDJmRWl0TjBpSWtCeUlyZHlweWtGX08tYzhPTkxlN2s3bkZRbDhGWUFhaGZqR2c?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:39:05 GMT",
-          "source": "더구루"
-        },
-        {
-          "title": "국내 증시의 반도체 쏠림 현상 제대로 알아보기 - 데일리바이트(DAILY BYTE)",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXlUTktnWHVqaW5nc1JRX1FrNEtzQ19NN29ESEFxLXoxS1AtM09TZzlaSTJia3VXWkVYaC12VGdDaS02OFZOUGp6aVpTb0h4QlJRNkplZWNwYmtDVFVrZnFmc211UjNCVTFyTF9vUFpXUnRNMFB0YVlmYzhodTcteUJ1c2N1RXRtUGFB?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 20:18:54 GMT",
-          "source": "데일리바이트(DAILY BYTE)"
         }
       ],
       "fear_articles": [
         {
-          "title": "스페이스X 청약 무산 후폭풍…미래에셋증권, 증시훈풍 속 나홀로 급락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BaWd0Mmp2QldHdUNrRzcyRmxMakIzZWZOMlBlbkxIdjVZcklJQTN4TUd2N2tSaG4waGdGazliNjJfRU1XQmJkOXRTRHdiRHBYNE5CNTV1Smh0ZEcxT182RHdjeHA5TXdHZmNNMDNxeUE?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:15:47 GMT",
-          "source": "연합인포맥스"
+          "title": "중동발 먹구름 걷히자 금융시장 환호… 유가 급락에 코스피 급반등 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS29qZ2pwZ2c0NVN6Y19jaHhRMnhsWXhFcUxsSmtDdllXRzhTeDNuaVlkOFhOeU5rdV9oODlvekd2SE41SVdKZ2FxNi1CZzBRRDZRdTl2RGhZalZIb1F3R3hMek1keC04X0R6b0kyUk9QREdibk9IcWNwbFJUODVTdFRXNzZ4aXRpUld2eUt3?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 00:02:00 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "“일본, 내일 금리 올릴 듯”…2년 전 코스피는 8%대 폭락했다 [잇슈 머니] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wWG9EUE1nNkZMbkdLNjBNQVYzVUdibHg5SnRRNzdkN0wtdGtPWnlSVHB3VlYwV1FaNkJzbG5Ld1Zqc2lkSnNVMHIydnNEMjQ?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 22:22:46 GMT",
+          "title": "코스피 단숨에 8500선 돌파…국제유가 4% 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZjdROU5yUE5UY05XYTFWeGRRRnVhbGI3cnFtNUJILTlEc3pxWFZQZk1ndUZkVWs4RW5ERFFNd2hkS3BHOWJMcGtCMURNdjQ?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 02:36:14 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "미·이란 종전 MOU 합의에 뉴욕증시 선물 오르고 유가 급락 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BOTFLOERTN25qd0ZtaUx6ajRoLTN0Tnc0d2ZlbmpyOTRSdXJUQWVSYkVjZE16OE5hY2t5RnNSMUhaRDhlbDMtWXVHUGkxdm1oTVptdE9zT28?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 23:00:37 GMT",
-          "source": "뉴스1"
+          "title": "스페이스X 청약 무산 후폭풍…미래에셋증권, 증시훈풍 속 나홀로 급락 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjQ2lXcXBqendTUzhpLXZhWnpINmFPX1huZkJPdzlwcF9VZzMtMjlVNnZ3RDc4bnY3RWZ0cFRTd1EzZFdPUWFQeEhxLUdQTWxMakl5SXV4QkpZR085MW5sQXpwcEdBTTdjR19OR0NESUtLMFRy?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:21:52 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 급락 이틀에 마이너스통장 '6085억원 증가'...은행권 신용대출 조인다 - 뉴스후플러스",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BdzR0Qzd3Ynp0el9WNTFUWFZKaWxaRjF1YkF4OWZqbUJWWTN4eGhkM2xHRHVMWjFucWYxU0QxTWotMjZVaWhJUnlhbm01UU8xR0UxbEhrT19kVmNxQUcydjNaNkhDMmhLekZUbnVR?oc=5",
-          "pub_date": "Sun, 14 Jun 2026 22:30:00 GMT",
-          "source": "뉴스후플러스"
+          "title": "미·이란 종전 합의에 뉴욕 증시 선물 오르고 국제유가 급락 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rT1RvdWI2eUJLaDF5ZVVVcFVyZkR1a3NvcnhlUU1oS2ZOd2pnRU5HZk5JaUJvbjd0c2NzRDdwYWdhS3FCNGZJUm4tN3dQTGNOcTFyRFlaekhjQdIBX0FVX3lxTFBVclBkNTdMbnp2cTNtY3AzY205RFRwdlNCTHB0eEZ6YVZBLTh6M1VGbW1KWWhpb2dBUk1hTGNRYjVWMHZjT2J6bUx1ampWdDRnM0QtSFphZ0JIVzNmN3lj?oc=5",
+          "pub_date": "Sun, 14 Jun 2026 23:43:00 GMT",
+          "source": "경향신문"
         }
       ]
     }
@@ -83,8 +59,8 @@
     "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 4491100000000,
-    "retail_net_buy_krw": -4317400000000,
+    "foreign_inst_buy_krw": 1993000000000,
+    "retail_net_buy_krw": -1960200000000,
     "margin_loan_krw": 36075200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -100,19 +76,19 @@
       "below_sma200_streak": 0
     },
     "kospi": {
-      "current": 8123.62,
+      "current": 8564.61,
       "high_52w": 8933.62,
-      "drop_pct": -9.07,
-      "intraday_low_drop_pct": -9.56,
-      "sma_200": 5003.72,
+      "drop_pct": -4.13,
+      "intraday_low_drop_pct": -5.41,
+      "sma_200": 5030.41,
       "below_sma200_streak": 0
     },
     "kosdaq": {
-      "current": 1029.05,
+      "current": 1034.48,
       "high_52w": 1229.42,
-      "drop_pct": -16.3,
-      "intraday_low_drop_pct": -16.91,
-      "sma_200": 993.72,
+      "drop_pct": -15.86,
+      "intraday_low_drop_pct": -16.59,
+      "sma_200": 994.81,
       "below_sma200_streak": 0
     },
     "sp500": {
@@ -212,7 +188,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
