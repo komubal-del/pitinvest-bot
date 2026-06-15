@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-06-16T05:01:11.610222+09:00",
+  "timestamp": "2026-06-16T07:25:01.375881+09:00",
   "sentiment": {
-    "cnn_fng": 40.8285714285714,
+    "cnn_fng": 40.8571428571429,
     "cnn_components": {
-      "momentum": 87.4,
-      "strength": 34.6,
-      "breadth": 25.2,
-      "put_call": 36.4,
-      "junk_bond": 11.2,
+      "momentum": 87.0,
+      "strength": 34.8,
+      "breadth": 24.4,
+      "put_call": 36.0,
+      "junk_bond": 10.8,
       "volatility": 50.0,
-      "safe_haven": 40.8
+      "safe_haven": 43.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "증시 활황으로 농특세 급증에 농어촌 기본소득 검토 - 안동MBC",
@@ -36,14 +36,21 @@
           "source": "진일보"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "코스피 5.7% 폭등·유가 5% 급락…미·이란 종전 MOU 서명 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1lkdElwWnpMLU5fTjhtSlMyVTlKN2JULWljVVNHX2FjdnduQlB2cFFQYjVCWVR1V2FmQlFOV3lsUkw0TXRGWkJ0ZzV6dEZwb0hxTFJxUjNkY2FpRnZacXF0aXhkUGIza25qUnc4bEc3cFcyTjBZWTNMekZrZlZKNlhIRFVuRDg?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 20:30:53 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 16.1,
-    "vvix": 88.27,
-    "skew": 142.6,
-    "move": 69.36
+    "vix": 16.2,
+    "vvix": 87.58,
+    "skew": 144.32,
+    "move": 69.38
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 1523600000000,
@@ -79,7 +86,7 @@
       "below_sma200_streak": 0
     },
     "sp500": {
-      "current": 7554.54,
+      "current": 7554.29,
       "high_52w": 7620.9,
       "drop_pct": -0.87,
       "intraday_low_drop_pct": -1.37,
@@ -87,11 +94,11 @@
       "below_sma200_streak": 0
     },
     "russell2k": {
-      "current": 2969.05,
+      "current": 2965.09,
       "high_52w": 2996.42,
-      "drop_pct": -0.91,
-      "intraday_low_drop_pct": -1.0,
-      "sma_200": 2588.85,
+      "drop_pct": -1.05,
+      "intraday_low_drop_pct": -1.19,
+      "sma_200": 2588.83,
       "below_sma200_streak": 0
     },
     "soxx": {
@@ -104,10 +111,10 @@
     }
   },
   "sector_rs": {
-    "XLK": 1.224,
+    "XLK": 1.223,
     "SMH": 1.452,
-    "BOTZ": 0.956,
-    "IGV": 0.965,
+    "BOTZ": 0.955,
+    "IGV": 0.964,
     "XLF": 0.965,
     "XLE": 0.854
   },
@@ -155,13 +162,13 @@
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 409.68,
+    "soxl_profit_pct": 409.35,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 171.23,
+    "koru_profit_pct": 171.71,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -316,7 +323,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 311.491,
+    "strategy_pct": 312.537,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -780,7 +787,7 @@
       },
       {
         "date": "2026-06-16",
-        "ret_pct": 311.491
+        "ret_pct": 312.537
       }
     ],
     "monthly_breakdown": [
@@ -816,8 +823,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 16.15,
-        "end_ret_pct": 311.49,
+        "return_pct": 17.2,
+        "end_ret_pct": 312.54,
         "max_dd_pct": 154.19
       }
     ],
