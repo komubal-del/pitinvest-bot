@@ -209,13 +209,9 @@ def build_history(output_path='pitinvest_history.csv'):
             row['sell_signal_count']     = 0
 
         # 구덩이 상태 (내부 룰)
-        nd = row.get('nasdaq_drop_pct')
-        kd = row.get('kospi_drop_pct')
-        emergency = (nd is not None and nd <= -9.0) or (kd is not None and kd <= -9.0)
         bc = row['signal_count']
         sc = row['sell_signal_count']
-        if   emergency:     stage = 'emergency'
-        elif sc == 3:       stage = 'reset'
+        if   sc == 3:       stage = 'reset'
         elif sc == 2:       stage = 'sell_near'
         elif sc == 1:       stage = 'exit'
         elif bc == 3:       stage = 'full'

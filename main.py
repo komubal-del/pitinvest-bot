@@ -242,7 +242,7 @@ def fetch_extended_market(csv_path='pitinvest_history.csv'):
             if clean.empty:
                 continue
             current  = float(clean["Close"].iloc[-1])
-            today_low = float(clean["Low"].iloc[-1])  # 오늘 장중 저점 (긴급탈출 raw 트리거용)
+            today_low = float(clean["Low"].iloc[-1])  # 오늘 장중 저점
             high_52w_yf  = float(clean["High"].max())  # 장중 고가 기준 (yfinance)
             high_52w_csv = _csv_max(csv_path, f'{key}_52w_high')  # CSV 과거 기록 fallback
             high_52w = max(high_52w_yf, high_52w_csv)
@@ -250,26 +250,18 @@ def fetch_extended_market(csv_path='pitinvest_history.csv'):
                 continue
             drop_pct = (current / high_52w - 1) * 100
             intraday_low_drop_pct = (today_low / high_52w - 1) * 100  # 장중 저점 기준
-            # v5.3: 200일 이동평균 + '200일선 아래 연속 거래일수' (레짐 필터 긴급탈출용)
+            # 200일 이동평균 (CSV/차트 표시용)
             closes = clean["Close"]
             sma_200 = None
-            below_sma200_streak = 0
             if len(closes) >= 200:
                 sma_series = closes.rolling(window=200).mean()
                 sma_200 = float(sma_series.iloc[-1])
-                for k in range(len(closes) - 1, -1, -1):
-                    s = sma_series.iloc[k]
-                    if pd.notna(s) and float(closes.iloc[k]) < float(s):
-                        below_sma200_streak += 1
-                    else:
-                        break
             result["indices"][key] = {
                 "current":  round(current, 2),
                 "high_52w": round(high_52w, 2),
                 "drop_pct": round(drop_pct, 2),
                 "intraday_low_drop_pct": round(intraday_low_drop_pct, 2),
                 "sma_200":  round(sma_200, 2) if sma_200 is not None else None,
-                "below_sma200_streak": below_sma200_streak,
             }
         except Exception as e:
             print(f"[idx] {key} fail: {e}")
@@ -812,23 +804,8 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     buy_count  = int(cnn_fired) + int(vix_fired) + int(margin_fired)
     sell_count = int(leverage_over) + int(sell_leading_fired) + int(sell_expert_fired)
 
-    # 긴급탈출 (v5.3): 레짐 필터. 나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속 → 발동.
-    # 살 만한 딥(중앙값 3일)·V반등은 무시하고 '지속된 추세 하락(=레짐 체인지)'만 잡는다. → 위성 전량 현금화.
-    EMERGENCY_TREND_INDICES = ("nasdaq", "sp500", "kospi")
-    EMERGENCY_STREAK_DAYS = 30
-    def _idx_emergency(v):
-        return (v.get("below_sma200_streak", 0) or 0) >= EMERGENCY_STREAK_DAYS
-    emergency_today = any(
-        _idx_emergency(ext["indices"].get(k, {})) for k in EMERGENCY_TREND_INDICES
-    )
-    emergency_marker = bool((master_data or {}).get('emergency_first_fired_date'))
-    # 마커 있으면 (이미 발동된 사이클) emergency stage를 더 이상 안 띄움.
-    # 마커는 사이클 리셋 (위성=0% + 신호 marker clear) 시점에 함께 clear됨.
-    emergency = emergency_today and not emergency_marker
-    emergency_marker_active = emergency_marker
-
     # --- 오늘 RAW 상태 + 전날 비교 ---
-    raw_stage = compute_raw_stage_key(emergency, buy_count, sell_count)
+    raw_stage = compute_raw_stage_key(buy_count, sell_count)
     prev_stage = load_prev_stage_key('pitinvest_history.csv')
     is_new_change = (prev_stage != raw_stage)
 
@@ -836,9 +813,7 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     display_stage = raw_stage
 
     # v5.0 액션: 매수/매도 모두 1/3 step (33.33%p)
-    if raw_stage == 'emergency':
-        specific_action = "🚨 긴급탈출(레짐 체인지) 발동 · 200일선 아래 30일 연속 · 위성 전량 현금화 (코어 유지) · 200일선 회복 시 재진입"
-    elif raw_stage == 'reset':
+    if raw_stage == 'reset':
         specific_action = "♻️ 매도 3조건 모두 충족 · 위성 전량 → 코어 매수 · 다음 구덩이 대기"
     elif raw_stage == 'sell_near':
         specific_action = "📉 매도 2조건 충족 · 위성 −33%p → 코어 매수. 마지막 조건 대기"
@@ -862,8 +837,8 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
     else:  # 'normal'
         specific_action = "✅ 평시 유지 · 다음 구덩이 대기"
 
-    # 전일 동일 + emergency/normal 제외 → 지속 안내 (구체 액션 suppress)
-    if not is_new_change and raw_stage not in ('emergency', 'normal'):
+    # 전일 동일 + normal 제외 → 지속 안내 (구체 액션 suppress)
+    if not is_new_change and raw_stage != 'normal':
         _short = {
             'reset': '자동 리셋', 'sell_near': '매도 임박', 'exit': '구덩이 탈출',
             'full': '구덩이 충족', 'deepening': '구덩이 심화', 'entry': '구덩이 진입',
@@ -902,10 +877,6 @@ def build_snapshot(market_data, exit_settings, cnn_value, signals_count, history
             "sell_leading":        sell_leading_fired,
             "sell_expert":         sell_expert_fired,
             "sell_count":          sell_count,
-            "emergency_exit_warning": emergency,
-            "emergency_today":       emergency_today,    # raw (게이지/뱃지 용)
-            "emergency_marker_active": emergency_marker_active,
-            "emergency_first_fired_date": (master_data or {}).get('emergency_first_fired_date'),
             "stage_key":     display_stage,
             "stage_key_raw": raw_stage,
             # v5.0: today raw 값 (sticky와 별도로 오늘만)
@@ -1001,7 +972,7 @@ def _build_ytd_returns(history_rows):
         "strategy_pct": bt.get('final_return_pct'),
         "daily_series": daily,
         "monthly_breakdown": _compute_monthly_breakdown(daily),
-        "calc_note":    "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
+        "calc_note":    "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
         "my_pct":  my_pct,    # 실계좌 보유 평가수익률 (일지 무관, 전략 시뮬과 별개)
         "my_note": my_note,
     }
@@ -1091,8 +1062,6 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
       · 자금 출처: 현금 우선, 없으면 코어 비례 매도
     - 매도 신호: 위성 −33.33%p → 코어 균등 매수 (v5.1)
     - 매도 3조건: 위성 0% → 코어로 전부 이동
-    - 긴급탈출 (v5.3, 200일선 아래 30거래일 연속 = 레짐 체인지): 위성 0% → 전량 현금화, 200일선 회복까지 재매수 보류
-      · CSV에 nasdaq_sma200/sp500_sma200/kospi_sma200 컬럼 필요
     - 반환: {final_return_pct, daily_series[{date, ret_pct}]}
 
     초기 배분 옵션 (default = 현재 동작 100% 보존):
@@ -1137,12 +1106,7 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     slots = {'cnn': initial_slots_filled, 'vix': initial_slots_filled, 'margin': initial_slots_filled}
     cum_pct = float(initial_sat_pct)
     daily_series = []
-    prev_in_emergency = False
     prev_in_sell3     = False
-    # v5.3 긴급탈출: 200일선 아래 N거래일 연속(레짐 체인지) → 위성 전량 현금화.
-    EMERGENCY_STREAK_DAYS = 30
-    EMERGENCY_TREND_KEYS  = ('nasdaq', 'sp500', 'kospi')
-    below_streak = {k: 0 for k in EMERGENCY_TREND_KEYS}  # 지수별 200일선 아래 연속일수
 
     def _portfolio_value(prices):
         v = cash
@@ -1168,14 +1132,6 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             continue
         bar_idx += 1
 
-        # v5.3 긴급탈출: 각 지수 종가 vs 200일선(CSV의 {key}_sma200) → 아래면 연속일수 누적, 위면 0 리셋.
-        # 하나라도 30거래일 연속 아래 = 레짐 체인지 → emergency.
-        for k in EMERGENCY_TREND_KEYS:
-            c   = _n(row.get(f'{k}_close'))
-            sma = _n(row.get(f'{k}_sma200'))
-            if c is not None and sma is not None:
-                below_streak[k] = below_streak[k] + 1 if c < sma else 0
-        emergency_today = any(below_streak[k] >= EMERGENCY_STREAK_DAYS for k in EMERGENCY_TREND_KEYS)
         sell3_today = (
             int(float(row.get('sell_leverage_trigger') or 0)) +
             int(float(row.get('sell_leading_trigger')  or 0)) +
@@ -1183,23 +1139,17 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
         ) == 3
 
         # 전이 (transition) 시에만 사이클 리셋 액션
-        emergency_transition = emergency_today and not prev_in_emergency
         sell3_transition     = sell3_today     and not prev_in_sell3
 
-        # 사이클 리셋: 위성 전량 청산. 단 자금 행선지가 다르다.
-        #  · 매도3종(회복 국면 익절) → 코어 균등 매수 (v5.1 근거)
-        #  · 긴급탈출(레짐 체인지) → 현금화 (v5.3): 베어 국면엔 코어도 동반 하락하므로 현금 보유
-        if sell3_transition or emergency_transition:
+        # 사이클 리셋: 위성 전량 청산 → 코어 균등 매수 (매도3종 회복 국면 익절, v5.1 근거)
+        if sell3_transition:
             sat_value = sum(shares[t] * prices[t] for t in sat_tickers)
             for t in sat_tickers:
                 shares[t] = 0.0
-            if emergency_transition:
-                cash += sat_value                      # v5.3: 위성 → 현금
-            else:
-                per_core = sat_value / len(core_tickers)
-                for ct in core_tickers:               # 매도3종 → 코어 균등 매수
-                    if prices[ct] and prices[ct] > 0:
-                        shares[ct] += per_core / prices[ct]
+            per_core = sat_value / len(core_tickers)
+            for ct in core_tickers:               # 매도3종 → 코어 균등 매수
+                if prices[ct] and prices[ct] > 0:
+                    shares[ct] += per_core / prices[ct]
             slots = {'cnn': False, 'vix': False, 'margin': False}
             sell_slots = {'lev': False, 'lead': False, 'expert': False}
             cum_pct = 0.0
@@ -1217,7 +1167,7 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
 
         sell_pct = 0.0
         # 매도3 transition으로 이미 처리한 경우 (sell3_transition=True) 추가 매도 안 함
-        if not sell3_transition and not emergency_transition:
+        if not sell3_transition:
             if sl  and not sell_slots['lev']:    sell_pct += STEP_PCT; sell_slots['lev']    = True
             if sld and not sell_slots['lead']:   sell_pct += STEP_PCT; sell_slots['lead']   = True
             if se  and not sell_slots['expert']: sell_pct += STEP_PCT; sell_slots['expert'] = True
@@ -1253,10 +1203,6 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
         if slots['cnn'] and slots['vix'] and slots['margin']:
             slots = {'cnn': False, 'vix': False, 'margin': False}
 
-        # v5.3: 긴급탈출(레짐 체인지) 지속 중에는 위성 재매수 금지 — 200일선 위로 회복할 때까지 현금 방어 유지.
-        if emergency_today:
-            buy_pct = 0.0
-
         if buy_pct > 0 and cum_pct < 100:
             buy_pct = min(buy_pct, 100 - cum_pct)
             cum_pct += buy_pct
@@ -1286,7 +1232,6 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
         daily_series.append({'date': row.get('date'), 'ret_pct': round(ret_pct, 3)})
 
         # 상태 업데이트 (다음 날 전이 판정용)
-        prev_in_emergency = emergency_today
         prev_in_sell3     = sell3_today
 
     final_ret = daily_series[-1]['ret_pct'] if daily_series else None
@@ -1296,9 +1241,8 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
     }
 
 
-def compute_raw_stage_key(emergency, buy_count, sell_count):
+def compute_raw_stage_key(buy_count, sell_count):
     """순수 데이터 기반 구덩이 상태 키."""
-    if emergency:         return 'emergency'
     if sell_count == 3:   return 'reset'
     if sell_count == 2:   return 'sell_near'
     if sell_count == 1:   return 'exit'
@@ -2286,7 +2230,6 @@ def analyze_experts_daily():
 
 
 STAGE_LABELS = {
-    'emergency': '🚨 긴급탈출',
     'reset':     '♻️ 자동 리셋 직후',
     'sell_near': '📉 매도 임박',
     'exit':      '🚪 구덩이 탈출',
@@ -2453,19 +2396,13 @@ def notify_sector_change_dday(master_data, master_path='master_data.json'):
     return sent
 
 
-def _do_cycle_reset(master_data, master_path, reason_label, emergency_marker_date=None):
+def _do_cycle_reset(master_data, master_path, reason_label):
     """공통 사이클 리셋 로직. 위성 → 코어 이동 + 6 신호 마커 clear.
-    emergency_marker_date 가 주어지면 emergency_first_fired_date 도 함께 set.
-    None 이면 clear.
     반환: True (변경됨) / False (이미 reset 상태)"""
     parts = parse_ratio_raw(master_data.get('ratio_raw', ''))
     sat_pct = parts[2] if len(parts) >= 3 else 0
     has_signal_markers = any((master_data.get('signal_first_fired') or {}).values())
-    cur_emergency_marker = bool(master_data.get('emergency_first_fired_date'))
-    if sat_pct == 0 and not has_signal_markers and (
-        (emergency_marker_date is None and not cur_emergency_marker)
-        or (emergency_marker_date and master_data.get('emergency_first_fired_date') == emergency_marker_date)
-    ):
+    if sat_pct == 0 and not has_signal_markers:
         return False
 
     today_md   = datetime.now(kst).strftime('%m.%d')
@@ -2491,13 +2428,12 @@ def _do_cycle_reset(master_data, master_path, reason_label, emergency_marker_dat
         'signal_first_fired': cleared_signals,
         'sell1_first_fired_date': None,
         'sell1_d_day_notified': False,
-        'emergency_first_fired_date': emergency_marker_date,
     }
+    new_master.pop('emergency_first_fired_date', None)
     try:
         with open(master_path, 'w', encoding='utf-8') as f:
             json.dump(new_master, f, ensure_ascii=False, indent=4)
-        print(f"🔄 자동 사이클 리셋 · {reason_label} · ratio → {new_ratio}, 마커 clear"
-              + (f", emergency 마커 = {emergency_marker_date}" if emergency_marker_date else ""))
+        print(f"🔄 자동 사이클 리셋 · {reason_label} · ratio → {new_ratio}, 마커 clear")
         master_data.clear()
         master_data.update(new_master)
         return True
@@ -2506,30 +2442,9 @@ def _do_cycle_reset(master_data, master_path, reason_label, emergency_marker_dat
         return False
 
 
-def auto_reset_if_emergency(snapshot, master_data, master_path='master_data.json'):
-    """긴급탈출 (장중/종가 −10%) 첫 발동 시 사이클 리셋.
-    - 한 사이클에 1회만: emergency_first_fired_date 마커가 이미 있으면 (어떤 날이든) 스킵
-    - 마커는 매도 3조건 사이클 리셋 시점에만 clear 됨 (auto_reset_if_sell_signals)
-    - 위성 → 코어 균등 매수 + 매수/매도 6 신호 마커 모두 clear
-    반환: (reset_fired: bool)"""
-    sig = snapshot.get('signals', {}) or {}
-    today_full = datetime.now(kst).strftime('%Y-%m-%d')
-    emergency_today = bool(sig.get('emergency_today'))
-    existing_marker = master_data.get('emergency_first_fired_date')
-    if not emergency_today:
-        return False
-    if existing_marker:
-        # 이미 박혀 있으면 (어떤 날짜든) 재발동 안 함 — 1회 sticky
-        return False
-    # 첫 발동: 사이클 리셋 + 마커 박기 (오늘 날짜로)
-    return _do_cycle_reset(master_data, master_path,
-                           reason_label=f'긴급탈출 발동 → 위성 청산, 코어 매수, 모든 신호 리셋',
-                           emergency_marker_date=today_full)
-
-
 def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.json'):
     """매도 3조건 모두 충족 시 사이클 리셋.
-    v5.1: 위성 매도분 → 코어 균등 매수, signal_first_fired 6키 + emergency 마커 모두 clear.
+    v5.1: 위성 매도분 → 코어 균등 매수, signal_first_fired 6키 모두 clear.
     반환: (reset_fired: bool)"""
     sell = snapshot.get('sell_signals', {}) or {}
     lev  = snapshot.get('leverage_profit', {}) or {}
@@ -2545,8 +2460,7 @@ def auto_reset_if_sell_signals(snapshot, master_data, master_path='master_data.j
         return False
 
     return _do_cycle_reset(master_data, master_path,
-                           reason_label='매도 3조건 충족 → 위성 청산, 코어 추가 매수',
-                           emergency_marker_date=None)
+                           reason_label='매도 3조건 충족 → 위성 청산, 코어 추가 매수')
 
 
 # v5.0: 6 신호별 sticky first_fired_date 추적
@@ -2630,13 +2544,6 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
             last[_k] = _v
             changed = True
 
-    # 긴급탈출 마커가 있으면 CSV backfill 무시 (사이클 리셋된 상태 — 이전 사이클 옛 신호 박지 않음)
-    emergency_marker = master_data.get('emergency_first_fired_date')
-    skip_csv_backfill = bool(emergency_marker)
-    if skip_csv_backfill:
-        # backfill을 빈 dict로 두어 today_full 사용
-        backfilled = {key: None for key, _ in _SIGNAL_KEYS}
-
     for key, sig_field in _SIGNAL_KEYS:
         if current.get(key):
             continue  # 이미 마커 있음 (sticky)
@@ -2650,24 +2557,13 @@ def update_signal_markers(snapshot, master_data, master_path='master_data.json',
         current[key] = fire_date
         last[key] = fire_date          # 최근 충족일도 갱신 (리셋돼도 유지)
         changed = True
-        src = '오늘 기준 (긴급탈출 후 새 사이클)' if skip_csv_backfill else ('CSV backfill' if backfilled.get(key) else '오늘 기준')
+        src = 'CSV backfill' if backfilled.get(key) else '오늘 기준'
         print(f"📅 신호 마커 기록: {key} = {fire_date} ({src})")
-
-    # 긴급탈출 sticky 마커: 별도 처리 (signal_first_fired와 분리, 6신호 카운트와 무관)
-    emergency_fire_today = bool(sig.get('emergency_exit_warning'))
-    emergency_marker_existing = master_data.get('emergency_first_fired_date')
-    emergency_master_update = None
-    if emergency_fire_today and not emergency_marker_existing:
-        emergency_master_update = today_full
-        changed = True
-        print(f"🚨 긴급탈출 마커 기록: {today_full} (사이클 리셋 전까지 sticky)")
 
     if not changed:
         return False, current
 
     new_master = {**master_data, 'signal_first_fired': current, 'signal_last_fired': last}
-    if emergency_master_update:
-        new_master['emergency_first_fired_date'] = emergency_master_update
     # 옛 sell1_first_fired_date 호환 — sell_leverage 마커가 있으면 같이 set
     if current.get('sell_leverage'):
         new_master['sell1_first_fired_date'] = current['sell_leverage']
@@ -2732,7 +2628,7 @@ def save_daily_row(snapshot, master_data, csv_path='pitinvest_history.csv'):
         row[f'{k}_close']    = d.get('current')
         row[f'{k}_52w_high'] = d.get('high_52w')
         row[f'{k}_drop_pct'] = d.get('drop_pct')
-        # v5.3: 긴급탈출(레짐 필터) 백테스트용 200일선 (3개 트리거 지수만)
+        # 200일선 (차트/표시용, 3개 지수만 — CSV 스키마 유지)
         if k in ('nasdaq', 'sp500', 'kospi'):
             row[f'{k}_sma200'] = d.get('sma_200')
 
@@ -2826,11 +2722,7 @@ if __name__ == '__main__':
     # 🔄 7. 자동 사이클 리셋
     if snapshot is not None:
         try:
-            # 7a. 긴급탈출 첫 발동 → 위성 청산 + 모든 신호 마커 clear (당일 1회만)
-            if auto_reset_if_emergency(snapshot, master):
-                snapshot['recommended_action'] = "🚨 긴급탈출 발동 · 위성 청산 → 코어 매수 · 매수/매도 신호 리셋 · 평시 운용 시작"
-                save_snapshot(snapshot)
-            # 7b. 매도 3조건 모두 충족 → 사이클 리셋
+            # 7. 매도 3조건 모두 충족 → 사이클 리셋
             if auto_reset_if_sell_signals(snapshot, master):
                 snapshot['recommended_action'] = "🔄 자동 리셋 · 매도 3조건 충족 · 전량 청산, 다음 구덩이 대기"
                 save_snapshot(snapshot)
