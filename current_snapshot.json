@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T06:58:41.207341+09:00",
+  "timestamp": "2026-06-17T08:43:14.182169+09:00",
   "sentiment": {
     "cnn_fng": 39.2,
     "cnn_components": {
@@ -15,22 +15,52 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 13,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "뉴욕증시, 유가는 내렸는데 나스닥은 급락…코스피, 반도체 숨고르기 오나 - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02TkxpNXdCNERVOTJTRC1MbnI2d2hsRW5Ob1VlNkNkQzVRVnR5UGNyZlV5d2I3QTZVUGdkM21fd1ZoS0hKT0FyYS1sNFl6S3ZxbF9fdFkyclZLWTdSa1ZXOVQ4eUhhd0U?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 20:23:51 GMT",
+          "source": "세종의소리"
+        },
+        {
+          "title": "[2분 뉴욕증시] 유가 급락 속 다우는 또 역대 최고...반도체 종목은 '우수수' - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aaWlVVmRPWnphdmlsR0ZJdkE4UU0tVWxzWG9iMkQzWVBpN0VvcWxoM29EYmpUOWlydE9EMHotUVhPN1RPUjNjMEpZc3kzRnNLWnZrckRXMDlxRjBYb3c?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 20:59:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "[뉴욕증시] 유가 급락에 다우↑반도체 폭락에 나스닥↓ - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNW1pLW4tYVNIM05FMFFYd1lMb08wMzJFSjNtclJpM2g5ZjhXNDFudHZleDJKVlkycE9TcEVYUV9nSTVxbVBfb1owNV9Mc1k1dncwYkd3VkxaWGMxdzNYSmFFdWNmZnNaT0UycUh6ei1FYzFmWGhuUWRSOWVhNlNfQWtNUFFEWi1Q?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 20:26:28 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "'고평가 논란' 기술주 매도세…뉴욕증시 혼조 마감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4eElHTDYyd0hFTGJsa1pNV3plX2ZqT2VJeXVhSDNWcGpUcWhZOUZHWmdBQi1vOXhzNy1pZ1daWmxJQk1QLWFKQ1FRTy1naVk?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 20:53:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[증시전략] 유가 급락 '안도'…美-이란 핵심 쟁점 입장차는 여전? - SBSBiz",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nUXBvNGlJNldSdUZ6a09xT3RXVnYtUjNLeTBtT3ZsZ3BCdDFPVHZXTHZqV2I4XzJtb09zYmQySWtsZ0ZtZk8zaHFkTWxpZFBfRUVB?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 22:09:00 GMT",
+          "source": "SBSBiz"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 16.41,
     "vvix": 87.69,
     "skew": 142.66,
-    "move": 67.28,
-    "vkospi": 84.29
+    "move": 67.28
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 2242900000000,
     "retail_net_buy_krw": -2184100000000,
-    "margin_loan_krw": 36302900000000,
+    "margin_loan_krw": 36487100000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -289,7 +319,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 229.445,
+    "strategy_pct": 227.77,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -757,7 +787,7 @@
       },
       {
         "date": "2026-06-17",
-        "ret_pct": 229.445
+        "ret_pct": 227.77
       }
     ],
     "monthly_breakdown": [
@@ -793,8 +823,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -3.13,
-        "end_ret_pct": 229.44,
+        "return_pct": -4.8,
+        "end_ret_pct": 227.77,
         "max_dd_pct": 58.15
       }
     ],
