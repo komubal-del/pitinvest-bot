@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T09:08:08.916944+09:00",
+  "timestamp": "2026-06-16T09:12:07.830195+09:00",
   "sentiment": {
     "cnn_fng": 40.8571428571429,
     "cnn_components": {
@@ -18,16 +18,16 @@
       "fear_count": 3,
       "greed_articles": [
         {
+          "title": "“주식 안 하면 손해?”…코스피 최고치 행진에 ‘빚투’ 다시 고개 - 진일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mcWlsUDNFNWlNNkJObnhvNWZyTGsyRWxHZzZfV2d1dWVmTTZ6M1VWWWlIdG5mQk11SFVEc1ZxdW1hQmZLdlduaHhFandJSFNsdGM3Z0hyUVEweW83YmN0RERjZU9XRWdlNG9oTWtfNA?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 22:34:06 GMT",
+          "source": "진일보"
+        },
+        {
           "title": "증시 활황으로 농특세 급증에 농어촌 기본소득 검토 - 안동MBC",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aUtKX0ZKRldET3RDamVBQm01Y2tZUkItY3hQZE1yLXNGRUNneWxIandsTER5TWQyM1NMXzN2bW1nM1NmNmpUV09rMHQ0eTJiRU9xMHdsLXN2MDFjZWVaY0ZpcTRUYWRv?oc=5",
           "pub_date": "Mon, 15 Jun 2026 17:45:24 GMT",
           "source": "안동MBC"
-        },
-        {
-          "title": "코스피 활황에 ‘곱버스 ETF’ 100원 안팎으로 추락 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWDBFMTBVOFBQN1dQd2E0ZGhzX0xLTTZaMFRRX2hvYnVHaUNES3dJWklMNkNfODZoNmJMTFUyMTkyRjZoWGpwbWc1Q2FZVFFrNC1UZHdMTlVaZVE1UWc5TmNRU3FfcFFhWmF5bUZqRlNZY1JoZE1KUXR2ZXIwX1VwVg?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 15:36:00 GMT",
-          "source": "조선일보"
         }
       ],
       "fear_articles": [
@@ -59,8 +59,8 @@
     "move": 69.38
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -106200000000,
-    "retail_net_buy_krw": 97800000000,
+    "foreign_inst_buy_krw": -10200000000,
+    "retail_net_buy_krw": 1300000000,
     "margin_loan_krw": 36302900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -287,7 +287,7 @@
   },
   "expert_analysis": {
     "date": "2026-06-16",
-    "analyzed_at": "2026-06-16T09:08:13.665775+09:00",
+    "analyzed_at": "2026-06-16T09:12:11.606478+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -304,7 +304,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 주식 전문가의 구체적인 매수/매도/현금화/비중 축소 등 어떠한 행동 권고도 명확히 제시되어 있지 않으며, 단지 영상의 주제(급등장 리밸런싱 및 대응법)를 소개하고 있을 뿐입니다."
+          "reason": "제목에서 급등장의 주요 변수(리밸런싱)를 제시하고 대응법을 논의한다고 언급할 뿐, 현금화/매수 등 구체적인 행동을 명시적으로 권고하지 않습니다."
         }
       },
       {
@@ -317,7 +317,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란은 주로 주식 교육 프로그램 홍보 내용으로 구성되어 있으며, 현재 주식 시장에 대한 구체적인 매수/매도 권고나 경고 표현이 없습니다. '미래' 분석을 예고하고 학습 기회를 제공하는 중립적인 입장입니다."
+          "reason": "영상 설명란은 특정 주식이나 시장에 대한 매수/매도/보유 등 구체적인 행동 권고 없이 전문가 초청 및 교육 콘텐츠 홍보에 초점을 맞추고 있어 중립적입니다."
         }
       }
     ],
