@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-11",
-  "analyzed_at": "2026-06-11T13:53:12.019407+09:00",
+  "date": "2026-06-16",
+  "analyzed_at": "2026-06-16T09:08:13.665775+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,36 +8,35 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "RSOtKvknTKg",
-      "title": "흔들리는 시장...대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-06-11T00:27:28Z",
-      "url": "https://youtube.com/watch?v=RSOtKvknTKg",
+      "video_id": "nezzlzj9olM",
+      "title": "급등장의 진짜 변수는 '리밸런싱'…대응법은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-06-15T00:21:05Z",
+      "url": "https://youtube.com/watch?v=nezzlzj9olM",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 내용은 영상의 설명란으로, 시장 상황에 대한 질문을 던질 뿐(흔들리는 시장, 대응 전략은 무엇?) 전문가의 구체적인 시장 판단이나 투자 행동 권고를 담고 있지 않습니다."
+        "reason": "제공된 영상 설명란에는 주식 전문가의 구체적인 매수/매도/현금화/비중 축소 등 어떠한 행동 권고도 명확히 제시되어 있지 않으며, 단지 영상의 주제(급등장 리밸런싱 및 대응법)를 소개하고 있을 뿐입니다."
       }
     },
     {
-      "video_id": "14l8gSoOUc4",
-      "title": "&quot;AI 시대 최대 리스크 등장&quot; 조심하셔야 합니다 | 윤지호 경제평론가 [주말인터뷰]",
-      "published": "2026-05-24T02:00:01Z",
-      "url": "https://youtube.com/watch?v=14l8gSoOUc4",
-      "text_source": "transcript",
-      "transcript_available": true,
-      "is_stale_fallback": true,
+      "video_id": "4X8L1jVUY0w",
+      "title": "“제가 본 삼전, 하이닉스의 미래는요\" 5파전 결과는?ㅣ이선엽 윤지호 이권희 박병창 김프로 [심야 투자 회담 2부]",
+      "published": "2026-06-14T02:00:01Z",
+      "url": "https://youtube.com/watch?v=4X8L1jVUY0w",
+      "text_source": "description",
+      "transcript_available": false,
+      "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "전문가는 현재 강세장을 인정하면서도 금리 상승이 기업 투자와 전반적인 경제에 장기적인 리스크가 될 수 있음을 경고하며, 즉각적인 행동 권고보다는 지속적인 주의와 관찰을 강조합니다."
+        "reason": "영상 설명란은 주로 주식 교육 프로그램 홍보 내용으로 구성되어 있으며, 현재 주식 시장에 대한 구체적인 매수/매도 권고나 경고 표현이 없습니다. '미래' 분석을 예고하고 학습 기회를 제공하는 중립적인 입장입니다."
       }
     }
   ],
   "error": null,
   "expert_stance_map": {
-    "박병창": "neutral",
-    "윤지호": "neutral"
+    "박병창": "neutral"
   },
   "prompt_version": "v4-api-1.2.4"
 }
