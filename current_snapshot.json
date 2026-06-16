@@ -1,72 +1,65 @@
 {
-  "timestamp": "2026-06-16T09:42:56.588476+09:00",
+  "timestamp": "2026-06-16T14:40:40.497142+09:00",
   "sentiment": {
-    "cnn_fng": 40.8571428571429,
+    "cnn_fng": 41.2857142857143,
     "cnn_components": {
       "momentum": 87.0,
-      "strength": 34.8,
-      "breadth": 24.4,
+      "strength": 36.0,
+      "breadth": 26.4,
       "put_call": 36.0,
-      "junk_bond": 10.8,
+      "junk_bond": 10.6,
       "volatility": 50.0,
       "safe_haven": 43.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 5,
-      "greed_articles": [
-        {
-          "title": "증시 활황으로 농특세 급증에 농어촌 기본소득 검토 - 안동MBC",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aUtKX0ZKRldET3RDamVBQm01Y2tZUkItY3hQZE1yLXNGRUNneWxIandsTER5TWQyM1NMXzN2bW1nM1NmNmpUV09rMHQ0eTJiRU9xMHdsLXN2MDFjZWVaY0ZpcTRUYWRv?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 17:45:24 GMT",
-          "source": "안동MBC"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 6,
+      "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "[오후장 체크포인트] 중동발 먹구름 걷히자 유가 급락하고 코스피 상승 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQZXdERmhBWVZYcGJEOEtvbVJwRUotYkM5bUJVZjVIVUJfaGdIMEx3Wk80UnljM0w4d3pmdWs1YXN1T2VhX3ZCNjg3cXdDZ1U?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 05:22:20 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 하락 전환 후 다시 반등… 1.7% 오른 8600선 등락 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVUJXb013ZmZlZTNoUTRqUk5aZnAwMVZiMVQzTDBNSHBYc1BrMUJhQlluUktwbjdnRk5TbTZNay1VZFRWcl8xMU5wZXZoMUVUZzBpTE1DZzlfR19qMVNDVGUwSHJoQzIwR2xKdzRDNy1takV6RjdqbHYxQWdxeFFicGpQZy1nZW_SAZsBQVVfeXFMTURXRDA3VTAyUVJpcE5vRTVRMkJmcU9sV1J4cGlNaVZUbWZ1TWYtVzRUMWsyRFk2TlZUbkpDTmhYN25fSUs2NVpocF9RQU5rdmhxeDRldEVmZl9NRnFyMGd3eEVoTS1JMGEtOUQ3NEZfQ1VsU0pKZFNXTmw5NGhYSk5MY1h3bUYzNmxENmhwZ21DTUtwelRvMFQ2eGM?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 02:37:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피, 종전 기대에도 상승폭 축소…코스닥은 하락 전환 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hbjN5LWtjOXdXUk41UVc3UmZoWUlrTGpQSkE2cF9vLVpvQTdFR3pwbDV6UmpzTlR3VUNBTGJTTnp5NHg4dnJQcUZvQ0wxUExuVnZ4TUN6NmZPQ0NBa0NJaHdkVkh4UVVXTTR6Q0ZtOWfSAXRBVV95cUxOZUNCN09ISnZPVXFnRTJOV0o5QzRZTVRjSjZlUWxOMERBckhtQkViRGpCVFNxSmVWNUxuSWdFb3ROdXRnaUtNaXM2RGk2ZVZINjF2S0FWaUVTZFFZNDBTRUNRbEluVkEydEhuVWhZLWZYckpYTQ?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 02:49:25 GMT",
+          "source": "산경투데이"
+        },
+        {
+          "title": "[서울데이터랩]코스닥 시총 상위주 장중 약세 우위…알테오젠 선방, HPSP 16% 급락 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBTRV9xNjRkeXc2c0tUeVhiOWgxUWRHTmRaRmlSUEc0Wmg2Tkt1SDI3X2RSZ2lxNlEzMENlZldyNVEzc1JVYnJlaXRkbWhsRlNkaTJ5c3Qxc1ZrOVpMUFdpVDMwMFJpSnJiSGc4UkkydGVRZS16emRRSk56RUhjUQ?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 05:15:52 GMT",
+          "source": "서울신문"
+        },
         {
           "title": "전쟁 악재 털고 날아오른 코스피...전문가가 경고한 '급락 변수' [굿모닝경제] - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TNC1uSDM5c3ZlZUlQcE1HcEFBRWhUYjBRNncwWVd0ZktvUm1HUVg0VzBmVU1tM3pWb0hNMDBBb3N0MVc1NEJ0NHRodjd3NW9QcVVQd2hvNkxnUWQ1ckE?oc=5",
           "pub_date": "Mon, 15 Jun 2026 23:47:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "[AI MY 증시전망] \"유가 급락·반도체 강세에 코스피 추가 상승 기대\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvcXlWOG1ocjRzbU9TWkVITEdRNl9iZ0xXdDZla1ZYZXBJcGJIX3RDYy1obVVxQ3FucDhVN18xdlBDVklCbllBMmJzMXNaLU1EdHBzTG12WXhWbUJD?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 23:53:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[서울데이터랩] 코스닥, 상승 출발 뒤 하락 전환…외국인·기관 매도에 1027.84 마감 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BYkY3NDh0elNRUktwT1RTQkRkcUwtRFdDcWxJMTdZOUdNZlZMVHYzYWlhODFZd1RlNV9xdGxjNE1XSWRUejVoX1Z2RHNtQTcxYjRDZ1ptOFQ0aWxHN0pCM242YTZmVTNlZnR0WEN6bXZ4WEtRcGJDdVhQWTlpQQ?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 00:19:09 GMT",
-          "source": "서울신문"
-        },
-        {
-          "title": "[해외시황] 뉴욕증시, 미·이란 종전 합의·유가 급락에 '강세'…다우 '사상 최고치' - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqMUlLaUQ2bkhUUWZjLTRIRDRQMjhSallqOXIyVE50RldGSWJnRWNzbjYyY3BnODdqMEtKYXVEQUVlVXdxQ0Q1UWQtWGZyZkNTc1RESGkyY3hFazl4TEtKWA?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 23:35:51 GMT",
-          "source": "프라임경제"
-        },
-        {
-          "title": "코스피 장 초반 8700선 돌파…코스닥은 하락 전환 - 대전일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80VVhrdFJQUS1PeWNiOFBtVUdUUlRhYnpmTkZKR2RBUVpXSUxqdFVPQ05nZHFQNWFsZ01PbksxT2dHdlJaOUdocnBaZFdDUzFtQ2EyTE44WFBJY1lpN0Q3OGNhb0hTRGxsMzJkMnNoSdIBc0FVX3lxTFBva3RaY1BMeTdmQUloYktXSzBGX1FQR0Jna21vQWstMGlyaDBYaEozdFZzdlc1QmY4Z1RZVUpyTTRSaUc0LTR3M2dreGZUdmhhakZwaXdYLWt5Wk1iMkVtOGc4dkh0VTYxRnBqeVhOTFIzVEU?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 00:19:42 GMT",
-          "source": "대전일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.2,
+    "vix": 17.68,
     "vvix": 87.58,
-    "skew": 144.32,
-    "move": 69.38
+    "skew": 142.6,
+    "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 139300000000,
-    "retail_net_buy_krw": -151900000000,
+    "foreign_inst_buy_krw": 1774300000000,
+    "retail_net_buy_krw": -1738700000000,
     "margin_loan_krw": 36302900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,55 +67,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26683.94,
+      "current": 25888.84,
       "high_52w": 27190.21,
-      "drop_pct": -1.86,
-      "intraday_low_drop_pct": -2.76,
-      "sma_200": 23456.26
+      "drop_pct": -4.79,
+      "intraday_low_drop_pct": -5.85,
+      "sma_200": 23430.8
     },
     "kospi": {
-      "current": 8660.41,
+      "current": 8728.4,
       "high_52w": 8933.62,
-      "drop_pct": -3.06,
-      "intraday_low_drop_pct": -3.06,
-      "sma_200": 5030.89
+      "drop_pct": -2.3,
+      "intraday_low_drop_pct": -4.4,
+      "sma_200": 5031.23
     },
     "kosdaq": {
-      "current": 1039.07,
+      "current": 1018.51,
       "high_52w": 1229.42,
-      "drop_pct": -15.48,
-      "intraday_low_drop_pct": -16.79,
-      "sma_200": 994.84
+      "drop_pct": -17.16,
+      "intraday_low_drop_pct": -17.33,
+      "sma_200": 995.91
     },
     "sp500": {
-      "current": 7554.29,
+      "current": 7431.46,
       "high_52w": 7620.9,
-      "drop_pct": -0.87,
-      "intraday_low_drop_pct": -1.37,
-      "sma_200": 6887.36
+      "drop_pct": -2.49,
+      "intraday_low_drop_pct": -3.38,
+      "sma_200": 6881.99
     },
     "russell2k": {
-      "current": 2965.09,
+      "current": 2943.99,
       "high_52w": 2996.42,
-      "drop_pct": -1.05,
-      "intraday_low_drop_pct": -1.19,
-      "sma_200": 2588.83
+      "drop_pct": -1.75,
+      "intraday_low_drop_pct": -2.51,
+      "sma_200": 2585.87
     },
     "soxx": {
-      "current": 628.45,
+      "current": 595.97,
       "high_52w": 629.72,
-      "drop_pct": -0.2,
-      "intraday_low_drop_pct": -1.79,
-      "sma_200": 354.39
+      "drop_pct": -5.36,
+      "intraday_low_drop_pct": -8.17,
+      "sma_200": 352.33
     }
   },
   "sector_rs": {
-    "XLK": 1.223,
-    "SMH": 1.452,
-    "BOTZ": 0.955,
-    "IGV": 0.964,
-    "XLF": 0.965,
-    "XLE": 0.854
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,13 +151,13 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 92.38,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 409.35,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -186,7 +179,7 @@
       "samsung_ok": true,
       "hynix_3d_up": true,
       "hynix_retail_buying": false,
-      "hynix_at_60d_high": false,
+      "hynix_at_60d_high": true,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
