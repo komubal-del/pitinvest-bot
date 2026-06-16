@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T09:12:07.830195+09:00",
+  "timestamp": "2026-06-16T09:42:56.588476+09:00",
   "sentiment": {
     "cnn_fng": 40.8571428571429,
     "cnn_components": {
@@ -14,15 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 3,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
-        {
-          "title": "“주식 안 하면 손해?”…코스피 최고치 행진에 ‘빚투’ 다시 고개 - 진일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mcWlsUDNFNWlNNkJObnhvNWZyTGsyRWxHZzZfV2d1dWVmTTZ6M1VWWWlIdG5mQk11SFVEc1ZxdW1hQmZLdlduaHhFandJSFNsdGM3Z0hyUVEweW83YmN0RERjZU9XRWdlNG9oTWtfNA?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 22:34:06 GMT",
-          "source": "진일보"
-        },
         {
           "title": "증시 활황으로 농특세 급증에 농어촌 기본소득 검토 - 안동MBC",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aUtKX0ZKRldET3RDamVBQm01Y2tZUkItY3hQZE1yLXNGRUNneWxIandsTER5TWQyM1NMXzN2bW1nM1NmNmpUV09rMHQ0eTJiRU9xMHdsLXN2MDFjZWVaY0ZpcTRUYWRv?oc=5",
@@ -38,16 +32,28 @@
           "source": "YTN"
         },
         {
+          "title": "[AI MY 증시전망] \"유가 급락·반도체 강세에 코스피 추가 상승 기대\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvcXlWOG1ocjRzbU9TWkVITEdRNl9iZ0xXdDZla1ZYZXBJcGJIX3RDYy1obVVxQ3FucDhVN18xdlBDVklCbllBMmJzMXNaLU1EdHBzTG12WXhWbUJD?oc=5",
+          "pub_date": "Mon, 15 Jun 2026 23:53:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "[서울데이터랩] 코스닥, 상승 출발 뒤 하락 전환…외국인·기관 매도에 1027.84 마감 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BYkY3NDh0elNRUktwT1RTQkRkcUwtRFdDcWxJMTdZOUdNZlZMVHYzYWlhODFZd1RlNV9xdGxjNE1XSWRUejVoX1Z2RHNtQTcxYjRDZ1ptOFQ0aWxHN0pCM242YTZmVTNlZnR0WEN6bXZ4WEtRcGJDdVhQWTlpQQ?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 00:19:09 GMT",
+          "source": "서울신문"
+        },
+        {
           "title": "[해외시황] 뉴욕증시, 미·이란 종전 합의·유가 급락에 '강세'…다우 '사상 최고치' - 프라임경제",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqMUlLaUQ2bkhUUWZjLTRIRDRQMjhSallqOXIyVE50RldGSWJnRWNzbjYyY3BnODdqMEtKYXVEQUVlVXdxQ0Q1UWQtWGZyZkNTc1RESGkyY3hFazl4TEtKWA?oc=5",
           "pub_date": "Mon, 15 Jun 2026 23:35:51 GMT",
           "source": "프라임경제"
         },
         {
-          "title": "[브라질증시] 유가 급락에 브라질 증시 나홀로 하락…페트로브라스 5%대 급락 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqdG1LWGN5RXA5ZDFRbnE4TmZBMzhRMTdCSVVuU2JQTTZDUW8wWnh1Z2lkbTRuRG5INGFBOVZsZVBPakJHT0JOdWlpWjVuTnNmRDhXWmJtVURCeGxn?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 22:31:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피 장 초반 8700선 돌파…코스닥은 하락 전환 - 대전일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80VVhrdFJQUS1PeWNiOFBtVUdUUlRhYnpmTkZKR2RBUVpXSUxqdFVPQ05nZHFQNWFsZ01PbksxT2dHdlJaOUdocnBaZFdDUzFtQ2EyTE44WFBJY1lpN0Q3OGNhb0hTRGxsMzJkMnNoSdIBc0FVX3lxTFBva3RaY1BMeTdmQUloYktXSzBGX1FQR0Jna21vQWstMGlyaDBYaEozdFZzdlc1QmY4Z1RZVUpyTTRSaUc0LTR3M2dreGZUdmhhakZwaXdYLWt5Wk1iMkVtOGc4dkh0VTYxRnBqeVhOTFIzVEU?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 00:19:42 GMT",
+          "source": "대전일보"
         }
       ]
     }
@@ -59,8 +65,8 @@
     "move": 69.38
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -10200000000,
-    "retail_net_buy_krw": 1300000000,
+    "foreign_inst_buy_krw": 139300000000,
+    "retail_net_buy_krw": -151900000000,
     "margin_loan_krw": 36302900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -72,48 +78,42 @@
       "high_52w": 27190.21,
       "drop_pct": -1.86,
       "intraday_low_drop_pct": -2.76,
-      "sma_200": 23456.26,
-      "below_sma200_streak": 0
+      "sma_200": 23456.26
     },
     "kospi": {
-      "current": 8123.62,
+      "current": 8660.41,
       "high_52w": 8933.62,
-      "drop_pct": -9.07,
-      "intraday_low_drop_pct": -9.56,
-      "sma_200": 5003.72,
-      "below_sma200_streak": 0
+      "drop_pct": -3.06,
+      "intraday_low_drop_pct": -3.06,
+      "sma_200": 5030.89
     },
     "kosdaq": {
-      "current": 1029.05,
+      "current": 1039.07,
       "high_52w": 1229.42,
-      "drop_pct": -16.3,
-      "intraday_low_drop_pct": -16.91,
-      "sma_200": 993.72,
-      "below_sma200_streak": 0
+      "drop_pct": -15.48,
+      "intraday_low_drop_pct": -16.79,
+      "sma_200": 994.84
     },
     "sp500": {
       "current": 7554.29,
       "high_52w": 7620.9,
       "drop_pct": -0.87,
       "intraday_low_drop_pct": -1.37,
-      "sma_200": 6887.36,
-      "below_sma200_streak": 0
+      "sma_200": 6887.36
     },
     "russell2k": {
       "current": 2965.09,
       "high_52w": 2996.42,
       "drop_pct": -1.05,
       "intraday_low_drop_pct": -1.19,
-      "sma_200": 2588.83,
-      "below_sma200_streak": 0
+      "sma_200": 2588.83
     },
     "soxx": {
       "current": 628.45,
       "high_52w": 629.72,
       "drop_pct": -0.2,
       "intraday_low_drop_pct": -1.79,
-      "sma_200": 354.39,
-      "below_sma200_streak": 0
+      "sma_200": 354.39
     }
   },
   "sector_rs": {
@@ -133,10 +133,6 @@
     "sell_leading": true,
     "sell_expert": true,
     "sell_count": 3,
-    "emergency_exit_warning": false,
-    "emergency_today": false,
-    "emergency_marker_active": false,
-    "emergency_first_fired_date": null,
     "stage_key": "reset",
     "stage_key_raw": "reset",
     "today": {
@@ -184,10 +180,10 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
-      "samsung_ok": false,
+      "samsung_ok": true,
       "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
@@ -283,11 +279,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-06-16",
-    "analyzed_at": "2026-06-16T09:12:11.606478+09:00",
+    "analyzed_at": "2026-06-16T09:43:03.355474+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -295,16 +291,18 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "nezzlzj9olM",
-        "title": "급등장의 진짜 변수는 '리밸런싱'…대응법은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-06-15T00:21:05Z",
-        "url": "https://youtube.com/watch?v=nezzlzj9olM",
+        "video_id": "4bR7cxl9jyI",
+        "title": "반도체 독주 속 드디어 움직인 조방원… 지금 전략은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-06-16T00:22:16Z",
+        "url": "https://youtube.com/watch?v=4bR7cxl9jyI",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 급등장의 주요 변수(리밸런싱)를 제시하고 대응법을 논의한다고 언급할 뿐, 현금화/매수 등 구체적인 행동을 명시적으로 권고하지 않습니다."
+          "reason": "키워드 스캔 · warning 0 / bullish 0",
+          "fallback": true,
+          "error": "gemini_429"
         }
       },
       {
@@ -317,7 +315,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란은 특정 주식이나 시장에 대한 매수/매도/보유 등 구체적인 행동 권고 없이 전문가 초청 및 교육 콘텐츠 홍보에 초점을 맞추고 있어 중립적입니다."
+          "reason": "영상 설명란은 주식 전문가들의 토론 및 교육 프로그램 홍보 내용으로 구성되어 있으며, 매수/매도 또는 비중 확대/축소와 같은 구체적인 행동 권고가 명시되어 있지 않습니다."
         }
       }
     ],
@@ -833,7 +831,7 @@
         "max_dd_pct": 58.15
       }
     ],
-    "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. v5.3 긴급탈출(나스닥/S&P500/코스피 중 하나라도 200일선 아래 30거래일 연속=레짐 체인지) → 위성 전량 현금화, 200일선 회복까지 재매수 보류. 매수3종 다 발동 → 카운터 리셋.",
+    "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
     "my_pct": 303.17,
     "my_note": "실계좌 월별 누적 (~2026-05)"
   },

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "analyzed_at": "2026-06-16T09:12:11.606478+09:00",
+  "analyzed_at": "2026-06-16T09:43:03.355474+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,18 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "nezzlzj9olM",
-      "title": "급등장의 진짜 변수는 '리밸런싱'…대응법은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-06-15T00:21:05Z",
-      "url": "https://youtube.com/watch?v=nezzlzj9olM",
+      "video_id": "4bR7cxl9jyI",
+      "title": "반도체 독주 속 드디어 움직인 조방원… 지금 전략은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-06-16T00:22:16Z",
+      "url": "https://youtube.com/watch?v=4bR7cxl9jyI",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목에서 급등장의 주요 변수(리밸런싱)를 제시하고 대응법을 논의한다고 언급할 뿐, 현금화/매수 등 구체적인 행동을 명시적으로 권고하지 않습니다."
+        "reason": "키워드 스캔 · warning 0 / bullish 0",
+        "fallback": true,
+        "error": "gemini_429"
       }
     },
     {
@@ -30,7 +32,7 @@
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 설명란은 특정 주식이나 시장에 대한 매수/매도/보유 등 구체적인 행동 권고 없이 전문가 초청 및 교육 콘텐츠 홍보에 초점을 맞추고 있어 중립적입니다."
+        "reason": "영상 설명란은 주식 전문가들의 토론 및 교육 프로그램 홍보 내용으로 구성되어 있으며, 매수/매도 또는 비중 확대/축소와 같은 구체적인 행동 권고가 명시되어 있지 않습니다."
       }
     }
   ],
