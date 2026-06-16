@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T14:40:40.497142+09:00",
+  "timestamp": "2026-06-16T19:31:39.546610+09:00",
   "sentiment": {
     "cnn_fng": 41.2857142857143,
     "cnn_components": {
@@ -14,10 +14,41 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 6,
-      "greed_articles": [],
+      "greed_count": 4,
+      "fear_count": 3,
+      "greed_articles": [
+        {
+          "title": "[오늘의증시] 코스피, 2%대 급등…8,800선 전고점 눈앞 - 경인방송 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wZER1RVRtbjdIRTgzWXczMklIQjN5VnZ3RkNXN1NIQWY5NHZvdEN4dDQxR0drckJ4LThfR2w4MnlqR0ZiRkV3U1oyVFlRajktdzlybFZnamY5RVE5aW5nc1FUU1HSAWhBVV95cUxQM0hzbnF1dDlyZXZvbGY3UlVVVU5OdGFRY2dvUTFGYlQ0dnJtaXNwVTFTSVdabWstSVB4Q3pybmZZWENUWWppcjhYU0dMZjRwcW1VczJUTGFwWktmZW5seUl3aUdTM0hHeA?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 08:14:39 GMT",
+          "source": "경인방송 뉴스"
+        },
+        {
+          "title": "코스피 급등에 빚투 재점화…마통 2조↑·반대매매 최고 10.5% - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TVW9JSC1lX20yMjM0VFFCcWtqeHFjR2JSSkRNVzh3Y0xpbktYNEZDWTF2VGhnY0J3ZFl6MVA4UFI5TWE5QjhpeXlrOGVUUEl3TGJTWE9WZ0NwSEYxSUNJOVlIaTVjUnlIT2VPaEpn0gFuQVVfeXFMTVNVb0lILWVfbTIyMzRUUUJxa2p4cWNHYlJKRE1XOHdjTGluS1g0RkNZMXZUaGdjQndkWXoxUDhQUjlNYTlCOGl5eWs4ZVRQSXdMYlNYT1ZnQ3BIRjFJQ0k5WUhpNWNSeUhPZU9oSmc?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 08:13:37 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "코스피 4거래일 연속 상승해 8,700선 마감‥SK하이닉스 한때 전 고점 접근 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNOWg0c0FlOEhYV2xZbV90VFZEUjZVQ0NPYVcybUQ3N05Fd0EtX1NCaG5iTmtRX3hKSXdmUHV5R0N3cEV5Z08zY2JLWlRNUG8?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 07:42:03 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "증시 활황에…'비트코인 현물 ETF' 도입 지지부진 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KSjMwLV8tNERzMVJWZl9DR0I0d3gzeXVMeDhtTUNUVXNXSW5LUWtuSnNpN1ZJaEJMYldhNG1HcEFaQnZ2UWhqQy1KWU9jUQ?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 06:00:00 GMT",
+          "source": "전자신문"
+        }
+      ],
       "fear_articles": [
+        {
+          "title": "[증시-마감] 외국인 1.5조 '사자'에 코스피 2% 상승…\"매도세 진정 국면\" | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xQXJYWC1rWkUxd3ZzSjVYblVuX2g5d3ozNXQxVzVvUHU2ajRaU3hKMG5zSTlEUUtnVGZVXzQ4OTNOOU14cXpRYm9XaG9lWkFTRl9aQUs4Q3NMeVFYWkNSQUtwM3o3VVVQcVpSaDl5c2ZqZEx1?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 07:04:38 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "[오후장 체크포인트] 중동발 먹구름 걷히자 유가 급락하고 코스피 상승 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQZXdERmhBWVZYcGJEOEtvbVJwRUotYkM5bUJVZjVIVUJfaGdIMEx3Wk80UnljM0w4d3pmdWs1YXN1T2VhX3ZCNjg3cXdDZ1U?oc=5",
@@ -25,41 +56,23 @@
           "source": "v.daum.net"
         },
         {
-          "title": "코스피, 하락 전환 후 다시 반등… 1.7% 오른 8600선 등락 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVUJXb013ZmZlZTNoUTRqUk5aZnAwMVZiMVQzTDBNSHBYc1BrMUJhQlluUktwbjdnRk5TbTZNay1VZFRWcl8xMU5wZXZoMUVUZzBpTE1DZzlfR19qMVNDVGUwSHJoQzIwR2xKdzRDNy1takV6RjdqbHYxQWdxeFFicGpQZy1nZW_SAZsBQVVfeXFMTURXRDA3VTAyUVJpcE5vRTVRMkJmcU9sV1J4cGlNaVZUbWZ1TWYtVzRUMWsyRFk2TlZUbkpDTmhYN25fSUs2NVpocF9RQU5rdmhxeDRldEVmZl9NRnFyMGd3eEVoTS1JMGEtOUQ3NEZfQ1VsU0pKZFNXTmw5NGhYSk5MY1h3bUYzNmxENmhwZ21DTUtwelRvMFQ2eGM?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 02:37:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "코스피, 종전 기대에도 상승폭 축소…코스닥은 하락 전환 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hbjN5LWtjOXdXUk41UVc3UmZoWUlrTGpQSkE2cF9vLVpvQTdFR3pwbDV6UmpzTlR3VUNBTGJTTnp5NHg4dnJQcUZvQ0wxUExuVnZ4TUN6NmZPQ0NBa0NJaHdkVkh4UVVXTTR6Q0ZtOWfSAXRBVV95cUxOZUNCN09ISnZPVXFnRTJOV0o5QzRZTVRjSjZlUWxOMERBckhtQkViRGpCVFNxSmVWNUxuSWdFb3ROdXRnaUtNaXM2RGk2ZVZINjF2S0FWaUVTZFFZNDBTRUNRbEluVkEydEhuVWhZLWZYckpYTQ?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 02:49:25 GMT",
-          "source": "산경투데이"
-        },
-        {
-          "title": "[서울데이터랩]코스닥 시총 상위주 장중 약세 우위…알테오젠 선방, HPSP 16% 급락 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBTRV9xNjRkeXc2c0tUeVhiOWgxUWRHTmRaRmlSUEc0Wmg2Tkt1SDI3X2RSZ2lxNlEzMENlZldyNVEzc1JVYnJlaXRkbWhsRlNkaTJ5c3Qxc1ZrOVpMUFdpVDMwMFJpSnJiSGc4UkkydGVRZS16emRRSk56RUhjUQ?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 05:15:52 GMT",
-          "source": "서울신문"
-        },
-        {
-          "title": "전쟁 악재 털고 날아오른 코스피...전문가가 경고한 '급락 변수' [굿모닝경제] - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TNC1uSDM5c3ZlZUlQcE1HcEFBRWhUYjBRNncwWVd0ZktvUm1HUVg0VzBmVU1tM3pWb0hNMDBBb3N0MVc1NEJ0NHRodjd3NW9QcVVQd2hvNkxnUWQ1ckE?oc=5",
-          "pub_date": "Mon, 15 Jun 2026 23:47:00 GMT",
-          "source": "YTN"
+          "title": "코스피, '상승폭 다소 둔화' 8,600선 등락…한때 하락 전환도 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjc19XRjJrNWl0NEpnZXMwWGFBLVRfeEd0MTRPc0NtTGNHMlU5NHl2b1VkRHM1c05fa2x3VjU5LVN3ZE9CLXJmYlkxLWgzNk1XRUdHYWlTQ0xmOEnSAWBBVV95cUxNSXdVUWl6dlpvMXotaE0zZEIzRW1FWTNneXJ6aUV1N1l0WEpiVXktSVN5c2VzTjk4ZzRSOU9pb1IzOHEzSjhCYzdoX2NqaDRYUTE1STdvUGk0WERKcGZNS2E?oc=5",
+          "pub_date": "Tue, 16 Jun 2026 02:39:06 GMT",
+          "source": "연합뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.68,
+    "vix": 16.16,
     "vvix": 87.58,
     "skew": 142.6,
     "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1774300000000,
-    "retail_net_buy_krw": -1738700000000,
+    "foreign_inst_buy_krw": 2242900000000,
+    "retail_net_buy_krw": -2184100000000,
     "margin_loan_krw": 36302900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +87,18 @@
       "sma_200": 23430.8
     },
     "kospi": {
-      "current": 8728.4,
+      "current": 8726.6,
       "high_52w": 8933.62,
-      "drop_pct": -2.3,
+      "drop_pct": -2.32,
       "intraday_low_drop_pct": -4.4,
-      "sma_200": 5031.23
+      "sma_200": 5031.22
     },
     "kosdaq": {
-      "current": 1018.51,
+      "current": 1018.68,
       "high_52w": 1229.42,
-      "drop_pct": -17.16,
-      "intraday_low_drop_pct": -17.33,
-      "sma_200": 995.91
+      "drop_pct": -17.14,
+      "intraday_low_drop_pct": -17.38,
+      "sma_200": 995.92
     },
     "sp500": {
       "current": 7431.46,
@@ -174,9 +187,9 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": true,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
-      "samsung_ok": true,
+      "samsung_ok": false,
       "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": true,
@@ -184,6 +197,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.16",
+            "close": 343000,
+            "change_pct": 1.78,
+            "retail_net": -811963,
+            "inst_net": 839414,
+            "foreign_net": -27451
+          },
           {
             "date": "2026.06.15",
             "close": 337000,
@@ -215,17 +236,17 @@
             "retail_net": 6692111,
             "inst_net": -2851841,
             "foreign_net": -3840270
-          },
-          {
-            "date": "2026.06.09",
-            "close": 322000,
-            "change_pct": 8.97,
-            "retail_net": -170849,
-            "inst_net": 1767022,
-            "foreign_net": -1596173
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.16",
+            "close": 2382000,
+            "change_pct": 4.11,
+            "retail_net": -590851,
+            "inst_net": 238957,
+            "foreign_net": 351894
+          },
           {
             "date": "2026.06.15",
             "close": 2288000,
@@ -257,14 +278,6 @@
             "retail_net": 975933,
             "inst_net": -702023,
             "foreign_net": -273910
-          },
-          {
-            "date": "2026.06.09",
-            "close": 2215000,
-            "change_pct": 15.91,
-            "retail_net": -228549,
-            "inst_net": 854714,
-            "foreign_net": -626165
           }
         ]
       }
@@ -319,7 +332,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 242.437,
+    "strategy_pct": 222.197,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -783,7 +796,7 @@
       },
       {
         "date": "2026-06-16",
-        "ret_pct": 242.437
+        "ret_pct": 222.197
       }
     ],
     "monthly_breakdown": [
@@ -819,8 +832,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 9.86,
-        "end_ret_pct": 242.44,
+        "return_pct": -10.38,
+        "end_ret_pct": 222.2,
         "max_dd_pct": 58.15
       }
     ],
