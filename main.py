@@ -1204,6 +1204,12 @@ def backtest_strategy(history_rows, start_date='2026-01-01', initial_capital=100
             sell_slots = {'lev': False, 'lead': False, 'expert': False}
             cum_pct = 0.0
 
+        # 위성 미보유(cum_pct==0) 시 매도 슬롯은 의미 없음 → 리셋.
+        # 위성 0인 빈 구간에 sticky 매도 슬롯이 latch되면, 이후 새 매수사이클로
+        # 위성을 가득 채워도 드레인이 영영 안 일어나 풀레버리지로 끝까지 달리는 버그를 방지.
+        if cum_pct <= 0:
+            sell_slots = {'lev': False, 'lead': False, 'expert': False}
+
         # 매도 신호 처리 (sticky, 첫 발동 시에만 -33.33%p)
         sl  = int(float(row.get('sell_leverage_trigger') or 0))
         sld = int(float(row.get('sell_leading_trigger')  or 0))
