@@ -1,72 +1,28 @@
 {
-  "timestamp": "2026-06-16T19:31:39.546610+09:00",
+  "timestamp": "2026-06-17T00:34:21.177606+09:00",
   "sentiment": {
-    "cnn_fng": 41.2857142857143,
+    "cnn_fng": 40.2285714285714,
     "cnn_components": {
-      "momentum": 87.0,
-      "strength": 36.0,
-      "breadth": 26.4,
-      "put_call": 36.0,
-      "junk_bond": 10.6,
+      "momentum": 82.8,
+      "strength": 35.6,
+      "breadth": 25.2,
+      "put_call": 39.6,
+      "junk_bond": 8.6,
       "volatility": 50.0,
-      "safe_haven": 43.0
+      "safe_haven": 40.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 3,
-      "greed_articles": [
-        {
-          "title": "[오늘의증시] 코스피, 2%대 급등…8,800선 전고점 눈앞 - 경인방송 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wZER1RVRtbjdIRTgzWXczMklIQjN5VnZ3RkNXN1NIQWY5NHZvdEN4dDQxR0drckJ4LThfR2w4MnlqR0ZiRkV3U1oyVFlRajktdzlybFZnamY5RVE5aW5nc1FUU1HSAWhBVV95cUxQM0hzbnF1dDlyZXZvbGY3UlVVVU5OdGFRY2dvUTFGYlQ0dnJtaXNwVTFTSVdabWstSVB4Q3pybmZZWENUWWppcjhYU0dMZjRwcW1VczJUTGFwWktmZW5seUl3aUdTM0hHeA?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 08:14:39 GMT",
-          "source": "경인방송 뉴스"
-        },
-        {
-          "title": "코스피 급등에 빚투 재점화…마통 2조↑·반대매매 최고 10.5% - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TVW9JSC1lX20yMjM0VFFCcWtqeHFjR2JSSkRNVzh3Y0xpbktYNEZDWTF2VGhnY0J3ZFl6MVA4UFI5TWE5QjhpeXlrOGVUUEl3TGJTWE9WZ0NwSEYxSUNJOVlIaTVjUnlIT2VPaEpn0gFuQVVfeXFMTVNVb0lILWVfbTIyMzRUUUJxa2p4cWNHYlJKRE1XOHdjTGluS1g0RkNZMXZUaGdjQndkWXoxUDhQUjlNYTlCOGl5eWs4ZVRQSXdMYlNYT1ZnQ3BIRjFJQ0k5WUhpNWNSeUhPZU9oSmc?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 08:13:37 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "코스피 4거래일 연속 상승해 8,700선 마감‥SK하이닉스 한때 전 고점 접근 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNOWg0c0FlOEhYV2xZbV90VFZEUjZVQ0NPYVcybUQ3N05Fd0EtX1NCaG5iTmtRX3hKSXdmUHV5R0N3cEV5Z08zY2JLWlRNUG8?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 07:42:03 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "증시 활황에…'비트코인 현물 ETF' 도입 지지부진 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KSjMwLV8tNERzMVJWZl9DR0I0d3gzeXVMeDhtTUNUVXNXSW5LUWtuSnNpN1ZJaEJMYldhNG1HcEFaQnZ2UWhqQy1KWU9jUQ?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 06:00:00 GMT",
-          "source": "전자신문"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[증시-마감] 외국인 1.5조 '사자'에 코스피 2% 상승…\"매도세 진정 국면\" | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xQXJYWC1rWkUxd3ZzSjVYblVuX2g5d3ozNXQxVzVvUHU2ajRaU3hKMG5zSTlEUUtnVGZVXzQ4OTNOOU14cXpRYm9XaG9lWkFTRl9aQUs4Q3NMeVFYWkNSQUtwM3o3VVVQcVpSaDl5c2ZqZEx1?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 07:04:38 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[오후장 체크포인트] 중동발 먹구름 걷히자 유가 급락하고 코스피 상승 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQZXdERmhBWVZYcGJEOEtvbVJwRUotYkM5bUJVZjVIVUJfaGdIMEx3Wk80UnljM0w4d3pmdWs1YXN1T2VhX3ZCNjg3cXdDZ1U?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 05:22:20 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, '상승폭 다소 둔화' 8,600선 등락…한때 하락 전환도 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjc19XRjJrNWl0NEpnZXMwWGFBLVRfeEd0MTRPc0NtTGNHMlU5NHl2b1VkRHM1c05fa2x3VjU5LVN3ZE9CLXJmYlkxLWgzNk1XRUdHYWlTQ0xmOEnSAWBBVV95cUxNSXdVUWl6dlpvMXotaE0zZEIzRW1FWTNneXJ6aUV1N1l0WEpiVXktSVN5c2VzTjk4ZzRSOU9pb1IzOHEzSjhCYzdoX2NqaDRYUTE1STdvUGk0WERKcGZNS2E?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 02:39:06 GMT",
-          "source": "연합뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.16,
-    "vvix": 87.58,
+    "vix": 15.87,
+    "vvix": 86.63,
     "skew": 142.6,
     "move": 69.36
   },
@@ -80,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25888.84,
+      "current": 26591.14,
       "high_52w": 27190.21,
-      "drop_pct": -4.79,
-      "intraday_low_drop_pct": -5.85,
-      "sma_200": 23430.8
+      "drop_pct": -2.2,
+      "intraday_low_drop_pct": -2.42,
+      "sma_200": 23455.8
     },
     "kospi": {
-      "current": 8726.6,
+      "current": 8123.62,
       "high_52w": 8933.62,
-      "drop_pct": -2.32,
-      "intraday_low_drop_pct": -4.4,
-      "sma_200": 5031.22
+      "drop_pct": -9.07,
+      "intraday_low_drop_pct": -9.56,
+      "sma_200": 5003.72
     },
     "kosdaq": {
-      "current": 1018.68,
+      "current": 1034.03,
       "high_52w": 1229.42,
-      "drop_pct": -17.14,
-      "intraday_low_drop_pct": -17.38,
-      "sma_200": 995.92
+      "drop_pct": -15.89,
+      "intraday_low_drop_pct": -15.89,
+      "sma_200": 994.81
     },
     "sp500": {
-      "current": 7431.46,
+      "current": 7543.33,
       "high_52w": 7620.9,
-      "drop_pct": -2.49,
-      "intraday_low_drop_pct": -3.38,
-      "sma_200": 6881.99
+      "drop_pct": -1.02,
+      "intraday_low_drop_pct": -1.15,
+      "sma_200": 6887.3
     },
     "russell2k": {
-      "current": 2943.99,
+      "current": 2960.23,
       "high_52w": 2996.42,
-      "drop_pct": -1.75,
-      "intraday_low_drop_pct": -2.51,
-      "sma_200": 2585.87
+      "drop_pct": -1.21,
+      "intraday_low_drop_pct": -1.46,
+      "sma_200": 2588.8
     },
     "soxx": {
-      "current": 595.97,
+      "current": 608.76,
       "high_52w": 629.72,
-      "drop_pct": -5.36,
-      "intraday_low_drop_pct": -8.17,
-      "sma_200": 352.33
+      "drop_pct": -3.33,
+      "intraday_low_drop_pct": -4.11,
+      "sma_200": 354.12
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.205,
+    "SMH": 1.419,
+    "BOTZ": 0.954,
+    "IGV": 0.956,
+    "XLF": 0.979,
+    "XLE": 0.851
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 86.83,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 362.95,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 171.71,
+    "koru_profit_pct": 156.03,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -186,13 +142,13 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
-      "hynix_at_60d_high": true,
+      "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
