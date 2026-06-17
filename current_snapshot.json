@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T08:43:14.182169+09:00",
+  "timestamp": "2026-06-17T11:06:11.377385+09:00",
   "sentiment": {
     "cnn_fng": 39.2,
     "cnn_components": {
@@ -14,10 +14,29 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 13,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 4,
+      "greed_articles": [
+        {
+          "title": "코스피 높은 변동성에 금감원 긴급진단…\"무리한 빚투 안 돼\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNUmVQYVU0dzRUaFhRME5PNExNbFg0bUZPUHUwUUMzRmZnVVdkNVF0bUZDdlJWRzRGbUR6cEkwOXl5S3lPcm9wR3AyR2lEUGNuNXdQejd4OXFtM2FVMFFXYl9CRk83d2taZnVrRGpZeWsxZw?oc=5",
+          "pub_date": "Wed, 17 Jun 2026 01:00:02 GMT",
+          "source": "KB Think"
+        },
+        {
+          "title": "금감원, 증시 변동성 긴급점검…“고위험·빚투 지양해야\" - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVnF6YmZRTm1IOEdVYzF0bEJ1Vjc5WnZ2MjZyNGpFZDVJblVKYk9ERHJTV0Q2ZXVfMUxBTTNZNHpCNGRTM1pJblJQRDl1c08tSlJpekhobkxXUzkzXzFKbVlHdFRTTUkyU2xZdmxtRkN4VUFVcGFZOTlCSkJ1SXpGV3VOWVRnN2JC0gGcAUFVX3lxTFB2SEtuLWtWWmVtR1hhbDdTejcxRU9wQy1IVmJ0Vm5lbE5oSUlzdVFhQ3AweXg3X1hVZ3ZhazlIc0l5Nl9WY0dHbkllY3huVUwxYkh1Z2pvd1hlLU1DTXh4QklPaFI1dVlYZWd3R3N3TG81Z2cwbHZQOHlpSU80aVREc0JyVE1OMTFMaGJ1bGxnOFBrR2IwUzZYRmo4RA?oc=5",
+          "pub_date": "Wed, 17 Jun 2026 01:39:00 GMT",
+          "source": "Chosunbiz"
+        }
+      ],
       "fear_articles": [
+        {
+          "title": "코스피, 장초반 8600선 등락...美 반도체 급락에도 약보합권 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwN0kwUUhkbXNFZC1qaHd0dklEVGdaQ3JlWG9QZk1OdDRXWVVDRU82N1RDNXU2Y2ZWTWJDS0t0MVpTMmR6R0RoV0xPalBlckx4a3BvN0Y3cW9xb010ZTNpcUMtRmpDNDFYYjNMVzJYb0h4QQ?oc=5",
+          "pub_date": "Wed, 17 Jun 2026 00:23:36 GMT",
+          "source": "오피니언뉴스"
+        },
         {
           "title": "뉴욕증시, 유가는 내렸는데 나스닥은 급락…코스피, 반도체 숨고르기 오나 - 세종의소리",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02TkxpNXdCNERVOTJTRC1MbnI2d2hsRW5Ob1VlNkNkQzVRVnR5UGNyZlV5d2I3QTZVUGdkM21fd1ZoS0hKT0FyYS1sNFl6S3ZxbF9fdFkyclZLWTdSa1ZXOVQ4eUhhd0U?oc=5",
@@ -25,28 +44,16 @@
           "source": "세종의소리"
         },
         {
-          "title": "[2분 뉴욕증시] 유가 급락 속 다우는 또 역대 최고...반도체 종목은 '우수수' - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aaWlVVmRPWnphdmlsR0ZJdkE4UU0tVWxzWG9iMkQzWVBpN0VvcWxoM29EYmpUOWlydE9EMHotUVhPN1RPUjNjMEpZc3kzRnNLWnZrckRXMDlxRjBYb3c?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 20:59:00 GMT",
-          "source": "YTN"
+          "title": "코스피 장중 '외국인 매도세'에 하락 8640선, 원/달러 환율 1512.4원 출발 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TNjhSVnZPXzkyV0F3eGo2QXpVdDlzeVdOVjlFN01rQjRhbklQd0Z1S3h5MUtFRFVlUmhMci1tSkp6alF1cVJjNmFsSEpOU1AwckVqcnJCalhLVUFSSENPZm5KZlBSbWdROU1jR2dPOVl6cnM?oc=5",
+          "pub_date": "Wed, 17 Jun 2026 01:31:56 GMT",
+          "source": "비즈니스포스트"
         },
         {
-          "title": "[뉴욕증시] 유가 급락에 다우↑반도체 폭락에 나스닥↓ - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNW1pLW4tYVNIM05FMFFYd1lMb08wMzJFSjNtclJpM2g5ZjhXNDFudHZleDJKVlkycE9TcEVYUV9nSTVxbVBfb1owNV9Mc1k1dncwYkd3VkxaWGMxdzNYSmFFdWNmZnNaT0UycUh6ei1FYzFmWGhuUWRSOWVhNlNfQWtNUFFEWi1Q?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 20:26:28 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "'고평가 논란' 기술주 매도세…뉴욕증시 혼조 마감 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4eElHTDYyd0hFTGJsa1pNV3plX2ZqT2VJeXVhSDNWcGpUcWhZOUZHWmdBQi1vOXhzNy1pZ1daWmxJQk1QLWFKQ1FRTy1naVk?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 20:53:00 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[증시전략] 유가 급락 '안도'…美-이란 핵심 쟁점 입장차는 여전? - SBSBiz",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nUXBvNGlJNldSdUZ6a09xT3RXVnYtUjNLeTBtT3ZsZ3BCdDFPVHZXTHZqV2I4XzJtb09zYmQySWtsZ0ZtZk8zaHFkTWxpZFBfRUVB?oc=5",
-          "pub_date": "Tue, 16 Jun 2026 22:09:00 GMT",
-          "source": "SBSBiz"
+          "title": "[마켓라이브] 반도체 급락 여파에 코스피 하락 출발… 조선·철강·보험 업종은 강세 [장 초반 시황] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiRnVZRXF5cEg4aFFkWVBvVjNmenN2bWtHZXNGTFVBMmQzcU1rcHlTRkpKUk52Y3cxX1BpYjR6Q1B0RDJTc25KWkl0X0F6Y3dFZjRidVhZR0MzUQ?oc=5",
+          "pub_date": "Wed, 17 Jun 2026 00:28:23 GMT",
+          "source": "한국경제"
         }
       ]
     }
@@ -58,8 +65,8 @@
     "move": 67.28
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2242900000000,
-    "retail_net_buy_krw": -2184100000000,
+    "foreign_inst_buy_krw": -1276300000000,
+    "retail_net_buy_krw": 1276300000000,
     "margin_loan_krw": 36487100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +81,18 @@
       "sma_200": 23479.62
     },
     "kospi": {
-      "current": 8545.98,
+      "current": 8697.58,
       "high_52w": 8933.62,
-      "drop_pct": -4.34,
-      "intraday_low_drop_pct": -5.41,
-      "sma_200": 5030.32
+      "drop_pct": -2.64,
+      "intraday_low_drop_pct": -3.67,
+      "sma_200": 5085.79
     },
     "kosdaq": {
-      "current": 1034.03,
+      "current": 1022.2,
       "high_52w": 1229.42,
-      "drop_pct": -15.89,
-      "intraday_low_drop_pct": -16.59,
-      "sma_200": 994.81
+      "drop_pct": -16.86,
+      "intraday_low_drop_pct": -17.96,
+      "sma_200": 995.93
     },
     "sp500": {
       "current": 7511.35,
@@ -173,7 +180,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
@@ -272,7 +279,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-06-16",
