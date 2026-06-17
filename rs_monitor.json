@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T11:06:16.951695+09:00",
+  "timestamp": "2026-06-17T16:24:59.035174+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -497,32 +497,32 @@
       "tier2": [
         {
           "ticker": "005930.KS",
-          "rs_roc": 0.4527,
-          "price": 334750.0,
+          "rs_roc": 0.5037,
+          "price": 346500.0,
           "name": "삼성전자"
         },
         {
           "ticker": "000660.KS",
-          "rs_roc": 0.7874,
-          "price": 2402000.0,
+          "rs_roc": 0.8759,
+          "price": 2521000.0,
           "name": "SK하이닉스"
         },
         {
           "ticker": "005380.KS",
-          "rs_roc": 0.1155,
-          "price": 619000.0,
+          "rs_roc": 0.1137,
+          "price": 618000.0,
           "name": "현대차"
         },
         {
           "ticker": "373220.KS",
-          "rs_roc": -0.1554,
-          "price": 417500.0,
+          "rs_roc": -0.1584,
+          "price": 416000.0,
           "name": "LG에너지솔루션"
         },
         {
           "ticker": "035420.KS",
-          "rs_roc": 0.0998,
-          "price": 242500.0,
+          "rs_roc": 0.1043,
+          "price": 243500.0,
           "name": "네이버"
         }
       ],
@@ -1791,7 +1791,7 @@
     {
       "ticker": "MAGS",
       "name": "Magnificent 7",
-      "rs_roc": -0.0509,
+      "rs_roc": -0.0467,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -2008,10 +2008,6 @@
         {
           "date": "2026-06-15",
           "value": 1.007
-        },
-        {
-          "date": "2026-06-16",
-          "value": 1.01
         }
       ],
       "tier2": [
@@ -2032,13 +2028,13 @@
         },
         {
           "ticker": "GOOG",
-          "rs_roc": -0.0646,
-          "price": 371.1
+          "rs_roc": -0.0833,
+          "price": 367.11
         },
         {
           "ticker": "META",
-          "rs_roc": -0.0591,
-          "price": 600.21
+          "rs_roc": -0.0671,
+          "price": 593.48
         },
         {
           "ticker": "AMZN",
@@ -2056,7 +2052,7 @@
     {
       "ticker": "BOTZ",
       "name": "AI/Robotics",
-      "rs_roc": -0.0555,
+      "rs_roc": -0.0518,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -2273,10 +2269,6 @@
         {
           "date": "2026-06-15",
           "value": 1.0011
-        },
-        {
-          "date": "2026-06-16",
-          "value": 0.9973
         }
       ],
       "tier2": [
@@ -2287,8 +2279,8 @@
         },
         {
           "ticker": "ABBV",
-          "rs_roc": 0.0227,
-          "price": 222.47
+          "rs_roc": 0.0264,
+          "price": 221.59
         },
         {
           "ticker": "ISRG",
@@ -2297,8 +2289,8 @@
         },
         {
           "ticker": "KEYS",
-          "rs_roc": -0.046,
-          "price": 350.29
+          "rs_roc": -0.0308,
+          "price": 356.94
         }
       ],
       "rank": 9
@@ -2306,7 +2298,7 @@
     {
       "ticker": "XLC",
       "name": "Communication",
-      "rs_roc": -0.0742,
+      "rs_roc": -0.0802,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -2523,22 +2515,18 @@
         {
           "date": "2026-06-15",
           "value": 0.87
-        },
-        {
-          "date": "2026-06-16",
-          "value": 0.8763
         }
       ],
       "tier2": [
         {
           "ticker": "META",
-          "rs_roc": -0.0591,
-          "price": 600.21
+          "rs_roc": -0.0671,
+          "price": 593.48
         },
         {
           "ticker": "GOOG",
-          "rs_roc": -0.0646,
-          "price": 371.1
+          "rs_roc": -0.0833,
+          "price": 367.11
         },
         {
           "ticker": "NFLX",
@@ -2802,13 +2790,13 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1513.14,
-      "change_30d_pct": 2.66
+      "value": 1512.08,
+      "change_30d_pct": 2.59
     },
     "us10y": {
       "ticker": "^TNX",
-      "value": 4.43,
-      "change_30d_pp": 0.05
+      "value": 4.49,
+      "change_30d_pp": 0.1
     }
   },
   "errors": []
