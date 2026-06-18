@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T06:32:26.348978+09:00",
+  "timestamp": "2026-06-19T08:24:38.445373+09:00",
   "sentiment": {
     "cnn_fng": 37.5142857142857,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 4,
       "fear_count": 0,
       "greed_articles": [
         {
@@ -24,10 +24,22 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "코스피 9천 돌파…반도체 쏠림은 심화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZVVJlLWJhLVIyWHN4WkFwRnVYdkhmTHFvWkZDVWQ5RGdzUm92b2hwczJ5OUlVQ0dJblVzWTdEcnhydVhzODBjTF9pXzQ5MWs?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 21:29:55 GMT",
+          "source": "v.daum.net"
+        },
+        {
           "title": "[뉴욕증시-1보] '매파든 뭐든' 떨어지면 저가 매수…반등 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55UU84anh6MGZaUHoxU2F1VGp0ZVlpeWdWc09zZHA3R1RpRHNHZjZ6OW9hdDkwRVNEbFpCUXpvclBhM0Fmc3FZWDNjZ3c2bUhwV1l0X3VrREhKZDRSRGpRbDNGak9ydUUza3dJMm53VFRmbkVy0gF0QVVfeXFMTnlRTzhqeHowZlpQejFTYXVUanRlWWl5Z1ZzT3NkcDdHVGlEc0dmNno5b2F0OTBFU0RsWkJRem9yUGEzQWZzcVlYM2NndzZtSHBXWXRfdWtESEpkNFJEalFsM0ZqT3J1RTNrd0kybndUVGZuRXI?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 20:19:43 GMT",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FN1RMUTZPUHAzUWFIb2MzcUVvYmQyTjgzcGFwUHdLNHVzQl9NTzY1aFlNU2k2S3h0bm1FMzFfQ2RLdmFQTUZ3NjZUN2F0NHJNeGhCUm4td3U1Skc1SHctYlNjTGJMQ0JPNXJqQTd6S3XSAXRBVV95cUxOeVFPOGp4ejBmWlB6MVNhdVRqdGVZaXlnVnNPc2RwN0dUaURzR2Y2ejlvYXQ5MEVTRGxaQlF6b3JQYTNBZnNxWVgzY2d3Nm1IcFdZdF91a0RISmQ0UkRqUWwzRmpPcnVFM2t3STJud1RUZm5Fcg?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 20:11:19 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "[초점] 쏠림 심화·코스닥은 제자리...사상 첫 9000피의 ‘역설’ - 뉴시안",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kb21xeFcxNE1wbldqYUFMczk1OWthUXFtdG1NSWptQldRYVM5WGRvM1U1bXEzSWV4SG5DWE5CdTJ3RktjaVlNM052aVFwcEMxaDU1cXplbm42LUR5RUhUSjVKLXZDSzNjemVv0gFuQVVfeXFMTzVLRV9ZNHBFS0htSjZ0cEZOc3ZXbGVLdWJOLV82cVRiNXVTUEpIZzRVU2xVdjI2ME8xNEZGcXJQMzNLWXNtNk1uOG1ITFlPLUQ0bkpDeEdYVlRrOTFyWC1HcXk3OXlhMVZaa3RnbVE?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 21:48:20 GMT",
+          "source": "뉴시안"
         }
       ],
       "fear_articles": []
@@ -42,7 +54,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 509399999999,
     "retail_net_buy_krw": -415600000000,
-    "margin_loan_krw": 36799300000000,
+    "margin_loan_krw": 37198900000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -299,7 +311,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 248.739,
+    "strategy_pct": 248.853,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -775,7 +787,7 @@
       },
       {
         "date": "2026-06-19",
-        "ret_pct": 248.739
+        "ret_pct": 248.853
       }
     ],
     "monthly_breakdown": [
@@ -811,8 +823,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 16.16,
-        "end_ret_pct": 248.74,
+        "return_pct": 16.28,
+        "end_ret_pct": 248.85,
         "max_dd_pct": 58.15
       }
     ],
