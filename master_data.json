@@ -1,19 +1,19 @@
 {
-    "date": "05.27",
-    "ratio_raw": "01:99:00",
+    "date": "06.19",
+    "ratio_raw": "00:00:100",
     "vix": "X",
     "cnn": "X",
     "news": "X",
-    "memo": "금일 삼전 닉스 거래터진 윗꼬리 발생 및 2배 레버리지 관심 확대로 위성 제거",
+    "memo": "코스피 반대매매 대량 발생으로 위성 100%",
     "holdings": {
-        "QQQ": 77196186,
-        "SOXX": 68526138,
-        "EWY": 67006868,
+        "QQQ": 0,
+        "SOXX": 0,
+        "EWY": 0,
         "TQQQ": 0,
         "SOXL": 0,
-        "KORU": 0
+        "KORU": 271743053
     },
-    "total_krw": 215301430,
+    "total_krw": 271806906,
     "sell1_first_fired_date": "2026-04-24",
     "signal_first_fired": {
         "sell_leverage": "2026-04-24",
