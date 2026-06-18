@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-18T14:11:04.965081+09:00",
+  "timestamp": "2026-06-18T18:49:52.990115+09:00",
   "sentiment": {
-    "cnn_fng": 32.7142857142857,
+    "cnn_fng": 32.0285714285714,
     "cnn_components": {
       "momentum": 48.4,
-      "strength": 36.6,
-      "breadth": 21.4,
+      "strength": 37.0,
+      "breadth": 16.2,
       "put_call": 39.6,
       "junk_bond": 5.8,
       "volatility": 50.0,
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 8,
       "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "'파죽지세' 코스피 9,000 시대 열렸다...'쏠림' 우려 여전 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BbmpZNVpJaWVqTW5aeGNUMXRndUhFYk1RN2JFa2gxaTBKZl8tWlNqTUxXNU9VaTVzN1E5WXlFSkJpMUQxV3U4b2FhdlN3NEhNV3lwUzRtcGNNVXFSaUE?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 08:44:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "[코스피 9,000] 9천피 고지 밟았지만…과열·쏠림·변동성 우려 여전 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6TVNac3dxSVdDcmNyYWZxRDdFT01ORTdFTFVIY2wzbl9OY2RlMXhtTjEtNmwweUhPVmE2WnJZM2pXWE5hckdBMTc2elN2VG9xZTAyOHQxbHoyUjDSAWBBVV95cUxQRG5PSnZHcjBDUHgya2NQQkptemMtMzhsNUktU0UxRDlITDlfVFV5am1reXdhYUcwMTlCcVBNUnE1Uk9wU3Joa212dGd5V2dNb0dSRGpSTGhWT1dXZU9OTGI?oc=5",
@@ -24,37 +30,49 @@
           "source": "연합뉴스"
         },
         {
-          "title": "미국 증시 빚투 1.4조달러 사상 최대…시장을 떠받칠 현금은 없다 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JWWNLLVg2MEVxQzhVS2FoVlhHMkwweXdBc2Q3Mnl5WVlXYThHX0drSTR4VHJQa21aZkpXbFBBcEpjY2lBbTlJNnZaTzlfNks1ZzU5MzVWcjVaUdIBVEFVX3lxTFBCMExGMncyc2FscFF2UWN6cmpWbGN1RTNENUpsd1IzZ0dGSnItQnBCaFppbDI0QmVGVHJCNGI5Z3p5TTdKWFo3ODRzLVFtN2hVeWJiSw?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 04:00:07 GMT",
-          "source": "한국경제"
+          "title": "[코스피 9,000] 9천피 고지 밟았지만…과열·쏠림·변동성 우려 여전(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xS1BsVDU2UllITnRDWWFuMnRZWVFUZFZxMFZibnMzZGc4c1FEVkk2bUJ1a0VONzRhNHd6YzlTWEwzdUt3dENDMFg4VmREZFNQVjdoR0xvM0ZPMENmZmF4UdIBYEFVX3lxTE5xS1BsVDU2UllITnRDWWFuMnRZWVFUZFZxMFZibnMzZGc4c1FEVkk2bUJ1a0VONzRhNHd6YzlTWEwzdUt3dENDMFg4VmREZFNQVjdoR0xvM0ZPMENmZmF4UQ?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 07:05:49 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피 1년 만에 3000→9000…반도체 쏠림도 더 심해졌다[마감시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1UHVRQW8wOWhPRzNLQkt2MzNNSmFWaEhSWjBUS29CUUgtem04Rml2OWRBMjVscXVyZ09fdTNxdXo1dGphYXZrckZjQU5FRlNyZ1dGMXJ4cHRsTDBncFE?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 07:30:33 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "코스피 9000 시대 쏠림 우려…\"쏠림은 랠리 지속 신호\" 시각도 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOXFXakFMYnBzeGw1U09OVGNtd3lTSWhFQnFCamRZc0dRQ2JDVjRtU1pRYWZnWVdmM0sxbGZyNEtqV2s0eFZiQ1VYTHBLeFVHTTBkR1VYU1o2UmFuaDJFdEJyS01lREFkaHNuN1dB0gFuQVVfeXFMTkE5cVdqQUxicHN4bDVTT05UY213eVNJaEVCcUJqZFlzR1FDYkNWNG1TWlFhZmdZV2YzSzFsZnI0S2pXazR4VmJDVVhMcEt4VUdNMGRHVVhTWjZSYW5oMkV0QnJLTWVEQWRoc243V0E?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 07:36:13 GMT",
+          "source": "머니투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 美 증시 급락에도 장중 최고…'9000 시대' 눈앞 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zV1JMVmRtcXJlR2wxMkdfUE5GOUhNLTBhbDY0YXlrNlNERGo3dUJoWHFaZGE3OVVidXRxQnA3dkZESW5FYnhMUkxWTDE0QQ?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 01:07:15 GMT",
-          "source": "전자신문"
+          "title": "[오늘의증시] 코스피, 반도체 힘으로 9000선 돌파…코스닥은 3% 급락 - 경인방송 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MN2hXMnNBS00tbE1sNDdmVlNHbGlsSzdOMFNWUWJMZ2NScjc2ZXZtRjJ5cmZ3ZkV1cHZFR0RDczhpY1pqVXd0LXVUQU1ST2kwMkhVN1YwSVQ0bnRKT1JIS3dTRlrSAWhBVV95cUxQMEszV1FDbXczcFlEUXV3WkQtRnZFYnNzRk5tM2dGSGtLZWs5VGVldC1xZnBIdG9iM3R6bmRUTFk2dmh0U25Ic3R2b2Rwc0s4TWxwYllUNWEwOFBzZEktTDdYZ0ZUOV8wOQ?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 07:29:52 GMT",
+          "source": "경인방송 뉴스"
         },
         {
-          "title": "美 증시 급락에도 코스피 8900선 돌파…SK스퀘어·하닉 3% ‘강세’ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ERU5GRWtteTF2YzR0VmNNUF9FZFVQdHVoX3Fta0Rrd1BhRk1Uc1A2dUZvMUxSQlphM1ZtZGNNUDRlUWZnME5nckZjS0pUSkU?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 00:23:18 GMT",
+          "title": "[투자 노하우] 뉴욕증시, 연내 1회 금리인상 연준 매파 신호에 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pWVB2WXl2eHgwZ0FnRG1FamM4cExuNTA3SS1CZGJ5TkUtT2pjVXRXWm1NNXUtRUEzYlpzbjhwU3A2ZjJBZFdaSlQwcmZ0S00?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 08:04:37 GMT",
           "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.44,
+    "vix": 17.13,
     "vvix": 94.53,
     "skew": 142.62,
     "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -358000000000,
-    "retail_net_buy_krw": 426100000000,
+    "foreign_inst_buy_krw": 509399999999,
+    "retail_net_buy_krw": -415600000000,
     "margin_loan_krw": 36799300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -69,18 +87,18 @@
       "sma_200": 23502.45
     },
     "kospi": {
-      "current": 8993.66,
-      "high_52w": 9040.52,
-      "drop_pct": -0.52,
-      "intraday_low_drop_pct": -1.92,
-      "sma_200": 5115.95
+      "current": 9063.84,
+      "high_52w": 9106.07,
+      "drop_pct": -0.46,
+      "intraday_low_drop_pct": -2.62,
+      "sma_200": 5116.3
     },
     "kosdaq": {
-      "current": 1003.66,
+      "current": 1000.93,
       "high_52w": 1229.42,
-      "drop_pct": -18.36,
+      "drop_pct": -18.59,
       "intraday_low_drop_pct": -18.91,
-      "sma_200": 998.27
+      "sma_200": 998.25
     },
     "sp500": {
       "current": 7420.1,
@@ -169,16 +187,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": true,
-      "samsung_retail_buying": true,
-      "samsung_at_60d_high": false,
-      "samsung_ok": true,
+      "samsung_retail_buying": false,
+      "samsung_at_60d_high": true,
+      "samsung_ok": false,
       "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": true,
       "hynix_ok": false,
-      "gate_passed": false,
+      "gate_passed": true,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.18",
+            "close": 362500,
+            "change_pct": 4.62,
+            "retail_net": -4367937,
+            "inst_net": 1943262,
+            "foreign_net": 2424675
+          },
           {
             "date": "2026.06.17",
             "close": 346500,
@@ -210,17 +236,17 @@
             "retail_net": -6175315,
             "inst_net": 3295009,
             "foreign_net": 2880306
-          },
-          {
-            "date": "2026.06.11",
-            "close": 299000,
-            "change_pct": -1.16,
-            "retail_net": 4888195,
-            "inst_net": -5437840,
-            "foreign_net": 549645
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.18",
+            "close": 2685000,
+            "change_pct": 6.51,
+            "retail_net": -63934,
+            "inst_net": 38559,
+            "foreign_net": 25375
+          },
           {
             "date": "2026.06.17",
             "close": 2521000,
@@ -252,14 +278,6 @@
             "retail_net": -303262,
             "inst_net": -270178,
             "foreign_net": 573440
-          },
-          {
-            "date": "2026.06.11",
-            "close": 2101000,
-            "change_pct": 2.59,
-            "retail_net": 252729,
-            "inst_net": -513455,
-            "foreign_net": 260726
           }
         ]
       }
@@ -267,7 +285,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-06-18",
