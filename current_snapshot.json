@@ -1,30 +1,43 @@
 {
-  "timestamp": "2026-06-19T04:13:06.367504+09:00",
+  "timestamp": "2026-06-19T06:32:26.348978+09:00",
   "sentiment": {
-    "cnn_fng": 37.0857142857143,
+    "cnn_fng": 37.5142857142857,
     "cnn_components": {
-      "momentum": 72.6,
+      "momentum": 73.4,
       "strength": 36.8,
       "breadth": 19.0,
-      "put_call": 42.2,
-      "junk_bond": 8.0,
+      "put_call": 42.0,
+      "junk_bond": 9.2,
       "volatility": 50.0,
-      "safe_haven": 30.6
+      "safe_haven": 32.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 2,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "뉴욕증시, '매파든 뭐든' 떨어지면 저가 매수…반등 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHVqM2dXLUN0S09NV3JnbTZpdWJ3VlgzdGJJWkhRRVE3U2Y0TEJoaHhqLWgzR0s2VXowMDBZQnBBem53X2I2TldIYTlMRHVoZ1o1Q3J5MVJyUlRJanhBb0hNbktjZXE3V2pDMHpFMTU?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 21:05:58 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[뉴욕증시-1보] '매파든 뭐든' 떨어지면 저가 매수…반등 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55UU84anh6MGZaUHoxU2F1VGp0ZVlpeWdWc09zZHA3R1RpRHNHZjZ6OW9hdDkwRVNEbFpCUXpvclBhM0Fmc3FZWDNjZ3c2bUhwV1l0X3VrREhKZDRSRGpRbDNGak9ydUUza3dJMm53VFRmbkVy0gF0QVVfeXFMTnlRTzhqeHowZlpQejFTYXVUanRlWWl5Z1ZzT3NkcDdHVGlEc0dmNno5b2F0OTBFU0RsWkJRem9yUGEzQWZzcVlYM2NndzZtSHBXWXRfdWtESEpkNFJEalFsM0ZqT3J1RTNrd0kybndUVGZuRXI?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 20:19:43 GMT",
+          "source": "연합인포맥스"
+        }
+      ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.77,
-    "vvix": 88.47,
-    "skew": 142.62,
-    "move": 69.36
+    "vix": 16.4,
+    "vvix": 88.43,
+    "skew": 146.72,
+    "move": 65.39
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 509399999999,
@@ -36,11 +49,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26396.06,
+      "current": 26517.93,
       "high_52w": 27190.21,
-      "drop_pct": -2.92,
+      "drop_pct": -2.47,
       "intraday_low_drop_pct": -3.68,
-      "sma_200": 23528.03
+      "sma_200": 23528.64
     },
     "kospi": {
       "current": 8864.24,
@@ -57,34 +70,34 @@
       "sma_200": 997.14
     },
     "sp500": {
-      "current": 7483.43,
+      "current": 7500.58,
       "high_52w": 7620.9,
-      "drop_pct": -1.8,
+      "drop_pct": -1.58,
       "intraday_low_drop_pct": -2.0,
-      "sma_200": 6902.55
+      "sma_200": 6902.63
     },
     "russell2k": {
-      "current": 2967.45,
+      "current": 2979.77,
       "high_52w": 2996.42,
-      "drop_pct": -0.97,
+      "drop_pct": -0.56,
       "intraday_low_drop_pct": -1.89,
-      "sma_200": 2597.47
+      "sma_200": 2597.53
     },
     "soxx": {
-      "current": 639.29,
-      "high_52w": 641.18,
-      "drop_pct": -0.3,
-      "intraday_low_drop_pct": -2.34,
+      "current": 639.45,
+      "high_52w": 644.39,
+      "drop_pct": -0.77,
+      "intraday_low_drop_pct": -2.83,
       "sma_200": 359.69
     }
   },
   "sector_rs": {
-    "XLK": 1.227,
-    "SMH": 1.483,
-    "BOTZ": 0.971,
-    "IGV": 0.933,
-    "XLF": 0.974,
-    "XLE": 0.819
+    "XLK": 1.22,
+    "SMH": 1.472,
+    "BOTZ": 0.969,
+    "IGV": 0.93,
+    "XLF": 0.968,
+    "XLE": 0.803
   },
   "signals": {
     "cnn_under_10": false,
@@ -120,19 +133,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 87.75,
+    "tqqq_profit_pct": 88.47,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 423.72,
+    "soxl_profit_pct": 422.04,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 196.8,
+    "koru_profit_pct": 196.58,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -286,7 +299,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 249.273,
+    "strategy_pct": 248.739,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -762,7 +775,7 @@
       },
       {
         "date": "2026-06-19",
-        "ret_pct": 249.273
+        "ret_pct": 248.739
       }
     ],
     "monthly_breakdown": [
@@ -798,8 +811,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": 16.7,
-        "end_ret_pct": 249.27,
+        "return_pct": 16.16,
+        "end_ret_pct": 248.74,
         "max_dd_pct": 58.15
       }
     ],
