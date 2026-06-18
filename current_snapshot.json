@@ -1,40 +1,47 @@
 {
-  "timestamp": "2026-06-18T09:23:27.414074+09:00",
+  "timestamp": "2026-06-18T14:11:04.965081+09:00",
   "sentiment": {
-    "cnn_fng": 32.6571428571429,
+    "cnn_fng": 32.7142857142857,
     "cnn_components": {
       "momentum": 48.4,
       "strength": 36.6,
       "breadth": 21.4,
       "put_call": 39.6,
-      "junk_bond": 5.4,
+      "junk_bond": 5.8,
       "volatility": 50.0,
       "safe_haven": 27.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 3,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "[코스피 9,000] 9천피 고지 밟았지만…과열·쏠림·변동성 우려 여전 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6TVNac3dxSVdDcmNyYWZxRDdFT01ORTdFTFVIY2wzbl9OY2RlMXhtTjEtNmwweUhPVmE2WnJZM2pXWE5hckdBMTc2elN2VG9xZTAyOHQxbHoyUjDSAWBBVV95cUxQRG5PSnZHcjBDUHgya2NQQkptemMtMzhsNUktU0UxRDlITDlfVFV5am1reXdhYUcwMTlCcVBNUnE1Uk9wU3Joa212dGd5V2dNb0dSRGpSTGhWT1dXZU9OTGI?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 04:53:07 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "미국 증시 빚투 1.4조달러 사상 최대…시장을 떠받칠 현금은 없다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JWWNLLVg2MEVxQzhVS2FoVlhHMkwweXdBc2Q3Mnl5WVlXYThHX0drSTR4VHJQa21aZkpXbFBBcEpjY2lBbTlJNnZaTzlfNks1ZzU5MzVWcjVaUdIBVEFVX3lxTFBCMExGMncyc2FscFF2UWN6cmpWbGN1RTNENUpsd1IzZ0dGSnItQnBCaFppbDI0QmVGVHJCNGI5Z3p5TTdKWFo3ODRzLVFtN2hVeWJiSw?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 04:00:07 GMT",
+          "source": "한국경제"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "Fed 추가 인상 신호에 뉴욕증시 급락…S&P·나스닥 1%대 하락 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hM2hPUlBKNy1BZ3NRdnA3eTdGOW9FMzdvY1pkeFlQa2MxX01qZmM3c2MzWVg4ZWcxYXg0N0xOc01Nb0FBTFNWYXQtZk02dXdjVElCcmxTa0p4QdIBVEFVX3lxTE9OSUJ3T1NGVkEwRmZ1R09Dc3dia3BwcWp5LWhSdTdsaWhlSXIza0xHSXFMeGZTaU1PUU1XNFBSeHVTaVBSWloxbzVQRUZEeXFmQS1NUg?oc=5",
-          "pub_date": "Wed, 17 Jun 2026 22:50:44 GMT",
-          "source": "한국경제"
+          "title": "코스피, 美 증시 급락에도 장중 최고…'9000 시대' 눈앞 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zV1JMVmRtcXJlR2wxMkdfUE5GOUhNLTBhbDY0YXlrNlNERGo3dUJoWHFaZGE3OVVidXRxQnA3dkZESW5FYnhMUkxWTDE0QQ?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 01:07:15 GMT",
+          "source": "전자신문"
         },
         {
-          "title": "[속보] 뉴욕증시 일제히 급락… ‘워시체제’ 첫 FOMC서 금리 동결 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CazU0Y0x0U2VzVG9yYlBYSEp2UVhMMnNkbUs0UlZpZkJxOUJmNUo4Q00wQUJWR0VsdXBOZGN2UzBKNkRrYThDWFBOek1VTkJiNXFuMWRucVBoRGs5V3g2LUhPYS0tMHNLZTVFQ9IBbEFVX3lxTE9CazU0Y0x0U2VzVG9yYlBYSEp2UVhMMnNkbUs0UlZpZkJxOUJmNUo4Q00wQUJWR0VsdXBOZGN2UzBKNkRrYThDWFBOek1VTkJiNXFuMWRucVBoRGs5V3g2LUhPYS0tMHNLZTVFQw?oc=5",
-          "pub_date": "Wed, 17 Jun 2026 20:07:00 GMT",
-          "source": "국민일보"
-        },
-        {
-          "title": "[뉴욕증시] '연준 쇼크'에 나스닥 354P 급락...국채금리 폭등 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelF6YXVOTWRjdjhnVXlxLUZicm9vZ2E5cDhrVWQycGR4YjVQRjZLVFRSZXBXbmtab0JWaTN0bU8tS2pRV0JoWG9iUFpjNE5Ia3dxUU9raXM0X0JjYWJNVUxrQ1YxOW03SXFhaUN1ajNpWDRxekI1cXpyWlI3MTdRejNLeVVEcTRn?oc=5",
-          "pub_date": "Wed, 17 Jun 2026 20:34:49 GMT",
-          "source": "글로벌이코노믹"
+          "title": "美 증시 급락에도 코스피 8900선 돌파…SK스퀘어·하닉 3% ‘강세’ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ERU5GRWtteTF2YzR0VmNNUF9FZFVQdHVoX3Fta0Rrd1BhRk1Uc1A2dUZvMUxSQlphM1ZtZGNNUDRlUWZnME5nckZjS0pUSkU?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 00:23:18 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -43,11 +50,11 @@
     "vix": 18.44,
     "vvix": 94.53,
     "skew": 142.62,
-    "move": 70.66
+    "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -671500000000,
-    "retail_net_buy_krw": 673700000000,
+    "foreign_inst_buy_krw": -358000000000,
+    "retail_net_buy_krw": 426100000000,
     "margin_loan_krw": 36799300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -62,18 +69,18 @@
       "sma_200": 23502.45
     },
     "kospi": {
-      "current": 8940.75,
-      "high_52w": 8944.76,
-      "drop_pct": -0.04,
-      "intraday_low_drop_pct": -0.67,
-      "sma_200": 5087.01
+      "current": 8993.66,
+      "high_52w": 9040.52,
+      "drop_pct": -0.52,
+      "intraday_low_drop_pct": -1.92,
+      "sma_200": 5115.95
     },
     "kosdaq": {
-      "current": 1029.85,
+      "current": 1003.66,
       "high_52w": 1229.42,
-      "drop_pct": -16.23,
-      "intraday_low_drop_pct": -16.46,
-      "sma_200": 997.12
+      "drop_pct": -18.36,
+      "intraday_low_drop_pct": -18.91,
+      "sma_200": 998.27
     },
     "sp500": {
       "current": 7420.1,
