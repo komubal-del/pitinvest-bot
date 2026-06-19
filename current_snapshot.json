@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T08:24:38.445373+09:00",
+  "timestamp": "2026-06-19T11:12:22.402400+09:00",
   "sentiment": {
     "cnn_fng": 37.5142857142857,
     "cnn_components": {
@@ -14,32 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 3,
       "fear_count": 0,
       "greed_articles": [
         {
-          "title": "뉴욕증시, '매파든 뭐든' 떨어지면 저가 매수…반등 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHVqM2dXLUN0S09NV3JnbTZpdWJ3VlgzdGJJWkhRRVE3U2Y0TEJoaHhqLWgzR0s2VXowMDBZQnBBem53X2I2TldIYTlMRHVoZ1o1Q3J5MVJyUlRJanhBb0hNbktjZXE3V2pDMHpFMTU?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 21:05:58 GMT",
+          "title": "코스피 9천 돌파…반도체 쏠림은 심화 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aWEN5QmtoNWhEczRYNlkwbTRNTXZFN1JpTmxSWWkxS2t4TXRabkd4RGYzeGE3MUp0ZXlJNXRjZkJyTDJ1cktpY0RlYjlkOVF2V01WSXZDZkRCVmM?oc=5",
+          "pub_date": "Thu, 18 Jun 2026 22:05:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "'9천피 시대' 코스피 신고점 출발…9,288.89 개장 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RVEJramY0ZjdUWnVEb1JMa2pJRTRlY0ljOUxxYWsxbTZudzVmT3BHN1FWTUNuM2JiRE9kSWRrNS1fSldRV3ZkNUVucVlqT1VESkFfb25OVU1ZUHY0TE5uczNaeXhUdGdnLUlFak9FdXjSAXRBVV95cUxQcFo0VVRNSktVejVDM1luX1lmSkZZRWRJU3JaNVYtZWVRUnJIZnB2QVduVTFlRENING91UFFITmx1VXVBTkxkckhMSDVfXzJINlJYSFI1aFVTbU5Ud19ZaUR2d19yNUhUMTc5UHAzelo1RElrZQ?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 00:06:02 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피 9천 돌파…반도체 쏠림은 심화 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZVVJlLWJhLVIyWHN4WkFwRnVYdkhmTHFvWkZDVWQ5RGdzUm92b2hwczJ5OUlVQ0dJblVzWTdEcnhydVhzODBjTF9pXzQ5MWs?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 21:29:55 GMT",
+          "title": "정점식 “코스피 9000 자화자찬할 때 아냐…대장주 쏠림, 고환율 심각” - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90czdkTUFvblBIOWdMRnNtVTFCMkhaS1c1NTdSRDNoc2V2TXMtZ3JYS2w4UUZKWHZ6MFJ0SEpFcXp3ZlRDWTRWTW1uVW9qdjg?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 00:51:00 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[뉴욕증시-1보] '매파든 뭐든' 떨어지면 저가 매수…반등 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FN1RMUTZPUHAzUWFIb2MzcUVvYmQyTjgzcGFwUHdLNHVzQl9NTzY1aFlNU2k2S3h0bm1FMzFfQ2RLdmFQTUZ3NjZUN2F0NHJNeGhCUm4td3U1Skc1SHctYlNjTGJMQ0JPNXJqQTd6S3XSAXRBVV95cUxOeVFPOGp4ejBmWlB6MVNhdVRqdGVZaXlnVnNPc2RwN0dUaURzR2Y2ejlvYXQ5MEVTRGxaQlF6b3JQYTNBZnNxWVgzY2d3Nm1IcFdZdF91a0RISmQ0UkRqUWwzRmpPcnVFM2t3STJud1RUZm5Fcg?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 20:11:19 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[초점] 쏠림 심화·코스닥은 제자리...사상 첫 9000피의 ‘역설’ - 뉴시안",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kb21xeFcxNE1wbldqYUFMczk1OWthUXFtdG1NSWptQldRYVM5WGRvM1U1bXEzSWV4SG5DWE5CdTJ3RktjaVlNM052aVFwcEMxaDU1cXplbm42LUR5RUhUSjVKLXZDSzNjemVv0gFuQVVfeXFMTzVLRV9ZNHBFS0htSjZ0cEZOc3ZXbGVLdWJOLV82cVRiNXVTUEpIZzRVU2xVdjI2ME8xNEZGcXJQMzNLWXNtNk1uOG1ITFlPLUQ0bkpDeEdYVlRrOTFyWC1HcXk3OXlhMVZaa3RnbVE?oc=5",
-          "pub_date": "Thu, 18 Jun 2026 21:48:20 GMT",
-          "source": "뉴시안"
         }
       ],
       "fear_articles": []
@@ -52,8 +46,8 @@
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 509399999999,
-    "retail_net_buy_krw": -415600000000,
+    "foreign_inst_buy_krw": -697500000000,
+    "retail_net_buy_krw": 725900000000,
     "margin_loan_krw": 37198900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -68,18 +62,18 @@
       "sma_200": 23528.64
     },
     "kospi": {
-      "current": 8864.24,
-      "high_52w": 9106.07,
-      "drop_pct": -2.66,
-      "intraday_low_drop_pct": -5.5,
-      "sma_200": 5086.63
+      "current": 9332.12,
+      "high_52w": 9385.59,
+      "drop_pct": -0.57,
+      "intraday_low_drop_pct": -1.59,
+      "sma_200": 5117.64
     },
     "kosdaq": {
-      "current": 1031.96,
+      "current": 978.2,
       "high_52w": 1229.42,
-      "drop_pct": -16.06,
-      "intraday_low_drop_pct": -17.96,
-      "sma_200": 997.14
+      "drop_pct": -20.43,
+      "intraday_low_drop_pct": -20.43,
+      "sma_200": 998.14
     },
     "sp500": {
       "current": 7500.58,
@@ -104,12 +98,12 @@
     }
   },
   "sector_rs": {
-    "XLK": 1.22,
-    "SMH": 1.472,
-    "BOTZ": 0.969,
-    "IGV": 0.93,
-    "XLF": 0.968,
-    "XLE": 0.803
+    "XLK": 1.217,
+    "SMH": 1.469,
+    "BOTZ": 0.967,
+    "IGV": 0.927,
+    "XLF": 0.966,
+    "XLE": 0.801
   },
   "signals": {
     "cnn_under_10": false,
@@ -266,7 +260,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-06-18",
