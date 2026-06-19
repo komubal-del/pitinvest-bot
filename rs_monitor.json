@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T11:12:27.464232+09:00",
+  "timestamp": "2026-06-19T16:34:20.178728+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -260,8 +260,8 @@
         },
         {
           "ticker": "AMD",
-          "rs_roc": 0.2532,
-          "price": 537.37
+          "rs_roc": 0.4176,
+          "price": 512.48
         },
         {
           "ticker": "TSM",
@@ -513,32 +513,32 @@
       "tier2": [
         {
           "ticker": "005930.KS",
-          "rs_roc": 0.3651,
-          "price": 369500.0,
+          "rs_roc": 0.3078,
+          "price": 354000.0,
           "name": "삼성전자"
         },
         {
           "ticker": "000660.KS",
-          "rs_roc": 0.7641,
-          "price": 2874000.0,
+          "rs_roc": 0.6966,
+          "price": 2764000.0,
           "name": "SK하이닉스"
         },
         {
           "ticker": "005380.KS",
-          "rs_roc": 0.0971,
-          "price": 614000.0,
+          "rs_roc": 0.0953,
+          "price": 613000.0,
           "name": "현대차"
         },
         {
           "ticker": "373220.KS",
-          "rs_roc": -0.159,
-          "price": 412500.0,
+          "rs_roc": -0.1753,
+          "price": 404500.0,
           "name": "LG에너지솔루션"
         },
         {
           "ticker": "035420.KS",
-          "rs_roc": 0.1126,
-          "price": 235500.0,
+          "rs_roc": 0.0843,
+          "price": 229500.0,
           "name": "네이버"
         }
       ],
@@ -1823,8 +1823,8 @@
         },
         {
           "ticker": "TSLA",
-          "rs_roc": -0.013,
-          "price": 400.49
+          "rs_roc": 0.0004,
+          "price": 396.38
         },
         {
           "ticker": "HD",
@@ -2369,8 +2369,8 @@
         },
         {
           "ticker": "TSLA",
-          "rs_roc": -0.013,
-          "price": 400.49
+          "rs_roc": 0.0004,
+          "price": 396.38
         }
       ],
       "rank": 9
@@ -2890,13 +2890,13 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1538.68,
-      "change_30d_pct": 5.77
+      "value": 1527.68,
+      "change_30d_pct": 5.01
     },
     "us10y": {
       "ticker": "^TNX",
-      "value": 4.45,
-      "change_30d_pp": 0.07
+      "value": 4.49,
+      "change_30d_pp": 0.1
     }
   },
   "errors": []

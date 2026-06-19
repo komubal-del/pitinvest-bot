@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-19T11:12:22.402400+09:00",
+  "timestamp": "2026-06-19T16:34:11.874391+09:00",
   "sentiment": {
-    "cnn_fng": 37.5142857142857,
+    "cnn_fng": 37.2571428571429,
     "cnn_components": {
       "momentum": 73.4,
       "strength": 36.8,
-      "breadth": 19.0,
+      "breadth": 17.0,
       "put_call": 42.0,
-      "junk_bond": 9.2,
+      "junk_bond": 9.4,
       "volatility": 50.0,
       "safe_haven": 32.2
     },
@@ -15,8 +15,14 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 0,
+      "fear_count": 13,
       "greed_articles": [
+        {
+          "title": "정점식 “코스피 9000 돌파 축하하지만…대장주 쏠림, 고환율 심각” [지금뉴스] - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YY1pfYlJFWi1QdG1WTHU0Y1Q5b3Z5NVhjWG11MWFPT2lKTDZYTXlXZUVETXBRazZzOGdQelI2OGtxdkU1QVl0cXJkMUd4VTdrUi1lR1dGZUprb2c?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 05:21:00 GMT",
+          "source": "KBS 뉴스"
+        },
         {
           "title": "코스피 9천 돌파…반도체 쏠림은 심화 - KBS 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aWEN5QmtoNWhEczRYNlkwbTRNTXZFN1JpTmxSWWkxS2t4TXRabkd4RGYzeGE3MUp0ZXlJNXRjZkJyTDJ1cktpY0RlYjlkOVF2V01WSXZDZkRCVmM?oc=5",
@@ -24,30 +30,55 @@
           "source": "KBS 뉴스"
         },
         {
-          "title": "'9천피 시대' 코스피 신고점 출발…9,288.89 개장 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RVEJramY0ZjdUWnVEb1JMa2pJRTRlY0ljOUxxYWsxbTZudzVmT3BHN1FWTUNuM2JiRE9kSWRrNS1fSldRV3ZkNUVucVlqT1VESkFfb25OVU1ZUHY0TE5uczNaeXhUdGdnLUlFak9FdXjSAXRBVV95cUxQcFo0VVRNSktVejVDM1luX1lmSkZZRWRJU3JaNVYtZWVRUnJIZnB2QVduVTFlRENING91UFFITmx1VXVBTkxkckhMSDVfXzJINlJYSFI1aFVTbU5Ud19ZaUR2d19yNUhUMTc5UHAzelo1RElrZQ?oc=5",
-          "pub_date": "Fri, 19 Jun 2026 00:06:02 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "정점식 “코스피 9000 자화자찬할 때 아냐…대장주 쏠림, 고환율 심각” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90czdkTUFvblBIOWdMRnNtVTFCMkhaS1c1NTdSRDNoc2V2TXMtZ3JYS2w4UUZKWHZ6MFJ0SEpFcXp3ZlRDWTRWTW1uVW9qdjg?oc=5",
-          "pub_date": "Fri, 19 Jun 2026 00:51:00 GMT",
+          "title": "코스피 활황에 빚투 과열 조짐‥증권사들 신용융자 속도 조절 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aR1ZOS3dfb0IyUHVnbEFTLWJVaEhCR1lXb2g2RGlvaHNHY1VjN1lFclNjWUdBVWFCWXlOd2FHLWVoZ1FTSTZRaGYwOV9PT2c?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 06:58:19 GMT",
           "source": "v.daum.net"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "코스피, 장중 하락 전환해 9,000선 아래로…코스닥 4.7% 하락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SQUFnaFBkVnhDLWhOb2d1amlsbG91MnFCby1QeUhNZGtyZXpfWW4zNU1ETC1Qd0JReWdkUkgzTFJEcHlCV0RORU9OWmhUeFU?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 04:12:03 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 장중 하락 전환해 9,000선 아래로…코스닥 4.7% 하락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wWVBmOXdjRnZFZjJVSDVJRzdCZlB0bWNleHV6YlluNFhHS1M3OE83NjNkVEN3RmpaZlloNG55S0JrZ2NEVFQ1SUJlM3dYZ3F0UHV4MDVVNFNnZXRLS3lUc1JUekFDTGlTbWZQRUJpcHY?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 04:09:06 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[속보]코스피, 하락 전환해 9000선 내줘…8800선까지 후퇴 - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95cFZ0cWN3cS1oVUw3ZTdMV3BKc1owejRsZF83UUU5U2JqOTlDWlpCblNIN094NmdmMmhCQmtDRnRLX0JYbUpueXRjQl9hQXRGd0HSAVNBVV95cUxNTG9MUkNhQ25zYTZjTy1JSVdBMExIZkluX0E1SnZIak1HdDBWTm5qcDg1MHFfbUZ2RFNlLXpna3h1ckY0bm9wbUZoaGhiQWtpeXZTNA?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 03:58:55 GMT",
+          "source": "서울경제"
+        },
+        {
+          "title": "[속보] 코스피 하락 전환…코스닥 4.8% 하락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tS0NQaHFYY1lIbzdWMWpRUlh3dmhRVElhdjVzS29xNWU3SEREUGpLc2R5NGJpMUZWNi1sU1dNUVBjT01sVVdiaGhuV3VwWEx2WUVjYVUyYWlHdzRGdE1HUNIBYEFVX3lxTE8tS0NQaHFYY1lIbzdWMWpRUlh3dmhRVElhdjVzS29xNWU3SEREUGpLc2R5NGJpMUZWNi1sU1dNUVBjT01sVVdiaGhuV3VwWEx2WUVjYVUyYWlHdzRGdE1HUA?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 03:58:48 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피, 사상 최고치 찍고 하락 전환…9052.42 마감 [MTN 마감시황] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSRGNUdTBmM3QzWmNkRjhWMHZ0Q2h0MjlOUmF2VFVjRFlxQVlkMlV1ZGxlQWhwYWxOQnBHMWxYSVBpMUdkR3dBbERPZ2w4OU0?oc=5",
+          "pub_date": "Fri, 19 Jun 2026 07:05:31 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 16.4,
+    "vix": 17.03,
     "vvix": 88.43,
     "skew": 146.72,
-    "move": 65.39
+    "move": 69.36
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -697500000000,
-    "retail_net_buy_krw": 725900000000,
+    "foreign_inst_buy_krw": -1580800000000,
+    "retail_net_buy_krw": 1648600000000,
     "margin_loan_krw": 37198900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -62,18 +93,18 @@
       "sma_200": 23528.64
     },
     "kospi": {
-      "current": 9332.12,
+      "current": 9052.42,
       "high_52w": 9385.59,
-      "drop_pct": -0.57,
-      "intraday_low_drop_pct": -1.59,
-      "sma_200": 5117.64
+      "drop_pct": -3.55,
+      "intraday_low_drop_pct": -5.9,
+      "sma_200": 5145.85
     },
     "kosdaq": {
-      "current": 978.2,
+      "current": 966.59,
       "high_52w": 1229.42,
-      "drop_pct": -20.43,
-      "intraday_low_drop_pct": -20.43,
-      "sma_200": 998.14
+      "drop_pct": -21.38,
+      "intraday_low_drop_pct": -23.04,
+      "sma_200": 999.2
     },
     "sp500": {
       "current": 7500.58,
@@ -91,15 +122,15 @@
     },
     "soxx": {
       "current": 639.45,
-      "high_52w": 644.39,
+      "high_52w": 644.43,
       "drop_pct": -0.77,
-      "intraday_low_drop_pct": -2.83,
+      "intraday_low_drop_pct": -2.84,
       "sma_200": 359.69
     }
   },
   "sector_rs": {
     "XLK": 1.217,
-    "SMH": 1.469,
+    "SMH": null,
     "BOTZ": 0.967,
     "IGV": 0.927,
     "XLF": 0.966,
@@ -161,15 +192,15 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
-      "samsung_at_60d_high": true,
+      "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": true,
       "hynix_ok": false,
-      "gate_passed": true,
+      "gate_passed": false,
       "history": {
         "samsung": [
           {
