@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T06:24:23.479833+09:00",
+  "timestamp": "2026-06-22T07:40:07.771679+09:00",
   "sentiment": {
     "cnn_fng": 37.2571428571429,
     "cnn_components": {
@@ -14,9 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 4,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "독일 언론, SK하이닉스 코스피 주도 보도… 호재 뒤편 '빚투' 경고등도 지적 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUVwRzVyRGRYUjRXYjN2a0tQbEVZT2dHMEZQZk1LR3RxM0x3WkNiWU9ubVB3Yk1DeThoQk5qbGhzSVFYdEZ0RmFNWGlFdW1NZUxUWTNWUVJxUWR1T3h4alYzMTFVS25BUUhKWnM2V3dlV2cwZXU0U2pTY085bElFVkJ1MGtMNHBt?oc=5",
+          "pub_date": "Sun, 21 Jun 2026 22:16:22 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "\"비싸진 주식으로 AI 쇼핑?\" 머스크 83조 베팅에 '증시 과열' 경고 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvZjZCdFZLZ3BBVTFiYXZsWEZ2d1dENUR2MDdSVmVLWXQ1a09OYmoySlFZUXBveFRBbWs4RHd6bExUSG92a25rNUhraHNxRThDcTVfTUw3MWZSZ1dndDNPbnNnbTEzTmktRFFRZmhXQy0zc1lBZ2tqUNIBeEFVX3lxTFBvZjZCdFZLZ3BBVTFiYXZsWEZ2d1dENUR2MDdSVmVLWXQ1a09OYmoySlFZUXBveFRBbWs4RHd6bExUSG92a25rNUhraHNxRThDcTVfTUw3MWZSZ1dndDNPbnNnbTEzTmktRFFRZmhXQy0zc1lBZ2tqUA?oc=5",
+          "pub_date": "Sun, 21 Jun 2026 20:00:00 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "분양가 치솟고 증시 활황⋯청약통장 해지 가속 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93NlFZcFJyd0x5Rk9Qa3owWHNZNzlIamI2bHItREhXVk53c2p6a2lkTjllVEZ4SDZGRkN6d3ZyOFJqY0RmYmRPR2VmVHBDeXVXbWxEVg?oc=5",
+          "pub_date": "Sun, 21 Jun 2026 22:00:00 GMT",
+          "source": "이투데이"
+        },
+        {
+          "title": "[사설] 코스피 10000 시대 목전, `빚투`와 변동성 증가 불안 - 부산일보",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WZDRqaFlvYTB0S2poWmEybnVlU1ZETmRBNk5tUmoza0VTQ2pfT2wxcVFmdnpWT3Jvc0hjTWRVRjFscTl6X1NVVHRUT1NBSkV3STA0V0QtcXUzRy14UGoyM3c2S3NKTnlUaUhYTUdjaEptMElq?oc=5",
+          "pub_date": "Sun, 21 Jun 2026 20:12:00 GMT",
+          "source": "부산일보"
+        }
+      ],
       "fear_articles": []
     }
   },
@@ -29,7 +54,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -1579900000000,
     "retail_net_buy_krw": 1647800000000,
-    "margin_loan_krw": 37198900000000,
+    "margin_loan_krw": 37377600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
