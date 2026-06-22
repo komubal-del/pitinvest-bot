@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T08:57:47.003905+09:00",
+  "timestamp": "2026-06-22T14:23:03.059041+09:00",
   "sentiment": {
     "cnn_fng": 37.2571428571429,
     "cnn_components": {
@@ -14,38 +14,32 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 8,
+      "greed_count": 4,
       "fear_count": 0,
       "greed_articles": [
         {
-          "title": "독일 언론, SK하이닉스 코스피 주도 보도… 호재 뒤편 '빚투' 경고등도 지적 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUVwRzVyRGRYUjRXYjN2a0tQbEVZT2dHMEZQZk1LR3RxM0x3WkNiWU9ubVB3Yk1DeThoQk5qbGhzSVFYdEZ0RmFNWGlFdW1NZUxUWTNWUVJxUWR1T3h4alYzMTFVS25BUUhKWnM2V3dlV2cwZXU0U2pTY085bElFVkJ1MGtMNHBt?oc=5",
-          "pub_date": "Sun, 21 Jun 2026 22:16:22 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스피 쏠림 속 존재감 키우기…코스닥, 30주년 맞아 투자자 유치 총력 - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95NGgwdEtpX3VOZ2E4SGU0LVkzUjlDX1pvNnZGbkJBb0Q1UVJ1TGNDNngwYXRDUnVPNXRXMnBPS3cydjRsb3NaQVA1TFVGdzUta3ZycUhjZDJIRnp4ajFVOEF5SGdwTXhHQlR5Wi1NUEpwSDVJRGt5OTFmTy0?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 02:20:18 GMT",
+          "source": "한국금융신문"
         },
         {
-          "title": "[오늘의 투자전략] 코스피, 반도체 쏠림 속 변동성 장세 전망⋯마이크론 실적ㆍMSCI 재분류 주목 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42dzc0eU1Zb0ZzcWl1QjNoeWl2VGNFTHVWZ3huVDdyTVRwdGRSTkVhM0xVM0hiWkxLaTd4TjlQbHZ2WTZOeHRPUUpPcFVwNVFQTjBYeQ?oc=5",
-          "pub_date": "Sun, 21 Jun 2026 23:21:00 GMT",
-          "source": "이투데이"
+          "title": "[기획] 코스피 9,000선 회복의 그림자, 미·이란 협상 불확실성과 반도체 쏠림의 교차 - 데일리연합",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VaElVMW5HeVB6My1MbVJ0cm52NkNqM25vbGVEM0JJVGlDa01jY0h4eGlxbzBwM0VLTXZxNDZxRVVYOHdSaFdwcWpsc3h2emlfdmw4SDk1UU5KNUU?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 04:10:04 GMT",
+          "source": "데일리연합"
         },
         {
-          "title": "\"비싸진 주식으로 AI 쇼핑?\" 머스크 83조 베팅에 '증시 과열' 경고 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvZjZCdFZLZ3BBVTFiYXZsWEZ2d1dENUR2MDdSVmVLWXQ1a09OYmoySlFZUXBveFRBbWs4RHd6bExUSG92a25rNUhraHNxRThDcTVfTUw3MWZSZ1dndDNPbnNnbTEzTmktRFFRZmhXQy0zc1lBZ2tqUNIBeEFVX3lxTFBvZjZCdFZLZ3BBVTFiYXZsWEZ2d1dENUR2MDdSVmVLWXQ1a09OYmoySlFZUXBveFRBbWs4RHd6bExUSG92a25rNUhraHNxRThDcTVfTUw3MWZSZ1dndDNPbnNnbTEzTmktRFFRZmhXQy0zc1lBZ2tqUA?oc=5",
-          "pub_date": "Sun, 21 Jun 2026 20:00:00 GMT",
-          "source": "뉴시스"
+          "title": "‘세계서 가장 저평가’ 코스피 더 간다…반도체 쏠림·변동성 변수 - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85VjVrcUlqMkU0UVlTQ2hlRHYtSHNjbmd6UWZhb0NWQWhfRmJDTGtBY1VvdWlzT1FIUkpUQUVDMGNPM05wSGRPUENlR3JtaW82Vm05OU5n?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 02:41:05 GMT",
+          "source": "헤럴드경제"
         },
         {
-          "title": "분양가 치솟고 증시 활황⋯청약통장 해지 가속 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93NlFZcFJyd0x5Rk9Qa3owWHNZNzlIamI2bHItREhXVk53c2p6a2lkTjllVEZ4SDZGRkN6d3ZyOFJqY0RmYmRPR2VmVHBDeXVXbWxEVg?oc=5",
-          "pub_date": "Sun, 21 Jun 2026 22:00:00 GMT",
-          "source": "이투데이"
-        },
-        {
-          "title": "[AI MY 증시전망] 코스피, 9000선 안착 시도…반도체 쏠림 속 변동성 장세 전망 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OVUxpdDJmZmlsbWpKWlZUZDhNcnpibDJ6WWNJVXhxR2lPU1pUUW0zbGE4clBmeXBGa0poWGpTbEk2NFRQOEI2bnZ0WlhIMzVxZUpF?oc=5",
-          "pub_date": "Sun, 21 Jun 2026 23:30:00 GMT",
-          "source": "네이트"
+          "title": "[마켓 프리뷰] 급등 뒤 숨고르기?…코스피, 중동 변수·반도체 쏠림 주목 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBIeW5acTdfalVWNV9BSE04SFJhNDJmbDhTUU9MRjgzRXFBYmQxTm1uWU1aQTI2bnpxNXV2bDJfX3RaNmV3TGc?oc=5",
+          "pub_date": "Sun, 21 Jun 2026 23:50:05 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": []
@@ -58,8 +52,8 @@
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1579900000000,
-    "retail_net_buy_krw": 1647800000000,
+    "foreign_inst_buy_krw": -1788500000000,
+    "retail_net_buy_krw": 1711400000000,
     "margin_loan_krw": 37377600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +68,18 @@
       "sma_200": 23528.64
     },
     "kospi": {
-      "current": 9052.42,
+      "current": 9035.03,
       "high_52w": 9385.59,
-      "drop_pct": -3.55,
-      "intraday_low_drop_pct": -5.9,
-      "sma_200": 5145.85
+      "drop_pct": -3.74,
+      "intraday_low_drop_pct": -5.17,
+      "sma_200": 5175.18
     },
     "kosdaq": {
-      "current": 966.59,
+      "current": 952.65,
       "high_52w": 1229.42,
-      "drop_pct": -21.38,
-      "intraday_low_drop_pct": -23.04,
-      "sma_200": 999.2
+      "drop_pct": -22.51,
+      "intraday_low_drop_pct": -23.19,
+      "sma_200": 1000.05
     },
     "sp500": {
       "current": 7500.58,
