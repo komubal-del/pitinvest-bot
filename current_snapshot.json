@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T14:23:03.059041+09:00",
+  "timestamp": "2026-06-22T20:09:45.990977+09:00",
   "sentiment": {
     "cnn_fng": 37.2571428571429,
     "cnn_components": {
@@ -18,42 +18,42 @@
       "fear_count": 0,
       "greed_articles": [
         {
-          "title": "코스피 쏠림 속 존재감 키우기…코스닥, 30주년 맞아 투자자 유치 총력 - 한국금융신문",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95NGgwdEtpX3VOZ2E4SGU0LVkzUjlDX1pvNnZGbkJBb0Q1UVJ1TGNDNngwYXRDUnVPNXRXMnBPS3cydjRsb3NaQVA1TFVGdzUta3ZycUhjZDJIRnp4ajFVOEF5SGdwTXhHQlR5Wi1NUEpwSDVJRGt5OTFmTy0?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 02:20:18 GMT",
-          "source": "한국금융신문"
+          "title": "코스피 9,000 시대에 '빚투'도 사상 최대…신용융자 38조원 돌파 - 티제이비",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55N0Jlam5TckkyOTBIY0U0RkllemJWMWItbnAzbWZsM0Z2eVBoTmtidXVySzN0YlJlSmJsdF8zU01VbHpPVkV5WU5HYTJnVURLNWkyYmZMYm1pVzNVQkpSMlVUZ3dBTWwxZ3BlQkhB?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 07:17:35 GMT",
+          "source": "티제이비"
         },
         {
-          "title": "[기획] 코스피 9,000선 회복의 그림자, 미·이란 협상 불확실성과 반도체 쏠림의 교차 - 데일리연합",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VaElVMW5HeVB6My1MbVJ0cm52NkNqM25vbGVEM0JJVGlDa01jY0h4eGlxbzBwM0VLTXZxNDZxRVVYOHdSaFdwcWpsc3h2emlfdmw4SDk1UU5KNUU?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 04:10:04 GMT",
-          "source": "데일리연합"
+          "title": "증시 활황에 자산운용사 1분기 순익 1조4664억···대형사 쏠림에 실적 격차는 커져 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45aEpDREFVWnUyS2lmUUVjSkVVSVI5SnMwYkNKdzRqWmJHcHJxUmpWbTZPa1VHTnJyZkdGWXZGU3lHal9TR3dFMG9hVXIzOVJBQVBlRFRfUVY0SkdqVm400gFfQVVfeXFMTjloSkNEQVVadTJLaWZRRWNKRVVJUjlKczBiQ0p3NGpaYkdwcnFSalZtNk9rVUdOcnJmR0ZZdkZTeUdqX1NHd0Uwb2FVcjM5UkFBUGVEVF9RVjRKR2pWbjQ?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 08:54:00 GMT",
+          "source": "경향신문"
         },
         {
-          "title": "‘세계서 가장 저평가’ 코스피 더 간다…반도체 쏠림·변동성 변수 - 헤럴드경제",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85VjVrcUlqMkU0UVlTQ2hlRHYtSHNjbmd6UWZhb0NWQWhfRmJDTGtBY1VvdWlzT1FIUkpUQUVDMGNPM05wSGRPUENlR3JtaW82Vm05OU5n?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 02:41:05 GMT",
-          "source": "헤럴드경제"
+          "title": "코스피 쏠림에 소외되는 코스닥…시총 비율 6.80% ‘27년만에 최저’ - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YWkJXZHRfWUJsaF9uUWdfNU9kS3ZqN1hKZXlidTBQZTd6X2Ixa2Q2SHhOcDB2TjBtVHpTNnlYdUgya0t0V2h5R0FHYWVlMU5wdmFUOVlJQ1JhU1owbEFadHpOS3MzbDJScmtISWFOOXM1Y1dDQWfSAWZBVV95cUxQbnc2UkhPQnU1NjNMQnJ1M2hyOHp6bm1yMFdNanlneEcyU0FmVXNtaDdlanlXS2l0VGlTNThYQmEzOFRaZm42WUZhSGw0NFFoaVFhX0FyX3Exa3AzdHRJdjg5UWt5dmc?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 06:23:00 GMT",
+          "source": "동아일보"
         },
         {
-          "title": "[마켓 프리뷰] 급등 뒤 숨고르기?…코스피, 중동 변수·반도체 쏠림 주목 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBIeW5acTdfalVWNV9BSE04SFJhNDJmbDhTUU9MRjgzRXFBYmQxTm1uWU1aQTI2bnpxNXV2bDJfX3RaNmV3TGc?oc=5",
-          "pub_date": "Sun, 21 Jun 2026 23:50:05 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 '9천' 돌파에…'빚투' 신용잔고 다시 사상 최대 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IT29pZnJfbllhMVJtY2QxMXRqNXlybDhqRlkydGJhQ01RcEFHcmcycC1GQ19XZl83OGhuTjBweVJPUFk5dlE1RFBFel9hWDVzUUE?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 07:00:40 GMT",
+          "source": "매일경제 마켓"
         }
       ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.4,
+    "vix": 17.45,
     "vvix": 88.43,
     "skew": 146.72,
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1788500000000,
-    "retail_net_buy_krw": 1711400000000,
+    "foreign_inst_buy_krw": -2243200000000,
+    "retail_net_buy_krw": 2150599999999,
     "margin_loan_krw": 37377600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -68,18 +68,18 @@
       "sma_200": 23528.64
     },
     "kospi": {
-      "current": 9035.03,
+      "current": 9114.55,
       "high_52w": 9385.59,
-      "drop_pct": -3.74,
+      "drop_pct": -2.89,
       "intraday_low_drop_pct": -5.17,
-      "sma_200": 5175.18
+      "sma_200": 5175.58
     },
     "kosdaq": {
-      "current": 952.65,
+      "current": 968.4,
       "high_52w": 1229.42,
-      "drop_pct": -22.51,
+      "drop_pct": -21.23,
       "intraday_low_drop_pct": -23.19,
-      "sma_200": 1000.05
+      "sma_200": 1000.13
     },
     "sp500": {
       "current": 7500.58,
@@ -179,6 +179,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.06.22",
+            "close": 353500,
+            "change_pct": -0.14,
+            "retail_net": 1595130,
+            "inst_net": -328401,
+            "foreign_net": -1266729
+          },
+          {
             "date": "2026.06.19",
             "close": 354000,
             "change_pct": -2.34,
@@ -209,17 +217,17 @@
             "retail_net": -811963,
             "inst_net": 839414,
             "foreign_net": -27451
-          },
-          {
-            "date": "2026.06.15",
-            "close": 337000,
-            "change_pct": 4.5,
-            "retail_net": 1297243,
-            "inst_net": 531697,
-            "foreign_net": -1828940
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.22",
+            "close": 2919000,
+            "change_pct": 5.61,
+            "retail_net": 82857,
+            "inst_net": 419974,
+            "foreign_net": -502831
+          },
           {
             "date": "2026.06.19",
             "close": 2764000,
@@ -251,14 +259,6 @@
             "retail_net": -590851,
             "inst_net": 238957,
             "foreign_net": 351894
-          },
-          {
-            "date": "2026.06.15",
-            "close": 2288000,
-            "change_pct": 6.42,
-            "retail_net": -345471,
-            "inst_net": 165238,
-            "foreign_net": 180233
           }
         ]
       }
