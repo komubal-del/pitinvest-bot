@@ -1,28 +1,22 @@
 {
-  "timestamp": "2026-06-23T18:59:40.017050+09:00",
+  "timestamp": "2026-06-23T21:42:23.787787+09:00",
   "sentiment": {
-    "cnn_fng": 34.3428571428571,
+    "cnn_fng": 33.7018315018315,
     "cnn_components": {
       "momentum": 61.8,
       "strength": 34.8,
       "breadth": 14.6,
       "put_call": 37.0,
       "junk_bond": 12.8,
-      "volatility": 50.0,
+      "volatility": 45.5,
       "safe_haven": 29.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 63,
+      "greed_count": 4,
+      "fear_count": 66,
       "greed_articles": [
-        {
-          "title": "[중국증시-마감] 기술주 과열 우려에 하락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HRTRrbE50QmY5Tm5obndlS09tS0RhMEFXY2VVcTY3YlRRX3B2Q2dTLWd0NDg2cjdqdEVSX0tBamo4am5MLXhDV09CdE1VLUM0a3hCX0xiSGNCR1k5d3F0am0td0RPelpYRnY3RUNtbEc?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 09:17:24 GMT",
-          "source": "연합인포맥스"
-        },
         {
           "title": "코스피 910P 역대 최대 낙폭…AI과열론에 연기금·세제 변수까지 - 중앙일보",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sVkRuaUtTcllaYVBVU1J1TkFkV2hGSlI2d2dUeVh1TlJiSFJQYmdyT3JwbDQzWEtMUE55eU5yYUdZRHNVRXJxZDNHNGkxSl9jSkp3VHVR?oc=5",
@@ -30,30 +24,30 @@
           "source": "중앙일보"
         },
         {
-          "title": "너무 달렸나…코스피, 과열론·차익실현에 10% 폭락 - 서울경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hRWVHdFdZN3ZISHpEeXFZNUs2T2ZIZml1SXVXV3FrbFRtTncwV3FULUNkUVJacjBzd240eTNCY0pJUzlDUnVjekM0Qnk5S3FzODdJZzAtYTBYWjIzSVRVcnJBei0?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 08:11:55 GMT",
-          "source": "서울경제TV"
+          "title": "코스피 910P 역대 최대 낙폭…AI과열론에 연기금·세제 변수까지 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03LTZHUmFsU3JNVVZpaGloRDBBMzRLY2dxbzJvYWFIT3ZSQnhtTmRKVzBMRTY3blJJdkI4bkphcTJMeGNTVDNiWDNITGpnR2c?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 09:09:51 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[중국증시-마감] 기술주 과열 우려에 하락 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FSkFqdE5wTWlWbTA1ZWstT2h4V2RwYjFhTV9vTVZ1TEpDaDhqOU5CNW5KVUJLQW1SUHp1ZGl0ZjlNckZQblVkSFNSMl84eUFVeUhOTHd5Q0kyRTFLOE1KcHZoTVNhWGxZc05kdFg2ZEM1d2tL?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 09:22:10 GMT",
+          "source": "연합인포맥스"
         },
         {
           "title": "강한 쏠림 뒤 강한 조정…코스피, 10% 하락 8203.84 마감 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50OUVuMEtiY0JtWVd3eXdhUExtWVpfc0pLd1JKcDY3YlJycGw2bks2cU1oOVRtZFdtZDd2cDRVRXBQNGN2UTJoY3dVZnFIQQ?oc=5",
           "pub_date": "Tue, 23 Jun 2026 06:41:59 GMT",
           "source": "전자신문"
-        },
-        {
-          "title": "반도체 쏠림의 역습…코스피 9.99% 급락, 서킷브레이커까지 - 이데일리TV",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVUdXLVJmU2dMQzZPSVRVbEhrcDZudUd5dmdWRXJ4dUtwakhXLXM4dVJrS0RxUXE5akZTNzhhSGI3V3dlbWVEMkNLakJrYi1vSnJwZkNTWk5yb1M3TnAydU5vM1Q2bi1sRFdBNWVsYU9EMjFvRVRYaXNIQQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 07:17:51 GMT",
-          "source": "이데일리TV"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 또 ‘검은 화요일’…8%대 급락에 서킷브레이커 발동 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wMndpa05YdWk4bGJFNnR4RHEwNWw3dUNSYk0yWDZXVUVybUdXRGNHZW80TGF4MHlHVENRLVdUSXBGYktVdHlBRFFqb242RlFEOUhJWHNn?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 08:48:49 GMT",
-          "source": "중앙일보"
+          "title": "[이슈플러스] '검은 화요일' 코스피 10%대 가까이 폭락...원인은? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyaFZiMmt2N0UwNWNwM1kxd2NTYzFKZEkwYzhuRnlRYkpySml4YmZRa2FOTUNwbnBvclZsa2piWHNldlo1N3hSZzNIQkNKdWxqQ2VwbVlKWG1rdFZLdFE?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 10:21:00 GMT",
+          "source": "YTN"
         },
         {
           "title": "코스피 8% 급락에 서킷브레이커 발동‥삼전 8%·닉스 11% 하락 - MBC 뉴스",
@@ -64,26 +58,26 @@
         {
           "title": "하루에 910포인트 떨어졌다... 코스피, 역대급 폭락 기록 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT0FxRDRFYXFSNE11MmRibEVoeFVKTERwSGlCeXYtOE5FYlpjQ24zUE5qV0RpdGVhSnpabjJrOXMzcUhXY2RfZVR0OEtQT0lxOGp1UFpsT3dKWS1hSlBzRDRMYkpRcTlPTDZmdU9IaTA4bkVnalhMckpPVU8xN1dvUQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 07:17:53 GMT",
+          "pub_date": "Tue, 23 Jun 2026 08:27:00 GMT",
           "source": "조선일보"
         },
         {
-          "title": "코스피·코스닥 5%대 급락…동반 매도 사이드카 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52U2FBcC1URC1zSXg2SjBUcDI2Q2M5dWVIQ2RBbF9UakZteFp2SWIzRGFld0thQTVhV2QyRlExdDdSQ3FhLThlSzVtVHZMZFFZQVlmejRVdzFialc3Y19fZE52WE9yYXM?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 05:52:00 GMT",
-          "source": "한겨레"
+          "title": "악재 한꺼번에 몰렸다…코스피 10% '역대급 폭락' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sUHRkVUdZXzNoWkQweW51WFdhc3p1MlpCVjFNS3FNVHdqMXl1TFp0aFdyR2JpanFJTGxQb1ZCQW54NmZkM2RVZW9MRHl0OW40ZFVvYkFMQVZ6UdIBVEFVX3lxTE5DbFotb04tRkNvMWZZQkt5S1llaERoS3oyRDJ0NHVsUTQteG9YWXhYLWM2SFIyemVTWlFON3RWcFlhdEpIOGRlSkdBT3lpdDJQTDhXNQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 08:39:24 GMT",
+          "source": "한국경제"
         },
         {
-          "title": "‘전쟁이라도 난 줄’ 코스피 폭락에 개미들, 무려 10조원 풀매수…사상 최고치 [투자360] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ydzBSNGg4VEpXM1R3SU13cTcwb0h1MU9Ka05KOHp4ZzNjeFFwYzRPWXZrbnJ1TkgyLXZnckV5VXVRalBNc2lNWnJTRkRGODQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 06:35:05 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 9.9% 폭락, 강세장 종료 신호?…그래도 ‘개미’는 샀다 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QdDRUd2JwalJueVBoZkVJVWJsOEh0VXkxVUhEOGVGSzhEZjZsME12enpZcEU2MS12dWFGRDZTcTA5RzRGQngyVjZPUGpMYlVUYWpQRFNTQnI0UXlmU1Z1bUhUU2tHeVk?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 11:15:00 GMT",
+          "source": "한겨레"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.83,
+    "vix": 19.96,
     "vvix": 91.72,
     "skew": 141.85,
     "move": 65.39
