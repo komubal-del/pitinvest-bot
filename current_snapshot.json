@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T07:42:31.262885+09:00",
+  "timestamp": "2026-06-24T08:41:21.864480+09:00",
   "sentiment": {
     "cnn_fng": 27.5428571428571,
     "cnn_components": {
@@ -14,9 +14,27 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 14,
+      "greed_count": 6,
+      "fear_count": 22,
       "greed_articles": [
+        {
+          "title": "닉스삼전 쏠림에…美 개미, 코스피200 선물 거래 못할 듯 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DQ3FQWDlFcE1rZ2FleWJEZ2RFSG1CRlFCLS1rYjRaWW5JRllLaE1jMlI4NmRrcVg0WXVEYUM1X2RnZmgtMXNHLWVlZ0dyMkQ3ZnlIZDBIV3ZrVEFCZVdRRXQ1NW1YeEJGZlhidExadmtUUQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 23:09:57 GMT",
+          "source": "KB Think"
+        },
+        {
+          "title": "증시 활황에 금융그룹 자본 비율 개선…한화·현대차는 하락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLeGVNd1ZCYVUxLUF5cEpnT19ONmlmMkktSktWQjdzMml2SDVzbTRHZGp4OGd6OHl0MWlHTHJvX3YtT3ZIZjBidHphdEVuNklWUGFiNjNnOGM0Z1ZNdUhFOUhpdVBVNnVHQmtDemxyZEQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 21:14:09 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "“삼전닉스 아직 고점 아냐…코스피 1만피 충분히 가능” - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40UktHRnIwcHR3MEhpaEFYV2FWWG9LV1hNSkg5QTBMdVExa0h3MXFlYmlsOHlBZjFNRV9WTlF2TDNJR00xSGYtSVQyMERqUnph?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 23:16:49 GMT",
+          "source": "문화일보"
+        },
         {
           "title": "코스피, 쏠림의 역습…레버리지가 키운 '역대급 변동성' - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aX0VSR0IxYWtRMHpGbzU0S291TWNlbzVNcmJHdkp0UXhLbTlLNjJRR3I0QkswNE8yRUFSUnBWN1NYVUJfams1amVUZVlTNmc?oc=5",
@@ -24,13 +42,19 @@
           "source": "v.daum.net"
         },
         {
-          "title": "‘롤러코스터’에 연일 사이드카… 반도체 쏠림에 코스피 변동성 증폭 - 주간동아",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCZWVLMUdJUURxN0plTV96UW5MUkdWS2RRVkZxbGZSYjN6RjBxR01CYmR5Ty1Zc3B1M3RYalBIMi1RbVY4RUZFMk1VTFZxclhqaDU2NmtNeElwd0xDVlhGanMzTGQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 22:00:01 GMT",
-          "source": "주간동아"
+          "title": "[AI MY 증시전망] 코스피, 반도체 급락 여진 속 반등 시도…저가 매수세 유입 주목 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDNkpmdXliQWFUSXRFbUF3SmNuZGxjNjBHc0FDQVJZS2Z1WFZxTWx0YVVzdkdSZ0ZOSWVLUTNqVkp0dm81WHRQS0ZVTWMxYlZ6NXJBZkFjY3VLMUpz?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 23:21:00 GMT",
+          "source": "뉴스핌"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스피 하루 만에 10% 급락...8,200선 턱걸이 '역대 최대' 낙폭 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lSVl6X1lCMVR0dzM3Q3VmQmh6YkRlMHZRTW9Kdmh5NDNzMk41WjdDM3kwTHlFX0dJX3luYjdrd1UwSE9XcnpueGwtSUExd2NnUzF5N05DX1BZRzlaM1E?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 22:37:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "뉴욕증시, 기술주 매도세에 일제히 하락…나스닥 2.2%↓ - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MS1JtcFh5Wm1RTXdpalk2eE5rUVNfNGhuc19LRW02ME5qbVV2Wi1mNVlZcjV2cGl6LVM2OEdzNGVtQ01UcGdfN0ZpeDl3bGdFZGRyUG5PZWlZamPSAWBBVV95cUxPeW1PeXhuX0s0RGhrVnQzSnRZZE5VeXozM3h5em90d3diSWFaRGFoZVNLdG9hZWxQQ0Nyc2JhN2E0NTFEX0VqcDltNkUtMkl5clo0VXFxcUhJVU1GcjVIUzY?oc=5",
@@ -53,12 +77,6 @@
           "title": "최대낙폭 검은 화요일... \"코스피 급락, 구천피 안착 위한 통과의례\" - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95dTVuTlRZY01kYkVHb21ON3lfTkh2NGEtMlZHVU9kc20tQW1XVVVvX0F5TVRJcVhtT0lXWTJGeFBkd1pXb3FZbmRWd1JrdE5PbEZGenEtdV9kRmUzZ0xkLURMcGxTUnFrWnVHZDln0gFuQVVfeXFMT3l1NW5OVFljTWRiRUdvbU43eV9OSHY0YS0yVkdVT2RzbS1BbVdVVW9fQXlNVElxWG1PSVdZMkZ4UGR3WldvcVluZFZ3Umt0Tk9sRkZ6cS11X2RGZTNnTGQtRExwbFNScWtadUdkOWc?oc=5",
           "pub_date": "Tue, 23 Jun 2026 19:04:00 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "'-10%' 코스피 폭락한 날...\"돈 벌 기회 왔나\" 개미 8.5조 '폭풍 매수' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PbG4wSXBJMTVnR1JRSHZKMXF1bmNmUHkybGpqQzI5YWpyQWR0OFlyX1F6VHNPQXFUOUEzdmJwQmYxRzdlN0hsWWdzcEd5RGdwVnoyM0hrVzRtNHBZOEx2RTlUNnNJeVBwTWtXUmJR0gFuQVVfeXFMTU9sbjBJcEkxNWdHUlFIdkoxcXVuY2ZQeTJsampDMjlhanJBZHQ4WXJfUXpUc09BcVQ5QTN2YnBCZjFHN2U3SGxZZ3NwR3lEZ3BWejIzSGtXNG00cFk4THZFOVQ2c0l5UHBNa1dSYlE?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 19:14:00 GMT",
           "source": "머니투데이"
         }
       ]
