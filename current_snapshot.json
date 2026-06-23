@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T08:39:33.782412+09:00",
+  "timestamp": "2026-06-23T10:34:37.251952+09:00",
   "sentiment": {
     "cnn_fng": 34.7428571428571,
     "cnn_components": {
@@ -14,40 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 14,
+      "greed_count": 2,
+      "fear_count": 3,
       "greed_articles": [
         {
-          "title": "코스피 9000 시대의 그림자…'빚투' 38.4조 사상 최대 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92RXF3bG83YXNCLUFUbmotRnkwdnU0OGJIYjBTVW1RTUo0cGNCeDRlcXM0WnE5dk9EOFQ2NFg5YjBLdXFsMEN4SEtGbzdxOVBjNHRvT0ZWVkZnQWdDenpvbGFXQWxYNTFL?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:41:47 GMT",
-          "source": "ebn.co.kr"
+          "title": "[마켓뷰] 수급 변동성? 고점 높이기?…'사상 최고' 코스피 향배는 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85czNnRndwYmhjSDBGT2M1NkQzcDVaNFVpRmFBX0R4VVFlV1NOdGFLQkNUZFJQYUhZQWpwY1hKOFpJU3ItbkhRTkUzWFFoQkI1UHowYjUwUEo4cHfSAWBBVV95cUxQcXpfWmF2SUszdktsemozVmExSml1bEdTYS1wNXBabC1RX181bEdCcWNKNWVsc0R1dTV5ajc1RHNTbVlSY1pfZENENlhNbm1pZ0liQnRheHYzX081V0w4X20?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 23:13:45 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "증시 반등에 다시 불붙은 ‘빚투’ - 대한경제",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rQnh1OExhYWhQZUNCZUlyN1hDZEF0bEZ6MHA5c3V0bzJUdUEzSlFzREd4SVRUbjRkeG1iUUkwN1Z2QkZXS3ZXRTk5bFhzU1ItNjZlWHBSd3YxdmVrSGNlMXUzNk5YdXoza3hyNnJjRlFJS2Yt?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:20:25 GMT",
-          "source": "대한경제"
-        },
-        {
-          "title": "코스피 1년새 3배↑ 주주친화도 뒷걸음 '평균 50.1점'…KT '최고점' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Kd2ZoYXFXS2tzSHBGVXBTWGJDdXZMcWlja3gwZ29yX2xzWTlBRzRtTl9xX1dvZ2ZxSDctTk1EVEtVcHZwTkVTZXFGUWRldjNoaTVmNU1wZVVRZko3VUJ4LU1pUW10MWJZRVE?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:00:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "'증시 활황'에 소비심리 두 달째 개선…금리전망은 9년 6개월 만에 최대폭↑ - 마켓인",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00UEJlMkI0RWdGRTRJQ3d5djQteVp2QjNRUzlaSzZSZGZwaEs5enhpTVN3WDVoODVDU05ZUll6a21EcTY2RDFsTkJFdVl1cGpBZFJDQ1pqZWlrcWhlcVhhTmwzVTRHT1pKcmdHRnVjVkE2NW8?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:00:05 GMT",
-          "source": "마켓인"
+          "title": "코스피 3배 뛰었지만 상장사 주주친화도는 '뒷걸음'…금융지주·은행 최고점 - 파이낸셜신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ndlBHQm1XVHo0UXc2Zk44bm9fa25iaUVaZk9KT3ZGMDdXeEdmdnlRdFVKbzMzT2tRS2R6MWJwczZKMkhxM0JnVjNhSmFhNFIteTRIZ1hhQnpQRkVaNmwyaG9UTDRvRFBJMWhR?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 01:05:00 GMT",
+          "source": "파이낸셜신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 스페이스X 급락에 '혼조'…다우, 홀로 0.29%↑ - 뉴스웍스",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RcHMwYkxsWXVJYTc4S3VMdmhydW9IcGNSNFJueTN2WUJfSHUyTFJ2OWwxNzd3VGFsZDhZd3hnTkZoazB2TUZ2RUs4TnFFcC1GQ3ZOeS1jZG1rVVdKX1VpTGJlemRPV1BKUzBBQ2FaSdIBc0FVX3lxTE9BQnJ2d0swSjlYUHNsUHd0UUJabUg3YklCVTF2Zzc3c1U2Ry1LRHBqeVdKVDNfWk13dFhRZUJ0c3NPbE5wNUZ2SkE0aW5xT3NYLWJ6RUh0VHZpWGZoVGxZSm1VUHhYVV9jRFBnbDEzdUprY2s?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:08:43 GMT",
-          "source": "뉴스웍스"
+          "title": "뉴욕증시, 중동 훈풍에도 기술주 급락…AI 랠리 숨고르기 - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IY1JKOFFFTFotSDNOVzhsOWRfTk52T1JWbGZmOWZkcWF4Ry0yNjA3N2JvS3Q2SS15NDM3RXJtQmRDMnpMRWx5UGwxTHF5UWNCOVBwdHg3XzRVQndseDNlQkNQNFR4OGs?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 21:00:05 GMT",
+          "source": "세종의소리"
         },
         {
           "title": "[뉴욕증시]혼조세로 마감…나스닥, 스페이스X 급락에 '털썩' - v.daum.net",
@@ -56,22 +44,10 @@
           "source": "v.daum.net"
         },
         {
-          "title": "뉴욕증시, 스페이스X·알파벳 급락 속 혼조…나스닥 1.32%↓ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UMHdKbEpmTFEwVG9EREJPQ2RVQ2VMeE9BYVBRN2FDX1d6OVpseVhzN0pmdWNfbWdReFF6a1FXczdnencxU1FBUFZpcTg5UWJ3N2RuZTk4S2tRdkps?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 20:17:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[뉴욕증시] 다우지수만 상승…스페이스X, 16% 폭락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sOE5hTWtxbVRGeXY2cElmc0RPQUFYOHhiZVJpRnc0OXctUGZ3RHg4QW9jRWhSeE1sc3lOa1FPNHFaWE9YV3hVM0pvMXVMVTA?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 20:31:01 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "뉴욕증시, 중동 훈풍에도 기술주 급락…AI 랠리 숨고르기 - 세종의소리",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IY1JKOFFFTFotSDNOVzhsOWRfTk52T1JWbGZmOWZkcWF4Ry0yNjA3N2JvS3Q2SS15NDM3RXJtQmRDMnpMRWx5UGwxTHF5UWNCOVBwdHg3XzRVQndseDNlQkNQNFR4OGs?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:00:05 GMT",
-          "source": "세종의소리"
+          "title": "뉴욕증시, 스페이스X 급락에 '혼조'…다우, 홀로 0.29%↑ - 뉴스웍스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RcHMwYkxsWXVJYTc4S3VMdmhydW9IcGNSNFJueTN2WUJfSHUyTFJ2OWwxNzd3VGFsZDhZd3hnTkZoazB2TUZ2RUs4TnFFcC1GQ3ZOeS1jZG1rVVdKX1VpTGJlemRPV1BKUzBBQ2FaSdIBc0FVX3lxTE9BQnJ2d0swSjlYUHNsUHd0UUJabUg3YklCVTF2Zzc3c1U2Ry1LRHBqeVdKVDNfWk13dFhRZUJ0c3NPbE5wNUZ2SkE0aW5xT3NYLWJ6RUh0VHZpWGZoVGxZSm1VUHhYVV9jRFBnbDEzdUprY2s?oc=5",
+          "pub_date": "Mon, 22 Jun 2026 21:08:43 GMT",
+          "source": "뉴스웍스"
         }
       ]
     }
@@ -83,8 +59,8 @@
     "move": 70.01
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2243200000000,
-    "retail_net_buy_krw": 2150599999999,
+    "foreign_inst_buy_krw": -2354100000000,
+    "retail_net_buy_krw": 2367500000000,
     "margin_loan_krw": 37869400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -99,18 +75,18 @@
       "sma_200": 23551.99
     },
     "kospi": {
-      "current": 9052.42,
+      "current": 8982.04,
       "high_52w": 9385.59,
-      "drop_pct": -3.55,
-      "intraday_low_drop_pct": -5.9,
-      "sma_200": 5145.85
+      "drop_pct": -4.3,
+      "intraday_low_drop_pct": -5.05,
+      "sma_200": 5204.44
     },
     "kosdaq": {
-      "current": 966.59,
+      "current": 942.98,
       "high_52w": 1229.42,
-      "drop_pct": -21.38,
-      "intraday_low_drop_pct": -23.04,
-      "sma_200": 999.2
+      "drop_pct": -23.3,
+      "intraday_low_drop_pct": -24.02,
+      "sma_200": 1000.85
     },
     "sp500": {
       "current": 7472.79,
@@ -135,12 +111,12 @@
     }
   },
   "sector_rs": {
-    "XLK": 1.232,
+    "XLK": 1.234,
     "SMH": 1.501,
     "BOTZ": 0.983,
     "IGV": 0.908,
-    "XLF": 0.957,
-    "XLE": 0.796
+    "XLF": 0.96,
+    "XLE": 0.802
   },
   "signals": {
     "cnn_under_10": false,
@@ -202,10 +178,10 @@
       "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": true,
-      "hynix_at_60d_high": true,
-      "hynix_ok": true,
+      "hynix_at_60d_high": false,
+      "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
