@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T10:34:37.251952+09:00",
+  "timestamp": "2026-06-23T14:51:47.530175+09:00",
   "sentiment": {
     "cnn_fng": 34.7428571428571,
     "cnn_components": {
@@ -14,40 +14,58 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 3,
+      "greed_count": 3,
+      "fear_count": 51,
       "greed_articles": [
         {
-          "title": "[마켓뷰] 수급 변동성? 고점 높이기?…'사상 최고' 코스피 향배는 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85czNnRndwYmhjSDBGT2M1NkQzcDVaNFVpRmFBX0R4VVFlV1NOdGFLQkNUZFJQYUhZQWpwY1hKOFpJU3ItbkhRTkUzWFFoQkI1UHowYjUwUEo4cHfSAWBBVV95cUxQcXpfWmF2SUszdktsemozVmExSml1bEdTYS1wNXBabC1RX181bEdCcWNKNWVsc0R1dTV5ajc1RHNTbVlSY1pfZENENlhNbm1pZ0liQnRheHYzX081V0w4X20?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 23:13:45 GMT",
-          "source": "연합뉴스"
+          "title": "코스피 1만 기대감 속 커지는 빚투…과열 경고음 - 농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Deld3U2RzSzZ4MlBwMzNfUTJyWWJvOXpjbmJuRktyQjlyN2RIV05jZXdYNUtqZGNxZkhVZE9XM2pHUzljUXpibzBacU9QVDc3RXRYaVNVa0I2UQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 05:37:00 GMT",
+          "source": "농민신문"
         },
         {
-          "title": "코스피 3배 뛰었지만 상장사 주주친화도는 '뒷걸음'…금융지주·은행 최고점 - 파이낸셜신문",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ndlBHQm1XVHo0UXc2Zk44bm9fa25iaUVaZk9KT3ZGMDdXeEdmdnlRdFVKbzMzT2tRS2R6MWJwczZKMkhxM0JnVjNhSmFhNFIteTRIZ1hhQnpQRkVaNmwyaG9UTDRvRFBJMWhR?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 01:05:00 GMT",
-          "source": "파이낸셜신문"
+          "title": "\"'시총역전'은 고점?\"…코스피, 2%대 하락하며 9000선 붕괴 [fn오전시황] - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51TmlPSF9nd1cyeVZjOE10aTUxY3I5RmdqMzRjTGh2UFRhc1dCM2h0dmh5TzB3ZHN5eWxwVEdYQjhjMlY2OXlkRVhyOU9uZzZtcXZoQ1d2eER2Zw?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 02:27:51 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "‘삼전·닉스’ 싸움에 새우등 터진다, 증시 신저가 종목 속출...버블 붕괴 신호탄? - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xRVZUQ0x3NXItNnB2UllQcUNuUHdmSGExRFg4RmhGLUdUcEVmNm5NN3l4bUlfazZSaUtYUDBqNWhCNVNtN3pDT25xTEpGcUNqTTcwSG5zN1JRWFdqdS1HVmdXZUVNNVdMWDgweWdEeGs?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 04:08:26 GMT",
+          "source": "오피니언뉴스"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 중동 훈풍에도 기술주 급락…AI 랠리 숨고르기 - 세종의소리",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IY1JKOFFFTFotSDNOVzhsOWRfTk52T1JWbGZmOWZkcWF4Ry0yNjA3N2JvS3Q2SS15NDM3RXJtQmRDMnpMRWx5UGwxTHF5UWNCOVBwdHg3XzRVQndseDNlQkNQNFR4OGs?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:00:05 GMT",
-          "source": "세종의소리"
+          "title": "코스피·코스닥 5%대 급락…동반 매도 사이드카 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52U2FBcC1URC1zSXg2SjBUcDI2Q2M5dWVIQ2RBbF9UakZteFp2SWIzRGFld0thQTVhV2QyRlExdDdSQ3FhLThlSzVtVHZMZFFZQVlmejRVdzFialc3Y19fZE52WE9yYXM?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 04:19:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "[뉴욕증시]혼조세로 마감…나스닥, 스페이스X 급락에 '털썩' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aSUlPVzcxX3Rlc0ZVcHZEaURabzRnWWxXY2FFcWFrVnY1eDB6Y3BrZVI2V3RZWDg2Z1VIMXdmVWY4Skd6S0EyTEU4bEtFZkk?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 20:41:00 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 4%·코스닥 5%대 장중 급락…\"매크로 악재 아닌 반도체 차익실현 탓\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DQkg2cXB1aU9tOUh5YXpzenVzeUZkc09kbzZxODltcGh4cEYyRFFId1d6UFB3azJKT2dfQ0RBT1dXTlZaSHN1Vms3SDhRVDdaODVuX3Zad3drNW9iVmhuZktBbVlMU0NwSnZ3WHdueko?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 02:31:00 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "뉴욕증시, 스페이스X 급락에 '혼조'…다우, 홀로 0.29%↑ - 뉴스웍스",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RcHMwYkxsWXVJYTc4S3VMdmhydW9IcGNSNFJueTN2WUJfSHUyTFJ2OWwxNzd3VGFsZDhZd3hnTkZoazB2TUZ2RUs4TnFFcC1GQ3ZOeS1jZG1rVVdKX1VpTGJlemRPV1BKUzBBQ2FaSdIBc0FVX3lxTE9BQnJ2d0swSjlYUHNsUHd0UUJabUg3YklCVTF2Zzc3c1U2Ry1LRHBqeVdKVDNfWk13dFhRZUJ0c3NPbE5wNUZ2SkE0aW5xT3NYLWJ6RUh0VHZpWGZoVGxZSm1VUHhYVV9jRFBnbDEzdUprY2s?oc=5",
-          "pub_date": "Mon, 22 Jun 2026 21:08:43 GMT",
-          "source": "뉴스웍스"
+          "title": "증시 급락에 코스닥·코스피 '매도 사이드카' 잇단 발동 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3YVdoTDJsMXhMRktkRHd0YlkwSnhDR01HdTJrUlNPMEM5d2VxeU85SVE4VnFOT3g0NWduRHRFMEpLQTd3MndoNTMtV2ZNQnRybGJBR05OZGpmbnIzMWh4ZdIBYEFVX3lxTFA3YVdoTDJsMXhMRktkRHd0YlkwSnhDR01HdTJrUlNPMEM5d2VxeU85SVE4VnFOT3g0NWduRHRFMEpLQTd3MndoNTMtV2ZNQnRybGJBR05OZGpmbnIzMWh4ZQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 02:54:48 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피 약 4% 폭락...매도 사이드카 발동 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT0FxRDRFYXFSNE11MmRibEVoeFVKTERwSGlCeXYtOE5FYlpjQ24zUE5qV0RpdGVhSnpabjJrOXMzcUhXY2RfZVR0OEtQT0lxOGp1UFpsT3dKWS1hSlBzRDRMYkpRcTlPTDZmdU9IaTA4bkVnalhMckpPVU8xN1dvUQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 03:02:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "급락장에 코스피·코스닥 매도 사이드카 발동 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kNklpNWVfbGQ0UWtWWVhFTW16R01XTHlFcEJmM2pmR19XVTV5b2NhVVcxb2xfMmwxTWR1NUI4U2x3dVUwWndoZFphSGNSU29iRDFIVU02eFdtWS12WS00bXBWV1RYV2c2NlA4cjZWOEFRREp0ZHhLYg?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 03:05:55 GMT",
+          "source": "MBC 뉴스"
         }
       ]
     }
@@ -56,11 +74,11 @@
     "vix": 17.28,
     "vvix": 91.72,
     "skew": 141.85,
-    "move": 70.01
+    "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2354100000000,
-    "retail_net_buy_krw": 2367500000000,
+    "foreign_inst_buy_krw": -7244300000000,
+    "retail_net_buy_krw": 7177500000000,
     "margin_loan_krw": 37869400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,18 +93,18 @@
       "sma_200": 23551.99
     },
     "kospi": {
-      "current": 8982.04,
+      "current": 8398.51,
       "high_52w": 9385.59,
-      "drop_pct": -4.3,
-      "intraday_low_drop_pct": -5.05,
-      "sma_200": 5204.44
+      "drop_pct": -10.52,
+      "intraday_low_drop_pct": -10.52,
+      "sma_200": 5201.52
     },
     "kosdaq": {
-      "current": 942.98,
+      "current": 905.06,
       "high_52w": 1229.42,
-      "drop_pct": -23.3,
-      "intraday_low_drop_pct": -24.02,
-      "sma_200": 1000.85
+      "drop_pct": -26.38,
+      "intraday_low_drop_pct": -26.42,
+      "sma_200": 1000.66
     },
     "sp500": {
       "current": 7472.79,
@@ -104,7 +122,7 @@
     },
     "soxx": {
       "current": 655.01,
-      "high_52w": 655.94,
+      "high_52w": 655.95,
       "drop_pct": -0.14,
       "intraday_low_drop_pct": -1.83,
       "sma_200": 361.76
