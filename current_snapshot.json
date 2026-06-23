@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-23T14:51:47.530175+09:00",
+  "timestamp": "2026-06-23T18:59:40.017050+09:00",
   "sentiment": {
-    "cnn_fng": 34.7428571428571,
+    "cnn_fng": 34.3428571428571,
     "cnn_components": {
       "momentum": 61.8,
-      "strength": 36.4,
-      "breadth": 15.8,
+      "strength": 34.8,
+      "breadth": 14.6,
       "put_call": 37.0,
       "junk_bond": 12.8,
       "volatility": 50.0,
@@ -14,71 +14,83 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 51,
+      "greed_count": 5,
+      "fear_count": 63,
       "greed_articles": [
         {
-          "title": "코스피 1만 기대감 속 커지는 빚투…과열 경고음 - 농민신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Deld3U2RzSzZ4MlBwMzNfUTJyWWJvOXpjbmJuRktyQjlyN2RIV05jZXdYNUtqZGNxZkhVZE9XM2pHUzljUXpibzBacU9QVDc3RXRYaVNVa0I2UQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 05:37:00 GMT",
-          "source": "농민신문"
+          "title": "[중국증시-마감] 기술주 과열 우려에 하락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HRTRrbE50QmY5Tm5obndlS09tS0RhMEFXY2VVcTY3YlRRX3B2Q2dTLWd0NDg2cjdqdEVSX0tBamo4am5MLXhDV09CdE1VLUM0a3hCX0xiSGNCR1k5d3F0am0td0RPelpYRnY3RUNtbEc?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 09:17:24 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "\"'시총역전'은 고점?\"…코스피, 2%대 하락하며 9000선 붕괴 [fn오전시황] - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51TmlPSF9nd1cyeVZjOE10aTUxY3I5RmdqMzRjTGh2UFRhc1dCM2h0dmh5TzB3ZHN5eWxwVEdYQjhjMlY2OXlkRVhyOU9uZzZtcXZoQ1d2eER2Zw?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 02:27:51 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "코스피 910P 역대 최대 낙폭…AI과열론에 연기금·세제 변수까지 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sVkRuaUtTcllaYVBVU1J1TkFkV2hGSlI2d2dUeVh1TlJiSFJQYmdyT3JwbDQzWEtMUE55eU5yYUdZRHNVRXJxZDNHNGkxSl9jSkp3VHVR?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 09:08:04 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "‘삼전·닉스’ 싸움에 새우등 터진다, 증시 신저가 종목 속출...버블 붕괴 신호탄? - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xRVZUQ0x3NXItNnB2UllQcUNuUHdmSGExRFg4RmhGLUdUcEVmNm5NN3l4bUlfazZSaUtYUDBqNWhCNVNtN3pDT25xTEpGcUNqTTcwSG5zN1JRWFdqdS1HVmdXZUVNNVdMWDgweWdEeGs?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 04:08:26 GMT",
-          "source": "오피니언뉴스"
+          "title": "너무 달렸나…코스피, 과열론·차익실현에 10% 폭락 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hRWVHdFdZN3ZISHpEeXFZNUs2T2ZIZml1SXVXV3FrbFRtTncwV3FULUNkUVJacjBzd240eTNCY0pJUzlDUnVjekM0Qnk5S3FzODdJZzAtYTBYWjIzSVRVcnJBei0?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 08:11:55 GMT",
+          "source": "서울경제TV"
+        },
+        {
+          "title": "강한 쏠림 뒤 강한 조정…코스피, 10% 하락 8203.84 마감 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50OUVuMEtiY0JtWVd3eXdhUExtWVpfc0pLd1JKcDY3YlJycGw2bks2cU1oOVRtZFdtZDd2cDRVRXBQNGN2UTJoY3dVZnFIQQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 06:41:59 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "반도체 쏠림의 역습…코스피 9.99% 급락, 서킷브레이커까지 - 이데일리TV",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVUdXLVJmU2dMQzZPSVRVbEhrcDZudUd5dmdWRXJ4dUtwakhXLXM4dVJrS0RxUXE5akZTNzhhSGI3V3dlbWVEMkNLakJrYi1vSnJwZkNTWk5yb1M3TnAydU5vM1Q2bi1sRFdBNWVsYU9EMjFvRVRYaXNIQQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 07:17:51 GMT",
+          "source": "이데일리TV"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피·코스닥 5%대 급락…동반 매도 사이드카 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52U2FBcC1URC1zSXg2SjBUcDI2Q2M5dWVIQ2RBbF9UakZteFp2SWIzRGFld0thQTVhV2QyRlExdDdSQ3FhLThlSzVtVHZMZFFZQVlmejRVdzFialc3Y19fZE52WE9yYXM?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 04:19:00 GMT",
-          "source": "한겨레"
+          "title": "코스피 또 ‘검은 화요일’…8%대 급락에 서킷브레이커 발동 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wMndpa05YdWk4bGJFNnR4RHEwNWw3dUNSYk0yWDZXVUVybUdXRGNHZW80TGF4MHlHVENRLVdUSXBGYktVdHlBRFFqb242RlFEOUhJWHNn?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 08:48:49 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "코스피 4%·코스닥 5%대 장중 급락…\"매크로 악재 아닌 반도체 차익실현 탓\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DQkg2cXB1aU9tOUh5YXpzenVzeUZkc09kbzZxODltcGh4cEYyRFFId1d6UFB3azJKT2dfQ0RBT1dXTlZaSHN1Vms3SDhRVDdaODVuX3Zad3drNW9iVmhuZktBbVlMU0NwSnZ3WHdueko?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 02:31:00 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피 8% 급락에 서킷브레이커 발동‥삼전 8%·닉스 11% 하락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Gb0NhWEpHckJkSDRXVlNtNVNUbExQMU9raE5pTjk3NmdiRTZlT0REYjNzdlZ1RzZpcXJuOE1MeGc3azZaYnZtVUhaR0hjV21xOE9qUWcwUFdwTldvUmJ1Y0JUSC1yekVDZWk3NDFzZVBUNzJK0gF0QVVfeXFMTnJRdjFKaXRfSko4SWpURFM5WURvM1lMX1N3WXc2dndkdk42QVMtRnFCSEh6MGFqd21OWE5nVXhWRnZiVnZKWkJ6MWpXWHZ4V3FtekNKUUZXSEhfSmMwckgzUDluVnVybEt2Sjk3TlFmUm1yOUY?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 06:05:36 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "증시 급락에 코스닥·코스피 '매도 사이드카' 잇단 발동 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3YVdoTDJsMXhMRktkRHd0YlkwSnhDR01HdTJrUlNPMEM5d2VxeU85SVE4VnFOT3g0NWduRHRFMEpLQTd3MndoNTMtV2ZNQnRybGJBR05OZGpmbnIzMWh4ZdIBYEFVX3lxTFA3YVdoTDJsMXhMRktkRHd0YlkwSnhDR01HdTJrUlNPMEM5d2VxeU85SVE4VnFOT3g0NWduRHRFMEpLQTd3MndoNTMtV2ZNQnRybGJBR05OZGpmbnIzMWh4ZQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 02:54:48 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 약 4% 폭락...매도 사이드카 발동 - 조선일보",
+          "title": "하루에 910포인트 떨어졌다... 코스피, 역대급 폭락 기록 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT0FxRDRFYXFSNE11MmRibEVoeFVKTERwSGlCeXYtOE5FYlpjQ24zUE5qV0RpdGVhSnpabjJrOXMzcUhXY2RfZVR0OEtQT0lxOGp1UFpsT3dKWS1hSlBzRDRMYkpRcTlPTDZmdU9IaTA4bkVnalhMckpPVU8xN1dvUQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 03:02:00 GMT",
+          "pub_date": "Tue, 23 Jun 2026 07:17:53 GMT",
           "source": "조선일보"
         },
         {
-          "title": "급락장에 코스피·코스닥 매도 사이드카 발동 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kNklpNWVfbGQ0UWtWWVhFTW16R01XTHlFcEJmM2pmR19XVTV5b2NhVVcxb2xfMmwxTWR1NUI4U2x3dVUwWndoZFphSGNSU29iRDFIVU02eFdtWS12WS00bXBWV1RYV2c2NlA4cjZWOEFRREp0ZHhLYg?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 03:05:55 GMT",
-          "source": "MBC 뉴스"
+          "title": "코스피·코스닥 5%대 급락…동반 매도 사이드카 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52U2FBcC1URC1zSXg2SjBUcDI2Q2M5dWVIQ2RBbF9UakZteFp2SWIzRGFld0thQTVhV2QyRlExdDdSQ3FhLThlSzVtVHZMZFFZQVlmejRVdzFialc3Y19fZE52WE9yYXM?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 05:52:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "‘전쟁이라도 난 줄’ 코스피 폭락에 개미들, 무려 10조원 풀매수…사상 최고치 [투자360] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ydzBSNGg4VEpXM1R3SU13cTcwb0h1MU9Ka05KOHp4ZzNjeFFwYzRPWXZrbnJ1TkgyLXZnckV5VXVRalBNc2lNWnJTRkRGODQ?oc=5",
+          "pub_date": "Tue, 23 Jun 2026 06:35:05 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.28,
+    "vix": 19.83,
     "vvix": 91.72,
     "skew": 141.85,
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -7244300000000,
-    "retail_net_buy_krw": 7177500000000,
+    "foreign_inst_buy_krw": -8680700000000,
+    "retail_net_buy_krw": 8590999999999,
     "margin_loan_krw": 37869400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +105,18 @@
       "sma_200": 23551.99
     },
     "kospi": {
-      "current": 8398.51,
+      "current": 8203.84,
       "high_52w": 9385.59,
-      "drop_pct": -10.52,
-      "intraday_low_drop_pct": -10.52,
-      "sma_200": 5201.52
+      "drop_pct": -12.59,
+      "intraday_low_drop_pct": -12.59,
+      "sma_200": 5200.55
     },
     "kosdaq": {
-      "current": 905.06,
+      "current": 891.52,
       "high_52w": 1229.42,
-      "drop_pct": -26.38,
-      "intraday_low_drop_pct": -26.42,
-      "sma_200": 1000.66
+      "drop_pct": -27.48,
+      "intraday_low_drop_pct": -27.48,
+      "sma_200": 1000.6
     },
     "sp500": {
       "current": 7472.79,
@@ -204,6 +216,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.06.23",
+            "close": 310000,
+            "change_pct": -12.31,
+            "retail_net": 6611276,
+            "inst_net": -4359775,
+            "foreign_net": -2251501
+          },
+          {
             "date": "2026.06.22",
             "close": 353500,
             "change_pct": -0.14,
@@ -234,17 +254,17 @@
             "retail_net": 866277,
             "inst_net": 1133803,
             "foreign_net": -2000080
-          },
-          {
-            "date": "2026.06.16",
-            "close": 343000,
-            "change_pct": 1.78,
-            "retail_net": -811963,
-            "inst_net": 839414,
-            "foreign_net": -27451
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.23",
+            "close": 2555000,
+            "change_pct": -12.47,
+            "retail_net": 1862347,
+            "inst_net": -925092,
+            "foreign_net": -937255
+          },
           {
             "date": "2026.06.22",
             "close": 2919000,
@@ -276,14 +296,6 @@
             "retail_net": -416239,
             "inst_net": 341331,
             "foreign_net": 74908
-          },
-          {
-            "date": "2026.06.16",
-            "close": 2382000,
-            "change_pct": 4.11,
-            "retail_net": -590851,
-            "inst_net": 238957,
-            "foreign_net": 351894
           }
         ]
       }
