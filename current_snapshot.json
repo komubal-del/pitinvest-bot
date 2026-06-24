@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-25T07:25:05.952671+09:00",
+  "timestamp": "2026-06-25T08:39:42.720268+09:00",
   "sentiment": {
     "cnn_fng": 25.9142857142857,
     "cnn_components": {
@@ -14,17 +14,29 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 6,
+      "greed_count": 2,
+      "fear_count": 8,
       "greed_articles": [
         {
           "title": "[증시전략] 글로벌 증시도 반도체 쏠림 심화…내년까지 이어진다? - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kcVowelpULVoxbEJYLTU5Z3RSVmlTTkRYWTZ4TWMxX2s0ZURHVERPU093RGlRZUtraVUxcTg4RWxvZ19xb3JObjcxcng5RDg?oc=5",
           "pub_date": "Wed, 24 Jun 2026 22:13:24 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "AI 광풍의 후폭풍…마이크론 실적 앞두고 美증시 혼조 - 데일리안",
+          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQT1M2SkIzczZiZWZrODVzaUtyR1dzbTA3SUJ4aDNjTzlVSUNFXzF5dFhzOTZIanF5YWhFQTRVM1ZqQWlrMVlOUFZlWFMzVHJBQ0RmR0h1dm9QdExBUFAzQUtRTVR0Qi1LbXRkN2laYzlFYWVmUTg5T1pvcldUOFo1OWpmdW9zWjk1VEVEekxRWGQ5T2UwM1NKTXpKZzRCS1VfQkFjWHFkdDEzTGpqdm8zSEF2UElrY3p1RmVfMF9sekVmWXMxbExfblVqM0N2b2xGY000VXhRRzdvMUhpaE5iaThOT0RzcjRwX0xfWHRKZjRWYWY0b1hkUnNpQXZzNFdTakpJNDV4cTJkblI2aVVqdNIBkAJBVV95cUxQT1M2SkIzczZiZWZrODVzaUtyR1dzbTA3SUJ4aDNjTzlVSUNFXzF5dFhzOTZIanF5YWhFQTRVM1ZqQWlrMVlOUFZlWFMzVHJBQ0RmR0h1dm9QdExBUFAzQUtRTVR0Qi1LbXRkN2laYzlFYWVmUTg5T1pvcldUOFo1OWpmdW9zWjk1VEVEekxRWGQ5T2UwM1NKTXpKZzRCS1VfQkFjWHFkdDEzTGpqdm8zSEF2UElrY3p1RmVfMF9sekVmWXMxbExfblVqM0N2b2xGY000VXhRRzdvMUhpaE5iaThOT0RzcjRwX0xfWHRKZjRWYWY0b1hkUnNpQXZzNFdTakpJNDV4cTJkblI2aVVqdA?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 20:00:00 GMT",
+          "source": "데일리안"
         }
       ],
       "fear_articles": [
+        {
+          "title": "뉴욕증시, 기술주 조정에 나스닥·S&P 하락…유가 급락에 다우는 상승 - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MUWdBVWUtS3N1Nml0Qy1iLVF3T1B3MUx0SU9tY1gwd09qdWlXXzFSQjI0eUZZQzFuOC1udU1Vc252aEZnbEladDVlODVTdXJZZjRFb0tZdURpZzJLNm9jNTJ4SkNuLU0?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 22:57:50 GMT",
+          "source": "세종의소리"
+        },
         {
           "title": "[속보]뉴욕증시, 반도체 매도세 재개로 혼조 마감 - 아시아경제",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtRl9vVmxWUnI0UFNpTHhVeVc4YmppZWZOc2hXbldRZnlDS0VEbUk5Qzg4TVlNaThpUjBXV3p6bk9jR0xBOGNacURHQ3dZNDJ3NlpSNWdPVS1ubW5reFZncA?oc=5",
@@ -38,22 +50,16 @@
           "source": "글로벌이코노믹"
         },
         {
+          "title": "AI주 팔고 항공주 샀다…유가 급락에 뉴욕증시, 혼조 마감 - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GeE5OVTlSM0VURVBiVkJfaEliMGtQeE52ZV8xbEcza1E5WG5RckFJS2RqekFxS1JGLWV3M2M4UDkwbS1ZclYtRmRfRDc3V3pWQ2hRVlBFa1lHWEpLcmw3bHg2Si1xS2g0a2lmdDRWWXg2V2lK?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 23:30:00 GMT",
+          "source": "조세일보"
+        },
+        {
           "title": "기술주 매도세에 뉴욕증시 혼조…나스닥 0.4%↓ - 중소기업신문",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SX3Y3NkdQX2hvTUd4ZnhIU28xb3JYcjlEZFlyS0lwdFQtUzFQS1BkaXRYajQ2YnBHMmZwb1R0RnkyNjAyWFNqWDZ3eWZYZEx0QVJpZjBCY18yUURPM0VLc3lOUHdlMFJoRWRoUg?oc=5",
           "pub_date": "Wed, 24 Jun 2026 22:12:15 GMT",
           "source": "중소기업신문"
-        },
-        {
-          "title": "[브라질증시] 급락한 유가·페트로브라스 따라 하락..헤알화 약세 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CSTNQZ0dRQUgtTHZZZ3BJWF9BeU5PdUI4Ym94bVZoRmh0STJsaHNfT1J3MDVudFk5N25RTFE0YWpXeGNQMVJFTWRFZWc4X1o5ZDVLNHlPZGR2Rmhk?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 22:18:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[뉴욕증시] 유가 급락에도 혼조···장 마감 뒤 마이크론 'AI 동력 살렸다' - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02Y0JjeGRvUHVPeUJ3ZUFlT0Z5M1NqVVkwSmQ4UGZWR29wWERVSkZBdEIzYWdIOTMzck04S1pKSVVJaVY4dWVuZndMS05NUFpaM0lYS3Z3SFk2MHdMMC0wNGhiVXd1OVBJc1E?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 21:59:14 GMT",
-          "source": "서울파이낸스"
         }
       ]
     }
@@ -67,7 +73,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -2745100000000,
     "retail_net_buy_krw": 2631200000000,
-    "margin_loan_krw": 37918900000000,
+    "margin_loan_krw": 37486000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
