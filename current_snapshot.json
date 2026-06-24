@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-24T14:49:39.542056+09:00",
+  "timestamp": "2026-06-24T18:48:08.374202+09:00",
   "sentiment": {
-    "cnn_fng": 27.6857142857143,
+    "cnn_fng": 27.3714285714286,
     "cnn_components": {
       "momentum": 37.0,
-      "strength": 33.0,
-      "breadth": 14.8,
+      "strength": 31.4,
+      "breadth": 14.2,
       "put_call": 31.4,
       "junk_bond": 8.0,
       "volatility": 50.0,
@@ -14,21 +14,83 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 7,
+      "fear_count": 27,
+      "greed_articles": [
+        {
+          "title": "코스피 '최대 낙폭' 기록한 날, '빚투 폭탄' 떨어졌다...424억 강제 청산 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lX0RSbmsxYmtLakVxeTFTY0RYQk5VM1hRQlRHZVdUbURpX25PaTdnMU9YdmpVbzFzX2ZMTzUyczNiREpOdlpja0lTT013MHFmMXBxRW5MaDRLMmFTNnJ0TzZ5ZWl3bkgw0gFuQVVfeXFMTVo5OTlXa0VyWTE0YXhBUkxZYW53NUU1bm13RkVFenhodWtTT1FhdGxOeGlKSDEyRzNGdWN4VkNKWlJCTGhsaDFKdGZpR2VpaWpucEJVWkJVX1hQRGx0czhvamt1Zzc4WHJfY19ZVnc?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 08:07:10 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "[중국증시-마감] 저가 매수세에 상승 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYcGJaU2xlckx1VlhZT0c3cmU0ZlZvQ0lFOFluU0hhaWRnRG5XTnotMDBEUzFsVVdwLVpuN0RIaTY0NWkwOXY3bVdoVHFhZ0p3LWJCYkZWVlUwZTNQaEM5ZF9kMEw0R2NaT2hjTjZvejM?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 09:13:28 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 저가 매수세에 3% 반등…삼전, 시총 1위 탈환 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yRTNJd1JhXzd4bnI2eU1neVZiMkVuU2lIb183YTdLWGU2WXRHVWFYSzZqR1k2aXFsVGN2RUUxQkFCMDFpVmZ1QlByc1dCajNnaTltQmMyTGFtenpEbm5qRw?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 07:44:20 GMT",
+          "source": "뉴스토마토"
+        },
+        {
+          "title": "[도쿄증시-마감] 저점 매수에 낙폭 일부 반납 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OTl9QV0swbWs1akVXN1dxU3g2YzFjR2lDZnR1VnRzY0UwbjFPNnhOcnRvSnhHX01pX2U4S0JTQnBDLWtEN1JvWFpYdzdobGJsRlpMWnYxbjJRNzQ3UnFicWl5XzcyVVFmZllfd2swREtCZw?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 06:55:23 GMT",
+          "source": "KB Think"
+        },
+        {
+          "title": "글로벌 증시도 반도체 쏠림…내년까지 간다 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yTkJWNWViZFBlYVd1a2RHdV9Wa1VvVXdjUDJpSURXekJaYzZHamx6NE5lSG9FZC00dnRCSndYRDBmLXRKUWJ2bHRvMlRlVjRKS181SUsyZURVZy1jQkNYXw?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 07:43:21 GMT",
+          "source": "뉴스토마토"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "코스피 역대급 폭락에도…\"1만500까지 간다\" 반전 전망 나왔다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1Y2dTUFVUSWFzLVNvcVJ4dDR6TTJqT2V4NHA3WjNTaTF5S2gyTTlQVTA5ZkZ3OGN3Vm9NU2E1clR2alJEVE9VN2Nfa1ZEQzFpNUtDZ2hFbk4yZ9IBVEFVX3lxTE1xQmQ2blcxTHRhX05sazJmeFhCOWJlcGM5eDZEekZmUzZKS1VrYlFuQUY3OE9ScmZ2ZEpPekpoRHh2Y0lNbC1ka0ExaDctYzVqRDhScQ?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 06:11:59 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "코스피, 전날 폭락 딛고 3%대 상승…8,400선 회복 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxYzdCcnphNlprZE5Sbmp1anBRNEthdXluRWFwT0RqYXZLQmpZaGpDaDVLZHVIclRzRWZIMW5iVHhuY3lzSjBKZUsxQ3lGVUxwR0Q1WnN2ekVLZ2FKVDZ5d9IBYEFVX3lxTFAxYzdCcnphNlprZE5Sbmp1anBRNEthdXluRWFwT0RqYXZLQmpZaGpDaDVLZHVIclRzRWZIMW5iVHhuY3lzSjBKZUsxQ3lGVUxwR0Q1WnN2ekVLZ2FKVDZ5dw?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 06:36:12 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "급락 딛고 다시 일어난 코스피, 롤러코스터 장세 끝 3.26% 반등…8470선 회복 [투자360] - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rNXpPQUVyNVUzUWw1QkhmRFhBNGJlOVJzVWROdnZhR1FWMlVxRnRDUzRNdFQtRXYzaHp4a2luYktlNmQyMFg1S0tuY0NuSlEtZS01ZFNR?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 07:33:16 GMT",
+          "source": "헤럴드경제"
+        },
+        {
+          "title": "코스피, 어제 급락 딛고 3%대 상승 마감‥8,400선 회복 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRQ21LY0dVZ2Z1Vm1mNnFGNExkM2tfYTg5cFpZWjhlbTZjUEVabDhnaTJBR0NYV3pCQTh5bF9DRnBRYUNmN3lneGY4UEN5LWNfcmxkWWxuWTJJOHpCNzFMVW1DV05ZYmNPQjhnazk0aVhtdkU50gF0QVVfeXFMTzlRSFgxNmtDR3pqbWc1VmRtamJoOTVIUmVQRjhkSV9pYTI3ZkgwRm1oa2Z3YmZZaXVyZnJHUTRXWndVMWpGMGhXRVo1MnRSVmdheGpUWlVJZkFqdmdTWER2VF9sN0J2TGowcjN5ODVlNjBpdHU?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 06:51:42 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "코스피, 전날 폭락 딛고 3%대 반등해 8,400선 회복(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1STENXekpoNDFtWlNabUNaaFNxZzF3TU5yWmtMbGp6bXdhRFRfWkx5amRFUnI3T0FxNXBySlBodEdrSTFIZkVmN0FLRkkwSi1JV2NLSnBMa2Z6dTTSAWBBVV95cUxOWlRudkYyOUFuN0NZU0VkajVldThKeDdadWc5djlaMUFVdGNzZl9GcEJiNFFnN2Q1LVo5T2lQZEVqbTMwdGRJdzVkVlhJd0xJY0FLU1FWR1JWMEpaY3Bybm0?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 07:12:00 GMT",
+          "source": "연합뉴스"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 19.49,
+    "vix": 19.22,
     "vvix": 99.5,
     "skew": 143.14,
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1728800000000,
-    "retail_net_buy_krw": 1620300000000,
+    "foreign_inst_buy_krw": -2745100000000,
+    "retail_net_buy_krw": 2631200000000,
     "margin_loan_krw": 37918900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -43,16 +105,16 @@
       "sma_200": 23571.38
     },
     "kospi": {
-      "current": 8475.59,
+      "current": 8471.02,
       "high_52w": 9385.59,
-      "drop_pct": -9.7,
+      "drop_pct": -9.74,
       "intraday_low_drop_pct": -13.9,
-      "sma_200": 5227.03
+      "sma_200": 5227.01
     },
     "kosdaq": {
-      "current": 909.52,
+      "current": 909.31,
       "high_52w": 1229.42,
-      "drop_pct": -26.02,
+      "drop_pct": -26.04,
       "intraday_low_drop_pct": -27.92,
       "sma_200": 1001.13
     },
@@ -143,7 +205,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
@@ -153,6 +215,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.24",
+            "close": 340500,
+            "change_pct": 9.84,
+            "retail_net": -2372813,
+            "inst_net": 2969153,
+            "foreign_net": -596340
+          },
           {
             "date": "2026.06.23",
             "close": 310000,
@@ -184,17 +254,17 @@
             "retail_net": -4367937,
             "inst_net": 1943262,
             "foreign_net": 2424675
-          },
-          {
-            "date": "2026.06.17",
-            "close": 346500,
-            "change_pct": 1.02,
-            "retail_net": 866277,
-            "inst_net": 1133803,
-            "foreign_net": -2000080
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.24",
+            "close": 2580000,
+            "change_pct": 0.98,
+            "retail_net": 1063672,
+            "inst_net": 343532,
+            "foreign_net": -1407204
+          },
           {
             "date": "2026.06.23",
             "close": 2555000,
@@ -226,14 +296,6 @@
             "retail_net": -63934,
             "inst_net": 38559,
             "foreign_net": 25375
-          },
-          {
-            "date": "2026.06.17",
-            "close": 2521000,
-            "change_pct": 5.84,
-            "retail_net": -416239,
-            "inst_net": 341331,
-            "foreign_net": 74908
           }
         ]
       }
