@@ -1,96 +1,34 @@
 {
-  "timestamp": "2026-06-24T10:31:29.545192+09:00",
+  "timestamp": "2026-06-24T14:49:39.542056+09:00",
   "sentiment": {
-    "cnn_fng": 27.5428571428571,
+    "cnn_fng": 27.6857142857143,
     "cnn_components": {
       "momentum": 37.0,
       "strength": 33.0,
       "breadth": 14.8,
       "put_call": 31.4,
-      "junk_bond": 7.0,
+      "junk_bond": 8.0,
       "volatility": 50.0,
       "safe_haven": 19.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 35,
-      "greed_articles": [
-        {
-          "title": "닉스삼전 쏠림에…美 개미, 코스피200 선물 거래 못할 듯 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HRjRDMTNkUUxvWHdrMTVRQ1hUX0FYejRXTUtLVVluUllCR3BwLV9TNUxVOXZ5cGxnTkloenNjVlV6T1pJMmhUOVBKSVdFeUhFLTI0U1Z5YTI1QTdxbEFoN3BBazBSanhmc1MwYmNmOUhBTWl0?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 23:21:57 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 전날 폭락 딛고 8500선 회복…저가 매수세 유입 - 대한경제",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5QkQ5NWZoZW1KWU5hQ1dYczZRRV9UWHRzSVdaQVpNMWxFSVRWdnVkaG5COTMzMGZfN2NGUXp2ZFV5UmNSeG1YNExBRS02UXZDb3hidkp5dDREV3g5Q1VURWhoU1N5Tm00UnBaMUJTQllTRnB3?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 00:29:17 GMT",
-          "source": "대한경제"
-        },
-        {
-          "title": "“삼전닉스 아직 고점 아냐…코스피 1만피 충분히 가능” - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40UktHRnIwcHR3MEhpaEFYV2FWWG9LV1hNSkg5QTBMdVExa0h3MXFlYmlsOHlBZjFNRV9WTlF2TDNJR00xSGYtSVQyMERqUnph?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 23:16:49 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "‘롤러코스터’에 연일 사이드카… 반도체 쏠림에 코스피 변동성 증폭 - 주간동아",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCZWVLMUdJUURxN0plTV96UW5MUkdWS2RRVkZxbGZSYjN6RjBxR01CYmR5Ty1Zc3B1M3RYalBIMi1RbVY4RUZFMk1VTFZxclhqaDU2NmtNeElwd0xDVlhGanMzTGQ?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 22:00:01 GMT",
-          "source": "주간동아"
-        },
-        {
-          "title": "코스피, 쏠림의 역습…레버리지가 키운 '역대급 변동성' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aX0VSR0IxYWtRMHpGbzU0S291TWNlbzVNcmJHdkp0UXhLbTlLNjJRR3I0QkswNE8yRUFSUnBWN1NYVUJfams1amVUZVlTNmc?oc=5",
-          "pub_date": "Tue, 23 Jun 2026 20:03:00 GMT",
-          "source": "v.daum.net"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "전날 급락 딛고 반등하는 코스피…8300선 회복[개장시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tUnBYdEVTYURBTElTVDRNS2NvNXZWd3VwYmVxV1BCUEozNzE5eDJvZUFQbUZ5RWFaRWhBZ2FNRjh4U0UzWFZhUXNGaFQwaHBYNmpCOE01R1pnazktSzhHNXdtZw?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 00:22:47 GMT",
-          "source": "에너지경제신문"
-        },
-        {
-          "title": "코스피, 역대급 폭락 하루 만에 반등 출발 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ManJTTDh4VmFMbzFTTWV1LWJfbUdBS19IZXFOeXFOWHFGQkdHNEV5Q3dOMnh2eWVkSlBGZ2FCYTRKb3dRb1k0NWo1N1RzeTVudHpsOWNGOGY5QmM?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 00:21:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "폭락 딛고 코스피 장중 4% 급등…MSCI 불발에도 삼전·닉스 매수세 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ST0lhaTdrcWNNQW95VkZIRkZvTWw5cFBOclNYVXFHYXV6dFlpZjVGNU1KYW9yNnlzY0hlenVEcTVyWUtTdjR2OUVTdTN6Q0lGc2tiNG05RTZMWnAxSFoyeDFGVjZMV28?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 01:01:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "코스피, 전날 급락 딛고 3~4%대 급반등…장중 8,500선 회복(종합) - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WOEdfUVZZRHR1NjZCM0tVZnNUQXlBMWVpcmNwVWtMekhTajhtYVEyXzVHZE9MSkRIQ3gwc3lQSnV6cklfTElGNWF4ZEZWcG8?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 00:37:51 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, 전날 폭락 딛고 반등…1~2% 오르며 상승폭 조절 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4cHhXc3lXUDlnVlg2YXY3VWJFdlc1WVlxMG1CM2M4d3RwaUZNelV6cWNaamFBdk94a3diNHBkeWgtelRncThjbzFwbVhhSTBPOXI2eXozWVJ4TWZUdnBaZdIBYEFVX3lxTFB4cHhXc3lXUDlnVlg2YXY3VWJFdlc1WVlxMG1CM2M4d3RwaUZNelV6cWNaamFBdk94a3diNHBkeWgtelRncThjbzFwbVhhSTBPOXI2eXozWVJ4TWZUdnBaZQ?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 00:07:55 GMT",
-          "source": "연합뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
     "vix": 19.49,
     "vvix": 99.5,
     "skew": 143.14,
-    "move": 68.78
+    "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -916000000000,
-    "retail_net_buy_krw": 856200000000,
+    "foreign_inst_buy_krw": -1728800000000,
+    "retail_net_buy_krw": 1620300000000,
     "margin_loan_krw": 37918900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,18 +43,18 @@
       "sma_200": 23571.38
     },
     "kospi": {
-      "current": 8352.22,
+      "current": 8475.59,
       "high_52w": 9385.59,
-      "drop_pct": -11.01,
-      "intraday_low_drop_pct": -11.96,
-      "sma_200": 5201.29
+      "drop_pct": -9.7,
+      "intraday_low_drop_pct": -13.9,
+      "sma_200": 5227.03
     },
     "kosdaq": {
-      "current": 901.89,
+      "current": 909.52,
       "high_52w": 1229.42,
-      "drop_pct": -26.64,
-      "intraday_low_drop_pct": -27.76,
-      "sma_200": 1000.65
+      "drop_pct": -26.02,
+      "intraday_low_drop_pct": -27.92,
+      "sma_200": 1001.13
     },
     "sp500": {
       "current": 7365.46,
