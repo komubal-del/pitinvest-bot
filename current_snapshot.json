@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-25T06:03:01.938502+09:00",
+  "timestamp": "2026-06-25T07:25:05.952671+09:00",
   "sentiment": {
     "cnn_fng": 25.9142857142857,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 3,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 6,
+      "greed_articles": [
+        {
+          "title": "[증시전략] 글로벌 증시도 반도체 쏠림 심화…내년까지 이어진다? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kcVowelpULVoxbEJYLTU5Z3RSVmlTTkRYWTZ4TWMxX2s0ZURHVERPU093RGlRZUtraVUxcTg4RWxvZ19xb3JObjcxcng5RDg?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 22:13:24 GMT",
+          "source": "v.daum.net"
+        }
+      ],
       "fear_articles": [
         {
           "title": "[속보]뉴욕증시, 반도체 매도세 재개로 혼조 마감 - 아시아경제",
@@ -25,16 +32,28 @@
           "source": "아시아경제"
         },
         {
-          "title": "유럽증시 혼조세로 마감…라인메탈 급락에 독일 약세, 유가는 4%↓ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtRzNYLTg2Z01SUjA1VVZkNVpIbXhqcElOYnJsY3FCR2JPUHR3dF81YllFZTdRU3lIY2tobExlek9iZkw5RXZ0N2lsRWpzZ0RoZjYxeUJ6LVZKQ2c2?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 18:13:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
           "title": "[뉴욕증시] 반도체 매도세 진정 혼조 마감…나스닥 0.43%↓·다우 0.35%↑ - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX2VXSGNPQXJXV3o4UlR5M0tNcjc1N1BHcDV1bk5janQ5dlFrbE9EcEl6cEJJWVBIUi1oLTlQdk5Gakt4WXVjVGMyLUVDOHhMMi1vZk43Q3RuQ0lWVUEwR0dyaEF1U0VkTm1BZVNjajNURVJjU1BtUERsZEE0SWJCcFp3ZWlTdmc?oc=5",
           "pub_date": "Wed, 24 Jun 2026 20:43:47 GMT",
           "source": "글로벌이코노믹"
+        },
+        {
+          "title": "기술주 매도세에 뉴욕증시 혼조…나스닥 0.4%↓ - 중소기업신문",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SX3Y3NkdQX2hvTUd4ZnhIU28xb3JYcjlEZFlyS0lwdFQtUzFQS1BkaXRYajQ2YnBHMmZwb1R0RnkyNjAyWFNqWDZ3eWZYZEx0QVJpZjBCY18yUURPM0VLc3lOUHdlMFJoRWRoUg?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 22:12:15 GMT",
+          "source": "중소기업신문"
+        },
+        {
+          "title": "[브라질증시] 급락한 유가·페트로브라스 따라 하락..헤알화 약세 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CSTNQZ0dRQUgtTHZZZ3BJWF9BeU5PdUI4Ym94bVZoRmh0STJsaHNfT1J3MDVudFk5N25RTFE0YWpXeGNQMVJFTWRFZWc4X1o5ZDVLNHlPZGR2Rmhk?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 22:18:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "[뉴욕증시] 유가 급락에도 혼조···장 마감 뒤 마이크론 'AI 동력 살렸다' - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02Y0JjeGRvUHVPeUJ3ZUFlT0Z5M1NqVVkwSmQ4UGZWR29wWERVSkZBdEIzYWdIOTMzck04S1pKSVVJaVY4dWVuZndMS05NUFpaM0lYS3Z3SFk2MHdMMC0wNGhiVXd1OVBJc1E?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 21:59:14 GMT",
+          "source": "서울파이낸스"
         }
       ]
     }
@@ -42,7 +61,7 @@
   "volatility": {
     "vix": 18.63,
     "vvix": 95.58,
-    "skew": 143.14,
+    "skew": 145.3,
     "move": 69.06
   },
   "korea_flow": {
@@ -305,7 +324,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 213.853,
+    "strategy_pct": 221.021,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -797,7 +816,7 @@
       },
       {
         "date": "2026-06-25",
-        "ret_pct": 213.853
+        "ret_pct": 221.021
       }
     ],
     "monthly_breakdown": [
@@ -833,8 +852,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -18.72,
-        "end_ret_pct": 213.85,
+        "return_pct": -11.55,
+        "end_ret_pct": 221.02,
         "max_dd_pct": 109.04
       }
     ],
