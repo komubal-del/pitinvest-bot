@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-25T15:16:59.315835+09:00",
+  "timestamp": "2026-06-25T18:48:27.932074+09:00",
   "sentiment": {
-    "cnn_fng": 25.9714285714286,
+    "cnn_fng": 25.8,
     "cnn_components": {
       "momentum": 35.2,
-      "strength": 32.4,
-      "breadth": 13.6,
+      "strength": 31.6,
+      "breadth": 13.2,
       "put_call": 28.8,
       "junk_bond": 4.2,
       "volatility": 50.0,
@@ -14,71 +14,47 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 3,
+      "greed_count": 2,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "증시 활황에 주식 계좌 1억 개 돌파···숨은 공신은 ‘10세 미만’ - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vSlJ1SHBvN081MjNwRXVaMmdCaGFZcGxTbkd3eWwzM3FSMkRMT09jemhZVzd2T2lxSFRBTzRQZmp0VXdWR2lVYTlKQ0JkMjlwR2ZEal9JOGxRZ9IBX0FVX3lxTE84dGx4N3o4WWJGQnFFOXhRWDJZMDJIRC14NWNBcXpBTm4tS0Y1OHc0U0VEeXZpUEVnTElRY2pNdnpFcHFMN3BzYU1iUXRnNkxldUJMU1VGSkpQZW0xV1pv?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 01:48:00 GMT",
-          "source": "경향신문"
+          "title": "[퇴근길머니] 코스피 '9천피' 턱밑 마감…'AI 거품론' 잠재운 마이크론 실적 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zOXlsSUZEZldHampfeE43SmR4NDhzUFZHbDJ1ZGNFSFU0SW80WnRLbWpxVTQ4UkpVbFlGZU1DUk1uaVptSk1NV3NhOHF5Vjg?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 08:32:20 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "코스피, 마이크론 실적에 상승출발…AI거품론 해소, 매수 사이드카(종합) - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MTG1RNnhEU0lVeTFfVmhoQUNERElIVTZqSHZrX2wxRzJ4UG1XckFkUWZtTXg1MU5xdXhYbnJob3NEZVYxa2lmQnhjS2FHU0lmbXE3NDM1a0hHVG13eDdqTmxtbHcwYU9BazZodERtai0?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 00:22:57 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "증시 활황에 \"너도 나도 주식 투자\"…주식계좌 1000만개↑ - 신아일보",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VS1lEbFhfMlBzMnI0SmY4R3I4SlFBUUlBbHFLVU9RQmVnRGYwZ0xLbHVCTG9lRmloLTgxanlYekxZNGxtUnl1SkxaWmVobkNIZVJhUE5waDlsaGtfOTZ2VW43OUJLRjAwMXo3VWVLOWU?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 02:12:46 GMT",
-          "source": "신아일보"
-        },
-        {
-          "title": "코스피, 마이크론 실적 호조에 2.74% 상승 출발…AI 거품론 해소 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUd1RLYWtUM2tKeVRQQV9PMnQ5R3NWLVlHWVUxYTFSTDZram1aYmhxZXA4V0hPeFhtTVd3SDVnMGJnOWpmdE9PQ3oxMGdEaGFjcFZjSkhpRE5fOTM2QmRZbklIN29RTmFES19sZFU5V3LSAXRBVV95cUxPZ2VuNzNFYlp2VFVYRllOamptZkpsbW9hWDR2T3JEMkl4NVRuX2JrZEJnZTVWcXRBT2JySVNQWThMUjNQY0RsRzQxZnpvSlJuUVYyX2syQzBnVEJqTU1pQTRiOVBucTBhbVoyaUlyWFhnM2VlVA?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 00:06:24 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "대미 금융자산, 서학개미 확대·미 증시 활황에 첫 1조 달러 돌파 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUdaSDdueXRfc2lyb21IRFg5aXEwVTdtMEZKRFVhWkVUeUF0dTBPZ0FJaFlaakxiZURzX3lUV0VDRkRLZTdjMnVwaDhjWXdHdXR6OXBCZ1BHeWFidGRtNk96cURXa1A3SDk5OHlLM0xGSS1uQzd3ajhSbU5tOGFQdmRjaFA?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 06:00:24 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스피 활황에 ‘농특세’ 세입 급증…“어디에 쓸까” 관심집중 - 농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zVUZjMUFqRU9GRmFSYlZZem83N0pNNFg4em5YUWJVSmFVRExMS2kwUTgzNmE2Nm41U0ZVRzI4SGxDOVY2c3htZmdjRWlTNG1rSUhTS2REU1Zydw?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 07:39:00 GMT",
+          "source": "농민신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "JP모건 \"증시, 순간적 폭락 장세 주의해야\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zaUl2ZHJqVGJQV3BIUlhjc3FnTjRGMTExbGo5dHdyemlLMnpSd3BrWFQyaTdUdzlWRVZ6cExkY0hkVTBuWVduN0pCZWlZdWtOcFgydlcxM3VsM0Y5ME0zV1EyQ1l4X3RKS0JtRUtPNXQ?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 23:38:33 GMT",
-          "source": "연합인포맥스"
+          "title": "[6월 25일](국장 마감) 코스피 5% 폭등의 착시, 외국인 투매 속 빚어진 '반도체 블랙홀' - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSUVqQk1zcTJpdk5ORU55ZlhvaDQ0NDF3XzVHNFpuamhBMmR5SEN6OFNfRlFUQ2steTNGb29Nak5HamotclZHVlhCQVNnOHlwdTROWmlfUV96enFNUU9jTE5uM1IwLXJNcVoxQWZuMURnTEloaDZfZ1hnZUVpLUVmUGkwMnhpSU9FWHVFRDFaLW9ndw?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 07:24:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
         },
         {
-          "title": "[食전食후] 코스피 5%대 급등한 8900선 거래…코스닥은 하락 전환 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TS3BJVlVMZlJjR18tOXlGOXAyZEQ0QTRYbUpRa0s3NFd4UE9WbUtXd0N0MWVfWVgzVzM0SjZzSGJvMGpyUHcyanNGTnRxWkNQdy0ybTF5R0JZUdIBWEFVX3lxTFBaa3k3UEctVm9sUWRBN0JxYll1ME4waHdmLVJ0M05FTG5SZ25Xem93X3d3UHpRbll5eHJSM0RGOFg5alAtTzNacWdibkpMM0VfaUg5ZDVmc1Y?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 05:01:44 GMT",
-          "source": "아주경제"
-        },
-        {
-          "title": "코스피, 기관 매수에 4%대 후반 강세…코스닥은 하락 전환 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKaEk0V2tmV3ZFSWJSZ1Bwamh6cnpkWXpad2tUaS1nci1URlN3ZUQzeE5nNFZJNEpQQlVkcVhlVDhaQnlUM1RZVVFKTW9UVDdteVNHQVBpOFFiZ9IBVEFVX3lxTE1TOXExc3ZGRkJnLTFTbDV4TGNkV2F3dnUxbW1NTkttdU1FSGlxZVExZUFMbHZUVGdNa1VEc3NmRGFPeC1sU1JDbk42NUVkRVlPX3lzWQ?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 02:30:24 GMT",
-          "source": "한국경제"
+          "title": "코스닥 전선이 밀린다, 바이오도 밀렸다…펩트론·로킷헬스케어 급락 - 히트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGMXBGYS1jMkZZUnRpTHZoYnFFcEtaTzNGN2xlODVrVHgyX1BrY3FfOU1Jd1hEM3VraXVkR2VNS1JrZnBuemsyT2ZBN2ZBa2F2b3R4WmhiRTNYNm1EUUFJRGdNQXpMMDBhQlVN?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 08:22:11 GMT",
+          "source": "히트뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.63,
+    "vix": 18.06,
     "vvix": 95.58,
     "skew": 145.3,
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2981400000000,
-    "retail_net_buy_krw": -2942400000000,
+    "foreign_inst_buy_krw": 2449000000000,
+    "retail_net_buy_krw": -2413600000000,
     "margin_loan_krw": 37486000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +69,18 @@
       "sma_200": 23590.26
     },
     "kospi": {
-      "current": 8962.68,
+      "current": 8930.3,
       "high_52w": 9385.59,
-      "drop_pct": -4.51,
+      "drop_pct": -4.85,
       "intraday_low_drop_pct": -7.37,
-      "sma_200": 5255.88
+      "sma_200": 5255.72
     },
     "kosdaq": {
-      "current": 889.95,
+      "current": 887.81,
       "high_52w": 1229.42,
-      "drop_pct": -27.61,
+      "drop_pct": -27.79,
       "intraday_low_drop_pct": -28.09,
-      "sma_200": 1001.57
+      "sma_200": 1001.56
     },
     "sp500": {
       "current": 7358.22,
@@ -197,12 +173,20 @@
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
-      "hynix_at_60d_high": true,
+      "hynix_retail_buying": false,
+      "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.25",
+            "close": 358500,
+            "change_pct": 5.29,
+            "retail_net": -1637990,
+            "inst_net": 3411480,
+            "foreign_net": -1773490
+          },
           {
             "date": "2026.06.24",
             "close": 340500,
@@ -234,17 +218,17 @@
             "retail_net": 3849262,
             "inst_net": -1380348,
             "foreign_net": -2468914
-          },
-          {
-            "date": "2026.06.18",
-            "close": 362500,
-            "change_pct": 4.62,
-            "retail_net": -4367937,
-            "inst_net": 1943262,
-            "foreign_net": 2424675
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.25",
+            "close": 2917000,
+            "change_pct": 13.06,
+            "retail_net": -751901,
+            "inst_net": 865177,
+            "foreign_net": -113276
+          },
           {
             "date": "2026.06.24",
             "close": 2580000,
@@ -276,14 +260,6 @@
             "retail_net": 58660,
             "inst_net": 259188,
             "foreign_net": -317848
-          },
-          {
-            "date": "2026.06.18",
-            "close": 2685000,
-            "change_pct": 6.51,
-            "retail_net": -63934,
-            "inst_net": 38559,
-            "foreign_net": 25375
           }
         ]
       }
