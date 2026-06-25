@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T06:17:57.549199+09:00",
+  "timestamp": "2026-06-26T07:53:18.874802+09:00",
   "sentiment": {
     "cnn_fng": 25.4571428571429,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 3,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
         {
           "title": "코스피 급락하자 424억원 강제처분…초단기빚투 개미들 ‘악’소리 - 문화일보",
@@ -28,6 +28,18 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QY3Y2X195QWhHcjBjaWhQUzdRaVd0QUhSaXRDdE9aYXo3eWVDZHhjRVlwRWNYa1NPX2tET1Z2Um85Y1I2MUg1N29ZbXk4YjBWTGZHZmZQSUNnQzNV?oc=5",
           "pub_date": "Thu, 25 Jun 2026 17:29:00 GMT",
           "source": "뉴스핌"
+        },
+        {
+          "title": "‘예측 불가’ 롤러코스피, 저가 매수 기회일까 - 데일리안",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43QXk5YmlBczJob0F4ZlEwcFpDTTBnWWRIQ19haDRUa2gyWEJxUGdSTkRIUkhPWEpxTm5qbF83SzBZQy00NUxfLVFfbGdkNk9POUpBXzRlUdIBmgJBVV95cUxObnJia05aakdqTkkzdVJmSmdOUlBtMS0ydzVWZlloSzZRSXVsaU10eTYtOFZHUXBPa1RRWmZjLXlMTl93QUpoMm9GRGx4ZDRnbmFmVkdBVklVY2NKRXVWNDl2SF9NaVN2SmtDYlIwVGY5QnAzaWV1cFUwTTJyczRRNDhZS05FRDYxTkFYMTdWdUNMUUkyVWNaRkVJZHRKcktHUWZ6WUtvU0JFZW1UNFdPVnVNbjNuTjJWM01aZXIwd3E0TlhMOGw3OEFTZjVmblBCUXNwUm9Gc2FkYVJIZzMxVVFyVTMtZkFfaEVZc0F2TTB2YmpBRmM0TzZxelFvaVk1TmpyNU0zbHJpM2FmTjFUVmZhMnhFOHRraGc?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 22:04:00 GMT",
+          "source": "데일리안"
+        },
+        {
+          "title": "코스피 변동성 41% '금융위기급'…\"상방 쏠림 뒤 하방 조정 경계\" - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52VVNzVnpjeWVVUUdVOU1IWnpDRzI5MXJfVXRGbWs2OWdpZ1ltM2F1elYtazJiSlBVaGFFR2g1NVhRWGkzaEdBXzVJd0prN3ZZZ0E1TnhtSU9ER1prWjI5Um56QzdHckhZ?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 21:00:00 GMT",
+          "source": "ebn.co.kr"
         }
       ],
       "fear_articles": [
@@ -36,6 +48,12 @@
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hTXBkVDI2OTVTLXRRYkNkUWIxMUszbEp2a0xKalZLdTRYZVkzaEJweWNFR2g3TlN0aTZTWDJnOWJSRG5aOHJXZG9FR3cyVXZoaWsyVEx1dThJV19hUm1SNVNvZjZNSkE?oc=5",
           "pub_date": "Thu, 25 Jun 2026 20:24:39 GMT",
           "source": "세종의소리"
+        },
+        {
+          "title": "[속보]애플 급락에 나스닥↓…美증시 혼조 마감 - 이데일리TV",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zU0tFTFJ4Y2tCcXc3NTBZdXU3UjZpVTdxREtpMktLaFVOODJ0cHlGS2c1RzE5NFRJcEJ2aE1LTjRLYmNYZFRfaGZWTGo4Z3JOSlJoWEt0TEZqQ2RhVEVxb2FPdDY3YnoxRlhRTi1INEZNT1J3eF9XOFFndw?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 20:07:00 GMT",
+          "source": "이데일리TV"
         },
         {
           "title": "“코스피 급락은 숨 고르기…1만500피 간다”-모건스탠리 - 문화일보",
@@ -48,6 +66,12 @@
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KNFJJMFZyWnNJM2pvQXA1cEFONjRLa2NPOGNES25wR2t6OV9QU2JlZGp5dmxySk5kc3lSdm1OREtZYnJ6UFRDb29yOHdCVnBpMmNtQ1JaU2JDRDF4NFE?oc=5",
           "pub_date": "Thu, 25 Jun 2026 21:09:00 GMT",
           "source": "뉴스투데이"
+        },
+        {
+          "title": "마이크론 호실적에도 애플 급락…뉴욕증시, 기술주 부진에 혼조 마감 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CU3hJV21LVm5Xb1hUS1BUVHZtejRvbG9Fdi1Dek1OUU5VVHhfRHdQb2tMTjZHODJieVFoZmJHREdNeWl2QjJWYlF6dzhTTVFBNTR6MVlUbmxmV1pxRVVydmxaWi10dzNk?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 21:33:02 GMT",
+          "source": "ebn.co.kr"
         }
       ]
     }
@@ -61,7 +85,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 2449000000000,
     "retail_net_buy_krw": -2413600000000,
-    "margin_loan_krw": 37486000000000,
+    "margin_loan_krw": 38015800000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -318,7 +342,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 230.32,
+    "strategy_pct": 231.93,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -814,7 +838,7 @@
       },
       {
         "date": "2026-06-26",
-        "ret_pct": 230.32
+        "ret_pct": 231.93
       }
     ],
     "monthly_breakdown": [
@@ -850,8 +874,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -2.25,
-        "end_ret_pct": 230.32,
+        "return_pct": -0.64,
+        "end_ret_pct": 231.93,
         "max_dd_pct": 109.04
       }
     ],
