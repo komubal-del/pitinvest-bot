@@ -1,45 +1,51 @@
 {
-  "timestamp": "2026-06-25T10:49:54.786463+09:00",
+  "timestamp": "2026-06-25T15:16:59.315835+09:00",
   "sentiment": {
-    "cnn_fng": 25.9142857142857,
+    "cnn_fng": 25.9714285714286,
     "cnn_components": {
       "momentum": 35.2,
       "strength": 32.4,
       "breadth": 13.6,
       "put_call": 28.8,
-      "junk_bond": 3.8,
+      "junk_bond": 4.2,
       "volatility": 50.0,
       "safe_haven": 17.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 5,
+      "greed_count": 5,
+      "fear_count": 3,
       "greed_articles": [
         {
-          "title": "코스피, 마이크론 실적에 상승출발…AI거품론 해소, 매수 사이드카(종합) - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mZ2Mtc3ZWNk1DSlhsSF9WQUZHRlpBLXdSVU5NcnRWakV6SnhLYnJBamhiYXRhQ25LOVlVVHoxZWxXRGFQa1gtb1JEdk1jTnUwOWZiS0ZNUTZMZVN2UGQtN016QXpyVWdaTXlRQTNJWU4wUQ?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 00:19:51 GMT",
-          "source": "KB Think"
+          "title": "증시 활황에 주식 계좌 1억 개 돌파···숨은 공신은 ‘10세 미만’ - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vSlJ1SHBvN081MjNwRXVaMmdCaGFZcGxTbkd3eWwzM3FSMkRMT09jemhZVzd2T2lxSFRBTzRQZmp0VXdWR2lVYTlKQ0JkMjlwR2ZEal9JOGxRZ9IBX0FVX3lxTE84dGx4N3o4WWJGQnFFOXhRWDJZMDJIRC14NWNBcXpBTm4tS0Y1OHc0U0VEeXZpUEVnTElRY2pNdnpFcHFMN3BzYU1iUXRnNkxldUJMU1VGSkpQZW0xV1pv?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 01:48:00 GMT",
+          "source": "경향신문"
         },
         {
-          "title": "[증시전략] 글로벌 증시도 반도체 쏠림 심화…내년까지 이어진다? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kcVowelpULVoxbEJYLTU5Z3RSVmlTTkRYWTZ4TWMxX2s0ZURHVERPU093RGlRZUtraVUxcTg4RWxvZ19xb3JObjcxcng5RDg?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 22:13:24 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 마이크론 실적에 상승출발…AI거품론 해소, 매수 사이드카(종합) - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MTG1RNnhEU0lVeTFfVmhoQUNERElIVTZqSHZrX2wxRzJ4UG1XckFkUWZtTXg1MU5xdXhYbnJob3NEZVYxa2lmQnhjS2FHU0lmbXE3NDM1a0hHVG13eDdqTmxtbHcwYU9BazZodERtai0?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 00:22:57 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "증시 활황에 주식 활동계좌 1억800만개 돌파…반년 만에 1000만개 늘었다 - 브릿지경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51Smp3X2ZzdGJESXR5X0gyZjFIdVNOREg5NHA4Z0RYRHpMWXJWaEhzQ2NRYkdzdWpjRHdhTEFGWmFJcE9RZGtiQUZFb1VfRXhEQ0lIV1NyX0R3UQ?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 00:08:00 GMT",
-          "source": "브릿지경제"
+          "title": "증시 활황에 \"너도 나도 주식 투자\"…주식계좌 1000만개↑ - 신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VS1lEbFhfMlBzMnI0SmY4R3I4SlFBUUlBbHFLVU9RQmVnRGYwZ0xLbHVCTG9lRmloLTgxanlYekxZNGxtUnl1SkxaWmVobkNIZVJhUE5waDlsaGtfOTZ2VW43OUJLRjAwMXo3VWVLOWU?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 02:12:46 GMT",
+          "source": "신아일보"
         },
         {
           "title": "코스피, 마이크론 실적 호조에 2.74% 상승 출발…AI 거품론 해소 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nZW43M0ViWnZUVVhGWU5qam1mSmxtb2FYNHZPckQySXg1VG5fYmtkQmdlNVZxdEFPYnJJU1BZOExSM1BjRGxHNDFmem9KUm5RVjJfazJDMGdUQmpNTWlBNGI5UG5xMGFtWjJpSXJYWGczZWVU0gF0QVVfeXFMT2dlbjczRWJadlRVWEZZTmpqbWZKbG1vYVg0dk9yRDJJeDVUbl9ia2RCZ2U1VnF0QU9icklTUFk4TFIzUGNEbEc0MWZ6b0pSblFWMl9rMkMwZ1RCak1NaUE0YjlQbnEwYW1aMmlJclhYZzNlZVQ?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 00:10:16 GMT",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUd1RLYWtUM2tKeVRQQV9PMnQ5R3NWLVlHWVUxYTFSTDZram1aYmhxZXA4V0hPeFhtTVd3SDVnMGJnOWpmdE9PQ3oxMGdEaGFjcFZjSkhpRE5fOTM2QmRZbklIN29RTmFES19sZFU5V3LSAXRBVV95cUxPZ2VuNzNFYlp2VFVYRllOamptZkpsbW9hWDR2T3JEMkl4NVRuX2JrZEJnZTVWcXRBT2JySVNQWThMUjNQY0RsRzQxZnpvSlJuUVYyX2syQzBnVEJqTU1pQTRiOVBucTBhbVoyaUlyWFhnM2VlVA?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 00:06:24 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "대미 금융자산, 서학개미 확대·미 증시 활황에 첫 1조 달러 돌파 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUdaSDdueXRfc2lyb21IRFg5aXEwVTdtMEZKRFVhWkVUeUF0dTBPZ0FJaFlaakxiZURzX3lUV0VDRkRLZTdjMnVwaDhjWXdHdXR6OXBCZ1BHeWFidGRtNk96cURXa1A3SDk5OHlLM0xGSS1uQzd3ajhSbU5tOGFQdmRjaFA?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 06:00:24 GMT",
+          "source": "글로벌이코노믹"
         }
       ],
       "fear_articles": [
@@ -50,28 +56,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "\"코스피, 주초 폭락분 만회 전망\"…반도체가 반등 이끈다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUlFNNjRUdVZtV25WWGphOFhUb3RHX1pLVURSSU9JZU91YzI4QU9ER2JJRk9XdG9pU1FJVFhUSzZENlRkV1BFaGdSMnBnRTg?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 00:19:46 GMT",
-          "source": "v.daum.net"
+          "title": "[食전食후] 코스피 5%대 급등한 8900선 거래…코스닥은 하락 전환 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TS3BJVlVMZlJjR18tOXlGOXAyZEQ0QTRYbUpRa0s3NFd4UE9WbUtXd0N0MWVfWVgzVzM0SjZzSGJvMGpyUHcyanNGTnRxWkNQdy0ybTF5R0JZUdIBWEFVX3lxTFBaa3k3UEctVm9sUWRBN0JxYll1ME4waHdmLVJ0M05FTG5SZ25Xem93X3d3UHpRbll5eHJSM0RGOFg5alAtTzNacWdibkpMM0VfaUg5ZDVmc1Y?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 05:01:44 GMT",
+          "source": "아주경제"
         },
         {
-          "title": "[증시키워드] 코스피, 폭락 딛고 반등…삼전 시총 1위 탈환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PRm5iLV84UUd0Mkx2alpMcDhpSkR0Zl9wTURrM1dvYlJ2VEZIeEpxNjlUOXNmaWc5S3ZaeHd2NHd4Q0FiVEZjdEpnR2tIUFU?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 23:28:03 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[아주증시포커스] \"7월 증시 대폭락?\" 리밸런싱 공포 확산…증권가 \"매도 폭탄 가능성 낮다\" 外 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zbGdvVjNfWEtQY3FBLVk1dEpJNzA1XzZYejdiLTgyVS16bk5Ba1ZQYS0wdXoyUmVHVG5UcmFObVRqY2c4ZHVMSFZDZ3ZzMUU?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 23:07:47 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "뉴욕증시, 기술주 조정에 나스닥·S&P 하락…유가 급락에 다우는 상승 - 세종의소리",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MUWdBVWUtS3N1Nml0Qy1iLVF3T1B3MUx0SU9tY1gwd09qdWlXXzFSQjI0eUZZQzFuOC1udU1Vc252aEZnbEladDVlODVTdXJZZjRFb0tZdURpZzJLNm9jNTJ4SkNuLU0?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 22:57:50 GMT",
-          "source": "세종의소리"
+          "title": "코스피, 기관 매수에 4%대 후반 강세…코스닥은 하락 전환 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKaEk0V2tmV3ZFSWJSZ1Bwamh6cnpkWXpad2tUaS1nci1URlN3ZUQzeE5nNFZJNEpQQlVkcVhlVDhaQnlUM1RZVVFKTW9UVDdteVNHQVBpOFFiZ9IBVEFVX3lxTE1TOXExc3ZGRkJnLTFTbDV4TGNkV2F3dnUxbW1NTkttdU1FSGlxZVExZUFMbHZUVGdNa1VEc3NmRGFPeC1sU1JDbk42NUVkRVlPX3lzWQ?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 02:30:24 GMT",
+          "source": "한국경제"
         }
       ]
     }
@@ -80,11 +74,11 @@
     "vix": 18.63,
     "vvix": 95.58,
     "skew": 145.3,
-    "move": 69.06
+    "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 73300000000,
-    "retail_net_buy_krw": -88700000000,
+    "foreign_inst_buy_krw": 2981400000000,
+    "retail_net_buy_krw": -2942400000000,
     "margin_loan_krw": 37486000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -92,25 +86,25 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25476.63,
+      "current": 25476.64,
       "high_52w": 27190.21,
       "drop_pct": -6.3,
       "intraday_low_drop_pct": -6.75,
       "sma_200": 23590.26
     },
     "kospi": {
-      "current": 8840.21,
+      "current": 8962.68,
       "high_52w": 9385.59,
-      "drop_pct": -5.81,
+      "drop_pct": -4.51,
       "intraday_low_drop_pct": -7.37,
-      "sma_200": 5255.27
+      "sma_200": 5255.88
     },
     "kosdaq": {
-      "current": 904.7,
+      "current": 889.95,
       "high_52w": 1229.42,
-      "drop_pct": -26.41,
-      "intraday_low_drop_pct": -26.56,
-      "sma_200": 1001.65
+      "drop_pct": -27.61,
+      "intraday_low_drop_pct": -28.09,
+      "sma_200": 1001.57
     },
     "sp500": {
       "current": 7358.22,
@@ -204,7 +198,7 @@
       "samsung_ok": false,
       "hynix_3d_up": false,
       "hynix_retail_buying": true,
-      "hynix_at_60d_high": false,
+      "hynix_at_60d_high": true,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
