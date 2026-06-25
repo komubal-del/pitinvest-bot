@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-25T08:39:42.720268+09:00",
+  "timestamp": "2026-06-25T10:49:54.786463+09:00",
   "sentiment": {
     "cnn_fng": 25.9142857142857,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 8,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
+        {
+          "title": "코스피, 마이크론 실적에 상승출발…AI거품론 해소, 매수 사이드카(종합) - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mZ2Mtc3ZWNk1DSlhsSF9WQUZHRlpBLXdSVU5NcnRWakV6SnhLYnJBamhiYXRhQ25LOVlVVHoxZWxXRGFQa1gtb1JEdk1jTnUwOWZiS0ZNUTZMZVN2UGQtN016QXpyVWdaTXlRQTNJWU4wUQ?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 00:19:51 GMT",
+          "source": "KB Think"
+        },
         {
           "title": "[증시전략] 글로벌 증시도 반도체 쏠림 심화…내년까지 이어진다? - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kcVowelpULVoxbEJYLTU5Z3RSVmlTTkRYWTZ4TWMxX2s0ZURHVERPU093RGlRZUtraVUxcTg4RWxvZ19xb3JObjcxcng5RDg?oc=5",
@@ -24,42 +30,48 @@
           "source": "v.daum.net"
         },
         {
-          "title": "AI 광풍의 후폭풍…마이크론 실적 앞두고 美증시 혼조 - 데일리안",
-          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQT1M2SkIzczZiZWZrODVzaUtyR1dzbTA3SUJ4aDNjTzlVSUNFXzF5dFhzOTZIanF5YWhFQTRVM1ZqQWlrMVlOUFZlWFMzVHJBQ0RmR0h1dm9QdExBUFAzQUtRTVR0Qi1LbXRkN2laYzlFYWVmUTg5T1pvcldUOFo1OWpmdW9zWjk1VEVEekxRWGQ5T2UwM1NKTXpKZzRCS1VfQkFjWHFkdDEzTGpqdm8zSEF2UElrY3p1RmVfMF9sekVmWXMxbExfblVqM0N2b2xGY000VXhRRzdvMUhpaE5iaThOT0RzcjRwX0xfWHRKZjRWYWY0b1hkUnNpQXZzNFdTakpJNDV4cTJkblI2aVVqdNIBkAJBVV95cUxQT1M2SkIzczZiZWZrODVzaUtyR1dzbTA3SUJ4aDNjTzlVSUNFXzF5dFhzOTZIanF5YWhFQTRVM1ZqQWlrMVlOUFZlWFMzVHJBQ0RmR0h1dm9QdExBUFAzQUtRTVR0Qi1LbXRkN2laYzlFYWVmUTg5T1pvcldUOFo1OWpmdW9zWjk1VEVEekxRWGQ5T2UwM1NKTXpKZzRCS1VfQkFjWHFkdDEzTGpqdm8zSEF2UElrY3p1RmVfMF9sekVmWXMxbExfblVqM0N2b2xGY000VXhRRzdvMUhpaE5iaThOT0RzcjRwX0xfWHRKZjRWYWY0b1hkUnNpQXZzNFdTakpJNDV4cTJkblI2aVVqdA?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 20:00:00 GMT",
-          "source": "데일리안"
+          "title": "증시 활황에 주식 활동계좌 1억800만개 돌파…반년 만에 1000만개 늘었다 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51Smp3X2ZzdGJESXR5X0gyZjFIdVNOREg5NHA4Z0RYRHpMWXJWaEhzQ2NRYkdzdWpjRHdhTEFGWmFJcE9RZGtiQUZFb1VfRXhEQ0lIV1NyX0R3UQ?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 00:08:00 GMT",
+          "source": "브릿지경제"
+        },
+        {
+          "title": "코스피, 마이크론 실적 호조에 2.74% 상승 출발…AI 거품론 해소 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nZW43M0ViWnZUVVhGWU5qam1mSmxtb2FYNHZPckQySXg1VG5fYmtkQmdlNVZxdEFPYnJJU1BZOExSM1BjRGxHNDFmem9KUm5RVjJfazJDMGdUQmpNTWlBNGI5UG5xMGFtWjJpSXJYWGczZWVU0gF0QVVfeXFMT2dlbjczRWJadlRVWEZZTmpqbWZKbG1vYVg0dk9yRDJJeDVUbl9ia2RCZ2U1VnF0QU9icklTUFk4TFIzUGNEbEc0MWZ6b0pSblFWMl9rMkMwZ1RCak1NaUE0YjlQbnEwYW1aMmlJclhYZzNlZVQ?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 00:10:16 GMT",
+          "source": "연합인포맥스"
         }
       ],
       "fear_articles": [
+        {
+          "title": "JP모건 \"증시, 순간적 폭락 장세 주의해야\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zaUl2ZHJqVGJQV3BIUlhjc3FnTjRGMTExbGo5dHdyemlLMnpSd3BrWFQyaTdUdzlWRVZ6cExkY0hkVTBuWVduN0pCZWlZdWtOcFgydlcxM3VsM0Y5ME0zV1EyQ1l4X3RKS0JtRUtPNXQ?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 23:38:33 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "\"코스피, 주초 폭락분 만회 전망\"…반도체가 반등 이끈다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUlFNNjRUdVZtV25WWGphOFhUb3RHX1pLVURSSU9JZU91YzI4QU9ER2JJRk9XdG9pU1FJVFhUSzZENlRkV1BFaGdSMnBnRTg?oc=5",
+          "pub_date": "Thu, 25 Jun 2026 00:19:46 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[증시키워드] 코스피, 폭락 딛고 반등…삼전 시총 1위 탈환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PRm5iLV84UUd0Mkx2alpMcDhpSkR0Zl9wTURrM1dvYlJ2VEZIeEpxNjlUOXNmaWc5S3ZaeHd2NHd4Q0FiVEZjdEpnR2tIUFU?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 23:28:03 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[아주증시포커스] \"7월 증시 대폭락?\" 리밸런싱 공포 확산…증권가 \"매도 폭탄 가능성 낮다\" 外 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zbGdvVjNfWEtQY3FBLVk1dEpJNzA1XzZYejdiLTgyVS16bk5Ba1ZQYS0wdXoyUmVHVG5UcmFObVRqY2c4ZHVMSFZDZ3ZzMUU?oc=5",
+          "pub_date": "Wed, 24 Jun 2026 23:07:47 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "뉴욕증시, 기술주 조정에 나스닥·S&P 하락…유가 급락에 다우는 상승 - 세종의소리",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MUWdBVWUtS3N1Nml0Qy1iLVF3T1B3MUx0SU9tY1gwd09qdWlXXzFSQjI0eUZZQzFuOC1udU1Vc252aEZnbEladDVlODVTdXJZZjRFb0tZdURpZzJLNm9jNTJ4SkNuLU0?oc=5",
           "pub_date": "Wed, 24 Jun 2026 22:57:50 GMT",
           "source": "세종의소리"
-        },
-        {
-          "title": "[속보]뉴욕증시, 반도체 매도세 재개로 혼조 마감 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtRl9vVmxWUnI0UFNpTHhVeVc4YmppZWZOc2hXbldRZnlDS0VEbUk5Qzg4TVlNaThpUjBXV3p6bk9jR0xBOGNacURHQ3dZNDJ3NlpSNWdPVS1ubW5reFZncA?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 20:14:17 GMT",
-          "source": "아시아경제"
-        },
-        {
-          "title": "[뉴욕증시] 반도체 매도세 진정 혼조 마감…나스닥 0.43%↓·다우 0.35%↑ - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX2VXSGNPQXJXV3o4UlR5M0tNcjc1N1BHcDV1bk5janQ5dlFrbE9EcEl6cEJJWVBIUi1oLTlQdk5Gakt4WXVjVGMyLUVDOHhMMi1vZk43Q3RuQ0lWVUEwR0dyaEF1U0VkTm1BZVNjajNURVJjU1BtUERsZEE0SWJCcFp3ZWlTdmc?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 20:43:47 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "AI주 팔고 항공주 샀다…유가 급락에 뉴욕증시, 혼조 마감 - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GeE5OVTlSM0VURVBiVkJfaEliMGtQeE52ZV8xbEcza1E5WG5RckFJS2RqekFxS1JGLWV3M2M4UDkwbS1ZclYtRmRfRDc3V3pWQ2hRVlBFa1lHWEpLcmw3bHg2Si1xS2g0a2lmdDRWWXg2V2lK?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 23:30:00 GMT",
-          "source": "조세일보"
-        },
-        {
-          "title": "기술주 매도세에 뉴욕증시 혼조…나스닥 0.4%↓ - 중소기업신문",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SX3Y3NkdQX2hvTUd4ZnhIU28xb3JYcjlEZFlyS0lwdFQtUzFQS1BkaXRYajQ2YnBHMmZwb1R0RnkyNjAyWFNqWDZ3eWZYZEx0QVJpZjBCY18yUURPM0VLc3lOUHdlMFJoRWRoUg?oc=5",
-          "pub_date": "Wed, 24 Jun 2026 22:12:15 GMT",
-          "source": "중소기업신문"
         }
       ]
     }
@@ -71,8 +83,8 @@
     "move": 69.06
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2745100000000,
-    "retail_net_buy_krw": 2631200000000,
+    "foreign_inst_buy_krw": 73300000000,
+    "retail_net_buy_krw": -88700000000,
     "margin_loan_krw": 37486000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +99,18 @@
       "sma_200": 23590.26
     },
     "kospi": {
-      "current": 8203.84,
+      "current": 8840.21,
       "high_52w": 9385.59,
-      "drop_pct": -12.59,
-      "intraday_low_drop_pct": -12.59,
-      "sma_200": 5200.55
+      "drop_pct": -5.81,
+      "intraday_low_drop_pct": -7.37,
+      "sma_200": 5255.27
     },
     "kosdaq": {
-      "current": 891.52,
+      "current": 904.7,
       "high_52w": 1229.42,
-      "drop_pct": -27.48,
-      "intraday_low_drop_pct": -27.48,
-      "sma_200": 1000.6
+      "drop_pct": -26.41,
+      "intraday_low_drop_pct": -26.56,
+      "sma_200": 1001.65
     },
     "sp500": {
       "current": 7358.22,
@@ -285,7 +297,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-06-18",
