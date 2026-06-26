@@ -1,65 +1,59 @@
 {
-  "timestamp": "2026-06-26T09:19:46.810258+09:00",
+  "timestamp": "2026-06-26T13:46:33.514642+09:00",
   "sentiment": {
-    "cnn_fng": 25.4571428571429,
+    "cnn_fng": 25.5428571428571,
     "cnn_components": {
       "momentum": 34.8,
       "strength": 32.0,
       "breadth": 13.4,
       "put_call": 27.0,
-      "junk_bond": 3.8,
+      "junk_bond": 4.4,
       "volatility": 50.0,
       "safe_haven": 17.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 3,
+      "greed_count": 1,
+      "fear_count": 48,
       "greed_articles": [
         {
-          "title": "코스피 급락하자 424억원 강제처분…초단기빚투 개미들 ‘악’소리 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kYlI1dFRmUk5RN3RpaDcyMmRKd2Y5SzFDQjM2dy02VDlIZ1lSMldhWE5QRXlCeF9SVktGcW1menkwd0ZRempuOU5Yd2dkeVdp?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 20:09:28 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "유럽증시, 마이크론·퀄컴 호재 올라타고 일제히 상승… AI 버블 우려 누그러져 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QY3Y2X195QWhHcjBjaWhQUzdRaVd0QUhSaXRDdE9aYXo3eWVDZHhjRVlwRWNYa1NPX2tET1Z2Um85Y1I2MUg1N29ZbXk4YjBWTGZHZmZQSUNnQzNV?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 17:29:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "‘예측 불가’ 롤러코스피, 저가 매수 기회일까 - 데일리안",
-          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPMHlBRFRDYWtRNHNkQnB6eVBGZEhzdmZ4QjIydDlQYjkwcFRMaFo2RERybzVVT2VHQTFscnotZzhNaTRabHZOQ2FTVm9IZDNtRjNlb1dURENSdnJyTDh3RzVKbERhcmVwM0NOMTlYaWh4cEFXZGh4N3MwREJPV1VsN3lGeElpVXNTU2RVRFM4NTAyR0hWQ0Q1YlpYa1JQNno4bXhQa0dhVFZOLWZnbE9ISVh6RF8wWExyUUZoaEJDRWhsN0ZlSXM5NnEwODdUcEQ3YjJqbWEtdmJOMlBxSENFRndsMGJXZE5BVks0cnRmamVDQnlvQ0ZDOFFRa0t1dE10ZGp1R2t0RkpFOXFjcnJWeU05Zk1OQ2fSAZoCQVVfeXFMTm5yYmtOWmpHak5JM3VSZkpnTlJQbTEtMnc1VmZZaEs2UUl1bGlNdHk2LThWR1FwT2tUUVpmYy15TE5fd0FKaDJvRkRseGQ0Z25hZlZHQVZJVWNjSkV1VjQ5dkhfTWlTdkprQ2JSMFRmOUJwM2lldXBVME0ycnM0UTQ4WUtORUQ2MU5BWDE3VnVDTFFJMlVjWkZFSWR0SnJLR1FmellLb1NCRWVtVDRXT1Z1TW4zbk4yVjNNWmVyMHdxNE5YTDhsNzhBU2Y1Zm5QQlFzcFJvRnNhZGFSSGczMVVRclUzLWZBX2hFWXNBdk0wdmJqQUZjNE82cXpRb2lZNU5qcjVNM2xyaTNhZk4xVFZmYTJ4RTh0a2hn?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 22:04:00 GMT",
-          "source": "데일리안"
-        },
-        {
-          "title": "삼성전자·SK하이닉스 쏠림에 코스피 9천 시험대 - TopStarNews",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BR0wtcHcyWjUyeVZmQVgxSWFDRVJ0c0ZfT0xPaG1nUEdwMW1EQ0xaa3ZfMDBsb3pNSW5ES3BHNGpYZHFWakNyemQwX0xMQmg1SUJyVGQyM3FkQXB0YmhfZThSWUJzLTQ1TkppWXlOQUQ1QQ?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 23:36:06 GMT",
-          "source": "TopStarNews"
+          "title": "메모리 수요 감소 우려·쏠림에 코스피 급락…\"홀딩 전략 유지\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6dXcxekVxdHJvOHFPeVdBYXFDQ1dOZ056Q3NGNGxad0lnNlZITlAzLVRvcmgzMzlvdDl4bjhEclAyS1pjY3c5WWFBVEw3ZHpweGx2QV9EYmQxTXk3ZDBBTThZUVhEN1Zo0gFuQVVfeXFMTVptUjU2OUdHM0VDU3A3cUYxRy1VZG1LZWhDV19uZEcxMXZMeEgwWV9NTG5wZ3MzUUplTTg1dldpOHVyZnQwWHItUk5zbUdKQ3JEMXpTVEtCMjVPNUk0VHAwSnI5bEgtYVdOWEFvWlE?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 02:35:07 GMT",
+          "source": "머니투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 마이크론 훈풍에도 애플 급락에 혼조…코스피 '반도체 랠리' 이어질까 - 세종의소리",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hTXBkVDI2OTVTLXRRYkNkUWIxMUszbEp2a0xKalZLdTRYZVkzaEJweWNFR2g3TlN0aTZTWDJnOWJSRG5aOHJXZG9FR3cyVXZoaWsyVEx1dThJV19hUm1SNVNvZjZNSkE?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 20:24:39 GMT",
-          "source": "세종의소리"
+          "title": "[속보] 코스피 장중 5%대 급락...매도 사이드카 발동 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2JUQUZ1WnlUeDJtdDFuajNMVmlNeEtIb2pIaE9hd0x2ZUdqMndhY3FYcTF4M00tcUZBM3NwQVpDWU1xcU5SSzdEaEwxa3VZS2MtQU0ydVhaRlRBX3NVb2owUkVqZUdjbGhOY1lmbHdtMGs2dGx2ZzFYT0pnV05HMQ?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 02:24:00 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "“코스피 급락은 숨 고르기…1만500피 간다”-모건스탠리 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yR19WbTh1eTRSQXRQQVpnSTBVRGxPZXpaQkw5YU9LaXd5X3o1WlJJWUdOaWRWYVV6MUpCZUo1Y1lMN3BMNDROZlFFa3kwaFpH?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 15:15:43 GMT",
-          "source": "문화일보"
+          "title": "코스피 5%대 급락에 또 매도 사이드카 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TMWZLdlIwTTB4bjQ3VGRWdUtncWZqQmdDS3haTXZIRXY1bWktX1VpMldlYW5OQ1poX1FwOVFVU1ZlckFyZHpMN2lDekRQb1lNNC1BUHhZZjFlcWd1a2Ryc0ZkS1hCTm8?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 02:33:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "애플 급락에 나스닥↓…美증시 혼조 마감 - 마켓인",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1b1NrX0dGdVZkWGhGWGlSTlNnREVDSTBjMUs2eWdPaEVzWWxzZXVuQmlrazh6M3g1eWUtRDc4anlaOUlxX2ZvNi0zdk1SMlpMakpVTEtnZGZ0SHRJakdzaTNPTEFKRDdOYjlNT05IUmlQSGc?oc=5",
-          "pub_date": "Thu, 25 Jun 2026 20:07:32 GMT",
-          "source": "마켓인"
+          "title": "코스피 5%대 급락 한때 8,400 아래로‥'매도 사이드카' 발동 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nc09WaVRqSlJxeUdMSXQteGFjb2w3S1Zia2JKNEdrSmRkalhkQ1VhTWNhSzI0WjFZNXg4alh5ek85SnR5LWNla0d5S1NLcC1CTDQxU0dmY2pVX1ptdkxMV1VmN2FjWWpSdXRXUzRwSjQ3Wk9R0gF0QVVfeXFMUG1GMUFteTJ3VGpsT3lBdUM4TVhFTWJILW5fYWJYT1pSUzh4QXN4YTdmTVhtQzN1eFRWU0FiT1NSTG9sZ0pYTXlSOXJjcU9IVnRpLWJwSFJ6Nmk3Mmc4Yy0tRjVSTER3Tm9MRmNwaTFvRUR3WjI?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 02:34:44 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…20분간 매매 중단 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMlBRcEUtdXlfdzJoR2pVeWhmUFUteWFoSlZ1amJWTjg4dlVmcjhMQ014U09NNUd2QjhpOTg0VW9kS0Q2STQwVERZVjNlMklhSHluOE9SZWthZ9IBX0FVX3lxTFA4T0I5VnV3dHVINnJYVnRDb1MyOXRseTdRRmQwQV9YRkJDRFVwUG5aVXVJY1pEUVdjZkVZZ0g0S1g4ZHN6QUpqcE44TFZBcF9kajdScmhxLU9qVjFvdFJN?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 03:18:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "코스피 8%대 급락에 사이드카·서킷브레이커 잇단 발동(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiUFhVZ2g2cUlNTXBMbjBNWjJhTkJUMWNuTndDUExLR3FvRmpXcGJ3MFBnbEFCNmFpcFZ1TWV5XzA1WU41Q3NFTlA3RnRLNmcxUmo4amprRkMwa3fSAWBBVV95cUxQWk10SEkzRHZoMzdqWms4YXhPNFE1dUNqWDRqLWliV01Cc2Zoc09tMldNNjNkWWZ4QkpvRVJjUVFjZlM3RUpGVzBNVmRRRUZJZnBuUDU4ang4ZVpBblNiVkY?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 03:25:59 GMT",
+          "source": "연합뉴스"
         }
       ]
     }
@@ -68,11 +62,11 @@
     "vix": 18.89,
     "vvix": 91.19,
     "skew": 139.89,
-    "move": 67.1
+    "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -797200000000,
-    "retail_net_buy_krw": 800700000000,
+    "foreign_inst_buy_krw": -6331600000000,
+    "retail_net_buy_krw": 6186700000000,
     "margin_loan_krw": 38015800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +81,18 @@
       "sma_200": 23608.06
     },
     "kospi": {
-      "current": 8471.02,
+      "current": 8228.41,
       "high_52w": 9385.59,
-      "drop_pct": -9.74,
-      "intraday_low_drop_pct": -13.9,
-      "sma_200": 5227.01
+      "drop_pct": -12.33,
+      "intraday_low_drop_pct": -13.41,
+      "sma_200": 5280.88
     },
     "kosdaq": {
-      "current": 909.31,
+      "current": 845.69,
       "high_52w": 1229.42,
-      "drop_pct": -26.04,
-      "intraday_low_drop_pct": -27.92,
-      "sma_200": 1001.13
+      "drop_pct": -31.21,
+      "intraday_low_drop_pct": -31.79,
+      "sma_200": 1001.8
     },
     "sp500": {
       "current": 7357.49,
@@ -118,7 +112,7 @@
       "current": 625.2,
       "high_52w": 655.95,
       "drop_pct": -4.69,
-      "intraday_low_drop_pct": -8.69,
+      "intraday_low_drop_pct": -8.71,
       "sma_200": 367.23
     }
   },
@@ -289,7 +283,7 @@
   },
   "expert_analysis": {
     "date": "2026-06-26",
-    "analyzed_at": "2026-06-26T09:19:51.580696+09:00",
+    "analyzed_at": "2026-06-26T13:46:38.287167+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -297,16 +291,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "ICoVvcF3ODs",
-        "title": "7월 이후에도 반도체가 정답일까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-06-25T00:33:10Z",
-        "url": "https://youtube.com/watch?v=ICoVvcF3ODs",
+        "video_id": "9lZVpFREQvU",
+        "title": "반도체 독주가 계속될수록 더 조심해야 하는 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-06-26T00:32:51Z",
+        "url": "https://youtube.com/watch?v=9lZVpFREQvU",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란은 대부분 홍보성 내용과 채널 운영 정보이며, 제목은 특정 산업의 미래에 대한 질문을 제시할 뿐 구체적인 시장 입장이나 행동 권고를 담고 있지 않습니다."
+          "reason": "제목에서 반도체 독주에 대한 '조심해야 하는 이유'를 언급하며 경각심을 주지만, 현금화나 매도와 같은 구체적인 행동 권고가 없어 중립으로 분류합니다."
         }
       },
       {
@@ -319,7 +313,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란은 특정 주식 시장 방향을 제시하거나 매수/매도와 같은 구체적인 행동을 권고하지 않으며, 주로 전문가 소개 및 강좌 홍보에 집중하고 있습니다. '주식의 시대 제대로 배우자'는 학습 권고일 뿐 직접적인 시장 포지션을 나타내지 않습니다."
+          "reason": "제공된 설명란은 영상 주제와 전문가 소개, 그리고 유료 강의 홍보 내용만 포함하며, 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고나 시장 방향성을 제시하는 내용이 전혀 없습니다."
         }
       }
     ],

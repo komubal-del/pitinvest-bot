@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "analyzed_at": "2026-06-26T09:19:51.580696+09:00",
+  "analyzed_at": "2026-06-26T13:46:38.287167+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "ICoVvcF3ODs",
-      "title": "7월 이후에도 반도체가 정답일까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-06-25T00:33:10Z",
-      "url": "https://youtube.com/watch?v=ICoVvcF3ODs",
+      "video_id": "9lZVpFREQvU",
+      "title": "반도체 독주가 계속될수록 더 조심해야 하는 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-06-26T00:32:51Z",
+      "url": "https://youtube.com/watch?v=9lZVpFREQvU",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 영상 설명란은 대부분 홍보성 내용과 채널 운영 정보이며, 제목은 특정 산업의 미래에 대한 질문을 제시할 뿐 구체적인 시장 입장이나 행동 권고를 담고 있지 않습니다."
+        "reason": "제목에서 반도체 독주에 대한 '조심해야 하는 이유'를 언급하며 경각심을 주지만, 현금화나 매도와 같은 구체적인 행동 권고가 없어 중립으로 분류합니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 설명란은 특정 주식 시장 방향을 제시하거나 매수/매도와 같은 구체적인 행동을 권고하지 않으며, 주로 전문가 소개 및 강좌 홍보에 집중하고 있습니다. '주식의 시대 제대로 배우자'는 학습 권고일 뿐 직접적인 시장 포지션을 나타내지 않습니다."
+        "reason": "제공된 설명란은 영상 주제와 전문가 소개, 그리고 유료 강의 홍보 내용만 포함하며, 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고나 시장 방향성을 제시하는 내용이 전혀 없습니다."
       }
     }
   ],
