@@ -1,33 +1,27 @@
 {
-  "timestamp": "2026-06-26T17:22:39.009019+09:00",
+  "timestamp": "2026-06-26T20:18:53.748092+09:00",
   "sentiment": {
-    "cnn_fng": 25.6,
+    "cnn_fng": 24.8673992673993,
     "cnn_components": {
       "momentum": 34.8,
       "strength": 31.4,
       "breadth": 14.4,
       "put_call": 27.0,
       "junk_bond": 4.4,
-      "volatility": 50.0,
+      "volatility": 44.9,
       "safe_haven": 17.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 55,
+      "greed_count": 1,
+      "fear_count": 47,
       "greed_articles": [
         {
-          "title": "코스피, AI·반도체 쏠림에 5.8% 급락…사흘 만에 또 서킷브레이커 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TZGRqVW1VRm5iNFJ5X24yeGdnMDhCcmZlRG5PM0lmbUpZMnlKZ1EwMlg5UFRZV3FmaUwzT2l2V1g3Y1RWZGpIWXFqX0pWRW93b05JVTlFcGp1aWhjMHdWTWNleEc3LXJNV0lrQUVyMXDSAXRBVV95cUxQRXA4czliMTg2d2FaR09jU2JxQ3Jqb3dfMTdIWXhLUVVMZzdub2c1SE92RldyRWdkNVIxZUV3NXJnMkZibUZkQmt2T0kwdGZnOHJMSzF4TlZqSXc4NngtZHN2M3ZJa0tqSkpOblRFazRvNmhJQQ?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 07:34:49 GMT",
-          "source": "산경투데이"
-        },
-        {
-          "title": "롤러코스피에 ‘빚투’ 개미 눈물···역대급 변동성에 반대매매 규모 늘어나 By 투데이코리아 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14RVNYR2JkSXVfNkJwTEtjSkdZYllfeE1wNEN6NzZKT0UyQkJaLXp1cF9HWVNPNS1oRE93dWJURFV2OU9ObWNMX01XU0VBYXV5WDBmeGoxcjBPVTZrc2ZHVHJ3NXZUMk5yX2hNQjVVY1U?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 07:54:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "'60% 쏠림' 코스피의 경고… \"지금 반도체 들고 있다면 이 지표를 보라\" - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYU13aHZfR2ZMRTRKM05LMy0wdVJjTmVkMTl0RjlKTHhSeGFKek1IMHNTYUdaODBfd1g3V0gxQ2JKS1QtRUJOZl9IVkhuemNJVHQwN2ZhRm1oNmxud1JGSTllQ194Ym5vR0pBdlh0cFNPcDd3ZFptZlhHUnctSnFIUEo0S2MyS183?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 08:50:56 GMT",
+          "source": "글로벌이코노믹"
         }
       ],
       "fear_articles": [
@@ -50,29 +44,29 @@
           "source": "한겨레"
         },
         {
-          "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…한 주에 두 번 발동은 처음 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMlBRcEUtdXlfdzJoR2pVeWhmUFUteWFoSlZ1amJWTjg4dlVmcjhMQ014U09NNUd2QjhpOTg0VW9kS0Q2STQwVERZVjNlMklhSHluOE9SZWthZ9IBX0FVX3lxTFA4T0I5VnV3dHVINnJYVnRDb1MyOXRseTdRRmQwQV9YRkJDRFVwUG5aVXVJY1pEUVdjZkVZZ0g0S1g4ZHN6QUpqcE44TFZBcF9kajdScmhxLU9qVjFvdFJN?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 03:18:00 GMT",
-          "source": "경향신문"
+          "title": "사이드카에 서킷브레이커…코스피, 5%대 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKX2lKaFkzbzhfRE9JQi15YlZ6SHRuVWMtU05qQWFhTnpyTXpmMFJBVXFGVDNJbjh4cnkxS0lsVkJjVmw1MUVjcFRhRENSNlk4eklXQXUtWG83bWNmZVVDMUx6VFNoa1U?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 09:17:11 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 장중 5%대 급락...매도 사이드카 발동 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2JUQUZ1WnlUeDJtdDFuajNMVmlNeEtIb2pIaE9hd0x2ZUdqMndhY3FYcTF4M00tcUZBM3NwQVpDWU1xcU5SSzdEaEwxa3VZS2MtQU0ydVhaRlRBX3NVb2owUkVqZUdjbGhOY1lmbHdtMGs2dGx2ZzFYT0pnV05HMQ?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 02:24:00 GMT",
-          "source": "조선일보"
+          "title": "속보 코스피 5.8% 급락한 8,411 마감 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GTmVnbGNtdUNIVzk1OGtwT3JXU0xaTGR3MEw0U3o3a182MHZSRHJRMjdPM1NKRHkzaGNjYTBNWndZZmw4NGxpZlhYUTNHNXVyQlhwTC1sdFd5US1tdnc?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 06:42:00 GMT",
+          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.72,
+    "vix": 20.09,
     "vvix": 91.19,
     "skew": 139.89,
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -8411099999999,
-    "retail_net_buy_krw": 8190099999999,
+    "foreign_inst_buy_krw": -8413000000000,
+    "retail_net_buy_krw": 8191900000000,
     "margin_loan_krw": 38015800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -187,16 +181,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": false,
+      "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.26",
+            "close": 339500,
+            "change_pct": -5.3,
+            "retail_net": 9569590,
+            "inst_net": -3593889,
+            "foreign_net": -5975701
+          },
           {
             "date": "2026.06.25",
             "close": 358500,
@@ -228,17 +230,17 @@
             "retail_net": 1595130,
             "inst_net": -328401,
             "foreign_net": -1266729
-          },
-          {
-            "date": "2026.06.19",
-            "close": 354000,
-            "change_pct": -2.34,
-            "retail_net": 3849262,
-            "inst_net": -1380348,
-            "foreign_net": -2468914
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.26",
+            "close": 2673000,
+            "change_pct": -8.36,
+            "retail_net": 1913145,
+            "inst_net": -1065176,
+            "foreign_net": -847969
+          },
           {
             "date": "2026.06.25",
             "close": 2917000,
@@ -270,14 +272,6 @@
             "retail_net": 82857,
             "inst_net": 419974,
             "foreign_net": -502831
-          },
-          {
-            "date": "2026.06.19",
-            "close": 2764000,
-            "change_pct": 2.94,
-            "retail_net": 58660,
-            "inst_net": 259188,
-            "foreign_net": -317848
           }
         ]
       }
