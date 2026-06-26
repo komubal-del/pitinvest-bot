@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-26T13:46:33.514642+09:00",
+  "timestamp": "2026-06-26T17:22:39.009019+09:00",
   "sentiment": {
-    "cnn_fng": 25.5428571428571,
+    "cnn_fng": 25.6,
     "cnn_components": {
       "momentum": 34.8,
-      "strength": 32.0,
-      "breadth": 13.4,
+      "strength": 31.4,
+      "breadth": 14.4,
       "put_call": 27.0,
       "junk_bond": 4.4,
       "volatility": 50.0,
@@ -14,59 +14,65 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 48,
+      "greed_count": 2,
+      "fear_count": 55,
       "greed_articles": [
         {
-          "title": "메모리 수요 감소 우려·쏠림에 코스피 급락…\"홀딩 전략 유지\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6dXcxekVxdHJvOHFPeVdBYXFDQ1dOZ056Q3NGNGxad0lnNlZITlAzLVRvcmgzMzlvdDl4bjhEclAyS1pjY3c5WWFBVEw3ZHpweGx2QV9EYmQxTXk3ZDBBTThZUVhEN1Zo0gFuQVVfeXFMTVptUjU2OUdHM0VDU3A3cUYxRy1VZG1LZWhDV19uZEcxMXZMeEgwWV9NTG5wZ3MzUUplTTg1dldpOHVyZnQwWHItUk5zbUdKQ3JEMXpTVEtCMjVPNUk0VHAwSnI5bEgtYVdOWEFvWlE?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 02:35:07 GMT",
-          "source": "머니투데이"
+          "title": "코스피, AI·반도체 쏠림에 5.8% 급락…사흘 만에 또 서킷브레이커 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TZGRqVW1VRm5iNFJ5X24yeGdnMDhCcmZlRG5PM0lmbUpZMnlKZ1EwMlg5UFRZV3FmaUwzT2l2V1g3Y1RWZGpIWXFqX0pWRW93b05JVTlFcGp1aWhjMHdWTWNleEc3LXJNV0lrQUVyMXDSAXRBVV95cUxQRXA4czliMTg2d2FaR09jU2JxQ3Jqb3dfMTdIWXhLUVVMZzdub2c1SE92RldyRWdkNVIxZUV3NXJnMkZibUZkQmt2T0kwdGZnOHJMSzF4TlZqSXc4NngtZHN2M3ZJa0tqSkpOblRFazRvNmhJQQ?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 07:34:49 GMT",
+          "source": "산경투데이"
+        },
+        {
+          "title": "롤러코스피에 ‘빚투’ 개미 눈물···역대급 변동성에 반대매매 규모 늘어나 By 투데이코리아 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14RVNYR2JkSXVfNkJwTEtjSkdZYllfeE1wNEN6NzZKT0UyQkJaLXp1cF9HWVNPNS1oRE93dWJURFV2OU9ObWNMX01XU0VBYXV5WDBmeGoxcjBPVTZrc2ZHVHJ3NXZUMk5yX2hNQjVVY1U?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 07:54:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ],
       "fear_articles": [
         {
-          "title": "[속보] 코스피 장중 5%대 급락...매도 사이드카 발동 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2JUQUZ1WnlUeDJtdDFuajNMVmlNeEtIb2pIaE9hd0x2ZUdqMndhY3FYcTF4M00tcUZBM3NwQVpDWU1xcU5SSzdEaEwxa3VZS2MtQU0ydVhaRlRBX3NVb2owUkVqZUdjbGhOY1lmbHdtMGs2dGx2ZzFYT0pnV05HMQ?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 02:24:00 GMT",
-          "source": "조선일보"
+          "title": "코스피 5.8% 급락…‘삼전닉스’ 레버리지 후폭풍, 왜 한국만 흔들리나 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95MURvcjQwXzVMN0wyM2JHRDUtMzBMYnpYZHV6eXdaSV9rMk96RDQyMXV2cHl4N3JxX1dxOF85VjNsU0Y1QS1jUXdxN3lsN2hGa0NNUVJR?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 07:44:37 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "코스피 5%대 급락에 또 매도 사이드카 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TMWZLdlIwTTB4bjQ3VGRWdUtncWZqQmdDS3haTXZIRXY1bWktX1VpMldlYW5OQ1poX1FwOVFVU1ZlckFyZHpMN2lDekRQb1lNNC1BUHhZZjFlcWd1a2Ryc0ZkS1hCTm8?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 02:33:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "코스피 5%대 급락 한때 8,400 아래로‥'매도 사이드카' 발동 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nc09WaVRqSlJxeUdMSXQteGFjb2w3S1Zia2JKNEdrSmRkalhkQ1VhTWNhSzI0WjFZNXg4alh5ek85SnR5LWNla0d5S1NLcC1CTDQxU0dmY2pVX1ptdkxMV1VmN2FjWWpSdXRXUzRwSjQ3Wk9R0gF0QVVfeXFMUG1GMUFteTJ3VGpsT3lBdUM4TVhFTWJILW5fYWJYT1pSUzh4QXN4YTdmTVhtQzN1eFRWU0FiT1NSTG9sZ0pYTXlSOXJjcU9IVnRpLWJwSFJ6Nmk3Mmc4Yy0tRjVSTER3Tm9MRmNwaTFvRUR3WjI?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 02:34:44 GMT",
+          "title": "코스피 한때 8% 급락에 서킷브레이커까지 발동‥오늘 하락 이유는? - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84OHRtTzhYUTlsRVlEOWZVdWxfbWJlTEo2TWlGdkttRVFlTThlYUxReXdzREZselA0UUx6QkZBakVLZjBuenFCZjVEcWxIbGVTd2JBdHNrWmdSeElBQzBNQlhaaERndTBJMEp4VlRlbWVfY0ZR0gF0QVVfeXFMTkZBRF9OR3dkcll2UkdQcU1pOWVMcEdiMlgyQ0pGMzFackZTT20zT04tR0dIZjlINlU0dzY4RHBOOU9nNjViMGcxc25TNHVVQWpoOVhBYmNOZEVfQXo3aG9KemItTHI1aWMzTm5MM2hBZUpRa0s?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 04:30:54 GMT",
           "source": "MBC 뉴스"
         },
         {
-          "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…20분간 매매 중단 - 경향신문",
+          "title": "코스피 8%대 급락…서킷브레이커 발동 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TMWZLdlIwTTB4bjQ3VGRWdUtncWZqQmdDS3haTXZIRXY1bWktX1VpMldlYW5OQ1poX1FwOVFVU1ZlckFyZHpMN2lDekRQb1lNNC1BUHhZZjFlcWd1a2Ryc0ZkS1hCTm8?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 04:13:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…한 주에 두 번 발동은 처음 - 경향신문",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMlBRcEUtdXlfdzJoR2pVeWhmUFUteWFoSlZ1amJWTjg4dlVmcjhMQ014U09NNUd2QjhpOTg0VW9kS0Q2STQwVERZVjNlMklhSHluOE9SZWthZ9IBX0FVX3lxTFA4T0I5VnV3dHVINnJYVnRDb1MyOXRseTdRRmQwQV9YRkJDRFVwUG5aVXVJY1pEUVdjZkVZZ0g0S1g4ZHN6QUpqcE44TFZBcF9kajdScmhxLU9qVjFvdFJN?oc=5",
           "pub_date": "Fri, 26 Jun 2026 03:18:00 GMT",
           "source": "경향신문"
         },
         {
-          "title": "코스피 8%대 급락에 사이드카·서킷브레이커 잇단 발동(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiUFhVZ2g2cUlNTXBMbjBNWjJhTkJUMWNuTndDUExLR3FvRmpXcGJ3MFBnbEFCNmFpcFZ1TWV5XzA1WU41Q3NFTlA3RnRLNmcxUmo4amprRkMwa3fSAWBBVV95cUxQWk10SEkzRHZoMzdqWms4YXhPNFE1dUNqWDRqLWliV01Cc2Zoc09tMldNNjNkWWZ4QkpvRVJjUVFjZlM3RUpGVzBNVmRRRUZJZnBuUDU4ang4ZVpBblNiVkY?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 03:25:59 GMT",
-          "source": "연합뉴스"
+          "title": "코스피 장중 5%대 급락...매도 사이드카 발동 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2JUQUZ1WnlUeDJtdDFuajNMVmlNeEtIb2pIaE9hd0x2ZUdqMndhY3FYcTF4M00tcUZBM3NwQVpDWU1xcU5SSzdEaEwxa3VZS2MtQU0ydVhaRlRBX3NVb2owUkVqZUdjbGhOY1lmbHdtMGs2dGx2ZzFYT0pnV05HMQ?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 02:24:00 GMT",
+          "source": "조선일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.89,
+    "vix": 19.72,
     "vvix": 91.19,
     "skew": 139.89,
     "move": 65.39
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -6331600000000,
-    "retail_net_buy_krw": 6186700000000,
+    "foreign_inst_buy_krw": -8411099999999,
+    "retail_net_buy_krw": 8190099999999,
     "margin_loan_krw": 38015800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +87,18 @@
       "sma_200": 23608.06
     },
     "kospi": {
-      "current": 8228.41,
+      "current": 8411.21,
       "high_52w": 9385.59,
-      "drop_pct": -12.33,
+      "drop_pct": -10.38,
       "intraday_low_drop_pct": -13.41,
-      "sma_200": 5280.88
+      "sma_200": 5281.8
     },
     "kosdaq": {
-      "current": 845.69,
+      "current": 851.37,
       "high_52w": 1229.42,
-      "drop_pct": -31.21,
+      "drop_pct": -30.75,
       "intraday_low_drop_pct": -31.79,
-      "sma_200": 1001.8
+      "sma_200": 1001.83
     },
     "sp500": {
       "current": 7357.49,
