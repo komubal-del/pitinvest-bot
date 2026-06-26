@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-06-26T20:18:53.748092+09:00",
+  "timestamp": "2026-06-26T22:25:52.388203+09:00",
   "sentiment": {
-    "cnn_fng": 24.8673992673993,
+    "cnn_fng": 24.7758241758242,
     "cnn_components": {
       "momentum": 34.8,
       "strength": 31.4,
       "breadth": 14.4,
       "put_call": 27.0,
       "junk_bond": 4.4,
-      "volatility": 44.9,
+      "volatility": 44.2,
       "safe_haven": 17.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 47,
+      "greed_count": 2,
+      "fear_count": 49,
       "greed_articles": [
+        {
+          "title": "코스피 8400선까지 밀린 ‘블랙 프라이데이’…반도체 쏠림에 흔들린 증시 - 굿모닝경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MbUZrM2NWd3hkZzVjUEF5NEdwZDBrN2dybHR6aEhQWVBYRDNaMkVvUEZVQjJVQVhHd1VOSGlOeDNrUDVaSnRlNENGa2JTcDBMUjJjTGNybDNNVzlFTnpHTksxbE9PMS13VGJvbg?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 10:18:39 GMT",
+          "source": "굿모닝경제"
+        },
         {
           "title": "'60% 쏠림' 코스피의 경고… \"지금 반도체 들고 있다면 이 지표를 보라\" - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYU13aHZfR2ZMRTRKM05LMy0wdVJjTmVkMTl0RjlKTHhSeGFKek1IMHNTYUdaODBfd1g3V0gxQ2JKS1QtRUJOZl9IVkhuemNJVHQwN2ZhRm1oNmxud1JGSTllQ194Ym5vR0pBdlh0cFNPcDd3ZFptZlhHUnctSnFIUEo0S2MyS183?oc=5",
@@ -38,28 +44,28 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "코스피 8%대 급락…서킷브레이커 발동 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TMWZLdlIwTTB4bjQ3VGRWdUtncWZqQmdDS3haTXZIRXY1bWktX1VpMldlYW5OQ1poX1FwOVFVU1ZlckFyZHpMN2lDekRQb1lNNC1BUHhZZjFlcWd1a2Ryc0ZkS1hCTm8?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 04:13:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "사이드카에 서킷브레이커…코스피, 5%대 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKX2lKaFkzbzhfRE9JQi15YlZ6SHRuVWMtU05qQWFhTnpyTXpmMFJBVXFGVDNJbjh4cnkxS0lsVkJjVmw1MUVjcFRhRENSNlk4eklXQXUtWG83bWNmZVVDMUx6VFNoa1U?oc=5",
-          "pub_date": "Fri, 26 Jun 2026 09:17:11 GMT",
-          "source": "연합뉴스TV"
+          "title": "코스피 급락, 하루짜리 충격일까…증권가가 짚은 진짜 이유 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yWDVSR0lPem5SX1lIcEwwNE4wQ1N6UVdIem12VEJzV0dTZXg1VW1JMktRZ2VnN0VzU3haVC0zYjhkdG5oTUhpUEJnR2RITlJTbWxIZGlZb2dSN3pDZGN5U3FJZ09OcFMt0gFuQVVfeXFMTlFaVWlqZGRINDJldzJhTXZhdHRJS1E4Ym5NZ19fWW1pVU5FN3NmN09RMDVpZ01VLTdjRjlRdU03NHh4QURCUVlQUmJqRnFSeXlWdnk1a2FXTm80cXRDUFZURjFWRml3OW92TklrWkE?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 06:19:51 GMT",
+          "source": "머니투데이"
         },
         {
           "title": "속보 코스피 5.8% 급락한 8,411 마감 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GTmVnbGNtdUNIVzk1OGtwT3JXU0xaTGR3MEw0U3o3a182MHZSRHJRMjdPM1NKRHkzaGNjYTBNWndZZmw4NGxpZlhYUTNHNXVyQlhwTC1sdFd5US1tdnc?oc=5",
           "pub_date": "Fri, 26 Jun 2026 06:42:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…한 주에 두 번 발동은 처음 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMlBRcEUtdXlfdzJoR2pVeWhmUFUteWFoSlZ1amJWTjg4dlVmcjhMQ014U09NNUd2QjhpOTg0VW9kS0Q2STQwVERZVjNlMklhSHluOE9SZWthZ9IBX0FVX3lxTFA4T0I5VnV3dHVINnJYVnRDb1MyOXRseTdRRmQwQV9YRkJDRFVwUG5aVXVJY1pEUVdjZkVZZ0g0S1g4ZHN6QUpqcE44TFZBcF9kajdScmhxLU9qVjFvdFJN?oc=5",
+          "pub_date": "Fri, 26 Jun 2026 03:18:00 GMT",
+          "source": "경향신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 20.09,
+    "vix": 20.29,
     "vvix": 91.19,
     "skew": 139.89,
     "move": 65.39
