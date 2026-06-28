@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T06:13:09.114495+09:00",
+  "timestamp": "2026-06-29T07:32:18.718312+09:00",
   "sentiment": {
     "cnn_fng": 24.7714285714286,
     "cnn_components": {
@@ -14,9 +14,22 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 2,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "“고점까지 사정 없이 흔들린다” 코스피, 1만 시대로 가는 길 [코스피 1만 시대 맞이②] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xSGpXWHJHYWtSUjVya1BHaWpZSmZVM3Y5ZjlUVWttUHNmSXJkXzExNUpWLTdlNXNUcFVOMjExTmxqaURBUThMNnBNUDBBQTQ?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 21:20:18 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "하나증권 \"코스피 1만1450p 가능…쏠림 크지만 순환매 어려워\" - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81NUxWWDVaUE9sTmM0WWdfaXhnTGhVQ05WOTJaLXFtRHNzYi1mWlJtcEgtb1ExZ0QzMFVSNVJra0lDWjlGMWpEd0lDSU5CVGg1cDFwdjF4azNGMmd4MWcySNIBeEFVX3lxTE5mU2Q3cGlqVC1ZZ2dZWE00M2Y1Wk1WVFU1OEJ5WVZnX3AtRTlMeU1iYVduLUJmOHU0S1NqV0VoRVh4SW9wWmJuSGZSMHVVVlkyS0JqNFd2ZGt2NHdOdHhQRGtDeGJBZnRyTXNELWJ1NkVURFM0SlFzNQ?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 22:23:19 GMT",
+          "source": "뉴시스"
+        }
+      ],
       "fear_articles": []
     }
   },
