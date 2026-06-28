@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T07:32:18.718312+09:00",
+  "timestamp": "2026-06-29T08:47:34.594427+09:00",
   "sentiment": {
     "cnn_fng": 24.7714285714286,
     "cnn_components": {
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 0,
+      "greed_count": 4,
+      "fear_count": 3,
       "greed_articles": [
+        {
+          "title": "“코스피 변동성·쏠림 현상 극심…하닉 시총 역전, 단기 과열 시그널” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXBYMmN0MTBLLUQ5U1RsUXRPdjAya2thMFRtZDA1RVV2WW1KNjBnWUZOVDBha0NXaGs4Ul9ScWJJTXVtMjFFeG5uWXFPMFJmNXRtTkYwQkpJWXNOM1JQTjhuUzZNUFJZVjI1TnluUF9DeVpfSThBai1VOHAwb0I1TUJpWl9WeFIz0gGcAUFVX3lxTE9zYmZaaVlFeW9ob2VoQk8tMG5sQ0FHZ1o2SDZTbVdIY1FXbXdHZGZ5QUt3SXlGZV9FbTRYSFBsXzI3WXVuSmpkNWsyVGNyM0Fua19BelpDckI1M3Rkc2xuSHhkOThqMjdVSlNpY09FN25zLTJEc1Npb1E4T1BtcUZxeUk4RWFTTHN0Q21qVm9ybm9KY0ZjVUhPN1RiSQ?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 23:09:00 GMT",
+          "source": "Chosunbiz"
+        },
         {
           "title": "“고점까지 사정 없이 흔들린다” 코스피, 1만 시대로 가는 길 [코스피 1만 시대 맞이②] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xSGpXWHJHYWtSUjVya1BHaWpZSmZVM3Y5ZjlUVWttUHNmSXJkXzExNUpWLTdlNXNUcFVOMjExTmxqaURBUThMNnBNUDBBQTQ?oc=5",
           "pub_date": "Sun, 28 Jun 2026 21:20:18 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "[0629개장체크] 美 증시, 기술주 고점 부담 및 차익실현 매물 출회 속 일제히 하락 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjb3VjN09FMHJwWmt1ZGNIeUxfMWw2N3QyaU9zVjdqNlBFUWF0VURSLUYzZ0xZVE9vSTVzeHF2ZjVQb0lCd2ltcVI4c1pPOUtOc3lUNWVLSmdUdVBvRHk1T2hQUWZEOEJTa1dxQ1NaeU8?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 23:28:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
           "title": "하나증권 \"코스피 1만1450p 가능…쏠림 크지만 순환매 어려워\" - 뉴시스",
@@ -30,7 +42,26 @@
           "source": "뉴시스"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[오늘의 증시]코스피, 폭락 뒤 '급등장' 올까…'AI 투자둔화' 우려에 발목잡힐 수도 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SU0lEYjVwWnJFeGVPUHdwWXZSeEcxbVRCa05WUzE4SHk4ck8yUkpNM2NTSzNMZTlNbW5FR1hmbUpBZXpxQkU0MGQ1c3FLZ3ZDNHB3a0kwWmZmYmRfT2lCN9IBeEFVX3lxTE1VdVFxRVdoaV9tTllUV0UzNWhfVFJlWUhlOGJvSmttbEF0WXkydVlGSzQydXk4T29PSThUNURoVXpkVHNDTnlDRWpzZ203VlZUanNRZUZGdUdzOUo4V0lZQTQ5SV9JZC1rREtHNVdabkw4di0wVlZ3VA?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 22:56:46 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "'7% 급락' 코스피, 19조 매물폭탄 다 받아낸 개미…\"삼전 실적 곧 온다\" - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Bbk81QkI3T09zd2ctRDhaNjRhZHFBVnhMZ2J4TzlJVFp4UFAxSWJaWmI2TnFqTXJPSmlmYUZPeW9ScTdPMkNVUkdRVC03a0tuWE5FdHJrUHdFUQ?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 23:04:58 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "AI 투자 불확실성에 흔들리는 한국 증시, 반도체주 급락 조정 - tokenpost.kr",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mWEJXeFJxZ0JKZFF1Zk1peXRmMTljcnZXa1NVWFJnVEJldVlNeUIxaTdxa2RwUXVKYWdRWHhGbUYydnp5TGM2bTNuNzlPMVNTYW9uOUN30gFbQVVfeXFMTWVRRzBjcTZESlBIaEQ1dll5U3NMWl9heHBKRlFYckRmTGlxQ2FDd2NJZ0hYRDExRVpNWnZXcmpoRmo3NS00dXRzSGQxVzFWbU9VZnZZbXNobG5zOA?oc=5",
+          "pub_date": "Sun, 28 Jun 2026 23:34:03 GMT",
+          "source": "tokenpost.kr"
+        }
+      ]
     }
   },
   "volatility": {
@@ -42,7 +73,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -8413000000000,
     "retail_net_buy_krw": 8191900000000,
-    "margin_loan_krw": 38015800000000,
+    "margin_loan_krw": 37453300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
