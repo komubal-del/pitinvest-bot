@@ -1,22 +1,40 @@
 {
-  "timestamp": "2026-06-29T18:55:41.767747+09:00",
+  "timestamp": "2026-06-29T23:15:20.615714+09:00",
   "sentiment": {
-    "cnn_fng": 24.7714285714286,
+    "cnn_fng": 25.9714285714286,
     "cnn_components": {
-      "momentum": 34.4,
-      "strength": 31.8,
-      "breadth": 15.6,
-      "put_call": 24.0,
-      "junk_bond": 3.4,
+      "momentum": 39.0,
+      "strength": 31.2,
+      "breadth": 16.8,
+      "put_call": 28.4,
+      "junk_bond": 2.8,
       "volatility": 50.0,
-      "safe_haven": 14.2
+      "safe_haven": 13.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 5,
-      "fear_count": 7,
+      "fear_count": 3,
       "greed_articles": [
+        {
+          "title": "대규모 투자발표에 코스닥 달렸다‥극단적 쏠림도 완화될까 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUtwcE52YWdFWXVNM21Cak81ZFV0NXNrZDhJbUQ2UG1sXzh4bERNck42aWlDU09pdUplN3JmX080UTltaGcycm8zd0xsN19SenFwRnFfYk5mTnlIdWZMNFVWZXM4SUw1b2tmQVZzYjBoS2djQll5MnBWbWc4RVNhemNlakRoY0FXR212ZUE0TWhVN2JyZ3hsZ1FVU0dQLWN4alkyRXdBTTNwU0xZRmxtS1dBWlRsdTQwSEFTak8tNnA?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 10:57:30 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "대규모 투자발표에 코스닥 달렸다‥극단적 쏠림도 완화될까 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9taDZhR1ZqMm5OVWZGUV9Va0cxNTFJa0E5akVQNUltcXlXZkVjYURfS1REYjdaOG5FZlY3dmM0eDlMRjMyRHZ2aTFMNmNxcGlTYS1oNThQdmtLdHJ3MmVHX2J3NjV2NFJQdUp3RjF2Q05pQWpQeUdqTw?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 10:57:30 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "레버리지 ETF 출시 후 삼전·닉스 쏠림 심화…“코스피가 개별종목처럼 급등락” - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45QW5ucEZsS0dGSjRHUHdOS2xlREhHQkFxZ3ZyU2U3bXdKSUlicURlTlFTMTlFNm4tcjU3ZWFPYWxqa0RiT0xsZmR2UEZlN1p0anh6TVlLa1hPZTR5SEZqZVBMZlBiWE0?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 10:55:00 GMT",
+          "source": "한겨레"
+        },
         {
           "title": "[자막뉴스] '빚투' 유인하는 코스피 급등락...커지는 레버리지 변동성 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNNmlYNjVzV0JTTzk4UTRzTG5GRnJZdE9aYWxsYlRzU0lnRERwdW9na1NId1JkdGZkUVpWQVhuRHhnX1QyUWowM09mMjQtTmNha1BMX3UtNW5KNnhZaXc?oc=5",
@@ -28,63 +46,33 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XTVp3OHNTTFNqUTR1Z1JpTHNEWHJZME5WcHRtS2w2N2pZLXR3UDVzN21vZnE5ek9vVzJELW9aYnJJMU5ISk1oLXRmNDB1WGc?oc=5",
           "pub_date": "Mon, 29 Jun 2026 07:48:01 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, 반도체 고점 부담에 약보합 마감…코스닥은 8%대 급등 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83YU1GU3R3Zm5SODhVWVQzVWppa2VlVXJjR21valJSVkZPWHdJempUUmRrZ1dVa2RRcndsR09mWUtGX1g1NkJ4MXdrWWdKUlF6SFdfNTJ5ZmM3UdIBVEFVX3lxTFBEaDNZal9iNmNmODlwUFBxNy1ZZHNTVUNZdlBXVXp2czhIOUE5MEF5OVlkLWlZbUs2dFFETGcxdFNMY0Z6S0xvbVVMWWxwQllITFlLaQ?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 06:46:07 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "레버리지 ETF 출시 후 삼전·닉스 쏠림 심화…“코스피가 개별종목처럼 급등락” - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45QW5ucEZsS0dGSjRHUHdOS2xlREhHQkFxZ3ZyU2U3bXdKSUlicURlTlFTMTlFNm4tcjU3ZWFPYWxqa0RiT0xsZmR2UEZlN1p0anh6TVlLa1hPZTR5SEZqZVBMZlBiWE0?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 07:59:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "‘826개’ 올라도 밀린 코스피…지수 누른 ‘삼전닉스’ 쏠림 - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHTVM4aFg5OVpwVklBX3pWY2o2NmItMUFaRnlNRlJoM0ZqYzlKZUR5RWpkOHM1Qmc0WjM0TzJHR21ObjNVX3h3QkZoR3BOOV9reEHSAVNBVV95cUxNa0tyWDEwdGN1WDhtUndUU2lSRHpnZ1lENmd0WElXSmx4OEZ3SVZoUzZpaDNSZUliY1BYSGNUdE4wZW9QVF9mLUhYU3lHZG02eEN2WQ?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 08:54:23 GMT",
-          "source": "서울경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 외인 역대급 투매 속 8,390대 하락…코스닥은 8% 급등(종합) - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKeVRYUklfMHJPQkx5cGJ0WE9HUjlkT0ZGX3pTZXlEU1EtampqbWdkTU00R3NHTkVyTmFpM2ZvZkhnQnlqSDhEUW83STVKNDg?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 07:28:52 GMT",
-          "source": "v.daum.net"
+          "title": "3% 급락했다 \"코스피 반등\"...외인 7조 매도에도 '놀라운 매수세' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlMGxFTmJsZDhYbUN1UFlEYi1ST0stU1FDcjVkcjdHRU92Y0VoZFJScWQzckMzLTJ3ZmVXenMtS3Vja1E4Mm5CM1l5REpuZ1B2UTFsNU9NVnRpUzZKNWxCdlFkdFhEamRH0gFuQVVfeXFMTVhQU1J1aThlengzb1FmWkVGMkR5VHRnMmY3UFdNUzJqd0hUTllET0Rzb2VpMlBkcXdkd2dZM3NXajQ1Z3JSQzNaNDFUV0lTWllIYnRpbnVTOVAzREppZncyei04VHQ4Yno4MUFlTXc?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 05:52:55 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "코스피, 외인 역대급 투매 속 8,390대 하락…코스닥은 8% 급등(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QaEt5NmJ6MU5SQ2VBQVVyaW5wMWxjSDVsbUJBNEJLZEdjbXY1ZDdzN1NMYXFKcGRvV0JROERpYXpEb1RLdGF2eVdHNDJWNlQyQU9xYlVaZmQ3UjDSAWBBVV95cUxNVWJsQV95eUdEZ2VuOXhkSGh6ZG5odUp0S2pTa2w2SVZ4NENZMElLdjFCbTdacE1Hd2E1eFRaRmtvOW1NaUxvekptWEREaVlodEo3UjRzMTU5VXVzVHdkZ08?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 07:27:03 GMT",
+          "source": "연합뉴스"
         },
         {
           "title": "급락 후 급등…'롤러코스닥' 장세 이어져 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11S1F5N0paTWM4TVpYeTI5STduSkpfRTFILU4tRGN2MDI1NC1ZcXRBZkYwZjdxYnZaMlFzUm1SV0lWQ0luNE01VFdqS3VMQ3M?oc=5",
           "pub_date": "Mon, 29 Jun 2026 07:15:39 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "큰 변동성 맞은 K-증시, 국면 전환인가 이대로 폭락인가 [어쨌든 경제] - 이데일리TV",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56QUxpSGNYZU1YQ0dKYUQ2LTI5YzFyVjNaU2VyaFlDT2NDX2V2bG40VjdWSjhrUjAteG4xTlprQ2hTOF9kN2pNUnpKa2lvZGdZcklMNmFZSkstWUJMZ3VnWG4wTTRYbExnMUJRRHZUMl9rNmdSUVdEZFRFUQ?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 05:16:00 GMT",
-          "source": "이데일리TV"
-        },
-        {
-          "title": "코스피, 외국인 '역대급' 매도세에 약보합…코스닥은 8% 폭등 - 데일리굿뉴스",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkMVZPY1AzVFhKeWdaY2RTelhlZHBaZEJKa2UyTU1xMF9RVm4xbzE0NFUxenB2WmVXQkZlVEZWMml6RkhLdTdiZHFLZEYyRzgtSXZKUVh0amFNZElyV3dtWGxBVnBuS0JaYzFZRdIBcEFVX3lxTE1zU2QxMEg2OUktTWt0dlBPZk1PeHV1aVV4UGlRYXhMUmpKQ1JsbHdjVEpnaWxBejlUVVUzODZSOXNXWDlTMUNtNm5xZnNVazRBNDdueUEwT2JKQWVVTy1wb0g4SEEtZTF2Ry1feElidHg?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 07:50:06 GMT",
-          "source": "데일리굿뉴스"
-        },
-        {
-          "title": "3% 급락했다 \"코스피 반등\"...외인 7조 매도에도 '놀라운 매수세' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlMGxFTmJsZDhYbUN1UFlEYi1ST0stU1FDcjVkcjdHRU92Y0VoZFJScWQzckMzLTJ3ZmVXenMtS3Vja1E4Mm5CM1l5REpuZ1B2UTFsNU9NVnRpUzZKNWxCdlFkdFhEamRH0gFuQVVfeXFMTVhQU1J1aThlengzb1FmWkVGMkR5VHRnMmY3UFdNUzJqd0hUTllET0Rzb2VpMlBkcXdkd2dZM3NXajQ1Z3JSQzNaNDFUV0lTWllIYnRpbnVTOVAzREppZncyei04VHQ4Yno4MUFlTXc?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 05:52:55 GMT",
-          "source": "머니투데이"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.42,
-    "vvix": 89.02,
+    "vix": 18.48,
+    "vvix": 89.01,
     "skew": 139.4,
     "move": 66.79
   },
@@ -98,11 +86,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25297.62,
+      "current": 25310.46,
       "high_52w": 27190.21,
-      "drop_pct": -6.96,
-      "intraday_low_drop_pct": -8.0,
-      "sma_200": 23625.15
+      "drop_pct": -6.91,
+      "intraday_low_drop_pct": -6.91,
+      "sma_200": 23642.28
     },
     "kospi": {
       "current": 8394.65,
@@ -119,34 +107,34 @@
       "sma_200": 1002.45
     },
     "sp500": {
-      "current": 7354.02,
+      "current": 7352.41,
       "high_52w": 7620.9,
-      "drop_pct": -3.5,
-      "intraday_low_drop_pct": -4.29,
-      "sma_200": 6924.97
+      "drop_pct": -3.52,
+      "intraday_low_drop_pct": -3.55,
+      "sma_200": 6929.07
     },
     "russell2k": {
-      "current": 3010.08,
+      "current": 2993.51,
       "high_52w": 3033.75,
-      "drop_pct": -0.78,
-      "intraday_low_drop_pct": -1.8,
-      "sma_200": 2612.96
+      "drop_pct": -1.33,
+      "intraday_low_drop_pct": -1.33,
+      "sma_200": 2616.04
     },
     "soxx": {
-      "current": 589.94,
+      "current": 573.06,
       "high_52w": 655.95,
-      "drop_pct": -10.06,
-      "intraday_low_drop_pct": -10.28,
-      "sma_200": 368.94
+      "drop_pct": -12.64,
+      "intraday_low_drop_pct": -12.69,
+      "sma_200": 370.54
     }
   },
   "sector_rs": {
-    "XLK": 1.211,
+    "XLK": 1.209,
     "SMH": 1.418,
-    "BOTZ": 0.962,
+    "BOTZ": 0.975,
     "IGV": 0.995,
-    "XLF": 0.976,
-    "XLE": 0.752
+    "XLF": 0.961,
+    "XLE": 0.754
   },
   "signals": {
     "cnn_under_10": false,
@@ -182,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 63.36,
+    "tqqq_profit_pct": 62.93,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 302.99,
+    "soxl_profit_pct": 262.24,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 100.82,
+    "koru_profit_pct": 74.26,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
