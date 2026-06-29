@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T06:00:49.946282+09:00",
+  "timestamp": "2026-06-30T07:16:23.078715+09:00",
   "sentiment": {
     "cnn_fng": 27.0285714285714,
     "cnn_components": {
@@ -14,18 +14,37 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 2,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "\"반도체 쏠림, 거품만은 아니다\"…코스피 흔들 '진짜 방아쇠'는 금리 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FVVhhUGpET3R5OVY0MFF0dWNQMS02WmFHQWZleG04OHlLRFZsTGNfZ2QzakU2MWRaaXFVU3ExMVpOa203b2pLTnZxTmlPcDVJYlE4LTRlZFNaV2FRdmRTa3VYdDYyb0Y4?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 21:00:00 GMT",
+          "source": "ebn.co.kr"
+        },
+        {
+          "title": "﻿롤러코스피에 빚투 '연쇄 청산'…반대매매 일주일새 4배 폭증 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HX2pLSlJ0SGxhcEJMOUdEd0lXX09MRmZkV2xVMHZOa21jUjNNQWpibmUyS2duUXMtcEVoNHBxWHg2T3pBdFJId2RiSTJoVmVEUGc5LWhKWTAzQkNWTWRvRzROazN0empK?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 21:41:46 GMT",
+          "source": "ebn.co.kr"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "[26년 6월 30일(화)] 큰 변동성 맞은 K-증시, 국면 전환인가 이대로 폭락인가 - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRU1KSEpPM0lfUm5ybncyZmFDc3pUbDRKZkdWWWZHWGpQYTIzdDdTck1HNm81aVJVRi1US1NiNWw5MExwcUQtVFZwMi1Sa0ZRODNfbHZuOURnYnVnV3BMNk94WjA0UVhMM1UxT01USGtleXVoSUZtTGNLQVNkVjRYcw?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 21:32:08 GMT",
+          "source": "네이버 프리미엄콘텐츠"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 17.65,
     "vvix": 88.71,
-    "skew": 139.4,
-    "move": 68.14,
-    "vkospi": 96.94
+    "skew": 144.46,
+    "move": 68.14
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -4800500000000,
@@ -287,7 +306,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 224.448,
+    "strategy_pct": 225.753,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -791,7 +810,7 @@
       },
       {
         "date": "2026-06-30",
-        "ret_pct": 224.448
+        "ret_pct": 225.753
       }
     ],
     "monthly_breakdown": [
@@ -827,8 +846,8 @@
       },
       {
         "month": "2026-06",
-        "return_pct": -8.13,
-        "end_ret_pct": 224.45,
+        "return_pct": -6.82,
+        "end_ret_pct": 225.75,
         "max_dd_pct": 109.04
       }
     ],
