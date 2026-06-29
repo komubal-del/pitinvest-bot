@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T08:47:34.594427+09:00",
+  "timestamp": "2026-06-29T13:53:33.731734+09:00",
   "sentiment": {
     "cnn_fng": 24.7714285714286,
     "cnn_components": {
@@ -14,52 +14,46 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 3,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "“코스피 변동성·쏠림 현상 극심…하닉 시총 역전, 단기 과열 시그널” - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXBYMmN0MTBLLUQ5U1RsUXRPdjAya2thMFRtZDA1RVV2WW1KNjBnWUZOVDBha0NXaGs4Ul9ScWJJTXVtMjFFeG5uWXFPMFJmNXRtTkYwQkpJWXNOM1JQTjhuUzZNUFJZVjI1TnluUF9DeVpfSThBai1VOHAwb0I1TUJpWl9WeFIz0gGcAUFVX3lxTE9zYmZaaVlFeW9ob2VoQk8tMG5sQ0FHZ1o2SDZTbVdIY1FXbXdHZGZ5QUt3SXlGZV9FbTRYSFBsXzI3WXVuSmpkNWsyVGNyM0Fua19BelpDckI1M3Rkc2xuSHhkOThqMjdVSlNpY09FN25zLTJEc1Npb1E4T1BtcUZxeUk4RWFTTHN0Q21qVm9ybm9KY0ZjVUhPN1RiSQ?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 23:09:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "“고점까지 사정 없이 흔들린다” 코스피, 1만 시대로 가는 길 [코스피 1만 시대 맞이②] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xSGpXWHJHYWtSUjVya1BHaWpZSmZVM3Y5ZjlUVWttUHNmSXJkXzExNUpWLTdlNXNUcFVOMjExTmxqaURBUThMNnBNUDBBQTQ?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 21:20:18 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[0629개장체크] 美 증시, 기술주 고점 부담 및 차익실현 매물 출회 속 일제히 하락 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjb3VjN09FMHJwWmt1ZGNIeUxfMWw2N3QyaU9zVjdqNlBFUWF0VURSLUYzZ0xZVE9vSTVzeHF2ZjVQb0lCd2ltcVI4c1pPOUtOc3lUNWVLSmdUdVBvRHk1T2hQUWZEOEJTa1dxQ1NaeU8?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 23:28:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "하나증권 \"코스피 1만1450p 가능…쏠림 크지만 순환매 어려워\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81NUxWWDVaUE9sTmM0WWdfaXhnTGhVQ05WOTJaLXFtRHNzYi1mWlJtcEgtb1ExZ0QzMFVSNVJra0lDWjlGMWpEd0lDSU5CVGg1cDFwdjF4azNGMmd4MWcySNIBeEFVX3lxTE5mU2Q3cGlqVC1ZZ2dZWE00M2Y1Wk1WVFU1OEJ5WVZnX3AtRTlMeU1iYVduLUJmOHU0S1NqV0VoRVh4SW9wWmJuSGZSMHVVVlkyS0JqNFd2ZGt2NHdOdHhQRGtDeGJBZnRyTXNELWJ1NkVURFM0SlFzNQ?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 22:23:19 GMT",
-          "source": "뉴시스"
+          "title": "지수는 오르는데 종목은↓…韓 증시, 7월도 ‘반도체 쏠림’이 발목 [이슈+] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuWUJiYy1mWnFIdldFRXMyTG5GTzZfLUVHUHM0eUlBakJ1RUlQYWRyUFphQUdTRXpWaVBJbURzT1paUF9PR1lYdTE1SUtUWExmZDN1S3k5UWdPdWs?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 01:23:04 GMT",
+          "source": "에너지경제신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "[오늘의 증시]코스피, 폭락 뒤 '급등장' 올까…'AI 투자둔화' 우려에 발목잡힐 수도 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SU0lEYjVwWnJFeGVPUHdwWXZSeEcxbVRCa05WUzE4SHk4ck8yUkpNM2NTSzNMZTlNbW5FR1hmbUpBZXpxQkU0MGQ1c3FLZ3ZDNHB3a0kwWmZmYmRfT2lCN9IBeEFVX3lxTE1VdVFxRVdoaV9tTllUV0UzNWhfVFJlWUhlOGJvSmttbEF0WXkydVlGSzQydXk4T29PSThUNURoVXpkVHNDTnlDRWpzZ203VlZUanNRZUZGdUdzOUo4V0lZQTQ5SV9JZC1rREtHNVdabkw4di0wVlZ3VA?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 22:56:46 GMT",
-          "source": "뉴시스"
+          "title": "외국인 3조 매도세에 코스피 8200선 공방전…코스닥은 6% 상승세 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQUt5RGtlWERQUlhsNWZBWjdleUJVMC1pakRCYTlpZXhYVkZCY196M092bXpPcEZ5d056VWRUbHR1bWttbEIzc0xkNUZwaThTclFNTnhVTVU2VWMybVlnRldsSXZuT0hfZmozd1VKOU1MUTdyOWU4a04tbTJLazR6TlRCOWdIQ2df0gGcAUFVX3lxTE1UdE5QNkpQaWZiYVd3VE5UcjRIWkNDYkNVM3hUWkUxY0FSdEFjWURfM2VfUFlPTVlkT2Z3djJ5TTJfSEtmaXRTQ3pWaHBnOTNjdXNRR3N1ZXJ3enNqN2F4M19PdzR2WFJ2c0tMcDlfUU0zbTh3RkMtZmduNWlsdGV6dGJ2dHZoajlLTTBzNThjelVDdnN5ODFOLUExYw?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 02:31:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "'7% 급락' 코스피, 19조 매물폭탄 다 받아낸 개미…\"삼전 실적 곧 온다\" - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Bbk81QkI3T09zd2ctRDhaNjRhZHFBVnhMZ2J4TzlJVFp4UFAxSWJaWmI2TnFqTXJPSmlmYUZPeW9ScTdPMkNVUkdRVC03a0tuWE5FdHJrUHdFUQ?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 23:04:58 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "코스피·코스닥 엇갈린 출발…외인 매도세 집중 [개장시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DVFg0QmVyQVpRX2xfdUtENlk5eUE2eVg5MmJIYm5pRmJoMTNLVm82d1h1VDV0OWVKYXBtZmVxcTZnN2JNdXNzMlM3bWVRSXducTZWRVQxLXFZT1k?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 01:08:44 GMT",
+          "source": "에너지경제신문"
         },
         {
-          "title": "AI 투자 불확실성에 흔들리는 한국 증시, 반도체주 급락 조정 - tokenpost.kr",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mWEJXeFJxZ0JKZFF1Zk1peXRmMTljcnZXa1NVWFJnVEJldVlNeUIxaTdxa2RwUXVKYWdRWHhGbUYydnp5TGM2bTNuNzlPMVNTYW9uOUN30gFbQVVfeXFMTWVRRzBjcTZESlBIaEQ1dll5U3NMWl9heHBKRlFYckRmTGlxQ2FDd2NJZ0hYRDExRVpNWnZXcmpoRmo3NS00dXRzSGQxVzFWbU9VZnZZbXNobG5zOA?oc=5",
-          "pub_date": "Sun, 28 Jun 2026 23:34:03 GMT",
-          "source": "tokenpost.kr"
+          "title": "코스피 폭락도 홍명보 탓?...분노는 왜 밈이 됐나 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YZDF0ZXY3VU1tdFhZcFRNSC1ScHRaam1mNGNwTlJfdU9pSjFnVnpLOE1kRGRwQ1VfNFNhWEZCNGVUcW1uYnRvaXFuZnA2cXBTOVNQNkphTzBzZWxQQ090X1V6QXB0U1VtcGZlVk5pWnlSVzNrbnc?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 03:44:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "[속보]코스피 2%급락…문 열자마자 1조 던진 외인 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1pOUNidThnLWJVOUg2am5uRUc0Rkc3dHlTQ1JYUFR2WDJHSDIxWFZCTkplNkpKclVWdndfNmQ0Xy1HeHkyTVNUQ1pyQWU3ZjEt?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 00:17:44 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "코스피 '외인 1조 투매' 털렸지만…코스닥은 5% 폭등 - 경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBySmYtSnFfaXlLZ2Q4Qm9VX18zX25ma21KVnZULWVFOXZaaVFGeHdoeW95eEJMS1d3dFotRS11LVBTdzdzTk5XVllWNWdQNFIyczB3?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 01:02:34 GMT",
+          "source": "경제타임스"
         }
       ]
     }
@@ -71,8 +65,8 @@
     "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -8413000000000,
-    "retail_net_buy_krw": 8191900000000,
+    "foreign_inst_buy_krw": -4409900000000,
+    "retail_net_buy_krw": 4223300000000,
     "margin_loan_krw": 37453300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +81,18 @@
       "sma_200": 23625.15
     },
     "kospi": {
-      "current": 8411.21,
+      "current": 8245.12,
       "high_52w": 9385.59,
-      "drop_pct": -10.38,
-      "intraday_low_drop_pct": -13.41,
-      "sma_200": 5281.8
+      "drop_pct": -12.15,
+      "intraday_low_drop_pct": -13.4,
+      "sma_200": 5307.09
     },
     "kosdaq": {
-      "current": 851.37,
+      "current": 910.21,
       "high_52w": 1229.42,
-      "drop_pct": -30.75,
-      "intraday_low_drop_pct": -31.79,
-      "sma_200": 1001.83
+      "drop_pct": -25.96,
+      "intraday_low_drop_pct": -30.1,
+      "sma_200": 1002.4
     },
     "sp500": {
       "current": 7354.02,
@@ -288,8 +282,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-06-26",
-    "analyzed_at": "2026-06-26T13:46:38.287167+09:00",
+    "date": "2026-06-29",
+    "analyzed_at": "2026-06-29T13:53:40.900008+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -297,16 +291,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "9lZVpFREQvU",
-        "title": "반도체 독주가 계속될수록 더 조심해야 하는 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-06-26T00:32:51Z",
-        "url": "https://youtube.com/watch?v=9lZVpFREQvU",
+        "video_id": "vAnFMgnU95g",
+        "title": "반도체 독주 끝나나? 7월 시장의 진짜 변수는 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-06-29T00:31:56Z",
+        "url": "https://youtube.com/watch?v=vAnFMgnU95g",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 반도체 독주에 대한 '조심해야 하는 이유'를 언급하며 경각심을 주지만, 현금화나 매도와 같은 구체적인 행동 권고가 없어 중립으로 분류합니다."
+          "reason": "영상 설명란과 제목에는 특정 투자 방향에 대한 구체적인 행동 권고(매수/매도/비중 축소 등) 없이 시장의 변동 가능성과 분석 주제만 제시되어 있습니다."
         }
       },
       {
@@ -319,7 +313,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 설명란은 영상 주제와 전문가 소개, 그리고 유료 강의 홍보 내용만 포함하며, 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고나 시장 방향성을 제시하는 내용이 전혀 없습니다."
+          "reason": "영상 설명란은 특정 주식이나 시장 전반에 대한 구체적인 매수/매도 권고 없이, 전문가들의 심층 토론 및 교육 과정 홍보에 집중하고 있습니다."
         }
       }
     ],

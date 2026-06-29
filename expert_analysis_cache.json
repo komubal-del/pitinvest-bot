@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-26",
-  "analyzed_at": "2026-06-26T13:46:38.287167+09:00",
+  "date": "2026-06-29",
+  "analyzed_at": "2026-06-29T13:53:40.900008+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "9lZVpFREQvU",
-      "title": "반도체 독주가 계속될수록 더 조심해야 하는 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-06-26T00:32:51Z",
-      "url": "https://youtube.com/watch?v=9lZVpFREQvU",
+      "video_id": "vAnFMgnU95g",
+      "title": "반도체 독주 끝나나? 7월 시장의 진짜 변수는 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-06-29T00:31:56Z",
+      "url": "https://youtube.com/watch?v=vAnFMgnU95g",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목에서 반도체 독주에 대한 '조심해야 하는 이유'를 언급하며 경각심을 주지만, 현금화나 매도와 같은 구체적인 행동 권고가 없어 중립으로 분류합니다."
+        "reason": "영상 설명란과 제목에는 특정 투자 방향에 대한 구체적인 행동 권고(매수/매도/비중 축소 등) 없이 시장의 변동 가능성과 분석 주제만 제시되어 있습니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 설명란은 영상 주제와 전문가 소개, 그리고 유료 강의 홍보 내용만 포함하며, 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고나 시장 방향성을 제시하는 내용이 전혀 없습니다."
+        "reason": "영상 설명란은 특정 주식이나 시장 전반에 대한 구체적인 매수/매도 권고 없이, 전문가들의 심층 토론 및 교육 과정 홍보에 집중하고 있습니다."
       }
     }
   ],
