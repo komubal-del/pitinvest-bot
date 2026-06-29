@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T07:16:23.078715+09:00",
+  "timestamp": "2026-06-30T08:30:19.404368+09:00",
   "sentiment": {
     "cnn_fng": 27.0285714285714,
     "cnn_components": {
@@ -14,19 +14,37 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 6,
       "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "반도체 쏠림이 낳은 기현상… 삼전닉스 ‘투톱’ 상승이 코스닥엔 재앙? - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3BuTlRpdk9TWlhVcUN5S0oyOVEzaVpxMzhhaFl3aDZpTUQ1ZVVjREl6SlpHQTdfcVBJTVVYeDVfS29CdkF4eTFxNzc5Y29DS0c3U0szRHY3QXNIT2pWcEdhc3BzSHQtckQwa2YtX0NTbDhiN1BLTXBwRjhmT2x5TThMN0RpLTI40gGcAUFVX3lxTE84bFlQU01EbDA2N2E4M2hIQXFKZkpwUlE0RXNHbURfbXltdEt2ZFBVd1BKekc4bndRbTdOalRxM0JQVzR6UmFZYzBhTW9EUzljTnFCSkVaVmZGaktaTEtzcjlRR0NLekhiVzJzUVVjZnBXRnNOWmdYMTRCeGo0NEZ0dWJTeHVUdDlPdmoxc1BGanlyUk5HMUcxUXZRag?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 23:25:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "증시 활황에 100억원 이상 주식부자 1년새 두 배로 늘었다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DbW5ENUFmOFdyYnlWdkUyeW5kS0xsVEtFTXUwc0NieHhIUlVuV3VaeEEtSVFITTVsVHVXZGZRUUV6bjBQenRWaVo2azEtTktocm9MQXBzSE52UdIBVEFVX3lxTE0ySzdoRlplSm9abDJ1MzB5dUNta1JtcXBTODFUSzhHMjR5TkgyWTRDX0hSSTNfbHBvUlgzMk1rNFVjUXFRMS14ZE0zVDZGNUhqelVKcw?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 23:20:35 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[0630개장체크] 美 증시, 대형 기술주 및 반도체 섹터 중심 저가 매수세 유입 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ucnAyU1Jsa3FjTW5oeDl4T2dpbW5rNC04N2EtMmJ5XzZoVHVoYU5NblV3MmN2R1F3ekRvQWtIUGNyZEQxcFBWMmxURVlGNWFvbDFLN1oxYXQ1ZENFdmhsQnpIdkJ0aV9PQWVYMWdOaXprSU1xaUE?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 22:43:45 GMT",
+          "source": "인포스탁데일리"
+        },
+        {
+          "title": "사상 최대 '1.4조 달러' 빚투…레버리지 ETF가 키우는 증시 시한폭탄 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kTk1fT2ZNRmxvM0ZTdmlVVjU0OC1YMldqVEowSDFBN1FpUENBdG9MRkFVYkZMTUVfYnNGMDlVVW9HbHdmRmp2SXdMcXE2YXlVanIzVTZGWjJxUdIBVEFVX3lxTE11RU1uZnMydG9zUmpuMW9ybThpeF9vRVhGczA0eDA3eXRoRnZ5c2RsM1EzM05SUXV2cGF4SnE0RDU0OEtkLVd1ZWhoZ0tzdjlZcTlDWQ?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 23:01:02 GMT",
+          "source": "한국경제"
+        },
         {
           "title": "\"반도체 쏠림, 거품만은 아니다\"…코스피 흔들 '진짜 방아쇠'는 금리 - ebn.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FVVhhUGpET3R5OVY0MFF0dWNQMS02WmFHQWZleG04OHlLRFZsTGNfZ2QzakU2MWRaaXFVU3ExMVpOa203b2pLTnZxTmlPcDVJYlE4LTRlZFNaV2FRdmRTa3VYdDYyb0Y4?oc=5",
           "pub_date": "Mon, 29 Jun 2026 21:00:00 GMT",
-          "source": "ebn.co.kr"
-        },
-        {
-          "title": "﻿롤러코스피에 빚투 '연쇄 청산'…반대매매 일주일새 4배 폭증 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HX2pLSlJ0SGxhcEJMOUdEd0lXX09MRmZkV2xVMHZOa21jUjNNQWpibmUyS2duUXMtcEVoNHBxWHg2T3pBdFJId2RiSTJoVmVEUGc5LWhKWTAzQkNWTWRvRzROazN0empK?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 21:41:46 GMT",
           "source": "ebn.co.kr"
         }
       ],
@@ -49,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -4800500000000,
     "retail_net_buy_krw": 4597500000000,
-    "margin_loan_krw": 37453300000000,
+    "margin_loan_krw": 37175400000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
