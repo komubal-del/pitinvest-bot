@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-01T06:10:18.230128+09:00",
+  "timestamp": "2026-07-01T07:46:00.068955+09:00",
   "sentiment": {
     "cnn_fng": 31.2285714285714,
     "cnn_components": {
@@ -14,22 +14,48 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 3,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "상반기 코스피 101% 뛰었지만…반도체 쏠림·외국인 매도·변동성 숙제로 - 이데일리",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWTN4eVhQdXVpN2gzaHotR0VKZE1adlk2aTVrUlRmUWNCWjNEWW01NFRGeVp4MlNLR0ZWdEdMNVpHWmozTFhlOGgtSWJDcm5Ob3oyRlY0ZkRxV19hTlBRY3FOeEtwYnR5ZVdSUTZjZVRvVkk2TXB1RThiWENmaUVCMw?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 21:00:07 GMT",
+          "source": "이데일리"
+        },
+        {
+          "title": "코스피 상반기 101% 수직 상승, 8400선 돌파… 1999년 '닷컴버블' 넘었다 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RQ3NBRnpXOHhmbS0zQVlNMnpqVExNWkxuUkhfSjdJaHdlQkhWeFNQZFVUQl9Nc3ZxMkEwOW83T0dzOUZEaE4xNFRIUVNZZDhuZkpyZmFiV3h4dw?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 22:35:07 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "[N2 모닝 경제 브리핑-7월 1일] 美 증시, 반기 마지막 거래일 'AI 쏠림' 속 상승…나스닥 1.52%↑ - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00RjZvbGM1M3BoU3RtMEhWVEFuQ2toemxwTFN0bWQteXhLRi1FaGpKTVppblNKb3MyZDdhWFh3Nkk4Y1dIb2ItdGllbE9pQXhVcm5pS0txd2VNdHNPN1E?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 21:12:00 GMT",
+          "source": "뉴스투데이"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "장중 암호화폐 줄줄이 '급락' 속...미국증시 암호화폐주 '뚝' - 초이스경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JRVBXcU1nVFhTVFhVVVJEQnVqV0dmQkw1YklPMm94MEc5MXRrZEtoZjd4Y05UblJ6U3RtUXo2clBYNDZ3eGZFNndfQWtQZGJVcFVHV1VvalBHTHhrYzZmeTVfd0pwNnpNek5yeDB0Y1V6b0nSAXNBVV95cUxPSUVQV3FNZ1RYU1RYVVVSREJ1aldHZkJMNWJJTzJveDBHOTF0a2RLaGY3eGNOVG5SelN0bVF6NnJQWDQ2d3hmRTZ3X0FrUGRiVXBVR1dVb2pQR0x4a2M2Znk1X3dKcDZ6TXpOcngwdGNVem9J?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 20:51:46 GMT",
+          "source": "초이스경제"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 16.45,
     "vvix": 86.87,
-    "skew": 144.46,
+    "skew": 149.6,
     "move": 71.96
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -866000000000,
     "retail_net_buy_krw": 840100000000,
-    "margin_loan_krw": 37175400000000,
+    "margin_loan_krw": 37210500000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -286,7 +312,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 237.422,
+    "strategy_pct": 236.469,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -794,7 +820,7 @@
       },
       {
         "date": "2026-07-01",
-        "ret_pct": 237.422
+        "ret_pct": 236.469
       }
     ],
     "monthly_breakdown": [
@@ -836,8 +862,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": 11.67,
-        "end_ret_pct": 237.42,
+        "return_pct": 10.72,
+        "end_ret_pct": 236.47,
         "max_dd_pct": 0.0
       }
     ],
