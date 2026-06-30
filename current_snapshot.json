@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T08:30:19.404368+09:00",
+  "timestamp": "2026-06-30T10:49:45.932036+09:00",
   "sentiment": {
     "cnn_fng": 27.0285714285714,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 1,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
         {
           "title": "반도체 쏠림이 낳은 기현상… 삼전닉스 ‘투톱’ 상승이 코스닥엔 재앙? - 조선비즈 - Chosunbiz",
@@ -30,30 +30,48 @@
           "source": "한국경제"
         },
         {
-          "title": "[0630개장체크] 美 증시, 대형 기술주 및 반도체 섹터 중심 저가 매수세 유입 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ucnAyU1Jsa3FjTW5oeDl4T2dpbW5rNC04N2EtMmJ5XzZoVHVoYU5NblV3MmN2R1F3ekRvQWtIUGNyZEQxcFBWMmxURVlGNWFvbDFLN1oxYXQ1ZENFdmhsQnpIdkJ0aV9PQWVYMWdOaXprSU1xaUE?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 22:43:45 GMT",
-          "source": "인포스탁데일리"
+          "title": "\"반도체 쏠림 끝나지 않았다…코스닥 반등은 일시적 확산\" - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZM3NrdXljQUFmemQxdFNKWkh2MXZFQzhGQmE0VF8xXzA5VjBmcktUeXJEZ2U2OFhLTUJzdGJvVkNGamxvZTQ4QUYzVmlvVnM5YnBFMUZxZVBxZzd4cWc?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 00:18:00 GMT",
+          "source": "뉴스투데이"
         },
         {
-          "title": "사상 최대 '1.4조 달러' 빚투…레버리지 ETF가 키우는 증시 시한폭탄 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kTk1fT2ZNRmxvM0ZTdmlVVjU0OC1YMldqVEowSDFBN1FpUENBdG9MRkFVYkZMTUVfYnNGMDlVVW9HbHdmRmp2SXdMcXE2YXlVanIzVTZGWjJxUdIBVEFVX3lxTE11RU1uZnMydG9zUmpuMW9ybThpeF9vRVhGczA0eDA3eXRoRnZ5c2RsM1EzM05SUXV2cGF4SnE0RDU0OEtkLVd1ZWhoZ0tzdjlZcTlDWQ?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 23:01:02 GMT",
+          "title": "1.4조달러 빚투가 키운 美증시 불안 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SZnR0X0dHemN3Nk41TjBhbUdmUGs1VVpPVUtGME9SaFpsNy1IRjNoZUthOVRoVWM0OHZuZG56NE0zRVl4ZkJTNmJyMGgybENQcE1NcXNXTTBPd9IBVEFVX3lxTFBuQjlyM1AwVjhJZzZWQ1FfeDlRZmpCTWRpOWhFa3B2ZTdnNEVUUFgyTFdvMDVndElNUXdUX19GYlRnZlF1d19SaGptTzM4Nmk4TzZmYw?oc=5",
+          "pub_date": "Mon, 29 Jun 2026 23:34:05 GMT",
           "source": "한국경제"
-        },
-        {
-          "title": "\"반도체 쏠림, 거품만은 아니다\"…코스피 흔들 '진짜 방아쇠'는 금리 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FVVhhUGpET3R5OVY0MFF0dWNQMS02WmFHQWZleG04OHlLRFZsTGNfZ2QzakU2MWRaaXFVU3ExMVpOa203b2pLTnZxTmlPcDVJYlE4LTRlZFNaV2FRdmRTa3VYdDYyb0Y4?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 21:00:00 GMT",
-          "source": "ebn.co.kr"
         }
       ],
       "fear_articles": [
         {
-          "title": "[26년 6월 30일(화)] 큰 변동성 맞은 K-증시, 국면 전환인가 이대로 폭락인가 - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRU1KSEpPM0lfUm5ybncyZmFDc3pUbDRKZkdWWWZHWGpQYTIzdDdTck1HNm81aVJVRi1US1NiNWw5MExwcUQtVFZwMi1Sa0ZRODNfbHZuOURnYnVnV3BMNk94WjA0UVhMM1UxT01USGtleXVoSUZtTGNLQVNkVjRYcw?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 21:32:08 GMT",
-          "source": "네이버 프리미엄콘텐츠"
+          "title": "[속보]코스피 1.7% 하락 전환…하이닉스 -3% - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11QVFEaHNQUlNxVDRINS1BVWJUTVVib1hLQXRnWEVSYXVDdzZNRE1FN2NlSTREZHNxcTAycVFDN194RUN3Sjhra2ZvcThmTFNC?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 00:53:41 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "[특징주] 스트라드비젼, 코스닥 입성 첫날 30% 급락…실권주 발생도 부담 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYU1CYUNZVVp3QURpTTUwNmx1RURCT0M5MU04NnVvcUxmbXFlQXlhQmU5YUlCeldDZkt1S2pNa0w4NkRaWGpwQUdPNm9fTjZSTlNrS3hqaEZQc2NqMkxPVmF0MUJaOURteDl5Y2ZQVkF4Yl9XZnBieFA4d3ZiM0FzV0kwM3lLWE1P0gGcAUFVX3lxTE5DX2lKNk4yYmpXaE1VQzVaeWNLYUsteEo1MDBZb1lSLWtOaWV3Mjdzb1B4aDJ5aG1jRjlHc3RjN2pESlV1UV9UcXBlSzhZRkduLUNHaUtqOG9DcEhUbGYxYnFyQkdER0duWDNHbkdYSnJzenRxUDF0TkpGRUpoNnI0R3R2TEZVWWtNdGhwWlFYTl9yYUQ5NFlPNV9CMA?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 00:35:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "美 기술주 훈풍 무색…외인 1.3조 매도에 코스피 급락 - 경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKbDkyUUIwOGhEd2lkQlZ1R3JlbE4xU01BVURKRVhQQXdoU0JKSUhFeC15a09XVVh0cUVVNGNCclpaUGFrajI0aUxvVjNoN01CNWhN?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 00:58:07 GMT",
+          "source": "경제타임스"
+        },
+        {
+          "title": "美 반도체 훈풍도 못 막았다…외국인 '팔자'에 코스피 하락 전환 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIb1dqTzRzVGQzczNZdkJ3NnZPMWxMTFFJd0RMbERnczREbmxObG95M2NNdUNyQkd6dWlNSldhQ042R0t1VWhpRzhmRURFcm5fQ1B1MTI5WXBDSUpGVTV5cVlRam82Q19NNnc?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 01:05:38 GMT",
+          "source": "hidomin.com"
+        },
+        {
+          "title": "코스피, 美 반도체 반등에도 외인 매도세 약보합 출발[개장시황] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OaXJwTXg3RnU0YzdEd0RLdUpEVmhGcENZUWZhYzFXTXVvd0NCNjlxNTY4MHZhSXV5Ym1aXzFfbXFLUERwZVhfWURoOEU5YUQtRU9pbWpRcG5waEVXa0NJ?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 00:43:30 GMT",
+          "source": "뉴스1"
         }
       ]
     }
@@ -65,8 +83,8 @@
     "move": 68.14
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4800500000000,
-    "retail_net_buy_krw": 4597500000000,
+    "foreign_inst_buy_krw": -771100000000,
+    "retail_net_buy_krw": 735500000000,
     "margin_loan_krw": 37175400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +99,18 @@
       "sma_200": 23644.83
     },
     "kospi": {
-      "current": 8411.21,
+      "current": 8400.97,
       "high_52w": 9385.59,
-      "drop_pct": -10.38,
-      "intraday_low_drop_pct": -13.41,
-      "sma_200": 5281.8
+      "drop_pct": -10.49,
+      "intraday_low_drop_pct": -12.41,
+      "sma_200": 5334.13
     },
     "kosdaq": {
-      "current": 851.37,
+      "current": 924.18,
       "high_52w": 1229.42,
-      "drop_pct": -30.75,
-      "intraday_low_drop_pct": -31.79,
-      "sma_200": 1001.83
+      "drop_pct": -24.83,
+      "intraday_low_drop_pct": -25.82,
+      "sma_200": 1003.14
     },
     "sp500": {
       "current": 7440.43,
@@ -119,7 +137,7 @@
   "sector_rs": {
     "XLK": 1.239,
     "SMH": 1.483,
-    "BOTZ": 0.98,
+    "BOTZ": 0.981,
     "IGV": 0.985,
     "XLF": 0.948,
     "XLE": 0.741
