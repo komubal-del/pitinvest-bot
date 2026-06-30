@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-06-30T10:49:45.932036+09:00",
+  "timestamp": "2026-06-30T15:21:53.749829+09:00",
   "sentiment": {
-    "cnn_fng": 27.0285714285714,
+    "cnn_fng": 27.1714285714286,
     "cnn_components": {
       "momentum": 45.2,
-      "strength": 32.4,
-      "breadth": 16.4,
+      "strength": 32.6,
+      "breadth": 17.0,
       "put_call": 22.8,
-      "junk_bond": 4.6,
+      "junk_bond": 4.8,
       "volatility": 50.0,
       "safe_haven": 17.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 5,
+      "greed_count": 5,
+      "fear_count": 7,
       "greed_articles": [
+        {
+          "title": "[생생한 주식쇼 생쇼] 삼전닉스 레버리지 쏠림과 코스닥 반도체·바이오 차별화 전략 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iRFlOa3lwNmc2MGU2cVFEWGtTTVhUU093eGpnMTZVN1ZSQjFxZWNtdVJ5YTQzNUtjX3UtQkJRdEhIWFpzVnFVMkhLcmpBd2ZVa2c?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 05:11:03 GMT",
+          "source": "매일경제 마켓"
+        },
         {
           "title": "반도체 쏠림이 낳은 기현상… 삼전닉스 ‘투톱’ 상승이 코스닥엔 재앙? - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3BuTlRpdk9TWlhVcUN5S0oyOVEzaVpxMzhhaFl3aDZpTUQ1ZVVjREl6SlpHQTdfcVBJTVVYeDVfS29CdkF4eTFxNzc5Y29DS0c3U0szRHY3QXNIT2pWcEdhc3BzSHQtckQwa2YtX0NTbDhiN1BLTXBwRjhmT2x5TThMN0RpLTI40gGcAUFVX3lxTE84bFlQU01EbDA2N2E4M2hIQXFKZkpwUlE0RXNHbURfbXltdEt2ZFBVd1BKekc4bndRbTdOalRxM0JQVzR6UmFZYzBhTW9EUzljTnFCSkVaVmZGaktaTEtzcjlRR0NLekhiVzJzUVVjZnBXRnNOWmdYMTRCeGo0NEZ0dWJTeHVUdDlPdmoxc1BGanlyUk5HMUcxUXZRag?oc=5",
@@ -24,36 +30,42 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "증시 활황에 100억원 이상 주식부자 1년새 두 배로 늘었다 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DbW5ENUFmOFdyYnlWdkUyeW5kS0xsVEtFTXUwc0NieHhIUlVuV3VaeEEtSVFITTVsVHVXZGZRUUV6bjBQenRWaVo2azEtTktocm9MQXBzSE52UdIBVEFVX3lxTE0ySzdoRlplSm9abDJ1MzB5dUNta1JtcXBTODFUSzhHMjR5TkgyWTRDX0hSSTNfbHBvUlgzMk1rNFVjUXFRMS14ZE0zVDZGNUhqelVKcw?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 23:20:35 GMT",
-          "source": "한국경제"
+          "title": "코스피 활황에 증권거래세 4배 늘었다…올해 누적 세수 200조원 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RdWt0ZkxGT005RER5d3ByeUEyV05KQjllZUszRmR6ZWliU3U0aTVBYm1RQ19mSHRvSEQ0Rm5SWGlSU2lkTG5DOXNWcTR2YlU?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 03:04:32 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "\"반도체 쏠림 끝나지 않았다…코스닥 반등은 일시적 확산\" - 뉴스투데이",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZM3NrdXljQUFmemQxdFNKWkh2MXZFQzhGQmE0VF8xXzA5VjBmcktUeXJEZ2U2OFhLTUJzdGJvVkNGamxvZTQ4QUYzVmlvVnM5YnBFMUZxZVBxZzd4cWc?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 00:18:00 GMT",
-          "source": "뉴스투데이"
+          "title": "[생생한 주식쇼 생쇼] 삼전닉스 레버리지 쏠림과 코스닥 반도체·바이오 차별화 전략 - 매일경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByLU0zckpBbWtCcDR4Zko4dS03TFpRYWZXYUZOejVHVGtGRk9sbS1mRXVabFFXME5Gd2REOW9STmpSaTItZHp6Mmt3dm54TE5VeTlucG5yUmtXWFBEVE1mcFBGR2pvRTUy?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 04:54:00 GMT",
+          "source": "매일경제TV"
         },
         {
-          "title": "1.4조달러 빚투가 키운 美증시 불안 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SZnR0X0dHemN3Nk41TjBhbUdmUGs1VVpPVUtGME9SaFpsNy1IRjNoZUthOVRoVWM0OHZuZG56NE0zRVl4ZkJTNmJyMGgybENQcE1NcXNXTTBPd9IBVEFVX3lxTFBuQjlyM1AwVjhJZzZWQ1FfeDlRZmpCTWRpOWhFa3B2ZTdnNEVUUFgyTFdvMDVndElNUXdUX19GYlRnZlF1d19SaGptTzM4Nmk4TzZmYw?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 23:34:05 GMT",
+          "title": "\"한국 증시를 보라\" 무서운 경고…2100조 '빚투' 공포 덮쳤다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84eDdoWXliWXlCXzFzb1dNSldYZUp3bFdVcXdVRFR0QXlpRGtWTUxYR0trSTZhaDFUTmZyaWxIUGtSR3o0eU1BZUpkb183cS1WTVRocWxJLUhPUdIBVEFVX3lxTFBvc3E2VHlqU0FiMGFraGRLSXNrclcxZVp4dk9tNW8zam9KR2xpLWdBSnpjVmdPTnpfbFBZZjctUkxLcmNSZXo1M0o3VTRuTWVPaHRSZQ?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 04:11:06 GMT",
           "source": "한국경제"
         }
       ],
       "fear_articles": [
         {
+          "title": "美 반도체 훈풍도 못 막았다…외국인 '팔자'에 코스피 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JNERENjJqTUZ0OXZZU1hqN2twS1Uyd2oxa0JkMWN0WnBaSmJqdjVzb3dDVnJIUTA2dXdjT2lXRFJSdTQ0Y242aWNPNk1KSFU?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 01:05:39 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[특징주] 스트라드비젼, 코스닥 상장 첫날 40% 가까이 급락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jdDZoUDExaGJsa0hZLVlKRFd4RkJRRG1LaUVHZndNeEZHWHJKMjgwWWRaclNHOUVGbHNQM2l0ODAydGdxcEF4Xy1wdW41eWhMYjU1a01sa3Z0WnPSAWBBVV95cUxONEc4M0tuZUVKc3B5aHJfMVU2OXV0TE5ZeWZyak5kUlB6RHdMdXpqdEVPUzVIQ2Zac1AtRXhhVDFjRDliRm1Ia0p6SVNlSXppSFpuT3ZoLXRWYnpsd05XWW0?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 01:52:50 GMT",
+          "source": "연합뉴스"
+        },
+        {
           "title": "[속보]코스피 1.7% 하락 전환…하이닉스 -3% - 문화일보",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11QVFEaHNQUlNxVDRINS1BVWJUTVVib1hLQXRnWEVSYXVDdzZNRE1FN2NlSTREZHNxcTAycVFDN194RUN3Sjhra2ZvcThmTFNC?oc=5",
           "pub_date": "Tue, 30 Jun 2026 00:53:41 GMT",
           "source": "문화일보"
-        },
-        {
-          "title": "[특징주] 스트라드비젼, 코스닥 입성 첫날 30% 급락…실권주 발생도 부담 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYU1CYUNZVVp3QURpTTUwNmx1RURCT0M5MU04NnVvcUxmbXFlQXlhQmU5YUlCeldDZkt1S2pNa0w4NkRaWGpwQUdPNm9fTjZSTlNrS3hqaEZQc2NqMkxPVmF0MUJaOURteDl5Y2ZQVkF4Yl9XZnBieFA4d3ZiM0FzV0kwM3lLWE1P0gGcAUFVX3lxTE5DX2lKNk4yYmpXaE1VQzVaeWNLYUsteEo1MDBZb1lSLWtOaWV3Mjdzb1B4aDJ5aG1jRjlHc3RjN2pESlV1UV9UcXBlSzhZRkduLUNHaUtqOG9DcEhUbGYxYnFyQkdER0duWDNHbkdYSnJzenRxUDF0TkpGRUpoNnI0R3R2TEZVWWtNdGhwWlFYTl9yYUQ5NFlPNV9CMA?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 00:35:00 GMT",
-          "source": "Chosunbiz"
         },
         {
           "title": "美 기술주 훈풍 무색…외인 1.3조 매도에 코스피 급락 - 경제타임스",
@@ -62,16 +74,10 @@
           "source": "경제타임스"
         },
         {
-          "title": "美 반도체 훈풍도 못 막았다…외국인 '팔자'에 코스피 하락 전환 - hidomin.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIb1dqTzRzVGQzczNZdkJ3NnZPMWxMTFFJd0RMbERnczREbmxObG95M2NNdUNyQkd6dWlNSldhQ042R0t1VWhpRzhmRURFcm5fQ1B1MTI5WXBDSUpGVTV5cVlRam82Q19NNnc?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 01:05:38 GMT",
-          "source": "hidomin.com"
-        },
-        {
-          "title": "코스피, 美 반도체 반등에도 외인 매도세 약보합 출발[개장시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OaXJwTXg3RnU0YzdEd0RLdUpEVmhGcENZUWZhYzFXTXVvd0NCNjlxNTY4MHZhSXV5Ym1aXzFfbXFLUERwZVhfWURoOEU5YUQtRU9pbWpRcG5waEVXa0NJ?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 00:43:30 GMT",
-          "source": "뉴스1"
+          "title": "장초반 코스피는 하락 전환, 코스닥은 강보합 유지 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZYVdKdjJIVmxWX25uaVRNdk9kdEczeVc3QjJtdzNJMl9xSzNFNGZuYlNBcFloWmp6REQxY1BPRmRSS19WRHpBY3FfZWFXMVZ1UUFYd0N0NmtkU19hS0JnTQ?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 00:41:59 GMT",
+          "source": "아시아경제"
         }
       ]
     }
@@ -80,11 +86,11 @@
     "vix": 17.65,
     "vvix": 88.71,
     "skew": 144.46,
-    "move": 68.14
+    "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -771100000000,
-    "retail_net_buy_krw": 735500000000,
+    "foreign_inst_buy_krw": 43700000000,
+    "retail_net_buy_krw": -55000000000,
     "margin_loan_krw": 37175400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -99,18 +105,18 @@
       "sma_200": 23644.83
     },
     "kospi": {
-      "current": 8400.97,
+      "current": 8572.59,
       "high_52w": 9385.59,
-      "drop_pct": -10.49,
+      "drop_pct": -8.66,
       "intraday_low_drop_pct": -12.41,
-      "sma_200": 5334.13
+      "sma_200": 5334.99
     },
     "kosdaq": {
-      "current": 924.18,
+      "current": 920.56,
       "high_52w": 1229.42,
-      "drop_pct": -24.83,
-      "intraday_low_drop_pct": -25.82,
-      "sma_200": 1003.14
+      "drop_pct": -25.12,
+      "intraday_low_drop_pct": -25.96,
+      "sma_200": 1003.13
     },
     "sp500": {
       "current": 7440.43,
@@ -297,7 +303,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-06-29",
