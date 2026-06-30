@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T19:04:48.445128+09:00",
+  "timestamp": "2026-06-30T21:21:01.917899+09:00",
   "sentiment": {
     "cnn_fng": 27.1714285714286,
     "cnn_components": {
@@ -18,30 +18,30 @@
       "fear_count": 1,
       "greed_articles": [
         {
-          "title": "코스피, 3거래일 만에 상승…반도체주 저가 매수에 뛰어 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CNVZzNFRmd2kydmN6emlucWc5SmpqMm14OTlHNTVha1dGNnlEQWZuS2NpRTk0RERnNndNdTdlWHJfZ3hkM1E3dTAzUnFveklPUjU3ZU5LRFJtUl9FLXdvT0c1RmFIVDRs0gFuQVVfeXFMTzFsYjJWclBpanFNSndsRG9rczhBUDNzQmhiME9Tc09aQzU1V0VuVGtEQzZyZDdab2FrWUFoUXVXRXlzOUxFZ1E3NGtWUjBpdVFkczU0WmdwX3g2b1liaXlDRWY2MWxyZTFnUGVNQ0E?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 06:46:17 GMT",
-          "source": "머니투데이"
-        },
-        {
           "title": "코스피, 반도체 저가 매수세에 반등…삼전 3.41%·하닉 0.84% 상승 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lUk96MUkxS0lmdFphVHVyV2E2Q3BBVWY2aHFGUzA1a2J0eVJNVVNIaHVPZ0lrUThBbFVTbER2dzhvbUdKYm83MDRySWR4LTA?oc=5",
           "pub_date": "Tue, 30 Jun 2026 07:02:31 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "삼전닉스 바겐세일 끝났나…저가 매수 '우르르', 코스피도 상승 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CNVZzNFRmd2kydmN6emlucWc5SmpqMm14OTlHNTVha1dGNnlEQWZuS2NpRTk0RERnNndNdTdlWHJfZ3hkM1E3dTAzUnFveklPUjU3ZU5LRFJtUl9FLXdvT0c1RmFIVDRs0gFuQVVfeXFMTzFsYjJWclBpanFNSndsRG9rczhBUDNzQmhiME9Tc09aQzU1V0VuVGtEQzZyZDdab2FrWUFoUXVXRXlzOUxFZ1E3NGtWUjBpdVFkczU0WmdwX3g2b1liaXlDRWY2MWxyZTFnUGVNQ0E?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 06:46:17 GMT",
+          "source": "머니투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "[특징주] 스트라드비젼, 코스닥 상장 첫날 40% 급락 마감(종합) - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUS3h4ZDVlN01KcEJIck96Vjl3Qm8tOElYTWxNTmxxdXZlbkxhOUNGNEo5dE44YjdTZnpkeHppdElGY0tqa1JJN3otTXozQ29tOVE?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 07:14:06 GMT",
-          "source": "매일경제 마켓"
+          "title": "[특징주] 스트라드비젼, 코스닥 상장 첫날 40% 급락 마감(종합) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5USUdveFdlX2ZlNlVqM2VJUzFMT0YxNnd5VldTSEtGUzVsSU9pOEkxWndnTEx0em9DU1NnUVNFWWx2TmtEbngySGNOWDhSdW9Ia3hqdHpvc1dGOEt4?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 07:16:06 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.58,
+    "vix": 17.56,
     "vvix": 88.71,
     "skew": 144.46,
     "move": 66.79
