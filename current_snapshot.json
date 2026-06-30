@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T15:21:53.749829+09:00",
+  "timestamp": "2026-06-30T19:04:48.445128+09:00",
   "sentiment": {
     "cnn_fng": 27.1714285714286,
     "cnn_components": {
@@ -14,83 +14,41 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 7,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
         {
-          "title": "[생생한 주식쇼 생쇼] 삼전닉스 레버리지 쏠림과 코스닥 반도체·바이오 차별화 전략 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iRFlOa3lwNmc2MGU2cVFEWGtTTVhUU093eGpnMTZVN1ZSQjFxZWNtdVJ5YTQzNUtjX3UtQkJRdEhIWFpzVnFVMkhLcmpBd2ZVa2c?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 05:11:03 GMT",
-          "source": "매일경제 마켓"
+          "title": "코스피, 3거래일 만에 상승…반도체주 저가 매수에 뛰어 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CNVZzNFRmd2kydmN6emlucWc5SmpqMm14OTlHNTVha1dGNnlEQWZuS2NpRTk0RERnNndNdTdlWHJfZ3hkM1E3dTAzUnFveklPUjU3ZU5LRFJtUl9FLXdvT0c1RmFIVDRs0gFuQVVfeXFMTzFsYjJWclBpanFNSndsRG9rczhBUDNzQmhiME9Tc09aQzU1V0VuVGtEQzZyZDdab2FrWUFoUXVXRXlzOUxFZ1E3NGtWUjBpdVFkczU0WmdwX3g2b1liaXlDRWY2MWxyZTFnUGVNQ0E?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 06:46:17 GMT",
+          "source": "머니투데이"
         },
         {
-          "title": "반도체 쏠림이 낳은 기현상… 삼전닉스 ‘투톱’ 상승이 코스닥엔 재앙? - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3BuTlRpdk9TWlhVcUN5S0oyOVEzaVpxMzhhaFl3aDZpTUQ1ZVVjREl6SlpHQTdfcVBJTVVYeDVfS29CdkF4eTFxNzc5Y29DS0c3U0szRHY3QXNIT2pWcEdhc3BzSHQtckQwa2YtX0NTbDhiN1BLTXBwRjhmT2x5TThMN0RpLTI40gGcAUFVX3lxTE84bFlQU01EbDA2N2E4M2hIQXFKZkpwUlE0RXNHbURfbXltdEt2ZFBVd1BKekc4bndRbTdOalRxM0JQVzR6UmFZYzBhTW9EUzljTnFCSkVaVmZGaktaTEtzcjlRR0NLekhiVzJzUVVjZnBXRnNOWmdYMTRCeGo0NEZ0dWJTeHVUdDlPdmoxc1BGanlyUk5HMUcxUXZRag?oc=5",
-          "pub_date": "Mon, 29 Jun 2026 23:25:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "코스피 활황에 증권거래세 4배 늘었다…올해 누적 세수 200조원 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RdWt0ZkxGT005RER5d3ByeUEyV05KQjllZUszRmR6ZWliU3U0aTVBYm1RQ19mSHRvSEQ0Rm5SWGlSU2lkTG5DOXNWcTR2YlU?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 03:04:32 GMT",
+          "title": "코스피, 반도체 저가 매수세에 반등…삼전 3.41%·하닉 0.84% 상승 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lUk96MUkxS0lmdFphVHVyV2E2Q3BBVWY2aHFGUzA1a2J0eVJNVVNIaHVPZ0lrUThBbFVTbER2dzhvbUdKYm83MDRySWR4LTA?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 07:02:31 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[생생한 주식쇼 생쇼] 삼전닉스 레버리지 쏠림과 코스닥 반도체·바이오 차별화 전략 - 매일경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByLU0zckpBbWtCcDR4Zko4dS03TFpRYWZXYUZOejVHVGtGRk9sbS1mRXVabFFXME5Gd2REOW9STmpSaTItZHp6Mmt3dm54TE5VeTlucG5yUmtXWFBEVE1mcFBGR2pvRTUy?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 04:54:00 GMT",
-          "source": "매일경제TV"
-        },
-        {
-          "title": "\"한국 증시를 보라\" 무서운 경고…2100조 '빚투' 공포 덮쳤다 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84eDdoWXliWXlCXzFzb1dNSldYZUp3bFdVcXdVRFR0QXlpRGtWTUxYR0trSTZhaDFUTmZyaWxIUGtSR3o0eU1BZUpkb183cS1WTVRocWxJLUhPUdIBVEFVX3lxTFBvc3E2VHlqU0FiMGFraGRLSXNrclcxZVp4dk9tNW8zam9KR2xpLWdBSnpjVmdPTnpfbFBZZjctUkxLcmNSZXo1M0o3VTRuTWVPaHRSZQ?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 04:11:06 GMT",
-          "source": "한국경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "美 반도체 훈풍도 못 막았다…외국인 '팔자'에 코스피 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JNERENjJqTUZ0OXZZU1hqN2twS1Uyd2oxa0JkMWN0WnBaSmJqdjVzb3dDVnJIUTA2dXdjT2lXRFJSdTQ0Y242aWNPNk1KSFU?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 01:05:39 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[특징주] 스트라드비젼, 코스닥 상장 첫날 40% 가까이 급락 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jdDZoUDExaGJsa0hZLVlKRFd4RkJRRG1LaUVHZndNeEZHWHJKMjgwWWRaclNHOUVGbHNQM2l0ODAydGdxcEF4Xy1wdW41eWhMYjU1a01sa3Z0WnPSAWBBVV95cUxONEc4M0tuZUVKc3B5aHJfMVU2OXV0TE5ZeWZyak5kUlB6RHdMdXpqdEVPUzVIQ2Zac1AtRXhhVDFjRDliRm1Ia0p6SVNlSXppSFpuT3ZoLXRWYnpsd05XWW0?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 01:52:50 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[속보]코스피 1.7% 하락 전환…하이닉스 -3% - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11QVFEaHNQUlNxVDRINS1BVWJUTVVib1hLQXRnWEVSYXVDdzZNRE1FN2NlSTREZHNxcTAycVFDN194RUN3Sjhra2ZvcThmTFNC?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 00:53:41 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "美 기술주 훈풍 무색…외인 1.3조 매도에 코스피 급락 - 경제타임스",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKbDkyUUIwOGhEd2lkQlZ1R3JlbE4xU01BVURKRVhQQXdoU0JKSUhFeC15a09XVVh0cUVVNGNCclpaUGFrajI0aUxvVjNoN01CNWhN?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 00:58:07 GMT",
-          "source": "경제타임스"
-        },
-        {
-          "title": "장초반 코스피는 하락 전환, 코스닥은 강보합 유지 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZYVdKdjJIVmxWX25uaVRNdk9kdEczeVc3QjJtdzNJMl9xSzNFNGZuYlNBcFloWmp6REQxY1BPRmRSS19WRHpBY3FfZWFXMVZ1UUFYd0N0NmtkU19hS0JnTQ?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 00:41:59 GMT",
-          "source": "아시아경제"
+          "title": "[특징주] 스트라드비젼, 코스닥 상장 첫날 40% 급락 마감(종합) - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUS3h4ZDVlN01KcEJIck96Vjl3Qm8tOElYTWxNTmxxdXZlbkxhOUNGNEo5dE44YjdTZnpkeHppdElGY0tqa1JJN3otTXozQ29tOVE?oc=5",
+          "pub_date": "Tue, 30 Jun 2026 07:14:06 GMT",
+          "source": "매일경제 마켓"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.65,
+    "vix": 17.58,
     "vvix": 88.71,
     "skew": 144.46,
     "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 43700000000,
-    "retail_net_buy_krw": -55000000000,
+    "foreign_inst_buy_krw": -866000000000,
+    "retail_net_buy_krw": 840100000000,
     "margin_loan_krw": 37175400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,18 +63,18 @@
       "sma_200": 23644.83
     },
     "kospi": {
-      "current": 8572.59,
+      "current": 8476.48,
       "high_52w": 9385.59,
-      "drop_pct": -8.66,
+      "drop_pct": -9.69,
       "intraday_low_drop_pct": -12.41,
-      "sma_200": 5334.99
+      "sma_200": 5334.51
     },
     "kosdaq": {
-      "current": 920.56,
+      "current": 916.18,
       "high_52w": 1229.42,
-      "drop_pct": -25.12,
+      "drop_pct": -25.48,
       "intraday_low_drop_pct": -25.96,
-      "sma_200": 1003.13
+      "sma_200": 1003.1
     },
     "sp500": {
       "current": 7440.43,
@@ -205,7 +163,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
@@ -215,6 +173,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.06.30",
+            "close": 334000,
+            "change_pct": 3.41,
+            "retail_net": -104776,
+            "inst_net": 2731943,
+            "foreign_net": -2627167
+          },
           {
             "date": "2026.06.29",
             "close": 323000,
@@ -246,17 +212,17 @@
             "retail_net": -2372813,
             "inst_net": 2969153,
             "foreign_net": -596340
-          },
-          {
-            "date": "2026.06.23",
-            "close": 310000,
-            "change_pct": -12.31,
-            "retail_net": 6611276,
-            "inst_net": -4359775,
-            "foreign_net": -2251501
           }
         ],
         "hynix": [
+          {
+            "date": "2026.06.30",
+            "close": 2650000,
+            "change_pct": 0.84,
+            "retail_net": 317700,
+            "inst_net": 284306,
+            "foreign_net": -602006
+          },
           {
             "date": "2026.06.29",
             "close": 2628000,
@@ -288,14 +254,6 @@
             "retail_net": 1063672,
             "inst_net": 343532,
             "foreign_net": -1407204
-          },
-          {
-            "date": "2026.06.23",
-            "close": 2555000,
-            "change_pct": -12.47,
-            "retail_net": 1862347,
-            "inst_net": -925092,
-            "foreign_net": -937255
           }
         ]
       }
@@ -303,7 +261,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-06-29",
