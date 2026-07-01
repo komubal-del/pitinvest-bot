@@ -1,53 +1,90 @@
 {
-  "timestamp": "2026-07-01T08:52:25.659110+09:00",
+  "timestamp": "2026-07-01T13:48:12.451950+09:00",
   "sentiment": {
-    "cnn_fng": 31.2285714285714,
+    "cnn_fng": 31.3142857142857,
     "cnn_components": {
       "momentum": 59.2,
       "strength": 31.2,
       "breadth": 16.0,
       "put_call": 28.6,
-      "junk_bond": 11.6,
+      "junk_bond": 12.2,
       "volatility": 50.0,
       "safe_haven": 22.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 0,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "상반기 코스피 101% 뛰었지만…반도체 쏠림·외국인 매도·변동성 숙제로 - 이데일리TV",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hNXF1S1RnWW9Odmd2WjhaWTBEN2J3OXNpUi1kRUl3UHltNXJpZURjdUs0TTJfV1h6MHpINzN2VjRQLUlJRGg2TjFLTWZBZGVybE91Mm9sTFZOSDNQLXNBYWZPUnBSR0NOVkdLd0VDMUxLYnQyNVl0MzJXMA?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 21:00:00 GMT",
-          "source": "이데일리TV"
+          "title": "6월 수출 사상 처음 1천억달러 돌파와 증시 쏠림 현상까지 이시각 주요뉴스 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16ZWlYTUNXQUsxNElnbFFXVjFMUWJvQVpvMHJfVzlCdEVEMEN6QVRXYzN4MV80UjZROG5VTTZpWEFvcHdIZzlNaHZvSFJaYW9WY3p6U2tDOElzNHI0eGkxc0xWSExra2dzN1M1MkFuZDDSAXRBVV95cUxOS2lMYXYxanU4U3lXRVR6TUlEQTRVODg0dXVEU0lUQ0NYNnkyVVRZNkdybnBQZ0xQVERwaGJTQlVuT29MNDUxalNBOFhCY2tpWl8xbFBPSjlZY0VURFdnckVfbjBKTkNWWDU4QUZ2UHRqZHNXQg?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 02:43:01 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 상반기 101% 수직 상승, 8400선 돌파… 1999년 '닷컴버블' 넘었다 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RQ3NBRnpXOHhmbS0zQVlNMnpqVExNWkxuUkhfSjdJaHdlQkhWeFNQZFVUQl9Nc3ZxMkEwOW83T0dzOUZEaE4xNFRIUVNZZDhuZkpyZmFiV3h4dw?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 22:35:07 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "\"韓증시 AI 쏠림 위험 커졌다\"…BCA·블랙록 잇단 경고 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EZ3k0NjM2bHBPRENkakNCanFFTEY0SGtDallJUWVIV001NGJLUUxKQldQUVVKWENnU2JpREFTNGNEMWhWb3RwMF8zMDVfU1g5dFZwY1RYY3ZnSkFaME1Sd1NyVGIzN3pWRDJ2cmNKT3o?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 02:11:07 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "상반기 코스피 101% 뛰었지만…반도체 쏠림·외국인 매도·변동성 숙제로 - 이데일리",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWTN4eVhQdXVpN2gzaHotR0VKZE1adlk2aTVrUlRmUWNCWjNEWW01NFRGeVp4MlNLR0ZWdEdMNVpHWmozTFhlOGgtSWJDcm5Ob3oyRlY0ZkRxV19hTlBRY3FOeEtwYnR5ZVdSUTZjZVRvVkk2TXB1RThiWENmaUVCMw?oc=5",
-          "pub_date": "Tue, 30 Jun 2026 21:00:07 GMT",
-          "source": "이데일리"
+          "title": "美 CSIS \"韓 증시 숨겨진 거품 언젠가는 붕괴할 수도\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pb1MzTEpmYWpJY2xERUItcVl5Q2NpZHlmeEJ6cEtYbFVPSjE2XzdTUWlvbFNVNFd6UU80RWR4SWJWU3VhcHBHa1VLNVZVdGNuQzBfSjB5UkdXcGhqaDhpZm9aYVNkQ1dlSExkRUNlRDFabkhy0gF0QVVfeXFMTWlvUzNMSmZhakljbERFQi1xWXlDY2lkeWZ4QnpwS1hsVU9KMTZfN1NRaW9sU1U0V3pRTzRFZHhJYlZTdWFwcEdrVUs1VlV0Y25DMF9KMHlSR1dwaGpoOGlmb1phU2RDV2VITGRFQ2VEMVpuSHI?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 01:18:46 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "프랭클린템플턴 \"韓 증시, 반도체 쏠림 심화…'잠자는 호랑이' 찾아야\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zRm5mU3lxaVV6NGs2a2hvUks3MFFGR3c0QkVkNVpvVzVHbjVWSzFWMXhCRnpaUzJLVnNqNkw0M2pzeTlHTF9RTFZWN0NURHpraGNOaUJoekp6S1VyZkhvbjFGTkNhZ0s4YS1rRUt6WVE?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 01:19:00 GMT",
+          "source": "연합인포맥스"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "코스피, 외인·연기금 동반 매도에 하락 전환…코스닥은 2%대 급등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yTWt4YnhuWExIOEZYb1U5THRvMWU2UVZ1LUVQZ3VYOWJ0dFduYTlLbGFjVjRwVmZtYXo2TkN4a2lZWGctU1Bjb3ZUV1VHRVdOaGpsWVhFdkNwY1E5bWphU3NaSEdBakJBbjRDbUFZNk7SAXRBVV95cUxNY0FoSGlmMjhZYTctUkxOSEMxclFWeHpxN3RtczFwN0dFS3BCV2JPemNuWTJpUEtqa3BnYXlndlNqSlR5TFhSM2hpcWo1NGx6ZVRlZXZSUmN5TU9nd1hmelBZdlNDQjFYWjl0U1RXT1RTQnpoMQ?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 01:52:22 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "외인·연기금 동반 매도에 코스피 하락 전환…코스닥은 1%대 상승 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaWNfU0x3ZjY3azJUNFphbE1JbC1SdjdvX2FuVUxKRVZid1NmdUdIbV9YWjVXd1dpUmItYnJJOW1HOVhSaWRIUmh6Wk5XWC1reU1VMGZDbmdFa3hFZU9yUGF4S25UeUsyU1JsbHQ5eFl1aW04OWQ2VUlqV0s3QzFqWDR2ZVdIU0JR0gGcAUFVX3lxTE9iZEZEYTJYTE1IWmlZbzVxX1pZaFJIWUVOVW9RT0hCYUlySnJvWXdyZkhnNnFJT3RHTlBIRUxtcWpKZmtBX3NZcWNaUk5VMlp5M3RmQVJfNjU4TFJ3ZTZRcDJJWWJ6WFpFTTRUaTlRQUpvbmhJbGZ5Sy12VHRCUGctV1dwdlJTTGRfb2ZnZ1NBZ1VQVFc4ZTJOTDlMcQ?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 02:47:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피 1%대 상승 출발 뒤 하락 전환‥환율 1,549.8원으로 주간거래 시작 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pMXVkbWtTdHh6RFlUTUFXQmM5WEduUExPdF9jd251eXpkQnU2WWZ2QmppWGwtaS1Gam9HNThHX0VMWVUwWkFVUmI4d0t4SDVZemVlTHpXcTdCVXVfajZsbU5XN3JSRzJ4czVxQ0xZb0lSWUtQ0gF0QVVfeXFMTWkxdWRta1N0eHpEWVRNQVdCYzlYR25QTE90X2N3bnV5emRCdTZZZnZCamlYbC1pLUZqb0c1OEdfRUxZVTBaQVVSYjh3S3hINVl6ZWVMeldxN0JVdV9qNmxtTlc3clJHMnhzNXFDTFlvSVJZS1A?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 00:46:34 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "삼전 5%, 하닉 4% 급락 …코스피 3% 약세 8200선 밑으로[장중시황] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsYkxVUUFlRjVfenVqYkVQOHpQWlpDTUljQThPLV9mdWtSUHBWRTg1UnZERnpTSzZnd1FpRFhpSUsxdUhiZ2s0WWt2aGUtb0RKV3MzSm95RmdNSWNITDNV?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 02:25:48 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "[속보]코스피 3%급락…외인·연기금 매도 공세 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03Y1JPNk9VNXhLaWpyTHp1TGJLUi1qUDZLcGVOSk9OeUVoYm52bjNqZGdvd0I2OFlybjhRT3R6RmNsVk8zOXhxWXkwMlNpT1h2?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 02:14:46 GMT",
+          "source": "문화일보"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 16.45,
     "vvix": 86.87,
     "skew": 149.6,
-    "move": 71.96
+    "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -866000000000,
-    "retail_net_buy_krw": 840100000000,
+    "foreign_inst_buy_krw": -1480800000000,
+    "retail_net_buy_krw": 1473600000000,
     "margin_loan_krw": 37210500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -62,18 +99,18 @@
       "sma_200": 23665.68
     },
     "kospi": {
-      "current": 8394.65,
+      "current": 8383.59,
       "high_52w": 9385.59,
-      "drop_pct": -10.56,
-      "intraday_low_drop_pct": -10.56,
-      "sma_200": 5307.84
+      "drop_pct": -10.68,
+      "intraday_low_drop_pct": -13.24,
+      "sma_200": 5360.56
     },
     "kosdaq": {
-      "current": 920.57,
+      "current": 932.12,
       "high_52w": 1229.42,
-      "drop_pct": -25.12,
-      "intraday_low_drop_pct": -25.12,
-      "sma_200": 1002.45
+      "drop_pct": -24.18,
+      "intraday_low_drop_pct": -26.32,
+      "sma_200": 1003.79
     },
     "sp500": {
       "current": 7499.36,
@@ -93,7 +130,7 @@
       "current": 640.76,
       "high_52w": 655.95,
       "drop_pct": -2.32,
-      "intraday_low_drop_pct": -6.0,
+      "intraday_low_drop_pct": -6.07,
       "sma_200": 372.68
     }
   },
@@ -263,8 +300,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-06-29",
-    "analyzed_at": "2026-06-29T13:53:40.900008+09:00",
+    "date": "2026-07-01",
+    "analyzed_at": "2026-07-01T13:48:16.996197+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -272,16 +309,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "vAnFMgnU95g",
-        "title": "반도체 독주 끝나나? 7월 시장의 진짜 변수는 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-06-29T00:31:56Z",
-        "url": "https://youtube.com/watch?v=vAnFMgnU95g",
+        "video_id": "Y44aBFHainU",
+        "title": "역대 가장 뜨거웠던 코스피…하반기도 승승장구 가능할까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-01T00:16:36Z",
+        "url": "https://youtube.com/watch?v=Y44aBFHainU",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란과 제목에는 특정 투자 방향에 대한 구체적인 행동 권고(매수/매도/비중 축소 등) 없이 시장의 변동 가능성과 분석 주제만 제시되어 있습니다."
+          "reason": "제공된 텍스트는 영상 설명란으로, 전문가의 직접적인 시장 분석이나 투자 권고가 담겨 있지 않고 주로 채널 관련 정보 및 광고로 구성되어 있습니다. 제목은 시장 상황에 대한 질문을 던질 뿐, 특정 투자 행동을 권장하지 않습니다."
         }
       },
       {
@@ -294,7 +331,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란은 특정 주식이나 시장 전반에 대한 구체적인 매수/매도 권고 없이, 전문가들의 심층 토론 및 교육 과정 홍보에 집중하고 있습니다."
+          "reason": "전문가의 영상 설명란은 특정 종목의 매수/매도를 권하거나 시장의 상승/하락을 직접적으로 예측하기보다는, 투자 교육 프로그램과 전문가들을 홍보하는 내용으로 구성되어 있어 중립적입니다."
         }
       }
     ],
