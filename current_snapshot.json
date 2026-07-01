@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T07:24:18.858618+09:00",
+  "timestamp": "2026-07-02T08:49:25.776487+09:00",
   "sentiment": {
     "cnn_fng": 31.9142857142857,
     "cnn_components": {
@@ -14,10 +14,66 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 4,
+      "fear_count": 19,
+      "greed_articles": [
+        {
+          "title": "\"2배도 부족해\" 개미 레버리지 투자 과열…증시 흔들고 환율도 밀어 올려 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLbk9zYlhCYV9mMTRmNHZETG83b2tzdUptRjdTd1FBbEFBLVNiQnNQVWpZLUNsTjVpbTVPS3hwcU5uN3JjMnhhcTZCVEJ3c3c?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 21:02:34 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "\"2배도 부족해\" 개미 레버리지 투자 과열…증시 흔들고 환율도 밀어 올려 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5abWxfVlEzSGI0aXNHZDlvcnRyQldMZ0hJZHpBMG5xalYxRkJLYzllUHdmSk1Bc080NkdRZE9jVWhrUVUzVktyOVZJZmpWVDFweTFUWHQ0V25EWm0zYnNJ?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 21:00:00 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "[모닝 리포트] \"코스피, 반도체 고점 부담에 숨고르기 전망…전력·방산 순환매 주목\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kY2JpMmxNVWlQcWl6MXhGeWNMbkVtWVFMQkF3Mm9VVUdUbjJjTFR4X29TYzJ2RGtPTTZzS1lIZ3lFVXExUUZ6bHZrcWxHRVVHN2s4eGxKQ1NmbnM4?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 23:42:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "코스피 2배 뛰었는데…\"3조 강제청산 당했다\" 빚투개미 '피눈물' - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zT3FjeDV2OVBTN3VfeWI0V3RrcUV2SEVad1VtSHM4bVJMSm9kV25ZZ0ZubmZJczVlUDdsVTZYZThCWlRjcVlUYndHZHVDMTJWQXlhajRXOTBLZlFUOElGUtIBeEFVX3lxTE1ock1hZ2Q2RzFzYVcxd2RwZDVWWC1uSktMeGFleDFMSVpoQXRXbTFLbnlVVUdMVTNwY2Qwd0tSNTJjNTlpb0ZxR1dsXzNYSWFPTWZXVHNiSDhaQkpsMUViUFZHazZWWHBiYWFfN3BwSmZxX2ExS0NyNA?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 22:00:00 GMT",
+          "source": "뉴시스"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMSVFVbFMzZzIwNUZIcmZOSV9tZ0daN2RJMTFwQWVUSnRpMXl4WmpmUWxmeC1pNXpEcF9KQjFFN2xmYlFzZGdFSFNBdEZILXVNTTJsUUk0X0txZ0nSAWBBVV95cUxQczVRZHVqVVVtMl9vM204OWE4cGJLSXdXUUxrajVIWHUxU1B3dzBtTGlrNWE4bktxYnhxMkZWOGdpOEdJOG1LOXMxZy1CVVBxMWpXZk1CeTkyYWtmS0ZTQ0Q?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 20:10:48 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kbmg2NlBHVTdQRnM4c0NZTXFzVnd6d1c1TElxUzc5bVJZcU9fUEczTk1Mdm8tVExJWVE4MDk1czdVa0hKRy1pczdmLXBDYk4zRkczWWtBME9MT3M?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 20:27:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "[뉴욕증시] AI 컴퓨팅 용량 남아돈다는데…반도체주 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54Y2k3Sjc1RnNjYnJuY2RjdHJRRHAtZVhFWnZKOHV2NVo1VDdUWEJOaFdPTlg0WG9JbFBSM0V6a3pJUTZDcUxWSFFhcDViYkJPU1h2TTZOT2lFdkNJOU4xTDIxd1A3Z1Nlc3loVWpESUI?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 20:52:09 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "뉴욕증시, 기술주 매도세에 하락 출발 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rS1pqalNPMFVTQ05zWXpLMkxWMG03LVVHOXlaVVBNdmEwWmJBQlBDYTdnQV9IdGRzd2VoeEVDU3lXYlFQNHdMaVRLMjRmOTZueVZIZ1VYZ1FUS2xkNTgwNm5WbFFwSk52VDlnQW1hYm8?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 16:04:29 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "“삼전닉스 호남 투자는 붕괴 신호탄”…마이크론 10% 급락, 뉴욕증시 약세 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLamZIalAxLU8wOW5lYkVHOVFYb25JZ3VkUVdnOVB1OFZKUkhzbUNjSFNUS0E0Y2VFWDVmZm5Yd3ptb3JjSjFaSDJsZVRxbnhr?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 23:02:59 GMT",
+          "source": "문화일보"
+        }
+      ]
     }
   },
   "volatility": {
@@ -29,7 +85,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -1772800000000,
     "retail_net_buy_krw": 1737000000000,
-    "margin_loan_krw": 37210500000000,
+    "margin_loan_krw": 36735200000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
