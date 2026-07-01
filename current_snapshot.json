@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-01T17:53:49.420732+09:00",
+  "timestamp": "2026-07-01T21:14:59.837663+09:00",
   "sentiment": {
     "cnn_fng": 30.5142857142857,
     "cnn_components": {
@@ -14,39 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 7,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "프랭클린템플턴 \"韓 증시, 반도체 쏠림 심화…'잠자는 호랑이' 찾아야\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zRm5mU3lxaVV6NGs2a2hvUks3MFFGR3c0QkVkNVpvVzVHbjVWSzFWMXhCRnpaUzJLVnNqNkw0M2pzeTlHTF9RTFZWN0NURHpraGNOaUJoekp6S1VyZkhvbjFGTkNhZ0s4YS1rRUt6WVE?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 01:19:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "반도체가 만든 코스피 신기록, 단타 과열도 키웠다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XUkY4YXVQaEM0RWJMRWx6ZHVuU2VWdm5qdlh0WmctaGFYQzU5SGM3MHh1LXU5QS1jMDR0MXNLZXY2R090UjFvaTI2QzFnRms?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 05:25:08 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "증시 롤러코스터에 '빚투' 비명…지난달 반대매매 하루 평균 535억원 - 마켓인",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLYnpnd2l4Z0swbmFmSzdrbDZrLWRvaHlzU2RyM2hqMWZudVhCc3Bfb1hkc05jRVZ2WjRlS3NPOFRLZWtiVThraTEyQmxBWjlOSElIOFBQX3BUSzIzQ3VMQ1ZIakdLemRkdmpKaHJtWUY2bVE?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 07:47:16 GMT",
-          "source": "마켓인"
+          "title": "[상반기 증시 결산②] 반도체 독주에 밀린 코스닥…대장주 부진·ETF 쏠림에 '소외' - 뉴시안",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QYVdpM0ZvX0I3cnVxWW5qZkVkcWFSbGkyNUdCN3JMVkdDNy1aM0s0emxVS2lZbmk4THpqT2FXOHFDblpHZExVcFJDWUdIUWp3Q1FOWTZhZVlqOEZEQVEyNWFVTWtmc0xWTHfSAW5BVV95cUxPb1dQZHZHYzdSdFA4ZEJoekpqRk56d2NSSE1hMy1FSjlvZkh4bThZUEZRX3NlUFJXaGt2dHJOR2FUMlBaVGVEZl9JVU9JTFYyZWxxUE04a3RrRGRUZGJhT3dvUE1BazROeGxjOG9tQQ?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 09:00:00 GMT",
+          "source": "뉴시안"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 장중 3%대 급락해 8,100대…삼전·닉스 낙폭 확대(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZRFdlTzBua2c3anZ0UnhaR1MxbWdnYUtpRWgyd2Q4RDVIclg5cUw5OWRVcWQtcGpkd2o2eGVudlRpWTZZak1NM0VKX0dJazBWRmxnTjFJV2VZYXPSAWBBVV95cUxQbVY5c0ZjZjhIcHA0b3pjX3ZCangxQ2hfSlZ4NW12NkFoLXFXVkUxMndrUzRFUzlxVTEtelBIcFk0Vm1LLVByOUFrNDFDMEJCOGxOejJabnR1RHFBWkhRTWU?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 05:40:26 GMT",
-          "source": "연합뉴스"
-        },
-        {
           "title": "정부는 ‘지라시’와 전쟁 중…초과이익 공유, 성과급 백지화 코스피 급락설까지 - 중앙일보",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hNnlEVDRKMWRXVUQzbTBhTEk2bGZxeUpiakMzZzBiMGhxYUw4WV9VejBERDBQZUxnVnNNVHFkbXlQeGZNaVZRUTFZOVFrdzRoRURTN1Z3?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 07:27:18 GMT",
+          "pub_date": "Wed, 01 Jul 2026 11:15:21 GMT",
           "source": "중앙일보"
         },
         {
@@ -56,29 +38,35 @@
           "source": "KBS 뉴스"
         },
         {
+          "title": "코스피, 장중 3%대 급락해 8,100대…삼전·닉스 낙폭 확대(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZRFdlTzBua2c3anZ0UnhaR1MxbWdnYUtpRWgyd2Q4RDVIclg5cUw5OWRVcWQtcGpkd2o2eGVudlRpWTZZak1NM0VKX0dJazBWRmxnTjFJV2VZYXPSAWBBVV95cUxQbVY5c0ZjZjhIcHA0b3pjX3ZCangxQ2hfSlZ4NW12NkFoLXFXVkUxMndrUzRFUzlxVTEtelBIcFk0Vm1LLVByOUFrNDFDMEJCOGxOejJabnR1RHFBWkhRTWU?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 02:19:11 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "외국인 1.7조 '팔자'에 반도체주 급락…코스피 8300선 후퇴 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10NWdjdzUxTllpcHFHTFdiU1l4VmVjbDRkOTZaaE9fX2hkbHE4OTdPRkZBc1F2Sm1leWotbEN1TVFlWXlRcGRTY1h3MDJuMzhMX2lnSzQtVUREQXVoMWQwZw?oc=5",
+          "pub_date": "Wed, 01 Jul 2026 08:11:03 GMT",
+          "source": "뉴스토마토"
+        },
+        {
           "title": "[오늘의증시] 반도체 쉬어가자 코스피 2% 급락…하반기 첫날 ‘순환매’ 장세 - 경인방송 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01SXpYU1RkWmx3Uk93dEc5ZU14b2s3MDk4WWtYb2tnNTV5QlFaeDA4bGFpNDRFYUlmeUFuZFFRb21laUNtWEtrWFF6NTFmbkk0ZV9lWW1MT2xwZWpYQ0I3Z2dpQUrSAWhBVV95cUxOSF92NFhyM3pUMmJvOG4yeEhKdGRzWU16RlBqSzVJaU0zSFRXUVNLdm01aExpZG5CZnZHc2dRaW9xVUs4Njg5YVcxZ2JvVFZrbkZKVjZUWU1EWTZvZDFRM2wySzg4bTBwWQ?oc=5",
           "pub_date": "Wed, 01 Jul 2026 08:37:16 GMT",
           "source": "경인방송 뉴스"
-        },
-        {
-          "title": "정부는 ‘지라시’와 전쟁 중…초과이익 공유, 성과급 백지화 코스피 급락설까지 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vWW54Q1p6VTBvLVJZWGVFSXhCOURNMkVmNHE2dlcwTmRTQTJEVkJwWkdKTlNhQldXRERvcW11NUNpMXJidVZKcjBPZ0JkTW8?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 07:29:05 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.96,
+    "vix": 16.75,
     "vvix": 86.87,
     "skew": 149.6,
     "move": 66.79
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -1772800000000,
-    "retail_net_buy_krw": 1738900000000,
+    "retail_net_buy_krw": 1737000000000,
     "margin_loan_krw": 37210500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -193,7 +181,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
@@ -203,6 +191,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.07.01",
+            "close": 314500,
+            "change_pct": -5.84,
+            "retail_net": 5233757,
+            "inst_net": -1855765,
+            "foreign_net": -3377992
+          },
           {
             "date": "2026.06.30",
             "close": 334000,
@@ -234,17 +230,17 @@
             "retail_net": -1637990,
             "inst_net": 3411480,
             "foreign_net": -1773490
-          },
-          {
-            "date": "2026.06.24",
-            "close": 340500,
-            "change_pct": 9.84,
-            "retail_net": -2372813,
-            "inst_net": 2969153,
-            "foreign_net": -596340
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.01",
+            "close": 2560000,
+            "change_pct": -3.4,
+            "retail_net": 312084,
+            "inst_net": -308954,
+            "foreign_net": -3130
+          },
           {
             "date": "2026.06.30",
             "close": 2650000,
@@ -276,14 +272,6 @@
             "retail_net": -751901,
             "inst_net": 865177,
             "foreign_net": -113276
-          },
-          {
-            "date": "2026.06.24",
-            "close": 2580000,
-            "change_pct": 0.98,
-            "retail_net": 1063672,
-            "inst_net": 343532,
-            "foreign_net": -1407204
           }
         ]
       }
