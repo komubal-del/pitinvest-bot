@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-03T06:41:27.357505+09:00",
+  "timestamp": "2026-07-03T07:46:17.762015+09:00",
   "sentiment": {
     "cnn_fng": 31.4285714285714,
     "cnn_components": {
@@ -14,15 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 4,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 8,
+      "greed_articles": [
+        {
+          "title": "월스트리트저널(WSJ) \"AI 반도체 쏠림에 흔들리는 코스피…빚투·레버리지 폭증에 '반대매매 공포' 확산\" - 데일리저널",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84c0hPWU11VHUydTVCWVU0RWNpOWhIcTZzNDBqX3NfcDhqd1YzTGZUTnJ2M1JHXy16X3ppZUx3U0hHc1hMd1FCaXZMLV8zbjFzNlhGN3p0VllRUllvSW9CZVVMaE5hTEdlVVE?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 21:37:32 GMT",
+          "source": "데일리저널"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "6월 소비자물가 급등… 코스피·코스닥 폭락 [한강로 경제브리핑] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80cDRwWU8ybXlPaU8xWlpWLUtVZW9ZNkRzcFVtblRqUUw2MkxaT181UzY4c05CZkxqQlBTaE5nU3VVQWRrUEZEVW8tNW5maUE?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 21:04:29 GMT",
+          "title": "[뉴욕증시] 금리 압박 줄어 다우 신기록, 반도체 폭락에 제자리 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95ZGJHVkEwM2RtVXo5LU04WFBBMlowZTh2cEtXZ1BsX1BPY1EydXMxNTZScEh5emNmSXRHRHlrQ0NzcmRjZ3phLTZldlZpSE0?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 21:49:45 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "뉴욕증시, 반도체 급락에 혼조…다우 사상 최고치 경신 - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03bTMyVFptQTVZUUFsdEhFc3lBMFdOcGNvU3JkTk5sSTRjSno3RzNaRWpsWkQ5Z2kxQUVHaUkybU85N0FNTjVsM2dlZ2p0RDIzWGdQWWZobFJWWjYxWDBfRmxNUnVEZW8?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 22:25:45 GMT",
+          "source": "세종의소리"
+        },
+        {
+          "title": "[0703개장체크] 美 증시, 반도체 및 AI 관련주 차익실현 투매 지속 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94Y3BUM1FDcFo2a0JoWFR2aGVhOWlEUXNaUjBUbHlwSGpQMlB3OFpvbkhEY2FLejZPaTllN2dnRUwtZW1FVDc2dnB6MElmUXREYmVYdTRzZjlvX1pzM2QwcDV0N1ptNldLOUEyOWxpZnQzMmprS2c?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 22:41:18 GMT",
+          "source": "인포스탁데일리"
         },
         {
           "title": "[뉴욕증시] '고용 쇼크'에 다우 594p↑...반도체 폭락 나스닥 207p↓ - 글로벌이코노믹",
@@ -35,12 +54,6 @@
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNNUxwNmJ5b2xqNE9SMG9ZbU5fNWdETjF6WlZWdERMY0xSTks3Qkl0QXp3SFZ0OWZURzJEM2pFa2NpNFpwRmdPdEFmeXBPaDBFRXdsWnNlNk9hUQ?oc=5",
           "pub_date": "Thu, 02 Jul 2026 20:40:00 GMT",
           "source": "파이낸셜뉴스"
-        },
-        {
-          "title": "코스피 급락에도 7월은 통계상 ‘상승의 달’⋯“실적 눈높이가 복병” - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XRmlWYjU4aTRhRmk4bmVBdG5EVktkTHN0MWgyY3FkUkJscnRjd2c4bHA4OGR3eVhWMVppdllHUTdSU0FQTnU0OS1XZWpJOWxJWkh3aA?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 20:00:00 GMT",
-          "source": "이투데이"
         }
       ]
     }
@@ -54,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -6453100000000,
     "retail_net_buy_krw": 6241300000000,
-    "margin_loan_krw": 36735200000000,
+    "margin_loan_krw": 36743600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
