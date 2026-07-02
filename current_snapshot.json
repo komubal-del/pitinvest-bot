@@ -1,77 +1,71 @@
 {
-  "timestamp": "2026-07-02T08:49:25.776487+09:00",
+  "timestamp": "2026-07-02T13:15:18.875259+09:00",
   "sentiment": {
-    "cnn_fng": 31.9142857142857,
+    "cnn_fng": 31.9714285714286,
     "cnn_components": {
       "momentum": 50.0,
       "strength": 35.0,
       "breadth": 15.8,
       "put_call": 34.4,
-      "junk_bond": 11.2,
+      "junk_bond": 11.6,
       "volatility": 50.0,
       "safe_haven": 27.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 19,
+      "greed_count": 3,
+      "fear_count": 41,
       "greed_articles": [
         {
-          "title": "\"2배도 부족해\" 개미 레버리지 투자 과열…증시 흔들고 환율도 밀어 올려 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLbk9zYlhCYV9mMTRmNHZETG83b2tzdUptRjdTd1FBbEFBLVNiQnNQVWpZLUNsTjVpbTVPS3hwcU5uN3JjMnhhcTZCVEJ3c3c?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 21:02:34 GMT",
+          "title": "코스피, 메타발 '메모리 쇼크' 극복하나 … 저가 매수세 유입, 8000 탈환 - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CdGpoV2E4VklrRnRhSGhGMG9nZ0ZoVXdEa3ktYkFuQTI4YUVSaWU3QVhLbUlWM1J3bnFKTzdDaXgtQzdoazg0bEpReXJRRUsyajhIY25GOTk1SDI4N09YRjQyV0I3WXlKbzZ6RkpCajJ5VHVjeEYyQmNaY9IBgAFBVV95cUxNaFZGMGdnZWotTFBQMGVlbWFITWR1eE5KbWdjdW14NEpFeEl0NVljczdrX0hyMmtGaU1Nc01PRUVyV2J3WHZPUVFRbVBKYVlpVklsZkpvOEk1a2xUSGdZRmdnWnkzSjNROTN1LWE0TzNyVjRabVZUbmRxRERxNzBZSA?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 02:10:24 GMT",
+          "source": "뉴데일리"
+        },
+        {
+          "title": "\"美증시의 AI 집중도 닷컴 버블 붕괴 당시 수준\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XcWV4WDZZNF9mTGU0My1zVm5hRG1lRHpqeUFLSTJQbmgtdjNQTjFrYXVZQmRiaXNQbW9yS1FLNG43a0lvdmhtQ08xZnAxUk9Qbmp0Ykh2UnI4ZHZ1SElnLVh3Wm16UlpSSFpYTXd1eGI?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 02:41:33 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "\"한국 증시 급락, 美 AI 관련 종목까지 흔들어\"⋯월가, ETF 과열 투자 '경고' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsRHRiNGpxZEZaVDd5UTJGbnpvbXd2N1F0aUVGTDJIenExTktTM0w1MHEwaTl3WHlyS2ppazQ0WTRPOXNWRVYzWG9ocV9fSmc?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:19:00 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "\"2배도 부족해\" 개미 레버리지 투자 과열…증시 흔들고 환율도 밀어 올려 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5abWxfVlEzSGI0aXNHZDlvcnRyQldMZ0hJZHpBMG5xalYxRkJLYzllUHdmSk1Bc080NkdRZE9jVWhrUVUzVktyOVZJZmpWVDFweTFUWHQ0V25EWm0zYnNJ?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 21:00:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "[모닝 리포트] \"코스피, 반도체 고점 부담에 숨고르기 전망…전력·방산 순환매 주목\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kY2JpMmxNVWlQcWl6MXhGeWNMbkVtWVFMQkF3Mm9VVUdUbjJjTFR4X29TYzJ2RGtPTTZzS1lIZ3lFVXExUUZ6bHZrcWxHRVVHN2s4eGxKQ1NmbnM4?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 23:42:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "코스피 2배 뛰었는데…\"3조 강제청산 당했다\" 빚투개미 '피눈물' - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zT3FjeDV2OVBTN3VfeWI0V3RrcUV2SEVad1VtSHM4bVJMSm9kV25ZZ0ZubmZJczVlUDdsVTZYZThCWlRjcVlUYndHZHVDMTJWQXlhajRXOTBLZlFUOElGUtIBeEFVX3lxTE1ock1hZ2Q2RzFzYVcxd2RwZDVWWC1uSktMeGFleDFMSVpoQXRXbTFLbnlVVUdMVTNwY2Qwd0tSNTJjNTlpb0ZxR1dsXzNYSWFPTWZXVHNiSDhaQkpsMUViUFZHazZWWHBiYWFfN3BwSmZxX2ExS0NyNA?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 22:00:00 GMT",
-          "source": "뉴시스"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMSVFVbFMzZzIwNUZIcmZOSV9tZ0daN2RJMTFwQWVUSnRpMXl4WmpmUWxmeC1pNXpEcF9KQjFFN2xmYlFzZGdFSFNBdEZILXVNTTJsUUk0X0txZ0nSAWBBVV95cUxQczVRZHVqVVVtMl9vM204OWE4cGJLSXdXUUxrajVIWHUxU1B3dzBtTGlrNWE4bktxYnhxMkZWOGdpOEdJOG1LOXMxZy1CVVBxMWpXZk1CeTkyYWtmS0ZTQ0Q?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 20:10:48 GMT",
+          "title": "[속보]코스피, 5% 급락에 매도사이드카 발동…8000선 붕괴 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvSUlNQk1SdE5sQUd3Z1FucTAxT25ZZWZ1b3VBZEhKckdSMTVLRW5xaW9OTlBmbFZFcFM2UUJJUlVkQWY2OFFXWEt0bWttNG4xbG9nZEF6bGpqUdIBX0FVX3lxTE1IWlR3eDVQU2U1Uk5YWVNHOTRPYmNEMy1nOGo2Q0lVOEh2SXVUOVFybXp4aC04a0lPMkpGMzluYWNLOFRUOFZDUE9feHFUY0RYMUNKbG1SdEd6R1pXU1JN?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:12:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "미국발 반도체 한파에 코스피 장중 6% 넘게 폭락... 매도 사이드카 발동 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkhLWjhpc0NVcDVVTlBkbll4MUhaVGJ0ZU1xSFVmMmlJeklCYXZTUDd5VVNGMGZpNEM2N1Bzb0VmZ1N6NGZPVkhLYXZJcEtTcVFOYTR4bGYzVUE2TlRKa2ZaR2ZYX0VPWlFhUWRVRnkzWUMyYjBpSmdBT3ZRcGlvTw?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:03:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "코스피 급락 장중 7,700대까지 밀려‥뉴욕 기술주 약세에 삼전·닉스도 7~8% 급락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91WkdRaWphTklGODhNaGpKTTlpT2ZjZ2lIM0NRRk9uWXdkcWc0a3FaVEJXUmdUalZIQWFtRi1zR2Z2YXppaDJYdk9sV01OZEw3TWcxVWlNbXFQNnJPbGNDTU5IdzV2VlVxT2FCWFFhRTBRUUY30gF0QVVfeXFMTU4xRFRfdDRTME04WGN0YmxqUkhxX3FlSExWMmtnRXFkRWppQjh2NXhHUkNmbkFrTV9EbEh0UXBObjBuQWV4YVBtM29DOEg2SHNQWTJQMXpJa2hvNGgzUXBXb2taR0pFeU1XQ2p3MkxIMWFBbUU?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 01:35:28 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "美기술주 약세에 코스피 5%대 급락 8,000선 '붕괴' - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15cVQ4anRLaFhyd3dnXzV6YXlZQnoxUGpsaVZBbXFVdE5qdVRJQ0pZMlV6WmlSVVprano4MDVMSUpMa1JRVHFSRHRmWndaMUhjWXlMdk0xb0VwQ3d6VzQ2Ug?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:49:02 GMT",
+          "source": "KBC광주방송"
+        },
+        {
+          "title": "코스피, 美기술주 삭풍에 5%대 급락 8,000선 내줘(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ha04tSlZjbXl2aFpfdUk1ZWpLcS1taXc0cUJIR3d3MEFEMENDcE9oa0pPaFhnd1BIb2lfRkhrNVQ3cDNiOU1JdlE5dzFGN0ZBMXViN3lEUzRIdmPSAWBBVV95cUxOWFRaTXd3ZWNzMjF6a3FyWV9JUExTV2czX2xLNVd1OGNVRldzOTdTSlN2OXE0MnNKaDYyZVZQLUN2bGZRMlIxRTVQTXd2LXltWkNYS1Rwb1N1TnBqQ2RFSFY?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:33:50 GMT",
           "source": "연합뉴스"
-        },
-        {
-          "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kbmg2NlBHVTdQRnM4c0NZTXFzVnd6d1c1TElxUzc5bVJZcU9fUEczTk1Mdm8tVExJWVE4MDk1czdVa0hKRy1pczdmLXBDYk4zRkczWWtBME9MT3M?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 20:27:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "[뉴욕증시] AI 컴퓨팅 용량 남아돈다는데…반도체주 급락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54Y2k3Sjc1RnNjYnJuY2RjdHJRRHAtZVhFWnZKOHV2NVo1VDdUWEJOaFdPTlg0WG9JbFBSM0V6a3pJUTZDcUxWSFFhcDViYkJPU1h2TTZOT2lFdkNJOU4xTDIxd1A3Z1Nlc3loVWpESUI?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 20:52:09 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "뉴욕증시, 기술주 매도세에 하락 출발 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rS1pqalNPMFVTQ05zWXpLMkxWMG03LVVHOXlaVVBNdmEwWmJBQlBDYTdnQV9IdGRzd2VoeEVDU3lXYlFQNHdMaVRLMjRmOTZueVZIZ1VYZ1FUS2xkNTgwNm5WbFFwSk52VDlnQW1hYm8?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 16:04:29 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "“삼전닉스 호남 투자는 붕괴 신호탄”…마이크론 10% 급락, 뉴욕증시 약세 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLamZIalAxLU8wOW5lYkVHOVFYb25JZ3VkUVdnOVB1OFZKUkhzbUNjSFNUS0E0Y2VFWDVmZm5Yd3ptb3JjSjFaSDJsZVRxbnhr?oc=5",
-          "pub_date": "Wed, 01 Jul 2026 23:02:59 GMT",
-          "source": "문화일보"
         }
       ]
     }
@@ -80,11 +74,11 @@
     "vix": 16.59,
     "vvix": 89.04,
     "skew": 154.82,
-    "move": 68.56
+    "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1772800000000,
-    "retail_net_buy_krw": 1737000000000,
+    "foreign_inst_buy_krw": -2951300000000,
+    "retail_net_buy_krw": 2849500000000,
     "margin_loan_krw": 36735200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -99,18 +93,18 @@
       "sma_200": 23685.17
     },
     "kospi": {
-      "current": 8476.48,
+      "current": 7932.09,
       "high_52w": 9385.59,
-      "drop_pct": -9.69,
-      "intraday_low_drop_pct": -12.41,
-      "sma_200": 5334.51
+      "drop_pct": -15.49,
+      "intraday_low_drop_pct": -17.71,
+      "sma_200": 5383.9
     },
     "kosdaq": {
-      "current": 916.18,
+      "current": 882.53,
       "high_52w": 1229.42,
-      "drop_pct": -25.48,
-      "intraday_low_drop_pct": -25.96,
-      "sma_200": 1003.1
+      "drop_pct": -28.22,
+      "intraday_low_drop_pct": -28.5,
+      "sma_200": 1004.21
     },
     "sp500": {
       "current": 7483.23,
@@ -300,8 +294,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-07-01",
-    "analyzed_at": "2026-07-01T13:48:16.996197+09:00",
+    "date": "2026-07-02",
+    "analyzed_at": "2026-07-02T13:15:23.648073+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -309,16 +303,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "Y44aBFHainU",
-        "title": "역대 가장 뜨거웠던 코스피…하반기도 승승장구 가능할까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-01T00:16:36Z",
-        "url": "https://youtube.com/watch?v=Y44aBFHainU",
+        "video_id": "ZcWzqnANFpY",
+        "title": "반도체 급락에도 AI는 끝나지 않았다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-02T00:25:37Z",
+        "url": "https://youtube.com/watch?v=ZcWzqnANFpY",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 텍스트는 영상 설명란으로, 전문가의 직접적인 시장 분석이나 투자 권고가 담겨 있지 않고 주로 채널 관련 정보 및 광고로 구성되어 있습니다. 제목은 시장 상황에 대한 질문을 던질 뿐, 특정 투자 행동을 권장하지 않습니다."
+          "reason": "영상 제목에서 반도체 급락이라는 리스크와 AI 산업의 지속 가능성을 동시에 언급하며 특정 섹터의 상황을 설명하지만, 구체적인 투자 행동을 권고하는 문구는 없습니다."
         }
       },
       {
@@ -331,7 +325,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가의 영상 설명란은 특정 종목의 매수/매도를 권하거나 시장의 상승/하락을 직접적으로 예측하기보다는, 투자 교육 프로그램과 전문가들을 홍보하는 내용으로 구성되어 있어 중립적입니다."
+          "reason": "제공된 내용에는 매수/매도/현금화 등 구체적인 투자 행동 권고가 명확히 언급되어 있지 않으며, 주로 영상의 주제(삼전, 하이닉스 미래 전망)와 전문가 강좌 홍보에 대한 설명입니다."
         }
       }
     ],
