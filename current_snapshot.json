@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T19:49:34.065928+09:00",
+  "timestamp": "2026-07-02T22:03:09.312101+09:00",
   "sentiment": {
     "cnn_fng": 30.4571428571429,
     "cnn_components": {
@@ -14,27 +14,39 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 49,
+      "greed_count": 4,
+      "fear_count": 47,
       "greed_articles": [
         {
-          "title": "[퇴근길머니] ’반도체 쇼크’에 파랗게 질린 증시…’빚투 개미’의 눈물 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdnNMbTBJQmJ1UTJFdmxTQzBRTVNmOEhmbmhEcHVxWVNzVjhZSFYxWDVqTUFqbDR5bXVJbkstZ0laZEp2ZFA5TDdGZ1BDNEMzUnZ2a0hnOEo2bUpua2VaeDJRakxXV2c?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 08:28:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "상반기 코스피 2배 뛸때…‘빚투’ 개미는 3조 강제청산 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41STUzTm1ySFNfQmtYQjJQODV1dzRlYktXSjVYLUplTmFrU0R3TUJHVnVEXzVxVkxrVktfN1FnU2ZraU1IZU5VVE9fWlk3X2NF?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 12:28:37 GMT",
+          "source": "문화일보"
         },
         {
           "title": "메타발 악재에 8000 무너진 코스피…삼전·닉스 쏠림에 연일 급등락 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1VFBBNUQ5eHJnQVJPenlWdnMtZjJsZ3dpRGhxclZ2aDUzaDFLZ3Z3NG9FS0dmV3VDZTZ4SHA4OFoxLTdaaWxtbnFSLTNWcUZia3dRMWVtdkdIYkV1NXZRX0FrUUNUUU0?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 10:21:00 GMT",
+          "pub_date": "Thu, 02 Jul 2026 11:13:00 GMT",
           "source": "한겨레"
+        },
+        {
+          "title": "[퇴근길머니] '반도체 쇼크'에 파랗게 질린 증시…'빚투 개미'의 눈물 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIX3piall4WER1aUZmbEJ6UXJ0c2dQcGlfWUR0dVpoNnNYaC1xS3FEMWxBUm1qM0p2RFowdnJtRnFlRFNCUW5Qb3BmcmNtNlE?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 08:30:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 '8천피' 이탈에도 공포지수 하락…반도체 쏠림 완화에 순환매 조짐 - 티제이비",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBWVdPUDBTcjJHZTN3WmJfd0t6UmhYVEtBOTZFUkZ3SjgxcHY2a0JteHdNeUlWWndjWUw1dVVDUWJZQ0ZLQjZYZmtvU3kxYndXanZ1RjlNdThXd1pC?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 08:00:49 GMT",
+          "source": "티제이비"
         }
       ],
       "fear_articles": [
         {
-          "title": "’반도체 약세’에 코스피 7%대 급락…7,600선 마감 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DNDd1RFNzajl2amZIcG5wRzRpWjVOVkdIU3Z6cnN4TjNqMS1VRjZjZ0dsRWVhYjducjNhUVRLVW1jeU9ZMjdocHB2UXFnelc1LWJpaUVwUjVxSFE3ZmJRZ3p4aEdKVWM?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 06:39:00 GMT",
+          "title": "반도체 우려에 코스피 ’검은 목요일’…8% 폭락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FSW1HSXdVd3JSUngzRlllNUItQ3pBV09JZndMVWhlemF2NEFiTTZjbFJCTi0taV81U1RxS0taanlSVjVWa055R3k1MFJUMTlqNmJTZ2VsblRySF9TTFBZRUdwRk9STEk?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 11:32:00 GMT",
           "source": "연합뉴스TV"
         },
         {
@@ -44,28 +56,28 @@
           "source": "조선일보"
         },
         {
-          "title": "'반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqV05ZcTRNVFlrb3RYbFlQX0FlS3MxdU1PVXVJcTBNWkpVNHF3dHAtR0xtTHpsMWZVcWhTSGg1Smh2cld6bXZNMnVaT1BtSTR0aUdZdWpZSzQxd2fSAWBBVV95cUxOUTgzUUJWYXFkMkJOUmlTb3NxZTNWTWItZlU5WFNqZlZiVVh4YVVnS2hvZmdNLUoyMlVLTmJ2Rnh5TGhWQXgxb2hBTTNndDM5MTRUQkIwbFhmMHlVZm52VUI?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 06:38:36 GMT",
+          "title": "[속보]코스피, 5% 급락에 매도사이드카 발동…8000선 붕괴 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvSUlNQk1SdE5sQUd3Z1FucTAxT25ZZWZ1b3VBZEhKckdSMTVLRW5xaW9OTlBmbFZFcFM2UUJJUlVkQWY2OFFXWEt0bWttNG4xbG9nZEF6bGpqUdIBX0FVX3lxTE1IWlR3eDVQU2U1Uk5YWVNHOTRPYmNEMy1nOGo2Q0lVOEh2SXVUOVFybXp4aC04a0lPMkpGMzluYWNLOFRUOFZDUE9feHFUY0RYMUNKbG1SdEd6R1pXU1JN?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:12:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "[증시_마감] 코스피, 外人·기관 동반 매도에 7.89% 급락…코스닥 6%대 하락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yRnhqQnM0cDhCSTNRTHRTTHlNdTNlYUdINEJ6MGVSSnNNblR4c19jSVVkSzlCemxHSnZ4VXBfQXdWc2NLV3RUX1p1UFc4QXVxMG1IVS1pak51dXFtOXZ5NmpxYjM5eEhxcGs4M2loNGc?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 06:54:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "'반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wY3ZsTE9MUUVoTmRxdGZIUFBSaW0zTkRfTTFieThWcEphNFZxRDJhcDVEdlJHcmJSVWRIbDF5QkVkRUEzbWlFYTlNNDVXRmw5RllYaEJyOHowYWPSAWBBVV95cUxQSWZQdVBTLXJzWjdrd3RhdFI3OXZIY3VPM3cxLVRWMERxV0V5Vm1KbTZIVE95STVSVURqT3RwNjY5RGRfM0NOQXlpbnJEQjBZWFBhTDR0WWhQSkpURjA4Q0w?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 07:23:39 GMT",
           "source": "연합뉴스"
-        },
-        {
-          "title": "미국 기술주 충격에 코스피 급락…8천대 붕괴 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wYlZobzhGTGZiRm5UOUpKR2pqN3d4T3pSYnV1TFdLMThLN1dCVnhHajFBNGh3c2NTNlg3STVYYnJHand6dDdxMDF0VEYyRkNpVVZEQm42WlNMb0k?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 08:03:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "메타발 AI 수요 우려에 반도체주 급락…코스피 7,600선대로 추락 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHV1luRGdtbDJXR0hnRjBnMFFTVGNma0J4X1BLMWkxSlRZLVBCQThfcUxnQ0hERDI2Sjc5T3IyRXV0V21MTWVzUWl3ckN5a1h5Z1dJcXhPQUtVQ2VHN0JyMEdFTUR2dmJIcG9VaWtGcUXSAXRBVV95cUxQcUJ6VTFGdmZZbDBsU2pYb190dVFoc1lTMTRMVUQyMzBCTW9fanNObG1lWDJhOU5sNl9EUGlHRjgyeFg2aUFKNGVXZE1oSURNMVBDWGF4LVZ3OUZ3R2xfd1V1ZmVDMGNVb0J5SGgwSUlFSWVQVA?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 07:37:20 GMT",
-          "source": "산경투데이"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.69,
+    "vix": 16.0,
     "vvix": 89.04,
     "skew": 154.82,
     "move": 66.79
