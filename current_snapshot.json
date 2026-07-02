@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-02T13:15:18.875259+09:00",
+  "timestamp": "2026-07-02T16:48:35.981330+09:00",
   "sentiment": {
-    "cnn_fng": 31.9714285714286,
+    "cnn_fng": 30.4571428571429,
     "cnn_components": {
       "momentum": 50.0,
-      "strength": 35.0,
-      "breadth": 15.8,
+      "strength": 36.4,
+      "breadth": 15.2,
       "put_call": 34.4,
       "junk_bond": 11.6,
       "volatility": 50.0,
@@ -14,26 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 41,
+      "greed_count": 1,
+      "fear_count": 55,
       "greed_articles": [
         {
-          "title": "코스피, 메타발 '메모리 쇼크' 극복하나 … 저가 매수세 유입, 8000 탈환 - 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CdGpoV2E4VklrRnRhSGhGMG9nZ0ZoVXdEa3ktYkFuQTI4YUVSaWU3QVhLbUlWM1J3bnFKTzdDaXgtQzdoazg0bEpReXJRRUsyajhIY25GOTk1SDI4N09YRjQyV0I3WXlKbzZ6RkpCajJ5VHVjeEYyQmNaY9IBgAFBVV95cUxNaFZGMGdnZWotTFBQMGVlbWFITWR1eE5KbWdjdW14NEpFeEl0NVljczdrX0hyMmtGaU1Nc01PRUVyV2J3WHZPUVFRbVBKYVlpVklsZkpvOEk1a2xUSGdZRmdnWnkzSjNROTN1LWE0TzNyVjRabVZUbmRxRERxNzBZSA?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 02:10:24 GMT",
-          "source": "뉴데일리"
-        },
-        {
-          "title": "\"美증시의 AI 집중도 닷컴 버블 붕괴 당시 수준\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XcWV4WDZZNF9mTGU0My1zVm5hRG1lRHpqeUFLSTJQbmgtdjNQTjFrYXVZQmRiaXNQbW9yS1FLNG43a0lvdmhtQ08xZnAxUk9Qbmp0Ykh2UnI4ZHZ1SElnLVh3Wm16UlpSSFpYTXd1eGI?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 02:41:33 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "\"한국 증시 급락, 美 AI 관련 종목까지 흔들어\"⋯월가, ETF 과열 투자 '경고' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsRHRiNGpxZEZaVDd5UTJGbnpvbXd2N1F0aUVGTDJIenExTktTM0w1MHEwaTl3WHlyS2ppazQ0WTRPOXNWRVYzWG9ocV9fSmc?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 00:19:00 GMT",
-          "source": "v.daum.net"
+          "title": "[뉴스나우] 코스피, 한때 8천 선 붕괴...고개 드는 반도체 거품론? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9paG4tNVhmbDFwekx3OHZVOThQNTJ1OUZxX0ZqZnpDOG1fdzY4SWhWVURXSmk4aUJqWGFrT0VLRS1Dd0xIenRlYVd5SUdCSFg1dzQxTThlOHluM2hYd1E?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 03:56:00 GMT",
+          "source": "YTN"
         }
       ],
       "fear_articles": [
@@ -44,41 +32,41 @@
           "source": "경향신문"
         },
         {
-          "title": "미국발 반도체 한파에 코스피 장중 6% 넘게 폭락... 매도 사이드카 발동 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkhLWjhpc0NVcDVVTlBkbll4MUhaVGJ0ZU1xSFVmMmlJeklCYXZTUDd5VVNGMGZpNEM2N1Bzb0VmZ1N6NGZPVkhLYXZJcEtTcVFOYTR4bGYzVUE2TlRKa2ZaR2ZYX0VPWlFhUWRVRnkzWUMyYjBpSmdBT3ZRcGlvTw?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 00:03:00 GMT",
-          "source": "조선일보"
+          "title": "[증시_마감] 코스피, 外人·기관 동반 매도에 7.89% 급락…코스닥 6%대 하락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yRnhqQnM0cDhCSTNRTHRTTHlNdTNlYUdINEJ6MGVSSnNNblR4c19jSVVkSzlCemxHSnZ4VXBfQXdWc2NLV3RUX1p1UFc4QXVxMG1IVS1pak51dXFtOXZ5NmpxYjM5eEhxcGs4M2loNGc?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 06:54:50 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 급락 장중 7,700대까지 밀려‥뉴욕 기술주 약세에 삼전·닉스도 7~8% 급락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91WkdRaWphTklGODhNaGpKTTlpT2ZjZ2lIM0NRRk9uWXdkcWc0a3FaVEJXUmdUalZIQWFtRi1zR2Z2YXppaDJYdk9sV01OZEw3TWcxVWlNbXFQNnJPbGNDTU5IdzV2VlVxT2FCWFFhRTBRUUY30gF0QVVfeXFMTU4xRFRfdDRTME04WGN0YmxqUkhxX3FlSExWMmtnRXFkRWppQjh2NXhHUkNmbkFrTV9EbEh0UXBObjBuQWV4YVBtM29DOEg2SHNQWTJQMXpJa2hvNGgzUXBXb2taR0pFeU1XQ2p3MkxIMWFBbUU?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 01:35:28 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "美기술주 약세에 코스피 5%대 급락 8,000선 '붕괴' - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15cVQ4anRLaFhyd3dnXzV6YXlZQnoxUGpsaVZBbXFVdE5qdVRJQ0pZMlV6WmlSVVprano4MDVMSUpMa1JRVHFSRHRmWndaMUhjWXlMdk0xb0VwQ3d6VzQ2Ug?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 00:49:02 GMT",
+          "title": "급락장에 코스피 이어 코스닥 시장서도 매도 사이드카 발동 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fRWl6V05xWGlyTUNJTWQ1XzNZcldFNUVLM3pMOVlvR1NLMko5TTI4Y1kzVUdsTXhmVHRna2FMOXdCaG9IMVM5cmFtV3dmT2wtV3ZQQnJPTUljcS1lUHpReA?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 04:04:52 GMT",
           "source": "KBC광주방송"
         },
         {
-          "title": "코스피, 美기술주 삭풍에 5%대 급락 8,000선 내줘(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ha04tSlZjbXl2aFpfdUk1ZWpLcS1taXc0cUJIR3d3MEFEMENDcE9oa0pPaFhnd1BIb2lfRkhrNVQ3cDNiOU1JdlE5dzFGN0ZBMXViN3lEUzRIdmPSAWBBVV95cUxOWFRaTXd3ZWNzMjF6a3FyWV9JUExTV2czX2xLNVd1OGNVRldzOTdTSlN2OXE0MnNKaDYyZVZQLUN2bGZRMlIxRTVQTXd2LXltWkNYS1Rwb1N1TnBqQ2RFSFY?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 00:33:50 GMT",
-          "source": "연합뉴스"
+          "title": "’반도체 약세’에 코스피 7%대 급락…7,600선 마감 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DNDd1RFNzajl2amZIcG5wRzRpWjVOVkdIU3Z6cnN4TjNqMS1VRjZjZ0dsRWVhYjducjNhUVRLVW1jeU9ZMjdocHB2UXFnelc1LWJpaUVwUjVxSFE3ZmJRZ3p4aEdKVWM?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 06:39:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "미국발 반도체 한파에 코스피 이어 코스닥도 5% 넘게 폭락...매도 사이드카 발동 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkhLWjhpc0NVcDVVTlBkbll4MUhaVGJ0ZU1xSFVmMmlJeklCYXZTUDd5VVNGMGZpNEM2N1Bzb0VmZ1N6NGZPVkhLYXZJcEtTcVFOYTR4bGYzVUE2TlRKa2ZaR2ZYX0VPWlFhUWRVRnkzWUMyYjBpSmdBT3ZRcGlvTw?oc=5",
+          "pub_date": "Thu, 02 Jul 2026 00:03:00 GMT",
+          "source": "조선일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.59,
+    "vix": 16.96,
     "vvix": 89.04,
     "skew": 154.82,
     "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2951300000000,
-    "retail_net_buy_krw": 2849500000000,
+    "foreign_inst_buy_krw": -6453200000000,
+    "retail_net_buy_krw": 6266100000000,
     "margin_loan_krw": 36735200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +81,18 @@
       "sma_200": 23685.17
     },
     "kospi": {
-      "current": 7932.09,
+      "current": 7648.09,
       "high_52w": 9385.59,
-      "drop_pct": -15.49,
-      "intraday_low_drop_pct": -17.71,
-      "sma_200": 5383.9
+      "drop_pct": -18.51,
+      "intraday_low_drop_pct": -18.85,
+      "sma_200": 5382.48
     },
     "kosdaq": {
-      "current": 882.53,
+      "current": 866.72,
       "high_52w": 1229.42,
-      "drop_pct": -28.22,
-      "intraday_low_drop_pct": -28.5,
-      "sma_200": 1004.21
+      "drop_pct": -29.5,
+      "intraday_low_drop_pct": -29.74,
+      "sma_200": 1004.13
     },
     "sp500": {
       "current": 7483.23,
