@@ -1,22 +1,35 @@
 {
-  "timestamp": "2026-07-03T10:19:54.750818+09:00",
+  "timestamp": "2026-07-03T14:03:51.941360+09:00",
   "sentiment": {
-    "cnn_fng": 31.4285714285714,
+    "cnn_fng": 31.8857142857143,
     "cnn_components": {
       "momentum": 48.0,
-      "strength": 36.8,
-      "breadth": 16.8,
+      "strength": 41.6,
+      "breadth": 19.4,
       "put_call": 43.8,
-      "junk_bond": 0.2,
+      "junk_bond": 0.8,
       "volatility": 50.0,
       "safe_haven": 24.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 18,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 17,
+      "greed_articles": [
+        {
+          "title": "亞증시 혼조세…키옥시아, 급락 후 저가 매수에 7% 급반등 [Asia오전] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mc3loZm1QWFNHSDI0Q0t2OHp1SWJLaTFuMzI5aW1GaHo5bWhLdl8wZzRlQjJidDJNRmV0RGcxLWlNY2dWWnY1dGYyNVVWMVY3RXhqMXVvNDJlWXhBQnJLS2p2YnEzbjZNd0lZcXln0gFuQVVfeXFMTWZzeWhmbVBYU0dIMjRDS3Y4enVJYktpMW4zMjlpbUZoejltaEt2XzBnNGVCMmJ0Mk1GZXREZzEtaU1jZ1ZadjV0ZjI1VVYxVjdFeGoxdW80MmVZeEFCcktLanZicTNuNk13SVlxeWc?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 04:21:56 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "꺼지지 않는 AI 거품론에 7500선도 내준 코스피 - ntoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9adlJLcUJBNmtCSUdEd0l3aWdSMmNyUmpWRDMwaGZwVXhxSU94XzVwczUwSUZmOHRtRjZxT3FMR3ZoRHlkckpzSUJFYy01TGt6aHJZMUdxVEhhbXd6cmJ5bUFmWTNYLTVncGpJ0gFvQVVfeXFMTjR0Sms3LTZYRFFNQjduYlc5MDZ0T0xxWUM4ei1ad3NCTUVCdko0U2RCLXNpVnl4R3ZtQ0pSQ254U09KNjhPbWpFeWM4azRPX0FSZnBBZUd0dmRzUTN4ZkVfUzR0VEJENzR1UUFYc3NJ?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 00:55:35 GMT",
+          "source": "ntoday.co.kr"
+        }
+      ],
       "fear_articles": [
         {
           "title": "코스피 하락 전환…코스닥 2%대 약세 - KBS 뉴스",
@@ -31,22 +44,22 @@
           "source": "전자신문"
         },
         {
-          "title": "코스피, 전날 폭락 딛고 1.20% 상승 출발…코스닥도 0.98%↑ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5abHBDV3FHYVYxb0JNRXRmNC1udHVQZElDWGh2aUtXZ3VENjlpN0dWWWQ5RklQSXVZS3pyVFh3TnFfQnBSS2FFY1Bfa3E3a0xuSlVadEptN0NhcWFSVXNoUEJpUzJmR1U?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 00:05:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "키움증권 \"은행주, 코스피 급락속 상대적 피난처\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QRFBPSE1lREUxSW43Q09IU0d6Mm1RMV8tODhiX3loQ0hPcVY1QklOanc4UTkzUTVucEpIUWN2ZWRBTk5pRC1Ebk1UZnAzNXJybDZsN2VjZU1jSVRDejk4ZVljV2U2X2pJbkRyT0pZNElmcXU1VlFnajAtNA?oc=5",
-          "pub_date": "Thu, 02 Jul 2026 23:30:13 GMT",
+          "title": "급락 딛고 반등 출발한 코스피…다시 하락 전환 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoWkQxR3djR1NnRkF5TUtDZUxYQjZsYzFsbGo5ZWVYN1FqNnNsX3BGQlBRYmVWNmxIemloRUpLNVFPLVA0dFVDbEQ3bC00alBzbTJfRjEyb3AySXhOc241MtIBYEFVX3lxTFBoWkQxR3djR1NnRkF5TUtDZUxYQjZsYzFsbGo5ZWVYN1FqNnNsX3BGQlBRYmVWNmxIemloRUpLNVFPLVA0dFVDbEQ3bC00alBzbTJfRjEyb3AySXhOc241Mg?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 01:24:56 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "[0703개장체크] 美 증시, 반도체 및 AI 관련주 차익실현 투매 지속 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YbGRxX0ZLcEluTlZVenUwSjJHMnNVRFM4YlBKYjNjZDVyZWRpTmhUVEpTZDhMck9HWHFaSXBGT2hYTWRSbnl3US1NekNQa2Q0cFlCR2FrVGd5MlJKa0VpSVZTbm4tZk8tZFdtc2poMFQ?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 00:14:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "[속보]메타발 수요 우려에 삼전·닉스 급락했다 반등…코스피 4%대 회복 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TcGdWU0JoWVY0S2ZMQkhsS1A5ODg2NDE0Y2VkTTZuQlZWeWgzSXlYaXBvWV9vdnhEMmZ3VDdYOEhzTTVoZ2R6WTRkek0wcHVy?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 04:47:21 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "반도체 급락 후 급등‥요동치는 코스피 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sc2lEVDFuaGkxRDQtWFRqVjU4Y2xCcHZvYllVR0xPNGpFTkVvWUtlTGFYNmRhaXVYbHJhd3hCTjVOODRubGt4M0RQN09ncE1xR0ZjV3ZMSk4xdjFSUGY3OXNwVU55Q1V2bUczLURjSEg3dmF5TDJ3Sg?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 03:05:37 GMT",
+          "source": "MBC 뉴스"
         }
       ]
     }
@@ -55,11 +68,11 @@
     "vix": 16.15,
     "vvix": 88.8,
     "skew": 150.02,
-    "move": 65.4
+    "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -126700000000,
-    "retail_net_buy_krw": 77300000000,
+    "foreign_inst_buy_krw": 1275900000000,
+    "retail_net_buy_krw": -1355400000000,
     "margin_loan_krw": 36743600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +87,18 @@
       "sma_200": 23702.59
     },
     "kospi": {
-      "current": 7400.17,
+      "current": 8024.41,
       "high_52w": 9385.59,
-      "drop_pct": -21.15,
+      "drop_pct": -14.5,
       "intraday_low_drop_pct": -21.39,
-      "sma_200": 5403.48
+      "sma_200": 5406.6
     },
     "kosdaq": {
-      "current": 824.57,
+      "current": 855.1,
       "high_52w": 1229.42,
-      "drop_pct": -32.93,
+      "drop_pct": -30.45,
       "intraday_low_drop_pct": -32.98,
-      "sma_200": 1003.92
+      "sma_200": 1004.38
     },
     "sp500": {
       "current": 7483.24,
@@ -272,7 +285,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-07-02",
