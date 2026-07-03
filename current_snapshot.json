@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-03T14:03:51.941360+09:00",
+  "timestamp": "2026-07-03T17:19:57.846113+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -14,65 +14,52 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 17,
-      "greed_articles": [
+      "greed_count": 0,
+      "fear_count": 13,
+      "greed_articles": [],
+      "fear_articles": [
         {
-          "title": "亞증시 혼조세…키옥시아, 급락 후 저가 매수에 7% 급반등 [Asia오전] - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mc3loZm1QWFNHSDI0Q0t2OHp1SWJLaTFuMzI5aW1GaHo5bWhLdl8wZzRlQjJidDJNRmV0RGcxLWlNY2dWWnY1dGYyNVVWMVY3RXhqMXVvNDJlWXhBQnJLS2p2YnEzbjZNd0lZcXln0gFuQVVfeXFMTWZzeWhmbVBYU0dIMjRDS3Y4enVJYktpMW4zMjlpbUZoejltaEt2XzBnNGVCMmJ0Mk1GZXREZzEtaU1jZ1ZadjV0ZjI1VVYxVjdFeGoxdW80MmVZeEFCcktLanZicTNuNk13SVlxeWc?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 04:21:56 GMT",
+          "title": "아침 급락 때 판 당신, 속았다…코스피 8088.34 급등 마감 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOXBjNkpDQUxLRU9jOFlmRW1mUVZ3VGV2bU9ZdzY2NzJhd0VscEN4ajQ3NnRRY0traDVSb0ZWdDZyX2pMTXd4a25DTjhwTXpnc1EtQWlscFJ2NkxUbXY0cW81YXc1Vkh20gFuQVVfeXFMTy1mekd6ZlplRDVUbTFoN3VUNHZOeGNvMmVCMHlab2ZWZTFXOGNXeVYxaElReDZXdDVabng2TG5QelBIc1h1NDFvNXJHWV8wSlRtZDlOcHNLb3BaOHRGMUdVMHRfa2FtdUVKTnJOR1E?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 06:56:57 GMT",
           "source": "머니투데이"
         },
         {
-          "title": "꺼지지 않는 AI 거품론에 7500선도 내준 코스피 - ntoday.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9adlJLcUJBNmtCSUdEd0l3aWdSMmNyUmpWRDMwaGZwVXhxSU94XzVwczUwSUZmOHRtRjZxT3FMR3ZoRHlkckpzSUJFYy01TGt6aHJZMUdxVEhhbXd6cmJ5bUFmWTNYLTVncGpJ0gFvQVVfeXFMTjR0Sms3LTZYRFFNQjduYlc5MDZ0T0xxWUM4ei1ad3NCTUVCdko0U2RCLXNpVnl4R3ZtQ0pSQ254U09KNjhPbWpFeWM4azRPX0FSZnBBZUd0dmRzUTN4ZkVfUzR0VEJENzR1UUFYc3NJ?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 00:55:35 GMT",
-          "source": "ntoday.co.kr"
-        }
-      ],
-      "fear_articles": [
+          "title": "코스피, 급락 하루만에 급반등…5.76% 상승 8,000선 회복 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JakI5bFM1cU1jM0hJb1FDY19DcHB5M3cxaVJiOUVKZFhyS0Y2bFJIaW9MUERnRDlvcG9YRmQxMGVDOXN0N0V6NVRlUGMtTkJsdS02NmFCeXdYZ3EzSFR2ddIBYEFVX3lxTE9JakI5bFM1cU1jM0hJb1FDY19DcHB5M3cxaVJiOUVKZFhyS0Y2bFJIaW9MUERnRDlvcG9YRmQxMGVDOXN0N0V6NVRlUGMtTkJsdS02NmFCeXdYZ3EzSFR2dQ?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 06:38:30 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피, 급락 하루 만에 급반등...5.76% 상승 8,000선 회복 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5USTl2eGswanMzOS1ORnk0U2NqbWpSdUtONFc0OXg1M2Zwd09GNVJRNVNPQTdJU1hNaXVGTFlYbWZlRFFWb1VXNFhTSV9FeW1KT2dxQWx2Q1NmMDlWVEMxaA?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 07:05:38 GMT",
+          "source": "KBC광주방송"
+        },
+        {
+          "title": "코스피, 장중 3% 급락 뒤 극적 반등…반도체 급등에 8000선 회복 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1SVVkNTRXbVZKOTRaS053RnhQZVNNWG4tbkFCMU9LTmstM05OZWlSclg0dTkxOHdWc0N0RmI1ZWJ3aUNHVWs5NTU3eWxmN2RFNUNOSGc5NEZrT05xZEx0NXZPeUlZd1pMLWc?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 07:45:55 GMT",
+          "source": "hidomin.com"
+        },
         {
           "title": "코스피 하락 전환…코스닥 2%대 약세 - KBS 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jQ1hCcVlXcjBmV09NbGRieVlGYy1waFpRNnRicld2QnotSVRhcUlsb0g1X0U4ODZoS1AwYjd6MXBPQWM0dmRZQmtJdFdjSVFzaEpvc0hIZnRSNG8?oc=5",
           "pub_date": "Fri, 03 Jul 2026 00:42:00 GMT",
           "source": "KBS 뉴스"
-        },
-        {
-          "title": "코스피, 1%대 상승 출발 후 하락 전환…반도체 매도 압력 지속 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSS0h0bmZneElIR2RiTFI2dXFZZURILU8xbVE1cTYtLUliaEVlalVDRlBmTXJjOXFuOGptMUEyTnZvMU9laGd3dDBwb0Y5UQ?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 00:31:24 GMT",
-          "source": "전자신문"
-        },
-        {
-          "title": "급락 딛고 반등 출발한 코스피…다시 하락 전환 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoWkQxR3djR1NnRkF5TUtDZUxYQjZsYzFsbGo5ZWVYN1FqNnNsX3BGQlBRYmVWNmxIemloRUpLNVFPLVA0dFVDbEQ3bC00alBzbTJfRjEyb3AySXhOc241MtIBYEFVX3lxTFBoWkQxR3djR1NnRkF5TUtDZUxYQjZsYzFsbGo5ZWVYN1FqNnNsX3BGQlBRYmVWNmxIemloRUpLNVFPLVA0dFVDbEQ3bC00alBzbTJfRjEyb3AySXhOc241Mg?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 01:24:56 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[속보]메타발 수요 우려에 삼전·닉스 급락했다 반등…코스피 4%대 회복 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TcGdWU0JoWVY0S2ZMQkhsS1A5ODg2NDE0Y2VkTTZuQlZWeWgzSXlYaXBvWV9vdnhEMmZ3VDdYOEhzTTVoZ2R6WTRkek0wcHVy?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 04:47:21 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "반도체 급락 후 급등‥요동치는 코스피 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sc2lEVDFuaGkxRDQtWFRqVjU4Y2xCcHZvYllVR0xPNGpFTkVvWUtlTGFYNmRhaXVYbHJhd3hCTjVOODRubGt4M0RQN09ncE1xR0ZjV3ZMSk4xdjFSUGY3OXNwVU55Q1V2bUczLURjSEg3dmF5TDJ3Sg?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 03:05:37 GMT",
-          "source": "MBC 뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.15,
+    "vix": 15.89,
     "vvix": 88.8,
     "skew": 150.02,
     "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1275900000000,
-    "retail_net_buy_krw": -1355400000000,
+    "foreign_inst_buy_krw": 2232800000000,
+    "retail_net_buy_krw": -2294300000000,
     "margin_loan_krw": 36743600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +74,18 @@
       "sma_200": 23702.59
     },
     "kospi": {
-      "current": 8024.41,
+      "current": 8088.34,
       "high_52w": 9385.59,
-      "drop_pct": -14.5,
+      "drop_pct": -13.82,
       "intraday_low_drop_pct": -21.39,
-      "sma_200": 5406.6
+      "sma_200": 5406.92
     },
     "kosdaq": {
-      "current": 855.1,
+      "current": 868.41,
       "high_52w": 1229.42,
-      "drop_pct": -30.45,
+      "drop_pct": -29.36,
       "intraday_low_drop_pct": -32.98,
-      "sma_200": 1004.38
+      "sma_200": 1004.44
     },
     "sp500": {
       "current": 7483.24,
