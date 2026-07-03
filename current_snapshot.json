@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-03T17:19:57.846113+09:00",
+  "timestamp": "2026-07-03T20:05:10.918087+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -15,21 +15,9 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 13,
+      "fear_count": 12,
       "greed_articles": [],
       "fear_articles": [
-        {
-          "title": "아침 급락 때 판 당신, 속았다…코스피 8088.34 급등 마감 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOXBjNkpDQUxLRU9jOFlmRW1mUVZ3VGV2bU9ZdzY2NzJhd0VscEN4ajQ3NnRRY0traDVSb0ZWdDZyX2pMTXd4a25DTjhwTXpnc1EtQWlscFJ2NkxUbXY0cW81YXc1Vkh20gFuQVVfeXFMTy1mekd6ZlplRDVUbTFoN3VUNHZOeGNvMmVCMHlab2ZWZTFXOGNXeVYxaElReDZXdDVabng2TG5QelBIc1h1NDFvNXJHWV8wSlRtZDlOcHNLb3BaOHRGMUdVMHRfa2FtdUVKTnJOR1E?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 06:56:57 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "코스피, 급락 하루만에 급반등…5.76% 상승 8,000선 회복 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JakI5bFM1cU1jM0hJb1FDY19DcHB5M3cxaVJiOUVKZFhyS0Y2bFJIaW9MUERnRDlvcG9YRmQxMGVDOXN0N0V6NVRlUGMtTkJsdS02NmFCeXdYZ3EzSFR2ddIBYEFVX3lxTE9JakI5bFM1cU1jM0hJb1FDY19DcHB5M3cxaVJiOUVKZFhyS0Y2bFJIaW9MUERnRDlvcG9YRmQxMGVDOXN0N0V6NVRlUGMtTkJsdS02NmFCeXdYZ3EzSFR2dQ?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 06:38:30 GMT",
-          "source": "연합뉴스"
-        },
         {
           "title": "코스피, 급락 하루 만에 급반등...5.76% 상승 8,000선 회복 - KBC광주방송",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5USTl2eGswanMzOS1ORnk0U2NqbWpSdUtONFc0OXg1M2Zwd09GNVJRNVNPQTdJU1hNaXVGTFlYbWZlRFFWb1VXNFhTSV9FeW1KT2dxQWx2Q1NmMDlWVEMxaA?oc=5",
@@ -37,10 +25,22 @@
           "source": "KBC광주방송"
         },
         {
-          "title": "코스피, 장중 3% 급락 뒤 극적 반등…반도체 급등에 8000선 회복 - hidomin.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1SVVkNTRXbVZKOTRaS053RnhQZVNNWG4tbkFCMU9LTmstM05OZWlSclg0dTkxOHdWc0N0RmI1ZWJ3aUNHVWs5NTU3eWxmN2RFNUNOSGc5NEZrT05xZEx0NXZPeUlZd1pMLWc?oc=5",
-          "pub_date": "Fri, 03 Jul 2026 07:45:55 GMT",
-          "source": "hidomin.com"
+          "title": "코스피, 급락 하루만에 급반등…5.76% 상승 8,000선 회복 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LaDFjazdSVVN2VmNMS3JVb0h4MDlLTXBLcFNCbm9KZU80akhUYzJwY3RTcml2MzVYalhkSGRCcmtZOF91elVzMDU5VzlXZHcxTmdOZk1KTTdVQTjSAWBBVV95cUxPSWpCOWxTNXFNYzNISW9RQ2NfQ3BweTN3MWlSYjlFSmRYcktGNmxSSGlvTFBEZ0Q5b3BvWEZkMTBlQzlzdDdFejVUZVBjLU5CbHUtNjZhQnl3WGdxM0hUdnU?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 06:38:30 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[퇴근길머니] 코스피, 급락 딛고 V자 반등…삼전·닉스 레버리지 '블랙홀' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZU1c5bk9PVElTOXhjTmd6bXFRYlhzZ0FSWktIMkFsNENsQXBWUFRwaV9vSkNMbkRKeVZtYzJvQjJuZEJ4MXFwVDJwWGc0ZDA?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 08:21:49 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 급락 후 5%대 극적 반등…8000선 탈환 - 팍스경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MdXM2MTlhcWZEZklfUE5Cbm9RNnZBS0tZUHNwY2tIdlpPWEdVRUp4MzloS0RMcWlaWkdoVkMxNGpMZVowbGFrX0lrNjRfOVRkMnVwX1ZPUDBUMXM5U3dBOXVCRnV5QzA?oc=5",
+          "pub_date": "Fri, 03 Jul 2026 08:32:24 GMT",
+          "source": "팍스경제TV"
         },
         {
           "title": "코스피 하락 전환…코스닥 2%대 약세 - KBS 뉴스",
@@ -52,14 +52,14 @@
     }
   },
   "volatility": {
-    "vix": 15.89,
+    "vix": 15.92,
     "vvix": 88.8,
     "skew": 150.02,
     "move": 66.79
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2232800000000,
-    "retail_net_buy_krw": -2294300000000,
+    "foreign_inst_buy_krw": 2232900000000,
+    "retail_net_buy_krw": -2294200000000,
     "margin_loan_krw": 36743600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -174,16 +174,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.07.03",
+            "close": 309500,
+            "change_pct": 8.22,
+            "retail_net": -3004074,
+            "inst_net": 4369649,
+            "foreign_net": -1365575
+          },
           {
             "date": "2026.07.02",
             "close": 286000,
@@ -215,17 +223,17 @@
             "retail_net": 9457995,
             "inst_net": 2446957,
             "foreign_net": -11904952
-          },
-          {
-            "date": "2026.06.26",
-            "close": 339500,
-            "change_pct": -5.3,
-            "retail_net": 9569590,
-            "inst_net": -3593889,
-            "foreign_net": -5975701
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.03",
+            "close": 2425000,
+            "change_pct": 10.88,
+            "retail_net": -326499,
+            "inst_net": 1071876,
+            "foreign_net": -745377
+          },
           {
             "date": "2026.07.02",
             "close": 2187000,
@@ -257,14 +265,6 @@
             "retail_net": 991803,
             "inst_net": 276941,
             "foreign_net": -1268744
-          },
-          {
-            "date": "2026.06.26",
-            "close": 2673000,
-            "change_pct": -8.36,
-            "retail_net": 1913145,
-            "inst_net": -1065176,
-            "foreign_net": -847969
           }
         ]
       }
