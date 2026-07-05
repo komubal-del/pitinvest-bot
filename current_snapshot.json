@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T03:47:12.647940+09:00",
+  "timestamp": "2026-07-06T05:01:38.516734+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3Z4NW5uQ1Mzdy1iN1V0V3pGNUtWdkdJcnZDQlE1UXVJQWtCN3NxZjVHbzBGemdkVmVneWZTenNmUXkxb3BaT2kybzMzS1p0LVg5S0FRR1FIZ2Z1dFkxYzJxaFJ5ZVNBSkx5YWlYdDlKQlZKLTI4dGNMR0tiWHRuX3FkUXc3WEh3?oc=5",
+          "pub_date": "Sun, 05 Jul 2026 19:25:00 GMT",
+          "source": "글로벌이코노믹"
+        },
         {
           "title": "한은, 삼전닉스 레버리지에 경고… “증시 쏠림 심화-변동성 확대 우려” - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWNmktdmI3WlJELXF5YmVuZ2otSTBwRl83dndtdjF3b1EtWFFmZUdVNmM1d0JlNXZMcXllYzJ1SzBXb0hiOXByTXVqNDZlRkEwUmVuN2VBTXdnSXdZTXFuSjZ5aWJ1VUVRVzAtV21oU0lEaFpUYWfSAWZBVV95cUxPOUpnWEZSdzlkY0FLMWg3SDA4QVF0ZXk5NGtrMUctYzFNaWtUQ0JiOExYelc1RXVyQmQ1UVBnR0xHTzY1M1h1V1JRT3dPMWdfVktvLXRDeGVyWkVidERDakRkRzNrNWc?oc=5",
