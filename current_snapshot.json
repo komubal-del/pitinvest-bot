@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T00:20:41.419855+09:00",
+  "timestamp": "2026-07-06T01:31:04.976878+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "한은, 삼전닉스 레버리지에 경고… “증시 쏠림 심화-변동성 확대 우려” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85SmdYRlJ3OWRjQUsxaDdIMDhBUXRleTk0a2sxRy1jMU1pa1RDQmI4TFh6VzVFdXJCZDVRUGdHTEdPNjUzWHVXUlFPd08xZ19WS28tdEN4ZXJaRWJ0RENqRGRHM2s1Z9IBZkFVX3lxTE85SmdYRlJ3OWRjQUsxaDdIMDhBUXRleTk0a2sxRy1jMU1pa1RDQmI4TFh6VzVFdXJCZDVRUGdHTEdPNjUzWHVXUlFPd08xZ19WS28tdEN4ZXJaRWJ0RENqRGRHM2s1Zw?oc=5",
+          "pub_date": "Sun, 05 Jul 2026 15:30:00 GMT",
+          "source": "동아일보"
+        }
+      ],
       "fear_articles": []
     }
   },
@@ -802,6 +809,10 @@
       },
       {
         "date": "2026-07-03",
+        "ret_pct": 202.174
+      },
+      {
+        "date": "2026-07-06",
         "ret_pct": 202.174
       }
     ],
