@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T06:13:25.476281+09:00",
+  "timestamp": "2026-07-06T07:27:20.786869+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 4,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "[코스닥 30년]① IMF·닷컴버블 거치며 ‘벤처의 요람’ 됐지만…30년째 넘지 못한 출발선 - CEO스코어데일리",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIOFR6a1h2UFdJNTFJWVpjMEljNjBoZ3JQaV9MeGdwUFhKMjY1dXN1U0M1ZHppWFFDeUJwd25naE05N2ptWTE5TjRxTmE3SXJDRGI5ZV9sUTg2WGR1cHV2OEZHR2xiMUNw?oc=5",
+          "pub_date": "Sun, 05 Jul 2026 22:00:00 GMT",
+          "source": "CEO스코어데일리"
+        },
         {
           "title": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3Z4NW5uQ1Mzdy1iN1V0V3pGNUtWdkdJcnZDQlE1UXVJQWtCN3NxZjVHbzBGemdkVmVneWZTenNmUXkxb3BaT2kybzMzS1p0LVg5S0FRR1FIZ2Z1dFkxYzJxaFJ5ZVNBSkx5YWlYdDlKQlZKLTI4dGNMR0tiWHRuX3FkUXc3WEh3?oc=5",
@@ -28,6 +34,12 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWNmktdmI3WlJELXF5YmVuZ2otSTBwRl83dndtdjF3b1EtWFFmZUdVNmM1d0JlNXZMcXllYzJ1SzBXb0hiOXByTXVqNDZlRkEwUmVuN2VBTXdnSXdZTXFuSjZ5aWJ1VUVRVzAtV21oU0lEaFpUYWfSAWZBVV95cUxPOUpnWEZSdzlkY0FLMWg3SDA4QVF0ZXk5NGtrMUctYzFNaWtUQ0JiOExYelc1RXVyQmQ1UVBnR0xHTzY1M1h1V1JRT3dPMWdfVktvLXRDeGVyWkVidERDakRkRzNrNWc?oc=5",
           "pub_date": "Sun, 05 Jul 2026 15:30:00 GMT",
           "source": "동아일보"
+        },
+        {
+          "title": "[특징주] 삼성전자, 코스피 8000선 회복 속 9%대 강세…반도체 쏠림 심화 - tokenpost.kr",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IRjdpdERZaUNvR0FkdTh6a1lQUGpjdmZZWnRONlRKNGJZdkJQZlJMNm82MFJqZnBkMl9EUEo1dmN0SmM2QjBKdnNSbTV6Q0t5ZlRWc18yNNIBXEFVX3lxTE16czFucjBBNXlZbHpMVHRSb2lCQi1yYld2OEoyTGRZQkk0MTdNb0I0SENnZnBrUXg4QjVzd3RtVnNtcktWSEhqTmN1ZGxkSTl1UVVpeGlmUHZxRHRD?oc=5",
+          "pub_date": "Sun, 05 Jul 2026 21:35:06 GMT",
+          "source": "tokenpost.kr"
         }
       ],
       "fear_articles": []
