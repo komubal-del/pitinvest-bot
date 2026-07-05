@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T01:31:04.976878+09:00",
+  "timestamp": "2026-07-06T02:45:05.136211+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -19,7 +19,7 @@
       "greed_articles": [
         {
           "title": "한은, 삼전닉스 레버리지에 경고… “증시 쏠림 심화-변동성 확대 우려” - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85SmdYRlJ3OWRjQUsxaDdIMDhBUXRleTk0a2sxRy1jMU1pa1RDQmI4TFh6VzVFdXJCZDVRUGdHTEdPNjUzWHVXUlFPd08xZ19WS28tdEN4ZXJaRWJ0RENqRGRHM2s1Z9IBZkFVX3lxTE85SmdYRlJ3OWRjQUsxaDdIMDhBUXRleTk0a2sxRy1jMU1pa1RDQmI4TFh6VzVFdXJCZDVRUGdHTEdPNjUzWHVXUlFPd08xZ19WS28tdEN4ZXJaRWJ0RENqRGRHM2s1Zw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWNmktdmI3WlJELXF5YmVuZ2otSTBwRl83dndtdjF3b1EtWFFmZUdVNmM1d0JlNXZMcXllYzJ1SzBXb0hiOXByTXVqNDZlRkEwUmVuN2VBTXdnSXdZTXFuSjZ5aWJ1VUVRVzAtV21oU0lEaFpUYWfSAWZBVV95cUxPOUpnWEZSdzlkY0FLMWg3SDA4QVF0ZXk5NGtrMUctYzFNaWtUQ0JiOExYelc1RXVyQmQ1UVBnR0xHTzY1M1h1V1JRT3dPMWdfVktvLXRDeGVyWkVidERDakRkRzNrNWc?oc=5",
           "pub_date": "Sun, 05 Jul 2026 15:30:00 GMT",
           "source": "동아일보"
         }
