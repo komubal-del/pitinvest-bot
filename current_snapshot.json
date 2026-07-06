@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T10:23:41.610672+09:00",
+  "timestamp": "2026-07-06T14:44:01.848604+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -14,46 +14,58 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 1,
+      "greed_count": 3,
+      "fear_count": 12,
       "greed_articles": [
         {
-          "title": "[어제장 오늘장] 코스피 8천선 회복…대형주 쏠림에 역대급 변동성 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55UjNVQ21qOWFwUjZzQ1lsR2VCRTNjbXBvQjlLSkp0Z2Z5UHc4OWhxSGcxVFJiWElxYnpxZmlzcFpyY180d3VDc2FXMmRUQ1k?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 23:28:13 GMT",
-          "source": "v.daum.net"
+          "title": "\"실적 기대치 너무 높다\"...미 증시 거품 우려 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XUXVwZkV4TC11Sm14ekZnVElfMHFlM3FvcTF4SFFQRzM2OUlQOExnYXpaaUZXMTMwaU0tQy1tRFpwdExsODByX0V1TXVRU0ZwcUxxUGVMOHBDaEZXYnc?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 01:01:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "주가 2배 ‘삼전닉스 레버리지’ 광풍…코스피 흔드는 꼬리 됐다 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WVzlMaEg2cFJ3dkFqY2Q2Z2JRbFN5cGw1VnlReVV6S1NsVDVvUTRZcnB4QU9PRTNkZllER3puMm5fSHhiZFJiV3F5NV9lVmF5d0NHUWxEeU5LaWE3NzFMbkZ5Qy16cUE?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 01:11:00 GMT",
+          "source": "한겨레"
         },
         {
           "title": "템플턴 “韓증시, 반도체 쏠림 심화…방산·조선 등 ‘잠자는 호랑이’ 노려라” - 매일경제 마켓",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FNUMybk8xYm9RMm9YTFVzN2tBZkZUOXhwR21YNTZHY2p3d0swV0dZVkwtNDAxOVVfV3VUUWdVdHUtb3N0OWdZbkNjTGxRRVl5NGc?oc=5",
           "pub_date": "Mon, 06 Jul 2026 01:02:36 GMT",
           "source": "매일경제 마켓"
-        },
-        {
-          "title": "[코스닥 30년]① IMF·닷컴버블 거치며 ‘벤처의 요람’ 됐지만…30년째 넘지 못한 출발선 - CEO스코어데일리",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tWGJRX3NyTE5RZklxcDRibnJ6VWJkeGFsM1VWV3VZcHJGbzBzaUpEY2k1cTdTelBWQjNRTmNpdHNMM1ZSaEdxZm9JaEJsVzJOampRV1BzenVUOFdGLXZYaGRzWGRIdFRPaF9J?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 22:00:00 GMT",
-          "source": "CEO스코어데일리"
-        },
-        {
-          "title": "삼성·하이닉스 쏠림 끝나나…4700조 메가 프로젝트가 흔드는 증시판 - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5cHpiUnd3VEI0OERuaEFlTC1ySHd4N3NONFhIRlBNUEYtMVJDNnl4bk5HTndDRk5rWHNOSm5EYjhUYkZKakdwS1NsV25tb0FBMlNLaUJvY09OdHNRRnJSOXdn?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 00:00:00 GMT",
-          "source": "이코노미스트"
-        },
-        {
-          "title": "“美 증시 과열 아니다… 샌디스크, 아직 적정 주가보다 저렴” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJUUVLc3oxcTk1bGNRbjZHbF80d0Uxc0ZHd19xVGxHM0Nab3AwSU51RWluWk5udkNZRDI5R1lzbzkwNExoRE85N2tZZHc5VFk?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 22:03:02 GMT",
-          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
         {
-          "title": "[마켓뷰] 급락후 8,000선 회복한 코스피…'D-1 삼전 실적' 주시 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEbl9pMWljaWQzb25jZGp5eXdTSnBUdWtacUstUmtsWndtX1lGT3NWT3RGa2hXOXhIY29LMkVmSTFyWnY2RklZbTdrZ2VVOHZtQTNfSTdOTzhsQko3MFktddIBYEFVX3lxTFBEbl9pMWljaWQzb25jZGp5eXdTSnBUdWtacUstUmtsWndtX1lGT3NWT3RGa2hXOXhIY29LMkVmSTFyWnY2RklZbTdrZ2VVOHZtQTNfSTdOTzhsQko3MFktdQ?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 23:09:49 GMT",
-          "source": "연합뉴스"
+          "title": "외인+기관 1.6조원 매도세… 코스피, 7810선까지 내려와 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iU3Q5aFVxUUhZN0xhQTFmdG43OWJRQUIwY0dRalZocjJQMGpiQjItZEpydnlEdVA5S2hmZC1SWWhfaExDS2tTc2tkQWI0dlJreDZtRU1aekNYb0djWUhvYm9zN01wX1cx0gFuQVVfeXFMUEZqeVlibEpfWmdNb0N2b3pEdDZlUElBTDBBOERERzVZZDdTSDV5YTFlUWYyRHkyN2p5OWxzcmdadEZzR3R4YVRKblRnRUFvNUZqbW5TdjZ5SXlOR014QWEyLU1lN0x3OHBfN0p3N3c?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 03:07:38 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "오늘부터 외환시장 24시간 가동...코스피, 하락 전환 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oU1VPbGYtVGJEZ1Jwd2s0X2ZnNzR3VnMyQnhRaS1RbG55eGVaNHY2b19kZTZRNXVfM29IRXM5b2ZmYVJiS2pIazBvVUNaSnBNeV9UQlVmZWliLVZkUEE?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 02:46:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피 장중 하락 전환해 8천피 밑돌아…코스닥, 4% 급락 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vdV9OWkZKeGJKbk5ITmszdlZfTFpXQ0U3eDl1T2sxQWhWM0t5RTU2SUJua3huSE8tanMtWTZuMGtiRFBuZTl2cm82TVBHSy0xTlJwQTk1bTVCdlNidGFtOVUyVUpkZFRCbHVGaVJsZjh2WG1I?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 02:36:09 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "8,000선 내준 코스피…장중 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5idXVocDByaDIwVXlwLWZTUHJ4RE9nQ3lpcFhoUzMyYS03UUZJU3psVGRqMnRfSUJXN200X3ZrRk9TUE83Yllzbkh1UGVHTE0?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 02:55:28 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 하락 전환해 8000선 붕괴…외인·기관 ‘팔자’ - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmZhdmFKZHpOd0toc3lDRnIyZGZmbzhDd2cxWU00dGxBakkwNHpwaUdleFJHRHA2REZZN3R4UTFFX1VCQXBGcDlqREZabmF1cEJUZ2dzQkFXWU5OSjZnOG9PUGxHTWVHOVZ3SHc2eHZqZGZGXzdFVHRrS0pMeDlqSUx3YlRlLWZU0gGcAUFVX3lxTE1SSW5ZNUZQQ1Y0V1FxY3RibnAzSXFZX3ltQ01EMlJtYlg2SHpyckE0MVMzWTUwd1RkUDd5YXphSWZSSzEwOE8xU0RIZ2U2blZZRlA1RWExRHRXSG8zT1BTaEVBdVZGQW9CM1VzR2JsRVhuRlFOaHhyX2dUcXluRHNGOVVob0hkTzFZS0Y4Uzl5cHkyOHQzQ0t5dl92eg?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 02:31:44 GMT",
+          "source": "Chosunbiz"
         }
       ]
     }
@@ -65,8 +77,8 @@
     "move": 65.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -762500000000,
-    "retail_net_buy_krw": 713000000000,
+    "foreign_inst_buy_krw": -2700900000000,
+    "retail_net_buy_krw": 2605400000000,
     "margin_loan_krw": 37107300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +93,18 @@
       "sma_200": 23702.59
     },
     "kospi": {
-      "current": 8206.97,
+      "current": 8022.52,
       "high_52w": 9385.59,
-      "drop_pct": -12.56,
-      "intraday_low_drop_pct": -13.91,
-      "sma_200": 5431.93
+      "drop_pct": -14.52,
+      "intraday_low_drop_pct": -16.73,
+      "sma_200": 5431.01
     },
     "kosdaq": {
-      "current": 852.14,
+      "current": 843.39,
       "high_52w": 1229.42,
-      "drop_pct": -30.69,
-      "intraday_low_drop_pct": -30.72,
-      "sma_200": 1004.65
+      "drop_pct": -31.4,
+      "intraday_low_drop_pct": -32.84,
+      "sma_200": 1004.6
     },
     "sp500": {
       "current": 7483.24,
