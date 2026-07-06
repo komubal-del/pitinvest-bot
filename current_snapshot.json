@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T08:34:30.309594+09:00",
+  "timestamp": "2026-07-06T10:23:41.610672+09:00",
   "sentiment": {
     "cnn_fng": 31.8857142857143,
     "cnn_components": {
@@ -14,9 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 5,
       "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "[어제장 오늘장] 코스피 8천선 회복…대형주 쏠림에 역대급 변동성 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55UjNVQ21qOWFwUjZzQ1lsR2VCRTNjbXBvQjlLSkp0Z2Z5UHc4OWhxSGcxVFJiWElxYnpxZmlzcFpyY180d3VDc2FXMmRUQ1k?oc=5",
+          "pub_date": "Sun, 05 Jul 2026 23:28:13 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "템플턴 “韓증시, 반도체 쏠림 심화…방산·조선 등 ‘잠자는 호랑이’ 노려라” - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FNUMybk8xYm9RMm9YTFVzN2tBZkZUOXhwR21YNTZHY2p3d0swV0dZVkwtNDAxOVVfV3VUUWdVdHUtb3N0OWdZbkNjTGxRRVl5NGc?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 01:02:36 GMT",
+          "source": "매일경제 마켓"
+        },
         {
           "title": "[코스닥 30년]① IMF·닷컴버블 거치며 ‘벤처의 요람’ 됐지만…30년째 넘지 못한 출발선 - CEO스코어데일리",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tWGJRX3NyTE5RZklxcDRibnJ6VWJkeGFsM1VWV3VZcHJGbzBzaUpEY2k1cTdTelBWQjNRTmNpdHNMM1ZSaEdxZm9JaEJsVzJOampRV1BzenVUOFdGLXZYaGRzWGRIdFRPaF9J?oc=5",
@@ -24,30 +36,24 @@
           "source": "CEO스코어데일리"
         },
         {
+          "title": "삼성·하이닉스 쏠림 끝나나…4700조 메가 프로젝트가 흔드는 증시판 - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5cHpiUnd3VEI0OERuaEFlTC1ySHd4N3NONFhIRlBNUEYtMVJDNnl4bk5HTndDRk5rWHNOSm5EYjhUYkZKakdwS1NsV25tb0FBMlNLaUJvY09OdHNRRnJSOXdn?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 00:00:00 GMT",
+          "source": "이코노미스트"
+        },
+        {
           "title": "“美 증시 과열 아니다… 샌디스크, 아직 적정 주가보다 저렴” - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJUUVLc3oxcTk1bGNRbjZHbF80d0Uxc0ZHd19xVGxHM0Nab3AwSU51RWluWk5udkNZRDI5R1lzbzkwNExoRE85N2tZZHc5VFk?oc=5",
           "pub_date": "Sun, 05 Jul 2026 22:03:02 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3Z4NW5uQ1Mzdy1iN1V0V3pGNUtWdkdJcnZDQlE1UXVJQWtCN3NxZjVHbzBGemdkVmVneWZTenNmUXkxb3BaT2kybzMzS1p0LVg5S0FRR1FIZ2Z1dFkxYzJxaFJ5ZVNBSkx5YWlYdDlKQlZKLTI4dGNMR0tiWHRuX3FkUXc3WEh3?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 19:25:00 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "한은, 삼전닉스 레버리지에 경고… “증시 쏠림 심화-변동성 확대 우려” - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWNmktdmI3WlJELXF5YmVuZ2otSTBwRl83dndtdjF3b1EtWFFmZUdVNmM1d0JlNXZMcXllYzJ1SzBXb0hiOXByTXVqNDZlRkEwUmVuN2VBTXdnSXdZTXFuSjZ5aWJ1VUVRVzAtV21oU0lEaFpUYWfSAWZBVV95cUxPOUpnWEZSdzlkY0FLMWg3SDA4QVF0ZXk5NGtrMUctYzFNaWtUQ0JiOExYelc1RXVyQmQ1UVBnR0xHTzY1M1h1V1JRT3dPMWdfVktvLXRDeGVyWkVidERDakRkRzNrNWc?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 15:30:00 GMT",
-          "source": "동아일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시 반도체 폭락 속 8000피 회복…‘슈퍼위크’ 주목[뉴스새벽배송] - 이데일리",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZR0g3dXlDSGRBNGdHd3NnM0J4My1YVFVNRFlZSFMwZGRlV3p2RGhPT0JwbFVkZDc1ZUNNajJJR2syZnhpVER0RFBEVV9jZW5GY2lyUDJhN2dkOXdpN0dJYm0tZzBDZkJzTklaOUpGV0ctTUhu?oc=5",
-          "pub_date": "Sun, 05 Jul 2026 23:18:16 GMT",
-          "source": "이데일리"
+          "title": "[마켓뷰] 급락후 8,000선 회복한 코스피…'D-1 삼전 실적' 주시 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEbl9pMWljaWQzb25jZGp5eXdTSnBUdWtacUstUmtsWndtX1lGT3NWT3RGa2hXOXhIY29LMkVmSTFyWnY2RklZbTdrZ2VVOHZtQTNfSTdOTzhsQko3MFktddIBYEFVX3lxTFBEbl9pMWljaWQzb25jZGp5eXdTSnBUdWtacUstUmtsWndtX1lGT3NWT3RGa2hXOXhIY29LMkVmSTFyWnY2RklZbTdrZ2VVOHZtQTNfSTdOTzhsQko3MFktdQ?oc=5",
+          "pub_date": "Sun, 05 Jul 2026 23:09:49 GMT",
+          "source": "연합뉴스"
         }
       ]
     }
@@ -59,8 +65,8 @@
     "move": 65.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2232900000000,
-    "retail_net_buy_krw": -2294200000000,
+    "foreign_inst_buy_krw": -762500000000,
+    "retail_net_buy_krw": 713000000000,
     "margin_loan_krw": 37107300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,18 +81,18 @@
       "sma_200": 23702.59
     },
     "kospi": {
-      "current": 8088.34,
+      "current": 8206.97,
       "high_52w": 9385.59,
-      "drop_pct": -13.82,
-      "intraday_low_drop_pct": -21.39,
-      "sma_200": 5406.92
+      "drop_pct": -12.56,
+      "intraday_low_drop_pct": -13.91,
+      "sma_200": 5431.93
     },
     "kosdaq": {
-      "current": 868.41,
+      "current": 852.14,
       "high_52w": 1229.42,
-      "drop_pct": -29.36,
-      "intraday_low_drop_pct": -32.98,
-      "sma_200": 1004.44
+      "drop_pct": -30.69,
+      "intraday_low_drop_pct": -30.72,
+      "sma_200": 1004.65
     },
     "sp500": {
       "current": 7483.24,
@@ -273,7 +279,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-07-02",
