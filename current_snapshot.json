@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T05:34:12.276683+09:00",
+  "timestamp": "2026-07-07T07:06:55.875310+09:00",
   "sentiment": {
     "cnn_fng": 43.9428571428571,
     "cnn_components": {
@@ -14,13 +14,19 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 0,
       "greed_articles": [
         {
           "title": "[뉴욕증시-1보] 반도체주 중심으로 저가 매수…강세 마감 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRckdkbmdYam9idVZLM3NfeTBROHBNRHE0RG8wVjFhRXRKTFlLR3JMNVFnTnVOb2JJb28wWmhJTVdNSGkzSmU4TTFUSXBzYmxOYkRjWVdGLVZlYkVBY0V0TXljbzAxVzZ5SUx3OXN0OC3SAXRBVV95cUxQdl8yZ3ZsNmhjdDREM3FROGNaTDE1bHhwb0VfYmUxSUc0MThHeXZUeVZsd0tHZ05IZVhMSU9FQlkzeVRSZ19rdnlRT0FFZFprR3ZtSTFVT0ZYUmc3RHZrRHFsV0t0eUhvVVc0dWNkNHdZbVdMdA?oc=5",
           "pub_date": "Mon, 06 Jul 2026 20:12:16 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[뉴욕증시] 반도체주 중심으로 저가 매수…강세 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTHNGX3RDeDBtQjFLY2t5b3NLX3RRWDFONlo3Y1RtQWVMZVR0dkJtdGtqMDJTeGI2dzc4NXVtU0ZXSzhIcnVieHpvel9UMXFMY21SdUVfYUhfUW9RUGJXQ1ZXajMxZ2VMVHVlXzNzcVA?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 21:03:07 GMT",
           "source": "연합인포맥스"
         }
       ],
@@ -30,8 +36,8 @@
   "volatility": {
     "vix": 15.57,
     "vvix": 87.09,
-    "skew": 150.02,
-    "move": 65.4
+    "skew": 145.38,
+    "move": 65.76
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -2776200000000,
@@ -293,7 +299,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 213.138,
+    "strategy_pct": 212.679,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -817,7 +823,7 @@
       },
       {
         "date": "2026-07-07",
-        "ret_pct": 213.138
+        "ret_pct": 212.679
       }
     ],
     "monthly_breakdown": [
@@ -859,8 +865,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -12.61,
-        "end_ret_pct": 213.14,
+        "return_pct": -13.07,
+        "end_ret_pct": 212.68,
         "max_dd_pct": 34.29
       }
     ],
