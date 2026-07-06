@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T07:06:55.875310+09:00",
+  "timestamp": "2026-07-07T08:20:52.590032+09:00",
   "sentiment": {
     "cnn_fng": 43.9428571428571,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 3,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "[뉴욕증시] 반도체주 중심으로 저가 매수…강세 마감 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UbWpoQS1icFZwRldiazA0N1FyTWljZ1ZDbG9ZZ1dJRmYzeEZHaTdBWTlUVjdkMVo4X3lNbGpYVmVCeDR4Q0FJLUZjbkJOV1duZ2J4WXhwcHhpNU9fdmY2V2txWUhLQlRyY0hJN3A1ckpzQXhH?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 21:07:11 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "[뉴욕증시-1보] 반도체주 중심으로 저가 매수…강세 마감 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRckdkbmdYam9idVZLM3NfeTBROHBNRHE0RG8wVjFhRXRKTFlLR3JMNVFnTnVOb2JJb28wWmhJTVdNSGkzSmU4TTFUSXBzYmxOYkRjWVdGLVZlYkVBY0V0TXljbzAxVzZ5SUx3OXN0OC3SAXRBVV95cUxQdl8yZ3ZsNmhjdDREM3FROGNaTDE1bHhwb0VfYmUxSUc0MThHeXZUeVZsd0tHZ05IZVhMSU9FQlkzeVRSZ19rdnlRT0FFZFprR3ZtSTFVT0ZYUmc3RHZrRHFsV0t0eUhvVVc0dWNkNHdZbVdMdA?oc=5",
@@ -24,10 +30,10 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "[뉴욕증시] 반도체주 중심으로 저가 매수…강세 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTHNGX3RDeDBtQjFLY2t5b3NLX3RRWDFONlo3Y1RtQWVMZVR0dkJtdGtqMDJTeGI2dzc4NXVtU0ZXSzhIcnVieHpvel9UMXFMY21SdUVfYUhfUW9RUGJXQ1ZXajMxZ2VMVHVlXzNzcVA?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 21:03:07 GMT",
-          "source": "연합인포맥스"
+          "title": "[0707개장체크] 美 증시, AI 반도체주 중심의 강력한 저가 매수세 유입 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VN1BheGxENlhOUmpYeG9vYUpVOFpoLW1OaGtoZWRzZ0t3VFVaTVBOWDZiUEtxbk1sR0RoQmVLT3FJcDhVa25oZVBEcTJCQWVSN1czc0ZvWUlWMXIwYmxqTzJIX3E1aGx0d2F4Yks0R0FEOVNnZVE?oc=5",
+          "pub_date": "Mon, 06 Jul 2026 22:46:14 GMT",
+          "source": "인포스탁데일리"
         }
       ],
       "fear_articles": []
@@ -42,7 +48,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -2776200000000,
     "retail_net_buy_krw": 2682900000000,
-    "margin_loan_krw": 37107300000000,
+    "margin_loan_krw": 37177000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
