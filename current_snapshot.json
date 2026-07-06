@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T18:44:33.920556+09:00",
+  "timestamp": "2026-07-06T22:31:05.813031+09:00",
   "sentiment": {
     "cnn_fng": 34.0571428571429,
     "cnn_components": {
@@ -14,70 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 11,
-      "greed_articles": [
-        {
-          "title": "주가 2배 ‘삼전닉스 레버리지’ 광풍…코스피 흔드는 꼬리 됐다 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WVzlMaEg2cFJ3dkFqY2Q2Z2JRbFN5cGw1VnlReVV6S1NsVDVvUTRZcnB4QU9PRTNkZllER3puMm5fSHhiZFJiV3F5NV9lVmF5d0NHUWxEeU5LaWE3NzFMbkZ5Qy16cUE?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 05:56:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "\"코스피 반도체株 쏠림 심화 … 저평가 조·방·원 주목해야\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53ZnBzc3hnemFCNklwa2I5cTJMalNfUFdSWk40V3pLZ0YySmRSQnJpRER4OWJSdXRlUVBtM2tKNWNUVHZQVnJodGExcElKYkE?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 08:57:05 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[글로벌이코노믹 사설] 롤러코스터 증시 ‘빚투’에 경종 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUFo5em9sakFtRFRfRUk5b3RmamVGOXFMS3BKVDJCd0lpdjV4aENNYTlaa0h2a3g4NHhTX2REYXA2aHVRZTI4eVlHaEZIX2ZWcTJvemZZU1JvRmNNWEE3SzBWZlluUDFSeWpVYThrLWRWRGtTSUFMV3gyYXc4ZGRZRWExZDE?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 08:58:39 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "코스피 하반기 수급 변수, 외국인·고환율·빚투 - 대구일보",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10TThRLTBfMXNFdGtpNVlIUmlpN2lGYmtoMXhVenRZUUhFb2lLTG0wWXU2MXh4UmtOaXZYZGdDcHYzcGRic3lmTjBsWGRxMERxZFlrMGJlTndZejdYaW1HdG5IOS12MElX?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 05:26:16 GMT",
-          "source": "대구일보"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피, 하락 전환해 약보합 마감…8,000선 겨우 지켜 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3Z0pWZUtOU2pjcGluTDJybjZNSkNxWXowOElTT2NaZzh6bDB5Ym1nNlJhdEZ1elU3ODRTZXhKenpYZGFHckdsbjRhdXFtdWp2N2htLXdiQkRWeFnSAWBBVV95cUxOMFFzTlhRai1vS0VIa0VXT0c5dmlmX0RMQXoxejQxaUM4Y3NwZU03dWJCSFZXejhvNXdkVFc0M01oWEpHTElESDhCVS1iNHo3ek1sX0xLMTFtSkZEblBLYkM?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 06:38:26 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[도쿄증시-마감] AI·반도체주 매도세 속 혼조 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPTjJnZ3ZYS0ZRR1Q0eU12M1hxVWZ0ZmhPSW5ISFdNRVM4TGZUQ19lUjZoSlhuaGFqNzlMUE9jdXBGLU5FMDkzX3Zxb2JUOFB2djMxRVYxRWwtUzBGYU9ucmtJekZlODZJUlhMREt2cGg?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 08:44:01 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 하락 전환해 약보합 마감…8,000선 겨우 지켜(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2YUI4Um9hX0g1aGFvU1hyaGhYNldrZ1NkNXFEbi00SGpaS2VJN1VLU196eVBpMm5FdXVpd0NZVVdCOE1MRFRtWjJycXVYLVQybEtsT2lCczBTbmUwM3ZyatIBYEFVX3lxTFB2YUI4Um9hX0g1aGFvU1hyaGhYNldrZ1NkNXFEbi00SGpaS2VJN1VLU196eVBpMm5FdXVpd0NZVVdCOE1MRFRtWjJycXVYLVQybEtsT2lCczBTbmUwM3Zyag?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 07:09:38 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피, 하락 전환해 약보합...8,000 '턱걸이' - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DOTF6OV9nOFV5QklFZ3N5WG1NR0RGd3RpdnpyUk9GRmRhUlVPYzkxMFlRblhPLVZrYlI3VlFPSWlwUU14WFpodXRJWE5Wd3hMUWx1RS1JZGJBTnZ0SVBocmJ6NlB0dFFjSkJURzFIdUZicGFLSmc?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 07:36:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "[오늘의증시] 삼성전자 실적 앞두고 숨 고른 코스피…코스닥은 2%대 급락 - 경인방송 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOeURITmxhQ0xYNU0ybDdidFNRR0MwSEJMMENDSUNFUXJFaW1zbU9WbG9NUVRuWWxCdDVLNG5iUGRNRHROenNVS05KZU1OV3JZX2lIaVFCWV83Ykt4cW1WSE8tb1TSAWhBVV95cUxNT0VjT3IwQW9pbEZBbkRaVlpQNkVqTVdERzNqWkUyWVhjRGR1X1JkSkJHMXlGd3RSdzBfYXEtWVI1NDctOFBVZFdpT3laRjFQckE1ZzlOTkM2UjUzSy1uYmlmVDVqbXRaag?oc=5",
-          "pub_date": "Mon, 06 Jul 2026 08:03:45 GMT",
-          "source": "경인방송 뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.32,
+    "vix": 16.15,
     "vvix": 88.8,
     "skew": 150.02,
     "move": 65.4
@@ -92,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25832.67,
+      "current": 26040.89,
       "high_52w": 27190.21,
-      "drop_pct": -4.99,
-      "intraday_low_drop_pct": -5.74,
-      "sma_200": 23702.59
+      "drop_pct": -4.23,
+      "intraday_low_drop_pct": -4.38,
+      "sma_200": 23721.13
     },
     "kospi": {
       "current": 8051.33,
@@ -113,11 +57,11 @@
       "sma_200": 1004.62
     },
     "sp500": {
-      "current": 7483.24,
+      "current": 7520.33,
       "high_52w": 7620.9,
-      "drop_pct": -1.81,
-      "intraday_low_drop_pct": -2.54,
-      "sma_200": 6942.91
+      "drop_pct": -1.32,
+      "intraday_low_drop_pct": -1.5,
+      "sma_200": 6947.48
     },
     "russell2k": {
       "current": 2996.11,
@@ -127,20 +71,20 @@
       "sma_200": 2625.17
     },
     "soxx": {
-      "current": 566.32,
+      "current": 582.03,
       "high_52w": 655.95,
-      "drop_pct": -13.66,
-      "intraday_low_drop_pct": -15.4,
-      "sma_200": 375.96
+      "drop_pct": -11.27,
+      "intraday_low_drop_pct": -11.5,
+      "sma_200": 377.58
     }
   },
   "sector_rs": {
-    "XLK": 1.166,
-    "SMH": 1.32,
-    "BOTZ": 0.983,
-    "IGV": 1.026,
-    "XLF": 0.987,
-    "XLE": 0.793
+    "XLK": 1.173,
+    "SMH": 1.341,
+    "BOTZ": 0.991,
+    "IGV": 1.013,
+    "XLF": 0.984,
+    "XLE": 0.788
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 66.82,
+    "tqqq_profit_pct": 72.44,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 239.2,
+    "soxl_profit_pct": 265.66,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 47.22,
+    "koru_profit_pct": 70.96,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
