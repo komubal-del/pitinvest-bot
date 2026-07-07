@@ -1,27 +1,33 @@
 {
-  "timestamp": "2026-07-07T20:32:53.517934+09:00",
+  "timestamp": "2026-07-07T22:53:02.861302+09:00",
   "sentiment": {
-    "cnn_fng": 44.5428571428571,
+    "cnn_fng": 44.9428571428571,
     "cnn_components": {
-      "momentum": 65.8,
-      "strength": 44.4,
-      "breadth": 25.6,
-      "put_call": 59.6,
-      "junk_bond": 16.4,
+      "momentum": 53.6,
+      "strength": 44.2,
+      "breadth": 27.2,
+      "put_call": 77.2,
+      "junk_bond": 21.6,
       "volatility": 50.0,
-      "safe_haven": 50.0
+      "safe_haven": 46.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 50,
+      "greed_count": 2,
+      "fear_count": 47,
       "greed_articles": [
         {
           "title": "반도체 랠리의 고점은?…보릿고개 접어든 증시 [이브닝 브리핑] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JbV9fcWVRVWJwNzNlMm5YczYzSklGVnQzZmQ1c1liV0NxODE0MXdfaGExZ1EtVGJHQWxud1ZpWUNvUWxpemFEbkozY2lLb1k?oc=5",
           "pub_date": "Tue, 07 Jul 2026 09:12:02 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "'코스피 9000'이 부른 '빚투' 열풍…하루 레버리지 투자 62조원 육박 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjb2ZGMWY2V2VMWG1GMGZrSmdOVmk3dUxOcTk4LWd1c2ZjLUlWM3EtS2dTOVp0UGxSUlZOLTd4RUtEbEJ4LXN2emJ3R2Rud050a0JabDZfT0dlTTZTS3lZSUdxUnhVUS1TRU1aclU2MTBvdw?oc=5",
+          "pub_date": "Tue, 07 Jul 2026 07:26:39 GMT",
+          "source": "인더스트리뉴스"
         }
       ],
       "fear_articles": [
@@ -50,17 +56,17 @@
           "source": "연합뉴스"
         },
         {
-          "title": "'역대급 실적' 냈지만...삼전 급락에 코스피 '폭삭' - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6bktaSWhocDg4aXVySTZaZW1rOEk1ZndhNXNidmxMYjlRN3BtcXNqTkwtRFVZUWF1V1VwUTVPRU1va2JxaXA1N21kd0sydEcxdlBOV25UNlI1dlNUN3c?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 08:46:00 GMT",
-          "source": "YTN"
+          "title": "코스피, 8%대 급락에 서킷브레이커 발동 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wSVprVWxIZE0yWDA0MGpVYUNycFNyeHpwZmZIbFVuNnNQaEF0Y2xWQm02YmlMdDdTdlVrZ3dQQ1VQWk9GeDkxNDNRZXk5ZHFJV1hFUmdxMzNlY0U?oc=5",
+          "pub_date": "Tue, 07 Jul 2026 04:56:00 GMT",
+          "source": "KBS 뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.95,
-    "vvix": 87.09,
+    "vix": 15.92,
+    "vvix": 87.51,
     "skew": 145.38,
     "move": 65.4
   },
@@ -74,11 +80,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26121.16,
+      "current": 25895.39,
       "high_52w": 27190.21,
-      "drop_pct": -3.93,
-      "intraday_low_drop_pct": -4.51,
-      "sma_200": 23721.53
+      "drop_pct": -4.76,
+      "intraday_low_drop_pct": -4.8,
+      "sma_200": 23739.7
     },
     "kospi": {
       "current": 7656.31,
@@ -95,34 +101,34 @@
       "sma_200": 1004.69
     },
     "sp500": {
-      "current": 7537.43,
+      "current": 7518.65,
       "high_52w": 7620.9,
-      "drop_pct": -1.1,
-      "intraday_low_drop_pct": -1.57,
-      "sma_200": 6947.56
+      "drop_pct": -1.34,
+      "intraday_low_drop_pct": -1.37,
+      "sma_200": 6952.15
     },
     "russell2k": {
-      "current": 3009.54,
+      "current": 3010.79,
       "high_52w": 3046.59,
-      "drop_pct": -1.22,
-      "intraday_low_drop_pct": -1.63,
-      "sma_200": 2628.2
+      "drop_pct": -1.17,
+      "intraday_low_drop_pct": -1.25,
+      "sma_200": 2631.22
     },
     "soxx": {
-      "current": 581.51,
+      "current": 548.29,
       "high_52w": 655.95,
-      "drop_pct": -11.35,
-      "intraday_low_drop_pct": -11.51,
-      "sma_200": 377.57
+      "drop_pct": -16.41,
+      "intraday_low_drop_pct": -16.48,
+      "sma_200": 379.03
     }
   },
   "sector_rs": {
-    "XLK": 1.17,
-    "SMH": 1.323,
-    "BOTZ": 1.003,
-    "IGV": 1.031,
-    "XLF": 0.988,
-    "XLE": 0.779
+    "XLK": 1.142,
+    "SMH": 1.265,
+    "BOTZ": 0.972,
+    "IGV": 1.033,
+    "XLF": 0.998,
+    "XLE": 0.794
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 73.8,
+    "tqqq_profit_pct": 65.82,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 263.83,
+    "soxl_profit_pct": 203.3,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 69.85,
+    "koru_profit_pct": 48.34,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
