@@ -1,27 +1,33 @@
 {
-  "timestamp": "2026-07-09T05:25:25.098373+09:00",
+  "timestamp": "2026-07-09T06:38:16.699841+09:00",
   "sentiment": {
-    "cnn_fng": 42.2571428571429,
+    "cnn_fng": 42.2285714285714,
     "cnn_components": {
       "momentum": 45.2,
       "strength": 44.0,
       "breadth": 23.2,
-      "put_call": 53.2,
-      "junk_bond": 29.2,
+      "put_call": 53.0,
+      "junk_bond": 28.8,
       "volatility": 50.0,
       "safe_haven": 51.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "반도체 고점론에 중동불안 겹쳤다…코스피, 이틀연속 급락 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zX3pUWnJEOTR1Y1RXYzRicm9kZzdZTWNEU2pPVXVFMnVxVkxPWXFhQ3VhMlRvRTFiSUwzTUc0TFc5WF83TTRpRVdiOVhuZ2RuV1MzZnNR?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 15:09:03 GMT",
-          "source": "중앙일보"
+          "title": "반도체 고점론에 중동불안 겹쳤다…코스피, 이틀연속 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qZzJaRjRjMUREaW9OQWlQdlFPVjQwMGhHVFRPQ05qcGhGU25QSUNTLU5xcEdSTmwyZGpsV0tiWjVOOWFleGs1cmUta3VNeGc?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 15:11:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "\"국장은 고점…해외 비중 높인다\"…고액자산가들, 하반기 투자 방향은 - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01NVBFVUxmTjMzS2VtNGtDWGg3aWY0RC1fWmp1Um9QcDhOLW93LXEzV3k3QjhYMlhIMlFQNFFyUk83aU9RRzVYNTJTcXZfVmV4NmdjdTlobzlJSnk1NjVrZHJheFBSbjdQZnBaUDNKWGhPMEk?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 21:00:50 GMT",
+          "source": "마켓인"
         }
       ],
       "fear_articles": [
@@ -36,6 +42,12 @@
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
           "pub_date": "Wed, 08 Jul 2026 16:18:00 GMT",
           "source": "한겨레"
+        },
+        {
+          "title": "'만스피' 바라보던 코스피 패닉에도…증권가 \"매수 기회\" 왜? - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2WFhDZTdGc093TGhIWlpOM1lhajkzM0NscFZ3aC1nRE9LU1BvS0hnckRxSDdFNWktTmZGcmktelMwYlZBWURiZ09nTnpHZE10VUg1Yy13MWFzaVNLVmV6MNIBeEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WQ?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 21:00:00 GMT",
+          "source": "뉴시스"
         },
         {
           "title": "반도체 피크아웃 우려에 코스피 급락… 환율은 1500원 밑돌아 - 동아일보",
@@ -53,10 +65,10 @@
     }
   },
   "volatility": {
-    "vix": 16.87,
-    "vvix": 91.27,
-    "skew": 145.74,
-    "move": 70.25
+    "vix": 16.9,
+    "vvix": 91.38,
+    "skew": 149.79,
+    "move": 72.41
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -11500000000,
@@ -318,7 +330,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 201.262,
+    "strategy_pct": 202.268,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -850,7 +862,7 @@
       },
       {
         "date": "2026-07-09",
-        "ret_pct": 201.262
+        "ret_pct": 202.268
       }
     ],
     "monthly_breakdown": [
@@ -892,8 +904,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -24.49,
-        "end_ret_pct": 201.26,
+        "return_pct": -23.48,
+        "end_ret_pct": 202.27,
         "max_dd_pct": 37.94
       }
     ],
