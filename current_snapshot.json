@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T18:13:59.769644+09:00",
+  "timestamp": "2026-07-08T20:20:37.086750+09:00",
   "sentiment": {
     "cnn_fng": 43.4571428571429,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 48,
+      "greed_count": 6,
+      "fear_count": 49,
       "greed_articles": [
+        {
+          "title": "반도체 고점론·중동 불안에...코스피 7,200선 '털썩' - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40SE9Pc3JMM1IyUjdyZDdlNHRURmY4T2lJTGJicmRyNVF2c0t3U2VSdkdfMHFaSnA0M1l0cGVGSWxmbzdKS2RIM3FPejZQaGo5MU0tRHVlMk55emh2Nmc?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 09:16:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "\"고점에 물렸어\" 비명 커진다...어제 -4.9% 오늘 -5.3% '코스피 급락' - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XbndnRWx1Y0E5b2tvVUtoUHNUZE5vQ0NmT2VGbC1PMTRCZE5zNjh1OVRsVTNWZzR4NHFUTWtjX3NtNE5hWFRvdmNTQzVUWHoxMlFDbXNjWGQ1QlJENVV2Vms4dDBMZkZS0gFuQVVfeXFMTzZrN2hZVXhNV3dSLUNiZGt6clB2UUZBVXoxdDlGZC00UFFOSndSSHpJOG1uVldsVnpRU0Z6S1FuN01kdndmYWdDZENDZGtNNHVYb2ZzYmhHNU9UdzFPMHZEaE92M1IwLWlSNFE4VEE?oc=5",
@@ -24,36 +30,36 @@
           "source": "머니투데이"
         },
         {
-          "title": "홍콩·대만은 올랐는데 韓증시 털썩 … 반도체 쏠림이 충격 키워 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SVzB3eHU2STVJRlZpVzNXSWlKVTFnZkU2TUhCd0dITklTR0phU3Z2c2tkTk5YM1FRNzlWb0hHenAwRUtWaGhPcUV2SXlhUy1JclE?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 08:54:55 GMT",
-          "source": "매일경제 마켓"
+          "title": "\"강제청산 될라\" 빚투 부메랑, 카드빚으로 막았다…도박판 증시 민낯 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCbmhSNERyNUs1TWs1aUxxNDJBZjgxcHR5SEMyM2llT3ltWFNGZTk3Y0xtb01jVWh0ZVZWOTRnOG91b3o3VWlTV3lvYTF4TnJWM0t6MzFOSVZvRGs4YXVHTE1ncW5ZZ3V2bkFV0gFwQVVfeXFMUElqZnVWMkIwaHZTNVN1QWhCRXptc1VqaFNDZzdxUXhCeHlPX1hZVllSR1NaNkVMQmFYR2h0WFFwRXVFY3lGNWNBanZBOFRZUkNfU3k0b0JBbm96NUdBUTVMSjV0YXlrQnBLbXJjcW05ZQ?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 07:10:00 GMT",
+          "source": "머니투데이"
         },
         {
-          "title": "코스피·코스닥 급락중…반도체 고점론·이란 리스크에 '흔들' - 노컷뉴스",
+          "title": "코스피·코스닥 급락중…반도체 고점론·이란 리스크에 '흔들' - nocutnews.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9leDAyVzhPUl85WUhPZDRVSlFhUXc2bW83YzhvaWl1VVFaM0g4SzhvOGVzQWlrdTVuM2t1QzVDZjRfZy1LV1RnVXFtMUIwRks2UUE?oc=5",
           "pub_date": "Wed, 08 Jul 2026 06:16:00 GMT",
-          "source": "노컷뉴스"
+          "source": "nocutnews.co.kr"
         },
         {
           "title": "[증시, 떨어지는 칼날인가] 삼전닉스, 저가 매수 전략 '유효' - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51Z3ViRFV2ZkYwRm9BSE1DTUZnbG50RENUcmJxNFFBVERNV0VKOFNOeDBON2hkVEtkTVpGSWsyOHRPYkpHMURxaExXVWRDZ0pQU0pVMDMtdjlneHdXcmdXeE5kVWRGeld4dVlsM2t2WE0?oc=5",
           "pub_date": "Wed, 08 Jul 2026 06:13:25 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "\"강제청산 될라\" 빚투 부메랑, 카드빚으로 막았다…도박판 증시 민낯 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCbmhSNERyNUs1TWs1aUxxNDJBZjgxcHR5SEMyM2llT3ltWFNGZTk3Y0xtb01jVWh0ZVZWOTRnOG91b3o3VWlTV3lvYTF4TnJWM0t6MzFOSVZvRGs4YXVHTE1ncW5ZZ3V2bkFV0gFwQVVfeXFMUElqZnVWMkIwaHZTNVN1QWhCRXptc1VqaFNDZzdxUXhCeHlPX1hZVllSR1NaNkVMQmFYR2h0WFFwRXVFY3lGNWNBanZBOFRZUkNfU3k0b0JBbm96NUdBUTVMSjV0YXlrQnBLbXJjcW05ZQ?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 07:10:00 GMT",
-          "source": "머니투데이"
         }
       ],
       "fear_articles": [
         {
           "title": "코스피·코스닥 ‘5% 급락’ 잇단 매도 사이드카…이틀째 폭락 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5leXM5Ylpsd1A1ak1DREQ3SkFhZ2s0SU5VcEhaWjYxZjkxQ2RGN3pkbGNZeFY5cHNZMEpoVHpLNG1XNDRsMndERGkyMXRfaGpoc05MVV9UT0NNVUxsX2luUjNmVllRNU0?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 08:31:00 GMT",
+          "pub_date": "Wed, 08 Jul 2026 08:36:00 GMT",
           "source": "한겨레"
+        },
+        {
+          "title": "코스피 5% 급락, 장중 7000선 위협…반도체 불안에 중동 악재 겹쳐 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGV1p5QTFKaEZ3bHJPOVo1aVA1WXhxS0o2WlZ3NnI2SXJBZ09JS2doX1dhX2xfb3RsZEplUGNLdkpKYlltRnE0STdkN0cyOGM?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 06:54:23 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "코스피, 5% 급락 7,200선 밀려…코스닥, 10개월만에 800선 하회(종합) - 연합뉴스",
@@ -62,28 +68,22 @@
           "source": "연합뉴스"
         },
         {
-          "title": "코스피, 5% 급락해 7,200선…코스닥도 5%대↓ - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzdS1qM3Z5ZkEtdWQ3V2tQQzQyM0ZWUFJjLTJsSXItTGJJNXE2ZGxSUHVaLWpJRjE4M3FFajlfc3lhLU5JM21JeDRwZFhSWTFzU0Rocl8wbDVndzQ?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 07:21:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
           "title": "이틀 연속 증시 급락…코스피 5.35%·코스닥 5.56%↓ - 주간조선",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Dc3pEeXlqdkZJOENoeExNbEtvVzZVWlI4U3Z5SExHMWIwRGFRcFc4MktxOWphU0NkLU5vOEZYM3FMZ2k5NmJUT3BjVk1ZY3huM0k3cXdFVFhqZlNRdW1lVklPbGIweVBZYkZz0gFuQVVfeXFMT01rOWhXRms0c1dodmdic3NSYjM4RjlMdkpNd2Q0ZERoWVJIOWVvTGF0bFpXcnhnaDJ2aEtaZE1yQ1lyaEREQUE3azVsMFBuS0w2RjVNNDBJa3R3STIySHcwU2JoX1BWaVZDSDM0RlE?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 07:30:08 GMT",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NazloV0ZrNHNXaHZnYnNzUmIzOEY5THZKTXdkNGREaFlSSDllb0xhdGxaV3J4Z2gydmhLWmRNckNZcmhEREFBN2s1bDBQbktMNkY1TTQwSWt0d0kyMkh3MFNiaF9QVmlWQ0gzNEZR0gFuQVVfeXFMT01rOWhXRms0c1dodmdic3NSYjM4RjlMdkpNd2Q0ZERoWVJIOWVvTGF0bFpXcnhnaDJ2aEtaZE1yQ1lyaEREQUE3azVsMFBuS0w2RjVNNDBJa3R3STIySHcwU2JoX1BWaVZDSDM0RlE?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 07:32:35 GMT",
           "source": "주간조선"
         },
         {
-          "title": "[경제]코스피 5.4% 급락해 7,200선...코스닥도 5.6% - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3MDBxc1cyb1FqMDZHYnhyOXU5VFhkUUpOdnN6V19pdXUtVlBIdlN3bFdKREptU19ORDdnV2U2UTc1Rk1pcWlPR3VFbko2NklYNGFaZndUbHNwTHl6SWFCbjdjUXpGNUwzSjVvVVpzOA?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 07:53:00 GMT",
-          "source": "YTN"
+          "title": "[속보]코스피, 5% 급락에 또 매도사이드카 발동 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PSGZrLVBYOXNMd25oZTlLcURUdGl1bWhrMzVzNHU2UWs0eTY2YUtTRDdJY2Uzeko4eURNX0lXWkM0ODdSMjZDZWJnMWZ1MGNjN1g4cDFjZ2lkUdIBX0FVX3lxTFBEb3I5OG1LZDZpcXpXWDBKZ01jNERtQmtQNjZwM0JiNXpLT1hvSFU0TldQQ0VoZzB4c3VQMVBSTVNHT0RMWldManZOdnowSW9JbFZHOWJybXZUdDNuQWxv?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 04:40:00 GMT",
+          "source": "경향신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.33,
+    "vix": 18.16,
     "vvix": 87.9,
     "skew": 145.74,
     "move": 65.4
@@ -216,6 +216,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.07.08",
+            "close": 277500,
+            "change_pct": -6.25,
+            "retail_net": 2044062,
+            "inst_net": 971031,
+            "foreign_net": -3015093
+          },
+          {
             "date": "2026.07.07",
             "close": 296000,
             "change_pct": -6.92,
@@ -246,17 +254,17 @@
             "retail_net": 7173488,
             "inst_net": -2166435,
             "foreign_net": -5007053
-          },
-          {
-            "date": "2026.07.01",
-            "close": 314500,
-            "change_pct": -5.84,
-            "retail_net": 5233757,
-            "inst_net": -1855765,
-            "foreign_net": -3377992
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.08",
+            "close": 2076000,
+            "change_pct": -5.68,
+            "retail_net": 197041,
+            "inst_net": -285353,
+            "foreign_net": 88312
+          },
           {
             "date": "2026.07.07",
             "close": 2201000,
@@ -288,14 +296,6 @@
             "retail_net": 2060501,
             "inst_net": -1372901,
             "foreign_net": -687600
-          },
-          {
-            "date": "2026.07.01",
-            "close": 2560000,
-            "change_pct": -3.4,
-            "retail_net": 312084,
-            "inst_net": -308954,
-            "foreign_net": -3130
           }
         ]
       }
