@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T08:10:18.721138+09:00",
+  "timestamp": "2026-07-08T09:16:30.782135+09:00",
   "sentiment": {
     "cnn_fng": 43.0,
     "cnn_components": {
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 19,
+      "greed_count": 3,
+      "fear_count": 24,
       "greed_articles": [
+        {
+          "title": "\"오징어게임처럼 끝날 수 있다\"...코스피 급락에 '빚투' 경고음 [굿모닝경제] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtQ1NuUU1rVE4xOHg4ajlqVVhTUnF0b2J6M2dPUHVsWTFmOUYzNnhBSFpwcUJpSmRxcUZsc3dhZlNfb1kwRmRQYjdFLVBKSjhQek91NDZFVldCWW82ZEE?oc=5",
+          "pub_date": "Tue, 07 Jul 2026 23:09:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "[센터장에게 묻다]② 반도체 쏠림이 위험하다고?…“올해 코스피 이익 증가분 90%가 반도체\" - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSUh6bEJiU0dOQUExWGpiTTVnUjlrZGJBZDBZNHlIaXk4alM5Z2tPQXFMM0VORFhlLWJfaGR3YVZIVXZCUDNpdkVUY25pU291czVuNW81SmlJZ2daTnhUQUppa0IzUktqWHN5bE91cVI2S1pZTzUzQ1pOdEVVek9YdTNOenJKWV9j0gGcAUFVX3lxTFBpWWdjLXJDZi02Vkt1Tm9ENWVVcGppVHMzTEtuWWxSOXA2YzhtMlZZMmNDUHQtSGp3aGNvWE81cHotRFJhelNiUGV3U3lBbVNNUWVtZDNsU2xyTkROaFEzZVktd1Z0UUhBY2dGN1JJNFk3YnlSaWpPdE1jdFZ1Z3F2YTMxWEN0WW5OQ3h6NHVNenF1YUNhLXR0UVhRcg?oc=5",
           "pub_date": "Tue, 07 Jul 2026 21:00:00 GMT",
           "source": "Chosunbiz"
+        },
+        {
+          "title": "“고점 지났나” 묻는 코스피…“추세 종료보다 변동성 국면” - 이데일리",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORi05dlpveUV2Z3NoSFNUZ3VWQkE5ODVONXdCTUQzSXBlMTVscXVHUzQ1RmI1ZEFqc0wzemRGRVdNV04yMmhZekxtaHdwTGFiWVVFNzZvVUJiX3JVN09kRzl6cGxkRXhZTFJWTzZqVWk5RER1ZE94X0szZnNKLS1Udg?oc=5",
+          "pub_date": "Tue, 07 Jul 2026 23:03:04 GMT",
+          "source": "이데일리"
         }
       ],
       "fear_articles": [
@@ -30,6 +42,12 @@
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GZ2VWMkpic3M1VmM0WkZxWkhBSjhrLWU4ZW5xbnp0QWpUOVNzcEpCVHUxdXZoZ2JrNk9vbk5PVTliRjJ1WnRRak5Zcmt0UHBwckJrcjQwREtBeWvSAWBBVV95cUxQNGViMDBReWtnUkZMSUdhLUZlWmNYSzFlRUZDNkd3Xy1OT0NFZGpYR0taTW9GV0M4aFdlRk00VzVtVEFBWW16SXVLMDFvZGNMVFp1clB0Mzg4SlpUbHpIcW4?oc=5",
           "pub_date": "Tue, 07 Jul 2026 20:09:59 GMT",
           "source": "연합뉴스"
+        },
+        {
+          "title": "미 반도체주 급락·중동 리스크 확대… 코스피 영향은 [장전시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WS3NkN0kxREdWcENYS3FXa0NXbEo5WXp6cW0zZFl4VlJibUxyQ0xXWmxhNWl5VjFaRTFKR2F6NXhyNEZaOGZSakQ2c1VRQkZHVEViejJjUXprRS1JU21Mc1V4UQ?oc=5",
+          "pub_date": "Tue, 07 Jul 2026 23:28:17 GMT",
+          "source": "에너지경제신문"
         },
         {
           "title": "삼전 새 역사 쓴 날 코스피 급락, 더 위험한 건 SK 하이닉스? - YTN",
@@ -42,12 +60,6 @@
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xQm5Nd0QzTzljZmwweGZ5b0tCLU5QekVaNnIzRlJreGR4SEpjT2VmTmFzYkhxM3paemVwTVF5NXF3dTRuRmptQklWX1Rhc1JkTC1nRFpJLU9LYkk?oc=5",
           "pub_date": "Tue, 07 Jul 2026 20:29:00 GMT",
           "source": "KBS 뉴스"
-        },
-        {
-          "title": "\"코스피 급락, AI 우려 탓…반도체 사이클 피크 아냐\" [클릭e종목] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XUHhrVWR4YjQ3ay1sM1Q1dFFZTWYxN1pXb3dGcWxaSlVnVjF4ZFJENFZJN2ExY3hsTUVmTmEyRU91ZDEyYUVTSU1YZzJNaEpOcEQ5blRybDlzVFJxMWF1Rg?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 22:15:00 GMT",
-          "source": "아시아경제"
         },
         {
           "title": "코스피 급락에 서킷브레이커...4.9% 내린 7,656 마감 - YTN",
@@ -65,8 +77,8 @@
     "move": 70.25
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3228000000000,
-    "retail_net_buy_krw": 3135900000000,
+    "foreign_inst_buy_krw": 135300000000,
+    "retail_net_buy_krw": -132700000000,
     "margin_loan_krw": 37058200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -279,11 +291,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-02",
-    "analyzed_at": "2026-07-02T13:15:23.648073+09:00",
+    "date": "2026-07-08",
+    "analyzed_at": "2026-07-08T09:16:35.601330+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -291,16 +303,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "ZcWzqnANFpY",
-        "title": "반도체 급락에도 AI는 끝나지 않았다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-02T00:25:37Z",
-        "url": "https://youtube.com/watch?v=ZcWzqnANFpY",
+        "video_id": "RYaUB1tzCqQ",
+        "title": "호실적인데 주가는 왜? 실적 발표 후 꼭 봐야 할 것 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-07T00:18:42Z",
+        "url": "https://youtube.com/watch?v=RYaUB1tzCqQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목에서 반도체 급락이라는 리스크와 AI 산업의 지속 가능성을 동시에 언급하며 특정 섹터의 상황을 설명하지만, 구체적인 투자 행동을 권고하는 문구는 없습니다."
+          "reason": "제공된 영상 설명란에는 시장 방향성에 대한 구체적인 매수/매도/비중 조절 등의 행동 권고가 전혀 없으며, 제목 또한 '호실적인데 주가는 왜?'와 같이 현상을 분석하고 무엇을 봐야 할지 제시하는 중립적인 질문에 가깝습니다. 그 외 내용은 모두 채널 관련 홍보 및 안내 사항입니다."
         }
       },
       {
@@ -313,7 +325,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 내용에는 매수/매도/현금화 등 구체적인 투자 행동 권고가 명확히 언급되어 있지 않으며, 주로 영상의 주제(삼전, 하이닉스 미래 전망)와 전문가 강좌 홍보에 대한 설명입니다."
+          "reason": "영상 설명란은 특정 주식의 미래를 논하는 토론회와 주식 교육 프로그램 홍보에 초점을 맞추고 있으며, 매수, 매도, 비중 조절 등 어떠한 구체적인 행동 권고도 명시하고 있지 않습니다."
         }
       }
     ],
