@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T09:16:30.782135+09:00",
+  "timestamp": "2026-07-08T12:51:35.177274+09:00",
   "sentiment": {
     "cnn_fng": 43.0,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 24,
+      "greed_count": 4,
+      "fear_count": 30,
       "greed_articles": [
+        {
+          "title": "'흔들리는 반도체', 코스피 고점 지났나?…엇갈리는 시선들 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXd3RtMVRkdDhEZ2FGU0s5YUlrVzBpTnp3U3IxYlc3RDNBeURzN3ItTVl2YnFPRlpkb29DRTJkall6T2R3OHg1WmhwU1FnUzA?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 02:33:44 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "\"오징어게임처럼 끝날 수 있다\"...코스피 급락에 '빚투' 경고음 [굿모닝경제] - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtQ1NuUU1rVE4xOHg4ajlqVVhTUnF0b2J6M2dPUHVsWTFmOUYzNnhBSFpwcUJpSmRxcUZsc3dhZlNfb1kwRmRQYjdFLVBKSjhQek91NDZFVldCWW82ZEE?oc=5",
@@ -24,48 +30,48 @@
           "source": "YTN"
         },
         {
-          "title": "[센터장에게 묻다]② 반도체 쏠림이 위험하다고?…“올해 코스피 이익 증가분 90%가 반도체\" - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSUh6bEJiU0dOQUExWGpiTTVnUjlrZGJBZDBZNHlIaXk4alM5Z2tPQXFMM0VORFhlLWJfaGR3YVZIVXZCUDNpdkVUY25pU291czVuNW81SmlJZ2daTnhUQUppa0IzUktqWHN5bE91cVI2S1pZTzUzQ1pOdEVVek9YdTNOenJKWV9j0gGcAUFVX3lxTFBpWWdjLXJDZi02Vkt1Tm9ENWVVcGppVHMzTEtuWWxSOXA2YzhtMlZZMmNDUHQtSGp3aGNvWE81cHotRFJhelNiUGV3U3lBbVNNUWVtZDNsU2xyTkROaFEzZVktd1Z0UUhBY2dGN1JJNFk3YnlSaWpPdE1jdFZ1Z3F2YTMxWEN0WW5OQ3h6NHVNenF1YUNhLXR0UVhRcg?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 21:00:00 GMT",
-          "source": "Chosunbiz"
+          "title": "반도체고점론·전쟁에 주가 요동… 코스닥 10개월만에 800선 붕괴 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PRkcwTmp0cW8tTFY0NTVONGI0bG03OFRDSm5sVzlfaGgwSFBEZWdrZnBKZ0MxMmo0N0VmU1MxeFB1djM2RDdKM3J4SlRjZFJF?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 02:59:38 GMT",
+          "source": "문화일보"
         },
         {
-          "title": "“고점 지났나” 묻는 코스피…“추세 종료보다 변동성 국면” - 이데일리",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORi05dlpveUV2Z3NoSFNUZ3VWQkE5ODVONXdCTUQzSXBlMTVscXVHUzQ1RmI1ZEFqc0wzemRGRVdNV04yMmhZekxtaHdwTGFiWVVFNzZvVUJiX3JVN09kRzl6cGxkRXhZTFJWTzZqVWk5RER1ZE94X0szZnNKLS1Udg?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 23:03:04 GMT",
-          "source": "이데일리"
+          "title": "반도체 투톱에 몰린 '빚투'…코스피 전체 신용융자의 36% - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkt6SkJ3dXJjNHViYkpHeDR0MWtYOWFtR1RacWR5R0dEWXl4dDRSZHl6RU11R0pZMVpaWWlHZDU0MGpkSWxBQnJCTkRqdmJld0dNRHNjRTdyMjZpV0ktVDE5N0U3Wlo2aFhLcGVqSjQ2ME9yU0szc29pREFwb29IanU2eVMzTVc5?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 01:45:17 GMT",
+          "source": "글로벌이코노믹"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 반도체주 급락·유가 급등에 일제히 하락 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GZ2VWMkpic3M1VmM0WkZxWkhBSjhrLWU4ZW5xbnp0QWpUOVNzcEpCVHUxdXZoZ2JrNk9vbk5PVTliRjJ1WnRRak5Zcmt0UHBwckJrcjQwREtBeWvSAWBBVV95cUxQNGViMDBReWtnUkZMSUdhLUZlWmNYSzFlRUZDNkd3Xy1OT0NFZGpYR0taTW9GV0M4aFdlRk00VzVtVEFBWW16SXVLMDFvZGNMVFp1clB0Mzg4SlpUbHpIcW4?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 20:09:59 GMT",
+          "title": "코스피, 급락 출발 후 낙폭축소해 보합권…삼전닉스 상승전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoYnVFcm9IdEh1c1E2ZTdyTV9oVGFnc3VaVkdGRnBuSXVLVnFwSlVYeFNHekx0YTdWWnVsQXo1TTNtVW5VMTZpVWZDQmhxUG5sNjVDakNuNHBWNGxMdS1PcElBOHlGek0?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 01:04:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "[속보] 코스닥, 10개월만 800선 밑으로…장중 3%대 급락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2SnR2RmhGT1Rvc21JWEdBOVZTcVVXSGFZMFdRNzVYQnQwT2tDNHJQS0xmMldWb2twYzFQTFpBMkFXVWdoczVUVXJjNlk0U3FKeE5MTkMzZFVWVTZlblBVUdIBYEFVX3lxTFB2SnR2RmhGT1Rvc21JWEdBOVZTcVVXSGFZMFdRNzVYQnQwT2tDNHJQS0xmMldWb2twYzFQTFpBMkFXVWdoczVUVXJjNlk0U3FKeE5MTkMzZFVWVTZlblBVUQ?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 02:03:10 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "미 반도체주 급락·중동 리스크 확대… 코스피 영향은 [장전시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WS3NkN0kxREdWcENYS3FXa0NXbEo5WXp6cW0zZFl4VlJibUxyQ0xXWmxhNWl5VjFaRTFKR2F6NXhyNEZaOGZSakQ2c1VRQkZHVEViejJjUXprRS1JU21Mc1V4UQ?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 23:28:17 GMT",
-          "source": "에너지경제신문"
+          "title": "코스닥, 10개월여 만에 700선으로 후퇴…장중 4%대 급락 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Hb3ZvRjFjR0l3SFRsZnllaHBRN0FBMmxQQi1EbFZHUF9ZNVl4UnF2M1V5OXhMT2EwbmM0N0V3MDNIWU5Od3lJUG5CTmtDVjVQVVlsSw?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 02:10:00 GMT",
+          "source": "JTBC"
         },
         {
-          "title": "삼전 새 역사 쓴 날 코스피 급락, 더 위험한 건 SK 하이닉스? - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QdHBfU1F6QmM0UDhISjNkcnZZbkxnbC1KS1VoWWZITjNhSzlQeHl2N3RXMm9BYk5KUzhTR0prQjVKczNVbWJRa0dOeVg0TmFXaFFvbVhFQWdpdUdrRnc?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 22:34:00 GMT",
-          "source": "YTN"
+          "title": "코스피, 급락 출발 후 낙폭축소해 보합권…삼전닉스 상승전환(종합) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1RnZObTdKZDFObElHeGxLZTlBM1RtTkJCbXhWd0IxMDV4aGcxcklDVnFyemV4MlpiTTROTVZ3RUVyU2dfVERHQndlSnE1eEE?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 00:49:01 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "뉴욕증시, 반도체주 급락·유가 급등에 일제히 하락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xQm5Nd0QzTzljZmwweGZ5b0tCLU5QekVaNnIzRlJreGR4SEpjT2VmTmFzYkhxM3paemVwTVF5NXF3dTRuRmptQklWX1Rhc1JkTC1nRFpJLU9LYkk?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 20:29:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "코스피 급락에 서킷브레이커...4.9% 내린 7,656 마감 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxXzgtQzBYNV9laklaUGdtdTlEeWhCRmdGNDdZSWJRaW5maWE0cWFpQlNBbUh6Zm5mMTVWMHRpWTMxSjU0eDhPNGZqYnBuckNUbmpDaXg3OGRaWkhvTUE?oc=5",
-          "pub_date": "Tue, 07 Jul 2026 17:38:00 GMT",
-          "source": "YTN"
+          "title": "어제 급락했던 코스피 오늘도 하락 출발‥7,400선까지 밀려 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZX2N1akJ6VGxyMGtLR0Y2UWs4a3VqVF9aUVlGV3hIN3dBM2tDX1R6dnM4NnVJSHVtX05Ja1RtSTF5Q00zcXlNeEtmOGpCRklXaS12Q3hzTVdkaHplQkxHRDdWT2Z3YWpubkk0SERBMWNlbWUy0gF0QVVfeXFMTXJ2NDBHMEZzbVFPNFVfNVpPaGNNU3Z5V251dXM1b1RqRDYyTU1ZZDZ4dDROZ2t2MFE0cWZnWTBuYTdHeWNJa2NXSlJxcFF3RWY5bmRLc1J2UWdueDVJVjFwdU1BSjNCcWd6X29vd3dpdnhnejM?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 00:12:46 GMT",
+          "source": "MBC 뉴스"
         }
       ]
     }
@@ -77,8 +83,8 @@
     "move": 70.25
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 135300000000,
-    "retail_net_buy_krw": -132700000000,
+    "foreign_inst_buy_krw": 624400000000,
+    "retail_net_buy_krw": -625900000000,
     "margin_loan_krw": 37058200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +99,18 @@
       "sma_200": 23739.32
     },
     "kospi": {
-      "current": 8051.33,
+      "current": 7597.92,
       "high_52w": 9385.59,
-      "drop_pct": -14.22,
-      "intraday_low_drop_pct": -16.73,
-      "sma_200": 5431.15
+      "drop_pct": -19.05,
+      "intraday_low_drop_pct": -21.66,
+      "sma_200": 5475.02
     },
     "kosdaq": {
-      "current": 847.07,
+      "current": 805.57,
       "high_52w": 1229.42,
-      "drop_pct": -31.1,
-      "intraday_low_drop_pct": -32.84,
-      "sma_200": 1004.62
+      "drop_pct": -34.48,
+      "intraday_low_drop_pct": -35.31,
+      "sma_200": 1004.59
     },
     "sp500": {
       "current": 7503.85,
