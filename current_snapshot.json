@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T07:43:43.063561+09:00",
+  "timestamp": "2026-07-09T08:45:46.407774+09:00",
   "sentiment": {
     "cnn_fng": 42.2285714285714,
     "cnn_components": {
@@ -14,9 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 4,
+      "greed_count": 8,
+      "fear_count": 7,
       "greed_articles": [
+        {
+          "title": "[마켓뷰] '반도체 고점' 우려에 연이틀 급락 코스피, 반등 나서나 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pS2tLY2dWMEE1YVdtWWx6a1lXb0Z2d1BpTjV1UE5jYl8xMkw4cnA5aDBlb2JNV0lHSXJGSksyNlA2TXNVeTBZaWJieGxHdE03NHpWYWVBdnRBVzDSAWBBVV95cUxOMXZGMmE3eG83YzAzZlIzM3BDZzk1Nm9nbUxWbnE5cEl4OGszQjhqalpIWkxNZGx1OWRXclczNjRJWTlTUXUzQTBNMGxvTkNUZWhaM2ZWbkd2VlU3ZGNfMks?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 23:12:03 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "미·이란 긴장 고조, 반도체 저가 매수에 뉴욕증시 혼조세 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qU2tydDZCTDJMT294Z2hTMF9MREdRWG1La2VrcTZxNjU4ZU8tUE50YjZ6aHUtSmdSVUotTnFyQkpCMDZLQmxzMVdNcTdVTmZ6cXVUaFFrN0x5R0RJWkpBNlZEM0Y1bzNYNGFRVVdjMEE3TGg2SS1pS2xR?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 22:42:31 GMT",
+          "source": "MBC 뉴스"
+        },
         {
           "title": "반도체 고점론에 중동불안 겹쳤다…코스피, 이틀연속 급락 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qZzJaRjRjMUREaW9OQWlQdlFPVjQwMGhHVFRPQ05qcGhGU25QSUNTLU5xcEdSTmwyZGpsV0tiWjVOOWFleGs1cmUta3VNeGc?oc=5",
@@ -24,19 +36,19 @@
           "source": "v.daum.net"
         },
         {
-          "title": "\"국장은 고점…해외 비중 높인다\"…고액자산가들, 하반기 투자 방향은 - 마켓인",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01NVBFVUxmTjMzS2VtNGtDWGg3aWY0RC1fWmp1Um9QcDhOLW93LXEzV3k3QjhYMlhIMlFQNFFyUk83aU9RRzVYNTJTcXZfVmV4NmdjdTlobzlJSnk1NjVrZHJheFBSbjdQZnBaUDNKWGhPMEk?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 21:00:50 GMT",
-          "source": "마켓인"
+          "title": "미·이란 긴장 고조, 반도체 저가 매수에 뉴욕증시 혼조세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLbWRxZkFMVlpBN0Q1WmJ3bjlOUWJQV3J4QklxNVB6QWtLOUdCaG1EZ083QWJoaU8yT0tNUmUxSy1ZSVBHNXNraUJpSlhnaUU?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 22:52:04 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[모닝 리포트] \"국내 증시, 휴전 중단 부담 속 저가 매수로 반등 전망\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xY2UxRkRuRzlpVmRnZ0JScjFSOFNYM3J6Ry15N2hXaWl1bV9rQzN0bk5xUloyUVBCRkwzQy1naGJnaktMWUNoMWFsOXdVZmxXSkxuRE40MjB3YTB1?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 23:12:00 GMT",
+          "source": "뉴스핌"
         }
       ],
       "fear_articles": [
-        {
-          "title": "역대급 실적 누른 ‘피크아웃’ 공포…코스피 이틀 새 10% 폭락 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 16:18:00 GMT",
-          "source": "한겨레"
-        },
         {
           "title": "'만스피' 바라보던 코스피 패닉에도…증권가 \"매수 기회\" 왜? - 뉴시스",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WdIBeEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WQ?oc=5",
@@ -44,16 +56,28 @@
           "source": "뉴시스"
         },
         {
+          "title": "역대급 실적 누른 ‘피크아웃’ 공포…코스피 이틀 새 10% 폭락 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 16:18:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "못믿을 리포트… 코스닥 급락 불구, 증권사 매수 의견은 96% - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3RXZRb0hqWmotcUJ1dVhtaG54Y1FfY2VoZURJVmNaNWpoQjVHUzR2ZzlGUVpJdVRxYmY3YjVaRm9Cd2tmbTNiSHpkV09MV0RJZE45MkRjNHRWY21JSG9QV29fWEdhVmNIRUxaUkdkUWzSAXRBVV95cUxPcS1KUFJUVDJDTGszMTJ6WDNDd2ZFWnliVGxWTGwwbUxicGlGYUJkckxlRXVkNE5tVF80bkRKNUtDSkJHcGZsOURTMExHTC1HWVJoZmp3eXNkN2FMQU9oQXRNRkROZEZ6UXNhNjZKeVM0LUxFSw?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 21:10:00 GMT",
+          "source": "IT조선"
+        },
+        {
+          "title": "\"(이란과 휴전 합의) 끝난 듯\" 트럼프 발언에 유가 급등, 증시 급락 - VOA 한국어 홈페이지",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS01MT3RPQng3UGp3aWg4VGZhYzBwVGZuNlQtOEtYb193b3dnRW0zLVNadDRRa21JTFZWb0Q0b3NoSEhqUW1RSFNqOUFYd0FYQlUxNjA5WS10TG9Zeko2aEpvQW5ub3dYTllhQlFUd0ZIem9LOUQ5MndYTG5OYmJ0d3BZYmd6WDNXbzJGbUU1RWtOXzdqTWI5c2x6d3k4akZ3dEtCWjQ3eDZmRC1FZ0hEb1VwNXo0S1BSVXdHbUNxakdtMXctanhyb9IBywFBVV95cUxPdFlxWTdBc0QxdTRHRUg3QWtPY0d5b0x6S3M2UnNFT2xQWE9WZ3FacjZTRkh3aU92bHhhbnZpMTZ2bUwydjRmM0ZPNDI0X2hrVlhGbHZXSXVYX2duRXNIbi1uT0p5b2hxRkNUUzlUWmFodlNMWFl1QTgxQVpHN01jNld0SzgwSFFLc1ZHU1N5Z0VWQmxiRlRybjVINVJVYjUwMERleFZ2UERncDVORHhEVXVYOHlmWnB1dEJOdmhaTERBdjFYXzl1WW1JYw?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 15:43:17 GMT",
+          "source": "VOA 한국어 홈페이지"
+        },
+        {
           "title": "반도체 피크아웃 우려에 코스피 급락… 환율은 1500원 밑돌아 - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00QkxMV2ZPN1lvNFB4VHV3UUh5WGFuXzkwcURrR3NWdXR4MjBDTGYtb0FZMlJhYTl6REN2dnZ2LUJPUkdfaUpMMUJaa0ZnUVFma3hnbTNxRzRoR2pqeGZ2R0hzMjVBU0dlT3psVDVRQUZXSWNpd1HSAWZBVV95cUxQQVloQmx6bXRWcmVSZ0ljdlVEYzh5aDR0S0pXcVVKbzVJQ3JOelhiVnZVMEczYmxBWWJVUkF4elJGZ09fV3BadTNrYXJwaE9QWk1MMDRWdDVqWEhvVy1YMER0VF9HWnc?oc=5",
           "pub_date": "Wed, 08 Jul 2026 15:30:00 GMT",
           "source": "동아일보"
-        },
-        {
-          "title": "미·이란 전면전 공포에 증시 패닉… 비트코인 6만 1500달러 사수 벼랑 끝 줄타기 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnp1ZE5tOEdHSXBfMUlZaUh6VHU4cU5lZlZhRGdILWNtNFZnSTktSTJXaUtRUUhDZEpaWTM5aG82TmpiMjdwb3huM0RrSTFoQUNvV0xES3RoYS1Ld09XYUpnWUliMU44Z244MjVIQ0ZKcTd1T2ZfRlJVUnRMcVowbnN5bWpmSGM?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 21:21:02 GMT",
-          "source": "글로벌이코노믹"
         }
       ]
     }
