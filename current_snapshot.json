@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T06:38:16.699841+09:00",
+  "timestamp": "2026-07-09T07:43:43.063561+09:00",
   "sentiment": {
     "cnn_fng": 42.2285714285714,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 5,
+      "fear_count": 4,
       "greed_articles": [
         {
           "title": "반도체 고점론에 중동불안 겹쳤다…코스피, 이틀연속 급락 - v.daum.net",
@@ -32,12 +32,6 @@
       ],
       "fear_articles": [
         {
-          "title": "\"(이란과 휴전 합의) 끝난 듯\" 트럼프 발언에 유가 급등, 증시 급락 - VOA 한국어 홈페이지",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS01MT3RPQng3UGp3aWg4VGZhYzBwVGZuNlQtOEtYb193b3dnRW0zLVNadDRRa21JTFZWb0Q0b3NoSEhqUW1RSFNqOUFYd0FYQlUxNjA5WS10TG9Zeko2aEpvQW5ub3dYTllhQlFUd0ZIem9LOUQ5MndYTG5OYmJ0d3BZYmd6WDNXbzJGbUU1RWtOXzdqTWI5c2x6d3k4akZ3dEtCWjQ3eDZmRC1FZ0hEb1VwNXo0S1BSVXdHbUNxakdtMXctanhyb9IBywFBVV95cUxPdFlxWTdBc0QxdTRHRUg3QWtPY0d5b0x6S3M2UnNFT2xQWE9WZ3FacjZTRkh3aU92bHhhbnZpMTZ2bUwydjRmM0ZPNDI0X2hrVlhGbHZXSXVYX2duRXNIbi1uT0p5b2hxRkNUUzlUWmFodlNMWFl1QTgxQVpHN01jNld0SzgwSFFLc1ZHU1N5Z0VWQmxiRlRybjVINVJVYjUwMERleFZ2UERncDVORHhEVXVYOHlmWnB1dEJOdmhaTERBdjFYXzl1WW1JYw?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 15:43:17 GMT",
-          "source": "VOA 한국어 홈페이지"
-        },
-        {
           "title": "역대급 실적 누른 ‘피크아웃’ 공포…코스피 이틀 새 10% 폭락 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
           "pub_date": "Wed, 08 Jul 2026 16:18:00 GMT",
@@ -45,7 +39,7 @@
         },
         {
           "title": "'만스피' 바라보던 코스피 패닉에도…증권가 \"매수 기회\" 왜? - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2WFhDZTdGc093TGhIWlpOM1lhajkzM0NscFZ3aC1nRE9LU1BvS0hnckRxSDdFNWktTmZGcmktelMwYlZBWURiZ09nTnpHZE10VUg1Yy13MWFzaVNLVmV6MNIBeEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WdIBeEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WQ?oc=5",
           "pub_date": "Wed, 08 Jul 2026 21:00:00 GMT",
           "source": "뉴시스"
         },
@@ -56,10 +50,10 @@
           "source": "동아일보"
         },
         {
-          "title": "[속보][뉴욕증시] 다우지수 급락, 나스닥은 반등…엔비디아, 3.7% 급등 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zakNBcmpzQ2lZcFFBMjJlbmotQ1F0SEoyUDVQbEtocVdzRXA0TVBGLUdRdHlYZkR6eUxaeHFjanlkNV8xTVJ3ajJ1ZGRodTY1SWdJXzRkcmZrdw?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 20:01:22 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "미·이란 전면전 공포에 증시 패닉… 비트코인 6만 1500달러 사수 벼랑 끝 줄타기 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnp1ZE5tOEdHSXBfMUlZaUh6VHU4cU5lZlZhRGdILWNtNFZnSTktSTJXaUtRUUhDZEpaWTM5aG82TmpiMjdwb3huM0RrSTFoQUNvV0xES3RoYS1Ld09XYUpnWUliMU44Z244MjVIQ0ZKcTd1T2ZfRlJVUnRMcVowbnN5bWpmSGM?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 21:21:02 GMT",
+          "source": "글로벌이코노믹"
         }
       ]
     }
@@ -73,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -11500000000,
     "retail_net_buy_krw": -35800000000,
-    "margin_loan_krw": 37058200000000,
+    "margin_loan_krw": 36470400000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
