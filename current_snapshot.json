@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-09T14:14:37.371809+09:00",
+  "timestamp": "2026-07-09T17:49:49.893771+09:00",
   "sentiment": {
-    "cnn_fng": 42.3428571428571,
+    "cnn_fng": 41.5428571428572,
     "cnn_components": {
       "momentum": 45.2,
-      "strength": 44.0,
-      "breadth": 23.2,
+      "strength": 42.6,
+      "breadth": 19.0,
       "put_call": 53.0,
       "junk_bond": 29.6,
       "volatility": 50.0,
@@ -14,38 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 14,
-      "fear_count": 10,
+      "greed_count": 3,
+      "fear_count": 9,
       "greed_articles": [
         {
-          "title": "외신들도 '코스피 급락' 주목…\"AI 고점 우려 작용\" [뉴스더보기] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VUEd6T1psUGRJSWpVVUV4Vmw2T0JLWTY1TWUydFdoalB1U3FqU2czWnVoQW9sVjN1ckdXM2k1T0JjXzM0SEhoRmhtTkVKVDQ?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 02:20:39 GMT",
-          "source": "v.daum.net"
+          "title": "삼성전자·하이닉스 쏠림 심화…증시 거래대금 83% 차지 - BBS불교방송",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWLUhQSDFjdDhkdXVRZS1wc2pRTml6dVI0WHlxcEh3QmMwdE1JWFcxNFc1YjJ5em1GMDhicjc1RVRwM0puZDBWNzJJN3JNS1Zob1lUakRpdWR5WlpGbzh5eUxsa2VCSXlEUlpn?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 08:23:36 GMT",
+          "source": "BBS불교방송"
         },
         {
-          "title": "코스피, 3%대 반등…반도체주 저가 매수 유입에 7,500선 회복 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yTm1TYmtzMVB5RXlRcjdoRTQ2akl4bVpNXzJ5UlVBV0ZOZlJjMkxMYzhTaXdDdS1lbzMyUFBFeEpWR0xGQWZMUkxpVzN3VXJia0V5NTZLaV9zRngzZnRrcTBJemRtbmNZaU8wSFJya0VDNDJ0?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 00:31:20 GMT",
-          "source": "연합인포맥스"
+          "title": "[마감시황] 코스피, 저가 매수세 유입에 강보합 마감…4거래일 만 - 신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAweThBT2hTblI0MExwNG9oaEstSjBjb2tVMjMweC04alg1Y0VzYzZnWkdER0p4MDJXWk5tRDBUNnJTSlhvbHFsUTFWUFA2VVNRVXBaU3pKSUI3UFR6dmN5MG91LUhHNlRhRGczZ0VucmY?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 07:16:29 GMT",
+          "source": "신아일보"
         },
         {
           "title": "한은 \"반도체가 증시 버팀목…집값·빚투는 경계\" By EBN - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RZjB4MG4wT3dmaVAwN3NrekI4WHVja0NhOEpZMlZtbl9LN3V2NkpXVV9FcnlDa1FpQzNwSG1yVFZZWVVHcjhUZmlKU0gyVFNDRm1xUU1Pa1QyYk91WkJvSzRwYVhtRG1ndFZhOGgzOTM?oc=5",
           "pub_date": "Thu, 09 Jul 2026 04:41:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "[마켓뷰] '반도체 고점' 우려에 연이틀 급락 코스피, 반등 나서나 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xdkYyYTd4bzdjMDNmUjMzcENnOTU2b2dtTFZucTlwSXg4azNCOGpqWkhaTE1kbHU5ZFdyVzM2NElZOVNRdTNBME0wbG9OQ1RlaFozZlZuR3ZWVTdkY18yS9IBYEFVX3lxTE4xdkYyYTd4bzdjMDNmUjMzcENnOTU2b2dtTFZucTlwSXg4azNCOGpqWkhaTE1kbHU5ZFdyVzM2NElZOVNRdTNBME0wbG9OQ1RlaFozZlZuR3ZWVTdkY18ySw?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 23:12:03 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "1519조 증발한 코스피…버블 경고음 켜졌다 - 신아일보",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EUXg5bnZieTUzTVVvZzNwZDY3Ny1RRW5ZQmxVM1lDRTFvQ0VRcW5WMWVvZ3lkRU9XekdUN2tXRHpkOUdud3ZYN2ZHZlhFdHJOaHZuZVRlZFU0YlZKTHRiLVg0YjZvS3V2Mkx6djhrMjI?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 04:54:57 GMT",
-          "source": "신아일보"
         }
       ],
       "fear_articles": [
@@ -56,8 +44,14 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "[속보]'이틀간 대폭락 딛고...' 코스피, 0.6% 오른 7,291p 반등 마감 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3MGJIN0pYeldOaFNmdzZLYTlaTS0xYnNIR25BWEw4MXF1QS1KWGhHaXpIWWRoODhKc09MQWExV0VsckxNeHFfXzFjY0RkV1FKQUFFUkJUMi1jV01JNjZBbw?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 07:33:40 GMT",
+          "source": "KBC광주방송"
+        },
+        {
           "title": "코스피, 연이틀 급락 딛고 3%대 반등…삼전·닉스 급등(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4RVI5WWlDcGVDdVJfaWtEeV9janhzeUM2QlFGLTczU2k0UXVNSGtNWUNuX1JuOXVsU1V4SUxMR18tc0tuZmVWWVJQLUFsLV9mWGVlUTFFUExxQ0Z5Tjh2ddIBYEFVX3lxTFA4RVI5WWlDcGVDdVJfaWtEeV9janhzeUM2QlFGLTczU2k0UXVNSGtNWUNuX1JuOXVsU1V4SUxMR18tc0tuZmVWWVJQLUFsLV9mWGVlUTFFUExxQ0Z5Tjh2dQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84YjRIeG9HMmhweV91SDAxU25HYmV6MVV1LUJGWjcwMGdTeUgzeTZJTG50Q0NOeEttaXlfWXd1dFhhZW1VRG16VGVrWHJEZFFaLVYyX0I0MkpmYmvSAWBBVV95cUxQOEVSOVlpQ3BlQ3VSX2lrRHlfY2p4c3lDNkJRRi03M1NpNFF1TUhrTVlDbl9Sbjl1bFNVeElMTEdfLXNLbmZlVllSUC1BbC1fZlhlZVExRVBMcUNGeU44dnU?oc=5",
           "pub_date": "Thu, 09 Jul 2026 00:39:51 GMT",
           "source": "연합뉴스"
         },
@@ -68,29 +62,23 @@
           "source": "연합뉴스"
         },
         {
-          "title": "[한은 업무보고] \"증시, 추세적 하락 전환 가능성 제한적\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1idEhfdTBSSW5wNHVsRC1Gb0ZfTUFyWk5McmtHbUE3LTdQWmhHZi16UWJCcGNkMHROUTltRW9tWTRxWDdXeHA5RWYySFZjdnRZeUNxOXQ0bXpyMW9Dd0R4WXpZMms4VDIyUHB1ak5pRVA?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 03:00:18 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 연이틀 급락 뒤 반등...장 초반 3%대 상승 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwT3JpU0JQNVJFY0doMXJDYjBuWVZqd2VrRWhuV2pyTmdYT2x1Uld1Z3ZCdFJJeFVYcl9lZlJnN2NHZkotMmFydDdYVWpuNEdLWVZ1ZTFTN0pYbmxfYzQwZmNnRjdKSFUtSXlTb25FR3VlRDdBVEE?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 01:28:00 GMT",
-          "source": "YTN"
+          "title": "급락장 딛고 코스피 0.62% 상승 마감... 코스닥도 반등 - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JMWEzbzM5WTlyWWdKSGpTT3pMVU5uZzNKRGpCVHJ5dGNVY0dsYTdDY08yS3NueW1xY3F4dFVWNjNlbGNxZFZNMnduLVczU2t1d2ZsNEFkdTlxWnpNeVdyTU5UZmdReXQ2SnNRSEJDOA?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 06:50:00 GMT",
+          "source": "조세일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.9,
+    "vix": 16.7,
     "vvix": 91.38,
     "skew": 149.79,
     "move": 65.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1671700000000,
-    "retail_net_buy_krw": -1569300000000,
+    "foreign_inst_buy_krw": 1422700000000,
+    "retail_net_buy_krw": -1327800000000,
     "margin_loan_krw": 36470400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,18 +93,18 @@
       "sma_200": 23756.32
     },
     "kospi": {
-      "current": 7245.88,
+      "current": 7291.91,
       "high_52w": 9385.59,
-      "drop_pct": -22.8,
+      "drop_pct": -22.31,
       "intraday_low_drop_pct": -24.74,
-      "sma_200": 5492.92
+      "sma_200": 5493.15
     },
     "kosdaq": {
-      "current": 789.92,
+      "current": 794.0,
       "high_52w": 1229.42,
-      "drop_pct": -35.75,
+      "drop_pct": -35.42,
       "intraday_low_drop_pct": -36.7,
-      "sma_200": 1004.27
+      "sma_200": 1004.29
     },
     "sp500": {
       "current": 7482.71,
