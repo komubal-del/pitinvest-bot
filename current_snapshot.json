@@ -1,84 +1,28 @@
 {
-  "timestamp": "2026-07-09T21:23:32.176259+09:00",
+  "timestamp": "2026-07-10T00:39:05.064476+09:00",
   "sentiment": {
-    "cnn_fng": 41.5428571428572,
+    "cnn_fng": 47.2857142857143,
     "cnn_components": {
-      "momentum": 45.2,
-      "strength": 42.6,
-      "breadth": 19.0,
-      "put_call": 53.0,
-      "junk_bond": 29.6,
+      "momentum": 51.6,
+      "strength": 43.0,
+      "breadth": 25.4,
+      "put_call": 60.2,
+      "junk_bond": 30.6,
       "volatility": 50.0,
-      "safe_haven": 51.4
+      "safe_haven": 70.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 5,
-      "greed_articles": [
-        {
-          "title": "‘찔끔’ 오른 삼전·코스피···증시는 고점을 지난 건가 저점을 지난 건가 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pR0FTVVdGSEtudFVuMEJIWFp5Z3llcEoybVdaanNtcE5xekloRkQtNmR5WEt2cW4yZjZ2czZKa1FkdjJBMGVqem9lOXVzaDZKSU1vcnJGVHE0d9IBX0FVX3lxTE5KOEo5Z3JOcGhSa1NvMTJLenEzVWNiTDFOU29QRmRYenZZSFBwdjBLMXN0VzRZZnFpZGwtR1VEOU12akg0b1gtWjUwY3NxM0FpQ1JWd1JyX2hZZVgxV08w?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 08:09:00 GMT",
-          "source": "경향신문"
-        },
-        {
-          "title": "삼성전자·하이닉스 쏠림 심화…증시 거래대금 83% 차지 - BBS불교방송",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWLUhQSDFjdDhkdXVRZS1wc2pRTml6dVI0WHlxcEh3QmMwdE1JWFcxNFc1YjJ5em1GMDhicjc1RVRwM0puZDBWNzJJN3JNS1Zob1lUakRpdWR5WlpGbzh5eUxsa2VCSXlEUlpn?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 08:23:36 GMT",
-          "source": "BBS불교방송"
-        },
-        {
-          "title": "[마감시황] 코스피, 저가 매수세 유입에 강보합 마감…4거래일 만 - 신아일보",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAweThBT2hTblI0MExwNG9oaEstSjBjb2tVMjMweC04alg1Y0VzYzZnWkdER0p4MDJXWk5tRDBUNnJTSlhvbHFsUTFWUFA2VVNRVXBaU3pKSUI3UFR6dmN5MG91LUhHNlRhRGczZ0VucmY?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 07:16:29 GMT",
-          "source": "신아일보"
-        },
-        {
-          "title": "[인도증시] 저가 매수세 유입, 소폭 상승...유가·몬순 영향 덜 받는 제약·헬스 지수 ↑ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pNS1SbG9jR0lZRHRsVVlZRVJmak9mOE1MTEM1ZHM2VXAzeXZVX3lVdFlIQjFOaGFGODlBMkNsUWpGU2NoWFRtY2NBTFl5dFZNMVc3R3pHNUJnMVh4?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 11:17:00 GMT",
-          "source": "뉴스핌"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[속보]'이틀간 대폭락 딛고...' 코스피, 0.6% 오른 7,291p 반등 마감 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3MGJIN0pYeldOaFNmdzZLYTlaTS0xYnNIR25BWEw4MXF1QS1KWGhHaXpIWWRoODhKc09MQWExV0VsckxNeHFfXzFjY0RkV1FKQUFFUkJUMi1jV01JNjZBbw?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 07:33:40 GMT",
-          "source": "KBC광주방송"
-        },
-        {
-          "title": "코스피, 장중 3% 폭등 뒤 하락 전환…삼성전자 약세에 7,230선 밀려 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrTTU5LXpwRlk4OUxQX0w0WXdpdVNjZkd1X1NEcWpnS3V1YmpsSlEtYWRPeUczRDlNVmlrSlZobXlYbm0tOVpaQUY0WXpKRTdDeV9wM2tFajhROGMzMGJLT0VVeG5MZmhSVDdsQnNLN3PSAXRBVV95cUxQQUFic0ItWnJnVVBZNTFMblV5WENYSDIwdDNhNTd3VERWR25HUVRHUDFDZkFaVmM0VUYxdHQtVFNNdmZDaXd6TS1TTW9jOWU5OEM3VVU2SzdGSkVobVNhVzhBVl80Qi1WZTBUdkc5OXZ4WGd2Mw?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 04:24:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 급락세는 멈춰…롤러코스터 끝 상승 마감 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oTkpZMHZVZy1laVVxZTlGQ29BdXNRVW02MDdzbGNaTDE1VGZlUjdpbWtzTGxiXzdjelNEaEZyelRaRFl6ay1GNG5JeU5kd1dQdVhEMGdIXzg2XzhRQUtDa0RyTGk2RjA?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 07:03:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "\"기업 실적은 좋은데 주가만 폭락\"… 코스피 PER 6.17배, 금융위기보다 싸졌다 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qNGlKdkVBMnFXenUtR0o1UU5ZQXVHUHVvUjJEeFpqMi05bEUyWGRKamhCZXVaWEFsTGUwNGZhQ2hsODBDVkE0NUx4Z2tleHM1cHJ2Rw?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 03:00:00 GMT",
-          "source": "JTBC"
-        },
-        {
-          "title": "[증시] 매도 압력에 흔들린 호치민 증시, VN-지수 13p 하락… 은행주 급락 속 유동성 ‘보름 만에 최저’ - 굿모닝베트남미디어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QRUk5YjQzcGt5NlMtelFzRnB2TDZoNzctR0d4Mm5QZS1LNFpOZ0w0dnRiUmp6enEtZ3V2V1ZDc1pMVHZ5a2lTWUk4SE5ZUTB2UzJaLU9hZlVydmZsbGI2RTFxRnVFeVZVNWc1VTR2cFY?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 10:32:42 GMT",
-          "source": "굿모닝베트남미디어"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.81,
-    "vvix": 91.38,
+    "vix": 16.21,
+    "vvix": 90.0,
     "skew": 149.79,
     "move": 65.4
   },
@@ -92,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25870.65,
+      "current": 26067.82,
       "high_52w": 27190.21,
-      "drop_pct": -4.85,
-      "intraday_low_drop_pct": -6.12,
-      "sma_200": 23756.32
+      "drop_pct": -4.13,
+      "intraday_low_drop_pct": -5.02,
+      "sma_200": 23773.5
     },
     "kospi": {
-      "current": 7291.91,
+      "current": 7246.79,
       "high_52w": 9385.59,
-      "drop_pct": -22.31,
-      "intraday_low_drop_pct": -24.74,
-      "sma_200": 5493.15
+      "drop_pct": -22.79,
+      "intraday_low_drop_pct": -22.79,
+      "sma_200": 5473.27
     },
     "kosdaq": {
-      "current": 794.0,
+      "current": 785.0,
       "high_52w": 1229.42,
-      "drop_pct": -35.42,
-      "intraday_low_drop_pct": -36.7,
-      "sma_200": 1004.29
+      "drop_pct": -36.15,
+      "intraday_low_drop_pct": -36.66,
+      "sma_200": 1004.49
     },
     "sp500": {
-      "current": 7482.71,
+      "current": 7525.13,
       "high_52w": 7620.9,
-      "drop_pct": -1.81,
-      "intraday_low_drop_pct": -2.61,
-      "sma_200": 6956.33
+      "drop_pct": -1.26,
+      "intraday_low_drop_pct": -1.83,
+      "sma_200": 6960.64
     },
     "russell2k": {
-      "current": 2956.39,
+      "current": 2991.9,
       "high_52w": 3046.59,
-      "drop_pct": -2.96,
-      "intraday_low_drop_pct": -3.92,
-      "sma_200": 2633.52
+      "drop_pct": -1.8,
+      "intraday_low_drop_pct": -2.73,
+      "sma_200": 2636.24
     },
     "soxx": {
-      "current": 562.03,
+      "current": 589.86,
       "high_52w": 655.95,
-      "drop_pct": -14.32,
-      "intraday_low_drop_pct": -17.09,
-      "sma_200": 380.52
+      "drop_pct": -10.08,
+      "intraday_low_drop_pct": -11.53,
+      "sma_200": 382.14
     }
   },
   "sector_rs": {
-    "XLK": 1.163,
-    "SMH": 1.254,
-    "BOTZ": 0.938,
-    "IGV": 1.098,
-    "XLF": 0.978,
-    "XLE": 0.889
+    "XLK": 1.185,
+    "SMH": 1.289,
+    "BOTZ": 0.947,
+    "IGV": 1.103,
+    "XLF": 0.982,
+    "XLE": 0.874
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.39,
+    "tqqq_profit_pct": 72.33,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 226.77,
+    "soxl_profit_pct": 273.14,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 50.46,
+    "koru_profit_pct": 53.46,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
