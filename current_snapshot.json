@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T17:49:49.893771+09:00",
+  "timestamp": "2026-07-09T21:23:32.176259+09:00",
   "sentiment": {
     "cnn_fng": 41.5428571428572,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 9,
+      "greed_count": 4,
+      "fear_count": 5,
       "greed_articles": [
+        {
+          "title": "‘찔끔’ 오른 삼전·코스피···증시는 고점을 지난 건가 저점을 지난 건가 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pR0FTVVdGSEtudFVuMEJIWFp5Z3llcEoybVdaanNtcE5xekloRkQtNmR5WEt2cW4yZjZ2czZKa1FkdjJBMGVqem9lOXVzaDZKSU1vcnJGVHE0d9IBX0FVX3lxTE5KOEo5Z3JOcGhSa1NvMTJLenEzVWNiTDFOU29QRmRYenZZSFBwdjBLMXN0VzRZZnFpZGwtR1VEOU12akg0b1gtWjUwY3NxM0FpQ1JWd1JyX2hZZVgxV08w?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 08:09:00 GMT",
+          "source": "경향신문"
+        },
         {
           "title": "삼성전자·하이닉스 쏠림 심화…증시 거래대금 83% 차지 - BBS불교방송",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWLUhQSDFjdDhkdXVRZS1wc2pRTml6dVI0WHlxcEh3QmMwdE1JWFcxNFc1YjJ5em1GMDhicjc1RVRwM0puZDBWNzJJN3JNS1Zob1lUakRpdWR5WlpGbzh5eUxsa2VCSXlEUlpn?oc=5",
@@ -30,19 +36,13 @@
           "source": "신아일보"
         },
         {
-          "title": "한은 \"반도체가 증시 버팀목…집값·빚투는 경계\" By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RZjB4MG4wT3dmaVAwN3NrekI4WHVja0NhOEpZMlZtbl9LN3V2NkpXVV9FcnlDa1FpQzNwSG1yVFZZWVVHcjhUZmlKU0gyVFNDRm1xUU1Pa1QyYk91WkJvSzRwYVhtRG1ndFZhOGgzOTM?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 04:41:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "[인도증시] 저가 매수세 유입, 소폭 상승...유가·몬순 영향 덜 받는 제약·헬스 지수 ↑ - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pNS1SbG9jR0lZRHRsVVlZRVJmak9mOE1MTEM1ZHM2VXAzeXZVX3lVdFlIQjFOaGFGODlBMkNsUWpGU2NoWFRtY2NBTFl5dFZNMVc3R3pHNUJnMVh4?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 11:17:00 GMT",
+          "source": "뉴스핌"
         }
       ],
       "fear_articles": [
-        {
-          "title": "코스피, 장중 3% 폭등 뒤 하락 전환…삼성전자 약세에 7,230선 밀려 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrTTU5LXpwRlk4OUxQX0w0WXdpdVNjZkd1X1NEcWpnS3V1YmpsSlEtYWRPeUczRDlNVmlrSlZobXlYbm0tOVpaQUY0WXpKRTdDeV9wM2tFajhROGMzMGJLT0VVeG5MZmhSVDdsQnNLN3PSAXRBVV95cUxQQUFic0ItWnJnVVBZNTFMblV5WENYSDIwdDNhNTd3VERWR25HUVRHUDFDZkFaVmM0VUYxdHQtVFNNdmZDaXd6TS1TTW9jOWU5OEM3VVU2SzdGSkVobVNhVzhBVl80Qi1WZTBUdkc5OXZ4WGd2Mw?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 04:24:00 GMT",
-          "source": "연합인포맥스"
-        },
         {
           "title": "[속보]'이틀간 대폭락 딛고...' 코스피, 0.6% 오른 7,291p 반등 마감 - KBC광주방송",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3MGJIN0pYeldOaFNmdzZLYTlaTS0xYnNIR25BWEw4MXF1QS1KWGhHaXpIWWRoODhKc09MQWExV0VsckxNeHFfXzFjY0RkV1FKQUFFUkJUMi1jV01JNjZBbw?oc=5",
@@ -50,28 +50,34 @@
           "source": "KBC광주방송"
         },
         {
-          "title": "코스피, 연이틀 급락 딛고 3%대 반등…삼전·닉스 급등(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84YjRIeG9HMmhweV91SDAxU25HYmV6MVV1LUJGWjcwMGdTeUgzeTZJTG50Q0NOeEttaXlfWXd1dFhhZW1VRG16VGVrWHJEZFFaLVYyX0I0MkpmYmvSAWBBVV95cUxQOEVSOVlpQ3BlQ3VSX2lrRHlfY2p4c3lDNkJRRi03M1NpNFF1TUhrTVlDbl9Sbjl1bFNVeElMTEdfLXNLbmZlVllSUC1BbC1fZlhlZVExRVBMcUNGeU44dnU?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 00:39:51 GMT",
-          "source": "연합뉴스"
+          "title": "코스피, 장중 3% 폭등 뒤 하락 전환…삼성전자 약세에 7,230선 밀려 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrTTU5LXpwRlk4OUxQX0w0WXdpdVNjZkd1X1NEcWpnS3V1YmpsSlEtYWRPeUczRDlNVmlrSlZobXlYbm0tOVpaQUY0WXpKRTdDeV9wM2tFajhROGMzMGJLT0VVeG5MZmhSVDdsQnNLN3PSAXRBVV95cUxQQUFic0ItWnJnVVBZNTFMblV5WENYSDIwdDNhNTd3VERWR25HUVRHUDFDZkFaVmM0VUYxdHQtVFNNdmZDaXd6TS1TTW9jOWU5OEM3VVU2SzdGSkVobVNhVzhBVl80Qi1WZTBUdkc5OXZ4WGd2Mw?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 04:24:00 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피, 연이틀 급락 딛고 반등…3% 올라 7,400선 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jS2lpTTJSaGZmOS1SdEZ3ZFJJS1JCaEswMVRuN2J2MFh1WXN6RVdVNjZEeW91a05nRlJZMEZueXotUzNXMW1ZXzJQREJwdHdyRzlrOXI1cGlzY0XSAWBBVV95cUxPeFdNTG5GcXExX0JLMmpxakVxSy1nRmluVUNfN3loREYyR1c3NUcxNjV0Rm9RX2Nhc3NpUGkwTGlxS3JTM1h6THAwWjB0UXI5S3FJM1FLQTVERDBfcEhmZ0I?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 00:05:07 GMT",
-          "source": "연합뉴스"
+          "title": "코스피, 급락세는 멈춰…롤러코스터 끝 상승 마감 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oTkpZMHZVZy1laVVxZTlGQ29BdXNRVW02MDdzbGNaTDE1VGZlUjdpbWtzTGxiXzdjelNEaEZyelRaRFl6ay1GNG5JeU5kd1dQdVhEMGdIXzg2XzhRQUtDa0RyTGk2RjA?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 07:03:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "급락장 딛고 코스피 0.62% 상승 마감... 코스닥도 반등 - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JMWEzbzM5WTlyWWdKSGpTT3pMVU5uZzNKRGpCVHJ5dGNVY0dsYTdDY08yS3NueW1xY3F4dFVWNjNlbGNxZFZNMnduLVczU2t1d2ZsNEFkdTlxWnpNeVdyTU5UZmdReXQ2SnNRSEJDOA?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 06:50:00 GMT",
-          "source": "조세일보"
+          "title": "\"기업 실적은 좋은데 주가만 폭락\"… 코스피 PER 6.17배, 금융위기보다 싸졌다 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qNGlKdkVBMnFXenUtR0o1UU5ZQXVHUHVvUjJEeFpqMi05bEUyWGRKamhCZXVaWEFsTGUwNGZhQ2hsODBDVkE0NUx4Z2tleHM1cHJ2Rw?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 03:00:00 GMT",
+          "source": "JTBC"
+        },
+        {
+          "title": "[증시] 매도 압력에 흔들린 호치민 증시, VN-지수 13p 하락… 은행주 급락 속 유동성 ‘보름 만에 최저’ - 굿모닝베트남미디어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QRUk5YjQzcGt5NlMtelFzRnB2TDZoNzctR0d4Mm5QZS1LNFpOZ0w0dnRiUmp6enEtZ3V2V1ZDc1pMVHZ5a2lTWUk4SE5ZUTB2UzJaLU9hZlVydmZsbGI2RTFxRnVFeVZVNWc1VTR2cFY?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 10:32:42 GMT",
+          "source": "굿모닝베트남미디어"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.7,
+    "vix": 16.81,
     "vvix": 91.38,
     "skew": 149.79,
     "move": 65.4
@@ -193,16 +199,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.07.09",
+            "close": 278000,
+            "change_pct": 0.18,
+            "retail_net": -1953313,
+            "inst_net": 1107761,
+            "foreign_net": 845552
+          },
           {
             "date": "2026.07.08",
             "close": 277500,
@@ -234,17 +248,17 @@
             "retail_net": -3004074,
             "inst_net": 4369649,
             "foreign_net": -1365575
-          },
-          {
-            "date": "2026.07.02",
-            "close": 286000,
-            "change_pct": -9.06,
-            "retail_net": 7173488,
-            "inst_net": -2166435,
-            "foreign_net": -5007053
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.09",
+            "close": 2186000,
+            "change_pct": 5.3,
+            "retail_net": -194880,
+            "inst_net": 404365,
+            "foreign_net": -209485
+          },
           {
             "date": "2026.07.08",
             "close": 2076000,
@@ -276,14 +290,6 @@
             "retail_net": -326499,
             "inst_net": 1071876,
             "foreign_net": -745377
-          },
-          {
-            "date": "2026.07.02",
-            "close": 2187000,
-            "change_pct": -14.57,
-            "retail_net": 2060501,
-            "inst_net": -1372901,
-            "foreign_net": -687600
           }
         ]
       }
