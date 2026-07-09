@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T07:39:55.460809+09:00",
+  "timestamp": "2026-07-10T08:50:17.509051+09:00",
   "sentiment": {
     "cnn_fng": 47.2,
     "cnn_components": {
@@ -14,14 +14,32 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 1,
+      "greed_count": 5,
+      "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "[ 한경, 미증시 특징주 ] 마이크론·메타 등 기술주 일제히 폭발…AI 인프라 투자 광풍에 월가 '찬사' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rNkdhUUwwWDZlTEU3VUR1anozdmRXMzBwN2FRbXN4b0E3RHVzamxHeWZqNDh5eUdMNHg4MHFxM3NXUlFXdWc0UWc2RXdldms?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 21:57:56 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[아주증시포커스] 개미들이 심상찮다…저점매수·고점매도 패턴 바뀌나 外 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZS1BpLUFrdHBtOWJHak5HdVZXbUVKRGNaUDI2aXBoa3BEcWZ3SU9NVDNqVVVxbFZweE9fdEx2ek4zdXh3V19tODRKOWtFVEJCcmk3ZFdCMHPSAVhBVV95cUxOWUtQaS1Ba3RwbTliR2pOR3VWV21FSkRjWlAyNmlwaGtwRHFmd0lPTVQzalVVcWxWcHhPX3RMdnpOM3V4d1dfbTg0SjlrRVRCQnJpN2RXQjBz?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 22:38:24 GMT",
+          "source": "아주경제"
+        },
         {
           "title": "'하이닉스가 삼전 역전시 고점' 맞췄던 애널…\"현재 코스피는 저점\" - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0Sno2NzY3LVdxNENET1J1Mi0yenhvaWNNZ0NQQjhpYnRMYkkwZkFGRDBidkw3eDAwZV85NWZmcHJrc29TUk14TjVlOFNQMDM0Q2NRYkZOZVpBdVNBbjF3?oc=5",
           "pub_date": "Thu, 09 Jul 2026 21:00:00 GMT",
           "source": "뉴스1"
+        },
+        {
+          "title": "30주년 맞은 코스닥… AI 반도체 쏠림에 개미마저 떠났다 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DSlpkMHZEZUx1aElSWnV5Q1NPUXhteW5NVUNwZWJuSEgxdjlVVVJMZUp0eHlYeFNtZF94eldjY3JIUWJvSTBPUkg5b05yUk1ZQmlXRnF6Y3F0UdIBWEFVX3lxTE1ZMDlyb0Q0QTlQTGgxODhBZXBnM28wYk5vMFdQRmRNZk1QR1BvZGpCMXViQUphNVFfeFhHdlAzalZjRHF6OUlNeWRjWUdhMUFaNFZQZjdzbnI?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 23:00:00 GMT",
+          "source": "아주경제"
         },
         {
           "title": "[노트북 너머] 코스닥 30주년 '화려한 잔치' 뒤 기형적 쏠림에 멍드는 K-성장주의 민낯 - 이투데이",
@@ -32,9 +50,15 @@
       ],
       "fear_articles": [
         {
+          "title": "'오락가락' 코스피, 폭락 딛고 나흘 만에 반등 [1분 브리프] - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDVlRrRGtSeEpSZEhCQlN4RjBTa2RqN2FrTTJkT3FRVDNtTEVGSVltMTFNODBoVnEtaVhuT0c0V1F2QmY0MTd6Smp3SXZUVnFkYkU2ZzdIVTBVQU5EXzFBdg?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 23:00:00 GMT",
+          "source": "아시아경제"
+        },
+        {
           "title": "연기금도 결국 손절… 코스닥액티브 ETF, 줄줄이 급락 - IT조선",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2TFRwRTYwenBvLUlwRzZTWjFTSm5qTnJmdUdndS14NTF0cDh2aE5OYjFERWVQbFo1RnJSVDVqaV9UeENiNjlibzMzSFMwYlpKT1ByY1A1V3d2eE9jNnVNdXFMSjBQeUMzVmFZN3ZGcGnSAXRBVV95cUxQRkp2ZGU0SS1uZTl1Z1o5ZVVwU2VOYm5ORDVZV0tUMkpwVl9ELVVOWDFUMVdPSVpIdDNVNnczc3dXNm5sWWRxWEpvMjNJNDB2LVg1Ql9MZWtQZGwxT3BxQmVkMG1HNlpIa29tU3BFbTlkRW5hYw?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 21:00:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGSnZkZTRJLW5lOXVnWjllVXBTZU5ibk5ENVlXS1QySnBWX0QtVU5YMVQxV09JWkh0M1U2dzNzd1c2bmxZZHFYSm8yM0k0MHYtWDVCX0xla1BkbDFPcHFCZWQwbUc2Wkhrb21TcEVtOWRFbmFj0gF0QVVfeXFMUEZKdmRlNEktbmU5dWdaOWVVcFNlTmJuTkQ1WVdLVDJKcFZfRC1VTlgxVDFXT0laSHQzVTZ3M3N3VzZubFlkcVhKbzIzSTQwdi1YNUJfTGVrUGRsMU9wcUJlZDBtRzZaSGtvbVNwRW05ZEVuYWM?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 21:45:34 GMT",
           "source": "IT조선"
         }
       ]
