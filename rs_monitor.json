@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T05:59:16.075317+09:00",
+  "timestamp": "2026-07-10T07:40:01.801744+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -3117,32 +3117,32 @@
       "tier2": [
         {
           "ticker": "005930.KS",
-          "rs_roc": -0.0733,
-          "price": 277500.0,
+          "rs_roc": -0.0958,
+          "price": 278000.0,
           "name": "삼성전자"
         },
         {
           "ticker": "000660.KS",
-          "rs_roc": 0.0102,
-          "price": 2076000.0,
+          "rs_roc": -0.0269,
+          "price": 2186000.0,
           "name": "SK하이닉스"
         },
         {
           "ticker": "005380.KS",
-          "rs_roc": -0.3297,
-          "price": 462500.0,
+          "rs_roc": -0.3468,
+          "price": 445500.0,
           "name": "현대차"
         },
         {
           "ticker": "373220.KS",
-          "rs_roc": -0.2114,
-          "price": 315500.0,
+          "rs_roc": -0.1837,
+          "price": 313500.0,
           "name": "LG에너지솔루션"
         },
         {
           "ticker": "035420.KS",
-          "rs_roc": -0.0379,
-          "price": 192700.0,
+          "rs_roc": -0.0738,
+          "price": 184400.0,
           "name": "네이버"
         }
       ],
@@ -3462,8 +3462,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1505.08,
-      "change_30d_pct": 0.13
+      "value": 1505.9,
+      "change_30d_pct": 0.19
     },
     "us10y": {
       "ticker": "^TNX",

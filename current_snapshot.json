@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T05:59:10.981370+09:00",
+  "timestamp": "2026-07-10T07:39:55.460809+09:00",
   "sentiment": {
     "cnn_fng": 47.2,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "'하이닉스가 삼전 역전시 고점' 맞췄던 애널…\"현재 코스피는 저점\" - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0Sno2NzY3LVdxNENET1J1Mi0yenhvaWNNZ0NQQjhpYnRMYkkwZkFGRDBidkw3eDAwZV85NWZmcHJrc29TUk14TjVlOFNQMDM0Q2NRYkZOZVpBdVNBbjF3?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 21:00:00 GMT",
+          "source": "뉴스1"
+        },
         {
           "title": "[노트북 너머] 코스닥 30주년 '화려한 잔치' 뒤 기형적 쏠림에 멍드는 K-성장주의 민낯 - 이투데이",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83Z1MwalBoNGpiUkxneV8zNVVkN3BqZWZPcmdsZkYxRk03M0pTRF9nN1hTeXVQejFKQlZhZ2p5SjJqeWQtdXhQRDlqVGk3SkZKZDVFTg?oc=5",
@@ -24,19 +30,26 @@
           "source": "이투데이"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "연기금도 결국 손절… 코스닥액티브 ETF, 줄줄이 급락 - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2TFRwRTYwenBvLUlwRzZTWjFTSm5qTnJmdUdndS14NTF0cDh2aE5OYjFERWVQbFo1RnJSVDVqaV9UeENiNjlibzMzSFMwYlpKT1ByY1A1V3d2eE9jNnVNdXFMSjBQeUMzVmFZN3ZGcGnSAXRBVV95cUxQRkp2ZGU0SS1uZTl1Z1o5ZVVwU2VOYm5ORDVZV0tUMkpwVl9ELVVOWDFUMVdPSVpIdDNVNnczc3dXNm5sWWRxWEpvMjNJNDB2LVg1Ql9MZWtQZGwxT3BxQmVkMG1HNlpIa29tU3BFbTlkRW5hYw?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 21:00:00 GMT",
+          "source": "IT조선"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 15.84,
     "vvix": 88.78,
-    "skew": 149.79,
+    "skew": 144.67,
     "move": 68.89
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 1422700000000,
     "retail_net_buy_krw": -1327800000000,
-    "margin_loan_krw": 36470400000000,
+    "margin_loan_krw": 36611300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -293,7 +306,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 209.689,
+    "strategy_pct": 209.621,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -829,7 +842,7 @@
       },
       {
         "date": "2026-07-10",
-        "ret_pct": 209.689
+        "ret_pct": 209.621
       }
     ],
     "monthly_breakdown": [
@@ -871,8 +884,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -16.06,
-        "end_ret_pct": 209.69,
+        "return_pct": -16.13,
+        "end_ret_pct": 209.62,
         "max_dd_pct": 37.94
       }
     ],
