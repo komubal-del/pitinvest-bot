@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T08:45:46.407774+09:00",
+  "timestamp": "2026-07-09T10:18:55.213361+09:00",
   "sentiment": {
     "cnn_fng": 42.2285714285714,
     "cnn_components": {
@@ -18,8 +18,14 @@
       "fear_count": 7,
       "greed_articles": [
         {
+          "title": "코스피, 3%대 반등…반도체주 저가 매수 유입에 7,500선 회복 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CVlE2aUZ1bUs5c2R2aS1yeVY2SS1PWmFnM0RSbGFIZ3Z5QUJYOFByNnE1UjNmUXRQSHFIUEIxUndVNWwyMnNSOUVkMllvZGpxWnpVT0ZXUnpkMTN2V1JudkVYM2ozeDAyb1FZOHVtR0U?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 00:21:19 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "[마켓뷰] '반도체 고점' 우려에 연이틀 급락 코스피, 반등 나서나 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pS2tLY2dWMEE1YVdtWWx6a1lXb0Z2d1BpTjV1UE5jYl8xMkw4cnA5aDBlb2JNV0lHSXJGSksyNlA2TXNVeTBZaWJieGxHdE03NHpWYWVBdnRBVzDSAWBBVV95cUxOMXZGMmE3eG83YzAzZlIzM3BDZzk1Nm9nbUxWbnE5cEl4OGszQjhqalpIWkxNZGx1OWRXclczNjRJWTlTUXUzQTBNMGxvTkNUZWhaM2ZWbkd2VlU3ZGNfMks?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xdkYyYTd4bzdjMDNmUjMzcENnOTU2b2dtTFZucTlwSXg4azNCOGpqWkhaTE1kbHU5ZFdyVzM2NElZOVNRdTNBME0wbG9OQ1RlaFozZlZuR3ZWVTdkY18yS9IBYEFVX3lxTE4xdkYyYTd4bzdjMDNmUjMzcENnOTU2b2dtTFZucTlwSXg4azNCOGpqWkhaTE1kbHU5ZFdyVzM2NElZOVNRdTNBME0wbG9OQ1RlaFozZlZuR3ZWVTdkY18ySw?oc=5",
           "pub_date": "Wed, 08 Jul 2026 23:12:03 GMT",
           "source": "연합뉴스"
         },
@@ -30,54 +36,48 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "반도체 고점론에 중동불안 겹쳤다…코스피, 이틀연속 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qZzJaRjRjMUREaW9OQWlQdlFPVjQwMGhHVFRPQ05qcGhGU25QSUNTLU5xcEdSTmwyZGpsV0tiWjVOOWFleGs1cmUta3VNeGc?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 15:11:00 GMT",
-          "source": "v.daum.net"
+          "title": "[0709개장체크] 美 증시, 애플-브로드컴 대규모 반도체 공급 계약 및 반도체주 저가 매수세 유입 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yWTd3NzNjZXd1VDBqd1g5cEJudlJwbGNIdXVoRjA2N2tTZENDcnJYV19pQ09XS2tjVVVIRUowaHhPTWZnYVFob3BIRmE2bjAySjk3WE0yQWZkazJRa0ZQbk8xaFdVU3Iyb1lJRjFsclU?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 23:47:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "미·이란 긴장 고조, 반도체 저가 매수에 뉴욕증시 혼조세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLbWRxZkFMVlpBN0Q1WmJ3bjlOUWJQV3J4QklxNVB6QWtLOUdCaG1EZ083QWJoaU8yT0tNUmUxSy1ZSVBHNXNraUJpSlhnaUU?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 22:52:04 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[모닝 리포트] \"국내 증시, 휴전 중단 부담 속 저가 매수로 반등 전망\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xY2UxRkRuRzlpVmRnZ0JScjFSOFNYM3J6Ry15N2hXaWl1bV9rQzN0bk5xUloyUVBCRkwzQy1naGJnaktMWUNoMWFsOXdVZmxXSkxuRE40MjB3YTB1?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 23:12:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피, 외인·기관 저가 매수에 3%대 반등…삼전닉스 급등 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NN0V0R0lfYVlNaGxrQVBiZjIzeVNheFNiNFpwMjVqTHdFWFprbGdNNHVRRURFSTAzbjk0VDRwWndWTzNnN3NPS2s1UGRPREp3UldfcDBwN043UdIBVEFVX3lxTE9XOWZLbnVzV3gtbG9qVjB6Uzd6RTZSTWtsM0tIYS1sblhXLTNGWEJieUVHQXdQRkdBWXNqX1dSR3FrUUdDT2RFbFR1UVdKd0NqZkdKdQ?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 00:14:51 GMT",
+          "source": "한국경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "'만스피' 바라보던 코스피 패닉에도…증권가 \"매수 기회\" 왜? - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WdIBeEFVX3lxTFBBQXdLTmtOZy1QcWZqVDlWTlI1Y3BhS1hsczhGY21fUU00aEU2RVJjSDhUaVFxLTE4dUREdXZGRXVlaWRfTDNPR3Z6b3cyY0J6TUdrUDZUaUVQZ1pONEFoYS1ER1BzQ1Z2ZXpCQUFsNmNTeUcwdTg1WQ?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 21:00:00 GMT",
-          "source": "뉴시스"
+          "title": "[어제장 오늘장] 이틀 연속 급락에 '검은 수요일'…코스피 7000선까지 위협 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1EVDNtTGZFaDZjLVdkNE1PR0ZlRUZUYlJHQUlCWl9rU1hJQTR6X0N3QkIybVZnZ0NnQndYVlQ0akFSMUxnY3hrX2JYRVYxaUk?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 23:58:14 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "역대급 실적 누른 ‘피크아웃’ 공포…코스피 이틀 새 10% 폭락 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 16:18:00 GMT",
-          "source": "한겨레"
+          "title": "코스피, 연속 급락 후 반등…증권가 \"추가 하락 기댓값 낮아\" - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzbDQ2aU96dHdOX1QxeUlMQ3dMcmxGdFY3QXlBLS1qMzd4TUoyR1lYYnVYQk9PeFp5U05CQ0xHc2ZIaGFfTThZaUVIMXpkNjFpZ1JyT1N2YUZsZFlrV1o0LTg5VkhIbnZidTdIaHI3Tl9ZRlU?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 00:21:14 GMT",
+          "source": "마켓인"
+        },
+        {
+          "title": "이틀간 폭락했던 코스피, 7500선 탈환…반도체주 '불기둥' - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jM2ZfYjJLOXFoLUhuLUtOcU9rQUItOFZDZHdGMVp1dGJGeHFpdUEyZGR4UjNoVDVRNUhTVi1WUFpYRUNhbEN3OENELWFlbWxsY2pnVTFQVTlXUHJFZllrOUp4YjBkeXd5SlE?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 00:30:41 GMT",
+          "source": "hidomin.com"
         },
         {
           "title": "못믿을 리포트… 코스닥 급락 불구, 증권사 매수 의견은 96% - IT조선",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3RXZRb0hqWmotcUJ1dVhtaG54Y1FfY2VoZURJVmNaNWpoQjVHUzR2ZzlGUVpJdVRxYmY3YjVaRm9Cd2tmbTNiSHpkV09MV0RJZE45MkRjNHRWY21JSG9QV29fWEdhVmNIRUxaUkdkUWzSAXRBVV95cUxPcS1KUFJUVDJDTGszMTJ6WDNDd2ZFWnliVGxWTGwwbUxicGlGYUJkckxlRXVkNE5tVF80bkRKNUtDSkJHcGZsOURTMExHTC1HWVJoZmp3eXNkN2FMQU9oQXRNRkROZEZ6UXNhNjZKeVM0LUxFSw?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 21:10:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xLUpQUlRUMkNMazMxMnpYM0N3ZkVaeWJUbFZMbDBtTGJwaUZhQmRyTGVFdWQ0Tm1UXzRuREo1S0NKQkdwZmw5RFMwTEdMLUdZUmhmand5c2Q3YUxBT2hBdE1GRE5kRnpRc2E2Nkp5UzQtTEVL0gF0QVVfeXFMT3EtSlBSVFQyQ0xrMzEyelgzQ3dmRVp5YlRsVkxsMG1MYnBpRmFCZHJMZUV1ZDRObVRfNG5ESjVLQ0pCR3BmbDlEUzBMR0wtR1lSaGZqd3lzZDdhTEFPaEF0TUZETmRGelFzYTY2SnlTNC1MRUs?oc=5",
+          "pub_date": "Wed, 08 Jul 2026 23:04:18 GMT",
           "source": "IT조선"
         },
         {
-          "title": "\"(이란과 휴전 합의) 끝난 듯\" 트럼프 발언에 유가 급등, 증시 급락 - VOA 한국어 홈페이지",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS01MT3RPQng3UGp3aWg4VGZhYzBwVGZuNlQtOEtYb193b3dnRW0zLVNadDRRa21JTFZWb0Q0b3NoSEhqUW1RSFNqOUFYd0FYQlUxNjA5WS10TG9Zeko2aEpvQW5ub3dYTllhQlFUd0ZIem9LOUQ5MndYTG5OYmJ0d3BZYmd6WDNXbzJGbUU1RWtOXzdqTWI5c2x6d3k4akZ3dEtCWjQ3eDZmRC1FZ0hEb1VwNXo0S1BSVXdHbUNxakdtMXctanhyb9IBywFBVV95cUxPdFlxWTdBc0QxdTRHRUg3QWtPY0d5b0x6S3M2UnNFT2xQWE9WZ3FacjZTRkh3aU92bHhhbnZpMTZ2bUwydjRmM0ZPNDI0X2hrVlhGbHZXSXVYX2duRXNIbi1uT0p5b2hxRkNUUzlUWmFodlNMWFl1QTgxQVpHN01jNld0SzgwSFFLc1ZHU1N5Z0VWQmxiRlRybjVINVJVYjUwMERleFZ2UERncDVORHhEVXVYOHlmWnB1dEJOdmhaTERBdjFYXzl1WW1JYw?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 15:43:17 GMT",
-          "source": "VOA 한국어 홈페이지"
-        },
-        {
-          "title": "반도체 피크아웃 우려에 코스피 급락… 환율은 1500원 밑돌아 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00QkxMV2ZPN1lvNFB4VHV3UUh5WGFuXzkwcURrR3NWdXR4MjBDTGYtb0FZMlJhYTl6REN2dnZ2LUJPUkdfaUpMMUJaa0ZnUVFma3hnbTNxRzRoR2pqeGZ2R0hzMjVBU0dlT3psVDVRQUZXSWNpd1HSAWZBVV95cUxQQVloQmx6bXRWcmVSZ0ljdlVEYzh5aDR0S0pXcVVKbzVJQ3JOelhiVnZVMEczYmxBWWJVUkF4elJGZ09fV3BadTNrYXJwaE9QWk1MMDRWdDVqWEhvVy1YMER0VF9HWnc?oc=5",
-          "pub_date": "Wed, 08 Jul 2026 15:30:00 GMT",
-          "source": "동아일보"
+          "title": "[포토] 코스피 이틀 급락 딛고 반등 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mLV9pdy1UVkdxRzB2YVlkcEtFUERhZllQZ0FGMlZzX0NYZHZDUk53dkxCM3pHQ3huamozU3Z4SFBKYWRhTlYxWmhVWks1UG5ZeDdscEZRZnY5V2xXR0NvVw?oc=5",
+          "pub_date": "Thu, 09 Jul 2026 00:37:32 GMT",
+          "source": "아시아경제"
         }
       ]
     }
@@ -89,8 +89,8 @@
     "move": 72.41
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -11500000000,
-    "retail_net_buy_krw": -35800000000,
+    "foreign_inst_buy_krw": 1151300000000,
+    "retail_net_buy_krw": -1099000000000,
     "margin_loan_krw": 36470400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,18 +105,18 @@
       "sma_200": 23756.32
     },
     "kospi": {
-      "current": 7656.31,
+      "current": 7454.09,
       "high_52w": 9385.59,
-      "drop_pct": -18.42,
-      "intraday_low_drop_pct": -21.27,
-      "sma_200": 5453.33
+      "drop_pct": -20.58,
+      "intraday_low_drop_pct": -21.01,
+      "sma_200": 5493.97
     },
     "kosdaq": {
-      "current": 831.23,
+      "current": 805.76,
       "high_52w": 1229.42,
-      "drop_pct": -32.39,
-      "intraday_low_drop_pct": -33.9,
-      "sma_200": 1004.69
+      "drop_pct": -34.46,
+      "intraday_low_drop_pct": -36.28,
+      "sma_200": 1004.59
     },
     "sp500": {
       "current": 7482.71,
