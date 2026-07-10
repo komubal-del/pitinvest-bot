@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T08:50:17.509051+09:00",
+  "timestamp": "2026-07-10T13:06:08.144854+09:00",
   "sentiment": {
     "cnn_fng": 47.2,
     "cnn_components": {
@@ -14,52 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
+      "greed_count": 0,
       "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "[ 한경, 미증시 특징주 ] 마이크론·메타 등 기술주 일제히 폭발…AI 인프라 투자 광풍에 월가 '찬사' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rNkdhUUwwWDZlTEU3VUR1anozdmRXMzBwN2FRbXN4b0E3RHVzamxHeWZqNDh5eUdMNHg4MHFxM3NXUlFXdWc0UWc2RXdldms?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 21:57:56 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[아주증시포커스] 개미들이 심상찮다…저점매수·고점매도 패턴 바뀌나 外 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZS1BpLUFrdHBtOWJHak5HdVZXbUVKRGNaUDI2aXBoa3BEcWZ3SU9NVDNqVVVxbFZweE9fdEx2ek4zdXh3V19tODRKOWtFVEJCcmk3ZFdCMHPSAVhBVV95cUxOWUtQaS1Ba3RwbTliR2pOR3VWV21FSkRjWlAyNmlwaGtwRHFmd0lPTVQzalVVcWxWcHhPX3RMdnpOM3V4d1dfbTg0SjlrRVRCQnJpN2RXQjBz?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 22:38:24 GMT",
-          "source": "아주경제"
-        },
-        {
-          "title": "'하이닉스가 삼전 역전시 고점' 맞췄던 애널…\"현재 코스피는 저점\" - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0Sno2NzY3LVdxNENET1J1Mi0yenhvaWNNZ0NQQjhpYnRMYkkwZkFGRDBidkw3eDAwZV85NWZmcHJrc29TUk14TjVlOFNQMDM0Q2NRYkZOZVpBdVNBbjF3?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 21:00:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "30주년 맞은 코스닥… AI 반도체 쏠림에 개미마저 떠났다 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DSlpkMHZEZUx1aElSWnV5Q1NPUXhteW5NVUNwZWJuSEgxdjlVVVJMZUp0eHlYeFNtZF94eldjY3JIUWJvSTBPUkg5b05yUk1ZQmlXRnF6Y3F0UdIBWEFVX3lxTE1ZMDlyb0Q0QTlQTGgxODhBZXBnM28wYk5vMFdQRmRNZk1QR1BvZGpCMXViQUphNVFfeFhHdlAzalZjRHF6OUlNeWRjWUdhMUFaNFZQZjdzbnI?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 23:00:00 GMT",
-          "source": "아주경제"
-        },
-        {
-          "title": "[노트북 너머] 코스닥 30주년 '화려한 잔치' 뒤 기형적 쏠림에 멍드는 K-성장주의 민낯 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83Z1MwalBoNGpiUkxneV8zNVVkN3BqZWZPcmdsZkYxRk03M0pTRF9nN1hTeXVQejFKQlZhZ2p5SjJqeWQtdXhQRDlqVGk3SkZKZDVFTg?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 20:00:00 GMT",
-          "source": "이투데이"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "'오락가락' 코스피, 폭락 딛고 나흘 만에 반등 [1분 브리프] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDVlRrRGtSeEpSZEhCQlN4RjBTa2RqN2FrTTJkT3FRVDNtTEVGSVltMTFNODBoVnEtaVhuT0c0V1F2QmY0MTd6Smp3SXZUVnFkYkU2ZzdIVTBVQU5EXzFBdg?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 23:00:00 GMT",
-          "source": "아시아경제"
+          "title": "[개장시황] 코스피 3%대 급등 출발···HLB·펩트론 동반 급락 - 자본시장뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZRE56d3lnclJhQV9mLXpPcndzRG43YWNhZE5veUhhbnRBVUlOWm9wZl82MHRQUnpMcDdJYXFYRVJxR3d4LW1rUzFDaC03RENEUG9xRG9UUU81Mk5Ba3JXVzg1ZjJ0STg?oc=5",
+          "pub_date": "Fri, 10 Jul 2026 02:27:15 GMT",
+          "source": "자본시장뉴스"
         },
         {
-          "title": "연기금도 결국 손절… 코스닥액티브 ETF, 줄줄이 급락 - IT조선",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGSnZkZTRJLW5lOXVnWjllVXBTZU5ibk5ENVlXS1QySnBWX0QtVU5YMVQxV09JWkh0M1U2dzNzd1c2bmxZZHFYSm8yM0k0MHYtWDVCX0xla1BkbDFPcHFCZWQwbUc2Wkhrb21TcEVtOWRFbmFj0gF0QVVfeXFMUEZKdmRlNEktbmU5dWdaOWVVcFNlTmJuTkQ1WVdLVDJKcFZfRC1VTlgxVDFXT0laSHQzVTZ3M3N3VzZubFlkcVhKbzIzSTQwdi1YNUJfTGVrUGRsMU9wcUJlZDBtRzZaSGtvbVNwRW05ZEVuYWM?oc=5",
-          "pub_date": "Thu, 09 Jul 2026 21:45:34 GMT",
-          "source": "IT조선"
+          "title": "[개장시황] 코스피, 급락 딛고 3%대 반등…하이닉스 ADR 훈풍 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oZDBVT1YyU0o5NnplZXh4Q2dzVHVJTnN2OXJtUnNXeEpzWlBabm1YWEd5eks5VDZPTmMyeEtwME12cHVmd2huaGU4cWswa2pGX2pEd3BxZ2lDYzgx?oc=5",
+          "pub_date": "Fri, 10 Jul 2026 00:31:00 GMT",
+          "source": "뉴스핌"
         }
       ]
     }
@@ -68,11 +37,11 @@
     "vix": 15.84,
     "vvix": 88.78,
     "skew": 144.67,
-    "move": 68.89
+    "move": 65.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1422700000000,
-    "retail_net_buy_krw": -1327800000000,
+    "foreign_inst_buy_krw": 1527900000000,
+    "retail_net_buy_krw": -1456500000000,
     "margin_loan_krw": 36611300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +56,18 @@
       "sma_200": 23774.19
     },
     "kospi": {
-      "current": 7246.79,
+      "current": 7637.23,
       "high_52w": 9385.59,
-      "drop_pct": -22.79,
-      "intraday_low_drop_pct": -23.43,
-      "sma_200": 5473.27
+      "drop_pct": -18.63,
+      "intraday_low_drop_pct": -20.84,
+      "sma_200": 5514.62
     },
     "kosdaq": {
-      "current": 785.0,
+      "current": 843.84,
       "high_52w": 1229.42,
-      "drop_pct": -36.15,
-      "intraday_low_drop_pct": -36.66,
-      "sma_200": 1004.49
+      "drop_pct": -31.36,
+      "intraday_low_drop_pct": -34.9,
+      "sma_200": 1004.34
     },
     "sp500": {
       "current": 7543.64,
@@ -288,8 +257,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-08",
-    "analyzed_at": "2026-07-08T09:16:35.601330+09:00",
+    "date": "2026-07-10",
+    "analyzed_at": "2026-07-10T13:06:12.716842+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -297,16 +266,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "RYaUB1tzCqQ",
-        "title": "호실적인데 주가는 왜? 실적 발표 후 꼭 봐야 할 것 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-07T00:18:42Z",
-        "url": "https://youtube.com/watch?v=RYaUB1tzCqQ",
+        "video_id": "YgFiWUcVlp4",
+        "title": "SK하이닉스 ADR 오늘밤 상장! 반도체 반등의 진짜 분수령 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-10T00:52:39Z",
+        "url": "https://youtube.com/watch?v=YgFiWUcVlp4",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 시장 방향성에 대한 구체적인 매수/매도/비중 조절 등의 행동 권고가 전혀 없으며, 제목 또한 '호실적인데 주가는 왜?'와 같이 현상을 분석하고 무엇을 봐야 할지 제시하는 중립적인 질문에 가깝습니다. 그 외 내용은 모두 채널 관련 홍보 및 안내 사항입니다."
+          "stance": "bullish",
+          "reason": "제목에서 SK하이닉스 ADR 상장을 '반도체 반등의 진짜 분수령'으로 언급하며 반도체 섹터의 긍정적인 반등 가능성을 강조하고 있습니다."
         }
       },
       {
@@ -319,7 +288,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란은 특정 주식의 미래를 논하는 토론회와 주식 교육 프로그램 홍보에 초점을 맞추고 있으며, 매수, 매도, 비중 조절 등 어떠한 구체적인 행동 권고도 명시하고 있지 않습니다."
+          "reason": "전문가의 영상 설명란은 주로 투자 교육 및 전문가 모임을 홍보하는 내용으로, 특정 시장 방향에 대한 매수/매도/현금화 등의 구체적인 행동 권고가 명확히 없습니다."
         }
       }
     ],
