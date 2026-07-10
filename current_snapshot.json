@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T16:48:31.117945+09:00",
+  "timestamp": "2026-07-10T20:14:28.478683+09:00",
   "sentiment": {
     "cnn_fng": 47.1714285714286,
     "cnn_components": {
@@ -28,14 +28,14 @@
     }
   },
   "volatility": {
-    "vix": 16.05,
+    "vix": 15.87,
     "vvix": 88.78,
     "skew": 144.67,
     "move": 65.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 808800000000,
-    "retail_net_buy_krw": -772200000000,
+    "foreign_inst_buy_krw": 808600000000,
+    "retail_net_buy_krw": -780500000000,
     "margin_loan_krw": 36611300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -154,12 +154,20 @@
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": false,
+      "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.07.10",
+            "close": 285000,
+            "change_pct": 2.52,
+            "retail_net": -2939730,
+            "inst_net": 2313745,
+            "foreign_net": 625985
+          },
           {
             "date": "2026.07.09",
             "close": 278000,
@@ -191,17 +199,17 @@
             "retail_net": 2003739,
             "inst_net": 14823,
             "foreign_net": -2018562
-          },
-          {
-            "date": "2026.07.03",
-            "close": 309500,
-            "change_pct": 8.22,
-            "retail_net": -3004074,
-            "inst_net": 4369649,
-            "foreign_net": -1365575
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.10",
+            "close": 2180000,
+            "change_pct": -0.27,
+            "retail_net": 564650,
+            "inst_net": 204193,
+            "foreign_net": -768843
+          },
           {
             "date": "2026.07.09",
             "close": 2186000,
@@ -233,14 +241,6 @@
             "retail_net": 612119,
             "inst_net": -584423,
             "foreign_net": -27696
-          },
-          {
-            "date": "2026.07.03",
-            "close": 2425000,
-            "change_pct": 10.88,
-            "retail_net": -326499,
-            "inst_net": 1071876,
-            "foreign_net": -745377
           }
         ]
       }
