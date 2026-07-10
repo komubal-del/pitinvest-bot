@@ -1,47 +1,41 @@
 {
-  "timestamp": "2026-07-10T13:06:08.144854+09:00",
+  "timestamp": "2026-07-10T16:48:31.117945+09:00",
   "sentiment": {
-    "cnn_fng": 47.2,
+    "cnn_fng": 47.1714285714286,
     "cnn_components": {
       "momentum": 58.2,
-      "strength": 43.0,
-      "breadth": 24.0,
+      "strength": 39.6,
+      "breadth": 26.6,
       "put_call": 52.2,
-      "junk_bond": 31.8,
+      "junk_bond": 32.4,
       "volatility": 50.0,
       "safe_haven": 71.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 2,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_count": 1,
+      "fear_count": 0,
+      "greed_articles": [
         {
-          "title": "[개장시황] 코스피 3%대 급등 출발···HLB·펩트론 동반 급락 - 자본시장뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZRE56d3lnclJhQV9mLXpPcndzRG43YWNhZE5veUhhbnRBVUlOWm9wZl82MHRQUnpMcDdJYXFYRVJxR3d4LW1rUzFDaC03RENEUG9xRG9UUU81Mk5Ba3JXVzg1ZjJ0STg?oc=5",
-          "pub_date": "Fri, 10 Jul 2026 02:27:15 GMT",
-          "source": "자본시장뉴스"
-        },
-        {
-          "title": "[개장시황] 코스피, 급락 딛고 3%대 반등…하이닉스 ADR 훈풍 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oZDBVT1YyU0o5NnplZXh4Q2dzVHVJTnN2OXJtUnNXeEpzWlBabm1YWEd5eks5VDZPTmMyeEtwME12cHVmd2huaGU4cWswa2pGX2pEd3BxZ2lDYzgx?oc=5",
-          "pub_date": "Fri, 10 Jul 2026 00:31:00 GMT",
-          "source": "뉴스핌"
+          "title": "[마감시황] 코스피·코스닥 동반 상승 마감…\"저가 매수세 유입\" - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FY2ZaTkdYcVhQX0Q1U2VnTVdVTE5Ha3JkMHZxVzRiRUxkTWYxQUFHck5TMEoyTlh4Z0hGY3U3OGVheFZpaEhBVjQ4UlQyYmRmdjRlSG5hVkpHdw?oc=5",
+          "pub_date": "Fri, 10 Jul 2026 06:45:00 GMT",
+          "source": "브릿지경제"
         }
-      ]
+      ],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.84,
+    "vix": 16.05,
     "vvix": 88.78,
     "skew": 144.67,
     "move": 65.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1527900000000,
-    "retail_net_buy_krw": -1456500000000,
+    "foreign_inst_buy_krw": 808800000000,
+    "retail_net_buy_krw": -772200000000,
     "margin_loan_krw": 36611300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +50,18 @@
       "sma_200": 23774.19
     },
     "kospi": {
-      "current": 7637.23,
+      "current": 7475.94,
       "high_52w": 9385.59,
-      "drop_pct": -18.63,
+      "drop_pct": -20.35,
       "intraday_low_drop_pct": -20.84,
-      "sma_200": 5514.62
+      "sma_200": 5513.81
     },
     "kosdaq": {
-      "current": 843.84,
+      "current": 837.43,
       "high_52w": 1229.42,
-      "drop_pct": -31.36,
+      "drop_pct": -31.88,
       "intraday_low_drop_pct": -34.9,
-      "sma_200": 1004.34
+      "sma_200": 1004.31
     },
     "sp500": {
       "current": 7543.64,
