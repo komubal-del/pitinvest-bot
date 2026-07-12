@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T06:59:41.454060+09:00",
+  "timestamp": "2026-07-13T07:59:24.732681+09:00",
   "sentiment": {
     "cnn_fng": 49.4857142857143,
     "cnn_components": {
@@ -14,66 +14,10 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 4,
-      "greed_articles": [
-        {
-          "title": "[IB토마토]코스닥 등급제 온다…우량주 쏠림에 중소형주 긴장 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RTlhFVU4zU1pUOVNfUW1rLUx5dnpSNUN1LVlwOURfZEo3MVQ1UkRZRlpfSUtKOEd0WGlaX1RNR2l6ZE9nZDdoUE5BWWstSUxraWN1RHZValdXOTBwWmpHTA?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 21:00:00 GMT",
-          "source": "뉴스토마토"
-        },
-        {
-          "title": "[뉴욕증시 주간전망] 빅테크 AI 거품론 VS 물가 둔화…‘슈퍼 위크’ 시험대 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVC1CZVpsMVp4MWdFc0FiNW1KMy15dEdyZnZCR014VzhjWXdVUkZER3dfekRieHhaZU5TU0dMd2xBd3FKRnExVTRzLTIzcUwzc2xiZFMwOUxHclpLZWlqLXFuMWV3NVNCVnI5dTc2Z2NjeUFKdWZSeDBBOW5zT2JmbW93c0U5b2tW?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 20:48:28 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uWUtLZmluMzJBSDlGeGI3YUNxbmRFMlo3NEl5ZUoycVBPTkVMUXRlVXc2VGVsYzhVVXRFV09Vd1JSWFIxcjZDZzJ6ak0tZ1Nxa2tQcQ?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 20:00:00 GMT",
-          "source": "이투데이"
-        },
-        {
-          "title": "반도체 쏠림에 흔들린 증시…한은 금융안정 변수로 - 메트로신문",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95QkNON0FiMnFXWFZkbUdPb2tjR0lZX0xkaWJYbGxZVmdXakJVQXN4THpjVTdWR1Zxb3p6SVducnhqVVdrSzNuaTRhbG5FVW83RDBPOFBsWUNxZlQzUzl5TA?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 20:30:18 GMT",
-          "source": "메트로신문"
-        },
-        {
-          "title": "AI 불장 뒤에 쌓인 빚…세계 증시 레버리지 역대 최고 [세계는 지금 빚투] - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWNlZMak02a3ZlbXkyTFhtRi1OcFZnaFFYTjlnSmJZSjdhVXktUjJ3WnF2STg4Y19wTy1Vd0pTeThBemUxX21qdkJnc2phdjc5NmdqMQ?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 20:00:00 GMT",
-          "source": "이투데이"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "“코스피 ‘1만피’ 오를 것”…급락 맞췄던 투자보고서 새 전망 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5S0FYWWswcEdjZzZsQ3ZoWG0ya1hsM0lyckRZcmt1aXplUWJ6SkpJUXR5WDluQXlGb1VHb19KRzg3OTM1LUhnbnlKUjdPTjVzbUhSMHdB?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 20:19:21 GMT",
-          "source": "중앙일보"
-        },
-        {
-          "title": "코스닥 액티브 ETF 줄줄이 급락…종목 선별도 안 통했다 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIeEJhWVUxbUk4djJxbnhXS212WFpGeWY2R2JhV0h4dS1NWUtmclhQb254OEtUUEExaFpkUlFGMnF4NXFhWXRCaUYzN2VxSTFUeW9ZNw?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 20:45:00 GMT",
-          "source": "이투데이"
-        },
-        {
-          "title": "코스피 급락의 역설…국민연금 '기계적 매도' 멈추고 '하방 지지' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zaTlqS1ZiRllLdUNOa29aem1KT2FiNDRIMGk3UUc1M2pfeDdCNWxwU2hvRjF6ZzlNbWxSaGNlUGpLYkY0SlVCSE50V3RDSFYyMmkweHI4ZjJVT0sxbEVv?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 21:00:00 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "74조 '매물폭탄' 사라졌다…코스피 급락이 국민연금 매도 멈췄다 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fdGFYNFZWT2tsNW9YUnByT2dpNHdlMVZfaEZnQ05kQmdrS0hJVmhtQlFtNFVJcEhPSmNBTVRfUkZRcURzNndjbnE1QzkzUjlBS25lQlpBbmFuTHFTVGhWUg?oc=5",
-          "pub_date": "Sun, 12 Jul 2026 21:51:00 GMT",
-          "source": "네이트"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -85,7 +29,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 808600000000,
     "retail_net_buy_krw": -780500000000,
-    "margin_loan_krw": 36611300000000,
+    "margin_loan_krw": 36066700000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
