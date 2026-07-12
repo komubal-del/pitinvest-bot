@@ -1,37 +1,30 @@
 {
-  "timestamp": "2026-07-10T22:22:20.968531+09:00",
+  "timestamp": "2026-07-13T00:30:23.326429+09:00",
   "sentiment": {
-    "cnn_fng": 47.1714285714286,
+    "cnn_fng": 49.4857142857143,
     "cnn_components": {
-      "momentum": 58.2,
-      "strength": 39.6,
+      "momentum": 68.0,
+      "strength": 40.6,
       "breadth": 26.6,
-      "put_call": 52.2,
-      "junk_bond": 32.4,
+      "put_call": 56.6,
+      "junk_bond": 37.6,
       "volatility": 50.0,
-      "safe_haven": 71.2
+      "safe_haven": 67.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "[마감시황] 코스피·코스닥 동반 상승 마감…\"저가 매수세 유입\" - 브릿지경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FY2ZaTkdYcVhQX0Q1U2VnTVdVTE5Ha3JkMHZxVzRiRUxkTWYxQUFHck5TMEoyTlh4Z0hGY3U3OGVheFZpaEhBVjQ4UlQyYmRmdjRlSG5hVkpHdw?oc=5",
-          "pub_date": "Fri, 10 Jul 2026 06:45:00 GMT",
-          "source": "브릿지경제"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.75,
-    "vvix": 88.78,
-    "skew": 144.67,
-    "move": 65.4
+    "vix": 15.03,
+    "vvix": 87.28,
+    "skew": 144.27,
+    "move": 69.55
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 808600000000,
@@ -43,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26206.89,
+      "current": 26281.61,
       "high_52w": 27190.21,
-      "drop_pct": -3.62,
-      "intraday_low_drop_pct": -5.02,
-      "sma_200": 23774.19
+      "drop_pct": -3.34,
+      "intraday_low_drop_pct": -4.34,
+      "sma_200": 23791.66
     },
     "kospi": {
       "current": 7475.94,
@@ -64,34 +57,34 @@
       "sma_200": 1004.31
     },
     "sp500": {
-      "current": 7543.64,
+      "current": 7575.39,
       "high_52w": 7620.9,
-      "drop_pct": -1.01,
-      "intraday_low_drop_pct": -1.83,
-      "sma_200": 6960.73
+      "drop_pct": -0.6,
+      "intraday_low_drop_pct": -1.48,
+      "sma_200": 6965.14
     },
     "russell2k": {
-      "current": 2992.54,
+      "current": 2977.81,
       "high_52w": 3046.59,
-      "drop_pct": -1.77,
-      "intraday_low_drop_pct": -2.73,
-      "sma_200": 2636.24
+      "drop_pct": -2.26,
+      "intraday_low_drop_pct": -2.74,
+      "sma_200": 2638.82
     },
     "soxx": {
-      "current": 581.7,
+      "current": 581.34,
       "high_52w": 655.95,
-      "drop_pct": -11.32,
-      "intraday_low_drop_pct": -11.71,
-      "sma_200": 382.1
+      "drop_pct": -11.37,
+      "intraday_low_drop_pct": -13.61,
+      "sma_200": 383.66
     }
   },
   "sector_rs": {
-    "XLK": 1.173,
-    "SMH": 1.254,
-    "BOTZ": 0.933,
-    "IGV": 1.134,
-    "XLF": 0.99,
-    "XLE": 0.874
+    "XLK": 1.158,
+    "SMH": 1.249,
+    "BOTZ": 0.931,
+    "IGV": 1.065,
+    "XLF": 0.981,
+    "XLE": 0.881
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 73.62,
+    "tqqq_profit_pct": 75.19,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 259.72,
+    "soxl_profit_pct": 259.36,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 54.96,
+    "koru_profit_pct": 51.45,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
