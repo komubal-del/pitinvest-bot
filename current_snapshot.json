@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T05:42:15.675711+09:00",
+  "timestamp": "2026-07-14T06:35:51.546420+09:00",
   "sentiment": {
     "cnn_fng": 43.6857142857143,
     "cnn_components": {
@@ -15,35 +15,16 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 3,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "코스피 7000 무너져… 하이닉스, 역대 최대 15.4% 폭락 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSVNJeEVybE5BWm1wNmlrSnBlQ0pmcndmSGt2QjUyOTNQTFVBNkt4bVBqR1NKSlkyUUlEaUlrY0FsWmdDYnUzcUlrSnlLS3lTSUtVWk51YVY3WHZEblBrOFNSTm1XZERtT3dNQ2ludGZUbTRLdElyNFp2N3VtREEtMXRreEJ3bHJqRVFZ?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 15:50:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "한국증시 7000선 붕괴·9% 급락 ‘공포의 블랙 먼데이’ - 베이비타임즈",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9haEFXVDcwejFibkF3ZnpYY0pHa2k0N2IwN2RSVUdUSndneG9jeDJxRE1MTV9TYTF1emNXZ0cwczQxRnp4aUpEUWttY1NUYU5vU043VHVMVFktOFNhWEZ6eU4tb3ZBOThhSzFKNA?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 16:34:41 GMT",
-          "source": "베이비타임즈"
-        },
-        {
-          "title": "호르무즈에 발목 잡힌 뉴욕증시, 하락 마감… SK하이닉스 ADR 9% 급락 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVzV3MkcyMmxwcVp6SERuMkxjUmVCZVpJaGZUdExBNkx2Q0dFOW53eEFRRGZQU1kxc1dvX09ucDRxaldGc3F3UFlWTTl1ZHNQeTA5TE84bW5KODM0SzZKekpzRTN5VDQ1RV81cHlJX0xsR0dZcFVRWXo0SXQtMTJjMEtFWS1ueW9jQ3A0eVBZcjgzbFdVNkZBb195SnotQdIBsgFBVV95cUxQQUFWLUdNVGg0V3JmYVFDd3hmUUhvU0Z4akNMR1RxUkJESW1HMUZXcFM4eXQ4TERYQUxyTVNRM09lYmE0c1V6c1ZjZklkN0JHYU5nZXB5czlHZGRLTnlfQnBESXBkbUctaEFfbHNUNlNfeWJPeG9yaUZwb3NaOEs2TEdTaFlyMkpQZ1k3NjhvRndpZDBJTUpTOXAyVl9SaXdqZFpBUm9sY0MwTDE3Uk9nckRB?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 20:24:00 GMT",
-          "source": "Chosunbiz"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
     "vix": 17.16,
     "vvix": 95.28,
-    "skew": 144.27,
-    "move": 69.55
+    "skew": 145.69,
+    "move": 77.77
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -3904300000000,
@@ -305,7 +286,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 190.98,
+    "strategy_pct": 191.774,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -849,7 +830,7 @@
       },
       {
         "date": "2026-07-14",
-        "ret_pct": 190.98
+        "ret_pct": 191.774
       }
     ],
     "monthly_breakdown": [
@@ -891,9 +872,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -34.77,
-        "end_ret_pct": 190.98,
-        "max_dd_pct": 45.49
+        "return_pct": -33.98,
+        "end_ret_pct": 191.77,
+        "max_dd_pct": 44.69
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
