@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T07:59:24.732681+09:00",
+  "timestamp": "2026-07-13T09:03:09.622594+09:00",
   "sentiment": {
     "cnn_fng": 49.4857142857143,
     "cnn_components": {
@@ -14,10 +14,72 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 7,
+      "fear_count": 9,
+      "greed_articles": [
+        {
+          "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE02aTU2N3dtV19Wdkp0TFY3angzTVU3ZmdnVWlaRGhGSXduZ2toZE5YYUNrRFg1cy1aR3FSOVRtZFZKcDBqR1E?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 20:00:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[IB토마토]코스닥 등급제 온다…우량주 쏠림에 중소형주 긴장 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RTlhFVU4zU1pUOVNfUW1rLUx5dnpSNUN1LVlwOURfZEo3MVQ1UkRZRlpfSUtKOEd0WGlaX1RNR2l6ZE9nZDdoUE5BWWstSUxraWN1RHZValdXOTBwWmpHTA?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 21:00:00 GMT",
+          "source": "뉴스토마토"
+        },
+        {
+          "title": "“9천피 신기루였나”…반도체 고점론에 흔들리는 코스피 - 주간한국",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SWXFoUkZUeEZVSjNGNWw3cUV2MElXTWcwNWx4X0tWM3drc0hDMnd2ZHllM3NrckdhTkVBbm5QRFVxMDNFWXNidWNFaW9iVmIydXNldU50cm5sZjNocWw4TU5VclM0SmxpQUZrWEt5ZjLSAXRBVV95cUxOa21SNkROZE1qaTNZMDM1R052Rmk5Rk1uRFQwNmRBZlF4YjVMUnNORFdoc01INXQ2TFZUckQ5aXhoUUstQ0J4T3pmZ01TMTloY2RmM2pNZ0NkUTJBcVJEY2hnelpMOHVZLXJTTFprTzRGRGxzTg?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 22:00:00 GMT",
+          "source": "주간한국"
+        },
+        {
+          "title": "[뉴욕증시 주간전망] 빅테크 AI 거품론 VS 물가 둔화…‘슈퍼 위크’ 시험대 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVC1CZVpsMVp4MWdFc0FiNW1KMy15dEdyZnZCR014VzhjWXdVUkZER3dfekRieHhaZU5TU0dMd2xBd3FKRnExVTRzLTIzcUwzc2xiZFMwOUxHclpLZWlqLXFuMWV3NVNCVnI5dTc2Z2NjeUFKdWZSeDBBOW5zT2JmbW93c0U5b2tW?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 20:48:28 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "38조 빚투 증시, 반대매매 10% 폭등에 '패닉셀' 경고음 [세계는 지금 빚투] - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uWUtLZmluMzJBSDlGeGI3YUNxbmRFMlo3NEl5ZUoycVBPTkVMUXRlVXc2VGVsYzhVVXRFV09Vd1JSWFIxcjZDZzJ6ak0tZ1Nxa2tQcQ?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 20:00:00 GMT",
+          "source": "이투데이"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "'코스피 20% 폭락' 정확히 맞힌 보고서, 이번엔 \"지금 사라…1만1450피 열린다\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jN05yY29VLVotZnBkVGpmbEw4YTFlSERUQTlxOFYxUXE1U2ZxdTdKeFNwVzJrZEdZTlM3VDFFMXVvWEZvdTYxRXB5YnlpRWM?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 23:25:29 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[비철금속 시황] EGA 생산 재개에 알루미늄 급락…뉴욕증시는 미·이란 충돌 속 혼조 - 산업일보",
+          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1BT0FpTkxNUmxwRk1EeERWRV9XQU5LbnV2X01USWY0TnhpejB4aWh0M2NXYjZ4QnNCVnh4S2dkTjFCbWNH?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 22:09:29 GMT",
+          "source": "산업일보"
+        },
+        {
+          "title": "﻿74조 '매물폭탄' 사라졌다…코스피 급락이 국민연금 매도 멈췄다 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41aDhVb0d3TzRsMkkxSV9TSko4NWR4VWRWM2lsS3lqeXY3Z2labHM4Qm43elJhM19qd29sVy1mcWNvb3hGREtkM3BITTVaMm0ycmNlODRoZV9QOUNLRGtKeFVwNk5PZTdN?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 21:50:44 GMT",
+          "source": "ebn.co.kr"
+        },
+        {
+          "title": "코스피 급락의 역설…국민연금 '기계적 매도' 멈추고 '하방 지지' - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zaTlqS1ZiRllLdUNOa29aem1KT2FiNDRIMGk3UUc1M2pfeDdCNWxwU2hvRjF6ZzlNbWxSaGNlUGpLYkY0SlVCSE50V3RDSFYyMmkweHI4ZjJVT0sxbEVv?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 21:00:00 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "코스닥 바이오 주가 급락에…커지는 '전환사채 리스크' - 비즈워치",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oa1pJR3k3QTIwd0ItVG1rc1lzWVZ6b3lMU1ZURkRPZlo3YmNIcHN5Q1Brd2RLTncxQnJSOW9FNmc3U0RJemxoU0VDTTFDQXpHcmphaThocUxaRURJZWtGS2tmYm9rQ0tFTmltQm9R?oc=5",
+          "pub_date": "Sun, 12 Jul 2026 22:00:03 GMT",
+          "source": "비즈워치"
+        }
+      ]
     }
   },
   "volatility": {
@@ -27,8 +89,8 @@
     "move": 69.55
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 808600000000,
-    "retail_net_buy_krw": -780500000000,
+    "foreign_inst_buy_krw": -75600000000,
+    "retail_net_buy_krw": 74700000000,
     "margin_loan_krw": 36066700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -241,11 +303,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-07-10",
-    "analyzed_at": "2026-07-10T13:06:12.716842+09:00",
+    "date": "2026-07-13",
+    "analyzed_at": "2026-07-13T09:03:15.681743+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -262,7 +324,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "bullish",
-          "reason": "제목에서 SK하이닉스 ADR 상장을 '반도체 반등의 진짜 분수령'으로 언급하며 반도체 섹터의 긍정적인 반등 가능성을 강조하고 있습니다."
+          "reason": "제목에서 '반도체 반등의 진짜 분수령'이라는 표현을 사용하여 반도체 섹터의 긍정적인 전환 가능성을 강조하고 있으며, 이는 '반등 강조'라는 bullish 기준에 부합합니다."
         }
       },
       {
@@ -275,7 +337,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가의 영상 설명란은 주로 투자 교육 및 전문가 모임을 홍보하는 내용으로, 특정 시장 방향에 대한 매수/매도/현금화 등의 구체적인 행동 권고가 명확히 없습니다."
+          "reason": "제공된 영상 설명란은 삼성전자 및 SK하이닉스의 미래에 대한 토론을 암시할 뿐, 실제 내용은 주식 교육 과정 및 전문가 소개 광고로 이루어져 있어 특정 투자 행동을 권고하는 발언이 전혀 없습니다."
         }
       }
     ],
