@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T19:42:43.544439+09:00",
+  "timestamp": "2026-07-13T22:04:38.593332+09:00",
   "sentiment": {
     "cnn_fng": 49.4857142857143,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 56,
+      "greed_count": 4,
+      "fear_count": 45,
       "greed_articles": [
+        {
+          "title": "‘반도체 쏠림’이 부른 부메랑…코스피 6800선, 블랙 먼데이 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5V3hmMWhTZzVaUWYyUGZMTFlkM2ZfU0pnbHFUbHVwaWEzN0RyY1ZXUGtLUWh2SUlTbzktd2VNNGxvcEljc0hENjRadXF3S0k?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 10:20:08 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "\"증시 급락 주범은 레버리지ETF 아닌 AI 고점 우려\" - 아시아경제",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2YkkwRlVPWXg0WEsxdHBDaWVUS2tsaldtU1lHdnVIVFNUMTlkSzVkS280Y09FVXVkTWw3bUxBT2ZTUVNCR05EZGJUaVo5M041dVVUc1dkS3NzWW85UWdsVA?oc=5",
@@ -24,10 +30,10 @@
           "source": "아시아경제"
         },
         {
-          "title": "‘반도체 쏠림’이 부른 부메랑…코스피 6800선, 블랙 먼데이 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5V3hmMWhTZzVaUWYyUGZMTFlkM2ZfU0pnbHFUbHVwaWEzN0RyY1ZXUGtLUWh2SUlTbzktd2VNNGxvcEljc0hENjRadXF3S0k?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 10:20:08 GMT",
-          "source": "v.daum.net"
+          "title": "반도체 고점론 탓일까 일시적 현상일까… 6900선 내준 코스피 미래 - 더스쿠프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aVGJTbkc3QXNvQWRJbERHeU05b1psWENKU0RUX3F0VG44a1NNaG9TQS1vR3BoSUUtaHdzRzJQSmZoY1FaWDNyLWRtazNnY0pjeUI4cF82UV85VWxuSFV1UDJxM2tJTGlmWG02QUd3?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 11:46:45 GMT",
+          "source": "더스쿠프"
         },
         {
           "title": "[증시 긴급진단] \"AI인프라 자금조달 우려…9천피가 연간 고점일 수도\" - 연합인포맥스",
@@ -38,16 +44,16 @@
       ],
       "fear_articles": [
         {
+          "title": "코스피 9%폭락에도 개인 '하닉 레버리지' 6천억 순매수…역추세추종 뚜렷 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXU0FkZ2pXMl80STJiLXVNU04yYm5Zb1BLTlZHNUppR0NkNkppbDdseVJIR21mcGk3M1ZvTkJsVnJISmR4NUd4TmdwRW9LNENjQ3I4aDI1NFRSOS0wMzFrcy13c3AyeE1rVlYtRncwbXU?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 07:21:33 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "’검은 월요일’ 코스피 9% 급락…또 서킷브레이커 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92MU5CRnRLckNDUjAxbXMwSk5PRGdtNkNsS1dkVEFlUGxRTW9ZTDdIaFVGVjNaS1NHOXhyZkVFbzNHVjMzc1g4RnVmb0NCZlpmenhZRERYYlN0U3lXYlR6cTcwVEhqMEk?oc=5",
           "pub_date": "Mon, 13 Jul 2026 07:10:00 GMT",
           "source": "연합뉴스TV"
-        },
-        {
-          "title": "\"반복되는 韓증시 급락 원인찾기\"…레버리지·피로도·시클리컬 '삼중고' - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZTkM5bm1lZEY2MjRORHhKNDBNTzVYUEV6VHlBell6NEtINENOdnhxa0lUSVhxZ3pHaGkyLWRMLWs5ZTJXeHhGcXFIV2VWeUNoZnk3UEZQYmVxTjYzODJxbnJVUlZIUzBVa19hdFVvM1Q?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 05:52:33 GMT",
-          "source": "연합인포맥스"
         },
         {
           "title": "[속보]코스피 8% 폭락에 서킷브레이커···삼전·닉스 양대장 추락에 7000선 붕괴 - 경향신문",
@@ -71,7 +77,7 @@
     }
   },
   "volatility": {
-    "vix": 16.3,
+    "vix": 16.38,
     "vvix": 87.28,
     "skew": 144.27,
     "move": 69.55
