@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T12:49:08.690905+09:00",
+  "timestamp": "2026-07-13T16:31:26.316479+09:00",
   "sentiment": {
     "cnn_fng": 49.4857142857143,
     "cnn_components": {
@@ -15,70 +15,70 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 43,
+      "fear_count": 55,
       "greed_articles": [
         {
-          "title": "SK하이닉스 실적전망 하향…코스피 과열론 불붙이나(종합) - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wQzlVZU00Um5BcF9rQ1BEeHNyenBTYVBDdWV2V0ViV3FVeC1BRmlDbTVnQlRMOHRIZi14Z08zZU0xQTNybFlnNkJGVmcyb0U2WFBHMm5kNTkyblkwSDUzZQ?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 01:27:49 GMT",
-          "source": "아시아경제"
+          "title": "[증시 긴급진단] \"AI인프라 자금조달 우려…9천피가 연간 고점일 수도\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qUjQ1OWlrUWpuUWtJTFBWbUw4OTdzZDBIR0dVdU1xWFJFWkZ5YzhIaTNabnRIMHJUVG9UV1NZYjNraVRqZHN6R0pVQTNYZXhLanAybFhjZHVkclczUGJKeE1xTGlpVDd5MnV3UW9QbG8?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 05:22:25 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "증시 활황 속 4050 빚투 급증…마통 잔액 65% 넘겨 - 강원일보",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQU2luUDZLbVFJSE50NWZjNGYwV3V4T3BfTnZjVmw0alhkZHphLXNCME1XVUJER0htLTNyM3RvSHduSjZMQkUzS296c19SdzBaNlBVUnRHVzk?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 01:20:21 GMT",
-          "source": "강원일보"
+          "title": "[증시 긴급진단] \"AI인프라 자금조달 우려…9천피가 연간 고점일 수도\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTRGQ1X1dyOURTYUtsX3VyXzNNdFUxSFFENjVkanhTQmlBMlR0Y1JucUF6VkYyRk1hS09LWUdoUldCZmVqUjN1TnJwRUM3VEZqdTVzRFROXzN2LVFSVzNYWTBpSnkzVmt6S0h1YXhTY3JwQQ?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 05:19:17 GMT",
+          "source": "KB Think"
         },
         {
-          "title": "반도체 고점론에 흔들린 코스피…美 CPI·빅테크 발표 '시험대' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByMmFEenUzR0gwckVobmVFem9VUThlNzVOZEQ2cG1TT3gyc0k0UFNRUmkyYnBhY0FHcndJcVc5TTdvenY4V2hKaUpGM0tPSHc?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 01:54:54 GMT",
-          "source": "v.daum.net"
+          "title": "[투데이증시] “공포에 매수하는 개미”...‘삼전닉스’ 10%대 급락에도 개인 3.8조 순매수 - 투데이신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SSm9hdm9feVh3emg5SjVqcTBJNHFycXkxNDNQeHVON251dkJNbUEtbWkwUEZvYmZEblJjbFpELU11dDdTc2w2WU8zcFBiLVJ1TVRXOXY2Q0ZpYUhHMnlmRGF2eUkxX05IaTA00gFvQVVfeXFMTzUxQmRueS13dlpqbC1QV0k2bjUzQy1oNjQ5ekxDeFA3RG1PZFJjUDhEMHVWSEVyWmZXdVdtdGpMRFVOUWFiNUowY1hjNm1POGNqMnBHcHgtUHlOX25nZWw2aV80bjNPdjdfck1qQlow?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 07:07:39 GMT",
+          "source": "투데이신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "[속보] 코스피, 6%대 급락해 장중 7,000 붕괴 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NRFJIcExZSVhyU1B4dmRLWkpKcGlNbDlkQkVRZWlKT3RPNktvWm9ZeVFOTXJBQlRkWUZJOHJ6TW8yMlZuSXpHdUlFV0s3eUJIOFZnQjgyT3Vqb2lDOUdMYUxiTWlWUk0?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 03:07:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피 급락…유가증권시장 매도 사이드카 발동 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MdXpKM3UxMThSTlkyTlVLQmxfeWdKRTlUUWhxdnpuQ0g1NVhVMS1vMkdlUGNjUkktUFozTmEwWXJ6aEFjdHFaLTFzWk4ya2Y5d3UyRHpWSFVhNFU?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 01:59:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "[속보]코스피, 매도사이드카 발동…SK하닉 8% 급락에 200만원 붕괴 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PMDFkR3hzdldncWVvdWFQeXY4bkI5ckZnSzdzREQwX0M2N1hBOERlVm1NQjRiODhzZGF0Zk13Zk1KY0VPSDR0NzNtNWx3R01ZWWlLVE92Q3NnQdIBX0FVX3lxTFBsbXdlNWNWWV9BY0VYbXlobGxORnlfemE0OFFzODdYcWNSQUdITV9OVjJRc2tybG94VkdnZkVPcmg4MFhVVjJjUW50UldCU3NJOVRfMGRVZkFXUFUzWUQ0?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 01:46:00 GMT",
+          "title": "[속보]코스피 8% 폭락에 서킷브레이커···삼전·닉스 양대장 추락에 7000선 붕괴 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tTFVvbGd3S285elhzRTVZaTRKczkyLW84cEpSX0ZRTFZ1S29Wdy1Gczc0dTVlT2VmNDBuWW9hWlF6QklkbWN3SkhkZEpnNVpucnVsNlI0UWlld9IBX0FVX3lxTFBfRktXcm5RVEhSanhWMGdLUlMzOHpvQmkzSTFldG9BRlJGX20xMi11M2FwLTBzYlZHSHhKOVllTk5mcVNpcXpHaW00QTBHVFZVQzNGTXVKdjRfNUVTZFdJ?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 04:40:00 GMT",
           "source": "경향신문"
+        },
+        {
+          "title": "\"반복되는 韓증시 급락 원인찾기\"…레버리지·피로도·시클리컬 '삼중고' - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZTkM5bm1lZEY2MjRORHhKNDBNTzVYUEV6VHlBell6NEtINENOdnhxa0lUSVhxZ3pHaGkyLWRMLWs5ZTJXeHhGcXFIV2VWeUNoZnk3UEZQYmVxTjYzODJxbnJVUlZIUzBVa19hdFVvM1Q?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 05:52:33 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피 7천선 무너져…8% 폭락, 서킷 브레이커 발동 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyUkJ5bW1WdU1UcTgydDQxVFV6YjlLZWVDTGphSUNHSkdtWFota3kzelgtWUtZX2xLVUZLbnFiUGowemd3NkdlUWRGZzctSDAyNXJTZ0dOdEQyNWR4NkRrSEN2SVZLeHM?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 06:13:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "코스피 8.95% 급락, 6,806.93 마감…7,000선 아래로 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tZkxaNWd0Sk93ekNwa2pJNXp5UFduQ3duLXN1aHE0M3NNRGFmVlhmaGs1MVhPWFM0R1k4bnYteVQ0Mm9HZEpkRnUyNnU2X3U5dnVVNEJUWFVyU0tBVGhWOURaeFozVlU?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 06:39:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
           "title": "장중 200만닉스 붕괴...코스피 급락에 매도 사이드카 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuSV84eU10YjlxRnowWGF1ZXhCV2VHTXIzS1BfT1FiRDFuVFZCbWtBZndzSGhSRGJhMVZCWmZ0OEdhdmdmM2w0M3IxUTQ1ZVJQVGhtZHhMTkh4aFBWNFE?oc=5",
           "pub_date": "Mon, 13 Jul 2026 02:40:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "'삼전닉스 출렁'에 코스피 5%대 급락…'7천피' 위협받기도 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uWU9adXd3RlZXaHBDQTc1N2N6RHpsT1BfMXVpQUZocmRJOGtoaEFxS0thYnR3d3UwbW1oc3RsTF9YaG13V2V6VTN6SDM2clE?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 02:40:57 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.03,
+    "vix": 16.36,
     "vvix": 87.28,
     "skew": 144.27,
     "move": 69.55
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2324100000000,
-    "retail_net_buy_krw": 2254200000000,
+    "foreign_inst_buy_krw": -3904400000000,
+    "retail_net_buy_krw": 3882200000000,
     "margin_loan_krw": 36066700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +93,18 @@
       "sma_200": 23791.66
     },
     "kospi": {
-      "current": 6972.04,
+      "current": 6806.93,
       "high_52w": 9385.59,
-      "drop_pct": -25.72,
-      "intraday_low_drop_pct": -25.94,
-      "sma_200": 5531.7
+      "drop_pct": -27.47,
+      "intraday_low_drop_pct": -27.73,
+      "sma_200": 5530.87
     },
     "kosdaq": {
-      "current": 813.2,
+      "current": 799.36,
       "high_52w": 1229.42,
-      "drop_pct": -33.85,
-      "intraday_low_drop_pct": -33.99,
-      "sma_200": 1004.14
+      "drop_pct": -34.98,
+      "intraday_low_drop_pct": -35.15,
+      "sma_200": 1004.07
     },
     "sp500": {
       "current": 7575.39,
