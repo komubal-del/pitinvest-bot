@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T06:35:51.546420+09:00",
+  "timestamp": "2026-07-14T07:38:35.442034+09:00",
   "sentiment": {
     "cnn_fng": 43.6857142857143,
     "cnn_components": {
@@ -14,10 +14,48 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 10,
+      "greed_articles": [
+        {
+          "title": "﻿美는 오르는데 코스피만 20% 폭락…'여름 비수기'보다 무서운 반도체 쏠림 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zUExwdnBMblR3VG1VTzlJaGFVR0pIeDRmVnMzVDY5aVltVEhyY3NJRnllWGEybEtLQ25Fd3RiU3puWWptbnctVU1YTzFXZUhJVHNrSEc3NnoxRHJGOEhEdjQ4TVJ2M2pK?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 21:16:02 GMT",
+          "source": "ebn.co.kr"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "코스피 급락할 때, ‘중국 ETF’ 조용히 올랐다…‘D램 4위’ CXMT 상장 앞두고 기대감 폭발 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KcUhabHVkOHVPNUpJYWkxQW12UUVXLUIxck0xS3JGcGdvWmdUSFQxbDZBbzJCckpfeTZRX0w2eFhnUWVSZ1RtcDdGekx2YUp0T1A5V0Flc3kzUdIBX0FVX3lxTE5BUmdSdkRfTkt5MWg4SjBubjBSeElMdDBYUm9SRWpvbmtPcHJyMkhBd09WTm9CdWpXTHlSVDlBcEEwMGdORlpoM0R3UlF3S1MyVzE5V3pTTkZWSDhsdmVn?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 21:00:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "SK하이닉스 ADR도 9% 뚝…코스피 급락 여파 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wd1FhU3J1UExhLVRrc3FTSmo4cHNrdzRPVDZmeVMxV3Q4Z2NxR3JsRC1meDNBMUEzZUV1TE4zZTU1azBHbUMxOGNHektVZnMxRXRLM3cwanZvQnN4Z09ZdUMteldNdzUt0gFuQVVfeXFMTzh0WDJ4YVNDbmlMY1MwLVFob2dCWmR2Yk90UnpWd3FvSnVsSmhHb2Z5QlVRcVdwei1zWnJuc2FVc05Wb2pVMDFRU1dtV19PN0NYN1dscUtnZ0MwNXJJUUh4dGktTUxZMEtUU1dJS2c?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 21:07:57 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "호르무즈 위기감 고조에 유가 수직 상승·뉴욕 증시 하락...하이닉스 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oakFuOWNITXMwdy1VZEhkRTh3SldHUFMzeTFfLWh6b1d3OGY1YUxNYmF5eExSbkRqQVdMenVNVHphNkJYcXJXS0JZdWJocWRQQmhWT01rb2x6Y29rXzJqQnE5ck15ZHBQLVFuUzFaeWxxU1JtdkE?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 21:05:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "한국증시 7000선 붕괴·9% 급락 ‘공포의 블랙 먼데이’ - 베이비타임즈",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9haEFXVDcwejFibkF3ZnpYY0pHa2k0N2IwN2RSVUdUSndneG9jeDJxRE1MTV9TYTF1emNXZ0cwczQxRnp4aUpEUWttY1NUYU5vU043VHVMVFktOFNhWEZ6eU4tb3ZBOThhSzFKNA?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 16:34:41 GMT",
+          "source": "베이비타임즈"
+        },
+        {
+          "title": "코스피 7000 무너져… 하이닉스, 역대 최대 15.4% 폭락 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSVNJeEVybE5BWm1wNmlrSnBlQ0pmcndmSGt2QjUyOTNQTFVBNkt4bVBqR1NKSlkyUUlEaUlrY0FsWmdDYnUzcUlrSnlLS3lTSUtVWk51YVY3WHZEblBrOFNSTm1XZERtT3dNQ2ludGZUbTRLdElyNFp2N3VtREEtMXRreEJ3bHJqRVFZ?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 15:50:00 GMT",
+          "source": "조선일보"
+        }
+      ]
     }
   },
   "volatility": {
@@ -29,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -3904300000000,
     "retail_net_buy_krw": 3886900000000,
-    "margin_loan_krw": 36066700000000,
+    "margin_loan_krw": 35034100000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
