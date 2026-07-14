@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-14T15:30:55.949582+09:00",
+  "timestamp": "2026-07-14T17:54:35.908418+09:00",
   "sentiment": {
-    "cnn_fng": 43.7142857142857,
+    "cnn_fng": 43.7428571428571,
     "cnn_components": {
       "momentum": 46.6,
-      "strength": 37.4,
-      "breadth": 28.4,
+      "strength": 36.8,
+      "breadth": 29.2,
       "put_call": 43.4,
       "junk_bond": 44.6,
       "volatility": 50.0,
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 32,
+      "greed_count": 2,
+      "fear_count": 13,
       "greed_articles": [
         {
-          "title": "코스닥, 고점 대비 39% 급락…연중 최저에 매도 사이드카 [장중시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LQko4RXM2RUwzZTItZ09uWG1NeUFGR2RvcXM1b0NRQTdTLS1RQkVKZU1ockZWUGx3b2szd3AyZHF2dmtpb3BobGswbHJXRHllMWNmOHU2VEEzdUU?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 04:56:31 GMT",
-          "source": "뉴스1"
+          "title": "[오늘의증시] 삼성전자 ADR 기대에 코스피 반등…반도체 쏠림 속 코스닥은 약세 - 경인방송 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QRThvY2lVWEtrTExUU2ZXVmJiTmI3ejltZnZSVmN3LWMxQktwWlphQjQyckFQMk40NlJSaWRtX0dOaEhBUmFwaEtMdFpfeVRMemdqSGJMdlVGQVo0TnBDczNzRFnSAWhBVV95cUxQR0hEQmt6Z3hjN25SY2FlYWJrdkFfcEN3SFpJV0Zoa3FRYU4zX0s2QUczUExtMlFpbmRiU0t6cVpXRXFuSktKOXpEdzNuWHdxeE1NOXVZRVd0dmQ1LW83aGpERTI1ZDQzNw?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 08:11:03 GMT",
+          "source": "경인방송 뉴스"
+        },
+        {
+          "title": "코스피 '빚투' 41%가 삼전·닉스·스퀘어…강제청산 공포 커진다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wM0NSNHo5T21WTzNOVWYzZGJZUkpLU28wdlNHOHY1YkIxZmlZNl9rS0stZkQ0bFVlSFZHR1BhOWZVTnc3M25oLVI3NkctOUU?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 08:49:51 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
@@ -44,29 +50,29 @@
           "source": "연합뉴스"
         },
         {
-          "title": "급락장에 코스닥 매도 사이드카 발동…코스피도 장중 4%대 급락 - 주간조선",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPMWVzNDU5dmlpSWdndXF4T1FqZjBJMEdjWVE0NUxVaGRySjFhWHJiaHZFWXBCZmEzbDNrZXMyZ1dzQmRwV0pFS0x0M1V2cndndXZmYTh0ZjBMMG85ZkVwZVNrbVpxVUNFMlJRd1dR0gFuQVVfeXFMUE8xZXM0NTl2aWlJZ2d1cXhPUWpmMEkwR2NZUTQ1TFVoZHJKMWFYcmJodkVZcEJmYTNsM2tlczJnV3NCZHBXSkVLTHQzVXZyd2d1dmZhOHRmMEwwbzlmRXBlU2ttWnFVQ0UyUlF3V1E?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 03:56:16 GMT",
-          "source": "주간조선"
+          "title": "코스닥 장중 5% 급락에 매도 사이드카 발동 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wSW5qVzJqSVhWRkVXb1hxTFNiVEZfSzJBNmwtanUwU3ZGYmIwUVJldjVsLUlfYXpDQ1otZXZ3RE5ScU84N3E4QVlRcEloT2I4UExxOVBDeWpqNkZuNDBYdmRvSTZSZjQ?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 04:31:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[속보]코스닥 장중 5% 급락에 매도 사이드카… 코스피도 급등락 반복 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YLTFTZG1KMzdYT2pIYmE3cE9xQVE2M2d6aklDelBfQUZqdGFHMjlNZEdqX3VsNXBVcllmV01paWJlM2lpcVJZbEFIXzEwQy05WWRDaFBYNjllS2JGNmZfM2dR?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 03:55:22 GMT",
-          "source": "KBC광주방송"
+          "title": "[속보]코스닥, 5% 급락에 매도사이드카 발동…52주 최저치 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TMHhEajRMbVlSSmcyM3MyaV9FbE54eVJUTVRIaTlxRVBfdGZoN0hQYWo2UVg4S0hULVVBUk82aFJzU2x2ak5RSnVCT2NscEhCT3BON2w2ZHhxZ9IBX0FVX3lxTE82ODhZbVFZX3NYN2ZnbXdadXphdmwwUnZjWkYwZUxndE9vMk1OTm9BOUZCYUVONnlsY25iaGdUM1NEWERJNzIzcjYySUxiZUVFUkF3eG04a0ZNenhqcGdr?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 03:34:00 GMT",
+          "source": "경향신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.16,
+    "vix": 17.27,
     "vvix": 95.28,
     "skew": 145.69,
     "move": 69.55
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 4297100000000,
-    "retail_net_buy_krw": -4269199999999,
+    "foreign_inst_buy_krw": 4168199999999,
+    "retail_net_buy_krw": -4142400000000,
     "margin_loan_krw": 35034100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,16 +87,16 @@
       "sma_200": 23808.15
     },
     "kospi": {
-      "current": 6858.32,
+      "current": 6856.83,
       "high_52w": 9385.59,
-      "drop_pct": -26.93,
+      "drop_pct": -26.94,
       "intraday_low_drop_pct": -31.29,
-      "sma_200": 5548.13
+      "sma_200": 5548.12
     },
     "kosdaq": {
-      "current": 782.77,
+      "current": 783.98,
       "high_52w": 1229.42,
-      "drop_pct": -36.33,
+      "drop_pct": -36.23,
       "intraday_low_drop_pct": -39.02,
       "sma_200": 1003.72
     },
