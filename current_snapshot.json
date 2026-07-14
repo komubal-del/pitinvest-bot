@@ -1,30 +1,43 @@
 {
-  "timestamp": "2026-07-15T04:55:20.424086+09:00",
+  "timestamp": "2026-07-15T06:08:46.247544+09:00",
   "sentiment": {
-    "cnn_fng": 43.1428571428571,
+    "cnn_fng": 43.1428571428572,
     "cnn_components": {
-      "momentum": 51.0,
-      "strength": 37.8,
-      "breadth": 30.0,
-      "put_call": 46.2,
-      "junk_bond": 43.8,
+      "momentum": 50.0,
+      "strength": 37.4,
+      "breadth": 30.2,
+      "put_call": 46.0,
+      "junk_bond": 45.8,
       "volatility": 50.0,
-      "safe_haven": 43.6
+      "safe_haven": 42.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 2,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "“코스피 급락, 지금 써먹어라” 월가 극찬한 ‘수익률 2배’ 투자법 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NTWZzcVVUTDlqTHlxRXBqZDNFbFVhUVZLQUlYc2tOYXVSaHJodkFyWjNOd21nSkFVWkJxaVBHLWJNZXd3ZDBhQVNvSkd1LU80SE5HUkJB?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 20:00:35 GMT",
+          "source": "중앙일보"
+        },
+        {
+          "title": "뉴욕증시, CPI 둔화·은행 실적 호조에 상승…IBM은 실적 경고에 폭락 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JeHM0LXpQbUlKY1hkWThIX2t6cFB2QkpGelZLX0lXem9TMVp5WmktOVpWbWVMWDlUOGp3UUQwZTRrdG1QTGEwUXBpZlFXbmdfdURTanpTNVY3aWNa?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 20:26:00 GMT",
+          "source": "뉴스핌"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 16.48,
-    "vvix": 93.51,
+    "vix": 16.5,
+    "vvix": 93.53,
     "skew": 145.69,
-    "move": 77.77
+    "move": 75.03
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 4168199999999,
@@ -36,11 +49,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26116.64,
+      "current": 26107.01,
       "high_52w": 27190.21,
-      "drop_pct": -3.95,
+      "drop_pct": -3.98,
       "intraday_low_drop_pct": -4.7,
-      "sma_200": 23826.25
+      "sma_200": 23826.2
     },
     "kospi": {
       "current": 6806.93,
@@ -57,34 +70,34 @@
       "sma_200": 1004.07
     },
     "sp500": {
-      "current": 7547.03,
+      "current": 7543.59,
       "high_52w": 7620.9,
-      "drop_pct": -0.97,
+      "drop_pct": -1.01,
       "intraday_low_drop_pct": -1.41,
-      "sma_200": 6973.98
+      "sma_200": 6973.96
     },
     "russell2k": {
-      "current": 2962.41,
+      "current": 2964.76,
       "high_52w": 3046.59,
-      "drop_pct": -2.76,
+      "drop_pct": -2.69,
       "intraday_low_drop_pct": -2.91,
-      "sma_200": 2643.93
+      "sma_200": 2643.94
     },
     "soxx": {
-      "current": 568.98,
+      "current": 567.92,
       "high_52w": 655.95,
-      "drop_pct": -13.26,
+      "drop_pct": -13.42,
       "intraday_low_drop_pct": -14.59,
-      "sma_200": 386.59
+      "sma_200": 386.58
     }
   },
   "sector_rs": {
-    "XLK": 1.145,
-    "SMH": 1.224,
-    "BOTZ": 0.903,
-    "IGV": 1.085,
+    "XLK": 1.136,
+    "SMH": 1.231,
+    "BOTZ": 0.908,
+    "IGV": 1.048,
     "XLF": 1.003,
-    "XLE": 0.943
+    "XLE": 0.955
   },
   "signals": {
     "cnn_under_10": false,
@@ -120,19 +133,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 70.96,
+    "tqqq_profit_pct": 70.62,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 231.15,
+    "soxl_profit_pct": 230.21,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 30.26,
+    "koru_profit_pct": 30.88,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -288,7 +301,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 202.07,
+    "strategy_pct": 201.142,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -836,7 +849,7 @@
       },
       {
         "date": "2026-07-15",
-        "ret_pct": 202.07
+        "ret_pct": 201.142
       }
     ],
     "monthly_breakdown": [
@@ -878,8 +891,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -23.68,
-        "end_ret_pct": 202.07,
+        "return_pct": -24.61,
+        "end_ret_pct": 201.14,
         "max_dd_pct": 38.92
       }
     ],
