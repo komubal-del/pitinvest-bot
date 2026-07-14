@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T19:53:52.047389+09:00",
+  "timestamp": "2026-07-14T21:20:16.499281+09:00",
   "sentiment": {
     "cnn_fng": 43.7428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 13,
+      "fear_count": 10,
       "greed_articles": [
         {
           "title": "[오늘의증시] 삼성전자 ADR 기대에 코스피 반등…반도체 쏠림 속 코스닥은 약세 - 경인방송 뉴스",
@@ -26,16 +26,16 @@
       ],
       "fear_articles": [
         {
-          "title": "'삼전닉스' 급등락에 코스피 요동...코스닥은 급락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QN29jblZleWs2XzBhSFlXSThfb1FxR2FMdWxjU3dXVERqd1E5MFlSVW9ra21ubmI3YUJiN0pacGlhN08yendqSzJmTW9VNEVjQ3hYU1R4eTl0bkRBU1E?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 09:14:00 GMT",
-          "source": "YTN"
-        },
-        {
           "title": "코스피 9%폭락에도 개인 '하닉 레버리지' 6천억 순매수…역추세추종 뚜렷 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXU0FkZ2pXMl80STJiLXVNU04yYm5Zb1BLTlZHNUppR0NkNkppbDdseVJIR21mcGk3M1ZvTkJsVnJISmR4NUd4TmdwRW9LNENjQ3I4aDI1NFRSOS0wMzFrcy13c3AyeE1rVlYtRncwbXU?oc=5",
           "pub_date": "Tue, 14 Jul 2026 00:08:00 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "'삼전닉스' 급등락에 코스피 요동...코스닥은 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTMDVXYXFUMmRxSFctM0J4RzJrZUNXN1l4aDJUY3pTZUc2dmp3SnNmbDZtblhBeE9fZE1RVFAxZ09VUXJsdW54QlJNYzhoZWhrU05HekR6WUR2Zzh4RTlXMWNKTmk0bUV2Y3FpQlh2R3JZblZ3TUE?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 09:14:00 GMT",
+          "source": "YTN"
         },
         {
           "title": "'코스피 급락' 삼전닉스 버티기? 전문가 조언은 - YTN",
@@ -59,7 +59,7 @@
     }
   },
   "volatility": {
-    "vix": 17.2,
+    "vix": 17.5,
     "vvix": 95.28,
     "skew": 145.69,
     "move": 69.55
