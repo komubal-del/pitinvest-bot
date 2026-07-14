@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T17:54:35.908418+09:00",
+  "timestamp": "2026-07-14T19:53:52.047389+09:00",
   "sentiment": {
     "cnn_fng": 43.7428571428571,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 1,
       "fear_count": 13,
       "greed_articles": [
         {
@@ -22,15 +22,15 @@
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QRThvY2lVWEtrTExUU2ZXVmJiTmI3ejltZnZSVmN3LWMxQktwWlphQjQyckFQMk40NlJSaWRtX0dOaEhBUmFwaEtMdFpfeVRMemdqSGJMdlVGQVo0TnBDczNzRFnSAWhBVV95cUxQR0hEQmt6Z3hjN25SY2FlYWJrdkFfcEN3SFpJV0Zoa3FRYU4zX0s2QUczUExtMlFpbmRiU0t6cVpXRXFuSktKOXpEdzNuWHdxeE1NOXVZRVd0dmQ1LW83aGpERTI1ZDQzNw?oc=5",
           "pub_date": "Tue, 14 Jul 2026 08:11:03 GMT",
           "source": "경인방송 뉴스"
-        },
-        {
-          "title": "코스피 '빚투' 41%가 삼전·닉스·스퀘어…강제청산 공포 커진다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wM0NSNHo5T21WTzNOVWYzZGJZUkpLU28wdlNHOHY1YkIxZmlZNl9rS0stZkQ0bFVlSFZHR1BhOWZVTnc3M25oLVI3NkctOUU?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 08:49:51 GMT",
-          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
+        {
+          "title": "'삼전닉스' 급등락에 코스피 요동...코스닥은 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QN29jblZleWs2XzBhSFlXSThfb1FxR2FMdWxjU3dXVERqd1E5MFlSVW9ra21ubmI3YUJiN0pacGlhN08yendqSzJmTW9VNEVjQ3hYU1R4eTl0bkRBU1E?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 09:14:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "코스피 9%폭락에도 개인 '하닉 레버리지' 6천억 순매수…역추세추종 뚜렷 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXU0FkZ2pXMl80STJiLXVNU04yYm5Zb1BLTlZHNUppR0NkNkppbDdseVJIR21mcGk3M1ZvTkJsVnJISmR4NUd4TmdwRW9LNENjQ3I4aDI1NFRSOS0wMzFrcy13c3AyeE1rVlYtRncwbXU?oc=5",
@@ -44,35 +44,29 @@
           "source": "YTN"
         },
         {
-          "title": "코스닥 장중 5% 급락에 매도 사이드카 발동 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4R0lwRmk2WDFJdy1heWNCcDlZVFpOdFJJOHQtQWNmYzkwWnlkazVKeVVmLTM5WXpMOFJXLTBHdm5nWEtsNWxEZWVtMFp5YjZhX0tzZVJ3QldkTjTSAWBBVV95cUxPZXVFTFdsY1g1aGl0enhVR2Z2RzN6Q2tpejg3ZE45U0dLUmJlendoSVYwUHNPMW5JNjg2QzNEZFBkNzZjOEtzZzFVX3A2MlBRQlFhV0VzckN0N3pRQ3RFTi0?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 03:16:20 GMT",
-          "source": "연합뉴스"
-        },
-        {
           "title": "코스닥 장중 5% 급락에 매도 사이드카 발동 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wSW5qVzJqSVhWRkVXb1hxTFNiVEZfSzJBNmwtanUwU3ZGYmIwUVJldjVsLUlfYXpDQ1otZXZ3RE5ScU84N3E4QVlRcEloT2I4UExxOVBDeWpqNkZuNDBYdmRvSTZSZjQ?oc=5",
           "pub_date": "Tue, 14 Jul 2026 04:31:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "[속보]코스닥, 5% 급락에 매도사이드카 발동…52주 최저치 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TMHhEajRMbVlSSmcyM3MyaV9FbE54eVJUTVRIaTlxRVBfdGZoN0hQYWo2UVg4S0hULVVBUk82aFJzU2x2ak5RSnVCT2NscEhCT3BON2w2ZHhxZ9IBX0FVX3lxTE82ODhZbVFZX3NYN2ZnbXdadXphdmwwUnZjWkYwZUxndE9vMk1OTm9BOUZCYUVONnlsY25iaGdUM1NEWERJNzIzcjYySUxiZUVFUkF3eG04a0ZNenhqcGdr?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 03:34:00 GMT",
-          "source": "경향신문"
+          "title": "코스닥 장중 5% 급락에 매도 사이드카 발동 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4R0lwRmk2WDFJdy1heWNCcDlZVFpOdFJJOHQtQWNmYzkwWnlkazVKeVVmLTM5WXpMOFJXLTBHdm5nWEtsNWxEZWVtMFp5YjZhX0tzZVJ3QldkTjTSAWBBVV95cUxPZXVFTFdsY1g1aGl0enhVR2Z2RzN6Q2tpejg3ZE45U0dLUmJlendoSVYwUHNPMW5JNjg2QzNEZFBkNzZjOEtzZzFVX3A2MlBRQlFhV0VzckN0N3pRQ3RFTi0?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 03:16:20 GMT",
+          "source": "연합뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.27,
+    "vix": 17.2,
     "vvix": 95.28,
     "skew": 145.69,
     "move": 69.55
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 4168199999999,
-    "retail_net_buy_krw": -4142400000000,
+    "retail_net_buy_krw": -4141100000000,
     "margin_loan_krw": 35034100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -187,16 +181,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.07.14",
+            "close": 263000,
+            "change_pct": 3.34,
+            "retail_net": -4197330,
+            "inst_net": 5326105,
+            "foreign_net": -1128775
+          },
           {
             "date": "2026.07.13",
             "close": 254500,
@@ -228,17 +230,17 @@
             "retail_net": 2044062,
             "inst_net": 971031,
             "foreign_net": -3015093
-          },
-          {
-            "date": "2026.07.07",
-            "close": 296000,
-            "change_pct": -6.92,
-            "retail_net": 7997897,
-            "inst_net": -1852807,
-            "foreign_net": -6145090
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.14",
+            "close": 1913000,
+            "change_pct": 3.69,
+            "retail_net": -1362211,
+            "inst_net": 697670,
+            "foreign_net": 664541
+          },
           {
             "date": "2026.07.13",
             "close": 1845000,
@@ -270,14 +272,6 @@
             "retail_net": 197041,
             "inst_net": -285353,
             "foreign_net": 88312
-          },
-          {
-            "date": "2026.07.07",
-            "close": 2201000,
-            "change_pct": -6.06,
-            "retail_net": 565820,
-            "inst_net": -23811,
-            "foreign_net": -542009
           }
         ]
       }
