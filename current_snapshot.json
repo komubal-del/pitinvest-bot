@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T06:08:46.247544+09:00",
+  "timestamp": "2026-07-15T07:26:55.749179+09:00",
   "sentiment": {
     "cnn_fng": 43.1428571428572,
     "cnn_components": {
@@ -14,15 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 2,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 3,
+      "greed_articles": [
+        {
+          "title": "‘9천피’에서 ‘6천피’로 뚝… 코스피 변동성 확대에 빚투 우려 커져 - 천지일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QOWlyRG93OVBCTnJmVmpRLTBKQjBCV3FLc0FrY29rRVJSRFJVaGxCcnQ4UldrUkNDWDJLTHgtUHZMR2t6MTFHaG9SR2hXSDlkS1hwd19zandaVkx2SmRUQWRiVjZyQ1JlYWc?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 22:00:00 GMT",
+          "source": "천지일보"
+        },
+        {
+          "title": "[아주증시포커스] 코스피 빚투 41%가 삼전·닉스·스퀘어…강제청산 공포 커진다 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iUktwYlNtWXVIaTRUeVlISWhLTzRqRVNVb2RzeWRTOFRPVFVhNmxoTXowY2d1TzRLbXBIRjBLVG85S3prVVZQbnRGOWFQZV8weTF2OU5BcUY3UdIBWEFVX3lxTE53VTk4ajA4ZVhuRW0td1gtblJlcGV2SGVVODVScm5yR2std1RqdzBkZ1FOZHV1WHI2cDktV2VqSlNfUXJ0SGxpRnRNbTlhdUFuVzR6MU9MUUQ?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 22:09:02 GMT",
+          "source": "아주경제"
+        }
+      ],
       "fear_articles": [
         {
           "title": "“코스피 급락, 지금 써먹어라” 월가 극찬한 ‘수익률 2배’ 투자법 - 중앙일보",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NTWZzcVVUTDlqTHlxRXBqZDNFbFVhUVZLQUlYc2tOYXVSaHJodkFyWjNOd21nSkFVWkJxaVBHLWJNZXd3ZDBhQVNvSkd1LU80SE5HUkJB?oc=5",
           "pub_date": "Tue, 14 Jul 2026 20:00:35 GMT",
           "source": "중앙일보"
+        },
+        {
+          "title": "국장 변동성 원인? ‘레버리지 ETF’…폭락에도 거래대금 증가세 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50WlIwNjNtejN6RjgyY0xuWEN0eHQ3LV9hVS1tZ2I4bkFYeUZvQk51Zm1tSWZ6MVlDUEY4N2ppOGk4Sm5NazBSS3VwdkVpR2lLTkE?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 22:01:08 GMT",
+          "source": "매일경제 마켓"
         },
         {
           "title": "뉴욕증시, CPI 둔화·은행 실적 호조에 상승…IBM은 실적 경고에 폭락 - 뉴스핌",
@@ -36,7 +55,7 @@
   "volatility": {
     "vix": 16.5,
     "vvix": 93.53,
-    "skew": 145.69,
+    "skew": 145.13,
     "move": 75.03
   },
   "korea_flow": {
@@ -301,7 +320,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 201.142,
+    "strategy_pct": 201.133,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -849,7 +868,7 @@
       },
       {
         "date": "2026-07-15",
-        "ret_pct": 201.142
+        "ret_pct": 201.133
       }
     ],
     "monthly_breakdown": [
@@ -891,8 +910,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -24.61,
-        "end_ret_pct": 201.14,
+        "return_pct": -24.62,
+        "end_ret_pct": 201.13,
         "max_dd_pct": 38.92
       }
     ],
