@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T08:35:39.453024+09:00",
+  "timestamp": "2026-07-14T10:04:05.932996+09:00",
   "sentiment": {
     "cnn_fng": 43.6857142857143,
     "cnn_components": {
@@ -14,28 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 14,
+      "greed_count": 1,
+      "fear_count": 16,
       "greed_articles": [
         {
           "title": "7000선 무너진 코스피에 개미들 '패닉'…과열론 놓고 갑론을박 [1분 브리프] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11NlZidmRRelhTRmE0NGhFdVBqWUxONHFVYVltcWdCUlBLVXdDS01JaTFLaS1rWURMU1lTaDI5cDY4NVh3WFFlb3FUWjJHYW5WTEh6TTlHLTBYUmxPa2FxQjU5bzhCZ0s3bEZkcTNBVjNOYkpvQkhF?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zcGZEZDFfX2JJS3BFVnBfNVlIOFlNdDY1RURxbEFaQm5OcGNmZk1EOTA0dW5NQktLaWRsX1BKRTJJSVdUVmZuWmZScjNEdmszUlF0SHpjMjVzcjAyX2diOA?oc=5",
           "pub_date": "Mon, 13 Jul 2026 23:00:00 GMT",
           "source": "아시아경제"
-        },
-        {
-          "title": "﻿美는 오르는데 코스피만 20% 폭락…'여름 비수기'보다 무서운 반도체 쏠림 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zUExwdnBMblR3VG1VTzlJaGFVR0pIeDRmVnMzVDY5aVltVEhyY3NJRnllWGEybEtLQ25Fd3RiU3puWWptbnctVU1YTzFXZUhJVHNrSEc3NnoxRHJGOEhEdjQ4TVJ2M2pK?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 21:16:02 GMT",
-          "source": "ebn.co.kr"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스피, 전날 급락 이어 오늘도 2%대 하락…6700선도 내줘 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfeFlXUEtlZ0dzRTdiNjdKejR5bWE0Nnl4cEZmQjg5MWViLXFIWjhBMHBpQ2t2WFhneGVEV0FQUTUwR3FlN0gzUlg3N1EzVzc2dW1SZQ?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 00:06:00 GMT",
+          "source": "JTBC"
+        },
         {
           "title": "국제유가 폭등·반도체주 급락...코스피 하락세 이어질까 [굿모닝경제] - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56SHpOTk5qVk9Kdy16U3YycDRVdXRWdDRYMm5MLXVIYk9xQjdwaDZOVG1wb3h2ZkVCajQydklIcjJhVy1hc3V6US0xUl9VUVVpY0NRZFR6cG5ONjg5RkE?oc=5",
           "pub_date": "Mon, 13 Jul 2026 23:00:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "\"이유없이 급락한 SK하이닉스…美, 고레버리지 韓증시에 물려\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45ak90all2Wk1qcFVaMXNNeUkzTFZLSUhGNUwybl8zWHdMZHg0dXdnYktidDNxRWFZeU9ITTNVVnRWX0tjR0E5TjNGNWU3Vk51WU5XNWZFYkUwVzFraTdxdzR3MnRVVnlmd2FhNW1uT291UQ?oc=5",
+          "pub_date": "Mon, 13 Jul 2026 23:56:47 GMT",
+          "source": "KB Think"
         },
         {
           "title": "코스피 급락할 때, ‘중국 ETF’ 조용히 올랐다…‘D램 4위’ CXMT 상장 앞두고 기대감 폭발 - 경향신문",
@@ -44,22 +50,10 @@
           "source": "경향신문"
         },
         {
-          "title": "[마켓뷰] '6천피'로 급락한 코스피, 중동 악재속 반등 주목 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEU0RaYm5ZbUM2LUlGeG9CaDQtcW13YmVYZHVLclJ2UkFneFpJQk96T3lRX21DSVEyUmYtOHJpLV9NVGQ0Z2t5cnhGWW1fUS0xb2NUVFFhM2x3MzjSAWBBVV95cUxQdG51VnJzRjdWeFN6RmxzZjR1ZF8zdlYyOUkxMjhKb21Gc25lcFEzYlc4eFlLT3JvTWZaLWwtb0VpaElJdGV3ZDZfZWFtSUdsYkpNT0RjSV8zLWkwcXFYTDQ?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 23:06:20 GMT",
-          "source": "연합뉴스"
-        },
-        {
           "title": "'코스피 급락' 삼전닉스 버티기? 전문가 조언은 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1MXRuaFFLYU15eXQ0V0xoQ18yc3R0MzNvNHRuS2wwaVVScFl4aEdpUGozT1hjcTAtN0NIMzlkLXBDbFpRNllBRTd5Rk1uOU1fa2FHQnFXNFZfaWRXdEE?oc=5",
           "pub_date": "Mon, 13 Jul 2026 22:36:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "[굿모닝 마켓] 뉴욕증시, 이란·반도체 양대 악재에 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jbXVSc05JcUJGZFdkMFNwLTBnblVXOXZLNHh5aHhTYVZ0bkF5VW56ZnpOM0puMzJFc0lMWDVXY1poY0hzVzhLVWVQWC1uYjg?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 23:12:03 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
@@ -71,8 +65,8 @@
     "move": 77.77
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3904300000000,
-    "retail_net_buy_krw": 3886900000000,
+    "foreign_inst_buy_krw": 1814300000000,
+    "retail_net_buy_krw": -1785400000000,
     "margin_loan_krw": 35034100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +81,18 @@
       "sma_200": 23808.15
     },
     "kospi": {
-      "current": 7475.94,
+      "current": 6740.75,
       "high_52w": 9385.59,
-      "drop_pct": -20.35,
-      "intraday_low_drop_pct": -20.84,
-      "sma_200": 5513.81
+      "drop_pct": -28.18,
+      "intraday_low_drop_pct": -29.52,
+      "sma_200": 5530.54
     },
     "kosdaq": {
-      "current": 837.43,
+      "current": 778.47,
       "high_52w": 1229.42,
-      "drop_pct": -31.88,
-      "intraday_low_drop_pct": -34.9,
-      "sma_200": 1004.31
+      "drop_pct": -36.68,
+      "intraday_low_drop_pct": -36.73,
+      "sma_200": 1003.96
     },
     "sp500": {
       "current": 7515.34,
@@ -285,7 +279,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-07-13",
