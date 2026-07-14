@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-13",
-  "analyzed_at": "2026-07-13T09:03:15.681743+09:00",
+  "date": "2026-07-14",
+  "analyzed_at": "2026-07-14T13:11:38.651713+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "YgFiWUcVlp4",
-      "title": "SK하이닉스 ADR 오늘밤 상장! 반도체 반등의 진짜 분수령 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-07-10T00:52:39Z",
-      "url": "https://youtube.com/watch?v=YgFiWUcVlp4",
+      "video_id": "cgAYeXmICfk",
+      "title": "ETF 규제가 만든 폭락? 지금 꼭 확인해야 할 변수 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-07-14T00:16:24Z",
+      "url": "https://youtube.com/watch?v=cgAYeXmICfk",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
-        "stance": "bullish",
-        "reason": "제목에서 '반도체 반등의 진짜 분수령'이라는 표현을 사용하여 반도체 섹터의 긍정적인 전환 가능성을 강조하고 있으며, 이는 '반등 강조'라는 bullish 기준에 부합합니다."
+        "stance": "neutral",
+        "reason": "영상 제목이 ETF 규제가 만든 폭락 가능성과 확인해야 할 변수를 제시하며 중립적인 시장 분석을 예고하고 있을 뿐, 구체적인 매수/매도/현금화 등의 행동 권고가 없습니다."
       }
     },
     {
@@ -30,7 +30,9 @@
       "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 영상 설명란은 삼성전자 및 SK하이닉스의 미래에 대한 토론을 암시할 뿐, 실제 내용은 주식 교육 과정 및 전문가 소개 광고로 이루어져 있어 특정 투자 행동을 권고하는 발언이 전혀 없습니다."
+        "reason": "키워드 스캔 · warning 0 / bullish 0",
+        "fallback": true,
+        "error": "gemini_429"
       }
     }
   ],

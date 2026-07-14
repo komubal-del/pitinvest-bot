@@ -1,59 +1,52 @@
 {
-  "timestamp": "2026-07-14T10:04:05.932996+09:00",
+  "timestamp": "2026-07-14T13:11:33.946358+09:00",
   "sentiment": {
-    "cnn_fng": 43.6857142857143,
+    "cnn_fng": 43.7142857142857,
     "cnn_components": {
       "momentum": 46.6,
       "strength": 37.4,
       "breadth": 28.4,
       "put_call": 43.4,
-      "junk_bond": 44.4,
+      "junk_bond": 44.6,
       "volatility": 50.0,
       "safe_haven": 55.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 16,
-      "greed_articles": [
-        {
-          "title": "7000선 무너진 코스피에 개미들 '패닉'…과열론 놓고 갑론을박 [1분 브리프] - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zcGZEZDFfX2JJS3BFVnBfNVlIOFlNdDY1RURxbEFaQm5OcGNmZk1EOTA0dW5NQktLaWRsX1BKRTJJSVdUVmZuWmZScjNEdmszUlF0SHpjMjVzcjAyX2diOA?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 23:00:00 GMT",
-          "source": "아시아경제"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 29,
+      "greed_articles": [],
       "fear_articles": [
-        {
-          "title": "코스피, 전날 급락 이어 오늘도 2%대 하락…6700선도 내줘 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfeFlXUEtlZ0dzRTdiNjdKejR5bWE0Nnl4cEZmQjg5MWViLXFIWjhBMHBpQ2t2WFhneGVEV0FQUTUwR3FlN0gzUlg3N1EzVzc2dW1SZQ?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 00:06:00 GMT",
-          "source": "JTBC"
-        },
-        {
-          "title": "국제유가 폭등·반도체주 급락...코스피 하락세 이어질까 [굿모닝경제] - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56SHpOTk5qVk9Kdy16U3YycDRVdXRWdDRYMm5MLXVIYk9xQjdwaDZOVG1wb3h2ZkVCajQydklIcjJhVy1hc3V6US0xUl9VUVVpY0NRZFR6cG5ONjg5RkE?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 23:00:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "\"이유없이 급락한 SK하이닉스…美, 고레버리지 韓증시에 물려\" - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45ak90all2Wk1qcFVaMXNNeUkzTFZLSUhGNUwybl8zWHdMZHg0dXdnYktidDNxRWFZeU9ITTNVVnRWX0tjR0E5TjNGNWU3Vk51WU5XNWZFYkUwVzFraTdxdzR3MnRVVnlmd2FhNW1uT291UQ?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 23:56:47 GMT",
-          "source": "KB Think"
-        },
-        {
-          "title": "코스피 급락할 때, ‘중국 ETF’ 조용히 올랐다…‘D램 4위’ CXMT 상장 앞두고 기대감 폭발 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KcUhabHVkOHVPNUpJYWkxQW12UUVXLUIxck0xS3JGcGdvWmdUSFQxbDZBbzJCckpfeTZRX0w2eFhnUWVSZ1RtcDdGekx2YUp0T1A5V0Flc3kzUdIBX0FVX3lxTE5BUmdSdkRfTkt5MWg4SjBubjBSeElMdDBYUm9SRWpvbmtPcHJyMkhBd09WTm9CdWpXTHlSVDlBcEEwMGdORlpoM0R3UlF3S1MyVzE5V3pTTkZWSDhsdmVn?oc=5",
-          "pub_date": "Mon, 13 Jul 2026 21:00:00 GMT",
-          "source": "경향신문"
-        },
         {
           "title": "'코스피 급락' 삼전닉스 버티기? 전문가 조언은 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1MXRuaFFLYU15eXQ0V0xoQ18yc3R0MzNvNHRuS2wwaVVScFl4aEdpUGozT1hjcTAtN0NIMzlkLXBDbFpRNllBRTd5Rk1uOU1fa2FHQnFXNFZfaWRXdEE?oc=5",
           "pub_date": "Mon, 13 Jul 2026 22:36:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "[속보] 급락장에 코스닥 매도 사이드카 발동 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45N3U3ZVhrWTR1aXdPNmlzVTgxY1U0RUx0TTd4eHBjVnE5ZEdSYVAybDFqTDllSUMzRXYxakJfLWtFNHhLYXlubGV5NmpwR2lWN0k4NU1yclNkd1J6YnIzOHpyUUFpckU?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 03:16:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스닥 장중 5% 급락에 매도 사이드카 발동 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4R0lwRmk2WDFJdy1heWNCcDlZVFpOdFJJOHQtQWNmYzkwWnlkazVKeVVmLTM5WXpMOFJXLTBHdm5nWEtsNWxEZWVtMFp5YjZhX0tzZVJ3QldkTjTSAWBBVV95cUxPZXVFTFdsY1g1aGl0enhVR2Z2RzN6Q2tpejg3ZE45U0dLUmJlendoSVYwUHNPMW5JNjg2QzNEZFBkNzZjOEtzZzFVX3A2MlBRQlFhV0VzckN0N3pRQ3RFTi0?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 03:16:20 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "급락장에 코스닥 매도 사이드카 발동…코스피도 장중 4%대 급락 - 주간조선",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jRHFiWF9WVWw0eV9jVFA3N1JZemdsazd4WFJybC1YWDFpTUl1RGRkM0l5ZFlzWUdKclVIUXVVeEU2aWJDM0ZZUXZvSU1vTTdGRkIxSk5KS2t1eUROWVNuTzRBNHhabnhfbDBj0gFuQVVfeXFMUE8xZXM0NTl2aWlJZ2d1cXhPUWpmMEkwR2NZUTQ1TFVoZHJKMWFYcmJodkVZcEJmYTNsM2tlczJnV3NCZHBXSkVLTHQzVXZyd2d1dmZhOHRmMEwwbzlmRXBlU2ttWnFVQ0UyUlF3V1E?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 03:49:50 GMT",
+          "source": "주간조선"
+        },
+        {
+          "title": "[속보]코스닥, 5% 급락에 매도사이드카 발동…52주 최저치 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TMHhEajRMbVlSSmcyM3MyaV9FbE54eVJUTVRIaTlxRVBfdGZoN0hQYWo2UVg4S0hULVVBUk82aFJzU2x2ak5RSnVCT2NscEhCT3BON2w2ZHhxZ9IBX0FVX3lxTE82ODhZbVFZX3NYN2ZnbXdadXphdmwwUnZjWkYwZUxndE9vMk1OTm9BOUZCYUVONnlsY25iaGdUM1NEWERJNzIzcjYySUxiZUVFUkF3eG04a0ZNenhqcGdr?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 03:34:00 GMT",
+          "source": "경향신문"
         }
       ]
     }
@@ -62,11 +55,11 @@
     "vix": 17.16,
     "vvix": 95.28,
     "skew": 145.69,
-    "move": 77.77
+    "move": 69.55
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1814300000000,
-    "retail_net_buy_krw": -1785400000000,
+    "foreign_inst_buy_krw": 3042200000000,
+    "retail_net_buy_krw": -3027200000000,
     "margin_loan_krw": 35034100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +74,18 @@
       "sma_200": 23808.15
     },
     "kospi": {
-      "current": 6740.75,
+      "current": 6662.93,
       "high_52w": 9385.59,
-      "drop_pct": -28.18,
-      "intraday_low_drop_pct": -29.52,
-      "sma_200": 5530.54
+      "drop_pct": -29.01,
+      "intraday_low_drop_pct": -31.29,
+      "sma_200": 5547.15
     },
     "kosdaq": {
-      "current": 778.47,
+      "current": 763.41,
       "high_52w": 1229.42,
-      "drop_pct": -36.68,
-      "intraday_low_drop_pct": -36.73,
-      "sma_200": 1003.96
+      "drop_pct": -37.9,
+      "intraday_low_drop_pct": -39.02,
+      "sma_200": 1003.62
     },
     "sp500": {
       "current": 7515.34,
@@ -282,8 +275,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-13",
-    "analyzed_at": "2026-07-13T09:03:15.681743+09:00",
+    "date": "2026-07-14",
+    "analyzed_at": "2026-07-14T13:11:38.651713+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -291,16 +284,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "YgFiWUcVlp4",
-        "title": "SK하이닉스 ADR 오늘밤 상장! 반도체 반등의 진짜 분수령 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-10T00:52:39Z",
-        "url": "https://youtube.com/watch?v=YgFiWUcVlp4",
+        "video_id": "cgAYeXmICfk",
+        "title": "ETF 규제가 만든 폭락? 지금 꼭 확인해야 할 변수 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-14T00:16:24Z",
+        "url": "https://youtube.com/watch?v=cgAYeXmICfk",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "제목에서 '반도체 반등의 진짜 분수령'이라는 표현을 사용하여 반도체 섹터의 긍정적인 전환 가능성을 강조하고 있으며, 이는 '반등 강조'라는 bullish 기준에 부합합니다."
+          "stance": "neutral",
+          "reason": "영상 제목이 ETF 규제가 만든 폭락 가능성과 확인해야 할 변수를 제시하며 중립적인 시장 분석을 예고하고 있을 뿐, 구체적인 매수/매도/현금화 등의 행동 권고가 없습니다."
         }
       },
       {
@@ -313,7 +306,9 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란은 삼성전자 및 SK하이닉스의 미래에 대한 토론을 암시할 뿐, 실제 내용은 주식 교육 과정 및 전문가 소개 광고로 이루어져 있어 특정 투자 행동을 권고하는 발언이 전혀 없습니다."
+          "reason": "키워드 스캔 · warning 0 / bullish 0",
+          "fallback": true,
+          "error": "gemini_429"
         }
       }
     ],
