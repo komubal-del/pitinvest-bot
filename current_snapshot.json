@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T17:29:51.418303+09:00",
+  "timestamp": "2026-07-15T19:28:39.833707+09:00",
   "sentiment": {
     "cnn_fng": 43.7714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "[0715마감체크] 美 물가 우려 완화 속 저가 매수세 유입…코스피·코스닥 급등 By 인포스탁데일리 - Investing.com 한국어",
@@ -24,29 +24,36 @@
           "source": "Investing.com 한국어"
         },
         {
-          "title": "저가 매수세 유입에 코스피 7280대로 美인플레 우려 완화…삼성전자 6%↑ - 중소기업신문",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yTk5Uc2d0dG5GdU9PVUFZS2ZTeWJhU0JZX3JiNWFablJ2MTV6YWRzOWl6QkIxUmM3MmpVcmYwS2QyVVFlbHBiNWJRbllMZFdJTkNwNTF0SUM3OUItcUVNWFRpWEQzaGM0c2NmY19R?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 06:55:39 GMT",
-          "source": "중소기업신문"
-        },
-        {
           "title": "코스피, 반도체주 반등·저가 매수세 유입에 '7200선 '탈환'…코스닥 5.80%↑ - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkeUhRY0VfVld6dTRWSWZEMFVXdlpIWHBaWVYzQkw4Ty1hUlNSV2RWNm5YeWF4bDVIdXkyTUsxSE5lajEzVUFSVWo5dGlWN3JrMGVaQ0QwVHQ1Zy1YcnpxRlJ0VTczeWFXLUd2Q3k3R01KQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fWWtVVVhMS1J6WURweEphT2lPejVMaWpmRG9aT2FzMjJSY1puLTBiNk5qN3JTY3JkdnpQTTdpSkhCdjVaRGRTX0xWODJMb3QybnJGWDJDZEgta3lQSGFxNW94bno5ekVCTmJWQg?oc=5",
           "pub_date": "Wed, 15 Jul 2026 07:17:34 GMT",
           "source": "프라임경제"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "'패닉장' 딛고 반등한 코스피…외국인 귀환에 7200선 마감 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTX1N3aTMzSUQwMjFGa1pFVlhrQldvOGVPbjcxbmlqZEc4bmJWVHpXU01PSUJaUXhFNWg3VjRuaWdIcGtMODFxSGlTM3RmM2N6TmJfNTVKcEh1ei1vbnZSMjdrVmc4TnE2UldfdTM2S0FZdw?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 08:44:50 GMT",
+          "source": "인더스트리뉴스"
+        },
+        {
+          "title": "[뉴욕증시 전략] 美 6월 CPI 예상 하회…7월 인상 확률 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yOGNvME9jbmNTVjUwdVg4Q1N4WFk5UGt4UVl1bnJtS0FFb2xTOWZabXBjbnByOUhxZWF3c3Z5UGc3WE4zc1AtNE9uVkw5VEU?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 07:46:29 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 16.33,
+    "vix": 16.29,
     "vvix": 93.53,
     "skew": 145.69,
     "move": 69.55
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2503800000000,
+    "foreign_inst_buy_krw": 2502300000000,
     "retail_net_buy_krw": -2466600000000,
     "margin_loan_krw": 34266900000000,
     "news_count": 0,
@@ -173,6 +180,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.07.15",
+            "close": 279500,
+            "change_pct": 6.27,
+            "retail_net": -1386312,
+            "inst_net": -413531,
+            "foreign_net": 1799843
+          },
+          {
             "date": "2026.07.14",
             "close": 263000,
             "change_pct": 3.34,
@@ -203,17 +218,17 @@
             "retail_net": -1953313,
             "inst_net": 1107761,
             "foreign_net": 845552
-          },
-          {
-            "date": "2026.07.08",
-            "close": 277500,
-            "change_pct": -6.25,
-            "retail_net": 2044062,
-            "inst_net": 971031,
-            "foreign_net": -3015093
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.15",
+            "close": 2082000,
+            "change_pct": 8.83,
+            "retail_net": -597075,
+            "inst_net": 265930,
+            "foreign_net": 331145
+          },
           {
             "date": "2026.07.14",
             "close": 1913000,
@@ -245,14 +260,6 @@
             "retail_net": -194880,
             "inst_net": 404365,
             "foreign_net": -209485
-          },
-          {
-            "date": "2026.07.08",
-            "close": 2076000,
-            "change_pct": -5.68,
-            "retail_net": 197041,
-            "inst_net": -285353,
-            "foreign_net": 88312
           }
         ]
       }
