@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T08:23:59.027769+09:00",
+  "timestamp": "2026-07-15T09:11:16.601894+09:00",
   "sentiment": {
     "cnn_fng": 43.1428571428572,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 4,
       "fear_count": 3,
       "greed_articles": [
+        {
+          "title": "[어제장 오늘장] 코스피 널뛰기 장세에 투자자들 피로감↑…반도체 쏠림이 키운 변동성 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rYUZuNkhPRnYzcUpjakkxX1RMT2NzYjVvM3E2dlZYeFdVN2l3ZHZpdXJjaHMzbER6VnpBVElNUV9zN0cxRXl4Q2FIQ01YS1k?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 23:37:08 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "크레이머 \"AI 증시 과열 우려 과도…닷컴버블과는 거리 멀어\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jY3RmVGtLTzEwQ2NISVJNcEFtYzA2cWQ1ZFNJTHBUd0tDNVBndDF4QVBodElvX2NVUTZtdFQzRFVUWU5NTEo5WV92VTlkQXJZTFFYbGlCRTZqX3Nra2JsbWpIQXZvQVY3VGRjYTlXeDU?oc=5",
@@ -24,16 +30,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "[아주증시포커스] 코스피 빚투 41%가 삼전·닉스·스퀘어…강제청산 공포 커진다 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iUktwYlNtWXVIaTRUeVlISWhLTzRqRVNVb2RzeWRTOFRPVFVhNmxoTXowY2d1TzRLbXBIRjBLVG85S3prVVZQbnRGOWFQZV8weTF2OU5BcUY3UdIBWEFVX3lxTE53VTk4ajA4ZVhuRW0td1gtblJlcGV2SGVVODVScm5yR2std1RqdzBkZ1FOZHV1WHI2cDktV2VqSlNfUXJ0SGxpRnRNbTlhdUFuVzR6MU9MUUQ?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 22:09:02 GMT",
-          "source": "아주경제"
-        },
-        {
           "title": "‘9천피’에서 ‘6천피’로 뚝… 코스피 변동성 확대에 빚투 우려 커져 - 천지일보",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QOWlyRG93OVBCTnJmVmpRLTBKQjBCV3FLc0FrY29rRVJSRFJVaGxCcnQ4UldrUkNDWDJLTHgtUHZMR2t6MTFHaG9SR2hXSDlkS1hwd19zandaVkx2SmRUQWRiVjZyQ1JlYWc?oc=5",
           "pub_date": "Tue, 14 Jul 2026 22:00:00 GMT",
           "source": "천지일보"
+        },
+        {
+          "title": "[아주증시포커스] 코스피 빚투 41%가 삼전·닉스·스퀘어…강제청산 공포 커진다 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iUktwYlNtWXVIaTRUeVlISWhLTzRqRVNVb2RzeWRTOFRPVFVhNmxoTXowY2d1TzRLbXBIRjBLVG85S3prVVZQbnRGOWFQZV8weTF2OU5BcUY3UdIBWEFVX3lxTE53VTk4ajA4ZVhuRW0td1gtblJlcGV2SGVVODVScm5yR2std1RqdzBkZ1FOZHV1WHI2cDktV2VqSlNfUXJ0SGxpRnRNbTlhdUFuVzR6MU9MUUQ?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 22:09:02 GMT",
+          "source": "아주경제"
         }
       ],
       "fear_articles": [
@@ -44,10 +50,10 @@
           "source": "중앙일보"
         },
         {
-          "title": "국장 변동성 원인? ‘레버리지 ETF’…폭락에도 거래대금 증가세 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50WlIwNjNtejN6RjgyY0xuWEN0eHQ3LV9hVS1tZ2I4bkFYeUZvQk51Zm1tSWZ6MVlDUEY4N2ppOGk4Sm5NazBSS3VwdkVpR2lLTkE?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 22:01:08 GMT",
-          "source": "매일경제 마켓"
+          "title": "국장 변동성 원인? ‘레버리지 ETF’…폭락에도 거래대금 증가세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kY1JTUkpRbXBCSFZudkd6UmxlQ195UEs1OHpFSy1lcmxyUVFucGZfYVFWZWRuUGJubWlQMVk4NlRIRkdDS0o0RnhrX1RzcDQ?oc=5",
+          "pub_date": "Tue, 14 Jul 2026 22:03:04 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "뉴욕증시, CPI 둔화·은행 실적 호조에 상승…IBM은 실적 경고에 폭락 - 뉴스핌",
@@ -65,8 +71,8 @@
     "move": 75.03
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 4168199999999,
-    "retail_net_buy_krw": -4141100000000,
+    "foreign_inst_buy_krw": 329700000000,
+    "retail_net_buy_krw": -328400000000,
     "margin_loan_krw": 34266900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -282,8 +288,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-14",
-    "analyzed_at": "2026-07-14T13:11:38.651713+09:00",
+    "date": "2026-07-15",
+    "analyzed_at": "2026-07-15T09:11:21.334228+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -300,28 +306,27 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 ETF 규제가 만든 폭락 가능성과 확인해야 할 변수를 제시하며 중립적인 시장 분석을 예고하고 있을 뿐, 구체적인 매수/매도/현금화 등의 행동 권고가 없습니다."
+          "reason": "영상 설명란에는 구체적인 매수/매도/현금화 등의 행동 권고가 없으며, 제목은 시장의 특정 변수와 폭락 가능성에 대한 분석적인 질문을 던질 뿐 특정 방향성을 제시하지 않습니다. 나머지 내용은 채널 홍보 및 상품 광고입니다."
         }
       },
       {
-        "video_id": "4X8L1jVUY0w",
-        "title": "“제가 본 삼전, 하이닉스의 미래는요&quot; 5파전 결과는?ㅣ이선엽 윤지호 이권희 박병창 김프로 [심야 투자 회담 2부]",
-        "published": "2026-06-14T02:00:01Z",
-        "url": "https://youtube.com/watch?v=4X8L1jVUY0w",
+        "video_id": "ZLrkNUU62Hs",
+        "title": "역대급 변동성 장세 속, 삼성전자·SK하이닉스 보는 이유 (윤지호) | 저녁7시 인포맥스라이브",
+        "published": "2026-06-12T08:00:12Z",
+        "url": "https://youtube.com/watch?v=ZLrkNUU62Hs",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "키워드 스캔 · warning 0 / bullish 0",
-          "fallback": true,
-          "error": "gemini_429"
+          "reason": "제목이 '역대급 변동성 장세'라는 시장 상황을 언급하며 '삼성전자·SK하이닉스 보는 이유'를 설명하는 분석적인 내용일 뿐, 매수나 매도를 권유하는 구체적인 행동 지침이 없습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral"
+      "박병창": "neutral",
+      "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
