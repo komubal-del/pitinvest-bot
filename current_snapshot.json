@@ -1,33 +1,27 @@
 {
-  "timestamp": "2026-07-15T21:06:07.204607+09:00",
+  "timestamp": "2026-07-15T23:04:41.663321+09:00",
   "sentiment": {
-    "cnn_fng": 43.7714285714286,
+    "cnn_fng": 49.0571428571429,
     "cnn_components": {
-      "momentum": 50.0,
-      "strength": 38.8,
-      "breadth": 32.2,
-      "put_call": 46.0,
-      "junk_bond": 46.8,
+      "momentum": 52.0,
+      "strength": 38.0,
+      "breadth": 32.8,
+      "put_call": 62.8,
+      "junk_bond": 49.2,
       "volatility": 50.0,
-      "safe_haven": 42.6
+      "safe_haven": 52.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 1,
       "fear_count": 1,
       "greed_articles": [
         {
-          "title": "[0715마감체크] 美 물가 우려 완화 속 저가 매수세 유입…코스피·코스닥 급등 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zSDlhNE4xTms5OFhFc3ZERTUyWmU4YjNLUXY5dzIzMDJEWGk2RUdfR0xrMlhUMkFnZjlfTDAxYVJHUWxVY2U2aTZVYkdwNmVNclN1Ml9PUEVlOVN1V0thV3VGMVNqSHRlN3VORTlzS2Q?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 08:20:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피, 반도체주 반등·저가 매수세 유입에 '7200선 '탈환'…코스닥 5.80%↑ - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fWWtVVVhMS1J6WURweEphT2lPejVMaWpmRG9aT2FzMjJSY1puLTBiNk5qN3JTY3JkdnpQTTdpSkhCdjVaRGRTX0xWODJMb3QybnJGWDJDZEgta3lQSGFxNW94bno5ekVCTmJWQg?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 07:17:34 GMT",
-          "source": "프라임경제"
+          "title": "[0715마감체크] 美 물가 우려 완화 속 저가 매수세 유입…코스피·코스닥 급등 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CVV9odlBtck8zbGNteDJhV1dtb3B5TzlQRnhESHVxWV83X0NUM0QzOGZpa19JRGhFdmNEbU52UWNGTl9xLUlmZ0RBek9WXzBueGlGbkxRS2pDU2ItalBkV0tiQTBHYS04alhHQVpWbkNGaUFKS0E?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 08:09:05 GMT",
+          "source": "인포스탁데일리"
         }
       ],
       "fear_articles": [
@@ -41,8 +35,8 @@
     }
   },
   "volatility": {
-    "vix": 16.33,
-    "vvix": 93.53,
+    "vix": 16.29,
+    "vvix": 94.2,
     "skew": 145.69,
     "move": 69.55
   },
@@ -56,11 +50,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25873.18,
+      "current": 26276.84,
       "high_52w": 27190.21,
-      "drop_pct": -4.84,
-      "intraday_low_drop_pct": -5.03,
-      "sma_200": 23808.15
+      "drop_pct": -3.36,
+      "intraday_low_drop_pct": -3.72,
+      "sma_200": 23827.05
     },
     "kospi": {
       "current": 7284.41,
@@ -77,34 +71,34 @@
       "sma_200": 1003.61
     },
     "sp500": {
-      "current": 7515.34,
+      "current": 7574.31,
       "high_52w": 7620.9,
-      "drop_pct": -1.39,
-      "intraday_low_drop_pct": -1.5,
-      "sma_200": 6969.43
+      "drop_pct": -0.61,
+      "intraday_low_drop_pct": -0.83,
+      "sma_200": 6974.11
     },
     "russell2k": {
-      "current": 2953.17,
+      "current": 2967.9,
       "high_52w": 3046.59,
-      "drop_pct": -3.07,
-      "intraday_low_drop_pct": -3.26,
-      "sma_200": 2641.29
+      "drop_pct": -2.58,
+      "intraday_low_drop_pct": -2.61,
+      "sma_200": 2643.96
     },
     "soxx": {
-      "current": 553.61,
+      "current": 564.26,
       "high_52w": 655.95,
-      "drop_pct": -15.6,
-      "intraday_low_drop_pct": -16.11,
-      "sma_200": 385.09
+      "drop_pct": -13.98,
+      "intraday_low_drop_pct": -14.29,
+      "sma_200": 386.57
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.13,
+    "SMH": 1.218,
+    "BOTZ": 0.914,
+    "IGV": 1.058,
+    "XLF": 1.004,
+    "XLE": 0.946
   },
   "signals": {
     "cnn_under_10": false,
@@ -121,7 +115,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -140,19 +134,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 71.67,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 224.39,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": 30.88,
+    "koru_profit_pct": -93.74,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
