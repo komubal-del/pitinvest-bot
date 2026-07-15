@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T07:40:06.539762+09:00",
+  "timestamp": "2026-07-16T08:41:00.336507+09:00",
   "sentiment": {
     "cnn_fng": 46.2857142857143,
     "cnn_components": {
@@ -15,17 +15,17 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 3,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "코인보다 변동성 커진 코스피, ‘단타’ 늘고 레버리지 광풍…쏠리는 개미들 - 한겨레",
+          "title": "단타와 빚투가 키운 변동성, 레버리지가 증폭…코인보다 더한 코스피 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HVDQ0emZGanVScnRwN0h3dnVEZWxaRlFBWF9MS0pYajBWeFBjT1ZPX3o2b1BXWUdIdXlpTXNNRGhGSHRNWWVJSVNGd2NUbG56THI3VE9QMzRRUG15UkR2SWR5Q0g1SnpPYUlJd0JnRVYxUQ?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 20:00:00 GMT",
+          "pub_date": "Wed, 15 Jul 2026 21:57:00 GMT",
           "source": "한겨레"
         },
         {
           "title": "‘빚투’ 줄고 외국인 돌아온 증시, 꼬였던 수급 풀리나 [코주부] - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yWjBFdXo5dmhuMzVlc2s0YVRqTzlJOFIyVmxQdG5ZRzVrX1o1RzYwajZOYnFjb1RSM1lnX3VFSk96TzJWRGNZaGlWRmZkdWd3MVHSAVNBVV95cUxPbkJlLWJvQkJSbXhZcV9Vb25PU3dwQmhWTGhIc1lkZGY0V3FCZHl0QW5TNEJlSTVFN0ZsMjF2YWU1VjlFVF8teGhfbW5HdGpaeHFJaw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uQmUtYm9CQlJteFlxX1Vvbk9Td3BCaFZMaEhzWWRkZjRXcUJkeXRBblM0QmVJNUU3RmwyMXZhZTVWOUVUXy14aF9tbkd0alp4cUlr0gFTQVVfeXFMT25CZS1ib0JCUm14WXFfVW9uT1N3cEJoVkxoSHNZZGRmNFdxQmR5dEFuUzRCZUk1RTdGbDIxdmFlNVY5RVRfLXhoX21uR3RqWnhxSWs?oc=5",
           "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
           "source": "서울경제"
         }
@@ -36,12 +36,6 @@
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94QVloaEJ4aWtUYlJ4eEZ3cndRWDE1UjB6TEJDejhHUFZDR1EyMlVseTVEUVR4SlAzZnJVV1VEMjBobDZhc25vTnZlZTZ6Q29JYkxSVzFXV1pSS3FNb3c?oc=5",
           "pub_date": "Wed, 15 Jul 2026 22:12:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "[뉴욕증시] 빅테크 강세에 이틀 연속 상승…반도체는 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UU0VXUWVsRG9wYnFRQ0xQMFFKY0hZWVBlM2pFcGJMSUtkcnZjb3B1dnRCSmZoUVN5bzJ1cWFXOHZIZnBHSFExazl3WmVxbm8?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 20:26:11 GMT",
-          "source": "v.daum.net"
         },
         {
           "title": "[뉴욕증시] 인플레 둔화 조짐에 나스닥 162p↑...마이크론 7.71% 급락 - 글로벌이코노믹",
