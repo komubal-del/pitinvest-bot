@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T06:38:47.061665+09:00",
+  "timestamp": "2026-07-16T07:40:06.539762+09:00",
   "sentiment": {
     "cnn_fng": 46.2857142857143,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 2,
       "fear_count": 3,
       "greed_articles": [
         {
@@ -28,19 +28,13 @@
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yWjBFdXo5dmhuMzVlc2s0YVRqTzlJOFIyVmxQdG5ZRzVrX1o1RzYwajZOYnFjb1RSM1lnX3VFSk96TzJWRGNZaGlWRmZkdWd3MVHSAVNBVV95cUxPbkJlLWJvQkJSbXhZcV9Vb25PU3dwQmhWTGhIc1lkZGY0V3FCZHl0QW5TNEJlSTVFN0ZsMjF2YWU1VjlFVF8teGhfbW5HdGpaeHFJaw?oc=5",
           "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
           "source": "서울경제"
-        },
-        {
-          "title": "빚투 청산·예탁금 급감…'정상적 조정 vs 돈맥경화 우려'[초변동성에 갇힌 증시] - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43UjZ1T1RWMldBM0VBb0RxdXNvSWxfRVlUaEN0NXZ1b1FVYjVUTXlBTnJIZ1RVcVUyTG9QV3BmSHlOck5heG8yT2tlRUdtdmtqZVdrSw?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
-          "source": "이투데이"
         }
       ],
       "fear_articles": [
         {
           "title": "뉴욕 증시 SK하이닉스 ADR 급락...연준 \"AI 투자는 일시적 물가 상승 요인\" - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wMGl4WmdNWmMzM0lQNzlnSGVIdVUtWkNUU1RTSl9RUVM3eHZEbmE0V3FxX3VpN0E2QWVkU2ViXzJoc1htXzE4SGJyZEVqV0xYRi1zWlJ5UUY1Q0FjRkE?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 21:09:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94QVloaEJ4aWtUYlJ4eEZ3cndRWDE1UjB6TEJDejhHUFZDR1EyMlVseTVEUVR4SlAzZnJVV1VEMjBobDZhc25vTnZlZTZ6Q29JYkxSVzFXV1pSS3FNb3c?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 22:12:00 GMT",
           "source": "YTN"
         },
         {
@@ -67,7 +61,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 2502300000000,
     "retail_net_buy_krw": -2466600000000,
-    "margin_loan_krw": 34266900000000,
+    "margin_loan_krw": 34191000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
