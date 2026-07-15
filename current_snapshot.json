@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T05:41:55.621142+09:00",
+  "timestamp": "2026-07-16T06:38:47.061665+09:00",
   "sentiment": {
     "cnn_fng": 46.2857142857143,
     "cnn_components": {
@@ -14,17 +14,41 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
+      "greed_count": 3,
+      "fear_count": 3,
       "greed_articles": [
         {
           "title": "코인보다 변동성 커진 코스피, ‘단타’ 늘고 레버리지 광풍…쏠리는 개미들 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HVDQ0emZGanVScnRwN0h3dnVEZWxaRlFBWF9MS0pYajBWeFBjT1ZPX3o2b1BXWUdIdXlpTXNNRGhGSHRNWWVJSVNGd2NUbG56THI3VE9QMzRRUG15UkR2SWR5Q0g1SnpPYUlJd0JnRVYxUQ?oc=5",
           "pub_date": "Wed, 15 Jul 2026 20:00:00 GMT",
           "source": "한겨레"
+        },
+        {
+          "title": "‘빚투’ 줄고 외국인 돌아온 증시, 꼬였던 수급 풀리나 [코주부] - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yWjBFdXo5dmhuMzVlc2s0YVRqTzlJOFIyVmxQdG5ZRzVrX1o1RzYwajZOYnFjb1RSM1lnX3VFSk96TzJWRGNZaGlWRmZkdWd3MVHSAVNBVV95cUxPbkJlLWJvQkJSbXhZcV9Vb25PU3dwQmhWTGhIc1lkZGY0V3FCZHl0QW5TNEJlSTVFN0ZsMjF2YWU1VjlFVF8teGhfbW5HdGpaeHFJaw?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
+          "source": "서울경제"
+        },
+        {
+          "title": "빚투 청산·예탁금 급감…'정상적 조정 vs 돈맥경화 우려'[초변동성에 갇힌 증시] - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43UjZ1T1RWMldBM0VBb0RxdXNvSWxfRVlUaEN0NXZ1b1FVYjVUTXlBTnJIZ1RVcVUyTG9QV3BmSHlOck5heG8yT2tlRUdtdmtqZVdrSw?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
+          "source": "이투데이"
         }
       ],
       "fear_articles": [
+        {
+          "title": "뉴욕 증시 SK하이닉스 ADR 급락...연준 \"AI 투자는 일시적 물가 상승 요인\" - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wMGl4WmdNWmMzM0lQNzlnSGVIdVUtWkNUU1RTSl9RUVM3eHZEbmE0V3FxX3VpN0E2QWVkU2ViXzJoc1htXzE4SGJyZEVqV0xYRi1zWlJ5UUY1Q0FjRkE?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 21:09:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "[뉴욕증시] 빅테크 강세에 이틀 연속 상승…반도체는 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UU0VXUWVsRG9wYnFRQ0xQMFFKY0hZWVBlM2pFcGJMSUtkcnZjb3B1dnRCSmZoUVN5bzJ1cWFXOHZIZnBHSFExazl3WmVxbm8?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 20:26:11 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "[뉴욕증시] 인플레 둔화 조짐에 나스닥 162p↑...마이크론 7.71% 급락 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZUxFdEh0TnJlOU1wX0RJWWM1eEJOLWh3b3gwS0tiQkhFVnRndlFJdXBxamtqT29veGxqR0Ezcjl4eERZYjQ0b0NhaXlibmNBMk45TndhSUFUSDY0c2FfcVBfM2JaUWdWazUtQ2tOckNHS2NJWDUwUDU2ZzdPZ1RWakxYV2EtZlc2?oc=5",
@@ -37,8 +61,8 @@
   "volatility": {
     "vix": 15.67,
     "vvix": 91.85,
-    "skew": 145.13,
-    "move": 75.03
+    "skew": 148.51,
+    "move": 68.48
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 2502300000000,
@@ -301,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 191.247,
+    "strategy_pct": 191.632,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -853,7 +877,7 @@
       },
       {
         "date": "2026-07-16",
-        "ret_pct": 191.247
+        "ret_pct": 191.632
       }
     ],
     "monthly_breakdown": [
@@ -895,9 +919,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -34.51,
-        "end_ret_pct": 191.25,
-        "max_dd_pct": 45.22
+        "return_pct": -34.12,
+        "end_ret_pct": 191.63,
+        "max_dd_pct": 44.84
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
