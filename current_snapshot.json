@@ -1,43 +1,29 @@
 {
-  "timestamp": "2026-07-15T23:04:41.663321+09:00",
+  "timestamp": "2026-07-16T00:42:27.523559+09:00",
   "sentiment": {
-    "cnn_fng": 49.0571428571429,
+    "cnn_fng": 46.8571428571429,
     "cnn_components": {
       "momentum": 52.0,
-      "strength": 38.0,
-      "breadth": 32.8,
-      "put_call": 62.8,
-      "junk_bond": 49.2,
+      "strength": 39.0,
+      "breadth": 32.4,
+      "put_call": 57.6,
+      "junk_bond": 44.6,
       "volatility": 50.0,
-      "safe_haven": 52.6
+      "safe_haven": 51.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "[0715마감체크] 美 물가 우려 완화 속 저가 매수세 유입…코스피·코스닥 급등 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CVV9odlBtck8zbGNteDJhV1dtb3B5TzlQRnhESHVxWV83X0NUM0QzOGZpa19JRGhFdmNEbU52UWNGTl9xLUlmZ0RBek9WXzBueGlGbkxRS2pDU2ItalBkV0tiQTBHYS04alhHQVpWbkNGaUFKS0E?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 08:09:05 GMT",
-          "source": "인포스탁데일리"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "'패닉장' 딛고 반등한 코스피…외국인 귀환에 7200선 마감 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTX1N3aTMzSUQwMjFGa1pFVlhrQldvOGVPbjcxbmlqZEc4bmJWVHpXU01PSUJaUXhFNWg3VjRuaWdIcGtMODFxSGlTM3RmM2N6TmJfNTVKcEh1ei1vbnZSMjdrVmc4TnE2UldfdTM2S0FZdw?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 08:44:50 GMT",
-          "source": "인더스트리뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.29,
-    "vvix": 94.2,
-    "skew": 145.69,
+    "vix": 16.19,
+    "vvix": 94.69,
+    "skew": 145.13,
     "move": 69.55
   },
   "korea_flow": {
@@ -50,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26276.84,
+      "current": 26221.33,
       "high_52w": 27190.21,
-      "drop_pct": -3.36,
-      "intraday_low_drop_pct": -3.72,
-      "sma_200": 23827.05
+      "drop_pct": -3.56,
+      "intraday_low_drop_pct": -3.91,
+      "sma_200": 23845.38
     },
     "kospi": {
-      "current": 7284.41,
+      "current": 6856.83,
       "high_52w": 9385.59,
-      "drop_pct": -22.39,
-      "intraday_low_drop_pct": -24.53,
-      "sma_200": 5550.26
+      "drop_pct": -26.94,
+      "intraday_low_drop_pct": -31.29,
+      "sma_200": 5548.12
     },
     "kosdaq": {
-      "current": 829.43,
+      "current": 783.98,
       "high_52w": 1229.42,
-      "drop_pct": -32.53,
-      "intraday_low_drop_pct": -34.47,
-      "sma_200": 1003.61
+      "drop_pct": -36.23,
+      "intraday_low_drop_pct": -39.02,
+      "sma_200": 1003.72
     },
     "sp500": {
-      "current": 7574.31,
+      "current": 7560.56,
       "high_52w": 7620.9,
-      "drop_pct": -0.61,
-      "intraday_low_drop_pct": -0.83,
-      "sma_200": 6974.11
+      "drop_pct": -0.79,
+      "intraday_low_drop_pct": -0.96,
+      "sma_200": 6978.74
     },
     "russell2k": {
-      "current": 2967.9,
+      "current": 2978.05,
       "high_52w": 3046.59,
-      "drop_pct": -2.58,
+      "drop_pct": -2.25,
       "intraday_low_drop_pct": -2.61,
-      "sma_200": 2643.96
+      "sma_200": 2646.78
     },
     "soxx": {
-      "current": 564.26,
+      "current": 549.77,
       "high_52w": 655.95,
-      "drop_pct": -13.98,
-      "intraday_low_drop_pct": -14.29,
-      "sma_200": 386.57
+      "drop_pct": -16.19,
+      "intraday_low_drop_pct": -16.75,
+      "sma_200": 388.0
     }
   },
   "sector_rs": {
-    "XLK": 1.13,
-    "SMH": 1.218,
-    "BOTZ": 0.914,
-    "IGV": 1.058,
-    "XLF": 1.004,
-    "XLE": 0.946
+    "XLK": 1.114,
+    "SMH": 1.196,
+    "BOTZ": 0.91,
+    "IGV": 1.054,
+    "XLF": 1.01,
+    "XLE": 0.934
   },
   "signals": {
     "cnn_under_10": false,
@@ -134,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 71.67,
+    "tqqq_profit_pct": 67.91,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 224.39,
+    "soxl_profit_pct": 199.29,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -93.74,
+    "koru_profit_pct": -94.22,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -301,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 138.129,
+    "strategy_pct": 195.512,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -849,7 +835,7 @@
       },
       {
         "date": "2026-07-15",
-        "ret_pct": 138.129
+        "ret_pct": 195.512
       }
     ],
     "monthly_breakdown": [
@@ -891,9 +877,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -87.62,
-        "end_ret_pct": 138.13,
-        "max_dd_pct": 98.34
+        "return_pct": -30.24,
+        "end_ret_pct": 195.51,
+        "max_dd_pct": 40.96
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
