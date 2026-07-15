@@ -1,35 +1,28 @@
 {
-  "timestamp": "2026-07-16T03:15:24.684974+09:00",
+  "timestamp": "2026-07-16T04:42:41.391161+09:00",
   "sentiment": {
-    "cnn_fng": 46.4571428571429,
+    "cnn_fng": 45.6,
     "cnn_components": {
-      "momentum": 54.8,
+      "momentum": 54.0,
       "strength": 39.0,
       "breadth": 32.2,
-      "put_call": 57.0,
-      "junk_bond": 40.4,
+      "put_call": 55.0,
+      "junk_bond": 38.2,
       "volatility": 50.0,
       "safe_haven": 51.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "뉴욕 증시 끝물 신호(?)…AI 레버리지발 '빚투' 임계치 도달 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mYzN0S3hnb1FXak9LZS1Qb2lMQ1o1dnZGa2VXbF9jZTh0VC1WRGo5X0NObVZjSjF3R1dtQ0FHTmFTWS1hRlg4TmJoMXJnU2M?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 17:48:10 GMT",
-          "source": "v.daum.net"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.81,
-    "vvix": 92.82,
+    "vix": 15.8,
+    "vvix": 92.45,
     "skew": 145.13,
     "move": 69.55
   },
@@ -43,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26262.34,
+      "current": 26238.74,
       "high_52w": 27190.21,
-      "drop_pct": -3.41,
+      "drop_pct": -3.5,
       "intraday_low_drop_pct": -4.23,
-      "sma_200": 23845.59
+      "sma_200": 23845.47
     },
     "kospi": {
       "current": 6856.83,
@@ -64,34 +57,34 @@
       "sma_200": 1003.72
     },
     "sp500": {
-      "current": 7569.46,
+      "current": 7565.51,
       "high_52w": 7620.9,
-      "drop_pct": -0.67,
+      "drop_pct": -0.73,
       "intraday_low_drop_pct": -1.23,
-      "sma_200": 6978.78
+      "sma_200": 6978.76
     },
     "russell2k": {
-      "current": 2981.62,
+      "current": 2974.83,
       "high_52w": 3046.59,
-      "drop_pct": -2.13,
+      "drop_pct": -2.36,
       "intraday_low_drop_pct": -2.8,
-      "sma_200": 2646.8
+      "sma_200": 2646.76
     },
     "soxx": {
-      "current": 552.89,
+      "current": 554.92,
       "high_52w": 655.95,
-      "drop_pct": -15.71,
+      "drop_pct": -15.4,
       "intraday_low_drop_pct": -17.9,
-      "sma_200": 388.01
+      "sma_200": 388.02
     }
   },
   "sector_rs": {
-    "XLK": 1.118,
-    "SMH": 1.201,
+    "XLK": 1.12,
+    "SMH": 1.206,
     "BOTZ": 0.909,
-    "IGV": 1.051,
+    "IGV": 1.05,
     "XLF": 1.006,
-    "XLE": 0.939
+    "XLE": 0.945
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,13 +120,13 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 69.24,
+    "tqqq_profit_pct": 68.73,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 205.08,
+    "soxl_profit_pct": 208.83,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -294,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.722,
+    "strategy_pct": 190.733,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -846,7 +839,7 @@
       },
       {
         "date": "2026-07-16",
-        "ret_pct": 185.722
+        "ret_pct": 190.733
       }
     ],
     "monthly_breakdown": [
@@ -888,9 +881,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -40.03,
-        "end_ret_pct": 185.72,
-        "max_dd_pct": 50.75
+        "return_pct": -35.02,
+        "end_ret_pct": 190.73,
+        "max_dd_pct": 45.74
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
