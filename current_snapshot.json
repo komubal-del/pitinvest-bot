@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-15T12:41:22.790966+09:00",
+  "timestamp": "2026-07-15T14:59:12.516759+09:00",
   "sentiment": {
-    "cnn_fng": 43.1428571428572,
+    "cnn_fng": 43.2857142857143,
     "cnn_components": {
       "momentum": 50.0,
       "strength": 37.4,
       "breadth": 30.2,
       "put_call": 46.0,
-      "junk_bond": 45.8,
+      "junk_bond": 46.8,
       "volatility": 50.0,
       "safe_haven": 42.6
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 4,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "거래도 '빚투'도 줄었다…'고꾸라진' 코스닥 떠나는 개미들 - 뉴스1",
@@ -24,10 +24,10 @@
           "source": "뉴스1"
         },
         {
-          "title": "코스닥 시장, 거래대금과 빚투 잔고 동반 급감 현상 진단 - 2news.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CbkpQNTh6bDdSeHR2THNQS180ZGswSVBqN2poaEExYTdCV3BRSS1JSDM4c2VCQ01ISGlQSVRmMmVnUXA5OVBNeEFTZ200VGdoMGVWQjg1YTdCRDEtTnhfWm9hZGh5Z05x?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 02:38:00 GMT",
-          "source": "2news.co.kr"
+          "title": "코스닥 ‘빚투’ 2.3조 빠졌다…삼전·하닉으로 흐르는 신용 자금 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PdVZoVHFSNk16aUVhNlhncWZ6RlhwNklYZnJyWjJSNUdzZ2ZRUlNPZG5mNkQ2SExBRmhaeEJLZjVyc0ZubWpQVUJnRkcwdUFUc1NfaFJ0a1NhUQ?oc=5",
+          "pub_date": "Wed, 15 Jul 2026 03:43:00 GMT",
+          "source": "브릿지경제"
         }
       ],
       "fear_articles": [
@@ -36,37 +36,19 @@
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CdDA3MXU2SnJpaC13R0g2NHotRFJYdlFXLWV2RmtNOTFwQnpBeFA1bG41Zi1tS0xhYXl3VkJoRnY0eXBBaldtb2VfaXp4bm5lSHNsejVMTWU1STjSAWBBVV95cUxNTkJYcTNRdHZBLXRnUHl0MDI4Q19ycFF0dnNLMnNVR1Bxa2dBYTIzOWpsajg0Vldna3FRcXlMUGpzMkJuMXQ2aFJlaXBvNmd2Z3RPUnZKQUVkOWpGR2EzeC0?oc=5",
           "pub_date": "Tue, 14 Jul 2026 23:13:38 GMT",
           "source": "연합뉴스"
-        },
-        {
-          "title": "[마켓뷰] 코스피, 美증시 훈풍에 최근 급락 만회하나 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CVXl0ME52OElGZlE3VE5PQVVuVjczRmtISXZfZXB2VXBZZHRKcURuUTdUZmZMSEhBRk5NLWtpbVRReWVxVUN2Q193QQ?oc=5",
-          "pub_date": "Tue, 14 Jul 2026 23:14:55 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"코스피 1만피 넘을 것\"...두 달 전 폭락 맞힌 보고서의 '새 전망' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGampXMGh5MGI1NEFidFdRb3d1WU1UTXpFRFU5QjdOLVRwLURxV3BhTy1vVzlkblY4VWg0b191TXdsTWNtaUo0c0ZzNVZZQkE?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 00:31:30 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "‘패닉은 짧다’ 바닥 매수 나선 외인…코스피, 7000선 재탈환 [투자360] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJUkZZYkVHX1pMY21xNDZLSTFRRjltQjUtR0QxVFBDUlVqSk5wTF82VUE4aU84SGVFSjRDd3hDYlZ0ai12dGFVb2JkVjhxdjg?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 01:02:13 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.5,
+    "vix": 17.16,
     "vvix": 93.53,
-    "skew": 145.13,
-    "move": 75.03
+    "skew": 145.69,
+    "move": 69.55
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2296800000000,
-    "retail_net_buy_krw": -2254300000000,
+    "foreign_inst_buy_krw": 2582400000000,
+    "retail_net_buy_krw": -2542400000000,
     "margin_loan_krw": 34266900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,55 +56,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26107.01,
+      "current": 25873.18,
       "high_52w": 27190.21,
-      "drop_pct": -3.98,
-      "intraday_low_drop_pct": -4.7,
-      "sma_200": 23826.2
+      "drop_pct": -4.84,
+      "intraday_low_drop_pct": -5.03,
+      "sma_200": 23808.15
     },
     "kospi": {
-      "current": 7357.7,
+      "current": 7283.83,
       "high_52w": 9385.59,
-      "drop_pct": -21.61,
+      "drop_pct": -22.39,
       "intraday_low_drop_pct": -24.53,
-      "sma_200": 5550.62
+      "sma_200": 5550.25
     },
     "kosdaq": {
-      "current": 823.31,
+      "current": 821.98,
       "high_52w": 1229.42,
-      "drop_pct": -33.03,
+      "drop_pct": -33.14,
       "intraday_low_drop_pct": -34.47,
-      "sma_200": 1003.58
+      "sma_200": 1003.57
     },
     "sp500": {
-      "current": 7543.59,
+      "current": 7515.34,
       "high_52w": 7620.9,
-      "drop_pct": -1.01,
-      "intraday_low_drop_pct": -1.41,
-      "sma_200": 6973.96
+      "drop_pct": -1.39,
+      "intraday_low_drop_pct": -1.5,
+      "sma_200": 6969.43
     },
     "russell2k": {
-      "current": 2964.76,
+      "current": 2953.17,
       "high_52w": 3046.59,
-      "drop_pct": -2.69,
-      "intraday_low_drop_pct": -2.91,
-      "sma_200": 2643.94
+      "drop_pct": -3.07,
+      "intraday_low_drop_pct": -3.26,
+      "sma_200": 2641.29
     },
     "soxx": {
-      "current": 567.92,
+      "current": 553.61,
       "high_52w": 655.95,
-      "drop_pct": -13.42,
-      "intraday_low_drop_pct": -14.59,
-      "sma_200": 386.58
+      "drop_pct": -15.6,
+      "intraday_low_drop_pct": -16.11,
+      "sma_200": 385.09
     }
   },
   "sector_rs": {
-    "XLK": 1.136,
-    "SMH": 1.231,
-    "BOTZ": 0.908,
-    "IGV": 1.048,
-    "XLF": 1.003,
-    "XLE": 0.955
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -139,7 +121,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -158,13 +140,13 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 70.62,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 230.21,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
