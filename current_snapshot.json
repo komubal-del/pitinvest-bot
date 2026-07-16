@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-17T05:24:47.493443+09:00",
+  "timestamp": "2026-07-17T06:30:12.597616+09:00",
   "sentiment": {
-    "cnn_fng": 41.6285714285714,
+    "cnn_fng": 41.6857142857143,
     "cnn_components": {
       "momentum": 47.2,
       "strength": 38.4,
       "breadth": 22.2,
-      "put_call": 42.0,
+      "put_call": 42.4,
       "junk_bond": 42.8,
       "volatility": 50.0,
       "safe_haven": 48.8
@@ -15,9 +15,21 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 3,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UOWRSTWp4WDBkcUxxaTMzdlJUeTlmRVlXLUpySENSaTRKUEJzM0NOX3F4TWVaVVpia1EwbURlYldZQnFFajIyeW03UzZSMUZNN0VjT1JzRDJGR2ZkallxUEZ5QWRfTDRjdGtHOGYyM3A?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 21:02:26 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[뉴욕증시] 반도체주 '털썩' 나스닥 387p↓...SK하이닉스 ADR 13% 폭락 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZHVsUWh3YjNfVkpBVXhPd1dQR1BBRVROZGhiX0pHbGhXZV9LdXZlVjNHc3B0cWd4MXVGU3RvMG44OUxQbl8yRTlrdTQ4eWVWX0xKOHRhTFlaVG1QZzFFQ1dwZ0RTanJMUHlHeDRqX244NlVNdkVXRW4wQXFzWFZ5SEJWdFpLTlRC?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 20:41:50 GMT",
+          "source": "글로벌이코노믹"
+        },
         {
           "title": "뉴욕증시, 반도체 급락·알파벳 약세에 하락…나스닥 1.47%↓ - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LNnZvVXB0bkFadkQ1QUdINXh3SzdkaHZ1OFpLdFhiM0lNcm9IdHhUb2QxdGMtSC1hRWRnVWhaMWhnT1JvVW9FclZybnQ2aTcxb1dIVEJEcDB6X0po?oc=5",
@@ -28,10 +40,10 @@
     }
   },
   "volatility": {
-    "vix": 16.72,
-    "vvix": 97.27,
-    "skew": 148.51,
-    "move": 68.48
+    "vix": 16.73,
+    "vvix": 97.31,
+    "skew": 145.72,
+    "move": 68.16
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -3749600000000,
@@ -88,7 +100,7 @@
   "sector_rs": {
     "XLK": 1.086,
     "SMH": 1.156,
-    "BOTZ": 0.896,
+    "BOTZ": 0.897,
     "IGV": 1.039,
     "XLF": 1.025,
     "XLE": 0.985
@@ -294,7 +306,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 178.714,
+    "strategy_pct": 180.02,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -850,7 +862,7 @@
       },
       {
         "date": "2026-07-17",
-        "ret_pct": 178.714
+        "ret_pct": 180.02
       }
     ],
     "monthly_breakdown": [
@@ -892,9 +904,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -47.04,
-        "end_ret_pct": 178.71,
-        "max_dd_pct": 57.75
+        "return_pct": -45.73,
+        "end_ret_pct": 180.02,
+        "max_dd_pct": 56.45
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
