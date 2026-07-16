@@ -1,30 +1,37 @@
 {
-  "timestamp": "2026-07-17T04:25:00.847190+09:00",
+  "timestamp": "2026-07-17T05:24:47.493443+09:00",
   "sentiment": {
-    "cnn_fng": 40.8,
+    "cnn_fng": 41.6285714285714,
     "cnn_components": {
-      "momentum": 45.4,
-      "strength": 38.2,
-      "breadth": 20.8,
-      "put_call": 42.8,
-      "junk_bond": 40.6,
+      "momentum": 47.2,
+      "strength": 38.4,
+      "breadth": 22.2,
+      "put_call": 42.0,
+      "junk_bond": 42.8,
       "volatility": 50.0,
-      "safe_haven": 47.8
+      "safe_haven": 48.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "뉴욕증시, 반도체 급락·알파벳 약세에 하락…나스닥 1.47%↓ - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LNnZvVXB0bkFadkQ1QUdINXh3SzdkaHZ1OFpLdFhiM0lNcm9IdHhUb2QxdGMtSC1hRWRnVWhaMWhnT1JvVW9FclZybnQ2aTcxb1dIVEJEcDB6X0po?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 20:21:00 GMT",
+          "source": "뉴스핌"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 16.79,
-    "vvix": 96.94,
+    "vix": 16.72,
+    "vvix": 97.27,
     "skew": 148.51,
-    "move": 69.55
+    "move": 68.48
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -3749600000000,
@@ -36,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25849.69,
+      "current": 25881.95,
       "high_52w": 27190.21,
-      "drop_pct": -4.93,
-      "intraday_low_drop_pct": -4.95,
-      "sma_200": 23862.45
+      "drop_pct": -4.81,
+      "intraday_low_drop_pct": -5.24,
+      "sma_200": 23862.61
     },
     "kospi": {
       "current": 7284.41,
@@ -57,34 +64,34 @@
       "sma_200": 1003.61
     },
     "sp500": {
-      "current": 7520.45,
+      "current": 7533.77,
       "high_52w": 7620.9,
-      "drop_pct": -1.32,
-      "intraday_low_drop_pct": -1.33,
-      "sma_200": 6983.18
+      "drop_pct": -1.14,
+      "intraday_low_drop_pct": -1.53,
+      "sma_200": 6983.25
     },
     "russell2k": {
-      "current": 2968.95,
+      "current": 2974.57,
       "high_52w": 3046.59,
-      "drop_pct": -2.55,
-      "intraday_low_drop_pct": -2.59,
-      "sma_200": 2649.44
+      "drop_pct": -2.36,
+      "intraday_low_drop_pct": -2.73,
+      "sma_200": 2649.47
     },
     "soxx": {
-      "current": 527.47,
+      "current": 530.5,
       "high_52w": 655.95,
-      "drop_pct": -19.59,
+      "drop_pct": -19.12,
       "intraday_low_drop_pct": -19.9,
-      "sma_200": 389.32
+      "sma_200": 389.33
     }
   },
   "sector_rs": {
-    "XLK": 1.089,
-    "SMH": 1.162,
-    "BOTZ": 0.902,
-    "IGV": 1.037,
-    "XLF": 1.019,
-    "XLE": 0.949
+    "XLK": 1.086,
+    "SMH": 1.156,
+    "BOTZ": 0.896,
+    "IGV": 1.039,
+    "XLF": 1.025,
+    "XLE": 0.985
   },
   "signals": {
     "cnn_under_10": false,
@@ -120,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 59.73,
+    "tqqq_profit_pct": 60.88,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 161.53,
+    "soxl_profit_pct": 166.32,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.99,
+    "koru_profit_pct": -94.93,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -287,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 179.514,
+    "strategy_pct": 178.714,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -843,7 +850,7 @@
       },
       {
         "date": "2026-07-17",
-        "ret_pct": 179.514
+        "ret_pct": 178.714
       }
     ],
     "monthly_breakdown": [
@@ -885,9 +892,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -46.24,
-        "end_ret_pct": 179.51,
-        "max_dd_pct": 56.95
+        "return_pct": -47.04,
+        "end_ret_pct": 178.71,
+        "max_dd_pct": 57.75
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
