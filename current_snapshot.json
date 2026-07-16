@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T08:41:00.336507+09:00",
+  "timestamp": "2026-07-16T10:07:51.792273+09:00",
   "sentiment": {
     "cnn_fng": 46.2857142857143,
     "cnn_components": {
@@ -14,34 +14,46 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 2,
+      "greed_count": 1,
+      "fear_count": 34,
       "greed_articles": [
         {
           "title": "단타와 빚투가 키운 변동성, 레버리지가 증폭…코인보다 더한 코스피 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HVDQ0emZGanVScnRwN0h3dnVEZWxaRlFBWF9MS0pYajBWeFBjT1ZPX3o2b1BXWUdIdXlpTXNNRGhGSHRNWWVJSVNGd2NUbG56THI3VE9QMzRRUG15UkR2SWR5Q0g1SnpPYUlJd0JnRVYxUQ?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 21:57:00 GMT",
+          "pub_date": "Thu, 16 Jul 2026 00:14:00 GMT",
           "source": "한겨레"
-        },
-        {
-          "title": "‘빚투’ 줄고 외국인 돌아온 증시, 꼬였던 수급 풀리나 [코주부] - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uQmUtYm9CQlJteFlxX1Vvbk9Td3BCaFZMaEhzWWRkZjRXcUJkeXRBblM0QmVJNUU3RmwyMXZhZTVWOUVUXy14aF9tbkd0alp4cUlr0gFTQVVfeXFMT25CZS1ib0JCUm14WXFfVW9uT1N3cEJoVkxoSHNZZGRmNFdxQmR5dEFuUzRCZUk1RTdGbDIxdmFlNVY5RVRfLXhoX21uR3RqWnhxSWs?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 21:00:00 GMT",
-          "source": "서울경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕 증시 SK하이닉스 ADR 급락...연준 \"AI 투자는 일시적 물가 상승 요인\" - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94QVloaEJ4aWtUYlJ4eEZ3cndRWDE1UjB6TEJDejhHUFZDR1EyMlVseTVEUVR4SlAzZnJVV1VEMjBobDZhc25vTnZlZTZ6Q29JYkxSVzFXV1pSS3FNb3c?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 22:12:00 GMT",
+          "title": "[속보] 코스피 4%대 급락…7,000선 또 무너져 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hbkZ0X1YzZ3J0aEZpenB6ejhBN0lZRWpNem9fZHZyWkI1cWpnUXpJVXAwZ0ZwQ2F6VUhOUGhaemFvMTh3cUUtX0xtMWEwOVd1cXNjNzF3aHUzWHNYRkJQU2Y0ZkRrVlk?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 00:12:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "[속보]코스피, 4% 급락에 매도 사이드카 발동…다시 7000선 아래로 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ucnNVcE1UQURiWTRwcElKYkZ1NTIxOFlNanFpLWhUT3VOTlRwQm5JX2tqOV9EQ0dxMllTc25uTGYtMHFDWDhwYTVfd2g1bnZaSVJYMTVwVEVWQdIBX0FVX3lxTE1lWW5SRGR6SExGT2czeHJUN21UT25ZV1kyalJJUFhmVXNkX01RdnlqMV9TTElqUExfR0MzeXFmV0U1a2ZBUG5GbkV2el82SkpuM2czUDVRajdlX1dUNE9N?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 00:16:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "속보 코스피 장 초반 급락에 '매도 사이드카' 발동 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xQk1WbjhMZnFKMU85Y0VSZXB5TndpN2ZnTVpVdk9OLUNSMl9Od01jNWpqaEpabnFzaEN3QXpnTlRjUy1WanJpM3ZNSDFuT21RX0NaWUMwWVVfbFJ6ZFE?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 00:14:00 GMT",
           "source": "YTN"
         },
         {
-          "title": "[뉴욕증시] 인플레 둔화 조짐에 나스닥 162p↑...마이크론 7.71% 급락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZUxFdEh0TnJlOU1wX0RJWWM1eEJOLWh3b3gwS0tiQkhFVnRndlFJdXBxamtqT29veGxqR0Ezcjl4eERZYjQ0b0NhaXlibmNBMk45TndhSUFUSDY0c2FfcVBfM2JaUWdWazUtQ2tOckNHS2NJWDUwUDU2ZzdPZ1RWakxYV2EtZlc2?oc=5",
-          "pub_date": "Wed, 15 Jul 2026 20:27:00 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스피, 美반도체 약세로 5~6%대 급락…또 7,000선 아래로(종합) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmSWxtT1hxaWpTQzJQYk9Ndl9xM0dYZlM4amFOal9Tc2VOekduNmtORERhcFYtcFo0My1wQ2Q5T0hxRHdIQ0M3bDdYaFlLcGs?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 00:50:38 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[포토] 코스피, 코스닥 급락 출발 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PUVJFM0lJUGRNTU9DOWpCYkt2NC05d1lvQzI4UnpmTGR5dEpXYUZacFR2RGwzR01tV05PSXRidS1CYy1MVVVVMG1DQ3VOZXJGaFRFOEc1bVlZZXlTMjJvOQ?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 00:30:13 GMT",
+          "source": "아시아경제"
         }
       ]
     }
@@ -53,8 +65,8 @@
     "move": 68.48
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2502300000000,
-    "retail_net_buy_krw": -2466600000000,
+    "foreign_inst_buy_krw": -1332100000000,
+    "retail_net_buy_krw": 1309400000000,
     "margin_loan_krw": 34191000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -69,18 +81,18 @@
       "sma_200": 23845.62
     },
     "kospi": {
-      "current": 6856.83,
+      "current": 6839.78,
       "high_52w": 9385.59,
-      "drop_pct": -26.94,
-      "intraday_low_drop_pct": -31.29,
-      "sma_200": 5548.12
+      "drop_pct": -27.12,
+      "intraday_low_drop_pct": -27.29,
+      "sma_200": 5565.07
     },
     "kosdaq": {
-      "current": 783.98,
+      "current": 798.29,
       "high_52w": 1229.42,
-      "drop_pct": -36.23,
-      "intraday_low_drop_pct": -39.02,
-      "sma_200": 1003.72
+      "drop_pct": -35.07,
+      "intraday_low_drop_pct": -35.12,
+      "sma_200": 1003.46
     },
     "sp500": {
       "current": 7572.4,
@@ -267,7 +279,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-07-15",
