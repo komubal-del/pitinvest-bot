@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T06:30:12.597616+09:00",
+  "timestamp": "2026-07-17T07:38:08.992631+09:00",
   "sentiment": {
     "cnn_fng": 41.6857142857143,
     "cnn_components": {
@@ -15,14 +15,26 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 3,
+      "fear_count": 6,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "반도체주 급락에 뉴욕증시 하락…나스닥 1.47%↓ - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kbXBYT2pkYjZERGlJVWJYN2I0Mkk1X1cwTFd1d3VNVklfbVIwNV9nU0JYbU4yZWlIdGNqbGNjbzFlbm1Mcm9HU3RRMC1YeXJ0U1VFZmdSU1lIbXc?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 21:49:00 GMT",
+          "source": "KBS 뉴스"
+        },
         {
           "title": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UOWRSTWp4WDBkcUxxaTMzdlJUeTlmRVlXLUpySENSaTRKUEJzM0NOX3F4TWVaVVpia1EwbURlYldZQnFFajIyeW03UzZSMUZNN0VjT1JzRDJGR2ZkallxUEZ5QWRfTDRjdGtHOGYyM3A?oc=5",
           "pub_date": "Thu, 16 Jul 2026 21:02:26 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "‘미장’이나 ‘국장’이나…뉴욕증시, 반도체주 매도세에 약세… AI 고평가 논란 부담 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKWk9JM2t5aUxqYXl5UXVoVzkzcDNDYXhrWHRFdDh0N1dYaUtQdWRaYkpERmNiQ2sxcGFleWo4ZjF1SXNWbS1FNE1oT1ctRzg?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 21:36:37 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "[뉴욕증시] 반도체주 '털썩' 나스닥 387p↓...SK하이닉스 ADR 13% 폭락 - 글로벌이코노믹",
@@ -31,10 +43,10 @@
           "source": "글로벌이코노믹"
         },
         {
-          "title": "뉴욕증시, 반도체 급락·알파벳 약세에 하락…나스닥 1.47%↓ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LNnZvVXB0bkFadkQ1QUdINXh3SzdkaHZ1OFpLdFhiM0lNcm9IdHhUb2QxdGMtSC1hRWRnVWhaMWhnT1JvVW9FclZybnQ2aTcxb1dIVEJEcDB6X0po?oc=5",
-          "pub_date": "Thu, 16 Jul 2026 20:21:00 GMT",
-          "source": "뉴스핌"
+          "title": "뉴욕증시, 반도체 매도세에 하락…나스닥 1.47%↓[상보] - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ybE9kLUtUazBDcldOSXJaY1ZEWXJUYXExNkloZXNQeUVwUTQ4cGR3MU41TDRidGp4YkUwTkh1M0VFU2tCejVwZFBqaU9CNWcxdjhYYQ?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 22:10:00 GMT",
+          "source": "이투데이"
         }
       ]
     }
