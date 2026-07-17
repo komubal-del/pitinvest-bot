@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T18:17:35.510460+09:00",
+  "timestamp": "2026-07-17T19:59:46.568282+09:00",
   "sentiment": {
     "cnn_fng": 42.5714285714286,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 5,
-      "fear_count": 12,
+      "fear_count": 13,
       "greed_articles": [
         {
           "title": "일본 버블이 남긴 교훈, 지금 우리 증시는 어느 계절일까ㅣ김동욱의 책GPT - 한국경제",
@@ -50,16 +50,16 @@
       ],
       "fear_articles": [
         {
-          "title": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UOWRSTWp4WDBkcUxxaTMzdlJUeTlmRVlXLUpySENSaTRKUEJzM0NOX3F4TWVaVVpia1EwbURlYldZQnFFajIyeW03UzZSMUZNN0VjT1JzRDJGR2ZkallxUEZ5QWRfTDRjdGtHOGYyM3A?oc=5",
-          "pub_date": "Thu, 16 Jul 2026 21:02:26 GMT",
-          "source": "연합인포맥스"
-        },
-        {
           "title": "[도쿄증시-마감] 반도체 급락에 닛케이 4% 넘게 하락 - KB Think",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BR3YtZUNGNjU3UDlWQm9QMlJDVFBCeFJET0haTW1TQURINzFFVjNLQnNhRGRrc3RBbElHdnAweVlJd0JXaloyMV9QUUFneUdTVXhnUjFPNWRRaXYzMkxMUDZPbkU3bGlySUJVU0hLZjYxZw?oc=5",
           "pub_date": "Fri, 17 Jul 2026 06:42:32 GMT",
           "source": "KB Think"
+        },
+        {
+          "title": "‘7조’ 빨아들인 삼전닉스 레버리지…보완책에 “증시 더 폭락” 왜 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MU2FWUDFsdXM3XzA3eWRwS1lycDBHeEhuY3U5OXIxVEs1emZPS3FVeUJRbDFSZndhYjB1cmh0T3VvUXhHZzcwWXFXQnFJUVk?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 06:48:38 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "SK하이닉스, ADR 상장에도…코스피 급락한 이유는? [이주엔 머니] - JTBC",
@@ -74,16 +74,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "日 증시, 美 반도체 투매에 하락…닛케이 3% 가까이 떨어져 64,000선 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tbklTVFZTcDZNN1FmdTFqNXZ0OWZXQjBUd3luM3BnTmlKazlrNHRKWEhfSDlHWkV4b3FtRUxTMkpHQlNPVG4ydnk1bW5EdGxrYXJmQmQ2eDJ1U0pRdGFENTlTQVhPcnJibHVqbkpFdTRXWDBu?oc=5",
-          "pub_date": "Fri, 17 Jul 2026 02:38:26 GMT",
+          "title": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UOWRSTWp4WDBkcUxxaTMzdlJUeTlmRVlXLUpySENSaTRKUEJzM0NOX3F4TWVaVVpia1EwbURlYldZQnFFajIyeW03UzZSMUZNN0VjT1JzRDJGR2ZkallxUEZ5QWRfTDRjdGtHOGYyM3A?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 21:02:26 GMT",
           "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.45,
+    "vix": 18.06,
     "vvix": 97.31,
     "skew": 145.72,
     "move": 69.55
