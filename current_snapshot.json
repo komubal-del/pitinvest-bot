@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-17T13:31:03.895465+09:00",
+  "timestamp": "2026-07-17T16:03:43.321651+09:00",
   "sentiment": {
-    "cnn_fng": 41.8285714285714,
+    "cnn_fng": 42.5714285714286,
     "cnn_components": {
       "momentum": 47.2,
-      "strength": 38.4,
-      "breadth": 22.2,
+      "strength": 39.8,
+      "breadth": 26.0,
       "put_call": 42.4,
       "junk_bond": 43.8,
       "volatility": 50.0,
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 16,
+      "greed_count": 5,
+      "fear_count": 14,
       "greed_articles": [
         {
           "title": "[코스닥 1500 ①] 몸집은 키웠는데···30년째 못 넘은 닷컴버블 - 서울파이낸스",
@@ -25,8 +25,8 @@
         },
         {
           "title": "[투데이증시] TSMC 깜짝실적도 막지 못한 반도체 고점론...美 반도체주 ‘털썩’ - 투데이신문",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oekZnaERjaUZiM3BrOWVrT3hpRHNlbjEtYTFRVGRUY1ZVOHlhQlk5TVBsOWVWNXFnT3FFdUZqOGdfRk4wamlVYlZWeTRRVlY4Q25oZDdFVVlSTHRMWjlOSmhOWk1XQW9JSnpB0gFvQVVfeXFMTmhkVTJibXlRUXpFUW1ZaVRPY1dha3plWUppN0xnZnc5QUxOd1UwT0ExSlQzV2ViVDBxc3IyMDRibWFyZldnV1B0cW5NaHRUMTVQaU9QX0VQcXppUURNblBwN3ZpdE5TTzktbDJITWpj?oc=5",
-          "pub_date": "Fri, 17 Jul 2026 01:18:10 GMT",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oZFUyYm15UVF6RVFtWWlUT2NXYWt6ZVlKaTdMZ2Z3OUFMTndVME9BMUpUM1dlYlQwcXNyMjA0Ym1hcmZXZ1dQdHFuTWh0VDE1UGlPUF9FUHF6aVFETW5QcDd2aXROU085LWwySE1qY9IBb0FVX3lxTE5oZFUyYm15UVF6RVFtWWlUT2NXYWt6ZVlKaTdMZ2Z3OUFMTndVME9BMUpUM1dlYlQwcXNyMjA0Ym1hcmZXZ1dQdHFuTWh0VDE1UGlPUF9FUHF6aVFETW5QcDd2aXROU085LWwySE1qYw?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 02:32:01 GMT",
           "source": "투데이신문"
         },
         {
@@ -34,6 +34,18 @@
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vZG4weGNobld1em5za0R3Z2h4aVFuTmVvWHhoMUxtRjI1OTktRndkMWtYZ0R3LUpjekhISXBpUlZ6eV9LZFh5RkFpUUNVUWxxY0gyaEVRc1BIaDdiM3Zrcw?oc=5",
           "pub_date": "Fri, 17 Jul 2026 02:35:02 GMT",
           "source": "KBC광주방송"
+        },
+        {
+          "title": "일본 버블이 남긴 교훈, 지금 우리 증시는 어느 계절일까ㅣ김동욱의 책GPT - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNUUZxUWVfVmV0azVZSEk0eENUaV9tV3VrYkVTQnFDWkhyeDlFbDF0Ynl3bGFGZE1ia0FMS1dCd0J2X3lkc1haMmxzai1QVE42ajltTEU1OFgtQQ?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 06:11:59 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "코스피 뒤흔든 주범은 역대급 과속과 반도체 쏠림 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd05fUHUxQXdELWdEVnRoRGRVLVpyTnVESUFsYV9Zc0FaNlo0WVhuYWtpR2JnUkd5QWJrNnkxQzhGbkMyUW5MY1B5NDFHYjFBc2gyVS1QOF9NMk94eUg1R3MtUERFbHpObXlWR1pkX0Ywd0FiMkhxSFRGTERNY3NnZi1FN3R3WEpoTF9sZkVJYmhUSERlRi1tVFRJN1Nhd05nSml5RWNFMXIxQdIBZkFVX3lxTE9wVF84SjV5cTIzaXVVME9hUjdveTdzdDFyZnE1OWNVZU9YYnFsLV9zQVdsVjcyUklOQUFhU2JCTzJrMXhIRFdpMlN3TVBuMTkybkptWUR6WjJkbHpHOGxRNEZ5cWpYQQ?oc=5",
+          "pub_date": "Thu, 16 Jul 2026 23:04:00 GMT",
+          "source": "동아일보"
         }
       ],
       "fear_articles": [
