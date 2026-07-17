@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T19:59:46.568282+09:00",
+  "timestamp": "2026-07-17T21:17:37.422633+09:00",
   "sentiment": {
     "cnn_fng": 42.5714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 13,
+      "greed_count": 6,
+      "fear_count": 15,
       "greed_articles": [
         {
           "title": "일본 버블이 남긴 교훈, 지금 우리 증시는 어느 계절일까ㅣ김동욱의 책GPT - 한국경제",
@@ -31,8 +31,8 @@
         },
         {
           "title": "[투데이증시] TSMC 깜짝실적도 막지 못한 반도체 고점론...美 반도체주 ‘털썩’ - 투데이신문",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oZFUyYm15UVF6RVFtWWlUT2NXYWt6ZVlKaTdMZ2Z3OUFMTndVME9BMUpUM1dlYlQwcXNyMjA0Ym1hcmZXZ1dQdHFuTWh0VDE1UGlPUF9FUHF6aVFETW5QcDd2aXROU085LWwySE1qY9IBb0FVX3lxTE5oZFUyYm15UVF6RVFtWWlUT2NXYWt6ZVlKaTdMZ2Z3OUFMTndVME9BMUpUM1dlYlQwcXNyMjA0Ym1hcmZXZ1dQdHFuTWh0VDE1UGlPUF9FUHF6aVFETW5QcDd2aXROU085LWwySE1qYw?oc=5",
-          "pub_date": "Fri, 17 Jul 2026 02:32:01 GMT",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oekZnaERjaUZiM3BrOWVrT3hpRHNlbjEtYTFRVGRUY1ZVOHlhQlk5TVBsOWVWNXFnT3FFdUZqOGdfRk4wamlVYlZWeTRRVlY4Q25oZDdFVVlSTHRMWjlOSmhOWk1XQW9JSnpB0gFvQVVfeXFMTmhkVTJibXlRUXpFUW1ZaVRPY1dha3plWUppN0xnZnc5QUxOd1UwT0ExSlQzV2ViVDBxc3IyMDRibWFyZldnV1B0cW5NaHRUMTVQaU9QX0VQcXppUURNblBwN3ZpdE5TTzktbDJITWpj?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 01:18:10 GMT",
           "source": "투데이신문"
         },
         {
@@ -42,13 +42,19 @@
           "source": "KBC광주방송"
         },
         {
-          "title": "코스피 뒤흔든 주범은 역대급 과속과 반도체 쏠림 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd05fUHUxQXdELWdEVnRoRGRVLVpyTnVESUFsYV9Zc0FaNlo0WVhuYWtpR2JnUkd5QWJrNnkxQzhGbkMyUW5MY1B5NDFHYjFBc2gyVS1QOF9NMk94eUg1R3MtUERFbHpObXlWR1pkX0Ywd0FiMkhxSFRGTERNY3NnZi1FN3R3WEpoTF9sZkVJYmhUSERlRi1tVFRJN1Nhd05nSml5RWNFMXIxQdIBZkFVX3lxTE9wVF84SjV5cTIzaXVVME9hUjdveTdzdDFyZnE1OWNVZU9YYnFsLV9zQVdsVjcyUklOQUFhU2JCTzJrMXhIRFdpMlN3TVBuMTkybkptWUR6WjJkbHpHOGxRNEZ5cWpYQQ?oc=5",
-          "pub_date": "Thu, 16 Jul 2026 23:04:00 GMT",
-          "source": "동아일보"
+          "title": "AI 광풍의 열기가 식으며 BTC 가격 변동성, 한국 코스피보다 낮아져: 크립토 데일리 - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVE1ySXlXcko2czd1RHBNbi1WR3JxdnFHNk9yR2pSYWQtVzliREdURlNaaHJHRFhrM2oxZmFMMmVINlYxdVQtdDBPdTJWZURWU1RCZnNwNkIweWpZaTRmTjNmRmVjaG5pTHNRNW9ROGhWQUlzQldiTjNEaWdoUExyLXY0bWZYMERhR2NRUk00V1lXN0k5ZWhsRjJaQ1RtY19TWWhzMUplZTZNbEltYUpsV0tGcm5tUDA3MTlzSGdwM1F0RER0?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 11:52:02 GMT",
+          "source": "CoinDesk"
         }
       ],
       "fear_articles": [
+        {
+          "title": "亞증시, 반도체 매도세에 일제히 하락…日·대만 3%대 하락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyQ1VTd2NDWHRFY3FmRmJWcWtRUXdMUU1pQlBnWTlicE8zMDVWRkNTQ1VQYVAxNl9ZNkdNVEZjeE02M3FBY1NFVWhVYXJuS1JhcHZRQ1NRZXZpMTk3LTZFeUEzNHVkd2FpTVV2NzNaVko?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 04:09:01 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "[도쿄증시-마감] 반도체 급락에 닛케이 4% 넘게 하락 - KB Think",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BR3YtZUNGNjU3UDlWQm9QMlJDVFBCeFJET0haTW1TQURINzFFVjNLQnNhRGRrc3RBbElHdnAweVlJd0JXaloyMV9QUUFneUdTVXhnUjFPNWRRaXYzMkxMUDZPbkU3bGlySUJVU0hLZjYxZw?oc=5",
@@ -57,7 +63,7 @@
         },
         {
           "title": "‘7조’ 빨아들인 삼전닉스 레버리지…보완책에 “증시 더 폭락” 왜 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MU2FWUDFsdXM3XzA3eWRwS1lycDBHeEhuY3U5OXIxVEs1emZPS3FVeUJRbDFSZndhYjB1cmh0T3VvUXhHZzcwWXFXQnFJUVk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pdjBKZHNhWW9BUWszcHl6cWM3ZlZITDNBVWVsbEp2dDhqWS14dEUxb0xHRGlqdjNHMXJ2X3VaSzBia1pHZnl6MjJ0eXhXYkZxU2VEeg?oc=5",
           "pub_date": "Fri, 17 Jul 2026 06:48:38 GMT",
           "source": "v.daum.net"
         },
@@ -66,12 +72,6 @@
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HSk9BVkQwZk5PSWVsWTVYNno3WGlwUmEyeURqWG85RmJ3VmUyMl9JSXBheVI1WDByS1loaDVwRzREcTRVT1hQNjJhU0pKbXVBbjVfMg?oc=5",
           "pub_date": "Fri, 17 Jul 2026 01:43:00 GMT",
           "source": "JTBC"
-        },
-        {
-          "title": "亞증시, 반도체 매도세에 일제히 하락…日·대만 3%대 하락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyQ1VTd2NDWHRFY3FmRmJWcWtRUXdMUU1pQlBnWTlicE8zMDVWRkNTQ1VQYVAxNl9ZNkdNVEZjeE02M3FBY1NFVWhVYXJuS1JhcHZRQ1NRZXZpMTk3LTZFeUEzNHVkd2FpTVV2NzNaVko?oc=5",
-          "pub_date": "Fri, 17 Jul 2026 04:09:01 GMT",
-          "source": "연합인포맥스"
         },
         {
           "title": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락 - 연합인포맥스",
@@ -83,7 +83,7 @@
     }
   },
   "volatility": {
-    "vix": 18.06,
+    "vix": 18.16,
     "vvix": 97.31,
     "skew": 145.72,
     "move": 69.55
