@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T16:03:43.321651+09:00",
+  "timestamp": "2026-07-17T18:17:35.510460+09:00",
   "sentiment": {
     "cnn_fng": 42.5714285714286,
     "cnn_components": {
@@ -15,8 +15,14 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 5,
-      "fear_count": 14,
+      "fear_count": 12,
       "greed_articles": [
+        {
+          "title": "일본 버블이 남긴 교훈, 지금 우리 증시는 어느 계절일까ㅣ김동욱의 책GPT - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNUUZxUWVfVmV0azVZSEk0eENUaV9tV3VrYkVTQnFDWkhyeDlFbDF0Ynl3bGFGZE1ia0FMS1dCd0J2X3lkc1haMmxzai1QVE42ajltTEU1OFgtQQ?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 06:11:59 GMT",
+          "source": "한국경제"
+        },
         {
           "title": "[코스닥 1500 ①] 몸집은 키웠는데···30년째 못 넘은 닷컴버블 - 서울파이낸스",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LM3JWbHpoemE1bjg0S2xiRDdpMnNHYk1BcWJUNjM3YUlySE93RkpZUExfUkFZTE5OOWw1ODNRaWdNSHp5emdsUWZLUzhfNi0xdnA0b09nZURIdmhPeVRkN2tlWDFkN2xOSUE?oc=5",
@@ -36,12 +42,6 @@
           "source": "KBC광주방송"
         },
         {
-          "title": "일본 버블이 남긴 교훈, 지금 우리 증시는 어느 계절일까ㅣ김동욱의 책GPT - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNUUZxUWVfVmV0azVZSEk0eENUaV9tV3VrYkVTQnFDWkhyeDlFbDF0Ynl3bGFGZE1ia0FMS1dCd0J2X3lkc1haMmxzai1QVE42ajltTEU1OFgtQQ?oc=5",
-          "pub_date": "Fri, 17 Jul 2026 06:11:59 GMT",
-          "source": "한국경제"
-        },
-        {
           "title": "코스피 뒤흔든 주범은 역대급 과속과 반도체 쏠림 - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd05fUHUxQXdELWdEVnRoRGRVLVpyTnVESUFsYV9Zc0FaNlo0WVhuYWtpR2JnUkd5QWJrNnkxQzhGbkMyUW5MY1B5NDFHYjFBc2gyVS1QOF9NMk94eUg1R3MtUERFbHpObXlWR1pkX0Ywd0FiMkhxSFRGTERNY3NnZi1FN3R3WEpoTF9sZkVJYmhUSERlRi1tVFRJN1Nhd05nSml5RWNFMXIxQdIBZkFVX3lxTE9wVF84SjV5cTIzaXVVME9hUjdveTdzdDFyZnE1OWNVZU9YYnFsLV9zQVdsVjcyUklOQUFhU2JCTzJrMXhIRFdpMlN3TVBuMTkybkptWUR6WjJkbHpHOGxRNEZ5cWpYQQ?oc=5",
           "pub_date": "Thu, 16 Jul 2026 23:04:00 GMT",
@@ -56,16 +56,16 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "[도쿄증시-마감] 반도체 급락에 닛케이 4% 넘게 하락 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BR3YtZUNGNjU3UDlWQm9QMlJDVFBCeFJET0haTW1TQURINzFFVjNLQnNhRGRrc3RBbElHdnAweVlJd0JXaloyMV9QUUFneUdTVXhnUjFPNWRRaXYzMkxMUDZPbkU3bGlySUJVU0hLZjYxZw?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 06:42:32 GMT",
+          "source": "KB Think"
+        },
+        {
           "title": "SK하이닉스, ADR 상장에도…코스피 급락한 이유는? [이주엔 머니] - JTBC",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HSk9BVkQwZk5PSWVsWTVYNno3WGlwUmEyeURqWG85RmJ3VmUyMl9JSXBheVI1WDByS1loaDVwRzREcTRVT1hQNjJhU0pKbXVBbjVfMg?oc=5",
           "pub_date": "Fri, 17 Jul 2026 01:43:00 GMT",
           "source": "JTBC"
-        },
-        {
-          "title": "반도체주 급락에 뉴욕증시 하락…호실적도 무색 - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GNUx4cloxbnpYT1pEamdxQ21HcWRYR2VaMmh2cVl4cUZ3SEFqVzhvUzNQOUFfb2NzQjl4NHhPLUV5cEo4WE43QllIZDBvXzJKZHB5UVR0NjM4SktOQk1N?oc=5",
-          "pub_date": "Fri, 17 Jul 2026 01:00:58 GMT",
-          "source": "조세일보"
         },
         {
           "title": "亞증시, 반도체 매도세에 일제히 하락…日·대만 3%대 하락 - 연합인포맥스",
@@ -83,7 +83,7 @@
     }
   },
   "volatility": {
-    "vix": 16.73,
+    "vix": 18.45,
     "vvix": 97.31,
     "skew": 145.72,
     "move": 69.55
