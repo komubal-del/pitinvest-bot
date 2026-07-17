@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T08:38:18.565631+09:00",
+  "timestamp": "2026-07-17T10:11:53.526910+09:00",
   "sentiment": {
     "cnn_fng": 41.6857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 7,
+      "fear_count": 12,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -25,6 +25,12 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "日 증시, 美 반도체 투매에 하락…닛케이 3% 가까이 떨어져 64,000선 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MUEJrS3pnS2Y5dlJMS25WQjlmMTQwejU3TnE5UV9YSHVOQS1NelBsNVUxTWxRV3V2Z0pRNnkteDZBMGcwcUp4TUt1b1QzcUg2UndLampGX1ZabnZGUThxTnd3VktqVDZ2OG8wWlNmQTFNQQ?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 00:31:50 GMT",
+          "source": "KB Think"
+        },
+        {
           "title": "반도체주 급락에 뉴욕증시 하락…나스닥 1.47%↓ - KBS 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kbXBYT2pkYjZERGlJVWJYN2I0Mkk1X1cwTFd1d3VNVklfbVIwNV9nU0JYbU4yZWlIdGNqbGNjbzFlbm1Mcm9HU3RRMC1YeXJ0U1VFZmdSU1lIbXc?oc=5",
           "pub_date": "Thu, 16 Jul 2026 21:49:00 GMT",
@@ -32,21 +38,15 @@
         },
         {
           "title": "반도체 투매에 뉴욕증시 하락…나스닥 1.5%↓ - 중소기업신문",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41cHh6bzItcWZrM1pRZFY1bDU2a2RpVzhHLVJEZlJFRmx4a3g5Wm9fZkUwVW5XeXNsaWNNSVlDWDdqU3BXcEFCWXVJeXpqaTNiNU5mU2VGcWV1VDhVZXdLQXRCbnIzcG1SaU9XWg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwVUtZby1wVmRfU3BnV1lyOHJmcU91bDl5YzNKNkZ5S212M0wwTFVmclI4NmhCam5kbkNpLXVKS3U5N3NLZF9VWmxOc3JuR3FBLUxhb1B0dTR3RTM2TXJsMmVFYjJha1dpSV9UY2ln?oc=5",
           "pub_date": "Thu, 16 Jul 2026 23:07:43 GMT",
           "source": "중소기업신문"
         },
         {
-          "title": "[뉴욕증시] 반도체주 '털썩' 나스닥 387p↓...SK하이닉스 ADR 13% 폭락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZHVsUWh3YjNfVkpBVXhPd1dQR1BBRVROZGhiX0pHbGhXZV9LdXZlVjNHc3B0cWd4MXVGU3RvMG44OUxQbl8yRTlrdTQ4eWVWX0xKOHRhTFlaVG1QZzFFQ1dwZ0RTanJMUHlHeDRqX244NlVNdkVXRW4wQXFzWFZ5SEJWdFpLTlRC?oc=5",
-          "pub_date": "Thu, 16 Jul 2026 20:41:50 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "‘미장’이나 ‘국장’이나…뉴욕증시, 반도체주 매도세에 약세… AI 고평가 논란 부담 - dt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tYU1JS1o2UHBsdkZyVXFCUVQ3S3BXUE85WURjRi15RWNmYW9kOXhnbm9hUktfWkszOUZ6QXJKMzNubzdzeUZMdHB2bG1nZw?oc=5",
-          "pub_date": "Thu, 16 Jul 2026 21:34:57 GMT",
-          "source": "dt.co.kr"
+          "title": "[뉴욕증시] TSMC發 AI 투자 회의론, 반도체주 '또 급락'···M7 동반 약세 - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83WUZaSlZwUmlRTFVPbzhyU3NmVmZ4WWsxTjNMSVZMaDk5SUNsT3FXWTlkTkNvZVlVaUVncUFRTmo1RWktcmJkM0tIY2xfRjRxU2JZMEVBRUV1SXUyTm5UekcyNG1PQXlrOGc?oc=5",
+          "pub_date": "Fri, 17 Jul 2026 00:04:50 GMT",
+          "source": "서울파이낸스"
         }
       ]
     }
