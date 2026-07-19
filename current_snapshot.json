@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T01:35:51.962406+09:00",
+  "timestamp": "2026-07-20T02:41:48.445836+09:00",
   "sentiment": {
     "cnn_fng": 37.0571428571429,
     "cnn_components": {
@@ -26,16 +26,16 @@
       ],
       "fear_articles": [
         {
+          "title": "같은 SK하이닉스? 美 '프리미엄' 韓 '급락'…레버리지 ETF에 국내 증시 '늪' - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10RDNabHdtMkdaUHNBTVNqcV8waUNHcnVka1ZFNWM2WGJGSUhyZTVGV0phSDZOc1JNX3NveEp0OXRkOFNDQXB4YmJsbTF1TWllR1dBUdIBVEFVX3lxTE10RDNabHdtMkdaUHNBTVNqcV8waUNHcnVka1ZFNWM2WGJGSUhyZTVGV0phSDZOc1JNX3NveEp0OXRkOFNDQXB4YmJsbTF1TWllR1dBUQ?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 15:00:00 GMT",
+          "source": "더팩트"
+        },
+        {
           "title": "[주식전망] 삼성전자 급락에 반도체 한파까지…20일 증시 ‘긴장’ : 네이버 블로그 - Naver Blog",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa192YklXNWtXODFZQXIwYUd6T0ZjWjRmOWE3WV80a2VyWmRIa09iMUZUTjRVRkVrelQ0VThMdnNYRkI1dHczcHpFT2oyWGZOZW10blgzel9nU2IxWjJwdlRPVFAxX2dkRklzZFZNVXY0XzlBcVpuRnJOLXZTVnd6MnJiQVhYSHBqeWhUV1ZIcw?oc=5",
           "pub_date": "Sun, 19 Jul 2026 16:31:48 GMT",
           "source": "Naver Blog"
-        },
-        {
-          "title": "같은 SK하이닉스? 美 '프리미엄' 韓 '급락'…레버리지 ETF에 국내 증시 '늪' - 더팩트",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hS2toemxCc1dGMmFJMWdBRUpHTklzdEFYSnhFRGxmVmFHZUFicWNMRXo3M0hVV2V4QllYRF9mNmNnbGFCM2hxb2ZSMVZ2TEJNNnlFdWEwMUowUdIBVEFVX3lxTE10RDNabHdtMkdaUHNBTVNqcV8waUNHcnVka1ZFNWM2WGJGSUhyZTVGV0phSDZOc1JNX3NveEp0OXRkOFNDQXB4YmJsbTF1TWllR1dBUQ?oc=5",
-          "pub_date": "Sun, 19 Jul 2026 15:00:01 GMT",
-          "source": "더팩트"
         }
       ]
     }
