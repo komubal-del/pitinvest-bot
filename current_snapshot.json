@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T00:38:17.124319+09:00",
+  "timestamp": "2026-07-20T01:35:51.962406+09:00",
   "sentiment": {
     "cnn_fng": 37.0571428571429,
     "cnn_components": {
@@ -14,10 +14,23 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "증시 빚투 늘자… 5대은행 가계대출 年목표치보다 3500억 초과 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93QXBnaVp0X1VMQ1FJR0Y2alZHMURMUV9aWktSanc1MnZVbXhmYjdPLVY0djNGR2pseS1URWtSTTNabXJOWTdBNXNaZHNZQnZQOFVUb182Zk1CTmc4YzAzNXV4S1ppQdIBZkFVX3lxTE93QXBnaVp0X1VMQ1FJR0Y2alZHMURMUV9aWktSanc1MnZVbXhmYjdPLVY0djNGR2pseS1URWtSTTNabXJOWTdBNXNaZHNZQnZQOFVUb182Zk1CTmc4YzAzNXV4S1ppQQ?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 15:30:00 GMT",
+          "source": "동아일보"
+        }
+      ],
       "fear_articles": [
+        {
+          "title": "[주식전망] 삼성전자 급락에 반도체 한파까지…20일 증시 ‘긴장’ : 네이버 블로그 - Naver Blog",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa192YklXNWtXODFZQXIwYUd6T0ZjWjRmOWE3WV80a2VyWmRIa09iMUZUTjRVRkVrelQ0VThMdnNYRkI1dHczcHpFT2oyWGZOZW10blgzel9nU2IxWjJwdlRPVFAxX2dkRklzZFZNVXY0XzlBcVpuRnJOLXZTVnd6MnJiQVhYSHBqeWhUV1ZIcw?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 16:31:48 GMT",
+          "source": "Naver Blog"
+        },
         {
           "title": "같은 SK하이닉스? 美 '프리미엄' 韓 '급락'…레버리지 ETF에 국내 증시 '늪' - 더팩트",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hS2toemxCc1dGMmFJMWdBRUpHTklzdEFYSnhFRGxmVmFHZUFicWNMRXo3M0hVV2V4QllYRF9mNmNnbGFCM2hxb2ZSMVZ2TEJNNnlFdWEwMUowUdIBVEFVX3lxTE10RDNabHdtMkdaUHNBTVNqcV8waUNHcnVka1ZFNWM2WGJGSUhyZTVGV0phSDZOc1JNX3NveEp0OXRkOFNDQXB4YmJsbTF1TWllR1dBUQ?oc=5",
@@ -294,7 +307,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 175.668,
+    "strategy_pct": 176.108,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -851,6 +864,10 @@
       {
         "date": "2026-07-17",
         "ret_pct": 175.668
+      },
+      {
+        "date": "2026-07-20",
+        "ret_pct": 176.108
       }
     ],
     "monthly_breakdown": [
@@ -892,8 +909,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -50.08,
-        "end_ret_pct": 175.67,
+        "return_pct": -49.64,
+        "end_ret_pct": 176.11,
         "max_dd_pct": 60.8
       }
     ],
