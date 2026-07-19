@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T07:01:04.482168+09:00",
+  "timestamp": "2026-07-20T08:01:56.705367+09:00",
   "sentiment": {
     "cnn_fng": 37.0571428571429,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 2,
+      "fear_count": 6,
       "greed_articles": [
         {
           "title": "증시 빚투 늘자… 5대은행 가계대출 年목표치보다 3500억 초과 - 동아일보",
@@ -26,16 +26,34 @@
       ],
       "fear_articles": [
         {
+          "title": "반도체 대장주 30% 폭락 속 월가 흔드는 코스피… 개미 잔혹사 오나 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVl82NzJmMVVzcmFncnQ1WWhEMnNwZzA0dWtrNDFHck5uRnRhLWJtZ2VHTjdPaThqcVJHckFTXzV3TFB0VXBnclNCVWI3VXNVZjFXSG82NVRmb1N2YnV1dUhWNkpvV0FNV2tMNHk5Tm1QSnJRMkpTN3h2dkt2dWUxT25PemJfQWJO?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 22:26:16 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "코스피 '검은 월요일' 오나…中 무료 AI 쇼크에 반도체주 급락 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HUUhsN3N3QmlSUmVCNU81Ri1PMnNMRWVHbGNtWGxNNDFpY0dIR2RSc0h5R285Y19CcjB5SkRicXN4ckhZUTFIQXRHdWlrS19FZmhiUUVoTVA2Zw?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 22:07:40 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "[증시키워드] 반도체 급락에도 “펀더멘털 훼손 아니다”…SK하이닉스·삼성전자 반등 조건은 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3N3dod1d0eUpDdGdNaU93ZWpCMzU5Sk1vd0I0SmpLUGo4dm1HWWNFbnVjQUZnN3JtNERJSTZ1M1VYZDQyT1FQT2U5OERNNkN5ZHB0Xw?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 21:38:00 GMT",
+          "source": "이투데이"
+        },
+        {
+          "title": "“코스피 급락, 반도체 사이클 종료 아냐…반등 열쇠는 빅테크 주문” - edaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMzVtTGFjWEhLX3hlMXU4dGNLSXdLcXZZYldKYkdQM3d3UHFOYVV2MjZJcnIyNG0xaGJIcHh6M3lBSUZZeXRsVl9RamFWamdqU1FubTdiWncybXpRaEFjVm9VSFIzTk5kRmpiaGRyMS05QkJyam4wQzNMeTBVZVhaTA?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 22:49:40 GMT",
+          "source": "edaily.co.kr"
+        },
+        {
           "title": "같은 SK하이닉스? 美 '프리미엄' 韓 '급락'…레버리지 ETF에 국내 증시 '늪' - 더팩트",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hS2toemxCc1dGMmFJMWdBRUpHTklzdEFYSnhFRGxmVmFHZUFicWNMRXo3M0hVV2V4QllYRF9mNmNnbGFCM2hxb2ZSMVZ2TEJNNnlFdWEwMUowUdIBVEFVX3lxTE10RDNabHdtMkdaUHNBTVNqcV8waUNHcnVka1ZFNWM2WGJGSUhyZTVGV0phSDZOc1JNX3NveEp0OXRkOFNDQXB4YmJsbTF1TWllR1dBUQ?oc=5",
           "pub_date": "Sun, 19 Jul 2026 15:00:01 GMT",
           "source": "더팩트"
-        },
-        {
-          "title": "[주식전망] 삼성전자 급락에 반도체 한파까지…20일 증시 ‘긴장’ : 네이버 블로그 - Naver Blog",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa192YklXNWtXODFZQXIwYUd6T0ZjWjRmOWE3WV80a2VyWmRIa09iMUZUTjRVRkVrelQ0VThMdnNYRkI1dHczcHpFT2oyWGZOZW10blgzel9nU2IxWjJwdlRPVFAxX2dkRklzZFZNVXY0XzlBcVpuRnJOLXZTVnd6MnJiQVhYSHBqeWhUV1ZIcw?oc=5",
-          "pub_date": "Sun, 19 Jul 2026 19:31:40 GMT",
-          "source": "Naver Blog"
         }
       ]
     }
@@ -49,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -3749600000000,
     "retail_net_buy_krw": 3664700000000,
-    "margin_loan_krw": 34191000000000,
+    "margin_loan_krw": 33850200000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
