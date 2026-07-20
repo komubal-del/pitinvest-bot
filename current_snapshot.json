@@ -1,27 +1,33 @@
 {
-  "timestamp": "2026-07-20T21:28:08.176280+09:00",
+  "timestamp": "2026-07-20T23:57:41.388130+09:00",
   "sentiment": {
-    "cnn_fng": 37.0571428571429,
+    "cnn_fng": 38.1714285714286,
     "cnn_components": {
-      "momentum": 35.4,
-      "strength": 39.2,
-      "breadth": 21.4,
-      "put_call": 36.0,
-      "junk_bond": 32.6,
+      "momentum": 37.0,
+      "strength": 39.0,
+      "breadth": 20.0,
+      "put_call": 33.2,
+      "junk_bond": 44.8,
       "volatility": 50.0,
-      "safe_haven": 44.8
+      "safe_haven": 42.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 41,
+      "greed_count": 3,
+      "fear_count": 37,
       "greed_articles": [
         {
           "title": "코스닥, 고점 대비 40% ’뚝’…李 정부 출범 전으로 회귀 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TZnhsaExBY1JNc2dvUzg3aU5SNjh4TThBbWphOUlHYTNVd3pURm9qUDlVMGJnWkMzYUlFSXVPRlRRLTl0ZVN2YzV3MjNkNHEzbTE3c2VpQWhkT2JaUVdlQW90c0lGM0k?oc=5",
           "pub_date": "Mon, 20 Jul 2026 08:40:00 GMT",
           "source": "연합뉴스TV"
+        },
+        {
+          "title": "중국발 'AI 쇼크'·반도체 고점론에 코스피 4.4%↓ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BdTY3TXJjbEFUaWUzM1FYQ2FPUHRjRE5MZkpMekNidXEzQXNvZnZzUXk3VXJNR1l6MGJGWUpjTmNWWXdBVEFVdlFaZ2lpZ28?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 11:27:07 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "코스피 고점 대비 30% 하락에도 하단은 6000? - 문화일보",
@@ -32,16 +38,16 @@
       ],
       "fear_articles": [
         {
-          "title": "’키미 쇼크’ 코스피 4% 급락…6,500선 ’턱걸이’ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ReUc4N1VOVGpHWTRrYWlqQ3FHc3Q3V0VYVzJRZHJOUHZ4T1cyUDBIaWFieVlkd01rQnFtalhSMkUzbmltRGtMM2tBZkk2VnpqWmNmcEc2V2tyQmZiT2dsTHNKd3BDa2c?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 11:48:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
           "title": "코스피·코스닥 장중 5% 급락...나란히 매도 사이드카 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVY0WExZanFzUmhDVFRqS0JkSE1SWVNTc21CZVQtUkVBS0NPay1sMUY2eld6XzZXamxuSzFUcVd5cHJJa3gtaHhqTGlMb0g2YTdnY2ktcFR0MFBMMWtOV2JaUXVIM0dEZzR0QmFSb1I0VHpweU5Ea2twbENnWFJZMg?oc=5",
           "pub_date": "Mon, 20 Jul 2026 04:41:26 GMT",
           "source": "조선일보"
+        },
+        {
+          "title": "’키미 쇼크’ 코스피 4% 급락…6,500선 ’턱걸이’ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ReUc4N1VOVGpHWTRrYWlqQ3FHc3Q3V0VYVzJRZHJOUHZ4T1cyUDBIaWFieVlkd01rQnFtalhSMkUzbmltRGtMM2tBZkk2VnpqWmNmcEc2V2tyQmZiT2dsTHNKd3BDa2c?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 11:48:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
           "title": "증시 동반 매도 사이드카...\"키미 쇼크에 폭락\" - YTN",
@@ -56,17 +62,17 @@
           "source": "국제신문"
         },
         {
-          "title": "코스피·코스닥 동반 급락…장중 매도 사이드카 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aZEN3WHdBR3NqeUlrODNUeFpEbHQ0M1p6a0tCZV83VV9sQWZxbHRhYzBGdk8zRnUtdVlMSHVJQ1E2ZEhrYUE?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 09:31:31 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 4% 급락에 매도 사이드카…중국 AI ‘키미 쇼크’ - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wUFRnWmJDYUxxODB3bElnSi0tV0V1NVdqczNmSFBnRWZEaVU4bG5Mc0dRNnFmVFM2S0tnS1hpcDhzb01lcjFsWFFtR1ctSXJ1eVMwRkJQQU1MS1pMNWFuSWIzdGNIc3c?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 03:06:00 GMT",
+          "source": "한겨레"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.21,
-    "vvix": 104.87,
+    "vix": 18.22,
+    "vvix": 100.36,
     "skew": 147.28,
     "move": 70.88
   },
@@ -80,11 +86,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25520.24,
+      "current": 25586.5,
       "high_52w": 27190.21,
-      "drop_pct": -6.14,
-      "intraday_low_drop_pct": -7.13,
-      "sma_200": 23877.26
+      "drop_pct": -5.9,
+      "intraday_low_drop_pct": -5.9,
+      "sma_200": 23891.89
     },
     "kospi": {
       "current": 6516.27,
@@ -101,34 +107,34 @@
       "sma_200": 1002.81
     },
     "sp500": {
-      "current": 7457.69,
+      "current": 7464.74,
       "high_52w": 7620.9,
-      "drop_pct": -2.14,
-      "intraday_low_drop_pct": -2.49,
-      "sma_200": 6987.23
+      "drop_pct": -2.05,
+      "intraday_low_drop_pct": -2.05,
+      "sma_200": 6991.11
     },
     "russell2k": {
-      "current": 2962.22,
+      "current": 2955.35,
       "high_52w": 3046.59,
-      "drop_pct": -2.77,
-      "intraday_low_drop_pct": -3.69,
-      "sma_200": 2652.1
+      "drop_pct": -2.99,
+      "intraday_low_drop_pct": -2.99,
+      "sma_200": 2654.7
     },
     "soxx": {
-      "current": 521.81,
+      "current": 526.95,
       "high_52w": 655.95,
-      "drop_pct": -20.45,
-      "intraday_low_drop_pct": -24.0,
-      "sma_200": 390.6
+      "drop_pct": -19.67,
+      "intraday_low_drop_pct": -19.7,
+      "sma_200": 391.88
     }
   },
   "sector_rs": {
-    "XLK": 1.082,
-    "SMH": 1.141,
-    "BOTZ": 0.873,
-    "IGV": 1.023,
-    "XLF": 1.02,
-    "XLE": 1.003
+    "XLK": 1.083,
+    "SMH": 1.148,
+    "BOTZ": 0.869,
+    "IGV": 1.019,
+    "XLF": 1.016,
+    "XLE": 1.012
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 53.58,
+    "tqqq_profit_pct": 55.47,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 153.21,
+    "soxl_profit_pct": 159.89,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.03,
+    "koru_profit_pct": -94.99,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
