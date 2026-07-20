@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T08:01:56.705367+09:00",
+  "timestamp": "2026-07-20T09:04:52.678875+09:00",
   "sentiment": {
     "cnn_fng": 37.0571428571429,
     "cnn_components": {
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 6,
+      "greed_count": 3,
+      "fear_count": 7,
       "greed_articles": [
         {
-          "title": "증시 빚투 늘자… 5대은행 가계대출 年목표치보다 3500억 초과 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93QXBnaVp0X1VMQ1FJR0Y2alZHMURMUV9aWktSanc1MnZVbXhmYjdPLVY0djNGR2pseS1URWtSTTNabXJOWTdBNXNaZHNZQnZQOFVUb182Zk1CTmc4YzAzNXV4S1ppQdIBZkFVX3lxTE93QXBnaVp0X1VMQ1FJR0Y2alZHMURMUV9aWktSanc1MnZVbXhmYjdPLVY0djNGR2pseS1URWtSTTNabXJOWTdBNXNaZHNZQnZQOFVUb182Zk1CTmc4YzAzNXV4S1ppQQ?oc=5",
-          "pub_date": "Sun, 19 Jul 2026 15:30:00 GMT",
-          "source": "동아일보"
+          "title": "[모닝 리포트] \"고점 대비 25% 급락한 코스피, AI 실적시즌이 반등 시험대\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2bnZHQVN2N2xBNGZHamRfTVN0YlF4NC1jbVlkc1R3cUdWbnI1c2lxMkR1TkhmbDhMbzlJdUJrRE5SdFJJWGlkcUpjOVh2cUNLVTNPVl9Mb3NXZzZw?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 23:57:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "“코스피 연말까지 박스권 탐색…전고점 탈환보다 변동성 장세 전망” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMVR5eEJrbHVoY1FlOWJfTlhuZUp3a0o3aEtkOUZ0OXVMeEdlY0N0bzhMYTdVekM1alRDSVM3VU9ka0x0VkVNcGJJVjMwVjhaUjlEMEZJN21oTnRWSXpoRmtqOWY2al9wOGdtemZaUlMxOC13azlHV1RqQVFlV3JxYXRTU0t1QjNQ0gGcAUFVX3lxTE5UdHRRUWdYX1RBLThUZWFIMTFMNlN3QThPTm5rTVozY3V0bXR5blVCU3JPQkQ4SENKa3FucXY5ZFhhZkRmVXRZNjVDVGZaN0dNdjkzNjJaN2hzenVnd2xTZ1FQWTV0YV9pUGpLNTRoT1NiSWVVNmgyemdJU2VrMlhqeWw2M0pfSUlPd3NKUno3R1REWXd1Wk9NVy1WNw?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 23:58:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "[주간증시전망] 스피 6월 고점 대비 25% 급락…반등 관건은 '반도체주' - 자본시장뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51TG12M2psZmdaMDg2SmlPOEx6WDctcG56U2JaMmNXODI5R1E1QWd3TU04eXZUYWdRWldEaDRMOUwtV0hLNktlQ2NqbU8xdk5WWGVucmxmZkZfcEJDV0tGalp0UElTSDg?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 22:00:00 GMT",
+          "source": "자본시장뉴스"
         }
       ],
       "fear_articles": [
@@ -32,16 +44,16 @@
           "source": "글로벌이코노믹"
         },
         {
+          "title": "[오늘의 투자전략] 코스피 25% 급락, 밸류에이션 금융위기 수준…6000선 지지 가능성은? - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfNDhKRjFkbWlBTlFTYm42QVdPamFkSkt6QVYtVjZfVzdGMjUtQW96bkxXbWRiM0FlMmR1UUhQMlg5bW9hRlVma3NpTHl2OHBucVIyRQ?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 22:57:00 GMT",
+          "source": "이투데이"
+        },
+        {
           "title": "코스피 '검은 월요일' 오나…中 무료 AI 쇼크에 반도체주 급락 - 파이낸셜뉴스",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HUUhsN3N3QmlSUmVCNU81Ri1PMnNMRWVHbGNtWGxNNDFpY0dIR2RSc0h5R285Y19CcjB5SkRicXN4ckhZUTFIQXRHdWlrS19FZmhiUUVoTVA2Zw?oc=5",
           "pub_date": "Sun, 19 Jul 2026 22:07:40 GMT",
           "source": "파이낸셜뉴스"
-        },
-        {
-          "title": "[증시키워드] 반도체 급락에도 “펀더멘털 훼손 아니다”…SK하이닉스·삼성전자 반등 조건은 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3N3dod1d0eUpDdGdNaU93ZWpCMzU5Sk1vd0I0SmpLUGo4dm1HWWNFbnVjQUZnN3JtNERJSTZ1M1VYZDQyT1FQT2U5OERNNkN5ZHB0Xw?oc=5",
-          "pub_date": "Sun, 19 Jul 2026 21:38:00 GMT",
-          "source": "이투데이"
         },
         {
           "title": "“코스피 급락, 반도체 사이클 종료 아냐…반등 열쇠는 빅테크 주문” - edaily.co.kr",
@@ -50,10 +62,10 @@
           "source": "edaily.co.kr"
         },
         {
-          "title": "같은 SK하이닉스? 美 '프리미엄' 韓 '급락'…레버리지 ETF에 국내 증시 '늪' - 더팩트",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hS2toemxCc1dGMmFJMWdBRUpHTklzdEFYSnhFRGxmVmFHZUFicWNMRXo3M0hVV2V4QllYRF9mNmNnbGFCM2hxb2ZSMVZ2TEJNNnlFdWEwMUowUdIBVEFVX3lxTE10RDNabHdtMkdaUHNBTVNqcV8waUNHcnVka1ZFNWM2WGJGSUhyZTVGV0phSDZOc1JNX3NveEp0OXRkOFNDQXB4YmJsbTF1TWllR1dBUQ?oc=5",
-          "pub_date": "Sun, 19 Jul 2026 15:00:01 GMT",
-          "source": "더팩트"
+          "title": "[증시키워드] 반도체 급락에도 “펀더멘털 훼손 아니다”…SK하이닉스·삼성전자 반등 조건은 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3N3dod1d0eUpDdGdNaU93ZWpCMzU5Sk1vd0I0SmpLUGo4dm1HWWNFbnVjQUZnN3JtNERJSTZ1M1VYZDQyT1FQT2U5OERNNkN5ZHB0Xw?oc=5",
+          "pub_date": "Sun, 19 Jul 2026 21:38:00 GMT",
+          "source": "이투데이"
         }
       ]
     }
@@ -65,8 +77,8 @@
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3749600000000,
-    "retail_net_buy_krw": 3664700000000,
+    "foreign_inst_buy_krw": -170500000000,
+    "retail_net_buy_krw": 168700000000,
     "margin_loan_krw": 33850200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -282,8 +294,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-07-17",
-    "analyzed_at": "2026-07-17T13:31:08.507895+09:00",
+    "date": "2026-07-20",
+    "analyzed_at": "2026-07-20T09:04:57.563849+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -300,7 +312,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 반도체 급락 이후의 시장 상황 변화와 수급 동향을 분석하겠다는 내용을 제시할 뿐, 구체적인 매수 또는 매도 행동을 명확히 권고하지 않습니다."
+          "reason": "제목은 반도체 급락 이후의 시장 변화(수급 변화)에 대한 분석을 예고할 뿐, 구체적인 현금화/매수/매도 등의 행동 권고가 명확히 제시되어 있지 않습니다."
         }
       },
       {
@@ -313,7 +325,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "시장 리스크와 부정적 경제 지표(감익, 실적미스, 프로젝트 지연/취소)를 언급하며 비추세 시장에서 리스크 관리 및 단기적 대응(Trading Buy)을 강조하나, 명확한 현금화, 비중 축소, 매도 등의 구체적인 행동 권고는 없습니다."
+          "reason": "전문가는 시장 고점 확인, 감익 우려, 비추세 시장, 그리고 리스크 관리의 중요성을 언급하며 구체적인 매도 권고 없이 상황 분석과 함께 'Trading Buy'라는 전술적 접근을 제시하고 있습니다."
         }
       }
     ],
