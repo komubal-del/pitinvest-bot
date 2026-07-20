@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T16:20:59.436142+09:00",
+  "timestamp": "2026-07-20T19:22:22.133845+09:00",
   "sentiment": {
     "cnn_fng": 37.0571428571429,
     "cnn_components": {
@@ -14,59 +14,65 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 47,
+      "greed_count": 2,
+      "fear_count": 35,
       "greed_articles": [
         {
-          "title": "로이터 \"한국증시, 개별 종목 레버리지 ETF·'빚투'에 변동성 극심\" - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0laYjNUejgxMlIxR0laazBQMHA1bTZWcWhLak1aUVp3Tm8ta3F3bVVoZUpmbVMwUktHbFFoRlA3ejR6a3lqU0p4aXUzOGRqTWZFdUxMejRVUUNFNS1pSnZOYUx1d1Q0RWF6RU5BNEYzMkxsUXVHaGc5M1JJcEJPY29ISkJqNU1q?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 05:02:38 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스닥, 고점 대비 40% ’뚝’…李 정부 출범 전으로 회귀 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TZnhsaExBY1JNc2dvUzg3aU5SNjh4TThBbWphOUlHYTNVd3pURm9qUDlVMGJnWkMzYUlFSXVPRlRRLTl0ZVN2YzV3MjNkNHEzbTE3c2VpQWhkT2JaUVdlQW90c0lGM0k?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 08:40:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스피 고점 대비 30% 하락에도 하단은 6000? - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrcHI0MFFNVWFRd3pWSEllZFVJY0Q1eU5vRDF1RUdmT3JEZ2NLU2dwSEw1LWo2WUprUkpfUHRocU9qNXVhUVZuaFRnSU5zdWV4?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 08:20:55 GMT",
+          "source": "문화일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 4%대 급락 마감…6,500선 ’턱걸이’ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uQ1lua1lneDJLNF80YnV2LWVlVzBfc0xZekJhV0ZJVHl1R0MyaTlWQkpnOGw1a3RsbXFHcVFiTHF1ZHF3RWxaSWJFN1lUNEpLZVc5aUFwcGF1cXVlUFV6eHJyY1RKUkk?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 07:01:00 GMT",
+          "title": "코스피·코스닥 동반 급락…장중 매도 사이드카 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iaTIybS1HR1dLRzNNN1dtSG5OWTlhWWotMnJMVTJQTXJTNW5WYmFlYXVqVU1NWncxMVVzeTlVdUhLZV94SlIzREI2bTVId2p3YkJVRFlxVVZ6ME9GWUF6SEpWYTJ2Zjg?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 09:29:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "[증시-마감] 코스피 4.46% 급락…6,500선 간신히 사수 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4VWVyS2N5VEdkVmlDV1d2TWFfeUtJc3o5dUJCRVVRY2d1TDFmdVN2aTZsV2tjeGZ5SzZ0cVdsYkJwVWJHZ2VzU2JzUXc4QzhRUlFIZFliNmZkVnA5Um9pdG1kRXpwLWZXeU9vbC11ejI?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 06:58:52 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피·코스닥 장중 5% 급락...나란히 매도 사이드카 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVY0WExZanFzUmhDVFRqS0JkSE1SWVNTc21CZVQtUkVBS0NPay1sMUY2eld6XzZXamxuSzFUcVd5cHJJa3gtaHhqTGlMb0g2YTdnY2ktcFR0MFBMMWtOV2JaUXVIM0dEZzR0QmFSb1I0VHpweU5Ea2twbENnWFJZMg?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 04:41:26 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "코스피 4% 급락에 매도 사이드카…중국 AI ‘키미 쇼크’ - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wUFRnWmJDYUxxODB3bElnSi0tV0V1NVdqczNmSFBnRWZEaVU4bG5Mc0dRNnFmVFM2S0tnS1hpcDhzb01lcjFsWFFtR1ctSXJ1eVMwRkJQQU1MS1pMNWFuSWIzdGNIc3c?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 03:06:00 GMT",
-          "source": "한겨레"
+          "title": "코스피·코스닥 또 급락...2거래일째 매도 사이드카 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQdUpNRDhQVGZvNEp3YzlHa01pUnMwYW45MEpHTXYycW9DcV8wUUxRUlMyNHI2WWU5NlpLSndBWW9rQ2czbUtoNGtvb3ZlcnB5NUtSbkY2V05xS1VQTnc?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 07:28:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "[속보] 코스피, 4.5% 급락해 6,500선 턱걸이‥코스닥도 5.3% 하락 - MBC 뉴스",
+          "title": "코스피, 4.5% 급락해 6,500선 턱걸이‥코스닥도 5.3% 하락 - MBC 뉴스",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ENUF4MnBZSGJmbFQ1dTlESkFMdTZqQlZpWG9ZMkxBUVJrMU4tMDNIZ2tXbDctanNsNGRTd1FHVXJubk9uaFk2U2laQ3pTdGMybUI5WWpCb2VMZGVlRWEzTGhQZWlPdWZmc0tFRXVuME5fUEVo0gF0QVVfeXFMT3JZYnRrRThzSnRRbEhsWHlzQ0VFUkdMR2liY0RYUlJFQlVpVU11SllyaG9rOEN5UERjWndlZmJHZVZuX0ZoZmo1eGMtVkpMdnRtWTNzWTRXMGF2bncwWmo0d1JUR09LTHZ3RTc0RElUR1E4cVk?oc=5",
           "pub_date": "Mon, 20 Jul 2026 06:46:37 GMT",
           "source": "MBC 뉴스"
         },
         {
-          "title": "코스피 4.46% 급락해 6,500선 턱걸이…코스닥도 5% 넘게 하락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SNF8zVGxYLVVrbVkwRTNBdVhvR0ZEejlOa1RZLTlaSElaQVlDcUR1c0ZWLW5ta1hBZnFyQmNHNjQwQ1JrZmszR2lrZ1FWMG1YTkY4YmQzbF91S0U?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 07:17:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "[0720마감체크] 반도체 피크아웃 우려·중동 악재에 코스피·코스닥 급락 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42MjlRaVh0aEhxZlhrVWdLOHVLUkZvV1A2NkJvU2lob2UwOWp2Wld4bTVxYUgxOUNJcWQ2bmROWUVfSmVodmZ4YWJyTG1iSUtKcy0teTdrUk94cEpVVGp4R2lCU3RXVWVodEg3Wjk3bHU?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 09:05:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.77,
+    "vix": 18.38,
     "vvix": 104.87,
     "skew": 147.28,
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -403800000000,
-    "retail_net_buy_krw": 349100000000,
+    "foreign_inst_buy_krw": -403700000000,
+    "retail_net_buy_krw": 349000000000,
     "margin_loan_krw": 33850200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -192,6 +198,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.07.20",
+            "close": 244000,
+            "change_pct": -4.31,
+            "retail_net": 339865,
+            "inst_net": -1468948,
+            "foreign_net": 1129083
+          },
+          {
             "date": "2026.07.16",
             "close": 255000,
             "change_pct": -8.77,
@@ -222,17 +236,17 @@
             "retail_net": 3963125,
             "inst_net": -3246131,
             "foreign_net": -716994
-          },
-          {
-            "date": "2026.07.10",
-            "close": 285000,
-            "change_pct": 2.52,
-            "retail_net": -2939730,
-            "inst_net": 2313745,
-            "foreign_net": 625985
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.20",
+            "close": 1764000,
+            "change_pct": -4.23,
+            "retail_net": 195443,
+            "inst_net": -527040,
+            "foreign_net": 331597
+          },
           {
             "date": "2026.07.16",
             "close": 1842000,
@@ -264,14 +278,6 @@
             "retail_net": 1486398,
             "inst_net": -781727,
             "foreign_net": -704671
-          },
-          {
-            "date": "2026.07.10",
-            "close": 2180000,
-            "change_pct": -0.27,
-            "retail_net": 564650,
-            "inst_net": 204193,
-            "foreign_net": -768843
           }
         ]
       }
