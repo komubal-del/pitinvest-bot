@@ -1,41 +1,47 @@
 {
-  "timestamp": "2026-07-21T01:39:49.777920+09:00",
+  "timestamp": "2026-07-21T03:33:05.316224+09:00",
   "sentiment": {
-    "cnn_fng": 39.9714285714286,
+    "cnn_fng": 39.1142857142857,
     "cnn_components": {
-      "momentum": 40.0,
+      "momentum": 37.6,
       "strength": 38.8,
       "breadth": 21.2,
-      "put_call": 33.6,
-      "junk_bond": 49.6,
+      "put_call": 33.2,
+      "junk_bond": 50.6,
       "volatility": 50.0,
-      "safe_haven": 46.2
+      "safe_haven": 42.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 3,
       "greed_articles": [],
       "fear_articles": [
-        {
-          "title": "코스피 급락 6,500선 턱걸이에도 안정적이었던 삼양식품과 오리온 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cmJ6c0lUel9oeGU4OXYxZ2g4emZCaERRdjRvTGNfTlM4UWdPWG16UzRnYTRNN2pueXI2QjVpTFVvdkM4bGdZdlFhMzh1MkE?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 15:01:55 GMT",
-          "source": "v.daum.net"
-        },
         {
           "title": "[금융 한 입] 증시 급락세는 숨고르기? AI 슈퍼사이클 종료? - BBS불교방송",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uUFJlYVFadWFlLThBUThpOEc3REpGLWlwTWh0MndCYXQzMTNqSm5BWm84aHB0MGxTbDdSSnM0c0xySGdxR05aY2k1Q1gtUERXNnNyUE1peUJjcDUtZV9JZWl6VVZMdlk2ZHlN?oc=5",
           "pub_date": "Mon, 20 Jul 2026 16:20:55 GMT",
           "source": "BBS불교방송"
+        },
+        {
+          "title": "6500선 코스피 오늘도 ‘그냥 급락’…“반도체, 기술적 약세장 진입” - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TSzZsbW1ZNE1tS21WQjhScld5WEZDMmxzX2NOTTVvRmhPc3dDR1pJclAzT3JMQW1SUmduTVV6dTNLaDdYaWRRbEJSc0FZM3lDcDFOUkVCTzV1Z0R5NU8wMUJtelR5TW8?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 16:06:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "코스피 급락 6,500선 턱걸이에도 안정적이었던 삼양식품과 오리온 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cmJ6c0lUel9oeGU4OXYxZ2g4emZCaERRdjRvTGNfTlM4UWdPWG16UzRnYTRNN2pueXI2QjVpTFVvdkM4bGdZdlFhMzh1MkE?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 15:01:55 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.44,
-    "vvix": 98.83,
+    "vix": 17.73,
+    "vvix": 101.18,
     "skew": 147.28,
     "move": 70.88
   },
@@ -49,11 +55,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25732.04,
+      "current": 25619.17,
       "high_52w": 27190.21,
-      "drop_pct": -5.36,
+      "drop_pct": -5.78,
       "intraday_low_drop_pct": -5.92,
-      "sma_200": 23892.62
+      "sma_200": 23892.05
     },
     "kospi": {
       "current": 6820.6,
@@ -70,34 +76,34 @@
       "sma_200": 1003.34
     },
     "sp500": {
-      "current": 7488.88,
+      "current": 7465.8,
       "high_52w": 7620.9,
-      "drop_pct": -1.73,
-      "intraday_low_drop_pct": -2.08,
-      "sma_200": 6991.23
+      "drop_pct": -2.04,
+      "intraday_low_drop_pct": -2.09,
+      "sma_200": 6991.12
     },
     "russell2k": {
-      "current": 2962.68,
+      "current": 2961.83,
       "high_52w": 3046.59,
-      "drop_pct": -2.75,
+      "drop_pct": -2.78,
       "intraday_low_drop_pct": -3.22,
-      "sma_200": 2654.74
+      "sma_200": 2654.73
     },
     "soxx": {
-      "current": 533.54,
+      "current": 529.13,
       "high_52w": 655.95,
-      "drop_pct": -18.66,
+      "drop_pct": -19.33,
       "intraday_low_drop_pct": -19.73,
-      "sma_200": 391.92
+      "sma_200": 391.9
     }
   },
   "sector_rs": {
     "XLK": 1.089,
-    "SMH": 1.156,
-    "BOTZ": 0.873,
-    "IGV": 1.031,
-    "XLF": 1.015,
-    "XLE": 1.007
+    "SMH": 1.152,
+    "BOTZ": 0.872,
+    "IGV": 1.034,
+    "XLF": 1.017,
+    "XLE": 1.012
   },
   "signals": {
     "cnn_under_10": false,
@@ -133,19 +139,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 58.4,
+    "tqqq_profit_pct": 56.06,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 169.38,
+    "soxl_profit_pct": 163.18,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.78,
+    "koru_profit_pct": -94.85,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -300,7 +306,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 177.901,
+    "strategy_pct": 181.142,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -861,6 +867,10 @@
       {
         "date": "2026-07-20",
         "ret_pct": 177.901
+      },
+      {
+        "date": "2026-07-21",
+        "ret_pct": 181.142
       }
     ],
     "monthly_breakdown": [
@@ -902,8 +912,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -47.85,
-        "end_ret_pct": 177.9,
+        "return_pct": -44.61,
+        "end_ret_pct": 181.14,
         "max_dd_pct": 60.8
       }
     ],
