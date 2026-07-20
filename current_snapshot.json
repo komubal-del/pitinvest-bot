@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-21T05:12:17.518458+09:00",
+  "timestamp": "2026-07-21T06:37:09.911230+09:00",
   "sentiment": {
-    "cnn_fng": 37.6857142857143,
+    "cnn_fng": 37.5142857142857,
     "cnn_components": {
       "momentum": 33.8,
       "strength": 38.8,
-      "breadth": 20.0,
-      "put_call": 32.2,
-      "junk_bond": 49.6,
+      "breadth": 19.4,
+      "put_call": 32.0,
+      "junk_bond": 49.2,
       "volatility": 50.0,
       "safe_haven": 39.2
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 5,
+      "fear_count": 7,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -43,19 +43,19 @@
           "source": "한겨레"
         },
         {
-          "title": "코스피 급락 6,500선 턱걸이에도 안정적이었던 삼양식품과 오리온 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cmJ6c0lUel9oeGU4OXYxZ2g4emZCaERRdjRvTGNfTlM4UWdPWG16UzRnYTRNN2pueXI2QjVpTFVvdkM4bGdZdlFhMzh1MkE?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 15:01:55 GMT",
-          "source": "v.daum.net"
+          "title": "[26년 7월 21일(화)] ‘검은 월요일’ 코스피 4% 급락…6500선 마감, 삼전·하닉 4%↓ - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHMtS3RmV21HVk1DRFRpb05tNzljNzZWSV9rQXRtb2FkRXhnZG1sT1gxMkp1R25qaGdsVTNWYmxUZEEtazJCRlhwWTgwZ3NRSTVURDF1LUlNYlZxeFViYTZwa0dkcldfb2ktQ1ZYVU92OEFLMHZnRWUzSlU0YnhudQ?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 21:20:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.49,
-    "vvix": 103.16,
-    "skew": 147.28,
-    "move": 70.88
+    "vix": 18.65,
+    "vvix": 102.82,
+    "skew": 146.05,
+    "move": 72.66
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -403700000000,
@@ -95,11 +95,11 @@
       "sma_200": 6991.0
     },
     "russell2k": {
-      "current": 2944.54,
+      "current": 2942.43,
       "high_52w": 3046.59,
-      "drop_pct": -3.35,
-      "intraday_low_drop_pct": -3.38,
-      "sma_200": 2654.64
+      "drop_pct": -3.42,
+      "intraday_low_drop_pct": -3.42,
+      "sma_200": 2654.63
     },
     "soxx": {
       "current": 524.14,
@@ -114,8 +114,8 @@
     "SMH": 1.138,
     "BOTZ": 0.883,
     "IGV": 1.015,
-    "XLF": 1.017,
-    "XLE": 0.989
+    "XLF": 1.018,
+    "XLE": 0.988
   },
   "signals": {
     "cnn_under_10": false,
@@ -157,7 +157,7 @@
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 155.7,
+    "soxl_profit_pct": 155.72,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -318,7 +318,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 179.218,
+    "strategy_pct": 176.85,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -882,7 +882,7 @@
       },
       {
         "date": "2026-07-21",
-        "ret_pct": 179.218
+        "ret_pct": 176.85
       }
     ],
     "monthly_breakdown": [
@@ -924,8 +924,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -46.53,
-        "end_ret_pct": 179.22,
+        "return_pct": -48.9,
+        "end_ret_pct": 176.85,
         "max_dd_pct": 60.8
       }
     ],
