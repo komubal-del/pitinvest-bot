@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T12:57:01.120384+09:00",
+  "timestamp": "2026-07-20T16:20:59.436142+09:00",
   "sentiment": {
     "cnn_fng": 37.0571428571429,
     "cnn_components": {
@@ -15,45 +15,45 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 43,
+      "fear_count": 47,
       "greed_articles": [
         {
-          "title": "\"코스피 전고점 회복, 최대 32일내 가능\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QazZ6NGxiSzhCMHFheTNBOVBGS05jUVR1Rmh5UHk4Q29RN3JGLXlaWGJUWFQ1S0ZDN3c2alhFUEpoMlBpblBHZGVfeEEyX3M?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 01:23:43 GMT",
-          "source": "v.daum.net"
+          "title": "로이터 \"한국증시, 개별 종목 레버리지 ETF·'빚투'에 변동성 극심\" - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0laYjNUejgxMlIxR0laazBQMHA1bTZWcWhLak1aUVp3Tm8ta3F3bVVoZUpmbVMwUktHbFFoRlA3ejR6a3lqU0p4aXUzOGRqTWZFdUxMejRVUUNFNS1pSnZOYUx1d1Q0RWF6RU5BNEYzMkxsUXVHaGc5M1JJcEJPY29ISkJqNU1q?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 05:02:38 GMT",
+          "source": "글로벌이코노믹"
         }
       ],
       "fear_articles": [
         {
-          "title": "속보 코스닥 이어 코스피도 급락세에 매도 사이드카 발동 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mZ2J0RlJ0T0NIbTF4UkdKY3NqYUpZdFlQejVxaG03eEtyTFJCWmlLUzlCQjVrbHJNZ1p1WTJHQWxhRVRiZ0xuN3ZJR2hoWDJfWW1LTHE4alRlNWNQNWc?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 02:25:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "코스피 급락에 매도 사이드카…코스닥도 4%대 하락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SQXhmVm5rUHNfSnFZbXdSTTNPVXoySkUwNlNBM1o1ZEFnRzhKampBc2xPVE1YQ1VWODZpUklpNEV0Y0pCZkRsdmZnd29lNVEzTDJKaU93cHRDaDQ?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 02:52:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "[속보] 코스닥 장중 5% 급락...매도 사이드카 발동 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVY0WExZanFzUmhDVFRqS0JkSE1SWVNTc21CZVQtUkVBS0NPay1sMUY2eld6XzZXamxuSzFUcVd5cHJJa3gtaHhqTGlMb0g2YTdnY2ktcFR0MFBMMWtOV2JaUXVIM0dEZzR0QmFSb1I0VHpweU5Ea2twbENnWFJZMg?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 02:06:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "[속보] 급락에 코스닥 이어 코스피도 매도 사이드카 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xRlp0TjZwVVZUa0N2a3BJdGdZT1BUcmY0ckdXV3dWT2d6VTd1al9GQ3JialBRTTlHcmtiWE9kRzBMb2h1YldXSDljUlRZbG1xSFV5ZnlXN09vcEpDTFRFM1hwbWpxQzQ?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 02:24:00 GMT",
+          "title": "코스피 4%대 급락 마감…6,500선 ’턱걸이’ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uQ1lua1lneDJLNF80YnV2LWVlVzBfc0xZekJhV0ZJVHl1R0MyaTlWQkpnOGw1a3RsbXFHcVFiTHF1ZHF3RWxaSWJFN1lUNEpLZVc5aUFwcGF1cXVlUFV6eHJyY1RKUkk?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 07:01:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피·코스닥 장중 5% 급락...동반 매도 사이드카 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ISUtROVB5UENDQmV1M0NmWk5IcWF2RV9aalA1blZxbGk1Zm9rdWhsZnpzbFlZYVlCVEhmQzRlRTg3QjBSanZ0Y0Z6SmZVTGdPREl1SHdaa1ZLWTFJN19xSQ?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 03:16:18 GMT",
-          "source": "뉴스토마토"
+          "title": "[증시-마감] 코스피 4.46% 급락…6,500선 간신히 사수 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4VWVyS2N5VEdkVmlDV1d2TWFfeUtJc3o5dUJCRVVRY2d1TDFmdVN2aTZsV2tjeGZ5SzZ0cVdsYkJwVWJHZ2VzU2JzUXc4QzhRUlFIZFliNmZkVnA5Um9pdG1kRXpwLWZXeU9vbC11ejI?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 06:58:52 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피 4% 급락에 매도 사이드카…중국 AI ‘키미 쇼크’ - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wUFRnWmJDYUxxODB3bElnSi0tV0V1NVdqczNmSFBnRWZEaVU4bG5Mc0dRNnFmVFM2S0tnS1hpcDhzb01lcjFsWFFtR1ctSXJ1eVMwRkJQQU1MS1pMNWFuSWIzdGNIc3c?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 03:06:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "[속보] 코스피, 4.5% 급락해 6,500선 턱걸이‥코스닥도 5.3% 하락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ENUF4MnBZSGJmbFQ1dTlESkFMdTZqQlZpWG9ZMkxBUVJrMU4tMDNIZ2tXbDctanNsNGRTd1FHVXJubk9uaFk2U2laQ3pTdGMybUI5WWpCb2VMZGVlRWEzTGhQZWlPdWZmc0tFRXVuME5fUEVo0gF0QVVfeXFMT3JZYnRrRThzSnRRbEhsWHlzQ0VFUkdMR2liY0RYUlJFQlVpVU11SllyaG9rOEN5UERjWndlZmJHZVZuX0ZoZmo1eGMtVkpMdnRtWTNzWTRXMGF2bncwWmo0d1JUR09LTHZ3RTc0RElUR1E4cVk?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 06:46:37 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "코스피 4.46% 급락해 6,500선 턱걸이…코스닥도 5% 넘게 하락 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SNF8zVGxYLVVrbVkwRTNBdVhvR0ZEejlOa1RZLTlaSElaQVlDcUR1c0ZWLW5ta1hBZnFyQmNHNjQwQ1JrZmszR2lrZ1FWMG1YTkY4YmQzbF91S0U?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 07:17:00 GMT",
+          "source": "KBS 뉴스"
         }
       ]
     }
@@ -65,8 +65,8 @@
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 119200000000,
-    "retail_net_buy_krw": -152400000000,
+    "foreign_inst_buy_krw": -403800000000,
+    "retail_net_buy_krw": 349100000000,
     "margin_loan_krw": 33850200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +81,18 @@
       "sma_200": 23877.26
     },
     "kospi": {
-      "current": 6518.12,
+      "current": 6516.27,
       "high_52w": 9385.59,
-      "drop_pct": -30.55,
-      "intraday_low_drop_pct": -30.76,
-      "sma_200": 5599.61
+      "drop_pct": -30.57,
+      "intraday_low_drop_pct": -31.03,
+      "sma_200": 5599.6
     },
     "kosdaq": {
-      "current": 749.5,
+      "current": 749.64,
       "high_52w": 1229.42,
-      "drop_pct": -39.04,
-      "intraday_low_drop_pct": -39.14,
-      "sma_200": 1002.8
+      "drop_pct": -39.02,
+      "intraday_low_drop_pct": -39.24,
+      "sma_200": 1002.81
     },
     "sp500": {
       "current": 7457.69,
@@ -279,7 +279,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-07-20",
