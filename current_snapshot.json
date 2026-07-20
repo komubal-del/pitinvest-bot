@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T06:37:09.911230+09:00",
+  "timestamp": "2026-07-21T07:39:02.725585+09:00",
   "sentiment": {
     "cnn_fng": 37.5142857142857,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 7,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 6,
+      "greed_articles": [
+        {
+          "title": "뉴욕 증시, 美·이란 충돌 지속에 하락...반도체주엔 저가 매수세 유입 [데일리국제금융] - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2N0JLbGZnUjIwMzR4UUN6SnlWVVVSeWlKRnNUWEhZTEozeFRtR0RhZ0w1UWZKZXdwczhnU3Y1QmQ5MGpsa2QtRlVmNjNKYTB3OUHSAVNBVV95cUxONUZUdUVBR2YxSFR3RWNnYjRSODJNeUxJY2hoOVBKTHI1N28zcHozVmo2V2xEZk15ZlBPemtEVEFaWmxjbUNVekx5N04yWjhWVDl1SQ?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 21:19:11 GMT",
+          "source": "서울경제"
+        }
+      ],
       "fear_articles": [
         {
           "title": "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락 - 동아일보",
@@ -60,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -403700000000,
     "retail_net_buy_krw": 349000000000,
-    "margin_loan_krw": 33850200000000,
+    "margin_loan_krw": 32859800000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -318,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 176.85,
+    "strategy_pct": 176.856,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -882,7 +889,7 @@
       },
       {
         "date": "2026-07-21",
-        "ret_pct": 176.85
+        "ret_pct": 176.856
       }
     ],
     "monthly_breakdown": [
@@ -925,7 +932,7 @@
       {
         "month": "2026-07",
         "return_pct": -48.9,
-        "end_ret_pct": 176.85,
+        "end_ret_pct": 176.86,
         "max_dd_pct": 60.8
       }
     ],
