@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T07:39:02.725585+09:00",
+  "timestamp": "2026-07-21T08:40:24.043338+09:00",
   "sentiment": {
     "cnn_fng": 37.5142857142857,
     "cnn_components": {
@@ -14,9 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 6,
+      "greed_count": 3,
+      "fear_count": 7,
       "greed_articles": [
+        {
+          "title": "'개인 빚투'와 '반도체 쏠림'의 경고… 코스피, 지수 아닌 포지션 시장으로 변화 지적 나와 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMDFmOURQbjVZOWI5LVNTWWdjcHFxLTRDS0NPNVBNRm9Mcld0TDAtaEMzTmppVmMwdDk1c19YZlN4ZmRJdFNxd05VcnVMaWFBX2ZsYlFyWm1temlIS0tBWWVRQU1ZOGFVeS0tb042UGJSS3BpWXI1LU1kQ2ZGMDEybkJHRnE2MVRR?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 22:42:07 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "“이틀 새 10% 빠진 코스피… ‘저가 매수’ 반격 나설까” - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pd0kydG5yaDBJcVNQWTNSS0NMMUZDdnlNZHh5UVhBck5sQ3h2TW8xb0I3WXV4eDI3YmRnNnNzZ2EtelV5a2ktY3E4UkhPR2NZUmJycmVKMThzdw?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 23:21:00 GMT",
+          "source": "경북매일"
+        },
         {
           "title": "뉴욕 증시, 美·이란 충돌 지속에 하락...반도체주엔 저가 매수세 유입 [데일리국제금융] - 서울경제",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2N0JLbGZnUjIwMzR4UUN6SnlWVVVSeWlKRnNUWEhZTEozeFRtR0RhZ0w1UWZKZXdwczhnU3Y1QmQ5MGpsa2QtRlVmNjNKYTB3OUHSAVNBVV95cUxONUZUdUVBR2YxSFR3RWNnYjRSODJNeUxJY2hoOVBKTHI1N28zcHozVmo2V2xEZk15ZlBPemtEVEFaWmxjbUNVekx5N04yWjhWVDl1SQ?oc=5",
@@ -44,10 +56,10 @@
           "source": "BBS불교방송"
         },
         {
-          "title": "6500선 코스피 오늘도 ‘그냥 급락’…“반도체, 기술적 약세장 진입” - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TSzZsbW1ZNE1tS21WQjhScld5WEZDMmxzX2NOTTVvRmhPc3dDR1pJclAzT3JMQW1SUmduTVV6dTNLaDdYaWRRbEJSc0FZM3lDcDFOUkVCTzV1Z0R5NU8wMUJtelR5TW8?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 16:06:00 GMT",
-          "source": "한겨레"
+          "title": "폭락장의 연속 : 코스피 7월 현재 –24% 낙폭은 어느 정도 인가? - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DTEN4Z2pfU215S2NhNU1IZzZvellXempuSkt5V0RGeFk3SjNFODhjamVPeTBTcEJOWlhRWS1iSTdmRUtNTE1wanZwRDkybkh6VTR0TEFodldxVzhpUmVFSA?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 15:01:09 GMT",
+          "source": "Investing.com 한국어"
         },
         {
           "title": "[26년 7월 21일(화)] ‘검은 월요일’ 코스피 4% 급락…6500선 마감, 삼전·하닉 4%↓ - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
