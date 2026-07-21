@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T08:40:24.043338+09:00",
+  "timestamp": "2026-07-21T10:08:46.862962+09:00",
   "sentiment": {
     "cnn_fng": 37.5142857142857,
     "cnn_components": {
@@ -14,29 +14,29 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 7,
+      "greed_count": 2,
+      "fear_count": 6,
       "greed_articles": [
+        {
+          "title": "[마켓뷰] 연이틀 급락한 코스피, 저가 매수세에 반등 시도할까 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jR0RkRXg5bE1tcDhJM0lqa19naWpHQ2xHNGRTRjdERHZDbWtSTmtqc0t2VDlSOTRFaU9WUzhOSXZKOTJURXptdHN4RjBrYlFJV2c?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 23:05:27 GMT",
+          "source": "매일경제 마켓"
+        },
         {
           "title": "'개인 빚투'와 '반도체 쏠림'의 경고… 코스피, 지수 아닌 포지션 시장으로 변화 지적 나와 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMDFmOURQbjVZOWI5LVNTWWdjcHFxLTRDS0NPNVBNRm9Mcld0TDAtaEMzTmppVmMwdDk1c19YZlN4ZmRJdFNxd05VcnVMaWFBX2ZsYlFyWm1temlIS0tBWWVRQU1ZOGFVeS0tb042UGJSS3BpWXI1LU1kQ2ZGMDEybkJHRnE2MVRR?oc=5",
           "pub_date": "Mon, 20 Jul 2026 22:42:07 GMT",
           "source": "글로벌이코노믹"
-        },
-        {
-          "title": "“이틀 새 10% 빠진 코스피… ‘저가 매수’ 반격 나설까” - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pd0kydG5yaDBJcVNQWTNSS0NMMUZDdnlNZHh5UVhBck5sQ3h2TW8xb0I3WXV4eDI3YmRnNnNzZ2EtelV5a2ktY3E4UkhPR2NZUmJycmVKMThzdw?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 23:21:00 GMT",
-          "source": "경북매일"
-        },
-        {
-          "title": "뉴욕 증시, 美·이란 충돌 지속에 하락...반도체주엔 저가 매수세 유입 [데일리국제금융] - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2N0JLbGZnUjIwMzR4UUN6SnlWVVVSeWlKRnNUWEhZTEozeFRtR0RhZ0w1UWZKZXdwczhnU3Y1QmQ5MGpsa2QtRlVmNjNKYTB3OUHSAVNBVV95cUxONUZUdUVBR2YxSFR3RWNnYjRSODJNeUxJY2hoOVBKTHI1N28zcHozVmo2V2xEZk15ZlBPemtEVEFaWmxjbUNVekx5N04yWjhWVDl1SQ?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 21:19:11 GMT",
-          "source": "서울경제"
         }
       ],
       "fear_articles": [
+        {
+          "title": "[마켓라이브]코스피·코스닥 동반 하락 출발… 지정학 리스크·제약바이오 급락 압박 [오전 9시10분 시황] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wVG9iam5wLUFabkJwSnZsS0lGUUJRQnFzY3hPa01DaDdzbVFQVUtxLURQbHZFZlFDVkpBV2VzSzM2YUctSTFNdEx5ekQzLWNWalluUGo1YndxZw?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:20:51 GMT",
+          "source": "한국경제"
+        },
         {
           "title": "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락 - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZTDEwdUJRQlJVbXJmRkFtNlA2Ny1IVHREYnM1Z3ZnLTlyOVVLTGlYc0RkcWs2MjNISEtNRFJPRmhsLVQ0QjR2Rmc5S0wzMFd4Szd0elNUM2VDM0dTbXlYV2V6dlQ0NU54VEg4RjhtZlFmMWZ1VnfSAWZBVV95cUxPLVNVM0M1M1JyTHZJM3Jla3JvVGw2TEdnTUFlcXctRThTSllZcWpfVU5rZFcyemFSMkE1WjBPMzVGWHF3NnRqek5KYlZvU1dPYkttNzVEQ2t1S2M5MWI4SzlyTFJnUmc?oc=5",
@@ -44,28 +44,22 @@
           "source": "동아일보"
         },
         {
-          "title": "반도체 매도세 진정…美 증시 선물 반등 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMEpBWnRoOTlMS3BSYjhnMHUwY1lzSDlGTVdmdjJkSUh1Z3JZRldCZmJEQnN5bjh4NDBYQkVWRXlaanUySjBaYU9VaXJkejMwUUVWMXl2QVpweVR2UEVIWTZOeU01cXQyMTVTRGIwekpZRzJxeHZDMWpKUmd2ZGN4WXlmOVRVTnc1?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 20:00:00 GMT",
-          "source": "글로벌이코노믹"
+          "title": "장 초반 하락 전환한 코스피…6500선 등락 - 진일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OWmF5SDJoOFl6ZC1CRWNCem5GTnp0VGlDbjJ5SktqZmFYU1U4aDRWbGYwQlFiSGVJLTR0WGNUS0VvdktwSER6dDBsTVN1SW9FeWVsNlpBYkFKTFhnNm04Yl85bHlwY1BiTjhpaTFBOA?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:34:25 GMT",
+          "source": "진일보"
         },
         {
-          "title": "[금융 한 입] 증시 급락세는 숨고르기? AI 슈퍼사이클 종료? - BBS불교방송",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uUFJlYVFadWFlLThBUThpOEc3REpGLWlwTWh0MndCYXQzMTNqSm5BWm84aHB0MGxTbDdSSnM0c0xySGdxR05aY2k1Q1gtUERXNnNyUE1peUJjcDUtZV9JZWl6VVZMdlk2ZHlN?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 16:20:55 GMT",
-          "source": "BBS불교방송"
+          "title": "개인·기관 엇갈린 코스피, 장초반 6500 공방전...코스닥은 2% 급락 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44YnRCS2s5QW4tVUtobW1heVpDREQyaWNfcGcteFM5eDhXd3lEeDZVMmNDcHBBNnZVRXg5ODN0R25GeWd1WFdpcy1MOXNFaUdjTExpb2hzQ0tXU242cnJMR1d4dHNKc1czb19KdkdYU3o?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:26:29 GMT",
+          "source": "오피니언뉴스"
         },
         {
-          "title": "폭락장의 연속 : 코스피 7월 현재 –24% 낙폭은 어느 정도 인가? - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DTEN4Z2pfU215S2NhNU1IZzZvellXempuSkt5V0RGeFk3SjNFODhjamVPeTBTcEJOWlhRWS1iSTdmRUtNTE1wanZwRDkybkh6VTR0TEFodldxVzhpUmVFSA?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 15:01:09 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "[26년 7월 21일(화)] ‘검은 월요일’ 코스피 4% 급락…6500선 마감, 삼전·하닉 4%↓ - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHMtS3RmV21HVk1DRFRpb05tNzljNzZWSV9rQXRtb2FkRXhnZG1sT1gxMkp1R25qaGdsVTNWYmxUZEEtazJCRlhwWTgwZ3NRSTVURDF1LUlNYlZxeFViYTZwa0dkcldfb2ktQ1ZYVU92OEFLMHZnRWUzSlU0YnhudQ?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 21:20:00 GMT",
-          "source": "네이버 프리미엄콘텐츠"
+          "title": "‘검은 월요일’ 베트남증시, 하루 만에 44포인트 급락…4월 이후 최저치 - 인사이드비나",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EYlZwR1I0a0FsX0NtVlRMM2VNR2w0NXYzamdaSXRiLUJWQVJDVGpuTThJYnBzRlpPT25vSW8xWE9Nam05UE4zdUszbXZOSDlGd3c0dkNCOVRMa2ZiSmFjQXVUQXBWUDhVN29oTg?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:00:00 GMT",
+          "source": "인사이드비나"
         }
       ]
     }
@@ -77,8 +71,8 @@
     "move": 72.66
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -403700000000,
-    "retail_net_buy_krw": 349000000000,
+    "foreign_inst_buy_krw": 58800000000,
+    "retail_net_buy_krw": -72500000000,
     "margin_loan_krw": 32859800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +87,18 @@
       "sma_200": 23891.5
     },
     "kospi": {
-      "current": 6820.6,
+      "current": 6596.85,
       "high_52w": 9385.59,
-      "drop_pct": -27.33,
-      "intraday_low_drop_pct": -28.29,
-      "sma_200": 5584.33
+      "drop_pct": -29.71,
+      "intraday_low_drop_pct": -31.5,
+      "sma_200": 5600.01
     },
     "kosdaq": {
-      "current": 791.84,
+      "current": 739.14,
       "high_52w": 1229.42,
-      "drop_pct": -35.59,
-      "intraday_low_drop_pct": -36.02,
-      "sma_200": 1003.34
+      "drop_pct": -39.88,
+      "intraday_low_drop_pct": -40.47,
+      "sma_200": 1002.75
     },
     "sp500": {
       "current": 7443.28,
@@ -291,7 +285,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-07-20",
