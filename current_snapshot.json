@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-21T13:38:21.825036+09:00",
+  "timestamp": "2026-07-21T16:20:07.650347+09:00",
   "sentiment": {
-    "cnn_fng": 37.5714285714286,
+    "cnn_fng": 36.9428571428571,
     "cnn_components": {
       "momentum": 33.8,
       "strength": 38.8,
-      "breadth": 19.4,
+      "breadth": 15.0,
       "put_call": 32.0,
       "junk_bond": 49.6,
       "volatility": 50.0,
@@ -14,9 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 13,
+      "greed_count": 4,
+      "fear_count": 8,
       "greed_articles": [
+        {
+          "title": "[증시-마감] '나흘째 사이드카' 코스피, 저가 매수세에 3%대 반등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82X2lNUGM5MTM1M3N6Z2w2eHhRN296TUlPeUV0cUhFdGM1MDFGU01GZV9uT2o4MGRJWUYwYWpGQTdndE43dGkzemMtMEF3bGFpWkowYlBkTENLVGViVVhQVU1WMGJLbWZUNTVNdjh5NGo?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 06:57:11 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "증시 활황에 올 상반기 주식 결제대금 1년 새 314% 폭증 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kb0tfc2RtOXgtdVBYbElTNGRQTDJPb2VLZ3NGT0JnaDA5a1Y0bzBWa3BNSm1tU0RQc0g2WW9IdHIzc3ZlVXRiaFNwcElPUkl6WUJvVGlIYS1vUdIBX0FVX3lxTE5lZ09pZmUwdHdfTkxacm1JalJGVGk1aUlRbThLa1VKQk1wQ0d1T0VQazZOOERXQ1dyWHRlazVURHhiXy01ajRicDQ0d0NkMlVLd2NNdHJVT3gwcVVvSjI4?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 06:11:00 GMT",
+          "source": "경향신문"
+        },
         {
           "title": "\"지금 가격이면 사야지\"...코스피 저가 매수세 유입에 3%대 상승 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQllicDI0WUgtQUVZNFdybEdzd2U0VVp4U25Lcjg5Z3pUUU1ESXhGTGxnTFNGVEN2Njh1clhJcmQ4RnRyWGVXWHRKQlB5ZHZic1M5Sm5pMFBJdzBSSkRGVEtlRUd3ZFJOOVlmaHpBaG1fV1BSbzFSWVdkWGszRWhiOA?oc=5",
@@ -24,60 +36,42 @@
           "source": "조선일보"
         },
         {
-          "title": "코스피, 장중 반등 성공…저가 매수세 유입에 6640선 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZXpWYTlQMWNINkJrbXNyMk1jMk04RkhHSUEzYnkzNkVmdW5VZXk1dGp6SVJwWWdaa1dBbWZNNmVZd2hMVDNyU1FuUW83ZGNuV2NzNDE5RkZ4elkwOFpRU3ppMGNSdEFaeHdmcko4X0tFR3lQLUhWR3paUWtQc1ZzYi1lRUI5Yk830gGcAUFVX3lxTE50SUFkTzExOVZlSDNHZllfMmNQTTdYbC10alBMQ3BqMDIzN0ptNXNIUGJjU2tkLVM2b0xlMWpLQXlTNnhFVEc3T1RkdlljVThXOUQxQUFBTXNicEo4UUtkeGQ1bHNZRk9ycHNIT2NSTklQb1A1bXBCMklRZzd0Tmg5cVNBdUU5aW1mVlh0ZTJiS1JHQWZaa04ta3VKcA?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 02:26:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "코스피, 저가 매수세에 6800대 회복…올해 19번째 매수 사이드카 발동 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hU0xJeXp4S0JDejVpQ0hrMUx5bnpSQVRFRnJzaXI5ZHNvcC1nOC1ZMUpUaW96b2JmMlRObi1OZ0RDbkNpbmN3S0ZqZ1pqdmlOSC11RDdkOTJ4MGdTdS1qcjZYc0xCdms00gFuQVVfeXFMTlJWVzI3X2FXaXd1UDZUT05lTDhMaW9ER2xJV3VOWnR6WHJyLXVEeGZmWUJySllvMUVhNVQ1VFZHWjNHUWpHdzZJMXRNaVY1bUU1VzI1QXFranZYX3JFY0ZCMWdvN0tEUjlJZm1CSUE?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 03:59:40 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "[마켓뷰] 연이틀 급락한 코스피, 저가 매수세에 반등 시도할까 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HSXBtWmo3Y0VrTkxGWHVzQ041U09DaENIYUlHZ05IVUxJdS1GNkM2RVNFdFV6QUhRcGZjd2Myc3oxUXE1UVl2TUVsVTlQME0?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 23:06:54 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, 저가 매수세 유입에 '6800선 회복'…올해 19번째 매수 사이드카 - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5leTVYakhzeFhNMHlwdngxSjJIX1BEcGd0M3liMmRFR1pyWXpVdXEzR0IyLThJTVp6UkpVQ2o2SFg1dWNfZVRtajlHZzZCeElZalU1U3piYVhJeG5mYk5XNWR5Q2Ffd3NDelE1akRwZW40Zw?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 04:15:02 GMT",
-          "source": "프라임경제"
+          "title": "블룸버그 \"코스피, 비트코인보다 출렁여\"…AI·빚투·개미發 변동성 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DZ2RGWjVCNnBpaXQ0QkViUld5M3ljcjg5NGlRUkMxd0ZodWo4c3lVemxHbnNuV1ZzdDhGUHlyRmZTVURUbUxDVExYSVl1SU52eFljTnZLcjhvbkdxdVBORHJ1Z3lpc0U?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 07:02:27 GMT",
+          "source": "뉴스1"
         }
       ],
       "fear_articles": [
         {
-          "title": "[EBN 데이터센터] 삼성전자 거래대금 1위로 코스피 주도...해운·전선·의약품 강세, 일부 종목은 급락 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Rd044S25GdHZpRGFGQkE0SmI2Q0NvZk1VcmdSbUxDNEhlMUM2N19DRlZxQk54Z0RkZlU5YWR3VUw3LUtFT2Izdlg4SktvcEFMOEdUVmtLUVBoMFNfLXQwSUswckpKOW9BSGhCMW40QUU?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 02:12:00 GMT",
+          "title": "씨티 \"코스피 최근 급락은 기술적 조정…10,000선 목표 유지\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrcDZxQzBsaTcxOWd5LWpwT1M2Mno3cGxWV3lJWnB0YXJYbGM2enZwNlZKRXhDb3MtbnY4eS05OGtGOEZSNHF3ZmdfQ1JIcTdVaFJ0TFBXVW5ZQks2OVl4V2c1ZDdxc3pMT0tDWTlEWFU?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 05:55:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "JP모건 \"코스피 급락, 과도한 레버리지 청산 탓…목표치 12,500 유지\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XNV85NERpX2VLWVdtdXhnS2doYXpGQnF2bTFiQXliT0FGNFVjNkkwU01WbTg2QzNVV25jZmhjeTZKVzdNVUN0bGZUdjMwQ0tEZXNHMUluNVVPd3BLWG9iRWpoTGs3eE5GTTlkcGthXzc?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 06:05:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "급락장 후 PBR 밴드로 본 증시 : 코스피는 한숨 돌렸고 코스닥과 스몰캡지수는? - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1a0VReXdGY1gxdDd0UmxoSjdHZTFoMVdQOVdTUHdMUVNNQnA4M1hvMjgxT25mc0JCZ1RneUtDNGxpZVBPVDJBTUVZeDNPdlRQVzVRUW1pblpRQm12MlJZWQ?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 06:05:00 GMT",
           "source": "Investing.com 한국어"
         },
         {
-          "title": "코스피, 보합권에서 방향성 탐색…코스닥은 하락 전환(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iS0VRSThzZlN6RXc5cTVTcWtiQnFOZDM2ZGpZY09DSnkyak1RRkFlS2F4c1IwOEtrUzliQjBqRjRkREtZa3BCdTFsQW9vYklTT09xOHFlYktVUG5uTFVWSNIBYEFVX3lxTE5iS0VRSThzZlN6RXc5cTVTcWtiQnFOZDM2ZGpZY09DSnkyak1RRkFlS2F4c1IwOEtrUzliQjBqRjRkREtZa3BCdTFsQW9vYklTT09xOHFlYktVUG5uTFVWSA?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 00:25:22 GMT",
-          "source": "연합뉴스"
+          "title": "\"김대리, 삼전닉스 주식 몰빵했다며?\"…코스피 폭락에 '포모'가 '조모'로 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uVXpER1llQ2N0aVFUeDlFSHBBVTZ5cy02MkVtbEh1MkgyTHlkV0lBU0Fpck9jbVJob3B2dlRRazNqZFJJYkc0cTFPSUdybFFGbkF1T3FKS3E4NGo1aVk1Rw?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 06:41:30 GMT",
+          "source": "아시아경제"
         },
         {
           "title": "[경제]코스피, 상승 출발 후 방향 탐색...코스닥 하락 전환 - YTN",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtWFlid2loSlktZXhTV1AyV0Y3eFhTN3ktaHpvU0ppZERudU1nbVp2NDhjc0dOcDhMbDlJcGdCNFNkOGZLTmdoeVRmcXZaaW9LODI0cTN1RkxscXdkbUwtS1ZVOUlRY29tOUFDVDg4bw?oc=5",
           "pub_date": "Tue, 21 Jul 2026 00:48:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "\"김대리, 삼전닉스 주식 몰빵했다며?\"…코스피 폭락에 '포모'가 '조모'로 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uVXpER1llQ2N0aVFUeDlFSHBBVTZ5cy02MkVtbEh1MkgyTHlkV0lBU0Fpck9jbVJob3B2dlRRazNqZFJJYkc0cTFPSUdybFFGbkF1T3FKS3E4NGo1aVk1Rw?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 02:16:54 GMT",
-          "source": "아시아경제"
-        },
-        {
-          "title": "코스피, 상승 출발 후 보합권…코스닥은 하락 전환 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93eE1WUzlIVkpnZURLaWw0ekpseTR3aC1YMGl4TkRXazMteTNTRHJJNjZyVHVlZHNSaFNhb0k2N3BPM0FWWG5idmh2R3dLQWFnRkp3X0JxTlN6WWRZdEwweQ?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 00:52:36 GMT",
-          "source": "아시아경제"
         }
       ]
     }
@@ -89,8 +83,8 @@
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1839000000000,
-    "retail_net_buy_krw": -1822700000000,
+    "foreign_inst_buy_krw": 1669500000000,
+    "retail_net_buy_krw": -1642100000000,
     "margin_loan_krw": 32859800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,18 +99,18 @@
       "sma_200": 23891.5
     },
     "kospi": {
-      "current": 6830.98,
+      "current": 6747.95,
       "high_52w": 9385.59,
-      "drop_pct": -27.22,
+      "drop_pct": -28.1,
       "intraday_low_drop_pct": -31.5,
-      "sma_200": 5616.53
+      "sma_200": 5616.12
     },
     "kosdaq": {
-      "current": 758.02,
+      "current": 753.34,
       "high_52w": 1229.42,
-      "drop_pct": -38.34,
+      "drop_pct": -38.72,
       "intraday_low_drop_pct": -40.56,
-      "sma_200": 1002.28
+      "sma_200": 1002.26
     },
     "sp500": {
       "current": 7443.28,
