@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T18:46:42.263606+09:00",
+  "timestamp": "2026-07-21T20:30:31.426598+09:00",
   "sentiment": {
     "cnn_fng": 36.9428571428571,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 7,
+      "greed_count": 6,
       "fear_count": 9,
       "greed_articles": [
         {
@@ -24,22 +24,22 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "규제·증시조정에 레버리지·빚투 ‘주춤’...신용대출 등 ‘그림자 빚투’는 우려 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc1NXOEE2V1FjTmZlZWRCRFlneVdIX0M3RGh4NDFaWmNXT1NuZ2tJcDhaSFI3MmstTmJ1ZmpCdnQ1RGY1dU5haEZIaURwTHc?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 08:54:50 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스닥 ETF 전멸…개인 투자자 3000억 '저가 매수' 무색 - 영남경제",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12bUU2eWhJVnJ5LVNGTlRyUzZHWGRIc1gwQXVuSWZlcGlmZl9yendNSFJsMDA3Uy1TVm9saDVsb2lGRkVDNjk5bGVUOGRCLTZWX0xRdVpmcWJ4Zk5CN1VGTnlkckhOVjg?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 07:03:55 GMT",
+          "source": "영남경제"
+        },
+        {
           "title": "고점 대비 40% 급락…'삼천닥' 외치다 거래 실종된 코스닥 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6VG92NjIzdC1qUDUwWGxEQk10QTJxdGZENFRBRThXMUtPV1ItYXdabFljX2p4LXlaN3IxRF9FWlJWUzYwZ2d2Mk9nZTltR2ltcFl0cEFsbXktdw?oc=5",
           "pub_date": "Tue, 21 Jul 2026 08:37:28 GMT",
           "source": "한국경제"
-        },
-        {
-          "title": "“이제 삼전닉스 들어갈 타이밍?”…코스피, 저가 매수세에 3.6% 반등 마감 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsWUlRdkhHcTY5MzZQR2U0XzBta3lRX3VWQUxIc2JfVVo5TFBkUmZiY1RpUmQ5d1pLRG9hVTM4THVxTGFxZXdqUGJCYi1CYUtnd1E?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 06:59:46 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "\"지금 가격이면 사야지\"...코스피 저가 매수세 유입에 3%대 상승 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQllicDI0WUgtQUVZNFdybEdzd2U0VVp4U25Lcjg5Z3pUUU1ESXhGTGxnTFNGVEN2Njh1clhJcmQ4RnRyWGVXWHRKQlB5ZHZic1M5Sm5pMFBJdzBSSkRGVEtlRUd3ZFJOOVlmaHpBaG1fV1BSbzFSWVdkWGszRWhiOA?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 01:45:00 GMT",
-          "source": "조선일보"
         },
         {
           "title": "증시 활황에 올 상반기 주식 결제대금 1년 새 314% 폭증 - 경향신문",
@@ -50,40 +50,40 @@
       ],
       "fear_articles": [
         {
-          "title": "중국 정부, 증시 급락에 ‘국가대표팀’ 동원…국유자본 13조원 투입 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93WVlRNnBMZHR5VlBDRTJEWWxqUGRwWnYxeEZ1Z3ZWVVZ3N1RhRFBtbGZyVHRIdlgzX0RfQU5KeFFGWXhFaFhBUlFrdzB5SzBaRy1FVG1lbHc3UVkyWHZDZXhoQ1JmMFY1OHAzOQ?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 08:27:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "JP모건 \"한국 증시 급락은 레버리지 ETF 탓...적정 수준까지 75% 청산 완료\" - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS3JwUGxMdEdpd3lUSGZENHhZN1FmTl9URDYzS0drOWdHMUFyZU40dVlfSnFUS2licXJqV2JPTmNJOWZuWjV0R1IzdF9OM05CdFhzbXplUVk4QUp5aDNuQUtKUzg0UTVsU1hqRnVHbmFoUzhVb09wdk1ZamEtV0U2WA?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 07:15:43 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "JP모건 “코스피 급락 키운 건 레버리지 ETF…목표 1만2500 유지” - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQak92bWZoQVkwQzZYaV9CUVJWdWhTcGJUMmg3dVVickotZkxZVFMzdkxaZ1ViWnVMMWJNVnBaVXhodDRGM3o2MGRmUWYtY0NhSzF2Q1lFdV96aVZPdFltVDg3UWNuU3RvdEtjbWo2NFllaTlXZTdZUjJUbDhCZ3cyQ3Npei15ZG9K0gGcAUFVX3lxTFBjWldwSDVlM0ZFVWlwaG9aQW9hUXlBRm05emZZSUJ1VWIyekJscEhGQVRSX210ejlfbXAyS21TTXpucWQ4U1VTNU1BMnR2a1duNkNJZktWU0J2MHFsQnJEQ0R3SHRqOWt4UlRvT3N5c1lFNFJsaUpvNlBfejJVODliQXhEbnBILXU3OXFBcm5MTURmZE5BYTFuZGZ6Qw?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 07:29:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
           "title": "JP모간 \"한국 증시 급락은 레버리지 ETF 영향…중장기 전망 긍정적\" - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWZG1MT29kaUNNQ183dmlTQjM1LWJvRkRKSWpVT0thTEthYWZ4bnlVcHhYeXo2ak5fME5SczN1OW5zNGlyVjdLM0VBV1EwMDQ?oc=5",
           "pub_date": "Tue, 21 Jul 2026 07:57:07 GMT",
           "source": "v.daum.net"
         },
         {
+          "title": "JP모건 \"한국 증시 급락은 각종 레버리지 ETF 탓...적정 수준까지 75% 청산 완료\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS3JwUGxMdEdpd3lUSGZENHhZN1FmTl9URDYzS0drOWdHMUFyZU40dVlfSnFUS2licXJqV2JPTmNJOWZuWjV0R1IzdF9OM05CdFhzbXplUVk4QUp5aDNuQUtKUzg0UTVsU1hqRnVHbmFoUzhVb09wdk1ZamEtV0U2WA?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 08:11:00 GMT",
+          "source": "조선일보"
+        },
+        {
           "title": "JP모건 \"코스피 급락, 과도한 레버리지 청산 탓…목표치 12,500 유지\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XNV85NERpX2VLWVdtdXhnS2doYXpGQnF2bTFiQXliT0FGNFVjNkkwU01WbTg2QzNVV25jZmhjeTZKVzdNVUN0bGZUdjMwQ0tEZXNHMUluNVVPd3BLWG9iRWpoTGs3eE5GTTlkcGthXzc?oc=5",
           "pub_date": "Tue, 21 Jul 2026 06:05:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "\"5000억 풀린다더니\"…'42% 폭락' 코스닥 개미들 패닉 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuZ19Pa2RFUVVLV29BaEh0a2pKLUl6TGo4c2M2LUlLQWo5MXl3LWdicXJfckJKWEtfVGpvMjhMWVctc2lqdWV3SDJMYVpxZFU4V1RSaEtob1dpdw?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 09:57:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "씨티 \"코스피 최근 급락은 기술적 조정…10,000선 목표 유지\" | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TYV9ud0ZneWI2ckxMQjg0LUZUT2Vobjl4d01OaVh2TlBEcEcwaWV1c1ZyNFpjeVRwbGw1TURZSWR0aHFLMlVaWm92X3FQcWJpTnBRQkZNTVdkNGlhM1cxeWlscC13Z3pRZlBWQmlBcVktRXZv?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 06:00:34 GMT",
           "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.57,
+    "vix": 17.72,
     "vvix": 102.82,
     "skew": 146.05,
     "move": 70.88
@@ -182,7 +182,7 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 53.85,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
