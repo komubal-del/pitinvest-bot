@@ -1,84 +1,28 @@
 {
-  "timestamp": "2026-07-21T22:04:38.684562+09:00",
+  "timestamp": "2026-07-22T00:12:39.965574+09:00",
   "sentiment": {
-    "cnn_fng": 36.9428571428571,
+    "cnn_fng": 40.4857142857143,
     "cnn_components": {
-      "momentum": 33.8,
-      "strength": 38.8,
-      "breadth": 15.0,
-      "put_call": 32.0,
-      "junk_bond": 49.6,
+      "momentum": 39.4,
+      "strength": 38.2,
+      "breadth": 19.2,
+      "put_call": 34.6,
+      "junk_bond": 53.0,
       "volatility": 50.0,
-      "safe_haven": 39.2
+      "safe_haven": 48.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 9,
-      "greed_articles": [
-        {
-          "title": "[증시-마감] '나흘째 사이드카' 코스피, 저가 매수세에 3%대 반등 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XbmxuSTlBcHdGTTRvMEh4bWdOS2k5WTdSUzA2Xy1tMzhXSGwxN3IyRUw5SDBuam5VTnNKbmtCVUQ4R3Bzb0NfWjNvS3Zyay11YV9UVHk5MlhGY25xb1FEOWxTejMyQmlZT2RJa2lyUzZTR2hG?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 07:02:51 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스닥 ETF 전멸…개인 투자자 3000억 '저가 매수' 무색 - 영남경제",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12bUU2eWhJVnJ5LVNGTlRyUzZHWGRIc1gwQXVuSWZlcGlmZl9yendNSFJsMDA3Uy1TVm9saDVsb2lGRkVDNjk5bGVUOGRCLTZWX0xRdVpmcWJ4Zk5CN1VGTnlkckhOVjg?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 07:03:55 GMT",
-          "source": "영남경제"
-        },
-        {
-          "title": "규제·증시조정에 레버리지·빚투 ‘주춤’...신용대출 등 ‘그림자 빚투’는 우려 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc1NXOEE2V1FjTmZlZWRCRFlneVdIX0M3RGh4NDFaWmNXT1NuZ2tJcDhaSFI3MmstTmJ1ZmpCdnQ1RGY1dU5haEZIaURwTHc?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 08:54:50 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "고점 대비 40% 급락…'삼천닥' 외치다 거래 실종된 코스닥 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6VG92NjIzdC1qUDUwWGxEQk10QTJxdGZENFRBRThXMUtPV1ItYXdabFljX2p4LXlaN3IxRF9FWlJWUzYwZ2d2Mk9nZTltR2ltcFl0cEFsbXktdw?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 08:37:28 GMT",
-          "source": "한국경제"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "JP모간, 코스피 급락, 레버리지 ETF 영향… 청산 75% 진행 - 티제이비",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWYTJmWFU3SjAwamFWTUczblp3Wlh0aUhtR3NVb2h1TXZpbzVvczY5aXRJT3VSbDctNzlCZ0Y5cjRjWUw5Y3IxQ1RGMHhYcUQ1MXlmUXlzNjJrbnNIbURmbHp3?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 06:59:23 GMT",
-          "source": "티제이비"
-        },
-        {
-          "title": "씨티 \"코스피 최근 급락은 기술적 조정…10,000선 목표 유지\" | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TYV9ud0ZneWI2ckxMQjg0LUZUT2Vobjl4d01OaVh2TlBEcEcwaWV1c1ZyNFpjeVRwbGw1TURZSWR0aHFLMlVaWm92X3FQcWJpTnBRQkZNTVdkNGlhM1cxeWlscC13Z3pRZlBWQmlBcVktRXZv?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 06:00:34 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "JP모간 \"韓증시 급락, 레버리지 ETF 영향…청산 75% 진행\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSNEdnSEJyR08xY3l5OU54YmJxbE95R3p2UWVlN3NtZEkwazhDeExYS2pNX2tQWFlkLXVIWjFWTE95a2J6RjNncTdKbFpaZWRHVUVnT0loUERqdkHSAWBBVV95cUxPZmVFUW12R3hsc091ZGpCNUp1RUdtMGtiMXJSdW55R0h4RGtjNjBnVkE4NkpCRHMwVDduVlZqdUV0OVltbERGcHJIbDQ5c0xENXd6Tkw3dDdsVWRPWV9iX3Q?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 05:58:48 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "‘급락 코스피’에...JP모간 ‘비중확대’ vs 씨티 1년만에 ‘중립’ 왜? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBVWE5jVnVzUmNoM1BxZUo0U08wQ0dUU1hNMDNPcTR0TEtOZGYyakF5S3lfRDJLeENQM1NNRUIzTDBsQXRuY3c?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 08:54:10 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "JP모건 \"한국 증시 급락은 각종 레버리지 ETF 탓...적정 수준까지 75% 청산 완료\" - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS3JwUGxMdEdpd3lUSGZENHhZN1FmTl9URDYzS0drOWdHMUFyZU40dVlfSnFUS2licXJqV2JPTmNJOWZuWjV0R1IzdF9OM05CdFhzbXplUVk4QUp5aDNuQUtKUzg0UTVsU1hqRnVHbmFoUzhVb09wdk1ZamEtV0U2WA?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 08:11:00 GMT",
-          "source": "조선일보"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.82,
-    "vvix": 102.82,
+    "vix": 17.41,
+    "vvix": 98.33,
     "skew": 146.05,
     "move": 70.88
   },
@@ -92,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25508.07,
+      "current": 25829.28,
       "high_52w": 27190.21,
-      "drop_pct": -6.19,
-      "intraday_low_drop_pct": -6.21,
-      "sma_200": 23891.5
+      "drop_pct": -5.01,
+      "intraday_low_drop_pct": -5.58,
+      "sma_200": 23906.87
     },
     "kospi": {
-      "current": 6747.95,
+      "current": 6516.27,
       "high_52w": 9385.59,
-      "drop_pct": -28.1,
-      "intraday_low_drop_pct": -31.5,
-      "sma_200": 5616.12
+      "drop_pct": -30.57,
+      "intraday_low_drop_pct": -31.03,
+      "sma_200": 5599.6
     },
     "kosdaq": {
-      "current": 753.34,
+      "current": 749.64,
       "high_52w": 1229.42,
-      "drop_pct": -38.72,
-      "intraday_low_drop_pct": -40.56,
-      "sma_200": 1002.26
+      "drop_pct": -39.02,
+      "intraday_low_drop_pct": -39.24,
+      "sma_200": 1002.81
     },
     "sp500": {
-      "current": 7443.28,
+      "current": 7499.21,
       "high_52w": 7620.9,
-      "drop_pct": -2.33,
-      "intraday_low_drop_pct": -2.37,
-      "sma_200": 6991.0
+      "drop_pct": -1.6,
+      "intraday_low_drop_pct": -2.01,
+      "sma_200": 6994.94
     },
     "russell2k": {
-      "current": 2942.43,
+      "current": 2966.98,
       "high_52w": 3046.59,
-      "drop_pct": -3.42,
-      "intraday_low_drop_pct": -3.42,
-      "sma_200": 2654.63
+      "drop_pct": -2.61,
+      "intraday_low_drop_pct": -3.19,
+      "sma_200": 2657.26
     },
     "soxx": {
-      "current": 524.14,
+      "current": 551.12,
       "high_52w": 655.95,
-      "drop_pct": -20.09,
-      "intraday_low_drop_pct": -20.29,
-      "sma_200": 391.87
+      "drop_pct": -15.98,
+      "intraday_low_drop_pct": -17.65,
+      "sma_200": 393.25
     }
   },
   "sector_rs": {
-    "XLK": 1.076,
-    "SMH": 1.138,
-    "BOTZ": 0.883,
-    "IGV": 1.015,
-    "XLF": 1.018,
-    "XLE": 0.988
+    "XLK": 1.096,
+    "SMH": 1.177,
+    "BOTZ": 0.894,
+    "IGV": 0.997,
+    "XLF": 1.01,
+    "XLE": 0.984
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 53.85,
+    "tqqq_profit_pct": 61.94,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 155.72,
+    "soxl_profit_pct": 194.37,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.99,
+    "koru_profit_pct": -94.15,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
