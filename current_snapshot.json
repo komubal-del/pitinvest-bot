@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T07:16:02.928451+09:00",
+  "timestamp": "2026-07-22T08:17:14.081590+09:00",
   "sentiment": {
     "cnn_fng": 41.0285714285714,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 3,
+      "fear_count": 4,
       "greed_articles": [
         {
           "title": "뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN",
@@ -25,6 +25,12 @@
         }
       ],
       "fear_articles": [
+        {
+          "title": "모건스탠리, 코스피 목표 9,000 재확인…\"급락장 끝 보인다\" - 매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02OXhyZmJDdDFTTEZsWVRibll1ZnpkZWVZOUlhc2ZuMXMwSjBkbmZZb3RCTW1FT191Ry1pZklWU25tUWs5LUNLSl9MQm5JQmljNGpTNHN2WGlqaHhzejVUREJn?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 23:02:34 GMT",
+          "source": "매일신문"
+        },
         {
           "title": "코스피 20% 급락세 진정… 레버리지 청산 ‘막바지’ 진단 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaGw2dTIzUTRZLVdwU0o1SjdfZ0tFYkpSeVp3eVFXWnhZMU9nT0Q4Q2cwdzZISXgwbTZQNUNjOWFjYXhLVGxMVm0wSWtqRnBZVVRqR3p0Q3BrNjYyWHl6MlZmQkdGU1hJdG1qWlJKaUVjMi1oMC1iLWdSdFhUajRJMDc3NkxyWXFf?oc=5",
@@ -55,7 +61,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 1669600000000,
     "retail_net_buy_krw": -1642100000000,
-    "margin_loan_krw": 32859800000000,
+    "margin_loan_krw": 32845600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
