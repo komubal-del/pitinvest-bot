@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-20",
-  "analyzed_at": "2026-07-20T09:04:57.563849+09:00",
+  "date": "2026-07-21",
+  "analyzed_at": "2026-07-21T13:38:29.670690+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "B6ZrTXLccLQ",
-      "title": "반도체 급락 이후 봐야 할 것, 이제 수급이 바뀝니다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-07-16T00:27:01Z",
-      "url": "https://youtube.com/watch?v=B6ZrTXLccLQ",
+      "video_id": "mUiN6qf_zes",
+      "title": "저점 깨느냐, 지키느냐...반등 조건은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-07-21T00:17:02Z",
+      "url": "https://youtube.com/watch?v=mUiN6qf_zes",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목은 반도체 급락 이후의 시장 변화(수급 변화)에 대한 분석을 예고할 뿐, 구체적인 현금화/매수/매도 등의 행동 권고가 명확히 제시되어 있지 않습니다."
+        "reason": "제목이 주식 시장의 저점 유지 여부와 반등 조건을 질문하는 형태로, 특정 투자 행동을 권고하기보다 현재 시장 상황에 대한 분석적 관점을 제시하고 있습니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "전문가는 시장 고점 확인, 감익 우려, 비추세 시장, 그리고 리스크 관리의 중요성을 언급하며 구체적인 매도 권고 없이 상황 분석과 함께 'Trading Buy'라는 전술적 접근을 제시하고 있습니다."
+        "reason": "연간 고점 확인, 감익 시나리오, 실적 미스, 프로젝트 지연/취소 등 하방 요인과 리스크 관리를 강조하면서도 구체적인 매도 권고 없이 'Buy & Hold'보다 'Trading Buy'를 제안하는 중립적 분석입니다."
       }
     }
   ],

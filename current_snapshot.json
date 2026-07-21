@@ -1,65 +1,83 @@
 {
-  "timestamp": "2026-07-21T10:08:46.862962+09:00",
+  "timestamp": "2026-07-21T13:38:21.825036+09:00",
   "sentiment": {
-    "cnn_fng": 37.5142857142857,
+    "cnn_fng": 37.5714285714286,
     "cnn_components": {
       "momentum": 33.8,
       "strength": 38.8,
       "breadth": 19.4,
       "put_call": 32.0,
-      "junk_bond": 49.2,
+      "junk_bond": 49.6,
       "volatility": 50.0,
       "safe_haven": 39.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 6,
+      "greed_count": 6,
+      "fear_count": 13,
       "greed_articles": [
         {
-          "title": "[마켓뷰] 연이틀 급락한 코스피, 저가 매수세에 반등 시도할까 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jR0RkRXg5bE1tcDhJM0lqa19naWpHQ2xHNGRTRjdERHZDbWtSTmtqc0t2VDlSOTRFaU9WUzhOSXZKOTJURXptdHN4RjBrYlFJV2c?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 23:05:27 GMT",
-          "source": "매일경제 마켓"
+          "title": "\"지금 가격이면 사야지\"...코스피 저가 매수세 유입에 3%대 상승 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQllicDI0WUgtQUVZNFdybEdzd2U0VVp4U25Lcjg5Z3pUUU1ESXhGTGxnTFNGVEN2Njh1clhJcmQ4RnRyWGVXWHRKQlB5ZHZic1M5Sm5pMFBJdzBSSkRGVEtlRUd3ZFJOOVlmaHpBaG1fV1BSbzFSWVdkWGszRWhiOA?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 01:45:00 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "'개인 빚투'와 '반도체 쏠림'의 경고… 코스피, 지수 아닌 포지션 시장으로 변화 지적 나와 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMDFmOURQbjVZOWI5LVNTWWdjcHFxLTRDS0NPNVBNRm9Mcld0TDAtaEMzTmppVmMwdDk1c19YZlN4ZmRJdFNxd05VcnVMaWFBX2ZsYlFyWm1temlIS0tBWWVRQU1ZOGFVeS0tb042UGJSS3BpWXI1LU1kQ2ZGMDEybkJHRnE2MVRR?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 22:42:07 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스피, 장중 반등 성공…저가 매수세 유입에 6640선 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZXpWYTlQMWNINkJrbXNyMk1jMk04RkhHSUEzYnkzNkVmdW5VZXk1dGp6SVJwWWdaa1dBbWZNNmVZd2hMVDNyU1FuUW83ZGNuV2NzNDE5RkZ4elkwOFpRU3ppMGNSdEFaeHdmcko4X0tFR3lQLUhWR3paUWtQc1ZzYi1lRUI5Yk830gGcAUFVX3lxTE50SUFkTzExOVZlSDNHZllfMmNQTTdYbC10alBMQ3BqMDIzN0ptNXNIUGJjU2tkLVM2b0xlMWpLQXlTNnhFVEc3T1RkdlljVThXOUQxQUFBTXNicEo4UUtkeGQ1bHNZRk9ycHNIT2NSTklQb1A1bXBCMklRZzd0Tmg5cVNBdUU5aW1mVlh0ZTJiS1JHQWZaa04ta3VKcA?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 02:26:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피, 저가 매수세에 6800대 회복…올해 19번째 매수 사이드카 발동 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hU0xJeXp4S0JDejVpQ0hrMUx5bnpSQVRFRnJzaXI5ZHNvcC1nOC1ZMUpUaW96b2JmMlRObi1OZ0RDbkNpbmN3S0ZqZ1pqdmlOSC11RDdkOTJ4MGdTdS1qcjZYc0xCdms00gFuQVVfeXFMTlJWVzI3X2FXaXd1UDZUT05lTDhMaW9ER2xJV3VOWnR6WHJyLXVEeGZmWUJySllvMUVhNVQ1VFZHWjNHUWpHdzZJMXRNaVY1bUU1VzI1QXFranZYX3JFY0ZCMWdvN0tEUjlJZm1CSUE?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 03:59:40 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "[마켓뷰] 연이틀 급락한 코스피, 저가 매수세에 반등 시도할까 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HSXBtWmo3Y0VrTkxGWHVzQ041U09DaENIYUlHZ05IVUxJdS1GNkM2RVNFdFV6QUhRcGZjd2Myc3oxUXE1UVl2TUVsVTlQME0?oc=5",
+          "pub_date": "Mon, 20 Jul 2026 23:06:54 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 저가 매수세 유입에 '6800선 회복'…올해 19번째 매수 사이드카 - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5leTVYakhzeFhNMHlwdngxSjJIX1BEcGd0M3liMmRFR1pyWXpVdXEzR0IyLThJTVp6UkpVQ2o2SFg1dWNfZVRtajlHZzZCeElZalU1U3piYVhJeG5mYk5XNWR5Q2Ffd3NDelE1akRwZW40Zw?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 04:15:02 GMT",
+          "source": "프라임경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "[마켓라이브]코스피·코스닥 동반 하락 출발… 지정학 리스크·제약바이오 급락 압박 [오전 9시10분 시황] - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wVG9iam5wLUFabkJwSnZsS0lGUUJRQnFzY3hPa01DaDdzbVFQVUtxLURQbHZFZlFDVkpBV2VzSzM2YUctSTFNdEx5ekQzLWNWalluUGo1YndxZw?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 00:20:51 GMT",
-          "source": "한국경제"
+          "title": "[EBN 데이터센터] 삼성전자 거래대금 1위로 코스피 주도...해운·전선·의약품 강세, 일부 종목은 급락 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Rd044S25GdHZpRGFGQkE0SmI2Q0NvZk1VcmdSbUxDNEhlMUM2N19DRlZxQk54Z0RkZlU5YWR3VUw3LUtFT2Izdlg4SktvcEFMOEdUVmtLUVBoMFNfLXQwSUswckpKOW9BSGhCMW40QUU?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 02:12:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZTDEwdUJRQlJVbXJmRkFtNlA2Ny1IVHREYnM1Z3ZnLTlyOVVLTGlYc0RkcWs2MjNISEtNRFJPRmhsLVQ0QjR2Rmc5S0wzMFd4Szd0elNUM2VDM0dTbXlYV2V6dlQ0NU54VEg4RjhtZlFmMWZ1VnfSAWZBVV95cUxPLVNVM0M1M1JyTHZJM3Jla3JvVGw2TEdnTUFlcXctRThTSllZcWpfVU5rZFcyemFSMkE1WjBPMzVGWHF3NnRqek5KYlZvU1dPYkttNzVEQ2t1S2M5MWI4SzlyTFJnUmc?oc=5",
-          "pub_date": "Mon, 20 Jul 2026 19:30:00 GMT",
-          "source": "동아일보"
+          "title": "코스피, 보합권에서 방향성 탐색…코스닥은 하락 전환(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iS0VRSThzZlN6RXc5cTVTcWtiQnFOZDM2ZGpZY09DSnkyak1RRkFlS2F4c1IwOEtrUzliQjBqRjRkREtZa3BCdTFsQW9vYklTT09xOHFlYktVUG5uTFVWSNIBYEFVX3lxTE5iS0VRSThzZlN6RXc5cTVTcWtiQnFOZDM2ZGpZY09DSnkyak1RRkFlS2F4c1IwOEtrUzliQjBqRjRkREtZa3BCdTFsQW9vYklTT09xOHFlYktVUG5uTFVWSA?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:25:22 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "장 초반 하락 전환한 코스피…6500선 등락 - 진일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OWmF5SDJoOFl6ZC1CRWNCem5GTnp0VGlDbjJ5SktqZmFYU1U4aDRWbGYwQlFiSGVJLTR0WGNUS0VvdktwSER6dDBsTVN1SW9FeWVsNlpBYkFKTFhnNm04Yl85bHlwY1BiTjhpaTFBOA?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 00:34:25 GMT",
-          "source": "진일보"
+          "title": "[경제]코스피, 상승 출발 후 방향 탐색...코스닥 하락 전환 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtWFlid2loSlktZXhTV1AyV0Y3eFhTN3ktaHpvU0ppZERudU1nbVp2NDhjc0dOcDhMbDlJcGdCNFNkOGZLTmdoeVRmcXZaaW9LODI0cTN1RkxscXdkbUwtS1ZVOUlRY29tOUFDVDg4bw?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:48:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "개인·기관 엇갈린 코스피, 장초반 6500 공방전...코스닥은 2% 급락 - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44YnRCS2s5QW4tVUtobW1heVpDREQyaWNfcGcteFM5eDhXd3lEeDZVMmNDcHBBNnZVRXg5ODN0R25GeWd1WFdpcy1MOXNFaUdjTExpb2hzQ0tXU242cnJMR1d4dHNKc1czb19KdkdYU3o?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 00:26:29 GMT",
-          "source": "오피니언뉴스"
+          "title": "\"김대리, 삼전닉스 주식 몰빵했다며?\"…코스피 폭락에 '포모'가 '조모'로 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uVXpER1llQ2N0aVFUeDlFSHBBVTZ5cy02MkVtbEh1MkgyTHlkV0lBU0Fpck9jbVJob3B2dlRRazNqZFJJYkc0cTFPSUdybFFGbkF1T3FKS3E4NGo1aVk1Rw?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 02:16:54 GMT",
+          "source": "아시아경제"
         },
         {
-          "title": "‘검은 월요일’ 베트남증시, 하루 만에 44포인트 급락…4월 이후 최저치 - 인사이드비나",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EYlZwR1I0a0FsX0NtVlRMM2VNR2w0NXYzamdaSXRiLUJWQVJDVGpuTThJYnBzRlpPT25vSW8xWE9Nam05UE4zdUszbXZOSDlGd3c0dkNCOVRMa2ZiSmFjQXVUQXBWUDhVN29oTg?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 00:00:00 GMT",
-          "source": "인사이드비나"
+          "title": "코스피, 상승 출발 후 보합권…코스닥은 하락 전환 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93eE1WUzlIVkpnZURLaWw0ekpseTR3aC1YMGl4TkRXazMteTNTRHJJNjZyVHVlZHNSaFNhb0k2N3BPM0FWWG5idmh2R3dLQWFnRkp3X0JxTlN6WWRZdEwweQ?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 00:52:36 GMT",
+          "source": "아시아경제"
         }
       ]
     }
@@ -68,11 +86,11 @@
     "vix": 18.65,
     "vvix": 102.82,
     "skew": 146.05,
-    "move": 72.66
+    "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 58800000000,
-    "retail_net_buy_krw": -72500000000,
+    "foreign_inst_buy_krw": 1839000000000,
+    "retail_net_buy_krw": -1822700000000,
     "margin_loan_krw": 32859800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +105,18 @@
       "sma_200": 23891.5
     },
     "kospi": {
-      "current": 6596.85,
+      "current": 6830.98,
       "high_52w": 9385.59,
-      "drop_pct": -29.71,
+      "drop_pct": -27.22,
       "intraday_low_drop_pct": -31.5,
-      "sma_200": 5600.01
+      "sma_200": 5616.53
     },
     "kosdaq": {
-      "current": 739.14,
+      "current": 758.02,
       "high_52w": 1229.42,
-      "drop_pct": -39.88,
-      "intraday_low_drop_pct": -40.47,
-      "sma_200": 1002.75
+      "drop_pct": -38.34,
+      "intraday_low_drop_pct": -40.56,
+      "sma_200": 1002.28
     },
     "sp500": {
       "current": 7443.28,
@@ -288,8 +306,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-20",
-    "analyzed_at": "2026-07-20T09:04:57.563849+09:00",
+    "date": "2026-07-21",
+    "analyzed_at": "2026-07-21T13:38:29.670690+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -297,16 +315,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "B6ZrTXLccLQ",
-        "title": "반도체 급락 이후 봐야 할 것, 이제 수급이 바뀝니다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-16T00:27:01Z",
-        "url": "https://youtube.com/watch?v=B6ZrTXLccLQ",
+        "video_id": "mUiN6qf_zes",
+        "title": "저점 깨느냐, 지키느냐...반등 조건은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-21T00:17:02Z",
+        "url": "https://youtube.com/watch?v=mUiN6qf_zes",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 반도체 급락 이후의 시장 변화(수급 변화)에 대한 분석을 예고할 뿐, 구체적인 현금화/매수/매도 등의 행동 권고가 명확히 제시되어 있지 않습니다."
+          "reason": "제목이 주식 시장의 저점 유지 여부와 반등 조건을 질문하는 형태로, 특정 투자 행동을 권고하기보다 현재 시장 상황에 대한 분석적 관점을 제시하고 있습니다."
         }
       },
       {
@@ -319,7 +337,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 시장 고점 확인, 감익 우려, 비추세 시장, 그리고 리스크 관리의 중요성을 언급하며 구체적인 매도 권고 없이 상황 분석과 함께 'Trading Buy'라는 전술적 접근을 제시하고 있습니다."
+          "reason": "연간 고점 확인, 감익 시나리오, 실적 미스, 프로젝트 지연/취소 등 하방 요인과 리스크 관리를 강조하면서도 구체적인 매도 권고 없이 'Buy & Hold'보다 'Trading Buy'를 제안하는 중립적 분석입니다."
         }
       }
     ],
