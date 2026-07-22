@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-22T12:53:14.053888+09:00",
+  "timestamp": "2026-07-22T15:38:59.336576+09:00",
   "sentiment": {
-    "cnn_fng": 41.0285714285714,
+    "cnn_fng": 41.0857142857143,
     "cnn_components": {
       "momentum": 41.8,
       "strength": 38.2,
       "breadth": 19.0,
       "put_call": 32.0,
-      "junk_bond": 55.8,
+      "junk_bond": 56.2,
       "volatility": 50.0,
       "safe_haven": 50.4
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 2,
+      "fear_count": 4,
       "greed_articles": [
         {
           "title": "[개장] 뉴욕증시, 반도체 저가 매수 유입에 나흘만에 반등..마이크론 12%↑ By 알파경제 alphabiz - Investing.com 한국어",
@@ -36,6 +36,18 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX1RnWE1vSEtibGswcUJBdjF2TVBtWmhJeUVRbUlrcEdjZlBFZjNNZ2dCUWdMZFNwNnRidWcycVNObk50bjkwTVE4MEl5a21WVXdZMFB5Q3FlUWpyUzRB?oc=5",
           "pub_date": "Wed, 22 Jul 2026 00:15:00 GMT",
           "source": "조세일보"
+        },
+        {
+          "title": "\"28% 폭락은 매수 기회\"…씨티, '코스피 1만피' 유지 - 경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WaVhMekxOTGJDa2ZKSnV2YUphS3FkMjMxT1VSQ1hVVWZqdkYtMnI4b3NYb0pKblRJTFNSV2VEaVNzVnh0eEN1c0dRVUo0cjJUQzVZ?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 04:03:02 GMT",
+          "source": "경제타임스"
+        },
+        {
+          "title": "\"코스피 매도세 동력 잃었다\" 해외 투자기관 한목소리, 미국 증시 회복에 '선행지표' 분석 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8ySlZQWVk0aWlzbFl0U1EwUlVwMWRncTN1RnVTaDhtNFRlNFJyOGZLTHJwaUg5cEV4SkpTUGJCNk8tMHpkd01QMFQySzE0VnAxYjV3VFBidTdaYkhjdFcwWHhfZEFfbEIwM1E4Z3ZZMHVObUE?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 04:07:33 GMT",
+          "source": "비즈니스포스트"
         }
       ]
     }
@@ -44,11 +56,11 @@
     "vix": 17.05,
     "vvix": 96.34,
     "skew": 151.66,
-    "move": 74.67
+    "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1832600000000,
-    "retail_net_buy_krw": -1828300000000,
+    "foreign_inst_buy_krw": 1235500000000,
+    "retail_net_buy_krw": -1227800000000,
     "margin_loan_krw": 32845600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -63,18 +75,18 @@
       "sma_200": 23906.91
     },
     "kospi": {
-      "current": 7070.49,
+      "current": 6793.11,
       "high_52w": 9385.59,
-      "drop_pct": -24.67,
-      "intraday_low_drop_pct": -25.23,
-      "sma_200": 5634.13
+      "drop_pct": -27.62,
+      "intraday_low_drop_pct": -27.64,
+      "sma_200": 5632.74
     },
     "kosdaq": {
-      "current": 769.12,
+      "current": 751.48,
       "high_52w": 1229.42,
-      "drop_pct": -37.44,
-      "intraday_low_drop_pct": -37.88,
-      "sma_200": 1001.73
+      "drop_pct": -38.88,
+      "intraday_low_drop_pct": -38.88,
+      "sma_200": 1001.64
     },
     "sp500": {
       "current": 7509.2,
