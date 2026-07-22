@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T09:12:53.780361+09:00",
+  "timestamp": "2026-07-22T12:53:14.053888+09:00",
   "sentiment": {
     "cnn_fng": 41.0285714285714,
     "cnn_components": {
@@ -14,52 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 5,
+      "greed_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "[개장] 뉴욕증시, 반도체 저가 매수 유입에 나흘만에 반등..마이크론 12%↑ - 알파경제",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nT2RRNDcyamxidXZEb01vSnF1bVA1LV9QN1R6d2RNLUJMTGQxNERwQ2Q0NFN6aDY5RlMzdHA0N2JlMWREdzJwaUVGMFZaQXRUaHIzTU5jMWo0cTh6MnZicDlmUlQ4SVQyN3dOcVZB?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 22:25:40 GMT",
-          "source": "알파경제"
-        },
-        {
-          "title": "뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FY0JGRTN4aDUyV2N4cHBLbHA2WWFRY1B0b1lKdW9PTE9BaExyandCQzk4MkRPVTBPMXVwSE9oanoxVDNqb2NueTNSRkIwNEFTWkJZM184dVhQNjVqVFE?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 15:02:00 GMT",
-          "source": "YTN"
+          "title": "[개장] 뉴욕증시, 반도체 저가 매수 유입에 나흘만에 반등..마이크론 12%↑ By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50U1l0VGh4cDVGREVwWFY5ZncxcHRjTXhtMFB4ZnhUdl93RmJ2ZjFnU2ZaVmw0ZUlHbEl2NS1KYmZDcGhkNlR6NlFsSEgyRUxMWmRuMVFWWmtqY0E1eTA2a21Nc1N3cTJWR0dzWk5kSlk?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 02:19:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ],
       "fear_articles": [
         {
-          "title": "월가 \"韓 증시 급락세 마무리 국면…레버리지 청산도 막바지\" - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YajFwanJBMkUxd2xBSVRmOWpPYXVGLWR6WHRXRmM0SXkwVUt1U1I2Nk1VMlF6UjFIS0ZjbHVKd19UMjZPN1ZpSkE2YWxCZmJVYXVqdmpNQ19paGF4U2FpR00yT2dTUU40QVRvT0hDSTdhQQ?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 23:35:46 GMT",
-          "source": "KB Think"
+          "title": "월가 \"韓 증시 급락세 마무리 국면…레버리지 청산도 막바지\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mMzFZYlA4dzZTR1Bnc3hPaDF2T0tOaDVhZnp0eWFwbFlCYThrT2FnQi1md2dwU0N5UWlYZUUzeG9Nci1Gc21YRW1WOUt1eERWZUZiNGNYNVBWdHVJOEk3NG1xMXpGUzZhaC1WVWhOQmnSAXRBVV95cUxPM2EzcVcwU0VyWlB1T0lzWDRhMDlkUXVnWmxydWVnS0dtOHhrSG9nUEp5T1hQSjVFT2QtaS1OZDN3anF3VW1qOTVpcjloTk5kVUstS0Z3RUx6TWxqeFIxeFZaRDVTaEZVRFluX1NJMDJDR04tRA?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 01:35:47 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 20% 급락세 진정… 레버리지 청산 ‘막바지’ 진단 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaGw2dTIzUTRZLVdwU0o1SjdfZ0tFYkpSeVp3eVFXWnhZMU9nT0Q4Q2cwdzZISXgwbTZQNUNjOWFjYXhLVGxMVm0wSWtqRnBZVVRqR3p0Q3BrNjYyWHl6MlZmQkdGU1hJdG1qWlJKaUVjMi1oMC1iLWdSdFhUajRJMDc3NkxyWXFf?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 20:52:55 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "모건스탠리, 코스피 목표 9,000 재확인…\"급락장 끝 보인다\" - 매일신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02OXhyZmJDdDFTTEZsWVRibll1ZnpkZWVZOUlhc2ZuMXMwSjBkbmZZb3RCTW1FT191Ry1pZklWU25tUWs5LUNLSl9MQm5JQmljNGpTNHN2WGlqaHhzejVUREJn?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 23:02:34 GMT",
-          "source": "매일신문"
-        },
-        {
-          "title": "모건스탠리 “코스피 바닥권”…반도체 급락에도 9000 전망 유지 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZZFRKSXl6WEg4YTBuZmktNlVJa3NCTHdqTnpGb0JLenRNQVVPRVh6NWNQWFNLN3ctcHR2TEFxLWxFZ2VXOXozNnpOWDRVTFdtR2k5bg?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 23:20:00 GMT",
-          "source": "이투데이"
-        },
-        {
-          "title": "코스피 한 달 만에 28% 폭락시킨 주범...알고 보니 '이것' 때문이었다 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZZkdIYkJLZVM2QTlQZWgwazY1RE94Mzd4aFlvQVpPVkloMWR2UHFZVG4zbEVTejJzS3NLNzVtaWV2WjMtZ2NOY0hYeVZFR3hhX2lFZkg3TklwUQ?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 20:30:00 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "[속보]급락장 끝났나…코스피 5% 급등 7100선 회복, 매수 사이드카 발동 - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX1RnWE1vSEtibGswcUJBdjF2TVBtWmhJeUVRbUlrcEdjZlBFZjNNZ2dCUWdMZFNwNnRidWcycVNObk50bjkwTVE4MEl5a21WVXdZMFB5Q3FlUWpyUzRB?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 00:15:00 GMT",
+          "source": "조세일보"
         }
       ]
     }
@@ -71,8 +47,8 @@
     "move": 74.67
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 407100000000,
-    "retail_net_buy_krw": -407400000000,
+    "foreign_inst_buy_krw": 1832600000000,
+    "retail_net_buy_krw": -1828300000000,
     "margin_loan_krw": 32845600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +63,18 @@
       "sma_200": 23906.91
     },
     "kospi": {
-      "current": 6516.27,
+      "current": 7070.49,
       "high_52w": 9385.59,
-      "drop_pct": -30.57,
-      "intraday_low_drop_pct": -31.03,
-      "sma_200": 5599.6
+      "drop_pct": -24.67,
+      "intraday_low_drop_pct": -25.23,
+      "sma_200": 5634.13
     },
     "kosdaq": {
-      "current": 749.64,
+      "current": 769.12,
       "high_52w": 1229.42,
-      "drop_pct": -39.02,
-      "intraday_low_drop_pct": -39.24,
-      "sma_200": 1002.81
+      "drop_pct": -37.44,
+      "intraday_low_drop_pct": -37.88,
+      "sma_200": 1001.73
     },
     "sp500": {
       "current": 7509.2,
