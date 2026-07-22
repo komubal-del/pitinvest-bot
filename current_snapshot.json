@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-22T15:38:59.336576+09:00",
+  "timestamp": "2026-07-22T18:15:16.213554+09:00",
   "sentiment": {
-    "cnn_fng": 41.0857142857143,
+    "cnn_fng": 41.2571428571429,
     "cnn_components": {
       "momentum": 41.8,
       "strength": 38.2,
-      "breadth": 19.0,
+      "breadth": 20.2,
       "put_call": 32.0,
       "junk_bond": 56.2,
       "volatility": 50.0,
@@ -14,53 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
+      "greed_count": 3,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "[개장] 뉴욕증시, 반도체 저가 매수 유입에 나흘만에 반등..마이크론 12%↑ By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50U1l0VGh4cDVGREVwWFY5ZncxcHRjTXhtMFB4ZnhUdl93RmJ2ZjFnU2ZaVmw0ZUlHbEl2NS1KYmZDcGhkNlR6NlFsSEgyRUxMWmRuMVFWWmtqY0E1eTA2a21Nc1N3cTJWR0dzWk5kSlk?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 02:19:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "'급등락' 코스피, '빚투 강제처분' 이틀 연속 500억 원대 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hWE9GU2lfUWRjY2l5STdSNzlzVTF4U0JGS2pzQ2gwQmJaTmVySUQwcTNxWHRubWU0c2k3SGdNM2w1NlZqVVg0d2xOakFBV2NnbXBMejFwNHo4bUFVVDU4dg?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 08:02:20 GMT",
+          "source": "KBC광주방송"
+        },
+        {
+          "title": "증시 활황·집값 상승에…지난해 1인당 가계순자산 2억7475만원 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LdEZzaXlKcFJYNWp4VnFKNldEd0FXX2hFSW0yUzAwdkVNTWhWekt2R2ZRRUtILWctdHRlalFWR00xX1dqWU51QkpIcDd1VksxUHQxVk9lb1NKTzRadFg2NQ?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 08:07:41 GMT",
+          "source": "뉴스토마토"
+        },
+        {
+          "title": "반등 랠리냐, 고점론 재점화냐 … 빅테크 실적만 쳐다보는 증시 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEM2xsUzZhdjd6dWZ4aFVJOWNBZUJ0N1RKdHpXb0c1azJiODRxaVpWSEQzMHpXWVNRQnk3OS11dDJ5NzdpaUhUZWJSS2tSU0k?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 08:51:04 GMT",
+          "source": "v.daum.net"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "월가 \"韓 증시 급락세 마무리 국면…레버리지 청산도 막바지\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mMzFZYlA4dzZTR1Bnc3hPaDF2T0tOaDVhZnp0eWFwbFlCYThrT2FnQi1md2dwU0N5UWlYZUUzeG9Nci1Gc21YRW1WOUt1eERWZUZiNGNYNVBWdHVJOEk3NG1xMXpGUzZhaC1WVWhOQmnSAXRBVV95cUxPM2EzcVcwU0VyWlB1T0lzWDRhMDlkUXVnWmxydWVnS0dtOHhrSG9nUEp5T1hQSjVFT2QtaS1OZDN3anF3VW1qOTVpcjloTk5kVUstS0Z3RUx6TWxqeFIxeFZaRDVTaEZVRFluX1NJMDJDR04tRA?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 01:35:47 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[속보]급락장 끝났나…코스피 5% 급등 7100선 회복, 매수 사이드카 발동 - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX1RnWE1vSEtibGswcUJBdjF2TVBtWmhJeUVRbUlrcEdjZlBFZjNNZ2dCUWdMZFNwNnRidWcycVNObk50bjkwTVE4MEl5a21WVXdZMFB5Q3FlUWpyUzRB?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 00:15:00 GMT",
-          "source": "조세일보"
-        },
-        {
-          "title": "\"28% 폭락은 매수 기회\"…씨티, '코스피 1만피' 유지 - 경제타임스",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WaVhMekxOTGJDa2ZKSnV2YUphS3FkMjMxT1VSQ1hVVWZqdkYtMnI4b3NYb0pKblRJTFNSV2VEaVNzVnh0eEN1c0dRVUo0cjJUQzVZ?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 04:03:02 GMT",
-          "source": "경제타임스"
-        },
-        {
-          "title": "\"코스피 매도세 동력 잃었다\" 해외 투자기관 한목소리, 미국 증시 회복에 '선행지표' 분석 - 비즈니스포스트",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8ySlZQWVk0aWlzbFl0U1EwUlVwMWRncTN1RnVTaDhtNFRlNFJyOGZLTHJwaUg5cEV4SkpTUGJCNk8tMHpkd01QMFQySzE0VnAxYjV3VFBidTdaYkhjdFcwWHhfZEFfbEIwM1E4Z3ZZMHVObUE?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 04:07:33 GMT",
-          "source": "비즈니스포스트"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.05,
+    "vix": 17.43,
     "vvix": 96.34,
     "skew": 151.66,
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1235500000000,
-    "retail_net_buy_krw": -1227800000000,
+    "foreign_inst_buy_krw": 1224800000000,
+    "retail_net_buy_krw": -1217600000000,
     "margin_loan_krw": 32845600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,17 +62,17 @@
       "sma_200": 23906.91
     },
     "kospi": {
-      "current": 6793.11,
+      "current": 6797.7,
       "high_52w": 9385.59,
-      "drop_pct": -27.62,
+      "drop_pct": -27.57,
       "intraday_low_drop_pct": -27.64,
-      "sma_200": 5632.74
+      "sma_200": 5632.76
     },
     "kosdaq": {
-      "current": 751.48,
+      "current": 751.09,
       "high_52w": 1229.42,
-      "drop_pct": -38.88,
-      "intraday_low_drop_pct": -38.88,
+      "drop_pct": -38.91,
+      "intraday_low_drop_pct": -38.91,
       "sma_200": 1001.64
     },
     "sp500": {
