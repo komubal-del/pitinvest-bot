@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T18:15:16.213554+09:00",
+  "timestamp": "2026-07-22T20:23:04.642161+09:00",
   "sentiment": {
     "cnn_fng": 41.2571428571429,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "'급등락' 코스피, '빚투 강제처분' 이틀 연속 500억 원대 - KBC광주방송",
@@ -30,17 +30,24 @@
           "source": "뉴스토마토"
         },
         {
-          "title": "반등 랠리냐, 고점론 재점화냐 … 빅테크 실적만 쳐다보는 증시 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEM2xsUzZhdjd6dWZ4aFVJOWNBZUJ0N1RKdHpXb0c1azJiODRxaVpWSEQzMHpXWVNRQnk3OS11dDJ5NzdpaUhUZWJSS2tSU0k?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 08:51:04 GMT",
-          "source": "v.daum.net"
+          "title": "여전한 삼전닉스 쏠림 … 증시 조정에도 '빚투' 1조 더 늘었다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxMjhtRXRYRmFvcGFaMUxfQzRMeEFaeDZwMUpjOUI3bFQtYjdra3g3X3NQZkt2VkViajIxRXgwRHlfeEZ6bVFieVRieWk0dkRLS0E?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 08:50:03 GMT",
+          "source": "매일경제"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "韓증시 바닥론 띄운 월가…“반도체 매도세 멈출것” - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyVGktdkJBZ2NiUHZRaE1CWm12NVUtNndyNVcyTzlPWHpEcEp0Uk9oLWVRcy1GTUtLWTBuMHVTUHdQYjI3RFl1MDduSjR5eUdlUGfSAVNBVV95cUxOYlJnbTZQTDhWX09GTTlTZ05MbnFCZjY3QzQwTm94aDBMc3gyTFZQNmgtTlNZdGVtaHRoNVp3bEVUS3lkcTc0WTlBbElTRy12a2VXZw?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 10:01:03 GMT",
+          "source": "서울경제"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 17.43,
+    "vix": 17.4,
     "vvix": 96.34,
     "skew": 151.66,
     "move": 70.88
@@ -173,6 +180,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.07.22",
+            "close": 260500,
+            "change_pct": 0.58,
+            "retail_net": -418065,
+            "inst_net": -1718094,
+            "foreign_net": 2136159
+          },
+          {
             "date": "2026.07.21",
             "close": 259000,
             "change_pct": 6.15,
@@ -203,17 +218,17 @@
             "retail_net": -1386312,
             "inst_net": -413531,
             "foreign_net": 1799843
-          },
-          {
-            "date": "2026.07.14",
-            "close": 263000,
-            "change_pct": 3.34,
-            "retail_net": -4197330,
-            "inst_net": 5326105,
-            "foreign_net": -1128775
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.22",
+            "close": 1830000,
+            "change_pct": -0.33,
+            "retail_net": -75440,
+            "inst_net": -564978,
+            "foreign_net": 640418
+          },
           {
             "date": "2026.07.21",
             "close": 1836000,
@@ -245,14 +260,6 @@
             "retail_net": -597075,
             "inst_net": 265930,
             "foreign_net": 331145
-          },
-          {
-            "date": "2026.07.14",
-            "close": 1913000,
-            "change_pct": 3.69,
-            "retail_net": -1362211,
-            "inst_net": 697670,
-            "foreign_net": 664541
           }
         ]
       }
