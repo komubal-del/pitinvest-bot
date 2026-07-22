@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T20:23:04.642161+09:00",
+  "timestamp": "2026-07-22T21:52:27.567263+09:00",
   "sentiment": {
     "cnn_fng": 41.2571428571429,
     "cnn_components": {
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
+      "greed_count": 4,
+      "fear_count": 0,
       "greed_articles": [
         {
           "title": "'급등락' 코스피, '빚투 강제처분' 이틀 연속 500억 원대 - KBC광주방송",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hWE9GU2lfUWRjY2l5STdSNzlzVTF4U0JGS2pzQ2gwQmJaTmVySUQwcTNxWHRubWU0c2k3SGdNM2w1NlZqVVg0d2xOakFBV2NnbXBMejFwNHo4bUFVVDU4dg?oc=5",
           "pub_date": "Wed, 22 Jul 2026 08:02:20 GMT",
           "source": "KBC광주방송"
+        },
+        {
+          "title": "반도체·레버리지 쏠림에 주저앉은 코스닥‥30년 만에 존립 위기 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE43NHN6S0dxZENTTmRTdGt0YVcyQi04QzluWEVveEFkQXdCaUw2SWhtYnlNN0w4Ym9Nd0h0T3NBejBISUtSd21zWXl4VG5rR1pXTXU0R2xtS2UyaHlZbjcyWEZPY2xsaklMa0hiSlBTMjEwbUhaSmRfTQ?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 11:36:43 GMT",
+          "source": "MBC 뉴스"
         },
         {
           "title": "증시 활황·집값 상승에…지난해 1인당 가계순자산 2억7475만원 - 뉴스토마토",
@@ -36,18 +42,11 @@
           "source": "매일경제"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "韓증시 바닥론 띄운 월가…“반도체 매도세 멈출것” - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyVGktdkJBZ2NiUHZRaE1CWm12NVUtNndyNVcyTzlPWHpEcEp0Uk9oLWVRcy1GTUtLWTBuMHVTUHdQYjI3RFl1MDduSjR5eUdlUGfSAVNBVV95cUxOYlJnbTZQTDhWX09GTTlTZ05MbnFCZjY3QzQwTm94aDBMc3gyTFZQNmgtTlNZdGVtaHRoNVp3bEVUS3lkcTc0WTlBbElTRy12a2VXZw?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 10:01:03 GMT",
-          "source": "서울경제"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.4,
+    "vix": 17.54,
     "vvix": 96.34,
     "skew": 151.66,
     "move": 70.88
