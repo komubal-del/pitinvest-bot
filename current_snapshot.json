@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T08:17:14.081590+09:00",
+  "timestamp": "2026-07-22T09:12:53.780361+09:00",
   "sentiment": {
     "cnn_fng": 41.0285714285714,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 5,
       "greed_articles": [
+        {
+          "title": "[개장] 뉴욕증시, 반도체 저가 매수 유입에 나흘만에 반등..마이크론 12%↑ - 알파경제",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nT2RRNDcyamxidXZEb01vSnF1bVA1LV9QN1R6d2RNLUJMTGQxNERwQ2Q0NFN6aDY5RlMzdHA0N2JlMWREdzJwaUVGMFZaQXRUaHIzTU5jMWo0cTh6MnZicDlmUlQ4SVQyN3dOcVZB?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 22:25:40 GMT",
+          "source": "알파경제"
+        },
         {
           "title": "뉴욕 증시, 반도체주 저가 매수에 동반 상승 출발 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FY0JGRTN4aDUyV2N4cHBLbHA2WWFRY1B0b1lKdW9PTE9BaExyandCQzk4MkRPVTBPMXVwSE9oanoxVDNqb2NueTNSRkIwNEFTWkJZM184dVhQNjVqVFE?oc=5",
@@ -26,10 +32,10 @@
       ],
       "fear_articles": [
         {
-          "title": "모건스탠리, 코스피 목표 9,000 재확인…\"급락장 끝 보인다\" - 매일신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02OXhyZmJDdDFTTEZsWVRibll1ZnpkZWVZOUlhc2ZuMXMwSjBkbmZZb3RCTW1FT191Ry1pZklWU25tUWs5LUNLSl9MQm5JQmljNGpTNHN2WGlqaHhzejVUREJn?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 23:02:34 GMT",
-          "source": "매일신문"
+          "title": "월가 \"韓 증시 급락세 마무리 국면…레버리지 청산도 막바지\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YajFwanJBMkUxd2xBSVRmOWpPYXVGLWR6WHRXRmM0SXkwVUt1U1I2Nk1VMlF6UjFIS0ZjbHVKd19UMjZPN1ZpSkE2YWxCZmJVYXVqdmpNQ19paGF4U2FpR00yT2dTUU40QVRvT0hDSTdhQQ?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 23:35:46 GMT",
+          "source": "KB Think"
         },
         {
           "title": "코스피 20% 급락세 진정… 레버리지 청산 ‘막바지’ 진단 - 글로벌이코노믹",
@@ -38,16 +44,22 @@
           "source": "글로벌이코노믹"
         },
         {
+          "title": "모건스탠리, 코스피 목표 9,000 재확인…\"급락장 끝 보인다\" - 매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02OXhyZmJDdDFTTEZsWVRibll1ZnpkZWVZOUlhc2ZuMXMwSjBkbmZZb3RCTW1FT191Ry1pZklWU25tUWs5LUNLSl9MQm5JQmljNGpTNHN2WGlqaHhzejVUREJn?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 23:02:34 GMT",
+          "source": "매일신문"
+        },
+        {
+          "title": "모건스탠리 “코스피 바닥권”…반도체 급락에도 9000 전망 유지 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZZFRKSXl6WEg4YTBuZmktNlVJa3NCTHdqTnpGb0JLenRNQVVPRVh6NWNQWFNLN3ctcHR2TEFxLWxFZ2VXOXozNnpOWDRVTFdtR2k5bg?oc=5",
+          "pub_date": "Tue, 21 Jul 2026 23:20:00 GMT",
+          "source": "이투데이"
+        },
+        {
           "title": "코스피 한 달 만에 28% 폭락시킨 주범...알고 보니 '이것' 때문이었다 - 파이낸셜뉴스",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZZkdIYkJLZVM2QTlQZWgwazY1RE94Mzd4aFlvQVpPVkloMWR2UHFZVG4zbEVTejJzS3NLNzVtaWV2WjMtZ2NOY0hYeVZFR3hhX2lFZkg3TklwUQ?oc=5",
           "pub_date": "Tue, 21 Jul 2026 20:30:00 GMT",
           "source": "파이낸셜뉴스"
-        },
-        {
-          "title": "JP모건 “코스피 급락은 삼전닉스 레버리지 탓” - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01QUI1S0JnT3ZUOENFQjZ5aGM5QlpCaVJoWHlOVFlDLUE2NzB5aHVBZXZjcUU5OEZiakRQVGc5NkpKdzQ2Y0ZHYTBUdEZIWWE5Z1RxT3BTWHlDRkNfQlZveVJtb0VqSXQ1WlNfRmJibDFqd29VMFHSAWZBVV95cUxOZkhCYVI3VHFrN21HdzV4T2RRNFdRYURZX3p3Q05yRmdIZnVxVGZjNDJKX0pLeUF6QjFpZGI3QXhkMy1yUDhsOXNOWmRTTjBCRmMycFdsSm9qZXUybWdHdnM5Q0hfb0E?oc=5",
-          "pub_date": "Tue, 21 Jul 2026 15:30:00 GMT",
-          "source": "동아일보"
         }
       ]
     }
@@ -59,8 +71,8 @@
     "move": 74.67
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1669600000000,
-    "retail_net_buy_krw": -1642100000000,
+    "foreign_inst_buy_krw": 407100000000,
+    "retail_net_buy_krw": -407400000000,
     "margin_loan_krw": 32845600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -276,8 +288,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-21",
-    "analyzed_at": "2026-07-21T13:38:29.670690+09:00",
+    "date": "2026-07-22",
+    "analyzed_at": "2026-07-22T09:13:03.468160+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -285,16 +297,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "mUiN6qf_zes",
-        "title": "저점 깨느냐, 지키느냐...반등 조건은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-21T00:17:02Z",
-        "url": "https://youtube.com/watch?v=mUiN6qf_zes",
+        "video_id": "HQkjs71O_6k",
+        "title": "개인이 버티는 시장은 끝…'진짜 반등'은 기관 수급에 달렸다ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+        "published": "2026-07-21T09:07:22Z",
+        "url": "https://youtube.com/watch?v=HQkjs71O_6k",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 주식 시장의 저점 유지 여부와 반등 조건을 질문하는 형태로, 특정 투자 행동을 권고하기보다 현재 시장 상황에 대한 분석적 관점을 제시하고 있습니다."
+          "reason": "제목에서 개인이 버티는 시장의 끝을 언급하고 진정한 반등의 조건을 제시하지만, 현금화나 매도와 같은 구체적인 행동 권고는 없습니다."
         }
       },
       {
@@ -307,7 +319,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "연간 고점 확인, 감익 시나리오, 실적 미스, 프로젝트 지연/취소 등 하방 요인과 리스크 관리를 강조하면서도 구체적인 매도 권고 없이 'Buy & Hold'보다 'Trading Buy'를 제안하는 중립적 분석입니다."
+          "reason": "고점 확인, 감익 시나리오, 실적 미스, 리스크 관리 등 시장의 부정적 요인과 불확실성을 언급하며 중립적 분석을 제시하고 있으나, 현금화나 비중 축소와 같은 구체적인 매도 행동 권고는 없습니다."
         }
       }
     ],

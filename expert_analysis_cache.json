@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-21",
-  "analyzed_at": "2026-07-21T13:38:29.670690+09:00",
+  "date": "2026-07-22",
+  "analyzed_at": "2026-07-22T09:13:03.468160+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "mUiN6qf_zes",
-      "title": "저점 깨느냐, 지키느냐...반등 조건은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-07-21T00:17:02Z",
-      "url": "https://youtube.com/watch?v=mUiN6qf_zes",
+      "video_id": "HQkjs71O_6k",
+      "title": "개인이 버티는 시장은 끝…'진짜 반등'은 기관 수급에 달렸다ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+      "published": "2026-07-21T09:07:22Z",
+      "url": "https://youtube.com/watch?v=HQkjs71O_6k",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목이 주식 시장의 저점 유지 여부와 반등 조건을 질문하는 형태로, 특정 투자 행동을 권고하기보다 현재 시장 상황에 대한 분석적 관점을 제시하고 있습니다."
+        "reason": "제목에서 개인이 버티는 시장의 끝을 언급하고 진정한 반등의 조건을 제시하지만, 현금화나 매도와 같은 구체적인 행동 권고는 없습니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "연간 고점 확인, 감익 시나리오, 실적 미스, 프로젝트 지연/취소 등 하방 요인과 리스크 관리를 강조하면서도 구체적인 매도 권고 없이 'Buy & Hold'보다 'Trading Buy'를 제안하는 중립적 분석입니다."
+        "reason": "고점 확인, 감익 시나리오, 실적 미스, 리스크 관리 등 시장의 부정적 요인과 불확실성을 언급하며 중립적 분석을 제시하고 있으나, 현금화나 비중 축소와 같은 구체적인 매도 행동 권고는 없습니다."
       }
     }
   ],
