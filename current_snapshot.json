@@ -1,53 +1,28 @@
 {
-  "timestamp": "2026-07-22T21:52:27.567263+09:00",
+  "timestamp": "2026-07-23T00:09:48.705082+09:00",
   "sentiment": {
-    "cnn_fng": 41.2571428571429,
+    "cnn_fng": 42.9714285714286,
     "cnn_components": {
-      "momentum": 41.8,
-      "strength": 38.2,
-      "breadth": 20.2,
-      "put_call": 32.0,
-      "junk_bond": 56.2,
+      "momentum": 39.8,
+      "strength": 39.2,
+      "breadth": 18.8,
+      "put_call": 33.4,
+      "junk_bond": 53.4,
       "volatility": 50.0,
-      "safe_haven": 50.4
+      "safe_haven": 67.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "'급등락' 코스피, '빚투 강제처분' 이틀 연속 500억 원대 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hWE9GU2lfUWRjY2l5STdSNzlzVTF4U0JGS2pzQ2gwQmJaTmVySUQwcTNxWHRubWU0c2k3SGdNM2w1NlZqVVg0d2xOakFBV2NnbXBMejFwNHo4bUFVVDU4dg?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 08:02:20 GMT",
-          "source": "KBC광주방송"
-        },
-        {
-          "title": "반도체·레버리지 쏠림에 주저앉은 코스닥‥30년 만에 존립 위기 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE43NHN6S0dxZENTTmRTdGt0YVcyQi04QzluWEVveEFkQXdCaUw2SWhtYnlNN0w4Ym9Nd0h0T3NBejBISUtSd21zWXl4VG5rR1pXTXU0R2xtS2UyaHlZbjcyWEZPY2xsaklMa0hiSlBTMjEwbUhaSmRfTQ?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 11:36:43 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "증시 활황·집값 상승에…지난해 1인당 가계순자산 2억7475만원 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LdEZzaXlKcFJYNWp4VnFKNldEd0FXX2hFSW0yUzAwdkVNTWhWekt2R2ZRRUtILWctdHRlalFWR00xX1dqWU51QkpIcDd1VksxUHQxVk9lb1NKTzRadFg2NQ?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 08:07:41 GMT",
-          "source": "뉴스토마토"
-        },
-        {
-          "title": "여전한 삼전닉스 쏠림 … 증시 조정에도 '빚투' 1조 더 늘었다 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxMjhtRXRYRmFvcGFaMUxfQzRMeEFaeDZwMUpjOUI3bFQtYjdra3g3X3NQZkt2VkViajIxRXgwRHlfeEZ6bVFieVRieWk0dkRLS0E?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 08:50:03 GMT",
-          "source": "매일경제"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.54,
-    "vvix": 96.34,
+    "vix": 17.15,
+    "vvix": 98.23,
     "skew": 151.66,
     "move": 70.88
   },
@@ -61,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25837.21,
+      "current": 25802.13,
       "high_52w": 27190.21,
-      "drop_pct": -4.98,
-      "intraday_low_drop_pct": -5.58,
-      "sma_200": 23906.91
+      "drop_pct": -5.11,
+      "intraday_low_drop_pct": -5.55,
+      "sma_200": 23921.7
     },
     "kospi": {
-      "current": 6797.7,
+      "current": 6747.95,
       "high_52w": 9385.59,
-      "drop_pct": -27.57,
-      "intraday_low_drop_pct": -27.64,
-      "sma_200": 5632.76
+      "drop_pct": -28.1,
+      "intraday_low_drop_pct": -31.5,
+      "sma_200": 5616.12
     },
     "kosdaq": {
-      "current": 751.09,
+      "current": 753.34,
       "high_52w": 1229.42,
-      "drop_pct": -38.91,
-      "intraday_low_drop_pct": -38.91,
-      "sma_200": 1001.64
+      "drop_pct": -38.72,
+      "intraday_low_drop_pct": -40.56,
+      "sma_200": 1002.26
     },
     "sp500": {
-      "current": 7509.2,
+      "current": 7512.29,
       "high_52w": 7620.9,
-      "drop_pct": -1.47,
-      "intraday_low_drop_pct": -2.01,
-      "sma_200": 6994.99
+      "drop_pct": -1.43,
+      "intraday_low_drop_pct": -1.77,
+      "sma_200": 6998.98
     },
     "russell2k": {
-      "current": 2987.4,
+      "current": 2963.72,
       "high_52w": 3046.59,
-      "drop_pct": -1.94,
-      "intraday_low_drop_pct": -3.19,
-      "sma_200": 2657.36
+      "drop_pct": -2.72,
+      "intraday_low_drop_pct": -2.72,
+      "sma_200": 2659.89
     },
     "soxx": {
-      "current": 552.69,
+      "current": 558.61,
       "high_52w": 655.95,
-      "drop_pct": -15.74,
-      "intraday_low_drop_pct": -17.65,
-      "sma_200": 393.26
+      "drop_pct": -14.84,
+      "intraday_low_drop_pct": -17.87,
+      "sma_200": 394.64
     }
   },
   "sector_rs": {
-    "XLK": 1.085,
-    "SMH": 1.161,
-    "BOTZ": 0.886,
-    "IGV": 0.981,
-    "XLF": 1.022,
-    "XLE": 0.988
+    "XLK": 1.086,
+    "SMH": 1.172,
+    "BOTZ": 0.889,
+    "IGV": 0.958,
+    "XLF": 1.02,
+    "XLE": 1.002
   },
   "signals": {
     "cnn_under_10": false,
@@ -145,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 62.32,
+    "tqqq_profit_pct": 62.01,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 196.34,
+    "soxl_profit_pct": 205.61,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.09,
+    "koru_profit_pct": -94.23,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
