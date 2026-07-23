@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T20:32:47.583383+09:00",
+  "timestamp": "2026-07-23T22:12:41.714422+09:00",
   "sentiment": {
     "cnn_fng": 43.2285714285714,
     "cnn_components": {
@@ -14,14 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 3,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "[투데이증시] “코스닥도 볕들 날이 있다”...바이오 저가 매수에 ‘매수 사이드카’ - 투데이신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xSHBCVjd4OTRWQXB6OEZHc21mWHJiZ09BUUdlTlV3N3JIRHlHcmpzemdxUkZCTkpHR3pPY05lMG5uN2FPcXZ2RVI2S3d0aF9aaEdvT2dxTVdEaWFPYVRLYnNMWng5Q2RvbzhPSlFlNNIBb0FVX3lxTE9xSHBCVjd4OTRWQXB6OEZHc21mWHJiZ09BUUdlTlV3N3JIRHlHcmpzemdxUkZCTkpHR3pPY05lMG5uN2FPcXZ2RVI2S3d0aF9aaEdvT2dxTVdEaWFPYVRLYnNMWng5Q2RvbzhPSlFlNA?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 08:31:28 GMT",
+          "source": "투데이신문"
+        },
+        {
+          "title": "[이도윤의 증시 라운지] '반도체 고점론'을 대하는 자세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UcEhrN0RFMF9kYUxBQ2c2YjVERnJvUURLeExjX1NGMHhzN2JMaTVQN1p1ZFBJMnZWdzN1SDR3Q3pscTh6VXAyV1JyVi1xbjQ?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 09:13:16 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[오후장 체크포인트] 7천선 넘나드는 코스피 전고점 돌파 가능성은? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FX2Q2YVljeXhFYlk3SEtrcTRXU3BFRm45QjlkT3FtWmRSSmZEZlpESHpRR1NmdVloalpMeWNtWWlwb1dDblBFZXFQOGJzaEE?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 05:37:15 GMT",
+          "source": "v.daum.net"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "韓 증시 돌아온 외국인에 원-달러 1460원대 급락…원-엔 900원 밑으로 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aVElGX3ptdXp0MVBGc2ZDLXVHanZ5MDllS2pZZmpMUnBSQTBiMlZrQlVfdm9pX2I3MVlQeElKNEdJSnYzcWxjaGF2MFEwdG8?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 07:48:11 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 17.72,
+    "vix": 18.92,
     "vvix": 95.55,
     "skew": 150.19,
     "move": 70.88
