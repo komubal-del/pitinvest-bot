@@ -1,54 +1,28 @@
 {
-  "timestamp": "2026-07-23T22:12:41.714422+09:00",
+  "timestamp": "2026-07-24T00:29:01.795456+09:00",
   "sentiment": {
-    "cnn_fng": 43.2285714285714,
+    "cnn_fng": 40.2571428571429,
     "cnn_components": {
-      "momentum": 39.4,
-      "strength": 40.4,
-      "breadth": 18.8,
-      "put_call": 31.0,
-      "junk_bond": 55.8,
+      "momentum": 28.2,
+      "strength": 37.4,
+      "breadth": 15.0,
+      "put_call": 33.8,
+      "junk_bond": 56.2,
       "volatility": 50.0,
-      "safe_haven": 67.2
+      "safe_haven": 61.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "[투데이증시] “코스닥도 볕들 날이 있다”...바이오 저가 매수에 ‘매수 사이드카’ - 투데이신문",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xSHBCVjd4OTRWQXB6OEZHc21mWHJiZ09BUUdlTlV3N3JIRHlHcmpzemdxUkZCTkpHR3pPY05lMG5uN2FPcXZ2RVI2S3d0aF9aaEdvT2dxTVdEaWFPYVRLYnNMWng5Q2RvbzhPSlFlNNIBb0FVX3lxTE9xSHBCVjd4OTRWQXB6OEZHc21mWHJiZ09BUUdlTlV3N3JIRHlHcmpzemdxUkZCTkpHR3pPY05lMG5uN2FPcXZ2RVI2S3d0aF9aaEdvT2dxTVdEaWFPYVRLYnNMWng5Q2RvbzhPSlFlNA?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 08:31:28 GMT",
-          "source": "투데이신문"
-        },
-        {
-          "title": "[이도윤의 증시 라운지] '반도체 고점론'을 대하는 자세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UcEhrN0RFMF9kYUxBQ2c2YjVERnJvUURLeExjX1NGMHhzN2JMaTVQN1p1ZFBJMnZWdzN1SDR3Q3pscTh6VXAyV1JyVi1xbjQ?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 09:13:16 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[오후장 체크포인트] 7천선 넘나드는 코스피 전고점 돌파 가능성은? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FX2Q2YVljeXhFYlk3SEtrcTRXU3BFRm45QjlkT3FtWmRSSmZEZlpESHpRR1NmdVloalpMeWNtWWlwb1dDblBFZXFQOGJzaEE?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 05:37:15 GMT",
-          "source": "v.daum.net"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "韓 증시 돌아온 외국인에 원-달러 1460원대 급락…원-엔 900원 밑으로 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aVElGX3ptdXp0MVBGc2ZDLXVHanZ5MDllS2pZZmpMUnBSQTBiMlZrQlVfdm9pX2I3MVlQeElKNEdJSnYzcWxjaGF2MFEwdG8?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 07:48:11 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.92,
-    "vvix": 95.55,
+    "vix": 19.86,
+    "vvix": 105.98,
     "skew": 150.19,
     "move": 70.88
   },
@@ -62,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25690.9,
+      "current": 24969.39,
       "high_52w": 27190.21,
-      "drop_pct": -5.51,
-      "intraday_low_drop_pct": -5.55,
-      "sma_200": 23921.14
+      "drop_pct": -8.17,
+      "intraday_low_drop_pct": -8.17,
+      "sma_200": 23932.09
     },
     "kospi": {
-      "current": 7096.89,
+      "current": 6797.7,
       "high_52w": 9385.59,
-      "drop_pct": -24.39,
-      "intraday_low_drop_pct": -26.56,
-      "sma_200": 5650.81
+      "drop_pct": -27.57,
+      "intraday_low_drop_pct": -27.64,
+      "sma_200": 5632.76
     },
     "kosdaq": {
-      "current": 790.28,
+      "current": 751.09,
       "high_52w": 1229.42,
-      "drop_pct": -35.72,
-      "intraday_low_drop_pct": -38.11,
-      "sma_200": 1001.23
+      "drop_pct": -38.91,
+      "intraday_low_drop_pct": -38.91,
+      "sma_200": 1001.64
     },
     "sp500": {
-      "current": 7498.96,
+      "current": 7382.09,
       "high_52w": 7620.9,
-      "drop_pct": -1.6,
-      "intraday_low_drop_pct": -1.77,
-      "sma_200": 6998.91
+      "drop_pct": -3.13,
+      "intraday_low_drop_pct": -3.13,
+      "sma_200": 7002.24
     },
     "russell2k": {
-      "current": 2959.94,
+      "current": 2931.24,
       "high_52w": 3046.59,
-      "drop_pct": -2.84,
-      "intraday_low_drop_pct": -2.99,
-      "sma_200": 2659.87
+      "drop_pct": -3.79,
+      "intraday_low_drop_pct": -3.81,
+      "sma_200": 2662.14
     },
     "soxx": {
-      "current": 555.52,
+      "current": 544.44,
       "high_52w": 655.95,
-      "drop_pct": -15.31,
-      "intraday_low_drop_pct": -17.87,
-      "sma_200": 394.63
+      "drop_pct": -17.0,
+      "intraday_low_drop_pct": -17.02,
+      "sma_200": 395.95
     }
   },
   "sector_rs": {
-    "XLK": 1.095,
-    "SMH": 1.152,
-    "BOTZ": 0.9,
-    "IGV": 1.007,
-    "XLF": 1.027,
-    "XLE": 0.989
+    "XLK": 1.094,
+    "SMH": 1.145,
+    "BOTZ": 0.894,
+    "IGV": 0.999,
+    "XLF": 1.035,
+    "XLE": 1.021
   },
   "signals": {
     "cnn_under_10": false,
@@ -146,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 59.84,
+    "tqqq_profit_pct": 48.16,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 200.92,
+    "soxl_profit_pct": 182.53,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.36,
+    "koru_profit_pct": -94.45,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -168,7 +142,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
