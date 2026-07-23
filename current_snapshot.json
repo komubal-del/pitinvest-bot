@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T08:41:29.011835+09:00",
+  "timestamp": "2026-07-23T10:12:36.540432+09:00",
   "sentiment": {
     "cnn_fng": 42.8285714285714,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 3,
+      "greed_count": 2,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "단일종목 레버리지 쏠림에 \"코스닥 소멸 우려\" - 조선일보",
@@ -24,36 +24,24 @@
           "source": "조선일보"
         },
         {
-          "title": "[코스닥 30년 ①] 몸집 62배 키웠지만…코스닥, 30년째 못 넘은 닷컴버블 - 자본시장뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MT1gwalZYeDcyRXk0OUUyNVVDTVVKM3JWZ2NaZ2xya0xTb19VbEpHRGtBVVJqdTBnY2xlUnhEZi1CRjJjdEcxaDdsSzJtU0lDNmJuNEp3NUx0WHJLeHVIQ193b29BbTA?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 23:00:00 GMT",
-          "source": "자본시장뉴스"
-        },
-        {
-          "title": "\"빚투 경고등\"…반대매매 이틀째 500억원대, 코스피 조정장 부담 커졌다 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wZkJNQ18xY3p0RGpfRWFOaGZkVXF5X1dmZ1o4aGUxZGZ5dmk5ZmMyZzR6dy1JdzBfTF8ycVljd0dmSFg3N1kxbmZ5WmpFU21lN2NuaFhYUFczMWowQk5hS0NPWnM0RHJa?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 21:45:35 GMT",
-          "source": "ebn.co.kr"
+          "title": "[세제 이건 바꿔야] 증시 활황에 농특세 18.5조 전망…\"칸막이 없애고 징수 구조 바꿔야\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nTUo1ZG9oOG9MMnRObWJjZUIzcGVFQlJva2VWRncwTm1Ibk9QRWNsLVhMUTlnc0lIVFJLcm9LcDRSMFdnbVcySjJoU0R6UGc?oc=5",
+          "pub_date": "Wed, 22 Jul 2026 23:02:41 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
+        {
+          "title": "2026년 하반기 국내 증시 전망 | 반도체 급락 이후 주목할 업종은? - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaWRRY1ZEa1AyV1did3Jua3I2TVdjbkxVSEpud28tcElSTy10bTlZTWVpNjU2R2ZCZTZUM0x5eGZRMkRaejRkNmJwN3o0SXp5cDN1SWljT3NxZkwwRXV5Sk9Yd0VuemYxYzZ5ZngxWHotOHdBTkE0OEJnQTd6d1BfNV9rcw?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 01:00:00 GMT",
+          "source": "KB Think"
+        },
         {
           "title": "[뉴욕증시] 반등 하루 만에 다시 약세…스페이스X, 6.7% 급락 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkblZROFFXa3BINXhKbzloaHUzeGlTQ1czd3EwU3JxU1VtS3YwS2w5T3BCVFNiMTBob2ZjRUhrOF9aU3NLVVVyQzdZSFpzTlU?oc=5",
           "pub_date": "Wed, 22 Jul 2026 20:27:09 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[뉴욕증시] 약보합 마감, 알파벳·테슬라 '시간외 급락'···유가↑·금값↑ - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lUkVRajM0Ny11aWtxX2M2clRySnNQWnNvQjNfRzVjV0RXR3FyZGZpdU5PSm9ZX3UtdnZlR3hSZGYyNWlnX2NrdzA5Z3BBeDY2SGI0VVRnOHRWazB1TTR4a0FrZnR4Z3ZHdWc?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 21:37:17 GMT",
-          "source": "서울파이낸스"
-        },
-        {
-          "title": "점점 멀어지는 ‘삼천스닥’…코스닥, 석 달 만에 38% 급락 - 쿠키뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUTk5TEhBVTV2VjhGV3hfejZSMk5VS055UklOd2UxREFvRnVaUXRVSVlZVEFpWlFMZ2FxRjh4OTNZNXRFemxwbG1RZ3JCYWdrb2JMamVCdHVqMF9jdk1XcEVOZw?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 18:04:03 GMT",
-          "source": "쿠키뉴스"
         }
       ]
     }
@@ -65,8 +53,8 @@
     "move": 76.31
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1224800000000,
-    "retail_net_buy_krw": -1217600000000,
+    "foreign_inst_buy_krw": 794300000000,
+    "retail_net_buy_krw": -775900000000,
     "margin_loan_krw": 33069000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +69,18 @@
       "sma_200": 23921.14
     },
     "kospi": {
-      "current": 6747.95,
+      "current": 7031.17,
       "high_52w": 9385.59,
-      "drop_pct": -28.1,
-      "intraday_low_drop_pct": -31.5,
-      "sma_200": 5616.12
+      "drop_pct": -25.09,
+      "intraday_low_drop_pct": -25.91,
+      "sma_200": 5633.93
     },
     "kosdaq": {
-      "current": 753.34,
+      "current": 777.97,
       "high_52w": 1229.42,
-      "drop_pct": -38.72,
-      "intraday_low_drop_pct": -40.56,
-      "sma_200": 1002.26
+      "drop_pct": -36.72,
+      "intraday_low_drop_pct": -38.1,
+      "sma_200": 1001.77
     },
     "sp500": {
       "current": 7498.96,
@@ -180,7 +168,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
