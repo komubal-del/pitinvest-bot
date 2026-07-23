@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T18:42:52.727457+09:00",
+  "timestamp": "2026-07-23T20:32:47.583383+09:00",
   "sentiment": {
     "cnn_fng": 43.2285714285714,
     "cnn_components": {
@@ -14,52 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "단일종목 레버리지 쏠림에 \"코스닥 소멸 우려\" - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUXZ3NjZfVGUtZUtMMjJ0ZVMyYzZFTFVjaHRmVnhJdUZxakZzTk1QMjBKVG1RZUdZSjlHekxuOTdLVHBXT2VWNzFqZEw3LTRhUlFWckdhc0tJZThQeDNfdXB2NkdIdW1iTFUyS0M4YWt5OFM5ZVRGRDIxQjJuVkItT2dncmFyUjV4MlQ4?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 05:15:07 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "[이도윤의 증시 라운지] '반도체 고점론'을 대하는 자세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UcEhrN0RFMF9kYUxBQ2c2YjVERnJvUURLeExjX1NGMHhzN2JMaTVQN1p1ZFBJMnZWdzN1SDR3Q3pscTh6VXAyV1JyVi1xbjQ?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 09:13:16 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "“하닉이 삼전 추월하면 코스피 고점” 전망 애널리스트, 이번엔…“코스피 1만 간다” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50QUNqM1RYVEYxZFZOZDlzZmFhZFZNRGtBOVZZTzUxZzhHNTM3SWZPNXhldW1yTjVybngzRDhVNEp0ZUV0aExkVTlHZkhiNUk?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 08:11:37 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[투데이증시] “코스닥도 볕들 날이 있다”...바이오 저가 매수에 ‘매수 사이드카’ - 투데이신문",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FM1U4dldCSW4wWHdkUGVYVGR3MlcwcmFfcDVQMmpza2NXUFZJQ1lhNVNEUm5KUFJUTE9oNGdpZlEwREtCQ0lJbXpxTVZpMHZpZHZKdmlWYkNvM1VLd3NMNDBnaG9KcTdpZmk40gFvQVVfeXFMT3FIcEJWN3g5NFZBcHo4RkdzbWZYcmJnT0FRR2VOVXc3ckhEeUdyanN6Z3FSRkJOSkdHek9jTmUwbm43YU9xdnZFUjZLd3RoX1poR29PZ3FNV0RpYU9hVEtic0xaeDlDZG9vOE9KUWU0?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 07:28:03 GMT",
-          "source": "투데이신문"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "韓 증시 돌아온 외국인에 원-달러 1460원대 급락…원-엔 900원 밑으로 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aVElGX3ptdXp0MVBGc2ZDLXVHanZ5MDllS2pZZmpMUnBSQTBiMlZrQlVfdm9pX2I3MVlQeElKNEdJSnYzcWxjaGF2MFEwdG8?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 07:48:11 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피·GDP 서프라이즈에 원/달러 1460원대 급락…두달 내 최저 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zUUlGZjhCQXNWQkFqRmNvRDRKZVFxOU8zMHJhUGVBR0JDUG1FM0U5a2VTeHc2U0o1NVlkakZ6QkRGdEdibFdxaGxBcDA0S2xqeUI2eXZtdW5aWjdzWGU4X1lNSDgtZE5zaGxn0gFwQVVfeXFMTk44emF2WTRmVWE2SjFweUdneXQ2ODZGTFVCUV8yUm9iNjVqRmZmM0NtUkpPS3J2ZnpvdHZHVDd6QmZ5V3JuaHQ4NWZiOXZieGNnOWxRbldaRzFhTXRmVU91MzNqNGQwZzFrVlF4aVpVag?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 08:01:42 GMT",
-          "source": "머니투데이"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.6,
+    "vix": 17.72,
     "vvix": 95.55,
     "skew": 150.19,
     "move": 70.88
