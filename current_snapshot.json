@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-23T13:42:25.087820+09:00",
+  "timestamp": "2026-07-23T16:18:34.688801+09:00",
   "sentiment": {
-    "cnn_fng": 42.9714285714286,
+    "cnn_fng": 43.2285714285714,
     "cnn_components": {
       "momentum": 39.4,
-      "strength": 38.6,
+      "strength": 40.4,
       "breadth": 18.8,
       "put_call": 31.0,
       "junk_bond": 55.8,
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
+      "greed_count": 3,
+      "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "[오후장 체크포인트] 7천선 넘나드는 코스피 전고점 돌파 가능성은? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FX2Q2YVljeXhFYlk3SEtrcTRXU3BFRm45QjlkT3FtWmRSSmZEZlpESHpRR1NmdVloalpMeWNtWWlwb1dDblBFZXFQOGJzaEE?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 05:37:15 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "단일종목 레버리지 쏠림에 \"코스닥 소멸 우려\" - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUXZ3NjZfVGUtZUtMMjJ0ZVMyYzZFTFVjaHRmVnhJdUZxakZzTk1QMjBKVG1RZUdZSjlHekxuOTdLVHBXT2VWNzFqZEw3LTRhUlFWckdhc0tJZThQeDNfdXB2NkdIdW1iTFUyS0M4YWt5OFM5ZVRGRDIxQjJuVkItT2dncmFyUjV4MlQ4?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 23:27:00 GMT",
+          "pub_date": "Wed, 22 Jul 2026 23:34:40 GMT",
           "source": "조선일보"
+        },
+        {
+          "title": "증시 활황에…KB증권 상반기 영업익 '역대최대' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PSkRnU2tVS0NQRFJWeGp4R0ZxR2laTExPQTVxZElXZGRUY3Z0S0hWNk5EX0hiMUw1dUE1OGptdjNhbzFoekk4bVZqNDVtbEk?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 07:04:53 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
@@ -30,18 +42,6 @@
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaWRRY1ZEa1AyV1did3Jua3I2TVdjbkxVSEpud28tcElSTy10bTlZTWVpNjU2R2ZCZTZUM0x5eGZRMkRaejRkNmJwN3o0SXp5cDN1SWljT3NxZkwwRXV5Sk9Yd0VuemYxYzZ5ZngxWHotOHdBTkE0OEJnQTd6d1BfNV9rcw?oc=5",
           "pub_date": "Thu, 23 Jul 2026 01:00:00 GMT",
           "source": "KB Think"
-        },
-        {
-          "title": "[뉴스프레소] 뉴욕증시 중동發 불안 지속에 하락… 어닝 서프라이즈 '구글' 급락의 이유? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rbkFSYVRvSWxpb3FGa3NmZGg5dTN3VkpnU1hXeWJxTXRPNnZBOWpqaHR1cEkwODJlQ1RuWEdDQm1CS1AxRklaaEFzdGhlQmp2NlNYZ3BmSlVEc00yQ1U2VldGV2V4V3RR0gFuQVVfeXFMTlBCc2tzTHV4VTdOWF9jbFNRbDhPOGREODNjeXJsbHI0VkdHT1l1bUhETkJwMW9fUjcxV0ZoNU9LU092LUdVQU5OMjdhTGsyRmFzMFdldzBVTXRDekRoWDRmWkc5aDR1TW1YcWJaVmc?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 04:23:11 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "개인 매도세에 코스피 6900선 하회... 장중 변동성 확대 - 2news.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xZTJyWDhNWGJwMUsxLVBYX05xSVZfcnpoc2JUWjNyeDFXU3JSZGNicXBHcEpVQ3UzM2x5WTBMRXBUNWxpa0o4alpDa1lfRlFXODhuX0htRnlGTE03aDhuS1BtbmxOZFRT?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 02:55:00 GMT",
-          "source": "2news.co.kr"
         }
       ]
     }
@@ -53,8 +53,8 @@
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1936700000000,
-    "retail_net_buy_krw": -1902200000000,
+    "foreign_inst_buy_krw": 2233400000000,
+    "retail_net_buy_krw": -2207900000000,
     "margin_loan_krw": 33069000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -69,18 +69,18 @@
       "sma_200": 23921.14
     },
     "kospi": {
-      "current": 7038.82,
+      "current": 7096.89,
       "high_52w": 9385.59,
-      "drop_pct": -25.0,
+      "drop_pct": -24.39,
       "intraday_low_drop_pct": -26.56,
-      "sma_200": 5650.52
+      "sma_200": 5650.81
     },
     "kosdaq": {
-      "current": 777.15,
+      "current": 790.28,
       "high_52w": 1229.42,
-      "drop_pct": -36.79,
+      "drop_pct": -35.72,
       "intraday_low_drop_pct": -38.11,
-      "sma_200": 1001.16
+      "sma_200": 1001.23
     },
     "sp500": {
       "current": 7498.96,
