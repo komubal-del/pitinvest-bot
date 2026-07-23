@@ -1,43 +1,68 @@
 {
-  "timestamp": "2026-07-24T04:52:02.157157+09:00",
+  "timestamp": "2026-07-24T06:16:01.279253+09:00",
   "sentiment": {
-    "cnn_fng": 39.0571428571429,
+    "cnn_fng": 39.6,
     "cnn_components": {
-      "momentum": 28.2,
-      "strength": 36.4,
-      "breadth": 14.8,
-      "put_call": 30.4,
-      "junk_bond": 52.4,
+      "momentum": 29.4,
+      "strength": 36.6,
+      "breadth": 15.0,
+      "put_call": 30.0,
+      "junk_bond": 53.0,
       "volatility": 50.0,
-      "safe_haven": 60.6
+      "safe_haven": 63.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 0,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
         {
           "title": "“코스피 지수 전고점 회복하고 1만 간다” - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tWmpPT253TUE0aTJ1U0RJazBZMjJIU0x0a0dnenl3UHY5ZS1YeFNfZFFYQ1h1Nmg0QTk3U0tSUTZXZGg2U3lmaUM3YWtKX1E?oc=5",
           "pub_date": "Thu, 23 Jul 2026 17:08:54 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "삼전닉스 레버리지 쏠림에 코스닥 거래대금 반토막 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNnFLWHBlWVYxeDl6TW41STF1RElDUXlqSmdrcUp1c21uc3pXNGVFbEx0aGxlX01zM2djU1k2M3JmaUdsTXN2cWxZVUR5alZNdGNqTGw2QTRIQ1NRdi1XZHMtVHIwWXQ5VUJDSDFEbE1rT0E1U043WXlhNFQtcnpSUzI3ZVBhbmhwcV9aaFhyVmJQZVdaQWZxdWpYWlPSAZwBQVVfeXFMUDZxS1hwZVlWMXg5ek1uNUkxdURJQ1F5akpna3FKdXNtbnN6VzRlRWxMdGhsZV9NczNnY1NZNjNyZmlHbE1zdnFsWVVEeWpWTXRjakxsNkE0SENTUXYtV2RzLVRyMFl0OVVCQ0gxRGxNa09BNVNON1l5YTRULXJ6UlMyN2VQYW5ocHFfWmhYclZiUGVXWkFmcXVqWFpT?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 15:35:00 GMT",
-          "source": "Chosunbiz"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[뉴욕증시] 유가 100달러 돌파에 3대 지수 와르르...테슬라 14.52% 폭락 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXlTRDlvZlh3NTJpczFHV3pPdGpvZVc2OENDV2xWYkxZdEQ3SnE3aGZ2RjJKNGNnY2FwSGUyWERrakx4ZTluTGRQcjZBTE1qTlh1NnNMZ2VTY1pGVEpFWGJNN2t4R2FIb2VuRGpYSk9UZVY3b3V2SzVoQldfV20wNVdUR2JWTWZy?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 20:45:18 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "중동 긴장·AI 투자 우려에 뉴욕증시 급락… 나스닥 2.2%↓ - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BSXVYcXpPNlRZd1hzNU1HSXY1SmRuak45eVRIdHFGb0JNdWVHYXA0dzRLSHBmSlFRV2lNalpIQ1prNHJUSjBnRGpnb0J2VFo3TzFWRmhZSXVrQQ?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 20:54:00 GMT",
+          "source": "경북매일"
+        },
+        {
+          "title": "뉴욕증시, AI 투자 부담·유가 100달러에 급락…나스닥 2.15%↓ - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xajZwUnVpaGxLQTlOVzB4Z0M3R2hJaDJOQjd4UXAxTFBCbVRwdXVzWVhwMnF1ajVPVUFSYUMyNlZnYVpHSUU5Tl9VUkVaTTNFY0NLcHZ2cTdiR3RfLW40VFF5UVI5ZTA?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 20:55:28 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "[속보] 테슬라 14.51% 급락… 뉴욕증시 일제 하락 마감 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXb3Q4dHBKOHh1WkE0R0cxQkw4Tjg0OEs4QmM1MDVRWVpWMnBDWlJkZ2ZMelN6c25kRXl5NVNwaG5sWk1ZVUlZeHg0ZjA2VUJMNmxQYWJoZEtEQUdsVTEzbXBTMzNOYVBXbTlQYdIBbEFVX3lxTFBXb3Q4dHBKOHh1WkE0R0cxQkw4Tjg0OEs4QmM1MDVRWVpWMnBDWlJkZ2ZMelN6c25kRXl5NVNwaG5sWk1ZVUlZeHg0ZjA2VUJMNmxQYWJoZEtEQUdsVTEzbXBTMzNOYVBXbTlQYQ?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 20:03:00 GMT",
+          "source": "국민일보"
+        },
+        {
+          "title": "[속보] 테슬라 14.51% 급락… 뉴욕증시 일제 하락 마감 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1WC1kbUhCM282b0hMR2RmRmJqMGNHNy1Pb0tkSUdEaTZaeGJrX0NSOE42NW9oMFd6d25BeEMwU0FYX1c0WDFBa1JvRkd4dXBuME9iR09BQm9CdTN3ME9kaUQ4WC1IYVHSAWxBVV95cUxQV290OHRwSjh4dVpBNEdHMUJMOE44NDhLOEJjNTA1UVlaVjJwQ1pSZGdmTHpTenNuZEV5eTVTcGhubFpNWVVJWXh4NGYwNlVCTDZsUGFiaGRLREFHbFUxM21wUzMzTmFQV205UGE?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 20:03:00 GMT",
+          "source": "국민일보"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 19.32,
-    "vvix": 103.71,
-    "skew": 150.19,
-    "move": 76.31
+    "vix": 18.7,
+    "vvix": 102.17,
+    "skew": 145.95,
+    "move": 80.08
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 2233500000000,
@@ -49,11 +74,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25067.24,
+      "current": 25137.69,
       "high_52w": 27190.21,
-      "drop_pct": -7.81,
+      "drop_pct": -7.55,
       "intraday_low_drop_pct": -8.22,
-      "sma_200": 23932.58
+      "sma_200": 23932.93
     },
     "kospi": {
       "current": 6797.7,
@@ -70,34 +95,34 @@
       "sma_200": 1001.64
     },
     "sp500": {
-      "current": 7391.66,
+      "current": 7408.3,
       "high_52w": 7620.9,
-      "drop_pct": -3.01,
+      "drop_pct": -2.79,
       "intraday_low_drop_pct": -3.21,
-      "sma_200": 7002.29
+      "sma_200": 7002.37
     },
     "russell2k": {
-      "current": 2937.24,
+      "current": 2940.16,
       "high_52w": 3046.59,
-      "drop_pct": -3.59,
+      "drop_pct": -3.49,
       "intraday_low_drop_pct": -4.01,
-      "sma_200": 2662.17
+      "sma_200": 2662.19
     },
     "soxx": {
-      "current": 546.84,
+      "current": 551.24,
       "high_52w": 655.95,
-      "drop_pct": -16.63,
+      "drop_pct": -15.96,
       "intraday_low_drop_pct": -17.1,
-      "sma_200": 395.97
+      "sma_200": 395.99
     }
   },
   "sector_rs": {
-    "XLK": 1.095,
-    "SMH": 1.147,
-    "BOTZ": 0.896,
-    "IGV": 0.999,
-    "XLF": 1.036,
-    "XLE": 1.007
+    "XLK": 1.076,
+    "SMH": 1.105,
+    "BOTZ": 0.886,
+    "IGV": 0.986,
+    "XLF": 1.051,
+    "XLE": 1.015
   },
   "signals": {
     "cnn_under_10": false,
@@ -133,19 +158,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 49.51,
+    "tqqq_profit_pct": 50.78,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 187.25,
+    "soxl_profit_pct": 194.39,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.13,
+    "koru_profit_pct": -94.02,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -300,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.82,
+    "strategy_pct": 185.881,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -876,7 +901,7 @@
       },
       {
         "date": "2026-07-24",
-        "ret_pct": 185.82
+        "ret_pct": 185.881
       }
     ],
     "monthly_breakdown": [
@@ -918,8 +943,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -39.93,
-        "end_ret_pct": 185.82,
+        "return_pct": -39.87,
+        "end_ret_pct": 185.88,
         "max_dd_pct": 60.8
       }
     ],
