@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T16:18:34.688801+09:00",
+  "timestamp": "2026-07-23T18:42:52.727457+09:00",
   "sentiment": {
     "cnn_fng": 43.2285714285714,
     "cnn_components": {
@@ -14,47 +14,59 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
+      "greed_count": 4,
+      "fear_count": 2,
       "greed_articles": [
-        {
-          "title": "[오후장 체크포인트] 7천선 넘나드는 코스피 전고점 돌파 가능성은? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FX2Q2YVljeXhFYlk3SEtrcTRXU3BFRm45QjlkT3FtWmRSSmZEZlpESHpRR1NmdVloalpMeWNtWWlwb1dDblBFZXFQOGJzaEE?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 05:37:15 GMT",
-          "source": "v.daum.net"
-        },
         {
           "title": "단일종목 레버리지 쏠림에 \"코스닥 소멸 우려\" - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUXZ3NjZfVGUtZUtMMjJ0ZVMyYzZFTFVjaHRmVnhJdUZxakZzTk1QMjBKVG1RZUdZSjlHekxuOTdLVHBXT2VWNzFqZEw3LTRhUlFWckdhc0tJZThQeDNfdXB2NkdIdW1iTFUyS0M4YWt5OFM5ZVRGRDIxQjJuVkItT2dncmFyUjV4MlQ4?oc=5",
-          "pub_date": "Wed, 22 Jul 2026 23:34:40 GMT",
+          "pub_date": "Thu, 23 Jul 2026 05:15:07 GMT",
           "source": "조선일보"
         },
         {
-          "title": "증시 활황에…KB증권 상반기 영업익 '역대최대' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PSkRnU2tVS0NQRFJWeGp4R0ZxR2laTExPQTVxZElXZGRUY3Z0S0hWNk5EX0hiMUw1dUE1OGptdjNhbzFoekk4bVZqNDVtbEk?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 07:04:53 GMT",
+          "title": "[이도윤의 증시 라운지] '반도체 고점론'을 대하는 자세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UcEhrN0RFMF9kYUxBQ2c2YjVERnJvUURLeExjX1NGMHhzN2JMaTVQN1p1ZFBJMnZWdzN1SDR3Q3pscTh6VXAyV1JyVi1xbjQ?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 09:13:16 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "“하닉이 삼전 추월하면 코스피 고점” 전망 애널리스트, 이번엔…“코스피 1만 간다” - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50QUNqM1RYVEYxZFZOZDlzZmFhZFZNRGtBOVZZTzUxZzhHNTM3SWZPNXhldW1yTjVybngzRDhVNEp0ZUV0aExkVTlHZkhiNUk?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 08:11:37 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[투데이증시] “코스닥도 볕들 날이 있다”...바이오 저가 매수에 ‘매수 사이드카’ - 투데이신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FM1U4dldCSW4wWHdkUGVYVGR3MlcwcmFfcDVQMmpza2NXUFZJQ1lhNVNEUm5KUFJUTE9oNGdpZlEwREtCQ0lJbXpxTVZpMHZpZHZKdmlWYkNvM1VLd3NMNDBnaG9KcTdpZmk40gFvQVVfeXFMT3FIcEJWN3g5NFZBcHo4RkdzbWZYcmJnT0FRR2VOVXc3ckhEeUdyanN6Z3FSRkJOSkdHek9jTmUwbm43YU9xdnZFUjZLd3RoX1poR29PZ3FNV0RpYU9hVEtic0xaeDlDZG9vOE9KUWU0?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 07:28:03 GMT",
+          "source": "투데이신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "2026년 하반기 국내 증시 전망 | 반도체 급락 이후 주목할 업종은? - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaWRRY1ZEa1AyV1did3Jua3I2TVdjbkxVSEpud28tcElSTy10bTlZTWVpNjU2R2ZCZTZUM0x5eGZRMkRaejRkNmJwN3o0SXp5cDN1SWljT3NxZkwwRXV5Sk9Yd0VuemYxYzZ5ZngxWHotOHdBTkE0OEJnQTd6d1BfNV9rcw?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 01:00:00 GMT",
-          "source": "KB Think"
+          "title": "韓 증시 돌아온 외국인에 원-달러 1460원대 급락…원-엔 900원 밑으로 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aVElGX3ptdXp0MVBGc2ZDLXVHanZ5MDllS2pZZmpMUnBSQTBiMlZrQlVfdm9pX2I3MVlQeElKNEdJSnYzcWxjaGF2MFEwdG8?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 07:48:11 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피·GDP 서프라이즈에 원/달러 1460원대 급락…두달 내 최저 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zUUlGZjhCQXNWQkFqRmNvRDRKZVFxOU8zMHJhUGVBR0JDUG1FM0U5a2VTeHc2U0o1NVlkakZ6QkRGdEdibFdxaGxBcDA0S2xqeUI2eXZtdW5aWjdzWGU4X1lNSDgtZE5zaGxn0gFwQVVfeXFMTk44emF2WTRmVWE2SjFweUdneXQ2ODZGTFVCUV8yUm9iNjVqRmZmM0NtUkpPS3J2ZnpvdHZHVDd6QmZ5V3JuaHQ4NWZiOXZieGNnOWxRbldaRzFhTXRmVU91MzNqNGQwZzFrVlF4aVpVag?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 08:01:42 GMT",
+          "source": "머니투데이"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.64,
+    "vix": 17.6,
     "vvix": 95.55,
     "skew": 150.19,
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2233400000000,
-    "retail_net_buy_krw": -2207900000000,
+    "foreign_inst_buy_krw": 2233500000000,
+    "retail_net_buy_krw": -2207700000000,
     "margin_loan_krw": 33069000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -180,6 +192,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.07.23",
+            "close": 270000,
+            "change_pct": 3.65,
+            "retail_net": -1178911,
+            "inst_net": -120579,
+            "foreign_net": 1299490
+          },
+          {
             "date": "2026.07.22",
             "close": 260500,
             "change_pct": 0.58,
@@ -210,17 +230,17 @@
             "retail_net": 5393925,
             "inst_net": -4567849,
             "foreign_net": -826076
-          },
-          {
-            "date": "2026.07.15",
-            "close": 279500,
-            "change_pct": 6.27,
-            "retail_net": -1386312,
-            "inst_net": -413531,
-            "foreign_net": 1799843
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.23",
+            "close": 1919000,
+            "change_pct": 4.86,
+            "retail_net": -541561,
+            "inst_net": -148136,
+            "foreign_net": 689697
+          },
           {
             "date": "2026.07.22",
             "close": 1830000,
@@ -252,14 +272,6 @@
             "retail_net": 1098422,
             "inst_net": -628785,
             "foreign_net": -469637
-          },
-          {
-            "date": "2026.07.15",
-            "close": 2082000,
-            "change_pct": 8.83,
-            "retail_net": -597075,
-            "inst_net": 265930,
-            "foreign_net": 331145
           }
         ]
       }
