@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-24T13:39:49.593846+09:00",
+  "timestamp": "2026-07-24T16:17:39.057035+09:00",
   "sentiment": {
-    "cnn_fng": 39.6857142857143,
+    "cnn_fng": 38.8,
     "cnn_components": {
       "momentum": 29.4,
-      "strength": 36.6,
-      "breadth": 15.0,
+      "strength": 34.0,
+      "breadth": 11.4,
       "put_call": 30.0,
       "junk_bond": 53.6,
       "volatility": 50.0,
@@ -15,38 +15,38 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 32,
+      "fear_count": 38,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[食전食후] 코스피·코스닥 5%대 급락…양대 시장 '매도 사이드카' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TQ3pWcjM3bTVDMWpVNURKUlAxOUx3bmMwdkFRRE5EX2N4Yi1ub2VqYmczcGtORmpvS3JrbXN6dzZKQldVRmJWc2xoRjZ6ZEE?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 04:31:00 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[속보]코스피, 4% 급락에 매도 사이드카…6700선으로 ‘털썩’ - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvTEx1TWg2cWJhTlVSM3VWQ2MxZm5rVGNmSE9wVlJLT0lhQ2FIQ0oyekxKYjJhMFAxeU5kMzlHZ1BsMXo4WkRWd1lRTkdCd3dRcGtaV0dsSll5d9IBX0FVX3lxTFBXZFNtVWYxN0VqS1kyNnRDSlNTZW9yazBySl9pVXhvSXVOVlZ0ZmdoT2dGcmRlWkRrbG0wcGt1cTMwenJLQ2JELWMySEZaMnhRNnlCY1pJMUZxVWtyZGNJ?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 02:32:00 GMT",
-          "source": "경향신문"
-        },
-        {
-          "title": "[속보] 코스피 이어 코스닥도 급락에 매도 사이드카 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tUHVYcFJSeUI1MnFrSXdWY1g3T1VlbGFLOUVLekxySkpDR0thWkN2RGRrbGJNX3RESm1JaVMtejV2QzVVSnFqYW82WGJSeXFzR3ZZT01GekVlMjdRRkw4NE96cVZ2MlU?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 02:50:00 GMT",
+          "title": "[속보] ’검은 금요일’ 코스피·코스닥 5% 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56Rl9zZEgwaVp3Z1RjZE5Qekd5Q0hYbk54ZVNlMS1LNE1qa3NrZFJ1dlFRQmNmMmxNNGc3SjRvOEpOWVF1VVlGODFRRXNkSUlNQU9TR0hpT21hMzVjbktaalRwS0YzNTg?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 06:51:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "중동 리스크에 증시 '패닉'…코스피·코스닥 동반 사이드카 - hidomin.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNUhEckUtRjBBbzFySjFBZEViUWd3QlhtdmM2STRjMVhtdEswei1tVDJvNElHMDRtRTJGalZvcHhyak52RXl1SHNVaUN2QkM0RVdUYUtJX3BMZ0F3M05GZEVMeVpDWWZlX0E?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 03:27:10 GMT",
-          "source": "hidomin.com"
+          "title": "[증시-마감] AI 비용·확전 우려에 코스피 5.7% 급락…6,690대 후퇴 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBucW9WMGkzWWFlOGZqeHp6LWhPOGp0N1ZFdDJBdFZfbGlNMlFnWTJ6MFNXRVd1eWtQdUhhc1JJVE1VUFNEeURTSUZmNTA2TmpQazVYVW91MlR5TktCajZha0dkX2J5SUV6YWZGTmt1b3c?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 07:04:00 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 4%대 급락, 6700선 후퇴…매도 사이드카 발동 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFSVFOSjhHa0JITllycWhqYnMyS3RfWDFrWi1YcmNfVUhFZ05jaXdfQWR2ak11ZmptQ3NLcFRreUNQM2lsVWNqV21PV19KWVJMeHRpMQ?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 02:28:00 GMT",
-          "source": "JTBC"
+          "title": "코스피·코스닥, 5%대 급락 마감…'검은 금요일' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rdkc5cW9pRzgzaHpyTVZPMUphYzh1Wld4Wk13OHE1RFllNnFpR05sREdTZUIzWkcyUDZFSGItX1dzcEtlOEFDYWE5cXNDUXc?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 06:38:09 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "속보 코스닥 매도 사이드카 발동···코스피 이어 동반 급락세 ‘검은 금요일’ By 투데이코리아 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxdzVkZUl3bFhzLTRBcjZTMXZScUNOZTBwYnZEOGRwaTF5dnJFTjVMVjVjaVgwZHhyVTlRV1ZURE9qM3JKeTNLUHl1VzlhLUV2d2RFZks4V1gtcTdLT0RsOHQ0Rm1SYy0zUk9wYXRwR3U?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 06:36:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "‘7000피’내준 코스피… 5.72% 급락 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ETHVjNDZJU0w0MVJWbnJoZ0ltQ25FY0ZLUmw4OXBNaXUtZ3gwNS1uYkQ1cm5VNWtNS3BCa1FCYUxQU2Y2RGRlU1BtV21VZnBX?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 06:48:51 GMT",
+          "source": "문화일보"
         }
       ]
     }
@@ -58,8 +58,8 @@
     "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4074200000000,
-    "retail_net_buy_krw": 4051700000000,
+    "foreign_inst_buy_krw": -5219900000000,
+    "retail_net_buy_krw": 5178400000000,
     "margin_loan_krw": 32566000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,16 +74,16 @@
       "sma_200": 23932.93
     },
     "kospi": {
-      "current": 6692.93,
+      "current": 6690.62,
       "high_52w": 9385.59,
-      "drop_pct": -28.69,
+      "drop_pct": -28.71,
       "intraday_low_drop_pct": -29.14,
-      "sma_200": 5666.92
+      "sma_200": 5666.91
     },
     "kosdaq": {
-      "current": 749.72,
+      "current": 748.22,
       "high_52w": 1229.42,
-      "drop_pct": -39.02,
+      "drop_pct": -39.14,
       "intraday_low_drop_pct": -39.28,
       "sma_200": 1000.67
     },
