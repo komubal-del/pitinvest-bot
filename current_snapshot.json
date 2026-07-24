@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T20:24:50.077126+09:00",
+  "timestamp": "2026-07-24T21:52:49.498624+09:00",
   "sentiment": {
     "cnn_fng": 38.8,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 41,
+      "fear_count": 37,
       "greed_articles": [
         {
           "title": "잡히지 않는 롤러코스피…단일종목 레버리지 과열 조기차단 - 서울경제",
@@ -26,9 +26,9 @@
       ],
       "fear_articles": [
         {
-          "title": "코스피 5%대 급락…’검은 금요일’ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nYzZrZ3lONzdEVEVPMEhqT1hHV2xNQTU1SU5OS2l1eWFKbGpRTkxJdlpSTU93bVduWlJvd3B3cDMzQmkweUItQ1VkRHV5V2RXYktWUTd0QzFkQ1RHdi1fa3R6WFlIeEU?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 08:56:00 GMT",
+          "title": "코스피·코스닥, 5%대 급락 마감…’검은 금요일’ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uLXg4X0dROEdfcXdKRlRoWWxzbHZ0R2d6V1NFSjlad21DeVlmcENfV3RfZkdBdjg3N1hjMkRGVFhSWlQ0aFJGOWFoRFlFazVnTXJIMjNlMUZfeDVlSnYza25ubmxuVjg?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 06:36:00 GMT",
           "source": "연합뉴스TV"
         },
         {
@@ -44,22 +44,22 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "코스피·코스닥, 5%대 급락 마감…’검은 금요일’ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uLXg4X0dROEdfcXdKRlRoWWxzbHZ0R2d6V1NFSjlad21DeVlmcENfV3RfZkdBdjg3N1hjMkRGVFhSWlQ0aFJGOWFoRFlFazVnTXJIMjNlMUZfeDVlSnYza25ubmxuVjg?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 06:36:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "중동 갈등·유가 급등에 코스피 5.7% 폭락 마감 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BMVo2RWFGV2JycU85VzlTNkpiajlZbEVudGYxbEFPODhXLVIxTTRhMktyX2dDbVR3R3BibVhUSm5yUW9pU2dZVkJKbEJpSWk0amtTREEwem9DWS1MVnc?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 07:42:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "[속보] ’검은 금요일’ 코스피·코스닥 5% 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56Rl9zZEgwaVp3Z1RjZE5Qekd5Q0hYbk54ZVNlMS1LNE1qa3NrZFJ1dlFRQmNmMmxNNGc3SjRvOEpOWVF1VVlGODFRRXNkSUlNQU9TR0hpT21hMzVjbktaalRwS0YzNTg?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 06:51:00 GMT",
+          "title": "코스피 5%대 급락…’세기의 재산분할’에 SKT↑ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Oa250WllnVzdWUDZoVnlTYnE5QzJZdi1DUlduQ0FPM0JfV3VQWE1vSUFma1ZjU0JsUFpITWE3UzhDa0JTU1JYMWpGSnBWNWJ6anZRNkE1eTBDLVg2T0ZnTGFCM1FGWGs?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 07:35:00 GMT",
           "source": "연합뉴스TV"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.79,
+    "vix": 18.67,
     "vvix": 102.17,
     "skew": 145.95,
     "move": 70.88
