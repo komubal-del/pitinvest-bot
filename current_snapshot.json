@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-24T10:08:59.587808+09:00",
+  "timestamp": "2026-07-24T13:39:49.593846+09:00",
   "sentiment": {
-    "cnn_fng": 39.6,
+    "cnn_fng": 39.6857142857143,
     "cnn_components": {
       "momentum": 29.4,
       "strength": 36.6,
       "breadth": 15.0,
       "put_call": 30.0,
-      "junk_bond": 53.0,
+      "junk_bond": 53.6,
       "volatility": 50.0,
       "safe_haven": 63.2
     },
@@ -15,38 +15,38 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 23,
+      "fear_count": 32,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[글로벌증시] 중동 긴장과 유가상승 속 나스닥 2% 넘게 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94WTVoaDNBaEZKTk9Vc3h6Rl9yNTRCSVNuR1Fldml4RHBZci13d0FhN0Rldmt0YU5xcVJ5eTJBZmRHODQyQjNxSUtibU1vQkpyZERPVkVDLWhYcWFlR2RQcWhtVnlTeGM?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 21:58:00 GMT",
+          "title": "[食전食후] 코스피·코스닥 5%대 급락…양대 시장 '매도 사이드카' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TQ3pWcjM3bTVDMWpVNURKUlAxOUx3bmMwdkFRRE5EX2N4Yi1ub2VqYmczcGtORmpvS3JrbXN6dzZKQldVRmJWc2xoRjZ6ZEE?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 04:31:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[속보]코스피, 4% 급락에 매도 사이드카…6700선으로 ‘털썩’ - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvTEx1TWg2cWJhTlVSM3VWQ2MxZm5rVGNmSE9wVlJLT0lhQ2FIQ0oyekxKYjJhMFAxeU5kMzlHZ1BsMXo4WkRWd1lRTkdCd3dRcGtaV0dsSll5d9IBX0FVX3lxTFBXZFNtVWYxN0VqS1kyNnRDSlNTZW9yazBySl9pVXhvSXVOVlZ0ZmdoT2dGcmRlWkRrbG0wcGt1cTMwenJLQ2JELWMySEZaMnhRNnlCY1pJMUZxVWtyZGNJ?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 02:32:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "[속보] 코스피 이어 코스닥도 급락에 매도 사이드카 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tUHVYcFJSeUI1MnFrSXdWY1g3T1VlbGFLOUVLekxySkpDR0thWkN2RGRrbGJNX3RESm1JaVMtejV2QzVVSnFqYW82WGJSeXFzR3ZZT01GekVlMjdRRkw4NE96cVZ2MlU?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 02:50:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "日 증시, 美 기술주 투매에 하락…닛케이 64,000선 후퇴 - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xS3pMWEZyeXVMa3dGZjVCQnZ1bFA5dUtFdlY3QnlHNmU1SUhrT0oyLWt0WDNoeXJ3TkdCTk9UXzB5d19reldoVGcxZnVoYjlDTXNTeHgtX0FJNmh6RE5QSkdrQno1RTk4LUI5NjhJMGRWQQ?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 00:27:17 GMT",
-          "source": "KB Think"
+          "title": "중동 리스크에 증시 '패닉'…코스피·코스닥 동반 사이드카 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNUhEckUtRjBBbzFySjFBZEViUWd3QlhtdmM2STRjMVhtdEswei1tVDJvNElHMDRtRTJGalZvcHhyak52RXl1SHNVaUN2QkM0RVdUYUtJX3BMZ0F3M05GZEVMeVpDWWZlX0E?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 03:27:10 GMT",
+          "source": "hidomin.com"
         },
         {
-          "title": "[개장시황] 美 기술주 급락에 코스피 7000선 하회 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WMGVYS0hFdHVpSjJkODdCa2pUY21JWkphR2ZKVlZWWG4zdk5iU29pdU9rX2xHVVFYTGZPeTJpQ201ZWgyTHJPZWxiOVhPZXJjanJUZk9jM3NOamFq?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 00:27:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "기술주 중심 매도세 뉴욕증시 하락 마감 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00R1MybVVYcHpqcDFYdHZSTHAtSXJ0UmgtaXRkWU5wZW1LOWwxRFl2TmNkUnlVTkx3MGFsdWRVbWlPazZ4STk3TjdKMHBHY2lHTFFCUS1wa3VKU1hKVkt3TDZ2a3NfY0dzTVU0SUt3NjdtX3IyYnJHaS1n?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 22:42:39 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "유가 100달러·AI 투자 부담 ’이중 악재’…뉴욕증시 급락 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xWDZ6cmFvZDczYVpoN0RwbUVpNEhFanBuQVFaT1R6azNLVE9vblBGU1AxbW9KeFFEd0dFYTd0ME1WUjJmYUFvZFJlM3FjQWFtazZtNTFBUGU1WWJXTHdDYV9teURiV1JaY1gwWGprVnY?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 22:42:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "코스피 4%대 급락, 6700선 후퇴…매도 사이드카 발동 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFSVFOSjhHa0JITllycWhqYnMyS3RfWDFrWi1YcmNfVUhFZ05jaXdfQWR2ak11ZmptQ3NLcFRreUNQM2lsVWNqV21PV19KWVJMeHRpMQ?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 02:28:00 GMT",
+          "source": "JTBC"
         }
       ]
     }
@@ -55,11 +55,11 @@
     "vix": 18.7,
     "vvix": 102.17,
     "skew": 145.95,
-    "move": 80.08
+    "move": 70.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1322500000000,
-    "retail_net_buy_krw": 1325200000000,
+    "foreign_inst_buy_krw": -4074200000000,
+    "retail_net_buy_krw": 4051700000000,
     "margin_loan_krw": 32566000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +74,18 @@
       "sma_200": 23932.93
     },
     "kospi": {
-      "current": 6875.27,
+      "current": 6692.93,
       "high_52w": 9385.59,
-      "drop_pct": -26.75,
-      "intraday_low_drop_pct": -27.28,
-      "sma_200": 5649.71
+      "drop_pct": -28.69,
+      "intraday_low_drop_pct": -29.14,
+      "sma_200": 5666.92
     },
     "kosdaq": {
-      "current": 768.79,
+      "current": 749.72,
       "high_52w": 1229.42,
-      "drop_pct": -37.47,
-      "intraday_low_drop_pct": -37.93,
-      "sma_200": 1001.12
+      "drop_pct": -39.02,
+      "intraday_low_drop_pct": -39.28,
+      "sma_200": 1000.67
     },
     "sp500": {
       "current": 7408.3,
@@ -275,8 +275,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-07-23",
-    "analyzed_at": "2026-07-23T13:42:30.797251+09:00",
+    "date": "2026-07-24",
+    "analyzed_at": "2026-07-24T13:39:54.343114+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -284,16 +284,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "5W98mO66dhs",
-        "title": "반도체 쏠림 끝나나? 반등장에서 강한 종목 지금 찾아야 한다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-23T00:13:34Z",
-        "url": "https://youtube.com/watch?v=5W98mO66dhs",
+        "video_id": "MQmhpvm2DPo",
+        "title": "8월 증시 분위기 바뀌나? 이제 반도체보다 중요한 것은 '수급 확산' | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-24T00:16:55Z",
+        "url": "https://youtube.com/watch?v=MQmhpvm2DPo",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "전문가는 '반등장에서 강한 종목을 지금 찾아야 한다'고 명확히 언급하며, 시장의 반등과 매수 기회를 강조하고 있습니다."
+          "stance": "neutral",
+          "reason": "영상 제목은 8월 증시 분위기 변화와 수급 확산이라는 시장 분석 관점을 제시하고 있을 뿐, 구체적인 매도 또는 매수 행동을 권고하는 내용은 없으며, 본문은 정보 및 광고로 이루어져 있습니다."
         }
       },
       {
@@ -305,15 +305,15 @@
         "transcript_available": false,
         "is_stale_fallback": true,
         "analysis": {
-          "stance": "neutral",
-          "reason": "전문가는 코스피의 연간 고점 확인, 반도체 기업의 감익 시나리오, 실적 미스 가능성 및 다양한 리스크 요인을 분석하며 시장 상황을 설명하고 있으나, 특정 행동 권고(매수 또는 매도)는 명확히 제시하고 있지 않습니다."
+          "stance": "warning",
+          "reason": "전문가는 'Buy & Hold'보다 'Trading Buy' 전략을 선호하며, 코스피 연간 고점 확인, 주요 기업들의 감익 및 실적 미스, 프로젝트 지연/취소, 리스크 관리 필요성 등을 언급하여 장기적 관점의 보유보다는 단기적 매매를 통한 적극적인 리스크 관리가 필요하다는 입장을 명확히 합니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "bullish",
-      "윤지호": "neutral"
+      "박병창": "neutral",
+      "윤지호": "warning"
     },
     "prompt_version": "v4-api-1.2.4"
   },
