@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T08:38:54.249240+09:00",
+  "timestamp": "2026-07-24T10:08:59.587808+09:00",
   "sentiment": {
     "cnn_fng": 39.6,
     "cnn_components": {
@@ -14,23 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 14,
-      "greed_articles": [
+      "greed_count": 0,
+      "fear_count": 23,
+      "greed_articles": [],
+      "fear_articles": [
         {
-          "title": "“코스피 지수 전고점 회복하고 1만 간다” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tWmpPT253TUE0aTJ1U0RJazBZMjJIU0x0a0dnenl3UHY5ZS1YeFNfZFFYQ1h1Nmg0QTk3U0tSUTZXZGg2U3lmaUM3YWtKX1E?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 17:08:54 GMT",
-          "source": "v.daum.net"
+          "title": "[글로벌증시] 중동 긴장과 유가상승 속 나스닥 2% 넘게 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94WTVoaDNBaEZKTk9Vc3h6Rl9yNTRCSVNuR1Fldml4RHBZci13d0FhN0Rldmt0YU5xcVJ5eTJBZmRHODQyQjNxSUtibU1vQkpyZERPVkVDLWhYcWFlR2RQcWhtVnlTeGM?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 21:58:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[외신 에스프레소]\"닷컴버블보다 위험하다\" 경고등 켜진 미 증시…AI 거품 붕괴 시나리오 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56Sy1EVVh3SFVyUENKY3FpcnNJR2hzaDBaWE8wNERsamZ3dkkwNEoxU09rT243R0djdHA0N0Y3LUxKUmtCYVMzM1BBQnNoeHplOWRwbGZsSlE0Zw?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 23:04:11 GMT",
-          "source": "한국경제"
-        }
-      ],
-      "fear_articles": [
+          "title": "日 증시, 美 기술주 투매에 하락…닛케이 64,000선 후퇴 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xS3pMWEZyeXVMa3dGZjVCQnZ1bFA5dUtFdlY3QnlHNmU1SUhrT0oyLWt0WDNoeXJ3TkdCTk9UXzB5d19reldoVGcxZnVoYjlDTXNTeHgtX0FJNmh6RE5QSkdrQno1RTk4LUI5NjhJMGRWQQ?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 00:27:17 GMT",
+          "source": "KB Think"
+        },
+        {
+          "title": "[개장시황] 美 기술주 급락에 코스피 7000선 하회 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WMGVYS0hFdHVpSjJkODdCa2pUY21JWkphR2ZKVlZWWG4zdk5iU29pdU9rX2xHVVFYTGZPeTJpQ201ZWgyTHJPZWxiOVhPZXJjanJUZk9jM3NOamFq?oc=5",
+          "pub_date": "Fri, 24 Jul 2026 00:27:00 GMT",
+          "source": "뉴스핌"
+        },
         {
           "title": "기술주 중심 매도세 뉴욕증시 하락 마감 - MBC 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00R1MybVVYcHpqcDFYdHZSTHAtSXJ0UmgtaXRkWU5wZW1LOWwxRFl2TmNkUnlVTkx3MGFsdWRVbWlPazZ4STk3TjdKMHBHY2lHTFFCUS1wa3VKU1hKVkt3TDZ2a3NfY0dzTVU0SUt3NjdtX3IyYnJHaS1n?oc=5",
@@ -38,28 +43,10 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "[글로벌증시] 중동 긴장과 유가상승 속 나스닥 2% 넘게 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SQXFybFRKNFdtblV6VjgyaTJWcWVLc0NTM2twTHRxUXFBQ0NYMGVjMFVCVTVTcG9aYTVQQ0lsNTBlZVZqZ3ExUWhJQ0E4Y2s?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 21:59:00 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[서울데이터랩]미국 증시, 기술주 급락에 일제히 하락 마감…나스닥 2% 넘게 밀려 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tOVlDdGZGbEYwRTRFdU0yQ00zRkNTQTJ3T0dkVWhJblZZMUpEbWlBX1ZoeFVqWUFUREZvenlvUXdibmN5dG1LTTh3WTFISC1UN3AtcXpxWEhZTlNiZFpxSjFVS0FScnkxQnpJOGYtRDJreF82S3RGVW92TmlDQQ?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 21:22:49 GMT",
-          "source": "서울신문"
-        },
-        {
-          "title": "[뉴욕증시-1보] AI 자본지출 부담에 투매…나스닥 2.1%↓ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yRnJpV25JYVJHb2c0c0dfeWpqeUIxTHV2V2ZzTk1pdVhVcVlHR2d6MENINFJPbm1pM1ZTaWItQ29aZncxT1FIUzREOWlFNDJDM25nbXV1U0FFNWNhRWk0eEhhMmlFYjBoMnM0cWFiRTNpb3pI0gF0QVVfeXFMTXJGcmlXbklhUkdvZzRzR195amp5QjFMdXZXZnNOTWl1WFVxWUdHZ3owQ0g0Uk9ubWkzVlNpYi1Db1pmdzFPUUhTNEQ5aUU0MkMzbmdtdXVTQUU1Y2FFaTR4SGEyaUViMGgyczRxYWJFM2lvekg?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 20:18:03 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[0724개장체크] 美 증시, AI 투자 부담·유가 100달러 돌파 소식에 3대 지수 일제히 급락 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JbUF5a0tjNDMzQXBIdFNnZXpFdkxNcFZOMXdWaVdNcUpPbDBIaFA4Y1lZR2U3UFV3bm4yNXZJMWd6Z05Zc2ZlMFZ2NWhmczVVUDJlMWFMZDJKem9JUGxjUWZpT2lhVWRvNWpSNEZjeHJSck85MUE?oc=5",
-          "pub_date": "Thu, 23 Jul 2026 21:58:36 GMT",
-          "source": "인포스탁데일리"
+          "title": "유가 100달러·AI 투자 부담 ’이중 악재’…뉴욕증시 급락 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xWDZ6cmFvZDczYVpoN0RwbUVpNEhFanBuQVFaT1R6azNLVE9vblBGU1AxbW9KeFFEd0dFYTd0ME1WUjJmYUFvZFJlM3FjQWFtazZtNTFBUGU1WWJXTHdDYV9teURiV1JaY1gwWGprVnY?oc=5",
+          "pub_date": "Thu, 23 Jul 2026 22:42:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ]
     }
@@ -71,8 +58,8 @@
     "move": 80.08
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2233500000000,
-    "retail_net_buy_krw": -2207700000000,
+    "foreign_inst_buy_krw": -1322500000000,
+    "retail_net_buy_krw": 1325200000000,
     "margin_loan_krw": 32566000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +74,18 @@
       "sma_200": 23932.93
     },
     "kospi": {
-      "current": 6797.7,
+      "current": 6875.27,
       "high_52w": 9385.59,
-      "drop_pct": -27.57,
-      "intraday_low_drop_pct": -27.64,
-      "sma_200": 5632.76
+      "drop_pct": -26.75,
+      "intraday_low_drop_pct": -27.28,
+      "sma_200": 5649.71
     },
     "kosdaq": {
-      "current": 751.09,
+      "current": 768.79,
       "high_52w": 1229.42,
-      "drop_pct": -38.91,
-      "intraday_low_drop_pct": -38.91,
-      "sma_200": 1001.64
+      "drop_pct": -37.47,
+      "intraday_low_drop_pct": -37.93,
+      "sma_200": 1001.12
     },
     "sp500": {
       "current": 7408.3,
@@ -186,7 +173,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
@@ -285,7 +272,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-07-23",
