@@ -1,68 +1,30 @@
 {
-  "timestamp": "2026-07-24T21:52:49.498624+09:00",
+  "timestamp": "2026-07-27T00:34:33.776557+09:00",
   "sentiment": {
-    "cnn_fng": 38.8,
+    "cnn_fng": 39.4285714285714,
     "cnn_components": {
-      "momentum": 29.4,
-      "strength": 34.0,
-      "breadth": 11.4,
+      "momentum": 29.2,
+      "strength": 34.4,
+      "breadth": 14.0,
       "put_call": 30.0,
-      "junk_bond": 53.6,
+      "junk_bond": 55.0,
       "volatility": 50.0,
-      "safe_haven": 63.2
+      "safe_haven": 63.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 37,
-      "greed_articles": [
-        {
-          "title": "잡히지 않는 롤러코스피…단일종목 레버리지 과열 조기차단 - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ORmJFM0U3bGtpckZZWnlEYXFkUVVldUxaYkpCNk1sVzJSN1VSRTZxUU8zcDRVdFAzYjN6UWJnTmdURzhIdUdSZ01sNVZkWWhJYWc?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 10:35:03 GMT",
-          "source": "서울경제"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피·코스닥, 5%대 급락 마감…’검은 금요일’ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uLXg4X0dROEdfcXdKRlRoWWxzbHZ0R2d6V1NFSjlad21DeVlmcENfV3RfZkdBdjg3N1hjMkRGVFhSWlQ0aFJGOWFoRFlFazVnTXJIMjNlMUZfeDVlSnYza25ubmxuVjg?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 06:36:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "또 '블랙데이'…유가급등에 코스피 5.7%·코스닥 5.3% 급락(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YMHd2aGRpaVl4QURhZXFOaWpGdXZyMUNid1RFQmo0NTMxd0dqcUJoNTRpRFg2UTRacDJrWktPOEdzX0ZvcWhtMDVJZlNEOXlxOVpLSDYxVkRCS0HSAWBBVV95cUxOaWthYXdFUDR4Q1dNdGNUaW56Y1BiemNJVG9Hd19vTlhFZW1OYlYxaE1DNnhkTm5SLWIwY3FJZ0VBSldxNDNVVktHUEI5dl85SThGLTd1NEZzMldpTHlfQWw?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 07:21:33 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피·코스닥 5%대 급락 마감‥'7천' 또다시 무너져 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9udnJMMW9rRkVGOE85ZFByMU1Vd0swZXJEUFFEV1NEYVh1NkpjY2htY1NFT09ZOVJQLW5DbTdqOGJzbmRkSkNTS2ttenJnU1RnVVhvU2FVMXJvcDR0ZnFLLVpTbHVOWEtZMWJHamdSc0Rja1Rh0gF0QVVfeXFMTWJxT05TUVAxTlk5MnpBX2tLd3Izcnk5T1RNZE42R00tdE13X0VMUlJoWUtKSGlEWHcwS2l6MEl6c0IyN3NpeEZBSmVqV29iNVBYSmRmNzBlMC1sUFBNU3ZfZjBBUW0wTktENDBycTB3a2xVaVM?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 07:06:05 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "중동 갈등·유가 급등에 코스피 5.7% 폭락 마감 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BMVo2RWFGV2JycU85VzlTNkpiajlZbEVudGYxbEFPODhXLVIxTTRhMktyX2dDbVR3R3BibVhUSm5yUW9pU2dZVkJKbEJpSWk0amtTREEwem9DWS1MVnc?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 07:42:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "코스피 5%대 급락…’세기의 재산분할’에 SKT↑ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Oa250WllnVzdWUDZoVnlTYnE5QzJZdi1DUlduQ0FPM0JfV3VQWE1vSUFma1ZjU0JsUFpITWE3UzhDa0JTU1JYMWpGSnBWNWJ6anZRNkE1eTBDLVg2T0ZnTGFCM1FGWGs?oc=5",
-          "pub_date": "Fri, 24 Jul 2026 07:35:00 GMT",
-          "source": "연합뉴스TV"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.67,
-    "vvix": 102.17,
-    "skew": 145.95,
-    "move": 70.88
+    "vix": 18.58,
+    "vvix": 100.73,
+    "skew": 147.28,
+    "move": 76.82
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -5219700000000,
@@ -74,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25137.69,
+      "current": 24975.82,
       "high_52w": 27190.21,
-      "drop_pct": -7.55,
-      "intraday_low_drop_pct": -8.22,
-      "sma_200": 23932.93
+      "drop_pct": -8.14,
+      "intraday_low_drop_pct": -8.36,
+      "sma_200": 23943.1
     },
     "kospi": {
       "current": 6690.62,
@@ -95,34 +57,34 @@
       "sma_200": 1000.67
     },
     "sp500": {
-      "current": 7408.3,
+      "current": 7411.98,
       "high_52w": 7620.9,
-      "drop_pct": -2.79,
-      "intraday_low_drop_pct": -3.21,
-      "sma_200": 7002.37
+      "drop_pct": -2.74,
+      "intraday_low_drop_pct": -2.94,
+      "sma_200": 7005.73
     },
     "russell2k": {
-      "current": 2940.16,
+      "current": 2930.0,
       "high_52w": 3046.59,
-      "drop_pct": -3.49,
-      "intraday_low_drop_pct": -4.01,
-      "sma_200": 2662.19
+      "drop_pct": -3.83,
+      "intraday_low_drop_pct": -3.91,
+      "sma_200": 2664.4
     },
     "soxx": {
-      "current": 551.24,
+      "current": 527.01,
       "high_52w": 655.95,
-      "drop_pct": -15.96,
-      "intraday_low_drop_pct": -17.1,
-      "sma_200": 395.99
+      "drop_pct": -19.66,
+      "intraday_low_drop_pct": -20.39,
+      "sma_200": 397.19
     }
   },
   "sector_rs": {
-    "XLK": 1.076,
-    "SMH": 1.105,
-    "BOTZ": 0.886,
-    "IGV": 0.986,
-    "XLF": 1.051,
-    "XLE": 1.015
+    "XLK": 1.059,
+    "SMH": 1.07,
+    "BOTZ": 0.849,
+    "IGV": 0.994,
+    "XLF": 1.053,
+    "XLE": 1.021
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 50.78,
+    "tqqq_profit_pct": 45.55,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 194.39,
+    "soxl_profit_pct": 155.72,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.02,
+    "koru_profit_pct": -95.15,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
