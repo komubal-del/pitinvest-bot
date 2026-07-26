@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T02:43:36.730937+09:00",
+  "timestamp": "2026-07-27T03:43:24.082400+09:00",
   "sentiment": {
     "cnn_fng": 39.4285714285714,
     "cnn_components": {
@@ -294,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 175.634,
+    "strategy_pct": 135.534,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -874,7 +874,7 @@
       },
       {
         "date": "2026-07-27",
-        "ret_pct": 175.634
+        "ret_pct": 135.534
       }
     ],
     "monthly_breakdown": [
@@ -916,9 +916,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -50.12,
-        "end_ret_pct": 175.63,
-        "max_dd_pct": 60.84
+        "return_pct": -90.22,
+        "end_ret_pct": 135.53,
+        "max_dd_pct": 100.94
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
