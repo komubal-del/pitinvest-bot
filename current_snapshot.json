@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T03:43:24.082400+09:00",
+  "timestamp": "2026-07-27T04:54:07.790167+09:00",
   "sentiment": {
     "cnn_fng": 39.4285714285714,
     "cnn_components": {
@@ -19,18 +19,18 @@
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "코스피 급락에… 서학 개미, 다시 美 증시로 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IemhUNmZ0V0FvenZnb3lwX0hlcFdXQ1ByZzFsRFVaWGpmUkc4TS1Tb3dqaHBNcnRIazlQdVZXR2pyMlVrSFZfUXJRU19LX3M?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 15:33:37 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 급락에… 서학 개미, 다시 美 증시로 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWU4yeS1aMzRvWVp1b2hfVHE4TUdveHl5YUhCbThoNzlnb1hPV0VsU1p4cDZlTzV2d2VYcUpjWHFMaDVyTktvbGJ0Y3daZXFnb2lpbFlFRDhLTjFsS1ByQUkwam5aVHhUVzRUM0tOTm10dGM3XzI1amsyMWtsdVNubTBpTlNaNWNxUTVJ?oc=5",
+          "pub_date": "Sun, 26 Jul 2026 15:32:00 GMT",
+          "source": "조선일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.7,
-    "vvix": 102.17,
-    "skew": 145.95,
+    "vix": 18.58,
+    "vvix": 100.73,
+    "skew": 147.28,
     "move": 76.82
   },
   "korea_flow": {
@@ -43,55 +43,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25137.69,
+      "current": 24975.82,
       "high_52w": 27190.21,
-      "drop_pct": -7.55,
-      "intraday_low_drop_pct": -8.22,
-      "sma_200": 23932.93
+      "drop_pct": -8.14,
+      "intraday_low_drop_pct": -8.36,
+      "sma_200": 23943.1
     },
     "kospi": {
-      "current": 7096.89,
+      "current": 6690.62,
       "high_52w": 9385.59,
-      "drop_pct": -24.39,
-      "intraday_low_drop_pct": -26.56,
-      "sma_200": 5650.81
+      "drop_pct": -28.71,
+      "intraday_low_drop_pct": -29.14,
+      "sma_200": 5666.91
     },
     "kosdaq": {
-      "current": 790.28,
+      "current": 748.22,
       "high_52w": 1229.42,
-      "drop_pct": -35.72,
-      "intraday_low_drop_pct": -38.11,
-      "sma_200": 1001.23
+      "drop_pct": -39.14,
+      "intraday_low_drop_pct": -39.28,
+      "sma_200": 1000.67
     },
     "sp500": {
-      "current": 7408.3,
+      "current": 7411.98,
       "high_52w": 7620.9,
-      "drop_pct": -2.79,
-      "intraday_low_drop_pct": -3.21,
-      "sma_200": 7002.37
+      "drop_pct": -2.74,
+      "intraday_low_drop_pct": -2.94,
+      "sma_200": 7005.73
     },
     "russell2k": {
-      "current": 2940.16,
+      "current": 2930.0,
       "high_52w": 3046.59,
-      "drop_pct": -3.49,
-      "intraday_low_drop_pct": -4.01,
-      "sma_200": 2662.19
+      "drop_pct": -3.83,
+      "intraday_low_drop_pct": -3.91,
+      "sma_200": 2664.4
     },
     "soxx": {
-      "current": 551.24,
+      "current": 527.01,
       "high_52w": 655.95,
-      "drop_pct": -15.96,
-      "intraday_low_drop_pct": -17.1,
-      "sma_200": 395.99
+      "drop_pct": -19.66,
+      "intraday_low_drop_pct": -20.39,
+      "sma_200": 397.19
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.059,
+    "SMH": 1.07,
+    "BOTZ": 0.849,
+    "IGV": 0.994,
+    "XLF": 1.053,
+    "XLE": 1.021
   },
   "signals": {
     "cnn_under_10": false,
@@ -108,7 +108,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -127,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 45.55,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 155.72,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -95.15,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
