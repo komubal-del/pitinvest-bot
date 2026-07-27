@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T13:48:10.127888+09:00",
+  "timestamp": "2026-07-27T17:40:12.607064+09:00",
   "sentiment": {
     "cnn_fng": 39.4285714285714,
     "cnn_components": {
@@ -14,16 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 17,
-      "greed_articles": [
-        {
-          "title": "국내 증시 조정에 `빚투`도 최저…증권가의 `장밋빛 전망`은 여전 - 매일신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5c3FXSXBkRG9NMzRfMndSNUlBak5lME9UYjhOUHlldHV5SkpLR2dNTjhHQktTeUhuYTRLeUIzTk5wMGh0LUdWYWtVQTRXWll0cTRLVTRhT19tWHZRcUl2OXN3?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 00:36:14 GMT",
-          "source": "매일신문"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 8,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "코스피, 외국인 1.5조 ‘팔자’에 하락 전환…6,600선 거래 - KBS 뉴스",
@@ -32,41 +25,41 @@
           "source": "KBS 뉴스"
         },
         {
-          "title": "코스피 장중 하락 전환…엔비디아 투자 네이버 장중 9% 급등 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5haS1aakNxdlQtY2NXQVp5TWNkNWtCYTVUeVJrbFJVOVQtZFo1SlUySC0tQVNjXzZWUDRwaG9DdnFuMUpCWER4U0hCR3FadHM?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 02:39:06 GMT",
-          "source": "v.daum.net"
+          "title": "[증시 레이더] 코스피, 장중 2% 급락 딛고 6,755 마감 - 포커스온경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42dG82RGVWWi1zMUROdUo1TjVaS3BNamd0SDZndlJNdm9BWkNPY3dpOHdNSlVoUm9UcDJweFpNcFYxMm8wOEJsUW9jQW0wZTNmUm1RekNYRkdJNUhXWFE?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 06:47:39 GMT",
+          "source": "포커스온경제"
         },
         {
-          "title": "외국인 1.6조 ‘팔자’에…코스피, 하락 전환해 6600선 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQllPRVBrdWhlUFJfQWNST1JfZU16eURYNXU0TW1lTmRFZEJhck54U19LcTU4dVBRLVd4dnJMbkNEeTZ3TmJPWm42dkxQWGo4Wkp6a0diTmZJRUE4Y01hVW5wdHZjZmI4SDVXWG5odVlpR1FFUmcyWEFqRlIzektwS3FLR0VSSy020gGcAUFVX3lxTE1hakpTdjVMZVVUTml3a2FmTmdkTm85RDcySUV2TzRiZG9GRjhpc1dDVENfYWtudzFGVWNRLWgwM0k5eTdUTjVGZ05tNFJ6REdqVXZzZHFtYnozU1ZSN2F4R0xMaUw1bTN2cGNKOE05TEF3MF9ZNWdDQk5nR0ltVFR3Wndsc3ZrdHRIb2RMa1R0blNBbE9NOGE3QTh5WA?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 02:23:00 GMT",
-          "source": "Chosunbiz"
+          "title": "코스닥 무차별 급락에 액티브 ETF 40%대 손실 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SdWcyOFhSSG14NXU3UUVJYkZ4WEx6b2xBN2hobnI5Wk1hUk56UTEzR0pfQkp5aHFwWWRaVlYyZ0d4cURFdDdPcXJiNzBHT05DN1IzUUx6RlB0N1BsS1NiY19INkd6MzlxTmN2NGl2MG00a3FKMExkQnJ30gFsQVVfeXFMT3A2UG1KT05HOTFVbGQzNjhPRy0tNUpVV0E4N1BOamhUUlpiV3N1V0ctakpBSEl1Zy1RdGJ3bF9SQjF2SjlTTy1nYi1HWE5yNC1KbVY2RVltTHNZZThGM2lVVmZIeXdWc296X3JV?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 06:02:00 GMT",
+          "source": "국민일보"
         },
         {
-          "title": "코스피, 상승분 감안해도 이례적 급락…\"V자 반등 어렵다\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hS3ZmTUxFbTh2RzV4emRodF9rUTZIMDl4OE5PUExOcU5NR3BpcXJocE5wdFExRUdmM3k5SUxRSjUwYTRxeXZUQldoVW5acDBZSy1rLXp3OHpOSXdJaVFpWjlkZ2lUQy1uWFpoLXNndHE?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 23:22:18 GMT",
-          "source": "연합인포맥스"
+          "title": "유럽 증시 급등…미·이란 긴장 완화에 유가 급락 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10aGxvYTlubUVtQy1QbE9IQzBSaTZqakFhOFBMeV9JaW5HZGNxajE3UkRRNVV6ZWM1WWdoRW1QZmlVSVR6dG81TDhic014b1haV01FSDFKOVYtbWhObnlxdnRwV1drQjNfLU5UU19jRXY?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 07:09:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "상승 출발한 코스피, 외국인 1조 '팔자'에 하락 전환…코스닥은 2%대 강세 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yM2FPVXhjenhSdUJuZ2RzbWhhb3dEWWlldDFGOFI2bmdkcXdDVFR6aWxhZWl5SFdvR3N0MEs3bXVhWEQ5YTg4cG56TjRmRDlndFhqbGg4ZnhqZ3lPVVhCWXp2VXdXZWdYdG9KMjVwMXAzUQ?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 01:38:37 GMT",
-          "source": "인더스트리뉴스"
+          "title": "[마감시황]코스피, 장중 급락 딛고 6755.75 마감…반도체 강세에 0.97% 상승 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sRF9CWF9seTAtaHQyRDM1dHBXbWttTERVSFF1b3V2a1Y4NGtFNW1hRFV5aDd4UEgzcEI2OFlDRmkwMUxJTUtzQ3lMS3pKR243dU50R2lGM2otN0pkSzA3c1d5VF9wWXB5RXdyZEl6S05zeGl3VVVrMjJpZUhyQQ?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 07:12:00 GMT",
+          "source": "서울신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.58,
+    "vix": 17.72,
     "vvix": 100.73,
     "skew": 147.28,
     "move": 76.82
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1794300000000,
-    "retail_net_buy_krw": 1739000000000,
+    "foreign_inst_buy_krw": -2021599999999,
+    "retail_net_buy_krw": 1978800000000,
     "margin_loan_krw": 32281500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +74,18 @@
       "sma_200": 23943.1
     },
     "kospi": {
-      "current": 6635.25,
+      "current": 6755.75,
       "high_52w": 9385.59,
-      "drop_pct": -29.3,
+      "drop_pct": -28.02,
       "intraday_low_drop_pct": -30.13,
-      "sma_200": 5682.73
+      "sma_200": 5683.33
     },
     "kosdaq": {
-      "current": 761.7,
+      "current": 764.86,
       "high_52w": 1229.42,
-      "drop_pct": -38.04,
+      "drop_pct": -37.79,
       "intraday_low_drop_pct": -38.69,
-      "sma_200": 1000.21
+      "sma_200": 1000.23
     },
     "sp500": {
       "current": 7411.98,
