@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T08:25:22.815230+09:00",
+  "timestamp": "2026-07-27T10:05:58.542143+09:00",
   "sentiment": {
     "cnn_fng": 39.4285714285714,
     "cnn_components": {
@@ -14,71 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 6,
-      "greed_articles": [
-        {
-          "title": "﻿'삼전·하닉 쏠림' 제동 걸린다…코스닥 다시 '천스닥' 꿈 꾸나 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yR1hINGRYQ2otSWFpdHNBX3A5RmtnbnozYWoyUkVkTHowOVV5Rno0bGtjX1BVUkVJR3ZEZTIzQUVjMWQwTkJJNnhvQ1JUMlI1Um12LUlKMnpNTUlCc0habXpaVnU0MlUw?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 22:20:55 GMT",
-          "source": "ebn.co.kr"
-        },
-        {
-          "title": "‘도돌이표’ 코스닥…수급 쏠림, 개인 외면에 700선 회귀 [마켓시그널] - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UQnJyQlVRYlc5NC1FWl9qR3JUQmJkT0p4NmJRekY4UVVyRVNnSGRSU3pTcXFEZGFaLWZiNlFJQ1Q2ZkVCb0x3QkdySTFJSVZmNHNZ0gFTQVVfeXFMTVRCcnJCVVFiVzk0LUVaX2pHclRCYmRPSng2YlF6RjhRVXJFU2dIZFJTelNxcURkYVotZmI2UUlDVDZmRUJvTHdCR3JJMUlJVmY0c1k?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 21:00:00 GMT",
-          "source": "서울경제"
-        },
-        {
-          "title": "뉴욕증시, FOMC·빅테크 실적에 AI 과열까지 시험대 - 톱스타뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBuZnlnRGEyYm9YSTdZSFdGV2hMM0FDR2w5MFdhYVN0UzVIQ2tNWGQzZS0yRWtSMFkzTXI0SDhwSEQxbnNQQmwwQS1URFZIWDV4QXZENnBoaDlib0xPMDBYdTI0XzhHcWpVVTJkd2RxU1paQQ?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 22:08:51 GMT",
-          "source": "톱스타뉴스"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[마켓뷰] 코스피, 한·미 'AI 동맹' 소식에 급락 딛고 반등할까 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zM0d1cmE2TmhzM3o5dUppMTdMd091djFzUXh1RVVyOURILWdpY1BWUHVJb0o2Q1BUcmhvWXJxaV9QcjdQVXpndnJlVGRId2gtbVE?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 22:54:09 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "코스피 급락에… 서학 개미, 다시 美 증시로 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWU4yeS1aMzRvWVp1b2hfVHE4TUdveHl5YUhCbThoNzlnb1hPV0VsU1p4cDZlTzV2d2VYcUpjWHFMaDVyTktvbGJ0Y3daZXFnb2lpbFlFRDhLTjFsS1ByQUkwam5aVHhUVzRUM0tOTm10dGM3XzI1amsyMWtsdVNubTBpTlNaNWNxUTVJ?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 15:32:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "[주간수급리포트] ‘삼전닉스’만 4조원 팔아치운 기관 투자자⋯코스피·코스닥 동반 급락한 한주 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycjVDWDViUzRTNHpHZW83SkE0X3NnVWZpd2tLSjNvSkZ3YjAxaG9RMktoVGhpVTFXeGpTWXlZdTZ3b3h0eDd5YTBKNDlBa25xcXk1NQ?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 21:00:00 GMT",
-          "source": "이투데이"
-        },
-        {
-          "title": "[오늘의 증시]美 반도체 급락에 코스피 초긴장…또 파랗게 질리나 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11M0pFUE4zc3k0LW5nSkN3WTFCYU9UNlRQNTl0ZHIxSnp4aGtfUmZ5NDVSUkpOUW1NQXo0U1RDZWZoblR4MWZrVHpBM3RLYkRNTTlsVGVkQ1JrcTZXTjhBRtIBeEFVX3lxTFBDRDg5TjhyYjZfWjJwbzE3eXA5TUY0blotYXhmcTMtUE01MzNQRGpaOVlSMXJ1QV9TZFlYNVdrem1ocUwwZmFISEFMSGVGSjV5LVpLYk9TRzVsUUJoTEZBYlZvYjI1VnNjcS1nNzZqNjZWLU9DUkhUUg?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 22:41:04 GMT",
-          "source": "뉴시스"
-        },
-        {
-          "title": "“AI 동맹 1390조 통했다?”… 급락한 코스피, 6700선 반등 기대감 커진다 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xQklrcmYyczIxZFpNU1l3VU1HcWFoeTdaMDY0SkM3Sm1HNER1TEZuUk9iMmd6WjlaMHF5Z0JtbGlTOEpINjAwWE83bVM1Q0xZdWsyYW9OOUUtZw?oc=5",
-          "pub_date": "Sun, 26 Jul 2026 23:01:00 GMT",
-          "source": "경북매일"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.7,
-    "vvix": 102.17,
-    "skew": 145.95,
+    "vix": 18.58,
+    "vvix": 100.73,
+    "skew": 147.28,
     "move": 76.82
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -5219700000000,
-    "retail_net_buy_krw": 5178200000000,
+    "foreign_inst_buy_krw": -937600000000,
+    "retail_net_buy_krw": 911300000000,
     "margin_loan_krw": 32281500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -86,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25137.69,
+      "current": 24975.82,
       "high_52w": 27190.21,
-      "drop_pct": -7.55,
-      "intraday_low_drop_pct": -8.22,
-      "sma_200": 23932.93
+      "drop_pct": -8.14,
+      "intraday_low_drop_pct": -8.36,
+      "sma_200": 23943.1
     },
     "kospi": {
-      "current": 7096.89,
+      "current": 6734.1,
       "high_52w": 9385.59,
-      "drop_pct": -24.39,
-      "intraday_low_drop_pct": -26.56,
-      "sma_200": 5650.81
+      "drop_pct": -28.25,
+      "intraday_low_drop_pct": -28.86,
+      "sma_200": 5683.22
     },
     "kosdaq": {
-      "current": 790.28,
+      "current": 774.58,
       "high_52w": 1229.42,
-      "drop_pct": -35.72,
-      "intraday_low_drop_pct": -38.11,
-      "sma_200": 1001.23
+      "drop_pct": -37.0,
+      "intraday_low_drop_pct": -38.69,
+      "sma_200": 1000.28
     },
     "sp500": {
-      "current": 7408.3,
+      "current": 7411.98,
       "high_52w": 7620.9,
-      "drop_pct": -2.79,
-      "intraday_low_drop_pct": -3.21,
-      "sma_200": 7002.37
+      "drop_pct": -2.74,
+      "intraday_low_drop_pct": -2.94,
+      "sma_200": 7005.73
     },
     "russell2k": {
-      "current": 2940.16,
+      "current": 2930.0,
       "high_52w": 3046.59,
-      "drop_pct": -3.49,
-      "intraday_low_drop_pct": -4.01,
-      "sma_200": 2662.19
+      "drop_pct": -3.83,
+      "intraday_low_drop_pct": -3.91,
+      "sma_200": 2664.4
     },
     "soxx": {
-      "current": 551.24,
+      "current": 527.01,
       "high_52w": 655.95,
-      "drop_pct": -15.96,
-      "intraday_low_drop_pct": -17.1,
-      "sma_200": 395.99
+      "drop_pct": -19.66,
+      "intraday_low_drop_pct": -20.39,
+      "sma_200": 397.19
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.059,
+    "SMH": 1.07,
+    "BOTZ": 0.849,
+    "IGV": 0.994,
+    "XLF": 1.053,
+    "XLE": 1.021
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,7 +101,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -170,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 45.55,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 155.72,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -95.15,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -337,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 175.634,
+    "strategy_pct": 135.534,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -917,7 +867,7 @@
       },
       {
         "date": "2026-07-27",
-        "ret_pct": 175.634
+        "ret_pct": 135.534
       }
     ],
     "monthly_breakdown": [
@@ -959,9 +909,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -50.12,
-        "end_ret_pct": 175.63,
-        "max_dd_pct": 60.84
+        "return_pct": -90.22,
+        "end_ret_pct": 135.53,
+        "max_dd_pct": 100.94
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
