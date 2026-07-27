@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T07:42:07.559611+09:00",
+  "timestamp": "2026-07-28T08:44:48.956165+09:00",
   "sentiment": {
     "cnn_fng": 39.9428571428571,
     "cnn_components": {
@@ -14,20 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 23,
+      "greed_count": 1,
+      "fear_count": 33,
       "greed_articles": [
         {
           "title": "증시 활황에 증권사 ‘수수료’ 잭팟…“하반기 거래대금이 관건” - 국민일보",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUJtV0drUTNqMnNLbWtCZ0ZJbWhaMzc5MlBiS3NmWkRxTXBMbWc0MmNCS1R1N1V6TEJnWWloWXhtMHJndkg2R0g4ekpxNEZ0VmZQWDdNZWRjUHRSRGZETEkycl9YU0VNY21GbjdRa28zVVNaSmVtZUNCY2stR0M4Ym55Qmxsd9IBbEFVX3lxTFB1Xy0ybXlUa2NxQW00Tm1ZbmFmbzhyX192U1ZFemFvN1V1OXE5OEx4alFRTlFjTzJ2eUpPa1I1V2VkREpxclBCaG5BdEE5SXJTbTZrbmlzUk0ySHo1RWliS1hyWmpNdDUzYjNPMw?oc=5",
           "pub_date": "Mon, 27 Jul 2026 20:01:00 GMT",
           "source": "국민일보"
-        },
-        {
-          "title": "\"버블은 불가능하다…이번 주 코스피 7000 회복하며 저점 확인 가능성\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vOEdSdVhkLVNRcUVmeGFKUDQ0TTY5TXFZdzNpckR3RjRTQzZJYzJaWXJYVy1xUWpUSDBMYWkxa2Q5UENUVGkySDV0bGE5WGpMSksyLVNKRkRjUHVGakx2R9IBeEFVX3lxTE16ZXY2eURveGhKdmRoaG5PaWMzUGwxaFBHWDBscTljYVp3TXVrVTJ5aEZ1M3N6M2lPRGJMVmVyeUJlT3hSbDBrVFRxRlU1ZU13VV9kOEQtSDhDY2NIZnRieFlUS0I2WW5KWkVnNm9Gd2tQV2RqTHd2Tw?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 22:36:00 GMT",
-          "source": "뉴시스"
         }
       ],
       "fear_articles": [
@@ -38,16 +32,10 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYeUszQjY1dldlRjl5SU5qSW44OVlBdEpEaU5fYm1GOTMyVTk4TlhOSDRlSDVqZUJSV2tDVjhiS05CWFVlR3FRQ1kzaDRjaUFzRDNxVHJTNlN2NFMyV3lUVtIBYEFVX3lxTFBYeUszQjY1dldlRjl5SU5qSW44OVlBdEpEaU5fYm1GOTMyVTk4TlhOSDRlSDVqZUJSV2tDVjhiS05CWFVlR3FRQ1kzaDRjaUFzRDNxVHJTNlN2NFMyV3lUVg?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 20:11:40 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUUpUdFpHNG1vbzhIMWpfd0hwOHNSWTM2SnctNE1NcFR3TGtmS2ZyaDJTWG96bG50NEJGNzJxVFhETXBmNzhJN3pEZ01HVDI5RnNZc0toMElJODg?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 20:59:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "뉴욕증시, 유가 급락에도 반도체주 약세···S&P500은 ‘보합’ - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52ZExTNDV3ZFVwdmc5SU5uUTBEbVhJSzRqS0ZNVDJiYVZRM1lGZTAtOWJ4cjVDcENLQ1Q3OVp5Y2xNamh5djJHS0hFMTJyc3NadkZ4VW01VVJXZ9IBX0FVX3lxTFBkUTJyNFF3dVA4S1BqQWdhVnJBc19Jdnh1ZnVVSVJQaXhyZERPUUhVTVlZZmFsVUtLcHZjUXJ6d3g5aEVXaXF4em5uVkFOZXlDWmswaTZhaFJVd3VkVFBz?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 22:44:00 GMT",
+          "source": "경향신문"
         },
         {
           "title": "급락 벗어난 코스피, 실적·금리 시험대 - 머니투데이 - 머니투데이",
@@ -56,10 +44,16 @@
           "source": "머니투데이"
         },
         {
-          "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - TBS 서울",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVDI2a2tvMnNSZVRiN3F5VnVHb0JXU2o2Tm5sbkpub1Q0UjNwUkszMjBhcFRJLXluQV92c1Y3VXlja2tMSW1ndmRvX0dvQ2FmbjBRT3FxV3hUZkpjQVlnb0wyYjZhZ21jUUZEMEY2d3B4a2JZUDRGbUl5eU05TDlFeTJoeTlKZHNm?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 22:23:00 GMT",
-          "source": "TBS 서울"
+          "title": "유가 급락 속 뉴욕증시 혼조 마감 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTUklGWWQxeVRUU1ZEN2h3Z29QTG13VXp1aVVaRmVEb0tjWDhjYmMzM2xDM3FQLXJlNlZ5Y29ReGs3SjJMOVJUbU5ZUDdXNVJfRmJuYUhjSW9KZ2UyaGM0LXM0OHp0eTJtU1ZvWG10YUVSaS1obDdOTzB3?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 22:44:37 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUUpUdFpHNG1vbzhIMWpfd0hwOHNSWTM2SnctNE1NcFR3TGtmS2ZyaDJTWG96bG50NEJGNzJxVFhETXBmNzhJN3pEZ01HVDI5RnNZc0toMElJODg?oc=5",
+          "pub_date": "Mon, 27 Jul 2026 20:59:00 GMT",
+          "source": "KBS 뉴스"
         }
       ]
     }
