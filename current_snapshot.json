@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T06:35:19.471961+09:00",
+  "timestamp": "2026-07-29T07:42:15.635340+09:00",
   "sentiment": {
     "cnn_fng": 38.4857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 9,
+      "fear_count": 11,
       "greed_articles": [
         {
           "title": "코스피 11% 폭락에 서킷발동 개미는 '패닉'…전문가 \"버블붕괴 아니다\" [中 반도체 공포 덮친 증시] - v.daum.net",
@@ -32,16 +32,16 @@
           "source": "한겨레"
         },
         {
-          "title": "외국인 197조 '셀 코리아'…'폭락'한 코스피, 반등 가능성은? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wa2ZGMkhpNlU5a09MYUxCZWtGSFQxQUctZUpZbVYyel9CR2g5MUkxQ08teFRXY1ZLRENjV1l3Y2FDQ1AzUkVIQ1ZaWnhnVWs?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 21:04:41 GMT",
+          "title": "코스피 폭락·日 강진…檢 수사권 폐지 법사위 통과[오늘아침] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93MFR3dFdKSGJ6T2RYekF4ZExlYWxlWlNqTlhjSl85cXdHdDJuVjMxajVjb1FXWkh0bmhFeFl3ZmF3V2hGZUUyQS1HZEcyazg?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:03:09 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "“외국인, 코스피 이익 올라 급하게 판 것… 매도세 잦아들 가능성 크다” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wYUZDeU5EZ3pfam45c3hGNlFGSlEyWWRkYnlaZzJxME0xX3l1X0NRaHJlMGNna21pSW9zc2lpSUJFSGx1ZDRDbmNaNUstcFE?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 15:11:37 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 25거래일 만에 34% 폭락…\"당분간 높은 변동성 유지\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DaEhSR3NTWDFhSV82dEEyRU9KTC10LThoRmF2NmNRbnBMVlBFMGZvWC0yVUZjN1FCcC1UWEt4UzdWMmVVWDB6MHlNTEJkR2YtMXB2MGhMblhqMl9U?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 21:00:00 GMT",
+          "source": "뉴스핌"
         },
         {
           "title": "“2배 벌려다 14억 날렸다”…외인 5조 투매에 코스피 732p 증발 [숫자 뒤의 진실] - v.daum.net",
@@ -50,9 +50,9 @@
           "source": "v.daum.net"
         },
         {
-          "title": "[뉴욕증시] 반도체주 마이크론·AMD 8%대 급락…다우지수는 537P↑ - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb1l2Y3JsTTN5VGVJNHVHN2hwSFpkTHpWOElJS2dKX1RfZ3pSMDhlQkZvdE5TaFRjRG9RWmpXdy1IbVYyYi1PbE5NR0xCaV9vWm44MUNUZUh1NDFfV2hVV3ZoNzZCX184TGN0T2oxQ0hCZmNCWUlOd0U3WTRBa0JXeG53Ympidl9R?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 20:40:43 GMT",
+          "title": "코스피 10.8% 폭락…美 이익률 사상 최고 15.7% 착시 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzd4Tm1rUGFlU1ZYX2ZxbW45dVlLc2tHUmNVWHFZaHhaVFQxbnpnbk05Z0ZOQXRfSWxNYUw0czBrRkx0SnplWEpVY1BDWDdpY0t3MnNDMTF2NXhHd3RfSWVCVWdVUDVBT1JKZ1NLbkRiNnZjY2Rsbnl0cGFBN0N0QThmMEs1aWkz?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 21:44:56 GMT",
           "source": "글로벌이코노믹"
         }
       ]
@@ -67,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -4317900000000,
     "retail_net_buy_krw": 4315200000000,
-    "margin_loan_krw": 32203100000000,
+    "margin_loan_krw": 32270000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
