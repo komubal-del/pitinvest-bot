@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T07:42:15.635340+09:00",
+  "timestamp": "2026-07-29T08:40:42.251016+09:00",
   "sentiment": {
     "cnn_fng": 38.4857142857143,
     "cnn_components": {
@@ -14,46 +14,64 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 11,
+      "greed_count": 4,
+      "fear_count": 19,
       "greed_articles": [
+        {
+          "title": "증시 쏠림 꺾이고 예금 16조 복귀…LP 출자 가뭄도 풀리나 - 인베스트조선",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSnp6OTVfWVhsWkR5TUdqRldQd25ESktFVjlIR2x3WmkwMVdDelFSWTNlUFlyaExwMWhybHI4cEhUc0RzQUUwNzNyaFBCRnRyc3NHNmVNeGZZMWR4VThNeDN2ck1OVWpDV2RmNUNUdl9mMHBkVkozYUlMR1VaN0NkQVdtbw?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:02:55 GMT",
+          "source": "인베스트조선"
+        },
         {
           "title": "코스피 11% 폭락에 서킷발동 개미는 '패닉'…전문가 \"버블붕괴 아니다\" [中 반도체 공포 덮친 증시] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSWpWM1d4ajRqUmt0ZWs0Y0tNN29EcTI0N3VGbU1VTEhwNmFvWGROWTcwcDNER1lxZGRJZ2VZSDVvYjZvRk93dmhfZEZGeUE?oc=5",
           "pub_date": "Tue, 28 Jul 2026 21:11:05 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "고점에서 36% 떨어진 코스피…장중 6000선 무너져 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PcHFnS3dDSEkyYUVILUdMYk9fX1lmcW5IckVmcFY2SGVzV1FHd1BlQWlSbjVJdHhLRXRnMjhNMmJLV3A2NVVHbE5vTERvYjQ?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:59:24 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 11% 폭락에 서킷발동 개미는 '패닉'…전문가 \"버블붕괴 아니다\" [中 반도체 공포 덮친 증시] - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RM1Q2TTdtOHBQMWE1MUdkZWxqS2txakx1NjVXQk91SHRkeFFPQXVEWE5MZFVvUnB0ZXpvYWRkN25xdTZfV05QTTd4UXkyOExzSkZ2dQ?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 21:10:00 GMT",
+          "source": "이투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "검은 화요일 10.8% 폭락…코스피 6000 무너졌다 ‘턱걸이’ 회복 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55aUlqSVNQVEFNUFdfa2tzMVUwdGRCNFB0aFlrSWFBY1dDcUM2Xy1KUU9qajk5UGRTa05CeHdFSmp0V1V4S0pEZHplejBHYTFfSHlEaWZ6Y1hwZVUyQXVqckpyQTdDa2s?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 15:34:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "코스피 폭락·日 강진…檢 수사권 폐지 법사위 통과[오늘아침] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93MFR3dFdKSGJ6T2RYekF4ZExlYWxlWlNqTlhjSl85cXdHdDJuVjMxajVjb1FXWkh0bmhFeFl3ZmF3V2hGZUUyQS1HZEcyazg?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 22:03:09 GMT",
+          "title": "[마켓뷰] 美반도체 약세 지속…코스피, 폭락 딛고 반등 시도하나 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFT1oxWXBFU1pmVmpteS10Z1ZtLUNRR0ZKQkR5RFAzNU1ZQ1Z4RmM4bDd4ejNqelFxRVJ2UFBKZVhvUXJscVh3TkJjTHFJTFE?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 23:12:53 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "코스피, 25거래일 만에 34% 폭락…\"당분간 높은 변동성 유지\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DaEhSR3NTWDFhSV82dEEyRU9KTC10LThoRmF2NmNRbnBMVlBFMGZvWC0yVUZjN1FCcC1UWEt4UzdWMmVVWDB6MHlNTEJkR2YtMXB2MGhMblhqMl9U?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 21:00:00 GMT",
-          "source": "뉴스핌"
+          "title": "김용범, 증시 패닉에 \"中 창신·노광 쇼크…극심한 증시 변동성 점검할 것\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jN051OTExSlNaaks5Rkc1c3JUUTgtblBrYV9JRHg5MWVlVFU2S0FDRktxbmJTcHprZFdWajBaS25xQzlNdDQyTThLWXozVkE2N004bHhjQ19WZ1JseGEtQjRVamJUbXVhUjB3YU1jbTc?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:08:48 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "“2배 벌려다 14억 날렸다”…외인 5조 투매에 코스피 732p 증발 [숫자 뒤의 진실] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BODlCdm1CdTI0Y0ttM0tLX01fcjF4a3E5alhySUVOWWdWcXFibXNqXzcyMlZVNjBORktQdlE2TElVQnY1QmJ6M2szUjN0OU0?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 20:03:18 GMT",
+          "title": "\"금융위기·코로나 위기 급 폭락\"…한 달 만에 35% 꺾인 코스피, 바닥 신호일까 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50OU5SRFdVRDE2WjI5dFdXb3lYaC1vdlU1WlBUTFNXRWN4REFXRDN3ZGFpU0Y1Y0FWU19ZQk41Yy01WnM0S0tOVUVlWG1NYVN6bzlMa0p2M3RUbXpMcnRaZEhXT05pdHFEX0pjOVJTck0?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:59:34 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "김용범, 코스피 폭락에 “AI 혁명은 진짜…확신이 덜한 것” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mZ1lXQVFBdUdqR2Y4Zlk3TnczT05DSFU5Z3lRQ2tRWjlKdDM3UVJsaTRtZWE3czlxSTJQVTdiVlotV2ZjSGhoSG02Zy1wUnlLaW43d3ZnTlhUcEFHano2Y2FSNTMxMzlTdGpVc1VQWjg1US1hVWRJ0gFmQVVfeXFMTnctZWFSM2xBTVk1ODlQZUx1dElDd09XaURRRERNZzZzZEcyRUVNYi1qZE1mRGJ0RnpJUVpRODdNMEpOcHN0aFNpeWwzOUhDV05wSDd0V0c3RmtpakEtT0R0S0c4NW9n?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:11:00 GMT",
+          "source": "동아일보"
+        },
+        {
+          "title": "김용범, 증시 급락에 “中 창신·노광 쇼크…변동성 점검할 것” - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05d1RvQTdmZzRwWnY5aVN3RU8zMGg3UGxoSzBsenNWRXJJNFlhWjhPdmtMZG1yc1N2Ulp3UFpZTERmSUxQcEpSVHZTeHBqalk?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 22:47:07 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 10.8% 폭락…美 이익률 사상 최고 15.7% 착시 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzd4Tm1rUGFlU1ZYX2ZxbW45dVlLc2tHUmNVWHFZaHhaVFQxbnpnbk05Z0ZOQXRfSWxNYUw0czBrRkx0SnplWEpVY1BDWDdpY0t3MnNDMTF2NXhHd3RfSWVCVWdVUDVBT1JKZ1NLbkRiNnZjY2Rsbnl0cGFBN0N0QThmMEs1aWkz?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 21:44:56 GMT",
-          "source": "글로벌이코노믹"
         }
       ]
     }
