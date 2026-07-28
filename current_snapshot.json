@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T08:44:48.956165+09:00",
+  "timestamp": "2026-07-28T10:06:11.851569+09:00",
   "sentiment": {
     "cnn_fng": 39.9428571428571,
     "cnn_components": {
@@ -14,46 +14,39 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 33,
-      "greed_articles": [
-        {
-          "title": "증시 활황에 증권사 ‘수수료’ 잭팟…“하반기 거래대금이 관건” - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUJtV0drUTNqMnNLbWtCZ0ZJbWhaMzc5MlBiS3NmWkRxTXBMbWc0MmNCS1R1N1V6TEJnWWloWXhtMHJndkg2R0g4ekpxNEZ0VmZQWDdNZWRjUHRSRGZETEkycl9YU0VNY21GbjdRa28zVVNaSmVtZUNCY2stR0M4Ym55Qmxsd9IBbEFVX3lxTFB1Xy0ybXlUa2NxQW00Tm1ZbmFmbzhyX192U1ZFemFvN1V1OXE5OEx4alFRTlFjTzJ2eUpPa1I1V2VkREpxclBCaG5BdEE5SXJTbTZrbmlzUk0ySHo1RWliS1hyWmpNdDUzYjNPMw?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 20:01:00 GMT",
-          "source": "국민일보"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 56,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[글로벌증시] 뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xSG1UWEVTRDFqRXJXaHVkM0dYYlhoNGswbk1uS0NVNlhvZzN5bjk3ekNfejVSV2ZybmVDejZRRV9MR2NtMDVNd0Vod3VHYnhyNzlHVVk5WkFTTEs4aXJMLW1VdDJIYVE?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 21:49:00 GMT",
+          "title": "코스피·코스닥 동반 급락에 매도 사이드카…中 반도체 노이즈에 휘청 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CWGFXUVNMREx3WDNXb2lGRjNYcXZwN2g2cGhtVE1qLUpDTzROVzF1QVRrUHZFeDU1SC1lOE1ST3htMVEzWU11RG80V3RVMzZwc2JZZTBzaDJwblNwRlg0OGNfekItYWFjMWhiRVRkNjg?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:24:24 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[속보] ’검은 화요일’ 코스피 5% 급락 출발 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KZURLRzBjdzViUTVuUWw3UGJEeExEV3BvMWxJbklMSTJzSmxhVDh5SEZNSlRjZDBrcmxJR1FOUWktN1I1b1RNOWd1UFV4QjI5eVBfX0o1RWdZMDc0THZBSGRCR2U4WjQ?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:12:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "뉴욕증시, 유가 급락에도 반도체주 약세···S&P500은 ‘보합’ - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52ZExTNDV3ZFVwdmc5SU5uUTBEbVhJSzRqS0ZNVDJiYVZRM1lGZTAtOWJ4cjVDcENLQ1Q3OVp5Y2xNamh5djJHS0hFMTJyc3NadkZ4VW01VVJXZ9IBX0FVX3lxTFBkUTJyNFF3dVA4S1BqQWdhVnJBc19Jdnh1ZnVVSVJQaXhyZERPUUhVTVlZZmFsVUtLcHZjUXJ6d3g5aEVXaXF4em5uVkFOZXlDWmswaTZhaFJVd3VkVFBz?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 22:44:00 GMT",
-          "source": "경향신문"
-        },
-        {
-          "title": "급락 벗어난 코스피, 실적·금리 시험대 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Jam9sN1VTdGpwV3k5bnd2aER0X3I1YUhoZUdfQzlKTjd2WVFDODI5Q2dXREMwcVFpOUItSEZjendCX0RMZjZJSTRHcF9mT2oxVVdJaEJ2VjFWOVpVOXVBd193ZWRPSUtE0gFuQVVfeXFMTWMxTThKWnZ0X0J3LWdyR3Rzc0E1R0puMGo2b2Z0TnczV01hN0xNY1dJSlFqckJtT2NVa3lRdkloMVQ2dWJnRjQ5a1JMUnZzQ3BlVlkxVExOVEswQmtCeU01ek9CYVFaV3ZCNGNPNXc?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 19:12:00 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "유가 급락 속 뉴욕증시 혼조 마감 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTUklGWWQxeVRUU1ZEN2h3Z29QTG13VXp1aVVaRmVEb0tjWDhjYmMzM2xDM3FQLXJlNlZ5Y29ReGs3SjJMOVJUbU5ZUDdXNVJfRmJuYUhjSW9KZ2UyaGM0LXM0OHp0eTJtU1ZvWG10YUVSaS1obDdOTzB3?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 22:44:37 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUUpUdFpHNG1vbzhIMWpfd0hwOHNSWTM2SnctNE1NcFR3TGtmS2ZyaDJTWG96bG50NEJGNzJxVFhETXBmNzhJN3pEZ01HVDI5RnNZc0toMElJODg?oc=5",
-          "pub_date": "Mon, 27 Jul 2026 20:59:00 GMT",
+          "title": "코스피·코스닥 급락…매도 사이드카 발동 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rWlhNWXR0TXlpS0RjOFBXaHpYQW5ITmJORWRaZXJrWWNQdGtvZXdBOEUyMGQtNDRaa1RacGtSVWlENDJRU1lNOFlTR3NiLW9MYXVLY19wR1dFYU0?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:24:00 GMT",
           "source": "KBS 뉴스"
+        },
+        {
+          "title": "[속보] 코스피·코스닥 급락 출발...나란히 매도 사이드카 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0FJYXRTeW9aYk9lUnR1Qk9OUE5Sd2tfU2NiblNKYTNBa05uckRlTGgzOFZYQlBjOEVTbG05Mk53UFl0TmRnVGhIOWkzWUdQT2hNN1RWUTVvcW51WkR4amtSWDQxSzJaNGhfa21VR255Q29HUEZmX1ZrLTdsLVR5bg?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:05:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "코스피, 5% 급락 출발하며 '매도 사이드카' 발동‥6,300선까지 하락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Sd1h2MVIza0dRbDQzQmhUSllEM19sRkVDaEhyTEkxdmZsT19iY3RqRHl2YmxIU0RTVUlqVWd5WnMyTGw4azNaYU54Q0FWSXVvX2RSMWV1NkJMendiZlY5a3NqVDU3TEF0RnBWdXRKdkp4cndv0gF0QVVfeXFMTm1NU0lkekFYUXNZazB4Y21VUVpkYWRmbUZBTlBZaEZpblJRTTVmOEtoVzVkazNjQnJ2RERMYlBPN1l2LVVPbXlRdF9ESXg1dVpDQlRBLVJBVXRFZi1pTGZ0SGk0VjBQMnloQkltaXhFSG8wUkM?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:18:54 GMT",
+          "source": "MBC 뉴스"
         }
       ]
     }
@@ -65,8 +58,8 @@
     "move": 77.21
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2021599999999,
-    "retail_net_buy_krw": 1978800000000,
+    "foreign_inst_buy_krw": -1645700000000,
+    "retail_net_buy_krw": 1654500000000,
     "margin_loan_krw": 32203100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +74,18 @@
       "sma_200": 23942.88
     },
     "kospi": {
-      "current": 7096.89,
+      "current": 6252.99,
       "high_52w": 9385.59,
-      "drop_pct": -24.39,
-      "intraday_low_drop_pct": -26.56,
-      "sma_200": 5650.81
+      "drop_pct": -33.38,
+      "intraday_low_drop_pct": -33.47,
+      "sma_200": 5664.72
     },
     "kosdaq": {
-      "current": 748.22,
+      "current": 719.03,
       "high_52w": 1229.42,
-      "drop_pct": -39.14,
-      "intraday_low_drop_pct": -39.28,
-      "sma_200": 1000.67
+      "drop_pct": -41.51,
+      "intraday_low_drop_pct": -41.51,
+      "sma_200": 1000.0
     },
     "sp500": {
       "current": 7413.18,
