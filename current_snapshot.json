@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-28T13:21:27.022315+09:00",
+  "timestamp": "2026-07-28T16:05:44.013241+09:00",
   "sentiment": {
-    "cnn_fng": 40.0285714285714,
+    "cnn_fng": 39.9142857142857,
     "cnn_components": {
       "momentum": 29.0,
-      "strength": 33.8,
-      "breadth": 15.6,
+      "strength": 33.0,
+      "breadth": 21.2,
       "put_call": 29.6,
       "junk_bond": 51.0,
       "volatility": 50.0,
@@ -14,22 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 51,
+      "greed_count": 2,
+      "fear_count": 50,
       "greed_articles": [
         {
           "title": "\"코스피 변동성 키운 쏠림·레버리지, 美 증시도 문제\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OMVExU0haWXVzOE41QmlyVk1URFVsSkVnWGtheEZoTmdQcE5naDZpLVhhaXRvdjJtRjNUOUtmN2duYVhLNFFTVU1oeTIwd1VaVHBTdU96TUVMc3VlUEx4cFlHSnNidFU5MVFqSlVlN0Q?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 01:52:28 GMT",
+          "pub_date": "Tue, 28 Jul 2026 01:52:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[증시 긴급진단] \"매크로 불안 속 단기 과열 해소…5,700선 1차 지지선\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16aW45SUlmN3FiNk12ZW51TWNhQVZ3WkFnVEtNS2JSUl92ZU5USzlTbDNNVEgzMlBlSjZ3ZEg2dTJweFREM1daTWYxbDZfa2pWd205Y2FucWg0VXYxVklycW1YQTVWcm9XQ0lxai1uZUc?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 05:24:06 GMT",
           "source": "연합인포맥스"
         }
       ],
       "fear_articles": [
         {
-          "title": "[속보]코스피, 8% 폭락에 서킷브레이커…올 들어 8번째 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Vd0otMzl4bzdabHhjVFFXUkpIY2MxaGh1czdzQXJvclNBVE53cjVOdGRYLUhfTXc0bzNuUUFjNll0cVFzejl4X1VxMnBwWEtrUFdkOWlmNDhhd9IBX0FVX3lxTE5CcEZ1UERZZlRKNndZVWFicnNSUHpuSzRtVnp6dXl5Y19Yc0RsSXI3d3dvU3Y4bTJhd0ZSbFNnekFCcHlFS3laaTdjWnN1UTVWeXM4bUxER1VYcmlGRDRv?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 01:19:00 GMT",
-          "source": "경향신문"
+          "title": "\"465% 폭등\" 창신메모리 쇼크...코스피 8% 급락, 또 '서킷브레이커' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZYVdXVmZfZDBTZUdRRVB4U1RyOEJQVFhGemdnMHZQRFhieWdlbFQ1b2wxYmY2NU1YMFdNNDB5Q0JfWlBDcWpSTVE5cVE0bWdqTmc3NlNMeHJjaWVqS0Mxd3dReU1YMTgt0gFuQVVfeXFMTU5EbHV2T3E5aDl0QUFUdC1mYWN5OGVSSFZMcURXdnFjYTdwRGVXNldsZ0tWTWJURmRmQzRTSVFpbFlrR2FzUkZtT2hfQkIxbUhPa182TURBckFaVFRrMWJHaklUYlVwZzdqYUhNc0E?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 05:19:57 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "삼전닉스 레버리지 25% 폭락…코스피·코스닥 서킷브레이커 발동 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oZl96bUgyQmpwMnQwNXFSdFZBRGhkaHRsNnBBa0ZZaUZLTHV2N1NUZ1hSLU80RGlNNU9xclM2d1ZlZF9TejRKOEQ2QVgtVEtXTzBOOHF3?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 03:43:30 GMT",
+          "source": "중앙일보"
         },
         {
           "title": "6,000선도 '위협'…코스피 8%대 급락에 서킷브레이커 발동 - 연합인포맥스",
@@ -38,22 +50,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "中 반도체 공습에 코스피 8% 폭락...서킷 브레이커 발동 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0FJYXRTeW9aYk9lUnR1Qk9OUE5Sd2tfU2NiblNKYTNBa05uckRlTGgzOFZYQlBjOEVTbG05Mk53UFl0TmRnVGhIOWkzWUdQT2hNN1RWUTVvcW51WkR4amtSWDQxSzJaNGhfa21VR255Q29HUEZmX1ZrLTdsLVR5bg?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:05:00 GMT",
-          "source": "조선일보"
+          "title": "[속보]코스피, 8% 폭락에 서킷브레이커…올 들어 8번째 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Vd0otMzl4bzdabHhjVFFXUkpIY2MxaGh1czdzQXJvclNBVE53cjVOdGRYLUhfTXc0bzNuUUFjNll0cVFzejl4X1VxMnBwWEtrUFdkOWlmNDhhd9IBX0FVX3lxTE5CcEZ1UERZZlRKNndZVWFicnNSUHpuSzRtVnp6dXl5Y19Yc0RsSXI3d3dvU3Y4bTJhd0ZSbFNnekFCcHlFS3laaTdjWnN1UTVWeXM4bUxER1VYcmlGRDRv?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 01:19:00 GMT",
+          "source": "경향신문"
         },
         {
-          "title": "[속보] 코스피 급락에 매도 사이드카 발동 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YSUNpR1poU2Y1bzR1czN3eWtFdHJpY3NJN0tLQ1hyMmNEaV9WemNoenFuamhPY1pqd3ZFdWZRUHBHYUZ0MFFMMkEyWU1Hd2pwQnBiMnQxS0RzWUotcXVnU0FCQjNXSXM?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:07:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피, 美 반도체 쇼크에 6% 급락…매도 사이드카 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iRXBDS1JQeGxwT1dSbkhHdG1pVW9zOG9iR0RLbWwyMXYybVpfS2lnbFVSdVZzVjJqeGRUUnpKbVBrbjJ0cDFRblBmNF9kR2U2TDhEOGZDNWVyQQ?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:15:23 GMT",
-          "source": "한국경제"
+          "title": "또 '검은 화요일' 덮쳤다…코스피 8% 폭락, 서킷브레이커 발동 - 주간조선",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSDhieXV6VERkTGU2MGhBTjJST2tNcUxRN0VDbGlleU5PeWRraGthVTdYbmxDcUlaRTljTkNZZmdZaGhySFRROXBMd25YckFEU2hkRHJRaXd0SU5vWWNQc0hoZFJlMWJfM2fSAW5BVV95cUxONFN0OFYxSUFxTkhRNnRRY2I1azRYel9TZHJhLW1vazhDdG91V1ROdWJKNkxjR3pCd25xWTBFdlV1OTFtcGpZUDlUOG9nOGJpMWZLY1U5d2oxOTkzWFhTOXBuWnM2UmY0VzE1RUxQQQ?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 01:36:24 GMT",
+          "source": "주간조선"
         }
       ]
     }
@@ -65,8 +71,8 @@
     "move": 77.21
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3085900000000,
-    "retail_net_buy_krw": 3085900000000,
+    "foreign_inst_buy_krw": -4336500000000,
+    "retail_net_buy_krw": 4333800000000,
     "margin_loan_krw": 32203100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +87,18 @@
       "sma_200": 23953.82
     },
     "kospi": {
-      "current": 6107.34,
+      "current": 6023.66,
       "high_52w": 9385.59,
-      "drop_pct": -34.93,
-      "intraday_low_drop_pct": -35.74,
-      "sma_200": 5696.94
+      "drop_pct": -35.82,
+      "intraday_low_drop_pct": -36.15,
+      "sma_200": 5696.52
     },
     "kosdaq": {
-      "current": 707.61,
+      "current": 705.85,
       "high_52w": 1229.42,
-      "drop_pct": -42.44,
-      "intraday_low_drop_pct": -42.95,
-      "sma_200": 999.59
+      "drop_pct": -42.59,
+      "intraday_low_drop_pct": -43.27,
+      "sma_200": 999.58
     },
     "sp500": {
       "current": 7413.18,
