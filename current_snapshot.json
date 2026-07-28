@@ -1,52 +1,59 @@
 {
-  "timestamp": "2026-07-28T10:06:11.851569+09:00",
+  "timestamp": "2026-07-28T13:21:27.022315+09:00",
   "sentiment": {
-    "cnn_fng": 39.9428571428571,
+    "cnn_fng": 40.0285714285714,
     "cnn_components": {
       "momentum": 29.0,
       "strength": 33.8,
       "breadth": 15.6,
       "put_call": 29.6,
-      "junk_bond": 50.4,
+      "junk_bond": 51.0,
       "volatility": 50.0,
       "safe_haven": 71.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 56,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 51,
+      "greed_articles": [
+        {
+          "title": "\"코스피 변동성 키운 쏠림·레버리지, 美 증시도 문제\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OMVExU0haWXVzOE41QmlyVk1URFVsSkVnWGtheEZoTmdQcE5naDZpLVhhaXRvdjJtRjNUOUtmN2duYVhLNFFTVU1oeTIwd1VaVHBTdU96TUVMc3VlUEx4cFlHSnNidFU5MVFqSlVlN0Q?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 01:52:28 GMT",
+          "source": "연합인포맥스"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "코스피·코스닥 동반 급락에 매도 사이드카…中 반도체 노이즈에 휘청 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CWGFXUVNMREx3WDNXb2lGRjNYcXZwN2g2cGhtVE1qLUpDTzROVzF1QVRrUHZFeDU1SC1lOE1ST3htMVEzWU11RG80V3RVMzZwc2JZZTBzaDJwblNwRlg0OGNfekItYWFjMWhiRVRkNjg?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:24:24 GMT",
+          "title": "[속보]코스피, 8% 폭락에 서킷브레이커…올 들어 8번째 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Vd0otMzl4bzdabHhjVFFXUkpIY2MxaGh1czdzQXJvclNBVE53cjVOdGRYLUhfTXc0bzNuUUFjNll0cVFzejl4X1VxMnBwWEtrUFdkOWlmNDhhd9IBX0FVX3lxTE5CcEZ1UERZZlRKNndZVWFicnNSUHpuSzRtVnp6dXl5Y19Yc0RsSXI3d3dvU3Y4bTJhd0ZSbFNnekFCcHlFS3laaTdjWnN1UTVWeXM4bUxER1VYcmlGRDRv?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 01:19:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "6,000선도 '위협'…코스피 8%대 급락에 서킷브레이커 발동 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12bmVNU2JGZHNyZUVqTHBteVlvelZfeS1nWjFybkxjUHBydTBScktXcXdTaDFRY3RoSFo4NVlRMldQSzVKaDdGbjZBNlQtR0xoOE14NEpVX0hIdVUteXNVTk1fckRIcW9nQ0VOUnRDVmo?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 01:26:52 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "[속보] ’검은 화요일’ 코스피 5% 급락 출발 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KZURLRzBjdzViUTVuUWw3UGJEeExEV3BvMWxJbklMSTJzSmxhVDh5SEZNSlRjZDBrcmxJR1FOUWktN1I1b1RNOWd1UFV4QjI5eVBfX0o1RWdZMDc0THZBSGRCR2U4WjQ?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:12:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피·코스닥 급락…매도 사이드카 발동 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rWlhNWXR0TXlpS0RjOFBXaHpYQW5ITmJORWRaZXJrWWNQdGtvZXdBOEUyMGQtNDRaa1RacGtSVWlENDJRU1lNOFlTR3NiLW9MYXVLY19wR1dFYU0?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:24:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "[속보] 코스피·코스닥 급락 출발...나란히 매도 사이드카 - 조선일보",
+          "title": "中 반도체 공습에 코스피 8% 폭락...서킷 브레이커 발동 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0FJYXRTeW9aYk9lUnR1Qk9OUE5Sd2tfU2NiblNKYTNBa05uckRlTGgzOFZYQlBjOEVTbG05Mk53UFl0TmRnVGhIOWkzWUdQT2hNN1RWUTVvcW51WkR4amtSWDQxSzJaNGhfa21VR255Q29HUEZmX1ZrLTdsLVR5bg?oc=5",
           "pub_date": "Tue, 28 Jul 2026 00:05:00 GMT",
           "source": "조선일보"
         },
         {
-          "title": "코스피, 5% 급락 출발하며 '매도 사이드카' 발동‥6,300선까지 하락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Sd1h2MVIza0dRbDQzQmhUSllEM19sRkVDaEhyTEkxdmZsT19iY3RqRHl2YmxIU0RTVUlqVWd5WnMyTGw4azNaYU54Q0FWSXVvX2RSMWV1NkJMendiZlY5a3NqVDU3TEF0RnBWdXRKdkp4cndv0gF0QVVfeXFMTm1NU0lkekFYUXNZazB4Y21VUVpkYWRmbUZBTlBZaEZpblJRTTVmOEtoVzVkazNjQnJ2RERMYlBPN1l2LVVPbXlRdF9ESXg1dVpDQlRBLVJBVXRFZi1pTGZ0SGk0VjBQMnloQkltaXhFSG8wUkM?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 00:18:54 GMT",
-          "source": "MBC 뉴스"
+          "title": "[속보] 코스피 급락에 매도 사이드카 발동 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YSUNpR1poU2Y1bzR1czN3eWtFdHJpY3NJN0tLQ1hyMmNEaV9WemNoenFuamhPY1pqd3ZFdWZRUHBHYUZ0MFFMMkEyWU1Hd2pwQnBiMnQxS0RzWUotcXVnU0FCQjNXSXM?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:07:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스피, 美 반도체 쇼크에 6% 급락…매도 사이드카 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iRXBDS1JQeGxwT1dSbkhHdG1pVW9zOG9iR0RLbWwyMXYybVpfS2lnbFVSdVZzVjJqeGRUUnpKbVBrbjJ0cDFRblBmNF9kR2U2TDhEOGZDNWVyQQ?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 00:15:23 GMT",
+          "source": "한국경제"
         }
       ]
     }
@@ -58,8 +65,8 @@
     "move": 77.21
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1645700000000,
-    "retail_net_buy_krw": 1654500000000,
+    "foreign_inst_buy_krw": -3085900000000,
+    "retail_net_buy_krw": 3085900000000,
     "margin_loan_krw": 32203100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -71,42 +78,42 @@
       "high_52w": 27190.21,
       "drop_pct": -8.3,
       "intraday_low_drop_pct": -8.88,
-      "sma_200": 23942.88
+      "sma_200": 23953.82
     },
     "kospi": {
-      "current": 6252.99,
+      "current": 6107.34,
       "high_52w": 9385.59,
-      "drop_pct": -33.38,
-      "intraday_low_drop_pct": -33.47,
-      "sma_200": 5664.72
+      "drop_pct": -34.93,
+      "intraday_low_drop_pct": -35.74,
+      "sma_200": 5696.94
     },
     "kosdaq": {
-      "current": 719.03,
+      "current": 707.61,
       "high_52w": 1229.42,
-      "drop_pct": -41.51,
-      "intraday_low_drop_pct": -41.51,
-      "sma_200": 1000.0
+      "drop_pct": -42.44,
+      "intraday_low_drop_pct": -42.95,
+      "sma_200": 999.59
     },
     "sp500": {
       "current": 7413.18,
       "high_52w": 7620.9,
       "drop_pct": -2.73,
       "intraday_low_drop_pct": -3.13,
-      "sma_200": 7005.74
+      "sma_200": 7009.23
     },
     "russell2k": {
-      "current": 2948.03,
+      "current": 2948.04,
       "high_52w": 3046.59,
       "drop_pct": -3.23,
       "intraday_low_drop_pct": -3.78,
-      "sma_200": 2664.5
+      "sma_200": 2666.85
     },
     "soxx": {
       "current": 516.23,
       "high_52w": 655.95,
       "drop_pct": -21.3,
       "intraday_low_drop_pct": -23.77,
-      "sma_200": 397.13
+      "sma_200": 398.36
     }
   },
   "sector_rs": {
@@ -275,8 +282,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-07-27",
-    "analyzed_at": "2026-07-27T13:48:14.715890+09:00",
+    "date": "2026-07-28",
+    "analyzed_at": "2026-07-28T13:21:32.006553+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -284,16 +291,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "rD3_tHveKHo",
-        "title": "저점 확인의 순간…이번 주 7천 회복하나? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-27T00:32:03Z",
-        "url": "https://youtube.com/watch?v=rD3_tHveKHo",
+        "video_id": "tA7Vuq4l_p0",
+        "title": "저점 다시 시험받는 시장...창신메모리 폭등, 삼성전자·하이닉스 괜찮나? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-28T00:28:21Z",
+        "url": "https://youtube.com/watch?v=tA7Vuq4l_p0",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 '저점 확인의 순간'을 언급하며 현 시장 상황을 분석하고 '이번 주 7천 회복하나?'와 같이 회복 가능성에 대한 질문을 던질 뿐, 매수/매도와 같은 구체적인 행동을 명확하게 권고하지 않습니다."
+          "reason": "영상 제목은 시장이 저점을 다시 시험받고 있으며, 특정 종목(삼성전자·하이닉스)에 대한 우려를 질문 형태로 제시하고 있으나, 현금화/비중 축소/매도 같은 구체적인 행동 권고가 없으므로 중립적 시장 분석으로 판단됩니다."
         }
       },
       {
@@ -306,7 +313,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "방송 설명란에는 매수, 매도, 비중 축소/확대와 같은 구체적인 행동 권고가 없으며, 고점 확인, 감익 시나리오, 실적 미스, 프로젝트 지연/취소 등 리스크 요인과 함께 저점 확인, 하이퍼스케일러 CAPEX 등 다양한 시장 상황과 요인을 분석하며 리스크 관리를 강조하는 중립적인 시장 분석을 제시하고 있습니다. 'Trading Buy'는 매수를 하되 장기 보유보다는 단기적인 관점을 취한다는 의미로, 시장 방향에 대한 단일한 강력한 매수/매도 신호는 아닙니다."
+          "reason": "연간 고점 확인, 주요 기업 감익 시나리오, 실적 미스, 프로젝트 지연 등 리스크 요인을 분석하며 'Buy & Hold' 대신 단기적인 'Trading Buy' 전략을 제시하지만, 구체적인 매수 또는 매도 행동 권고는 없습니다."
         }
       }
     ],
