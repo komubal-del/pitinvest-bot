@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T05:21:40.020083+09:00",
+  "timestamp": "2026-07-29T06:35:19.471961+09:00",
   "sentiment": {
     "cnn_fng": 38.4857142857143,
     "cnn_components": {
@@ -7,16 +7,23 @@
       "strength": 35.2,
       "breadth": 20.2,
       "put_call": 33.2,
-      "junk_bond": 49.4,
+      "junk_bond": 49.2,
       "volatility": 50.0,
       "safe_haven": 51.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 3,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 9,
+      "greed_articles": [
+        {
+          "title": "코스피 11% 폭락에 서킷발동 개미는 '패닉'…전문가 \"버블붕괴 아니다\" [中 반도체 공포 덮친 증시] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSWpWM1d4ajRqUmt0ZWs0Y0tNN29EcTI0N3VGbU1VTEhwNmFvWGROWTcwcDNER1lxZGRJZ2VZSDVvYjZvRk93dmhfZEZGeUE?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 21:11:05 GMT",
+          "source": "v.daum.net"
+        }
+      ],
       "fear_articles": [
         {
           "title": "검은 화요일 10.8% 폭락…코스피 6000 무너졌다 ‘턱걸이’ 회복 - 한겨레",
@@ -25,25 +32,37 @@
           "source": "한겨레"
         },
         {
-          "title": "코스피 10% 폭락…6000피 겨우 사수 - 경상일보",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RaXh2aHprZFlpM2ZMc1JVdzE3OEhpSng5bVQtdlZzbll3SEVvT1BXd0ZBd3pFUG4tWnBmN3Z5VTVwMzhXdDZSWVR1MDZBRGpuX2hHQWkyQUl2dHFIY2J4RmdabXB5QjgyZjl0WA?oc=5",
-          "pub_date": "Tue, 28 Jul 2026 15:00:02 GMT",
-          "source": "경상일보"
+          "title": "외국인 197조 '셀 코리아'…'폭락'한 코스피, 반등 가능성은? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wa2ZGMkhpNlU5a09MYUxCZWtGSFQxQUctZUpZbVYyel9CR2g5MUkxQ08teFRXY1ZLRENjV1l3Y2FDQ1AzUkVIQ1ZaWnhnVWs?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 21:04:41 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "“외국인, 코스피 이익 올라 급하게 판 것… 매도세 잦아들 가능성 크다” - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wYUZDeU5EZ3pfam45c3hGNlFGSlEyWWRkYnlaZzJxME0xX3l1X0NRaHJlMGNna21pSW9zc2lpSUJFSGx1ZDRDbmNaNUstcFE?oc=5",
           "pub_date": "Tue, 28 Jul 2026 15:11:37 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "“2배 벌려다 14억 날렸다”…외인 5조 투매에 코스피 732p 증발 [숫자 뒤의 진실] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BODlCdm1CdTI0Y0ttM0tLX01fcjF4a3E5alhySUVOWWdWcXFibXNqXzcyMlZVNjBORktQdlE2TElVQnY1QmJ6M2szUjN0OU0?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 20:03:18 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[뉴욕증시] 반도체주 마이크론·AMD 8%대 급락…다우지수는 537P↑ - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb1l2Y3JsTTN5VGVJNHVHN2hwSFpkTHpWOElJS2dKX1RfZ3pSMDhlQkZvdE5TaFRjRG9RWmpXdy1IbVYyYi1PbE5NR0xCaV9vWm44MUNUZUh1NDFfV2hVV3ZoNzZCX184TGN0T2oxQ0hCZmNCWUlOd0U3WTRBa0JXeG53Ympidl9R?oc=5",
+          "pub_date": "Tue, 28 Jul 2026 20:40:43 GMT",
+          "source": "글로벌이코노믹"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.41,
-    "vvix": 98.65,
-    "skew": 146.6,
-    "move": 77.21
+    "vix": 18.21,
+    "vvix": 98.51,
+    "skew": 142.98,
+    "move": 76.09
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -4317900000000,
@@ -306,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 161.663,
+    "strategy_pct": 160.738,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -894,7 +913,7 @@
       },
       {
         "date": "2026-07-29",
-        "ret_pct": 161.663
+        "ret_pct": 160.738
       }
     ],
     "monthly_breakdown": [
@@ -936,9 +955,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -64.09,
-        "end_ret_pct": 161.66,
-        "max_dd_pct": 74.81
+        "return_pct": -65.01,
+        "end_ret_pct": 160.74,
+        "max_dd_pct": 75.73
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
