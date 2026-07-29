@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-07-29T21:25:41.560057+09:00",
+  "timestamp": "2026-07-29T23:39:18.108686+09:00",
   "sentiment": {
-    "cnn_fng": 39.5428571428571,
+    "cnn_fng": 34.8285714285714,
     "cnn_components": {
-      "momentum": 30.4,
-      "strength": 36.6,
-      "breadth": 25.6,
-      "put_call": 33.2,
-      "junk_bond": 49.8,
+      "momentum": 26.0,
+      "strength": 34.6,
+      "breadth": 22.2,
+      "put_call": 29.6,
+      "junk_bond": 46.8,
       "volatility": 50.0,
-      "safe_haven": 51.2
+      "safe_haven": 34.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 45,
       "greed_articles": [
+        {
+          "title": "정규재 “정부 개입 실책, 빚투 개미 자업자득”… 증시 폭락장에 쓴소리 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kUS1sUE9wLXY2ZzRLRUtnUHo4VVJRc0FWb20yVldiUzNROHp4YnRoQmYxNFh0WjhkN0dfWk90ZU55X1VYazVGLUhSM2xNTFdYY0ZyTUQ5bnRxNk5Pc0syaXE4dVJSb3ZxUGc?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 13:45:42 GMT",
+          "source": "hidomin.com"
+        },
         {
           "title": "코스피 ‘6천피’ 아래로…고점대비 40%대 폭락 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzcHRHQWZDOGdEREJ2TnRvOGRZOVd2SkpQOHpCcGplaWdjcWdjczI3V0RSYVJsbkNrWXhEcjhzYTBzUzMyNVBYVUw5QzVnOE0?oc=5",
@@ -50,18 +56,18 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "[亞증시-종합] 반도체 급락에 日·臺 하락…中·홍콩은 상승 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iQkxNendwMGtwR3JjckowQ0g0b2R3THlVdml0Qll1V1VkQmhfcWlpbkk1c2xTM0FMRW5QVjBUd2Vua2V1RkJmTTQ5QUY4cnRuUGtRczJDcDkzM1BLNUFJVjdlamFydlpuSWtBQVV5cFQ?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 10:25:39 GMT",
+          "title": "코스피·코스닥, 장중 급락에 매도 사이드카 발동…6,000선 무너져 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZNkRPRTBHUE9SRXVPX1N5TW5TalZQVUFTb3dobFN3U3VHdnd3eElLRnFPdUlXLXJKbGZOLVhZaTloZVVic3ctdTFSTVpsNzlKTExqa2hxMHFfbWFzRjdBY1E4MVR6dmtqdGNQR1ZzR1jSAXRBVV95cUxNRThFZVVlV3hWcGRqWTdiS05KaElhLTRQQUU5cjRTVzVoNHprMXdEZkJ4MFRKNEtyUVhVTm5vYi0zVlBvUmszLXJrYnRNbGRXcFJlM1VPaXdXdjhYSjhWTjVwdFkwbTVvRlFfZXN2Y2o1X3I3QQ?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 02:00:00 GMT",
           "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.47,
-    "vvix": 98.51,
-    "skew": 142.98,
+    "vix": 19.55,
+    "vvix": 102.3,
+    "skew": 146.6,
     "move": 76.09
   },
   "korea_flow": {
@@ -74,55 +80,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24876.91,
+      "current": 24629.05,
       "high_52w": 27190.21,
-      "drop_pct": -8.51,
+      "drop_pct": -9.42,
       "intraday_low_drop_pct": -9.6,
-      "sma_200": 23962.98
+      "sma_200": 23952.08
     },
     "kospi": {
       "current": 5663.24,
       "high_52w": 9385.59,
       "drop_pct": -39.66,
       "intraday_low_drop_pct": -43.93,
-      "sma_200": 5707.68
+      "sma_200": 5678.19
     },
     "kosdaq": {
       "current": 662.68,
       "high_52w": 1229.42,
       "drop_pct": -46.1,
       "intraday_low_drop_pct": -48.68,
-      "sma_200": 998.66
+      "sma_200": 999.37
     },
     "sp500": {
-      "current": 7428.78,
+      "current": 7375.76,
       "high_52w": 7620.9,
-      "drop_pct": -2.52,
-      "intraday_low_drop_pct": -3.12,
-      "sma_200": 7012.6
+      "drop_pct": -3.22,
+      "intraday_low_drop_pct": -3.34,
+      "sma_200": 7009.04
     },
     "russell2k": {
-      "current": 2953.8,
+      "current": 2927.48,
       "high_52w": 3046.59,
-      "drop_pct": -3.05,
-      "intraday_low_drop_pct": -4.05,
-      "sma_200": 2669.2
+      "drop_pct": -3.91,
+      "intraday_low_drop_pct": -3.95,
+      "sma_200": 2666.84
     },
     "soxx": {
-      "current": 491.46,
+      "current": 473.81,
       "high_52w": 655.95,
-      "drop_pct": -25.08,
-      "intraday_low_drop_pct": -26.75,
-      "sma_200": 399.36
+      "drop_pct": -27.77,
+      "intraday_low_drop_pct": -27.94,
+      "sma_200": 399.28
     }
   },
   "sector_rs": {
-    "XLK": 1.031,
-    "SMH": 1.016,
-    "BOTZ": 0.872,
-    "IGV": 1.041,
-    "XLF": 1.067,
-    "XLE": 0.941
+    "XLK": 1.025,
+    "SMH": 0.99,
+    "BOTZ": 0.877,
+    "IGV": 1.055,
+    "XLF": 1.065,
+    "XLE": 0.973
   },
   "signals": {
     "cnn_under_10": false,
@@ -139,7 +145,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -158,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 40.0,
+    "tqqq_profit_pct": 35.08,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 104.75,
+    "soxl_profit_pct": 82.64,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.15,
+    "koru_profit_pct": -96.48,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
