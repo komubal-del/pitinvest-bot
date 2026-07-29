@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T19:17:41.417826+09:00",
+  "timestamp": "2026-07-29T21:25:41.560057+09:00",
   "sentiment": {
     "cnn_fng": 39.5428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 47,
+      "fear_count": 45,
       "greed_articles": [
         {
           "title": "코스피 ‘6천피’ 아래로…고점대비 40%대 폭락 - v.daum.net",
@@ -26,22 +26,22 @@
       ],
       "fear_articles": [
         {
+          "title": "코스피·코스닥 8%대 ‘급락’…이틀 연속 동반 서킷브레이커 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNZm9xTXh2LThUSG1EaUV4cEdUNVUzNzJwQmhzYzFqX2g1NGdobVZMYnlWVkh6MW9XUXp6dkxoM2FQa1RMWHVvMEdZV1lBOUdidGF0S243REdtQ1lpRzMyVWRqWDZyX2htSkI3NjNtNWFIZw?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 10:23:00 GMT",
+          "source": "한겨레"
+        },
+        {
           "title": "서킷도 못 막은 패닉장…코스피 추가 하락에 '2단계 서킷' 공포 현실화 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHTFlZdGF0ZnZ2WDZFRGFoNlFESzlEbmpkaVN3elRmQ0M0ZVdGQUdMM1dLb1hvRkQ3VWNxZlFNcmZfWDQ5d2dYTkdjZjIyT1FVdzZvTVZIS29JVjJ3U1lLSDJrVTdhS2NwakxNVkVCYVk?oc=5",
           "pub_date": "Wed, 29 Jul 2026 04:36:00 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피·코스닥 8%대 ‘급락’…이틀 연속 동반 서킷브레이커 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNZm9xTXh2LThUSG1EaUV4cEdUNVUzNzJwQmhzYzFqX2g1NGdobVZMYnlWVkh6MW9XUXp6dkxoM2FQa1RMWHVvMEdZV1lBOUdidGF0S243REdtQ1lpRzMyVWRqWDZyX2htSkI3NjNtNWFIZw?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 05:11:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "코스피 또 폭락…사상 첫 이틀 연속 서킷브레이커 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14dVNRaFl4WFVMWUlVTVRwSXNGVjJwSGF3emg5UDYzUFROOW9hVXN5MS1ITzRfVVlsQ003VTNZMFJwdjVaNnprTmI5TVhPQko2NURCWkJiN01odXl4cVEzYmlQVl9sRXM?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 07:08:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "코스피 급락에 계좌 '반토막'…투자대가들의 비상 대응법 보니 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9na2FWc3M0dmxpdDhiYmY0NFlWbXRjYWx5OEpVdTJWelVWUFJlaVEtcElvNnlZMDFWdjl2czU0RWpiYzFubWdBZ09WZTc3ajBVNHBEQzNCcnlfQQ?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 08:59:19 GMT",
+          "source": "한국경제"
         },
         {
           "title": "코스피·코스닥 급락에 매도 사이드카‥이번 주에만 두 번째 - MBC 뉴스",
@@ -50,16 +50,16 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "\"이런 장은 처음\"…코스피 이틀 연속 서킷브레이커에 여의도도 '패닉' - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fTFlhS2p1ak9mY196ZEhMRlJpZUtsTlMyQ2FVVUdqRDh5bDJoVUdQVGZNUnM4dVBEY19ZdmFBNkwtSzdvdS1BZ2VtanFKazNRbzZkMHUxY25QVWdoc2h0Sl85NDMzTHhtZHVpUEZpdFQ?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 04:14:34 GMT",
+          "title": "[亞증시-종합] 반도체 급락에 日·臺 하락…中·홍콩은 상승 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iQkxNendwMGtwR3JjckowQ0g0b2R3THlVdml0Qll1V1VkQmhfcWlpbkk1c2xTM0FMRW5QVjBUd2Vua2V1RkJmTTQ5QUY4cnRuUGtRczJDcDkzM1BLNUFJVjdlamFydlpuSWtBQVV5cFQ?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 10:25:39 GMT",
           "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.17,
+    "vix": 18.47,
     "vvix": 98.51,
     "skew": 142.98,
     "move": 76.09
