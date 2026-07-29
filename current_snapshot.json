@@ -1,26 +1,39 @@
 {
-  "timestamp": "2026-07-30T05:01:16.473468+09:00",
+  "timestamp": "2026-07-30T06:07:11.907175+09:00",
   "sentiment": {
-    "cnn_fng": 34.1265306122449,
+    "cnn_fng": 32.2530612244898,
     "cnn_components": {
-      "momentum": 23.4,
-      "strength": 34.4,
+      "momentum": 22.0,
+      "strength": 34.2,
       "breadth": 21.0,
-      "put_call": 28.2,
-      "junk_bond": 57.6,
-      "volatility": 44.3,
+      "put_call": 26.8,
+      "junk_bond": 58.6,
+      "volatility": 33.6,
       "safe_haven": 29.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 5,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 6,
+      "greed_articles": [
+        {
+          "title": "시총 2800조 증발한 코스피, 고점 대비 40%↓…진짜 바닥은 어디? - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zRzhYRkFqNENHLTZmT1VSVVhnZUlIWTg1aVRLTkxtbzBiQXhLYU5MTGhkQkhScHRyNldXU0c5aXpkaVVPRUU3d2ZuZVFhcFFqcTlTbk5zUlpmNHlEWlBkSNIBeEFVX3lxTFBvc1owQk91dFhYWkJmWnhvWmk3dkRfVWhKSFRCRXQ4dTI3dmJPdnllbEk2WEJlQkFfSDAyQ0VMNTc5SEkxR1V5ZzRhTkRCc2UzZWNaSjNOaDdHb1lwSTNFdlltS3hiMUpmWDFiSVhzOGRpMkJDWmRMMg?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 21:00:00 GMT",
+          "source": "뉴시스"
+        }
+      ],
       "fear_articles": [
         {
+          "title": "[뉴욕증시-1보] 워시 한 마디에 요동친 시장…급락 마감 - news.einfomax.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80T1phRFJHRGYxSUFKeEJZazctYmFtNXJtT0FlZ2lESTNTZ1BuMGs0OEJwR2Qyam1TMTZpd0FaQ1NNN3o5b3I0X2J3S2FJZjB3UmV2c3dpMVh1eTR5d09UOWdCTy1Wc1J5NUl5d2xLd2nSAXRBVV95cUxPYVNsbW03OHNpSTNfbmJscE5nNUE3cWkxdDN4aU5PZDgyb1FRNjFTMDBEX0dWckNNelhiZWIzMk90VGE1YkRpX2FBV3htMWhRd19rcEpqOWVJcmdnMzRzX3VNOHB5Qnh5SXk2d1RwUTh6QnYwVw?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 20:16:00 GMT",
+          "source": "news.einfomax.co.kr"
+        },
+        {
           "title": "이란, 요르단 주둔 미군 전격 공격…국제 유가 상승·증시 폭락 - VOA 한국어 홈페이지",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaXEtSEFWNF9GVm1qVU1TOG1QcVNZa3pGdTBHTC16ZzFaS3NaeHFRczVydVNwVlNSN21WZWhQRUVHZE5vX0RYYTdzYkt2d1BWa09UQndnTWtidDJ6bU9NZmFHNUR0cXdSWktvN1RFbHhRenprMzBjN3hkSDdtaUplMm5OcFplRzV3aTJxWVZ4bVZRTTB0ekIzTWdGSDlrSDItRW1lWTRqZ2pzbElJV1pOMjlvRUZXa1RoQTM3WjEwQkpqZTE2UHZoRzdfRXpZMXpsOXJsMFpFd09WX3dpdWZJ0gHiAUFVX3lxTE1UMDJwQUExSEhFQ2VoZzg4ckNpNC1YN3VGTF9sOTBxVlVoejJ3Q0VkcFB3bjdvSmZ4VDRlZVhBVWRzYW9SeHdvR25sUTd3R0t5Q244aW81Zi04REdCNi1vSHFxWTdUdDliRS1IdndTYW9CYl92MWQ4Z1VuRkhsdnBwTDg4UlV1N0lKRDN1RmplcUxrQ1lPTldPZFJJYW9mTVlLTkswR2tIeHhZQ2o2RDlOMVlNbU56N1B1OHZHdFNjZGkyX1pKOVl2ZFltSUZjN09lRjUwY0ZGR2dIbWFGc1ItcFE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVDAycEFBMUhIRUNlaGc4OHJDaTQtWDd1RkxfbDkwcVZVaHoyd0NFZHBQd243b0pmeFQ0ZWVYQVVkc2FvUnh3b0dubFE3d0dLeUNuOGlvNWYtOERHQjYtb0hxcVk3VHQ5YkUtSHZ3U2FvQmJfdjFkOGdVbkZIbHZwcEw4OFJVdTdJSkQzdUZqZXFMa0NZT05XT2RSSWFvZk1ZS05LMEdrSHh4WUNqNkQ5TjFZTW1OejdQdTh2R3RTY2RpMl9aSjlZdmRZbUlGYzdPZUY1MGNGRkdnSG1hRnNSLXBR0gHiAUFVX3lxTE1UMDJwQUExSEhFQ2VoZzg4ckNpNC1YN3VGTF9sOTBxVlVoejJ3Q0VkcFB3bjdvSmZ4VDRlZVhBVWRzYW9SeHdvR25sUTd3R0t5Q244aW81Zi04REdCNi1vSHFxWTdUdDliRS1IdndTYW9CYl92MWQ4Z1VuRkhsdnBwTDg4UlV1N0lKRDN1RmplcUxrQ1lPTldPZFJJYW9mTVlLTkswR2tIeHhZQ2o2RDlOMVlNbU56N1B1OHZHdFNjZGkyX1pKOVl2ZFltSUZjN09lRjUwY0ZGR2dIbWFGc1ItcFE?oc=5",
           "pub_date": "Wed, 29 Jul 2026 16:53:50 GMT",
           "source": "VOA 한국어 홈페이지"
         },
@@ -41,21 +54,15 @@
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yYUUwOXB6ZmRMOUZDUlVBeF9RaWN0SjJ1YzVLQW5rb0c1dXE3aEtmZTNXZ08wWmxGVGVPZi1MdjI4Q2p0UWVfcWFmWEJfTy1ZOWd2NkR6T3BjRmU2TU92UUV3alFud215VDg5V01wWFJXNjNxOWtv0gFmQVVfeXFMT3RuV3kxdVlCVURnbEZHN21XREEzcVlpbC1FVkhpclpFZ2w1WUhVcE1oQldGbW01aDAtM2d3S0RDeWktU09hdWJCYVR0N01tWTVJTGVRYnNaQ3d2NjNidXJKWHM5QmFB?oc=5",
           "pub_date": "Wed, 29 Jul 2026 19:30:00 GMT",
           "source": "동아일보"
-        },
-        {
-          "title": "코스피 폭락하자… 서학개미들 ‘3배 레버리지’로 몰려가 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT3Y4M0xVbUJFQWhoMUtkTDhHVlRPdGFRcXBESnFwQmRPYzdaTVlLX0Exa1F3REVnYnJmd0xCVEtwR3Nld25oQVhfWnBtMjIzTVJCbG9MRmRZZlZwLUg0MzA4SnNWRHJ5X2s2M2JHTXg0M0Y5Zk5weTc3eFpWbTc2Z3VpWE1QVHVt0gGcAUFVX3lxTE1DTGd3Qk1zN2hKMkdQTTE1bUNWU0Rmdk00OHUwU19FNDRXazVSRHR0RnFqcWtaVksyZU91Q3ZCNm1YZksxNzRpVW9hYkRmTkxSYWpfeDRBcGpPZm9XcC1wLTJJZ1Y3NEhSRmtrbmY0TVdaNWtvcjMtRjY1SGZheHV6b2lRS0dXNmV5OVpLQlY3OWQ0dzdSejNsV005Vw?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 15:52:00 GMT",
-          "source": "Chosunbiz"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 20.11,
-    "vvix": 106.37,
+    "vix": 20.66,
+    "vvix": 109.47,
     "skew": 142.98,
-    "move": 76.09
+    "move": 74.18
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 1926700000000,
@@ -88,18 +95,18 @@
       "sma_200": 999.58
     },
     "sp500": {
-      "current": 7316.4,
+      "current": 7316.15,
       "high_52w": 7620.9,
       "drop_pct": -4.0,
       "intraday_low_drop_pct": -4.03,
       "sma_200": 7015.51
     },
     "russell2k": {
-      "current": 2909.24,
+      "current": 2906.31,
       "high_52w": 3046.59,
-      "drop_pct": -4.51,
-      "intraday_low_drop_pct": -4.66,
-      "sma_200": 2671.4
+      "drop_pct": -4.6,
+      "intraday_low_drop_pct": -4.69,
+      "sma_200": 2671.39
     },
     "soxx": {
       "current": 465.0,
@@ -157,7 +164,7 @@
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 71.96,
+    "soxl_profit_pct": 71.94,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -318,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 159.613,
+    "strategy_pct": 149.453,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -910,7 +917,7 @@
       },
       {
         "date": "2026-07-30",
-        "ret_pct": 159.613
+        "ret_pct": 149.453
       }
     ],
     "monthly_breakdown": [
@@ -952,9 +959,9 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -66.14,
-        "end_ret_pct": 159.61,
-        "max_dd_pct": 82.84
+        "return_pct": -76.3,
+        "end_ret_pct": 149.45,
+        "max_dd_pct": 87.02
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
