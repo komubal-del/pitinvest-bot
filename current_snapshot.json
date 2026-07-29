@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-29T13:37:44.432458+09:00",
+  "timestamp": "2026-07-29T16:30:52.573804+09:00",
   "sentiment": {
-    "cnn_fng": 38.5714285714286,
+    "cnn_fng": 38.7714285714286,
     "cnn_components": {
       "momentum": 30.4,
-      "strength": 35.2,
-      "breadth": 20.2,
+      "strength": 36.6,
+      "breadth": 25.6,
       "put_call": 33.2,
       "junk_bond": 49.8,
       "volatility": 50.0,
@@ -14,22 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 48,
-      "greed_articles": [
-        {
-          "title": "코스피, 폭락 후 저가 매수세에 3%대 반등…6,200선 회복 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uZ3laYi1MTnljempmTHc2T2kxeHp2TEhTOXpNYkdHSkFVZm5VU0JzWFBmREZvMFdoOVFSaHJteFFoUzg4R0lvNDYxLUdOWTh2UzQybXZwMlVsd2g1Mm4ycWxJQkl0R1NmYkItYnNMSjI?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 00:18:52 GMT",
-          "source": "연합인포맥스"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 56,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "코스피·코스닥, 장중 급락에 매도 사이드카 발동…6,000선 무너져 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZNkRPRTBHUE9SRXVPX1N5TW5TalZQVUFTb3dobFN3U3VHdnd3eElLRnFPdUlXLXJKbGZOLVhZaTloZVVic3ctdTFSTVpsNzlKTExqa2hxMHFfbWFzRjdBY1E4MVR6dmtqdGNQR1ZzR1jSAXRBVV95cUxNRThFZVVlV3hWcGRqWTdiS05KaElhLTRQQUU5cjRTVzVoNHprMXdEZkJ4MFRKNEtyUVhVTm5vYi0zVlBvUmszLXJrYnRNbGRXcFJlM1VPaXdXdjhYSjhWTjVwdFkwbTVvRlFfZXN2Y2o1X3I3QQ?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 02:00:00 GMT",
+          "title": "서킷도 못 막은 패닉장…코스피 추가 하락에 '2단계 서킷' 공포 현실화 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHTFlZdGF0ZnZ2WDZFRGFoNlFESzlEbmpkaVN3elRmQ0M0ZVdGQUdMM1dLb1hvRkQ3VWNxZlFNcmZfWDQ5d2dYTkdjZjIyT1FVdzZvTVZIS29JVjJ3U1lLSDJrVTdhS2NwakxNVkVCYVk?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 04:36:59 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피·코스닥 8%대 ‘급락’…이틀 연속 동반 서킷브레이커 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNZm9xTXh2LThUSG1EaUV4cEdUNVUzNzJwQmhzYzFqX2g1NGdobVZMYnlWVkh6MW9XUXp6dkxoM2FQa1RMWHVvMEdZV1lBOUdidGF0S243REdtQ1lpRzMyVWRqWDZyX2htSkI3NjNtNWFIZw?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 05:11:00 GMT",
+          "source": "한겨레"
         },
         {
           "title": "코스피·코스닥 급락에 매도 사이드카‥이번 주에만 두 번째 - MBC 뉴스",
@@ -38,35 +37,29 @@
           "source": "MBC 뉴스"
         },
         {
-          "title": "코스피 ·코스닥 8%대 급락…이틀 연속 양시장 서킷브레이커(종합) - 연합뉴스",
+          "title": "코스피 또 폭락…사상 첫 이틀 연속 서킷브레이커 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14dVNRaFl4WFVMWUlVTVRwSXNGVjJwSGF3emg5UDYzUFROOW9hVXN5MS1ITzRfVVlsQ003VTNZMFJwdjVaNnprTmI5TVhPQko2NURCWkJiN01odXl4cVEzYmlQVl9sRXM?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 07:08:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "국내증시 8%대 급락…사상 첫 이틀 연속 양시장 서킷브레이커(종합) - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16Ui1wWnptbGtIbURqbzNMajlpRUJzalV4aC1FYmJiNUQwQjBzWnFOX0x5VUJ6NWVraVk5QUZNTHAtRkpsekVQTEMxOW1SMDJWekd0NDRNM3NlS0HSAWBBVV95cUxQNjJHODFscllNbDVBb0J5cktvSmdFcW1LTGVSQURpRnFOSXplYkVnNmZPWmFSM3FnMmUyRkE4Z1dtalRXQlhmLW1xbDlXUDQ2Zkxza0RRYlpyMVVRNHp0WU0?oc=5",
           "pub_date": "Wed, 29 Jul 2026 03:58:55 GMT",
           "source": "연합뉴스"
-        },
-        {
-          "title": "[속보]코스피 5700대로 급락…이틀째 매도 사이드카 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TMHRwaVdWZkhJZUk2QzNpR3dpX2RfZmxmYWNFeFBuZXJQVk9kS2c0REYzanVScGpDQ0xLZ0tyMWdQVHdHRUdUTUpHaEJ2dm5IZVMycXZsal84ZFNfb2oyMHM3bDEzcTNQak9YUzd2VzlVaHl3Q0HSAWZBVV95cUxQb0tIN3hlZHRHT3NTb05OanV0OVowUm9TM1lMNzFNOXRtN2NpdnJRVk1wOUZUZjdQZjVFeWVWVkxrQzNYV1lHU0RCakZ0bVB3WWZ6QmZ5cTBLMWVxMmVGQnk0TWNQUmc?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 02:05:11 GMT",
-          "source": "동아일보"
-        },
-        {
-          "title": "[속보] 코스닥 급락에 서킷 브레이커 발동 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NY2VZNHR2em9EX0xZT2dwLWdWcW1ydDdJWTRSbVZLSjlYYUF5blk3VXZCT2VYck9DendjemZET3dITzQzY2NuZkM4ZmVCOTRNZTZOaHQwc2w5bzNF?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 03:19:00 GMT",
-          "source": "뉴스핌"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.21,
+    "vix": 18.26,
     "vvix": 98.51,
     "skew": 142.98,
     "move": 76.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1824700000000,
-    "retail_net_buy_krw": -1822400000000,
+    "foreign_inst_buy_krw": 1926700000000,
+    "retail_net_buy_krw": -1970100000000,
     "margin_loan_krw": 32270000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +74,18 @@
       "sma_200": 23962.98
     },
     "kospi": {
-      "current": 5382.35,
+      "current": 5663.24,
       "high_52w": 9385.59,
-      "drop_pct": -42.65,
-      "intraday_low_drop_pct": -42.7,
-      "sma_200": 5706.27
+      "drop_pct": -39.66,
+      "intraday_low_drop_pct": -43.93,
+      "sma_200": 5707.68
     },
     "kosdaq": {
-      "current": 637.15,
+      "current": 662.68,
       "high_52w": 1229.42,
-      "drop_pct": -48.17,
-      "intraday_low_drop_pct": -48.17,
-      "sma_200": 998.53
+      "drop_pct": -46.1,
+      "intraday_low_drop_pct": -48.68,
+      "sma_200": 998.66
     },
     "sp500": {
       "current": 7428.78,
