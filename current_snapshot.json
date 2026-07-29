@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T07:09:33.880326+09:00",
+  "timestamp": "2026-07-30T08:27:21.231294+09:00",
   "sentiment": {
     "cnn_fng": 32.2530612244898,
     "cnn_components": {
@@ -15,16 +15,22 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 11,
+      "fear_count": 20,
       "greed_articles": [
         {
-          "title": "시총 2800조 증발한 코스피, 고점 대비 40%↓…진짜 바닥은 어디? - newsis.com",
+          "title": "시총 2800조 증발한 코스피, 고점 대비 40%↓…진짜 바닥은 어디? - 뉴시스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zRzhYRkFqNENHLTZmT1VSVVhnZUlIWTg1aVRLTkxtbzBiQXhLYU5MTGhkQkhScHRyNldXU0c5aXpkaVVPRUU3d2ZuZVFhcFFqcTlTbk5zUlpmNHlEWlBkSNIBeEFVX3lxTFBvc1owQk91dFhYWkJmWnhvWmk3dkRfVWhKSFRCRXQ4dTI3dmJPdnllbEk2WEJlQkFfSDAyQ0VMNTc5SEkxR1V5ZzRhTkRCc2UzZWNaSjNOaDdHb1lwSTNFdlltS3hiMUpmWDFiSVhzOGRpMkJDWmRMMg?oc=5",
           "pub_date": "Wed, 29 Jul 2026 21:00:00 GMT",
-          "source": "newsis.com"
+          "source": "뉴시스"
         }
       ],
       "fear_articles": [
+        {
+          "title": "[3분증시] 뉴욕증시, 연준 의장 발언에 급락 마감 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OMHhsazdhU1p6OGlaYjItRXpMQnlHT0pqYW1lM3BLTnR5VGVqajlXQUNNSWtKYmFsbFFyZFp4SExDRG5xejhwWWx5ZjkyMWhKa1JYMEYtMFdZak9scXAyTDc3bEc1NTg?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 22:40:00 GMT",
+          "source": "연합뉴스TV"
+        },
         {
           "title": "[뉴욕증시] '손 안 대고 코 푼' 워시에 요동쳤다…급락 마감 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rSnAwSHpMQ202WDhHbXlicUxyWWloZVZCOExPUDFud0ZxeE11VEZkUUt6dXJ6TWhaLXcxeGlXWWtUZ3J5aWFNSE1hVi1NQVp2OW5KU3BjWVVNS2huaDMtMkFpbXV5UFZZX3FqV2dYaHM?oc=5",
@@ -32,28 +38,22 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "이란, 요르단 주둔 미군 전격 공격…국제 유가 상승·증시 폭락 - VOA 한국어 홈페이지",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaXEtSEFWNF9GVm1qVU1TOG1QcVNZa3pGdTBHTC16ZzFaS3NaeHFRczVydVNwVlNSN21WZWhQRUVHZE5vX0RYYTdzYkt2d1BWa09UQndnTWtidDJ6bU9NZmFHNUR0cXdSWktvN1RFbHhRenprMzBjN3hkSDdtaUplMm5OcFplRzV3aTJxWVZ4bVZRTTB0ekIzTWdGSDlrSDItRW1lWTRqZ2pzbElJV1pOMjlvRUZXa1RoQTM3WjEwQkpqZTE2UHZoRzdfRXpZMXpsOXJsMFpFd09WX3dpdWZJ0gHiAUFVX3lxTE1UMDJwQUExSEhFQ2VoZzg4ckNpNC1YN3VGTF9sOTBxVlVoejJ3Q0VkcFB3bjdvSmZ4VDRlZVhBVWRzYW9SeHdvR25sUTd3R0t5Q244aW81Zi04REdCNi1vSHFxWTdUdDliRS1IdndTYW9CYl92MWQ4Z1VuRkhsdnBwTDg4UlV1N0lKRDN1RmplcUxrQ1lPTldPZFJJYW9mTVlLTkswR2tIeHhZQ2o2RDlOMVlNbU56N1B1OHZHdFNjZGkyX1pKOVl2ZFltSUZjN09lRjUwY0ZGR2dIbWFGc1ItcFE?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 16:53:50 GMT",
-          "source": "VOA 한국어 홈페이지"
+          "title": "[마켓뷰] '연이틀 폭락' 국내증시, 반등하나 공포 지속되나 - yna.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxUDdJSkwtbGdOZ3F0dWdieUN5TUF4NzJrUlFBODdURE5LYy1GUi05MzJXQUszZzcwckpTWDZqNHYwNmNId05hTjM4TGlUOTFhZFFsZmpNV0t3R2vSAWBBVV95cUxPNTR4WjI3ek02cE9ESk83bzdJaUpMT0xSY0F0dUFqUi1qaDV6TTJmWXEyUFZ5RmstNXpSalpNTEpvTEoxRnQyQ2FDRGJHakNLNXdGWmg2aTFMRUpNN1A3SnM?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 23:15:57 GMT",
+          "source": "yna.co.kr"
+        },
+        {
+          "title": "증시 폭락은 '시장·개미 탓'…잔금 대출난은 '은행 탓' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qdW9uUXY3Nlhub2pjbVZkbmxqejBrdEpEVEFpZ09ZZC1qODhzajRYMzEzd0pzaWtNbThzUHlBSmtBUTdxUzJfbml2VDZ5eUU?oc=5",
+          "pub_date": "Wed, 29 Jul 2026 21:01:29 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "[뉴욕증시-1보] 워시 한 마디에 요동친 시장…급락 마감 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80T1phRFJHRGYxSUFKeEJZazctYmFtNXJtT0FlZ2lESTNTZ1BuMGs0OEJwR2Qyam1TMTZpd0FaQ1NNN3o5b3I0X2J3S2FJZjB3UmV2c3dpMVh1eTR5d09UOWdCTy1Wc1J5NUl5d2xLd2nSAXRBVV95cUxPYVNsbW03OHNpSTNfbmJscE5nNUE3cWkxdDN4aU5PZDgyb1FRNjFTMDBEX0dWckNNelhiZWIzMk90VGE1YkRpX2FBV3htMWhRd19rcEpqOWVJcmdnMzRzX3VNOHB5Qnh5SXk2d1RwUTh6QnYwVw?oc=5",
           "pub_date": "Wed, 29 Jul 2026 20:16:00 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "美 기준 금리 5연속 동결‥미 국채 급등·뉴욕증시 급락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uUUsxdlh3YVRicDNpQ2xiUnpWSm9vSU1mRHNMbkxkU1d1OVNFeWp5UFZDYktVbmlRXzU4VnY4X3kyd1FZTWp0bFJ1NXR5LW9hNkRPbUVLSFNtS1QyV1BFa3UzZjlLM2luVGUyNFlscHBlZDJFbEF1UGln?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 21:09:03 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "코스피 한달새 9114→5663… 공포 휩싸인 개미들 손해봐도 ‘투매’ - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpQUtlTHhuekhyUHRIWEo1M3ZDbGhGSlEzQ212cUF2R3puYVBMRWJLbFh0dThVVks2X1dYTkRtUzVadUIyMVRqUkpnY3hUSmZpMER4UkFWdVNOWEIwVjFnMy13WEJKYTY2R25QcjZfLWxTd3ltbnfSAWZBVV95cUxQQUV6VkxHZ3pZblhVcy1la0NBYTB2M3FCZl9pOGRneWR3aVk2LUlvYTQyQUF2UUp1UDgxVDhJMzYzWmxpd2dyNnUzenVFVDZ1aS0tQVFhdUZhQU5fMFJ1dGlWQ0tma3c?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 19:30:00 GMT",
-          "source": "동아일보"
         }
       ]
     }
@@ -67,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 1926700000000,
     "retail_net_buy_krw": -1970100000000,
-    "margin_loan_krw": 32270000000000,
+    "margin_loan_krw": 32715300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
