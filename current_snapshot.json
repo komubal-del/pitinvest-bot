@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T20:32:43.629990+09:00",
+  "timestamp": "2026-07-30T22:14:58.293194+09:00",
   "sentiment": {
     "cnn_fng": 34.4857142857143,
     "cnn_components": {
@@ -14,40 +14,22 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 25,
+      "greed_count": 1,
+      "fear_count": 31,
       "greed_articles": [
         {
-          "title": "[ETF 따라잡기] 코스피 고점대비 40%대 폭락…시장 흐름은? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wd0loRHc3d0Y3RGhFOU9FQ05YX3RxOXRHZkk0UmFIOWZwYXh2dUc2dHcyRlRlSUE1NlB0bFI0VXhLeU50WXd3QUlmV3VUdTg?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 05:31:22 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "“주가 폭락해도 빚내서 산다”…코스피 급락에 되살아난 ‘빚투’ 경고 - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vWmRRMEVCQlRKeTIxdXgtbTZpcGNUX0tWS0xoYkZ4ZGk1Y0JZZE5PeE55UmRBY21la0ttWmxobUFzbDYyaG5EVE1FZ2ZfeUxuWWFVZzFfaG1Ed0xETmY0ei1R?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 05:48:00 GMT",
-          "source": "이코노미스트"
+          "title": "\"최악 국면 진입, AI 버블 붕괴 전조 가능성\"…외신이 본 위기의 K증시 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tbHlCMkpGb2ZlSXA1Z0xrT3JfUk5YYmQtellQbjQ5bGh4MkJSaWJKMjhvdWoyalRHNjBnWTVRWWpBd29VV2h4TTdWd1VIbGRRaWNxaGM4bTF5UQ?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 13:00:01 GMT",
+          "source": "한국경제"
         }
       ],
       "fear_articles": [
-        {
-          "title": "[집중진단] \"코스피 진짜 바닥은 어디인가?\"…사흘 새 17% 폭락, 반대매매 급증 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmZ2dnWUttRE5yR0E2bWNsVjh2cnBOdEFmMVJ6VW9sRlRocVZSR0NLTmYzWGlFbUY3WjF2QzBmMkpvLXhsUjE1NmRuMi1ibEk?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 10:07:21 GMT",
-          "source": "v.daum.net"
-        },
         {
           "title": "삼성전자 호실적도 못 살린 코스피…폭락 후 반등 못해 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOUTRNN3VSMzVueVE0N2k5Y0d4Q0VEN01JTUs1ZTlELVNsT05PUWdFbGJZRWFURFVKZ2VXQ254d1VTaTMwYzA0MU5mR2cyTEdDdTdEdkJuMEVscUNnY212dFdSZk5nSjQ?oc=5",
           "pub_date": "Thu, 30 Jul 2026 10:30:00 GMT",
           "source": "연합뉴스TV"
-        },
-        {
-          "title": "[중국증시-마감] 반도체·AI주 급락에 하락…방어주로 순환매 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95QWJJVTJDV19JV2ZGRXNGNmNfWE1HWkxyYTJRRHV6dVRnUWd4dHRRd0pSV3hibEl0ZU9BRW5neE52dXh2QkJBR2t5bzFpemEyZl9HRlQ5UTc2UGVxSWM5ZFpLQ3VIWUtGbmlxQ2t0Ym8?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 09:21:10 GMT",
-          "source": "연합인포맥스"
         },
         {
           "title": "[단독] 증시 급락에 국민연금 평가액 200조 증발 [시그널] - 서울경제",
@@ -56,16 +38,28 @@
           "source": "서울경제"
         },
         {
-          "title": "'연이틀 폭락' 코스피, 반등 실패…1%대 내려 5,600선도 내줘(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1cTZrQ1RQZXNXMDUtSlVIRjFYczhmcExKSXVLeEpFeG1ib3ZHaTVQNWhtbnNrOENNa05sbUd5ZTFCbGNrUFVjOGxJLWo2NVpZWjI1ZV9jdHpXcTlGQjFGdtIBYEFVX3lxTFA1cTZrQ1RQZXNXMDUtSlVIRjFYczhmcExKSXVLeEpFeG1ib3ZHaTVQNWhtbnNrOENNa05sbUd5ZTFCbGNrUFVjOGxJLWo2NVpZWjI1ZV9jdHpXcTlGQjFGdg?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 07:38:04 GMT",
-          "source": "연합뉴스"
+          "title": "오르락내리락 ‘롤러코스피’…개미들 공포감에 투매 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XYkViZDlkd1F0TFM0TGtwQjlDUHpsVmZaN3gtclNDcEQtVFZyWldxclJ4YXFMLV9RSllnTUw4cFE2SVlfMERmR3hiOVQ0T1E?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 12:28:11 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 급락장에 미수거래·반대매매 급증 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOSUJzRkEzZDlhbmtyXzZBQmgtYzR6QUJ6bEhSajI2U09ZX0VYT3MtbVFOSXh2d1JxVE9jc3Z4U0ExVmFHeGVmUEZHNEdocVotOTZ3ZEhaSjZUdXRkYXdCaTNWYzUwdlk?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 12:02:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "[집중진단] \"코스피 진짜 바닥은 어디인가?\"…사흘 새 17% 폭락, 반대매매 급증 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmZ2dnWUttRE5yR0E2bWNsVjh2cnBOdEFmMVJ6VW9sRlRocVZSR0NLTmYzWGlFbUY3WjF2QzBmMkpvLXhsUjE1NmRuMi1ibEk?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 10:07:21 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.32,
+    "vix": 19.01,
     "vvix": 109.47,
     "skew": 139.55,
     "move": 74.18
