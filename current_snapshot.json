@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-31T05:20:51.406524+09:00",
+  "timestamp": "2026-07-31T06:37:38.996248+09:00",
   "sentiment": {
-    "cnn_fng": 38.9428571428571,
+    "cnn_fng": 38.9142857142857,
     "cnn_components": {
       "momentum": 30.8,
       "strength": 33.6,
-      "breadth": 22.4,
+      "breadth": 22.2,
       "put_call": 30.2,
       "junk_bond": 67.0,
       "volatility": 50.0,
@@ -15,9 +15,15 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 5,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "코스피 폭락에 ‘역대급 호황’ 백화점 성장세 둔화하나 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KdTFrNThmMG03QkJxaGxfRnhFNm5YYWlyMTBNYmRhQl9ObFUyYzg0SWREQWFZcXp1NVhVTzBEWWFuZ0pjeXRmVUFDakpfTDluVHR4S0JjakRoUdIBX0FVX3lxTE5kVTlmUUV3YXdqTkZLRG1MWFFKcVhLNWQ0d2xyWU9IX0RrbTcyeF9RYjFiQUhrR3Rwa1FCc0xWOHF1ckpHNTZvWmN6MF96Qlh2LXA5MFRuYWVrY0ZHWERB?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 21:00:00 GMT",
+          "source": "경향신문"
+        },
         {
           "title": "[AI로 읽는 경제] 증시 폭락하자 개인계좌부터 조인다…'20% 총량규제'의 위험한 착각 - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hek11dFVsN1NIUXNBdjM0NGt4YVFvRE55MlZCRkpBOTRselBzbTBFSjBNdDRFTjgwVmpwUFFTVGRPQlUyWEFrcTV4X2dnVl93dV92OGtiM1VJWHBv?oc=5",
@@ -25,19 +31,31 @@
           "source": "뉴스핌"
         },
         {
+          "title": "[IPO 돋보기] 예견된 참사...7월 코스닥 새내기주 폭락 지속되나 - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kQ2ZqY0Qxbm1jZDVFNlJUeDl1SC1FYzZSdXNqMkNFOTI5a1lUQllmZ1EwZ0xwTDdiWUphekhVd2M4ZXhnTmtGdFRlSmdSdkN5bk9kSGpDRjA3YXhhX2c?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 21:01:13 GMT",
+          "source": "뉴스투데이"
+        },
+        {
           "title": "[야고부-이호준] 증시 폭락 국가배상 - 매일신문",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wRmlfLTIzRVp1UE5XbUR1Qk5vOW1KRnBvVlp0RnRpOHIyaHpUYlI2bzB3R0Z6YkRfRGNPbTFaVEs0OGlXakl5V1dpTjZrdGIwZzRCN1JuOE9FSHZIS09YSU5R?oc=5",
           "pub_date": "Thu, 30 Jul 2026 20:00:00 GMT",
           "source": "매일신문"
+        },
+        {
+          "title": "\"계좌 강제 청산됐다\" 개미들 비명...증시 폭락에 하루 만에 600억 '반대매매' 폭탄 - fnnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3YVlZY1FXbHVmdy1vajVILWxTQ214NXpzSTE0andsMkRGLTZFOWFlc1BFNmlJSWpZRTBwRllKU1lHV29Hc1IyYjJMd09IY2RsbmowZmd1ZUhpdw?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 20:30:00 GMT",
+          "source": "fnnews.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.08,
-    "vvix": 94.5,
-    "skew": 139.55,
-    "move": 74.18
+    "vix": 17.09,
+    "vvix": 94.66,
+    "skew": 139.9,
+    "move": 77.09
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 1408500000000,
@@ -300,7 +318,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 167.214,
+    "strategy_pct": 169.441,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -896,7 +914,7 @@
       },
       {
         "date": "2026-07-31",
-        "ret_pct": 167.214
+        "ret_pct": 169.441
       }
     ],
     "monthly_breakdown": [
@@ -938,8 +956,8 @@
       },
       {
         "month": "2026-07",
-        "return_pct": -58.54,
-        "end_ret_pct": 167.21,
+        "return_pct": -56.31,
+        "end_ret_pct": 169.44,
         "max_dd_pct": 87.06
       }
     ],
