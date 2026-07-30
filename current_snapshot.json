@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-07-30T16:06:05.139873+09:00",
+  "timestamp": "2026-07-30T18:37:02.639985+09:00",
   "sentiment": {
-    "cnn_fng": 32.3673469387755,
+    "cnn_fng": 34.4857142857143,
     "cnn_components": {
       "momentum": 22.0,
       "strength": 34.2,
-      "breadth": 21.0,
+      "breadth": 19.4,
       "put_call": 26.8,
       "junk_bond": 59.4,
-      "volatility": 33.6,
+      "volatility": 50.0,
       "safe_haven": 29.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 37,
+      "greed_count": 2,
+      "fear_count": 18,
       "greed_articles": [
         {
           "title": "[ETF 따라잡기] 코스피 고점대비 40%대 폭락…시장 흐름은? - v.daum.net",
@@ -28,57 +28,51 @@
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vWmRRMEVCQlRKeTIxdXgtbTZpcGNUX0tWS0xoYkZ4ZGk1Y0JZZE5PeE55UmRBY21la0ttWmxobUFzbDYyaG5EVE1FZ2ZfeUxuWWFVZzFfaG1Ed0xETmY0ei1R?oc=5",
           "pub_date": "Thu, 30 Jul 2026 05:48:00 GMT",
           "source": "이코노미스트"
-        },
-        {
-          "title": "韓 증시 변동성에 놀란 영국?...BOE, 런던 IB '亞 AI 주식 쏠림' 점검 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95WE82eWNncjdmQ1lKUHJGNU5NRDFra1dRTWljam8xOWlkeDlZa2FhRXF3SWRkZURfeV9tT1dmWGR1UU16WF8yeXlORk1hemlvUElmMEtnWnVwWmlWbklZazhESEYyMWhC0gFuQVVfeXFMTkoxUGRLRmM4cWd4Zi1jWFE1SFotR2pHcWhOZXlrdVZoWUFfM1JDeW00Rjg3WHBUWlMyX0FCRkotNG1rSWRvN05DSUlQaFZmUlEtQjMtZkg4N1JJT2M0LWo5NFI2cTdsWFVsRmVMbnc?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 06:42:23 GMT",
-          "source": "머니투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "증시 폭락에 폭발한 개미들…사상 첫 ‘주주 정당’ 창당 추진 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HR1VCSEZ1c3VPaXo1aS1sLWZvc1pBbFhiTlY1Q0dGeFZwZzRKeXJTYUlEczlaTWxRVTNWcGxQR0NQN3lJRmwyOWRDZHhDOFJhUWNKeQ?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 04:00:00 GMT",
-          "source": "JTBC"
+          "title": "'연이틀 폭락' 코스피, 반등 실패…1%대 내려 5,600선도 내줘(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1cTZrQ1RQZXNXMDUtSlVIRjFYczhmcExKSXVLeEpFeG1ib3ZHaTVQNWhtbnNrOENNa05sbUd5ZTFCbGNrUFVjOGxJLWo2NVpZWjI1ZV9jdHpXcTlGQjFGdtIBYEFVX3lxTFA1cTZrQ1RQZXNXMDUtSlVIRjFYczhmcExKSXVLeEpFeG1ib3ZHaTVQNWhtbnNrOENNa05sbUd5ZTFCbGNrUFVjOGxJLWo2NVpZWjI1ZV9jdHpXcTlGQjFGdg?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 07:38:04 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "증시 급락에도 110원 넘게 오른 원화값…환율 1400원대 머물까 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ySzRQQjRSR3NobWlvZmxtbTRNLXlDSk0xR1c5RWxyVWNSaDUyWW9mRFVNVUtSX2gxS2syZGJEVHZINnRBalVGc1JyelpLWFJ3QUE?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 07:00:36 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "코스피, 연이틀 '급락' 5500선 마감... 코스닥도 하락 - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvOXo0TXIzSXhSOWdxcmVTY3psZXE4YTdoUk9mZk5tdVRrWjhtTFk4cUNoY0FaUmtzZkxJSXRXMWZzNE1sSkVjTTYtTTNXQ1BmM2NsWFNlNl9tbFdGNWpyM0NlbC1HdFpaZ1lMMWJubmFwc1RN?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 06:55:00 GMT",
-          "source": "조세일보"
-        },
-        {
-          "title": "[뉴욕증시-1보] 워시 한 마디에 요동친 시장…급락 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80T1phRFJHRGYxSUFKeEJZazctYmFtNXJtT0FlZ2lESTNTZ1BuMGs0OEJwR2Qyam1TMTZpd0FaQ1NNN3o5b3I0X2J3S2FJZjB3UmV2c3dpMVh1eTR5d09UOWdCTy1Wc1J5NUl5d2xLd2nSAXRBVV95cUxPYVNsbW03OHNpSTNfbmJscE5nNUE3cWkxdDN4aU5PZDgyb1FRNjFTMDBEX0dWckNNelhiZWIzMk90VGE1YkRpX2FBV3htMWhRd19rcEpqOWVJcmdnMzRzX3VNOHB5Qnh5SXk2d1RwUTh6QnYwVw?oc=5",
-          "pub_date": "Wed, 29 Jul 2026 20:16:00 GMT",
+          "title": "[중국증시-마감] 반도체·AI주 급락에 하락…방어주로 순환매 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95QWJJVTJDV19JV2ZGRXNGNmNfWE1HWkxyYTJRRHV6dVRnUWd4dHRRd0pSV3hibEl0ZU9BRW5neE52dXh2QkJBR2t5bzFpemEyZl9HRlQ5UTc2UGVxSWM5ZFpLQ3VIWUtGbmlxQ2t0Ym8?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 09:21:10 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "연이틀 폭락한 코스피, 장중 4∼5% 반등해 6천피 탈환 시도 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IRDNjVG91czhCWnlrZVBJYVRUcE1YRUluWGs0dm01bTFvQWxCOVpIaHBrMDNLbHJDNmpLVHJDNkZuZU9fem1oOHFfM2tWRkNCTDgzNkRpLVNta2dCRTBSaEZMdFpSWkE?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 02:19:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "'공포의 7월' 코스피 34% 급락…8월엔 달라질까? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oNlBXdzVtYm1uN3hXRnFCVEZqel82dDlQRkh5NV9xQnhkZTlvajVFN0tqVF9ISzZ4UVVVVUhlclN6c1h0RmhDbzdwUXFMU3JELVp4QjBnWGtON0xFSkx4R0gtWDBIQl9y0gFuQVVfeXFMUFV0aTZLQnZYS2R6dkNEblo5S3ltRnhKOHFKTmlEZ3RLcGFUYl9YY1B0VkpyYV9ya201R0RWUW93SXNfWFh0OWk4azhpSGxpTEZUbDFOZDBGbktTMzJqc3BORGtXSnhYNGJRZ2dBdlE?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 07:33:23 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "[단독] 증시 폭락에 노후자금 300조 증발…국민연금 평가액 급감 [시그널] - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FdWV3eUUwRXB2UnpHaVFib0hBTUlqRmxRdWVzTGZ0OW1DMEx5azJSRW93UzRIMlNWMzFlNkNMVGh2dVRjY3JkMVFiTUx5TW5renfSAVNBVV95cUxNOUxaeHNIeUc1UmRQdHVOYzZvdkhiTzdNc3hULXQ3aUNEUFdGaU5PSUt5VVM5V1F6aHZXb1VjNU9kWVNOMWNZM0hRZTkxWFpNVG5jTQ?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 07:15:10 GMT",
+          "source": "서울경제"
+        },
+        {
+          "title": "증시 폭락에 부동산 꿈틀…머니무브 역행 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZzhXSWJsMW1WdERWenBCOHA5N1R2cmVxWEhHMWhWR1ZpR1BGUDdvZnFMXzVVcEhIR3pXTFZEcE4wdmJQeUhDZXBrLUtiUFZMMm5mYnFIVkxlemZEZFptVg?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 05:24:23 GMT",
+          "source": "뉴스토마토"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 20.66,
+    "vix": 19.53,
     "vvix": 109.47,
     "skew": 139.55,
     "move": 74.18
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1409000000000,
-    "retail_net_buy_krw": -1431400000000,
+    "foreign_inst_buy_krw": 1408500000000,
+    "retail_net_buy_krw": -1430900000000,
     "margin_loan_krw": 32715300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -197,12 +191,20 @@
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.07.30",
+            "close": 207000,
+            "change_pct": -0.72,
+            "retail_net": -418752,
+            "inst_net": -237928,
+            "foreign_net": 656680
+          },
           {
             "date": "2026.07.29",
             "close": 208500,
@@ -234,17 +236,17 @@
             "retail_net": 6806897,
             "inst_net": -3378638,
             "foreign_net": -3428259
-          },
-          {
-            "date": "2026.07.23",
-            "close": 270000,
-            "change_pct": 3.65,
-            "retail_net": -1178911,
-            "inst_net": -120579,
-            "foreign_net": 1299490
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.30",
+            "close": 1322000,
+            "change_pct": -5.64,
+            "retail_net": -364347,
+            "inst_net": -80151,
+            "foreign_net": 444498
+          },
           {
             "date": "2026.07.29",
             "close": 1401000,
@@ -276,14 +278,6 @@
             "retail_net": 1460660,
             "inst_net": -483881,
             "foreign_net": -976779
-          },
-          {
-            "date": "2026.07.23",
-            "close": 1919000,
-            "change_pct": 4.86,
-            "retail_net": -541561,
-            "inst_net": -148136,
-            "foreign_net": 689697
           }
         ]
       }
