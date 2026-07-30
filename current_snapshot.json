@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T07:46:18.404437+09:00",
+  "timestamp": "2026-07-31T08:43:59.424420+09:00",
   "sentiment": {
     "cnn_fng": 38.9142857142857,
     "cnn_components": {
@@ -14,10 +14,35 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 4,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 8,
+      "greed_articles": [
+        {
+          "title": "증시 폭락에 ‘빚투’ 반대매매도 급증…증시 하방 압력 키우는 변수로 떠올라 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzVEY3JBSllzNGUzOWFhcVVmTk4tNkpkTTEwV1gyYS0tUFFLdHZwR0hSdnRfWnp6SjMxWUJfeThjNnlUeWt0SVBxNTlXTHNvbjRLZ2NzZG1FWTdnU0FIT1FmRlEyYXlaaVRpR3cyaTFmaFp6WTdXUjlqeVFBMElHVA?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 23:22:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "국내증시 하락에…코스피 고점 이후 목표주가 하향 잇달아 - 한국경제TV",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVDJ0dFdGQno3MmJfd2dpWWtwSWdyVV9oRjNBQTNhT3RBTE13TTJBV0ZtMTllRmN3UGVZb0Q1OTZkN3hRbUZqTjU0Y3VEYUVrdnFob3p4SWdWblZUTEhRVFFYRC1WenItbzBmRkI2YnU3aWpFNWdWamZlWWdVWjVvVw?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 23:00:00 GMT",
+          "source": "한국경제TV"
+        }
+      ],
       "fear_articles": [
+        {
+          "title": "[스타트 경제] 코스피, 연이틀 급락 후 또 하락...개인, 또 1.4조 '항복 매도' - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QaHpZQkZZc1ZZX29jOTJWc3VWQ0hLeFI2dDBNZFNBWFdIeVVzSDJQUEw2M0RDTmpHNGRTNWhXaF9CVTlUM3R6eU9LQS1PYWpUM1R2ZUVia05Fd0VzTnc?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 22:31:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "[韓증시 어디로]설명이 쉽지 않은 파괴적 폭락 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84RHkxcFJQTFkycU5lSEN3OVFhbmQxQlFLWmNFOUdQblFVeGFtUlZsQzFmM3plYklQZkNoSmdjUGNtX1huYXpmMW9sU2pnQkxGTUlJal8tNlB4a2hnWEs4al9xM0R3enZMTXlGUHoycldHaTBQ?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 21:20:33 GMT",
+          "source": "대한경제"
+        },
         {
           "title": "코스피 폭락에 ‘역대급 호황’ 백화점 성장세 둔화하나 - 경향신문",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KdTFrNThmMG03QkJxaGxfRnhFNm5YYWlyMTBNYmRhQl9ObFUyYzg0SWREQWFZcXp1NVhVTzBEWWFuZ0pjeXRmVUFDakpfTDluVHR4S0JjakRoUdIBX0FVX3lxTE5kVTlmUUV3YXdqTkZLRG1MWFFKcVhLNWQ0d2xyWU9IX0RrbTcyeF9RYjFiQUhrR3Rwa1FCc0xWOHF1ckpHNTZvWmN6MF96Qlh2LXA5MFRuYWVrY0ZHWERB?oc=5",
@@ -25,22 +50,16 @@
           "source": "경향신문"
         },
         {
-          "title": "[AI로 읽는 경제] 증시 폭락하자 개인계좌부터 조인다…'20% 총량규제'의 위험한 착각 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hek11dFVsN1NIUXNBdjM0NGt4YVFvRE55MlZCRkpBOTRselBzbTBFSjBNdDRFTjgwVmpwUFFTVGRPQlUyWEFrcTV4X2dnVl93dV92OGtiM1VJWHBv?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 20:00:00 GMT",
-          "source": "뉴스핌"
+          "title": "외국인, 韓 주식 49조원 ‘투매’…코스피서만 51조원 뺐다 - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqcV9QN29zaU1FTUtBYzNTTDhqTXNscnJlNGNRRGllNzRMSGNyemdYZVllaXViMmdBWmhZNmlUdUJNMkRGa3ByUVNrVDhZWFd6X1lnSC1xUXFweHQyZ0hJ?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 21:30:00 GMT",
+          "source": "조세일보"
         },
         {
-          "title": "\"계좌 강제 청산됐다\" 개미들 비명...증시 폭락에 하루 만에 600억 '반대매매' 폭탄 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3YVlZY1FXbHVmdy1vajVILWxTQ214NXpzSTE0andsMkRGLTZFOWFlc1BFNmlJSWpZRTBwRllKU1lHV29Hc1IyYjJMd09IY2RsbmowZmd1ZUhpdw?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 20:30:00 GMT",
-          "source": "파이낸셜뉴스"
-        },
-        {
-          "title": "[IPO 돋보기] 예견된 참사...7월 코스닥 새내기주 폭락 지속되나 - 뉴스투데이",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kQ2ZqY0Qxbm1jZDVFNlJUeDl1SC1FYzZSdXNqMkNFOTI5a1lUQllmZ1EwZ0xwTDdiWUphekhVd2M4ZXhnTmtGdFRlSmdSdkN5bk9kSGpDRjA3YXhhX2c?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 21:01:13 GMT",
-          "source": "뉴스투데이"
+          "title": "진짜 바닥은 어디…한 달 새 39% 폭락한 코스피 [1분 브리프] - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nUjM2OGdRelB4OHpqeEN4T2E3VUYxelJ2MnlHUHdfMnlPUzExYTU2SlJGQVBJY0t2Z0M3RGhnVGpBZ0JnQjlERTRDeFhib3A0R0l5ajNxQVVNSXY5djM2Yw?oc=5",
+          "pub_date": "Thu, 30 Jul 2026 23:00:00 GMT",
+          "source": "아시아경제"
         }
       ]
     }
