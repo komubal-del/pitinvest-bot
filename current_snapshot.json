@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T17:04:54.816282+09:00",
+  "timestamp": "2026-07-31T19:49:10.030137+09:00",
   "sentiment": {
     "cnn_fng": 38.9714285714286,
     "cnn_components": {
@@ -14,53 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
-      "greed_articles": [
-        {
-          "title": "상반기 국세 작년보다 33조 더 걷혀…증시 활황에 거래세 4.5배 급증 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSeTlIVlUydjBJQzlzbkY3bEFLNWt5WHFpVmx3UFlna3pqY1dJQ3d2OFlhNERkTUlHaDRIZm1OMWZUX1daMXBtUEF6S1J3RE1hZWVKVW5KV1lmNXE2Qmp4REVodmRUVFdYR3hfaUdGMDJtRVJqb2fSAWZBVV95cUxPd2ZWeHdxMFVZNjV4eXl5QVFhUl9ld293VHFlMjRLblhIS2RsNVNwTXVSN2w1TDd2UDNuSTFyQW1wX2ZHN0NvX2VDdTBOcmNSLWYtSmdzTzVGX3JCd0UtVGo3Y013clE?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 07:16:00 GMT",
-          "source": "동아일보"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "증시 폭락에 “개미가 문제” 발언…개인투자자 ‘부글’ [증권가 레이다] - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfc3Q3MmlIOVVPajBEajNQQjRLS3dlVFIyVlVJOTZBLURQNmNTUzc3VGlSaTg4dVNzWHNjMWNUcjMyV2xKNVZjeXZTS3hxbG5xZ3JKNnhtTWdxVjFPRi1VbFV3?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 07:44:00 GMT",
-          "source": "이코노미스트"
-        },
-        {
-          "title": "외국인 7조 순매수에 17%↑…폭락 뒤 폭등 ‘투전판’ 증시에 현기증 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTNmo0aHhqQlNDZ0M0NTJ6SmdiWlRMa3h4MV9PYlpsLTBSOGc5dGl3enVUNWlOR3BiaFQxaHc5SnFDdzFRcUNNbEsxN1ZrQnRacTlmMDBqZE0tbi1HcDdadENwNElNQXRlVTVVTlhsb3EwZw?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 05:54:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "패닉 후 역대급 폭등…코스피 하루 새 1000P 올랐다 - 비즈워치",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nc0VDNTRmRm5BZHJCbDgyT3F5MG9CTjBSWTdUR3NoVTBUZW1WV0ozQm9iclNTRmdVd0doRGhYRTdORmF4NldfYzZSSjlUd2g2WTJBZUxHMkFpWVNLR19zbktqazZwbElJ?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 07:16:02 GMT",
-          "source": "비즈워치"
-        },
-        {
-          "title": "코스피, 폭락 뒤 18%대 급반등…SK하이닉스, 첫 30% 상한가 - newstomato.com",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zZDlXbUJaUnV3Vm5LOHJMbDA0NWJWS1g1N1p2NHpkNXBjM2hkeUJ5MmVNd3VzRVFJVkRuNlFOdjZEZnlNelpSQWRleFpvdG9XUFVnQ0pGangtTjRoZjJseQ?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 06:49:16 GMT",
-          "source": "newstomato.com"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.87,
+    "vix": 16.8,
     "vvix": 94.66,
     "skew": 139.9,
     "move": 77.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 8381100000000,
-    "retail_net_buy_krw": -8273899999999,
+    "foreign_inst_buy_krw": 8391299999999,
+    "retail_net_buy_krw": -8284000000000,
     "margin_loan_krw": 32523000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -186,6 +154,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.07.31",
+            "close": 262500,
+            "change_pct": 26.81,
+            "retail_net": -11977970,
+            "inst_net": 3618959,
+            "foreign_net": 8359011
+          },
+          {
             "date": "2026.07.30",
             "close": 207000,
             "change_pct": -0.72,
@@ -216,17 +192,17 @@
             "retail_net": 2831751,
             "inst_net": 487617,
             "foreign_net": -3319368
-          },
-          {
-            "date": "2026.07.24",
-            "close": 249500,
-            "change_pct": -7.59,
-            "retail_net": 6806897,
-            "inst_net": -3378638,
-            "foreign_net": -3428259
           }
         ],
         "hynix": [
+          {
+            "date": "2026.07.31",
+            "close": 1718000,
+            "change_pct": 29.95,
+            "retail_net": -2482950,
+            "inst_net": 277183,
+            "foreign_net": 2205767
+          },
           {
             "date": "2026.07.30",
             "close": 1322000,
@@ -258,14 +234,6 @@
             "retail_net": 384778,
             "inst_net": 231139,
             "foreign_net": -615917
-          },
-          {
-            "date": "2026.07.24",
-            "close": 1759000,
-            "change_pct": -8.34,
-            "retail_net": 1460660,
-            "inst_net": -483881,
-            "foreign_net": -976779
           }
         ]
       }
