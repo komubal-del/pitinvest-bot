@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T19:49:24.896726+09:00",
+  "timestamp": "2026-07-31T22:02:59.143292+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -4127,8 +4127,8 @@
     },
     "us10y": {
       "ticker": "^TNX",
-      "value": 4.66,
-      "change_30d_pp": 0.23
+      "value": 4.7,
+      "change_30d_pp": 0.24
     }
   },
   "errors": []
