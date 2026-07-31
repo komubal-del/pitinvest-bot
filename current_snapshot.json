@@ -1,59 +1,59 @@
 {
-  "timestamp": "2026-07-31T10:14:36.279668+09:00",
+  "timestamp": "2026-07-31T13:49:21.309822+09:00",
   "sentiment": {
-    "cnn_fng": 38.9142857142857,
+    "cnn_fng": 39.1714285714286,
     "cnn_components": {
       "momentum": 30.8,
       "strength": 33.6,
       "breadth": 22.2,
       "put_call": 30.2,
-      "junk_bond": 67.0,
+      "junk_bond": 68.8,
       "volatility": 50.0,
       "safe_haven": 38.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 3,
+      "greed_count": 1,
+      "fear_count": 6,
       "greed_articles": [
         {
-          "title": "증시 폭락에 ‘빚투’ 반대매매도 급증…증시 하방 압력 키우는 변수로 떠올라 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzVEY3JBSllzNGUzOWFhcVVmTk4tNkpkTTEwV1gyYS0tUFFLdHZwR0hSdnRfWnp6SjMxWUJfeThjNnlUeWt0SVBxNTlXTHNvbjRLZ2NzZG1FWTdnU0FIT1FmRlEyYXlaaVRpR3cyaTFmaFp6WTdXUjlqeVFBMElHVA?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 23:22:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "국내증시 하락에…코스피 고점 이후 목표주가 하향 잇달아 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HQi1mSG93TTRDV0w5ZDlqQ2xkNlVCV0U3dzdEVTBySkVhRHJOQzhrMGtvOFRPallTYVFVV2pQYmJvcXlnYWRIWFdCZ293UlE?oc=5",
-          "pub_date": "Thu, 30 Jul 2026 23:01:55 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[특징주] 증시 활황에 증권株 동반 강세…키움증권 9%↑ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95dWV5UVRsWElXaVlIZWlKT0RvWVdFNU5mZ19Yb01maEM2MG5VTlJDOExVUXZBZUd4eU1TVmtwM2laUWtYX2J4RzFFNVl2SzFEVjB0OEdLbU9LMnFl?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 00:49:00 GMT",
-          "source": "뉴스핌"
+          "title": "지난달 증시 활황에 증권거래세 482% 폭증‥상반기 국세 33조 더 걷혔다 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wOFd1cUJVa1V5bmY1Y1NXOGtHenRyWFhfak5kdGFuM29hZnp6VUZOWnNaSXFtYkVROTA2eVQ3UkRtREw3VW5NcDh2bVE1ZkdXdzZZYnZNX2NkSmN2VU15TmtMZ2pQdHU0eWdGSEhkZVVQSHRW0gF0QVVfeXFMT3FOOWF5NE1CYkVuMDl6QzNQQTRXRmpNMU1hTmh6enVGODJKQ3hGdmluMy16aTFNR3E2b21nM0pzQm5JZlRjY19hb0ltaXZybFJYcDQtSHRKRmtKLTRPeU55c0E3OWV3QTl6X1NwT2QxWHRkbEc?oc=5",
+          "pub_date": "Fri, 31 Jul 2026 02:45:35 GMT",
+          "source": "MBC 뉴스"
         }
       ],
       "fear_articles": [
         {
+          "title": "급반등해 좋지만…'급등락·폭락·폭등' 널뛰기에 어지러운 증시 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKQ0NwNzMwRWJ0a2tUb1pVcjZDMzNJOEpBd01UdjVmM0FZVFRVLVU0YU41RGoyXzQ5d0VCN1h0MXdYNDktTlZ5ZHF5bDBrb28?oc=5",
+          "pub_date": "Fri, 31 Jul 2026 03:09:50 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "국힘 \"국민연금, 증시 급락에 직격탄…정권의 증시부양 펀드 아냐\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51Q3M2REphMlhRT09Bc2sybW5HUVRseC1XcVV4Mjg1TlBybGtWUC1EeW05emNIUGlOUEZzV2Q2d2RnX1JsTDRTc25lVC1zaWlzdl9HZURnSzBHUFFkUzAyOU1Ubko4RzVLNFlSUElTcnA?oc=5",
+          "pub_date": "Fri, 31 Jul 2026 02:51:49 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "반도체 투매 진정에 코스피 15% 급반등…삼전·하닉 20%대 상승 - 인베스트조선",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tYl96aFJ2NXJzbDJmOE5HZkFycmlrdUY2cWoyRG54RVQxYzU5eTdqeUdEQ3ltU3lMMEdpUzNCcXpVVXEwSFREa3liTmViekMzaF9RTFpSTWQzaXYteXBYMnVqS3F4MU9zQVJNdzVDamVFZw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbEJ3RW9nT0F2TFUtbENFQkNwSmx2UXdCZ1ozTm1Db1REcnFjbGtjYnpkc2VKUzdkdjZLZzY2Rkh5WmZwaGFQX3F3akJqMlpiOF94X3BZVmctdU5nQ1hYUllwOVphaTNpcHl1TEVkSmhvZEdURUtSRzFHRHFOZTJSbmJkMA?oc=5",
           "pub_date": "Fri, 31 Jul 2026 01:08:00 GMT",
           "source": "인베스트조선"
         },
         {
-          "title": "코스피 14% 반등에도 안심 못하는 증권사…급락장 미수채권 '후유증' - 인베스트조선",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWEE1TXNkVkhOTWZsRmdqSWJaQmZTSFhCV3BCNFM3cmd1VFdjZm5aZldSVDZKVVZ4d05GRXpSM1VvMGQtcnhZXzE1T3RqLWl0akJOUzRyRGQ1dkpIeFh0cng2akZKeGh3VkJvNTB2M1FXRWxmeHVaUEhabFFMTzdnRG9QZw?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 00:47:00 GMT",
-          "source": "인베스트조선"
+          "title": "7월 폭락은 '가짜 공포'... \"코스피 정상화 국면 진입할 것\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QbTB1NTJpRDk0dEs4aHd5SXdlYlFmQVV2TGZGM1ZxdzVLeG43VGdhdUd1ZnpLRXNRa0lGTEpwc1hWbEUtbTFkT3hGTU5LRUk?oc=5",
+          "pub_date": "Fri, 31 Jul 2026 01:33:00 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "“폭락 끝 반격”…코스피 14% 폭등·단숨에 6000선 탈환, 양 시장 매수 사이드카 발동 - 한경매거진&북",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0TzNlc3h3LUY2TTdSdl8yYzliLUwwcFE2c2lFVnBHalBHTEF1d2pxaURnb1I1cTJIM2psT1Z5azc0QjVTclgxTE9SQmtmSDREWGlQdTR2REJRS2VITHQwNjhpWDdVYndw?oc=5",
-          "pub_date": "Fri, 31 Jul 2026 00:55:00 GMT",
-          "source": "한경매거진&북"
+          "title": "'증시 폭락' 참다 못한 주주들, 직접 정치판 뛰어들었다 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JdmNYV29yR0FobjJ5WUhRbU5KdUtsQ2FRTXRPNFNVblBXWmxWTFJsZnFtaXNWSUoybV8xUTRNeXFkQVp3OWI2VHFBNWZadw?oc=5",
+          "pub_date": "Fri, 31 Jul 2026 04:00:00 GMT",
+          "source": "전자신문"
         }
       ]
     }
@@ -65,8 +65,8 @@
     "move": 77.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 5612600000000,
-    "retail_net_buy_krw": -5543800000000,
+    "foreign_inst_buy_krw": 7314100000000,
+    "retail_net_buy_krw": -7224900000000,
     "margin_loan_krw": 32523000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +81,18 @@
       "sma_200": 23984.67
     },
     "kospi": {
-      "current": 6464.46,
+      "current": 6449.4,
       "high_52w": 9385.59,
-      "drop_pct": -31.12,
+      "drop_pct": -31.28,
       "intraday_low_drop_pct": -40.02,
-      "sma_200": 5722.88
+      "sma_200": 5733.49
     },
     "kosdaq": {
-      "current": 700.97,
+      "current": 711.63,
       "high_52w": 1229.42,
-      "drop_pct": -42.98,
+      "drop_pct": -42.12,
       "intraday_low_drop_pct": -46.05,
-      "sma_200": 997.96
+      "sma_200": 997.01
     },
     "sp500": {
       "current": 7437.63,
@@ -282,8 +282,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-07-30",
-    "analyzed_at": "2026-07-30T13:13:27.479975+09:00",
+    "date": "2026-07-31",
+    "analyzed_at": "2026-07-31T13:49:25.702318+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -291,16 +291,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "HjW2IZkeKtw",
-        "title": "투매 끝? 8월 반등의 핵심 변수는 '이것'입니다  | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-30T00:23:29Z",
-        "url": "https://youtube.com/watch?v=HjW2IZkeKtw",
+        "video_id": "SbRuaZT-lNs",
+        "title": "저점은 확인됐다? 반등 목표는 6500! | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-07-31T00:09:34Z",
+        "url": "https://youtube.com/watch?v=SbRuaZT-lNs",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "bullish",
-          "reason": "제목에서 '8월 반등'을 명확히 언급하며 시장의 상승 가능성을 강조하고 있다."
+          "reason": "제목에서 '저점은 확인됐다'고 언급하며 '반등 목표는 6500'을 제시하여 시장의 상승 가능성과 회복에 대한 기대를 명확히 보여줍니다."
         }
       },
       {
@@ -313,7 +313,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "코스피 고점, 기업 실적 악화 가능성, 주요 프로젝트 지연 등 리스크 요인을 다루며 'Buy & Hold'보다 'Trading Buy' 전략을 제시하지만, 구체적인 매수/매도 행동 권고는 없어 중립적인 시장 분석에 가깝습니다."
+          "reason": "코스피의 연간 고점과 주요 기업의 감익 시나리오, 실적 미스, 리스크 요인 등 시장의 여러 부정적인 측면을 분석하면서도, 현금화나 매도와 같은 구체적인 행동 권고는 없으며 'Trading Buy' 전략은 시장 상황에 따른 전술적 접근을 의미하여 중립적 분석에 가깝다."
         }
       }
     ],

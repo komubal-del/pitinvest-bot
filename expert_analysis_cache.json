@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-30",
-  "analyzed_at": "2026-07-30T13:13:27.479975+09:00",
+  "date": "2026-07-31",
+  "analyzed_at": "2026-07-31T13:49:25.702318+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "HjW2IZkeKtw",
-      "title": "투매 끝? 8월 반등의 핵심 변수는 '이것'입니다  | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-07-30T00:23:29Z",
-      "url": "https://youtube.com/watch?v=HjW2IZkeKtw",
+      "video_id": "SbRuaZT-lNs",
+      "title": "저점은 확인됐다? 반등 목표는 6500! | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-07-31T00:09:34Z",
+      "url": "https://youtube.com/watch?v=SbRuaZT-lNs",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "bullish",
-        "reason": "제목에서 '8월 반등'을 명확히 언급하며 시장의 상승 가능성을 강조하고 있다."
+        "reason": "제목에서 '저점은 확인됐다'고 언급하며 '반등 목표는 6500'을 제시하여 시장의 상승 가능성과 회복에 대한 기대를 명확히 보여줍니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "코스피 고점, 기업 실적 악화 가능성, 주요 프로젝트 지연 등 리스크 요인을 다루며 'Buy & Hold'보다 'Trading Buy' 전략을 제시하지만, 구체적인 매수/매도 행동 권고는 없어 중립적인 시장 분석에 가깝습니다."
+        "reason": "코스피의 연간 고점과 주요 기업의 감익 시나리오, 실적 미스, 리스크 요인 등 시장의 여러 부정적인 측면을 분석하면서도, 현금화나 매도와 같은 구체적인 행동 권고는 없으며 'Trading Buy' 전략은 시장 상황에 따른 전술적 접근을 의미하여 중립적 분석에 가깝다."
       }
     }
   ],
