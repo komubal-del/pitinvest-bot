@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T03:42:40.342221+09:00",
+  "timestamp": "2026-08-03T04:53:55.151713+09:00",
   "sentiment": {
     "cnn_fng": 42.4571428571429,
     "cnn_components": {
@@ -15,9 +15,16 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[오늘의 경제뉴스] 7월 코스닥 폭락에 30곳 ‘퇴출 경보…흑자 기업도 쫓겨날 판 - 뉴스버스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WUGZPaDExUl8xVHowUHJYMFlIMWx2SFRETWROWnBrazdoRzJtd2x2YnUxeF9mWnl6SzV3UkhlV2V0M3MtT3prZmlteG1mVEdxNmxDcFdxME9YOTc0YVQxM1I0RURHOXNCNUE?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 19:36:24 GMT",
+          "source": "뉴스버스"
+        }
+      ]
     }
   },
   "volatility": {
