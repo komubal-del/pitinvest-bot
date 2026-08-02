@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T07:04:56.683512+09:00",
+  "timestamp": "2026-08-03T08:04:55.129808+09:00",
   "sentiment": {
     "cnn_fng": 42.4571428571429,
     "cnn_components": {
@@ -32,10 +32,10 @@
           "source": "대한경제"
         },
         {
-          "title": "[오늘의 경제뉴스] 7월 코스닥 폭락에 30곳 ‘퇴출 경보…흑자 기업도 쫓겨날 판 - 뉴스버스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WUGZPaDExUl8xVHowUHJYMFlIMWx2SFRETWROWnBrazdoRzJtd2x2YnUxeF9mWnl6SzV3UkhlV2V0M3MtT3prZmlteG1mVEdxNmxDcFdxME9YOTc0YVQxM1I0RURHOXNCNUE?oc=5",
-          "pub_date": "Sun, 02 Aug 2026 19:36:24 GMT",
-          "source": "뉴스버스"
+          "title": "[속보]李지지 45.9% 취임후 최저 “증시폭락·연임 개헌 논란 원인” - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jcWtZVVFYbHplc0VDME5rT1c0LTRxZ2hWYkJOOUNxaXRmZkdJVGFXS3hOZTk0SnNTSUxCUUNIcW9SdUIyMUMwRUZpUEpsdDBH?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 22:29:49 GMT",
+          "source": "문화일보"
         }
       ]
     }
@@ -49,7 +49,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 8391299999999,
     "retail_net_buy_krw": -8284000000000,
-    "margin_loan_krw": 32523000000000,
+    "margin_loan_krw": 31685300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
