@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T06:04:50.034964+09:00",
+  "timestamp": "2026-08-03T07:04:56.683512+09:00",
   "sentiment": {
     "cnn_fng": 42.4571428571429,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "AI 버블 붕괴 시 영국 증시가 선방할 수 있다: 애널리스트 - Investing.com 한국어",
@@ -26,10 +26,16 @@
       ],
       "fear_articles": [
         {
-          "title": "[오늘의 경제뉴스] 7월 코스닥 폭락에 30곳 ‘퇴출 경보…흑자 기업도 쫓겨날 판 - newsverse.kr",
+          "title": "7월 급락장에 코스닥 손바뀜 역대 최저 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VV1kxRzFOdXppWTRYYmV5QmRMZ0JzbFRwbGtxZlVGTlBRaEJIcC1GNXBuQjJIUkZFU0Y2VTVoNWVPUFRlcTZUUHE3SGZneVlDVlNkb0JUN2pSVDkzTUcyLTczOUM4NDNmRjBhVjFDTUZKb1dq?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 21:00:27 GMT",
+          "source": "대한경제"
+        },
+        {
+          "title": "[오늘의 경제뉴스] 7월 코스닥 폭락에 30곳 ‘퇴출 경보…흑자 기업도 쫓겨날 판 - 뉴스버스",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WUGZPaDExUl8xVHowUHJYMFlIMWx2SFRETWROWnBrazdoRzJtd2x2YnUxeF9mWnl6SzV3UkhlV2V0M3MtT3prZmlteG1mVEdxNmxDcFdxME9YOTc0YVQxM1I0RURHOXNCNUE?oc=5",
           "pub_date": "Sun, 02 Aug 2026 19:36:24 GMT",
-          "source": "newsverse.kr"
+          "source": "뉴스버스"
         }
       ]
     }
