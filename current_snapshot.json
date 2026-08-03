@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-03T19:57:52.952928+09:00",
+  "timestamp": "2026-08-03T22:45:48.964954+09:00",
   "sentiment": {
-    "cnn_fng": 45.0857142857143,
+    "cnn_fng": 45.4285714285714,
     "cnn_components": {
-      "momentum": 35.0,
+      "momentum": 38.0,
       "strength": 29.8,
       "breadth": 22.6,
       "put_call": 34.0,
       "junk_bond": 75.2,
       "volatility": 50.0,
-      "safe_haven": 50.4
+      "safe_haven": 51.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 4,
-      "fear_count": 33,
+      "fear_count": 31,
       "greed_articles": [
         {
           "title": "고점 투자자에 구조대 오나…삼전닉스 하락으로 코스피 또 '흔들' - 머니투데이 - 머니투데이",
@@ -24,10 +24,10 @@
           "source": "머니투데이"
         },
         {
-          "title": "코스피, 반도체 쏠림으로 역대급 롤러코스터…“구조적 취약성 드러났다” - ekn.kr",
+          "title": "코스피, 반도체 쏠림으로 역대급 롤러코스터…“구조적 취약성 드러났다” - 에너지경제신문",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pV0poLUdnMEVPZHRSR3pXSXFqTmdGSkJ6ZjdxWXZZZVVPU2xKZC1XWDY4Q25OOEswT0M3RTdIZlAtOXNVSkNQd3FqVUM4c1MyZ2tXa2lINTRjNVBYOWxVSHFR?oc=5",
           "pub_date": "Mon, 03 Aug 2026 07:01:16 GMT",
-          "source": "ekn.kr"
+          "source": "에너지경제신문"
         },
         {
           "title": "코스피 5% 급락에도 ‘저가 매수’…개미 4조6000억원 순매수 - v.daum.net",
@@ -36,24 +36,24 @@
           "source": "v.daum.net"
         },
         {
-          "title": "\"환율은 웃는데 코스닥은 냉랭\"…쏠림이 발목 잡았다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CMmI0UkZtQlh1dUotVjZiT05reDFBbnN0S2lEek5iZmN2d09KbEQxYVJSaUtwMXZkS2otdFM3b2hZZFZubUFGQTlkRjVMS3QtT0g3YlNpWDA4alZGTFpLVGs2dGZaZHoxN1czS2Fn0gFuQVVfeXFMTkIyYjRSRm1CWHV1Si1WNmJPTmt4MUFuc3RLaUR6TmJmY3Z3T0psRDFhUlJpS3AxdmRLai10UzdvaFlkVm5tQUZBOWRGNUxLdC1PSDdiU2lYMDhqVkZMWktUazZ0ZlpkejE3VzNLYWc?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 07:16:18 GMT",
-          "source": "머니투데이"
+          "title": "증시활황에 웃은 증권업계…하반기 실적은 물음표 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DLWNUbGt4TlNCa0QzNkRfbjZ1czJpSTVzV1Jad21XMTBiRjJKY3BORjVaSi1aZF8zWURnTk8xTEUzc2cyNVVwRXJITlQzUDVnN3hlV0FHbXBxczdKejlyR00yOUlEV3ZzQW9CZUlIdWVkanlX?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 10:33:20 GMT",
+          "source": "대한경제"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스피, 역대급 폭등 직후 5% 급락…코스닥은 상승세 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUlJHRWlqU1hxNmZjb0hPUmpjZm5UcmtQVDlpbjViT2hWZzdUbFY0RHBnNkFkRk1sYXVHWFpPbnhpT3RKeTNrVTdkRTRxWVo0Y3JwYVc5VmRGYjA?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 07:16:00 GMT",
+          "source": "KBS 뉴스"
+        },
         {
           "title": "코스피, 6,200선으로 ’털썩’…삼전닉스 8% 급락 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SMjdTSVRINElpRzNqVHM2UzRTNlN2NzBPMEtiTlE0b2ZjMHBYamxqa1g0dXA4MHRhVTU0OXhRUlBkUm5kbG54TnBNTFRiTUFkTlRUclZscl91YkR4NmwxNzM5SC1LZEE?oc=5",
           "pub_date": "Mon, 03 Aug 2026 07:03:00 GMT",
           "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피, 역대급 폭등 직후 5% 급락…코스닥은 상승세 - news.kbs.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUlJHRWlqU1hxNmZjb0hPUmpjZm5UcmtQVDlpbjViT2hWZzdUbFY0RHBnNkFkRk1sYXVHWFpPbnhpT3RKeTNrVTdkRTRxWVo0Y3JwYVc5VmRGYjA?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 07:16:00 GMT",
-          "source": "news.kbs.co.kr"
         },
         {
           "title": "역대급 폭등했던 코스피, 5% 급락 6,200대…코스닥은 상승(종합) - 연합뉴스",
@@ -77,7 +77,7 @@
     }
   },
   "volatility": {
-    "vix": 15.95,
+    "vix": 16.02,
     "vvix": 91.64,
     "skew": 141.23,
     "move": 83.02
@@ -92,11 +92,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25373.85,
+      "current": 25599.6,
       "high_52w": 27190.21,
-      "drop_pct": -6.68,
-      "intraday_low_drop_pct": -8.04,
-      "sma_200": 23998.06
+      "drop_pct": -5.85,
+      "intraday_low_drop_pct": -6.51,
+      "sma_200": 24013.45
     },
     "kospi": {
       "current": 6257.45,
@@ -113,34 +113,34 @@
       "sma_200": 996.46
     },
     "sp500": {
-      "current": 7489.72,
+      "current": 7539.82,
       "high_52w": 7620.9,
-      "drop_pct": -1.72,
-      "intraday_low_drop_pct": -2.9,
-      "sma_200": 7024.11
+      "drop_pct": -1.06,
+      "intraday_low_drop_pct": -1.52,
+      "sma_200": 7028.58
     },
     "russell2k": {
-      "current": 2931.34,
+      "current": 2937.75,
       "high_52w": 3046.59,
-      "drop_pct": -3.78,
-      "intraday_low_drop_pct": -4.73,
-      "sma_200": 2676.5
+      "drop_pct": -3.57,
+      "intraday_low_drop_pct": -3.65,
+      "sma_200": 2678.71
     },
     "soxx": {
-      "current": 504.89,
+      "current": 489.46,
       "high_52w": 655.95,
-      "drop_pct": -23.03,
-      "intraday_low_drop_pct": -23.58,
-      "sma_200": 402.51
+      "drop_pct": -25.38,
+      "intraday_low_drop_pct": -25.95,
+      "sma_200": 403.57
     }
   },
   "sector_rs": {
-    "XLK": 1.044,
-    "SMH": 1.02,
+    "XLK": 1.025,
+    "SMH": 0.993,
     "BOTZ": 0.878,
-    "IGV": 1.051,
-    "XLF": 1.059,
-    "XLE": 0.981
+    "IGV": 1.05,
+    "XLF": 1.063,
+    "XLE": 0.944
   },
   "signals": {
     "cnn_under_10": false,
@@ -157,7 +157,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -176,19 +176,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 46.96,
+    "tqqq_profit_pct": 48.53,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 114.43,
+    "soxl_profit_pct": 95.63,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.92,
+    "koru_profit_pct": -96.17,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
