@@ -1,23 +1,29 @@
 {
-  "timestamp": "2026-08-04T01:08:29.396413+09:00",
+  "timestamp": "2026-08-04T03:13:21.379528+09:00",
   "sentiment": {
-    "cnn_fng": 44.6,
+    "cnn_fng": 45.6285714285714,
     "cnn_components": {
-      "momentum": 46.4,
+      "momentum": 49.2,
       "strength": 29.0,
-      "breadth": 26.4,
-      "put_call": 39.0,
-      "junk_bond": 66.0,
+      "breadth": 26.2,
+      "put_call": 38.2,
+      "junk_bond": 66.8,
       "volatility": 50.0,
-      "safe_haven": 56.8
+      "safe_haven": 60.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 3,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "미-이란 외교 해법 추진에 유가 급락, 세계 증시 혼조 - VOA 한국어 홈페이지",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUJ2TTJxemVhYjBEMzd3TmJCcGxBNmlzN1JFX0lpT0R0TlNqNGdYSGplS2lXQVFKeEJGSl9yODhlTDJfMEJzTDQyTFJfUlpOeGtHYmxaRFJ0ZS1OQVhZXzhGdzYzWVJuTXBxWEJ5T1NXd2cxS0dKMFkwNVBTZnlLYmdFWTlxcmxtbnlqX19HMjhPdzhxdmtqa1JkVGkwLXE2Vm1JTEFrNHVHc3otSk43NGhuYVdCUUhfcDZPTtIBvwFBVV95cUxQZDk4Yk16ZWpPTEFEZUYzMlFsNmhIOTF0VWxBdUNuYUF4TVZyM1ZWby1kRkQ4dDVLNXdtdjE4RmxtLTQ4d19uZG9ha3hBYW1lVGFOdjVYYjh0ZzdKX0ZaN2xmWHZhZ3c2alZ0RFZLNWJBRXNOQ3gxLXFEdC1oTjNfZGFaWEFoU2lWc2Ric0NTQ1dxcTRQTmNyZW9qd0pSbGZoTFB1cVV4a2ZDTGV2bUg2b3lkSzVsaVRyWEdzVVR6NA?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 16:10:27 GMT",
+          "source": "VOA 한국어 홈페이지"
+        },
         {
           "title": "코스피 5% 넘게 급락, 코스닥은 강세…강원 상장기업 주가 들썩 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yX1ZjVUVDcWduNU1DaFp0ZkdfMFpFbDZJNjVUNk5lTmhoV2pRTkdnTExXZ0hTOHFUcERRWkNmMG0yRW5ieWVtYk5vRDYya0k?oc=5",
@@ -34,8 +40,8 @@
     }
   },
   "volatility": {
-    "vix": 15.65,
-    "vvix": 90.41,
+    "vix": 15.84,
+    "vvix": 90.23,
     "skew": 141.23,
     "move": 83.02
   },
@@ -49,11 +55,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25874.18,
+      "current": 25956.12,
       "high_52w": 27190.21,
-      "drop_pct": -4.84,
+      "drop_pct": -4.54,
       "intraday_low_drop_pct": -6.51,
-      "sma_200": 24014.82
+      "sma_200": 24015.23
     },
     "kospi": {
       "current": 6595.45,
@@ -70,34 +76,34 @@
       "sma_200": 997.05
     },
     "sp500": {
-      "current": 7584.91,
+      "current": 7605.06,
       "high_52w": 7620.9,
-      "drop_pct": -0.47,
+      "drop_pct": -0.21,
       "intraday_low_drop_pct": -1.52,
-      "sma_200": 7028.81
+      "sma_200": 7028.91
     },
     "russell2k": {
-      "current": 2977.74,
+      "current": 2978.67,
       "high_52w": 3046.59,
-      "drop_pct": -2.26,
+      "drop_pct": -2.23,
       "intraday_low_drop_pct": -3.65,
       "sma_200": 2678.91
     },
     "soxx": {
-      "current": 504.26,
+      "current": 509.85,
       "high_52w": 655.95,
-      "drop_pct": -23.13,
+      "drop_pct": -22.27,
       "intraday_low_drop_pct": -25.95,
-      "sma_200": 403.64
+      "sma_200": 403.67
     }
   },
   "sector_rs": {
-    "XLK": 1.037,
-    "SMH": 1.015,
+    "XLK": 1.044,
+    "SMH": 1.021,
     "BOTZ": 0.884,
-    "IGV": 1.039,
-    "XLF": 1.052,
-    "XLE": 0.949
+    "IGV": 1.042,
+    "XLF": 1.051,
+    "XLE": 0.942
   },
   "signals": {
     "cnn_under_10": false,
@@ -133,19 +139,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 53.26,
+    "tqqq_profit_pct": 55.3,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 114.02,
+    "soxl_profit_pct": 120.77,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.92,
+    "koru_profit_pct": -95.66,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -300,7 +306,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 163.382,
+    "strategy_pct": 169.526,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -901,6 +907,10 @@
       {
         "date": "2026-08-03",
         "ret_pct": 163.382
+      },
+      {
+        "date": "2026-08-04",
+        "ret_pct": 169.526
       }
     ],
     "monthly_breakdown": [
@@ -948,8 +958,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -6.06,
-        "end_ret_pct": 163.38,
+        "return_pct": 0.09,
+        "end_ret_pct": 169.53,
         "max_dd_pct": 0.0
       }
     ],
