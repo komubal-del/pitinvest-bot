@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T13:03:12.329630+09:00",
+  "timestamp": "2026-08-03T16:37:46.403030+09:00",
   "sentiment": {
     "cnn_fng": 42.4571428571429,
     "cnn_components": {
@@ -14,9 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 15,
+      "greed_count": 4,
+      "fear_count": 30,
       "greed_articles": [
+        {
+          "title": "코스피, 반도체 쏠림으로 역대급 롤러코스터…“구조적 취약성 드러났다” - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCX19DcUo2VXZJZlNuWkRoaExVZk9SSWZuQVNCZnlFc0kwVUw1R09td01maGMtMEtjM05XVG9Bd3Z4bzZYelFISGc1eXdCVmhNNHlSSzBWS0JkWXM2QWhRNUNyQQ?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 07:01:16 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "\"환율은 웃는데 코스닥은 냉랭\"…쏠림이 발목 잡았다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10OUw0QXhyUFFsNWJIVEc4UTJaSW5QTHJhR1hlc210bHR3bHA4RTBkaDBpQWRhU05yMXpzRkFzNllfbmU3R2ZrUDdaQjRQZXhnQmREcjZaS3JvWHpMMTd0SXVyQnljREY40gFuQVVfeXFMTkIyYjRSRm1CWHV1Si1WNmJPTmt4MUFuc3RLaUR6TmJmY3Z3T0psRDFhUlJpS3AxdmRLai10UzdvaFlkVm5tQUZBOWRGNUxLdC1PSDdiU2lYMDhqVkZMWktUazZ0ZlpkejE3VzNLYWc?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 07:16:18 GMT",
+          "source": "머니투데이"
+        },
         {
           "title": "코스피 급락에 ‘마통’ 1.8조 급증…‘빚투’로 “분할매수 노려” - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzMzlZcUZJUEtRMDdVM2xnWkdaa2FScTlqV0tzemxSZ3lWYl9RS0s2TEF0NGIyMWg4ejBuVGxmZkJOak82V05SUnlmelV1bnNiV1IyM0xKRlhuRTJJMEEtZTdFX1MtZzQ?oc=5",
@@ -24,61 +36,55 @@
           "source": "한겨레"
         },
         {
-          "title": "‘쏠림의 대가’ 치른 증시…중소형주 되살릴 세 가지 촉매는? - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUZXbTZFbTI5M3N5MU1RNTZMM283c3BCUjlpMEtSOWczWnJBcUVVUTlrS0xnb25LMFpmWGN4ajFaZzVINFhobmxiSmFFZDNXWm5rYnhOTW5VdFVnMWVDWjFzTUtwMDRUT3A5YXZPMXVGUnc4djFHenBiTF9KVk9DeVczODJGM2d00gGcAUFVX3lxTE1kOEl0eGQ0QTZVVGIxYTBvalVxXzR0cS1ZYnNwdnc1R1lCZUlyTUxBdjlrTmRZY3IycmRYTmp2d1Y3b09jdEJENjIwUFNEb2p1eUlXUDE2Ulh4Sm10TDNReHdweDJTZW1WMVF4Rm15ZW5ia3kybnpvOEtwTWdFN1cyYVRDdVFFbGZ2a2swQVhKaFhQRjQtZzV1ZGdSUw?oc=5",
-          "pub_date": "Sun, 02 Aug 2026 23:33:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
           "title": "\"젠슨 황 개입이 거품 키워\"…외신이 짚은 한국 증시 ‘약한 고리’? - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUUC1icGY4OHJRZlloRlpMS3AyM2h2OERIYTNPV3J0NDlnUTJ0U0NkV19tLWdBRUpKeEFsenpzc0d1bU9sVnpMUVQ4R2RjX3dKenc?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 02:56:37 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kTEZfTjd1NDNvU2pqeHUwM1I5YndtdVVpYXZ3Tm1GX3VxajlwY08wY0tsMzZHMHlXMjRfQ3BneGtNTThCNC1VajNtS284QnRuZUczQg?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 00:48:00 GMT",
           "source": "JTBC"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 4~5%대 하락…반도체 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vTmQ1S3FsaXU1NW83eXppd0tOU2Q0NUNmRnh2Sk9RWm81Q1pOMGRtV0Q1cUFLUnctNlRrVjVSbXJPZFFyV29BaWdwOEVIWnNVbE9fbDFCYkZVY2M?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 01:41:00 GMT",
+          "title": "코스피, 역대급 폭등 직후 5% 급락…코스닥은 상승세 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUlJHRWlqU1hxNmZjb0hPUmpjZm5UcmtQVDlpbjViT2hWZzdUbFY0RHBnNkFkRk1sYXVHWFpPbnhpT3RKeTNrVTdkRTRxWVo0Y3JwYVc5VmRGYjA?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 07:16:00 GMT",
           "source": "KBS 뉴스"
         },
         {
-          "title": "역대급 폭등했던 코스피, 4~5%대 급락…삼전닉스 8%대↓(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fR3hmZGNJOTVuMkJfY01PTVliRDU5R1dDVm1hdGd0OGwtMzJSU0hoVzFzRkxLLUJLRkZ4X09aSVl6TmxFeV9IX1VTODZDMEhETEdSd29QU1dpbjDSAWBBVV95cUxPQ3lyNW5LQ1RiVUNmMm1OOXB4Z0V0VTNCZ1ZvSldNVFpFdGJ4RXp3dWNTUlFwX3kxV09DMFVXTjQ1STV1NndvME5nNjFrekFkbjZpVC1KREdRMDlkcWtUb3I?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 00:32:22 GMT",
+          "title": "코스피, 5%대 급락 6,200대 마감…코스닥 2.4%↑ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4am9WRTItTjB5ZEFORkN6UXNMOVFBdEJSeUM2djlGVmt4MDVFc2hqc2pmbEJseWplckZSU1JXT3Izd2NZVU4yY09OSU9mcm54OGdfX3N3SVBKWTFkTE1QTNIBYEFVX3lxTFB4am9WRTItTjB5ZEFORkN6UXNMOVFBdEJSeUM2djlGVmt4MDVFc2hqc2pmbEJseWplckZSU1JXT3Izd2NZVU4yY09OSU9mcm54OGdfX3N3SVBKWTFkTE1QTA?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 06:37:31 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "'사상 최대 폭등' 하루 만에 코스피 급락…삼전닉스 -7% - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGM1hpR2dXcVpfV0ZNTnZqeGlGZGR6a2dvVEpmSTlQek82ZmcxRnRzQXc5dU9FRTduN3RMSHR5Q2tVaWt1YThTbWNCTjFzVDhYTE5oTHZwVkFSSjZVbjNxRG9lV1JoTFBQb2JCSTl3Q2w?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 00:24:00 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피, 지난주 금요일엔 17%대 급등하더니…외국인·기관 팔자에 5%대 급락 마감 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51dThNMnpLTTlBMkdGWVcyUDN4WmlhZWEwa3I0TERxUUtHZzFxaWpKSk9qZWZseTZlUUFOSVJVRE0ySlpaNFY1YU84NnZCMUh3Znc?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 06:48:01 GMT",
+          "source": "매일경제 마켓"
         },
         {
-          "title": "코스피 급락과 베선트 추가 외환개입 시사까지 이시각 주요뉴스 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQVF9mMU9LTjlyMnlhTGRjYzZsWEhIX0hQWjhLYV9sR2dqSEpoNGMzWkJ4OVYwZmtlVU9GcjZXTFNHWmlzZk4xVktqUlUwZGt4RUNoSWxLeHdiRFV0czdoTDdzQW93d2UzYWdqYWdiNWzSAXRBVV95cUxNSU9mRnhkak1LWVZBRUZmaTBTUHJVS28xNThOOU9PQ1BuTmdBczZtLWg0cXFGSGl4MDVSYmdULVdXMXN2RVZnRllVODR2RFgyYmhhMWk1ZlJMQ2ZRY0dqT0ZreHFjZFp1d0FGM1ZRVEJBNUhsUg?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 02:54:04 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피 또 급락‥코스닥은 매수 사이드카 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JejY3QndzR2RRaEc4M3Q3Nkl1a0x2QkIxTExlVk95ZF9pdzV2MDJMYXNOVUZsMWZma0hyY3F6YWhjRzNVcU5WSnp6QzNPUzlQVk00aXFybnB6WGloMzJ3cnJHM2thV0o1S3Nlc0JvVHdYaVhXbnZnNQ?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 03:13:39 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "역대급 폭등했던 코스피, 4~5%대 급락…삼전닉스 8%대 하락 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CRWdhQmp1ZHFJTmVvTmZqUm1ENGphQllUNGZ1cThwLVQzUTJfVHV6UmhuUFpBT2h0UXZGVjVjbm1acU5ucnc2NlFFdVUtZy05NWQ2YnNB?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 01:07:02 GMT",
-          "source": "중앙일보"
+          "title": "[속보] 사상 최대 폭등했던 코스피, 5%대 급락 마감…코스닥은 급등 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NT1NSWlJjdG1zUlNYX1N4TV9KT1UwTVFLT3VCcHpOaFl0TlU2R0FMUXQ3SkxBSXBtZ0RqSkFfRFY4Tk9rQnF2YzU5MWNob0d6dTRBNG40dG9vUQ?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 06:33:00 GMT",
+          "source": "한국경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.99,
+    "vix": 16.1,
     "vvix": 91.64,
     "skew": 141.23,
     "move": 83.02
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3447600000000,
-    "retail_net_buy_krw": 3363600000000,
+    "foreign_inst_buy_krw": -4773700000000,
+    "retail_net_buy_krw": 4652700000000,
     "margin_loan_krw": 31685300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +99,18 @@
       "sma_200": 23998.06
     },
     "kospi": {
-      "current": 6299.99,
+      "current": 6257.45,
       "high_52w": 9385.59,
-      "drop_pct": -32.88,
-      "intraday_low_drop_pct": -33.6,
-      "sma_200": 5747.98
+      "drop_pct": -33.33,
+      "intraday_low_drop_pct": -33.69,
+      "sma_200": 5747.76
     },
     "kosdaq": {
-      "current": 749.82,
+      "current": 737.35,
       "high_52w": 1229.42,
-      "drop_pct": -39.01,
+      "drop_pct": -40.02,
       "intraday_low_drop_pct": -42.65,
-      "sma_200": 996.53
+      "sma_200": 996.46
     },
     "sp500": {
       "current": 7489.72,
