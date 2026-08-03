@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T07:30:43.644430+09:00",
+  "timestamp": "2026-08-04T08:47:57.220465+09:00",
   "sentiment": {
     "cnn_fng": 45.8285714285714,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 7,
+      "greed_count": 3,
+      "fear_count": 9,
       "greed_articles": [
+        {
+          "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmMWh5Q0Q1VVhSdXRVb3FZY1JFVkFPejVRNk5tbS1iaDZwRmRVUWxzbkwwazl1RjdWQnJXSVoxNHItVlFJbS1XQ3BiSWR6bWNxc3BmZnpiWVkwUQ?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 23:16:44 GMT",
+          "source": "파이낸셜뉴스"
+        },
         {
           "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HMzRkemN3bmFKeXZ1ZHQ4VDhVV1VGSFBRanE5cWlSUFluZVRWc1JtMkxPaTVMS2N3eTQyTmxiRUItOVAyZ0NHbVYxTjZxQ1k?oc=5",
@@ -24,42 +30,42 @@
           "source": "v.daum.net"
         },
         {
-          "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmMWh5Q0Q1VVhSdXRVb3FZY1JFVkFPejVRNk5tbS1iaDZwRmRVUWxzbkwwazl1RjdWQnJXSVoxNHItVlFJbS1XQ3BiSWR6bWNxc3BmZnpiWVkwUQ?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 19:00:00 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "[AI MY 뉴스] 4일 중국증시 '뉴욕 랠리 호재, 기술주 저가 매수세 유입 기대' - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53TXExLXhpUk5FY0ZtYlhzYV8xUUwzV2JKNUV4LV9QZHNuaWxmODlZN2d5WVRmR3NBUWQxbFh1dnlXbkxxbHdUMlBtSW5kd3ZxOVZncF9qRzRLQ2VU?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 22:53:00 GMT",
+          "source": "뉴스핌"
         }
       ],
       "fear_articles": [
+        {
+          "title": "뉴욕증시, 유가·미 국채 수익률 급락에 랠리…다우 사상 최고 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YSHJoTmh3b3RIQjlveWN1MzI0MVNQUGN1a1ZoWm9uYW1oNVJpWkNrSWZXakttU2hMT3BZRTItcGJFYXNCcHcwWndreEl3T0hrb1Zza3k1S3Y1TU1x?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 20:24:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "코스피 5% 급락에도 반도체 베팅...초고수가 담은 종목 보니 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NdnpoX0tYazF5bEd6bW9FZ1ZiNmV2ODh4alIzTEIzTTMtb3d4V3kwTjVCalRuTXpkcmg4a0NJSDlFaG1HVG05QTdfbVBJX0JydzhxNTJ4M1hrdw?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 23:41:31 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "코스피 222p 대폭락 속 코스닥은 5% 강세 … 오늘 시초가 공략주는? - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oTDVfRlpRbEFWSmk0dGN6U2IyYTRlRTVVdnpHalBnaE9vSmFsVXRsckhZSVBrYm1FVEY5dXI4SEJab0V2Y0RtWVVlZFNPbkUwR0JrenllUjRNQWdrY2k3NA?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 23:22:00 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "[0804개장체크] 美 증시, 미-이란 긴장 완화 속 국제유가 급락 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfSTZ5MUJMdUE4RFhPUzNjUVphR2dpWU4tTjZTa0ZYSVBUUzI2WHpLN0cxWWxhT2d6OThoaHItNmlwYVlUdWN6T09iN1VTbER1TUYwVTU4RWJWeGluR1FOd0V1b3RGWWFKSDVvTWlwQUZjTk9XOUE?oc=5",
+          "pub_date": "Mon, 03 Aug 2026 22:47:50 GMT",
+          "source": "인포스탁데일리"
+        },
         {
           "title": "미-이란 외교 해법 추진에 유가 급락, 세계 증시 혼조 - VOA 한국어 홈페이지",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUJ2TTJxemVhYjBEMzd3TmJCcGxBNmlzN1JFX0lpT0R0TlNqNGdYSGplS2lXQVFKeEJGSl9yODhlTDJfMEJzTDQyTFJfUlpOeGtHYmxaRFJ0ZS1OQVhZXzhGdzYzWVJuTXBxWEJ5T1NXd2cxS0dKMFkwNVBTZnlLYmdFWTlxcmxtbnlqX19HMjhPdzhxdmtqa1JkVGkwLXE2Vm1JTEFrNHVHc3otSk43NGhuYVdCUUhfcDZPTtIBvwFBVV95cUxQZDk4Yk16ZWpPTEFEZUYzMlFsNmhIOTF0VWxBdUNuYUF4TVZyM1ZWby1kRkQ4dDVLNXdtdjE4RmxtLTQ4d19uZG9ha3hBYW1lVGFOdjVYYjh0ZzdKX0ZaN2xmWHZhZ3c2alZ0RFZLNWJBRXNOQ3gxLXFEdC1oTjNfZGFaWEFoU2lWc2Ric0NTQ1dxcTRQTmNyZW9qd0pSbGZoTFB1cVV4a2ZDTGV2bUg2b3lkSzVsaVRyWEdzVVR6NA?oc=5",
           "pub_date": "Mon, 03 Aug 2026 16:10:27 GMT",
           "source": "VOA 한국어 홈페이지"
-        },
-        {
-          "title": "코스피 5% 넘게 급락, 코스닥은 강세…강원 상장기업 주가 들썩 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yX1ZjVUVDcWduNU1DaFp0ZkdfMFpFbDZJNjVUNk5lTmhoV2pRTkdnTExXZ0hTOHFUcERRWkNmMG0yRW5ieWVtYk5vRDYya0k?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 15:01:48 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"역대급 폭락 지나 '회복 궤도'\"…증권가, 8월 코스피 한목소리 - 뉴스투데이",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5T1p6ME1jWFRvS1hvOU14SWxQYmRfS1RiYU5ueHVNTC1IVVh1aGhDR002SHkwb1NBR0FHNERReWxlQ1Q5Nk1fanhHWXdESVVIR3NSQU9TekxsYUFtWlE?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 20:16:00 GMT",
-          "source": "뉴스투데이"
-        },
-        {
-          "title": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급락 속 기술주 급등...나스닥 2.1%↑ - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oc3lyaFZzRjlyMmpZWmt4b2Z5aVpQdUlMb3NPMVJmT3Y3Um5MY1ctQWttanJ3YW1vTlQySXZNRjZuNHUxMDZIbWE4bXJHUUJQRFo3U25VaHRXdUdURmtzamJiandLeXpTRkZld2VTeHVmdw?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 22:03:04 GMT",
-          "source": "오피니언뉴스"
-        },
-        {
-          "title": "8월 첫날 다시 급락한 코스피…“5~6월 같은 강세장 어렵다” - 쿠키뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yX3RXOGdkTEQ1Tmh5dG1LZzN6bU1ndS1OTDBPU1BxR1BydmZGV1NuTUJlajhWU1FSTEtYOE5zVzExUjZwdGVXTGFzRUlIRkVNa3ZoR0pEckdTQlZrSmVqX2FhWQ?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 21:00:06 GMT",
-          "source": "쿠키뉴스"
         }
       ]
     }
@@ -73,7 +79,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -4773600000000,
     "retail_net_buy_krw": 4652300000000,
-    "margin_loan_krw": 31685300000000,
+    "margin_loan_krw": 28522100000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
