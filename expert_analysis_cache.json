@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "analyzed_at": "2026-07-31T13:49:25.702318+09:00",
+  "date": "2026-08-03",
+  "analyzed_at": "2026-08-03T09:07:43.251504+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,29 +8,29 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "SbRuaZT-lNs",
-      "title": "저점은 확인됐다? 반등 목표는 6500! | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-07-31T00:09:34Z",
-      "url": "https://youtube.com/watch?v=SbRuaZT-lNs",
+      "video_id": "Q-N4eEHDZBU",
+      "title": "역사적 폭등에 저점 확인… 이번주 시장 전망은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-08-03T00:00:21Z",
+      "url": "https://youtube.com/watch?v=Q-N4eEHDZBU",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "bullish",
-        "reason": "제목에서 '저점은 확인됐다'고 언급하며 '반등 목표는 6500'을 제시하여 시장의 상승 가능성과 회복에 대한 기대를 명확히 보여줍니다."
+        "reason": "'역사적 폭등에 저점 확인'이라는 제목은 시장이 과거에 크게 상승했고, 조정 후 바닥을 확인했다는 긍정적인 신호로 해석되어 매수 기회나 반등 가능성을 시사합니다."
       }
     },
     {
-      "video_id": "DzC5sZgyFK8",
-      "title": "Buy &amp; Hold 보다 Trading Buy (윤지호) | 인포맥스라이브 2026년 7월 15일 방송",
-      "published": "2026-07-16T21:00:28Z",
-      "url": "https://youtube.com/watch?v=DzC5sZgyFK8",
+      "video_id": "OutXhDAMIaI",
+      "title": "반도체 급락과 반등...어떻게 해석해요? | 윤지호 경제평론가 [주말인터뷰]",
+      "published": "2026-08-01T23:00:32Z",
+      "url": "https://youtube.com/watch?v=OutXhDAMIaI",
       "text_source": "description",
       "transcript_available": false,
-      "is_stale_fallback": true,
+      "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "코스피의 연간 고점과 주요 기업의 감익 시나리오, 실적 미스, 리스크 요인 등 시장의 여러 부정적인 측면을 분석하면서도, 현금화나 매도와 같은 구체적인 행동 권고는 없으며 'Trading Buy' 전략은 시장 상황에 따른 전술적 접근을 의미하여 중립적 분석에 가깝다."
+        "reason": "영상 제목이 반도체 급락과 반등을 '어떻게 해석할지' 묻는 중립적인 질문이며, 내용에 구체적인 매수/매도/현금화 등의 투자 행동 권고가 전혀 없기 때문입니다."
       }
     }
   ],

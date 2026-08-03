@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T08:04:55.129808+09:00",
+  "timestamp": "2026-08-03T09:07:39.204423+09:00",
   "sentiment": {
     "cnn_fng": 42.4571428571429,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 2,
+      "greed_count": 2,
+      "fear_count": 8,
       "greed_articles": [
+        {
+          "title": "‘쏠림의 대가’ 치른 증시…중소형주 되살릴 세 가지 촉매는? - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUZXbTZFbTI5M3N5MU1RNTZMM283c3BCUjlpMEtSOWczWnJBcUVVUTlrS0xnb25LMFpmWGN4ajFaZzVINFhobmxiSmFFZDNXWm5rYnhOTW5VdFVnMWVDWjFzTUtwMDRUT3A5YXZPMXVGUnc4djFHenBiTF9KVk9DeVczODJGM2d00gGcAUFVX3lxTE1kOEl0eGQ0QTZVVGIxYTBvalVxXzR0cS1ZYnNwdnc1R1lCZUlyTUxBdjlrTmRZY3IycmRYTmp2d1Y3b09jdEJENjIwUFNEb2p1eUlXUDE2Ulh4Sm10TDNReHdweDJTZW1WMVF4Rm15ZW5ia3kybnpvOEtwTWdFN1cyYVRDdVFFbGZ2a2swQVhKaFhQRjQtZzV1ZGdSUw?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 23:33:00 GMT",
+          "source": "Chosunbiz"
+        },
         {
           "title": "AI 버블 붕괴 시 영국 증시가 선방할 수 있다: 애널리스트 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fWmw3Z2xIN2g5Q2VGT1lkRDgyeGdMUmJsUU42R0JQbE9qS0RNT1lqNldRQWNjeTc0SnF6bndhM0VIU2NiZHV2eEJiT0tBMURtVS1ib0JLTGxvUldEd3ZCZkllb0ViMEhNemNJaG82c0Q?oc=5",
@@ -26,16 +32,34 @@
       ],
       "fear_articles": [
         {
-          "title": "7월 급락장에 코스닥 손바뀜 역대 최저 - 대한경제",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VV1kxRzFOdXppWTRYYmV5QmRMZ0JzbFRwbGtxZlVGTlBRaEJIcC1GNXBuQjJIUkZFU0Y2VTVoNWVPUFRlcTZUUHE3SGZneVlDVlNkb0JUN2pSVDkzTUcyLTczOUM4NDNmRjBhVjFDTUZKb1dq?oc=5",
-          "pub_date": "Sun, 02 Aug 2026 21:00:27 GMT",
-          "source": "대한경제"
+          "title": "코스피 급락에 등 돌리는 개미들…블룸버그 \"신뢰 회복, 시장 반등보다 오래 걸릴 수도\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNm9zZERfcHFBdFMwRDhMQ2p4Y2xHU0s3WGNHTF9iYzZrX240WXppSVMySk1ZY1FBQWY1ZW9nY2t3eVQtQnV2eVRHd2NYNklubjBOZVJqYVdETUYtUEpCSVV6eUdMRXRFWTkzcTUtTmt5aWlTcFN2NHlncW9Zd1k3d3FUbmpZbURWd2xZ?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 23:04:45 GMT",
+          "source": "조선일보"
         },
         {
           "title": "[속보]李지지 45.9% 취임후 최저 “증시폭락·연임 개헌 논란 원인” - 문화일보",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jcWtZVVFYbHplc0VDME5rT1c0LTRxZ2hWYkJOOUNxaXRmZkdJVGFXS3hOZTk0SnNTSUxCUUNIcW9SdUIyMUMwRUZpUEpsdDBH?oc=5",
           "pub_date": "Sun, 02 Aug 2026 22:29:49 GMT",
           "source": "문화일보"
+        },
+        {
+          "title": "[아주증시포커스] 7월 급락장 속 국내주식 10개 중 7개 녹았다…8월 전망은? - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBOUpFMG9UeVZYUGlHQW1qdTQ1ZEl0c3ZaX3FuQW1jTzZsVTBnaEdwM0hkYVNyMXBUSkZQLWhLVG5DMTF1aHdrZXZvdkdrZmUyZ2docTVwMk7SAVhBVV95cUxQQTlKRTBvVHlWWFBpR0FtanU0NWRJdHN2Wl9xbkFtY082bFUwZ2hHcDNIZGFTcjFwVEpGUC1oS1RuQzExdWh3a2V2b3ZHa2ZlMmdnaHE1cDJO?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 22:35:55 GMT",
+          "source": "아주경제"
+        },
+        {
+          "title": "7월 급락장에 코스닥 손바뀜 역대 최저 - dnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VV1kxRzFOdXppWTRYYmV5QmRMZ0JzbFRwbGtxZlVGTlBRaEJIcC1GNXBuQjJIUkZFU0Y2VTVoNWVPUFRlcTZUUHE3SGZneVlDVlNkb0JUN2pSVDkzTUcyLTczOUM4NDNmRjBhVjFDTUZKb1dq?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 21:00:27 GMT",
+          "source": "dnews.co.kr"
+        },
+        {
+          "title": "[속보] '증시 폭락' 李 대통령 지지율 45.9%…취임 후 최저 기록 - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QUTBFSm14S1RUMzJWamJyakhucF84M0lTNC1OWDdna01TRUVHUk81SDhSMlh2MjJmWXVuOWhXZjd0RWxEVzB1anJlVDk0aElDaTk1bkE4SEYwa3JmLW5iSHVn?oc=5",
+          "pub_date": "Sun, 02 Aug 2026 23:51:00 GMT",
+          "source": "이코노미스트"
         }
       ]
     }
@@ -47,8 +71,8 @@
     "move": 83.02
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 8391299999999,
-    "retail_net_buy_krw": -8284000000000,
+    "foreign_inst_buy_krw": -394300000000,
+    "retail_net_buy_krw": 387400000000,
     "margin_loan_krw": 31685300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -261,11 +285,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-07-31",
-    "analyzed_at": "2026-07-31T13:49:25.702318+09:00",
+    "date": "2026-08-03",
+    "analyzed_at": "2026-08-03T09:07:43.251504+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -273,29 +297,29 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "SbRuaZT-lNs",
-        "title": "저점은 확인됐다? 반등 목표는 6500! | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-07-31T00:09:34Z",
-        "url": "https://youtube.com/watch?v=SbRuaZT-lNs",
+        "video_id": "Q-N4eEHDZBU",
+        "title": "역사적 폭등에 저점 확인… 이번주 시장 전망은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-03T00:00:21Z",
+        "url": "https://youtube.com/watch?v=Q-N4eEHDZBU",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "bullish",
-          "reason": "제목에서 '저점은 확인됐다'고 언급하며 '반등 목표는 6500'을 제시하여 시장의 상승 가능성과 회복에 대한 기대를 명확히 보여줍니다."
+          "reason": "'역사적 폭등에 저점 확인'이라는 제목은 시장이 과거에 크게 상승했고, 조정 후 바닥을 확인했다는 긍정적인 신호로 해석되어 매수 기회나 반등 가능성을 시사합니다."
         }
       },
       {
-        "video_id": "DzC5sZgyFK8",
-        "title": "Buy &amp; Hold 보다 Trading Buy (윤지호) | 인포맥스라이브 2026년 7월 15일 방송",
-        "published": "2026-07-16T21:00:28Z",
-        "url": "https://youtube.com/watch?v=DzC5sZgyFK8",
+        "video_id": "OutXhDAMIaI",
+        "title": "반도체 급락과 반등...어떻게 해석해요? | 윤지호 경제평론가 [주말인터뷰]",
+        "published": "2026-08-01T23:00:32Z",
+        "url": "https://youtube.com/watch?v=OutXhDAMIaI",
         "text_source": "description",
         "transcript_available": false,
-        "is_stale_fallback": true,
+        "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "코스피의 연간 고점과 주요 기업의 감익 시나리오, 실적 미스, 리스크 요인 등 시장의 여러 부정적인 측면을 분석하면서도, 현금화나 매도와 같은 구체적인 행동 권고는 없으며 'Trading Buy' 전략은 시장 상황에 따른 전술적 접근을 의미하여 중립적 분석에 가깝다."
+          "reason": "영상 제목이 반도체 급락과 반등을 '어떻게 해석할지' 묻는 중립적인 질문이며, 내용에 구체적인 매수/매도/현금화 등의 투자 행동 권고가 전혀 없기 때문입니다."
         }
       }
     ],
