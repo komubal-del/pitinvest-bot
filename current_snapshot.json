@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T20:36:36.368855+09:00",
+  "timestamp": "2026-08-04T22:24:13.779160+09:00",
   "sentiment": {
     "cnn_fng": 50.5142857142857,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 6,
+      "fear_count": 5,
       "greed_articles": [
         {
           "title": "코스피 '뚝' 코스닥 '쑥'… 반도체 쏠림 완화, 득일까 독일까 - 글로벌이코노믹",
@@ -24,10 +24,10 @@
           "source": "글로벌이코노믹"
         },
         {
-          "title": "반대매매에 '빚투' 10조 증발…롤러코스피에 퍼지는 비관론 [분석+] - hankyung.com",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYZ25oWjJKV25hSzh6MWdvYlg1OWQ3NE0xdzBLYWkwZmxSZmN4eVliVlFRSlJXTHh4VGU0VTFCX3NTSXI5VldVdVJSSnBpVWNiTTczMG5KRFh0Zw?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 11:00:06 GMT",
-          "source": "hankyung.com"
+          "title": "美블룸버그,한국 증시에 ‘중국 전철’ 경고...\"정부 부양책이 과열과 급락 초래\" - 서울이코노미뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sRTF6VERiZndjYnFHREFXc0VYU01fdW5xU25ySThRdmtWeVVBSWlONzBXblVGVjJ5b1FiNFBOSm9SZ0JpX09fZkhhNHJTTTBqSkxhWUgxNWpaM3JuQzR4TUZmWjVJYUdCZG9GMm5B?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 06:39:34 GMT",
+          "source": "서울이코노미뉴스"
         },
         {
           "title": "롤러코스피에 개미 청산랠리…'빚투' 이틀 새 4.7조 급감 - v.daum.net",
@@ -44,16 +44,16 @@
           "source": "문화일보"
         },
         {
-          "title": "“韓증시, 2015년 中폭락 수준” 경고…외신이 찍은 ‘코스피 급락’ 이유 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TUndGdUl3a2dKTU5WZXA3LTczdFVxOFBUdmtCbTVYek1XdXlGRVpsYjZvSzlMRC1WNkIxeXZPRVJWUjdsS1ZBT2Rpd0s0UEE?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 05:42:49 GMT",
-          "source": "v.daum.net"
-        },
-        {
           "title": "“韓 증시, 2015년 中 폭락 수준…투자 부적합 국가가 되고 있다” 외신이 날린 섬뜩한 경고 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyTFJKTDE4dW1VUFBDTTVGSUNENl9KaWY5OTVnTVFtMDFsU1QyTEdUeGlqZWNacUQycC1UUnRWZ1JSRWF6SUhFNTI5NTFIQQ?oc=5",
           "pub_date": "Tue, 04 Aug 2026 08:22:22 GMT",
           "source": "전자신문"
+        },
+        {
+          "title": "코스피 폭등 뒤 급락했다 반등 1.6% 상승 마감‥코스닥 6% 가까이 급등 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Wd29fckRpWS1PVW5XT0lIUEhUT0tGLTdHRHpFLVFWNU9MY1FLRkRZdGluTFo0RkxkQkxrSFVWV2FXT0tYd0NLenY1THJ0QXJTNjI5UFktd0VXS2YzWVpSamdMRnMtd0VyeXAxakhZSGVrWHBX0gF0QVVfeXFMTkRKYjA3b1laa2RnN24wc2lwRWV3LXVvYU1LaEY0MmpaM1djWWFkVFZzNlh1NjZGbFY4aGRlbXU5VThHclJPS3FrTGlwMkhQYXhRNThvWDU2OWtYOVVwU3FhZ1U2b2VIZVR0aDNyZF9hZklCWEY?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 07:04:21 GMT",
+          "source": "MBC 뉴스"
         },
         {
           "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - 연합뉴스TV",
@@ -62,18 +62,18 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 지수 급락한 그날, 사상 최대규모 반대매매 물량 쏟아졌다 - hankyung.com",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNWXVxRDRKLTJwSlhLTHZWbmhwVi1aaERNSzlOQ3N6UjQ0ZV9RSmhMVmhlRTdhTkFPMmtfNXpnTTJDVTBkcDNBV1dJOGhsOFM3dkJkLWVMX1FCdw?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 06:30:09 GMT",
-          "source": "hankyung.com"
+          "title": "“韓증시, 2015년 中폭락 수준” 경고…외신이 찍은 ‘코스피 급락’ 이유 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkcjNvQS0zekhJZ3Q5Rk1yUlhIUTFOOXZLU2h6Um5uQWJpMXJkNU5mdjhPVUJoRHlTcEk3NWxtRXhZa2NuMFpjaWhFWTRnTlItNTIxTlRR?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 05:41:05 GMT",
+          "source": "중앙일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.63,
-    "vvix": 91.64,
-    "skew": 141.23,
+    "vix": 15.56,
+    "vvix": 90.81,
+    "skew": 139.96,
     "move": 80.48
   },
   "korea_flow": {
@@ -86,55 +86,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25373.85,
+      "current": 25913.9,
       "high_52w": 27190.21,
-      "drop_pct": -6.68,
-      "intraday_low_drop_pct": -8.04,
-      "sma_200": 23998.06
+      "drop_pct": -4.69,
+      "intraday_low_drop_pct": -6.51,
+      "sma_200": 24015.02
     },
     "kospi": {
       "current": 6358.95,
       "high_52w": 9385.59,
       "drop_pct": -32.25,
       "intraday_low_drop_pct": -35.22,
-      "sma_200": 5748.27
+      "sma_200": 5761.5
     },
     "kosdaq": {
       "current": 780.72,
       "high_52w": 1229.42,
       "drop_pct": -36.5,
       "intraday_low_drop_pct": -39.14,
-      "sma_200": 996.68
+      "sma_200": 996.07
     },
     "sp500": {
-      "current": 7489.72,
+      "current": 7600.5,
       "high_52w": 7620.9,
-      "drop_pct": -1.72,
-      "intraday_low_drop_pct": -2.9,
-      "sma_200": 7024.11
+      "drop_pct": -0.27,
+      "intraday_low_drop_pct": -1.52,
+      "sma_200": 7028.89
     },
     "russell2k": {
-      "current": 2931.34,
+      "current": 2981.91,
       "high_52w": 3046.59,
-      "drop_pct": -3.78,
-      "intraday_low_drop_pct": -4.73,
-      "sma_200": 2676.5
+      "drop_pct": -2.12,
+      "intraday_low_drop_pct": -3.65,
+      "sma_200": 2678.93
     },
     "soxx": {
-      "current": 504.89,
+      "current": 507.68,
       "high_52w": 655.95,
-      "drop_pct": -23.03,
-      "intraday_low_drop_pct": -23.58,
-      "sma_200": 402.51
+      "drop_pct": -22.6,
+      "intraday_low_drop_pct": -25.95,
+      "sma_200": 403.66
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.04,
+    "SMH": 1.017,
+    "BOTZ": 0.885,
+    "IGV": 1.041,
+    "XLF": 1.055,
+    "XLE": 0.942
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,7 +151,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -170,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 54.56,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 118.15,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -95.68,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
