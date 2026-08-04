@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-04T15:15:47.808584+09:00",
+  "timestamp": "2026-08-04T18:17:21.351015+09:00",
   "sentiment": {
-    "cnn_fng": 45.9714285714286,
+    "cnn_fng": 50.5142857142857,
     "cnn_components": {
       "momentum": 48.8,
-      "strength": 29.2,
-      "breadth": 26.4,
+      "strength": 29.0,
+      "breadth": 32.6,
       "put_call": 37.4,
       "junk_bond": 71.0,
       "volatility": 50.0,
@@ -14,40 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 11,
+      "greed_count": 2,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "“정부 부양책이 과열 부추겨”…외신, 한국 증시에 ‘중국 전철’ 경고 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkcjNvQS0zekhJZ3Q5Rk1yUlhIUTFOOXZLU2h6Um5uQWJpMXJkNU5mdjhPVUJoRHlTcEk3NWxtRXhZa2NuMFpjaWhFWTRnTlItNTIxTlRR?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 05:41:05 GMT",
-          "source": "중앙일보"
+          "title": "코스피 '뚝' 코스닥 '쑥'… 반도체 쏠림 완화, 득일까 독일까 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFZKTFV0aHBkN0ozMzBjcVl1T2IybWRxcGd5bllqc1JPNlBFeXBIRGl6cWkyYlo5WXFsWVUwVWxVLXJvaWk0RmxsV213V21kYmE4VkhJQ0ptbjZGQ3FQUTZxaHVCR2poVjVpbjdxWXlNbmdDRzVhVERFVlhya3MxUkZ1SzhzTVRx?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 06:36:34 GMT",
+          "source": "글로벌이코노믹"
         },
         {
-          "title": "\"젠슨 황, 韓 증시 거품 키우고 있다\" 경고…개미들 부메랑 맞나 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDVlJaR3JyYlFwZ1pzUm1HZy11MmM5OTNjZEF2NExKZG9iOWtBTmpEQTk1aUlacHluU2Q1cjNMNVFYdHdObDEyem9Ld1NFNkE?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 02:00:03 GMT",
+          "title": "롤러코스피에 개미 청산랠리…'빚투' 이틀 새 4.7조 급감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hdVFIYmtaSmtKT3laaTMwNThiUHNXV1lZQVJYN09MWDBjSUhWRDZpMjl4d1UyaXhjckNOS040bHlyTzJJTWItanFGZ3lfdms?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 07:43:27 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "삼전·닉스 쏠림 완화 조짐…바이오주 급등에 코스닥 '매수 사이드카' - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jcXdNbjM4dVRYSUVuc0E2OEo2VUV6cWZvajJPR1hlVUZnSi1HNzFKWS1rd1pZcUhXN0FBd19BNlVyMTc5Wkl3eWltVVVmd3Jab04ybDFJam91Zw?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 02:15:32 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "'증시 활황 그림자'…올 상반기 IPO 1.1조로 전년 대비 급감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPSVR3SE9sX2xkS1J4UGh3bDNHWFRvSXJKWWp0MXFHeTUxb0wzZUVLTUpsT3hvT2xBUnQyWUNwcXdSNnZ3R2JVanRCNDZNYnhEY3duUjN3SXBuNXRSVXBrOUhMZGxRWDdTZGtWS3BJSmrSAXRBVV95cUxPR1VLV2lFRXdaODN2cmtyUktTNmxOaHpuTXYwb21EaVpYQlluR0NkTTVnOXhvRUtCN05RTVdyOVB4STNJY05zOTJ6YUpCX19jeGxmbzA2b1ZKS21pdm9JX0U5aTJQTE8xNUtQU2o4NDVTTUNHdw?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 23:54:27 GMT",
-          "source": "연합인포맥스"
         }
       ],
       "fear_articles": [
         {
-          "title": "[속보]다시역주행 코스피 2.8%급락…삼전닉스 -5% - 문화일보",
+          "title": "[속보]다시역주행 코스피 2.8%급락…삼전닉스 -5% - munhwa.com",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqQzEyamNOR2lqc0NlSUYyZTJpby1nTTRIRkc5QVkwM05vWnNaTDFTb01VclVZcTVsY192TDJubTZ3Ui1UME9hdE0wcl9MNzFB?oc=5",
           "pub_date": "Tue, 04 Aug 2026 01:09:09 GMT",
-          "source": "문화일보"
+          "source": "munhwa.com"
+        },
+        {
+          "title": "“韓증시, 2015년 中폭락 수준” 경고…외신이 찍은 ‘코스피 급락’ 이유 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TUndGdUl3a2dKTU5WZXA3LTczdFVxOFBUdmtCbTVYek1XdXlGRVpsYjZvSzlMRC1WNkIxeXZPRVJWUjdsS1ZBT2Rpd0s0UEE?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 05:42:49 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - 연합뉴스TV",
@@ -56,35 +50,29 @@
           "source": "연합뉴스TV"
         },
         {
+          "title": "코스피 지수 급락한 그날, 사상 최대규모 반대매매 물량 쏟아졌다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNWXVxRDRKLTJwSlhLTHZWbmhwVi1aaERNSzlOQ3N6UjQ0ZV9RSmhMVmhlRTdhTkFPMmtfNXpnTTJDVTBkcDNBV1dJOGhsOFM3dkJkLWVMX1FCdw?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 06:30:09 GMT",
+          "source": "한국경제"
+        },
+        {
           "title": "증시 급락에, 프리·애프터마켓도 '반토막' - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xVi0xczhUVUlZQlhobExWYzBoNWt0YmhfX0NPRlF5akl1NzFWTUlOSGJKWlJzek9EODRYVmsyUTJJOHhPZ0REWWZ1eWJsQQ?oc=5",
           "pub_date": "Tue, 04 Aug 2026 04:00:00 GMT",
           "source": "전자신문"
-        },
-        {
-          "title": "FT \"증시 띄우려던 李대통령…코스피 폭락에 정치적 부메랑\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUVmZsQnlRemhMdHIxOUVkR0dpQUdNU2dGbS1ucnhBMk1VYVF1dzRyQVc1M2VyZDFtTzJYNUZETlJ5SnFPbkJXbDlNUzFFOUE?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 05:29:33 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ET2h6SkVyeWFGZEt5dEU0MjJ1QzM5ZWRMcENtRHN2d0Z3VWdjQmtYV2Fkamhhbi0yU1dvMjlvSHlfMlZ2VVhNVGRsT2N2TDA?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 01:24:12 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.99,
+    "vix": 15.81,
     "vvix": 91.64,
     "skew": 141.23,
     "move": 80.48
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -868600000000,
-    "retail_net_buy_krw": 778500000000,
+    "foreign_inst_buy_krw": -910100000000,
+    "retail_net_buy_krw": 818700000000,
     "margin_loan_krw": 28522100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -99,18 +87,18 @@
       "sma_200": 23998.06
     },
     "kospi": {
-      "current": 6310.67,
+      "current": 6358.95,
       "high_52w": 9385.59,
-      "drop_pct": -32.76,
+      "drop_pct": -32.25,
       "intraday_low_drop_pct": -35.22,
-      "sma_200": 5748.03
+      "sma_200": 5748.27
     },
     "kosdaq": {
-      "current": 777.58,
+      "current": 780.72,
       "high_52w": 1229.42,
-      "drop_pct": -36.75,
+      "drop_pct": -36.5,
       "intraday_low_drop_pct": -39.14,
-      "sma_200": 996.66
+      "sma_200": 996.68
     },
     "sp500": {
       "current": 7489.72,
@@ -343,7 +331,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 172.051,
+    "strategy_pct": 127.418,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -947,7 +935,7 @@
       },
       {
         "date": "2026-08-04",
-        "ret_pct": 172.051
+        "ret_pct": 127.418
       }
     ],
     "monthly_breakdown": [
@@ -995,9 +983,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 2.61,
-        "end_ret_pct": 172.05,
-        "max_dd_pct": 0.0
+        "return_pct": -42.02,
+        "end_ret_pct": 127.42,
+        "max_dd_pct": 35.96
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
