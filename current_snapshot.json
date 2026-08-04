@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T08:47:57.220465+09:00",
+  "timestamp": "2026-08-04T12:29:10.004396+09:00",
   "sentiment": {
     "cnn_fng": 45.8285714285714,
     "cnn_components": {
@@ -14,58 +14,64 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 4,
       "fear_count": 9,
       "greed_articles": [
         {
-          "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmMWh5Q0Q1VVhSdXRVb3FZY1JFVkFPejVRNk5tbS1iaDZwRmRVUWxzbkwwazl1RjdWQnJXSVoxNHItVlFJbS1XQ3BiSWR6bWNxc3BmZnpiWVkwUQ?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 23:16:44 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "'증시 활황 그림자'…올 상반기 IPO 1.1조로 전년 대비 급감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HVUtXaUVFd1o4M3Zya3JSS1M2bE5oem5NdjBvbURpWlhCWW5HQ2RNNWc5eG9FS0I3TlFNV3I5UHhJM0ljTnM5MnphSkJfX2N4bGZvMDZvVkpLbWl2b0lfRTlpMlBMTzE1S1BTajg0NVNNQ0d30gF0QVVfeXFMT0dVS1dpRUV3WjgzdnJrclJLUzZsTmh6bk12MG9tRGlaWEJZbkdDZE01Zzl4b0VLQjdOUU1XcjlQeEkzSWNOczkyemFKQl9fY3hsZm8wNm9WSkttaXZvSV9FOWkyUExPMTVLUFNqODQ1U01DR3c?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 00:07:41 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "\"개미들 어쩌나\" 증시 변동성에 빚투 급감 잔고 30조원 붕괴 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HMzRkemN3bmFKeXZ1ZHQ4VDhVV1VGSFBRanE5cWlSUFluZVRWc1JtMkxPaTVMS2N3eTQyTmxiRUItOVAyZ0NHbVYxTjZxQ1k?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 19:01:29 GMT",
+          "title": "\"젠슨 황, 韓 증시 거품 키우고 있다\" 경고…개미들 부메랑 맞나 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDVlJaR3JyYlFwZ1pzUm1HZy11MmM5OTNjZEF2NExKZG9iOWtBTmpEQTk1aUlacHluU2Q1cjNMNVFYdHdObDEyem9Ld1NFNkE?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 02:00:03 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "[AI MY 뉴스] 4일 중국증시 '뉴욕 랠리 호재, 기술주 저가 매수세 유입 기대' - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53TXExLXhpUk5FY0ZtYlhzYV8xUUwzV2JKNUV4LV9QZHNuaWxmODlZN2d5WVRmR3NBUWQxbFh1dnlXbkxxbHdUMlBtSW5kd3ZxOVZncF9qRzRLQ2VU?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 22:53:00 GMT",
-          "source": "뉴스핌"
+          "title": "삼전·닉스 쏠림 완화 조짐…바이오주 급등에 코스닥 '매수 사이드카' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jcXdNbjM4dVRYSUVuc0E2OEo2VUV6cWZvajJPR1hlVUZnSi1HNzFKWS1rd1pZcUhXN0FBd19BNlVyMTc5Wkl3eWltVVVmd3Jab04ybDFJam91Zw?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 02:15:32 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "코스닥 5%대 급등에 매수 사이드카 발동…3거래일 연속 '과열 신호' - 뉴스인",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvVi1JMnhJWHhZekZ1dGJxZmZXUTJjZEV6SEloaXgyYTRncHdhb01sSWRLRlgtMzBLeWxrYldDaTJWT2JxU3pFUF93X0VGNzJadDN2STdQbDRCLUpSZFpXQWcwTU5SRThiUDFv?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 02:12:25 GMT",
+          "source": "뉴스인"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 유가·미 국채 수익률 급락에 랠리…다우 사상 최고 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YSHJoTmh3b3RIQjlveWN1MzI0MVNQUGN1a1ZoWm9uYW1oNVJpWkNrSWZXakttU2hMT3BZRTItcGJFYXNCcHcwWndreEl3T0hrb1Zza3k1S3Y1TU1x?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 20:24:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ET2h6SkVyeWFGZEt5dEU0MjJ1QzM5ZWRMcENtRHN2d0Z3VWdjQmtYV2Fkamhhbi0yU1dvMjlvSHlfMlZ2VVhNVGRsT2N2TDA?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 01:24:12 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "코스피 5% 급락에도 반도체 베팅...초고수가 담은 종목 보니 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NdnpoX0tYazF5bEd6bW9FZ1ZiNmV2ODh4alIzTEIzTTMtb3d4V3kwTjVCalRuTXpkcmg4a0NJSDlFaG1HVG05QTdfbVBJX0JydzhxNTJ4M1hrdw?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 23:41:31 GMT",
-          "source": "한국경제"
+          "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBid1ZCMm9tV1JoT2VubkZ1WXVZM0NVWmlhOHFDWG1mc3ZUc1ZybWhOR2ZxbFA1d2pxUEZkUjZ2Qnphc3NGaGdDdVkwQ3dKZlYwR3lkNGNRVTBfeDRyTlJNUlJvNkotNDg?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 01:23:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 222p 대폭락 속 코스닥은 5% 강세 … 오늘 시초가 공략주는? - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oTDVfRlpRbEFWSmk0dGN6U2IyYTRlRTVVdnpHalBnaE9vSmFsVXRsckhZSVBrYm1FVEY5dXI4SEJab0V2Y0RtWVVlZFNPbkUwR0JrenllUjRNQWdrY2k3NA?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 23:22:00 GMT",
-          "source": "아시아경제"
+          "title": "[속보]다시역주행 코스피 2.8%급락…삼전닉스 -5% - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqQzEyamNOR2lqc0NlSUYyZTJpby1nTTRIRkc5QVkwM05vWnNaTDFTb01VclVZcTVsY192TDJubTZ3Ui1UME9hdE0wcl9MNzFB?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 01:09:09 GMT",
+          "source": "문화일보"
         },
         {
-          "title": "[0804개장체크] 美 증시, 미-이란 긴장 완화 속 국제유가 급락 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfSTZ5MUJMdUE4RFhPUzNjUVphR2dpWU4tTjZTa0ZYSVBUUzI2WHpLN0cxWWxhT2d6OThoaHItNmlwYVlUdWN6T09iN1VTbER1TUYwVTU4RWJWeGluR1FOd0V1b3RGWWFKSDVvTWlwQUZjTk9XOUE?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 22:47:50 GMT",
-          "source": "인포스탁데일리"
+          "title": "코스피, 급락 딛고 1.50% 상승 출발…코스닥도 1%대 강세 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14a2hVWVBFVWR2dGpxZnA5V3I1NkRxRnZEZVhPQUd6YS1xRG9QdFhoQWtRdmZJaTljRmRSN1NTS3E1YUJ4M2h0SGxxUVI2MmMzVkhBSjJuc3BnMjlGN1FVaWVQQUJPNHNfazJTMG9HZXNOMlBS0gF0QVVfeXFMTXhraFVZUEVVZHZ0anFmcDlXcjU2RHFGdkRlWE9BR3phLXFEb1B0WGhBa1F2ZklpOWNGZFI3U1NLcTVhQngzaHRIbHFRUjYyYzNWSEFKMm5zcGcyOUY3UVVpZVBBQk80c19rMlMwb0dlc04yUFI?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 00:07:42 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "미-이란 외교 해법 추진에 유가 급락, 세계 증시 혼조 - VOA 한국어 홈페이지",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUJ2TTJxemVhYjBEMzd3TmJCcGxBNmlzN1JFX0lpT0R0TlNqNGdYSGplS2lXQVFKeEJGSl9yODhlTDJfMEJzTDQyTFJfUlpOeGtHYmxaRFJ0ZS1OQVhZXzhGdzYzWVJuTXBxWEJ5T1NXd2cxS0dKMFkwNVBTZnlLYmdFWTlxcmxtbnlqX19HMjhPdzhxdmtqa1JkVGkwLXE2Vm1JTEFrNHVHc3otSk43NGhuYVdCUUhfcDZPTtIBvwFBVV95cUxQZDk4Yk16ZWpPTEFEZUYzMlFsNmhIOTF0VWxBdUNuYUF4TVZyM1ZWby1kRkQ4dDVLNXdtdjE4RmxtLTQ4d19uZG9ha3hBYW1lVGFOdjVYYjh0ZzdKX0ZaN2xmWHZhZ3c2alZ0RFZLNWJBRXNOQ3gxLXFEdC1oTjNfZGFaWEFoU2lWc2Ric0NTQ1dxcTRQTmNyZW9qd0pSbGZoTFB1cVV4a2ZDTGV2bUg2b3lkSzVsaVRyWEdzVVR6NA?oc=5",
-          "pub_date": "Mon, 03 Aug 2026 16:10:27 GMT",
-          "source": "VOA 한국어 홈페이지"
+          "title": "코스피, 美 증시훈풍에도 하락 전환⋯코스닥 3.5%↑ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80VWd2bWx1Yk8yY084SXVLdXJoVm4tNnhEVzBRRk9XQUt6T2JKNEhobmhnS000LVJNQWxPQmdUM21UbGl1b0RISzJSM3BZMUk?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 01:15:31 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -77,8 +83,8 @@
     "move": 80.48
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4773600000000,
-    "retail_net_buy_krw": 4652300000000,
+    "foreign_inst_buy_krw": -580500000000,
+    "retail_net_buy_krw": 510100000000,
     "margin_loan_krw": 28522100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +99,18 @@
       "sma_200": 24015.02
     },
     "kospi": {
-      "current": 6595.45,
+      "current": 6204.85,
       "high_52w": 9385.59,
-      "drop_pct": -29.73,
-      "intraday_low_drop_pct": -40.02,
-      "sma_200": 5734.22
+      "drop_pct": -33.89,
+      "intraday_low_drop_pct": -35.22,
+      "sma_200": 5747.5
     },
     "kosdaq": {
-      "current": 719.76,
+      "current": 772.39,
       "high_52w": 1229.42,
-      "drop_pct": -41.46,
-      "intraday_low_drop_pct": -46.05,
-      "sma_200": 997.05
+      "drop_pct": -37.17,
+      "intraday_low_drop_pct": -39.14,
+      "sma_200": 996.64
     },
     "sp500": {
       "current": 7600.5,
