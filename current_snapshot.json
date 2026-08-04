@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T05:38:36.684295+09:00",
+  "timestamp": "2026-08-05T06:55:49.363509+09:00",
   "sentiment": {
     "cnn_fng": 58.1142857142857,
     "cnn_components": {
@@ -14,17 +14,31 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "‘AI 거품론에 레버리지 청산’… 中 증시 7월 기술주 빚투 14% 급감 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGVxVkVGX0pScU5sdk5tOG1FSWYxNVFDRzc5SmkyMi1xRVpQQ2FKMGpkejM4UmhUdEZRV0FYUGhDbnBhYTltNkM0OTNhNjRhZVB2ZzJJeHY3YkUyNGNfRjE4ZVFoV2g1VU5PdWtMdkZMUV9WaFdDYnRGZndvcV9ienBjdHZmeG82?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 20:55:00 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "[뉴욕증시] 유가 급락-실적 호조로 3대 지수↑...팔란티어 29% 폭등 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQjg5LV9VZW1Tak9OVnVrMEdmV1Q0Nk9sRkY2b1o3WHI4X2FYVEV5TmJXSE5naDdoSkRueVItUmtJUS1yUng0UzNvUXZLNkluWW4yVkE0Y2doN2Zkd0lXX1B1NXJ6elp0ZnpCVkszYVgxbWpuN19KV1VHYTM1MTdtWUY1c3RPWXhr?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 20:56:20 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 16.5,
     "vvix": 92.57,
-    "skew": 139.96,
-    "move": 80.48
+    "skew": 126.41,
+    "move": 77.56
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -910100000000,
@@ -287,7 +301,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 189.079,
+    "strategy_pct": 188.466,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -895,7 +909,7 @@
       },
       {
         "date": "2026-08-05",
-        "ret_pct": 189.079
+        "ret_pct": 188.466
       }
     ],
     "monthly_breakdown": [
@@ -943,8 +957,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 19.64,
-        "end_ret_pct": 189.08,
+        "return_pct": 19.03,
+        "end_ret_pct": 188.47,
         "max_dd_pct": 0.0
       }
     ],
