@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T18:17:21.351015+09:00",
+  "timestamp": "2026-08-04T20:36:36.368855+09:00",
   "sentiment": {
     "cnn_fng": 50.5142857142857,
     "cnn_components": {
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 5,
+      "greed_count": 3,
+      "fear_count": 6,
       "greed_articles": [
         {
           "title": "코스피 '뚝' 코스닥 '쑥'… 반도체 쏠림 완화, 득일까 독일까 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFZKTFV0aHBkN0ozMzBjcVl1T2IybWRxcGd5bllqc1JPNlBFeXBIRGl6cWkyYlo5WXFsWVUwVWxVLXJvaWk0RmxsV213V21kYmE4VkhJQ0ptbjZGQ3FQUTZxaHVCR2poVjVpbjdxWXlNbmdDRzVhVERFVlhya3MxUkZ1SzhzTVRx?oc=5",
           "pub_date": "Tue, 04 Aug 2026 06:36:34 GMT",
           "source": "글로벌이코노믹"
+        },
+        {
+          "title": "반대매매에 '빚투' 10조 증발…롤러코스피에 퍼지는 비관론 [분석+] - hankyung.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYZ25oWjJKV25hSzh6MWdvYlg1OWQ3NE0xdzBLYWkwZmxSZmN4eVliVlFRSlJXTHh4VGU0VTFCX3NTSXI5VldVdVJSSnBpVWNiTTczMG5KRFh0Zw?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 11:00:06 GMT",
+          "source": "hankyung.com"
         },
         {
           "title": "롤러코스피에 개미 청산랠리…'빚투' 이틀 새 4.7조 급감 - v.daum.net",
@@ -32,10 +38,10 @@
       ],
       "fear_articles": [
         {
-          "title": "[속보]다시역주행 코스피 2.8%급락…삼전닉스 -5% - munhwa.com",
+          "title": "[속보]다시역주행 코스피 2.8%급락…삼전닉스 -5% - 문화일보",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqQzEyamNOR2lqc0NlSUYyZTJpby1nTTRIRkc5QVkwM05vWnNaTDFTb01VclVZcTVsY192TDJubTZ3Ui1UME9hdE0wcl9MNzFB?oc=5",
           "pub_date": "Tue, 04 Aug 2026 01:09:09 GMT",
-          "source": "munhwa.com"
+          "source": "문화일보"
         },
         {
           "title": "“韓증시, 2015년 中폭락 수준” 경고…외신이 찍은 ‘코스피 급락’ 이유 - v.daum.net",
@@ -44,28 +50,28 @@
           "source": "v.daum.net"
         },
         {
+          "title": "“韓 증시, 2015년 中 폭락 수준…투자 부적합 국가가 되고 있다” 외신이 날린 섬뜩한 경고 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyTFJKTDE4dW1VUFBDTTVGSUNENl9KaWY5OTVnTVFtMDFsU1QyTEdUeGlqZWNacUQycC1UUnRWZ1JSRWF6SUhFNTI5NTFIQQ?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 08:22:22 GMT",
+          "source": "전자신문"
+        },
+        {
           "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBid1ZCMm9tV1JoT2VubkZ1WXVZM0NVWmlhOHFDWG1mc3ZUc1ZybWhOR2ZxbFA1d2pxUEZkUjZ2Qnphc3NGaGdDdVkwQ3dKZlYwR3lkNGNRVTBfeDRyTlJNUlJvNkotNDg?oc=5",
           "pub_date": "Tue, 04 Aug 2026 01:23:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 지수 급락한 그날, 사상 최대규모 반대매매 물량 쏟아졌다 - 한국경제",
+          "title": "코스피 지수 급락한 그날, 사상 최대규모 반대매매 물량 쏟아졌다 - hankyung.com",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNWXVxRDRKLTJwSlhLTHZWbmhwVi1aaERNSzlOQ3N6UjQ0ZV9RSmhMVmhlRTdhTkFPMmtfNXpnTTJDVTBkcDNBV1dJOGhsOFM3dkJkLWVMX1FCdw?oc=5",
           "pub_date": "Tue, 04 Aug 2026 06:30:09 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "증시 급락에, 프리·애프터마켓도 '반토막' - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xVi0xczhUVUlZQlhobExWYzBoNWt0YmhfX0NPRlF5akl1NzFWTUlOSGJKWlJzek9EODRYVmsyUTJJOHhPZ0REWWZ1eWJsQQ?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 04:00:00 GMT",
-          "source": "전자신문"
+          "source": "hankyung.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.81,
+    "vix": 15.63,
     "vvix": 91.64,
     "skew": 141.23,
     "move": 80.48
@@ -198,6 +204,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.08.04",
+            "close": 240000,
+            "change_pct": 0.21,
+            "retail_net": 3073986,
+            "inst_net": -3924513,
+            "foreign_net": 850527
+          },
+          {
             "date": "2026.08.03",
             "close": 239500,
             "change_pct": -8.76,
@@ -228,17 +242,17 @@
             "retail_net": -2421141,
             "inst_net": 5971830,
             "foreign_net": -3550689
-          },
-          {
-            "date": "2026.07.28",
-            "close": 220000,
-            "change_pct": -13.39,
-            "retail_net": 7190260,
-            "inst_net": -635592,
-            "foreign_net": -6554668
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.04",
+            "close": 1577000,
+            "change_pct": 0.64,
+            "retail_net": 399607,
+            "inst_net": 18945,
+            "foreign_net": -418552
+          },
           {
             "date": "2026.08.03",
             "close": 1567000,
@@ -270,14 +284,6 @@
             "retail_net": 130507,
             "inst_net": 791370,
             "foreign_net": -921877
-          },
-          {
-            "date": "2026.07.28",
-            "close": 1550000,
-            "change_pct": -14.65,
-            "retail_net": 1437664,
-            "inst_net": 388673,
-            "foreign_net": -1826337
           }
         ]
       }
