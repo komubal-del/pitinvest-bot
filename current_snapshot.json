@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-05T13:18:51.496167+09:00",
+  "timestamp": "2026-08-05T16:07:10.901743+09:00",
   "sentiment": {
-    "cnn_fng": 58.1714285714286,
+    "cnn_fng": 58.2285714285714,
     "cnn_components": {
       "momentum": 81.4,
-      "strength": 29.6,
-      "breadth": 32.4,
+      "strength": 30.0,
+      "breadth": 39.0,
       "put_call": 46.6,
       "junk_bond": 95.6,
       "volatility": 50.0,
@@ -14,34 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 7,
       "greed_articles": [
         {
-          "title": "빚투 매물 걷히는 코스닥…기관 매수에 반등 탄력 - 비즈워치",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TbTJaSzZ1VC1xNXJqY3ZOYTltVUIxZkExXy1HOVZvU1pxLUxOUDVoRXFsbnlmS1h2UEdBQnF4c2hfUTFUeGhicF9qZU9KREdrYXlnOFpucUlxdU5IU08ydzJLdWF3OUJF?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 01:52:03 GMT",
-          "source": "비즈워치"
-        },
-        {
-          "title": "“국민연금, 코스피 과열 부추겨” 블룸버그 비판엔…금융위 침묵 - 한겨레",
+          "title": "“국민연금, 코스피 과열 부추겨” 블룸버그 비판엔…복지부 반박은 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkSjhOV0ZvTkxUREphdlJHLUttbmdQVS1KZG96MTV4ZTY4ZGQzZERiajVDNG9uSWtVaXo0Vm5kR2VUOGNNNHEwZk5MeTFlNmU0enJVVENEYXpHUGx3Y052dXo5dXlCT3M?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 03:18:00 GMT",
+          "pub_date": "Wed, 05 Aug 2026 05:44:00 GMT",
           "source": "한겨레"
         },
         {
-          "title": "'삼전·닉스' 쏠림 완화에…비반도체·중소형·코스닥에도 볕든다 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OcWhDTTROdmcxM1BWR293a1ctamRpdjNtRHh1eXg2QXBORDlmUUlFWXBkSlhabUY0V0FPSk5RVTRSOXhkbDN5YzdIR2pWUGZuRHJiaDdQY3diMG5LaDlZLW1qQzlNeXdXUUFQN2x6c0RHRUtaRmxGONIBeEFVX3lxTE5OcWhDTTROdmcxM1BWR293a1ctamRpdjNtRHh1eXg2QXBORDlmUUlFWXBkSlhabUY0V0FPSk5RVTRSOXhkbDN5YzdIR2pWUGZuRHJiaDdQY3diMG5LaDlZLW1qQzlNeXdXUUFQN2x6c0RHRUtaRmxGOA?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 02:03:46 GMT",
-          "source": "뉴시스"
+          "title": "'상승장에서 좋았지만...' 증시 급락하자 11조원 빠진 '빚투' - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YcGNmejEzeWpKLVpuRlNHbjdjRll2U2VFbTl4SS1RVDZsNzlFU3VkajhHT2pMWExJUkVaUXhncmhOQnJKNFNYd1hrXzRGeDhLa1NNOTRTSGpfdVY2eFhUQ0pyamQ?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 06:26:19 GMT",
+          "source": "매일일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "'폭락→폭등' 후 쉬어가던 코스피, 美반도체 훈풍에 상승 재개 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEeXNhOExxelhyWUxwdG1IODFPcWJEdXhVZWNWdnB4UXJuRndPa1JpbU1hUE5ibGlxMGx2ajNRb2xTd0N2SzJZay1uZ0ZUSTA?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 02:48:12 GMT",
-          "source": "v.daum.net"
+          "title": "'폭락→폭등' 후 쉬어가던 코스피, 美반도체 훈풍에 상승 재개 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95MndvSEUwLXJTZWJfQ1B6YWhlaTV1ZWg4bFpQeFIxS3ViODItWkd4MzJITVkxRkxtd25INC1wZlVESVhzVUtycV9Oc0J3MmlmODQwZWxtRzhGNkHSAWBBVV95cUxNYXlMa3hRNVJWcmdtRDFkRmVzRFRrUmZhTk1QZnlmV3o3a0xhY3BNaUk3eUVWVGlsdnJXLTBoQ1BNeDFaeC1Idkt4OFg5NnN3LThDZW5OSGFrN3E5UE12UFk?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 02:46:04 GMT",
+          "source": "연합뉴스"
         },
         {
           "title": "코스피 급락은 노이즈인가 시그널인가…8월 금통위 셈법 흔드나 | - 연합인포맥스",
@@ -50,16 +44,22 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "유가 급락·美 증시 호재에 코스피 3.7% 급등…코스닥도 상승 출발[개장시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Hb1BvWXBtXzlVeTA1dnB0aFFBcncyYjlJUzNZTDZmS05vaHRDRDBTRldFM3luNElFWkNXVGgzREF5bGc4Z0k5TGNMUTg5SHB6bTBfUzVFeW5VeWJkM0Z6VUZGTQ?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 00:30:49 GMT",
-          "source": "에너지경제신문"
+          "title": "코스피 22% 빠질 때 -2.9%…급락장서 빛난 '버핏식 투자' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rdjVQbG9aU3Y1UXBwVW13T2M0T0FhV01RMUlZTkdmbW9NWXZJcHNwbW4xeWdhVnAtaVB0R2ZKU1hRdU1kb1hSdksyOHFONkU?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 05:12:40 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "\"李가 원한 '뜨거운 증시'가 역풍으로\"…코스피 폭락에 정책 실패론 제기한 외신 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00bWhFYXRjS2VMSDhxNFdEMHg1NGNLby1ydHVFWFFabURDTVVkNzE1SHc3UWJ2QlJOZU5kOGd1RVFXeHlZWXJMS0dtaGJ0d3JIT2JRcXN4di04UQ?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 23:33:19 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "뉴욕 기술주 랠리·유가 급락…코스피 4% 급등 출발 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Ya3ViQk1xRkpDSVFJSnRZVEJhdHJ3NkZzZlJybHdCdEN3QjZEa2JXcTJXTmM5V2pkejN6MlQxRDQzbDNLS0VqbEpHOEoyWGhGT2RWc3poX1doZmtCVUZSYXEzZkNNNWFPRzRfbTFfMmozZw?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 00:18:07 GMT",
+          "source": "KB Think"
+        },
+        {
+          "title": "뉴욕 기술주 랠리·유가 급락…코스피 4% 급등 출발 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WZ2FfaWZCbEttMTIwdVFHbmF5Q2xNT0ZwRVViTXd3S0N5ZWlEMllKOWtVODJPNE1IcnVSY1A2blJiSDQyQnVfZmpGRzJ5STBvbnlVQ1UwNFdQS0hTSkdsckRaR2tDN01ESVZtX0RXSGo?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 00:18:23 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
@@ -71,8 +71,8 @@
     "move": 77.56
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1037199999999,
-    "retail_net_buy_krw": -1038800000000,
+    "foreign_inst_buy_krw": 1162500000000,
+    "retail_net_buy_krw": -1183400000000,
     "margin_loan_krw": 27050700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,16 +87,16 @@
       "sma_200": 24034.6
     },
     "kospi": {
-      "current": 6626.46,
+      "current": 6598.26,
       "high_52w": 9385.59,
-      "drop_pct": -29.4,
+      "drop_pct": -29.7,
       "intraday_low_drop_pct": -30.32,
-      "sma_200": 5776.71
+      "sma_200": 5776.57
     },
     "kosdaq": {
-      "current": 798.8,
+      "current": 799.59,
       "high_52w": 1229.42,
-      "drop_pct": -35.03,
+      "drop_pct": -34.96,
       "intraday_low_drop_pct": -36.29,
       "sma_200": 995.76
     },
