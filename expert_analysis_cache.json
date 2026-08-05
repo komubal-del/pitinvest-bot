@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "analyzed_at": "2026-08-05T09:51:33.806787+09:00",
+  "analyzed_at": "2026-08-05T13:18:56.356431+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -16,8 +16,8 @@
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
-        "stance": "neutral",
-        "reason": "영상 제목이 주식 시장의 반등 가능성 시나리오를 '총정리'하고 특정 지점 도달 여부를 '질문'하는 형태로, 매수나 매도와 같은 구체적인 행동 권고가 없기 때문에 중립적인 분석으로 판단됩니다."
+        "stance": "bullish",
+        "reason": "영상 제목이 시장의 '반등 시나리오 총정리'를 다루며 긍정적인 방향성인 반등 가능성을 강조하고 있습니다."
       }
     },
     {
@@ -30,13 +30,13 @@
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목이 반도체 급락과 반등 현상을 '어떻게 해석할지' 묻는 분석적인 질문일 뿐, 구체적인 매수/매도 권고나 시장 방향성을 제시하지 않습니다."
+        "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 중립적 분석을 제시하며, 본문에는 시장 방향에 대한 구체적인 투자 권고나 행동 지침이 없고 교육 프로그램 홍보만 포함되어 있습니다."
       }
     }
   ],
   "error": null,
   "expert_stance_map": {
-    "박병창": "neutral",
+    "박병창": "bullish",
     "윤지호": "neutral"
   },
   "prompt_version": "v4-api-1.2.4"

@@ -1,28 +1,53 @@
 {
-  "timestamp": "2026-08-05T09:51:25.857407+09:00",
+  "timestamp": "2026-08-05T13:18:51.496167+09:00",
   "sentiment": {
-    "cnn_fng": 58.1142857142857,
+    "cnn_fng": 58.1714285714286,
     "cnn_components": {
       "momentum": 81.4,
       "strength": 29.6,
       "breadth": 32.4,
       "put_call": 46.6,
-      "junk_bond": 95.2,
+      "junk_bond": 95.6,
       "volatility": 50.0,
       "safe_haven": 71.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 12,
-      "greed_articles": [],
+      "greed_count": 3,
+      "fear_count": 4,
+      "greed_articles": [
+        {
+          "title": "빚투 매물 걷히는 코스닥…기관 매수에 반등 탄력 - 비즈워치",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TbTJaSzZ1VC1xNXJqY3ZOYTltVUIxZkExXy1HOVZvU1pxLUxOUDVoRXFsbnlmS1h2UEdBQnF4c2hfUTFUeGhicF9qZU9KREdrYXlnOFpucUlxdU5IU08ydzJLdWF3OUJF?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 01:52:03 GMT",
+          "source": "비즈워치"
+        },
+        {
+          "title": "“국민연금, 코스피 과열 부추겨” 블룸버그 비판엔…금융위 침묵 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkSjhOV0ZvTkxUREphdlJHLUttbmdQVS1KZG96MTV4ZTY4ZGQzZERiajVDNG9uSWtVaXo0Vm5kR2VUOGNNNHEwZk5MeTFlNmU0enJVVENEYXpHUGx3Y052dXo5dXlCT3M?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 03:18:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "'삼전·닉스' 쏠림 완화에…비반도체·중소형·코스닥에도 볕든다 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OcWhDTTROdmcxM1BWR293a1ctamRpdjNtRHh1eXg2QXBORDlmUUlFWXBkSlhabUY0V0FPSk5RVTRSOXhkbDN5YzdIR2pWUGZuRHJiaDdQY3diMG5LaDlZLW1qQzlNeXdXUUFQN2x6c0RHRUtaRmxGONIBeEFVX3lxTE5OcWhDTTROdmcxM1BWR293a1ctamRpdjNtRHh1eXg2QXBORDlmUUlFWXBkSlhabUY0V0FPSk5RVTRSOXhkbDN5YzdIR2pWUGZuRHJiaDdQY3diMG5LaDlZLW1qQzlNeXdXUUFQN2x6c0RHRUtaRmxGOA?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 02:03:46 GMT",
+          "source": "뉴시스"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "\"李가 원한 '뜨거운 증시'가 역풍으로\"…외신, 코스피 급락에 정책 실패론 제기 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00bWhFYXRjS2VMSDhxNFdEMHg1NGNLby1ydHVFWFFabURDTVVkNzE1SHc3UWJ2QlJOZU5kOGd1RVFXeHlZWXJMS0dtaGJ0d3JIT2JRcXN4di04UQ?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 23:33:19 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "'폭락→폭등' 후 쉬어가던 코스피, 美반도체 훈풍에 상승 재개 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEeXNhOExxelhyWUxwdG1IODFPcWJEdXhVZWNWdnB4UXJuRndPa1JpbU1hUE5ibGlxMGx2ajNRb2xTd0N2SzJZay1uZ0ZUSTA?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 02:48:12 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 급락은 노이즈인가 시그널인가…8월 금통위 셈법 흔드나 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94aWE0LXE0T2tYTzhjQzMtZGhLbDFWQUdFNjdfUWtwcDRqLWhHMTlKMGtiMTFMMm14SUFtRVduVFRUY2pOM2hSYzdncVp1a2pwY3BpS19LdDBOOHJfSTlHc3FNbUxLbHJ3dmlWUElHQzI3SlR5?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 01:30:16 GMT",
+          "source": "연합인포맥스"
         },
         {
           "title": "유가 급락·美 증시 호재에 코스피 3.7% 급등…코스닥도 상승 출발[개장시황] - 에너지경제신문",
@@ -31,22 +56,10 @@
           "source": "에너지경제신문"
         },
         {
-          "title": "5월엔 ‘106% 대박’ 국민연금… 7월 코스피 폭락에 120조 날렸다 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDhsSWlTYmNQeEhIVHZnOUp0Yng1d1VLNG40TTlVeVhPS25VMHFreHM1WVMyaFJiTzAxcTQ0QVl6WTkzeXM4MzJlOV9tR3QweEk0dEVKQVFaNXBMWUpJVVlaeE9JUmp2eXhYUEMzVlVweWtfWkUtZW5XMGVMVUp4OHpDbmttMjFI0gGcAUFVX3lxTE5XMDlJaTRWUFJoQWRoY3Q5ckJUR1QtMW9wTEVla3JFaDRfcHBXdGFIaUcwVkRheXpUblM1QkZncll2dGZScEEwczIwSTBDVUJiemVIMkJBdTZ0X0NmVjZtSmVZaF9LMG1QNFJCZV9ReVRkNWhaSkFVdWdSNmFXYkdsOVJEbWhRMFlrRENmUHRyUDgtRTFHN3M1UklDTA?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 21:00:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "KB자산운용 \"버크셔 포트폴리오 ETF, 코스피 급락에도 선방\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTWktvWXZYQ2prQ3dGampHN2tmM3huYlExTXNDZXBsSTlZR21wMXRCTEpCeEx2LTd3OEFjaElwQjNoS0dIczM2TS0yUVNuTWh4d0szRGE3eS1RSjBo?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 23:55:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "호르무즈 협상 진전에 뉴욕증시 사상 최고치…국제유가 급락 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zcmNiRm4wcDJ2U0VjNU1xazFJTnJsVHE1M21Pb0l4a1dsRE5mU3ozSW54M0haaUVqaEdVOFpxa1BYWW9wVk1ZZDRLWVQxM0M1bGxteg?oc=5",
-          "pub_date": "Tue, 04 Aug 2026 21:49:00 GMT",
-          "source": "JTBC"
+          "title": "\"李가 원한 '뜨거운 증시'가 역풍으로\"…코스피 폭락에 정책 실패론 제기한 외신 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00bWhFYXRjS2VMSDhxNFdEMHg1NGNLby1ydHVFWFFabURDTVVkNzE1SHc3UWJ2QlJOZU5kOGd1RVFXeHlZWXJMS0dtaGJ0d3JIT2JRcXN4di04UQ?oc=5",
+          "pub_date": "Tue, 04 Aug 2026 23:33:19 GMT",
+          "source": "파이낸셜뉴스"
         }
       ]
     }
@@ -58,8 +71,8 @@
     "move": 77.56
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 522599999999,
-    "retail_net_buy_krw": -513700000000,
+    "foreign_inst_buy_krw": 1037199999999,
+    "retail_net_buy_krw": -1038800000000,
     "margin_loan_krw": 27050700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +87,18 @@
       "sma_200": 24034.6
     },
     "kospi": {
-      "current": 6658.82,
+      "current": 6626.46,
       "high_52w": 9385.59,
-      "drop_pct": -29.05,
-      "intraday_low_drop_pct": -29.77,
-      "sma_200": 5763.0
+      "drop_pct": -29.4,
+      "intraday_low_drop_pct": -30.32,
+      "sma_200": 5776.71
     },
     "kosdaq": {
-      "current": 801.22,
+      "current": 798.8,
       "high_52w": 1229.42,
-      "drop_pct": -34.83,
+      "drop_pct": -35.03,
       "intraday_low_drop_pct": -36.29,
-      "sma_200": 996.17
+      "sma_200": 995.76
     },
     "sp500": {
       "current": 7736.52,
@@ -276,7 +289,7 @@
   },
   "expert_analysis": {
     "date": "2026-08-05",
-    "analyzed_at": "2026-08-05T09:51:33.806787+09:00",
+    "analyzed_at": "2026-08-05T13:18:56.356431+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -292,8 +305,8 @@
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "영상 제목이 주식 시장의 반등 가능성 시나리오를 '총정리'하고 특정 지점 도달 여부를 '질문'하는 형태로, 매수나 매도와 같은 구체적인 행동 권고가 없기 때문에 중립적인 분석으로 판단됩니다."
+          "stance": "bullish",
+          "reason": "영상 제목이 시장의 '반등 시나리오 총정리'를 다루며 긍정적인 방향성인 반등 가능성을 강조하고 있습니다."
         }
       },
       {
@@ -306,13 +319,13 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 반도체 급락과 반등 현상을 '어떻게 해석할지' 묻는 분석적인 질문일 뿐, 구체적인 매수/매도 권고나 시장 방향성을 제시하지 않습니다."
+          "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 중립적 분석을 제시하며, 본문에는 시장 방향에 대한 구체적인 투자 권고나 행동 지침이 없고 교육 프로그램 홍보만 포함되어 있습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
+      "박병창": "bullish",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
