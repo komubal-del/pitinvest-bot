@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T18:44:46.430586+09:00",
+  "timestamp": "2026-08-05T20:45:59.029771+09:00",
   "sentiment": {
     "cnn_fng": 59.1714285714286,
     "cnn_components": {
@@ -14,14 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 9,
-      "fear_count": 3,
+      "greed_count": 8,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "반등 이어 3% 급등한 코스피…상승탄력 키우며 고점 높여가나(종합) - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VdHc2bXU0ZFU2YTFRa0RuNmlXUDgyR2twVHd1S0dOWjNmTVJ2NzNYZ3NvOVN1bU55LXlTOVl4TEJjcG5uVXRVd2VScjFnVUk?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 07:19:11 GMT",
-          "source": "v.daum.net"
+          "title": "반등 이어 3% 급등한 코스피…상승탄력 키우며 고점 높여가나(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92bURRbmdNSlU1aV85LVZlYmliN09yUUpITVdKRVJCY3VFR3VzMUJ2ZjZBYlBuQnR2Znd1Uzc0OEx5eUNLekY2ZFMzWXNVQUFfbHphQzltc0JlOW1RLWhqYdIBYEFVX3lxTE92bURRbmdNSlU1aV85LVZlYmliN09yUUpITVdKRVJCY3VFR3VzMUJ2ZjZBYlBuQnR2Znd1Uzc0OEx5eUNLekY2ZFMzWXNVQUFfbHphQzltc0JlOW1RLWhqYQ?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 07:16:57 GMT",
+          "source": "연합뉴스"
         },
         {
           "title": "‘반격의 코스닥’, 4거래일 간 24% 반등…빚투 털고 기관 돌아왔다 - 중앙일보",
@@ -30,22 +30,22 @@
           "source": "중앙일보"
         },
         {
-          "title": "전고점 돌파한 S&P·반등 시작한 코스피…글로벌 증시, 서머랠리 시동거나 - hankyung.com",
+          "title": "전고점 돌파한 S&P·반등 시작한 코스피…글로벌 증시, 서머랠리 시동거나 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhdG8yUm9Ebm5VMmFhVjJueTZvQS03N18wVk16Q19OZnpCQWFDLWlWcHhnSkhaTk9QWjhTZG9ZTXMwRVctOVVKelNVMzdWZlYwUHRpbkNZV0JRUQ?oc=5",
           "pub_date": "Wed, 05 Aug 2026 07:31:57 GMT",
-          "source": "hankyung.com"
+          "source": "한국경제"
         },
         {
-          "title": "전고점 뚫은 S&P, 코스피 반등…증시 조정장 끝났나 - hankyung.com",
+          "title": "전고점 뚫은 S&P, 코스피 반등…증시 조정장 끝났나 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfa1V4bzVYbV9UWXpWRmlWdGo2WjUzdmotUlk4Z1lBTlNjWnNVU25PZ2c4ZngzaGhLWDFvRWdLQVY3ZGFaTVFVV19nQnZ5RHlSVF92X2VvVG9jZw?oc=5",
           "pub_date": "Wed, 05 Aug 2026 08:44:17 GMT",
-          "source": "hankyung.com"
+          "source": "한국경제"
         },
         {
-          "title": "반도체 쏠림에 코스닥 소외…‘시총 미달’ 상장폐지 위기 기업 급증 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjMmJjUWl3amU4bzFha1RUdlAtWGFhWDJGb0ptWm1OR1MzZXVtbk03eFh4ZVRCVGhDdkFLeWFPQzhUeFhHWk8wSDBiMTZuV0N1eUpFQXYwMVI5cnhSR2xCbEozaHFTWkk?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 09:11:00 GMT",
-          "source": "한겨레"
+          "title": "증시 급등락에 쪼그라든 ‘빚투’…신용잔고 올해 최저 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3M3RHTUJJeDNiVHlrXzNwbFVrZktKNHRhcWlnOWh3UWpNV0pqRHZoSzRUVnJtaWNSZnBQV20xa1lfQXdwbDBuWmxhbkpiLTVwZ0lSWk1TM2hUQ2gyUm130gFfQVVfeXFMUDczdEdNQkl4M2JUeWtfM3BsVWtmS0o0dGFxaWc5aHdRak1XSmpEdmhLNFRWcm1pY1JmcFBXbTFrWV9Bd3BsMG5abGFuSmItNXBnSVJaTVMzaFRDaDJSbXc?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 08:49:00 GMT",
+          "source": "경향신문"
         }
       ],
       "fear_articles": [
@@ -56,22 +56,16 @@
           "source": "머니투데이"
         },
         {
-          "title": "'폭락→폭등' 후 쉬어가던 코스피, 美반도체 훈풍에 상승 재개 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UWHJOOVhYa2kwZ1dsZEk1eW54SHVsZWtFOHl2emYwODNiSkMtLWlrUHZzZkZCLXphLVB0NXNHaUR3bFFsLVNLZ3FSTjhic2p5Rjl2cw?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 02:48:12 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "美 반도체 랠리·유가 급락에 돌아온 외국인…코스피 3.76%↑ [MTN 마감시황] - MTN 머니투데이방송",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLU0syeHhYdzlQTm1LalVYOXRhTmlVQUhOOFN0amd0QnR6MUlWYU1uRGRESER0NE5EOFZRUE9XaGNZYy1kWTRsZTM0Ty1EQ0xjQl9qVWlDdWkwcm04TG03dnA0azQ?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 07:14:41 GMT",
-          "source": "MTN 머니투데이방송"
+          "title": "코스피 -22% 급락에도 -2.88%로방어…'버핏식 분산투자' - 영남경제",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XUjlYT01zOGx2YzlIZkxWek9OLXU3VFpicnNEeGc2RE1WOFBpTDJuRTJPWmotcUJuRHBpSE5pdXF5eVB3WmUwN3prc0hjMV9GLXZzU3BkYzl3Y2o5SXBWeHhTR3lYZVU?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 06:50:27 GMT",
+          "source": "영남경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.21,
+    "vix": 16.68,
     "vvix": 92.57,
     "skew": 126.41,
     "move": 77.56
