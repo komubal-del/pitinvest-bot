@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T20:45:59.029771+09:00",
+  "timestamp": "2026-08-05T22:23:34.845453+09:00",
   "sentiment": {
     "cnn_fng": 59.1714285714286,
     "cnn_components": {
@@ -24,10 +24,10 @@
           "source": "연합뉴스"
         },
         {
-          "title": "‘반격의 코스닥’, 4거래일 간 24% 반등…빚투 털고 기관 돌아왔다 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16Ri0ybC1rbHNxUlF1d2dTQnpUREJ3N0tzaTlrRE1GX29UQnRmeF8zemFRMjJrXzlBdjVjU1dOd3g0NWloUmVSS25iVTFDUDhrenNRM3dB?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 07:22:38 GMT",
-          "source": "중앙일보"
+          "title": "‘반격의 코스닥’, 4거래일 간 24% 반등…빚투 털고 기관 돌아왔다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SY2Z6QTV2X29DY19OZHFWUTIxczlCdzlPdDVPT01WZ3NIY01VejFwV3JIMEg5SkhtbUlQRF9scTZsZDdNYmJBOHNMY0d5ZWM?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 07:24:53 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "전고점 돌파한 S&P·반등 시작한 코스피…글로벌 증시, 서머랠리 시동거나 - 한국경제",
@@ -42,10 +42,10 @@
           "source": "한국경제"
         },
         {
-          "title": "증시 급등락에 쪼그라든 ‘빚투’…신용잔고 올해 최저 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3M3RHTUJJeDNiVHlrXzNwbFVrZktKNHRhcWlnOWh3UWpNV0pqRHZoSzRUVnJtaWNSZnBQV20xa1lfQXdwbDBuWmxhbkpiLTVwZ0lSWk1TM2hUQ2gyUm130gFfQVVfeXFMUDczdEdNQkl4M2JUeWtfM3BsVWtmS0o0dGFxaWc5aHdRak1XSmpEdmhLNFRWcm1pY1JmcFBXbTFrWV9Bd3BsMG5abGFuSmItNXBnSVJaTVMzaFRDaDJSbXc?oc=5",
-          "pub_date": "Wed, 05 Aug 2026 08:49:00 GMT",
-          "source": "경향신문"
+          "title": "반도체 쏠림에 코스닥 소외…‘시총 미달’ 상장폐지 위기 기업 급증 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjMmJjUWl3amU4bzFha1RUdlAtWGFhWDJGb0ptWm1OR1MzZXVtbk03eFh4ZVRCVGhDdkFLeWFPQzhUeFhHWk8wSDBiMTZuV0N1eUpFQXYwMVI5cnhSR2xCbEozaHFTWkk?oc=5",
+          "pub_date": "Wed, 05 Aug 2026 09:39:00 GMT",
+          "source": "한겨레"
         }
       ],
       "fear_articles": [
@@ -65,7 +65,7 @@
     }
   },
   "volatility": {
-    "vix": 16.68,
+    "vix": 16.89,
     "vvix": 92.57,
     "skew": 126.41,
     "move": 77.56
