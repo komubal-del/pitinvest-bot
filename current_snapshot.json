@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T18:16:52.945953+09:00",
+  "timestamp": "2026-08-06T20:37:16.731092+09:00",
   "sentiment": {
     "cnn_fng": 60.4285714285714,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 46,
+      "greed_count": 3,
+      "fear_count": 50,
       "greed_articles": [
         {
           "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
@@ -30,19 +30,25 @@
           "source": "뉴스핌"
         },
         {
-          "title": "‘농업·농촌’ 어디에 어떻게 쓸까?…증시 활황에 농특세 수입 18조 전망 - 농민신문",
+          "title": "‘농업·농촌’ 어디에 어떻게 쓸까?…증시 활황에 농특세 수입 18조 전망 - nongmin.com",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfWWoydThRTXR1YzZDNXFveFY4NjlQWTdsN3pDaXFKTjdTWmpMNjdhRnEwZGxzTW9YWlMtV2FnLUhGNHZ2QWR6blhpNUhUOVQxNklWMERuOElndw?oc=5",
           "pub_date": "Thu, 06 Aug 2026 07:46:00 GMT",
-          "source": "농민신문"
-        },
-        {
-          "title": "코스닥 ‘빚투’ 5조 8천억 원…석 달만에 반토막 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DbllxY2NySEJCUy1OcFFDc3pzMU0xaS1GSXQ3MHZMNWxQVmRzMHdIMTJBZTQ3ZXo2V1QwSERiVnc2RkRwZGFKbTlDd3pjVjZSOWo3VVVxWV91UW8?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 05:03:00 GMT",
-          "source": "KBS 뉴스"
+          "source": "nongmin.com"
         }
       ],
       "fear_articles": [
+        {
+          "title": "美 반도체 충격에 코스피 급락…SK하이닉스 10%대↓ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFQWdJdG9zU2JpVjFXUnV1Tlkwd243ZENQVjctM1I5VzRvU2FscXFvaHBaUTg0eWN0cWI4eFBhT3hwbldSdnJBNlpzYlE0dlgtc3A5cHFWZldEZjJtbWVhcE5hY3E2OGc?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 10:22:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "[경제]코스피 4.6% 급락에 6,200선으로...코스닥은 상승 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91aHc1Z2NTcTZrUVpUN3VjTk90MjVNN2RKS2ZHN0hhZnNtX1luWi1NZVVyempJM0lFRkVSU040Nk5YMEEtU2hVdVJzOXBLZml3LXR0TlFCUmhMbDFVa3pkUWd4ZjhZZUQ1SWxKOVNaMA?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 08:03:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "코스피, 4.6% 급락 6,200대 마감…코스닥은 닷새째 상승 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14MzVfQkVSR0tXTXVjXzBNSmUtczgxUFFWblNwSkFIcU42bnB0QWttTFhSRWJNT1VTUzVfOHlQbThaR1VYOVQ5eWpUeEhURjhkQUFVSDUtRGFPaWZ2X2xxMtIBYEFVX3lxTE14MzVfQkVSR0tXTXVjXzBNSmUtczgxUFFWblNwSkFIcU42bnB0QWttTFhSRWJNT1VTUzVfOHlQbThaR1VYOVQ5eWpUeEhURjhkQUFVSDUtRGFPaWZ2X2xxMg?oc=5",
@@ -50,34 +56,22 @@
           "source": "연합뉴스"
         },
         {
-          "title": "[증시-마감] 코스피, 4.6% 급락 마감…코스닥 3주만에 800선 회복 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZS052TmNuazZBaTRQTVQyWkxpRTExRFZyQTBEcHhDNm0tc1dIMmloMjFoYWN5Skk2c2dJeEtwekE3a2RjUnhBM3FIamJFNElFNEhWOTZfaXN2cnR2ZWU3bXRieGpqdEc1c2xaUldfaktZN1BP?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 07:16:49 GMT",
-          "source": "연합인포맥스"
+          "title": "[마감] 코스피, 반도체株 급락에 4.58% 하락…6296선 마감 By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SSWxUdzV5X1JQRmhDa2sydzJ4alo4N3RiUnoyeWZleUFxOXJJbWUydXlzNEQzcmN0QjJpTWpHUnJCaWppN3lDLXRmWWNLMHZCR2JQLVltdUViM0k5SnJOQmJ4TGtYSkJCX2dsaDRCdVU?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 09:40:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "골드만삭스 \"코스피 급락 과도...목표치 1만2000 유지″ - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYnVEWTI4aWJoNkFUMTc3bDBXTjNRa0Q1NUJ1TFRGRnRrMjBnLXJsSF9qcjRibEs0UE5nb0VqSW51RC1IcWZqU1pzN2w5bUthMmQwZTExNDV4cDZSQWU5Z0JhWGVtaXlMd2RJZ19mZWJ4aG13NkVyYUJvZlZIMi1zSA?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 06:58:52 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "코스피, 4.6% 급락 6,200대 마감…코스닥은 닷새째 상승 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KanhCWVFXQ1VTWjNQWFpqbzFhV09aeTdjclFJSGhObDgyeUNlUW1hWU1mOUpuazAtX3B0N1dleVUweUxIYzVqbGpFVVBuM0VsSmRFVXp1ZlBlWXc?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 06:45:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "코스피 급락에 '매도 사이드카'...코스닥은 상승 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXVjcxOWZ0UG1qTnRGZGhyeHVyN2tpdllYdERfNnhHUGliSGs2NWd3ZE5pb0R4cXRJNzg0VkQyZm56VXVEbWZKUk5NRHRfZUNEd1FtY2g4cThISS1adnNVdG5DVU1STHNobGZMek1Va0VEUjJ3d0E?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 05:38:00 GMT",
-          "source": "YTN"
+          "title": "삼성전자 6%↓·SK하이닉스 10%↓‥반도체주 급락에 코스피 4% 넘게 하락 마감 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wMUc3UWppLU5CYnBLS2tQYVo3UEVKM3VybTM3TnExNm1VQzZrRDgzQnJHRDJlUHNvalVsamJsSEdmMFdQMEJKdm9CTUt0bTBwSzNaSHdqVldfTmRGZng2THRjY0t1bVpVaU85OWVDcUZuNkEt0gF0QVVfeXFMUHdHSjU4RjRia01zbkhOOGU4N1FaZmZqX1BJT3pMcEo5SGNzTk1RSERMTFhUYzdUVUhid2RsQ3JUbklwd3ExTDZ5UXgxVm9pbWZ0ZnA0U0ExTG5EVHNyN3NJcjgwTXl6b0tqUjk4NS1xTm1MM2g?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 06:52:45 GMT",
+          "source": "MBC 뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.89,
+    "vix": 15.85,
     "vvix": 90.43,
     "skew": 133.32,
     "move": 73.58
@@ -199,16 +193,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": false,
+      "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.06",
+            "close": 230500,
+            "change_pct": -6.3,
+            "retail_net": 4354471,
+            "inst_net": -1220335,
+            "foreign_net": -3134136
+          },
           {
             "date": "2026.08.05",
             "close": 246000,
@@ -240,17 +242,17 @@
             "retail_net": -11977970,
             "inst_net": 3618959,
             "foreign_net": 8359011
-          },
-          {
-            "date": "2026.07.30",
-            "close": 207000,
-            "change_pct": -0.72,
-            "retail_net": -418752,
-            "inst_net": -237928,
-            "foreign_net": 656680
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.06",
+            "close": 1495000,
+            "change_pct": -10.37,
+            "retail_net": 1376923,
+            "inst_net": -275040,
+            "foreign_net": -1101883
+          },
           {
             "date": "2026.08.05",
             "close": 1668000,
@@ -282,14 +284,6 @@
             "retail_net": -2482950,
             "inst_net": 277183,
             "foreign_net": 2205767
-          },
-          {
-            "date": "2026.07.30",
-            "close": 1322000,
-            "change_pct": -5.64,
-            "retail_net": -364347,
-            "inst_net": -80151,
-            "foreign_net": 444498
           }
         ]
       }
