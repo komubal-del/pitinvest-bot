@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-06T15:16:50.037441+09:00",
+  "timestamp": "2026-08-06T18:16:52.945953+09:00",
   "sentiment": {
-    "cnn_fng": 59.5428571428571,
+    "cnn_fng": 60.4285714285714,
     "cnn_components": {
       "momentum": 78.0,
-      "strength": 29.4,
-      "breadth": 35.6,
+      "strength": 33.4,
+      "breadth": 37.8,
       "put_call": 59.0,
       "junk_bond": 94.4,
       "volatility": 50.0,
@@ -14,65 +14,77 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 32,
+      "greed_count": 4,
+      "fear_count": 46,
       "greed_articles": [
+        {
+          "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45aVFVYUt0blJGRGtpT3BZaEg5YUk1dmZtdUxQWmdDZnY1TlNCdHdhRm5UaEUwSUhkc2ZNV015MWd3emQyUUFRVG11YU5TejFETFE?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 07:48:28 GMT",
+          "source": "매일경제 마켓"
+        },
+        {
+          "title": "빚투·레버리지 줄었지만, 반도체 두 종목에 코스피 '휘청' - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53dUVEeEtRZWNsQzZDSDlSNkVOLV9RRkdhM3NzNE9lbC1fYU5HZE40UlVMZDg5YTBpMGdkWDRwRnhPbEpmai1PQWh4ZE05X1l1R2w5bU1zeVQwUW1R?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 09:05:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "‘농업·농촌’ 어디에 어떻게 쓸까?…증시 활황에 농특세 수입 18조 전망 - 농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfWWoydThRTXR1YzZDNXFveFY4NjlQWTdsN3pDaXFKTjdTWmpMNjdhRnEwZGxzTW9YWlMtV2FnLUhGNHZ2QWR6blhpNUhUOVQxNklWMERuOElndw?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 07:46:00 GMT",
+          "source": "농민신문"
+        },
         {
           "title": "코스닥 ‘빚투’ 5조 8천억 원…석 달만에 반토막 - KBS 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DbllxY2NySEJCUy1OcFFDc3pzMU0xaS1GSXQ3MHZMNWxQVmRzMHdIMTJBZTQ3ZXo2V1QwSERiVnc2RkRwZGFKbTlDd3pjVjZSOWo3VVVxWV91UW8?oc=5",
           "pub_date": "Thu, 06 Aug 2026 05:03:00 GMT",
           "source": "KBS 뉴스"
-        },
-        {
-          "title": "빚투 줄고 대기자금 회복…증시 ‘디레버리징’으로 균형 찾을까 - 브릿지경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yMDh2UFh4TjFrbG1HckdlQXJxcHNXSzg5SXRWdFR5QkxPRXhLNHhQOVBwZURrb1A0ck9ObTY0amRwZ0tfdDFzb1E0ODhkQ2tiN0RfZE0xWWFNQQ?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 05:26:00 GMT",
-          "source": "브릿지경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 4~5%대 급락, 삼전닉스 휘청…코스닥도 하락 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHWXp6djVwV1ZGTjNwajZwcWk0R0Z6R1p3QmFpYVhDQWpPY3VMaUxidkZ1VExlVTdjS21fOEhOaWFCeXgwVTlGeUo5YTJITjd4Y2JQY0x5UWJwSknSAWBBVV95cUxQSUN6eHY0Q1JETllaQjRCMXNRVWZMVWRRVWU5alVrOG0wYlZ6UzVZTnBCV010SmpwMzR3Zjg3cTYwQ1dYWmxFaTRselRQcHZLdkxUeGxTTFVvbXV1WFh2Mjg?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 02:25:20 GMT",
+          "title": "코스피, 4.6% 급락 6,200대 마감…코스닥은 닷새째 상승 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14MzVfQkVSR0tXTXVjXzBNSmUtczgxUFFWblNwSkFIcU42bnB0QWttTFhSRWJNT1VTUzVfOHlQbThaR1VYOVQ5eWpUeEhURjhkQUFVSDUtRGFPaWZ2X2xxMtIBYEFVX3lxTE14MzVfQkVSR0tXTXVjXzBNSmUtczgxUFFWblNwSkFIcU42bnB0QWttTFhSRWJNT1VTUzVfOHlQbThaR1VYOVQ5eWpUeEhURjhkQUFVSDUtRGFPaWZ2X2xxMg?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 06:37:02 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "골드만삭스 \"코스피 급락은 조정일 뿐…목표치 12,000 유지\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJLXh1LWNaaUkzc2ZyRkpyYS03dEFHWXhiZUVMQzlvWkZDWG50Nm9PanRKd1o5VTNuOG5kX0lfTzZrc2NkM3Q5bmRTdG8wRWM?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 05:30:00 GMT",
-          "source": "v.daum.net"
+          "title": "[증시-마감] 코스피, 4.6% 급락 마감…코스닥 3주만에 800선 회복 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZS052TmNuazZBaTRQTVQyWkxpRTExRFZyQTBEcHhDNm0tc1dIMmloMjFoYWN5Skk2c2dJeEtwekE3a2RjUnhBM3FIamJFNElFNEhWOTZfaXN2cnR2ZWU3bXRieGpqdEc1c2xaUldfaktZN1BP?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 07:16:49 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피 급락에 '매도 사이드카'...코스닥도 하락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NaktyMF9OS0JsSWxSbmFxblRSTXlGc3Z2MkN1dGY3c21NRlVMb1NmWTR2YXloOHhvSUM5UWJDdlRVME9sTHA0cjE1LXNSZlZKRnRBQ3FUeGpHTmNvc2c?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 02:45:00 GMT",
+          "title": "골드만삭스 \"코스피 급락 과도...목표치 1만2000 유지″ - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYnVEWTI4aWJoNkFUMTc3bDBXTjNRa0Q1NUJ1TFRGRnRrMjBnLXJsSF9qcjRibEs0UE5nb0VqSW51RC1IcWZqU1pzN2w5bUthMmQwZTExNDV4cDZSQWU5Z0JhWGVtaXlMd2RJZ19mZWJ4aG13NkVyYUJvZlZIMi1zSA?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 06:58:52 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "코스피, 4.6% 급락 6,200대 마감…코스닥은 닷새째 상승 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KanhCWVFXQ1VTWjNQWFpqbzFhV09aeTdjclFJSGhObDgyeUNlUW1hWU1mOUpuazAtX3B0N1dleVUweUxIYzVqbGpFVVBuM0VsSmRFVXp1ZlBlWXc?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 06:45:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "코스피 급락에 '매도 사이드카'...코스닥은 상승 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXVjcxOWZ0UG1qTnRGZGhyeHVyN2tpdllYdERfNnhHUGliSGs2NWd3ZE5pb0R4cXRJNzg0VkQyZm56VXVEbWZKUk5NRHRfZUNEd1FtY2g4cThISS1adnNVdG5DVU1STHNobGZMek1Va0VEUjJ3d0E?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 05:38:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "코스피 매도 사이드카‥'삼전·닉스' 급락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mTTAyeTV2dFdfdHQ2Nkh1Tm1jM2tWakpQd2luS1p3VUJvdTVocFZ6RU9wRUJ3ZExKeGoyY1h2MVR4U2ZZdmhfM29VeHpWbHViNUJucWtHLVIxRjFacHQ0N0R6ZkpXQnpaUTlMSi0yX21jLS0yaDBsLQ?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 03:11:55 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "시작부터 3~4%대 내리는 코스피…삼전닉스는 급락중 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00WjFweV82YmVJLVByUUZiT242eXoxNGdHbEg0NlJfTXNtTVVFTElGc19BZnR6M1dVTERUNWdIc1M1bWM1bHF0NU90V2pObGpKZjA0ZQ?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 00:12:00 GMT",
-          "source": "JTBC"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.81,
+    "vix": 15.89,
     "vvix": 90.43,
     "skew": 133.32,
     "move": 73.58
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3405100000000,
-    "retail_net_buy_krw": 3283500000000,
+    "foreign_inst_buy_krw": -3410700000000,
+    "retail_net_buy_krw": 3336700000000,
     "margin_loan_krw": 27020400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +99,18 @@
       "sma_200": 24053.6
     },
     "kospi": {
-      "current": 6301.78,
+      "current": 6296.38,
       "high_52w": 9385.59,
-      "drop_pct": -32.86,
+      "drop_pct": -32.91,
       "intraday_low_drop_pct": -33.53,
-      "sma_200": 5790.27
+      "sma_200": 5790.25
     },
     "kosdaq": {
-      "current": 804.68,
+      "current": 801.67,
       "high_52w": 1229.42,
-      "drop_pct": -34.55,
+      "drop_pct": -34.79,
       "intraday_low_drop_pct": -36.63,
-      "sma_200": 995.55
+      "sma_200": 995.53
     },
     "sp500": {
       "current": 7723.55,
