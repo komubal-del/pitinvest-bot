@@ -1,52 +1,65 @@
 {
-  "timestamp": "2026-08-06T12:46:20.760447+09:00",
+  "timestamp": "2026-08-06T15:16:50.037441+09:00",
   "sentiment": {
-    "cnn_fng": 59.6571428571429,
+    "cnn_fng": 59.5428571428571,
     "cnn_components": {
       "momentum": 78.0,
       "strength": 29.4,
       "breadth": 35.6,
       "put_call": 59.0,
-      "junk_bond": 95.2,
+      "junk_bond": 94.4,
       "volatility": 50.0,
       "safe_haven": 70.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 26,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 32,
+      "greed_articles": [
+        {
+          "title": "코스닥 ‘빚투’ 5조 8천억 원…석 달만에 반토막 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DbllxY2NySEJCUy1OcFFDc3pzMU0xaS1GSXQ3MHZMNWxQVmRzMHdIMTJBZTQ3ZXo2V1QwSERiVnc2RkRwZGFKbTlDd3pjVjZSOWo3VVVxWV91UW8?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 05:03:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "빚투 줄고 대기자금 회복…증시 ‘디레버리징’으로 균형 찾을까 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yMDh2UFh4TjFrbG1HckdlQXJxcHNXSzg5SXRWdFR5QkxPRXhLNHhQOVBwZURrb1A0ck9ObTY0amRwZ0tfdDFzb1E0ODhkQ2tiN0RfZE0xWWFNQQ?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 05:26:00 GMT",
+          "source": "브릿지경제"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "코스피 4~5%대 급락, 삼전닉스 휘청…코스닥도 하락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90eXdLQ0cxZnJjTFNlYk1fM0FCQUs5Nm1tZjRFeUlOU2l1NnI3Q3p4bmhPUEV3cUFHSG5BbnJHQnZ3MlEyOElwUlhSVlhIc0E?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 02:26:57 GMT",
+          "title": "코스피 4~5%대 급락, 삼전닉스 휘청…코스닥도 하락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHWXp6djVwV1ZGTjNwajZwcWk0R0Z6R1p3QmFpYVhDQWpPY3VMaUxidkZ1VExlVTdjS21fOEhOaWFCeXgwVTlGeUo5YTJITjd4Y2JQY0x5UWJwSknSAWBBVV95cUxQSUN6eHY0Q1JETllaQjRCMXNRVWZMVWRRVWU5alVrOG0wYlZ6UzVZTnBCV010SmpwMzR3Zjg3cTYwQ1dYWmxFaTRselRQcHZLdkxUeGxTTFVvbXV1WFh2Mjg?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 02:25:20 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "골드만삭스 \"코스피 급락은 조정일 뿐…목표치 12,000 유지\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJLXh1LWNaaUkzc2ZyRkpyYS03dEFHWXhiZUVMQzlvWkZDWG50Nm9PanRKd1o5VTNuOG5kX0lfTzZrc2NkM3Q5bmRTdG8wRWM?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 05:30:00 GMT",
           "source": "v.daum.net"
         },
         {
           "title": "코스피 급락에 '매도 사이드카'...코스닥도 하락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05WmZUY1BfR0JTMTNQY3kwQTBBT0xFWlZIODE2aWdrZnZDdng4UGpXVVhLR0pRWWVFeTI1UFRxUjcyV1lpdGRTYzVVT0hnVW53VzVQNVItZjNVdmFfeUhrdmw1d3ZzSWJWZ2d4akRoZGxJNV9uQ3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NaktyMF9OS0JsSWxSbmFxblRSTXlGc3Z2MkN1dGY3c21NRlVMb1NmWTR2YXloOHhvSUM5UWJDdlRVME9sTHA0cjE1LXNSZlZKRnRBQ3FUeGpHTmNvc2c?oc=5",
           "pub_date": "Thu, 06 Aug 2026 02:45:00 GMT",
           "source": "YTN"
         },
         {
-          "title": "코스피 하락에 매도 사이드카…반도체주 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtOGJWUXJLTmJ0Ty1vMVc3NEhQdmVNOUx1amJRTEh1NjFfcjk1b3JvTVNRdWdlZzlFRlZxWjNQSFZWMWI4SFRGeVhCUjQ5akEzOXBVdUcwSV9RUEk?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 01:34:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "코스피 매도 사이드카‥'삼전·닉스' 급락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mTTAyeTV2dFdfdHQ2Nkh1Tm1jM2tWakpQd2luS1p3VUJvdTVocFZ6RU9wRUJ3ZExKeGoyY1h2MVR4U2ZZdmhfM29VeHpWbHViNUJucWtHLVIxRjFacHQ0N0R6ZkpXQnpaUTlMSi0yX21jLS0yaDBsLQ?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 03:11:55 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "코스피 5%대 급락에 6300선 붕괴...매도 사이드카 발동 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFX3dwdHlJanVteHQxaDN1TDFpUTZSNi1zUjhpS1NVWjg0dkRmQno4UjlvRk4zMXRxbExYdWRZRjJiZVBjZ1pNclptZkIyOExxUXNsN1NrSUw1cUJrTmJnWlVmUEJaTWdO0gFuQVVfeXFMTnlCek96UDQ0OGdoT2hsUTBfOVh1dDFoX004VWVqUFBFakZGeWtVYUp0TjRaQkNUZUdlZ2drcE5yWllyeDB6eWxWWVctRnZ6OGs4c3BJMU9PdWNDZ3c4am9DSjhZWi1ld3NFbjNoelE?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 01:35:39 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "코스피 장중 6300선 ‘매도 사이드카’…SK하이닉스 8% 급락 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0SVFMb0xGR0wxeTVDampuMEM0OWNEMWFfUExUYWYxMXY2RGFXZXYwNlpKOFlhZHdHbm85dTVCanNSMzJMTkNyaExiWkc2SW5RemlsMW83aFVmVS05dG1BQmNzbzctOU0?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 02:01:00 GMT",
-          "source": "한겨레"
+          "title": "시작부터 3~4%대 내리는 코스피…삼전닉스는 급락중 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00WjFweV82YmVJLVByUUZiT242eXoxNGdHbEg0NlJfTXNtTVVFTElGc19BZnR6M1dVTERUNWdIc1M1bWM1bHF0NU90V2pObGpKZjA0ZQ?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 00:12:00 GMT",
+          "source": "JTBC"
         }
       ]
     }
@@ -58,8 +71,8 @@
     "move": 73.58
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2415900000000,
-    "retail_net_buy_krw": 2348100000000,
+    "foreign_inst_buy_krw": -3405100000000,
+    "retail_net_buy_krw": 3283500000000,
     "margin_loan_krw": 27020400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -71,42 +84,42 @@
       "high_52w": 27190.21,
       "drop_pct": -3.04,
       "intraday_low_drop_pct": -3.1,
-      "sma_200": 23988.41
+      "sma_200": 24053.6
     },
     "kospi": {
-      "current": 6321.3,
+      "current": 6301.78,
       "high_52w": 9385.59,
-      "drop_pct": -32.65,
+      "drop_pct": -32.86,
       "intraday_low_drop_pct": -33.53,
-      "sma_200": 5790.37
+      "sma_200": 5790.27
     },
     "kosdaq": {
-      "current": 799.97,
+      "current": 804.68,
       "high_52w": 1229.42,
-      "drop_pct": -34.93,
+      "drop_pct": -34.55,
       "intraday_low_drop_pct": -36.63,
-      "sma_200": 996.86
+      "sma_200": 995.55
     },
     "sp500": {
       "current": 7723.55,
       "high_52w": 7793.68,
       "drop_pct": -0.9,
       "intraday_low_drop_pct": -0.94,
-      "sma_200": 7021.51
+      "sma_200": 7039.69
     },
     "russell2k": {
       "current": 3019.19,
       "high_52w": 3048.85,
       "drop_pct": -0.97,
       "intraday_low_drop_pct": -1.0,
-      "sma_200": 2674.42
+      "sma_200": 2684.28
     },
     "soxx": {
       "current": 530.7,
       "high_52w": 655.95,
       "drop_pct": -19.09,
       "intraday_low_drop_pct": -19.37,
-      "sma_200": 404.88
+      "sma_200": 406.15
     }
   },
   "sector_rs": {
