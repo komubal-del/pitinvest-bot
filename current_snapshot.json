@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T20:37:16.731092+09:00",
+  "timestamp": "2026-08-06T22:19:21.942338+09:00",
   "sentiment": {
     "cnn_fng": 60.4285714285714,
     "cnn_components": {
@@ -15,39 +15,33 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 50,
+      "fear_count": 47,
       "greed_articles": [
         {
-          "title": "“증시 반등하자 ‘빚투’ 7일 만에 돌아섰다”…신용융자 늘어 ‘28조원대’ - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45aVFVYUt0blJGRGtpT3BZaEg5YUk1dmZtdUxQWmdDZnY1TlNCdHdhRm5UaEUwSUhkc2ZNV015MWd3emQyUUFRVG11YU5TejFETFE?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 07:48:28 GMT",
+          "title": "삼닉 레버리지 쏠림완화 속 … 증시 투자열기까지 식었다 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kbkN1XzNRMTZUck5VNmFFOTdPbE9WakUzWThRVXBMMUJsRWJqakF3THBCV2xCNC1BV2tOM0xqSVdfaFNRa1R4Zk50Q1NmSExyeXc?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 09:10:55 GMT",
           "source": "매일경제 마켓"
         },
         {
-          "title": "빚투·레버리지 줄었지만, 반도체 두 종목에 코스피 '휘청' - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53dUVEeEtRZWNsQzZDSDlSNkVOLV9RRkdhM3NzNE9lbC1fYU5HZE40UlVMZDg5YTBpMGdkWDRwRnhPbEpmai1PQWh4ZE05X1l1R2w5bU1zeVQwUW1R?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 09:05:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "‘농업·농촌’ 어디에 어떻게 쓸까?…증시 활황에 농특세 수입 18조 전망 - nongmin.com",
+          "title": "‘농업·농촌’ 어디에 어떻게 쓸까?…증시 활황에 농특세 수입 18조 전망 - 농민신문",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfWWoydThRTXR1YzZDNXFveFY4NjlQWTdsN3pDaXFKTjdTWmpMNjdhRnEwZGxzTW9YWlMtV2FnLUhGNHZ2QWR6blhpNUhUOVQxNklWMERuOElndw?oc=5",
           "pub_date": "Thu, 06 Aug 2026 07:46:00 GMT",
-          "source": "nongmin.com"
+          "source": "농민신문"
+        },
+        {
+          "title": "빚투·레버리지 줄었지만, 반도체 두 종목에 코스피 '휘청' - newspim.com",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53dUVEeEtRZWNsQzZDSDlSNkVOLV9RRkdhM3NzNE9lbC1fYU5HZE40UlVMZDg5YTBpMGdkWDRwRnhPbEpmai1PQWh4ZE05X1l1R2w5bU1zeVQwUW1R?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 09:05:00 GMT",
+          "source": "newspim.com"
         }
       ],
       "fear_articles": [
         {
-          "title": "美 반도체 충격에 코스피 급락…SK하이닉스 10%대↓ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFQWdJdG9zU2JpVjFXUnV1Tlkwd243ZENQVjctM1I5VzRvU2FscXFvaHBaUTg0eWN0cWI4eFBhT3hwbldSdnJBNlpzYlE0dlgtc3A5cHFWZldEZjJtbWVhcE5hY3E2OGc?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 10:22:00 GMT",
+          "title": "반도체주 투매에…코스피 4.58% 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02NFZKM25hM3I0d0c0TVZ1cVZxQm5HMmJvN21rZFRVSXB5cTBTVHRCZEthLVJpdlJqb1NKMlZMR0RLbkQwWXoxQzl3SlV4VFU2THpNNHRrdXZkX053UERnZUNVSzlPcDQ?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 09:27:00 GMT",
           "source": "연합뉴스TV"
-        },
-        {
-          "title": "[경제]코스피 4.6% 급락에 6,200선으로...코스닥은 상승 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91aHc1Z2NTcTZrUVpUN3VjTk90MjVNN2RKS2ZHN0hhZnNtX1luWi1NZVVyempJM0lFRkVSU040Nk5YMEEtU2hVdVJzOXBLZml3LXR0TlFCUmhMbDFVa3pkUWd4ZjhZZUQ1SWxKOVNaMA?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 08:03:00 GMT",
-          "source": "YTN"
         },
         {
           "title": "코스피, 4.6% 급락 6,200대 마감…코스닥은 닷새째 상승 - 연합뉴스",
@@ -62,16 +56,22 @@
           "source": "Investing.com 한국어"
         },
         {
-          "title": "삼성전자 6%↓·SK하이닉스 10%↓‥반도체주 급락에 코스피 4% 넘게 하락 마감 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wMUc3UWppLU5CYnBLS2tQYVo3UEVKM3VybTM3TnExNm1VQzZrRDgzQnJHRDJlUHNvalVsamJsSEdmMFdQMEJKdm9CTUt0bTBwSzNaSHdqVldfTmRGZng2THRjY0t1bVpVaU85OWVDcUZuNkEt0gF0QVVfeXFMUHdHSjU4RjRia01zbkhOOGU4N1FaZmZqX1BJT3pMcEo5SGNzTk1RSERMTFhUYzdUVUhid2RsQ3JUbklwd3ExTDZ5UXgxVm9pbWZ0ZnA0U0ExTG5EVHNyN3NJcjgwTXl6b0tqUjk4NS1xTm1MM2g?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 06:52:45 GMT",
-          "source": "MBC 뉴스"
+          "title": "골드만삭스 \"코스피 급락은 조정일뿐…‘1.2만피’ 전망\" - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UWVN6eHBhNm1lMGJ0aWg2Y3dha2x3aWlpRmptYWFrYmhqMS1hRVB4QU51NzVlUXBTRmVKRzltVzNJUzJjVXlmR2liZHBoa0t1NHNYNw?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 08:58:00 GMT",
+          "source": "JTBC"
+        },
+        {
+          "title": "코스피 4.6% 급락에 6,200선으로...코스닥은 상승 - ytn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JbHg2RDRqTHlvOUlEUl9Nakw4bWplQmJ0cV9acWlzcERkWTYtWktfcHZ2V2h3UFpSZ09zOFVsS2s0ZERnMWp4S0htVVhPeXgwVElwV0JKUnRKejNucEE?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 08:03:00 GMT",
+          "source": "ytn.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.85,
+    "vix": 15.98,
     "vvix": 90.43,
     "skew": 133.32,
     "move": 73.58
