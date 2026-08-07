@@ -1,66 +1,28 @@
 {
-  "timestamp": "2026-08-07T22:22:37.066752+09:00",
+  "timestamp": "2026-08-07T23:28:56.294743+09:00",
   "sentiment": {
-    "cnn_fng": 59.6,
+    "cnn_fng": 63.3428571428571,
     "cnn_components": {
-      "momentum": 73.2,
+      "momentum": 74.4,
       "strength": 32.0,
-      "breadth": 36.0,
-      "put_call": 63.4,
-      "junk_bond": 96.4,
+      "breadth": 40.4,
+      "put_call": 87.6,
+      "junk_bond": 97.6,
       "volatility": 50.0,
-      "safe_haven": 66.2
+      "safe_haven": 62.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 14,
-      "greed_articles": [
-        {
-          "title": "코스피, 외인·기관 저가 매수에 6400선 터치… 삼전닉스도 상승 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hSkhzN01QMFNpby1CZ29YdDJydGpHSmZzOGNaSjlHYzBrbGVnMFJHOHBOcTVzcS1iaDhQRzg4d3pEcl92S3VmQWE2ZkFfbVhrREd3RG1obWhRanBaUmQwNkFyMTV4TVZE0gFuQVVfeXFMT0xtcC1aQnB5VDZMZEdmRFg0OWppQUxySXhiR0dseFhQNUhUVkQ2YlpXLWxncXJYQWFnWmtaRlR0UjhhdTJhSjA2OVZ0ekVsb2Mza2ZtQWp1RzVJcDhrY09iTnFkYWlnbFptblNVLXc?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 05:15:40 GMT",
-          "source": "머니투데이"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "주주환원 실망에 SK하이닉스↓…코스피도 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1QjR3OWk0TmtjU0ktbHJTNU5mNjBuQzllUVdaOVdCUVdSY3VWcjFUUHJTVy14OU03b3JmekQ1Q2k4U2ZDYVNtd181c1lfenF1U2swa3F3SWh1cFR5YWdRdkUxNUo0YVU?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 11:01:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "주주환원 실망에 SK하이닉스↓…코스피도 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IbXBueWdSNGYtQTRRRnhBWE0za01SanNvZkFYRk5HbG9KM21tQURPWU9icEkyRWE5SFViWmt6RW5UR2k4dkxVX0oyeU1lUUU?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 11:02:43 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[경제][속보] 장중 동반 하락 전환...코스피·코스닥 약세 마감 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6eHZHc3RhSjYxV0p4R0xybnN5bU1mWjRoaHVPd0J0eVZnbV9ULTE4VGtNal83X3Q2Y2R4Rm9PZ1E2azgxRHVPTkFhVlNsNVVDaFlMOUg3OWRVc29IWHFnTzQxVnl2NDhrZkVaZDdJSQ?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 06:40:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "코스피·코스닥, 상승 출발 후 장중 하락 전환 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Yb0pWd3VBNEczeXAxUTlrZjJCQ0Jpc1JzWEhWN1p2bzM2MWJjai1OZkNrUVlTSjN4Si1TZEk5bk8wTFI0eFR5V3ZGQU43QzBwUUNoU2JGSlFEOHZ2Z1Z2MlVaSjB3N1VpdjFiaHZUdnh6RzluWEE?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 02:47:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "코스피, 외인 ‘팔자’에 6200선 마감…SK하이닉스 4.88% 급락 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMkhWSlF4SjZicWtHbFVfRDBWLXpja05IUllEcHdMU0RoY1ZOYmRaTG1kbmN2aWU0R1FKWm02RzNUeElPaExIYlZSZFJ5aHQzRzFYRlh6c2h1ZzBGVWg5WVozNE0xWER2c1VvaklWYzFCZw?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 08:58:18 GMT",
-          "source": "인더스트리뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.31,
-    "vvix": 88.72,
+    "vix": 14.95,
+    "vvix": 90.25,
     "skew": 134.73,
     "move": 76.12
   },
@@ -74,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26348.35,
+      "current": 26654.48,
       "high_52w": 27190.21,
-      "drop_pct": -3.1,
-      "intraday_low_drop_pct": -3.61,
-      "sma_200": 24071.94
+      "drop_pct": -1.97,
+      "intraday_low_drop_pct": -2.62,
+      "sma_200": 24090.26
     },
     "kospi": {
       "current": 6258.77,
@@ -95,34 +57,34 @@
       "sma_200": 995.2
     },
     "sp500": {
-      "current": 7709.96,
+      "current": 7755.94,
       "high_52w": 7793.68,
-      "drop_pct": -1.07,
-      "intraday_low_drop_pct": -1.23,
-      "sma_200": 7044.92
+      "drop_pct": -0.48,
+      "intraday_low_drop_pct": -0.96,
+      "sma_200": 7050.02
     },
     "russell2k": {
-      "current": 3001.55,
+      "current": 3017.79,
       "high_52w": 3048.85,
-      "drop_pct": -1.55,
-      "intraday_low_drop_pct": -1.62,
-      "sma_200": 2687.02
+      "drop_pct": -1.02,
+      "intraday_low_drop_pct": -1.29,
+      "sma_200": 2689.61
     },
     "soxx": {
-      "current": 532.52,
+      "current": 540.04,
       "high_52w": 655.95,
-      "drop_pct": -18.82,
-      "intraday_low_drop_pct": -21.27,
-      "sma_200": 407.37
+      "drop_pct": -17.67,
+      "intraday_low_drop_pct": -19.01,
+      "sma_200": 408.61
     }
   },
   "sector_rs": {
-    "XLK": 1.038,
-    "SMH": 1.005,
-    "BOTZ": 0.881,
-    "IGV": 1.039,
-    "XLF": 1.068,
-    "XLE": 0.994
+    "XLK": 1.045,
+    "SMH": 1.014,
+    "BOTZ": 0.89,
+    "IGV": 1.069,
+    "XLF": 1.061,
+    "XLE": 0.977
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 63.82,
+    "tqqq_profit_pct": 68.37,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 147.35,
+    "soxl_profit_pct": 157.89,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.43,
+    "koru_profit_pct": -95.48,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
