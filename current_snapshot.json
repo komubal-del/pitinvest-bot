@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T16:59:35.729861+09:00",
+  "timestamp": "2026-08-07T18:11:47.160092+09:00",
   "sentiment": {
     "cnn_fng": 59.6,
     "cnn_components": {
@@ -14,29 +14,29 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 15,
+      "greed_count": 1,
+      "fear_count": 17,
       "greed_articles": [
         {
           "title": "코스피, 외인·기관 저가 매수에 6400선 터치… 삼전닉스도 상승 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hSkhzN01QMFNpby1CZ29YdDJydGpHSmZzOGNaSjlHYzBrbGVnMFJHOHBOcTVzcS1iaDhQRzg4d3pEcl92S3VmQWE2ZkFfbVhrREd3RG1obWhRanBaUmQwNkFyMTV4TVZE0gFuQVVfeXFMT0xtcC1aQnB5VDZMZEdmRFg0OWppQUxySXhiR0dseFhQNUhUVkQ2YlpXLWxncXJYQWFnWmtaRlR0UjhhdTJhSjA2OVZ0ekVsb2Mza2ZtQWp1RzVJcDhrY09iTnFkYWlnbFptblNVLXc?oc=5",
           "pub_date": "Fri, 07 Aug 2026 05:15:40 GMT",
           "source": "머니투데이"
-        },
-        {
-          "title": "코스피, 뉴욕증시 하락세 딛고 상승 출발… 반도체 대장주 저가 매수세 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wU0xWdTZhazFLZmotZVU2WDFpa0Fwc3FrYW1OM1JiX1NsR0gxTm9IRUg1cWtLWkFxSTFITmZJcXhXTlRVTklLbUVoMHA4d29tb082d0pHdW9lZ01jOFhfQ253Y3ZrVmRZb3NrMzR3MFlYeWZJMmfSAWZBVV95cUxOYnhBV0dtZ2JWdHJzeXpjaG9oUGZ5UmlPTFZOMHlLQURnbTZjU3ppWmlxUl9wMHNDcXdaenk2OGhRNHZidnlOaS16VzRRblpJZDB2ZGdmWndMMlQ3THk3OXJCMzliU3c?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 02:20:00 GMT",
-          "source": "동아일보"
-        },
-        {
-          "title": "코스피 반등에 ‘빚투’ 다시 꿈틀…신용융자 하루 새 1조원 넘게 늘어 - 시사저널",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PMm1xS0llME5vd2hpaGRnTngxNkFYZ2t2Snp2RXM0UGxXY1pwVC16R1k3Y2swR2hCbHhfZU5qQ1YwRGRjcDdIOVZpbWY1cXBSRlRheER6RGUzUk1PNHBoSkszR0VzVk9qbmJvSzgydGxLWTDSAXNBVV95cUxPTzJtcUtJZTBOb3doaWhkZ054MTZBWGdrdkp6dkVzNFBsV2NacFQtekdZN2NrMEdoQmx4X2VOakNWMERkY3A3SDlWaW1mNXFwUkZUYXhEekRlM1JNTzRwaEpLM0dFc1ZPam5ib0s4MnRsS1kw?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 03:32:33 GMT",
-          "source": "시사저널"
         }
       ],
       "fear_articles": [
+        {
+          "title": "[경제][속보] 장중 동반 하락 전환...코스피·코스닥 약세 마감 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6eHZHc3RhSjYxV0p4R0xybnN5bU1mWjRoaHVPd0J0eVZnbV9ULTE4VGtNal83X3Q2Y2R4Rm9PZ1E2azgxRHVPTkFhVlNsNVVDaFlMOUg3OWRVc29IWHFnTzQxVnl2NDhrZkVaZDdJSQ?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 06:40:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피, 외인 ‘팔자’에 6200선 마감…SK하이닉스 4.88% 급락 - industrynews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMkhWSlF4SjZicWtHbFVfRDBWLXpja05IUllEcHdMU0RoY1ZOYmRaTG1kbmN2aWU0R1FKWm02RzNUeElPaExIYlZSZFJ5aHQzRzFYRlh6c2h1ZzBGVWg5WVozNE0xWER2c1VvaklWYzFCZw?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 08:58:18 GMT",
+          "source": "industrynews.co.kr"
+        },
         {
           "title": "코스피·코스닥, 상승 출발 후 장중 하락 전환 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BVFo2YmlMdVlubXNXY0pxcmJPclVfZHd3TmtNci1DSDhCelNtQnRBWlVWaEVDdWdWRTVVb2hEeVkxWE1FS2N3X3A2Z1NldExicXlzS05OdVd0MURCZHc?oc=5",
@@ -44,41 +44,29 @@
           "source": "YTN"
         },
         {
-          "title": "코스피 상승 출발 후 보합권 후퇴…전일 급락분 만회 시도 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1dExmNlFXa3dnLWpqLWNzNTd5YjBNRHBkTHJlWnRvTzhpT3hneUR1TWZZTjRHbFlNYnRWdnRiYXBaNC0wdWdsRHhLek9OUFdRVkhEcHNwR24xRVlyek5Wc0NqekJYQUZkMkh0MTJ5Mk0?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 00:35:25 GMT",
-          "source": "연합인포맥스"
+          "title": "중동 긴장 재고조에…코스피·코스닥 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KTG51czRuYjR6TjhTTFB3Y2pMeU5Za3hyRjZlVEpDQmt5RDlaMDhHTEdjOG9Xa3NDTW1KaHluc3ZQSmNGNUVSX1RMY1ZINXQ0ZTNoSGlhXy1tY2plWnQyV0hMbDFpUjg?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 02:49:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "코스피, 외인 매도에 이틀째 약세…SK하이닉스 5% 급락 - 서울경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMc21MV0N3Y01TRDVyTFdvUU15dS1pbU5EN3BsVGFRdFhzaWRoRGczWHQ5cXNGV1RKSVV5eXQ2cTRoemh1X3RadTNRUjdLSkxDaVYtS21GOWUzWkJYZ0Y1S094a3Q?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 07:02:50 GMT",
-          "source": "서울경제TV"
-        },
-        {
-          "title": "[도쿄증시-마감] 반도체주 매도세 속 혼조 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmQ0RZdV9Oek5lZE42Vnd5czBtWUo2VjNfOXYtS0p6VGpFSDh1T0lHS1JoRy1WbnA3ejQxX3FrSVRyQWZZc0ZTdUdWODVxN2dublJob0E5dnA1STNtSWR2SWp4VU9hZlNBRklDYk9RQms?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 06:47:30 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxVlREdGkyTWtQdWNlSG8tanZIODF2aVl3RXBmcWNtZkZxYTJoZGJFcGROUGFHc0dyNGRxWWpxb3NRaHlMX3RabzBDLTZGSHNGemRDbVNkTU40endfbmlNd1Iya1YyRk56Rm1kWlVHdHhHUQ?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 02:06:00 GMT",
-          "source": "한겨레"
+          "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZcmpMZnhOM1lvdlY3a2h4YW96cUpkTUpScVBHLW5KTE5FUl9qWEQ3X1RmUk5QMzNIb3Y2Q0IwdzVkS1dNbzZmSWxPbUJBR2UzNzF5dVR4Z1ZKRzVjMHU1UHZlLWJTdmEwYUxocko1Tm91UFFhaWc?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 08:22:53 GMT",
+          "source": "인포스탁데일리"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.29,
+    "vix": 15.27,
     "vvix": 88.72,
     "skew": 134.73,
     "move": 76.12
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -279700000000,
-    "retail_net_buy_krw": 267600000000,
+    "retail_net_buy_krw": 267500000000,
     "margin_loan_krw": 28027700000000,
     "news_count": 0,
     "short_sale_balance": null,
