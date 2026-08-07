@@ -1,27 +1,39 @@
 {
-  "timestamp": "2026-08-07T12:38:38.240252+09:00",
+  "timestamp": "2026-08-07T14:23:05.651407+09:00",
   "sentiment": {
-    "cnn_fng": 59.7142857142857,
+    "cnn_fng": 59.6285714285714,
     "cnn_components": {
       "momentum": 73.2,
       "strength": 31.6,
       "breadth": 36.6,
       "put_call": 63.4,
-      "junk_bond": 97.0,
+      "junk_bond": 96.4,
       "volatility": 50.0,
       "safe_haven": 66.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 8,
-      "fear_count": 11,
+      "greed_count": 9,
+      "fear_count": 14,
       "greed_articles": [
         {
-          "title": "코스피, 외인·기관 저가 매수에 6400선 터치… 삼전닉스도 상승 - 머니투데이 - mt.co.kr",
+          "title": "코스피, 외인·기관 저가 매수에 6400선 터치… 삼전닉스도 상승 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hSkhzN01QMFNpby1CZ29YdDJydGpHSmZzOGNaSjlHYzBrbGVnMFJHOHBOcTVzcS1iaDhQRzg4d3pEcl92S3VmQWE2ZkFfbVhrREd3RG1obWhRanBaUmQwNkFyMTV4TVZE0gFuQVVfeXFMT0xtcC1aQnB5VDZMZEdmRFg0OWppQUxySXhiR0dseFhQNUhUVkQ2YlpXLWxncXJYQWFnWmtaRlR0UjhhdTJhSjA2OVZ0ekVsb2Mza2ZtQWp1RzVJcDhrY09iTnFkYWlnbFptblNVLXc?oc=5",
           "pub_date": "Fri, 07 Aug 2026 00:39:18 GMT",
-          "source": "mt.co.kr"
+          "source": "머니투데이"
+        },
+        {
+          "title": "코스피 반등에 ‘빚투’ 다시 꿈틀…신용융자 하루 새 1조원 넘게 늘어 - 시사저널",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PMm1xS0llME5vd2hpaGRnTngxNkFYZ2t2Snp2RXM0UGxXY1pwVC16R1k3Y2swR2hCbHhfZU5qQ1YwRGRjcDdIOVZpbWY1cXBSRlRheER6RGUzUk1PNHBoSkszR0VzVk9qbmJvSzgydGxLWTDSAXNBVV95cUxPTzJtcUtJZTBOb3doaWhkZ054MTZBWGdrdkp6dkVzNFBsV2NacFQtekdZN2NrMEdoQmx4X2VOakNWMERkY3A3SDlWaW1mNXFwUkZUYXhEekRlM1JNTzRwaEpLM0dFc1ZPam5ib0s4MnRsS1kw?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 03:32:33 GMT",
+          "source": "시사저널"
+        },
+        {
+          "title": "코스피, 뉴욕증시 하락세 딛고 상승 출발… 반도체 대장주 저가 매수세 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wU0xWdTZhazFLZmotZVU2WDFpa0Fwc3FrYW1OM1JiX1NsR0gxTm9IRUg1cWtLWkFxSTFITmZJcXhXTlRVTklLbUVoMHA4d29tb082d0pHdW9lZ01jOFhfQ253Y3ZrVmRZb3NrMzR3MFlYeWZJMmfSAWZBVV95cUxOYnhBV0dtZ2JWdHJzeXpjaG9oUGZ5UmlPTFZOMHlLQURnbTZjU3ppWmlxUl9wMHNDcXdaenk2OGhRNHZidnlOaS16VzRRblpJZDB2ZGdmWndMMlQ3THk3OXJCMzliU3c?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 02:20:46 GMT",
+          "source": "동아일보"
         },
         {
           "title": "호르무즈 불안에 뉴욕증시 약세…코스피 저가 매수 유입될까[장전시황] - 에너지경제신문",
@@ -30,28 +42,16 @@
           "source": "에너지경제신문"
         },
         {
-          "title": "코스피, 저가 매수세에 반등 시도…유가·美 고용지표 경계 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpbmxTR1VRcFZQLXpoQUdnX0x5M0dqc2VpZThsZUExdFRmd3VuekJteGx6anhjR290Y3lrMHFSOVJDdWNXLUthZ0RObV9rTWJqT3ZYUWRxUWlyVXZyb3AxNU8yU1RXajBJMDB1dU9uRFPSAXRBVV95cUxNVWpESVF3VzRHMlpPSUg4RW81WkFiaDY2QXhPMm9zZFhsNEpRLWRpRUZLSVl5Q3J1ajdhaHlQc0lxUkxhbUNFXzdCLUt2X013MzFLRDRLd2pYUUNjZ1NhZXdkU1lkZEtnTkI3VHJQQV9uTkpwYw?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 01:12:07 GMT",
-          "source": "산경투데이"
-        },
-        {
-          "title": "[증시 포인트] 반등 시도 전망...저가 매수세 유입 기대 - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MamRBX0xQaUdqenFoMVV3b2pabkR3UlozNURUMzBuOWNTMW9CYmRlMUdQMm05NXBwVnZOalp3RWRkOEVGUE1ubHFpeDNORlJwNG9ZemltdkVfLXBBWkZTaUx0WUtQLWtPUXZPTFp1MUpiQQ?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 23:34:16 GMT",
-          "source": "오피니언뉴스"
-        },
-        {
-          "title": "코스피, 저가 매수세 유입에 반등…6400선 안착 시도 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV1hyV2lYenNjVHFqblpPYUo4WWhqY1JVOFRVYTNFODQ3UVV5Z0VyYzNkMmxBNUxDR2JESXk0YnVuMkY2dVpkMDNqU19yR0ZmVXZiZkhCU0xRemRUZlRSYnhJQ2N5ZnpZVmZMV1QtZE0xUkZKbE43dXFBS1lxeGtLMU9Jam9jdURP?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 00:19:40 GMT",
-          "source": "글로벌이코노믹"
+          "title": "[마켓 프리뷰] 반등 노리는 코스피…저가 매수세 유입 주목 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkMkVWRUpldDdHaTA2dGFFNXZiTXFpb2RmN0UyTGNuUGU3LW1RcG1obk5jQWZSSW9PMVI1czRYeW1KNTdFX1MwNS03Qmd0NjQ?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 23:31:00 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
         {
           "title": "코스피·코스닥, 상승 출발 후 장중 하락 전환 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Yb0pWd3VBNEczeXAxUTlrZjJCQ0Jpc1JzWEhWN1p2bzM2MWJjai1OZkNrUVlTSjN4Si1TZEk5bk8wTFI0eFR5V3ZGQU43QzBwUUNoU2JGSlFEOHZ2Z1Z2MlVaSjB3N1VpdjFiaHZUdnh6RzluWEE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BVFo2YmlMdVlubXNXY0pxcmJPclVfZHd3TmtNci1DSDhCelNtQnRBWlVWaEVDdWdWRTVVb2hEeVkxWE1FS2N3X3A2Z1NldExicXlzS05OdVd0MURCZHc?oc=5",
           "pub_date": "Fri, 07 Aug 2026 02:47:00 GMT",
           "source": "YTN"
         },
@@ -74,10 +74,10 @@
           "source": "Investing.com 한국어"
         },
         {
-          "title": "급락 과했나…코스피, 장 초반 6400선 회복 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNF9MeHA2TkZGUHlPanlzRmNaTWI0WTdwMzVYV3lHT0c1bmlRWmc2Qm92c3NmdVh2N25TWm9hdjBnc2llR3djZVktbmpCSXJEY2NoZkdwWW16M1ZmRGdTZGNmSW9wMGViN1lPZVRrOENtZ2xjWk00MXVpNGc1YUo2ZWtONXBCRy100gGcAUFVX3lxTE9iWmJIYi1zb0ZrX2R1Q1BPRHJsMVRoRHRRT3hVYk5PMVVwT255QzViZlRiaGJ5NHYzRkNYVDdLT0NaMUpqQjlnQ0hwZm5QRzlnOFU4aW5oN0o3MEtSaWlrZnJYdzAtdE55NHB0bE11c1B5LUpoc2xFWTVGUUdoS0Y0UUN5THFkMFhFejM2eEJqSXZxY1RrUUdKOE8tRQ?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 00:14:00 GMT",
-          "source": "Chosunbiz"
+          "title": "日 증시, 美 약세장 이어가며 장 초반 하락 전환 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jQVdQaTA0YldWU0ZUZUJLcks5QXdtS05VbkVuOXlfTGdpa3pjZWxPRGptcmpEVjNwNG5aUTFrOVg2NWI0UmgyUU5RQjZhZ3JfekVZeW01amJ6YTdVbF9Md2tRQW5IbC1rQURwYkQtSXlrOGgy?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 00:40:05 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
@@ -89,8 +89,8 @@
     "move": 76.12
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 127099999999,
-    "retail_net_buy_krw": -111200000000,
+    "foreign_inst_buy_krw": -64500000000,
+    "retail_net_buy_krw": 67000000000,
     "margin_loan_krw": 28027700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,18 +105,18 @@
       "sma_200": 24071.94
     },
     "kospi": {
-      "current": 6231.65,
+      "current": 6249.0,
       "high_52w": 9385.59,
-      "drop_pct": -33.6,
+      "drop_pct": -33.42,
       "intraday_low_drop_pct": -34.38,
-      "sma_200": 5803.12
+      "sma_200": 5803.2
     },
     "kosdaq": {
-      "current": 780.53,
+      "current": 789.03,
       "high_52w": 1229.42,
-      "drop_pct": -36.51,
+      "drop_pct": -35.82,
       "intraday_low_drop_pct": -36.83,
-      "sma_200": 995.11
+      "sma_200": 995.16
     },
     "sp500": {
       "current": 7709.96,
@@ -303,7 +303,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-08-07",
