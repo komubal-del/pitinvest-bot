@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-07T15:38:38.181968+09:00",
+  "timestamp": "2026-08-07T16:59:35.729861+09:00",
   "sentiment": {
-    "cnn_fng": 59.6285714285714,
+    "cnn_fng": 59.6,
     "cnn_components": {
       "momentum": 73.2,
-      "strength": 31.6,
-      "breadth": 36.6,
+      "strength": 32.0,
+      "breadth": 36.0,
       "put_call": 63.4,
       "junk_bond": 96.4,
       "volatility": 50.0,
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 7,
+      "greed_count": 3,
       "fear_count": 15,
       "greed_articles": [
         {
@@ -34,18 +34,6 @@
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PMm1xS0llME5vd2hpaGRnTngxNkFYZ2t2Snp2RXM0UGxXY1pwVC16R1k3Y2swR2hCbHhfZU5qQ1YwRGRjcDdIOVZpbWY1cXBSRlRheER6RGUzUk1PNHBoSkszR0VzVk9qbmJvSzgydGxLWTDSAXNBVV95cUxPTzJtcUtJZTBOb3doaWhkZ054MTZBWGdrdkp6dkVzNFBsV2NacFQtekdZN2NrMEdoQmx4X2VOakNWMERkY3A3SDlWaW1mNXFwUkZUYXhEekRlM1JNTzRwaEpLM0dFc1ZPam5ib0s4MnRsS1kw?oc=5",
           "pub_date": "Fri, 07 Aug 2026 03:32:33 GMT",
           "source": "시사저널"
-        },
-        {
-          "title": "투자·투기 아닌 도박판…버핏, 美 증시 과열 경고 [프레스룸 경제라이브] - mbn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvYVVCSjFhYWNPOGlsVEN2Y294aG5SSFF3aHB6Z3BfMlFjUTVVbzVtR1lFNllKMmNjeHRiLWhYUkxDaXp4ZmZDWmE3SnLSAUxBVV95cUxQb2FVQkoxYWFjTzhpbFRDdmNveGhuUkhRd2hwemdwXzJRY1E1VW81bUdZRTZZSjJjY3h0Yi1oWFJMQ2l6eGZmQ1phN0py?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 04:27:53 GMT",
-          "source": "mbn.co.kr"
-        },
-        {
-          "title": "호르무즈 불안에 뉴욕증시 약세…코스피 저가 매수 유입될까[장전시황] - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05MVlUdnJ3c3JrN09KR1hNODh2ZnVqZS1kaEl3QmItekxqTWttQUZPeWxsc2ppSmlTTG1rdGRybEw1Njd2T2ZvT2pnWWN0WVJjUjA4UEplNHRoa2lXeW5uQWZR?oc=5",
-          "pub_date": "Thu, 06 Aug 2026 23:33:49 GMT",
-          "source": "에너지경제신문"
         }
       ],
       "fear_articles": [
@@ -62,35 +50,35 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "코스피, 외인 매도에 이틀째 약세…SK하이닉스 5% 급락 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMc21MV0N3Y01TRDVyTFdvUU15dS1pbU5EN3BsVGFRdFhzaWRoRGczWHQ5cXNGV1RKSVV5eXQ2cTRoemh1X3RadTNRUjdLSkxDaVYtS21GOWUzWkJYZ0Y1S094a3Q?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 07:02:50 GMT",
+          "source": "서울경제TV"
+        },
+        {
+          "title": "[도쿄증시-마감] 반도체주 매도세 속 혼조 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmQ0RZdV9Oek5lZE42Vnd5czBtWUo2VjNfOXYtS0p6VGpFSDh1T0lHS1JoRy1WbnA3ejQxX3FrSVRyQWZZc0ZTdUdWODVxN2dublJob0E5dnA1STNtSWR2SWp4VU9hZlNBRklDYk9RQms?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 06:47:30 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxVlREdGkyTWtQdWNlSG8tanZIODF2aVl3RXBmcWNtZkZxYTJoZGJFcGROUGFHc0dyNGRxWWpxb3NRaHlMX3RabzBDLTZGSHNGemRDbVNkTU40endfbmlNd1Iya1YyRk56Rm1kWlVHdHhHUQ?oc=5",
           "pub_date": "Fri, 07 Aug 2026 02:06:00 GMT",
           "source": "한겨레"
-        },
-        {
-          "title": "코스피지수, 반도체 매도세 심화로 주간 6% 하락 전망 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuSVpCWFhjdFViQUtyWFp4a1ZWbVotQjdLVzVfVExTVlZfT1F1Y1lzeC1qMDR2a2laY0sxQVB1cHB5WDhCam9wcWRXSVZzVmZGNUF5Y2JQUkhBM0tnMnNIM0hmMlFiVjFFSklIQWtPN3Y?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 02:06:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스닥, 엿새 만에 하락 전환 800선 아래로…코스피 6200선 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ORERPN2N4emQwcHByQ3VuaTVwNnpSTmxKclZCakFocmhiVDg4SWJPc3BtMFBmcjlySWRtOU5VeVBrVFBxYmFuWHZJTW5fb1U?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 03:03:01 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.15,
+    "vix": 15.29,
     "vvix": 88.72,
     "skew": 134.73,
     "move": 76.12
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -279100000000,
-    "retail_net_buy_krw": 267000000000,
+    "foreign_inst_buy_krw": -279700000000,
+    "retail_net_buy_krw": 267600000000,
     "margin_loan_krw": 28027700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -105,16 +93,16 @@
       "sma_200": 24071.94
     },
     "kospi": {
-      "current": 6257.14,
+      "current": 6258.77,
       "high_52w": 9385.59,
-      "drop_pct": -33.33,
+      "drop_pct": -33.32,
       "intraday_low_drop_pct": -34.38,
       "sma_200": 5803.25
     },
     "kosdaq": {
-      "current": 797.99,
+      "current": 798.81,
       "high_52w": 1229.42,
-      "drop_pct": -35.09,
+      "drop_pct": -35.03,
       "intraday_low_drop_pct": -36.83,
       "sma_200": 995.2
     },
