@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T20:12:33.278401+09:00",
+  "timestamp": "2026-08-07T21:03:09.608114+09:00",
   "sentiment": {
     "cnn_fng": 59.6,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 16,
+      "fear_count": 15,
       "greed_articles": [
         {
           "title": "코스피, 외인·기관 저가 매수에 6400선 터치… 삼전닉스도 상승 - 머니투데이 - 머니투데이",
@@ -44,14 +44,8 @@
           "source": "YTN"
         },
         {
-          "title": "중동 긴장 재고조에…코스피·코스닥 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KTG51czRuYjR6TjhTTFB3Y2pMeU5Za3hyRjZlVEpDQmt5RDlaMDhHTEdjOG9Xa3NDTW1KaHluc3ZQSmNGNUVSX1RMY1ZINXQ0ZTNoSGlhXy1tY2plWnQyV0hMbDFpUjg?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 02:49:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
           "title": "코스피·코스닥, 상승 출발 후 장중 하락 전환 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BVFo2YmlMdVlubXNXY0pxcmJPclVfZHd3TmtNci1DSDhCelNtQnRBWlVWaEVDdWdWRTVVb2hEeVkxWE1FS2N3X3A2Z1NldExicXlzS05OdVd0MURCZHc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Yb0pWd3VBNEczeXAxUTlrZjJCQ0Jpc1JzWEhWN1p2bzM2MWJjai1OZkNrUVlTSjN4Si1TZEk5bk8wTFI0eFR5V3ZGQU43QzBwUUNoU2JGSlFEOHZ2Z1Z2MlVaSjB3N1VpdjFiaHZUdnh6RzluWEE?oc=5",
           "pub_date": "Fri, 07 Aug 2026 02:47:00 GMT",
           "source": "YTN"
         },
@@ -60,12 +54,18 @@
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMkhWSlF4SjZicWtHbFVfRDBWLXpja05IUllEcHdMU0RoY1ZOYmRaTG1kbmN2aWU0R1FKWm02RzNUeElPaExIYlZSZFJ5aHQzRzFYRlh6c2h1ZzBGVWg5WVozNE0xWER2c1VvaklWYzFCZw?oc=5",
           "pub_date": "Fri, 07 Aug 2026 08:58:18 GMT",
           "source": "인더스트리뉴스"
+        },
+        {
+          "title": "장중 동반 하락 전환...코스피·코스닥 약세 마감 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWV9lU0tTbzB2Vm0yYzlxWmhoaHFoRV9kemcyamprNnRIWWZ3VEVqVnk0OUdBMXB5UlA5SGZuUDBOWloydlEtMEl4OVBCV01vX1pfN1A3UjIyZER5RHNQU2Y0ZE9xQ0N0cEdxc0FCZlJRenhXY0IxcFBEQnpDMHRyWTVlZw?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 06:40:00 GMT",
+          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.27,
+    "vix": 15.18,
     "vvix": 88.72,
     "skew": 134.73,
     "move": 76.12
