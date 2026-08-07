@@ -1,90 +1,140 @@
 {
-  "timestamp": "2026-08-07T00:36:00.638982+09:00",
+  "timestamp": "2026-08-07T09:31:55.357737+09:00",
   "sentiment": {
-    "cnn_fng": 61.6,
+    "cnn_fng": 59.7142857142857,
     "cnn_components": {
-      "momentum": 73.6,
-      "strength": 31.8,
-      "breadth": 39.0,
-      "put_call": 74.2,
-      "junk_bond": 96.6,
+      "momentum": 73.2,
+      "strength": 31.6,
+      "breadth": 36.6,
+      "put_call": 63.4,
+      "junk_bond": 97.0,
       "volatility": 50.0,
-      "safe_haven": 65.8
+      "safe_haven": 66.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 3,
+      "fear_count": 8,
+      "greed_articles": [
+        {
+          "title": "호르무즈 불안에 뉴욕증시 약세…코스피 저가 매수 유입될까[장전시황] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlamI1cFA0cUZTMnprbktwR0JEaGZURVN3TVM5cnIyM185ZUczMTJTUV9ZU0FwM2dhOTNoMENCbUFuYW1hcEtiSlJzdjU1THRxRjA4eG9zSHdyeUs2a3lJUnY1bw?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 23:33:49 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "[증시 포인트] 반등 시도 전망...저가 매수세 유입 기대 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MamRBX0xQaUdqenFoMVV3b2pabkR3UlozNURUMzBuOWNTMW9CYmRlMUdQMm05NXBwVnZOalp3RWRkOEVGUE1ubHFpeDNORlJwNG9ZemltdkVfLXBBWkZTaUx0WUtQLWtPUXZPTFp1MUpiQQ?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 23:34:16 GMT",
+          "source": "오피니언뉴스"
+        },
+        {
+          "title": "코스피, 저가 매수세 유입에 반등…6400선 안착 시도 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV1hyV2lYenNjVHFqblpPYUo4WWhqY1JVOFRVYTNFODQ3UVV5Z0VyYzNkMmxBNUxDR2JESXk0YnVuMkY2dVpkMDNqU19yR0ZmVXZiZkhCU0xRemRUZlRSYnhJQ2N5ZnpZVmZMV1QtZE0xUkZKbE43dXFBS1lxeGtLMU9Jam9jdURP?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 00:19:40 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "“또 4.6% 폭락했는데 지금 사라고?”…월가는 “코스피 1만2000 간다” [숫자 뒤의 진실] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LTXVrc3RNN3dUVTlONHBzd20wQkVmRkZSUkJxVF9LeFExRG9wa3FTbkFjMllQX1BLcnY1Q2VQa2xScXF3UGNZb0NFR0tvM1k?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 20:03:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "급락 과했나…코스피, 장 초반 6400선 회복 - 조선비즈 - biz.chosun.com",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNF9MeHA2TkZGUHlPanlzRmNaTWI0WTdwMzVYV3lHT0c1bmlRWmc2Qm92c3NmdVh2N25TWm9hdjBnc2llR3djZVktbmpCSXJEY2NoZkdwWW16M1ZmRGdTZGNmSW9wMGViN1lPZVRrOENtZ2xjWk00MXVpNGc1YUo2ZWtONXBCRy100gGcAUFVX3lxTE9iWmJIYi1zb0ZrX2R1Q1BPRHJsMVRoRHRRT3hVYk5PMVVwT255QzViZlRiaGJ5NHYzRkNYVDdLT0NaMUpqQjlnQ0hwZm5QRzlnOFU4aW5oN0o3MEtSaWlrZnJYdzAtdE55NHB0bE11c1B5LUpoc2xFWTVGUUdoS0Y0UUN5THFkMFhFejM2eEJqSXZxY1RrUUdKOE8tRQ?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 00:14:00 GMT",
+          "source": "biz.chosun.com"
+        },
+        {
+          "title": "4.6% 폭락한 코스피, 반등 나설까…야간선물 1.45%↑ - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIdklLSTBjNEZVQlY0WjlfVlA0elJQQTd5LUlzbzMxSm9QVWd1dmt5Z0c5dDB2MGVyWWowYW1nMGRVYW9jYkV1VlN4OHBGdXZ1VzBkNlVZcmpfdw?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 23:42:00 GMT",
+          "source": "경북매일"
+        },
+        {
+          "title": "뉴욕증시 메모리주 급락‥브렌트유 3.8% 상승 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyZkJVSW9sYy1lajJmN0kzaTlpMVd5cG1FX0Z2WVVjQ3FHeHJ5MFdzT3h4MUtGaXFjcVpxOEplMlBRcmxsUjVaOFlTRG01NGtYQmFKZEhlclhmV3k3N2xUVnF5UjhvVWUxU01udUNvMlUxTzNl0gF0QVVfeXFMT21pMzVWSm1wX09YekVDV3kwTXM1bTRpbDY3aWRYTVliZ29PT3d5Ym1SajdKNzlCenNSdENtVnlYRjFZcGRMaTZEUDU3MHpISC1wQkNqS2xfVUdLR2pCQVlKVGU3T0xvSUdXdmdkTWpVX1dJNE4?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 21:14:54 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "한국, 실질자산 55%↑ 세계 1위… 증시 폭락, ‘평균의 착시’와 부의 유동성 위기 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYmdPUUdEYzYxS21NZy1KdFFZY0dBSGdORlhYU1h2SGs0RlVmYXRfNlgtMlk1RjRwN2U0R1Q3S1dZT2lPR1hCVDZ2VVNuYkNnQV8xQnBDZVBCQTBpbGNXTnZwbGdsUW82UE05d19DOW5jS0loRnIxcktmM0RzN0VSNDdOYk9DemM?oc=5",
+          "pub_date": "Thu, 06 Aug 2026 19:45:00 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 15.39,
-    "vvix": 89.22,
-    "skew": 133.32,
-    "move": 73.58
+    "vix": 15.15,
+    "vvix": 88.72,
+    "skew": 134.73,
+    "move": 76.12
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3410700000000,
-    "retail_net_buy_krw": 3336700000000,
-    "margin_loan_krw": 27020400000000,
+    "foreign_inst_buy_krw": 347100000000,
+    "retail_net_buy_krw": -308400000000,
+    "margin_loan_krw": 28027700000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
   },
   "indices": {
     "nasdaq": {
-      "current": 26372.05,
+      "current": 26348.35,
       "high_52w": 27190.21,
-      "drop_pct": -3.01,
+      "drop_pct": -3.1,
       "intraday_low_drop_pct": -3.61,
-      "sma_200": 24072.06
+      "sma_200": 24071.94
     },
     "kospi": {
-      "current": 6598.26,
+      "current": 6386.42,
       "high_52w": 9385.59,
-      "drop_pct": -29.7,
-      "intraday_low_drop_pct": -30.32,
-      "sma_200": 5776.57
+      "drop_pct": -31.96,
+      "intraday_low_drop_pct": -32.32,
+      "sma_200": 5790.7
     },
     "kosdaq": {
-      "current": 799.59,
+      "current": 811.97,
       "high_52w": 1229.42,
-      "drop_pct": -34.96,
-      "intraday_low_drop_pct": -36.29,
-      "sma_200": 995.76
+      "drop_pct": -33.96,
+      "intraday_low_drop_pct": -34.42,
+      "sma_200": 995.59
     },
     "sp500": {
-      "current": 7711.07,
+      "current": 7709.96,
       "high_52w": 7793.68,
-      "drop_pct": -1.06,
-      "intraday_low_drop_pct": -1.09,
+      "drop_pct": -1.07,
+      "intraday_low_drop_pct": -1.23,
       "sma_200": 7044.92
     },
     "russell2k": {
-      "current": 3024.19,
+      "current": 3001.55,
       "high_52w": 3048.85,
-      "drop_pct": -0.81,
-      "intraday_low_drop_pct": -1.35,
-      "sma_200": 2687.14
+      "drop_pct": -1.55,
+      "intraday_low_drop_pct": -1.62,
+      "sma_200": 2687.02
     },
     "soxx": {
-      "current": 539.16,
+      "current": 532.52,
       "high_52w": 655.95,
-      "drop_pct": -17.8,
+      "drop_pct": -18.82,
       "intraday_low_drop_pct": -21.27,
-      "sma_200": 407.41
+      "sma_200": 407.37
     }
   },
   "sector_rs": {
-    "XLK": 1.043,
-    "SMH": 0.999,
-    "BOTZ": 0.885,
-    "IGV": 1.076,
-    "XLF": 1.062,
-    "XLE": 0.975
+    "XLK": 1.038,
+    "SMH": 1.005,
+    "BOTZ": 0.881,
+    "IGV": 1.039,
+    "XLF": 1.068,
+    "XLE": 0.994
   },
   "signals": {
     "cnn_under_10": false,
@@ -120,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.18,
+    "tqqq_profit_pct": 63.82,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 157.0,
+    "soxl_profit_pct": 147.35,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.22,
+    "koru_profit_pct": -95.43,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -241,11 +291,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-08-06",
-    "analyzed_at": "2026-08-06T09:14:30.742557+09:00",
+    "date": "2026-08-07",
+    "analyzed_at": "2026-08-07T09:31:59.828260+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -253,16 +303,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "P1Dlihaj2xs",
-        "title": "\"아직 팔지 마세요\" 6,000~6,100 이탈 시나리오와 7,100~7,500에서 해야 할 일ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
-        "published": "2026-08-05T09:02:38Z",
-        "url": "https://youtube.com/watch?v=P1Dlihaj2xs",
+        "video_id": "N30kaoFg7ZQ",
+        "title": "반도체 왜 이렇게 빠졌나…이탈 끝나면 반등 가능할까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-07T00:13:36Z",
+        "url": "https://youtube.com/watch?v=N30kaoFg7ZQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "제목에서 '아직 팔지 마세요'라고 명확히 매도를 권하지 않으며, 더 높은 가격대에서 할 일을 언급하여 시장에 대한 긍정적 기대를 내비치고 있습니다."
+          "stance": "neutral",
+          "reason": "영상 제목이 반도체 하락 원인과 반등 가능성에 대한 질문을 던지며 분석적인 접근을 시사할 뿐, 매수/매도 등 구체적인 투자 행동을 권고하지 않습니다."
         }
       },
       {
@@ -275,19 +325,19 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 반도체 시장의 과거 급락과 반등을 '어떻게 해석할지' 묻는 분석적인 질문이며, 내용에 특정 행동을 권고하는 발언이 없습니다."
+          "reason": "제공된 영상 설명란에는 특정 주식 행동을 권고하는 '현금화/비중 축소/매도'나 '매수/저점 매수/추가 매수'와 같은 직접적인 표현이 없으며, 단지 반도체 시장의 급락과 반등을 어떻게 해석할지에 대한 질문과 전문가 소개 및 학습 채널 홍보 내용만 포함되어 있어 중립적 분석의 입장으로 판단됩니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "bullish",
+      "박병창": "neutral",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 184.019,
+    "strategy_pct": 184.38,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -900,6 +950,10 @@
       {
         "date": "2026-08-06",
         "ret_pct": 184.019
+      },
+      {
+        "date": "2026-08-07",
+        "ret_pct": 184.38
       }
     ],
     "monthly_breakdown": [
@@ -947,8 +1001,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 14.58,
-        "end_ret_pct": 184.02,
+        "return_pct": 14.94,
+        "end_ret_pct": 184.38,
         "max_dd_pct": 4.45
       }
     ],
