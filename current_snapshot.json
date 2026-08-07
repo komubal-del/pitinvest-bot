@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T19:16:15.589398+09:00",
+  "timestamp": "2026-08-07T20:12:33.278401+09:00",
   "sentiment": {
     "cnn_fng": 59.6,
     "cnn_components": {
@@ -32,22 +32,10 @@
       ],
       "fear_articles": [
         {
-          "title": "코스피, 외인 ‘팔자’에 6200선 마감…SK하이닉스 4.88% 급락 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMkhWSlF4SjZicWtHbFVfRDBWLXpja05IUllEcHdMU0RoY1ZOYmRaTG1kbmN2aWU0R1FKWm02RzNUeElPaExIYlZSZFJ5aHQzRzFYRlh6c2h1ZzBGVWg5WVozNE0xWER2c1VvaklWYzFCZw?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 08:58:18 GMT",
-          "source": "인더스트리뉴스"
-        },
-        {
           "title": "코스피 폭락 경고 8배 급증…이번엔 샌디 공포 [플러스 관심종목] - 매일경제 마켓",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zcU83RjBXMVVaR3RNSDBoc2VfSTdFaGNzd2lYbndJQ0E3N0JsYU9CWmFoLUxLMVFDWVZhY0FZdUZsN3NNWDBOWUNZNnpLQmdRdmc?oc=5",
           "pub_date": "Fri, 07 Aug 2026 09:45:05 GMT",
           "source": "매일경제 마켓"
-        },
-        {
-          "title": "반짝 상승 출발한 코스피, 다시 하락세…외국인·개인 매도세 - hani.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxVlREdGkyTWtQdWNlSG8tanZIODF2aVl3RXBmcWNtZkZxYTJoZGJFcGROUGFHc0dyNGRxWWpxb3NRaHlMX3RabzBDLTZGSHNGemRDbVNkTU40endfbmlNd1Iya1YyRk56Rm1kWlVHdHhHUQ?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 02:06:00 GMT",
-          "source": "hani.co.kr"
         },
         {
           "title": "[경제][속보] 장중 동반 하락 전환...코스피·코스닥 약세 마감 - YTN",
@@ -56,16 +44,28 @@
           "source": "YTN"
         },
         {
-          "title": "HBM 악재에 하이닉스 급락…코스피 상승세도 꺾였다 - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSaDZ0YWxCLVExTmlSTHp3LTYtc2NLbVBYSFh4aXp2NHAxWkN0cUZDVGVaSlpTRmoxQTZZV0ZqQ0NCQnJwZ3l4UFFHWHdKOExiMjJ2eDBXY29RT2d4Q2NxelozcmM?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 07:20:49 GMT",
-          "source": "디지털데일리"
+          "title": "중동 긴장 재고조에…코스피·코스닥 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KTG51czRuYjR6TjhTTFB3Y2pMeU5Za3hyRjZlVEpDQmt5RDlaMDhHTEdjOG9Xa3NDTW1KaHluc3ZQSmNGNUVSX1RMY1ZINXQ0ZTNoSGlhXy1tY2plWnQyV0hMbDFpUjg?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 02:49:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스피·코스닥, 상승 출발 후 장중 하락 전환 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BVFo2YmlMdVlubXNXY0pxcmJPclVfZHd3TmtNci1DSDhCelNtQnRBWlVWaEVDdWdWRTVVb2hEeVkxWE1FS2N3X3A2Z1NldExicXlzS05OdVd0MURCZHc?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 02:47:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피, 외인 ‘팔자’에 6200선 마감…SK하이닉스 4.88% 급락 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMkhWSlF4SjZicWtHbFVfRDBWLXpja05IUllEcHdMU0RoY1ZOYmRaTG1kbmN2aWU0R1FKWm02RzNUeElPaExIYlZSZFJ5aHQzRzFYRlh6c2h1ZzBGVWg5WVozNE0xWER2c1VvaklWYzFCZw?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 08:58:18 GMT",
+          "source": "인더스트리뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.28,
+    "vix": 15.27,
     "vvix": 88.72,
     "skew": 134.73,
     "move": 76.12
