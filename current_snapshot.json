@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T21:03:09.608114+09:00",
+  "timestamp": "2026-08-07T22:22:37.066752+09:00",
   "sentiment": {
     "cnn_fng": 59.6,
     "cnn_components": {
@@ -14,28 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 15,
+      "greed_count": 1,
+      "fear_count": 14,
       "greed_articles": [
         {
           "title": "코스피, 외인·기관 저가 매수에 6400선 터치… 삼전닉스도 상승 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hSkhzN01QMFNpby1CZ29YdDJydGpHSmZzOGNaSjlHYzBrbGVnMFJHOHBOcTVzcS1iaDhQRzg4d3pEcl92S3VmQWE2ZkFfbVhrREd3RG1obWhRanBaUmQwNkFyMTV4TVZE0gFuQVVfeXFMT0xtcC1aQnB5VDZMZEdmRFg0OWppQUxySXhiR0dseFhQNUhUVkQ2YlpXLWxncXJYQWFnWmtaRlR0UjhhdTJhSjA2OVZ0ekVsb2Mza2ZtQWp1RzVJcDhrY09iTnFkYWlnbFptblNVLXc?oc=5",
           "pub_date": "Fri, 07 Aug 2026 05:15:40 GMT",
           "source": "머니투데이"
-        },
-        {
-          "title": "코스피 숨 고르기에도 '빚투'는 계속···신용융자 잔고 이틀째 증가 - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5obi14S0pNejJLYlhoUmVoUGdJUjRxZE4wNTg0R1pNVUJRd3M0SVFvbGlwb1Y3X1o0Zkp1SzVyQ0I1REtFekdwS202VWYzd05TcndpLUpsSGp2STE1RnczZ3l2TE9ieEgyLUE?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 09:49:50 GMT",
-          "source": "서울파이낸스"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 폭락 경고 8배 급증…이번엔 샌디 공포 [플러스 관심종목] - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zcU83RjBXMVVaR3RNSDBoc2VfSTdFaGNzd2lYbndJQ0E3N0JsYU9CWmFoLUxLMVFDWVZhY0FZdUZsN3NNWDBOWUNZNnpLQmdRdmc?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 09:45:05 GMT",
-          "source": "매일경제 마켓"
+          "title": "주주환원 실망에 SK하이닉스↓…코스피도 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1QjR3OWk0TmtjU0ktbHJTNU5mNjBuQzllUVdaOVdCUVdSY3VWcjFUUHJTVy14OU03b3JmekQ1Q2k4U2ZDYVNtd181c1lfenF1U2swa3F3SWh1cFR5YWdRdkUxNUo0YVU?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 11:01:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "주주환원 실망에 SK하이닉스↓…코스피도 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IbXBueWdSNGYtQTRRRnhBWE0za01SanNvZkFYRk5HbG9KM21tQURPWU9icEkyRWE5SFViWmt6RW5UR2k4dkxVX0oyeU1lUUU?oc=5",
+          "pub_date": "Fri, 07 Aug 2026 11:02:43 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "[경제][속보] 장중 동반 하락 전환...코스피·코스닥 약세 마감 - YTN",
@@ -54,18 +54,12 @@
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMkhWSlF4SjZicWtHbFVfRDBWLXpja05IUllEcHdMU0RoY1ZOYmRaTG1kbmN2aWU0R1FKWm02RzNUeElPaExIYlZSZFJ5aHQzRzFYRlh6c2h1ZzBGVWg5WVozNE0xWER2c1VvaklWYzFCZw?oc=5",
           "pub_date": "Fri, 07 Aug 2026 08:58:18 GMT",
           "source": "인더스트리뉴스"
-        },
-        {
-          "title": "장중 동반 하락 전환...코스피·코스닥 약세 마감 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWV9lU0tTbzB2Vm0yYzlxWmhoaHFoRV9kemcyamprNnRIWWZ3VEVqVnk0OUdBMXB5UlA5SGZuUDBOWloydlEtMEl4OVBCV01vX1pfN1A3UjIyZER5RHNQU2Y0ZE9xQ0N0cEdxc0FCZlJRenhXY0IxcFBEQnpDMHRyWTVlZw?oc=5",
-          "pub_date": "Fri, 07 Aug 2026 06:40:00 GMT",
-          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.18,
+    "vix": 15.31,
     "vvix": 88.72,
     "skew": 134.73,
     "move": 76.12
