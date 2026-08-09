@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T06:54:26.341038+09:00",
+  "timestamp": "2026-08-10T07:41:12.820758+09:00",
   "sentiment": {
     "cnn_fng": 63.6857142857143,
     "cnn_components": {
@@ -14,15 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "개미 54조 손실 뒤 레버리지 거품 꺼졌다…韓 증시 '최악 통과론' - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Bc0pER2E5eWxjOHFMdENvNU5BVkg0ZlZ6MnZuVkNOa1BoUHhPYjA2NzlmZ255QXp5NHg4aElDTVBqcG1rcmNSNUQzZVoyOHIzMkhhTDFxSWdwcm5IS0Vab3Jkd2thREEy?oc=5",
+          "pub_date": "Sun, 09 Aug 2026 21:45:13 GMT",
+          "source": "ebn.co.kr"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "개인이 11조 샀는데 코스피는 더 빠졌다 … 급락 뒤 시작된 ‘손실 나선’ - 매일경제",
+          "title": "개인이 11조 샀는데 코스피는 더 빠졌다 … 급락 뒤 시작된 ‘손실 나선’ - mk.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JbmZYbkxJaXg3cC1lSGIyenVVOFozVFhXRW1YSlQwV25hc2RIclNHbnBGTGdiVHNseEMzT0h3WGx5MzRGVWFlT2lrVUNaTFRhWlE?oc=5",
+          "pub_date": "Sun, 09 Aug 2026 21:58:42 GMT",
+          "source": "mk.co.kr"
+        },
+        {
+          "title": "개인이 11조 샀는데 코스피는 더 빠졌다 … 급락 뒤 시작된 ‘손실 나선’ - mk.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9wZV9JWG9qNXZ3VnpNQXVQaVVTNU5wVFFJSTRtSzhEdl9FUFkyNlp0Qjd6U2Jtak1YamNqQzNyN2VnVXVibWc?oc=5",
           "pub_date": "Sun, 09 Aug 2026 19:06:00 GMT",
-          "source": "매일경제"
+          "source": "mk.co.kr"
         }
       ]
     }
@@ -36,7 +49,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -279700000000,
     "retail_net_buy_krw": 267500000000,
-    "margin_loan_krw": 28027700000000,
+    "margin_loan_krw": 28387300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
