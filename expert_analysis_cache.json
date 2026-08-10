@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "analyzed_at": "2026-08-10T09:04:48.709510+09:00",
+  "analyzed_at": "2026-08-10T13:18:35.926609+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "N30kaoFg7ZQ",
-      "title": "반도체 왜 이렇게 빠졌나…이탈 끝나면 반등 가능할까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-08-07T00:13:36Z",
-      "url": "https://youtube.com/watch?v=N30kaoFg7ZQ",
+      "video_id": "nSaGJomTlkQ",
+      "title": "코스닥만 왜 올랐나? 삼성전자·SK하이닉스 반등하면 수급이 다시 움직인다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-08-10T00:17:48Z",
+      "url": "https://youtube.com/watch?v=nSaGJomTlkQ",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 투자 입장이나 매매 권고가 포함되어 있지 않고, 주로 채널 홍보 및 상품 광고로 구성되어 있습니다."
+        "reason": "제목에서 코스닥 상승 현상을 언급하고 삼성전자·SK하이닉스 반등 시 수급 변화 가능성을 제시하며 시장 상황을 분석하지만, 특정 투자 행동(매수/매도/비중 조절)에 대한 직접적인 권고는 없습니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목이 '반도체 급락과 반등...어떻게 해석해요?'로, 현 시장 상황(급락과 반등)에 대한 해석을 묻는 중립적인 분석 질문이며, 구체적인 행동 권고가 없습니다."
+        "reason": "제공된 영상 설명란은 반도체 급락과 반등에 대한 해석을 묻는 제목과 주식 교육 플랫폼 홍보 내용으로 이루어져 있으며, 특정 행동 권고(매수/매도/비중 조절)나 명확한 시장 방향성 제시가 없습니다."
       }
     }
   ],
