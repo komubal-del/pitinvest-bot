@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T14:50:48.354669+09:00",
+  "timestamp": "2026-08-10T16:58:11.283432+09:00",
   "sentiment": {
     "cnn_fng": 63.6857142857143,
     "cnn_components": {
@@ -14,53 +14,59 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 5,
       "fear_count": 1,
       "greed_articles": [
         {
-          "title": "\"中, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - yna.co.kr",
+          "title": "단일종목 레버리지 규제 7일 만에 ‘공포지수’ 19%↓…블룸버그 “증시 과열 해소 신호” - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzQ5dHpUVjRwMnIxXzZxbjlSZkZKa1EzWmFzaWFuS29KQTlVbmtHZkg2SDJxRmZpQklRN3NkNzV1OGFLTUMtN2daUUpTN1ZvXy1LejFEbVRuMDc3M2wtbXgtR0RQRElFN0RWUldQd2FLNmUxbTZBaFFZSzZobVhURXg0SXpiY2hyT0RN?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 06:21:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "최고점 찍고 하락한 코스피…돌아온 서학개미들, 6월부터 미장으로 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtTS1sRmtFZmxxVTdtQ2FSbUFzcjZyQmxPTDUyZlltRjJSRWkzSDlWbXEtT1V3Tnl0R2FnQlI5NXBZZUxyRFRZalZ2QURyb3h3b1MyQm53TnR2NDRYdkxLakU5SlhUZThWTVRHQ3JwN1luZU1tdVHSAWZBVV95cUxPZHFxeXM0YzZGTEtpSFRuNFNRN1lFdEl2empxNTZhZTQ5RmtGM3k3blBIWndRUWxiQ24yUzg2aHhnYXFUbEhoVUd1ZFlDeDQ0VlZzZnFnSFJScnZadTNjU1lkWEpXeEE?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 07:38:00 GMT",
+          "source": "동아일보"
+        },
+        {
+          "title": "\"중, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nQ2VMTVdGUk9OMllLRWlDUzlMZDJ2TkhfLU1VQnZydWRsSHlqZ1hvbHlNRV9HWGNxWjQzZW9NaHBnQlZvSDV3YWNVM18zblE?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 05:39:02 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "중국 증시 급락 증권사 빚투 심사 '강화' - 세이프타임즈",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BbGk3aXFyaXZ1Mk1DZms2eS1hWDhBTFNnbHFmV2F3WWlJcW5XQzM0dFg3dmRfZ09rdFpmS0tISkpSZkxXM0tSUzlMMENYNkdTWUlNWmwyM0Jzb2ZONzB6MnozZGpqeV9YZFIyb0ZGWdIBc0FVX3lxTE5vRG55Vk04c0VNOGp4ZmhDa3Fla3Q0LWd2WVFfdVdMWnJnRUo2b2hWOHdERkN3eU5uRS1TaXZLbmVDRlM1TGVXRGhzem55UHNfeXh5ZlB1bV9yNzZJcVA4Tk9HSlJwNmw3Vm9XWFFRWk9hczg?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 06:45:10 GMT",
+          "source": "세이프타임즈"
+        },
+        {
+          "title": "\"中, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HVXZwSGxST190TTB3QllIMUpsVEpoaHFxQTEyRUZwWVFUcWVhZmI5bHFqSzgtWEFPZjVxZjJWd0UtRm1XQ3BsWk5WZVhiSlVVNlN2N2tQd3N0MFFZTTZhd9IBYEFVX3lxTE5HVXZwSGxST190TTB3QllIMUpsVEpoaHFxQTEyRUZwWVFUcWVhZmI5bHFqSzgtWEFPZjVxZjJWd0UtRm1XQ3BsWk5WZVhiSlVVNlN2N2tQd3N0MFFZTTZhdw?oc=5",
           "pub_date": "Mon, 10 Aug 2026 03:00:43 GMT",
-          "source": "yna.co.kr"
-        },
-        {
-          "title": "\"코스피 200 지수, 고점 대비 30% 급락…해외로 시선 돌릴 때\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03R2xGN1JTZWxjVVhhZmZwaWhNZDdkY0ltMHpHUDhXdV9MTU1jdHlsbzJSdnRFc2lzMkhEaWVCUnJicGc4a3FYNXpPX1FFLWdVVzZoUGt1aWc2bEcxS25paGc0VjRDakVv0gFuQVVfeXFMTVhXd2FMZ0gzLVl4ZEswd3gydEdUaWh0YXBGR1VBVGFxeGFNQUdpWS0xdl9nNlQxdUZUT1ZuWW1TYzhDd0J5Zm1MRWYtSU51R1ROT2ljUndGNWhnTzQ2bkN5OVBhRWFCWEdDaE9RTnc?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 02:12:10 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "개미 54조 손실 뒤 레버리지 거품 꺼졌다…韓 증시 ’최악 통과론’ By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tVzFfai0xYTByX211WVNWbThuRFNDM3FOQllOcE96Vk9mVlQtTTg4U3V3akZYTlhrQlppNm1LSFVqb3ZfZ2MtVF8td01PbExtRUtUX2ZoeUhVU014NFF5QXI3TlNKYjE2N3I4T0U1Y1Y?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 01:42:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "\"中, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9vSWRFWGpHQ3hwXzlFNVZ3YVZpNDlwalVOWHhRMW5ZLVRfWmQ1UlJ1bkVkdzFfWXBCR3F1LURqU0VBNGEzX1lLZlo1NnNHU3M?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 03:04:00 GMT",
-          "source": "v.daum.net"
+          "source": "연합뉴스"
         }
       ],
       "fear_articles": [
         {
-          "title": "\"코스피 폭락에 자살 급증…정부, CCTV 설치해 감시\" 해외 SNS서 유언비어 확산 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qSnY2RXBHNDZRVzY2WU9IUEFsMXAydENDZWcyWHBhRUtCM3FXUE1SSFdjOE1BXzFkNmZHTkNWOXl0T1Q0QkljZnZSSnd6enc?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 05:44:41 GMT",
-          "source": "v.daum.net"
+          "title": "“韓, 코스피 폭락하자 자살 늘었다” 황당 유언비어 전말 알고보니 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsZ1NzbllQbkdnWjZrNkdqNVhBRFFkOFpVcC00SzRGTnp6RlRaTmtUVmNRYVJpWGpTc2lHS1BKQmdscm9IMUtNZWdzNUZjbnMyQllxQlRR?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 07:19:40 GMT",
+          "source": "중앙일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.9,
+    "vix": 15.43,
     "vvix": 90.42,
     "skew": 132.57,
     "move": 72.03
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -703200000000,
-    "retail_net_buy_krw": 684500000000,
+    "foreign_inst_buy_krw": -921700000000,
+    "retail_net_buy_krw": 900300000000,
     "margin_loan_krw": 28387300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,18 +81,18 @@
       "sma_200": 24090.44
     },
     "kospi": {
-      "current": 6301.7,
+      "current": 6299.66,
       "high_52w": 9385.59,
-      "drop_pct": -32.86,
+      "drop_pct": -32.88,
       "intraday_low_drop_pct": -33.6,
-      "sma_200": 5816.02
+      "sma_200": 5816.01
     },
     "kosdaq": {
-      "current": 848.12,
+      "current": 854.47,
       "high_52w": 1229.42,
-      "drop_pct": -31.01,
+      "drop_pct": -30.5,
       "intraday_low_drop_pct": -34.31,
-      "sma_200": 995.12
+      "sma_200": 995.15
     },
     "sp500": {
       "current": 7757.64,
