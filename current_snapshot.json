@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T16:58:11.283432+09:00",
+  "timestamp": "2026-08-10T18:42:04.382758+09:00",
   "sentiment": {
     "cnn_fng": 63.6857142857143,
     "cnn_components": {
@@ -14,38 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 1,
+      "greed_count": 3,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "단일종목 레버리지 규제 7일 만에 ‘공포지수’ 19%↓…블룸버그 “증시 과열 해소 신호” - 조선일보",
+          "title": "레버리지 규제 7일 만에 ‘공포지수’ 19% 뚝…블룸버그 “증시 과열 해소신호” - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzQ5dHpUVjRwMnIxXzZxbjlSZkZKa1EzWmFzaWFuS29KQTlVbmtHZkg2SDJxRmZpQklRN3NkNzV1OGFLTUMtN2daUUpTN1ZvXy1LejFEbVRuMDc3M2wtbXgtR0RQRElFN0RWUldQd2FLNmUxbTZBaFFZSzZobVhURXg0SXpiY2hyT0RN?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 06:21:00 GMT",
+          "pub_date": "Mon, 10 Aug 2026 06:25:24 GMT",
           "source": "조선일보"
+        },
+        {
+          "title": "7거래일간 32% 뛴 코스닥…최고점 넘어 상승 이어가려면 ‘체질 개선’ 필요 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fZ3hnQTFQTjVjMnpHSlVIQ0ptNFI2ay00THFfcjUwY1pCNHhpNXNrd3F0bEszcVQ4bGpVbGlkV2RwRl9hOWYtWWh6YnhUUXhKYWp0dHBJSE1PZWNHbzBpUHo2Yk9XQdIBZkFVX3lxTE9fZ3hnQTFQTjVjMnpHSlVIQ0ptNFI2ay00THFfcjUwY1pCNHhpNXNrd3F0bEszcVQ4bGpVbGlkV2RwRl9hOWYtWWh6YnhUUXhKYWp0dHBJSE1PZWNHbzBpUHo2Yk9XQQ?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 08:05:59 GMT",
+          "source": "동아일보"
         },
         {
           "title": "최고점 찍고 하락한 코스피…돌아온 서학개미들, 6월부터 미장으로 - 동아일보",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtTS1sRmtFZmxxVTdtQ2FSbUFzcjZyQmxPTDUyZlltRjJSRWkzSDlWbXEtT1V3Tnl0R2FnQlI5NXBZZUxyRFRZalZ2QURyb3h3b1MyQm53TnR2NDRYdkxLakU5SlhUZThWTVRHQ3JwN1luZU1tdVHSAWZBVV95cUxPZHFxeXM0YzZGTEtpSFRuNFNRN1lFdEl2empxNTZhZTQ5RmtGM3k3blBIWndRUWxiQ24yUzg2aHhnYXFUbEhoVUd1ZFlDeDQ0VlZzZnFnSFJScnZadTNjU1lkWEpXeEE?oc=5",
           "pub_date": "Mon, 10 Aug 2026 07:38:00 GMT",
           "source": "동아일보"
-        },
-        {
-          "title": "\"중, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nQ2VMTVdGUk9OMllLRWlDUzlMZDJ2TkhfLU1VQnZydWRsSHlqZ1hvbHlNRV9HWGNxWjQzZW9NaHBnQlZvSDV3YWNVM18zblE?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 05:39:02 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "중국 증시 급락 증권사 빚투 심사 '강화' - 세이프타임즈",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BbGk3aXFyaXZ1Mk1DZms2eS1hWDhBTFNnbHFmV2F3WWlJcW5XQzM0dFg3dmRfZ09rdFpmS0tISkpSZkxXM0tSUzlMMENYNkdTWUlNWmwyM0Jzb2ZONzB6MnozZGpqeV9YZFIyb0ZGWdIBc0FVX3lxTE5vRG55Vk04c0VNOGp4ZmhDa3Fla3Q0LWd2WVFfdVdMWnJnRUo2b2hWOHdERkN3eU5uRS1TaXZLbmVDRlM1TGVXRGhzem55UHNfeXh5ZlB1bV9yNzZJcVA4Tk9HSlJwNmw3Vm9XWFFRWk9hczg?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 06:45:10 GMT",
-          "source": "세이프타임즈"
-        },
-        {
-          "title": "\"中, 증시 변동성 확대에 빚투 제동…증권사 거래 심사 강화\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HVXZwSGxST190TTB3QllIMUpsVEpoaHFxQTEyRUZwWVFUcWVhZmI5bHFqSzgtWEFPZjVxZjJWd0UtRm1XQ3BsWk5WZVhiSlVVNlN2N2tQd3N0MFFZTTZhd9IBYEFVX3lxTE5HVXZwSGxST190TTB3QllIMUpsVEpoaHFxQTEyRUZwWVFUcWVhZmI5bHFqSzgtWEFPZjVxZjJWd0UtRm1XQ3BsWk5WZVhiSlVVNlN2N2tQd3N0MFFZTTZhdw?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 03:00:43 GMT",
-          "source": "연합뉴스"
         }
       ],
       "fear_articles": [
@@ -54,6 +42,12 @@
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsZ1NzbllQbkdnWjZrNkdqNVhBRFFkOFpVcC00SzRGTnp6RlRaTmtUVmNRYVJpWGpTc2lHS1BKQmdscm9IMUtNZWdzNUZjbnMyQllxQlRR?oc=5",
           "pub_date": "Mon, 10 Aug 2026 07:19:40 GMT",
           "source": "중앙일보"
+        },
+        {
+          "title": "[오늘의 ABC 뉴스룸] 코스피 22% 폭락, 투자 불가 외신 팩폭에 발칵! 전 세계 가전 92% 멈출 희토류 부식 시나리오 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwWHVtdWctaGFXWWFYQ1JiYWpBVndDTzVDZ2JSVXgwVlVmY0RsM2Y5MnByc052azRZakRrVkxvS0VwQWFZZmZFbk5mQ2pNMGVGNWxLUk1jSFNXd9IBWEFVX3lxTE1nbmh4Q2F2dTllUEszZTN5d0lkRGdmTFZPQXgxZmY0YXJfdXdpd1FEVFhjejU5UUpQLVItM2lOc2ZrdFVUdkpobVAzcEhFakY0WndvWFQ1VFA?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 09:08:33 GMT",
+          "source": "아주경제"
         }
       ]
     }
@@ -192,6 +186,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.08.10",
+            "close": 230000,
+            "change_pct": -0.43,
+            "retail_net": 3769410,
+            "inst_net": 625055,
+            "foreign_net": -4394465
+          },
+          {
             "date": "2026.08.07",
             "close": 231000,
             "change_pct": 0.22,
@@ -222,17 +224,17 @@
             "retail_net": 3073986,
             "inst_net": -3924513,
             "foreign_net": 850527
-          },
-          {
-            "date": "2026.08.03",
-            "close": 239500,
-            "change_pct": -8.76,
-            "retail_net": 8936443,
-            "inst_net": -5039954,
-            "foreign_net": -3896489
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.10",
+            "close": 1420000,
+            "change_pct": -0.14,
+            "retail_net": 218476,
+            "inst_net": 68099,
+            "foreign_net": -286575
+          },
           {
             "date": "2026.08.07",
             "close": 1422000,
@@ -264,14 +266,6 @@
             "retail_net": 399607,
             "inst_net": 18945,
             "foreign_net": -418552
-          },
-          {
-            "date": "2026.08.03",
-            "close": 1567000,
-            "change_pct": -8.79,
-            "retail_net": 1395369,
-            "inst_net": -288012,
-            "foreign_net": -1107357
           }
         ]
       }
