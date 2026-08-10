@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T19:47:06.619881+09:00",
+  "timestamp": "2026-08-10T20:34:53.016409+09:00",
   "sentiment": {
     "cnn_fng": 63.6857142857143,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 4,
       "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "코스피 주춤한 사이 코스닥 '훨훨'‥반도체 쏠림 딛고 순환매 본격화? - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5nSlp5aURzOEdtd0J3LVBpVHFhQ3pMV0VDRXF2cHNpOFBES1k1YThtSzFXa1pWRFU3bnFhZ082Q05qbnlNOXZCMVRIOG1iSHZGYWhadFZXNHlzem8yakEzcjVBTzZyQXhVejdjcEpId3ctOWR2ek9FRQ?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 10:52:48 GMT",
+          "source": "MBC 뉴스"
+        },
         {
           "title": "레버리지 규제 7일 만에 ‘공포지수’ 19% 뚝…블룸버그 “증시 과열 해소신호” - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzQ5dHpUVjRwMnIxXzZxbjlSZkZKa1EzWmFzaWFuS29KQTlVbmtHZkg2SDJxRmZpQklRN3NkNzV1OGFLTUMtN2daUUpTN1ZvXy1LejFEbVRuMDc3M2wtbXgtR0RQRElFN0RWUldQd2FLNmUxbTZBaFFZSzZobVhURXg0SXpiY2hyT0RN?oc=5",
@@ -24,16 +30,16 @@
           "source": "조선일보"
         },
         {
-          "title": "7거래일간 32% 뛴 코스닥…최고점 넘어 상승 이어가려면 ‘체질 개선’ 필요 - 동아일보",
+          "title": "7거래일간 32% 뛴 코스닥…최고점 넘어 상승 이어가려면 ‘체질 개선’ 필요 - donga.com",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fZ3hnQTFQTjVjMnpHSlVIQ0ptNFI2ay00THFfcjUwY1pCNHhpNXNrd3F0bEszcVQ4bGpVbGlkV2RwRl9hOWYtWWh6YnhUUXhKYWp0dHBJSE1PZWNHbzBpUHo2Yk9XQdIBZkFVX3lxTE9fZ3hnQTFQTjVjMnpHSlVIQ0ptNFI2ay00THFfcjUwY1pCNHhpNXNrd3F0bEszcVQ4bGpVbGlkV2RwRl9hOWYtWWh6YnhUUXhKYWp0dHBJSE1PZWNHbzBpUHo2Yk9XQQ?oc=5",
           "pub_date": "Mon, 10 Aug 2026 08:05:59 GMT",
-          "source": "동아일보"
+          "source": "donga.com"
         },
         {
-          "title": "최고점 찍고 하락한 코스피…돌아온 서학개미들, 6월부터 미장으로 - 동아일보",
+          "title": "최고점 찍고 하락한 코스피…돌아온 서학개미들, 6월부터 미장으로 - donga.com",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtTS1sRmtFZmxxVTdtQ2FSbUFzcjZyQmxPTDUyZlltRjJSRWkzSDlWbXEtT1V3Tnl0R2FnQlI5NXBZZUxyRFRZalZ2QURyb3h3b1MyQm53TnR2NDRYdkxLakU5SlhUZThWTVRHQ3JwN1luZU1tdVHSAWZBVV95cUxPZHFxeXM0YzZGTEtpSFRuNFNRN1lFdEl2empxNTZhZTQ5RmtGM3k3blBIWndRUWxiQ24yUzg2aHhnYXFUbEhoVUd1ZFlDeDQ0VlZzZnFnSFJScnZadTNjU1lkWEpXeEE?oc=5",
           "pub_date": "Mon, 10 Aug 2026 07:38:00 GMT",
-          "source": "동아일보"
+          "source": "donga.com"
         }
       ],
       "fear_articles": [
@@ -45,7 +51,7 @@
         },
         {
           "title": "[오늘의 ABC 뉴스룸] 코스피 22% 폭락, 투자 불가 외신 팩폭에 발칵! 전 세계 가전 92% 멈출 희토류 부식 시나리오 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbmh4Q2F2dTllUEszZTN5d0lkRGdmTFZPQXgxZmY0YXJfdXdpd1FEVFhjejU5UUpQLVItM2lOc2ZrdFVUdkpobVAzcEhFakY0WndvWFQ1VFDSAVhBVV95cUxNZ25oeENhdnU5ZVBLM2UzeXdJZERnZkxWT0F4MWZmNGFyX3V3aXdRRFRYY3o1OVFKUC1SLTNpTnNma3RVVHZKaG1QM3BIRWpGNFp3b1hUNVRQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwWHVtdWctaGFXWWFYQ1JiYWpBVndDTzVDZ2JSVXgwVlVmY0RsM2Y5MnByc052azRZakRrVkxvS0VwQWFZZmZFbk5mQ2pNMGVGNWxLUk1jSFNXd9IBWEFVX3lxTE1nbmh4Q2F2dTllUEszZTN5d0lkRGdmTFZPQXgxZmY0YXJfdXdpd1FEVFhjejU5UUpQLVItM2lOc2ZrdFVUdkpobVAzcEhFakY0WndvWFQ1VFA?oc=5",
           "pub_date": "Mon, 10 Aug 2026 09:08:33 GMT",
           "source": "아주경제"
         }
@@ -53,7 +59,7 @@
     }
   },
   "volatility": {
-    "vix": 15.45,
+    "vix": 15.47,
     "vvix": 90.42,
     "skew": 132.57,
     "move": 72.03
