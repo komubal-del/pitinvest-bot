@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T18:42:04.382758+09:00",
+  "timestamp": "2026-08-10T19:47:06.619881+09:00",
   "sentiment": {
     "cnn_fng": 63.6857142857143,
     "cnn_components": {
@@ -45,7 +45,7 @@
         },
         {
           "title": "[오늘의 ABC 뉴스룸] 코스피 22% 폭락, 투자 불가 외신 팩폭에 발칵! 전 세계 가전 92% 멈출 희토류 부식 시나리오 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwWHVtdWctaGFXWWFYQ1JiYWpBVndDTzVDZ2JSVXgwVlVmY0RsM2Y5MnByc052azRZakRrVkxvS0VwQWFZZmZFbk5mQ2pNMGVGNWxLUk1jSFNXd9IBWEFVX3lxTE1nbmh4Q2F2dTllUEszZTN5d0lkRGdmTFZPQXgxZmY0YXJfdXdpd1FEVFhjejU5UUpQLVItM2lOc2ZrdFVUdkpobVAzcEhFakY0WndvWFQ1VFA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbmh4Q2F2dTllUEszZTN5d0lkRGdmTFZPQXgxZmY0YXJfdXdpd1FEVFhjejU5UUpQLVItM2lOc2ZrdFVUdkpobVAzcEhFakY0WndvWFQ1VFDSAVhBVV95cUxNZ25oeENhdnU5ZVBLM2UzeXdJZERnZkxWT0F4MWZmNGFyX3V3aXdRRFRYY3o1OVFKUC1SLTNpTnNma3RVVHZKaG1QM3BIRWpGNFp3b1hUNVRQ?oc=5",
           "pub_date": "Mon, 10 Aug 2026 09:08:33 GMT",
           "source": "아주경제"
         }
@@ -53,7 +53,7 @@
     }
   },
   "volatility": {
-    "vix": 15.43,
+    "vix": 15.45,
     "vvix": 90.42,
     "skew": 132.57,
     "move": 72.03
