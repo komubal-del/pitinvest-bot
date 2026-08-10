@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T07:49:23.345057+09:00",
+  "timestamp": "2026-08-11T08:44:12.695261+09:00",
   "sentiment": {
     "cnn_fng": 64.4,
     "cnn_components": {
@@ -25,10 +25,10 @@
           "source": "문화일보"
         },
         {
-          "title": "코스피 폭락한 7월 20% 넘게 상승한 화장품주 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HZnAtempDRjNaOUxDcHVSZk9NLWxnZDRhWk5IQ0ptYWg4TU5XeUtKOEhpdHVLb2J2enJldWExaGFma2Z2WTdIQ3ZSbGJQcDA?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 22:02:42 GMT",
-          "source": "v.daum.net"
+          "title": "6300선 문턱서 멈춘 코스피…美반도체 급락·유가 5% 급등 ‘먹구름’ - kbmaeil.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6ZXE0a2J4c0ZLWUwyY0JPclVUUTQzX1RjNjBkMmR2YjE2VV85aXQ2VVVNaFo4ZmlQM2hDQXBYYUt1N1JoQ1hHZmN4NXU5Y0pXNTZBWE5yajEwUQ?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 23:20:00 GMT",
+          "source": "kbmaeil.com"
         }
       ]
     }
