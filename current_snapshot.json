@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-11T05:07:26.920922+09:00",
+  "timestamp": "2026-08-11T05:57:12.585911+09:00",
   "sentiment": {
-    "cnn_fng": 64.5714285714286,
+    "cnn_fng": 64.4,
     "cnn_components": {
-      "momentum": 76.2,
+      "momentum": 76.8,
       "strength": 31.8,
-      "breadth": 44.6,
-      "put_call": 77.8,
+      "breadth": 44.2,
+      "put_call": 77.4,
       "junk_bond": 98.8,
       "volatility": 50.0,
       "safe_haven": 71.8
@@ -21,10 +21,10 @@
     }
   },
   "volatility": {
-    "vix": 15.43,
-    "vvix": 92.53,
+    "vix": 15.46,
+    "vvix": 92.51,
     "skew": 132.57,
-    "move": 72.03
+    "move": 75.46
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -921700000000,
@@ -64,11 +64,11 @@
       "sma_200": 7055.12
     },
     "russell2k": {
-      "current": 3017.99,
+      "current": 3017.4,
       "high_52w": 3048.85,
-      "drop_pct": -1.01,
+      "drop_pct": -1.03,
       "intraday_low_drop_pct": -1.17,
-      "sma_200": 2692.35
+      "sma_200": 2692.34
     },
     "soxx": {
       "current": 529.39,
@@ -81,10 +81,10 @@
   "sector_rs": {
     "XLK": 1.0,
     "SMH": 0.942,
-    "BOTZ": 0.864,
+    "BOTZ": 0.865,
     "IGV": 1.105,
     "XLF": 1.081,
-    "XLE": 1.012
+    "XLE": 1.011
   },
   "signals": {
     "cnn_under_10": false,
@@ -287,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.366,
+    "strategy_pct": 181.14,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -911,7 +911,7 @@
       },
       {
         "date": "2026-08-11",
-        "ret_pct": 183.366
+        "ret_pct": 181.14
       }
     ],
     "monthly_breakdown": [
@@ -959,9 +959,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 13.93,
-        "end_ret_pct": 183.37,
-        "max_dd_pct": 5.1
+        "return_pct": 11.7,
+        "end_ret_pct": 181.14,
+        "max_dd_pct": 7.33
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
