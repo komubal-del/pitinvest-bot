@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-12T03:35:58.758529+09:00",
+  "timestamp": "2026-08-12T04:45:46.354868+09:00",
   "sentiment": {
-    "cnn_fng": 60.6,
+    "cnn_fng": 60.8857142857143,
     "cnn_components": {
-      "momentum": 66.8,
-      "strength": 31.8,
-      "breadth": 49.0,
-      "put_call": 62.2,
-      "junk_bond": 98.4,
+      "momentum": 68.2,
+      "strength": 31.4,
+      "breadth": 49.2,
+      "put_call": 62.0,
+      "junk_bond": 98.6,
       "volatility": 50.0,
-      "safe_haven": 65.6
+      "safe_haven": 67.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -22,7 +22,7 @@
   },
   "volatility": {
     "vix": 15.26,
-    "vvix": 91.63,
+    "vvix": 91.57,
     "skew": 137.13,
     "move": 75.46
   },
@@ -36,54 +36,54 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26395.67,
+      "current": 26436.55,
       "high_52w": 27190.21,
-      "drop_pct": -2.92,
+      "drop_pct": -2.77,
       "intraday_low_drop_pct": -3.01,
-      "sma_200": 24126.98
+      "sma_200": 24127.18
     },
     "kospi": {
       "current": 6299.66,
       "high_52w": 9385.59,
       "drop_pct": -32.88,
-      "intraday_low_drop_pct": -32.88,
+      "intraday_low_drop_pct": -33.6,
       "sma_200": 5816.01
     },
     "kosdaq": {
       "current": 854.47,
       "high_52w": 1229.42,
       "drop_pct": -30.5,
-      "intraday_low_drop_pct": -30.5,
+      "intraday_low_drop_pct": -34.31,
       "sma_200": 995.15
     },
     "sp500": {
-      "current": 7723.67,
+      "current": 7728.13,
       "high_52w": 7793.68,
-      "drop_pct": -0.9,
+      "drop_pct": -0.84,
       "intraday_low_drop_pct": -0.98,
-      "sma_200": 7060.24
+      "sma_200": 7060.26
     },
     "russell2k": {
-      "current": 3032.59,
+      "current": 3031.58,
       "high_52w": 3048.85,
-      "drop_pct": -0.53,
+      "drop_pct": -0.57,
       "intraday_low_drop_pct": -0.83,
-      "sma_200": 2695.25
+      "sma_200": 2695.24
     },
     "soxx": {
-      "current": 531.25,
+      "current": 532.74,
       "high_52w": 655.95,
-      "drop_pct": -19.01,
+      "drop_pct": -18.78,
       "intraday_low_drop_pct": -19.19,
-      "sma_200": 411.06
+      "sma_200": 411.07
     }
   },
   "sector_rs": {
-    "XLK": 1.0,
-    "SMH": 0.948,
+    "XLK": 1.002,
+    "SMH": 0.95,
     "BOTZ": 0.868,
-    "IGV": 1.096,
-    "XLF": 1.088,
+    "IGV": 1.098,
+    "XLF": 1.086,
     "XLE": 1.026
   },
   "signals": {
@@ -120,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 64.98,
+    "tqqq_profit_pct": 65.87,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 144.66,
+    "soxl_profit_pct": 146.74,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.27,
+    "koru_profit_pct": -95.24,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -287,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 182.841,
+    "strategy_pct": 182.59,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -915,7 +915,7 @@
       },
       {
         "date": "2026-08-12",
-        "ret_pct": 182.841
+        "ret_pct": 182.59
       }
     ],
     "monthly_breakdown": [
@@ -963,9 +963,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 13.4,
-        "end_ret_pct": 182.84,
-        "max_dd_pct": 5.62
+        "return_pct": 13.15,
+        "end_ret_pct": 182.59,
+        "max_dd_pct": 5.88
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
