@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T14:41:37.319569+09:00",
+  "timestamp": "2026-08-11T15:36:02.773097+09:00",
   "sentiment": {
     "cnn_fng": 64.3714285714286,
     "cnn_components": {
@@ -14,21 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 2,
       "fear_count": 2,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_articles": [
         {
-          "title": "코스피 폭락하니 단기 예금 급증… 적금은 인기 ‘뚝’ - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWlI2ZjNkZlkwV2lsSDNVbVd6QzZHRjlzUlBmUFlVX1BqX0dVYW4wZU5yc3BteVFrcHkxclNxLWprZDBKOGFUWmYwOGxxRFhrZXV2ajlKaEFvQWhJeGNROFVYWkdGV0ZQNXAxYTZvR25aZDVITTNIOHBsUXF6Z3FqQdIBlAFBVV95cUxQMndidXN2bURTVmo3c2tMdTdxbl9teDJIcGJoVzVsUmxLQ3F6QWlrNHJQSTZtUVVHMUg3M3BnTjVzRW5vNWFwVmk4Q043bUdaa1htQWE2ZWdNdzhPaS1yOXVFN3F2NVRSdml5VEdReVhDY0dXYW9nTmJSQmtsQWpDVU1RN2dfSlNwWjBmdXFLbklVVlg4?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 04:42:00 GMT",
-          "source": "Chosunbiz"
+          "title": "반도체 쏠림 완화에 코스닥 '반격'... \"수급 개선 넘어 체질 개선 필요\" - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvNTFTazNXcV9jZ1VqU0ZqUmgyb283ZmxKeW5oc0lxMFI4cUk3OEJKOWtjVWRoWE0zLV9USEpnb0ZmUFE3clBkSkU4cV9SLXY1Z19HeDRNbmVnM01FNEw1eW9WVHc1XzBlVmhCRGF2RXFFZF90a0E?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 06:09:54 GMT",
+          "source": "인포스탁데일리"
         },
         {
-          "title": "주가는 급락해도 이익 전망은 ‘쑥’…코스피 ‘루트형’ 반등 전망 - 시사저널",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVUpLUklScGNUd05mUElrWl96bm82cjQ3TTJua0JfeFR4SlFiUE9ZcmdaMW9TcGtNU0Y0Y2F5SDNTeVV0NU15Z2NfR1VFYWx6NWtKMV9WblBrbWlhby15RmZtMU5ZZURQVmpTUjRib9IBc0FVX3lxTE90Vy1tZmQzS3BTUTBfQXgtcFdSeFN4VjdnLXhoWDJQNGgtTGpkdkxDNjFhT3l2U3ZCdXV5LTRUdWhKUlk1X0Q1TndYQXhXX2FUZlJOSEZONjFWVl9XOWVZWXZyX3BBSExmVkx2NHVlTVAxSHc?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 01:36:15 GMT",
-          "source": "시사저널"
+          "title": "반도체 쏠림 풀리자 코스닥으로…순환매 본격화 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XcGM2dUFBbXFpdl9BMWlDbFlCUHR1cTVXRFRhUjBvYW00ZDNQdnlqWUVDU2dmZ1dNUW5xeGxyS2dhUFk3VUlwdW5vblVuMW5JenRjQ1VNQTlEN0J4WFU4YS1XSV8wODVZQ09VNWUxZDB1dnBVZVHSAWZBVV95cUxObUVMcHBaWFNIU2QtTVZTclI2dThpLUJpRmplNThWdnFicEZSTGdpQzlqSlRfX0RoWFpoN2EwSGx5bnNPeURHTWlXLVNqSU5qdTFDQmxzVWpacVhqSVNJdzdlY0dEaGc?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 06:06:00 GMT",
+          "source": "동아일보"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "코스피 폭락하니 단기 예금 급증… 적금은 인기 ‘뚝’ - 조선비즈 - biz.chosun.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWlI2ZjNkZlkwV2lsSDNVbVd6QzZHRjlzUlBmUFlVX1BqX0dVYW4wZU5yc3BteVFrcHkxclNxLWprZDBKOGFUWmYwOGxxRFhrZXV2ajlKaEFvQWhJeGNROFVYWkdGV0ZQNXAxYTZvR25aZDVITTNIOHBsUXF6Z3FqQdIBlAFBVV95cUxQMndidXN2bURTVmo3c2tMdTdxbl9teDJIcGJoVzVsUmxLQ3F6QWlrNHJQSTZtUVVHMUg3M3BnTjVzRW5vNWFwVmk4Q043bUdaa1htQWE2ZWdNdzhPaS1yOXVFN3F2NVRSdml5VEdReVhDY0dXYW9nTmJSQmtsQWpDVU1RN2dfSlNwWjBmdXFLbklVVlg4?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 04:42:00 GMT",
+          "source": "biz.chosun.com"
+        },
+        {
+          "title": "유가 불안 · 美 인텔 급락 속...코스피·코스닥 '하락 출발' - 초이스경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40RUlXTGkwVFpkU1FTSzdyTXBTMlJyYzF6V056WHI2LTFZZ2VKREdWamY5Q2c5d0NlZEpNS1BFT0dqUkRwOUFSWEtYVHNsYkZ3eVhnNUhoeXlmUnpwblVLOXlpb1RTSG1LZmYyM2J0SjZJZ0HSAXNBVV95cUxONEVJV0xpMFRaZFNRU0s3ck1wUzJScmMxeldOelhyNi0xWWdlSkRHVmpmOUNnOXdDZWRKTUtQRU9HalJEcDlBUlhLWFRzbGJGd3lYZzVIaHl5ZlJ6cG5VSzl5aW9UU0htS2ZmMjNidEo2SWdB?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 03:11:37 GMT",
+          "source": "초이스경제"
         }
       ]
     }
@@ -40,8 +53,8 @@
     "move": 75.46
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 326100000000,
-    "retail_net_buy_krw": -316200000000,
+    "foreign_inst_buy_krw": 76500000000,
+    "retail_net_buy_krw": -72400000000,
     "margin_loan_krw": 28815900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +69,18 @@
       "sma_200": 24108.7
     },
     "kospi": {
-      "current": 6377.24,
+      "current": 6352.0,
       "high_52w": 9385.59,
-      "drop_pct": -32.05,
+      "drop_pct": -32.32,
       "intraday_low_drop_pct": -33.79,
-      "sma_200": 5829.15
+      "sma_200": 5829.03
     },
     "kosdaq": {
-      "current": 853.93,
+      "current": 858.08,
       "high_52w": 1229.42,
-      "drop_pct": -30.54,
+      "drop_pct": -30.2,
       "intraday_low_drop_pct": -31.64,
-      "sma_200": 995.12
+      "sma_200": 995.14
     },
     "sp500": {
       "current": 7753.11,
