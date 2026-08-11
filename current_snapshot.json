@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T19:15:51.721254+09:00",
+  "timestamp": "2026-08-11T20:09:54.471384+09:00",
   "sentiment": {
     "cnn_fng": 65.0,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 3,
       "fear_count": 0,
       "greed_articles": [
         {
@@ -30,23 +30,17 @@
           "source": "v.daum.net"
         },
         {
-          "title": "쏠림 벗어난 코스피…순환매 본격화 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZXzhCR1VKQ2wzZm5KMGVINTVQS2F2eGtmNEx2b19ENnRfYU5nNnJDNXdIUUlPcUdGbXY2cjlOQmVtNDJvcEtJaDRJbHhtaGs?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 08:48:17 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "증시 대기자금 100조원선 위태…‘빚투’는 다시 30조원 돌파 - sankyungtoday.com",
+          "title": "증시 대기자금 100조원선 위태…‘빚투’는 다시 30조원 돌파 - 산경투데이",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2RWNiWjVUMHN3T3JKalRNZGpDRDluX2Y3WVJ0VERZZmF3SzMyc2RpRGFQRnd3SmtmOXBKWHV2WFB3blV4dG93cDNCRjBWWGNodWdHazJRak9DV1NhaTE0YUZRTzkxSktUbFp2X05UN2nSAXRBVV95cUxQUE9FYUl4RWVxY2pjLUMyaGFDZmVXckhLeHdpZkQtTzRjcTM0OTVLOGRxNV9fQjlxRWhLMmR5Qm84cTItRjA4LVNJOTdzSHo5Z0hNbGtIbHdiZmdGaGZ2YnZXUEM0Y184eTZSRm1vekZPaWRZSg?oc=5",
           "pub_date": "Tue, 11 Aug 2026 07:05:33 GMT",
-          "source": "sankyungtoday.com"
+          "source": "산경투데이"
         }
       ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.53,
+    "vix": 15.5,
     "vvix": 92.51,
     "skew": 137.13,
     "move": 75.46
