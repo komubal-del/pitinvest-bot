@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T18:09:31.463506+09:00",
+  "timestamp": "2026-08-11T19:15:51.721254+09:00",
   "sentiment": {
     "cnn_fng": 65.0,
     "cnn_components": {
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 1,
+      "greed_count": 4,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "과열 잦아든 코스피…‘변동성 지수’ -11% 뚝 - 한겨레",
+          "title": "코스피, 반도체 과열 식더니…변동성 지수 11% 빠져 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UeFdkSWJwV1ltNl9IWGJid19kelM1UW01cEFDeFczYTJvQkNOWWNTTWdUcURQWEJoX0x2eWJLV2R1LXhOVGdtTlZxMnhLZk9VU1dqYkdsTmxKTzQ4TWd3aURyN2toNFE?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 07:51:00 GMT",
+          "pub_date": "Tue, 11 Aug 2026 08:11:00 GMT",
           "source": "한겨레"
+        },
+        {
+          "title": "증시 조정에 투자자예탁금 줄어…'빚투'는 다시 증가세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yU2pjRldhOFp2TTRLOWVobzlRdWRXOEtreV8wMEZHZWlPR2tZWFdhYkF2QWZsb1o4V3BxeloxREdKc3hyVVMteE1McXJXdlk?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 08:09:00 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "쏠림 벗어난 코스피…순환매 본격화 - v.daum.net",
@@ -34,32 +40,13 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2RWNiWjVUMHN3T3JKalRNZGpDRDluX2Y3WVJ0VERZZmF3SzMyc2RpRGFQRnd3SmtmOXBKWHV2WFB3blV4dG93cDNCRjBWWGNodWdHazJRak9DV1NhaTE0YUZRTzkxSktUbFp2X05UN2nSAXRBVV95cUxQUE9FYUl4RWVxY2pjLUMyaGFDZmVXckhLeHdpZkQtTzRjcTM0OTVLOGRxNV9fQjlxRWhLMmR5Qm84cTItRjA4LVNJOTdzSHo5Z0hNbGtIbHdiZmdGaGZ2YnZXUEM0Y184eTZSRm1vekZPaWRZSg?oc=5",
           "pub_date": "Tue, 11 Aug 2026 07:05:33 GMT",
           "source": "sankyungtoday.com"
-        },
-        {
-          "title": "예탁금은 빠지고 빚투는 다시 늘고…증시 ‘돈의 구조’가 바뀐다 - 한국금융신문",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JVUNRTElaaWV0TGsxNTdTdXBrUFNrRm50dXNkelVJOXcxLTFlUTFwRXBfUGtjUTlyZ0ZRN2hfY1ozX0Z6THpLMEp1TGsxMzZQRzNCWENOc09hbkQ2VUVJUldBTG9GaFVzMXYya1ZkT2lYSGt6T1poQkd3cVE?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 07:41:38 GMT",
-          "source": "한국금융신문"
-        },
-        {
-          "title": "반도체 쏠림 완화에 코스닥 '반격'... \"수급 개선 넘어 체질 개선 필요\" - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvNTFTazNXcV9jZ1VqU0ZqUmgyb283ZmxKeW5oc0lxMFI4cUk3OEJKOWtjVWRoWE0zLV9USEpnb0ZmUFE3clBkSkU4cV9SLXY1Z19HeDRNbmVnM01FNEw1eW9WVHc1XzBlVmhCRGF2RXFFZF90a0E?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 06:09:54 GMT",
-          "source": "인포스탁데일리"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "코스피 폭락하니 단기 예금 급증… 적금은 인기 ‘뚝’ - 조선비즈 - biz.chosun.com",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWlI2ZjNkZlkwV2lsSDNVbVd6QzZHRjlzUlBmUFlVX1BqX0dVYW4wZU5yc3BteVFrcHkxclNxLWprZDBKOGFUWmYwOGxxRFhrZXV2ajlKaEFvQWhJeGNROFVYWkdGV0ZQNXAxYTZvR25aZDVITTNIOHBsUXF6Z3FqQdIBlAFBVV95cUxQMndidXN2bURTVmo3c2tMdTdxbl9teDJIcGJoVzVsUmxLQ3F6QWlrNHJQSTZtUVVHMUg3M3BnTjVzRW5vNWFwVmk4Q043bUdaa1htQWE2ZWdNdzhPaS1yOXVFN3F2NVRSdml5VEdReVhDY0dXYW9nTmJSQmtsQWpDVU1RN2dfSlNwWjBmdXFLbklVVlg4?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 04:42:00 GMT",
-          "source": "biz.chosun.com"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.51,
+    "vix": 15.53,
     "vvix": 92.51,
     "skew": 137.13,
     "move": 75.46
@@ -181,7 +168,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
@@ -191,6 +178,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.11",
+            "close": 239500,
+            "change_pct": 4.13,
+            "retail_net": -2781819,
+            "inst_net": 319290,
+            "foreign_net": 2462529
+          },
           {
             "date": "2026.08.10",
             "close": 230000,
@@ -222,17 +217,17 @@
             "retail_net": -219871,
             "inst_net": -2078706,
             "foreign_net": 2298577
-          },
-          {
-            "date": "2026.08.04",
-            "close": 240000,
-            "change_pct": 0.21,
-            "retail_net": 3073986,
-            "inst_net": -3924513,
-            "foreign_net": 850527
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.11",
+            "close": 1425000,
+            "change_pct": 0.35,
+            "retail_net": 142238,
+            "inst_net": 68354,
+            "foreign_net": -210592
+          },
           {
             "date": "2026.08.10",
             "close": 1420000,
@@ -264,14 +259,6 @@
             "retail_net": -361544,
             "inst_net": -28260,
             "foreign_net": 389804
-          },
-          {
-            "date": "2026.08.04",
-            "close": 1577000,
-            "change_pct": 0.64,
-            "retail_net": 399607,
-            "inst_net": 18945,
-            "foreign_net": -418552
           }
         ]
       }
