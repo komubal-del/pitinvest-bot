@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T16:54:53.785818+09:00",
+  "timestamp": "2026-08-11T18:09:31.463506+09:00",
   "sentiment": {
     "cnn_fng": 65.0,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 5,
       "fear_count": 1,
       "greed_articles": [
         {
@@ -24,43 +24,49 @@
           "source": "한겨레"
         },
         {
+          "title": "쏠림 벗어난 코스피…순환매 본격화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZXzhCR1VKQ2wzZm5KMGVINTVQS2F2eGtmNEx2b19ENnRfYU5nNnJDNXdIUUlPcUdGbXY2cjlOQmVtNDJvcEtJaDRJbHhtaGs?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 08:48:17 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "증시 대기자금 100조원선 위태…‘빚투’는 다시 30조원 돌파 - sankyungtoday.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2RWNiWjVUMHN3T3JKalRNZGpDRDluX2Y3WVJ0VERZZmF3SzMyc2RpRGFQRnd3SmtmOXBKWHV2WFB3blV4dG93cDNCRjBWWGNodWdHazJRak9DV1NhaTE0YUZRTzkxSktUbFp2X05UN2nSAXRBVV95cUxQUE9FYUl4RWVxY2pjLUMyaGFDZmVXckhLeHdpZkQtTzRjcTM0OTVLOGRxNV9fQjlxRWhLMmR5Qm84cTItRjA4LVNJOTdzSHo5Z0hNbGtIbHdiZmdGaGZ2YnZXUEM0Y184eTZSRm1vekZPaWRZSg?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 07:05:33 GMT",
+          "source": "sankyungtoday.com"
+        },
+        {
+          "title": "예탁금은 빠지고 빚투는 다시 늘고…증시 ‘돈의 구조’가 바뀐다 - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JVUNRTElaaWV0TGsxNTdTdXBrUFNrRm50dXNkelVJOXcxLTFlUTFwRXBfUGtjUTlyZ0ZRN2hfY1ozX0Z6THpLMEp1TGsxMzZQRzNCWENOc09hbkQ2VUVJUldBTG9GaFVzMXYya1ZkT2lYSGt6T1poQkd3cVE?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 07:41:38 GMT",
+          "source": "한국금융신문"
+        },
+        {
           "title": "반도체 쏠림 완화에 코스닥 '반격'... \"수급 개선 넘어 체질 개선 필요\" - 인포스탁데일리",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvNTFTazNXcV9jZ1VqU0ZqUmgyb283ZmxKeW5oc0lxMFI4cUk3OEJKOWtjVWRoWE0zLV9USEpnb0ZmUFE3clBkSkU4cV9SLXY1Z19HeDRNbmVnM01FNEw1eW9WVHc1XzBlVmhCRGF2RXFFZF90a0E?oc=5",
           "pub_date": "Tue, 11 Aug 2026 06:09:54 GMT",
           "source": "인포스탁데일리"
-        },
-        {
-          "title": "증시 대기자금 100조원선 위태…‘빚투’는 다시 30조원 돌파 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2RWNiWjVUMHN3T3JKalRNZGpDRDluX2Y3WVJ0VERZZmF3SzMyc2RpRGFQRnd3SmtmOXBKWHV2WFB3blV4dG93cDNCRjBWWGNodWdHazJRak9DV1NhaTE0YUZRTzkxSktUbFp2X05UN2nSAXRBVV95cUxQUE9FYUl4RWVxY2pjLUMyaGFDZmVXckhLeHdpZkQtTzRjcTM0OTVLOGRxNV9fQjlxRWhLMmR5Qm84cTItRjA4LVNJOTdzSHo5Z0hNbGtIbHdiZmdGaGZ2YnZXUEM0Y184eTZSRm1vekZPaWRZSg?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 07:05:33 GMT",
-          "source": "산경투데이"
-        },
-        {
-          "title": "반도체 쏠림 풀리자 코스닥으로…순환매 본격화 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XcGM2dUFBbXFpdl9BMWlDbFlCUHR1cTVXRFRhUjBvYW00ZDNQdnlqWUVDU2dmZ1dNUW5xeGxyS2dhUFk3VUlwdW5vblVuMW5JenRjQ1VNQTlEN0J4WFU4YS1XSV8wODVZQ09VNWUxZDB1dnBVZVHSAWZBVV95cUxObUVMcHBaWFNIU2QtTVZTclI2dThpLUJpRmplNThWdnFicEZSTGdpQzlqSlRfX0RoWFpoN2EwSGx5bnNPeURHTWlXLVNqSU5qdTFDQmxzVWpacVhqSVNJdzdlY0dEaGc?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 06:06:00 GMT",
-          "source": "동아일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "“코스닥 이제 급락한다?”…인버스 쓸어담은 개미들, 왜? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HVEd2c0hXbzY3LVg2RGY0Z0EtLWdEUjNaOXZPeFFvQTlZZFpDcFFjZHItLVg2cHdjSTJmSFcwLXFpUUNmdEZyRDdxRWVDNzA?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 06:39:00 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 폭락하니 단기 예금 급증… 적금은 인기 ‘뚝’ - 조선비즈 - biz.chosun.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWlI2ZjNkZlkwV2lsSDNVbVd6QzZHRjlzUlBmUFlVX1BqX0dVYW4wZU5yc3BteVFrcHkxclNxLWprZDBKOGFUWmYwOGxxRFhrZXV2ajlKaEFvQWhJeGNROFVYWkdGV0ZQNXAxYTZvR25aZDVITTNIOHBsUXF6Z3FqQdIBlAFBVV95cUxQMndidXN2bURTVmo3c2tMdTdxbl9teDJIcGJoVzVsUmxLQ3F6QWlrNHJQSTZtUVVHMUg3M3BnTjVzRW5vNWFwVmk4Q043bUdaa1htQWE2ZWdNdzhPaS1yOXVFN3F2NVRSdml5VEdReVhDY0dXYW9nTmJSQmtsQWpDVU1RN2dfSlNwWjBmdXFLbklVVlg4?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 04:42:00 GMT",
+          "source": "biz.chosun.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.4,
+    "vix": 15.51,
     "vvix": 92.51,
     "skew": 137.13,
     "move": 75.46
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 74800000000,
-    "retail_net_buy_krw": -70700000000,
+    "foreign_inst_buy_krw": 74700000000,
+    "retail_net_buy_krw": -70800000000,
     "margin_loan_krw": 28815900000000,
     "news_count": 0,
     "short_sale_balance": null,
