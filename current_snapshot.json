@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T21:02:50.984579+09:00",
+  "timestamp": "2026-08-11T22:24:50.169028+09:00",
   "sentiment": {
     "cnn_fng": 65.0,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "코스피, 반도체 과열 식더니…변동성 지수 11% 빠져 - 한겨레",
@@ -28,19 +28,20 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yU2pjRldhOFp2TTRLOWVobzlRdWRXOEtreV8wMEZHZWlPR2tZWFdhYkF2QWZsb1o4V3BxeloxREdKc3hyVVMteE1McXJXdlk?oc=5",
           "pub_date": "Tue, 11 Aug 2026 08:09:00 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "증시 대기자금 100조원선 위태…‘빚투’는 다시 30조원 돌파 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2RWNiWjVUMHN3T3JKalRNZGpDRDluX2Y3WVJ0VERZZmF3SzMyc2RpRGFQRnd3SmtmOXBKWHV2WFB3blV4dG93cDNCRjBWWGNodWdHazJRak9DV1NhaTE0YUZRTzkxSktUbFp2X05UN2nSAXRBVV95cUxQUE9FYUl4RWVxY2pjLUMyaGFDZmVXckhLeHdpZkQtTzRjcTM0OTVLOGRxNV9fQjlxRWhLMmR5Qm84cTItRjA4LVNJOTdzSHo5Z0hNbGtIbHdiZmdGaGZ2YnZXUEM0Y184eTZSRm1vekZPaWRZSg?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 07:05:33 GMT",
-          "source": "산경투데이"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "공포지수 97→62 급락…증시 안정 아닌 ‘레버리지 착시’ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZHotdGZoSjV0TlBuOFpORFFoNHFsYkE1ZkQxOUpoMHBrWjgwQXFZaTZyb05fR3lpT0twTldnUW93c25iWTh4di10cFVHV2M?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 09:01:00 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 15.47,
+    "vix": 15.53,
     "vvix": 92.51,
     "skew": 137.13,
     "move": 75.46
