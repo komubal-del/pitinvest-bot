@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-11T11:51:53.002267+09:00",
+  "timestamp": "2026-08-11T13:34:47.795141+09:00",
   "sentiment": {
-    "cnn_fng": 64.4,
+    "cnn_fng": 64.3714285714286,
     "cnn_components": {
       "momentum": 76.8,
       "strength": 31.8,
       "breadth": 44.2,
       "put_call": 77.4,
-      "junk_bond": 98.8,
+      "junk_bond": 98.6,
       "volatility": 50.0,
       "safe_haven": 71.8
     },
@@ -19,16 +19,16 @@
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "李 지지율 44.3%, 한달 새 14.3%p 폭락 … 부동산·증시·보완수사권에 타격 - 뉴데일리",
+          "title": "주가는 급락해도 이익 전망은 ‘쑥’…코스피 ‘루트형’ 반등 전망 - 시사저널",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVUpLUklScGNUd05mUElrWl96bm82cjQ3TTJua0JfeFR4SlFiUE9ZcmdaMW9TcGtNU0Y0Y2F5SDNTeVV0NU15Z2NfR1VFYWx6NWtKMV9WblBrbWlhby15RmZtMU5ZZURQVmpTUjRib9IBc0FVX3lxTE90Vy1tZmQzS3BTUTBfQXgtcFdSeFN4VjdnLXhoWDJQNGgtTGpkdkxDNjFhT3l2U3ZCdXV5LTRUdWhKUlk1X0Q1TndYQXhXX2FUZlJOSEZONjFWVl9XOWVZWXZyX3BBSExmVkx2NHVlTVAxSHc?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 01:36:15 GMT",
+          "source": "시사저널"
+        },
+        {
+          "title": "李 지지율 44.3%, 5달 새 14.3%p 폭락 … 부동산·증시·보완수사권에 타격 - 뉴데일리",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LN1c0cDRuMmNKdDJfOXJuek5aM3N2a0NyTnlwSjAwc3Myb2Nra1FfQTUxcm1lSEk4NERoY1p6Nk5kU0tLZmV6a0RCWWJsTkpTOTFncjhGS1hDNFppMktkWHg0SmhMNURfUnB2Rm1aM0M4SF8tREIwVndEZ9IBgAFBVV95cUxPb1ZSd0hpakRQeEN3Y19CaTNyRkVRX0NVNGplaExmWWxHUmVSS21RaXFYc1lvWkEtLTNGRlNrczl5QkZVUDM4MDhvSDdvczRDNUYyS1ZwZkpHNzBpVGVIc280YXAzbkxTR18xVGRORkt4M1EyaHNYYVFZdFI3UFh6OQ?oc=5",
           "pub_date": "Mon, 10 Aug 2026 22:38:55 GMT",
           "source": "뉴데일리"
-        },
-        {
-          "title": "[속보] 뉴욕증시, '반도체주' 2.94% 급락 - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tTFJ0bHd2VGcxUUZmajQ5OEt1UXF3TmdueC1McGdPa1NqS09DWWxGM0dlMlRLcVRvZm5nSDNRZ1c4NE9fa2JZYU53NW1ISmVkbUhTUkNlNkt1R05ka28wdC1n?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 23:03:00 GMT",
-          "source": "이코노미스트"
         }
       ]
     }
@@ -40,8 +40,8 @@
     "move": 75.46
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 143300000000,
-    "retail_net_buy_krw": -130800000000,
+    "foreign_inst_buy_krw": 260000000000,
+    "retail_net_buy_krw": -248200000000,
     "margin_loan_krw": 28815900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +56,18 @@
       "sma_200": 24108.7
     },
     "kospi": {
-      "current": 6325.82,
+      "current": 6391.8,
       "high_52w": 9385.59,
-      "drop_pct": -32.6,
+      "drop_pct": -31.9,
       "intraday_low_drop_pct": -33.79,
-      "sma_200": 5828.89
+      "sma_200": 5829.22
     },
     "kosdaq": {
-      "current": 853.07,
+      "current": 849.36,
       "high_52w": 1229.42,
-      "drop_pct": -30.61,
+      "drop_pct": -30.91,
       "intraday_low_drop_pct": -31.64,
-      "sma_200": 995.12
+      "sma_200": 995.1
     },
     "sp500": {
       "current": 7753.11,
@@ -258,7 +258,7 @@
   },
   "expert_analysis": {
     "date": "2026-08-11",
-    "analyzed_at": "2026-08-11T09:34:34.912331+09:00",
+    "analyzed_at": "2026-08-11T13:34:53.103208+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -275,7 +275,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매도 또는 매수 행동 권고가 없으며, 제목은 코스닥의 반등 현상과 다음 시장 자금의 행선지에 대한 질문을 던지는 중립적인 분석의 성격을 띤다."
+          "reason": "제목에서 코스닥의 폭발적 반등을 언급하지만, 이는 현상 설명이며, 이후 '시장 자금의 다음 행선지는?'이라는 질문을 통해 중립적인 시장 분석을 예고하고 있어 특정 투자 행동을 권유하지 않습니다."
         }
       },
       {
@@ -288,7 +288,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 '반도체 급락과 반등...어떻게 해석해요?'로 현 시장 상황에 대한 분석과 해석을 묻는 질문 형태이며, 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없고, 그 외 내용은 모두 채널 및 교육 프로그램 홍보이기 때문에 중립으로 판단합니다."
+          "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 질문 형태로, 특정 시장 방향에 대한 권고 없이 중립적인 분석을 시사하며, 내용에 어떠한 행동 권고도 없습니다."
         }
       }
     ],
