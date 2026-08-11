@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-11T15:36:02.773097+09:00",
+  "timestamp": "2026-08-11T16:54:53.785818+09:00",
   "sentiment": {
-    "cnn_fng": 64.3714285714286,
+    "cnn_fng": 65.0,
     "cnn_components": {
       "momentum": 76.8,
-      "strength": 31.8,
-      "breadth": 44.2,
+      "strength": 31.4,
+      "breadth": 49.0,
       "put_call": 77.4,
       "junk_bond": 98.6,
       "volatility": 50.0,
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 2,
+      "greed_count": 4,
+      "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "과열 잦아든 코스피…‘변동성 지수’ -11% 뚝 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UeFdkSWJwV1ltNl9IWGJid19kelM1UW01cEFDeFczYTJvQkNOWWNTTWdUcURQWEJoX0x2eWJLV2R1LXhOVGdtTlZxMnhLZk9VU1dqYkdsTmxKTzQ4TWd3aURyN2toNFE?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 07:51:00 GMT",
+          "source": "한겨레"
+        },
         {
           "title": "반도체 쏠림 완화에 코스닥 '반격'... \"수급 개선 넘어 체질 개선 필요\" - 인포스탁데일리",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvNTFTazNXcV9jZ1VqU0ZqUmgyb283ZmxKeW5oc0lxMFI4cUk3OEJKOWtjVWRoWE0zLV9USEpnb0ZmUFE3clBkSkU4cV9SLXY1Z19HeDRNbmVnM01FNEw1eW9WVHc1XzBlVmhCRGF2RXFFZF90a0E?oc=5",
           "pub_date": "Tue, 11 Aug 2026 06:09:54 GMT",
           "source": "인포스탁데일리"
+        },
+        {
+          "title": "증시 대기자금 100조원선 위태…‘빚투’는 다시 30조원 돌파 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2RWNiWjVUMHN3T3JKalRNZGpDRDluX2Y3WVJ0VERZZmF3SzMyc2RpRGFQRnd3SmtmOXBKWHV2WFB3blV4dG93cDNCRjBWWGNodWdHazJRak9DV1NhaTE0YUZRTzkxSktUbFp2X05UN2nSAXRBVV95cUxQUE9FYUl4RWVxY2pjLUMyaGFDZmVXckhLeHdpZkQtTzRjcTM0OTVLOGRxNV9fQjlxRWhLMmR5Qm84cTItRjA4LVNJOTdzSHo5Z0hNbGtIbHdiZmdGaGZ2YnZXUEM0Y184eTZSRm1vekZPaWRZSg?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 07:05:33 GMT",
+          "source": "산경투데이"
         },
         {
           "title": "반도체 쏠림 풀리자 코스닥으로…순환매 본격화 - 동아일보",
@@ -32,29 +44,23 @@
       ],
       "fear_articles": [
         {
-          "title": "코스피 폭락하니 단기 예금 급증… 적금은 인기 ‘뚝’ - 조선비즈 - biz.chosun.com",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWlI2ZjNkZlkwV2lsSDNVbVd6QzZHRjlzUlBmUFlVX1BqX0dVYW4wZU5yc3BteVFrcHkxclNxLWprZDBKOGFUWmYwOGxxRFhrZXV2ajlKaEFvQWhJeGNROFVYWkdGV0ZQNXAxYTZvR25aZDVITTNIOHBsUXF6Z3FqQdIBlAFBVV95cUxQMndidXN2bURTVmo3c2tMdTdxbl9teDJIcGJoVzVsUmxLQ3F6QWlrNHJQSTZtUVVHMUg3M3BnTjVzRW5vNWFwVmk4Q043bUdaa1htQWE2ZWdNdzhPaS1yOXVFN3F2NVRSdml5VEdReVhDY0dXYW9nTmJSQmtsQWpDVU1RN2dfSlNwWjBmdXFLbklVVlg4?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 04:42:00 GMT",
-          "source": "biz.chosun.com"
-        },
-        {
-          "title": "유가 불안 · 美 인텔 급락 속...코스피·코스닥 '하락 출발' - 초이스경제",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40RUlXTGkwVFpkU1FTSzdyTXBTMlJyYzF6V056WHI2LTFZZ2VKREdWamY5Q2c5d0NlZEpNS1BFT0dqUkRwOUFSWEtYVHNsYkZ3eVhnNUhoeXlmUnpwblVLOXlpb1RTSG1LZmYyM2J0SjZJZ0HSAXNBVV95cUxONEVJV0xpMFRaZFNRU0s3ck1wUzJScmMxeldOelhyNi0xWWdlSkRHVmpmOUNnOXdDZWRKTUtQRU9HalJEcDlBUlhLWFRzbGJGd3lYZzVIaHl5ZlJ6cG5VSzl5aW9UU0htS2ZmMjNidEo2SWdB?oc=5",
-          "pub_date": "Tue, 11 Aug 2026 03:11:37 GMT",
-          "source": "초이스경제"
+          "title": "“코스닥 이제 급락한다?”…인버스 쓸어담은 개미들, 왜? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HVEd2c0hXbzY3LVg2RGY0Z0EtLWdEUjNaOXZPeFFvQTlZZFpDcFFjZHItLVg2cHdjSTJmSFcwLXFpUUNmdEZyRDdxRWVDNzA?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 06:39:00 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.46,
+    "vix": 15.4,
     "vvix": 92.51,
     "skew": 137.13,
     "move": 75.46
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 76500000000,
-    "retail_net_buy_krw": -72400000000,
+    "foreign_inst_buy_krw": 74800000000,
+    "retail_net_buy_krw": -70700000000,
     "margin_loan_krw": 28815900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -69,16 +75,16 @@
       "sma_200": 24108.7
     },
     "kospi": {
-      "current": 6352.0,
+      "current": 6345.53,
       "high_52w": 9385.59,
-      "drop_pct": -32.32,
+      "drop_pct": -32.39,
       "intraday_low_drop_pct": -33.79,
-      "sma_200": 5829.03
+      "sma_200": 5828.99
     },
     "kosdaq": {
-      "current": 858.08,
+      "current": 857.84,
       "high_52w": 1229.42,
-      "drop_pct": -30.2,
+      "drop_pct": -30.22,
       "intraday_low_drop_pct": -31.64,
       "sma_200": 995.14
     },
