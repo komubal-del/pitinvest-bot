@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T05:25:59.097207+09:00",
+  "timestamp": "2026-08-12T06:13:08.933795+09:00",
   "sentiment": {
     "cnn_fng": 60.8,
     "cnn_components": {
@@ -22,9 +22,9 @@
   },
   "volatility": {
     "vix": 15.28,
-    "vvix": 90.95,
+    "vvix": 90.9,
     "skew": 137.13,
-    "move": 75.46
+    "move": 77.92
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 74700000000,
@@ -83,7 +83,7 @@
     "SMH": 0.975,
     "BOTZ": 0.88,
     "IGV": 1.11,
-    "XLF": 1.075,
+    "XLF": 1.074,
     "XLE": 1.019
   },
   "signals": {
@@ -287,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.273,
+    "strategy_pct": 183.841,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -915,7 +915,7 @@
       },
       {
         "date": "2026-08-12",
-        "ret_pct": 183.273
+        "ret_pct": 183.841
       }
     ],
     "monthly_breakdown": [
@@ -963,9 +963,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 13.83,
-        "end_ret_pct": 183.27,
-        "max_dd_pct": 5.19
+        "return_pct": 14.4,
+        "end_ret_pct": 183.84,
+        "max_dd_pct": 4.69
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
