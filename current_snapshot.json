@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T13:34:47.795141+09:00",
+  "timestamp": "2026-08-11T14:41:37.319569+09:00",
   "sentiment": {
     "cnn_fng": 64.3714285714286,
     "cnn_components": {
@@ -19,16 +19,16 @@
       "greed_articles": [],
       "fear_articles": [
         {
+          "title": "코스피 폭락하니 단기 예금 급증… 적금은 인기 ‘뚝’ - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWlI2ZjNkZlkwV2lsSDNVbVd6QzZHRjlzUlBmUFlVX1BqX0dVYW4wZU5yc3BteVFrcHkxclNxLWprZDBKOGFUWmYwOGxxRFhrZXV2ajlKaEFvQWhJeGNROFVYWkdGV0ZQNXAxYTZvR25aZDVITTNIOHBsUXF6Z3FqQdIBlAFBVV95cUxQMndidXN2bURTVmo3c2tMdTdxbl9teDJIcGJoVzVsUmxLQ3F6QWlrNHJQSTZtUVVHMUg3M3BnTjVzRW5vNWFwVmk4Q043bUdaa1htQWE2ZWdNdzhPaS1yOXVFN3F2NVRSdml5VEdReVhDY0dXYW9nTmJSQmtsQWpDVU1RN2dfSlNwWjBmdXFLbklVVlg4?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 04:42:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
           "title": "주가는 급락해도 이익 전망은 ‘쑥’…코스피 ‘루트형’ 반등 전망 - 시사저널",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVUpLUklScGNUd05mUElrWl96bm82cjQ3TTJua0JfeFR4SlFiUE9ZcmdaMW9TcGtNU0Y0Y2F5SDNTeVV0NU15Z2NfR1VFYWx6NWtKMV9WblBrbWlhby15RmZtMU5ZZURQVmpTUjRib9IBc0FVX3lxTE90Vy1tZmQzS3BTUTBfQXgtcFdSeFN4VjdnLXhoWDJQNGgtTGpkdkxDNjFhT3l2U3ZCdXV5LTRUdWhKUlk1X0Q1TndYQXhXX2FUZlJOSEZONjFWVl9XOWVZWXZyX3BBSExmVkx2NHVlTVAxSHc?oc=5",
           "pub_date": "Tue, 11 Aug 2026 01:36:15 GMT",
           "source": "시사저널"
-        },
-        {
-          "title": "李 지지율 44.3%, 5달 새 14.3%p 폭락 … 부동산·증시·보완수사권에 타격 - 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LN1c0cDRuMmNKdDJfOXJuek5aM3N2a0NyTnlwSjAwc3Myb2Nra1FfQTUxcm1lSEk4NERoY1p6Nk5kU0tLZmV6a0RCWWJsTkpTOTFncjhGS1hDNFppMktkWHg0SmhMNURfUnB2Rm1aM0M4SF8tREIwVndEZ9IBgAFBVV95cUxPb1ZSd0hpakRQeEN3Y19CaTNyRkVRX0NVNGplaExmWWxHUmVSS21RaXFYc1lvWkEtLTNGRlNrczl5QkZVUDM4MDhvSDdvczRDNUYyS1ZwZkpHNzBpVGVIc280YXAzbkxTR18xVGRORkt4M1EyaHNYYVFZdFI3UFh6OQ?oc=5",
-          "pub_date": "Mon, 10 Aug 2026 22:38:55 GMT",
-          "source": "뉴데일리"
         }
       ]
     }
@@ -40,8 +40,8 @@
     "move": 75.46
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 260000000000,
-    "retail_net_buy_krw": -248200000000,
+    "foreign_inst_buy_krw": 326100000000,
+    "retail_net_buy_krw": -316200000000,
     "margin_loan_krw": 28815900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +56,18 @@
       "sma_200": 24108.7
     },
     "kospi": {
-      "current": 6391.8,
+      "current": 6377.24,
       "high_52w": 9385.59,
-      "drop_pct": -31.9,
+      "drop_pct": -32.05,
       "intraday_low_drop_pct": -33.79,
-      "sma_200": 5829.22
+      "sma_200": 5829.15
     },
     "kosdaq": {
-      "current": 849.36,
+      "current": 853.93,
       "high_52w": 1229.42,
-      "drop_pct": -30.91,
+      "drop_pct": -30.54,
       "intraday_low_drop_pct": -31.64,
-      "sma_200": 995.1
+      "sma_200": 995.12
     },
     "sp500": {
       "current": 7753.11,
