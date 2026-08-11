@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T08:44:12.695261+09:00",
+  "timestamp": "2026-08-11T09:34:30.508042+09:00",
   "sentiment": {
     "cnn_fng": 64.4,
     "cnn_components": {
@@ -15,9 +15,21 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 4,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "李 지지율 44.3%, 한달 새 14.3%p 폭락 … 부동산·증시·보완수사권에 타격 - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LN1c0cDRuMmNKdDJfOXJuek5aM3N2a0NyTnlwSjAwc3Myb2Nra1FfQTUxcm1lSEk4NERoY1p6Nk5kU0tLZmV6a0RCWWJsTkpTOTFncjhGS1hDNFppMktkWHg0SmhMNURfUnB2Rm1aM0M4SF8tREIwVndEZ9IBgAFBVV95cUxPb1ZSd0hpakRQeEN3Y19CaTNyRkVRX0NVNGplaExmWWxHUmVSS21RaXFYc1lvWkEtLTNGRlNrczl5QkZVUDM4MDhvSDdvczRDNUYyS1ZwZkpHNzBpVGVIc280YXAzbkxTR18xVGRORkt4M1EyaHNYYVFZdFI3UFh6OQ?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 22:38:55 GMT",
+          "source": "뉴데일리"
+        },
+        {
+          "title": "[속보] 뉴욕증시, '반도체주' 2.94% 급락 - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tTFJ0bHd2VGcxUUZmajQ5OEt1UXF3TmdueC1McGdPa1NqS09DWWxGM0dlMlRLcVRvZm5nSDNRZ1c4NE9fa2JZYU53NW1ISmVkbUhTUkNlNkt1R05ka28wdC1n?oc=5",
+          "pub_date": "Mon, 10 Aug 2026 23:03:00 GMT",
+          "source": "이코노미스트"
+        },
         {
           "title": "[속보]뉴욕증시 반도체 급락…하닉ADR -1.90% - 문화일보",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pQUgtb01mYndSN3RONmpnNWJ4OHU5RU1NZ2pYV2RBNUNfOU96THdDbEc3d3JYM2FwTzF1bk14MlpVbnd6WmcxZDIxNlA4NldR?oc=5",
@@ -25,10 +37,10 @@
           "source": "문화일보"
         },
         {
-          "title": "6300선 문턱서 멈춘 코스피…美반도체 급락·유가 5% 급등 ‘먹구름’ - kbmaeil.com",
+          "title": "6300선 문턱서 멈춘 코스피…美반도체 급락·유가 5% 급등 ‘먹구름’ - 경북매일",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6ZXE0a2J4c0ZLWUwyY0JPclVUUTQzX1RjNjBkMmR2YjE2VV85aXQ2VVVNaFo4ZmlQM2hDQXBYYUt1N1JoQ1hHZmN4NXU5Y0pXNTZBWE5yajEwUQ?oc=5",
           "pub_date": "Mon, 10 Aug 2026 23:20:00 GMT",
-          "source": "kbmaeil.com"
+          "source": "경북매일"
         }
       ]
     }
@@ -40,8 +52,8 @@
     "move": 75.46
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -921700000000,
-    "retail_net_buy_krw": 900300000000,
+    "foreign_inst_buy_krw": -89700000000,
+    "retail_net_buy_krw": 102100000000,
     "margin_loan_krw": 28815900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +68,18 @@
       "sma_200": 24108.7
     },
     "kospi": {
-      "current": 6258.77,
+      "current": 6264.4,
       "high_52w": 9385.59,
-      "drop_pct": -33.32,
-      "intraday_low_drop_pct": -34.38,
-      "sma_200": 5803.25
+      "drop_pct": -33.26,
+      "intraday_low_drop_pct": -33.79,
+      "sma_200": 5815.83
     },
     "kosdaq": {
-      "current": 798.81,
+      "current": 854.49,
       "high_52w": 1229.42,
-      "drop_pct": -35.03,
-      "intraday_low_drop_pct": -36.83,
-      "sma_200": 995.2
+      "drop_pct": -30.5,
+      "intraday_low_drop_pct": -31.64,
+      "sma_200": 995.15
     },
     "sp500": {
       "current": 7753.11,
@@ -257,8 +269,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-08-10",
-    "analyzed_at": "2026-08-10T13:18:35.926609+09:00",
+    "date": "2026-08-11",
+    "analyzed_at": "2026-08-11T09:34:34.912331+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -266,16 +278,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "nSaGJomTlkQ",
-        "title": "코스닥만 왜 올랐나? 삼성전자·SK하이닉스 반등하면 수급이 다시 움직인다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-08-10T00:17:48Z",
-        "url": "https://youtube.com/watch?v=nSaGJomTlkQ",
+        "video_id": "yqlZlHn7eiQ",
+        "title": "코스닥 폭발적 반등…시장 자금의 다음 행선지는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-11T00:18:59Z",
+        "url": "https://youtube.com/watch?v=yqlZlHn7eiQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 코스닥 상승 현상을 언급하고 삼성전자·SK하이닉스 반등 시 수급 변화 가능성을 제시하며 시장 상황을 분석하지만, 특정 투자 행동(매수/매도/비중 조절)에 대한 직접적인 권고는 없습니다."
+          "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매도 또는 매수 행동 권고가 없으며, 제목은 코스닥의 반등 현상과 다음 시장 자금의 행선지에 대한 질문을 던지는 중립적인 분석의 성격을 띤다."
         }
       },
       {
@@ -288,7 +300,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란은 반도체 급락과 반등에 대한 해석을 묻는 제목과 주식 교육 플랫폼 홍보 내용으로 이루어져 있으며, 특정 행동 권고(매수/매도/비중 조절)나 명확한 시장 방향성 제시가 없습니다."
+          "reason": "제목이 '반도체 급락과 반등...어떻게 해석해요?'로 현 시장 상황에 대한 분석과 해석을 묻는 질문 형태이며, 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없고, 그 외 내용은 모두 채널 및 교육 프로그램 홍보이기 때문에 중립으로 판단합니다."
         }
       }
     ],
