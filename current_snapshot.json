@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T13:27:33.181349+09:00",
+  "timestamp": "2026-08-12T15:04:29.233154+09:00",
   "sentiment": {
     "cnn_fng": 60.7428571428571,
     "cnn_components": {
@@ -18,16 +18,16 @@
       "fear_count": 0,
       "greed_articles": [
         {
+          "title": "LG전자 오르면 증시 끝물? 다시 고개 든 ‘고점 징크스’ - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQWhwUXdXcDVuaENhTTI3YlpSNHVJNlpXQ3VZMWxRNElaWUJNQW5qT1p3NmtGNWZKZExpUV9rcjVtUkNnd0E5WlpLbjRXeXc2V20xYlBCeHlmTGttY3R3QnFOY3lCY1hGazhSRC1ScjBjODNkMzQ1SmM4SHdHT2NXQw?oc=5",
+          "pub_date": "Wed, 12 Aug 2026 00:51:00 GMT",
+          "source": "조선일보"
+        },
+        {
           "title": "삼성전자 움직이니 눈치보는 코스닥 다시 쏠림에 대비해야 할 때? - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBISTF1Rm5CYmwzR25oUGFVQmVNbzRNVGlxQzcxZ25yMEVaOHNOSTZMX3FhdnNJamp4NXI1MWRHSWdmZjkwdkJLX080RjFjWW8wZ0FJMU9DY2M4WGxHOEphUzdlRnJXTWFKbHNFcmFUU0zSAXRBVV95cUxQM2ZEc2cxSEpOTEluYUVITWZ4NjVldTJCRTdVLXZvckJFZk1uR01CUzE2RXFqbldqR1ZxeS1HUVdkb1drSzhsMTVsV0d5RUNqSE5pUTZCWjk5UXdhUjVHWVlMLWtjaTJ5eDNXeFA2amlhM2t2ZA?oc=5",
           "pub_date": "Tue, 11 Aug 2026 23:51:31 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "LG전자 오르면 증시 끝물? 다시 고개 든 ‘고점 징크스’ - chosun.com",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQWhwUXdXcDVuaENhTTI3YlpSNHVJNlpXQ3VZMWxRNElaWUJNQW5qT1p3NmtGNWZKZExpUV9rcjVtUkNnd0E5WlpLbjRXeXc2V20xYlBCeHlmTGttY3R3QnFOY3lCY1hGazhSRC1ScjBjODNkMzQ1SmM4SHdHT2NXQw?oc=5",
-          "pub_date": "Wed, 12 Aug 2026 00:51:00 GMT",
-          "source": "chosun.com"
         }
       ],
       "fear_articles": []
@@ -35,13 +35,13 @@
   },
   "volatility": {
     "vix": 15.28,
-    "vvix": 92.51,
+    "vvix": 90.9,
     "skew": 135.59,
     "move": 77.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 3118500000000,
-    "retail_net_buy_krw": -2924600000000,
+    "foreign_inst_buy_krw": 3398400000000,
+    "retail_net_buy_krw": -3216200000000,
     "margin_loan_krw": 29591600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,32 +56,32 @@
       "sma_200": 24127.23
     },
     "kospi": {
-      "current": 6638.05,
+      "current": 6580.94,
       "high_52w": 9385.59,
-      "drop_pct": -29.27,
+      "drop_pct": -29.88,
       "intraday_low_drop_pct": -31.67,
-      "sma_200": 5843.11
+      "sma_200": 5842.82
     },
     "kosdaq": {
-      "current": 860.16,
+      "current": 859.42,
       "high_52w": 1229.42,
-      "drop_pct": -30.04,
+      "drop_pct": -30.1,
       "intraday_low_drop_pct": -31.69,
-      "sma_200": 995.15
+      "sma_200": 995.06
     },
     "sp500": {
       "current": 7728.2,
       "high_52w": 7793.68,
       "drop_pct": -0.84,
       "intraday_low_drop_pct": -0.98,
-      "sma_200": 7060.26
+      "sma_200": 7048.62
     },
     "russell2k": {
       "current": 3027.12,
       "high_52w": 3048.85,
       "drop_pct": -0.71,
       "intraday_low_drop_pct": -0.83,
-      "sma_200": 2695.22
+      "sma_200": 2688.02
     },
     "soxx": {
       "current": 534.2,
@@ -94,7 +94,7 @@
   "sector_rs": {
     "XLK": 1.016,
     "SMH": 0.975,
-    "BOTZ": null,
+    "BOTZ": 0.88,
     "IGV": 1.11,
     "XLF": 1.074,
     "XLE": 1.019
@@ -145,7 +145,7 @@
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -95.2,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -300,7 +300,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.877,
+    "strategy_pct": 185.401,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -928,7 +928,7 @@
       },
       {
         "date": "2026-08-12",
-        "ret_pct": 183.877
+        "ret_pct": 185.401
       }
     ],
     "monthly_breakdown": [
@@ -976,8 +976,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 14.44,
-        "end_ret_pct": 183.88,
+        "return_pct": 15.96,
+        "end_ret_pct": 185.4,
         "max_dd_pct": 4.69
       }
     ],
