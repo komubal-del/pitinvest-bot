@@ -1,28 +1,22 @@
 {
-  "timestamp": "2026-08-12T11:36:34.676224+09:00",
+  "timestamp": "2026-08-12T13:27:33.181349+09:00",
   "sentiment": {
-    "cnn_fng": 60.8,
+    "cnn_fng": 60.7428571428571,
     "cnn_components": {
       "momentum": 67.6,
       "strength": 31.4,
       "breadth": 49.0,
       "put_call": 62.2,
-      "junk_bond": 98.6,
+      "junk_bond": 98.2,
       "volatility": 50.0,
       "safe_haven": 66.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 2,
+      "greed_count": 2,
+      "fear_count": 0,
       "greed_articles": [
-        {
-          "title": "LG전자 오르면 증시 끝물? 다시 고개 든 ‘고점 징크스’ - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQWhwUXdXcDVuaENhTTI3YlpSNHVJNlpXQ3VZMWxRNElaWUJNQW5qT1p3NmtGNWZKZExpUV9rcjVtUkNnd0E5WlpLbjRXeXc2V20xYlBCeHlmTGttY3R3QnFOY3lCY1hGazhSRC1ScjBjODNkMzQ1SmM4SHdHT2NXQw?oc=5",
-          "pub_date": "Wed, 12 Aug 2026 00:51:00 GMT",
-          "source": "조선일보"
-        },
         {
           "title": "삼성전자 움직이니 눈치보는 코스닥 다시 쏠림에 대비해야 할 때? - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBISTF1Rm5CYmwzR25oUGFVQmVNbzRNVGlxQzcxZ25yMEVaOHNOSTZMX3FhdnNJamp4NXI1MWRHSWdmZjkwdkJLX080RjFjWW8wZ0FJMU9DY2M4WGxHOEphUzdlRnJXTWFKbHNFcmFUU0zSAXRBVV95cUxQM2ZEc2cxSEpOTEluYUVITWZ4NjVldTJCRTdVLXZvckJFZk1uR01CUzE2RXFqbldqR1ZxeS1HUVdkb1drSzhsMTVsV0d5RUNqSE5pUTZCWjk5UXdhUjVHWVlMLWtjaTJ5eDNXeFA2amlhM2t2ZA?oc=5",
@@ -30,37 +24,24 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "반도체 쏠림 완화에 코스피 다시 힘 받나...수익 제대로 높이려면 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MNkZCUnhyeHQwZlVqSTFiOEQwX2NjNHA2aW1NRzRQaTFaUWwwaEs0WTFkLWZmVkp2eG03RlRqRDBoQV9TcldkLVUzNXZTV0g5TlFWa29rT1A2ZnhhM01MUA?oc=5",
-          "pub_date": "Wed, 12 Aug 2026 01:42:00 GMT",
-          "source": "아시아경제"
+          "title": "LG전자 오르면 증시 끝물? 다시 고개 든 ‘고점 징크스’ - chosun.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQWhwUXdXcDVuaENhTTI3YlpSNHVJNlpXQ3VZMWxRNElaWUJNQW5qT1p3NmtGNWZKZExpUV9rcjVtUkNnd0E5WlpLbjRXeXc2V20xYlBCeHlmTGttY3R3QnFOY3lCY1hGazhSRC1ScjBjODNkMzQ1SmM4SHdHT2NXQw?oc=5",
+          "pub_date": "Wed, 12 Aug 2026 00:51:00 GMT",
+          "source": "chosun.com"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "'신상마켓' 딜리셔스, 코스닥 상장일 초반 15% 급락 - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hcTBrWmFzS1FBSTFYTllHLVp3aEN6Q29XSVd3SjJpZExEeTlPaEQ2Z0JOdFNGOHdDY1ExT0c4YUFwYzZQbWR4ZGpyMk9XRUtYeElXLVVhc2l2ZFREeTlNRTJYaGhOQlZS0gFuQVVfeXFMTlpaSHU4RTl5VGRYME9tLW14c292b0E0cERWdmlEZmtJMFdSTFNfVmlOQmRLdDdJN0lyVzRfdGpSb0lNZUNpWDBWOTMxTkNnUWFXMHV1cGJiZXpIS3BiZ3oxSWVXZzBnbXhmaExLc0E?oc=5",
-          "pub_date": "Wed, 12 Aug 2026 00:26:01 GMT",
-          "source": "mt.co.kr"
-        },
-        {
-          "title": "[특징주] 딜리셔스, 코스닥 상장 첫날.. 15%대 '급락' - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVXpwbVBDdkVXMjA0SlZpRkpLM2dmZERwa05IcXVzaThDWnBoQm5WT2pMSlhYVGZ5ZW1xcWwxb0pvSV9tY1JIdFJNTEE4aGRmbVgyQklTWDA2eUNHQ1kzUW5oVllVeGprUnROTzBkbklzVXlpcGhaMGZZa09OWDRWZ2RWZTdTak83?oc=5",
-          "pub_date": "Wed, 12 Aug 2026 00:45:10 GMT",
-          "source": "글로벌이코노믹"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
     "vix": 15.28,
-    "vvix": 90.9,
+    "vvix": 92.51,
     "skew": 135.59,
     "move": 77.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1945200000000,
-    "retail_net_buy_krw": -1780000000000,
+    "foreign_inst_buy_krw": 3118500000000,
+    "retail_net_buy_krw": -2924600000000,
     "margin_loan_krw": 29591600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,18 +56,18 @@
       "sma_200": 24127.23
     },
     "kospi": {
-      "current": 6569.44,
+      "current": 6638.05,
       "high_52w": 9385.59,
-      "drop_pct": -30.01,
+      "drop_pct": -29.27,
       "intraday_low_drop_pct": -31.67,
-      "sma_200": 5842.77
+      "sma_200": 5843.11
     },
     "kosdaq": {
-      "current": 856.23,
+      "current": 860.16,
       "high_52w": 1229.42,
-      "drop_pct": -30.35,
+      "drop_pct": -30.04,
       "intraday_low_drop_pct": -31.69,
-      "sma_200": 995.04
+      "sma_200": 995.15
     },
     "sp500": {
       "current": 7728.2,
@@ -113,7 +94,7 @@
   "sector_rs": {
     "XLK": 1.016,
     "SMH": 0.975,
-    "BOTZ": 0.88,
+    "BOTZ": null,
     "IGV": 1.11,
     "XLF": 1.074,
     "XLE": 1.019
@@ -164,7 +145,7 @@
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.2,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -277,7 +258,7 @@
   },
   "expert_analysis": {
     "date": "2026-08-12",
-    "analyzed_at": "2026-08-12T09:04:01.066448+09:00",
+    "analyzed_at": "2026-08-12T13:27:38.547606+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -285,16 +266,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "yqlZlHn7eiQ",
-        "title": "코스닥 폭발적 반등…시장 자금의 다음 행선지는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-08-11T00:18:59Z",
-        "url": "https://youtube.com/watch?v=yqlZlHn7eiQ",
+        "video_id": "V3kNLyHXEQI",
+        "title": "쏠림에서 순환으로? 지금 장에서 강한 종목 따라가면 위험한 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-12T00:06:52Z",
+        "url": "https://youtube.com/watch?v=V3kNLyHXEQI",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란에는 '코스닥 폭발적 반등'이라는 현상 설명과 '시장 자금의 다음 행선지는?'이라는 질문만 제시되어 있을 뿐, 구체적인 매수/매도/비중 조절 등의 행동 권고가 없습니다. 이는 중립적인 시장 분석에 해당합니다."
+          "reason": "제목에서 '강한 종목 따라가면 위험한 이유'를 언급하며 경각심을 주지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고는 없으며 위험에 대한 분석으로 보입니다."
         }
       },
       {
@@ -307,7 +288,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란에는 주식 시장에 대한 구체적인 매수/매도 권고나 현금화 지시 없이, 영상의 주제 제시와 전문가 홍보 및 플랫폼 링크만 포함되어 있습니다."
+          "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 내용에 구체적인 매수, 매도, 비중 조절 등의 행동 권고가 전혀 포함되어 있지 않습니다."
         }
       }
     ],
