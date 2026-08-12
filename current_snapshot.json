@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T08:08:14.304321+09:00",
+  "timestamp": "2026-08-12T09:03:55.161154+09:00",
   "sentiment": {
     "cnn_fng": 60.8,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 1,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "삼성전자 움직이니 눈치보는 코스닥 다시 쏠림에 대비해야 할 때? - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBISTF1Rm5CYmwzR25oUGFVQmVNbzRNVGlxQzcxZ25yMEVaOHNOSTZMX3FhdnNJamp4NXI1MWRHSWdmZjkwdkJLX080RjFjWW8wZ0FJMU9DY2M4WGxHOEphUzdlRnJXTWFKbHNFcmFUU0zSAXRBVV95cUxQM2ZEc2cxSEpOTEluYUVITWZ4NjVldTJCRTdVLXZvckJFZk1uR01CUzE2RXFqbldqR1ZxeS1HUVdkb1drSzhsMTVsV0d5RUNqSE5pUTZCWjk5UXdhUjVHWVlMLWtjaTJ5eDNXeFA2amlhM2t2ZA?oc=5",
+          "pub_date": "Tue, 11 Aug 2026 23:51:31 GMT",
+          "source": "연합인포맥스"
+        }
+      ],
       "fear_articles": [
         {
           "title": "[브라질증시] JP모간 경고·대선 불확실성에 2.5% 급락…헤알화도 1%↓ - 뉴스핌",
@@ -34,8 +41,8 @@
     "move": 77.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 74700000000,
-    "retail_net_buy_krw": -70800000000,
+    "foreign_inst_buy_krw": -26500000000,
+    "retail_net_buy_krw": 21900000000,
     "margin_loan_krw": 29591600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -248,11 +255,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-08-11",
-    "analyzed_at": "2026-08-11T13:34:53.103208+09:00",
+    "date": "2026-08-12",
+    "analyzed_at": "2026-08-12T09:04:01.066448+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -269,7 +276,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 코스닥의 폭발적 반등을 언급하지만, 이는 현상 설명이며, 이후 '시장 자금의 다음 행선지는?'이라는 질문을 통해 중립적인 시장 분석을 예고하고 있어 특정 투자 행동을 권유하지 않습니다."
+          "reason": "영상 설명란에는 '코스닥 폭발적 반등'이라는 현상 설명과 '시장 자금의 다음 행선지는?'이라는 질문만 제시되어 있을 뿐, 구체적인 매수/매도/비중 조절 등의 행동 권고가 없습니다. 이는 중립적인 시장 분석에 해당합니다."
         }
       },
       {
@@ -282,7 +289,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 질문 형태로, 특정 시장 방향에 대한 권고 없이 중립적인 분석을 시사하며, 내용에 어떠한 행동 권고도 없습니다."
+          "reason": "영상 설명란에는 주식 시장에 대한 구체적인 매수/매도 권고나 현금화 지시 없이, 영상의 주제 제시와 전문가 홍보 및 플랫폼 링크만 포함되어 있습니다."
         }
       }
     ],
