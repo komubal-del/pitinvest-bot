@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T07:52:55.117193+09:00",
+  "timestamp": "2026-08-13T08:51:53.889912+09:00",
   "sentiment": {
     "cnn_fng": 62.1428571428571,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "1년 새 순익 19배…투자자문사, 증시 활황에 ‘돈방석’ - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WcV9WRFMxWUZJZWtzR3VIMWRKcy1GNUlpaUZzR2UyT1ZPZVFRUURNS1NnRUhjb2RQVE1aSFY4VnpMT1pyaTNEcDZXQks0c0NjUHp4Tk9YRWJrVFh4N1pLREdoU3lJUTNXZTMyWURCaw?oc=5",
+          "pub_date": "Wed, 12 Aug 2026 23:22:38 GMT",
+          "source": "조세일보"
+        }
+      ],
       "fear_articles": []
     }
   },
@@ -40,28 +47,28 @@
       "high_52w": 27190.21,
       "drop_pct": -2.21,
       "intraday_low_drop_pct": -2.42,
-      "sma_200": 24145.46
+      "sma_200": 24104.13
     },
     "kospi": {
       "current": 6345.53,
       "high_52w": 9385.59,
       "drop_pct": -32.39,
       "intraday_low_drop_pct": -33.79,
-      "sma_200": 5828.99
+      "sma_200": 5784.06
     },
     "kosdaq": {
-      "current": 854.47,
+      "current": 857.84,
       "high_52w": 1229.42,
-      "drop_pct": -30.5,
-      "intraday_low_drop_pct": -34.31,
-      "sma_200": 995.15
+      "drop_pct": -30.22,
+      "intraday_low_drop_pct": -31.64,
+      "sma_200": 995.84
     },
     "sp500": {
       "current": 7748.5,
       "high_52w": 7793.68,
       "drop_pct": -0.58,
       "intraday_low_drop_pct": -0.72,
-      "sma_200": 7065.31
+      "sma_200": 7053.69
     },
     "russell2k": {
       "current": 3045.48,
