@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T05:56:22.451949+09:00",
+  "timestamp": "2026-08-13T06:55:46.309544+09:00",
   "sentiment": {
     "cnn_fng": 62.1428571428571,
     "cnn_components": {
@@ -23,7 +23,7 @@
   "volatility": {
     "vix": 14.55,
     "vvix": 88.5,
-    "skew": 135.59,
+    "skew": 136.54,
     "move": 72.09
   },
   "korea_flow": {
@@ -50,11 +50,11 @@
       "sma_200": 5828.99
     },
     "kosdaq": {
-      "current": 857.84,
+      "current": 854.47,
       "high_52w": 1229.42,
-      "drop_pct": -30.22,
-      "intraday_low_drop_pct": -31.64,
-      "sma_200": 995.84
+      "drop_pct": -30.5,
+      "intraday_low_drop_pct": -34.31,
+      "sma_200": 995.15
     },
     "sp500": {
       "current": 7748.5,
@@ -287,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 191.713,
+    "strategy_pct": 191.738,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -919,7 +919,7 @@
       },
       {
         "date": "2026-08-13",
-        "ret_pct": 191.713
+        "ret_pct": 191.738
       }
     ],
     "monthly_breakdown": [
@@ -967,8 +967,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 22.27,
-        "end_ret_pct": 191.71,
+        "return_pct": 22.3,
+        "end_ret_pct": 191.74,
         "max_dd_pct": 4.69
       }
     ],
