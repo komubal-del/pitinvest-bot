@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T07:57:45.719380+09:00",
+  "timestamp": "2026-08-14T08:51:54.727079+09:00",
   "sentiment": {
     "cnn_fng": 66.1428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 1,
+      "fear_count": 3,
       "greed_articles": [
         {
           "title": "[부자들의 투자노트] 英 자산운용사 \"증시 쏠림 현상 우려…AI 외 투자 기회 많아\" - v.daum.net",
@@ -31,6 +31,18 @@
         }
       ],
       "fear_articles": [
+        {
+          "title": "'삼전닉스' 폭락할 때도 선방했다…'롤러코스피'에 출시 줄잇는 채권혼합 ETF - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBocmZVSXR5MUZjczlTT1JKczF4N1RqNHROQk9qQXlQQUdqdkp6OWVsQ2ttaW9nLUlndHRBVFVIYnlCY3hoWnkyblFTcUJhbkxOTFAtMHlLV3RTRG95XzlRWA?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 22:11:00 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "[아주증시포커스] 낙인효과 생각보다 컸다...관리종목 지정된 동전주들 최대 28% 급락 外 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQMGRsVllReEtVOHVlczM3Qmh2c1dnbXVOb0xWd1pwX3FUQ2hJc3Y1QklsZVVaaUhrdFZZbi1XcWRqT2pzb2pEQmJuUHpNUWtpYTQ2QVltNW45QdIBWEFVX3lxTE1kSjhGOWl3czhLWnNtZm5wNnh0d3Q3dnVhY0VDUXRGVFJBTmdkbEdjYTJpTF9wNVBLMXlyWDJucWdnQVhPbXowME1rS2xIZ0E3MF9mNFFtd3g?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 23:11:59 GMT",
+          "source": "아주경제"
+        },
         {
           "title": "폭락 장세 벗어난 지금은 주식시장에 머물러야 할 때 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82a3piclVzM2xuQzctcnAySGNvanAtR0lhaWRhX0Z3MmFOV1VMUXFKU0RzUDE1R2RfX3VocUxNWWVSUTRSNTI1TXpxWDJ5Sms?oc=5",
@@ -74,7 +86,7 @@
       "high_52w": 1229.42,
       "drop_pct": -30.14,
       "intraday_low_drop_pct": -31.69,
-      "sma_200": 995.06
+      "sma_200": 995.15
     },
     "sp500": {
       "current": 7798.99,
