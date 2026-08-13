@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-12",
-  "analyzed_at": "2026-08-12T13:27:38.547606+09:00",
+  "date": "2026-08-13",
+  "analyzed_at": "2026-08-13T13:29:56.972456+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "V3kNLyHXEQI",
-      "title": "쏠림에서 순환으로? 지금 장에서 강한 종목 따라가면 위험한 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-08-12T00:06:52Z",
-      "url": "https://youtube.com/watch?v=V3kNLyHXEQI",
+      "video_id": "PAO2QR9l7WM",
+      "title": "삼전닉스 물렸다면? 한번에 기대말고 단계적 가격 전략 세우자ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+      "published": "2026-08-12T09:00:37Z",
+      "url": "https://youtube.com/watch?v=PAO2QR9l7WM",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목에서 '강한 종목 따라가면 위험한 이유'를 언급하며 경각심을 주지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고는 없으며 위험에 대한 분석으로 보입니다."
+        "reason": "전문가는 '삼전닉스 물렸다면 한번에 기대말고 단계적 가격 전략을 세우자'고 조언하며, 특정 종목에 물린 상황에 대한 관리 전략을 제시할 뿐 명확한 매수/매도/현금화 등의 행동 권고는 하지 않고 중립적인 관리 방안을 제안합니다."
       }
     },
     {
@@ -27,10 +27,10 @@
       "url": "https://youtube.com/watch?v=OutXhDAMIaI",
       "text_source": "description",
       "transcript_available": false,
-      "is_stale_fallback": false,
+      "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 내용에 구체적인 매수, 매도, 비중 조절 등의 행동 권고가 전혀 포함되어 있지 않습니다."
+        "reason": "영상 제목이 '반도체 급락과 반등...어떻게 해석해요?'로, 특정 방향성을 제시하기보다는 현상에 대한 분석과 해석을 예고하며, 구체적인 행동 권고가 없습니다. 영상 설명란의 나머지 내용은 광고 및 정보입니다."
       }
     }
   ],

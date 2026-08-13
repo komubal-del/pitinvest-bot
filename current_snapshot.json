@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-13T11:36:59.112711+09:00",
+  "timestamp": "2026-08-13T13:29:52.067781+09:00",
   "sentiment": {
-    "cnn_fng": 62.1428571428571,
+    "cnn_fng": 62.1142857142857,
     "cnn_components": {
       "momentum": 71.0,
       "strength": 30.4,
       "breadth": 50.6,
       "put_call": 64.0,
-      "junk_bond": 98.2,
+      "junk_bond": 98.0,
       "volatility": 50.0,
       "safe_haven": 70.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 1,
+      "greed_count": 3,
+      "fear_count": 0,
       "greed_articles": [
         {
           "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선일보",
@@ -24,20 +24,19 @@
           "source": "조선일보"
         },
         {
-          "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선비즈 - Chosunbiz",
+          "title": "엄태영 의원 \"증시 과열 초래한 금융당국, 사과하고 책임져야\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81MWFTNjdEYVpGenJ1Y3VNbkU3Y2NpN2hEOE1EZXQwWFU1YjlPVVNGaVY4YXVtdXhZYmVDRXNjWS1BbzZ0MER5U1VDTkFQNl9VMjhVQ0tTUklsN3BT?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 01:33:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선비즈 - biz.chosun.com",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd2R2RmhiTGlYZDRvZEVhdU5VcHdYOUZuVGJpdzBEVktmY3JkbFJsWHdtemVySVZrMUpCRzcteDdRc3pQUWdUZVdrSHZRLXdYSkdIX1QtVWZTbm9ZVVg3b2JmODN4RWFPUUVTY3RKWTlDVGJ1XzdoQTJQS1VQdXh5ck1Zaks5ek91N085cnZzOWJnMzFKcUhoU01xTGLSAZwBQVVfeXFMTXdkdkZoYkxpWGQ0b2RFYXVOVXB3WDlGblRiaXcwRFZLZmNyZGxSbFh3bXplcklWazFKQkc3LXg3UXN6UFFnVGVXa0h2US13WEpHSF9ULVVmU25vWVVYN29iZjgzeEVhT1FFU2N0Slk5Q1RidV83aEEyUEtVUHV4eXJNWWpLOXpPdTdPOXJ2czliZzMxSnFIaFNNcUxi?oc=5",
           "pub_date": "Thu, 13 Aug 2026 00:27:00 GMT",
-          "source": "Chosunbiz"
+          "source": "biz.chosun.com"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "'코스피 폭락' 딱 맞힌 전문가 \"욕 많이 먹었다..빠져도 이렇게 빠질 줄은\" - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HeFo0R0lJUVFpVkVBWkJqY2VUdDA4SHdSOXZwdnBMeWF5b1BXS3dNTXlheDZXbC1LbHVQR1ViLXkwT3FfLWtQbHM4Zllxbmxkd3F5dW9QQVY2V1hCYXc?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 02:08:00 GMT",
-          "source": "YTN"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -47,8 +46,8 @@
     "move": 72.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1751300000000,
-    "retail_net_buy_krw": -1727100000000,
+    "foreign_inst_buy_krw": 2519100000000,
+    "retail_net_buy_krw": -2490300000000,
     "margin_loan_krw": 29610600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -60,35 +59,35 @@
       "high_52w": 27190.21,
       "drop_pct": -2.21,
       "intraday_low_drop_pct": -2.42,
-      "sma_200": 24104.13
+      "sma_200": 24145.46
     },
     "kospi": {
-      "current": 6851.53,
+      "current": 6873.43,
       "high_52w": 9385.59,
-      "drop_pct": -27.0,
+      "drop_pct": -26.77,
       "intraday_low_drop_pct": -27.83,
-      "sma_200": 5814.18
+      "sma_200": 5858.06
     },
     "kosdaq": {
-      "current": 869.27,
+      "current": 864.54,
       "high_52w": 1229.42,
-      "drop_pct": -29.29,
+      "drop_pct": -29.68,
       "intraday_low_drop_pct": -30.61,
-      "sma_200": 995.04
+      "sma_200": 995.02
     },
     "sp500": {
       "current": 7748.5,
       "high_52w": 7793.68,
       "drop_pct": -0.58,
       "intraday_low_drop_pct": -0.72,
-      "sma_200": 7053.69
+      "sma_200": 7065.31
     },
     "russell2k": {
       "current": 3045.48,
       "high_52w": 3051.02,
       "drop_pct": -0.18,
       "intraday_low_drop_pct": -0.7,
-      "sma_200": 2690.75
+      "sma_200": 2698.04
     },
     "soxx": {
       "current": 546.61,
@@ -264,8 +263,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-08-12",
-    "analyzed_at": "2026-08-12T13:27:38.547606+09:00",
+    "date": "2026-08-13",
+    "analyzed_at": "2026-08-13T13:29:56.972456+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -273,16 +272,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "V3kNLyHXEQI",
-        "title": "쏠림에서 순환으로? 지금 장에서 강한 종목 따라가면 위험한 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-08-12T00:06:52Z",
-        "url": "https://youtube.com/watch?v=V3kNLyHXEQI",
+        "video_id": "PAO2QR9l7WM",
+        "title": "삼전닉스 물렸다면? 한번에 기대말고 단계적 가격 전략 세우자ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+        "published": "2026-08-12T09:00:37Z",
+        "url": "https://youtube.com/watch?v=PAO2QR9l7WM",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 '강한 종목 따라가면 위험한 이유'를 언급하며 경각심을 주지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고는 없으며 위험에 대한 분석으로 보입니다."
+          "reason": "전문가는 '삼전닉스 물렸다면 한번에 기대말고 단계적 가격 전략을 세우자'고 조언하며, 특정 종목에 물린 상황에 대한 관리 전략을 제시할 뿐 명확한 매수/매도/현금화 등의 행동 권고는 하지 않고 중립적인 관리 방안을 제안합니다."
         }
       },
       {
@@ -292,10 +291,10 @@
         "url": "https://youtube.com/watch?v=OutXhDAMIaI",
         "text_source": "description",
         "transcript_available": false,
-        "is_stale_fallback": false,
+        "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 내용에 구체적인 매수, 매도, 비중 조절 등의 행동 권고가 전혀 포함되어 있지 않습니다."
+          "reason": "영상 제목이 '반도체 급락과 반등...어떻게 해석해요?'로, 특정 방향성을 제시하기보다는 현상에 대한 분석과 해석을 예고하며, 구체적인 행동 권고가 없습니다. 영상 설명란의 나머지 내용은 광고 및 정보입니다."
         }
       }
     ],
