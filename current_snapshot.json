@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T07:07:10.439086+09:00",
+  "timestamp": "2026-08-14T07:57:45.719380+09:00",
   "sentiment": {
     "cnn_fng": 66.1428571428571,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "[부자들의 투자노트] 英 자산운용사 \"증시 쏠림 현상 우려…AI 외 투자 기회 많아\" - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LTFI1blZxcHUxVHJNNEhUSnZsV1NhXzN0RzhrZkNXUnJIZXpXU3l0TGxwaUJHNC1ydzJiUFBiOUR4VzZwV1NIeTg0WHBCdFk?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 22:52:23 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "[뉴욕증시] 물가 둔화, S&P500 최고치···\"거품 아닌 실적\" 메모리 '급등' - 서울파이낸스",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3MDNfVmxRbXBuUWxXWW1qM1NtVUZtRm93dUg4Qmtsc2F0dFI0Z0hkRVdWa0dSSklSWGJoZEllMTRHRW5KX2lRRUNSVy1HbTNCbWhQV0N2QUt1OFY0bW9kQ2dHbGtpWHFhaEE?oc=5",
@@ -43,7 +49,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 2793600000000,
     "retail_net_buy_krw": -2741000000000,
-    "margin_loan_krw": 29610600000000,
+    "margin_loan_krw": 29977600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -68,7 +74,7 @@
       "high_52w": 1229.42,
       "drop_pct": -30.14,
       "intraday_low_drop_pct": -31.69,
-      "sma_200": 995.15
+      "sma_200": 995.06
     },
     "sp500": {
       "current": 7798.99,
