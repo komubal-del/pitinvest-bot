@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T06:09:03.303972+09:00",
+  "timestamp": "2026-08-14T07:07:10.439086+09:00",
   "sentiment": {
     "cnn_fng": 66.1428571428571,
     "cnn_components": {
@@ -14,16 +14,30 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "[뉴욕증시] 물가 둔화, S&P500 최고치···\"거품 아닌 실적\" 메모리 '급등' - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3MDNfVmxRbXBuUWxXWW1qM1NtVUZtRm93dUg4Qmtsc2F0dFI0Z0hkRVdWa0dSSklSWGJoZEllMTRHRW5KX2lRRUNSVy1HbTNCbWhQV0N2QUt1OFY0bW9kQ2dHbGtpWHFhaEE?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 21:58:11 GMT",
+          "source": "서울파이낸스"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "폭락 장세 벗어난 지금은 주식시장에 머물러야 할 때 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82a3piclVzM2xuQzctcnAySGNvanAtR0lhaWRhX0Z3MmFOV1VMUXFKU0RzUDE1R2RfX3VocUxNWWVSUTRSNTI1TXpxWDJ5Sms?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 22:02:48 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 14.63,
     "vvix": 89.42,
-    "skew": 136.54,
+    "skew": 134.37,
     "move": 69.23
   },
   "korea_flow": {
@@ -142,11 +156,11 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
