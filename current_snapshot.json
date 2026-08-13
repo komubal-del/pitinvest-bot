@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T13:29:52.067781+09:00",
+  "timestamp": "2026-08-13T15:05:38.353543+09:00",
   "sentiment": {
     "cnn_fng": 62.1142857142857,
     "cnn_components": {
@@ -14,29 +14,30 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 0,
+      "greed_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUXdVMzZ1MGVud0NsZU5OXzRQTlZRVGlvRFN2NE5COExCMGNYN3ZORlp5UERfRC1RQTRwX3NDdEtSWGFDQUNtUmU5RWJXNEtBTzQ2M29jX21yc1JnYUVUZWwtWVhXSU00Z3J2bkxneUJDbDRWQldpdVdERWhub29rUw?oc=5",
           "pub_date": "Thu, 13 Aug 2026 00:27:00 GMT",
           "source": "조선일보"
-        },
-        {
-          "title": "엄태영 의원 \"증시 과열 초래한 금융당국, 사과하고 책임져야\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81MWFTNjdEYVpGenJ1Y3VNbkU3Y2NpN2hEOE1EZXQwWFU1YjlPVVNGaVY4YXVtdXhZYmVDRXNjWS1BbzZ0MER5U1VDTkFQNl9VMjhVQ0tTUklsN3BT?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 01:33:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선비즈 - biz.chosun.com",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd2R2RmhiTGlYZDRvZEVhdU5VcHdYOUZuVGJpdzBEVktmY3JkbFJsWHdtemVySVZrMUpCRzcteDdRc3pQUWdUZVdrSHZRLXdYSkdIX1QtVWZTbm9ZVVg3b2JmODN4RWFPUUVTY3RKWTlDVGJ1XzdoQTJQS1VQdXh5ck1Zaks5ek91N085cnZzOWJnMzFKcUhoU01xTGLSAZwBQVVfeXFMTXdkdkZoYkxpWGQ0b2RFYXVOVXB3WDlGblRiaXcwRFZLZmNyZGxSbFh3bXplcklWazFKQkc3LXg3UXN6UFFnVGVXa0h2US13WEpHSF9ULVVmU25vWVVYN29iZjgzeEVhT1FFU2N0Slk5Q1RidV83aEEyUEtVUHV4eXJNWWpLOXpPdTdPOXJ2czliZzMxSnFIaFNNcUxi?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 00:27:00 GMT",
-          "source": "biz.chosun.com"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "코스피 '공포지수' 레버리지 대책이후 36% 급락…3개월 만에 최저 - 티제이비",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3S0VHSW9xa2xxYlpZWXJQenhUb0pWbUM5TmQyMFZUUERIaWZNVzc3T291ZFZWRkI0M3FTbzBSVmxYSDN5OWZ3em9kNHpJY0twREFfTXIxN0hwT1l2?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 04:51:19 GMT",
+          "source": "티제이비"
+        },
+        {
+          "title": "'코스피 폭락' 딱 맞힌 전문가 \"욕 많이 먹었다..빠져도 이렇게 빠질 줄은\" - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HeFo0R0lJUVFpVkVBWkJqY2VUdDA4SHdSOXZwdnBMeWF5b1BXS3dNTXlheDZXbC1LbHVQR1ViLXkwT3FfLWtQbHM4Zllxbmxkd3F5dW9QQVY2V1hCYXc?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 02:08:00 GMT",
+          "source": "YTN"
+        }
+      ]
     }
   },
   "volatility": {
@@ -46,8 +47,8 @@
     "move": 72.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2519100000000,
-    "retail_net_buy_krw": -2490300000000,
+    "foreign_inst_buy_krw": 2495200000000,
+    "retail_net_buy_krw": -2459900000000,
     "margin_loan_krw": 29610600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -62,18 +63,18 @@
       "sma_200": 24145.46
     },
     "kospi": {
-      "current": 6873.43,
+      "current": 6783.81,
       "high_52w": 9385.59,
-      "drop_pct": -26.77,
-      "intraday_low_drop_pct": -27.83,
-      "sma_200": 5858.06
+      "drop_pct": -27.72,
+      "intraday_low_drop_pct": -27.98,
+      "sma_200": 5857.61
     },
     "kosdaq": {
-      "current": 864.54,
+      "current": 860.63,
       "high_52w": 1229.42,
-      "drop_pct": -29.68,
+      "drop_pct": -30.0,
       "intraday_low_drop_pct": -30.61,
-      "sma_200": 995.02
+      "sma_200": 995.0
     },
     "sp500": {
       "current": 7748.5,
