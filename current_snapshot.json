@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T08:51:53.889912+09:00",
+  "timestamp": "2026-08-13T11:36:59.112711+09:00",
   "sentiment": {
     "cnn_fng": 62.1428571428571,
     "cnn_components": {
@@ -14,17 +14,30 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
         {
-          "title": "1년 새 순익 19배…투자자문사, 증시 활황에 ‘돈방석’ - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WcV9WRFMxWUZJZWtzR3VIMWRKcy1GNUlpaUZzR2UyT1ZPZVFRUURNS1NnRUhjb2RQVE1aSFY4VnpMT1pyaTNEcDZXQks0c0NjUHp4Tk9YRWJrVFh4N1pLREdoU3lJUTNXZTMyWURCaw?oc=5",
-          "pub_date": "Wed, 12 Aug 2026 23:22:38 GMT",
-          "source": "조세일보"
+          "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUXdVMzZ1MGVud0NsZU5OXzRQTlZRVGlvRFN2NE5COExCMGNYN3ZORlp5UERfRC1RQTRwX3NDdEtSWGFDQUNtUmU5RWJXNEtBTzQ2M29jX21yc1JnYUVUZWwtWVhXSU00Z3J2bkxneUJDbDRWQldpdVdERWhub29rUw?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 00:27:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd2R2RmhiTGlYZDRvZEVhdU5VcHdYOUZuVGJpdzBEVktmY3JkbFJsWHdtemVySVZrMUpCRzcteDdRc3pQUWdUZVdrSHZRLXdYSkdIX1QtVWZTbm9ZVVg3b2JmODN4RWFPUUVTY3RKWTlDVGJ1XzdoQTJQS1VQdXh5ck1Zaks5ek91N085cnZzOWJnMzFKcUhoU01xTGLSAZwBQVVfeXFMTXdkdkZoYkxpWGQ0b2RFYXVOVXB3WDlGblRiaXcwRFZLZmNyZGxSbFh3bXplcklWazFKQkc3LXg3UXN6UFFnVGVXa0h2US13WEpHSF9ULVVmU25vWVVYN29iZjgzeEVhT1FFU2N0Slk5Q1RidV83aEEyUEtVUHV4eXJNWWpLOXpPdTdPOXJ2czliZzMxSnFIaFNNcUxi?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 00:27:00 GMT",
+          "source": "Chosunbiz"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "'코스피 폭락' 딱 맞힌 전문가 \"욕 많이 먹었다..빠져도 이렇게 빠질 줄은\" - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HeFo0R0lJUVFpVkVBWkJqY2VUdDA4SHdSOXZwdnBMeWF5b1BXS3dNTXlheDZXbC1LbHVQR1ViLXkwT3FfLWtQbHM4Zllxbmxkd3F5dW9QQVY2V1hCYXc?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 02:08:00 GMT",
+          "source": "YTN"
+        }
+      ]
     }
   },
   "volatility": {
@@ -34,8 +47,8 @@
     "move": 72.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 3363300000000,
-    "retail_net_buy_krw": -3191100000000,
+    "foreign_inst_buy_krw": 1751300000000,
+    "retail_net_buy_krw": -1727100000000,
     "margin_loan_krw": 29610600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -50,18 +63,18 @@
       "sma_200": 24104.13
     },
     "kospi": {
-      "current": 6345.53,
+      "current": 6851.53,
       "high_52w": 9385.59,
-      "drop_pct": -32.39,
-      "intraday_low_drop_pct": -33.79,
-      "sma_200": 5784.06
+      "drop_pct": -27.0,
+      "intraday_low_drop_pct": -27.83,
+      "sma_200": 5814.18
     },
     "kosdaq": {
-      "current": 857.84,
+      "current": 869.27,
       "high_52w": 1229.42,
-      "drop_pct": -30.22,
-      "intraday_low_drop_pct": -31.64,
-      "sma_200": 995.84
+      "drop_pct": -29.29,
+      "intraday_low_drop_pct": -30.61,
+      "sma_200": 995.04
     },
     "sp500": {
       "current": 7748.5,
@@ -75,7 +88,7 @@
       "high_52w": 3051.02,
       "drop_pct": -0.18,
       "intraday_low_drop_pct": -0.7,
-      "sma_200": 2698.04
+      "sma_200": 2690.75
     },
     "soxx": {
       "current": 546.61,
@@ -149,11 +162,11 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
