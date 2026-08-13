@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T19:32:18.325845+09:00",
+  "timestamp": "2026-08-13T20:27:31.236490+09:00",
   "sentiment": {
     "cnn_fng": 62.0,
     "cnn_components": {
@@ -41,7 +41,7 @@
     }
   },
   "volatility": {
-    "vix": 14.61,
+    "vix": 14.59,
     "vvix": 88.5,
     "skew": 136.54,
     "move": 72.09
@@ -60,14 +60,14 @@
       "high_52w": 27190.21,
       "drop_pct": -2.21,
       "intraday_low_drop_pct": -2.42,
-      "sma_200": 24145.46
+      "sma_200": 24104.13
     },
     "kospi": {
       "current": 6813.34,
       "high_52w": 9385.59,
       "drop_pct": -27.41,
       "intraday_low_drop_pct": -28.1,
-      "sma_200": 5857.76
+      "sma_200": 5813.99
     },
     "kosdaq": {
       "current": 861.37,
