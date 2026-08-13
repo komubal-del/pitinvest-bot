@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-13T15:05:38.353543+09:00",
+  "timestamp": "2026-08-13T16:47:41.398071+09:00",
   "sentiment": {
-    "cnn_fng": 62.1142857142857,
+    "cnn_fng": 62.0,
     "cnn_components": {
       "momentum": 71.0,
-      "strength": 30.4,
-      "breadth": 50.6,
+      "strength": 28.6,
+      "breadth": 51.6,
       "put_call": 64.0,
       "junk_bond": 98.0,
       "volatility": 50.0,
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 2,
       "greed_articles": [
         {
-          "title": "증시 활황에 돈 쓸어담은 증권사들...하반기에도 ‘돈잔치’ 이어질까 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUXdVMzZ1MGVud0NsZU5OXzRQTlZRVGlvRFN2NE5COExCMGNYN3ZORlp5UERfRC1RQTRwX3NDdEtSWGFDQUNtUmU5RWJXNEtBTzQ2M29jX21yc1JnYUVUZWwtWVhXSU00Z3J2bkxneUJDbDRWQldpdVdERWhub29rUw?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 00:27:00 GMT",
-          "source": "조선일보"
+          "title": "'삼전닉스' 활황에 국내 증시 시총 6000조 회복…코스피 6800선 넘겼다 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uOHhCeU9tRDdEQ1R6MlVjUU9TUHBFSnFyU0llcy1USWUybnRPYzBsVE9RbHU3blJXa19CbGJXMXJBV3FKdHZvb0FlUUlsTjU1T2FONGdpVGpIRUEy?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 06:19:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "코스피, 3.6% 급등 속 6800 회복했지만...대형주 쏠림에 상장사 60% 하락 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aVXBiV25mOS1aTTQ3LWtlNWhoXzdmT3RQWi1WUTdZTDlid05mZDY5N0JfeTI3OGtYSU5QT3JiX1c1VS05N19tQ19iS3BDYzNXcjRQbU1wVENDekRoZFIzdlFWb2RlVXhqN2JHMERvekxwQQ?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 07:05:42 GMT",
+          "source": "오피니언뉴스"
         }
       ],
       "fear_articles": [
@@ -41,14 +47,14 @@
     }
   },
   "volatility": {
-    "vix": 14.55,
+    "vix": 14.67,
     "vvix": 88.5,
     "skew": 136.54,
     "move": 72.09
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2495200000000,
-    "retail_net_buy_krw": -2459900000000,
+    "foreign_inst_buy_krw": 2788400000000,
+    "retail_net_buy_krw": -2735800000000,
     "margin_loan_krw": 29610600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -63,16 +69,16 @@
       "sma_200": 24145.46
     },
     "kospi": {
-      "current": 6783.81,
+      "current": 6813.34,
       "high_52w": 9385.59,
-      "drop_pct": -27.72,
-      "intraday_low_drop_pct": -27.98,
-      "sma_200": 5857.61
+      "drop_pct": -27.41,
+      "intraday_low_drop_pct": -28.1,
+      "sma_200": 5857.76
     },
     "kosdaq": {
-      "current": 860.63,
+      "current": 861.37,
       "high_52w": 1229.42,
-      "drop_pct": -30.0,
+      "drop_pct": -29.94,
       "intraday_low_drop_pct": -30.61,
       "sma_200": 995.0
     },
