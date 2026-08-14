@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T17:48:48.602649+09:00",
+  "timestamp": "2026-08-14T19:12:48.011842+09:00",
   "sentiment": {
     "cnn_fng": 66.7428571428571,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 3,
       "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "코스피 이번주 내내 올라…반도체 ‘고점론’ 한풀 꺾였다 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MMVpKejUtckEyLWk3eU5QSElNLW1CVTBjcDQ0VmRVT0hZRzJmNy1fLWZYSzJJS1dING0xcWJtbFFzbmpUb1hOejZRVDhfVGgyQjU4bW9rNzNjUdIBX0FVX3lxTE5zV213WC02UDJZeFhPNWFEYml1M2NrSDJfcXhybktyNmI1Q2tYSTJOV2ZveWY4Nm8zNkdabmFRTElvOE5FZTFIM3kwTHBJRzNDa0d6bkF2UzEyODlRTEJZ?oc=5",
+          "pub_date": "Fri, 14 Aug 2026 07:15:00 GMT",
+          "source": "경향신문"
+        },
         {
           "title": "다시 강세장 돌입한 코스피, 다음 상승 동력은 글로벌 헤지펀드 FOMO? - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vVWpjcnF0aWtjdzlpOUJhSEVhUUlfd0dNbnlEWVd3dTY3X19QaUg5LTNqUGtmeTczVkJQZm00VlczOFNHbTN2dHF1eWI4cm90WE1GVU94WDJ5QQ?oc=5",
@@ -24,10 +30,10 @@
           "source": "한국경제"
         },
         {
-          "title": "증시 활황에 웃은 DB증권…자기자본 첫 1조원 돌파 - 비즈워치",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hOENRV2VXTmZsVUwzNlBCb2wyTVIxdlJsazBWLXhlSmFUVERSbG85LVBLYTAzZ2U0eTg2S3hFTW02MmVVQVJZM1NHcTRtTThsdHJhMHYzSkNydjlZeEZhMXVmRXBXU3gtRnc?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 02:29:03 GMT",
-          "source": "비즈워치"
+          "title": "증시 활황에 탄생한 '연봉킹'…유안타 리테일 이사, 상반기 227억 수령 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82bTN2QTRxcHBnRVJRYXFJY3U4RmxGTUw5S09xSVE3bEtXVm5DbnkzSG91WEJFNUxVMlV0SHBoelpsa2RLT3BIcFNIY282d1U5aFd3OXFVNzdHWG5KSnBYSDZQUFY?oc=5",
+          "pub_date": "Fri, 14 Aug 2026 09:00:00 GMT",
+          "source": "서울경제TV"
         }
       ],
       "fear_articles": [
@@ -38,16 +44,16 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 1%대로 상승폭 줄여…코스닥은 하락 전환 - 연합뉴스",
+          "title": "코스피, 1%대로 상승폭 줄여…코스닥은 하락 전환 - yna.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaZDQtWVBsR3dhT0VNc2l4b2Yzd0xvVHlob3BmU21fRklUQkdqbm9oY1d5bkpNYjFCOG5fTk84eGI5MlhMYmR0REs4anBoRTJZeWwwdGNnMDJPNU5jSmJfWtIBYEFVX3lxTFBaZDQtWVBsR3dhT0VNc2l4b2Yzd0xvVHlob3BmU21fRklUQkdqbm9oY1d5bkpNYjFCOG5fTk84eGI5MlhMYmR0REs4anBoRTJZeWwwdGNnMDJPNU5jSmJfWg?oc=5",
           "pub_date": "Fri, 14 Aug 2026 02:54:27 GMT",
-          "source": "연합뉴스"
+          "source": "yna.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.63,
+    "vix": 14.56,
     "vvix": 89.42,
     "skew": 134.37,
     "move": 69.23
@@ -66,35 +72,35 @@
       "high_52w": 27190.21,
       "drop_pct": -1.42,
       "intraday_low_drop_pct": -2.12,
-      "sma_200": 24123.38
+      "sma_200": 24163.45
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5830.14
+      "sma_200": 5873.23
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.73
+      "sma_200": 994.93
     },
     "sp500": {
       "current": 7798.99,
       "high_52w": 7816.7,
       "drop_pct": -0.23,
       "intraday_low_drop_pct": -0.68,
-      "sma_200": 7059.01
+      "sma_200": 7070.35
     },
     "russell2k": {
       "current": 3052.85,
       "high_52w": 3065.84,
       "drop_pct": -0.42,
       "intraday_low_drop_pct": -0.61,
-      "sma_200": 2693.58
+      "sma_200": 2700.73
     },
     "soxx": {
       "current": 550.74,
@@ -180,6 +186,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.08.14",
+            "close": 274500,
+            "change_pct": 2.43,
+            "retail_net": -3082513,
+            "inst_net": -1830920,
+            "foreign_net": 4913433
+          },
+          {
             "date": "2026.08.13",
             "close": 268000,
             "change_pct": 4.89,
@@ -210,17 +224,17 @@
             "retail_net": 3769410,
             "inst_net": 625055,
             "foreign_net": -4394465
-          },
-          {
-            "date": "2026.08.07",
-            "close": 231000,
-            "change_pct": 0.22,
-            "retail_net": 1700763,
-            "inst_net": 36604,
-            "foreign_net": -1737367
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.14",
+            "close": 1645000,
+            "change_pct": 3.26,
+            "retail_net": -412649,
+            "inst_net": -334859,
+            "foreign_net": 747508
+          },
           {
             "date": "2026.08.13",
             "close": 1593000,
@@ -252,14 +266,6 @@
             "retail_net": 218476,
             "inst_net": 68099,
             "foreign_net": -286575
-          },
-          {
-            "date": "2026.08.07",
-            "close": 1422000,
-            "change_pct": -4.88,
-            "retail_net": 23449,
-            "inst_net": 32908,
-            "foreign_net": -56357
           }
         ]
       }
