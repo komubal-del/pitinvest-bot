@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T19:12:48.011842+09:00",
+  "timestamp": "2026-08-14T20:12:19.788201+09:00",
   "sentiment": {
     "cnn_fng": 66.7428571428571,
     "cnn_components": {
@@ -14,11 +14,17 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
+      "greed_count": 5,
       "fear_count": 2,
       "greed_articles": [
         {
-          "title": "코스피 이번주 내내 올라…반도체 ‘고점론’ 한풀 꺾였다 - 경향신문",
+          "title": "코스피지수와 SOX, 버블인가? 씨티의 답변 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQMGpNSDRfR3hESm45Ni1fWHNEZUU4QTZKVC13WmJoMWNpbzFVQ1g0OFNpWFg2cEhYWFltS0E1UXUwR2JNRmkxbmxEZHdDTTVRYnhQc3RiNi1BYWI3a3ltNXF5UTRYREZRaENqOElIYks?oc=5",
+          "pub_date": "Fri, 14 Aug 2026 10:31:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "코스피 이번 주 내내 올라…반도체 ‘고점론’ 한풀 꺾였다 - 경향신문",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MMVpKejUtckEyLWk3eU5QSElNLW1CVTBjcDQ0VmRVT0hZRzJmNy1fLWZYSzJJS1dING0xcWJtbFFzbmpUb1hOejZRVDhfVGgyQjU4bW9rNzNjUdIBX0FVX3lxTE5zV213WC02UDJZeFhPNWFEYml1M2NrSDJfcXhybktyNmI1Q2tYSTJOV2ZveWY4Nm8zNkdabmFRTElvOE5FZTFIM3kwTHBJRzNDa0d6bkF2UzEyODlRTEJZ?oc=5",
           "pub_date": "Fri, 14 Aug 2026 07:15:00 GMT",
           "source": "경향신문"
@@ -28,6 +34,12 @@
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vVWpjcnF0aWtjdzlpOUJhSEVhUUlfd0dNbnlEWVd3dTY3X19QaUg5LTNqUGtmeTczVkJQZm00VlczOFNHbTN2dHF1eWI4cm90WE1GVU94WDJ5QQ?oc=5",
           "pub_date": "Fri, 14 Aug 2026 08:10:21 GMT",
           "source": "한국경제"
+        },
+        {
+          "title": "코스피 이번주 내내 올라…반도체 ‘고점론’ 한풀 꺾였다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03WERlNHpIQjdwWEdmVjFhRFI2cDVqR1ZVR1RfX0h4LWtReE9jUVBnZWdna0RwQ21JTUdGdE9VRGVpb0tIRWpXQ04xa2hXMm8?oc=5",
+          "pub_date": "Fri, 14 Aug 2026 07:16:40 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "증시 활황에 탄생한 '연봉킹'…유안타 리테일 이사, 상반기 227억 수령 - 서울경제TV",
@@ -44,16 +56,16 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 1%대로 상승폭 줄여…코스닥은 하락 전환 - yna.co.kr",
+          "title": "코스피, 1%대로 상승폭 줄여…코스닥은 하락 전환 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaZDQtWVBsR3dhT0VNc2l4b2Yzd0xvVHlob3BmU21fRklUQkdqbm9oY1d5bkpNYjFCOG5fTk84eGI5MlhMYmR0REs4anBoRTJZeWwwdGNnMDJPNU5jSmJfWtIBYEFVX3lxTFBaZDQtWVBsR3dhT0VNc2l4b2Yzd0xvVHlob3BmU21fRklUQkdqbm9oY1d5bkpNYjFCOG5fTk84eGI5MlhMYmR0REs4anBoRTJZeWwwdGNnMDJPNU5jSmJfWg?oc=5",
           "pub_date": "Fri, 14 Aug 2026 02:54:27 GMT",
-          "source": "yna.co.kr"
+          "source": "연합뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.56,
+    "vix": 14.51,
     "vvix": 89.42,
     "skew": 134.37,
     "move": 69.23
@@ -72,35 +84,35 @@
       "high_52w": 27190.21,
       "drop_pct": -1.42,
       "intraday_low_drop_pct": -2.12,
-      "sma_200": 24163.45
+      "sma_200": 24123.38
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5873.23
+      "sma_200": 5830.14
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.73
     },
     "sp500": {
       "current": 7798.99,
       "high_52w": 7816.7,
       "drop_pct": -0.23,
       "intraday_low_drop_pct": -0.68,
-      "sma_200": 7070.35
+      "sma_200": 7059.01
     },
     "russell2k": {
       "current": 3052.85,
       "high_52w": 3065.84,
       "drop_pct": -0.42,
       "intraday_low_drop_pct": -0.61,
-      "sma_200": 2700.73
+      "sma_200": 2693.58
     },
     "soxx": {
       "current": 550.74,
