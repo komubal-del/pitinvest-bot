@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T08:51:54.727079+09:00",
+  "timestamp": "2026-08-14T11:35:13.158702+09:00",
   "sentiment": {
     "cnn_fng": 66.1428571428571,
     "cnn_components": {
@@ -14,40 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 3,
+      "greed_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "[부자들의 투자노트] 英 자산운용사 \"증시 쏠림 현상 우려…AI 외 투자 기회 많아\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LTFI1blZxcHUxVHJNNEhUSnZsV1NhXzN0RzhrZkNXUnJIZXpXU3l0TGxwaUJHNC1ydzJiUFBiOUR4VzZwV1NIeTg0WHBCdFk?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 22:52:23 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[뉴욕증시] 물가 둔화, S&P500 최고치···\"거품 아닌 실적\" 메모리 '급등' - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3MDNfVmxRbXBuUWxXWW1qM1NtVUZtRm93dUg4Qmtsc2F0dFI0Z0hkRVdWa0dSSklSWGJoZEllMTRHRW5KX2lRRUNSVy1HbTNCbWhQV0N2QUt1OFY0bW9kQ2dHbGtpWHFhaEE?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 21:58:11 GMT",
-          "source": "서울파이낸스"
+          "title": "증시 활황에 웃은 DB증권…자기자본 첫 1조원 돌파 - 비즈워치",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hOENRV2VXTmZsVUwzNlBCb2wyTVIxdlJsazBWLXhlSmFUVERSbG85LVBLYTAzZ2U0eTg2S3hFTW02MmVVQVJZM1NHcTRtTThsdHJhMHYzSkNydjlZeEZhMXVmRXBXU3gtRnc?oc=5",
+          "pub_date": "Fri, 14 Aug 2026 02:29:03 GMT",
+          "source": "비즈워치"
         }
       ],
       "fear_articles": [
         {
-          "title": "'삼전닉스' 폭락할 때도 선방했다…'롤러코스피'에 출시 줄잇는 채권혼합 ETF - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBocmZVSXR5MUZjczlTT1JKczF4N1RqNHROQk9qQXlQQUdqdkp6OWVsQ2ttaW9nLUlndHRBVFVIYnlCY3hoWnkyblFTcUJhbkxOTFAtMHlLV3RTRG95XzlRWA?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 22:11:00 GMT",
-          "source": "아시아경제"
+          "title": "코스닥지수 하락 전환…외인·기관 매도 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uVUtjWExkZ1dvQXhRN3JaREtBVEJhcUR6c29NZjBfMmNDVjVqUUhTNVdOTjBFTktIczZIV3RNYXB0YWFyMDNmTG01NFhHUWxSRmZ5dFdKczRONHpjcERnMkJpMzF5dXli0gFuQVVfeXFMT3MwWlN6YjB5RFljX3NGSlowZmgycWNFUElkX2xnT0JxdkR4QUVtak1fZHdBOGVhUzFfT2xWZktVUmc1anVENWJHM0RndkVTekUzdllSZnZ6dGZVVEl4WWdMa1hKTzBSSEhVYWZZdVE?oc=5",
+          "pub_date": "Fri, 14 Aug 2026 01:06:20 GMT",
+          "source": "머니투데이"
         },
         {
-          "title": "[아주증시포커스] 낙인효과 생각보다 컸다...관리종목 지정된 동전주들 최대 28% 급락 外 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQMGRsVllReEtVOHVlczM3Qmh2c1dnbXVOb0xWd1pwX3FUQ2hJc3Y1QklsZVVaaUhrdFZZbi1XcWRqT2pzb2pEQmJuUHpNUWtpYTQ2QVltNW45QdIBWEFVX3lxTE1kSjhGOWl3czhLWnNtZm5wNnh0d3Q3dnVhY0VDUXRGVFJBTmdkbEdjYTJpTF9wNVBLMXlyWDJucWdnQVhPbXowME1rS2xIZ0E3MF9mNFFtd3g?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 23:11:59 GMT",
-          "source": "아주경제"
-        },
-        {
-          "title": "폭락 장세 벗어난 지금은 주식시장에 머물러야 할 때 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82a3piclVzM2xuQzctcnAySGNvanAtR0lhaWRhX0Z3MmFOV1VMUXFKU0RzUDE1R2RfX3VocUxNWWVSUTRSNTI1TXpxWDJ5Sms?oc=5",
-          "pub_date": "Thu, 13 Aug 2026 22:02:48 GMT",
-          "source": "v.daum.net"
+          "title": "관리종목 지정 '동전주' 급락… 코스닥 체질개선 시험대 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jTmlQUEg5ZEtWRXF6dnYwc2JsdjNjWjZiRUxuNzhmbnFxZVJJLVFRaTVacEpzYkNfeDZaRnlqNU1HODNiLWFhOGpxZmJVTnZxY01iWWtFaS1jRlpfQjgyZFpWbVM3SV9BSWJpS21acDVuS3FJdUE?oc=5",
+          "pub_date": "Thu, 13 Aug 2026 23:29:10 GMT",
+          "source": "인포스탁데일리"
         }
       ]
     }
@@ -59,8 +47,8 @@
     "move": 69.23
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2793600000000,
-    "retail_net_buy_krw": -2741000000000,
+    "foreign_inst_buy_krw": 706300000000,
+    "retail_net_buy_krw": -674700000000,
     "margin_loan_krw": 29977600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -75,25 +63,25 @@
       "sma_200": 24163.45
     },
     "kospi": {
-      "current": 6579.04,
+      "current": 6910.2,
       "high_52w": 9385.59,
-      "drop_pct": -29.9,
-      "intraday_low_drop_pct": -31.67,
-      "sma_200": 5842.81
+      "drop_pct": -26.37,
+      "intraday_low_drop_pct": -27.03,
+      "sma_200": 5872.89
     },
     "kosdaq": {
-      "current": 858.91,
+      "current": 856.66,
       "high_52w": 1229.42,
-      "drop_pct": -30.14,
-      "intraday_low_drop_pct": -31.69,
-      "sma_200": 995.15
+      "drop_pct": -30.32,
+      "intraday_low_drop_pct": -31.24,
+      "sma_200": 994.89
     },
     "sp500": {
       "current": 7798.99,
       "high_52w": 7816.7,
       "drop_pct": -0.23,
       "intraday_low_drop_pct": -0.68,
-      "sma_200": 7070.35
+      "sma_200": 7059.01
     },
     "russell2k": {
       "current": 3052.85,
