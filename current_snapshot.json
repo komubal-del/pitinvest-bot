@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-14T22:24:43.376825+09:00",
+  "timestamp": "2026-08-14T23:29:15.634989+09:00",
   "sentiment": {
-    "cnn_fng": 66.7428571428571,
+    "cnn_fng": 67.8,
     "cnn_components": {
-      "momentum": 78.6,
-      "strength": 31.0,
-      "breadth": 58.6,
-      "put_call": 72.8,
-      "junk_bond": 96.8,
+      "momentum": 77.6,
+      "strength": 29.0,
+      "breadth": 58.2,
+      "put_call": 82.2,
+      "junk_bond": 98.0,
       "volatility": 50.0,
-      "safe_haven": 79.6
+      "safe_haven": 78.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 5,
+      "greed_count": 4,
+      "fear_count": 4,
       "greed_articles": [
         {
           "title": "코스피지수와 SOX, 버블인가? 씨티의 답변 - Investing.com 한국어",
@@ -36,16 +36,10 @@
           "source": "Investing.com 한국어"
         },
         {
-          "title": "다시 강세장 돌입한 코스피, 다음 상승 동력은 글로벌 헤지펀드 FOMO? - hankyung.com",
+          "title": "다시 강세장 돌입한 코스피, 다음 상승 동력은 글로벌 헤지펀드 FOMO? - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vVWpjcnF0aWtjdzlpOUJhSEVhUUlfd0dNbnlEWVd3dTY3X19QaUg5LTNqUGtmeTczVkJQZm00VlczOFNHbTN2dHF1eWI4cm90WE1GVU94WDJ5QQ?oc=5",
           "pub_date": "Fri, 14 Aug 2026 08:10:21 GMT",
-          "source": "hankyung.com"
-        },
-        {
-          "title": "증시 활황에 탄생한 '연봉킹'…유안타 리테일 이사, 상반기 227억 수령 - 서울경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82bTN2QTRxcHBnRVJRYXFJY3U4RmxGTUw5S09xSVE3bEtXVm5DbnkzSG91WEJFNUxVMlV0SHBoelpsa2RLT3BIcFNIY282d1U5aFd3OXFVNzdHWG5KSnBYSDZQUFY?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 09:00:00 GMT",
-          "source": "서울경제TV"
+          "source": "한국경제"
         }
       ],
       "fear_articles": [
@@ -62,29 +56,23 @@
           "source": "Investing.com 한국어"
         },
         {
-          "title": "[인도증시] 중동 리스크·고유가에 하락...'순이익 폭락' 타타모터스 ↓ vs '어닝 서프라이즈' LG전자 ↑ - newspim.com",
+          "title": "[인도증시] 중동 리스크·고유가에 하락...'순이익 폭락' 타타모터스 ↓ vs '어닝 서프라이즈' LG전자 ↑ - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YR0JOLVVrTjR3c2FncEF2UndZNDkzZVhzZm9TM1lLMVZBTHgtZnY2TVhHMFRyenpNSVhhODdYUmdVcWlPYjljOXhuQWp3bUhiZU1YRnVudExLNGdZ?oc=5",
           "pub_date": "Fri, 14 Aug 2026 10:54:00 GMT",
-          "source": "newspim.com"
+          "source": "뉴스핌"
         },
         {
           "title": "코스피, 1%대로 상승폭 줄여…코스닥은 하락 전환 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjaU9HX0pjbUNoR19IRS1aZVJvUnBjY2JZN2dpWTZnM1lUX1JmT3NYTmpiakx1OG01S1F0a1NERUlrVFdBZGltcUF4c0Fncm5DS0Y0TXpVSG4tOWPSAWBBVV95cUxQWmQ0LVlQbEd3YU9FTXNpeG9mM3dMb1R5aG9wZlNtX0ZJVEJHam5vaGNXeW5KTWIxQjhuX05POHhiOTJYTGJkdERLOGpwaEUyWXlsMHRjZzAyTzVOY0piX1o?oc=5",
           "pub_date": "Fri, 14 Aug 2026 02:54:27 GMT",
           "source": "연합뉴스"
-        },
-        {
-          "title": "[베트남 증시] '저금리 자금' 기대감 꺾이며 이달 최저치로 급락...우량주 약세 - newspim.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HSnBfZUZfWjNsUkVKVHVMLXZhZTRBZDVuLWR6Z1Z4bVIxVGRHN29xREI1N3RucXBvb2xwVGs3dW5Qel9QZEhnLUlVbE1rWTFGbFFQdlpWaEVCVC1Q?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 10:30:00 GMT",
-          "source": "newspim.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.53,
-    "vvix": 89.42,
+    "vix": 14.58,
+    "vvix": 89.15,
     "skew": 134.37,
     "move": 69.23
   },
@@ -98,55 +86,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26803.03,
+      "current": 26742.88,
       "high_52w": 27190.21,
-      "drop_pct": -1.42,
-      "intraday_low_drop_pct": -2.12,
-      "sma_200": 24163.45
+      "drop_pct": -1.65,
+      "intraday_low_drop_pct": -1.67,
+      "sma_200": 24178.98
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5830.14
+      "sma_200": 5873.23
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
-      "current": 7798.99,
+      "current": 7794.28,
       "high_52w": 7816.7,
-      "drop_pct": -0.23,
-      "intraday_low_drop_pct": -0.68,
-      "sma_200": 7059.01
+      "drop_pct": -0.29,
+      "intraday_low_drop_pct": -0.31,
+      "sma_200": 7074.94
     },
     "russell2k": {
-      "current": 3052.85,
+      "current": 3064.74,
       "high_52w": 3065.84,
-      "drop_pct": -0.42,
-      "intraday_low_drop_pct": -0.61,
-      "sma_200": 2700.73
+      "drop_pct": -0.04,
+      "intraday_low_drop_pct": -0.51,
+      "sma_200": 2703.45
     },
     "soxx": {
-      "current": 550.74,
+      "current": 547.88,
       "high_52w": 655.95,
-      "drop_pct": -16.04,
-      "intraday_low_drop_pct": -16.7,
-      "sma_200": 413.64
+      "drop_pct": -16.48,
+      "intraday_low_drop_pct": -16.73,
+      "sma_200": 414.86
     }
   },
   "sector_rs": {
-    "XLK": 1.021,
-    "SMH": 0.977,
+    "XLK": 1.018,
+    "SMH": 0.972,
     "BOTZ": 0.883,
-    "IGV": 1.125,
-    "XLF": 1.094,
-    "XLE": 1.016
+    "IGV": 1.11,
+    "XLF": 1.093,
+    "XLE": 1.033
   },
   "signals": {
     "cnn_under_10": false,
@@ -182,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 75.46,
+    "tqqq_profit_pct": 74.85,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 171.7,
+    "soxl_profit_pct": 166.95,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.22,
+    "koru_profit_pct": -93.99,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
