@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T21:02:57.870764+09:00",
+  "timestamp": "2026-08-14T22:24:49.145399+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -1246,7 +1246,7 @@
     {
       "ticker": "XLC",
       "name": "Communication",
-      "rs_roc": 0.0072,
+      "rs_roc": 0.0002,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -1557,10 +1557,6 @@
           "value": 0.874
         },
         {
-          "date": "2026-07-21",
-          "value": 0.8608
-        },
-        {
           "date": "2026-07-22",
           "value": 0.8553
         },
@@ -1589,10 +1585,6 @@
           "value": 0.8412
         },
         {
-          "date": "2026-07-31",
-          "value": 0.8482
-        },
-        {
           "date": "2026-08-03",
           "value": 0.8602
         },
@@ -1615,6 +1607,10 @@
         {
           "date": "2026-08-10",
           "value": 0.8468
+        },
+        {
+          "date": "2026-08-11",
+          "value": 0.8453
         },
         {
           "date": "2026-08-12",
@@ -3703,7 +3699,7 @@
         },
         {
           "ticker": "ABBV",
-          "rs_roc": -0.0444,
+          "rs_roc": -0.0422,
           "price": 250.82
         },
         {
@@ -3713,7 +3709,7 @@
         },
         {
           "ticker": "KEYS",
-          "rs_roc": -0.0309,
+          "rs_roc": 0.0108,
           "price": 353.85
         }
       ],
@@ -4558,14 +4554,11 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1411.28,
-      "change_30d_pct": -8.49
-    },
-    "us10y": {
-      "ticker": "^TNX",
-      "value": 4.64,
-      "change_30d_pp": 0.17
+      "value": 1410.88,
+      "change_30d_pct": -8.51
     }
   },
-  "errors": []
+  "errors": [
+    "^TNX: no data"
+  ]
 }
