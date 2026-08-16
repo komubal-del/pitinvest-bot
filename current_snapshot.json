@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T06:28:39.172176+09:00",
+  "timestamp": "2026-08-17T06:56:19.058665+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -18,6 +18,12 @@
       "fear_count": 0,
       "greed_articles": [
         {
+          "title": "집값 뛰자 ‘영끌’, 증시 뛰자 ‘빚투’… 가계빚 2000조 눈앞 - kmib.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42U1kyMV84ZnhnMEZmdHAwajhoTV92RG52X1cxU0xOcVloRXBBTGJfa0tXVjk5TmxyeFdtdXlzaElFSklYUlRZQUl6czlFWmtRbVhvOHlmX3VQZjB4cGRHbmpPWXM5YVpfZ3JpWNIBbEFVX3lxTE42U1kyMV84ZnhnMEZmdHAwajhoTV92RG52X1cxU0xOcVloRXBBTGJfa0tXVjk5TmxyeFdtdXlzaElFSklYUlRZQUl6czlFWmtRbVhvOHlmX3VQZjB4cGRHbmpPWXM5YVpfZ3JpWA?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 15:24:00 GMT",
+          "source": "kmib.co.kr"
+        },
+        {
           "title": "8월 '삼전닉스' 쏠림 완화…2차전지·코스닥 ETF 40%대 '질주' - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nZFB1dTl5UHhoWHd4S2JZR0dYMnMxeU9iS1FFWmxKVUJMb29HbEhENXhMWDc4bTFNTTRBb3lYclZOSzV3TW1ZZTAwWFlfX2d0ODc2LWVreFhEaFRYcXBr0gFkQVVfeXFMTkVMWlhfb3JReGoxYi16aDBXOVJYblpXNkdJOWpBY1NVYmZTSUkyZUJ0d2hZY2xQbXhrOGxkTERwaV9EQWNvWWZmc2RIOG9UQVk2NGdoWTdLcS00bTdRMlM5aEN3RA?oc=5",
           "pub_date": "Sun, 16 Aug 2026 21:00:00 GMT",
@@ -30,16 +36,10 @@
           "source": "글로벌이코노믹"
         },
         {
-          "title": "상반기 ‘연봉킹’ 카뱅 윤호영 82억… 증시 활황에 한투 오너·사장 2·3위 - 서울신문",
+          "title": "상반기 ‘연봉킹’ 카뱅 윤호영 82억… 증시 활황에 한투 오너·사장 2·3위 - seoul.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fYXpTbG5aYzBQRTVMQ2c1RG00VU1iRFRtTkhXakVNenY4bmNwTjlOaXZLUU84WHRUelVmY1I2ektPMTVHWlpUUDJiZTJCcU1jU3B4OElEOEpLT2ZIdWx5WVhWRmZGZEdKelFieHp6RmYyU3BmMU9YYUdB?oc=5",
           "pub_date": "Sun, 16 Aug 2026 15:48:02 GMT",
-          "source": "서울신문"
-        },
-        {
-          "title": "집값 뛰자 ‘영끌’, 증시 뛰자 ‘빚투’… 가계빚 2000조 눈앞 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNUV1MHdkX2dXZXIyNmF1ek9hOWs4WTZ6S0FZd0NBSm5aQ1E1djNVekF5XzRhWVZhcjJvVFh1aWVHNDBuYk9WUGE0RmlGZzQ?oc=5",
-          "pub_date": "Sun, 16 Aug 2026 15:25:38 GMT",
-          "source": "v.daum.net"
+          "source": "seoul.co.kr"
         }
       ],
       "fear_articles": []
@@ -79,7 +79,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7785.76,
