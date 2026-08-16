@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T00:29:44.540953+09:00",
+  "timestamp": "2026-08-17T00:57:47.839759+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "상반기 ‘연봉킹’ 카뱅 윤호영 82억… 증시 활황에 한투 오너·사장 2·3위 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fYXpTbG5aYzBQRTVMQ2c1RG00VU1iRFRtTkhXakVNenY4bmNwTjlOaXZLUU84WHRUelVmY1I2ektPMTVHWlpUUDJiZTJCcU1jU3B4OElEOEpLT2ZIdWx5WVhWRmZGZEdKelFieHp6RmYyU3BmMU9YYUdB?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 15:48:02 GMT",
+          "source": "서울신문"
+        }
+      ],
       "fear_articles": []
     }
   },
@@ -54,14 +61,14 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7785.76,
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7064.44
+      "sma_200": 7074.9
     },
     "russell2k": {
       "current": 3068.42,
@@ -287,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 195.781,
+    "strategy_pct": 195.63,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -924,6 +931,10 @@
       {
         "date": "2026-08-14",
         "ret_pct": 195.781
+      },
+      {
+        "date": "2026-08-17",
+        "ret_pct": 195.63
       }
     ],
     "monthly_breakdown": [
@@ -971,8 +982,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 26.34,
-        "end_ret_pct": 195.78,
+        "return_pct": 26.19,
+        "end_ret_pct": 195.63,
         "max_dd_pct": 4.69
       }
     ],
