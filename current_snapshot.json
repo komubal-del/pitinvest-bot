@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T07:57:30.187300+09:00",
+  "timestamp": "2026-08-17T08:28:38.819596+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 4,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "집값 뛰자 ‘영끌’, 증시 뛰자 ‘빚투’… 가계빚 2000조 눈앞 - 국민일보",
@@ -42,7 +42,14 @@
           "source": "서울신문"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "박스장 투자전략은…\"外人수급 주목·저평가주로 대응\"[패닉 딛고 돌아온 증시③] - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jb3FndlRDejNvNHNORkJBcVNuWDFuaDNlTVFpSUxqZzZsOEhWbVNxY2ZpcHNQZXF2UDR3c2lVSWlYMDNGa1F3bGxXd0RYa0JnT0xncWlnSXNSUmNjMlJfUdIBeEFVX3lxTE9IRTVXOXB1V3NlTHRZRnJQZlBtNVAzeGx3UW1mQUlCaGRKdmN0S0piZjJkbjdmWGJqRXdHSV90c2QxZjRxYy1lODlETVlUc25nMDhqc1FvSlRWaF9FUmhEUkUzLXNkOTE4aHJtTG9QWE04cWYxbFFoVA?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 23:00:00 GMT",
+          "source": "뉴시스"
+        }
+      ]
     }
   },
   "volatility": {
@@ -79,7 +86,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.73
+      "sma_200": 994.93
     },
     "sp500": {
       "current": 7785.76,
