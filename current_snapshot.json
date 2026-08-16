@@ -1,80 +1,30 @@
 {
-  "timestamp": "2026-08-14T23:29:15.634989+09:00",
+  "timestamp": "2026-08-17T00:29:44.540953+09:00",
   "sentiment": {
-    "cnn_fng": 67.8,
+    "cnn_fng": 64.9714285714286,
     "cnn_components": {
-      "momentum": 77.6,
-      "strength": 29.0,
-      "breadth": 58.2,
-      "put_call": 82.2,
-      "junk_bond": 98.0,
+      "momentum": 74.6,
+      "strength": 28.6,
+      "breadth": 57.8,
+      "put_call": 66.4,
+      "junk_bond": 98.6,
       "volatility": 50.0,
       "safe_haven": 78.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 4,
-      "greed_articles": [
-        {
-          "title": "코스피지수와 SOX, 버블인가? 씨티의 답변 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQMGpNSDRfR3hESm45Ni1fWHNEZUU4QTZKVC13WmJoMWNpbzFVQ1g0OFNpWFg2cEhYWFltS0E1UXUwR2JNRmkxbmxEZHdDTTVRYnhQc3RiNi1BYWI3a3ltNXF5UTRYREZRaENqOElIYks?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 10:31:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 이번 주 내내 올라…반도체 ‘고점론’ 한풀 꺾였다 - khan.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MMVpKejUtckEyLWk3eU5QSElNLW1CVTBjcDQ0VmRVT0hZRzJmNy1fLWZYSzJJS1dING0xcWJtbFFzbmpUb1hOejZRVDhfVGgyQjU4bW9rNzNjUdIBX0FVX3lxTE5zV213WC02UDJZeFhPNWFEYml1M2NrSDJfcXhybktyNmI1Q2tYSTJOV2ZveWY4Nm8zNkdabmFRTElvOE5FZTFIM3kwTHBJRzNDa0d6bkF2UzEyODlRTEJZ?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 07:15:00 GMT",
-          "source": "khan.co.kr"
-        },
-        {
-          "title": "역대급 증시 활황에 상위 10대 증권사 ‘방긋’···상반기 순익 10조 넘어서 By 투데이코리아 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zcXd5QWFyOUROLUtoS0hHRHhKc2N3aFJEUWRKaTBRUWpISUh6cms1aENFR19ZVDMtbVVHS1d5ZU9aZGctcnhKaUVDdFhONEg1RTVuMFdsSklzQXAxZTZ4SlpkaGJoZ21URVc3dnVPRmM?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 09:02:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "다시 강세장 돌입한 코스피, 다음 상승 동력은 글로벌 헤지펀드 FOMO? - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vVWpjcnF0aWtjdzlpOUJhSEVhUUlfd0dNbnlEWVd3dTY3X19QaUg5LTNqUGtmeTczVkJQZm00VlczOFNHbTN2dHF1eWI4cm90WE1GVU94WDJ5QQ?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 08:10:21 GMT",
-          "source": "한국경제"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피, 급등 이후 상승 폭 둔화...코스닥 하락 전환 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1V20yNkFNU01kTnNjMXVIc292ZEduWXYtU0o4V01zdlczSndZeVlMSEZvWXE4U0FxajlFbDBfZFd1aVZzeUFuNjhCcTFOM1RyejkycmRvX0tyMnlsMmc?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 05:43:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "바클레이즈: 美 증시, 사상 최고 실적에도 매도세 지속 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5feXNrOWNadnJaSHVoM3V6cFFXaFBoZUpVSGZzSGUySHRPWlZ5WmwzUFNXWnZPQ2RBSU5oOHR3NVR4SEx6cy1jYnIxSmlSbHk1M2VrQks0b2xXSTMxS3hVQ3NjbW5yeElZWXRyR29zNm5VYndZYTZn?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 10:22:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "[인도증시] 중동 리스크·고유가에 하락...'순이익 폭락' 타타모터스 ↓ vs '어닝 서프라이즈' LG전자 ↑ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YR0JOLVVrTjR3c2FncEF2UndZNDkzZVhzZm9TM1lLMVZBTHgtZnY2TVhHMFRyenpNSVhhODdYUmdVcWlPYjljOXhuQWp3bUhiZU1YRnVudExLNGdZ?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 10:54:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "코스피, 1%대로 상승폭 줄여…코스닥은 하락 전환 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjaU9HX0pjbUNoR19IRS1aZVJvUnBjY2JZN2dpWTZnM1lUX1JmT3NYTmpiakx1OG01S1F0a1NERUlrVFdBZGltcUF4c0Fncm5DS0Y0TXpVSG4tOWPSAWBBVV95cUxQWmQ0LVlQbEd3YU9FTXNpeG9mM3dMb1R5aG9wZlNtX0ZJVEJHam5vaGNXeW5KTWIxQjhuX05POHhiOTJYTGJkdERLOGpwaEUyWXlsMHRjZzAyTzVOY0piX1o?oc=5",
-          "pub_date": "Fri, 14 Aug 2026 02:54:27 GMT",
-          "source": "연합뉴스"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.58,
-    "vvix": 89.15,
-    "skew": 134.37,
-    "move": 69.23
+    "vix": 14.25,
+    "vvix": 87.48,
+    "skew": 138.36,
+    "move": 69.58
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 2008900000000,
@@ -86,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26742.88,
+      "current": 26729.16,
       "high_52w": 27190.21,
-      "drop_pct": -1.65,
-      "intraday_low_drop_pct": -1.67,
-      "sma_200": 24178.98
+      "drop_pct": -1.7,
+      "intraday_low_drop_pct": -1.94,
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6977.94,
@@ -104,37 +54,37 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.03
+      "sma_200": 994.93
     },
     "sp500": {
-      "current": 7794.28,
+      "current": 7785.76,
       "high_52w": 7816.7,
-      "drop_pct": -0.29,
-      "intraday_low_drop_pct": -0.31,
-      "sma_200": 7074.94
+      "drop_pct": -0.4,
+      "intraday_low_drop_pct": -0.52,
+      "sma_200": 7064.44
     },
     "russell2k": {
-      "current": 3064.74,
-      "high_52w": 3065.84,
+      "current": 3068.42,
+      "high_52w": 3069.71,
       "drop_pct": -0.04,
-      "intraday_low_drop_pct": -0.51,
-      "sma_200": 2703.45
+      "intraday_low_drop_pct": -0.63,
+      "sma_200": 2703.47
     },
     "soxx": {
-      "current": 547.88,
+      "current": 550.42,
       "high_52w": 655.95,
-      "drop_pct": -16.48,
-      "intraday_low_drop_pct": -16.73,
-      "sma_200": 414.86
+      "drop_pct": -16.09,
+      "intraday_low_drop_pct": -17.23,
+      "sma_200": 414.87
     }
   },
   "sector_rs": {
-    "XLK": 1.018,
-    "SMH": 0.972,
-    "BOTZ": 0.883,
-    "IGV": 1.11,
-    "XLF": 1.093,
-    "XLE": 1.033
+    "XLK": 1.025,
+    "SMH": 1.003,
+    "BOTZ": 0.891,
+    "IGV": 1.077,
+    "XLF": 1.085,
+    "XLE": 0.996
   },
   "signals": {
     "cnn_under_10": false,
@@ -170,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 74.85,
+    "tqqq_profit_pct": 74.64,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 166.95,
+    "soxl_profit_pct": 170.93,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -93.99,
+    "koru_profit_pct": -94.13,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -337,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 195.291,
+    "strategy_pct": 195.781,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -973,7 +923,7 @@
       },
       {
         "date": "2026-08-14",
-        "ret_pct": 195.291
+        "ret_pct": 195.781
       }
     ],
     "monthly_breakdown": [
@@ -1021,8 +971,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 25.85,
-        "end_ret_pct": 195.29,
+        "return_pct": 26.34,
+        "end_ret_pct": 195.78,
         "max_dd_pct": 4.69
       }
     ],
