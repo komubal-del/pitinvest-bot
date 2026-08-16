@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T02:27:40.403457+09:00",
+  "timestamp": "2026-08-17T02:55:43.380691+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "집값 뛰자 ‘영끌’, 증시 뛰자 ‘빚투’… 가계빚 2000조 눈앞 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNUV1MHdkX2dXZXIyNmF1ek9hOWs4WTZ6S0FZd0NBSm5aQ1E1djNVekF5XzRhWVZhcjJvVFh1aWVHNDBuYk9WUGE0RmlGZzQ?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 15:25:38 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "상반기 ‘연봉킹’ 카뱅 윤호영 82억… 증시 활황에 한투 오너·사장 2·3위 - 서울신문",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fYXpTbG5aYzBQRTVMQ2c1RG00VU1iRFRtTkhXakVNenY4bmNwTjlOaXZLUU84WHRUelVmY1I2ektPMTVHWlpUUDJiZTJCcU1jU3B4OElEOEpLT2ZIdWx5WVhWRmZGZEdKelFieHp6RmYyU3BmMU9YYUdB?oc=5",
@@ -47,7 +53,7 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6977.94,
@@ -61,21 +67,21 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7785.76,
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7064.44
+      "sma_200": 7074.9
     },
     "russell2k": {
       "current": 3068.42,
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
