@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T05:32:24.732400+09:00",
+  "timestamp": "2026-08-17T05:58:09.864052+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -14,9 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 3,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "중국 정부·자본 업은 유니트리, 상하이증시서 '청약 광풍' - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQWsyeHpVdUUyb2ZxdFdtWnV0Nko5M2syR1dvOHhUdm9tN21FYTZqNnYxak44UnNBRUhnemZ4cTBuM1oxbHUtNV9mWFpuQzc5NWFVQW51dUNNUUJnUHhMX0lpLW82REZvQTBXSDBiZEppMGhkcE1Vb25jMXZCY0IzZWlJYVZhaEJO?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 20:00:00 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "집값 뛰자 ‘영끌’, 증시 뛰자 ‘빚투’… 가계빚 2000조 눈앞 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNUV1MHdkX2dXZXIyNmF1ek9hOWs4WTZ6S0FZd0NBSm5aQ1E1djNVekF5XzRhWVZhcjJvVFh1aWVHNDBuYk9WUGE0RmlGZzQ?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 15:25:38 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "상반기 ‘연봉킹’ 카뱅 윤호영 82억… 증시 활황에 한투 오너·사장 2·3위 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fYXpTbG5aYzBQRTVMQ2c1RG00VU1iRFRtTkhXakVNenY4bmNwTjlOaXZLUU84WHRUelVmY1I2ektPMTVHWlpUUDJiZTJCcU1jU3B4OElEOEpLT2ZIdWx5WVhWRmZGZEdKelFieHp6RmYyU3BmMU9YYUdB?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 15:48:02 GMT",
+          "source": "서울신문"
+        }
+      ],
       "fear_articles": []
     }
   },
