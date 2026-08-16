@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T03:40:18.985859+09:00",
+  "timestamp": "2026-08-17T04:01:57.554202+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -53,7 +53,7 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6977.94,
@@ -67,7 +67,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.73
+      "sma_200": 994.93
     },
     "sp500": {
       "current": 7785.76,
@@ -81,7 +81,7 @@
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
