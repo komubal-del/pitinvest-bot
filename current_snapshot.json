@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T20:02:20.725874+09:00",
+  "timestamp": "2026-08-17T20:33:49.819850+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -47,7 +47,7 @@
     }
   },
   "volatility": {
-    "vix": 14.93,
+    "vix": 14.91,
     "vvix": 87.48,
     "skew": 138.36,
     "move": 69.58
@@ -66,7 +66,7 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6977.94,
@@ -87,7 +87,7 @@
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7064.44
+      "sma_200": 7074.9
     },
     "russell2k": {
       "current": 3068.42,
