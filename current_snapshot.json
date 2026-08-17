@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T07:33:30.929211+09:00",
+  "timestamp": "2026-08-18T07:59:37.877145+09:00",
   "sentiment": {
     "cnn_fng": 59.9714285714286,
     "cnn_components": {
@@ -29,7 +29,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 2008900000000,
     "retail_net_buy_krw": -1982000000000,
-    "margin_loan_krw": 29977600000000,
+    "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -54,7 +54,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.03
+      "sma_200": 994.93
     },
     "sp500": {
       "current": 7745.06,
