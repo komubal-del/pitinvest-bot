@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T20:33:55.565137+09:00",
+  "timestamp": "2026-08-17T20:59:35.724602+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -2084,7 +2084,7 @@
         },
         {
           "ticker": "WFC",
-          "rs_roc": -0.0035,
+          "rs_roc": -0.0085,
           "price": 88.82
         }
       ],
@@ -2909,7 +2909,7 @@
     {
       "ticker": "XLY",
       "name": "Consumer Disc",
-      "rs_roc": -0.0318,
+      "rs_roc": -0.0331,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -3224,10 +3224,6 @@
           "value": 0.9182
         },
         {
-          "date": "2026-07-22",
-          "value": 0.9124
-        },
-        {
           "date": "2026-07-23",
           "value": 0.8812
         },
@@ -3250,10 +3246,6 @@
         {
           "date": "2026-07-30",
           "value": 0.9063
-        },
-        {
-          "date": "2026-07-31",
-          "value": 0.9295
         },
         {
           "date": "2026-08-03",
@@ -3309,7 +3301,7 @@
         },
         {
           "ticker": "HD",
-          "rs_roc": -0.0917,
+          "rs_roc": -0.0734,
           "price": 338.86
         },
         {
@@ -4153,7 +4145,7 @@
         },
         {
           "ticker": "KEYS",
-          "rs_roc": 0.0937,
+          "rs_roc": 0.0092,
           "price": 357.82
         }
       ],
@@ -4582,14 +4574,11 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1412.18,
+      "value": 1412.17,
       "change_30d_pct": -7.76
-    },
-    "us10y": {
-      "ticker": "^TNX",
-      "value": 4.7,
-      "change_30d_pp": 0.21
     }
   },
-  "errors": []
+  "errors": [
+    "^TNX: no data"
+  ]
 }
