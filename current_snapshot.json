@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-08-17T21:59:35.452139+09:00",
+  "timestamp": "2026-08-17T22:46:49.555039+09:00",
   "sentiment": {
-    "cnn_fng": 64.9714285714286,
+    "cnn_fng": 63.7142857142857,
     "cnn_components": {
-      "momentum": 74.6,
+      "momentum": 69.0,
       "strength": 28.6,
       "breadth": 57.8,
       "put_call": 66.4,
       "junk_bond": 98.6,
       "volatility": 50.0,
-      "safe_haven": 78.8
+      "safe_haven": 71.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "\"빚내서 집 사더니 이젠 예금\"…증시 급락에 은행 찾는 ‘대기자금’ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40dlZmaXF5R0pmaFhRTjFGcjJRLTJubllJcW1nYUd0OElIWmc1SW9ubTdaaDEzRERQUndTYlkwUXJZVTd3MzRSMGV1dWFtOFk?oc=5",
-          "pub_date": "Mon, 17 Aug 2026 06:11:27 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfNFE0SjRSSmlmeElHRWlESWZPUi1jdG5Fb1BNeF9nVTZGeG9MZXRrT1BCaDV6UDNfYk1GbWpJUHFBcloxS1E?oc=5",
+          "pub_date": "Mon, 17 Aug 2026 06:11:00 GMT",
           "source": "v.daum.net"
         },
         {
@@ -32,6 +32,12 @@
       ],
       "fear_articles": [
         {
+          "title": "[베트남 증시] 한달래 최저 유동성, 하락...빈그룹株에 外人 매도세 지속 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1aTlJNFN1N0VyMlRGNXVXTG92aGdyZFpzWTBHeXQ1QldmVWc4Sldib2pqeVItUFJhN3hlcl8zR1J5cHBham9pd0JJbnAxcjF6TjhwVW9RU2JfMDdx?oc=5",
+          "pub_date": "Mon, 17 Aug 2026 10:05:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
           "title": "코스피 7000선 눈앞…반도체 앞세워 ‘급락 후 정상화’ - 시사1",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wU2xMRmRjcW9UNGFxTi1tNTRPdjhBN0pWemRCak9HLTZ6aHBVTHY1OTZaSy1SZm1BVjN3amtMcTVEd2xkZi03RnA5VWlTOGpoMGN0anhqSUg5YThzWDMxYQ?oc=5",
           "pub_date": "Mon, 17 Aug 2026 05:08:47 GMT",
@@ -41,8 +47,8 @@
     }
   },
   "volatility": {
-    "vix": 15.07,
-    "vvix": 87.48,
+    "vix": 15.01,
+    "vvix": 90.74,
     "skew": 138.36,
     "move": 69.58
   },
@@ -56,55 +62,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26729.16,
+      "current": 26719.26,
       "high_52w": 27190.21,
-      "drop_pct": -1.7,
-      "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "drop_pct": -1.73,
+      "intraday_low_drop_pct": -1.74,
+      "sma_200": 24193.37
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5830.14
+      "sma_200": 5873.23
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
-      "current": 7785.76,
+      "current": 7773.47,
       "high_52w": 7816.7,
-      "drop_pct": -0.4,
-      "intraday_low_drop_pct": -0.52,
-      "sma_200": 7074.9
+      "drop_pct": -0.55,
+      "intraday_low_drop_pct": -0.55,
+      "sma_200": 7079.32
     },
     "russell2k": {
-      "current": 3068.42,
+      "current": 3053.35,
       "high_52w": 3069.71,
-      "drop_pct": -0.04,
-      "intraday_low_drop_pct": -0.63,
-      "sma_200": 2703.47
+      "drop_pct": -0.53,
+      "intraday_low_drop_pct": -0.53,
+      "sma_200": 2706.21
     },
     "soxx": {
-      "current": 550.42,
+      "current": 559.49,
       "high_52w": 655.95,
-      "drop_pct": -16.09,
-      "intraday_low_drop_pct": -17.23,
-      "sma_200": 414.87
+      "drop_pct": -14.71,
+      "intraday_low_drop_pct": -15.26,
+      "sma_200": 416.15
     }
   },
   "sector_rs": {
-    "XLK": 1.025,
-    "SMH": 1.003,
-    "BOTZ": 0.891,
-    "IGV": 1.077,
-    "XLF": 1.085,
-    "XLE": 0.996
+    "XLK": 1.039,
+    "SMH": 1.034,
+    "BOTZ": 0.903,
+    "IGV": 1.047,
+    "XLF": 1.073,
+    "XLE": 0.983
   },
   "signals": {
     "cnn_under_10": false,
@@ -140,19 +146,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 74.64,
+    "tqqq_profit_pct": 75.34,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 170.93,
+    "soxl_profit_pct": 183.53,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.13,
+    "koru_profit_pct": -93.59,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
