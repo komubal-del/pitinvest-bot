@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T10:49:23.387112+09:00",
+  "timestamp": "2026-08-17T12:08:02.692539+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
+      "greed_count": 6,
       "fear_count": 1,
       "greed_articles": [
         {
@@ -42,10 +42,10 @@
           "source": "글로벌이코노믹"
         },
         {
-          "title": "상반기 ‘연봉킹’ 카뱅 윤호영 82억… 증시 활황에 한투 오너·사장 2·3위 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fYXpTbG5aYzBQRTVMQ2c1RG00VU1iRFRtTkhXakVNenY4bmNwTjlOaXZLUU84WHRUelVmY1I2ektPMTVHWlpUUDJiZTJCcU1jU3B4OElEOEpLT2ZIdWx5WVhWRmZGZEdKelFieHp6RmYyU3BmMU9YYUdB?oc=5",
-          "pub_date": "Sun, 16 Aug 2026 15:48:02 GMT",
-          "source": "서울신문"
+          "title": "버핏·버리 경고 이어졌다…김영익 \"美 증시 과열, 연준 10월 금리 내릴 수도\" - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKVlQxZzBqYlRwa3MyaDdmcTZyTkpSVk1JMjhtWktEdmlKcXM4dWxLSUxWbnVqb244ZkNDckp5LWQ4aUppbGN4R3haMWRQZnJ6MFRwWlJzcXZVMHFSUTI0VNIBeEFVX3lxTE9nWnRqSGdqMlZaWTRXUGFIZXdiWVMxYXZMTElmcEUtRk5VdW13Y2FGUXFnMmh3eTdiZlFObks3VDhJWFFZd1BYcVA2emZDNkVOYThjVXpwTjJIS3l1cDBYRi0wZ1E1V2JYQ09LNnVmZ1I5TWVMY0l3YQ?oc=5",
+          "pub_date": "Mon, 17 Aug 2026 02:43:00 GMT",
+          "source": "뉴시스"
         }
       ],
       "fear_articles": [
@@ -85,7 +85,7 @@
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5830.14
+      "sma_200": 5873.23
     },
     "kosdaq": {
       "current": 864.65,
@@ -106,7 +106,7 @@
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
