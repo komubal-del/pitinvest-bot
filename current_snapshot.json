@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T05:35:56.662164+09:00",
+  "timestamp": "2026-08-18T06:02:36.757694+09:00",
   "sentiment": {
     "cnn_fng": 59.9714285714286,
     "cnn_components": {
@@ -31,7 +31,7 @@
     "vix": 15.19,
     "vvix": 93.92,
     "skew": 138.36,
-    "move": 69.58
+    "move": 75.63
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 2008900000000,
@@ -294,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 200.156,
+    "strategy_pct": 200.072,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -938,7 +938,7 @@
       },
       {
         "date": "2026-08-18",
-        "ret_pct": 200.156
+        "ret_pct": 200.072
       }
     ],
     "monthly_breakdown": [
@@ -986,8 +986,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 30.72,
-        "end_ret_pct": 200.16,
+        "return_pct": 30.63,
+        "end_ret_pct": 200.07,
         "max_dd_pct": 4.69
       }
     ],
