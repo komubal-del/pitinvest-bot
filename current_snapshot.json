@@ -1,48 +1,28 @@
 {
-  "timestamp": "2026-08-17T23:49:42.801025+09:00",
+  "timestamp": "2026-08-18T00:33:15.020963+09:00",
   "sentiment": {
-    "cnn_fng": 62.4285714285714,
+    "cnn_fng": 62.7714285714286,
     "cnn_components": {
-      "momentum": 67.8,
-      "strength": 28.8,
-      "breadth": 59.4,
-      "put_call": 61.6,
+      "momentum": 69.0,
+      "strength": 28.6,
+      "breadth": 58.4,
+      "put_call": 63.6,
       "junk_bond": 98.6,
       "volatility": 50.0,
-      "safe_haven": 70.8
+      "safe_haven": 71.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "\"빚내서 집 사더니 이젠 예금\"…증시 급락에 은행 찾는 ‘대기자금’ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfNFE0SjRSSmlmeElHRWlESWZPUi1jdG5Fb1BNeF9nVTZGeG9MZXRrT1BCaDV6UDNfYk1GbWpJUHFBcloxS1E?oc=5",
-          "pub_date": "Mon, 17 Aug 2026 06:11:00 GMT",
-          "source": "v.daum.net"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[베트남 증시] 한달래 최저 유동성, 하락...빈그룹株에 外人 매도세 지속 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1aTlJNFN1N0VyMlRGNXVXTG92aGdyZFpzWTBHeXQ1QldmVWc4Sldib2pqeVItUFJhN3hlcl8zR1J5cHBham9pd0JJbnAxcjF6TjhwVW9RU2JfMDdx?oc=5",
-          "pub_date": "Mon, 17 Aug 2026 10:05:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "코스피 7000선 눈앞…반도체 앞세워 ‘급락 후 정상화’ - 시사1",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wU2xMRmRjcW9UNGFxTi1tNTRPdjhBN0pWemRCak9HLTZ6aHBVTHY1OTZaSy1SZm1BVjN3amtMcTVEd2xkZi03RnA5VWlTOGpoMGN0anhqSUg5YThzWDMxYQ?oc=5",
-          "pub_date": "Mon, 17 Aug 2026 05:08:47 GMT",
-          "source": "시사1"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.0,
-    "vvix": 92.6,
+    "vix": 14.95,
+    "vvix": 93.78,
     "skew": 138.36,
     "move": 69.58
   },
@@ -56,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26735.28,
+      "current": 26760.37,
       "high_52w": 27190.21,
-      "drop_pct": -1.67,
+      "drop_pct": -1.58,
       "intraday_low_drop_pct": -1.78,
-      "sma_200": 24193.45
+      "sma_200": 24193.57
     },
     "kospi": {
       "current": 6977.94,
@@ -77,34 +57,34 @@
       "sma_200": 995.03
     },
     "sp500": {
-      "current": 7773.49,
+      "current": 7774.91,
       "high_52w": 7816.7,
-      "drop_pct": -0.55,
-      "intraday_low_drop_pct": -0.59,
+      "drop_pct": -0.53,
+      "intraday_low_drop_pct": -0.6,
       "sma_200": 7079.32
     },
     "russell2k": {
-      "current": 3059.33,
+      "current": 3056.05,
       "high_52w": 3069.71,
-      "drop_pct": -0.34,
+      "drop_pct": -0.45,
       "intraday_low_drop_pct": -0.57,
-      "sma_200": 2706.24
+      "sma_200": 2706.22
     },
     "soxx": {
-      "current": 562.78,
+      "current": 564.72,
       "high_52w": 655.95,
-      "drop_pct": -14.2,
+      "drop_pct": -13.91,
       "intraday_low_drop_pct": -15.26,
-      "sma_200": 416.17
+      "sma_200": 416.18
     }
   },
   "sector_rs": {
-    "XLK": 1.043,
-    "SMH": 1.04,
+    "XLK": 1.045,
+    "SMH": 1.043,
     "BOTZ": 0.907,
-    "IGV": 1.049,
-    "XLF": 1.068,
-    "XLE": 0.983
+    "IGV": 1.05,
+    "XLF": 1.067,
+    "XLE": 0.982
   },
   "signals": {
     "cnn_under_10": false,
@@ -140,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 75.96,
+    "tqqq_profit_pct": 76.53,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 188.54,
+    "soxl_profit_pct": 191.5,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -93.25,
+    "koru_profit_pct": -93.23,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -307,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 201.768,
+    "strategy_pct": 203.158,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -947,7 +927,7 @@
       },
       {
         "date": "2026-08-17",
-        "ret_pct": 201.768
+        "ret_pct": 203.158
       }
     ],
     "monthly_breakdown": [
@@ -995,8 +975,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 32.33,
-        "end_ret_pct": 201.77,
+        "return_pct": 33.72,
+        "end_ret_pct": 203.16,
         "max_dd_pct": 4.69
       }
     ],
