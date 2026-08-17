@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T06:59:33.985936+09:00",
+  "timestamp": "2026-08-18T07:33:30.929211+09:00",
   "sentiment": {
     "cnn_fng": 59.9714285714286,
     "cnn_components": {
@@ -15,16 +15,9 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "[美증시 특지주] 세레브라스 폭락서 폭등으로 극적 반전…내년 매출 폭발 기대감 - 미디어펜",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBweXJqUWlzVG53RXZocWZvYXRUdkVsenFwU0cyemQyUXVYeVR6TE15LVBreVlPVm5FcUxRaFBhYjVnRzE2ODlwNllqS01UNWhBRFlBc9IBWEFVX3lxTE1PVTFGR21EMTR4YlJCbGJ2NWh0V3JhbGt3eHc0OVFZT2g3MTNNc0RBTVVSM0lHLVJNdXZXZjlUNVZBOWtINk9ERHQtbk9xUHlfeE5JajdndkI?oc=5",
-          "pub_date": "Mon, 17 Aug 2026 20:28:50 GMT",
-          "source": "미디어펜"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -61,7 +54,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7745.06,
