@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T15:05:02.469016+09:00",
+  "timestamp": "2026-08-17T16:12:00.893965+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -17,6 +17,12 @@
       "greed_count": 7,
       "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "코스피 ‘불장’에 증권사는 수수료 파티…조정장 접어들자 “2분기 실적이 고점” - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QaEktNVoxYVJDZlpfblg1dlBON3JsNUVPWmlvS0lQZmdQcVpLSHZlaEFibm9QUWdGYmZ0bjJVVm1WNDhIUEFUU1VsZU9UWkpGdGtRZGxYblpBWGh4VC1tOWV5eWd5aWM?oc=5",
+          "pub_date": "Mon, 17 Aug 2026 06:39:00 GMT",
+          "source": "한겨레"
+        },
         {
           "title": "8월 '삼전닉스' 쏠림 완화…2차전지·코스닥 ETF 40%대 '질주' - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQW1lUFZENFA5SHA1WllocDQ5S0E2QXZSTWJBbWx4ZVc1T2tnRnFvN04wQlFZS3gtOVdFLWJvV2UyUDhGWmpydjFoQ0t3bTQ?oc=5",
@@ -40,12 +46,6 @@
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM1dvTURaT2RWbTNpczlnQ215Tjk4QXpLV2pSVWNycVBac25wbHdaLWVqa0V3X3otd2Q3aWNCS2gxOXZ6Tm54R2JxMll3Y2N4eVFOaE1SUzI2X21aV1ZvNldzdFIwaFgwRm5JWVB4MldjT0NzZk9iTE5mOF9wV0dreQ?oc=5",
           "pub_date": "Mon, 17 Aug 2026 04:00:03 GMT",
           "source": "edaily.co.kr"
-        },
-        {
-          "title": "8월 '삼전닉스' 쏠림 완화…2차전지·코스닥 ETF 40%대 '질주' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FTFpYX29yUXhqMWItemgwVzlSWG5aVzZHSTlqQWNTVWJmU0lJMmVCdHdoWWNsUG14azhsZExEcGlfREFjb1lmZnNkSDhvVEFZNjRnaFk3S3EtNG03UTJTOWhDd0TSAWRBVV95cUxORUxaWF9vclF4ajFiLXpoMFc5UlhuWlc2R0k5akFjU1ViZlNJSTJlQnR3aFljbFBteGs4bGRMRHBpX0RBY29ZZmZzZEg4b1RBWTY0Z2hZN0txLTRtN1EyUzloQ3dE?oc=5",
-          "pub_date": "Sun, 16 Aug 2026 21:00:00 GMT",
-          "source": "뉴스1"
         }
       ],
       "fear_articles": [
@@ -84,35 +84,35 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5830.14
+      "sma_200": 5873.23
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.73
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7785.76,
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7064.44
+      "sma_200": 7074.9
     },
     "russell2k": {
       "current": 3068.42,
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
