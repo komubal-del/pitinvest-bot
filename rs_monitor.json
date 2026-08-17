@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T06:33:59.618396+09:00",
+  "timestamp": "2026-08-18T06:59:40.651969+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -3775,7 +3775,7 @@
         },
         {
           "ticker": "ABBV",
-          "rs_roc": -0.0677,
+          "rs_roc": -0.0446,
           "price": 250.33
         },
         {
@@ -3785,7 +3785,7 @@
         },
         {
           "ticker": "KEYS",
-          "rs_roc": 0.1188,
+          "rs_roc": 0.0983,
           "price": 361.15
         }
       ],
@@ -4646,7 +4646,7 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1414.99,
+      "value": 1414.93,
       "change_30d_pct": -7.58
     },
     "us10y": {
