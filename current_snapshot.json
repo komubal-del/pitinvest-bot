@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T08:56:12.161236+09:00",
+  "timestamp": "2026-08-17T10:49:23.387112+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 5,
       "fear_count": 1,
       "greed_articles": [
+        {
+          "title": "8월 '삼전닉스' 쏠림 완화…2차전지·코스닥 ETF 40%대 '질주' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQW1lUFZENFA5SHA1WllocDQ5S0E2QXZSTWJBbWx4ZVc1T2tnRnFvN04wQlFZS3gtOVdFLWJvV2UyUDhGWmpydjFoQ0t3bTQ?oc=5",
+          "pub_date": "Sun, 16 Aug 2026 21:01:51 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "집값 뛰자 ‘영끌’, 증시 뛰자 ‘빚투’… 가계빚 2000조 눈앞 - 국민일보",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42U1kyMV84ZnhnMEZmdHAwajhoTV92RG52X1cxU0xOcVloRXBBTGJfa0tXVjk5TmxyeFdtdXlzaElFSklYUlRZQUl6czlFWmtRbVhvOHlmX3VQZjB4cGRHbmpPWXM5YVpfZ3JpWNIBbEFVX3lxTE42U1kyMV84ZnhnMEZmdHAwajhoTV92RG52X1cxU0xOcVloRXBBTGJfa0tXVjk5TmxyeFdtdXlzaElFSklYUlRZQUl6czlFWmtRbVhvOHlmX3VQZjB4cGRHbmpPWXM5YVpfZ3JpWA?oc=5",
@@ -25,7 +31,7 @@
         },
         {
           "title": "8월 '삼전닉스' 쏠림 완화…2차전지·코스닥 ETF 40%대 '질주' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nZFB1dTl5UHhoWHd4S2JZR0dYMnMxeU9iS1FFWmxKVUJMb29HbEhENXhMWDc4bTFNTTRBb3lYclZOSzV3TW1ZZTAwWFlfX2d0ODc2LWVreFhEaFRYcXBr0gFkQVVfeXFMTkVMWlhfb3JReGoxYi16aDBXOVJYblpXNkdJOWpBY1NVYmZTSUkyZUJ0d2hZY2xQbXhrOGxkTERwaV9EQWNvWWZmc2RIOG9UQVk2NGdoWTdLcS00bTdRMlM5aEN3RA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FTFpYX29yUXhqMWItemgwVzlSWG5aVzZHSTlqQWNTVWJmU0lJMmVCdHdoWWNsUG14azhsZExEcGlfREFjb1lmZnNkSDhvVEFZNjRnaFk3S3EtNG03UTJTOWhDd0TSAWRBVV95cUxORUxaWF9vclF4ajFiLXpoMFc5UlhuWlc2R0k5akFjU1ViZlNJSTJlQnR3aFljbFBteGs4bGRMRHBpX0RBY29ZZmZzZEg4b1RBWTY0Z2hZN0txLTRtN1EyUzloQ3dE?oc=5",
           "pub_date": "Sun, 16 Aug 2026 21:00:00 GMT",
           "source": "뉴스1"
         },
@@ -72,14 +78,14 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24178.91
+      "sma_200": 24143.32
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5873.23
+      "sma_200": 5830.14
     },
     "kosdaq": {
       "current": 864.65,
@@ -100,7 +106,7 @@
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2703.47
+      "sma_200": 2696.66
     },
     "soxx": {
       "current": 550.42,
