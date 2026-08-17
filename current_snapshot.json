@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T13:08:03.159993+09:00",
+  "timestamp": "2026-08-17T14:03:08.538220+09:00",
   "sentiment": {
     "cnn_fng": 64.9714285714286,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
+      "greed_count": 7,
       "fear_count": 1,
       "greed_articles": [
         {
@@ -36,16 +36,16 @@
           "source": "뉴스1"
         },
         {
+          "title": "금리 인상·AI 거품 우려 모두 완화…코스피 반등할까[주간증시전망] - edaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM1dvTURaT2RWbTNpczlnQ215Tjk4QXpLV2pSVWNycVBac25wbHdaLWVqa0V3X3otd2Q3aWNCS2gxOXZ6Tm54R2JxMll3Y2N4eVFOaE1SUzI2X21aV1ZvNldzdFIwaFgwRm5JWVB4MldjT0NzZk9iTE5mOF9wV0dreQ?oc=5",
+          "pub_date": "Mon, 17 Aug 2026 04:00:03 GMT",
+          "source": "edaily.co.kr"
+        },
+        {
           "title": "중국 정부·자본 업은 유니트리, 상하이증시서 '청약 광풍' - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQWsyeHpVdUUyb2ZxdFdtWnV0Nko5M2syR1dvOHhUdm9tN21FYTZqNnYxak44UnNBRUhnemZ4cTBuM1oxbHUtNV9mWFpuQzc5NWFVQW51dUNNUUJnUHhMX0lpLW82REZvQTBXSDBiZEppMGhkcE1Vb25jMXZCY0IzZWlJYVZhaEJO?oc=5",
           "pub_date": "Sun, 16 Aug 2026 20:00:00 GMT",
           "source": "글로벌이코노믹"
-        },
-        {
-          "title": "버핏·버리 경고 이어졌다…김영익 \"美 증시 과열, 연준 10월 금리 내릴 수도\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKVlQxZzBqYlRwa3MyaDdmcTZyTkpSVk1JMjhtWktEdmlKcXM4dWxLSUxWbnVqb244ZkNDckp5LWQ4aUppbGN4R3haMWRQZnJ6MFRwWlJzcXZVMHFSUTI0VNIBeEFVX3lxTE9nWnRqSGdqMlZaWTRXUGFIZXdiWVMxYXZMTElmcEUtRk5VdW13Y2FGUXFnMmh3eTdiZlFObks3VDhJWFFZd1BYcVA2emZDNkVOYThjVXpwTjJIS3l1cDBYRi0wZ1E1V2JYQ09LNnVmZ1I5TWVMY0l3YQ?oc=5",
-          "pub_date": "Mon, 17 Aug 2026 02:43:00 GMT",
-          "source": "뉴시스"
         }
       ],
       "fear_articles": [
@@ -92,7 +92,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7785.76,
