@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T13:47:24.334476+09:00",
+  "timestamp": "2026-08-18T14:15:10.458288+09:00",
   "sentiment": {
     "cnn_fng": 59.9428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 9,
+      "fear_count": 8,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -43,23 +43,23 @@
           "source": "v.daum.net"
         },
         {
-          "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yTmZxRmljZ1VqV3NwU1prNnRYblU4TTJsazVybFgwSXJmYkl3WmlIMzJvbFREU0RvTm1fR2wzdk42dzJobFY4a3FfQncwYmEtcVlzLQ?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 00:33:54 GMT",
-          "source": "v.daum.net"
+          "title": "코스피 하락 전환…다시 7000 밑으로 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ibk54M0sxMUc0NXc2SnZwV3V6UW91c3VNUnRXeWJlOFJYY3RKWU16V19IWHpudGNPN1JZaEEtN250OXVwUWNNQnZON2txSVJZYzNYTHJpaHVlYkt6TmRXY1R3?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 05:02:00 GMT",
+          "source": "아시아경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.19,
+    "vix": 14.25,
     "vvix": 87.48,
     "skew": 138.36,
     "move": 75.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -297700000000,
-    "retail_net_buy_krw": 356800000000,
+    "foreign_inst_buy_krw": -379700000000,
+    "retail_net_buy_krw": 446400000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,32 +74,32 @@
       "sma_200": 24178.91
     },
     "kospi": {
-      "current": 6924.96,
+      "current": 6951.71,
       "high_52w": 9385.59,
-      "drop_pct": -26.22,
+      "drop_pct": -25.93,
       "intraday_low_drop_pct": -26.84,
-      "sma_200": 5888.63
+      "sma_200": 5888.76
     },
     "kosdaq": {
-      "current": 845.71,
+      "current": 848.75,
       "high_52w": 1229.42,
-      "drop_pct": -31.21,
+      "drop_pct": -30.96,
       "intraday_low_drop_pct": -31.46,
-      "sma_200": 994.8
+      "sma_200": 994.81
     },
     "sp500": {
       "current": 7785.76,
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7064.44
+      "sma_200": 7074.9
     },
     "russell2k": {
       "current": 3068.42,
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
