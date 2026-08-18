@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-18T22:49:40.016763+09:00",
+  "timestamp": "2026-08-18T23:42:26.257839+09:00",
   "sentiment": {
-    "cnn_fng": 55.6571428571429,
+    "cnn_fng": 55.2571428571429,
     "cnn_components": {
-      "momentum": 45.6,
-      "strength": 26.6,
+      "momentum": 46.4,
+      "strength": 25.8,
       "breadth": 58.6,
-      "put_call": 44.8,
-      "junk_bond": 99.0,
+      "put_call": 47.4,
+      "junk_bond": 98.0,
       "volatility": 50.0,
-      "safe_haven": 62.6
+      "safe_haven": 60.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 8,
+      "fear_count": 9,
       "greed_articles": [
         {
           "title": "현대차증권 '증시 활황'에도 영업이익 후퇴, 배형근 퇴직연금 뒷걸음도 부담 - 비즈니스포스트",
@@ -27,8 +27,8 @@
       "fear_articles": [
         {
           "title": "코스피·코스닥, 엿새 만에 하락 전환...\"미 국채금리 영향\" - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UODc4NDhOWDlQbEFDLUNLOVVvQWlNSzlZVzBsLURKNzJoT0FOX3l3WkNTRTRfNTZyMVZjUmc3Q3c4N01HUU1sS3o2NExndmdkSnRuMXh0NE5jX2JHTFE?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 09:33:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVcEJQZ2xvSEpxaE9LMHN0NzUxV2dCVGU4SURZSTlDN1hnZTg3SzJoNE9SeS1JTmxCeUctMGNNazNfMzRqYmdZMUZ6QTl6V3FjcU56Umh3VlM5VkRsb0E?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 13:55:00 GMT",
           "source": "YTN"
         },
         {
@@ -50,17 +50,17 @@
           "source": "인더스트리뉴스"
         },
         {
-          "title": "코스피 6800선 하락 마감… 코스닥도 3%대 급락 - MTN 머니투데이방송",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XRUt4ZUpjdHR0V2szY0dSQnZBNHhPUnFkbURlU1RSUWx5VHYxbGx2Um14b2V4REFVYVVTTXZjNmN6OC16aFFLY253RVVpMG5xamU4X3BfeHNJLVBHV1NSRzZNQ1k?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 08:34:17 GMT",
-          "source": "MTN 머니투데이방송"
+          "title": "코스피, 장중 하락 전환...코스닥, 낙폭 확대 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LTEdFd3lxOTJ1NllwUFlLOUdfdnBmcGdXclplaDk4Wlo0Qjk2MlBTdG5IdnZSSm82NXFNOUhoZ1V3aDF2TnlMS2FaNnpDenBvMFFjdmNMckhsb18yRFE?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 02:38:00 GMT",
+          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.82,
-    "vvix": 96.73,
+    "vix": 15.73,
+    "vvix": 94.73,
     "skew": 138.36,
     "move": 75.63
   },
@@ -74,55 +74,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26326.43,
+      "current": 26344.96,
       "high_52w": 27190.21,
-      "drop_pct": -3.18,
-      "intraday_low_drop_pct": -3.28,
-      "sma_200": 24191.4
+      "drop_pct": -3.11,
+      "intraday_low_drop_pct": -3.37,
+      "sma_200": 24160.34
     },
     "kospi": {
       "current": 6869.83,
       "high_52w": 9385.59,
       "drop_pct": -26.8,
       "intraday_low_drop_pct": -27.67,
-      "sma_200": 5888.35
+      "sma_200": 5845.41
     },
     "kosdaq": {
       "current": 834.2,
       "high_52w": 1229.42,
       "drop_pct": -32.15,
       "intraday_low_drop_pct": -32.65,
-      "sma_200": 994.81
+      "sma_200": 994.74
     },
     "sp500": {
-      "current": 7705.33,
+      "current": 7707.12,
       "high_52w": 7816.7,
-      "drop_pct": -1.42,
-      "intraday_low_drop_pct": -1.51,
-      "sma_200": 7078.97
+      "drop_pct": -1.4,
+      "intraday_low_drop_pct": -1.54,
+      "sma_200": 7078.98
     },
     "russell2k": {
-      "current": 3044.82,
+      "current": 3039.95,
       "high_52w": 3069.71,
-      "drop_pct": -0.81,
-      "intraday_low_drop_pct": -0.85,
-      "sma_200": 2706.16
+      "drop_pct": -0.97,
+      "intraday_low_drop_pct": -1.1,
+      "sma_200": 2706.14
     },
     "soxx": {
-      "current": 533.69,
+      "current": 529.88,
       "high_52w": 655.95,
-      "drop_pct": -18.64,
-      "intraday_low_drop_pct": -18.68,
-      "sma_200": 416.02
+      "drop_pct": -19.22,
+      "intraday_low_drop_pct": -19.48,
+      "sma_200": 416.0
     }
   },
   "sector_rs": {
-    "XLK": 1.025,
-    "SMH": 1.003,
-    "BOTZ": 0.888,
-    "IGV": 1.059,
+    "XLK": 1.021,
+    "SMH": 0.998,
+    "BOTZ": 0.884,
+    "IGV": 1.053,
     "XLF": 1.075,
-    "XLE": 1.007
+    "XLE": 1.009
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,19 +158,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 66.25,
+    "tqqq_profit_pct": 65.93,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 144.97,
+    "soxl_profit_pct": 139.27,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.61,
+    "koru_profit_pct": -94.82,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -325,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 135.391,
+    "strategy_pct": 187.88,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -969,7 +969,7 @@
       },
       {
         "date": "2026-08-18",
-        "ret_pct": 135.391
+        "ret_pct": 187.88
       }
     ],
     "monthly_breakdown": [
@@ -1017,9 +1017,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -34.05,
-        "end_ret_pct": 135.39,
-        "max_dd_pct": 67.77
+        "return_pct": 18.44,
+        "end_ret_pct": 187.88,
+        "max_dd_pct": 15.28
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
