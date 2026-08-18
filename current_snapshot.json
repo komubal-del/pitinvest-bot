@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T18:42:18.938063+09:00",
+  "timestamp": "2026-08-18T19:02:56.911096+09:00",
   "sentiment": {
     "cnn_fng": 59.4857142857143,
     "cnn_components": {
@@ -15,27 +15,27 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 12,
+      "fear_count": 11,
       "greed_articles": [
         {
-          "title": "현대차증권 '증시 활황'에도 영업이익 후퇴, 배형근 퇴직연금 뒷걸음도 부담 - businesspost.co.kr",
+          "title": "현대차증권 '증시 활황'에도 영업이익 후퇴, 배형근 퇴직연금 뒷걸음도 부담 - 비즈니스포스트",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XczRrWGtCallXb09xdjU0U1ZLdm9wYm5acE9IU0VnVkxucnZZSGZCdHNpRTZBcFVLWFRZQWZ5b2E3TzlRTUFKcVJfeHhySEU0ak9JNGE5RkE5dVFRSHktb3NtRS00RXZGc0FwdWZ4Z3VpdWM?oc=5",
           "pub_date": "Tue, 18 Aug 2026 08:02:12 GMT",
-          "source": "businesspost.co.kr"
+          "source": "비즈니스포스트"
         }
       ],
       "fear_articles": [
-        {
-          "title": "코스피·코스닥, 엿새 만에 하락 전환...\"미 국채금리 영향\" - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qQ1lrXzBGendYdTItOWhHRHM1NTNRdmZHSWtPOXUzRW4yQUlsWUI5VEhLQWFXOFdqald0TzBvSEszNlVtYTNkVHUtY21fQ3o3a3BpekhmUzVrZTRGbnpWc2hKTUs1SEVOUm1pYWxGdnBnTVQ5SEE?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 09:33:00 GMT",
-          "source": "YTN"
-        },
         {
           "title": "장 중 7,200 회복했던 코스피 하락 전환 6,800선에서 마감 - MBC 뉴스",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kdmI0U1FLQnI3VWd3NEhMcVQwakVLWnh0ZUVCc0xYUDdBZU9RZnJsQjNPX3F0YjBaeDBIQXdJQ1E4Q0NhY1VwYzNpcXZZeUgxUWFLNl9VSHd6MzFTQkxlYnpKVDlpQVhlRmY2VVU0UW1jcnl10gF0QVVfeXFMUC16aEVCa1hJTFQxRzdXMmlaaGJaMWJKSzBmQlU1eWY0OVl3MTluNWo2ZHlpWTFWQlpJeGR6d1RYYmpCZk5Pc0Y4RGdGWGtqbDRqc2tIa3Z0T2ZtelRnMjZrb2VPeTVlY3B2Nmk0Y1JBMk9Eb1o?oc=5",
           "pub_date": "Tue, 18 Aug 2026 07:08:58 GMT",
           "source": "MBC 뉴스"
+        },
+        {
+          "title": "코스피·코스닥, 엿새 만에 하락 전환...\"미 국채금리 영향\" - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UODc4NDhOWDlQbEFDLUNLOVVvQWlNSzlZVzBsLURKNzJoT0FOX3l3WkNTRTRfNTZyMVZjUmc3Q3c4N01HUU1sS3o2NExndmdkSnRuMXh0NE5jX2JHTFE?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 09:33:00 GMT",
+          "source": "YTN"
         },
         {
           "title": "[속보]'뒷심 부족' 코스피, 7,200피 찍고 6,800선 후퇴…6거래일만 하락 전환 - KBC광주방송",
@@ -50,16 +50,16 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 장중 7200선 돌파 후 1.55% 급락…6800대로 후퇴 - 인더스트리뉴스",
+          "title": "코스피, 장중 7200선 돌파 후 1.55% 급락…6800대로 후퇴 - industrynews.co.kr",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RdEszVU16SjJIWll2SWRxRFI4elBRSnVDY293QXg2Q2FKVEE5RzBtcDF5aFp1bng4LUtRQ0VVMGE4cGFVTGM5V3dNYWw5NXZncFBUWWNYdHBVbmtTUzExZlRRTDBfUGRsYVFDaUpRUVRVQQ?oc=5",
           "pub_date": "Tue, 18 Aug 2026 08:30:10 GMT",
-          "source": "인더스트리뉴스"
+          "source": "industrynews.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.97,
+    "vix": 16.02,
     "vvix": 87.48,
     "skew": 138.36,
     "move": 75.63
@@ -78,35 +78,35 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6869.83,
       "high_52w": 9385.59,
       "drop_pct": -26.8,
       "intraday_low_drop_pct": -27.67,
-      "sma_200": 5845.41
+      "sma_200": 5888.35
     },
     "kosdaq": {
       "current": 834.2,
       "high_52w": 1229.42,
       "drop_pct": -32.15,
       "intraday_low_drop_pct": -32.65,
-      "sma_200": 995.5
+      "sma_200": 994.81
     },
     "sp500": {
       "current": 7785.76,
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7064.44
+      "sma_200": 7074.9
     },
     "russell2k": {
       "current": 3068.42,
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
