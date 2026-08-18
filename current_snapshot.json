@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T10:44:36.424693+09:00",
+  "timestamp": "2026-08-18T11:42:09.310723+09:00",
   "sentiment": {
     "cnn_fng": 59.9714285714286,
     "cnn_components": {
@@ -20,7 +20,7 @@
       "fear_articles": [
         {
           "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MUZwNVRtUFEtUWd3ZlQwU1ZOcUxoN1JIWFFBbXl1MW1OUGFkSkxOSmE1SVY2YmM5aU5PY0pxNmo4UXNidGhJZ3lKb2ZuME1RNEpoaUdOSExINnloc0djbdIBYEFVX3lxTFB1MUZwNVRtUFEtUWd3ZlQwU1ZOcUxoN1JIWFFBbXl1MW1OUGFkSkxOSmE1SVY2YmM5aU5PY0pxNmo4UXNidGhJZ3lKb2ZuME1RNEpoaUdOSExINnloc0djbQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xRUE5TTVWUGRiR0hObUk0RUt4WkFPTHpNTHU5eGYyaEtHcVFUM1Q1VElNQlN1ZVFZT01CalpWeHZSNmE0UFlBNjBiWUZlRzloQlRicTVZWThJREhxV1JWNkV0enQzakhwYjNrUXM2UElOZDhJcG1lZTVqYw?oc=5",
           "pub_date": "Tue, 18 Aug 2026 00:31:56 GMT",
           "source": "연합뉴스"
         },
@@ -46,8 +46,8 @@
     "move": 75.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1067499999999,
-    "retail_net_buy_krw": -1034500000000,
+    "foreign_inst_buy_krw": 646500000000,
+    "retail_net_buy_krw": -583900000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -62,18 +62,18 @@
       "sma_200": 24193.0
     },
     "kospi": {
-      "current": 7174.2,
+      "current": 7021.31,
       "high_52w": 9385.59,
-      "drop_pct": -23.56,
-      "intraday_low_drop_pct": -24.32,
-      "sma_200": 5889.88
+      "drop_pct": -25.19,
+      "intraday_low_drop_pct": -25.33,
+      "sma_200": 5889.11
     },
     "kosdaq": {
-      "current": 869.74,
+      "current": 855.97,
       "high_52w": 1229.42,
-      "drop_pct": -29.26,
+      "drop_pct": -30.38,
       "intraday_low_drop_pct": -30.63,
-      "sma_200": 994.92
+      "sma_200": 994.85
     },
     "sp500": {
       "current": 7745.06,
