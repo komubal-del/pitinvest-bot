@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T06:57:31.807885+09:00",
+  "timestamp": "2026-08-19T07:33:34.208171+09:00",
   "sentiment": {
     "cnn_fng": 54.4,
     "cnn_components": {
@@ -38,16 +38,16 @@
           "source": "이투데이"
         },
         {
-          "title": "[월가 레이더] 美 뉴욕증시, 30년물 금리 최고치에 사흘째 하락…반도체주 급락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95TDVjazdxbUFXb2FhZE9EM3lEU3RfVUdZelF6RGFMRXpQdGk2anpjY2NESUNXS2s0aG1wY3BJVTZxeHJRLUxkM1Fkd1MyRW5yYU9NUE9CZ1VETnRUV1E?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 21:08:57 GMT",
-          "source": "포커스온경제"
-        },
-        {
           "title": "[속보][뉴욕증시] 국채 수익률 상승 충격에 사흘째 하락…반도체 급락 - 파이낸셜뉴스",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SZGpIRE8xd01kTExncjlfcjFGZ011VFM2RmJkSDZid3ZZYzJrM1dXdkZDaUMzUVlOZ3ZkWDdFblV6MEJBd2dsRDlfcjVoUWlfcHJkb1hBT0Q1QQ?oc=5",
           "pub_date": "Tue, 18 Aug 2026 20:01:54 GMT",
           "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "[뉴욕증시] 글로벌 고금리 충격에 '화들짝', 사흘째 하락…반도체주 급락 - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YVWl3TEt1RjJiNDZuY3dBRURYdms5NDM2eVFvcDdsNno5VEY3SlZVd0w5MS10d05uMHRnT2RMM1A5V0cxck5seFp6WmktbV85MXVZOEJsSHVXNGFYNl8wMDZQSVVjZmhibmc?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 21:59:22 GMT",
+          "source": "서울파이낸스"
         },
         {
           "title": "[뉴욕증시] 고금리 충격에 사흘째 하락…마이크론, 7% 급락 - 파이낸셜뉴스",
@@ -78,35 +78,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.31,
       "intraday_low_drop_pct": -3.4,
-      "sma_200": 24204.65
+      "sma_200": 24177.26
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5873.23
+      "sma_200": 5830.14
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.03
+      "sma_200": 995.73
     },
     "sp500": {
       "current": 7691.76,
       "high_52w": 7816.7,
       "drop_pct": -1.6,
       "intraday_low_drop_pct": -1.64,
-      "sma_200": 7083.18
+      "sma_200": 7073.97
     },
     "russell2k": {
       "current": 3017.89,
       "high_52w": 3069.71,
       "drop_pct": -1.69,
       "intraday_low_drop_pct": -1.7,
-      "sma_200": 2708.89
+      "sma_200": 2702.06
     },
     "soxx": {
       "current": 531.39,
