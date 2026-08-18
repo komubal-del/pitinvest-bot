@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-18T14:50:26.735057+09:00",
+  "timestamp": "2026-08-18T15:57:49.814069+09:00",
   "sentiment": {
-    "cnn_fng": 59.9428571428571,
+    "cnn_fng": 59.8,
     "cnn_components": {
       "momentum": 56.4,
-      "strength": 27.4,
-      "breadth": 58.2,
+      "strength": 26.4,
+      "breadth": 56.0,
       "put_call": 59.6,
       "junk_bond": 98.8,
       "volatility": 50.0,
@@ -14,16 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 10,
-      "greed_articles": [
-        {
-          "title": "130년 증시역사 중 ‘버블 붕괴’ 단 3번…터지기 전 이 ‘신호’ 주목해야 [투자360] - 헤럴드경제",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91NER4blNjaGNTWV9PTDBXc3poclBaWDBIS1dJYVJieEJvUUwxbldLcF9qaVZCQTRybXdQYkR3X3NsejQ3bWJ6SmVEN3BUZUtqV1czYlNn?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 04:47:06 GMT",
-          "source": "헤럴드경제"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 7,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "코스피, 장중 하락 전환...코스닥, 낙폭 확대 - YTN",
@@ -44,15 +37,15 @@
           "source": "연합뉴스"
         },
         {
-          "title": "[경제읽기] 코스피, 하락 전환…'전세의 월세화' 가속화 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yUWFlSDBRQW5KcWNRV0ZmYzE2NVpkeVVsTHlOTXdpT3hQRXpiWnY5MEN6WHNvcTBPQ0RzaUMzOWgyTW5WQWFxYXh6VFc3Nmc?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 04:12:53 GMT",
-          "source": "v.daum.net"
-        },
-        {
           "title": "코스피 하락 전환…다시 7000 밑으로 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIMGJnQk50VkNZQXRGV3BPS0Y4U0JFZFI3QlNiUXNGSzA1WmNKbmcxalNPelVSS243UVBMbWp1UkdzVllYeWNYbWNFbGg5cXc?oc=5",
           "pub_date": "Tue, 18 Aug 2026 05:03:29 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[경제읽기] 코스피, 하락 전환…'전세의 월세화' 가속화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yUWFlSDBRQW5KcWNRV0ZmYzE2NVpkeVVsTHlOTXdpT3hQRXpiWnY5MEN6WHNvcTBPQ0RzaUMzOWgyTW5WQWFxYXh6VFc3Nmc?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 04:12:53 GMT",
           "source": "v.daum.net"
         }
       ]
@@ -65,8 +58,8 @@
     "move": 75.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -571500000000,
-    "retail_net_buy_krw": 609800000000,
+    "foreign_inst_buy_krw": -694000000000,
+    "retail_net_buy_krw": 731700000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +74,18 @@
       "sma_200": 24178.91
     },
     "kospi": {
-      "current": 6874.47,
+      "current": 6869.83,
       "high_52w": 9385.59,
-      "drop_pct": -26.76,
-      "intraday_low_drop_pct": -26.84,
-      "sma_200": 5888.38
+      "drop_pct": -26.8,
+      "intraday_low_drop_pct": -27.67,
+      "sma_200": 5888.35
     },
     "kosdaq": {
-      "current": 841.14,
+      "current": 834.2,
       "high_52w": 1229.42,
-      "drop_pct": -31.58,
-      "intraday_low_drop_pct": -31.58,
-      "sma_200": 995.54
+      "drop_pct": -32.15,
+      "intraday_low_drop_pct": -32.65,
+      "sma_200": 994.74
     },
     "sp500": {
       "current": 7785.76,
@@ -106,7 +99,7 @@
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
