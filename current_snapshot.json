@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-19T02:36:13.434829+09:00",
+  "timestamp": "2026-08-19T03:02:13.567889+09:00",
   "sentiment": {
-    "cnn_fng": 54.8,
+    "cnn_fng": 54.3714285714286,
     "cnn_components": {
-      "momentum": 45.2,
+      "momentum": 44.8,
       "strength": 25.8,
-      "breadth": 57.6,
-      "put_call": 47.2,
+      "breadth": 57.4,
+      "put_call": 46.6,
       "junk_bond": 97.6,
       "volatility": 50.0,
-      "safe_haven": 60.2
+      "safe_haven": 58.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -19,7 +19,7 @@
       "greed_articles": [
         {
           "title": "\"SK하이닉스 시총 역전이 과열 신호…코스피 회복엔 시간 필요\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45VkNqMG9sVzhXVjloeUh6VUxqYTcxN0Y0eTJoWnplRjh2b3RrUmIyMnZkUHFIQVR2Q2JmYk5rZG50b2xNTTh6TzhjdjVUc0xuRFhXQ201MDJZVHhLQTVqdFY5VHY3TkhwVmhlZ2dMUFFzNzVYczQwRtIBeEFVX3lxTE45VkNqMG9sVzhXVjloeUh6VUxqYTcxN0Y0eTJoWnplRjh2b3RrUmIyMnZkUHFIQVR2Q2JmYk5rZG50b2xNTTh6TzhjdjVUc0xuRFhXQ201MDJZVHhLQTVqdFY5VHY3TkhwVmhlZ2dMUFFzNzVYczQwRg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13dWVhc0J2VTFfRFNINnNPRVI1MVh3LWt1eEtXVlByYWJrRTF5M3VuVE5wYzBMYnNiQ2xGcHZhRWh4RUZaX21HclJpYmkxNmUyWUhKaktDQ1JBR2JNNXUtS9IBeEFVX3lxTE45VkNqMG9sVzhXVjloeUh6VUxqYTcxN0Y0eTJoWnplRjh2b3RrUmIyMnZkUHFIQVR2Q2JmYk5rZG50b2xNTTh6TzhjdjVUc0xuRFhXQ201MDJZVHhLQTVqdFY5VHY3TkhwVmhlZ2dMUFFzNzVYczQwRg?oc=5",
           "pub_date": "Tue, 18 Aug 2026 15:00:00 GMT",
           "source": "뉴시스"
         }
@@ -28,8 +28,8 @@
     }
   },
   "volatility": {
-    "vix": 15.7,
-    "vvix": 93.83,
+    "vix": 15.72,
+    "vvix": 93.87,
     "skew": 142.91,
     "move": 75.63
   },
@@ -43,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26334.81,
+      "current": 26306.74,
       "high_52w": 27190.21,
-      "drop_pct": -3.15,
+      "drop_pct": -3.25,
       "intraday_low_drop_pct": -3.4,
-      "sma_200": 24204.88
+      "sma_200": 24177.35
     },
     "kospi": {
       "current": 6977.94,
@@ -64,34 +64,34 @@
       "sma_200": 995.73
     },
     "sp500": {
-      "current": 7701.85,
+      "current": 7696.45,
       "high_52w": 7816.7,
-      "drop_pct": -1.47,
+      "drop_pct": -1.54,
       "intraday_low_drop_pct": -1.57,
-      "sma_200": 7074.02
+      "sma_200": 7074.0
     },
     "russell2k": {
-      "current": 3026.66,
+      "current": 3023.25,
       "high_52w": 3069.71,
-      "drop_pct": -1.4,
-      "intraday_low_drop_pct": -1.47,
-      "sma_200": 2702.1
+      "drop_pct": -1.51,
+      "intraday_low_drop_pct": -1.51,
+      "sma_200": 2702.09
     },
     "soxx": {
-      "current": 527.73,
+      "current": 526.11,
       "high_52w": 655.95,
-      "drop_pct": -19.55,
+      "drop_pct": -19.79,
       "intraday_low_drop_pct": -20.26,
       "sma_200": 417.24
     }
   },
   "sector_rs": {
-    "XLK": 1.022,
-    "SMH": 0.996,
-    "BOTZ": 0.884,
+    "XLK": 1.021,
+    "SMH": 0.995,
+    "BOTZ": 0.883,
     "IGV": 1.061,
-    "XLF": 1.076,
-    "XLE": 1.012
+    "XLF": 1.077,
+    "XLE": 1.014
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.33,
+    "tqqq_profit_pct": 64.77,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 135.69,
+    "soxl_profit_pct": 133.37,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.02,
+    "koru_profit_pct": -95.13,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -294,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 184.938,
+    "strategy_pct": 184.366,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -942,7 +942,7 @@
       },
       {
         "date": "2026-08-19",
-        "ret_pct": 184.938
+        "ret_pct": 184.366
       }
     ],
     "monthly_breakdown": [
@@ -990,9 +990,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 15.5,
-        "end_ret_pct": 184.94,
-        "max_dd_pct": 18.22
+        "return_pct": 14.93,
+        "end_ret_pct": 184.37,
+        "max_dd_pct": 18.79
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
