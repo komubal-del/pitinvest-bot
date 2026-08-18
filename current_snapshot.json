@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T14:15:10.458288+09:00",
+  "timestamp": "2026-08-18T14:50:26.735057+09:00",
   "sentiment": {
     "cnn_fng": 59.9428571428571,
     "cnn_components": {
@@ -14,21 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 8,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_count": 1,
+      "fear_count": 10,
+      "greed_articles": [
         {
-          "title": "코스피, 개인·기관 ‘팔자’에 하락 전환… 7000선 아래로 급락 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcTh3R3JDQUJhX19HRFMwUzFDMjJaMG1rOGJ0Z3FOZzZBd3pqeDBodVZQZ0hPeHM4Tm1vX1RMdFJMWnV3OV9VcFpHX2V4VVY0MmpFUXh2bnlhWS14Vi10VmRyLVBPOXpjOFVjRkpCUlpPTzhidzE2N04wdE42YktOQzBxU2ZYb3J10gGcAUFVX3lxTFBCQWdWb0pialpHUWJnYk5VaXAxYk5jdFkyb1RIUFFTZVdqUlJXRDEyNkxsSFBMWTd4Smdmbkd4MHJyRlZkUUxFZGZQUkZsNzZ0SUpCRl9fQnBsWGNzZU04akwyVlNoMXBnbGx1OXVXaW92eC1oOUxRd09oelRkYnVaMjVMalU1M3NRT3A4UkRsVFJENVd6TXFIQ0V0Uw?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 03:03:00 GMT",
-          "source": "Chosunbiz"
-        },
+          "title": "130년 증시역사 중 ‘버블 붕괴’ 단 3번…터지기 전 이 ‘신호’ 주목해야 [투자360] - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91NER4blNjaGNTWV9PTDBXc3poclBaWDBIS1dJYVJieEJvUUwxbldLcF9qaVZCQTRybXdQYkR3X3NsejQ3bWJ6SmVEN3BUZUtqV1czYlNn?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 04:47:06 GMT",
+          "source": "헤럴드경제"
+        }
+      ],
+      "fear_articles": [
         {
           "title": "코스피, 장중 하락 전환...코스닥, 낙폭 확대 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LTEdFd3lxOTJ1NllwUFlLOUdfdnBmcGdXclplaDk4Wlo0Qjk2MlBTdG5IdnZSSm82NXFNOUhoZ1V3aDF2TnlMS2FaNnpDenBvMFFjdmNMckhsb18yRFE?oc=5",
           "pub_date": "Tue, 18 Aug 2026 02:38:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "코스피, 개인·기관 ‘팔자’에 하락 전환… 7000선 아래로 급락 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcTh3R3JDQUJhX19HRFMwUzFDMjJaMG1rOGJ0Z3FOZzZBd3pqeDBodVZQZ0hPeHM4Tm1vX1RMdFJMWnV3OV9VcFpHX2V4VVY0MmpFUXh2bnlhWS14Vi10VmRyLVBPOXpjOFVjRkpCUlpPTzhidzE2N04wdE42YktOQzBxU2ZYb3J10gGcAUFVX3lxTFBCQWdWb0pialpHUWJnYk5VaXAxYk5jdFkyb1RIUFFTZVdqUlJXRDEyNkxsSFBMWTd4Smdmbkd4MHJyRlZkUUxFZGZQUkZsNzZ0SUpCRl9fQnBsWGNzZU04akwyVlNoMXBnbGx1OXVXaW92eC1oOUxRd09oelRkYnVaMjVMalU1M3NRT3A4UkRsVFJENVd6TXFIQ0V0Uw?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 03:03:00 GMT",
+          "source": "Chosunbiz"
         },
         {
           "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - 연합뉴스",
@@ -43,10 +50,10 @@
           "source": "v.daum.net"
         },
         {
-          "title": "코스피 하락 전환…다시 7000 밑으로 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ibk54M0sxMUc0NXc2SnZwV3V6UW91c3VNUnRXeWJlOFJYY3RKWU16V19IWHpudGNPN1JZaEEtN250OXVwUWNNQnZON2txSVJZYzNYTHJpaHVlYkt6TmRXY1R3?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 05:02:00 GMT",
-          "source": "아시아경제"
+          "title": "코스피 하락 전환…다시 7000 밑으로 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIMGJnQk50VkNZQXRGV3BPS0Y4U0JFZFI3QlNiUXNGSzA1WmNKbmcxalNPelVSS243UVBMbWp1UkdzVllYeWNYbWNFbGg5cXc?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 05:03:29 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -58,8 +65,8 @@
     "move": 75.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -379700000000,
-    "retail_net_buy_krw": 446400000000,
+    "foreign_inst_buy_krw": -571500000000,
+    "retail_net_buy_krw": 609800000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +81,18 @@
       "sma_200": 24178.91
     },
     "kospi": {
-      "current": 6951.71,
+      "current": 6874.47,
       "high_52w": 9385.59,
-      "drop_pct": -25.93,
+      "drop_pct": -26.76,
       "intraday_low_drop_pct": -26.84,
-      "sma_200": 5888.76
+      "sma_200": 5888.38
     },
     "kosdaq": {
-      "current": 848.75,
+      "current": 841.14,
       "high_52w": 1229.42,
-      "drop_pct": -30.96,
-      "intraday_low_drop_pct": -31.46,
-      "sma_200": 994.81
+      "drop_pct": -31.58,
+      "intraday_low_drop_pct": -31.58,
+      "sma_200": 995.54
     },
     "sp500": {
       "current": 7785.76,
@@ -99,7 +106,7 @@
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2703.47
+      "sma_200": 2696.66
     },
     "soxx": {
       "current": 550.42,
