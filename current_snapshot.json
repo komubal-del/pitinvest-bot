@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T21:00:31.528379+09:00",
+  "timestamp": "2026-08-18T22:01:21.580503+09:00",
   "sentiment": {
     "cnn_fng": 59.4857142857143,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 11,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 8,
+      "greed_articles": [
+        {
+          "title": "현대차증권 '증시 활황'에도 영업이익 후퇴, 배형근 퇴직연금 뒷걸음도 부담 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XczRrWGtCallXb09xdjU0U1ZLdm9wYm5acE9IU0VnVkxucnZZSGZCdHNpRTZBcFVLWFRZQWZ5b2E3TzlRTUFKcVJfeHhySEU0ak9JNGE5RkE5dVFRSHktb3NtRS00RXZGc0FwdWZ4Z3VpdWM?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 08:02:12 GMT",
+          "source": "비즈니스포스트"
+        }
+      ],
       "fear_articles": [
         {
           "title": "코스피·코스닥, 엿새 만에 하락 전환...\"미 국채금리 영향\" - YTN",
@@ -37,22 +44,22 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 매크로 악재에 6,800선 후퇴…6거래일 만에 하락 전환 - 데일리굿뉴스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HbWVrOG5DdUliLUREWU5LUUZnWUpvZUppVjFQT1RjY19ETTlKZnJZMjdOWk1CNkpTYnp0MXA5VThWeU43NUdKWDlPdTI2RnU3Z041dE1uRWhreEFFdVdSVHFnTXp6YVJnb1hBLUVzVnfSAXBBVV95cUxOR21lazhuQ3VJYi1ERFlOS1FGZ1lKb2VKaVYxUE9UY2NfRE05SmZyWTI3TlpNQjZKU2J6dDFwOVU4VnlONzVHSlg5T3UyNkZ1N2dONXRNbkVoa3hBRXVXUlRxZ016emFSZ29YQS1Fc1Z3?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 08:09:24 GMT",
-          "source": "데일리굿뉴스"
+          "title": "코스피, 장중 7200선 돌파 후 1.55% 급락…6800대로 후퇴 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RdEszVU16SjJIWll2SWRxRFI4elBRSnVDY293QXg2Q2FKVEE5RzBtcDF5aFp1bng4LUtRQ0VVMGE4cGFVTGM5V3dNYWw5NXZncFBUWWNYdHBVbmtTUzExZlRRTDBfUGRsYVFDaUpRUVRVQQ?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 08:30:10 GMT",
+          "source": "인더스트리뉴스"
         },
         {
-          "title": "[0818마감체크] 코스피, 장중 7200선 찍고 6860선 마감... 기관 매도세 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41TVV6d3JDRTBNU2ZEY0pZOHdTZlBWVHo4ak50Ui16U0RFU1N6akQ1OXlORTlsM1NUZ2pmcjdfdGNjUVBMbkd6TEFray1jdEZyalFJcm9Ua3pTcWtlcUdUMmQ5Yi13bEtXRXNqWTBmd2hEQlVRX0E?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 08:17:17 GMT",
-          "source": "인포스탁데일리"
+          "title": "코스피, 장중 하락 전환...코스닥, 낙폭 확대 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LTEdFd3lxOTJ1NllwUFlLOUdfdnBmcGdXclplaDk4Wlo0Qjk2MlBTdG5IdnZSSm82NXFNOUhoZ1V3aDF2TnlMS2FaNnpDenBvMFFjdmNMckhsb18yRFE?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 02:38:00 GMT",
+          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.72,
+    "vix": 15.79,
     "vvix": 87.48,
     "skew": 138.36,
     "move": 75.63
@@ -78,28 +85,28 @@
       "high_52w": 9385.59,
       "drop_pct": -26.8,
       "intraday_low_drop_pct": -27.67,
-      "sma_200": 5888.35
+      "sma_200": 5845.41
     },
     "kosdaq": {
       "current": 834.2,
       "high_52w": 1229.42,
       "drop_pct": -32.15,
       "intraday_low_drop_pct": -32.65,
-      "sma_200": 995.5
+      "sma_200": 994.74
     },
     "sp500": {
       "current": 7785.76,
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7074.9
+      "sma_200": 7064.44
     },
     "russell2k": {
       "current": 3068.42,
       "high_52w": 3069.71,
       "drop_pct": -0.04,
       "intraday_low_drop_pct": -0.63,
-      "sma_200": 2696.66
+      "sma_200": 2703.47
     },
     "soxx": {
       "current": 550.42,
