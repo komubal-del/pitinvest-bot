@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-18T13:06:41.924627+09:00",
+  "timestamp": "2026-08-18T13:47:24.334476+09:00",
   "sentiment": {
-    "cnn_fng": 59.9714285714286,
+    "cnn_fng": 59.9428571428571,
     "cnn_components": {
       "momentum": 56.4,
       "strength": 27.4,
       "breadth": 58.2,
       "put_call": 59.6,
-      "junk_bond": 99.0,
+      "junk_bond": 98.8,
       "volatility": 50.0,
       "safe_haven": 69.4
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 8,
+      "fear_count": 9,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -31,21 +31,21 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - yna.co.kr",
+          "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xRUE5TTVWUGRiR0hObUk0RUt4WkFPTHpNTHU5eGYyaEtHcVFUM1Q1VElNQlN1ZVFZT01CalpWeHZSNmE0UFlBNjBiWUZlRzloQlRicTVZWThJREhxV1JWNkV0enQzakhwYjNrUXM2UElOZDhJcG1lZTVqYw?oc=5",
           "pub_date": "Tue, 18 Aug 2026 00:31:56 GMT",
-          "source": "yna.co.kr"
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[경제읽기] 코스피, 하락 전환…'전세의 월세화' 가속화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yUWFlSDBRQW5KcWNRV0ZmYzE2NVpkeVVsTHlOTXdpT3hQRXpiWnY5MEN6WHNvcTBPQ0RzaUMzOWgyTW5WQWFxYXh6VFc3Nmc?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 04:12:53 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yTmZxRmljZ1VqV3NwU1prNnRYblU4TTJsazVybFgwSXJmYkl3WmlIMzJvbFREU0RvTm1fR2wzdk42dzJobFY4a3FfQncwYmEtcVlzLQ?oc=5",
           "pub_date": "Tue, 18 Aug 2026 00:33:54 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "'개미 매도세' 코스피 7000선 밑으로…외인 1조 순매수[장중시황] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40THRQZ2I5RkhKTlNQSjRtTjFZZS1yX1EwMnhTT2FtU2lKTjk2cnpscHVJOVNkanhhVmd2aE85Q3BLV3VfeDdCT3ZDN0k2WkU?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 02:40:44 GMT",
           "source": "v.daum.net"
         }
       ]
@@ -58,8 +58,8 @@
     "move": 75.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -90300000000,
-    "retail_net_buy_krw": 155900000000,
+    "foreign_inst_buy_krw": -297700000000,
+    "retail_net_buy_krw": 356800000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,16 +74,16 @@
       "sma_200": 24178.91
     },
     "kospi": {
-      "current": 6914.87,
+      "current": 6924.96,
       "high_52w": 9385.59,
-      "drop_pct": -26.32,
+      "drop_pct": -26.22,
       "intraday_low_drop_pct": -26.84,
-      "sma_200": 5888.58
+      "sma_200": 5888.63
     },
     "kosdaq": {
-      "current": 846.41,
+      "current": 845.71,
       "high_52w": 1229.42,
-      "drop_pct": -31.15,
+      "drop_pct": -31.21,
       "intraday_low_drop_pct": -31.46,
       "sma_200": 994.8
     },
@@ -92,7 +92,7 @@
       "high_52w": 7816.7,
       "drop_pct": -0.4,
       "intraday_low_drop_pct": -0.52,
-      "sma_200": 7074.9
+      "sma_200": 7064.44
     },
     "russell2k": {
       "current": 3068.42,
@@ -276,7 +276,7 @@
   },
   "expert_analysis": {
     "date": "2026-08-18",
-    "analyzed_at": "2026-08-18T13:06:47.239539+09:00",
+    "analyzed_at": "2026-08-18T13:47:29.448445+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -293,7 +293,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란에는 과거 시장 상황을 언급하고 향후 전망에 대한 질문을 던지는 내용만 있을 뿐, 특정 행동(매수, 매도, 비중 축소/확대 등)을 권고하는 표현이 전혀 없습니다."
+          "reason": "제공된 영상 설명란에는 전문가의 구체적인 시장 분석이나 투자 행동 권고가 없으며, 제목에서 시장 반등 사실을 언급하고 향후 전망에 대한 질문을 던지는 중립적인 태도를 보입니다."
         }
       },
       {
@@ -306,7 +306,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 반도체 시장의 급락과 반등을 '어떻게 해석할지' 질문하는 형태이며, 본문 내용은 영상 촬영일과 강좌 홍보, 해시태그로 이루어져 있어 특정 매매 방향이나 행동을 권고하는 내용이 전혀 없습니다."
+          "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 질문 형태로, 특정 행동 권고 없이 중립적인 시장 분석을 예고하고 있습니다."
         }
       }
     ],
@@ -318,7 +318,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 200.072,
+    "strategy_pct": 135.391,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -962,7 +962,7 @@
       },
       {
         "date": "2026-08-18",
-        "ret_pct": 200.072
+        "ret_pct": 135.391
       }
     ],
     "monthly_breakdown": [
@@ -1010,9 +1010,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 30.63,
-        "end_ret_pct": 200.07,
-        "max_dd_pct": 4.69
+        "return_pct": -34.05,
+        "end_ret_pct": 135.39,
+        "max_dd_pct": 67.77
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
