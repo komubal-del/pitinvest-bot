@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T07:59:50.953222+09:00",
+  "timestamp": "2026-08-19T08:30:05.850525+09:00",
   "sentiment": {
     "cnn_fng": 54.4,
     "cnn_components": {
@@ -15,14 +15,26 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 11,
+      "fear_count": 12,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "5.3% 치솟은 美 30년물…EWY 8% 급락에도 코스피 \"하방경직 기대\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVREp5ZDd6RjMtTmtqNmo1WXdhZVl2SHNaLTZCOUctRWhkS0JEZE01UlBlX3JzZTUzdU9RNGlSM2trTk1ONk1wZG5PRzF4TmN0VVlVZUlNSTliRWMwdlZUVmhCTXh2NVdmNEV1N01PeGw?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 22:59:05 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "코스피, 장중 하락 전환...1.6% 내려 6,800대 마감 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1WZ0x1a1ZpVWFhV0JUYlBuRVFNekktTHRHc1lKRi02cWROQzdacnNkNHZYaXZwVkpiMnAxWjkyT3JCTTM1TkRYNXJnNVRQVmJSV3hrVDlVNGcyRTVnSGc?oc=5",
           "pub_date": "Tue, 18 Aug 2026 19:25:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 마감 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03TzN5S0hQLWtGRjhmWHptU3FYdWpkdFQzVS1BeWtWczZVcmZCb1YyUUlLR29tMlhtR0dyMXFpNzFyNGZOb0pvc2dWMjIxb1Rlcy1XVTFJYnB0cW9qTnE5eWZ3ek05VU5YbVV1N9IBbEFVX3lxTE03TzN5S0hQLWtGRjhmWHptU3FYdWpkdFQzVS1BeWtWczZVcmZCb1YyUUlLR29tMlhtR0dyMXFpNzFyNGZOb0pvc2dWMjIxb1Rlcy1XVTFJYnB0cW9qTnE5eWZ3ek05VU5YbVV1Nw?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 21:40:00 GMT",
+          "source": "국민일보"
         },
         {
           "title": "코스피 7000선 복귀 시도…급락 종목 10곳 중 6곳 가격 회복 - 이투데이",
@@ -31,22 +43,10 @@
           "source": "이투데이"
         },
         {
-          "title": "[0819개장체크] 美 증시, 중동 지정학적 리스크·국채금리 폭등에 일제히 급락… 나스닥 1.3%↓ - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhckw5c3J0a2x1bmdENURPMjRCMXFCZmdGTjFNQkp3UjlGdFpmTGpuTUJkTUlFOHJnR1hXVzJhekR5Tmo5ajJ4dnN3V1pJNnJDWVhnVG5rZFljVDBud21Jc01kLXBVemZzTmY0WFFUZVl3c1Zxanc?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 22:43:07 GMT",
-          "source": "인포스탁데일리"
-        },
-        {
-          "title": "[뉴욕증시] 반도체 4.98% 급락…30년물 금리 2007년 이후 최고 - 자본시장뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzRDRtanhmNU5jV0dwV0p0Z0k2a25HVHp6RlJzYnRadDZ5VW90X2ktaVpXRTRDUFNLell0T2NXVk5kZmd6T2tSZzhFOWNGeW9sMnhmVXBkUzJ2cTE1MGpjcGVrYjhVN1U?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 22:32:07 GMT",
-          "source": "자본시장뉴스"
-        },
-        {
-          "title": "[뉴욕증시] 글로벌 고금리 충격에 '화들짝', 사흘째 하락…반도체주 급락 - seoulfn.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YVWl3TEt1RjJiNDZuY3dBRURYdms5NDM2eVFvcDdsNno5VEY3SlZVd0w5MS10d05uMHRnT2RMM1A5V0cxck5seFp6WmktbV85MXVZOEJsSHVXNGFYNl8wMDZQSVVjZmhibmc?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 21:59:22 GMT",
-          "source": "seoulfn.com"
+          "title": "코스피 추가 하락 우려…하이닉스 ADR 9.2% 급락 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BMmYtanV4dENlSEFhUWdjdTl5WU5lR2RnYy1XVUw1aG03M1laU1R5T0g1c0hxTnhCdm9sVmdDNEJFZS0tR2Q2R1gyS09LaEJXbko1TXBJMGU3Zw?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 23:22:00 GMT",
+          "source": "경북매일"
         }
       ]
     }
@@ -85,7 +85,7 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.03
+      "sma_200": 994.93
     },
     "sp500": {
       "current": 7691.76,
