@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T07:33:34.208171+09:00",
+  "timestamp": "2026-08-19T07:59:50.953222+09:00",
   "sentiment": {
     "cnn_fng": 54.4,
     "cnn_components": {
@@ -14,16 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 7,
-      "greed_articles": [
-        {
-          "title": "\"SK하이닉스 시총 역전이 과열 신호…코스피 회복엔 시간 필요\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13dWVhc0J2VTFfRFNINnNPRVI1MVh3LWt1eEtXVlByYWJrRTF5M3VuVE5wYzBMYnNiQ2xGcHZhRWh4RUZaX21HclJpYmkxNmUyWUhKaktDQ1JBR2JNNXUtS9IBeEFVX3lxTE45VkNqMG9sVzhXVjloeUh6VUxqYTcxN0Y0eTJoWnplRjh2b3RrUmIyMnZkUHFIQVR2Q2JmYk5rZG50b2xNTTh6TzhjdjVUc0xuRFhXQ201MDJZVHhLQTVqdFY5VHY3TkhwVmhlZ2dMUFFzNzVYczQwRg?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 15:00:00 GMT",
-          "source": "뉴시스"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 11,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "코스피, 장중 하락 전환...1.6% 내려 6,800대 마감 - YTN",
@@ -38,22 +31,22 @@
           "source": "이투데이"
         },
         {
-          "title": "[속보][뉴욕증시] 국채 수익률 상승 충격에 사흘째 하락…반도체 급락 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SZGpIRE8xd01kTExncjlfcjFGZ011VFM2RmJkSDZid3ZZYzJrM1dXdkZDaUMzUVlOZ3ZkWDdFblV6MEJBd2dsRDlfcjVoUWlfcHJkb1hBT0Q1QQ?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 20:01:54 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "[0819개장체크] 美 증시, 중동 지정학적 리스크·국채금리 폭등에 일제히 급락… 나스닥 1.3%↓ - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhckw5c3J0a2x1bmdENURPMjRCMXFCZmdGTjFNQkp3UjlGdFpmTGpuTUJkTUlFOHJnR1hXVzJhekR5Tmo5ajJ4dnN3V1pJNnJDWVhnVG5rZFljVDBud21Jc01kLXBVemZzTmY0WFFUZVl3c1Zxanc?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 22:43:07 GMT",
+          "source": "인포스탁데일리"
         },
         {
-          "title": "[뉴욕증시] 글로벌 고금리 충격에 '화들짝', 사흘째 하락…반도체주 급락 - 서울파이낸스",
+          "title": "[뉴욕증시] 반도체 4.98% 급락…30년물 금리 2007년 이후 최고 - 자본시장뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzRDRtanhmNU5jV0dwV0p0Z0k2a25HVHp6RlJzYnRadDZ5VW90X2ktaVpXRTRDUFNLell0T2NXVk5kZmd6T2tSZzhFOWNGeW9sMnhmVXBkUzJ2cTE1MGpjcGVrYjhVN1U?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 22:32:07 GMT",
+          "source": "자본시장뉴스"
+        },
+        {
+          "title": "[뉴욕증시] 글로벌 고금리 충격에 '화들짝', 사흘째 하락…반도체주 급락 - seoulfn.com",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YVWl3TEt1RjJiNDZuY3dBRURYdms5NDM2eVFvcDdsNno5VEY3SlZVd0w5MS10d05uMHRnT2RMM1A5V0cxck5seFp6WmktbV85MXVZOEJsSHVXNGFYNl8wMDZQSVVjZmhibmc?oc=5",
           "pub_date": "Tue, 18 Aug 2026 21:59:22 GMT",
-          "source": "서울파이낸스"
-        },
-        {
-          "title": "[뉴욕증시] 고금리 충격에 사흘째 하락…마이크론, 7% 급락 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YbGljTGpDZW15ZnJfZndDcjNSeThlbFJzTUpNX0JLOVA0eUNta1Z3aWU4RXM4VnM1U1hOZ2VVRnE2OWd2NzFSMlR4RXJORkNVemRsODQ4NGZlUQ?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 20:23:51 GMT",
-          "source": "파이낸셜뉴스"
+          "source": "seoulfn.com"
         }
       ]
     }
@@ -67,7 +60,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -703700000000,
     "retail_net_buy_krw": 742000000000,
-    "margin_loan_krw": 30487800000000,
+    "margin_loan_krw": 30434400000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -78,35 +71,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.31,
       "intraday_low_drop_pct": -3.4,
-      "sma_200": 24177.26
+      "sma_200": 24204.65
     },
     "kospi": {
       "current": 6977.94,
       "high_52w": 9385.59,
       "drop_pct": -25.65,
       "intraday_low_drop_pct": -27.03,
-      "sma_200": 5830.14
+      "sma_200": 5873.23
     },
     "kosdaq": {
       "current": 864.65,
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.73
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7691.76,
       "high_52w": 7816.7,
       "drop_pct": -1.6,
       "intraday_low_drop_pct": -1.64,
-      "sma_200": 7073.97
+      "sma_200": 7083.18
     },
     "russell2k": {
       "current": 3017.89,
       "high_52w": 3069.71,
       "drop_pct": -1.69,
       "intraday_low_drop_pct": -1.7,
-      "sma_200": 2702.06
+      "sma_200": 2708.89
     },
     "soxx": {
       "current": 531.39,
