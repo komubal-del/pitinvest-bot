@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T12:27:19.082172+09:00",
+  "timestamp": "2026-08-18T13:06:41.924627+09:00",
   "sentiment": {
     "cnn_fng": 59.9714285714286,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 6,
+      "fear_count": 8,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -25,10 +25,16 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - 연합뉴스",
+          "title": "코스피, 장중 하락 전환...코스닥, 낙폭 확대 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LTEdFd3lxOTJ1NllwUFlLOUdfdnBmcGdXclplaDk4Wlo0Qjk2MlBTdG5IdnZSSm82NXFNOUhoZ1V3aDF2TnlMS2FaNnpDenBvMFFjdmNMckhsb18yRFE?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 02:38:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - yna.co.kr",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xRUE5TTVWUGRiR0hObUk0RUt4WkFPTHpNTHU5eGYyaEtHcVFUM1Q1VElNQlN1ZVFZT01CalpWeHZSNmE0UFlBNjBiWUZlRzloQlRicTVZWThJREhxV1JWNkV0enQzakhwYjNrUXM2UElOZDhJcG1lZTVqYw?oc=5",
           "pub_date": "Tue, 18 Aug 2026 00:31:56 GMT",
-          "source": "연합뉴스"
+          "source": "yna.co.kr"
         },
         {
           "title": "코스피, 삼전닉스 강세에 '7천피' 회복…코스닥은 하락 전환(종합) - v.daum.net",
@@ -37,29 +43,23 @@
           "source": "v.daum.net"
         },
         {
-          "title": "'개미 매도세' 코스피 7000선 밑으로…외인 1조 순매수[장중시황] - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pcEl4bzUzM0FRV3NoNkpLLUhvUk5CTTVSdnVHUmFRbmpxcG1jN1dTN3RGLXRKYmdGUnh2QXJtU3ZYVlhxMGZmcEpxTHZ3emN1VGZvaUxiSjgxa1nSAWBBVV95cUxNYmdFa0pDZTNFTHAxVkhoeWtub0FSTFhJSFp3U3BvRHk1WXFJNXMzcnVRRWF0VFdzeUs5OElfdlV2M1otWU5Gdkx2eWdTdnRHT0JjUHd2RmZNRXRBNFZ6Wjk?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 02:38:58 GMT",
-          "source": "뉴스1"
-        },
-        {
-          "title": "[특징주] 인제니아테라퓨틱스, 코스닥 상장 첫날 17% 급락 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT3dPVGVDMTdhbGRsTEhvSVJ3YzVOMDdVcjF5eWFjekcxMWNDV19DZTBiNTdZUWFuU1V1M0ZxMGRoc08xMmZmWS1JMU5BLS1FTktTZ2FJbW5TSnFGSmtGMDh4ZGFrZlE2ZkstV3ZjU1ZsQjVTZ0NRRThjQS12X1NLaWpsWUNiX1Ry0gGcAUFVX3lxTFB3T3ZGNzlxMTdqNzZSamRYSU1MN2g1Qy1xb0xsOU51anRrRzRmZ3FoSW1NWlJuSVhSNDM2M2VmbnlITllXQXJ6bGFOWEYxQlZzUjNIQjFiM0ttdU5LekdKSGYzeko2TEY4bGpXaDByVW81Z0xBTjBRbC1STl9PYWlRZXM4cXFhMEZJbjBXVW40anFrWVJObjZ1SkQ5Qw?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 00:46:00 GMT",
-          "source": "Chosunbiz"
+          "title": "'개미 매도세' 코스피 7000선 밑으로…외인 1조 순매수[장중시황] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40THRQZ2I5RkhKTlNQSjRtTjFZZS1yX1EwMnhTT2FtU2lKTjk2cnpscHVJOVNkanhhVmd2aE85Q3BLV3VfeDdCT3ZDN0k2WkU?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 02:40:44 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
     "vix": 15.19,
-    "vvix": 93.92,
-    "skew": 142.91,
+    "vvix": 87.48,
+    "skew": 138.36,
     "move": 75.63
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 216400000000,
-    "retail_net_buy_krw": -158500000000,
+    "foreign_inst_buy_krw": -90300000000,
+    "retail_net_buy_krw": 155900000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -67,55 +67,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26644.91,
+      "current": 26729.16,
       "high_52w": 27190.21,
-      "drop_pct": -2.01,
-      "intraday_low_drop_pct": -2.07,
-      "sma_200": 24193.0
+      "drop_pct": -1.7,
+      "intraday_low_drop_pct": -1.94,
+      "sma_200": 24178.91
     },
     "kospi": {
-      "current": 6947.56,
+      "current": 6914.87,
       "high_52w": 9385.59,
-      "drop_pct": -25.98,
-      "intraday_low_drop_pct": -26.54,
-      "sma_200": 5845.8
+      "drop_pct": -26.32,
+      "intraday_low_drop_pct": -26.84,
+      "sma_200": 5888.58
     },
     "kosdaq": {
-      "current": 850.42,
+      "current": 846.41,
       "high_52w": 1229.42,
-      "drop_pct": -30.83,
-      "intraday_low_drop_pct": -31.19,
-      "sma_200": 995.58
+      "drop_pct": -31.15,
+      "intraday_low_drop_pct": -31.46,
+      "sma_200": 994.8
     },
     "sp500": {
-      "current": 7745.06,
+      "current": 7785.76,
       "high_52w": 7816.7,
-      "drop_pct": -0.92,
-      "intraday_low_drop_pct": -0.92,
-      "sma_200": 7069.47
+      "drop_pct": -0.4,
+      "intraday_low_drop_pct": -0.52,
+      "sma_200": 7074.9
     },
     "russell2k": {
-      "current": 3057.54,
+      "current": 3068.42,
       "high_52w": 3069.71,
-      "drop_pct": -0.4,
-      "intraday_low_drop_pct": -0.58,
-      "sma_200": 2699.54
+      "drop_pct": -0.04,
+      "intraday_low_drop_pct": -0.63,
+      "sma_200": 2696.66
     },
     "soxx": {
-      "current": 559.12,
+      "current": 550.42,
       "high_52w": 655.95,
-      "drop_pct": -14.76,
-      "intraday_low_drop_pct": -15.26,
-      "sma_200": 416.15
+      "drop_pct": -16.09,
+      "intraday_low_drop_pct": -17.23,
+      "sma_200": 414.87
     }
   },
   "sector_rs": {
-    "XLK": 1.042,
-    "SMH": 1.037,
-    "BOTZ": 0.906,
-    "IGV": 1.047,
-    "XLF": 1.065,
-    "XLE": 0.992
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -132,7 +132,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -151,19 +151,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 73.75,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 183.23,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -93.6,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -272,11 +272,11 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-08-17",
-    "analyzed_at": "2026-08-17T13:08:08.344216+09:00",
+    "date": "2026-08-18",
+    "analyzed_at": "2026-08-18T13:06:47.239539+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -284,16 +284,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "11LuxBjp4t4",
-        "title": "다시 오른 코스피, 안심하긴 이르다? 앞으로가 중요한 이유 | 박병창 MP파트너스 대표 [주말 인터뷰]",
-        "published": "2026-08-15T02:00:15Z",
-        "url": "https://youtube.com/watch?v=11LuxBjp4t4",
+        "video_id": "NHs3DcCD3Fc",
+        "title": "8주 만에 강한 반등한 코스피…반도체 랠리 이어질까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-17T23:55:08Z",
+        "url": "https://youtube.com/watch?v=NHs3DcCD3Fc",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "코스피 상승에도 불구하고 안심하기 이르다는 경각심을 표현하지만, 구체적인 매도 또는 비중 축소와 같은 행동 권고는 없습니다."
+          "reason": "영상 설명란에는 과거 시장 상황을 언급하고 향후 전망에 대한 질문을 던지는 내용만 있을 뿐, 특정 행동(매수, 매도, 비중 축소/확대 등)을 권고하는 표현이 전혀 없습니다."
         }
       },
       {
@@ -306,7 +306,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 설명란에는 시장 방향성에 대한 어떠한 구체적인 행동 권고도 포함되어 있지 않고 교육 프로그램 홍보만 있습니다."
+          "reason": "제목은 반도체 시장의 급락과 반등을 '어떻게 해석할지' 질문하는 형태이며, 본문 내용은 영상 촬영일과 강좌 홍보, 해시태그로 이루어져 있어 특정 매매 방향이나 행동을 권고하는 내용이 전혀 없습니다."
         }
       }
     ],

@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-17",
-  "analyzed_at": "2026-08-17T13:08:08.344216+09:00",
+  "date": "2026-08-18",
+  "analyzed_at": "2026-08-18T13:06:47.239539+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "11LuxBjp4t4",
-      "title": "다시 오른 코스피, 안심하긴 이르다? 앞으로가 중요한 이유 | 박병창 MP파트너스 대표 [주말 인터뷰]",
-      "published": "2026-08-15T02:00:15Z",
-      "url": "https://youtube.com/watch?v=11LuxBjp4t4",
+      "video_id": "NHs3DcCD3Fc",
+      "title": "8주 만에 강한 반등한 코스피…반도체 랠리 이어질까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-08-17T23:55:08Z",
+      "url": "https://youtube.com/watch?v=NHs3DcCD3Fc",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "코스피 상승에도 불구하고 안심하기 이르다는 경각심을 표현하지만, 구체적인 매도 또는 비중 축소와 같은 행동 권고는 없습니다."
+        "reason": "영상 설명란에는 과거 시장 상황을 언급하고 향후 전망에 대한 질문을 던지는 내용만 있을 뿐, 특정 행동(매수, 매도, 비중 축소/확대 등)을 권고하는 표현이 전혀 없습니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 설명란에는 시장 방향성에 대한 어떠한 구체적인 행동 권고도 포함되어 있지 않고 교육 프로그램 홍보만 있습니다."
+        "reason": "제목은 반도체 시장의 급락과 반등을 '어떻게 해석할지' 질문하는 형태이며, 본문 내용은 영상 촬영일과 강좌 홍보, 해시태그로 이루어져 있어 특정 매매 방향이나 행동을 권고하는 내용이 전혀 없습니다."
       }
     }
   ],
