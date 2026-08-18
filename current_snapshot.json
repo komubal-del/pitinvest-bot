@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T06:31:46.917494+09:00",
+  "timestamp": "2026-08-19T06:57:31.807885+09:00",
   "sentiment": {
     "cnn_fng": 54.4,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 6,
+      "fear_count": 7,
       "greed_articles": [
         {
           "title": "\"SK하이닉스 시총 역전이 과열 신호…코스피 회복엔 시간 필요\" - 뉴시스",
@@ -26,22 +26,16 @@
       ],
       "fear_articles": [
         {
-          "title": "코스피 7000선 복귀 시도…급락 종목 10곳 중 6곳 가격 회복 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SMFo0Q0dUX2Y5T3ppS1F3TnpVdWNTYTZOU04tUHVLd2ZnakVlLTdCcXZpX0x6Q214QzZjcDR6eU40WldmVkpMU1Vwc2l4Umo3aGFvVg?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 21:00:00 GMT",
-          "source": "이투데이"
-        },
-        {
           "title": "코스피, 장중 하락 전환...1.6% 내려 6,800대 마감 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1WZ0x1a1ZpVWFhV0JUYlBuRVFNekktTHRHc1lKRi02cWROQzdacnNkNHZYaXZwVkpiMnAxWjkyT3JCTTM1TkRYNXJnNVRQVmJSV3hrVDlVNGcyRTVnSGc?oc=5",
           "pub_date": "Tue, 18 Aug 2026 19:25:00 GMT",
           "source": "YTN"
         },
         {
-          "title": "[속보][뉴욕증시] 국채 수익률 상승 충격에 사흘째 하락…반도체 급락 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SZGpIRE8xd01kTExncjlfcjFGZ011VFM2RmJkSDZid3ZZYzJrM1dXdkZDaUMzUVlOZ3ZkWDdFblV6MEJBd2dsRDlfcjVoUWlfcHJkb1hBT0Q1QQ?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 20:01:54 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "코스피 7000선 복귀 시도…급락 종목 10곳 중 6곳 가격 회복 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SMFo0Q0dUX2Y5T3ppS1F3TnpVdWNTYTZOU04tUHVLd2ZnakVlLTdCcXZpX0x6Q214QzZjcDR6eU40WldmVkpMU1Vwc2l4Umo3aGFvVg?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 21:00:00 GMT",
+          "source": "이투데이"
         },
         {
           "title": "[월가 레이더] 美 뉴욕증시, 30년물 금리 최고치에 사흘째 하락…반도체주 급락 - 포커스온경제",
@@ -50,10 +44,16 @@
           "source": "포커스온경제"
         },
         {
-          "title": "[속보] SK하이닉스 ADR 9.19% 급락… 미 증시 일제 하락 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVFVBd1V3RjVGTE5ySTlQQzJOR2o1NlV0RlRxRUZVUFBwSHR0NTlGNjliZnlaa0l6NGZlVDh2bWV4YWViOWdlemdUdXc0emVDcUo4YmRPRXZ1UzJqOE1HSjBvMV9kMzdsSlNuSGxzZ3JKTEhLWkZydnZzRkgxOFpEb1EyWFJCSjVldkhRM3dQQ00tUDBwSXc?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 20:04:00 GMT",
-          "source": "국민일보"
+          "title": "[속보][뉴욕증시] 국채 수익률 상승 충격에 사흘째 하락…반도체 급락 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SZGpIRE8xd01kTExncjlfcjFGZ011VFM2RmJkSDZid3ZZYzJrM1dXdkZDaUMzUVlOZ3ZkWDdFblV6MEJBd2dsRDlfcjVoUWlfcHJkb1hBT0Q1QQ?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 20:01:54 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "[뉴욕증시] 고금리 충격에 사흘째 하락…마이크론, 7% 급락 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YbGljTGpDZW15ZnJfZndDcjNSeThlbFJzTUpNX0JLOVA0eUNta1Z3aWU4RXM4VnM1U1hOZ2VVRnE2OWd2NzFSMlR4RXJORkNVemRsODQ4NGZlUQ?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 20:23:51 GMT",
+          "source": "파이낸셜뉴스"
         }
       ]
     }
@@ -92,21 +92,21 @@
       "high_52w": 1229.42,
       "drop_pct": -29.67,
       "intraday_low_drop_pct": -31.24,
-      "sma_200": 994.93
+      "sma_200": 995.03
     },
     "sp500": {
       "current": 7691.76,
       "high_52w": 7816.7,
       "drop_pct": -1.6,
       "intraday_low_drop_pct": -1.64,
-      "sma_200": 7073.97
+      "sma_200": 7083.18
     },
     "russell2k": {
       "current": 3017.89,
       "high_52w": 3069.71,
       "drop_pct": -1.69,
       "intraday_low_drop_pct": -1.7,
-      "sma_200": 2702.06
+      "sma_200": 2708.89
     },
     "soxx": {
       "current": 531.39,
@@ -180,10 +180,10 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
-      "samsung_ok": true,
+      "samsung_ok": false,
       "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
