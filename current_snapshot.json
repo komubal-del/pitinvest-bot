@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T17:16:31.978133+09:00",
+  "timestamp": "2026-08-18T17:58:43.464345+09:00",
   "sentiment": {
     "cnn_fng": 59.4857142857143,
     "cnn_components": {
@@ -15,14 +15,26 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 12,
+      "fear_count": 11,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "[속보]'뒷심 부족' 코스피, 7,200피 찍고 6,800선 후퇴…6거래일만 하락 전환 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uUzA1ei1nNThNNlU1bDB5SmxMRXJub3BVMFZUa0p1TXNrQlBKVWUtZE9EQnQxX1g3NlVLY1d2NmM4djlrNGNrTTJTdG5xd2VlSm5YdE41ajRwalZ6MFFPSA?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 07:42:03 GMT",
+          "source": "KBC광주방송"
+        },
         {
           "title": "코스피, 장중 하락 전환...1.6% 내려 6,800대 마감 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xNm90eDVEUDNGV3hFclVpalBqUjF4WWpNN1JFMnQ2OFM3UHdmajk3SlVrekVqaGRuVmRHOXNOc2dndzZ3Mlk2VTREVTNlOEtsZXVvX3hKdnBaMnVQLXc?oc=5",
           "pub_date": "Tue, 18 Aug 2026 07:10:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "코스피, 장중 7200선 돌파 후 1.55% 급락…6800대로 후퇴 - industrynews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RdEszVU16SjJIWll2SWRxRFI4elBRSnVDY293QXg2Q2FKVEE5RzBtcDF5aFp1bng4LUtRQ0VVMGE4cGFVTGM5V3dNYWw5NXZncFBUWWNYdHBVbmtTUzExZlRRTDBfUGRsYVFDaUpRUVRVQQ?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 08:30:10 GMT",
+          "source": "industrynews.co.kr"
         },
         {
           "title": "코스피, 장중 하락 전환...코스닥, 낙폭 확대 - YTN",
@@ -31,35 +43,23 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 닷새 올라 숨고르기… 6800선 후퇴·코스닥 3% 급락 - IT조선",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00b2xMb0pwUDVEbFdQQnpfeTM0YVIyMDNNT2EtLXppQnBsU1ZJeFZjaEhMbnhaSTlHZFFUVXFpZm9IZWY3X1ZVOTNLcFJleVBKQkhBeU16UmZfMlh3N0hJcHBYX092aG5GNmVVekpzZzNqTVVB0gF0QVVfeXFMTTRvbExvSnBQNURsV1BCel95MzRhUjIwM01PYS0temlCcGxTVkl4VmNoSExueFpJOUdkUVRVcWlmb0hlZjdfVlU5M0twUmV5UEpCSEF5TXpSZl8yWHc3SElwcFhfT3ZobkY2ZVV6SnNnM2pNVUE?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 07:29:34 GMT",
-          "source": "IT조선"
-        },
-        {
-          "title": "코스피 1.55% 내린 6869.83…장중 7200선 돌파 후 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93WWZPUmZyZ0FwektwSTgxN3BRbDc1M3N4MFgwMWxsOUlNYnFVOERQdDE1cDJybkdmN3ZLbFU0NW9jeGNRU3YzMjlscC0zUXc?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 06:53:36 GMT",
+          "title": "코스피 6800선 하락 마감… 코스닥도 3%대 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vaTNocml1NnFwUmJZUy1oYlZCTHNPbWlvRUx0S1NOVkx6bmdEWEpjcnBxR2RYZDQ5Y1hTVFBqUVBPZnk3TlA4azhSVGFPWUE?oc=5",
+          "pub_date": "Tue, 18 Aug 2026 08:35:00 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[속보]'뒷심 부족' 코스피, 7,200피 찍고 6,800선 후퇴…6거래일만 하락 전환 - ikbc.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uUzA1ei1nNThNNlU1bDB5SmxMRXJub3BVMFZUa0p1TXNrQlBKVWUtZE9EQnQxX1g3NlVLY1d2NmM4djlrNGNrTTJTdG5xd2VlSm5YdE41ajRwalZ6MFFPSA?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 07:42:03 GMT",
-          "source": "ikbc.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.03,
+    "vix": 15.86,
     "vvix": 87.48,
     "skew": 138.36,
     "move": 75.63
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -703700000000,
-    "retail_net_buy_krw": 741500000000,
+    "retail_net_buy_krw": 741300000000,
     "margin_loan_krw": 30487800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -71,21 +71,21 @@
       "high_52w": 27190.21,
       "drop_pct": -1.7,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 24143.32
+      "sma_200": 24178.91
     },
     "kospi": {
       "current": 6869.83,
       "high_52w": 9385.59,
       "drop_pct": -26.8,
       "intraday_low_drop_pct": -27.67,
-      "sma_200": 5845.41
+      "sma_200": 5888.35
     },
     "kosdaq": {
       "current": 834.2,
       "high_52w": 1229.42,
       "drop_pct": -32.15,
       "intraday_low_drop_pct": -32.65,
-      "sma_200": 994.74
+      "sma_200": 994.81
     },
     "sp500": {
       "current": 7785.76,
