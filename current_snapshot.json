@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-19T22:02:48.272527+09:00",
+  "timestamp": "2026-08-19T22:51:03.235736+09:00",
   "sentiment": {
-    "cnn_fng": 53.5714285714286,
+    "cnn_fng": 59.2,
     "cnn_components": {
-      "momentum": 44.0,
-      "strength": 24.2,
-      "breadth": 53.8,
-      "put_call": 48.0,
-      "junk_bond": 96.6,
+      "momentum": 47.0,
+      "strength": 26.2,
+      "breadth": 60.6,
+      "put_call": 66.6,
+      "junk_bond": 91.4,
       "volatility": 50.0,
-      "safe_haven": 58.4
+      "safe_haven": 70.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 43,
+      "fear_count": 44,
       "greed_articles": [
         {
           "title": "부동산 대출에 증시 빚투까지… ‘가계빚’ 사상 첫 2000조원 괜찮나 - 더스쿠프",
@@ -38,35 +38,35 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 5.8% 폭락...환율, 10달 만에 1,300원대 진입 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PQU9XOFR3S3ZoRVNHTzVsS19oSzJaRUZRNHNUNlFPUU9aVjFuUGdFQlpNOVZJdkJWeW9waW5MRTJ6WnZYOGwyZGppWU8wNkQzdVVveEQzaFFGTVFfUHc?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 09:08:00 GMT",
-          "source": "YTN"
+          "title": "[食전食후] 코스피, 6400선 급락 후 낙폭 확대…외국인·기관 매도에 6500선 위태 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwRk15UUhBcmxKSjdmTjliNnBBckR6bU9LTnp6R2U0aE9vQ2JkcUl1c3U5NzB1ODZxV04tb2dNYmg0cmo3Q0V1ckx5ckJiNTg?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 04:30:02 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "반도체 되돌림에 대외 불안까지 겹쳐… 코스피 5.8% 급락 - etnews.com",
+          "title": "국채금리 급등 여파에 6% 급락…7000선과 멀어지는 코스피 - khan.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mSUJSZXNJUUw3STBFOG9qQWRXOGVmRjNUX09vSU53Zjhtck5IbXRzQ1llYVZZVkJnYXVsdEl6QU45SndDU1UwRERnMHhsdmpFcVlzYzRvekw3Z9IBX0FVX3lxTE1HNlhncnVlVXZrN3VSQ19KeU9zc0syOUJBV19HSGl6SVNYdkRoU3pobVB6SDdJODhXZ1JHdW1VT3E3OFVHUGo0UkgzemFkak12MzBtN0FWUTRlQmU0Wk5Z?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 07:02:00 GMT",
+          "source": "khan.co.kr"
+        },
+        {
+          "title": "반도체 되돌림에 대외 불안까지 겹쳐… 코스피 5.8% 급락 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5SW1YZk5TS2d5aGlJMFVxR2IzWUJ3dDRYODlpSGFuOHM2SHRPeFFEVzZDcWFSaGh4SGhhUF8yaGUwSHBSUm90V3IwTlpwQQ?oc=5",
           "pub_date": "Wed, 19 Aug 2026 06:45:21 GMT",
-          "source": "etnews.com"
+          "source": "전자신문"
         },
         {
           "title": "[마감] 코스피, 美 국채금리 쇼크에 5.8% 급락…6400선 후퇴 By 알파경제 alphabiz - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54SUJ4b2xQbmhFNUN5REFaNmxyb3gtQU14NXFwdzZpTTVRSDJqa1l5MlNvV3h4U2pVcktCYWFkbFpCTHpIVlNuLXJnNW9BeHZXYTdZMUFxaGZ0R0JIVGVhcTFQY003T0ZOTFBqMGd5clc?oc=5",
           "pub_date": "Wed, 19 Aug 2026 11:59:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 09:42:00 GMT",
-          "source": "한겨레"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.41,
-    "vvix": 92.87,
+    "vix": 15.39,
+    "vvix": 91.48,
     "skew": 143.6,
     "move": 74.98
   },
@@ -80,55 +80,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26289.71,
+      "current": 26230.65,
       "high_52w": 27190.21,
-      "drop_pct": -3.31,
-      "intraday_low_drop_pct": -3.4,
-      "sma_200": 24204.65
+      "drop_pct": -3.53,
+      "intraday_low_drop_pct": -3.59,
+      "sma_200": 24190.23
     },
     "kospi": {
       "current": 6471.17,
       "high_52w": 9385.59,
       "drop_pct": -31.05,
       "intraday_low_drop_pct": -31.8,
-      "sma_200": 5901.0
+      "sma_200": 5858.65
     },
     "kosdaq": {
       "current": 824.46,
       "high_52w": 1229.42,
       "drop_pct": -32.94,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 994.57
+      "sma_200": 995.26
     },
     "sp500": {
-      "current": 7691.76,
+      "current": 7706.6,
       "high_52w": 7816.7,
-      "drop_pct": -1.6,
-      "intraday_low_drop_pct": -1.64,
-      "sma_200": 7083.18
+      "drop_pct": -1.41,
+      "intraday_low_drop_pct": -1.45,
+      "sma_200": 7078.13
     },
     "russell2k": {
-      "current": 3017.89,
+      "current": 3046.81,
       "high_52w": 3069.71,
-      "drop_pct": -1.69,
-      "intraday_low_drop_pct": -1.7,
-      "sma_200": 2708.89
+      "drop_pct": -0.75,
+      "intraday_low_drop_pct": -1.1,
+      "sma_200": 2704.69
     },
     "soxx": {
-      "current": 531.39,
+      "current": 520.72,
       "high_52w": 655.95,
-      "drop_pct": -18.99,
-      "intraday_low_drop_pct": -20.26,
-      "sma_200": 417.26
+      "drop_pct": -20.62,
+      "intraday_low_drop_pct": -20.63,
+      "sma_200": 418.34
     }
   },
   "sector_rs": {
-    "XLK": 1.023,
-    "SMH": 0.999,
-    "BOTZ": 0.897,
-    "IGV": 1.058,
+    "XLK": 1.01,
+    "SMH": 0.983,
+    "BOTZ": 0.888,
+    "IGV": 1.057,
     "XLF": 1.083,
-    "XLE": 0.998
+    "XLE": 1.001
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 64.95,
+    "tqqq_profit_pct": 62.88,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 141.31,
+    "soxl_profit_pct": 126.6,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -95.15,
+    "koru_profit_pct": -94.79,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
