@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T17:48:30.552112+09:00",
+  "timestamp": "2026-08-19T18:41:57.291421+09:00",
   "sentiment": {
     "cnn_fng": 53.5714285714286,
     "cnn_components": {
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 47,
+      "greed_count": 5,
+      "fear_count": 45,
       "greed_articles": [
         {
           "title": "부동산 대출에 증시 빚투까지… ‘가계빚’ 사상 첫 2000조원 괜찮나 - 더스쿠프",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXa2NSdDNqZzFablJTekhqb05wM3VwVElZNmZIQXRUY0xaYzktUDRaMWs5d1Z0Mm91TnhfNEw2Y1MxQ20yRG5NcURuOEdWNDRyanlQbGotbFpySnVNOGM5eDJVNFktTURtNko2MUl3?oc=5",
           "pub_date": "Wed, 19 Aug 2026 07:47:46 GMT",
           "source": "더스쿠프"
+        },
+        {
+          "title": "한·미 증시 충격파… AI 버블 우려로 삼전닉스 주르륵 [글로벌 국채금리 쇼크] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4R3BpN05uc0dDYjFCZ055VlVCc21qNFZOR1NrREMxR2NQR19UeFdQc0txcnM5eTNNd1JRem01VTN6Mm43S0JPU0QtZ3pJZjg?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 08:46:45 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "'중동 불안'에 코스피 하락…전고점 회복 가능한가? - v.daum.net",
@@ -50,41 +56,41 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "[食전食후] 코스피, 6400선 급락 후 낙폭 확대…외국인·기관 매도에 6500선 위태 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwRk15UUhBcmxKSjdmTjliNnBBckR6bU9LTnp6R2U0aE9vQ2JkcUl1c3U5NzB1ODZxV04tb2dNYmg0cmo3Q0V1ckx5ckJiNTg?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 04:30:02 GMT",
-          "source": "v.daum.net"
-        },
-        {
           "title": "반도체 되돌림에 대외 불안까지…코스피 5.8% 급락 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5SW1YZk5TS2d5aGlJMFVxR2IzWUJ3dDRYODlpSGFuOHM2SHRPeFFEVzZDcWFSaGh4SGhhUF8yaGUwSHBSUm90V3IwTlpwQQ?oc=5",
           "pub_date": "Wed, 19 Aug 2026 06:45:21 GMT",
           "source": "전자신문"
         },
         {
-          "title": "[증시-마감] 코스피, 금리 발작에 5.8% 급락 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ac3pGUDA2TEdGOTk4SnVQanI0SlR2SXZ0VDV3cER0Nk0xa1p6SzVYaTBJNjNxSHFia3AxRFFZb2lNYlV1SllmYWZDSm5zVTNYYS01UjY3TFRpRTBRdk1mekNDY3lTMzJMd01FeUQwZ3ZPUDNQ?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 07:20:24 GMT",
+          "title": "[증시-마감] 코스피, 금리 발작에 5.8% 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yaGdsanhvd0luZkxTZ3ZuMVltSFNuVHZwYmZIU3Y1V2JjQ0dzeWx1SXR1Q0Y5T1Z4cEZuclYwNHo3a2dBNmhPd3pZTm9RbGM5WmFmSXVHMWY3T2pqMXhRX2lXYUxKTW9OaTBwcDB0RVo?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 07:15:20 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "[경제읽기] 원‧달러 환율 1,300원 대로 하락…코스피 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aM0hEUnJWeVRzaUZMNjdhSTkwb3ZXVlZoTy1lMDN0MElaYWc5dnF2dUMtUGZVOXdJU3FOdXFuVXRaZUp6ekZyOGxkWkRuYmRCT0JOeVJSb2NuNzVfOEFFbjdQSnlPU28?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 04:19:00 GMT",
+          "title": "코스피, 글로벌 국채금리·美데이터센터 지연 우려에 5.8% 급락(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aTnJacENkX0RZclB5dlJsN0JZeWRoR3B1V0g3ZmxUNjAtanlsSl8ycXpFQ0tMVEhnRDNydGNESXFGZUZfcXRwVURaYU10bmJxQXVwOVl5VlhNYVVsb0JtddIBYEFVX3lxTE5aTnJacENkX0RZclB5dlJsN0JZeWRoR3B1V0g3ZmxUNjAtanlsSl8ycXpFQ0tMVEhnRDNydGNESXFGZUZfcXRwVURaYU10bmJxQXVwOVl5VlhNYVVsb0JtdQ?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 07:22:16 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[퇴근길머니] 미국발 삭풍에 코스피 5% 급락…’불닭 반도체’의 반란? - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXd0NGVnJWNUFWUmNUR2Q3RWJtQm1QWmk3UVRvdFQ0OVpqX3o5QVpsM3FnWklZRW9GUTlydVh2TlV5Q2s1V0J0b0dTTlRLM1NQQzh0UUNrWUFDeVF2TFlKRjhpbnpOSXc?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 08:38:00 GMT",
           "source": "연합뉴스TV"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.81,
+    "vix": 15.86,
     "vvix": 92.87,
     "skew": 143.6,
     "move": 74.98
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -4811600000000,
-    "retail_net_buy_krw": 4635600000000,
+    "retail_net_buy_krw": 4635700000000,
     "margin_loan_krw": 30434400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -96,7 +102,7 @@
       "high_52w": 27190.21,
       "drop_pct": -3.31,
       "intraday_low_drop_pct": -3.4,
-      "sma_200": 24177.26
+      "sma_200": 24204.65
     },
     "kospi": {
       "current": 6471.17,
@@ -110,14 +116,14 @@
       "high_52w": 1229.42,
       "drop_pct": -32.94,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 995.26
+      "sma_200": 994.57
     },
     "sp500": {
       "current": 7691.76,
       "high_52w": 7816.7,
       "drop_pct": -1.6,
       "intraday_low_drop_pct": -1.64,
-      "sma_200": 7073.97
+      "sma_200": 7083.18
     },
     "russell2k": {
       "current": 3017.89,
@@ -203,12 +209,20 @@
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": false,
+      "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.19",
+            "close": 247500,
+            "change_pct": -7.82,
+            "retail_net": 7100814,
+            "inst_net": -2923301,
+            "foreign_net": -4177513
+          },
           {
             "date": "2026.08.18",
             "close": 268500,
@@ -240,17 +254,17 @@
             "retail_net": -6579337,
             "inst_net": 776871,
             "foreign_net": 5802466
-          },
-          {
-            "date": "2026.08.11",
-            "close": 239500,
-            "change_pct": 4.13,
-            "retail_net": -2781819,
-            "inst_net": 319290,
-            "foreign_net": 2462529
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.19",
+            "close": 1500000,
+            "change_pct": -9.75,
+            "retail_net": 1510628,
+            "inst_net": -311406,
+            "foreign_net": -1199222
+          },
           {
             "date": "2026.08.18",
             "close": 1662000,
@@ -282,14 +296,6 @@
             "retail_net": -753480,
             "inst_net": 193626,
             "foreign_net": 559854
-          },
-          {
-            "date": "2026.08.11",
-            "close": 1425000,
-            "change_pct": 0.35,
-            "retail_net": 142238,
-            "inst_net": 68354,
-            "foreign_net": -210592
           }
         ]
       }
