@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T13:57:17.324147+09:00",
+  "timestamp": "2026-08-19T14:38:30.772357+09:00",
   "sentiment": {
     "cnn_fng": 54.2857142857143,
     "cnn_components": {
@@ -14,19 +14,13 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 39,
+      "greed_count": 1,
+      "fear_count": 38,
       "greed_articles": [
         {
           "title": "[직설] AI 거품론 넘자 국채금리 폭탄…중동 리스크까지 덮친 코스피, 또 시험대? - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLREtIb25RNmRYYU1WT0lFRDhzOE9KUVZiRkZuSUUzSGpYR2V6S2tlOUZDa3RpQnZJNDliaXU5Nm9RdFFQcDc4YmhqUUxLSE0?oc=5",
           "pub_date": "Wed, 19 Aug 2026 04:46:27 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "고금리 발목 잡힌 코스피 5% 하락…개인, 저가 매수세에 6500 사수[장중시황] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sdEI3NFBITjVXMk5rM25ielpaQTF4WFBQMldtVEtET18wemJjd2E1d3RsV1dDSVdSdjdXRHlEcFQ3MEFBc1VGeTZ3aXdNNVU?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 03:09:51 GMT",
           "source": "v.daum.net"
         }
       ],
@@ -50,16 +44,16 @@
           "source": "경향신문"
         },
         {
+          "title": "코스피, 6% 급락 후 횡보…코스닥은 회복 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tdzU2ZlhYV0RHS2xhRFpWZ19semlvRHdsQmR5VTNJdFM3N0pYNktaVS1STy1EUXgydEpBRkRaRmMyZzYyMldWTmE5eEVTN1dyVDkwVV9HM2RZa1lhQWtsNQ?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 05:24:34 GMT",
+          "source": "아시아경제"
+        },
+        {
           "title": "글로벌 국채 급등 ‘쇼크’… 코스피 사이드카 ‘패닉’ - 문화일보",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xYUVXUEVXNU13Y0RmVy0ybGNPLXFDMi1TS0VIRzlYRGVaVG9iMEI3bDVBbWloa1dGNnVpaGZ5LVBld2ZxQWZlM0lxYUlOZDhY?oc=5",
           "pub_date": "Wed, 19 Aug 2026 03:08:30 GMT",
           "source": "문화일보"
-        },
-        {
-          "title": "코스피, 6% 급락 후 횡보…코스닥은 회복 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tdzU2ZlhYV0RHS2xhRFpWZ19semlvRHdsQmR5VTNJdFM3N0pYNktaVS1STy1EUXgydEpBRkRaRmMyZzYyMldWTmE5eEVTN1dyVDkwVV9HM2RZa1lhQWtsNQ?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 04:00:06 GMT",
-          "source": "아시아경제"
         }
       ]
     }
@@ -71,8 +65,8 @@
     "move": 74.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3986000000000,
-    "retail_net_buy_krw": 3830600000000,
+    "foreign_inst_buy_krw": -4109099999999,
+    "retail_net_buy_krw": 3943300000000,
     "margin_loan_krw": 30434400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +81,18 @@
       "sma_200": 24204.65
     },
     "kospi": {
-      "current": 6488.0,
+      "current": 6476.17,
       "high_52w": 9385.59,
-      "drop_pct": -30.87,
+      "drop_pct": -31.0,
       "intraday_low_drop_pct": -31.8,
-      "sma_200": 5901.09
+      "sma_200": 5901.03
     },
     "kosdaq": {
-      "current": 831.41,
+      "current": 828.89,
       "high_52w": 1229.42,
-      "drop_pct": -32.37,
+      "drop_pct": -32.58,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 994.61
+      "sma_200": 994.59
     },
     "sp500": {
       "current": 7691.76,
@@ -331,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 132.058,
+    "strategy_pct": 184.44,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -979,7 +973,7 @@
       },
       {
         "date": "2026-08-19",
-        "ret_pct": 132.058
+        "ret_pct": 184.44
       }
     ],
     "monthly_breakdown": [
@@ -1027,9 +1021,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -37.38,
-        "end_ret_pct": 132.06,
-        "max_dd_pct": 71.1
+        "return_pct": 15.0,
+        "end_ret_pct": 184.44,
+        "max_dd_pct": 18.72
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
