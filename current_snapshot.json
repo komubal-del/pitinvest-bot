@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T07:33:45.521283+09:00",
+  "timestamp": "2026-08-20T08:01:05.143459+09:00",
   "sentiment": {
     "cnn_fng": 56.3428571428571,
     "cnn_components": {
@@ -14,21 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 6,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_articles": [
         {
-          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 16:25:00 GMT",
-          "source": "한겨레"
-        },
+          "title": "[조간브리핑] 2030 ‘빚투’ 4조 돌파…증시 급락에 반대매매도 급증 - SBS Biz",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1scW11MXRxYURmdThPaVVwbkJOSWZDeThJRkEtU05OUjlKOGFFemN1VVFRbktLUVhueXA4VTZZRmtuM29UNGxVU2J1ZVZTN1V1LUlB0gFYQVVfeXFMTjhBNVYyaDYzWk9oNVZsRm1Fb2ZtSXY1cHhOMmlMWnFwVnZ3dENuV3h2M1paSV9QNnNUTkVmU0FDQnNtQ0x3Tm5sbThfYzBfSnpSeEJ0NFhSeA?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 21:01:00 GMT",
+          "source": "SBS Biz"
+        }
+      ],
+      "fear_articles": [
         {
           "title": "[영상] 코스피 5.8% 급락…여전히 반도체 좋게 보는 이유는 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aZVREQW9JbFpsVzRnT0NqbkpuOHRqclUtemRMMWUwY2RRX3JDMHpRdDdHVDJZWDBlYzU2TEFEMDgyOGJaX3NmUExnblhfYW8?oc=5",
           "pub_date": "Wed, 19 Aug 2026 21:13:07 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 16:25:00 GMT",
+          "source": "한겨레"
         },
         {
           "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
@@ -60,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -4811600000000,
     "retail_net_buy_krw": 4635700000000,
-    "margin_loan_krw": 30434400000000,
+    "margin_loan_krw": 30668600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -92,7 +99,7 @@
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7087.61
+      "sma_200": 7078.14
     },
     "russell2k": {
       "current": 3032.94,
