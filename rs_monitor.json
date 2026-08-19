@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T20:33:48.580539+09:00",
+  "timestamp": "2026-08-19T21:00:43.158554+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -1700,7 +1700,7 @@
         },
         {
           "ticker": "WFC",
-          "rs_roc": -0.0233,
+          "rs_roc": -0.0263,
           "price": 87.4
         }
       ],
@@ -2555,7 +2555,7 @@
     {
       "ticker": "XLI",
       "name": "Industrials",
-      "rs_roc": -0.0194,
+      "rs_roc": -0.0246,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -2866,14 +2866,6 @@
           "value": 0.9686
         },
         {
-          "date": "2026-07-21",
-          "value": 0.9635
-        },
-        {
-          "date": "2026-07-22",
-          "value": 0.9656
-        },
-        {
           "date": "2026-07-23",
           "value": 0.9946
         },
@@ -2896,10 +2888,6 @@
         {
           "date": "2026-07-30",
           "value": 0.9706
-        },
-        {
-          "date": "2026-07-31",
-          "value": 0.9715
         },
         {
           "date": "2026-08-03",
@@ -3377,7 +3365,7 @@
         },
         {
           "ticker": "HD",
-          "rs_roc": -0.0475,
+          "rs_roc": -0.0623,
           "price": 337.49
         },
         {
@@ -4232,7 +4220,7 @@
         },
         {
           "ticker": "KEYS",
-          "rs_roc": 0.0748,
+          "rs_roc": -0.01,
           "price": 341.0
         }
       ],
@@ -4674,14 +4662,11 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1391.3,
-      "change_30d_pct": -8.46
-    },
-    "us10y": {
-      "ticker": "^TNX",
-      "value": 4.71,
-      "change_30d_pp": 0.18
+      "value": 1392.22,
+      "change_30d_pct": -8.4
     }
   },
-  "errors": []
+  "errors": [
+    "^TNX: no data"
+  ]
 }
