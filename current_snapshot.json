@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T08:30:46.995267+09:00",
+  "timestamp": "2026-08-20T08:58:13.341233+09:00",
   "sentiment": {
     "cnn_fng": 56.3428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 8,
+      "fear_count": 9,
       "greed_articles": [
         {
           "title": "\"코스피, 사실상 13개 종목에 좌우\"…대형주 쏠림 경고한 이코노미스트 - 한국경제",
@@ -44,22 +44,22 @@
           "source": "v.daum.net"
         },
         {
-          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - hani.co.kr",
+          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
           "pub_date": "Wed, 19 Aug 2026 16:25:00 GMT",
-          "source": "hani.co.kr"
+          "source": "한겨레"
+        },
+        {
+          "title": "하이닉스 ‘40조 소각’ 카드…코스피 5.8% 폭락 딛고 반등하나 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VF80blJESXhkcGNDMDVQMW5LcFpBUXNxSndWTUJTNkF0Vllzdm40ZUwtLWJPUVpMVjd2SGl2bTQ3TUVpc21xejdwQVJyRXRqM0YwQ1NuM25rUQ?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 23:31:00 GMT",
+          "source": "경북매일"
         },
         {
           "title": "[월가 레이더] 美 뉴욕증시, 재무부 국채 환매 2배 확대에 반등…30년물 금리 급락 - 포커스온경제",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kb0VNLXJJMkxMdWZYLVZFNkZ4cHE0dkJocEx6Rm9kWWYxbXJSUmxTdFQ5WEgySGZJSEpEc2h6VzlMaWNvY2htWlczQ2Z6TlRCQkg3OGtWenQyMXdic2c?oc=5",
           "pub_date": "Wed, 19 Aug 2026 21:09:48 GMT",
           "source": "포커스온경제"
-        },
-        {
-          "title": "뉴욕증시, 장기금리 급락에 '반등'…테슬라 4%↑ - 뉴스웍스",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15Z2VDQkNteE04ZFQ1NXl1WlRGSUhUY2RIQWNMLXFJREN3LTJCTktWNTZwVVR6dURaSTZNQjh3c1EwWFlVMUtQN2NXU0NJM05oZ2xCS1cyLXVoYV9VNElJdGswbUZqdEdtRWdwa2ZwWdIBc0FVX3lxTE5jbGVYdEJmU1VpUXFtTk5aSnVJMEcyU1RmSHNBZjExX0VMMEpzX2xWa0NaalpiT2tsWml5Y24xSE85QzFhOGlJQTNDMmtHR0NTdjBoMzNrTHFFczBpSEp3cDEzTTVpY2JUTHhKek5KTngyVTA?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 20:58:36 GMT",
-          "source": "뉴스웍스"
         }
       ]
     }
@@ -84,35 +84,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.16,
       "intraday_low_drop_pct": -3.7,
-      "sma_200": 24190.73
+      "sma_200": 24218.4
     },
     "kospi": {
       "current": 6869.83,
       "high_52w": 9385.59,
       "drop_pct": -26.8,
       "intraday_low_drop_pct": -27.67,
-      "sma_200": 5845.41
+      "sma_200": 5888.35
     },
     "kosdaq": {
       "current": 834.2,
       "high_52w": 1229.42,
       "drop_pct": -32.15,
       "intraday_low_drop_pct": -32.65,
-      "sma_200": 995.5
+      "sma_200": 994.81
     },
     "sp500": {
       "current": 7707.98,
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7078.14
+      "sma_200": 7087.61
     },
     "russell2k": {
       "current": 3032.94,
       "high_52w": 3069.71,
       "drop_pct": -1.2,
       "intraday_low_drop_pct": -1.29,
-      "sma_200": 2704.62
+      "sma_200": 2711.73
     },
     "soxx": {
       "current": 519.67,
