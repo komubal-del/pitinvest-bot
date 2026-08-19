@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T16:47:35.616586+09:00",
+  "timestamp": "2026-08-19T17:48:30.552112+09:00",
   "sentiment": {
     "cnn_fng": 53.5714285714286,
     "cnn_components": {
@@ -18,6 +18,12 @@
       "fear_count": 47,
       "greed_articles": [
         {
+          "title": "부동산 대출에 증시 빚투까지… ‘가계빚’ 사상 첫 2000조원 괜찮나 - 더스쿠프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXa2NSdDNqZzFablJTekhqb05wM3VwVElZNmZIQXRUY0xaYzktUDRaMWs5d1Z0Mm91TnhfNEw2Y1MxQ20yRG5NcURuOEdWNDRyanlQbGotbFpySnVNOGM5eDJVNFktTURtNko2MUl3?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 07:47:46 GMT",
+          "source": "더스쿠프"
+        },
+        {
           "title": "'중동 불안'에 코스피 하락…전고점 회복 가능한가? - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82S1o0cl80eWYtRVBTRENPWDFEb25kN09OclB0OWUzcXRKQUo5WGZpTFBONktPMDRyYUhxQ0xibGpEVFNxYmpMZWhZcHZSeGs?oc=5",
           "pub_date": "Wed, 19 Aug 2026 05:37:08 GMT",
@@ -34,26 +40,20 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLREtIb25RNmRYYU1WT0lFRDhzOE9KUVZiRkZuSUUzSGpYR2V6S2tlOUZDa3RpQnZJNDliaXU5Nm9RdFFQcDc4YmhqUUxLSE0?oc=5",
           "pub_date": "Wed, 19 Aug 2026 04:46:27 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "\"증시 바닥 확인했지만…\" 윤지호 평론가의 '전고점' 전망 - hankyung.com",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95Qko4MW9OdnhlOXliOWtVb3owdUQtUVQ5c3FjQnQ1VlIzeElMTjNyMXhDUk5EYXFnZnNtdFlyZENkS1A4RnpLaXB5ZlJPS21uMFNteWZZSG92Zw?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 07:18:00 GMT",
-          "source": "hankyung.com"
         }
       ],
       "fear_articles": [
+        {
+          "title": "美 금리 충격에 코스피 급락…매도 사이드카 발동 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JX0RjbERFOV9VdS1Oam8zdjRMR2lxN1R0Mm5NSHB4ZHBrNmpDM2duV0gwR3VuUVl4UjVTZUcxTFMtbE1GalpOQ0xvSGxYb2x3QWcxUW5HQzY2S0VXdDVmLXVwV0dwN2s?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 01:27:00 GMT",
+          "source": "연합뉴스TV"
+        },
         {
           "title": "[食전食후] 코스피, 6400선 급락 후 낙폭 확대…외국인·기관 매도에 6500선 위태 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwRk15UUhBcmxKSjdmTjliNnBBckR6bU9LTnp6R2U0aE9vQ2JkcUl1c3U5NzB1ODZxV04tb2dNYmg0cmo3Q0V1ckx5ckJiNTg?oc=5",
           "pub_date": "Wed, 19 Aug 2026 04:30:02 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, 6% 가까이 급락‥환율은 10개월여 만에 1,300원대 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUYXAtV0RZRy1YeTc4OS1YWFJhUGNmcjNMLXNtY2VxaTZyZk1GQTRQNVNQWXR3U28xSGJZODJjUGU4X0Y5cUY1MnR4MTJqb2wtOTc3WkNiamZPdkExNXlaNGVZXzdEYXRHdHN6bGZwR0N4WENC0gF0QVVfeXFMUE11b2hEUWlaTmVoM3k0MzlrZHJqWkhBYnItUHpjZ3BOX1NWYmtRMHhHNjd5UXZjWjhITkJjX1pjdVA1NmQxZzlIbGxjd0lpM2VnYmpQUXdWSWkyLWotNlhEdU0xOTRTWmlrWnFtZkhnaW5IcWU?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 06:53:17 GMT",
-          "source": "MBC 뉴스"
         },
         {
           "title": "반도체 되돌림에 대외 불안까지…코스피 5.8% 급락 - 전자신문",
@@ -62,9 +62,9 @@
           "source": "전자신문"
         },
         {
-          "title": "[증시-마감] 코스피, 금리 발작에 5.8% 급락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yaGdsanhvd0luZkxTZ3ZuMVltSFNuVHZwYmZIU3Y1V2JjQ0dzeWx1SXR1Q0Y5T1Z4cEZuclYwNHo3a2dBNmhPd3pZTm9RbGM5WmFmSXVHMWY3T2pqMXhRX2lXYUxKTW9OaTBwcDB0RVo?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 07:15:20 GMT",
+          "title": "[증시-마감] 코스피, 금리 발작에 5.8% 급락 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ac3pGUDA2TEdGOTk4SnVQanI0SlR2SXZ0VDV3cER0Nk0xa1p6SzVYaTBJNjNxSHFia3AxRFFZb2lNYlV1SllmYWZDSm5zVTNYYS01UjY3TFRpRTBRdk1mekNDY3lTMzJMd01FeUQwZ3ZPUDNQ?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 07:20:24 GMT",
           "source": "연합인포맥스"
         },
         {
@@ -77,14 +77,14 @@
     }
   },
   "volatility": {
-    "vix": 15.83,
+    "vix": 15.81,
     "vvix": 92.87,
     "skew": 143.6,
     "move": 74.98
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -4811600000000,
-    "retail_net_buy_krw": 4635700000000,
+    "retail_net_buy_krw": 4635600000000,
     "margin_loan_krw": 30434400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -96,7 +96,7 @@
       "high_52w": 27190.21,
       "drop_pct": -3.31,
       "intraday_low_drop_pct": -3.4,
-      "sma_200": 24204.65
+      "sma_200": 24177.26
     },
     "kospi": {
       "current": 6471.17,
@@ -110,14 +110,14 @@
       "high_52w": 1229.42,
       "drop_pct": -32.94,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 994.57
+      "sma_200": 995.26
     },
     "sp500": {
       "current": 7691.76,
       "high_52w": 7816.7,
       "drop_pct": -1.6,
       "intraday_low_drop_pct": -1.64,
-      "sma_200": 7083.18
+      "sma_200": 7073.97
     },
     "russell2k": {
       "current": 3017.89,
