@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T07:00:33.950519+09:00",
+  "timestamp": "2026-08-20T07:33:45.521283+09:00",
   "sentiment": {
     "cnn_fng": 56.3428571428571,
     "cnn_components": {
@@ -25,16 +25,16 @@
           "source": "한겨레"
         },
         {
-          "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OOGl6bEJDOFhEVDBheGZndVNFd2tYVlNzZE8zTmRNMWoySi1BSU9uZnRscjBkNkF0UnJVaWRsd0FidmNFcWttVzd1cDZpMldrejBjVy1taF9xRXM0S3c?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 19:03:00 GMT",
-          "source": "YTN"
-        },
-        {
           "title": "[영상] 코스피 5.8% 급락…여전히 반도체 좋게 보는 이유는 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aZVREQW9JbFpsVzRnT0NqbkpuOHRqclUtemRMMWUwY2RRX3JDMHpRdDdHVDJZWDBlYzU2TEFEMDgyOGJaX3NmUExnblhfYW8?oc=5",
           "pub_date": "Wed, 19 Aug 2026 21:13:07 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OOGl6bEJDOFhEVDBheGZndVNFd2tYVlNzZE8zTmRNMWoySi1BSU9uZnRscjBkNkF0UnJVaWRsd0FidmNFcWttVzd1cDZpMldrejBjVy1taF9xRXM0S3c?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 19:03:00 GMT",
+          "source": "YTN"
         },
         {
           "title": "[월가 레이더] 美 뉴욕증시, 재무부 국채 환매 2배 확대에 반등…30년물 금리 급락 - 포커스온경제",
@@ -92,7 +92,7 @@
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7078.14
+      "sma_200": 7087.61
     },
     "russell2k": {
       "current": 3032.94,
