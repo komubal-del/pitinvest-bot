@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T08:57:51.762729+09:00",
+  "timestamp": "2026-08-19T10:46:35.109165+09:00",
   "sentiment": {
     "cnn_fng": 54.4,
     "cnn_components": {
@@ -15,38 +15,38 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 11,
+      "fear_count": 51,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "5.3% 치솟은 美 30년물…EWY 8% 급락에도 코스피 \"하방경직 기대\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVREp5ZDd6RjMtTmtqNmo1WXdhZVl2SHNaLTZCOUctRWhkS0JEZE01UlBlX3JzZTUzdU9RNGlSM2trTk1ONk1wZG5PRzF4TmN0VVlVZUlNSTliRWMwdlZUVmhCTXh2NVdmNEV1N01PeGw?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 22:59:05 GMT",
-          "source": "연합인포맥스"
+          "title": "[속보]코스피, 6% 급락에 매도 사이드카…국채금리 급등 여파 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QakhFaC10THdtZkVUejUwcm1VOTlBVV9nQXQ3Wm4tNVRkQUZBQlVOTUppamxyb2luSVJVTkp5UHNxdjRaaEl1b080NEpTU19jNEVsdGxaODZyd9IBX0FVX3lxTE1ZTjdxTXNya0RMb09YeHUtV3lNQU9XS3BYWjlZT0wxSURXZEZKMU5PR05hSjgzbFo5bUR3M1NsOUtWUzdmaFZvUE9WWmJoQ2tYbmF3enF6S0RQOW1DT3lF?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 00:17:00 GMT",
+          "source": "경향신문"
         },
         {
-          "title": "코스피, 장중 하락 전환...1.6% 내려 6,800대 마감 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1WZ0x1a1ZpVWFhV0JUYlBuRVFNekktTHRHc1lKRi02cWROQzdacnNkNHZYaXZwVkpiMnAxWjkyT3JCTTM1TkRYNXJnNVRQVmJSV3hrVDlVNGcyRTVnSGc?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 19:25:00 GMT",
-          "source": "YTN"
+          "title": "美 금리 충격에 코스피 급락…매도 사이드카 발동 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JX0RjbERFOV9VdS1Oam8zdjRMR2lxN1R0Mm5NSHB4ZHBrNmpDM2duV0gwR3VuUVl4UjVTZUcxTFMtbE1GalpOQ0xvSGxYb2x3QWcxUW5HQzY2S0VXdDVmLXVwV0dwN2s?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 01:27:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[AI MY 뉴스] 19일 중국증시 '기술주 희비 교차, 유니트리 상장 vs 美 기술주 급락' - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoUGhVMGREbE1zNmZremhsSzc2LTNtN2t5bmx2a0d2OXlpYnBhLVZpempQZjlHbUxiWnlwWXRaeWtpRzh3a1hWOGozd1RPUWEzemQtS2gxQ1JPZ0NU?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 23:49:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피, 장초반 5∼6%대 급락…매도 사이드카 발동 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYT0RHc0JCV2I2WHJabTRQOTVBQWRQelVUcVV5bVVWYmlKNjZrcUN5S0JhOUxOamJ6eHNhZmNuZVRwTEFLYUROUGg0TEdtbDlBT0I0cWdqQkxkbDTSAWBBVV95cUxPQWw0alRRbk5yVlRqT1U1aVYwNWVrQTZYUVVKcXBUaVBFcktCbkVkWlBnNVRMQ09xTm9mVm1hYUl2Z1VzV2oxYlpobTN6ZEYtWmN0V01sQ0xpZmZCNFJnLWw?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 00:14:11 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "코스피 7000선 복귀 시도…급락 종목 10곳 중 6곳 가격 회복 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SMFo0Q0dUX2Y5T3ppS1F3TnpVdWNTYTZOU04tUHVLd2ZnakVlLTdCcXZpX0x6Q214QzZjcDR6eU40WldmVkpMU1Vwc2l4Umo3aGFvVg?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 21:00:00 GMT",
-          "source": "이투데이"
+          "title": "코스피 6% 급락, 6500선 무너져…2주 만에 매도 사이드카 - hani.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xa1QxeU9mVXFPZDNQZHM1M2loT3NlbGQ2WlB1TWx1LVF0dndIREw0TF92VWRNV2xSdllMcE1JQXFHZkpWOVJvU2lJZ01FbU1WbmFONTJuUkxuYUo4SlY0OF9Va2lfSEk?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 01:11:00 GMT",
+          "source": "hani.co.kr"
         },
         {
-          "title": "[0819개장체크] 美 증시, 중동 지정학적 리스크·국채금리 폭등에 일제히 급락… 나스닥 1.3%↓ By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lb1VaWUc4U0twa21qZDFiYWxUbUZYd1ZEZmJJc3NGVmdwb1ZUdEszY3RRd0NWV0Jsd1lRS2tMczM3bjMxOG55aWEzSElPVEo5UGhVTDNvcXVmemZjSWdkZ1RYTlh4ZkRjWXdBQlBST2E?oc=5",
-          "pub_date": "Tue, 18 Aug 2026 23:39:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "코스피 급락에 매도 사이드카 발동 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWNEl2RlUyZ1BJR2ZPZ0pmanN0T09lZzhiZXhJeTFYN1ExamVKaGpkUk1ienFJQzRxY09XX0lkTDJKS1RrTVY1S1pWNVgxZw?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 00:28:10 GMT",
+          "source": "전자신문"
         }
       ]
     }
@@ -58,8 +58,8 @@
     "move": 74.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -703700000000,
-    "retail_net_buy_krw": 742000000000,
+    "foreign_inst_buy_krw": -2486400000000,
+    "retail_net_buy_krw": 2379100000000,
     "margin_loan_krw": 30434400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -71,21 +71,21 @@
       "high_52w": 27190.21,
       "drop_pct": -3.31,
       "intraday_low_drop_pct": -3.4,
-      "sma_200": 24204.65
+      "sma_200": 24177.26
     },
     "kospi": {
-      "current": 6977.94,
+      "current": 6576.22,
       "high_52w": 9385.59,
-      "drop_pct": -25.65,
-      "intraday_low_drop_pct": -27.03,
-      "sma_200": 5873.23
+      "drop_pct": -29.93,
+      "intraday_low_drop_pct": -31.8,
+      "sma_200": 5901.53
     },
     "kosdaq": {
-      "current": 864.65,
+      "current": 836.24,
       "high_52w": 1229.42,
-      "drop_pct": -29.67,
-      "intraday_low_drop_pct": -31.24,
-      "sma_200": 995.03
+      "drop_pct": -31.98,
+      "intraday_low_drop_pct": -34.6,
+      "sma_200": 995.51
     },
     "sp500": {
       "current": 7691.76,
@@ -177,7 +177,7 @@
       "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
