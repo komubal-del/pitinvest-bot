@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T10:46:35.109165+09:00",
+  "timestamp": "2026-08-19T11:44:44.346950+09:00",
   "sentiment": {
     "cnn_fng": 54.4,
     "cnn_components": {
@@ -31,22 +31,22 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피, 장초반 5∼6%대 급락…매도 사이드카 발동 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYT0RHc0JCV2I2WHJabTRQOTVBQWRQelVUcVV5bVVWYmlKNjZrcUN5S0JhOUxOamJ6eHNhZmNuZVRwTEFLYUROUGg0TEdtbDlBT0I0cWdqQkxkbDTSAWBBVV95cUxPQWw0alRRbk5yVlRqT1U1aVYwNWVrQTZYUVVKcXBUaVBFcktCbkVkWlBnNVRMQ09xTm9mVm1hYUl2Z1VzV2oxYlpobTN6ZEYtWmN0V01sQ0xpZmZCNFJnLWw?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 00:14:11 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 6% 급락, 6500선 무너져…2주 만에 매도 사이드카 - hani.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xa1QxeU9mVXFPZDNQZHM1M2loT3NlbGQ2WlB1TWx1LVF0dndIREw0TF92VWRNV2xSdllMcE1JQXFHZkpWOVJvU2lJZ01FbU1WbmFONTJuUkxuYUo4SlY0OF9Va2lfSEk?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 01:11:00 GMT",
-          "source": "hani.co.kr"
-        },
-        {
           "title": "코스피 급락에 매도 사이드카 발동 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWNEl2RlUyZ1BJR2ZPZ0pmanN0T09lZzhiZXhJeTFYN1ExamVKaGpkUk1ienFJQzRxY09XX0lkTDJKS1RrTVY1S1pWNVgxZw?oc=5",
           "pub_date": "Wed, 19 Aug 2026 00:28:10 GMT",
           "source": "전자신문"
+        },
+        {
+          "title": "日 증시, 美 반도체 급락 하락…닛케이 3%대 ↓ - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwb0VmRk1uZk1JckZKazBDQ1ExS3RhSkhZdWI3MXVFeWl0TzhkMzBXZWZnQVhkQW9acXlmbnl6bk45dFVscWllNERpSmZkMnVTQTdGZ1Vod3piYjhHSlFWVkg2eWR3Y3ZQSUUyYXFudVY?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 02:24:12 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 글로벌 고금리에 장중 5%대↓…삼전닉스 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55bFExMGFmblpJX3FMaEJhSm1rb0kweUJYTHNLWnJoWkVSQzBBNUhmTEI4aUNJM0hkYzFoeElfZ1hLVVMyNFBMclkzaGxETzQ?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 02:22:39 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -58,8 +58,8 @@
     "move": 74.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2486400000000,
-    "retail_net_buy_krw": 2379100000000,
+    "foreign_inst_buy_krw": -2922600000000,
+    "retail_net_buy_krw": 2799700000000,
     "margin_loan_krw": 30434400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +74,18 @@
       "sma_200": 24177.26
     },
     "kospi": {
-      "current": 6576.22,
+      "current": 6512.37,
       "high_52w": 9385.59,
-      "drop_pct": -29.93,
+      "drop_pct": -30.61,
       "intraday_low_drop_pct": -31.8,
-      "sma_200": 5901.53
+      "sma_200": 5901.21
     },
     "kosdaq": {
-      "current": 836.24,
+      "current": 831.69,
       "high_52w": 1229.42,
-      "drop_pct": -31.98,
+      "drop_pct": -32.35,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 995.51
+      "sma_200": 994.48
     },
     "sp500": {
       "current": 7691.76,
