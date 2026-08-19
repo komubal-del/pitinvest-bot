@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T05:37:48.756637+09:00",
+  "timestamp": "2026-08-20T06:02:39.061787+09:00",
   "sentiment": {
     "cnn_fng": 56.3428571428571,
     "cnn_components": {
@@ -19,12 +19,6 @@
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 16:25:00 GMT",
-          "source": "한겨레"
-        },
-        {
           "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OOGl6bEJDOFhEVDBheGZndVNFd2tYVlNzZE8zTmRNMWoySi1BSU9uZnRscjBkNkF0UnJVaWRsd0FidmNFcWttVzd1cDZpMldrejBjVy1taF9xRXM0S3c?oc=5",
           "pub_date": "Wed, 19 Aug 2026 19:03:00 GMT",
@@ -35,6 +29,12 @@
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54dEpYc0ZsV1NKSzlGbGRJbjJaY0syOUxSQUVub1IzMWdJYlJmUWZIRFNKckZmQTNfWXU4MWRPRWpiOGtFSEFWUTJPN1dKOFlMV3IxWjlpdXQ1Q0JGTXFYdHZRbUpkN1pIQTNmdUZWZF9wNXdtdkJrMDVtdmdCUQ?oc=5",
           "pub_date": "Wed, 19 Aug 2026 16:42:05 GMT",
           "source": "서울신문"
+        },
+        {
+          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
+          "pub_date": "Wed, 19 Aug 2026 16:25:00 GMT",
+          "source": "한겨레"
         }
       ]
     }
@@ -43,7 +43,7 @@
     "vix": 14.89,
     "vvix": 86.53,
     "skew": 143.6,
-    "move": 74.98
+    "move": 71.26
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -4811600000000,
@@ -80,7 +80,7 @@
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7087.61
+      "sma_200": 7078.14
     },
     "russell2k": {
       "current": 3032.94,
@@ -306,7 +306,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.919,
+    "strategy_pct": 183.941,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -958,7 +958,7 @@
       },
       {
         "date": "2026-08-20",
-        "ret_pct": 183.919
+        "ret_pct": 183.941
       }
     ],
     "monthly_breakdown": [
@@ -1006,9 +1006,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 14.48,
-        "end_ret_pct": 183.92,
-        "max_dd_pct": 19.24
+        "return_pct": 14.5,
+        "end_ret_pct": 183.94,
+        "max_dd_pct": 19.22
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
