@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T17:50:19.838492+09:00",
+  "timestamp": "2026-08-20T18:43:11.613685+09:00",
   "sentiment": {
     "cnn_fng": 57.0,
     "cnn_components": {
@@ -34,7 +34,7 @@
     }
   },
   "volatility": {
-    "vix": 15.3,
+    "vix": 15.12,
     "vvix": 86.53,
     "skew": 142.93,
     "move": 71.26
@@ -53,35 +53,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.16,
       "intraday_low_drop_pct": -3.7,
-      "sma_200": 24190.73
+      "sma_200": 24218.4
     },
     "kospi": {
       "current": 6852.58,
       "high_52w": 9385.59,
       "drop_pct": -26.99,
       "intraday_low_drop_pct": -29.68,
-      "sma_200": 5873.5
+      "sma_200": 5915.05
     },
     "kosdaq": {
       "current": 840.89,
       "high_52w": 1229.42,
       "drop_pct": -31.6,
       "intraday_low_drop_pct": -32.11,
-      "sma_200": 995.05
+      "sma_200": 994.36
     },
     "sp500": {
       "current": 7707.98,
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7078.14
+      "sma_200": 7087.61
     },
     "russell2k": {
       "current": 3032.94,
       "high_52w": 3069.71,
       "drop_pct": -1.2,
       "intraday_low_drop_pct": -1.29,
-      "sma_200": 2704.62
+      "sma_200": 2711.73
     },
     "soxx": {
       "current": 519.67,
@@ -156,16 +156,24 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
-      "hynix_retail_buying": true,
+      "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.20",
+            "close": 271000,
+            "change_pct": 9.49,
+            "retail_net": -4821492,
+            "inst_net": 599886,
+            "foreign_net": 4221606
+          },
           {
             "date": "2026.08.19",
             "close": 247500,
@@ -197,17 +205,17 @@
             "retail_net": -5143398,
             "inst_net": 5544777,
             "foreign_net": -401379
-          },
-          {
-            "date": "2026.08.12",
-            "close": 255500,
-            "change_pct": 6.68,
-            "retail_net": -6579337,
-            "inst_net": 776871,
-            "foreign_net": 5802466
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.20",
+            "close": 1691000,
+            "change_pct": 12.73,
+            "retail_net": -299759,
+            "inst_net": -13214,
+            "foreign_net": 312973
+          },
           {
             "date": "2026.08.19",
             "close": 1500000,
@@ -239,14 +247,6 @@
             "retail_net": -808951,
             "inst_net": 159109,
             "foreign_net": 649842
-          },
-          {
-            "date": "2026.08.12",
-            "close": 1504000,
-            "change_pct": 5.54,
-            "retail_net": -753480,
-            "inst_net": 193626,
-            "foreign_net": 559854
           }
         ]
       }
