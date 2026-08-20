@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T20:03:26.746687+09:00",
+  "timestamp": "2026-08-20T20:36:18.053382+09:00",
   "sentiment": {
     "cnn_fng": 57.0,
     "cnn_components": {
@@ -28,7 +28,7 @@
     }
   },
   "volatility": {
-    "vix": 15.13,
+    "vix": 15.22,
     "vvix": 86.53,
     "skew": 142.93,
     "move": 71.26
@@ -61,7 +61,7 @@
       "high_52w": 1229.42,
       "drop_pct": -31.6,
       "intraday_low_drop_pct": -32.11,
-      "sma_200": 994.14
+      "sma_200": 995.05
     },
     "sp500": {
       "current": 7707.98,
