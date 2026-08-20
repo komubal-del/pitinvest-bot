@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-21T05:02:24.966915+09:00",
+  "timestamp": "2026-08-21T05:38:14.391906+09:00",
   "sentiment": {
-    "cnn_fng": 52.8857142857143,
+    "cnn_fng": 52.4857142857143,
     "cnn_components": {
-      "momentum": 37.0,
+      "momentum": 35.8,
       "strength": 28.0,
-      "breadth": 57.0,
+      "breadth": 56.2,
       "put_call": 40.2,
       "junk_bond": 94.6,
       "volatility": 50.0,
@@ -15,14 +15,21 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[뉴욕증시] 국채 수익률·유가 급등-월마트 폭락에 투심 꽁꽁...3대지수↓ - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY190dy1VZ2xWWWNzYTBVVW4zX0VQcTJCQU9IdjhlMlQzU2JFQUN4ZXlrbjYtZTIyRnptaWxhenRfRVkwSi1jYWtNREtUeWNYakJQTm04MmE0Qk10akJ5NzV0b3NpZmVLN0p0bXYwa2pSRnpQdmJTMVhqc0F2V21fbGZJVElTRGlI?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 20:36:30 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 16.06,
-    "vvix": 89.99,
+    "vix": 16.01,
+    "vvix": 89.86,
     "skew": 142.93,
     "move": 71.26
   },
@@ -40,35 +47,35 @@
       "high_52w": 27190.21,
       "drop_pct": -4.13,
       "intraday_low_drop_pct": -4.29,
-      "sma_200": 24201.93
+      "sma_200": 24230.11
     },
     "kospi": {
       "current": 6471.17,
       "high_52w": 9385.59,
       "drop_pct": -31.05,
       "intraday_low_drop_pct": -31.8,
-      "sma_200": 5858.65
+      "sma_200": 5901.0
     },
     "kosdaq": {
       "current": 824.46,
       "high_52w": 1229.42,
       "drop_pct": -32.94,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 995.26
+      "sma_200": 994.57
     },
     "sp500": {
-      "current": 7641.63,
+      "current": 7641.16,
       "high_52w": 7816.7,
-      "drop_pct": -2.24,
+      "drop_pct": -2.25,
       "intraday_low_drop_pct": -2.27,
-      "sma_200": 7081.89
+      "sma_200": 7091.61
     },
     "russell2k": {
-      "current": 2991.46,
+      "current": 2992.43,
       "high_52w": 3069.71,
-      "drop_pct": -2.55,
+      "drop_pct": -2.52,
       "intraday_low_drop_pct": -2.62,
-      "sma_200": 2707.05
+      "sma_200": 2714.29
     },
     "soxx": {
       "current": 522.35,
@@ -126,7 +133,7 @@
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 128.4,
+    "soxl_profit_pct": 128.43,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -287,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.49,
+    "strategy_pct": 185.618,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -943,7 +950,7 @@
       },
       {
         "date": "2026-08-21",
-        "ret_pct": 185.49
+        "ret_pct": 185.618
       }
     ],
     "monthly_breakdown": [
@@ -991,8 +998,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 16.05,
-        "end_ret_pct": 185.49,
+        "return_pct": 16.18,
+        "end_ret_pct": 185.62,
         "max_dd_pct": 18.16
       }
     ],
