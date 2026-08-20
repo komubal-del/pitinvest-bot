@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T21:01:41.756792+09:00",
+  "timestamp": "2026-08-20T22:04:33.062671+09:00",
   "sentiment": {
     "cnn_fng": 57.0,
     "cnn_components": {
@@ -28,7 +28,7 @@
     }
   },
   "volatility": {
-    "vix": 15.37,
+    "vix": 15.91,
     "vvix": 86.53,
     "skew": 142.93,
     "move": 71.26
