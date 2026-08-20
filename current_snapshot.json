@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T13:58:56.411277+09:00",
+  "timestamp": "2026-08-20T14:38:35.256087+09:00",
   "sentiment": {
     "cnn_fng": 56.2,
     "cnn_components": {
@@ -14,15 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 6,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
-        {
-          "title": "\"코스피, 사실상 13개 종목에 좌우\"…대형주 쏠림 경고한 이코노미스트 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpU21CelQwUk16OUdkNndndF9vZl9zQ2tEQkZWaG5QLTgzZk0xVFgwUllud19WVjhmTDZkZ1VLQ0RuWEtyWEkzZ1JGVzVTQ2tpQ09aSndfejRnQQ?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 23:00:05 GMT",
-          "source": "한국경제"
-        },
         {
           "title": "코스피, 개인 '사자'에 3%대 강세…반도체 저가 매수 유입 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GYTJEOFFQRVF6ZmN3cVh4UWx2aVl4bGpyUER2MEdHNVhCN295dEFrZDlsUlJLci15Z0FHcURUTDJ3NDRIdFlobmk1OTdkUTQzcjY2SUUzY1A2UnlQeHRlNkF3bE1idVp4emtVUV8zcEo?oc=5",
@@ -39,7 +33,7 @@
         },
         {
           "title": "대외 악재에 급락한 코스피...오늘 증시는? - YTN",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMlJ2VzllbVdVTUJBaFJUa0RaeENCcTdjZ3ZOM0hWcVBVWHNmQV8wV21lQXZwR2FsMzVySlhMbVBQYkN0ank2UnBUb3licDB6QlNOemJ6R3ViT0VQZEg2UmVSUzNFQmVibnNPWjh2RUZXRWl1ZTZPellIVWs5dGdTOEJXcw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2X1pMbEZEWlNEU0UxZmRGYXU4Q2NYRExQMzBNUDRyZHU2aFMtMmI4NUdGN1RGazNYMkRYVTBiWXZ3ZDh4SnpkTUpLZlZWWWg1QTZiUnIyeVhZV25wMkE?oc=5",
           "pub_date": "Thu, 20 Aug 2026 00:03:00 GMT",
           "source": "YTN"
         },
@@ -50,16 +44,16 @@
           "source": "v.daum.net"
         },
         {
-          "title": "코스피, 전날 6% 급락 딛고 4%대 반등…6700선 회복 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUG9DOFlKWTJEbVdCQWdlaDZlXzV2VXI2YVlnYmttcUJXTWJBTnloMXA2S2U0WjdXTzg3anFScmhDT2puZDJwVTRmbURGQk5NcXNTcExyeE9XaHZkb1R3Qw?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 00:30:52 GMT",
-          "source": "뉴스토마토"
-        },
-        {
           "title": "[속보] 코스피, 전일 급락 딛고 3%대 상승 출발 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XSjlnMGpZLWxHQzlmTE9qSVBrOHFGemVqN2NDb1dtQS1fMjVuYWNzR3BsVjIzVnRVcWtLbmVXNGNZZGtCdC02UXlZYjgzU3gwQjVHdG0wTHdGSWxLMnlUetIBYEFVX3lxTE1XSjlnMGpZLWxHQzlmTE9qSVBrOHFGemVqN2NDb1dtQS1fMjVuYWNzR3BsVjIzVnRVcWtLbmVXNGNZZGtCdC02UXlZYjgzU3gwQjVHdG0wTHdGSWxLMnlUeg?oc=5",
           "pub_date": "Thu, 20 Aug 2026 00:02:41 GMT",
           "source": "연합뉴스"
+        },
+        {
+          "title": "코스피, 전날 6% 급락 딛고 4%대 반등…6700선 회복 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUG9DOFlKWTJEbVdCQWdlaDZlXzV2VXI2YVlnYmttcUJXTWJBTnloMXA2S2U0WjdXTzg3anFScmhDT2puZDJwVTRmbURGQk5NcXNTcExyeE9XaHZkb1R3Qw?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:30:52 GMT",
+          "source": "뉴스토마토"
         }
       ]
     }
@@ -71,8 +65,8 @@
     "move": 71.26
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1598300000000,
-    "retail_net_buy_krw": -2463400000000,
+    "foreign_inst_buy_krw": 1456700000000,
+    "retail_net_buy_krw": -2448600000000,
     "margin_loan_krw": 30668600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -84,35 +78,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.16,
       "intraday_low_drop_pct": -3.7,
-      "sma_200": 24190.73
+      "sma_200": 24218.4
     },
     "kospi": {
-      "current": 6856.84,
+      "current": 6844.52,
       "high_52w": 9385.59,
-      "drop_pct": -26.94,
+      "drop_pct": -27.07,
       "intraday_low_drop_pct": -29.68,
-      "sma_200": 5873.52
+      "sma_200": 5915.01
     },
     "kosdaq": {
-      "current": 840.07,
+      "current": 838.44,
       "high_52w": 1229.42,
-      "drop_pct": -31.67,
-      "intraday_low_drop_pct": -32.05,
-      "sma_200": 995.05
+      "drop_pct": -31.8,
+      "intraday_low_drop_pct": -32.11,
+      "sma_200": 994.35
     },
     "sp500": {
       "current": 7707.98,
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7078.14
+      "sma_200": 7087.61
     },
     "russell2k": {
       "current": 3032.94,
       "high_52w": 3069.71,
       "drop_pct": -1.2,
       "intraday_low_drop_pct": -1.29,
-      "sma_200": 2704.62
+      "sma_200": 2711.73
     },
     "soxx": {
       "current": 519.67,
