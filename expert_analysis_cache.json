@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-19",
-  "analyzed_at": "2026-08-19T13:57:22.517829+09:00",
+  "date": "2026-08-20",
+  "analyzed_at": "2026-08-20T13:20:57.145411+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,29 +8,29 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "9r9AKeWDWTU",
-      "title": "\"이번은 7월과 다릅니다\" 금리가 시장을 흔든다…하반기 대응 전략은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-08-19T00:12:29Z",
-      "url": "https://youtube.com/watch?v=9r9AKeWDWTU",
+      "video_id": "6EnNyHiBvG4",
+      "title": "반도체에 바이오 같이 간다? 시장 분위기 바뀌었다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-08-20T00:02:33Z",
+      "url": "https://youtube.com/watch?v=6EnNyHiBvG4",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "전문가는 금리 변동성으로 시장이 흔들리고 있다는 상황을 설명하고 하반기 대응 전략을 모색해야 한다고 언급했지만, 구체적인 매도나 비중 축소와 같은 행동 권고는 포함되어 있지 않습니다."
+        "reason": "영상 설명란에는 '시장 분위기 바뀌었다'는 내용과 특정 섹터의 동반 상승 가능성에 대한 질문만 있을 뿐, 구체적인 매수/매도 또는 비중 조절과 같은 투자 행동 권고가 명확히 제시되어 있지 않습니다."
       }
     },
     {
-      "video_id": "OutXhDAMIaI",
-      "title": "반도체 급락과 반등...어떻게 해석해요? | 윤지호 경제평론가 [주말인터뷰]",
-      "published": "2026-08-01T23:00:32Z",
-      "url": "https://youtube.com/watch?v=OutXhDAMIaI",
+      "video_id": "TXyhkjSn74E",
+      "title": "시장은 당신의 매수가격을 기억하지 않는다 (윤지호) | 인포맥스라이브 2026년 8월 19일 방송",
+      "published": "2026-08-19T12:17:36Z",
+      "url": "https://youtube.com/watch?v=TXyhkjSn74E",
       "text_source": "description",
       "transcript_available": false,
-      "is_stale_fallback": true,
+      "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 제목이 '반도체 급락과 반등을 어떻게 해석할지'를 묻는 분석적인 질문이며, 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없습니다."
+        "reason": "영상 설명란의 질문들은 시장의 다양한 현상과 추세, 잠재적 리스크를 분석하려는 중립적인 질문들로 구성되어 있으며, '현금화', '비중 축소', '매도' 같은 구체적인 행동 권고가 없기 때문에 중립적인 입장을 취한다."
       }
     }
   ],
