@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T08:02:38.826738+09:00",
+  "timestamp": "2026-08-21T08:33:59.366715+09:00",
   "sentiment": {
     "cnn_fng": 52.4857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 7,
+      "fear_count": 8,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -71,35 +71,35 @@
       "high_52w": 27190.21,
       "drop_pct": -4.13,
       "intraday_low_drop_pct": -4.29,
-      "sma_200": 24230.11
+      "sma_200": 24201.93
     },
     "kospi": {
       "current": 6471.17,
       "high_52w": 9385.59,
       "drop_pct": -31.05,
       "intraday_low_drop_pct": -31.8,
-      "sma_200": 5901.0
+      "sma_200": 5858.65
     },
     "kosdaq": {
       "current": 824.46,
       "high_52w": 1229.42,
       "drop_pct": -32.94,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 994.57
+      "sma_200": 995.26
     },
     "sp500": {
       "current": 7641.16,
       "high_52w": 7816.7,
       "drop_pct": -2.25,
       "intraday_low_drop_pct": -2.27,
-      "sma_200": 7091.61
+      "sma_200": 7081.89
     },
     "russell2k": {
       "current": 2992.43,
       "high_52w": 3069.71,
       "drop_pct": -2.52,
       "intraday_low_drop_pct": -2.62,
-      "sma_200": 2714.29
+      "sma_200": 2707.05
     },
     "soxx": {
       "current": 522.35,
