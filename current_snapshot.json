@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T08:58:13.341233+09:00",
+  "timestamp": "2026-08-20T10:45:04.108595+09:00",
   "sentiment": {
     "cnn_fng": 56.3428571428571,
     "cnn_components": {
@@ -18,48 +18,48 @@
       "fear_count": 9,
       "greed_articles": [
         {
+          "title": "코스피, 개인 '사자'에 3%대 강세…반도체 저가 매수 유입 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GYTJEOFFQRVF6ZmN3cVh4UWx2aVl4bGpyUER2MEdHNVhCN295dEFrZDlsUlJLci15Z0FHcURUTDJ3NDRIdFlobmk1OTdkUTQzcjY2SUUzY1A2UnlQeHRlNkF3bE1idVp4emtVUV8zcEo?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:19:48 GMT",
+          "source": "연합인포맥스"
+        },
+        {
           "title": "\"코스피, 사실상 13개 종목에 좌우\"…대형주 쏠림 경고한 이코노미스트 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpU21CelQwUk16OUdkNndndF9vZl9zQ2tEQkZWaG5QLTgzZk0xVFgwUllud19WVjhmTDZkZ1VLQ0RuWEtyWEkzZ1JGVzVTQ2tpQ09aSndfejRnQQ?oc=5",
           "pub_date": "Wed, 19 Aug 2026 23:00:05 GMT",
           "source": "한국경제"
-        },
-        {
-          "title": "[조간브리핑] 2030 ‘빚투’ 4조 돌파…증시 급락에 반대매매도 급증 - SBS Biz",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1scW11MXRxYURmdThPaVVwbkJOSWZDeThJRkEtU05OUjlKOGFFemN1VVFRbktLUVhueXA4VTZZRmtuM29UNGxVU2J1ZVZTN1V1LUlB0gFYQVVfeXFMTjhBNVYyaDYzWk9oNVZsRm1Fb2ZtSXY1cHhOMmlMWnFwVnZ3dENuV3h2M1paSV9QNnNUTkVmU0FDQnNtQ0x3Tm5sbThfYzBfSnpSeEJ0NFhSeA?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 21:01:00 GMT",
-          "source": "SBS Biz"
         }
       ],
       "fear_articles": [
+        {
+          "title": "대외 악재에 급락한 코스피...오늘 증시는? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMlJ2VzllbVdVTUJBaFJUa0RaeENCcTdjZ3ZOM0hWcVBVWHNmQV8wV21lQXZwR2FsMzVySlhMbVBQYkN0ank2UnBUb3licDB6QlNOemJ6R3ViT0VQZEg2UmVSUzNFQmVibnNPWjh2RUZXRWl1ZTZPellIVWs5dGdTOEJXcw?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:03:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피, 전일 급락 딛고 2~3%대 반등…코스닥도 상승 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uTkVTQ3lheWxfQ1hfdFhpM1lOckFSUG41c1lQNjhGZ3JKdVhzNk0zZ2huUFczaUlWV3NiYWQ1WXh2clpvQUxWekRsRlR3ZG8?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:07:56 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 전일 급락 딛고 반등 출발…코스닥도 상승세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvRlpsWnpnSUM5QmVsQThNX2RLMEVtcUx4dUVPc3Izb2d3ZHh4MFROWkhQZEROMUdEQUEtZDBYT19vNEJOMkpZcDBzYjBXaTQ?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:21:50 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 급락 딛고 2%대 반등…코스닥도 상승 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfUG5HNHpjUFZlZkZ6VS1TYW1Ib21KajRacGhvTUsyOXl4cGxLOGc3WTZPeWxUN3FzczU1R0llTEN2TWlseEh1Ty13cXZaZ1EyWjRDR1VMVnpGdw?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:15:42 GMT",
+          "source": "한국경제"
+        },
         {
           "title": "외국인·기관 4.8조 순매도에 코스피 5.8% 급락 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OOGl6bEJDOFhEVDBheGZndVNFd2tYVlNzZE8zTmRNMWoySi1BSU9uZnRscjBkNkF0UnJVaWRsd0FidmNFcWttVzd1cDZpMldrejBjVy1taF9xRXM0S3c?oc=5",
           "pub_date": "Wed, 19 Aug 2026 19:03:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "[영상] 코스피 5.8% 급락…여전히 반도체 좋게 보는 이유는 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aZVREQW9JbFpsVzRnT0NqbkpuOHRqclUtemRMMWUwY2RRX3JDMHpRdDdHVDJZWDBlYzU2TEFEMDgyOGJaX3NmUExnblhfYW8?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 21:13:07 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 16:25:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "하이닉스 ‘40조 소각’ 카드…코스피 5.8% 폭락 딛고 반등하나 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VF80blJESXhkcGNDMDVQMW5LcFpBUXNxSndWTUJTNkF0Vllzdm40ZUwtLWJPUVpMVjd2SGl2bTQ3TUVpc21xejdwQVJyRXRqM0YwQ1NuM25rUQ?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 23:31:00 GMT",
-          "source": "경북매일"
-        },
-        {
-          "title": "[월가 레이더] 美 뉴욕증시, 재무부 국채 환매 2배 확대에 반등…30년물 금리 급락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kb0VNLXJJMkxMdWZYLVZFNkZ4cHE0dkJocEx6Rm9kWWYxbXJSUmxTdFQ5WEgySGZJSEpEc2h6VzlMaWNvY2htWlczQ2Z6TlRCQkg3OGtWenQyMXdic2c?oc=5",
-          "pub_date": "Wed, 19 Aug 2026 21:09:48 GMT",
-          "source": "포커스온경제"
         }
       ]
     }
@@ -71,8 +71,8 @@
     "move": 71.26
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4811600000000,
-    "retail_net_buy_krw": 4635700000000,
+    "foreign_inst_buy_krw": 670600000000,
+    "retail_net_buy_krw": -963000000000,
     "margin_loan_krw": 30668600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -84,35 +84,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.16,
       "intraday_low_drop_pct": -3.7,
-      "sma_200": 24218.4
+      "sma_200": 24190.73
     },
     "kospi": {
-      "current": 6869.83,
+      "current": 6796.05,
       "high_52w": 9385.59,
-      "drop_pct": -26.8,
-      "intraday_low_drop_pct": -27.67,
-      "sma_200": 5888.35
+      "drop_pct": -27.59,
+      "intraday_low_drop_pct": -29.68,
+      "sma_200": 5873.21
     },
     "kosdaq": {
-      "current": 834.2,
+      "current": 840.84,
       "high_52w": 1229.42,
-      "drop_pct": -32.15,
-      "intraday_low_drop_pct": -32.65,
-      "sma_200": 994.81
+      "drop_pct": -31.61,
+      "intraday_low_drop_pct": -32.05,
+      "sma_200": 995.05
     },
     "sp500": {
       "current": 7707.98,
       "high_52w": 7816.7,
       "drop_pct": -1.39,
       "intraday_low_drop_pct": -1.49,
-      "sma_200": 7087.61
+      "sma_200": 7078.14
     },
     "russell2k": {
       "current": 3032.94,
       "high_52w": 3069.71,
       "drop_pct": -1.2,
       "intraday_low_drop_pct": -1.29,
-      "sma_200": 2711.73
+      "sma_200": 2704.62
     },
     "soxx": {
       "current": 519.67,
@@ -285,7 +285,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-08-19",
