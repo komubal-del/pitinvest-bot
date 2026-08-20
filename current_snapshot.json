@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T11:43:26.377232+09:00",
+  "timestamp": "2026-08-20T12:29:42.272551+09:00",
   "sentiment": {
     "cnn_fng": 56.3428571428571,
     "cnn_components": {
@@ -14,28 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 9,
+      "greed_count": 2,
+      "fear_count": 8,
       "greed_articles": [
         {
           "title": "코스피, 개인 '사자'에 3%대 강세…반도체 저가 매수 유입 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GYTJEOFFQRVF6ZmN3cVh4UWx2aVl4bGpyUER2MEdHNVhCN295dEFrZDlsUlJLci15Z0FHcURUTDJ3NDRIdFlobmk1OTdkUTQzcjY2SUUzY1A2UnlQeHRlNkF3bE1idVp4emtVUV8zcEo?oc=5",
           "pub_date": "Thu, 20 Aug 2026 00:19:48 GMT",
           "source": "연합인포맥스"
+        },
+        {
+          "title": "'증시 활황'에 외인 국내 주식 '껑충'…대외금융부채 8900억달러 ↑ - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TME5RQm5hcVotdVFKQktsek5XSXdUaFlzWEdWYUx5RGVSU0hIMy1EYlNhZEJDbHQ0QWh3c3BPYmducS1fNWdpRjNtbHFibFc5X2FWdFhFTzFaa25sVHlJYQ?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 03:00:00 GMT",
+          "source": "뉴스토마토"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스피, 전일 급락 딛고 2~3%대 반등…코스닥도 상승 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tWGtCRThJQTlIZU1YcllDNHVPVWtpU3BaLTg2MklYajFnOHQwaUF2ZUt2UVFPdnpqazl2cjFhV0tPWk1EVk4yUnU0QnBMZUxXOUdVNmZrYVFVMlXSAWBBVV95cUxONkg2UzBCb1M2VEc2bGt2T3l1bGN0Z25UZ1hSUmV1bGZ6QmJoajcxMGxyMXFuNUtPWDJMRHhXR3ZId3VMR2IwSWlTcE4xNHR4LUllN0J0ZHdUVjdyTEZ6Mzc?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:05:41 GMT",
+          "source": "연합뉴스"
+        },
         {
           "title": "대외 악재에 급락한 코스피...오늘 증시는? - YTN",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMlJ2VzllbVdVTUJBaFJUa0RaeENCcTdjZ3ZOM0hWcVBVWHNmQV8wV21lQXZwR2FsMzVySlhMbVBQYkN0ank2UnBUb3licDB6QlNOemJ6R3ViT0VQZEg2UmVSUzNFQmVibnNPWjh2RUZXRWl1ZTZPellIVWs5dGdTOEJXcw?oc=5",
           "pub_date": "Thu, 20 Aug 2026 00:03:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "코스피, 전일 급락 딛고 2~3%대 반등…코스닥도 상승 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uTkVTQ3lheWxfQ1hfdFhpM1lOckFSUG41c1lQNjhGZ3JKdVhzNk0zZ2huUFczaUlWV3NiYWQ1WXh2clpvQUxWekRsRlR3ZG8?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 00:07:56 GMT",
-          "source": "v.daum.net"
         },
         {
           "title": "코스피, 전일 급락 딛고 반등 출발…코스닥도 상승세 - v.daum.net",
@@ -44,16 +50,16 @@
           "source": "v.daum.net"
         },
         {
-          "title": "코스피, 급락 딛고 2%대 반등…코스닥도 상승 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfUG5HNHpjUFZlZkZ6VS1TYW1Ib21KajRacGhvTUsyOXl4cGxLOGc3WTZPeWxUN3FzczU1R0llTEN2TWlseEh1Ty13cXZaZ1EyWjRDR1VMVnpGdw?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 00:15:42 GMT",
-          "source": "한국경제"
-        },
-        {
           "title": "[속보] 코스피, 전일 급락 딛고 3%대 상승 출발 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XSjlnMGpZLWxHQzlmTE9qSVBrOHFGemVqN2NDb1dtQS1fMjVuYWNzR3BsVjIzVnRVcWtLbmVXNGNZZGtCdC02UXlZYjgzU3gwQjVHdG0wTHdGSWxLMnlUetIBYEFVX3lxTE1XSjlnMGpZLWxHQzlmTE9qSVBrOHFGemVqN2NDb1dtQS1fMjVuYWNzR3BsVjIzVnRVcWtLbmVXNGNZZGtCdC02UXlZYjgzU3gwQjVHdG0wTHdGSWxLMnlUeg?oc=5",
           "pub_date": "Thu, 20 Aug 2026 00:02:41 GMT",
           "source": "연합뉴스"
+        },
+        {
+          "title": "코스피, 전날 6% 급락 딛고 4%대 반등…6700선 회복 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUG9DOFlKWTJEbVdCQWdlaDZlXzV2VXI2YVlnYmttcUJXTWJBTnloMXA2S2U0WjdXTzg3anFScmhDT2puZDJwVTRmbURGQk5NcXNTcExyeE9XaHZkb1R3Qw?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 00:30:52 GMT",
+          "source": "뉴스토마토"
         }
       ]
     }
@@ -65,8 +71,8 @@
     "move": 71.26
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1069000000000,
-    "retail_net_buy_krw": -1538000000000,
+    "foreign_inst_buy_krw": 1168700000000,
+    "retail_net_buy_krw": -1771700000000,
     "margin_loan_krw": 30668600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -78,21 +84,21 @@
       "high_52w": 27190.21,
       "drop_pct": -3.16,
       "intraday_low_drop_pct": -3.7,
-      "sma_200": 24218.4
+      "sma_200": 24190.73
     },
     "kospi": {
-      "current": 6838.17,
+      "current": 6850.47,
       "high_52w": 9385.59,
-      "drop_pct": -27.14,
+      "drop_pct": -27.01,
       "intraday_low_drop_pct": -29.68,
-      "sma_200": 5873.42
+      "sma_200": 5873.49
     },
     "kosdaq": {
-      "current": 839.24,
+      "current": 838.23,
       "high_52w": 1229.42,
-      "drop_pct": -31.74,
+      "drop_pct": -31.82,
       "intraday_low_drop_pct": -32.05,
-      "sma_200": 994.13
+      "sma_200": 995.04
     },
     "sp500": {
       "current": 7707.98,
@@ -106,7 +112,7 @@
       "high_52w": 3069.71,
       "drop_pct": -1.2,
       "intraday_low_drop_pct": -1.29,
-      "sma_200": 2704.62
+      "sma_200": 2711.73
     },
     "soxx": {
       "current": 519.67,
