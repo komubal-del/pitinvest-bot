@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-20T15:59:33.719368+09:00",
+  "timestamp": "2026-08-20T16:50:02.686062+09:00",
   "sentiment": {
-    "cnn_fng": 56.2,
+    "cnn_fng": 57.0,
     "cnn_components": {
       "momentum": 44.8,
-      "strength": 26.2,
-      "breadth": 57.6,
+      "strength": 29.8,
+      "breadth": 59.6,
       "put_call": 55.0,
       "junk_bond": 91.8,
       "volatility": 50.0,
@@ -14,35 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "코스피, 개인 '사자'에 3%대 강세…반도체 저가 매수 유입 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GYTJEOFFQRVF6ZmN3cVh4UWx2aVl4bGpyUER2MEdHNVhCN295dEFrZDlsUlJLci15Z0FHcURUTDJ3NDRIdFlobmk1OTdkUTQzcjY2SUUzY1A2UnlQeHRlNkF3bE1idVp4emtVUV8zcEo?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 00:19:48 GMT",
-          "source": "연합인포맥스"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 2,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "코스피, 전일 급락 딛고 2~3%대 반등…코스닥도 상승 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tWGtCRThJQTlIZU1YcllDNHVPVWtpU3BaLTg2MklYajFnOHQwaUF2ZUt2UVFPdnpqazl2cjFhV0tPWk1EVk4yUnU0QnBMZUxXOUdVNmZrYVFVMlXSAWBBVV95cUxONkg2UzBCb1M2VEc2bGt2T3l1bGN0Z25UZ1hSUmV1bGZ6QmJoajcxMGxyMXFuNUtPWDJMRHhXR3ZId3VMR2IwSWlTcE4xNHR4LUllN0J0ZHdUVjdyTEZ6Mzc?oc=5",
           "pub_date": "Thu, 20 Aug 2026 00:05:41 GMT",
           "source": "연합뉴스"
+        },
+        {
+          "title": "“반도체 환원·美 금리 하락 땡큐”…코스피, 폭락 딛고 5.9% 급반등 - dt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mSGQ4MlAwOTIwM1FseURBbmgxOEFTVlpZMU1aTVpwU3BIR3NyTFAxYUxtQmIwR3h1QlZZa2sta0YwVVBrODdwV1FJZWZaUQ?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 07:06:08 GMT",
+          "source": "dt.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.89,
+    "vix": 14.97,
     "vvix": 86.53,
     "skew": 142.93,
     "move": 71.26
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1217500000000,
-    "retail_net_buy_krw": -2271400000000,
+    "foreign_inst_buy_krw": 1217300000000,
+    "retail_net_buy_krw": -2271200000000,
     "margin_loan_krw": 30668600000000,
     "news_count": 0,
     "short_sale_balance": null,
