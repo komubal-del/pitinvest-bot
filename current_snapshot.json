@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T07:01:18.660341+09:00",
+  "timestamp": "2026-08-21T07:36:20.232445+09:00",
   "sentiment": {
     "cnn_fng": 52.4857142857143,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 6,
+      "fear_count": 7,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -25,16 +25,16 @@
           "source": "연합뉴스TV"
         },
         {
+          "title": "금리 다시 뛰고 월마트 9% 급락…다우 704P↓, 뉴욕증시 일제히 하락 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45WmZQMC1kSk1pX1VnMmFmbkg0UW9rcmhvTWJSYzR1eEVBZmhvYmFRRDFvaFFLYzFqMVZDdGY1enRaRHFPS1BHTEJucUkxaS1vRGMtUlQxbmtRdw?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 21:11:00 GMT",
+          "source": "경북매일"
+        },
+        {
           "title": "유가 하락·증시 부진에 7월 생산자물가 0.4%↓…11개월 만 하락 전환 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE10eWhIcXlxZ1hFTExfY2kxTDFjeVZ4ZEhjYjZMTXJxc01HcjhtSkkwQTYwSTBCY3VKeVVHRjBJc18tTmJJZWFJVEFwbjRGcVU?oc=5",
           "pub_date": "Thu, 20 Aug 2026 21:01:08 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[뉴욕증시] 국채 수익률·유가 급등·월마트 폭락에 투심 꽁꽁...3대 지수↓ - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY190dy1VZ2xWWWNzYTBVVW4zX0VQcTJCQU9IdjhlMlQzU2JFQUN4ZXlrbjYtZTIyRnptaWxhenRfRVkwSi1jYWtNREtUeWNYakJQTm04MmE0Qk10akJ5NzV0b3NpZmVLN0p0bXYwa2pSRnpQdmJTMVhqc0F2V21fbGZJVElTRGlI?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 20:36:30 GMT",
-          "source": "글로벌이코노믹"
         },
         {
           "title": "[월가 레이더] 美 뉴욕증시, 바이백 약발 하루만에 다우 700P 급락…월마트 9% 폭락 - 포커스온경제",
@@ -43,10 +43,10 @@
           "source": "포커스온경제"
         },
         {
-          "title": "금리 다시 뛰고 월마트 9% 급락…다우 704P↓, 뉴욕증시 일제히 하락 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45WmZQMC1kSk1pX1VnMmFmbkg0UW9rcmhvTWJSYzR1eEVBZmhvYmFRRDFvaFFLYzFqMVZDdGY1enRaRHFPS1BHTEJucUkxaS1vRGMtUlQxbmtRdw?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 21:11:00 GMT",
-          "source": "경북매일"
+          "title": "[뉴욕증시] 국채 수익률·유가 급등·월마트 폭락에 투심 꽁꽁...3대 지수↓ - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY190dy1VZ2xWWWNzYTBVVW4zX0VQcTJCQU9IdjhlMlQzU2JFQUN4ZXlrbjYtZTIyRnptaWxhenRfRVkwSi1jYWtNREtUeWNYakJQTm04MmE0Qk10akJ5NzV0b3NpZmVLN0p0bXYwa2pSRnpQdmJTMVhqc0F2V21fbGZJVElTRGlI?oc=5",
+          "pub_date": "Thu, 20 Aug 2026 20:36:30 GMT",
+          "source": "글로벌이코노믹"
         }
       ]
     }
@@ -60,7 +60,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 1217300000000,
     "retail_net_buy_krw": -2271200000000,
-    "margin_loan_krw": 30668600000000,
+    "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -71,35 +71,35 @@
       "high_52w": 27190.21,
       "drop_pct": -4.13,
       "intraday_low_drop_pct": -4.29,
-      "sma_200": 24201.93
+      "sma_200": 24230.11
     },
     "kospi": {
       "current": 6471.17,
       "high_52w": 9385.59,
       "drop_pct": -31.05,
       "intraday_low_drop_pct": -31.8,
-      "sma_200": 5858.65
+      "sma_200": 5901.0
     },
     "kosdaq": {
       "current": 824.46,
       "high_52w": 1229.42,
       "drop_pct": -32.94,
       "intraday_low_drop_pct": -34.6,
-      "sma_200": 995.26
+      "sma_200": 994.57
     },
     "sp500": {
       "current": 7641.16,
       "high_52w": 7816.7,
       "drop_pct": -2.25,
       "intraday_low_drop_pct": -2.27,
-      "sma_200": 7081.89
+      "sma_200": 7091.61
     },
     "russell2k": {
       "current": 2992.43,
       "high_52w": 3069.71,
       "drop_pct": -2.52,
       "intraday_low_drop_pct": -2.62,
-      "sma_200": 2707.05
+      "sma_200": 2714.29
     },
     "soxx": {
       "current": 522.35,
