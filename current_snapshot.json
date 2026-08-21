@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T10:50:17.738013+09:00",
+  "timestamp": "2026-08-21T12:11:04.953723+09:00",
   "sentiment": {
     "cnn_fng": 52.4857142857143,
     "cnn_components": {
@@ -14,9 +14,22 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 26,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 32,
+      "greed_articles": [
+        {
+          "title": "\"韓증시, 레버리지 광풍 뒤 불신과 트라우마만 남았다\"-로이터 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzcVFNZ3BWeHlzaHp2V19YejhzbEhhTnNaMVg1NDluNU5pcE0zX05PZkFTZ3Q0a3FMTEtzbEs4aXVELUs2NWdlNEpjbDRVUnc?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 02:51:28 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "美 증시는 활황인데…주(州) 절반 넘게 세수 마이너스 - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tb1JJT0FpLXNldW1LbG9sekRUYkN0d1R4ZW1ySTBncmxWbXNGTmJaaEV5UzlNbU5kUHVmeG05SC12Wl9kZk04UElQZW93TjFXSmsxdDBOSWlwRXN0M3RiajRPc19jUy03a3RtOVFSYw?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 02:01:34 GMT",
+          "source": "조세일보"
+        }
+      ],
       "fear_articles": [
         {
           "title": "코스닥 5% 가까이 급락하며 매도 사이드카 발동 - MBC 뉴스",
@@ -25,28 +38,28 @@
           "source": "MBC 뉴스"
         },
         {
+          "title": "코스피, 혼조속 상승 탄력 모색…코스닥 5%대 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CR1U4eFNrbEdZem9maHFHY1d0LXpsY3BCUGhfdjZqTFJOUWJUcmRLeEg3bUpFZnF6aTlOaVo2UVpsMzBHc2NicUNBOHBKaUU?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 02:22:15 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[속보]코스닥 4~5% 급락, 매도 사이드카…코스피 보합권 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsY21aRjNGSjJRdW5oLWMyOWZVSHhGZVJTQ0Jmci1IdUlkSm5WWmQ1OUlEUXA5clJaeDYwT1l4WnFnMjJPYVpNWVQ2R2x2VlV0?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 02:27:52 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "美 증시 약세에 국내 증시 하락…코스닥 급락에 매도 사이드카 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxeHJHaGpEN2MxeHJ4UmdBaDluaWw5OFFEOThuRzZfNzBla3F6UXF4UnJ0ZVQyRnF4Y1diSDBpTUNaeHhwODRqeXh4Q09QZw?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 02:07:36 GMT",
+          "source": "전자신문"
+        },
+        {
           "title": "코스닥 급락에 매도 사이드카…코스피 보합권 - KBS 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BNHk1T2VnQ0hwRXBGLXVqZUhnWm5rYV9vdUZwWnJ6NFhNNmhpdHJFQ2U1V0hzbjNobGdhR1JVekdYMXZ6UjVxcnZLVjZ0azA4eHVJdlhjVVNxWTA?oc=5",
           "pub_date": "Fri, 21 Aug 2026 01:41:00 GMT",
           "source": "KBS 뉴스"
-        },
-        {
-          "title": "[속보] 코스닥 5%대 급락…‘매도 사이드카’ 발동 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SSzRTeFlrV0lrNGxObS0wa2pEbExrYzZOV0lmRldWMmpNUzhlOVk2MEROVUdYeWMtLUxXaFZpNXpZN18yWHpnWVlTUzlTMU1Ba2N4bmFJTi10Y3daVmwwMEVhNjBzeFNOSmI1QnQzRm1LUQ?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 01:41:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "코스피, 美 국채금리 부담에 6800선 약세…코스닥은 3%대 급락 - hidomin.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9veUc3dW9rZmp2bkRzakY4ODFOdVZndDlXcnZza2dpRVJzdE1hcEpDd0FNb1paVWgwQzlteUM2R0dLNHJEY2w0Qk8tMERxMFotZllMTGxKYlJsaHI4M2RQemZZcm0wQlE2TkE?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 00:40:28 GMT",
-          "source": "hidomin.com"
-        },
-        {
-          "title": "속보 코스닥 4%대 급락...매도 사이드카 발동 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFdW1aM2FXczZybWdCQ0VtSFpPTk9TMmxuZXdxVGFOaXpfczFmaTA5Mkg3MlFiaVFkVkppRHdqa3k1M1FRYUVlMm5MSnlxUExUWGh3ZG8zYmpfbFI0ZFBrSF9WcXd6X3czVGJfeU5maGlldElCUmc?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 01:16:00 GMT",
-          "source": "YTN"
         }
       ]
     }
@@ -58,8 +71,8 @@
     "move": 73.18
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 62200000000,
-    "retail_net_buy_krw": -403800000000,
+    "foreign_inst_buy_krw": 164800000000,
+    "retail_net_buy_krw": -772400000000,
     "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,17 +87,17 @@
       "sma_200": 24201.93
     },
     "kospi": {
-      "current": 6861.46,
+      "current": 6925.4,
       "high_52w": 9385.59,
-      "drop_pct": -26.89,
+      "drop_pct": -26.21,
       "intraday_low_drop_pct": -28.16,
-      "sma_200": 5888.58
+      "sma_200": 5888.9
     },
     "kosdaq": {
-      "current": 799.58,
+      "current": 800.42,
       "high_52w": 1229.42,
-      "drop_pct": -34.96,
-      "intraday_low_drop_pct": -35.11,
+      "drop_pct": -34.89,
+      "intraday_low_drop_pct": -35.29,
       "sma_200": 994.54
     },
     "sp500": {
