@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T19:13:31.631139+09:00",
+  "timestamp": "2026-08-21T19:53:16.650356+09:00",
   "sentiment": {
     "cnn_fng": 52.1428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 25,
+      "fear_count": 28,
       "greed_articles": [
         {
           "title": "증시 회복세에 '빚투' 다시 증가세…신용잔고 32조 육박 - 매일경제 마켓",
@@ -31,6 +31,12 @@
         }
       ],
       "fear_articles": [
+        {
+          "title": "반도체가 살린 코스피…코스닥은 4%대 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LR0M3RzhmcjcyZ2VKbkxncFBiajR1SGhxSm1zWGZ3S1hIQTNSMW4yVkFPRlRoLW1yaUhwTndSTUp5dHd2YzJWWi1TSXVjQzZrakZtbHNISF8teW1sR1Vaa0xscnpJdHM?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 07:07:00 GMT",
+          "source": "연합뉴스TV"
+        },
         {
           "title": "[속보] 상승 마감한 코스피, 6,900선 돌파···코스닥은 급락, 매도 사이드카 - 대구MBC",
           "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA2OERoSTRpTl9mUG1Ha2lkbVZ1bmVOV3dKeE1yZVFpa19wU0cxS3ZKRFBGMmxSSV9HbDFQYnhubkhHZ0lmWEY1NGJRbEs?oc=5",
@@ -54,18 +60,12 @@
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00UmZpc002bE5ZSUpodGw4cUhjSHN1MTJ3WklyXzhob2FLSFB3ZUpwbjBfaG9FTDVqWk83WEctTXNoZFhXZnNWRzdITVpIeWZYUWMwUllMTzhCRFpMaERkUE95OXlMX1h3WFE?oc=5",
           "pub_date": "Fri, 21 Aug 2026 07:09:38 GMT",
           "source": "hidomin.com"
-        },
-        {
-          "title": "코스피, 삼성전자 주주환원 기대에 6900선 회복…코스닥 4.63% 급락 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmWm9GQU1od2NRZUxlc1hmc1lxQUZVQng4LW9GMmdDclFJYlI3WXEweVpibWVKNnVfSGl1blNNU2lJck1SLU1zRER5MjltRW1MMzc3RktoZVZkODhMZDQ5R2pYUEhVWlpZZEQ4Sk1lc0pYZw?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 08:50:44 GMT",
-          "source": "인더스트리뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.68,
+    "vix": 15.7,
     "vvix": 89.86,
     "skew": 143.23,
     "move": 73.18
