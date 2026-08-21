@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T12:11:11.223477+09:00",
+  "timestamp": "2026-08-21T13:06:45.488440+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -1287,8 +1287,8 @@
         },
         {
           "ticker": "BRK-B",
-          "rs_roc": -0.0115,
-          "price": 496.86
+          "rs_roc": -0.0047,
+          "price": 499.62
         },
         {
           "ticker": "BAC",
@@ -4280,32 +4280,32 @@
       "tier2": [
         {
           "ticker": "005930.KS",
-          "rs_roc": -0.0036,
-          "price": 280500.0,
+          "rs_roc": -0.009,
+          "price": 279000.0,
           "name": "삼성전자"
         },
         {
           "ticker": "000660.KS",
-          "rs_roc": -0.1629,
-          "price": 1763000.0,
+          "rs_roc": -0.1681,
+          "price": 1752000.0,
           "name": "SK하이닉스"
         },
         {
           "ticker": "005380.KS",
-          "rs_roc": -0.1176,
-          "price": 414000.0,
+          "rs_roc": -0.107,
+          "price": 419000.0,
           "name": "현대차"
         },
         {
           "ticker": "373220.KS",
-          "rs_roc": 0.0873,
-          "price": 348000.0,
+          "rs_roc": 0.0857,
+          "price": 347500.0,
           "name": "LG에너지솔루션"
         },
         {
           "ticker": "035420.KS",
-          "rs_roc": 0.1279,
-          "price": 220500.0,
+          "rs_roc": 0.1254,
+          "price": 220000.0,
           "name": "네이버"
         }
       ],
@@ -4731,12 +4731,12 @@
         {
           "ticker": "AMD",
           "rs_roc": -0.1536,
-          "price": 469.45
+          "price": 469.46
         },
         {
           "ticker": "TSM",
-          "rs_roc": -0.0616,
-          "price": 416.0
+          "rs_roc": -0.0704,
+          "price": 412.09
         },
         {
           "ticker": "INTC",
@@ -4750,8 +4750,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1380.58,
-      "change_30d_pct": -8.32
+      "value": 1381.98,
+      "change_30d_pct": -8.23
     },
     "us10y": {
       "ticker": "^TNX",
