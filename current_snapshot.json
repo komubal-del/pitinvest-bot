@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T13:50:29.901233+09:00",
+  "timestamp": "2026-08-21T14:39:59.313717+09:00",
   "sentiment": {
     "cnn_fng": 52.4571428571429,
     "cnn_components": {
@@ -14,16 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 33,
-      "greed_articles": [
-        {
-          "title": "\"韓증시, 레버리지 광풍 뒤 불신과 트라우마만 남았다\"-로이터 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzcVFNZ3BWeHlzaHp2V19YejhzbEhhTnNaMVg1NDluNU5pcE0zX05PZkFTZ3Q0a3FMTEtzbEs4aXVELUs2NWdlNEpjbDRVUnc?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 02:51:28 GMT",
-          "source": "v.daum.net"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "코스닥 5% 가까이 급락하며 매도 사이드카 발동 - MBC 뉴스",
@@ -65,8 +58,8 @@
     "move": 73.18
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 116600000000,
-    "retail_net_buy_krw": -1001700000000,
+    "foreign_inst_buy_krw": 468600000000,
+    "retail_net_buy_krw": -1500300000000,
     "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -78,35 +71,35 @@
       "high_52w": 27190.21,
       "drop_pct": -4.13,
       "intraday_low_drop_pct": -4.29,
-      "sma_200": 24201.93
+      "sma_200": 24230.11
     },
     "kospi": {
-      "current": 6879.23,
+      "current": 6951.73,
       "high_52w": 9385.59,
-      "drop_pct": -26.7,
+      "drop_pct": -25.93,
       "intraday_low_drop_pct": -28.16,
-      "sma_200": 5888.66
+      "sma_200": 5929.76
     },
     "kosdaq": {
-      "current": 801.67,
+      "current": 803.26,
       "high_52w": 1229.42,
-      "drop_pct": -34.79,
+      "drop_pct": -34.66,
       "intraday_low_drop_pct": -35.29,
-      "sma_200": 994.55
+      "sma_200": 993.86
     },
     "sp500": {
       "current": 7641.16,
       "high_52w": 7816.7,
       "drop_pct": -2.25,
       "intraday_low_drop_pct": -2.27,
-      "sma_200": 7081.89
+      "sma_200": 7091.61
     },
     "russell2k": {
       "current": 2992.43,
       "high_52w": 3069.71,
       "drop_pct": -2.52,
       "intraday_low_drop_pct": -2.62,
-      "sma_200": 2707.05
+      "sma_200": 2714.29
     },
     "soxx": {
       "current": 522.35,
