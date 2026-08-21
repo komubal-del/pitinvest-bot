@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-08-21T22:52:21.399163+09:00",
+  "timestamp": "2026-08-21T23:45:15.890168+09:00",
   "sentiment": {
-    "cnn_fng": 56.0285714285714,
+    "cnn_fng": 55.6285714285714,
     "cnn_components": {
-      "momentum": 39.0,
+      "momentum": 38.4,
       "strength": 30.0,
-      "breadth": 59.0,
-      "put_call": 52.6,
-      "junk_bond": 95.8,
+      "breadth": 58.6,
+      "put_call": 47.4,
+      "junk_bond": 95.2,
       "volatility": 50.0,
-      "safe_haven": 69.6
+      "safe_haven": 69.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 27,
+      "greed_count": 4,
+      "fear_count": 25,
       "greed_articles": [
+        {
+          "title": "뉴욕증시, 저가 매수세에 반등…국채금리 숨 고르기 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZWVuN3gzVFY4ZlIwbmExZ2sxWWJjM2tKWjIyTVJXWGF0QkJKUjhYT1dSdldrbEtoZEhNOXFoZjRZbndJbUpUUE9mbnJNRkxRd1VTNmFWckNlTUVRa0RmbWlkMDBsS1NyemlPN1ZHNzJ2UVNwQnYwd1FmWVJmNlZuU1VnandQYkRxVnfSAZ4BQVVfeXFMTlkzbUh3OFJ3UXhHUmFtZ0N3a0Ewc0VZYVUzaGhSbXZHZUcwTWxob0haajFwTS1XRmNVaWZrZjZsaUxPSUFGeFViSnZlWTZVQ0JRNnZvWDhTUEptaVZncmJ1dlNKRGVSNFFXLUdLcnUzbk5oZXM3dl9zNDhiLThUY3lIOTk0Rlo5R21rYzNNbjZpVExKdTZBNnlhb3NiT1E?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 14:27:00 GMT",
+          "source": "Chosunbiz"
+        },
         {
           "title": "증시 회복세에 '빚투' 다시 증가세…신용잔고 32조 육박 - 매일경제 마켓",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xWHlaWTYwS2p3Uk52NkNOSUMzN3ZjcWk0NG5RSlp4RFRZcTdiajN3WUhUTHBmTE1PcDVPVnh0eGRLNU5teVFQRzFyU3BUeGdhX2c?oc=5",
@@ -56,23 +62,23 @@
           "source": "대구MBC"
         },
         {
-          "title": "코스피 6900선 회복…코스닥은 4.6% 급락 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YOEZuZDFrSE4xUnNpdlgzeGRmd2w2Y0FSN2VscS01OUd6UlNpV0RoUmt6Ykt6Y29ZVkhFR1NGX3ByUG5pemptY182Ti1reU96MlFBd0sxUGZtUdIBX0FVX3lxTFBZWXpaQVZJREcyVVZQWl9zMms4Z2RUQnlveURFZzIzVEZnX2pmaHlnRkxYTlNxR0tPcnloclBZaVdtR1BJQ2w3eV9faXZBcWE5NUdQTFhFWnptdlRKMWdV?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 07:11:00 GMT",
-          "source": "경향신문"
-        },
-        {
           "title": "코스피, 0.9% 올라 6,900선 회복…코스닥 4.6% 급락 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrLWdUNzJxNUlvWmF2NnRiQ1QycjhVTGpUT3k0dTA4eXFxU1VxVUJYVzFtdElrSGJ5RVo4eThoRWREZGFfOXVtdW5VUGlnWVBYTDBidHhJSXJhM0hGbzlrMtIBYEFVX3lxTFBrLWdUNzJxNUlvWmF2NnRiQ1QycjhVTGpUT3k0dTA4eXFxU1VxVUJYVzFtdElrSGJ5RVo4eThoRWREZGFfOXVtdW5VUGlnWVBYTDBidHhJSXJhM0hGbzlrMg?oc=5",
           "pub_date": "Fri, 21 Aug 2026 06:35:55 GMT",
           "source": "연합뉴스"
+        },
+        {
+          "title": "삼전닉스로 6900선 회복한 코스피…코스닥은 4.63% 급락에 '매도 사이드카' - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00UmZpc002bE5ZSUpodGw4cUhjSHN1MTJ3WklyXzhob2FLSFB3ZUpwbjBfaG9FTDVqWk83WEctTXNoZFhXZnNWRzdITVpIeWZYUWMwUllMTzhCRFpMaERkUE95OXlMX1h3WFE?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 07:09:38 GMT",
+          "source": "hidomin.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.48,
-    "vvix": 86.88,
+    "vix": 15.42,
+    "vvix": 86.65,
     "skew": 143.23,
     "move": 73.18
   },
@@ -86,11 +92,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26088.92,
+      "current": 26099.93,
       "high_52w": 27190.21,
-      "drop_pct": -4.05,
-      "intraday_low_drop_pct": -4.05,
-      "sma_200": 24241.39
+      "drop_pct": -4.01,
+      "intraday_low_drop_pct": -4.2,
+      "sma_200": 24241.44
     },
     "kospi": {
       "current": 6912.95,
@@ -107,34 +113,34 @@
       "sma_200": 993.63
     },
     "sp500": {
-      "current": 7665.81,
+      "current": 7664.4,
       "high_52w": 7816.7,
-      "drop_pct": -1.93,
-      "intraday_low_drop_pct": -1.93,
-      "sma_200": 7095.68
+      "drop_pct": -1.95,
+      "intraday_low_drop_pct": -2.0,
+      "sma_200": 7095.67
     },
     "russell2k": {
-      "current": 3015.81,
+      "current": 3006.54,
       "high_52w": 3069.71,
-      "drop_pct": -1.76,
-      "intraday_low_drop_pct": -2.04,
-      "sma_200": 2717.02
+      "drop_pct": -2.06,
+      "intraday_low_drop_pct": -2.19,
+      "sma_200": 2716.97
     },
     "soxx": {
-      "current": 522.9,
+      "current": 517.25,
       "high_52w": 655.95,
-      "drop_pct": -20.28,
-      "intraday_low_drop_pct": -20.36,
-      "sma_200": 420.5
+      "drop_pct": -21.14,
+      "intraday_low_drop_pct": -21.43,
+      "sma_200": 420.47
     }
   },
   "sector_rs": {
-    "XLK": 0.994,
-    "SMH": 0.96,
-    "BOTZ": 0.881,
-    "IGV": 1.066,
-    "XLF": 1.082,
-    "XLE": 1.057
+    "XLK": 0.992,
+    "SMH": 0.952,
+    "BOTZ": 0.879,
+    "IGV": 1.076,
+    "XLF": 1.08,
+    "XLE": 1.054
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,13 +182,13 @@
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 129.03,
+    "soxl_profit_pct": 121.64,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.35,
+    "koru_profit_pct": -94.44,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -337,7 +343,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.624,
+    "strategy_pct": 186.509,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -993,7 +999,7 @@
       },
       {
         "date": "2026-08-21",
-        "ret_pct": 185.624
+        "ret_pct": 186.509
       }
     ],
     "monthly_breakdown": [
@@ -1041,8 +1047,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 16.18,
-        "end_ret_pct": 185.62,
+        "return_pct": 17.07,
+        "end_ret_pct": 186.51,
         "max_dd_pct": 18.16
       }
     ],
