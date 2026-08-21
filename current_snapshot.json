@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T16:51:13.823100+09:00",
+  "timestamp": "2026-08-21T17:51:51.018651+09:00",
   "sentiment": {
     "cnn_fng": 52.1428571428571,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 32,
+      "greed_count": 3,
+      "fear_count": 28,
       "greed_articles": [
         {
           "title": "증시 회복세에 '빚투' 다시 증가세…신용잔고 32조 육박 - 연합뉴스",
@@ -28,6 +28,12 @@
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xWHlaWTYwS2p3Uk52NkNOSUMzN3ZjcWk0NG5RSlp4RFRZcTdiajN3WUhUTHBmTE1PcDVPVnh0eGRLNU5teVFQRzFyU3BUeGdhX2c?oc=5",
           "pub_date": "Fri, 21 Aug 2026 06:47:21 GMT",
           "source": "매일경제 마켓"
+        },
+        {
+          "title": "[속보] 코스피 반등에 ‘빚투’ 다시 꿈틀…신용융자 32조원 육박 - 강원도민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00eU1EeUNhaU5lSGRYZTlwN0VHWnh0SnRwOXM4d1JoQmtILTNZSlUwcWEtOWNuaVA4MkVOR1dsVFpGbGIyODFiS2NXTlgxNjFFU3VKT04xdktxSldPbUpJbXJCSGhEQ3c?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 08:02:53 GMT",
+          "source": "강원도민일보"
         }
       ],
       "fear_articles": [
@@ -38,41 +44,41 @@
           "source": "대구MBC"
         },
         {
+          "title": "코스피, 0.9% 올라 6,900선 회복…코스닥 4.6% 급락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrLWdUNzJxNUlvWmF2NnRiQ1QycjhVTGpUT3k0dTA4eXFxU1VxVUJYVzFtdElrSGJ5RVo4eThoRWREZGFfOXVtdW5VUGlnWVBYTDBidHhJSXJhM0hGbzlrMtIBYEFVX3lxTFBrLWdUNzJxNUlvWmF2NnRiQ1QycjhVTGpUT3k0dTA4eXFxU1VxVUJYVzFtdElrSGJ5RVo4eThoRWREZGFfOXVtdW5VUGlnWVBYTDBidHhJSXJhM0hGbzlrMg?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 06:35:55 GMT",
+          "source": "연합뉴스"
+        },
+        {
           "title": "삼전닉스로 6900선 회복한 코스피…코스닥은 4.63% 급락에 '매도 사이드카' - hidomin.com",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00UmZpc002bE5ZSUpodGw4cUhjSHN1MTJ3WklyXzhob2FLSFB3ZUpwbjBfaG9FTDVqWk83WEctTXNoZFhXZnNWRzdITVpIeWZYUWMwUllMTzhCRFpMaERkUE95OXlMX1h3WFE?oc=5",
           "pub_date": "Fri, 21 Aug 2026 07:09:38 GMT",
           "source": "hidomin.com"
         },
         {
-          "title": "코스피, 0.9% 올라 6,900선 마감…코스닥, 4.6%급락 - BBS불교방송",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lUmRYWU9odTlpLXBZc2pZdUNfQy1QLTZNZFRhY2RTMndyRU1vTVhjMFg2R3NONlVjd1lpM2RmdGxtMVJTWnBEUnFXcGJDVVFwTkxYcER6UkliUlp1MlN5TnoyMkljZzRrX2d3?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 07:28:36 GMT",
-          "source": "BBS불교방송"
-        },
-        {
-          "title": "코스피 6900선 회복…코스닥은 4.6% 급락 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV6M0VOWkhzWks3OVBUUm5MTldacWdHeWhJQjBmV1BEam1BM2VIQmw2ejNmYnFCU3c3WVFMd1M4REMwUm84S0luaHdmd0VjcEd0Skc1dVB0TGNIRFV3RlhSVm41aUFucmVwR0hhdzNIcTNrLWpmWjdYdEF5dmluYzlJWWJxVVg0RE54al9zbVZ6WlBwX2tpQVZGb29DdnZBcVFBN3NlMklBd9IBX0FVX3lxTFBZWXpaQVZJREcyVVZQWl9zMms4Z2RUQnlveURFZzIzVEZnX2pmaHlnRkxYTlNxR0tPcnloclBZaVdtR1BJQ2w3eV9faXZBcWE5NUdQTFhFWnptdlRKMWdV?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 07:11:00 GMT",
-          "source": "경향신문"
-        },
-        {
           "title": "속보 코스피, 소폭 상승해 6,900선 회복...코스닥 급락 - YTN",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IV0t3aDJsZHE2RHlFWVpBaW1mWkdVcVoxX29aWmo5U0Z5SWdpRldFQXJwbS1mcngySXNtRldEazNUMXpwbXVTTXNGMDNpM2tBQVZicVlSUTJuZl9GM2c?oc=5",
           "pub_date": "Fri, 21 Aug 2026 06:40:00 GMT",
           "source": "YTN"
+        },
+        {
+          "title": "코스피, 0.9% 올라 6,900선 마감…코스닥, 4.6%급락 - BBS불교방송",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lUmRYWU9odTlpLXBZc2pZdUNfQy1QLTZNZFRhY2RTMndyRU1vTVhjMFg2R3NONlVjd1lpM2RmdGxtMVJTWnBEUnFXcGJDVVFwTkxYcER6UkliUlp1MlN5TnoyMkljZzRrX2d3?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 07:28:36 GMT",
+          "source": "BBS불교방송"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.78,
+    "vix": 15.79,
     "vvix": 89.86,
     "skew": 143.23,
     "move": 73.18
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 72000000000,
-    "retail_net_buy_krw": -1165200000000,
+    "retail_net_buy_krw": -1165300000000,
     "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
