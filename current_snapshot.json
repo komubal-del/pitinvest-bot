@@ -1,36 +1,42 @@
 {
-  "timestamp": "2026-08-21T13:06:13.737546+09:00",
+  "timestamp": "2026-08-21T13:50:29.901233+09:00",
   "sentiment": {
-    "cnn_fng": 52.4857142857143,
+    "cnn_fng": 52.4571428571429,
     "cnn_components": {
       "momentum": 35.8,
       "strength": 28.0,
       "breadth": 56.2,
       "put_call": 40.2,
-      "junk_bond": 94.6,
+      "junk_bond": 94.4,
       "volatility": 50.0,
       "safe_haven": 62.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 32,
+      "greed_count": 1,
+      "fear_count": 33,
       "greed_articles": [
         {
           "title": "\"韓증시, 레버리지 광풍 뒤 불신과 트라우마만 남았다\"-로이터 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzcVFNZ3BWeHlzaHp2V19YejhzbEhhTnNaMVg1NDluNU5pcE0zX05PZkFTZ3Q0a3FMTEtzbEs4aXVELUs2NWdlNEpjbDRVUnc?oc=5",
           "pub_date": "Fri, 21 Aug 2026 02:51:28 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "美 증시는 활황인데…주(州) 절반 넘게 세수 마이너스 - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tb1JJT0FpLXNldW1LbG9sekRUYkN0d1R4ZW1ySTBncmxWbXNGTmJaaEV5UzlNbU5kUHVmeG05SC12Wl9kZk04UElQZW93TjFXSmsxdDBOSWlwRXN0M3RiajRPc19jUy03a3RtOVFSYw?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 02:01:34 GMT",
-          "source": "조세일보"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스닥 5% 가까이 급락하며 매도 사이드카 발동 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pUERIejZYbk96Z1g2TTh1TnJ2c0FQVWROeGtKcUUzcll0c1ZXenRmZnNRMVc2S09qUkpQZVprZzN1dm9Rc0x2SlA5bmNNUGYyOE5wRlhTdlB4TGxTTjUtNGRkNi0yMzBNME1tSkRlV1lYT1Ju0gF0QVVfeXFMT3FrM01zbEdnQ2RVekljS0ZiSkpVVm9MbHVLMVJDSVZvdENZVDlXN2FjVk44Z2NVV0FkOEpIYzdNS2l1d3JvcXRScTFFM0tHRlV0ejJZeE1mamQxNHQwaGlJd052azI4dkdzalROVGdoYUllMG0?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 01:17:24 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "코스피, 혼조속 상승 탄력 모색…코스닥 5%대 급락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhZko1T2QxUjR4Y3FUN0tqSjNDeC1maGpFdHA3YlNMMk1YS2ljSzlHVm9IUGlvT2JvSVZqN2s5NENiSUdrYnZaS2EwbzE5bUozYlNEblRNZkNPYWvSAWBBVV95cUxNMkZCaFd2TGpDTzlfc3dfNFphVFhUMWYxdXZCZUp4MTIxemo1SllXdzM0QWJaU2IzR3NsTEpPU3JJdW1JRnhYZUNKM0hSTDlwejlMRTVKMUp1dWhaTjhBLVM?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 02:20:16 GMT",
+          "source": "연합뉴스"
+        },
         {
           "title": "코스피, 혼조속 상승 탄력 모색…코스닥 5%대 급락 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CR1U4eFNrbEdZem9maHFHY1d0LXpsY3BCUGhfdjZqTFJOUWJUcmRLeEg3bUpFZnF6aTlOaVo2UVpsMzBHc2NicUNBOHBKaUU?oc=5",
@@ -48,18 +54,6 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54S1BHNFNaVVZXZVZUc3hnWHhNYkxDNFYxZjFCQ0ZESldPc1VyU21PR1lOUS1PTktPR201NGJQRkVNRVM1WlVWMV9iYXF2MjhGWTExLWhKOXk0NU1KdkN3dnBoZUZ5dGszOXl4LXJUeW0?oc=5",
           "pub_date": "Fri, 21 Aug 2026 03:38:33 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "[속보]코스닥 4~5% 급락, 매도 사이드카…코스피 보합권 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsY21aRjNGSjJRdW5oLWMyOWZVSHhGZVJTQ0Jmci1IdUlkSm5WWmQ1OUlEUXA5clJaeDYwT1l4WnFnMjJPYVpNWVQ2R2x2VlV0?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 02:27:52 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "美 증시 약세에 국내 증시 하락…코스닥 급락에 매도 사이드카 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxeHJHaGpEN2MxeHJ4UmdBaDluaWw5OFFEOThuRzZfNzBla3F6UXF4UnJ0ZVQyRnF4Y1diSDBpTUNaeHhwODRqeXh4Q09QZw?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 02:07:36 GMT",
-          "source": "전자신문"
         }
       ]
     }
@@ -71,8 +65,8 @@
     "move": 73.18
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 54700000000,
-    "retail_net_buy_krw": -833000000000,
+    "foreign_inst_buy_krw": 116600000000,
+    "retail_net_buy_krw": -1001700000000,
     "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,14 +81,14 @@
       "sma_200": 24201.93
     },
     "kospi": {
-      "current": 6910.13,
+      "current": 6879.23,
       "high_52w": 9385.59,
-      "drop_pct": -26.38,
+      "drop_pct": -26.7,
       "intraday_low_drop_pct": -28.16,
-      "sma_200": 5888.82
+      "sma_200": 5888.66
     },
     "kosdaq": {
-      "current": 801.76,
+      "current": 801.67,
       "high_52w": 1229.42,
       "drop_pct": -34.79,
       "intraday_low_drop_pct": -35.29,
@@ -289,7 +283,7 @@
   },
   "expert_analysis": {
     "date": "2026-08-21",
-    "analyzed_at": "2026-08-21T13:06:19.238375+09:00",
+    "analyzed_at": "2026-08-21T13:50:35.213807+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -306,7 +300,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 정보는 상품 광고, 프로그램 안내, 서비스 구독 정보 등이며, 시장에 대한 구체적인 투자 행동 권고나 명확한 방향성 제시는 없습니다."
+          "reason": "영상 설명란은 광고와 채널 정보로 이루어져 있으며, 제목에서 '시장 분위기 바뀌었다'고 언급했지만 구체적인 매수/매도/현금화 등의 투자 행동 권고가 없기 때문에 중립적인 시장 분석으로 판단됩니다."
         }
       },
       {
@@ -319,7 +313,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란의 질문들은 시장 상황, 개별 기업 및 섹터에 대한 분석적 질의로 구성되어 있으며, 명확한 매수, 매도, 비중 축소 등의 행동 권고가 없습니다."
+          "reason": "전문가는 시장 전반, 특정 기업, 섹터의 현황과 향후 전망에 대한 다양한 질문을 던지며 분석적 관점을 제시하고 있지만, 주식 매수/매도/축소 등 구체적인 행동 권고는 명확히 나타나 있지 않습니다."
         }
       }
     ],
