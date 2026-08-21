@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-21T16:01:37.614264+09:00",
+  "timestamp": "2026-08-21T16:51:13.823100+09:00",
   "sentiment": {
-    "cnn_fng": 52.4571428571429,
+    "cnn_fng": 52.1428571428571,
     "cnn_components": {
       "momentum": 35.8,
-      "strength": 28.0,
-      "breadth": 56.2,
+      "strength": 29.2,
+      "breadth": 52.8,
       "put_call": 40.2,
       "junk_bond": 94.4,
       "volatility": 50.0,
@@ -14,22 +14,23 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 31,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 32,
+      "greed_articles": [
+        {
+          "title": "증시 회복세에 '빚투' 다시 증가세…신용잔고 32조 육박 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MemxUY3liUGNIRVVFQ3RYZENWS21kM3NNYktJOHJ5M3V0S0R3d1dIRU91b2hnYm4xeW5HQ3YzUVlKcEwxNTFreEg2MHR6US12TlhXSktQM2NqSFlUVUlMMNIBYEFVX3lxTE5MemxUY3liUGNIRVVFQ3RYZENWS21kM3NNYktJOHJ5M3V0S0R3d1dIRU91b2hnYm4xeW5HQ3YzUVlKcEwxNTFreEg2MHR6US12TlhXSktQM2NqSFlUVUlMMA?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 06:47:21 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "증시 회복세에 '빚투' 다시 증가세…신용잔고 32조 육박 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xWHlaWTYwS2p3Uk52NkNOSUMzN3ZjcWk0NG5RSlp4RFRZcTdiajN3WUhUTHBmTE1PcDVPVnh0eGRLNU5teVFQRzFyU3BUeGdhX2c?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 06:47:21 GMT",
+          "source": "매일경제 마켓"
+        }
+      ],
       "fear_articles": [
-        {
-          "title": "‘삼전닉스’ 상승세에 코스피 6,900선 회복…코스닥 4%대 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLcUU4cEhUYmJZMmk4XzJTaWtqc2NPZFVtOVRPT3p5aVllLU45empkOFUwRFVHUDk0ZnFJVUQtUWJoNTlzSlFkVlViSGg4Q29xQUVwMmJHa0JLeVU?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 06:56:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "코스피, 혼조속 상승 탄력 모색…코스닥 5%대 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CR1U4eFNrbEdZem9maHFHY1d0LXpsY3BCUGhfdjZqTFJOUWJUcmRLeEg3bUpFZnF6aTlOaVo2UVpsMzBHc2NicUNBOHBKaUU?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 02:22:15 GMT",
-          "source": "v.daum.net"
-        },
         {
           "title": "[속보] 상승 마감한 코스피, 6,900선 돌파···코스닥은 급락, 매도 사이드카 - 대구MBC",
           "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA2OERoSTRpTl9mUG1Ha2lkbVZ1bmVOV3dKeE1yZVFpa19wU0cxS3ZKRFBGMmxSSV9HbDFQYnhubkhHZ0lmWEY1NGJRbEs?oc=5",
@@ -37,29 +38,41 @@
           "source": "대구MBC"
         },
         {
-          "title": "코스닥 5%대 급락…‘매도 사이드카’ 발동 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SSzRTeFlrV0lrNGxObS0wa2pEbExrYzZOV0lmRldWMmpNUzhlOVk2MEROVUdYeWMtLUxXaFZpNXpZN18yWHpnWVlTUzlTMU1Ba2N4bmFJTi10Y3daVmwwMEVhNjBzeFNOSmI1QnQzRm1LUQ?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 02:39:00 GMT",
-          "source": "한겨레"
+          "title": "삼전닉스로 6900선 회복한 코스피…코스닥은 4.63% 급락에 '매도 사이드카' - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00UmZpc002bE5ZSUpodGw4cUhjSHN1MTJ3WklyXzhob2FLSFB3ZUpwbjBfaG9FTDVqWk83WEctTXNoZFhXZnNWRzdITVpIeWZYUWMwUllMTzhCRFpMaERkUE95OXlMX1h3WFE?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 07:09:38 GMT",
+          "source": "hidomin.com"
         },
         {
-          "title": "S&P500 선물, 증시 매도세 후 소폭 반등…美 국채금리 혼조 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54S1BHNFNaVVZXZVZUc3hnWHhNYkxDNFYxZjFCQ0ZESldPc1VyU21PR1lOUS1PTktPR201NGJQRkVNRVM1WlVWMV9iYXF2MjhGWTExLWhKOXk0NU1KdkN3dnBoZUZ5dGszOXl4LXJUeW0?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 03:38:33 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피, 0.9% 올라 6,900선 마감…코스닥, 4.6%급락 - BBS불교방송",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lUmRYWU9odTlpLXBZc2pZdUNfQy1QLTZNZFRhY2RTMndyRU1vTVhjMFg2R3NONlVjd1lpM2RmdGxtMVJTWnBEUnFXcGJDVVFwTkxYcER6UkliUlp1MlN5TnoyMkljZzRrX2d3?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 07:28:36 GMT",
+          "source": "BBS불교방송"
+        },
+        {
+          "title": "코스피 6900선 회복…코스닥은 4.6% 급락 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV6M0VOWkhzWks3OVBUUm5MTldacWdHeWhJQjBmV1BEam1BM2VIQmw2ejNmYnFCU3c3WVFMd1M4REMwUm84S0luaHdmd0VjcEd0Skc1dVB0TGNIRFV3RlhSVm41aUFucmVwR0hhdzNIcTNrLWpmWjdYdEF5dmluYzlJWWJxVVg0RE54al9zbVZ6WlBwX2tpQVZGb29DdnZBcVFBN3NlMklBd9IBX0FVX3lxTFBZWXpaQVZJREcyVVZQWl9zMms4Z2RUQnlveURFZzIzVEZnX2pmaHlnRkxYTlNxR0tPcnloclBZaVdtR1BJQ2w3eV9faXZBcWE5NUdQTFhFWnptdlRKMWdV?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 07:11:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "속보 코스피, 소폭 상승해 6,900선 회복...코스닥 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IV0t3aDJsZHE2RHlFWVpBaW1mWkdVcVoxX29aWmo5U0Z5SWdpRldFQXJwbS1mcngySXNtRldEazNUMXpwbXVTTXNGMDNpM2tBQVZicVlSUTJuZl9GM2c?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 06:40:00 GMT",
+          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.01,
+    "vix": 15.78,
     "vvix": 89.86,
     "skew": 143.23,
     "move": 73.18
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 72100000000,
-    "retail_net_buy_krw": -1165300000000,
+    "foreign_inst_buy_krw": 72000000000,
+    "retail_net_buy_krw": -1165200000000,
     "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
