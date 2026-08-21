@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-08-21T22:03:37.615730+09:00",
+  "timestamp": "2026-08-21T22:52:21.399163+09:00",
   "sentiment": {
-    "cnn_fng": 52.1428571428571,
+    "cnn_fng": 56.0285714285714,
     "cnn_components": {
-      "momentum": 35.8,
-      "strength": 29.2,
-      "breadth": 52.8,
-      "put_call": 40.2,
-      "junk_bond": 94.4,
+      "momentum": 39.0,
+      "strength": 30.0,
+      "breadth": 59.0,
+      "put_call": 52.6,
+      "junk_bond": 95.8,
       "volatility": 50.0,
-      "safe_haven": 62.8
+      "safe_haven": 69.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 3,
       "fear_count": 27,
       "greed_articles": [
         {
@@ -22,6 +22,12 @@
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xWHlaWTYwS2p3Uk52NkNOSUMzN3ZjcWk0NG5RSlp4RFRZcTdiajN3WUhUTHBmTE1PcDVPVnh0eGRLNU5teVFQRzFyU3BUeGdhX2c?oc=5",
           "pub_date": "Fri, 21 Aug 2026 06:47:21 GMT",
           "source": "매일경제 마켓"
+        },
+        {
+          "title": "[Ditta 뷰] 증시 회복세에 ‘빚투’ 다시 증가세…신용잔고 32조 육박 - dt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE82cmV4NE5lUjRGeWRYdDJ1WjdoTmFBbWY5eTEtTElBSzVfM0RaeUJrQXJTMG41YmFiYndWbVJXZGhPMTZtd0RiQkVJcVNMZw?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 08:40:48 GMT",
+          "source": "dt.co.kr"
         },
         {
           "title": "증시 반등에 다시 '빚투'…신용잔고 32조원 육박 - v.daum.net",
@@ -65,8 +71,8 @@
     }
   },
   "volatility": {
-    "vix": 15.42,
-    "vvix": 89.86,
+    "vix": 15.48,
+    "vvix": 86.88,
     "skew": 143.23,
     "move": 73.18
   },
@@ -80,11 +86,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26067.17,
+      "current": 26088.92,
       "high_52w": 27190.21,
-      "drop_pct": -4.13,
-      "intraday_low_drop_pct": -4.29,
-      "sma_200": 24230.11
+      "drop_pct": -4.05,
+      "intraday_low_drop_pct": -4.05,
+      "sma_200": 24241.39
     },
     "kospi": {
       "current": 6912.95,
@@ -101,34 +107,34 @@
       "sma_200": 993.63
     },
     "sp500": {
-      "current": 7641.16,
+      "current": 7665.81,
       "high_52w": 7816.7,
-      "drop_pct": -2.25,
-      "intraday_low_drop_pct": -2.27,
-      "sma_200": 7091.61
+      "drop_pct": -1.93,
+      "intraday_low_drop_pct": -1.93,
+      "sma_200": 7095.68
     },
     "russell2k": {
-      "current": 2992.43,
+      "current": 3015.81,
       "high_52w": 3069.71,
-      "drop_pct": -2.52,
-      "intraday_low_drop_pct": -2.62,
-      "sma_200": 2714.29
+      "drop_pct": -1.76,
+      "intraday_low_drop_pct": -2.04,
+      "sma_200": 2717.02
     },
     "soxx": {
-      "current": 522.35,
+      "current": 522.9,
       "high_52w": 655.95,
-      "drop_pct": -20.37,
-      "intraday_low_drop_pct": -21.45,
-      "sma_200": 419.42
+      "drop_pct": -20.28,
+      "intraday_low_drop_pct": -20.36,
+      "sma_200": 420.5
     }
   },
   "sector_rs": {
-    "XLK": 0.997,
-    "SMH": 0.962,
-    "BOTZ": 0.878,
-    "IGV": 1.071,
-    "XLF": 1.073,
-    "XLE": 1.055
+    "XLK": 0.994,
+    "SMH": 0.96,
+    "BOTZ": 0.881,
+    "IGV": 1.066,
+    "XLF": 1.082,
+    "XLE": 1.057
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 60.29,
+    "tqqq_profit_pct": 60.17,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 128.43,
+    "soxl_profit_pct": 129.03,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.47,
+    "koru_profit_pct": -94.35,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
