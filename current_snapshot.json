@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T08:59:44.557353+09:00",
+  "timestamp": "2026-08-21T10:50:17.738013+09:00",
   "sentiment": {
     "cnn_fng": 52.4857142857143,
     "cnn_components": {
@@ -15,38 +15,38 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 7,
+      "fear_count": 26,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "유가 하락·증시 부진에 7월 생산자물가 0.4%↓…11개월 만 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JajVEYnI0ZE5xX2lGTGNYQXd0d3NiN2ZwOEY1b01tRFdqcjZYc1hreGNYRFIyZFhpcm0yOXNkeXRVb3JlQ0NFS2g3RmdMQVVEZEphUWNpTUtsY2p0STdUQ3ROQktPN2s?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 21:02:23 GMT",
-          "source": "연합뉴스TV"
+          "title": "코스닥 5% 가까이 급락하며 매도 사이드카 발동 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pUERIejZYbk96Z1g2TTh1TnJ2c0FQVWROeGtKcUUzcll0c1ZXenRmZnNRMVc2S09qUkpQZVprZzN1dm9Rc0x2SlA5bmNNUGYyOE5wRlhTdlB4TGxTTjUtNGRkNi0yMzBNME1tSkRlV1lYT1Ju0gF0QVVfeXFMT3FrM01zbEdnQ2RVekljS0ZiSkpVVm9MbHVLMVJDSVZvdENZVDlXN2FjVk44Z2NVV0FkOEpIYzdNS2l1d3JvcXRScTFFM0tHRlV0ejJZeE1mamQxNHQwaGlJd052azI4dkdzalROVGdoYUllMG0?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 01:17:24 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "금리 다시 뛰고 월마트 9% 급락…다우 704P↓, 뉴욕증시 일제히 하락 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45WmZQMC1kSk1pX1VnMmFmbkg0UW9rcmhvTWJSYzR1eEVBZmhvYmFRRDFvaFFLYzFqMVZDdGY1enRaRHFPS1BHTEJucUkxaS1vRGMtUlQxbmtRdw?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 21:11:00 GMT",
-          "source": "경북매일"
+          "title": "코스닥 급락에 매도 사이드카…코스피 보합권 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BNHk1T2VnQ0hwRXBGLXVqZUhnWm5rYV9vdUZwWnJ6NFhNNmhpdHJFQ2U1V0hzbjNobGdhR1JVekdYMXZ6UjVxcnZLVjZ0azA4eHVJdlhjVVNxWTA?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 01:41:00 GMT",
+          "source": "KBS 뉴스"
         },
         {
-          "title": "유가 하락·증시 부진에 7월 생산자물가 0.4%↓…11개월 만 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE10eWhIcXlxZ1hFTExfY2kxTDFjeVZ4ZEhjYjZMTXJxc01HcjhtSkkwQTYwSTBCY3VKeVVHRjBJc18tTmJJZWFJVEFwbjRGcVU?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 21:01:08 GMT",
-          "source": "v.daum.net"
+          "title": "[속보] 코스닥 5%대 급락…‘매도 사이드카’ 발동 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SSzRTeFlrV0lrNGxObS0wa2pEbExrYzZOV0lmRldWMmpNUzhlOVk2MEROVUdYeWMtLUxXaFZpNXpZN18yWHpnWVlTUzlTMU1Ba2N4bmFJTi10Y3daVmwwMEVhNjBzeFNOSmI1QnQzRm1LUQ?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 01:41:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "[월가 레이더] 美 뉴욕증시, 바이백 약발 하루만에 다우 700P 급락…월마트 9% 폭락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41TF9wbS1YckdDZDd5M3NxSmN3QnI1M3N1cEFSNVVWMjJULWxZbUhoa3RWM3NyRVRiRnBlVGVoc3J6X3dKZHY0bEdMWVUtNzA0Nmx6RmtYYXpvUE02WkE?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 21:17:54 GMT",
-          "source": "포커스온경제"
+          "title": "코스피, 美 국채금리 부담에 6800선 약세…코스닥은 3%대 급락 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9veUc3dW9rZmp2bkRzakY4ODFOdVZndDlXcnZza2dpRVJzdE1hcEpDd0FNb1paVWgwQzlteUM2R0dLNHJEY2w0Qk8tMERxMFotZllMTGxKYlJsaHI4M2RQemZZcm0wQlE2TkE?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 00:40:28 GMT",
+          "source": "hidomin.com"
         },
         {
-          "title": "[뉴욕증시] 국채 수익률·유가 급등·월마트 폭락에 투심 꽁꽁...3대 지수↓ - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY190dy1VZ2xWWWNzYTBVVW4zX0VQcTJCQU9IdjhlMlQzU2JFQUN4ZXlrbjYtZTIyRnptaWxhenRfRVkwSi1jYWtNREtUeWNYakJQTm04MmE0Qk10akJ5NzV0b3NpZmVLN0p0bXYwa2pSRnpQdmJTMVhqc0F2V21fbGZJVElTRGlI?oc=5",
-          "pub_date": "Thu, 20 Aug 2026 20:36:30 GMT",
-          "source": "글로벌이코노믹"
+          "title": "속보 코스닥 4%대 급락...매도 사이드카 발동 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFdW1aM2FXczZybWdCQ0VtSFpPTk9TMmxuZXdxVGFOaXpfczFmaTA5Mkg3MlFiaVFkVkppRHdqa3k1M1FRYUVlMm5MSnlxUExUWGh3ZG8zYmpfbFI0ZFBrSF9WcXd6X3czVGJfeU5maGlldElCUmc?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 01:16:00 GMT",
+          "source": "YTN"
         }
       ]
     }
@@ -58,8 +58,8 @@
     "move": 73.18
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1217300000000,
-    "retail_net_buy_krw": -2271200000000,
+    "foreign_inst_buy_krw": 62200000000,
+    "retail_net_buy_krw": -403800000000,
     "margin_loan_krw": 30872300000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -74,18 +74,18 @@
       "sma_200": 24201.93
     },
     "kospi": {
-      "current": 6471.17,
+      "current": 6861.46,
       "high_52w": 9385.59,
-      "drop_pct": -31.05,
-      "intraday_low_drop_pct": -31.8,
-      "sma_200": 5858.65
+      "drop_pct": -26.89,
+      "intraday_low_drop_pct": -28.16,
+      "sma_200": 5888.58
     },
     "kosdaq": {
-      "current": 824.46,
+      "current": 799.58,
       "high_52w": 1229.42,
-      "drop_pct": -32.94,
-      "intraday_low_drop_pct": -34.6,
-      "sma_200": 995.26
+      "drop_pct": -34.96,
+      "intraday_low_drop_pct": -35.11,
+      "sma_200": 994.54
     },
     "sp500": {
       "current": 7641.16,
