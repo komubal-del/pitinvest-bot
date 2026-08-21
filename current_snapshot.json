@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T20:33:56.892635+09:00",
+  "timestamp": "2026-08-21T21:01:58.077967+09:00",
   "sentiment": {
     "cnn_fng": 52.1428571428571,
     "cnn_components": {
@@ -44,6 +44,12 @@
           "source": "연합뉴스TV"
         },
         {
+          "title": "“코스피 30% 급락, 투자자 불신만 키웠다”…로이터의 '韓 레버리지' 진단 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nQ2FoTFppWTZ3cmNMc3hJY3U4anBwYnRsa1NWeW1DQ1pFb1I2MzlDODQ3a3FIVjRSMnRPYy1FaEo4T3Q3U3pvS1V5N3Y3UQ?oc=5",
+          "pub_date": "Fri, 21 Aug 2026 11:55:00 GMT",
+          "source": "전자신문"
+        },
+        {
           "title": "[속보] 상승 마감한 코스피, 6,900선 돌파···코스닥은 급락, 매도 사이드카 - 대구MBC",
           "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA2OERoSTRpTl9mUG1Ha2lkbVZ1bmVOV3dKeE1yZVFpa19wU0cxS3ZKRFBGMmxSSV9HbDFQYnhubkhHZ0lmWEY1NGJRbEs?oc=5",
           "pub_date": "Fri, 21 Aug 2026 06:39:44 GMT",
@@ -54,18 +60,12 @@
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YOEZuZDFrSE4xUnNpdlgzeGRmd2w2Y0FSN2VscS01OUd6UlNpV0RoUmt6Ykt6Y29ZVkhFR1NGX3ByUG5pemptY182Ti1reU96MlFBd0sxUGZtUdIBX0FVX3lxTFBZWXpaQVZJREcyVVZQWl9zMms4Z2RUQnlveURFZzIzVEZnX2pmaHlnRkxYTlNxR0tPcnloclBZaVdtR1BJQ2w3eV9faXZBcWE5NUdQTFhFWnptdlRKMWdV?oc=5",
           "pub_date": "Fri, 21 Aug 2026 07:11:00 GMT",
           "source": "경향신문"
-        },
-        {
-          "title": "[0821마감체크] 코스피, 주주환원 훈풍에 6900선 회복... 코스닥은 급락 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzeWt5OEtWMVRVdzRvVlNqNG43MTVYNS1fbkpOa2o3d3pGWlNkcUZPMmNlRkkwZzg0bDB4WUp5aTc5Z25SczF5aHY2OURGUF8zYTI4OG1xTFhPazh2dktpcXlZcWdmeVZCdkFpZXBHbXQ?oc=5",
-          "pub_date": "Fri, 21 Aug 2026 11:01:00 GMT",
-          "source": "Investing.com 한국어"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.64,
+    "vix": 15.46,
     "vvix": 89.86,
     "skew": 143.23,
     "move": 73.18
