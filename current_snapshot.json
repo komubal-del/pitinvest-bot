@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T07:31:04.981360+09:00",
+  "timestamp": "2026-08-24T07:58:19.303616+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 0,
       "greed_articles": [
+        {
+          "title": "[0824개장체크] 美 증시, 서비스업 경기 호조 및 저가 매수세 유입 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55WV9rbkFLTEE1MUhPSUw3UGZIQnl5a2szQVY3UXJFWkItdGtPak15Zkw1QXdIdFZ3aW5iamk4V0Q4cUNMYkNLSWFtNXdPQU5Rajd4MHZPWktnN3k3cXJDcGtMMTVLQ3JaR0Q0R1NrNHNUcW94TVE?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 22:38:53 GMT",
+          "source": "인포스탁데일리"
+        },
         {
           "title": "올스프링 증시 10~15% 추가 하락할 수도…저가 매수 기회 - SBS Biz",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnMVpscnVCMVpwaFNoaGFvN0Vla2dXSkV1UnVldFE4aHN5WEpTend2djMya3ozck5vTkNUaUJxYXd1bkJPaVRZZW1mbFkwa3ZfRE8w0gFYQVVfeXFMTjFGeG5RekFkamplUlFreEE5cGhCeENyZk1nQlNtQjlObmFKTS15OUdoNlBWUkkzSWZwLXVvUmQ5VUk2WHU5OTF0TkhZXzN1M3o1MVJKb2JPSQ?oc=5",
@@ -36,7 +42,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 72100000000,
     "retail_net_buy_krw": -1165200000000,
-    "margin_loan_krw": 30872300000000,
+    "margin_loan_krw": 31448000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
