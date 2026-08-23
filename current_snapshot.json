@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T07:58:19.303616+09:00",
+  "timestamp": "2026-08-24T08:29:15.598067+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 0,
+      "greed_count": 4,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "[0824개장체크] 美 증시, 서비스업 경기 호조 및 저가 매수세 유입 - 인포스탁데일리",
@@ -24,13 +24,38 @@
           "source": "인포스탁데일리"
         },
         {
+          "title": "[개장] 뉴욕증시, 국채 금리 상승에도 저가 매수 유입에 상승..테슬라 5%↑ - 알파경제",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QRzBicTJObVNWOHZ1MXZHcWRtbkcxLVp4aHVOcDJMOHVCMVdxU3ZIcC1XVkd0QlBOZkxfN2l2dVFNNEw0T19kYmFHV2UyYUp0Z1l2dDZSaVFTNklwelZPT3BGMmxXQ1FjTUw5ck9R?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 22:33:50 GMT",
+          "source": "알파경제"
+        },
+        {
           "title": "올스프링 증시 10~15% 추가 하락할 수도…저가 매수 기회 - SBS Biz",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnMVpscnVCMVpwaFNoaGFvN0Vla2dXSkV1UnVldFE4aHN5WEpTend2djMya3ozck5vTkNUaUJxYXd1bkJPaVRZZW1mbFkwa3ZfRE8w0gFYQVVfeXFMTjFGeG5RekFkamplUlFreEE5cGhCeENyZk1nQlNtQjlObmFKTS15OUdoNlBWUkkzSWZwLXVvUmQ5VUk2WHU5OTF0TkhZXzN1M3o1MVJKb2JPSQ?oc=5",
           "pub_date": "Sun, 23 Aug 2026 21:40:00 GMT",
           "source": "SBS Biz"
+        },
+        {
+          "title": "[부자들의 투자노트] 올스프링 증시 10~15% 추가 하락할 수도…저가 매수 기회 - SBS Biz",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fU2NHOTBmZ1pHbnFBQTRjLXBneW16aVZ4TUJ2ZUM1TExMbDNVbTF5LVlCMnVxSFR1aHBFZE1SdERqbXdqV2VkZFpVeFFPWU95M3FR0gFYQVVfeXFMTjltMFlPQ0pwUF94UU9tN3BzUGY0TUhXb0xjcGNYREZWQjBYMkw0SGpock1lbEVaN2xTR2psX2pQd1FZYi1RTGdaeGJ2UzNaY2xjSUV3R005Vw?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 22:07:00 GMT",
+          "source": "SBS Biz"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "\"美 장기금리 상승에 증시 20%까지 급락 가능성\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sdEViTER1cW5RNXBpTzVQbmZoNV9Pd2VwQzQ3WnZEbkxSeVUtcmZUVUF2TTZpVUhEQ1Y5WXBVbmxSUm9kOG1oby1yOTFOWGxSaUZhdHJKOTFTbGJYQWd0cm1vRkJtTWYxNGNWaVdyMlFJdw?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 22:52:56 GMT",
+          "source": "KB Think"
+        },
+        {
+          "title": "IPO 시장도 급락장 후폭풍…3분기 새내기주 평균 25%↓ - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5V3ZyQnJzYTRaalZxdWZqd3BhTDNibnFsTmN4VWp5b0ZPTkNuTjExN1dsLWJvcTFMWE9Uc1FKVzJ0UmQ0MTBtSlpINE85YnRWNmNJWDNlYTVCQdIBWEFVX3lxTFA3b3VEdE9aVFlwdDJMSEdxdWgzdmNfY25rNkxiWlVaR1JvU19RcXpEN25fUnUwdGc5aUdlWjRSRzAxdXBTdWhsemxSUHlBck1HaExncTc2Ymc?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 23:21:40 GMT",
+          "source": "아주경제"
+        }
+      ]
     }
   },
   "volatility": {
