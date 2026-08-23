@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T08:29:15.598067+09:00",
+  "timestamp": "2026-08-24T08:56:59.621677+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,24 +14,30 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 2,
+      "greed_count": 5,
+      "fear_count": 1,
       "greed_articles": [
         {
-          "title": "[0824개장체크] 美 증시, 서비스업 경기 호조 및 저가 매수세 유입 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55WV9rbkFLTEE1MUhPSUw3UGZIQnl5a2szQVY3UXJFWkItdGtPak15Zkw1QXdIdFZ3aW5iamk4V0Q4cUNMYkNLSWFtNXdPQU5Rajd4MHZPWktnN3k3cXJDcGtMMTVLQ3JaR0Q0R1NrNHNUcW94TVE?oc=5",
-          "pub_date": "Sun, 23 Aug 2026 22:38:53 GMT",
-          "source": "인포스탁데일리"
+          "title": "[0824개장체크] 美 증시, 서비스업 경기 호조 및 저가 매수세 유입 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KZERvaWdTUldoSERXUy02RkNpS3QtckltWkotZ2l6M3dGOVVkTzZPb05pOVdTUklwTmZzMGprSFJzLWV6SkZ5N1pSNDBMbm80d0VoZDN5T1JVSjRpbUFKN0FZNFJQdkZ0cy1GLTNtSS0?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 23:48:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "[개장] 뉴욕증시, 국채 금리 상승에도 저가 매수 유입에 상승..테슬라 5%↑ - 알파경제",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QRzBicTJObVNWOHZ1MXZHcWRtbkcxLVp4aHVOcDJMOHVCMVdxU3ZIcC1XVkd0QlBOZkxfN2l2dVFNNEw0T19kYmFHV2UyYUp0Z1l2dDZSaVFTNklwelZPT3BGMmxXQ1FjTUw5ck9R?oc=5",
-          "pub_date": "Sun, 23 Aug 2026 22:33:50 GMT",
-          "source": "알파경제"
+          "title": "[개장] 뉴욕증시, 국채 금리 상승에도 저가 매수 유입에 상승..테슬라 5%↑ By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPLTh5ZXFqMEJBUzY3cjZXVUtkOHh4NVd6M3ZxcndVci1fenhkRF9felB4WHVMQkplTU1PQ0dkSFc0UjNNSGZOSVZZTUxzOWZISWtGNFVRcUZZZ3lkOXNucDN5TFh5akZGNU5mOEltd28?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 23:48:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "美 증시, 국채금리 재상승에도 저가 매수세 반등-[글로벌 마감 시황] - 한국경제TV",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kbUlob000VXJESlVJRGdKZVNBbzd0WjJjTnc4Ql9VcTFMSkRpMHFRZjJ5UklSZEo4TXV5eG9GaFJnTUNjMDRJX2tpMEd3SG14ODhLU1FWbE9leTVqWGRtSTRpelI4b1JjZDlYVTBwcVZ2UnFydEVR?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 23:38:00 GMT",
+          "source": "한국경제TV"
         },
         {
           "title": "올스프링 증시 10~15% 추가 하락할 수도…저가 매수 기회 - SBS Biz",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnMVpscnVCMVpwaFNoaGFvN0Vla2dXSkV1UnVldFE4aHN5WEpTend2djMya3ozck5vTkNUaUJxYXd1bkJPaVRZZW1mbFkwa3ZfRE8w0gFYQVVfeXFMTjFGeG5RekFkamplUlFreEE5cGhCeENyZk1nQlNtQjlObmFKTS15OUdoNlBWUkkzSWZwLXVvUmQ5VUk2WHU5OTF0TkhZXzN1M3o1MVJKb2JPSQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xRnhuUXpBZGpqZVJRa3hBOXBoQnhDcmZNZ0JTbUI5Tm5hSk0teTlHaDZQVlJJM0lmcC11b1JkOVVJNlh1OTkxdE5IWV8zdTN6NTFSSm9iT0nSAVhBVV95cUxOMUZ4blF6QWRqamVSUWt4QTlwaEJ4Q3JmTWdCU21COU5uYUpNLXk5R2g2UFZSSTNJZnAtdW9SZDlVSTZYdTk5MXROSFlfM3UzejUxUkpvYk9J?oc=5",
           "pub_date": "Sun, 23 Aug 2026 21:40:00 GMT",
           "source": "SBS Biz"
         },
@@ -48,12 +54,6 @@
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sdEViTER1cW5RNXBpTzVQbmZoNV9Pd2VwQzQ3WnZEbkxSeVUtcmZUVUF2TTZpVUhEQ1Y5WXBVbmxSUm9kOG1oby1yOTFOWGxSaUZhdHJKOTFTbGJYQWd0cm1vRkJtTWYxNGNWaVdyMlFJdw?oc=5",
           "pub_date": "Sun, 23 Aug 2026 22:52:56 GMT",
           "source": "KB Think"
-        },
-        {
-          "title": "IPO 시장도 급락장 후폭풍…3분기 새내기주 평균 25%↓ - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5V3ZyQnJzYTRaalZxdWZqd3BhTDNibnFsTmN4VWp5b0ZPTkNuTjExN1dsLWJvcTFMWE9Uc1FKVzJ0UmQ0MTBtSlpINE85YnRWNmNJWDNlYTVCQdIBWEFVX3lxTFA3b3VEdE9aVFlwdDJMSEdxdWgzdmNfY25rNkxiWlVaR1JvU19RcXpEN25fUnUwdGc5aUdlWjRSRzAxdXBTdWhsemxSUHlBck1HaExncTc2Ymc?oc=5",
-          "pub_date": "Sun, 23 Aug 2026 23:21:40 GMT",
-          "source": "아주경제"
         }
       ]
     }
