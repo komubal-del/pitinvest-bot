@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T06:29:30.022285+09:00",
+  "timestamp": "2026-08-24T06:57:08.363675+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "올스프링 증시 10~15% 추가 하락할 수도…저가 매수 기회 - SBS Biz",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnMVpscnVCMVpwaFNoaGFvN0Vla2dXSkV1UnVldFE4aHN5WEpTend2djMya3ozck5vTkNUaUJxYXd1bkJPaVRZZW1mbFkwa3ZfRE8w0gFYQVVfeXFMTjFGeG5RekFkamplUlFreEE5cGhCeENyZk1nQlNtQjlObmFKTS15OUdoNlBWUkkzSWZwLXVvUmQ5VUk2WHU5OTF0TkhZXzN1M3o1MVJKb2JPSQ?oc=5",
+          "pub_date": "Sun, 23 Aug 2026 21:40:00 GMT",
+          "source": "SBS Biz"
+        }
+      ],
       "fear_articles": []
     }
   },
