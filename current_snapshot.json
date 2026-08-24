@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T08:29:14.681822+09:00",
+  "timestamp": "2026-08-25T08:57:55.195152+09:00",
   "sentiment": {
     "cnn_fng": 55.0285714285714,
     "cnn_components": {
@@ -14,14 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 14,
+      "greed_count": 3,
+      "fear_count": 12,
       "greed_articles": [
         {
           "title": "\"코스피 거품? 일본 대비 1/4 저평가, 총수가 진심 주가 상승 원하는 이 주식 사라\" - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTUyZzM5Z3Jna0N2WUo4ZDZ5Rzh4TXZibXE5YjZnbFljMy1FOHJMT3BfNWp5cTFNNFlKSnZ3R296clNhTmM2ei1VLWg3MmNPeFJqejVQV2EzWXNzN0FYclVISWxfSzV5Y0tXQ1ZVSlMwLTg3bG1MNWFrYWUwT28xVg?oc=5",
           "pub_date": "Mon, 24 Aug 2026 20:39:56 GMT",
           "source": "조선일보"
+        },
+        {
+          "title": "삼전닉스 빼면 코스피 0.5% 올랐다…쏠림 완화 기대 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JOFo1MFZzaEU3aTFmMGluU1VXTzFMcEZjVDdUOEVvMzJ5MU5feUFnR041c2g1WUFLUFdtczBTUTd1S1VvR3hvYlJicmpvdWZGNGR5YU14eExXaHFuTVo1Ukc1VnBKTURoQ3I1WFdqSWPSAXRBVV95cUxOdFBRTGhvQTVndVZPd0NNQ1ZsSWxhUUdkNWxUcU9kOHhMOUFrUEdKcUhCNVI3akFIZDBXdDRvTzBqVDQ0RnRvdHF4aUUzX2x2OGpzVHR1d09QVGVXbE5MTlBwLXBDTmM2NE9pYjU3TTlScFhqbA?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 23:34:55 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[증시 포인트] 저가 매수세 유입 속 반등 시도 전망 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUZ1NQa0NKem9GOWVxUEMxZ25DS3JycEtlN3J1eEZfTm5UcFB0ZnZHWGpZdUZIMFM2N3JqMGplWkFJeUpUanRjVWhHNGZsYUFiQld1elYzejZiN0o5VkZ5OXlRZEVhekJwbi1weHM2S0VpZw?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 23:28:42 GMT",
+          "source": "오피니언뉴스"
         }
       ],
       "fear_articles": [
@@ -44,16 +56,16 @@
           "source": "경북매일"
         },
         {
-          "title": "[월가 레이더] 美 뉴욕증시, 반도체 급락에 나스닥 발목…엔비디아 7일 연속 하락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LeVRsS2VDMGUtcXA3eDRsaUh4aG45YTRuVDA0RmtwbjJuMW5kdEd6X19aUi1LemppZmdXS1p1ZFVPREN1NUFPS0FkV3FuNDl3dlA3ZHQ3OTlfc1QwX0dIbw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:08:57 GMT",
-          "source": "포커스온경제"
+          "title": "뉴욕증시, 반도체 급락 속 혼조 마감…엔비디아 7일째 밀려 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nbUxfVElULXhRei0zLVh6ODlRNXQzVU9XcG1oODdGUE5jbDhHNllKVjctdUpRdllKSWpBTDF1dFprNEgyM0pnbVRLZmRUU1lTQWVZUzFvLThEbU9u?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 21:27:00 GMT",
+          "source": "뉴스핌"
         },
         {
-          "title": "[속보]美증시 반도체 급락…마이크론 -5.8%·하닉ADR -4.9% - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUWHFBeHdHZ1k0UHExUFZfRlpDYzRnblQ3alE1YkYzV21uZy1lTE9IUnZ0a1NuTjFWMllYZjBTUDBpeElzOElDSEczSUhzWWs0?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:01:59 GMT",
-          "source": "문화일보"
+          "title": "증시 하락-물가 상승 겹치며 소비심리 4개월 만에 하락 전환 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdGROdUIwc3VGZ2trSTItNW1UaC00a2MwdnROUW9VV1NXQUNMTW1ZNUVEMU5MdGJHN09lOXFsd19zczFuWXN3MEVhRjhVVDNlUXVNVlNHUDBFbHpGSUdtZi1oS0Q5cjlwTTg3cnRySWR3QTh6Y2UyQUhuUEtKYXJmejRKS0FkZ9IBmgFBVV95cUxOSHJXNHp3WkJJTENsXzhHT080NGh3OE9nM05oc3hJQnl5cmlrQWhZdDV5ak9tcTVKeGtFem42UnRYWkRDNTI3RWhJeTJ0UUpuMzNaVS13NFVGeFNoLUF6cTlPQ3c5VEZ1VTFOSjgtRm1EVFJ2bnBTSjJsRWZYSUtueXE0SE1wNWE2ZG12MndYMDF3bjAyNFFNV2Fn?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 21:00:00 GMT",
+          "source": "Chosunbiz"
         }
       ]
     }
