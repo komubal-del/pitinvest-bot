@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T20:36:55.374945+09:00",
+  "timestamp": "2026-08-24T21:01:22.251204+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 37,
+      "fear_count": 36,
       "greed_articles": [
         {
           "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
@@ -38,16 +38,16 @@
       ],
       "fear_articles": [
         {
-          "title": "[주간증시전망] 기대만 잔뜩 키운 주주환원…삼성전자 주가 급락, 오히려 증시 악재됐다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SkFacWtfTXhRazFCWlk2bzg4Zi1XRHBaZ0RIVlZGZldTQThNTThlTm5ibGFVYXZFRU9hTF9FbS1lY0RKME5sVDNFbkJnVzA?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 09:45:02 GMT",
-          "source": "v.daum.net"
-        },
-        {
           "title": "[0824마감체크] 코스피, 삼성전자 주주환원 실망감에 급락... 코스닥은 상승 By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwZ1NlaDd1Y1MwMW9QM2FNTTRnUkpYenR6T3l6UFBVMUJuZ0dTaVJPSjZkbV9kcl9QX2MzcmNhZ2ctLVNEdnBHb21LeEdmTFNoU3F1Y3A2dzUwM1ZDV3VIdzIyMTZUS1E2dDdiX181aTA?oc=5",
           "pub_date": "Mon, 24 Aug 2026 08:56:00 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[주간증시전망] 기대만 잔뜩 키운 주주환원…삼성전자 주가 급락, 오히려 증시 악재됐다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SkFacWtfTXhRazFCWlk2bzg4Zi1XRHBaZ0RIVlZGZldTQThNTThlTm5ibGFVYXZFRU9hTF9FbS1lY0RKME5sVDNFbkJnVzA?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 09:45:02 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "’삼전닉스 급락’ 코스피 3%대↓…2차전지 급등 - 연합뉴스TV",
@@ -62,16 +62,16 @@
           "source": "v.daum.net"
         },
         {
-          "title": "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hcExUMXp6VnIwSk1LbEFsM0RobUROSXFJdzBtMVV2NlhiM1lPVEg3ZHRDSlFwVF9SNE5XVW1CS2Z4MGxKR3Z0Y1piTGxsck5XaURGM1BlTWxDaExxekdvM9IBYEFVX3lxTE1hcExUMXp6VnIwSk1LbEFsM0RobUROSXFJdzBtMVV2NlhiM1lPVEg3ZHRDSlFwVF9SNE5XVW1CS2Z4MGxKR3Z0Y1piTGxsck5XaURGM1BlTWxDaExxekdvMw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:22:15 GMT",
-          "source": "연합뉴스"
+          "title": "[증시-마감] 코스피, 삼전닉스 급락에 6,600선 후퇴…외인 3조원대 순매도 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRVVd2S3J3ME1mSFdNV04zVGFkM05NdGRPWEZDUEFWQk1qMXV5MGowMzdZTG5CWmZaZE1xdHk3eTNYai1kSEZ0LUYzZGdwdGJoaDZJN1kwSElFY0t3dVM0cURqS1pVa1MwZktkdlRnTnY?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 06:54:28 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.04,
+    "vix": 15.91,
     "vvix": 86.27,
     "skew": 143.9,
     "move": 73.4
