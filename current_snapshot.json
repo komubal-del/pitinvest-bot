@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T19:58:12.639328+09:00",
+  "timestamp": "2026-08-24T20:36:55.374945+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 39,
+      "fear_count": 37,
       "greed_articles": [
         {
           "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
@@ -50,28 +50,28 @@
           "source": "Investing.com 한국어"
         },
         {
+          "title": "’삼전닉스 급락’ 코스피 3%대↓…2차전지 급등 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40bi1Od09mNFdXYlZGV3VaNU9mUXU0Qkl0MEc3UFFhT2otVThJcnh1TGFGb01EanhMSWhJM0NWR2F3Q014X3hoeFdyZzdFLWVQejNYUWVoVE1sVUR2N3preXFrQ3ZMbEU?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 08:03:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
           "title": "[증시 인사이트] 주주환원에도 삼성전자 급락…코스피 약세 지속될까 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ldEpGNkJtSmN3RE8weHhhOUdLNHBNcGM3YndYS0V6MnE2REJSbnFtdXJhUFE5c1Z1NDVENHZIM0tNZU9qVlJSdEdEYWFPU28?oc=5",
           "pub_date": "Mon, 24 Aug 2026 07:46:32 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "삼전닉스 급락에 코스피 3%대↓…2차전지는 급등 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUMURIcUI2eUN1UTBxeXQxajZfb043UjhpTjdZVTNtdWIxd29aRDRRLUl1MUsyRlBRU3pDdXJRU3VldVVaZmJiWGhORlNWZWNlX2c2ZXZlU2thWTlldjlkM2VwaDYxMzQ?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:12:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "속보 코스피, 하락 마감...삼성전자, 8% 넘게 급락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tckFPMU14RDRfejlTbUd1dGNya0RHOTFDejFfcVhCS0luRVRyZUlKZ1pWd3Q3WHJYUnFSWUlpQ2F1VllKQ1plVDVscFJBT0owckQ1Q1FXS084WWZ4bXc?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 06:40:00 GMT",
-          "source": "YTN"
+          "title": "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hcExUMXp6VnIwSk1LbEFsM0RobUROSXFJdzBtMVV2NlhiM1lPVEg3ZHRDSlFwVF9SNE5XVW1CS2Z4MGxKR3Z0Y1piTGxsck5XaURGM1BlTWxDaExxekdvM9IBYEFVX3lxTE1hcExUMXp6VnIwSk1LbEFsM0RobUROSXFJdzBtMVV2NlhiM1lPVEg3ZHRDSlFwVF9SNE5XVW1CS2Z4MGxKR3Z0Y1piTGxsck5XaURGM1BlTWxDaExxekdvMw?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 07:22:15 GMT",
+          "source": "연합뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.93,
+    "vix": 16.04,
     "vvix": 86.27,
     "skew": 143.9,
     "move": 73.4
