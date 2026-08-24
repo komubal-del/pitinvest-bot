@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-24T22:06:04.989095+09:00",
+  "timestamp": "2026-08-24T22:58:18.020912+09:00",
   "sentiment": {
-    "cnn_fng": 55.1714285714286,
+    "cnn_fng": 55.5714285714286,
     "cnn_components": {
-      "momentum": 39.0,
-      "strength": 29.4,
-      "breadth": 57.6,
-      "put_call": 43.4,
-      "junk_bond": 95.8,
+      "momentum": 34.4,
+      "strength": 30.2,
+      "breadth": 58.2,
+      "put_call": 53.6,
+      "junk_bond": 94.0,
       "volatility": 50.0,
-      "safe_haven": 71.0
+      "safe_haven": 65.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -18,16 +18,16 @@
       "fear_count": 35,
       "greed_articles": [
         {
+          "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01NmNIc0x1aC14OUo2eFlFYnJQODJmSm5WM09XRGFLc2dQVDNvdUUxMVdfS1NkZVB6eTBJZnFqdy1nVGkwM0xZWXQtMm5uTGdaYzBaY1RaTnp4eHBIYW5pMXhmUlhIOF9IamlSMGVWaDFmODdN0gF0QVVfeXFMTzJlM2p1VUVLV2JmT1JlUVE3V3E3UEpxZmt1RHJRMDJsdGpzUXNXY3FENURVOGE0VHFBWHNIOXB3WDdkNVJFNkVfajFVemtYVV90VE9pZ2gwakZFR0dMZ2U5WjZuS2pVMEM2bEVvS1ZzUHRGZ1I?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 09:13:47 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
           "title": "빚투 증가 속도 너무 빠르다. 증시 체력이 단기적으로 약해질 수 있어 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2YlJkOS1taGhTOUN4V3pYTTFMVDhHZHQ3VEcwOWNraEdETldmTkhST2VHREw5Qm9najdnU3FOU1NBaXdUZ2lhaVpib1l3d2pLLWRUN2w2UldJYnR6UTV1Ug?oc=5",
           "pub_date": "Mon, 24 Aug 2026 07:49:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yZTNqdVVFS1diZk9SZVFRN1dxN1BKcWZrdURyUTAybHRqc1FzV2NxRDVEVThhNFRxQVhzSDlwd1g3ZDVSRTZFX2oxVXprWFVfdFRPaWdoMGpGRUdHTGdlOVo2bktqVTBDNmxFb0tWc1B0RmdS0gF0QVVfeXFMTzJlM2p1VUVLV2JmT1JlUVE3V3E3UEpxZmt1RHJRMDJsdGpzUXNXY3FENURVOGE0VHFBWHNIOXB3WDdkNVJFNkVfajFVemtYVV90VE9pZ2gwakZFR0dMZ2U5WjZuS2pVMEM2bEVvS1ZzUHRGZ1I?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 09:13:47 GMT",
-          "source": "MBC 뉴스"
         },
         {
           "title": "'슬금슬금' 코스피 \"지금이야!\"…늘어나는 '빚투' 32조 뚫었다 - v.daum.net",
@@ -37,23 +37,23 @@
         },
         {
           "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsbm9GaldDRXh4VmdEcVBHUl8xNFpLb2dNUkxCckZxNXltZTdJdnJPV2k0LXpfWmJQWXFPQUM4OUpWVlVyMGFiMmQtR3dPTUhyV2FHaFFWUWhfU0hzZVBrVHUzVXZWdDREZzFlTXRycnVjQUZh0gF0QVVfeXFMUGxub0ZqV0NFeHhWZ0RxUEdSXzE0WktvZ01STEJyRnE1eW1lN0l2ck9XaTQtel9aYlBZcU9BQzg5SlZWVXIwYWIyZC1Hd09NSHJXYUdoUVZRaF9TSHNlUGtUdTNVdlZ0NERnMWVNdHJydWNBRmE?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 08:05:46 GMT",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RQlpmQnI2ZnBSa2FRazNSNWdDOU9JcFNDMm5WeDJYOHMyNWVIb1B6UDduMHpjY19VeVo0VkxEaGIzZzNXWlhXOWlhSHUydExNVDlfRHRDMVp2bjhvSFR0MU9nekxDa3FmYjlsSHJmUzDSAXRBVV95cUxQbG5vRmpXQ0V4eFZnRHFQR1JfMTRaS29nTVJMQnJGcTV5bWU3SXZyT1dpNC16X1piUFlxT0FDODlKVlZVcjBhYjJkLUd3T01IcldhR2hRVlFoX1NIc2VQa1R1M1V2VnQ0RGcxZU10cnJ1Y0FGYQ?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 07:57:10 GMT",
           "source": "산경투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "[0824마감체크] 코스피, 삼성전자 주주환원 실망감에 급락... 코스닥은 상승 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwZ1NlaDd1Y1MwMW9QM2FNTTRnUkpYenR6T3l6UFBVMUJuZ0dTaVJPSjZkbV9kcl9QX2MzcmNhZ2ctLVNEdnBHb21LeEdmTFNoU3F1Y3A2dzUwM1ZDV3VIdzIyMTZUS1E2dDdiX181aTA?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 08:56:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
           "title": "[주간증시전망] 기대만 잔뜩 키운 주주환원…삼성전자 주가 급락, 오히려 증시 악재됐다 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SkFacWtfTXhRazFCWlk2bzg4Zi1XRHBaZ0RIVlZGZldTQThNTThlTm5ibGFVYXZFRU9hTF9FbS1lY0RKME5sVDNFbkJnVzA?oc=5",
           "pub_date": "Mon, 24 Aug 2026 09:45:02 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "[0824마감체크] 코스피, 삼성전자 주주환원 실망감에 급락... 코스닥은 상승 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwZ1NlaDd1Y1MwMW9QM2FNTTRnUkpYenR6T3l6UFBVMUJuZ0dTaVJPSjZkbV9kcl9QX2MzcmNhZ2ctLVNEdnBHb21LeEdmTFNoU3F1Y3A2dzUwM1ZDV3VIdzIyMTZUS1E2dDdiX181aTA?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 08:56:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
           "title": "속보 코스피, 하락 마감...삼성전자, 8% 넘게 급락 - YTN",
@@ -77,8 +77,8 @@
     }
   },
   "volatility": {
-    "vix": 15.9,
-    "vvix": 86.27,
+    "vix": 15.92,
+    "vvix": 88.96,
     "skew": 143.9,
     "move": 73.4
   },
@@ -92,11 +92,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26180.46,
+      "current": 25957.5,
       "high_52w": 27190.21,
-      "drop_pct": -3.71,
-      "intraday_low_drop_pct": -4.2,
-      "sma_200": 24241.84
+      "drop_pct": -4.53,
+      "intraday_low_drop_pct": -4.71,
+      "sma_200": 24254.89
     },
     "kospi": {
       "current": 6696.96,
@@ -113,34 +113,34 @@
       "sma_200": 993.19
     },
     "sp500": {
-      "current": 7674.37,
+      "current": 7650.3,
       "high_52w": 7816.7,
-      "drop_pct": -1.82,
-      "intraday_low_drop_pct": -2.0,
-      "sma_200": 7095.72
+      "drop_pct": -2.13,
+      "intraday_low_drop_pct": -2.28,
+      "sma_200": 7100.12
     },
     "russell2k": {
-      "current": 3017.87,
+      "current": 3002.68,
       "high_52w": 3069.71,
-      "drop_pct": -1.69,
-      "intraday_low_drop_pct": -2.27,
-      "sma_200": 2717.03
+      "drop_pct": -2.18,
+      "intraday_low_drop_pct": -2.18,
+      "sma_200": 2719.9
     },
     "soxx": {
-      "current": 520.05,
+      "current": 501.12,
       "high_52w": 655.95,
-      "drop_pct": -20.72,
-      "intraday_low_drop_pct": -21.54,
-      "sma_200": 420.48
+      "drop_pct": -23.6,
+      "intraday_low_drop_pct": -23.93,
+      "sma_200": 421.51
     }
   },
   "sector_rs": {
-    "XLK": 0.988,
-    "SMH": 0.944,
-    "BOTZ": 0.869,
-    "IGV": 1.068,
-    "XLF": 1.079,
-    "XLE": 1.047
+    "XLK": 0.951,
+    "SMH": 0.884,
+    "BOTZ": 0.849,
+    "IGV": 1.072,
+    "XLF": 1.107,
+    "XLE": 1.083
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,19 +176,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 61.86,
+    "tqqq_profit_pct": 55.49,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 125.42,
+    "soxl_profit_pct": 100.82,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.46,
+    "koru_profit_pct": -95.01,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
