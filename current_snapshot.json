@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T21:01:22.251204+09:00",
+  "timestamp": "2026-08-24T22:06:04.989095+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,20 +14,26 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 36,
+      "greed_count": 4,
+      "fear_count": 35,
       "greed_articles": [
-        {
-          "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01NmNIc0x1aC14OUo2eFlFYnJQODJmSm5WM09XRGFLc2dQVDNvdUUxMVdfS1NkZVB6eTBJZnFqdy1nVGkwM0xZWXQtMm5uTGdaYzBaY1RaTnp4eHBIYW5pMXhmUlhIOF9IamlSMGVWaDFmODdN0gF0QVVfeXFMTzJlM2p1VUVLV2JmT1JlUVE3V3E3UEpxZmt1RHJRMDJsdGpzUXNXY3FENURVOGE0VHFBWHNIOXB3WDdkNVJFNkVfajFVemtYVV90VE9pZ2gwakZFR0dMZ2U5WjZuS2pVMEM2bEVvS1ZzUHRGZ1I?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 09:13:47 GMT",
-          "source": "MBC 뉴스"
-        },
         {
           "title": "빚투 증가 속도 너무 빠르다. 증시 체력이 단기적으로 약해질 수 있어 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2YlJkOS1taGhTOUN4V3pYTTFMVDhHZHQ3VEcwOWNraEdETldmTkhST2VHREw5Qm9najdnU3FOU1NBaXdUZ2lhaVpib1l3d2pLLWRUN2w2UldJYnR6UTV1Ug?oc=5",
           "pub_date": "Mon, 24 Aug 2026 07:49:00 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yZTNqdVVFS1diZk9SZVFRN1dxN1BKcWZrdURyUTAybHRqc1FzV2NxRDVEVThhNFRxQVhzSDlwd1g3ZDVSRTZFX2oxVXprWFVfdFRPaWdoMGpGRUdHTGdlOVo2bktqVTBDNmxFb0tWc1B0RmdS0gF0QVVfeXFMTzJlM2p1VUVLV2JmT1JlUVE3V3E3UEpxZmt1RHJRMDJsdGpzUXNXY3FENURVOGE0VHFBWHNIOXB3WDdkNVJFNkVfajFVemtYVV90VE9pZ2gwakZFR0dMZ2U5WjZuS2pVMEM2bEVvS1ZzUHRGZ1I?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 09:13:47 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "'슬금슬금' 코스피 \"지금이야!\"…늘어나는 '빚투' 32조 뚫었다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FZkg0YTFCNW9vWEtfbFBEdWFuWU1EQmF2WHo3QWNBY042bUhyYmVfQmpNNng5RHBMYjFLODltalZITnExODNNeFhUcGsyMkU?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 08:03:34 GMT",
+          "source": "v.daum.net"
         },
         {
           "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
@@ -50,6 +56,12 @@
           "source": "v.daum.net"
         },
         {
+          "title": "속보 코스피, 하락 마감...삼성전자, 8% 넘게 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tckFPMU14RDRfejlTbUd1dGNya0RHOTFDejFfcVhCS0luRVRyZUlKZ1pWd3Q3WHJYUnFSWUlpQ2F1VllKQ1plVDVscFJBT0owckQ1Q1FXS084WWZ4bXc?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 06:40:00 GMT",
+          "source": "YTN"
+        },
+        {
           "title": "’삼전닉스 급락’ 코스피 3%대↓…2차전지 급등 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40bi1Od09mNFdXYlZGV3VaNU9mUXU0Qkl0MEc3UFFhT2otVThJcnh1TGFGb01EanhMSWhJM0NWR2F3Q014X3hoeFdyZzdFLWVQejNYUWVoVE1sVUR2N3preXFrQ3ZMbEU?oc=5",
           "pub_date": "Mon, 24 Aug 2026 08:03:00 GMT",
@@ -60,18 +72,12 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ldEpGNkJtSmN3RE8weHhhOUdLNHBNcGM3YndYS0V6MnE2REJSbnFtdXJhUFE5c1Z1NDVENHZIM0tNZU9qVlJSdEdEYWFPU28?oc=5",
           "pub_date": "Mon, 24 Aug 2026 07:46:32 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[증시-마감] 코스피, 삼전닉스 급락에 6,600선 후퇴…외인 3조원대 순매도 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRVVd2S3J3ME1mSFdNV04zVGFkM05NdGRPWEZDUEFWQk1qMXV5MGowMzdZTG5CWmZaZE1xdHk3eTNYai1kSEZ0LUYzZGdwdGJoaDZJN1kwSElFY0t3dVM0cURqS1pVa1MwZktkdlRnTnY?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 06:54:28 GMT",
-          "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.91,
+    "vix": 15.9,
     "vvix": 86.27,
     "skew": 143.9,
     "move": 73.4
