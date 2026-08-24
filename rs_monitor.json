@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T07:01:24.096314+09:00",
+  "timestamp": "2026-08-25T07:36:14.566080+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -2221,7 +2221,7 @@
     {
       "ticker": "XLC",
       "name": "Communication",
-      "rs_roc": -0.0123,
+      "rs_roc": -0.0027,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -2556,10 +2556,6 @@
           "value": 0.8665
         },
         {
-          "date": "2026-07-29",
-          "value": 0.8788
-        },
-        {
           "date": "2026-07-30",
           "value": 0.8412
         },
@@ -2582,10 +2578,6 @@
         {
           "date": "2026-08-06",
           "value": 0.8468
-        },
-        {
-          "date": "2026-08-07",
-          "value": 0.8422
         },
         {
           "date": "2026-08-10",
@@ -4870,8 +4862,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1382.3,
-      "change_30d_pct": -7.75
+      "value": 1381.9,
+      "change_30d_pct": -7.78
     },
     "us10y": {
       "ticker": "^TNX",

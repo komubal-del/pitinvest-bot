@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T07:01:18.713846+09:00",
+  "timestamp": "2026-08-25T07:36:08.730905+09:00",
   "sentiment": {
     "cnn_fng": 55.0285714285714,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 8,
+      "fear_count": 11,
       "greed_articles": [
         {
           "title": "\"코스피 거품? 일본 대비 1/4 저평가, 총수가 진심 주가 상승 원하는 이 주식 사라\" - 조선일보",
@@ -32,22 +32,22 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "뉴욕증시, 반도체주 급락에 발목…나스닥 0.76%↓ - bntnews.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FZG85LU5NU2hRT2VvVU5UcmxVcUhPTzFpMFM5Q3hxTDdaVDlBMkNURDYySG5MTlRvMHY4bFZUcE1KQThPdUNPV25nYmlqYjRyX1BSMi1SREl4aXdNcHkycXN0Nnk?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:17:47 GMT",
-          "source": "bntnews.co.kr"
+          "title": "[속보]美증시 반도체 급락…마이크론 -5.8%·하닉ADR -4.9% - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUWHFBeHdHZ1k0UHExUFZfRlpDYzRnblQ3alE1YkYzV21uZy1lTE9IUnZ0a1NuTjFWMllYZjBTUDBpeElzOElDSEczSUhzWWs0?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 21:01:59 GMT",
+          "source": "문화일보"
         },
         {
           "title": "[월가 레이더] 美 뉴욕증시, 반도체 급락에 나스닥 발목…엔비디아 7일 연속 하락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Db3VIMkxGMHpQeEI4bGxZY0dwUmFKNWVvb1lwMW9GSUx1SkYyZXBuVUdfRlpEWV9jN01FalBGZW91RmhMd2pN?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YY1AzTWpuMUx4YTUtQWlQeXNYd3VLRksyM2dRN3RUeGNmNy1Rc0psQjhRaDRURWkyM1B6bC1oU09ueWJ0SlV3Z2FSa2ZsSnBpcm55MXJPUUdOZGJNWlE?oc=5",
           "pub_date": "Mon, 24 Aug 2026 21:08:57 GMT",
           "source": "포커스온경제"
         },
         {
-          "title": "[뉴욕증시] 반도체주 급락에 나스닥 200P↓...마이크론 5.8% '털썩' - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ0ttYU1wRmdVa2V5dlREcXJkQmpBcFJrRmd0MVJQeG9SbGNwWnIxVnF1djlXNmUtbWtTUmJGQzVvdWlyQWFtWG5ZZ1o2dGN5c3pzMGVmVm55UFlTT2I1QTVDM3c1UU54aVFRakNhQWJJYXhIYlJMeUNWdHZrNXZUVnN5UGY1Rk5f?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 20:40:56 GMT",
-          "source": "글로벌이코노믹"
+          "title": "뉴욕증시, 반도체주 급락에 발목…나스닥 0.76%↓ - bntnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FZG85LU5NU2hRT2VvVU5UcmxVcUhPTzFpMFM5Q3hxTDdaVDlBMkNURDYySG5MTlRvMHY4bFZUcE1KQThPdUNPV25nYmlqYjRyX1BSMi1SREl4aXdNcHkycXN0Nnk?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 21:17:47 GMT",
+          "source": "bntnews.co.kr"
         },
         {
           "title": "뉴욕증시, 반도체 급락 속 혼조 마감…엔비디아 7일째 밀려 - 뉴스핌",
@@ -67,7 +67,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": -4959200000000,
     "retail_net_buy_krw": 3321700000000,
-    "margin_loan_krw": 31448000000000,
+    "margin_loan_krw": 31978500000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
