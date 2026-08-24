@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T17:08:36.100549+09:00",
+  "timestamp": "2026-08-24T18:09:40.435631+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 32,
+      "greed_count": 3,
+      "fear_count": 36,
       "greed_articles": [
         {
           "title": "빚투 증가 속도 너무 빠르다. 증시 체력이 단기적으로 약해질 수 있어 - Investing.com 한국어",
@@ -34,26 +34,20 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RQlpmQnI2ZnBSa2FRazNSNWdDOU9JcFNDMm5WeDJYOHMyNWVIb1B6UDduMHpjY19VeVo0VkxEaGIzZzNXWlhXOWlhSHUydExNVDlfRHRDMVp2bjhvSFR0MU9nekxDa3FmYjlsSHJmUzDSAXRBVV95cUxQbG5vRmpXQ0V4eFZnRHFQR1JfMTRaS29nTVJMQnJGcTV5bWU3SXZyT1dpNC16X1piUFlxT0FDODlKVlZVcjBhYjJkLUd3T01IcldhR2hRVlFoX1NIc2VQa1R1M1V2VnQ0RGcxZU10cnJ1Y0FGYQ?oc=5",
           "pub_date": "Mon, 24 Aug 2026 07:57:10 GMT",
           "source": "산경투데이"
-        },
-        {
-          "title": "증시 변동성 줄자 '빚투' 기지개...반대매매도 5배 급증 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjEwLWU3M3dKT3hOX1l2SlBWa1lQYnFvZHRYRlE2OHNfTjNTc2tOWGt3RmprU3FMWFR1UVliTkNDelFBTGxJTzZKQjlkbUVBNzVtMm1ucHA1YnY2RG43c0NFMTRCZmtRWUVJVDROMndLck5SaUZlN1Y2OXUzZTMxZ1prV0dyZDhB?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:08:40 GMT",
-          "source": "글로벌이코노믹"
         }
       ],
       "fear_articles": [
-        {
-          "title": "[증시-마감] 코스피, 삼전닉스 급락에 6,600선 후퇴…외인 3조원대 순매도 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRVVd2S3J3ME1mSFdNV04zVGFkM05NdGRPWEZDUEFWQk1qMXV5MGowMzdZTG5CWmZaZE1xdHk3eTNYai1kSEZ0LUYzZGdwdGJoaDZJN1kwSElFY0t3dVM0cURqS1pVa1MwZktkdlRnTnY?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 06:54:28 GMT",
-          "source": "연합인포맥스"
-        },
         {
           "title": "[증시 인사이트] 주주환원에도 삼성전자 급락…코스피 약세 지속될까 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ldEpGNkJtSmN3RE8weHhhOUdLNHBNcGM3YndYS0V6MnE2REJSbnFtdXJhUFE5c1Z1NDVENHZIM0tNZU9qVlJSdEdEYWFPU28?oc=5",
           "pub_date": "Mon, 24 Aug 2026 07:46:32 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "[0824마감체크] 코스피, 삼성전자 주주환원 실망감에 급락... 코스닥은 상승 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwZ1NlaDd1Y1MwMW9QM2FNTTRnUkpYenR6T3l6UFBVMUJuZ0dTaVJPSjZkbV9kcl9QX2MzcmNhZ2ctLVNEdnBHb21LeEdmTFNoU3F1Y3A2dzUwM1ZDV3VIdzIyMTZUS1E2dDdiX181aTA?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 08:56:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
           "title": "속보 코스피, 하락 마감...삼성전자, 8% 넘게 급락 - YTN",
@@ -62,29 +56,29 @@
           "source": "YTN"
         },
         {
-          "title": "코스피 3.12% 급락에도 강원 코스닥주 강세…메쥬 8.88% 상승 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tT1dib2ctanR1bEp5SFdjeF9ja2VZeUlNWi1FXzc3N2poWER0WldxT1FKYTZKQkZRVmRpWUo0VjQ5UkM0ckdzelIwTWNhZlU?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:27:09 GMT",
-          "source": "v.daum.net"
+          "title": "삼성전자 주주환원 실망에 코스피 3% 급락 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCb19vazlHVE9SZXpKazdaQTNFck1nYWRUNE5RSW9YWGNaY0kxSVVEdzNDQ094UDFHUko5SnZfeGxIaHZGU1JVdHlES21Bd0hwbXkyb2ZFQlE3V2lFdHFhRg?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 08:03:35 GMT",
+          "source": "뉴스토마토"
         },
         {
-          "title": "코스피 장중 낙폭 확대…삼전닉스 급락 vs 2차전지주 급등 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KZXlmQmJFc3o1SThqbVNYVVhJektlUEtvaXlNVmhrTW5oQjhSMjZ4MXlvRmR3MF83ZmxpVXFoZDY2YzVlRTVFM2xxelFiQW9ac3hsOHptY1NzMF8zamRHbW1RNlZKejF5MHNVaWs5RWw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 05:15:27 GMT",
+          "title": "[증시-마감] 코스피, 삼전닉스 급락에 6,600선 후퇴…외인 3조원대 순매도 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRVVd2S3J3ME1mSFdNV04zVGFkM05NdGRPWEZDUEFWQk1qMXV5MGowMzdZTG5CWmZaZE1xdHk3eTNYai1kSEZ0LUYzZGdwdGJoaDZJN1kwSElFY0t3dVM0cURqS1pVa1MwZktkdlRnTnY?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 06:54:28 GMT",
           "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.95,
+    "vix": 15.87,
     "vvix": 86.27,
     "skew": 143.9,
     "move": 73.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4969200000000,
-    "retail_net_buy_krw": 3320900000000,
+    "foreign_inst_buy_krw": -4959200000000,
+    "retail_net_buy_krw": 3321700000000,
     "margin_loan_krw": 31448000000000,
     "news_count": 0,
     "short_sale_balance": null,
