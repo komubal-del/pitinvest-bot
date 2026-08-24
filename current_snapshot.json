@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T10:51:16.278173+09:00",
+  "timestamp": "2026-08-24T12:12:13.369149+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,66 +14,10 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 19,
-      "greed_articles": [
-        {
-          "title": "[0824개장체크] 美 증시, 서비스업 경기 호조 및 저가 매수세 유입 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KZERvaWdTUldoSERXUy02RkNpS3QtckltWkotZ2l6M3dGOVVkTzZPb05pOVdTUklwTmZzMGprSFJzLWV6SkZ5N1pSNDBMbm80d0VoZDN5T1JVSjRpbUFKN0FZNFJQdkZ0cy1GLTNtSS0?oc=5",
-          "pub_date": "Sun, 23 Aug 2026 23:48:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "거래는 식었는데 '빚투' 4.5조 증가…코스피 반등의 그림자 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JSzdHVGJTS0Qxa2ZXMTluVENVWmhUZDVyMUl0NEMyZy1YYmdVWFZUU19IWG13RzVYWlg0cnF1TXVzejFwdkFpdlRWcklLM3pvMS1LUFA1SUxBVy1w?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 00:13:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[개장] 뉴욕증시, 국채 금리 상승에도 저가 매수 유입에 상승..테슬라 5%↑ By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPLTh5ZXFqMEJBUzY3cjZXVUtkOHh4NVd6M3ZxcndVci1fenhkRF9felB4WHVMQkplTU1PQ0dkSFc0UjNNSGZOSVZZTUxzOWZISWtGNFVRcUZZZ3lkOXNucDN5TFh5akZGNU5mOEltd28?oc=5",
-          "pub_date": "Sun, 23 Aug 2026 23:48:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "[부자들의 투자노트] 올스프링 \"증시 10~15% 추가 하락할 수도…저가 매수 기회\" - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FbXIySk44RjZkZWR5U3dJSzBqWkZGOUdVX290UEdxcUU5Qi1aX1FsOFFMbGpyRXVvcFpFcTI0XzJRZUJVRTcxWVRmSDRfOHc?oc=5",
-          "pub_date": "Sun, 23 Aug 2026 22:48:13 GMT",
-          "source": "v.daum.net"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "\"美 장기금리 상승에 증시 20%까지 급락 가능성\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UZVdILVp2cm1QVnpKQVBRR2dDTmIxUk5BSk9yVlNDUEtNdGpDVFdNanJtcUlZNG5HN3NwZjd1NEdmbVhYc2hpaUNFS2xqV2V2Q05NU0JQUFRRMXc0MmxjQTlXMnJVc280SHhDaVF4clk?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 00:52:58 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피 하락 출발…'110조 주주환원' 삼성전자 5%대 급락세 - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE03bFc0T2VOSUlULThkYUE1VnZ3ZVVVc0FfTDZYZU0xb2RUNVJiQ25lVmFMRURnYm4zMEV6TVBtUVN3QnJlMTdSbzFXRWwtdm9FQjU5R0tqc3hsSEdwWHprMlVZSE4tQ3pycnVNNWdEZFhqZw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 00:25:42 GMT",
-          "source": "KB Think"
-        },
-        {
-          "title": "주주환원 기대 못미쳤나? 삼전 급락에 코스피 1%대↓(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRDZRbk1raC1laTFJN1RDSUg2djlzTENwWjN1N09oenJSeEc4WVJTOHhQLU1NRld4MDR4WGw4QzNiY3BuRW9DTVprT3I2T2d0ZjVfMzhFY3pja2vSAWBBVV95cUxPbXJEWjl5REZwRzhVZUV2bkZBYzFSTjR0SlB1dVFJbEsyOEFHRFFUblZTck5fcWE1bUh4UkRBMlVEWDdwMGhaQnRwQkFMNndMOHFrZGk4QVUwRXA3V0t2akk?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 00:43:48 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피, 삼성전자 5% 급락에 6800선 후퇴 - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FanAxUFhOUU1LSVBab3huRVpBcm5fcG0tWjhvQTByYnRFVEVzbHBMbjVlcnMxTEFJa0tyZGFwdkRPZ0Z1WTBGLVFaRVA5bHNZRUk4aEdIUzQzV2ZhZ0o0N2NtRVFuamR5?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 01:25:15 GMT",
-          "source": "녹색경제신문"
-        },
-        {
-          "title": "[속보] ‘역대급 주주환원’ 삼성전자 -5% 급락…코스피 하락 출발 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xQjZ6RDJQVHY0Rm44ZHBHZzZlOEo2cWgwd2xjLVZmblQ5c1JPLTF1amJEZ3BUV0lqTjF1ZEtEY25jRW1LUFEtRHVhR0ZyUFpzUE1IYW5URm4wVHNfNEVlSVZyQm5tMnNYakdaNlpPVHJYQTR5R1pzU0Nhc1c0UQ?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 00:03:24 GMT",
-          "source": "서울신문"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -83,8 +27,8 @@
     "move": 73.4
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1999800000000,
-    "retail_net_buy_krw": 1498900000000,
+    "foreign_inst_buy_krw": -3008100000000,
+    "retail_net_buy_krw": 2130599999999,
     "margin_loan_krw": 31448000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -99,18 +43,18 @@
       "sma_200": 24241.84
     },
     "kospi": {
-      "current": 6801.41,
+      "current": 6736.68,
       "high_52w": 9385.59,
-      "drop_pct": -27.53,
-      "intraday_low_drop_pct": -27.81,
-      "sma_200": 5943.17
+      "drop_pct": -28.22,
+      "intraday_low_drop_pct": -28.51,
+      "sma_200": 5942.84
     },
     "kosdaq": {
-      "current": 816.81,
+      "current": 818.78,
       "high_52w": 1229.42,
-      "drop_pct": -33.56,
+      "drop_pct": -33.4,
       "intraday_low_drop_pct": -34.58,
-      "sma_200": 993.21
+      "sma_200": 993.22
     },
     "sp500": {
       "current": 7674.37,
@@ -202,7 +146,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
