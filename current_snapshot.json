@@ -1,84 +1,28 @@
 {
-  "timestamp": "2026-08-24T23:52:24.019474+09:00",
+  "timestamp": "2026-08-25T00:49:01.198275+09:00",
   "sentiment": {
-    "cnn_fng": 56.2285714285714,
+    "cnn_fng": 56.1428571428571,
     "cnn_components": {
       "momentum": 36.2,
       "strength": 30.2,
-      "breadth": 58.8,
-      "put_call": 58.0,
-      "junk_bond": 94.2,
+      "breadth": 58.4,
+      "put_call": 57.4,
+      "junk_bond": 93.4,
       "volatility": 50.0,
-      "safe_haven": 66.6
+      "safe_haven": 67.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 37,
-      "greed_articles": [
-        {
-          "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01NmNIc0x1aC14OUo2eFlFYnJQODJmSm5WM09XRGFLc2dQVDNvdUUxMVdfS1NkZVB6eTBJZnFqdy1nVGkwM0xZWXQtMm5uTGdaYzBaY1RaTnp4eHBIYW5pMXhmUlhIOF9IamlSMGVWaDFmODdN0gF0QVVfeXFMTzJlM2p1VUVLV2JmT1JlUVE3V3E3UEpxZmt1RHJRMDJsdGpzUXNXY3FENURVOGE0VHFBWHNIOXB3WDdkNVJFNkVfajFVemtYVV90VE9pZ2gwakZFR0dMZ2U5WjZuS2pVMEM2bEVvS1ZzUHRGZ1I?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 09:13:47 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "빚투 증가 속도 너무 빠르다. 증시 체력이 단기적으로 약해질 수 있어 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2YlJkOS1taGhTOUN4V3pYTTFMVDhHZHQ3VEcwOWNraEdETldmTkhST2VHREw5Qm9najdnU3FOU1NBaXdUZ2lhaVpib1l3d2pLLWRUN2w2UldJYnR6UTV1Ug?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:49:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "'슬금슬금' 코스피 \"지금이야!\"…늘어나는 '빚투' 32조 뚫었다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FZkg0YTFCNW9vWEtfbFBEdWFuWU1EQmF2WHo3QWNBY042bUhyYmVfQmpNNng5RHBMYjFLODltalZITnExODNNeFhUcGsyMkU?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 08:03:34 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 회복에 다시 불붙은 ‘빚투’…신용잔고 32조원대 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RQlpmQnI2ZnBSa2FRazNSNWdDOU9JcFNDMm5WeDJYOHMyNWVIb1B6UDduMHpjY19VeVo0VkxEaGIzZzNXWlhXOWlhSHUydExNVDlfRHRDMVp2bjhvSFR0MU9nekxDa3FmYjlsSHJmUzDSAXRBVV95cUxQbG5vRmpXQ0V4eFZnRHFQR1JfMTRaS29nTVJMQnJGcTV5bWU3SXZyT1dpNC16X1piUFlxT0FDODlKVlZVcjBhYjJkLUd3T01IcldhR2hRVlFoX1NIc2VQa1R1M1V2VnQ0RGcxZU10cnJ1Y0FGYQ?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:57:10 GMT",
-          "source": "산경투데이"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[0824마감체크] 코스피, 삼성전자 주주환원 실망감에 급락... 코스닥은 상승 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwZ1NlaDd1Y1MwMW9QM2FNTTRnUkpYenR6T3l6UFBVMUJuZ0dTaVJPSjZkbV9kcl9QX2MzcmNhZ2ctLVNEdnBHb21LeEdmTFNoU3F1Y3A2dzUwM1ZDV3VIdzIyMTZUS1E2dDdiX181aTA?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 08:56:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "[주간증시전망] 기대만 잔뜩 키운 주주환원…삼성전자 주가 급락, 오히려 증시 악재됐다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SkFacWtfTXhRazFCWlk2bzg4Zi1XRHBaZ0RIVlZGZldTQThNTThlTm5ibGFVYXZFRU9hTF9FbS1lY0RKME5sVDNFbkJnVzA?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 09:45:02 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "’삼전닉스 급락’ 코스피 3%대↓…2차전지 급등 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40bi1Od09mNFdXYlZGV3VaNU9mUXU0Qkl0MEc3UFFhT2otVThJcnh1TGFGb01EanhMSWhJM0NWR2F3Q014X3hoeFdyZzdFLWVQejNYUWVoVE1sVUR2N3preXFrQ3ZMbEU?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 08:03:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "[증시 인사이트] 주주환원에도 삼성전자 급락…코스피 약세 지속될까 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ldEpGNkJtSmN3RE8weHhhOUdLNHBNcGM3YndYS0V6MnE2REJSbnFtdXJhUFE5c1Z1NDVENHZIM0tNZU9qVlJSdEdEYWFPU28?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:46:32 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "속보 코스피, 하락 마감...삼성전자, 8% 넘게 급락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tckFPMU14RDRfejlTbUd1dGNya0RHOTFDejFfcVhCS0luRVRyZUlKZ1pWd3Q3WHJYUnFSWUlpQ2F1VllKQ1plVDVscFJBT0owckQ1Q1FXS084WWZ4bXc?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 06:40:00 GMT",
-          "source": "YTN"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.81,
-    "vvix": 88.9,
+    "vix": 15.77,
+    "vvix": 88.37,
     "skew": 143.9,
     "move": 73.4
   },
@@ -92,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26025.4,
+      "current": 26087.3,
       "high_52w": 27190.21,
-      "drop_pct": -4.28,
+      "drop_pct": -4.06,
       "intraday_low_drop_pct": -4.71,
-      "sma_200": 24255.23
+      "sma_200": 24255.54
     },
     "kospi": {
-      "current": 6696.96,
+      "current": 6912.95,
       "high_52w": 9385.59,
-      "drop_pct": -28.65,
-      "intraday_low_drop_pct": -29.08,
-      "sma_200": 5942.64
+      "drop_pct": -26.35,
+      "intraday_low_drop_pct": -28.16,
+      "sma_200": 5929.56
     },
     "kosdaq": {
-      "current": 813.33,
+      "current": 801.94,
       "high_52w": 1229.42,
-      "drop_pct": -33.84,
-      "intraday_low_drop_pct": -34.58,
-      "sma_200": 993.19
+      "drop_pct": -34.77,
+      "intraday_low_drop_pct": -35.29,
+      "sma_200": 993.63
     },
     "sp500": {
-      "current": 7652.92,
+      "current": 7661.31,
       "high_52w": 7816.7,
-      "drop_pct": -2.1,
+      "drop_pct": -1.99,
       "intraday_low_drop_pct": -2.28,
-      "sma_200": 7100.13
+      "sma_200": 7100.17
     },
     "russell2k": {
-      "current": 3006.97,
+      "current": 3002.13,
       "high_52w": 3069.71,
-      "drop_pct": -2.04,
+      "drop_pct": -2.2,
       "intraday_low_drop_pct": -2.3,
-      "sma_200": 2719.92
+      "sma_200": 2719.9
     },
     "soxx": {
-      "current": 502.59,
+      "current": 506.4,
       "high_52w": 655.95,
-      "drop_pct": -23.38,
+      "drop_pct": -22.8,
       "intraday_low_drop_pct": -23.93,
-      "sma_200": 421.52
+      "sma_200": 421.54
     }
   },
   "sector_rs": {
-    "XLK": 0.955,
-    "SMH": 0.886,
+    "XLK": 0.957,
+    "SMH": 0.89,
     "BOTZ": 0.849,
     "IGV": 1.072,
-    "XLF": 1.105,
-    "XLE": 1.073
+    "XLF": 1.103,
+    "XLE": 1.069
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 56.86,
+    "tqqq_profit_pct": 58.31,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 102.52,
+    "soxl_profit_pct": 107.24,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.95,
+    "koru_profit_pct": -94.86,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -343,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 177.278,
+    "strategy_pct": 178.012,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1003,7 +947,7 @@
       },
       {
         "date": "2026-08-24",
-        "ret_pct": 177.278
+        "ret_pct": 178.012
       }
     ],
     "monthly_breakdown": [
@@ -1051,9 +995,9 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 7.84,
-        "end_ret_pct": 177.28,
-        "max_dd_pct": 25.88
+        "return_pct": 8.57,
+        "end_ret_pct": 178.01,
+        "max_dd_pct": 25.15
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
