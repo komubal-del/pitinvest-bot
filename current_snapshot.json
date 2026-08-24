@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T19:08:00.766493+09:00",
+  "timestamp": "2026-08-24T19:58:12.639328+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 42,
+      "greed_count": 3,
+      "fear_count": 39,
       "greed_articles": [
         {
           "title": "증시 회복 국면 들어서자 '빚투' 다시 증가‥투자자예탁금은 큰 폭 하락 - MBC 뉴스",
@@ -34,15 +34,15 @@
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsbm9GaldDRXh4VmdEcVBHUl8xNFpLb2dNUkxCckZxNXltZTdJdnJPV2k0LXpfWmJQWXFPQUM4OUpWVlVyMGFiMmQtR3dPTUhyV2FHaFFWUWhfU0hzZVBrVHUzVXZWdDREZzFlTXRycnVjQUZh0gF0QVVfeXFMUGxub0ZqV0NFeHhWZ0RxUEdSXzE0WktvZ01STEJyRnE1eW1lN0l2ck9XaTQtel9aYlBZcU9BQzg5SlZWVXIwYWIyZC1Hd09NSHJXYUdoUVZRaF9TSHNlUGtUdTNVdlZ0NERnMWVNdHJydWNBRmE?oc=5",
           "pub_date": "Mon, 24 Aug 2026 08:05:46 GMT",
           "source": "산경투데이"
-        },
-        {
-          "title": "[마감 시황] 코스피, 하락 마감…AI 버블 우려에 외국인 투심 악화 - 필드뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53ODZGNElHR0p6QjdQZnNpYVRpZXJJUkhVOUJZY0NMNWxIVHROcHVnczZjTkhhTDcydnlDYnB5ZGpwUUJfRW5IZ183UzJNdENOdmh6a0FkU3B5NkJDMmRpQ1hkSldXOXNz0gFsQVVfeXFMT3ZCcWVqY2t4dkZKUFR5aHNJZ2lxMHM5ZHpqZlhQY0YzYk9UeFM3QTY3eUhpRk1lSkFiNTZOOFA1RHFYNm9RT2V1MGhKYl9rMnNVNXNZUl9yRjRscUVfMmJHdi1iTHBpeDVqb1J4?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 06:51:02 GMT",
-          "source": "필드뉴스"
         }
       ],
       "fear_articles": [
+        {
+          "title": "[주간증시전망] 기대만 잔뜩 키운 주주환원…삼성전자 주가 급락, 오히려 증시 악재됐다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SkFacWtfTXhRazFCWlk2bzg4Zi1XRHBaZ0RIVlZGZldTQThNTThlTm5ibGFVYXZFRU9hTF9FbS1lY0RKME5sVDNFbkJnVzA?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 09:45:02 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "[0824마감체크] 코스피, 삼성전자 주주환원 실망감에 급락... 코스닥은 상승 By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwZ1NlaDd1Y1MwMW9QM2FNTTRnUkpYenR6T3l6UFBVMUJuZ0dTaVJPSjZkbV9kcl9QX2MzcmNhZ2ctLVNEdnBHb21LeEdmTFNoU3F1Y3A2dzUwM1ZDV3VIdzIyMTZUS1E2dDdiX181aTA?oc=5",
@@ -62,22 +62,16 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hcExUMXp6VnIwSk1LbEFsM0RobUROSXFJdzBtMVV2NlhiM1lPVEg3ZHRDSlFwVF9SNE5XVW1CS2Z4MGxKR3Z0Y1piTGxsck5XaURGM1BlTWxDaExxekdvM9IBYEFVX3lxTE1hcExUMXp6VnIwSk1LbEFsM0RobUROSXFJdzBtMVV2NlhiM1lPVEg3ZHRDSlFwVF9SNE5XVW1CS2Z4MGxKR3Z0Y1piTGxsck5XaURGM1BlTWxDaExxekdvMw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:22:15 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 3.12% 급락에도 강원 코스닥주 강세…메쥬 8.88% 상승 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tT1dib2ctanR1bEp5SFdjeF9ja2VZeUlNWi1FXzc3N2poWER0WldxT1FKYTZKQkZRVmRpWUo0VjQ5UkM0ckdzelIwTWNhZlU?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 07:27:09 GMT",
-          "source": "v.daum.net"
+          "title": "속보 코스피, 하락 마감...삼성전자, 8% 넘게 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tckFPMU14RDRfejlTbUd1dGNya0RHOTFDejFfcVhCS0luRVRyZUlKZ1pWd3Q3WHJYUnFSWUlpQ2F1VllKQ1plVDVscFJBT0owckQ1Q1FXS084WWZ4bXc?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 06:40:00 GMT",
+          "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.89,
+    "vix": 15.93,
     "vvix": 86.27,
     "skew": 143.9,
     "move": 73.4
