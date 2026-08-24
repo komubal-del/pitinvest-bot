@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T08:01:21.700698+09:00",
+  "timestamp": "2026-08-25T08:29:14.681822+09:00",
   "sentiment": {
     "cnn_fng": 55.0285714285714,
     "cnn_components": {
@@ -26,34 +26,34 @@
       ],
       "fear_articles": [
         {
+          "title": "[0825개장체크] 美 증시, 엔비디아 AI 칩 가격 인상 통보에 따른 반도체 투매 및 AI 비용 부담 우려 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80X3Bvb05nVXUwaVRVdjk2cmo1aEJTcllDdHM3dW1neTZBbm9UT1BqcTE4RWVVOWsyRXN5QXlhNXFGV1JUTFVCSFdXMUhEQmJHNkplaW5XYU51MzJFWXJGYnFfVlZWZmlpc1lwX1dpOWo?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 23:13:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
           "title": "[뉴욕증시] 유가·국채금리 하락에도 반도체 투매…나스닥·S&P 500↓ - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MS3hOWEZaTEVQVHM2MldaMFhQVXVxREVNazg2MkYzTlpUSlI3X0F5R2VEX284clVYQy1oUEkzVlROU3UyYTZqNmFQTU5GSmpLcm5CcEM5MWtVTkZkR3QyWHdQUmowWFlOYUtHeGZJWGc?oc=5",
           "pub_date": "Mon, 24 Aug 2026 20:41:42 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "[속보]美증시 반도체 급락…마이크론 -5.8%·하닉ADR -4.9% - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUWHFBeHdHZ1k0UHExUFZfRlpDYzRnblQ3alE1YkYzV21uZy1lTE9IUnZ0a1NuTjFWMllYZjBTUDBpeElzOElDSEczSUhzWWs0?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:01:59 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "[0825개장체크] 美 증시, 엔비디아 AI 칩 가격 인상 통보에 따른 반도체 투매 및 AI 비용 부담 우려 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvOHBYTF96RGM0VU9GaVFGcHNyVnA0MEtqTW9acXZ4NjVBQ1JUWWp2MXc5SnhVenItbE50aGJ2UkZaVi1XdDRBcGFBeERrdDF3OUx1c0paN2YwaERHbWZjY21jSU42V1UxRTVRaDdURTJRUl9m?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 22:46:05 GMT",
-          "source": "인포스탁데일리"
+          "title": "삼성전자 8.7% 급락한 코스피…저가매수 시험대 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oZ3RXSmR0c20zbXYwdlg3SVA0bFA2ZTBkbjAyRWsxQ09QaDBacmVLZXJhT2g5UnItNi1WQmhXZTVpMGk0a3hCc2RpZzEwbE9lakhOWDFFMURJZw?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 23:19:00 GMT",
+          "source": "경북매일"
         },
         {
           "title": "[월가 레이더] 美 뉴욕증시, 반도체 급락에 나스닥 발목…엔비디아 7일 연속 하락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YY1AzTWpuMUx4YTUtQWlQeXNYd3VLRksyM2dRN3RUeGNmNy1Rc0psQjhRaDRURWkyM1B6bC1oU09ueWJ0SlV3Z2FSa2ZsSnBpcm55MXJPUUdOZGJNWlE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LeVRsS2VDMGUtcXA3eDRsaUh4aG45YTRuVDA0RmtwbjJuMW5kdEd6X19aUi1LemppZmdXS1p1ZFVPREN1NUFPS0FkV3FuNDl3dlA3ZHQ3OTlfc1QwX0dIbw?oc=5",
           "pub_date": "Mon, 24 Aug 2026 21:08:57 GMT",
           "source": "포커스온경제"
         },
         {
-          "title": "뉴욕증시, 반도체주 급락에 발목…나스닥 0.76%↓ - bntnews.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FZG85LU5NU2hRT2VvVU5UcmxVcUhPTzFpMFM5Q3hxTDdaVDlBMkNURDYySG5MTlRvMHY4bFZUcE1KQThPdUNPV25nYmlqYjRyX1BSMi1SREl4aXdNcHkycXN0Nnk?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:17:47 GMT",
-          "source": "bntnews.co.kr"
+          "title": "[속보]美증시 반도체 급락…마이크론 -5.8%·하닉ADR -4.9% - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUWHFBeHdHZ1k0UHExUFZfRlpDYzRnblQ3alE1YkYzV21uZy1lTE9IUnZ0a1NuTjFWMllYZjBTUDBpeElzOElDSEczSUhzWWs0?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 21:01:59 GMT",
+          "source": "문화일보"
         }
       ]
     }
