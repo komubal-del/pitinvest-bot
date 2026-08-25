@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T06:02:34.911279+09:00",
+  "timestamp": "2026-08-26T06:37:06.144711+09:00",
   "sentiment": {
     "cnn_fng": 58.8,
     "cnn_components": {
@@ -27,7 +27,7 @@
       "fear_articles": [
         {
           "title": "非반도체 순환매 확산… 코스피, 급락 딛고 극적 반등 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TRGNGUUJfWm14Y1JRT0pSQ01malowM0w0emRhWC03elFhUnpLNWhjSkVQMFQyd3dKWDFNYldqSWF0eGIyV3AxMGtLV21nQ0dDcm82RkJkSXN4NkoxRkZ4SWFHN3l6SldIdk5NbHV30gFuQVVfeXFMTVNEY0ZRQl9abXhjUlFPSlJDTWZqWjAzTDR6ZGFYLTd6UWFSeks1aGNKRVAwVDJ3d0pYMU1iV2pJYXR4YjJXcDEwa0tXbWdDR0NybzZGQmRJc3g2SjFGRnhJYUc3eXpKV0h2Tk1sdXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLMkdMUDd0elh4T294UWxsVmxULVRrWUgtZmdyQ2o2YVRUQjBteGdmWUJKRDZXZmF2akZnbnRyelNobWpGZnh1Rld0cXlCYnctTFdiU1o3ZFJkN2g0bGl6MVlaR3kyS3Nx0gFuQVVfeXFMTVNEY0ZRQl9abXhjUlFPSlJDTWZqWjAzTDR6ZGFYLTd6UWFSeks1aGNKRVAwVDJ3d0pYMU1iV2pJYXR4YjJXcDEwa0tXbWdDR0NybzZGQmRJc3g2SjFGRnhJYUc3eXpKV0h2Tk1sdXc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 19:03:00 GMT",
           "source": "머니투데이"
         }
@@ -37,7 +37,7 @@
   "volatility": {
     "vix": 15.45,
     "vvix": 85.67,
-    "skew": 145.64,
+    "skew": 143.27,
     "move": 71.92
   },
   "korea_flow": {
