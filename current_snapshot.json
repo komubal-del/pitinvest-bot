@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T06:37:06.144711+09:00",
+  "timestamp": "2026-08-26T06:59:54.361164+09:00",
   "sentiment": {
     "cnn_fng": 58.8,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 1,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 유니콘팩토리",
@@ -30,6 +30,12 @@
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLMkdMUDd0elh4T294UWxsVmxULVRrWUgtZmdyQ2o2YVRUQjBteGdmWUJKRDZXZmF2akZnbnRyelNobWpGZnh1Rld0cXlCYnctTFdiU1o3ZFJkN2g0bGl6MVlaR3kyS3Nx0gFuQVVfeXFMTVNEY0ZRQl9abXhjUlFPSlJDTWZqWjAzTDR6ZGFYLTd6UWFSeks1aGNKRVAwVDJ3d0pYMU1iV2pJYXR4YjJXcDEwa0tXbWdDR0NybzZGQmRJc3g2SjFGRnhJYUc3eXpKV0h2Tk1sdXc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 19:03:00 GMT",
           "source": "머니투데이"
+        },
+        {
+          "title": "코스닥 새내기株 잇단 ‘첫날 급락’…지수보다 최대 9배 빠졌다 - 메트로신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41RXo4WVJQSXJfVVFUWGRnRFVlSE1ZWmVKbGZoOXFfUzV3UXpSeXMyOWRNRUlnOHpmRzFtTXh4Skl3NmM3NnNLalhBY0NvUFBpUHRBNXliLXR5UzdXLVBwSw?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 21:20:22 GMT",
+          "source": "메트로신문"
         }
       ]
     }
