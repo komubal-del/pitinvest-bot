@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T08:57:55.195152+09:00",
+  "timestamp": "2026-08-25T10:45:44.837453+09:00",
   "sentiment": {
     "cnn_fng": 55.0285714285714,
     "cnn_components": {
@@ -14,13 +14,13 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 12,
+      "greed_count": 2,
+      "fear_count": 28,
       "greed_articles": [
         {
           "title": "\"코스피 거품? 일본 대비 1/4 저평가, 총수가 진심 주가 상승 원하는 이 주식 사라\" - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTUyZzM5Z3Jna0N2WUo4ZDZ5Rzh4TXZibXE5YjZnbFljMy1FOHJMT3BfNWp5cTFNNFlKSnZ3R296clNhTmM2ei1VLWg3MmNPeFJqejVQV2EzWXNzN0FYclVISWxfSzV5Y0tXQ1ZVSlMwLTg3bG1MNWFrYWUwT28xVg?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 20:39:56 GMT",
+          "pub_date": "Mon, 24 Aug 2026 20:50:29 GMT",
           "source": "조선일보"
         },
         {
@@ -28,44 +28,38 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JOFo1MFZzaEU3aTFmMGluU1VXTzFMcEZjVDdUOEVvMzJ5MU5feUFnR041c2g1WUFLUFdtczBTUTd1S1VvR3hvYlJicmpvdWZGNGR5YU14eExXaHFuTVo1Ukc1VnBKTURoQ3I1WFdqSWPSAXRBVV95cUxOdFBRTGhvQTVndVZPd0NNQ1ZsSWxhUUdkNWxUcU9kOHhMOUFrUEdKcUhCNVI3akFIZDBXdDRvTzBqVDQ0RnRvdHF4aUUzX2x2OGpzVHR1d09QVGVXbE5MTlBwLXBDTmM2NE9pYjU3TTlScFhqbA?oc=5",
           "pub_date": "Mon, 24 Aug 2026 23:34:55 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "[증시 포인트] 저가 매수세 유입 속 반등 시도 전망 - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUZ1NQa0NKem9GOWVxUEMxZ25DS3JycEtlN3J1eEZfTm5UcFB0ZnZHWGpZdUZIMFM2N3JqMGplWkFJeUpUanRjVWhHNGZsYUFiQld1elYzejZiN0o5VkZ5OXlRZEVhekJwbi1weHM2S0VpZw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 23:28:42 GMT",
-          "source": "오피니언뉴스"
         }
       ],
       "fear_articles": [
         {
-          "title": "[0825개장체크] 美 증시, 엔비디아 AI 칩 가격 인상 통보에 따른 반도체 투매 및 AI 비용 부담 우려 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80X3Bvb05nVXUwaVRVdjk2cmo1aEJTcllDdHM3dW1neTZBbm9UT1BqcTE4RWVVOWsyRXN5QXlhNXFGV1JUTFVCSFdXMUhEQmJHNkplaW5XYU51MzJFWXJGYnFfVlZWZmlpc1lwX1dpOWo?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 23:13:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "[마켓뷰] 코스피, 전날 급락 딛고 저가매수 유입되나 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HOTF6Xy1sMHV5VEp4Um13MF9fcDc2RUNtMUZlOW1Qd3NQYkx4bkhJOXdwN0JhSGVuWDY2UGJxWjktSEs5MTN3cEYwU3k4NTI4NHNmYTFwTGVPaXVWQ2l4TdIBYEFVX3lxTE1HOTF6Xy1sMHV5VEp4Um13MF9fcDc2RUNtMUZlOW1Qd3NQYkx4bkhJOXdwN0JhSGVuWDY2UGJxWjktSEs5MTN3cEYwU3k4NTI4NHNmYTFwTGVPaXVWQ2l4TQ?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 23:01:30 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "[뉴욕증시] 유가·국채금리 하락에도 반도체 투매…나스닥·S&P 500↓ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MS3hOWEZaTEVQVHM2MldaMFhQVXVxREVNazg2MkYzTlpUSlI3X0F5R2VEX284clVYQy1oUEkzVlROU3UyYTZqNmFQTU5GSmpLcm5CcEM5MWtVTkZkR3QyWHdQUmowWFlOYUtHeGZJWGc?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 20:41:42 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피, 개장 직후 6400선 급락…삼전 주주환원 여파 이어지나 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NcC1rZ0NsQUt1eWpZUUh3Z1htd1NFVzAycE85Z09lZmdfYlVJako1RUZQaWd6ZmlCYTRGaENTTEZDTENwNFNwbnllekJUM1J0LWhqZlloa1BrcjFzNVFPOElCSFBxMW8?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 00:51:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "삼성전자 8.7% 급락한 코스피…저가매수 시험대 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oZ3RXSmR0c20zbXYwdlg3SVA0bFA2ZTBkbjAyRWsxQ09QaDBacmVLZXJhT2g5UnItNi1WQmhXZTVpMGk0a3hCc2RpZzEwbE9lakhOWDFFMURJZw?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 23:19:00 GMT",
-          "source": "경북매일"
+          "title": "삼성전자 8%대 급락에 코스피 약세...오늘 증시는? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02cmN4aF9JTFF4czJPSFBoTWpEQmVibGM3azhzN0dFUExJdFFaM1pEWExVdDViOGdjd0g3dlFVUVBmSHFYaGRlREIwcVpyVVVTQWFaTTBDN1l2ZTVDc2c?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 00:02:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "뉴욕증시, 반도체 급락 속 혼조 마감…엔비디아 7일째 밀려 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nbUxfVElULXhRei0zLVh6ODlRNXQzVU9XcG1oODdGUE5jbDhHNllKVjctdUpRdllKSWpBTDF1dFprNEgyM0pnbVRLZmRUU1lTQWVZUzFvLThEbU9u?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:27:00 GMT",
-          "source": "뉴스핌"
+          "title": "[이 시각 시황] 코스피·코스닥 3%대 급락…투심 급랭 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zMEtJMXVxQ0NUSmFnQnl1WFVCZ3lFVjlLdGVGQzNlZk5HTDFhRHV4MHNSX1VhUnlYcjM0S2JoNnItTnlROGtOOGcyOF9naEk?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 00:43:13 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "증시 하락-물가 상승 겹치며 소비심리 4개월 만에 하락 전환 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdGROdUIwc3VGZ2trSTItNW1UaC00a2MwdnROUW9VV1NXQUNMTW1ZNUVEMU5MdGJHN09lOXFsd19zczFuWXN3MEVhRjhVVDNlUXVNVlNHUDBFbHpGSUdtZi1oS0Q5cjlwTTg3cnRySWR3QTh6Y2UyQUhuUEtKYXJmejRKS0FkZ9IBmgFBVV95cUxOSHJXNHp3WkJJTENsXzhHT080NGh3OE9nM05oc3hJQnl5cmlrQWhZdDV5ak9tcTVKeGtFem42UnRYWkRDNTI3RWhJeTJ0UUpuMzNaVS13NFVGeFNoLUF6cTlPQ3c5VEZ1VTFOSjgtRm1EVFJ2bnBTSjJsRWZYSUtueXE0SE1wNWE2ZG12MndYMDF3bjAyNFFNV2Fn?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 21:00:00 GMT",
-          "source": "Chosunbiz"
+          "title": "코스피, 장초반 3%대 급락…美 반도체주 약세 영향 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nTTJoN1RlMGVIY0NUTHlKTTc5aTFLMjZOcjItNFZnSFc0TVNwX2VNVDFUMWMxYWcyLXFYczNYbEczMHZLT0paN0tnMHQwSU14WUdYeUt6Q2l3aHliNXBnRktlRTU?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 00:57:35 GMT",
+          "source": "서울경제TV"
         }
       ]
     }
@@ -77,8 +71,8 @@
     "move": 73.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -4959200000000,
-    "retail_net_buy_krw": 3321700000000,
+    "foreign_inst_buy_krw": -1467300000000,
+    "retail_net_buy_krw": 1016100000000,
     "margin_loan_krw": 31978500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -93,18 +87,18 @@
       "sma_200": 24255.0
     },
     "kospi": {
-      "current": 6912.95,
+      "current": 6495.63,
       "high_52w": 9385.59,
-      "drop_pct": -26.35,
-      "intraday_low_drop_pct": -28.16,
-      "sma_200": 5929.56
+      "drop_pct": -30.79,
+      "intraday_low_drop_pct": -31.72,
+      "sma_200": 5954.69
     },
     "kosdaq": {
-      "current": 801.94,
+      "current": 789.22,
       "high_52w": 1229.42,
-      "drop_pct": -34.77,
-      "intraday_low_drop_pct": -35.29,
-      "sma_200": 993.63
+      "drop_pct": -35.81,
+      "intraday_low_drop_pct": -36.4,
+      "sma_200": 992.68
     },
     "sp500": {
       "current": 7652.86,
