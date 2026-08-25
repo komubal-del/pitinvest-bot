@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T16:51:49.321452+09:00",
+  "timestamp": "2026-08-25T17:52:47.417589+09:00",
   "sentiment": {
     "cnn_fng": 54.6285714285714,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 14,
+      "fear_count": 16,
       "greed_articles": [
         {
           "title": "\"코스피 거품? 일본 대비 1/4 저평가, 총수가 진심 주가 상승 원하는 이 주식 사라\" - 조선일보",
@@ -38,6 +38,12 @@
           "source": "뉴스웍스"
         },
         {
+          "title": "코스피, 장중 4% 급락 딛고 상승 전환…6740선 회복 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53N2FlZTBWS1hsMVZIM1lSU1ZtQUkxNld0U01qZFA1am5oYmx4dWk5blBPdzAzQWVqSi1WSzJqek5qVkxPdFk2R2tsdUZKZDJqMENZc1M4NWl6VnR3bnpIYzdRMzNuQTltdERBb3lrdWxTbW54d1HSAWZBVV95cUxQdHpTbmUxbl9zOHhacTdpOXdSdHRsSV9lWTJnc2pZLWpRUVBrajVJZU1MSVR4REtWUHpyUnYwQ3diZ0JRTVA4SUxNbVdXbDQ1UTdKRmlNYzEwOGljYllBVFhQN24xU3c?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 07:54:00 GMT",
+          "source": "동아일보"
+        },
+        {
           "title": "[증시 레이더] 코스피 4.30% 급락 뒤 반전⋯6,742선 '극적 회복' - 포커스온경제",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KcU41a1FoUmdqSEM3WGRtX09NWUJKQkZINGx0cm1lRDI1NHhDRXhULWtIUjNLR1hkUHFPWVFwaVh6RXhCMl8zem9ZMmg5RkZyR21DQkdTZHlPc0hfamc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 06:50:49 GMT",
@@ -48,25 +54,19 @@
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92al9la0hTNmtDdW4tNUphZS1CcVR6TTdJN1FZdGU5WUFQam93aUVKS3ZpQWlyWlVVcTNiQVdjZ3hNUG4wZVd0bTdzQnJlQWlrV3o2MmJTYXh3dWc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 05:27:06 GMT",
           "source": "에너지경제신문"
-        },
-        {
-          "title": "코스피, 장중 4%대 급락 딛고 상승 전환 '6700선 회복'…코스닥 1.70%↑ - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vS29ENW01TldPNy14TjlQN3VqdzJLMlppN2dFLVNveXJaMGx6Z2wzcUhfSEVHdElLTHJ6azg2M3RYeHcxeFpYUTRCbzA4d1lZQlloM1Y0ZHJJNmZ5UkhOXw?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 06:58:50 GMT",
-          "source": "프라임경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.74,
+    "vix": 15.76,
     "vvix": 88.64,
     "skew": 145.64,
     "move": 73.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2643000000000,
-    "retail_net_buy_krw": 1050999999999,
+    "foreign_inst_buy_krw": -2642800000000,
+    "retail_net_buy_krw": 1050900000000,
     "margin_loan_krw": 31978500000000,
     "news_count": 0,
     "short_sale_balance": null,
