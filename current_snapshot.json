@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-25T15:03:31.590705+09:00",
+  "timestamp": "2026-08-25T16:02:16.702421+09:00",
   "sentiment": {
-    "cnn_fng": 54.9714285714286,
+    "cnn_fng": 54.5142857142857,
     "cnn_components": {
       "momentum": 35.8,
-      "strength": 29.8,
-      "breadth": 58.6,
+      "strength": 26.6,
+      "breadth": 59.4,
       "put_call": 50.4,
       "junk_bond": 93.8,
       "volatility": 50.0,
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 21,
+      "fear_count": 15,
       "greed_articles": [
         {
           "title": "\"코스피 거품? 일본 대비 1/4 저평가, 총수가 진심 주가 상승 원하는 이 주식 사라\" - 조선일보",
@@ -38,28 +38,28 @@
           "source": "에너지경제신문"
         },
         {
+          "title": "[증시 레이더] 코스피 4.30% 급락 뒤 반전⋯6,742선 '극적 회복' - 포커스온경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KcU41a1FoUmdqSEM3WGRtX09NWUJKQkZINGx0cm1lRDI1NHhDRXhULWtIUjNLR1hkUHFPWVFwaVh6RXhCMl8zem9ZMmg5RkZyR21DQkdTZHlPc0hfamc?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 06:50:49 GMT",
+          "source": "포커스온경제"
+        },
+        {
+          "title": "4% 급락 뒤 낙폭 축소…코스피 6,500선 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBob3lPdlJlUkhodHV2amw2bW5xYXhNSUpycEJiejAyeURUeDdrN0JmRGgyeGdOX0FXb2EzSGkyeTg1Uno0QnY5U19SSEVhWXVPX29oOVBhZmdrVUtuN2YxWGRpQjdxTFE?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 03:00:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "4%대 폭락 딛고 기적적 반등…코스피·코스닥 장중 상승 전환 - 진일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NSENZYTVwaVVJY0s1V3B6Q24zeFUxU3BSb0hxTDdZYU9rbmowVm5qZE9xYlNHZlZEOVVBbU1Qb00xcDNFVnZTMWUwV3p5aENvWDBtaUdudk4wX1RXQ0ZZcTZWRkxzZHUwdHl0aWl1UQ?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 05:51:54 GMT",
+          "source": "진일보"
+        },
+        {
           "title": "日 증시, 美 반도체 투매 여파에 닛케이 1% 넘게 하락 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoMi0zQlZvY0ZBMDVfcXAzaC1tWWlTMlRzcEFKQmNIX21aWDIzWWZkaGdRSkp6cF94TVBXbkhHS3VxSDgtVzRLQTFRbjNNRFNuVVJVTzZSdGpNaXBKWHNaME43S3FGdXlkd1FTLVV2QkU?oc=5",
           "pub_date": "Tue, 25 Aug 2026 02:29:37 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "삼성전자 8%대 급락에 코스피 약세...오늘 증시는? - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02cmN4aF9JTFF4czJPSFBoTWpEQmVibGM3azhzN0dFUExJdFFaM1pEWExVdDViOGdjd0g3dlFVUVBmSHFYaGRlREIwcVpyVVVTQWFaTTBDN1l2ZTVDc2c?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 00:02:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "[마켓뷰] 코스피, 전날 급락 딛고 저가매수 유입되나 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JVkJIRFpTYzRacTZMcnQxaDdMbmxnMXRNZ1hnTU92UVlBR1BlY2NOWGxSVjRGMEl3V05KQ3llMGxJUjA2ODhxRFZBUzNPSktkWWJ0Yk1EMURXZlXSAWBBVV95cUxNRzkxel8tbDB1eVRKeFJtdzBfX3A3NkVDbTFGZTltUHdzUGJMeG5ISTl3cDdCYUhlblg2NlBicVo5LUhLOTEzd3BGMFN5ODUyODRzZmExcExlT2l1VkNpeE0?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 23:01:30 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "4% 급락 뒤 낙폭 축소…코스피 6,500선 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CR1hMOG9KNy1MMS1FWXhkRWNSc0xIaHFBTldBTWFPM2ZJX3dIOVVldlRnejZhTl9RdU5DeHBoOXFEMk1TQU9xaHdkaUYySk0?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 03:02:13 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
@@ -71,8 +71,8 @@
     "move": 73.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2565400000000,
-    "retail_net_buy_krw": 975800000000,
+    "foreign_inst_buy_krw": -2643700000000,
+    "retail_net_buy_krw": 1051700000000,
     "margin_loan_krw": 31978500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +87,18 @@
       "sma_200": 24255.0
     },
     "kospi": {
-      "current": 6710.26,
+      "current": 6742.74,
       "high_52w": 9385.59,
-      "drop_pct": -28.5,
+      "drop_pct": -28.16,
       "intraday_low_drop_pct": -31.72,
-      "sma_200": 5955.76
+      "sma_200": 5955.92
     },
     "kosdaq": {
-      "current": 821.53,
+      "current": 827.15,
       "high_52w": 1229.42,
-      "drop_pct": -33.18,
+      "drop_pct": -32.72,
       "intraday_low_drop_pct": -36.4,
-      "sma_200": 992.84
+      "sma_200": 992.87
     },
     "sp500": {
       "current": 7652.86,
