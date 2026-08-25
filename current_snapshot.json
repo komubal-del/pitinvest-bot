@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T08:32:17.446268+09:00",
+  "timestamp": "2026-08-26T08:59:10.611787+09:00",
   "sentiment": {
     "cnn_fng": 58.8,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 5,
       "greed_articles": [
+        {
+          "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SSEhOWTluN21pRE1scnhYOFQyRkZVT2tGRlFpX0NjV3c4bGhGX0J5OWgxSnBxVXRIMUpYYzdNRXJ6NnFfVkRzNWdna1BQV2hjQ0xHSWJ5SnhDY3dROU1WMnVtbGVvdkcwRjY2dVpCRWhmb1ltbGpOUlF6akPSAXxBVV95cUxNUkhITlk5bjdtaURNbHJ4WDhUMkZGVU9rRkZRaV9DY1d3OGxoRl9CeTloMUpwcVV0SDFKWGM3TUVyejZxX1ZEczVnZ2tQUFdoY0NMR0lieUp4Q2N3UTlNVjJ1bWxlb3ZHMEY2NnVaQkVoZm9ZbWxqTlJRempD?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 19:40:00 GMT",
+          "source": "머니투데이"
+        },
         {
           "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 유니콘팩토리",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TWm5SaWJ6cEl5SGJqOFJzdG5KWVI4SUM5TjhYYnhmc1lKRDNEZUZkTTZ3eUM1UWtrZUFDZHN1SnlmMkZFTXNuUEdfLTJMekpzRUlqYV9mRVo3dXFkQnB2LTBsdUJXclZreTI4UQ?oc=5",
@@ -32,16 +38,22 @@
           "source": "머니투데이"
         },
         {
+          "title": "[어제장 오늘장] 4% 급락 딛고 반등한 코스피…외국인 매도에도 상승 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUQXJuX21UVmF4NWwyUmg0WU0yRkFNYUxicjZvenlzRXhRTGFuSnBfbUtNWWh4YnN4MlRxaTVZRUtBeEN5VC1kSzVRdTZUOFE?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 23:31:58 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[0826개장체크] 美 증시, 국제유가 급락에 따른 인플레이션 우려 완화…반도체 업종 반등 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yWnYyOUhrS0pkU3E2ajJ5cENHbDRxNkF0bWVTOFRDMW9YcnZXZUZROFJkMmlXaUczZzhUYkFFd3p1Um1xdDhqRG1rMEhuODROcUtUMWNNc0JPa0VHNWFnMEJoRlZuRGxiSXdnamcyYVc?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 23:28:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
           "title": "“세계서 가장 미친 韓주식시장, 공포의 놀이기구 됐다”…‘3배 뛰고 40% 급락’ 코스피에 美 ‘충격’ - twig24.com",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wbXQyX2UzdVFsNEtta29mYnhuX0VLSkRqRjJvcUZMVXFuZlJzUXBhTHgyeEhuWDJmZXVUOEY4elBQTTZBMXUwTmxvc0lmb0oyRDRpRXNrRnJKVEJhdHd1TWxrenNKN2hwV2FMRXRNZExHR2NYOU9TeDNVUEs?oc=5",
           "pub_date": "Tue, 25 Aug 2026 23:03:11 GMT",
           "source": "twig24.com"
-        },
-        {
-          "title": "[0826개장체크] 美 증시, 국제유가 급락에 따른 인플레이션 우려 완화…반도체 업종 반등 - 인포스탁데일리",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54UTUyYWpDek1YVWdMckhzbkF2OURMY3Ayd1FnMVM2VURrYXBYUmRCN2t3VGRPLVFjSEd5cXBaZHdpZWpKc3pnU1dRYlZlN0pEbHdVdHZvOWs3NElQLUU4QmdBbzQ2WWNOWS1OMjZVYnpZeTlE?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 22:05:38 GMT",
-          "source": "인포스탁데일리"
         },
         {
           "title": "코스닥 새내기株 잇단 ‘첫날 급락’…지수보다 최대 9배 빠졌다 - 메트로신문",
