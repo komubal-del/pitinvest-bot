@@ -1,28 +1,35 @@
 {
-  "timestamp": "2026-08-26T03:03:27.174083+09:00",
+  "timestamp": "2026-08-26T03:51:22.387449+09:00",
   "sentiment": {
-    "cnn_fng": 58.6,
+    "cnn_fng": 58.8857142857143,
     "cnn_components": {
-      "momentum": 37.0,
+      "momentum": 37.4,
       "strength": 27.0,
-      "breadth": 59.6,
+      "breadth": 60.0,
       "put_call": 73.6,
       "junk_bond": 89.2,
       "volatility": 50.0,
-      "safe_haven": 74.6
+      "safe_haven": 75.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TWm5SaWJ6cEl5SGJqOFJzdG5KWVI4SUM5TjhYYnhmc1lKRDNEZUZkTTZ3eUM1UWtrZUFDZHN1SnlmMkZFTXNuUEdfLTJMekpzRUlqYV9mRVo3dXFkQnB2LTBsdUJXclZreTI4UQ?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 18:40:00 GMT",
+          "source": "유니콘팩토리"
+        }
+      ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.56,
-    "vvix": 86.57,
+    "vix": 15.47,
+    "vvix": 86.2,
     "skew": 145.64,
     "move": 73.98
   },
@@ -36,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26098.82,
+      "current": 26131.53,
       "high_52w": 27190.21,
-      "drop_pct": -4.01,
+      "drop_pct": -3.89,
       "intraday_low_drop_pct": -4.25,
-      "sma_200": 24268.0
+      "sma_200": 24268.16
     },
     "kospi": {
       "current": 6696.96,
@@ -57,34 +64,34 @@
       "sma_200": 993.19
     },
     "sp500": {
-      "current": 7667.42,
+      "current": 7674.84,
       "high_52w": 7816.7,
-      "drop_pct": -1.91,
+      "drop_pct": -1.81,
       "intraday_low_drop_pct": -2.12,
-      "sma_200": 7104.49
+      "sma_200": 7104.52
     },
     "russell2k": {
-      "current": 3004.7,
+      "current": 3004.66,
       "high_52w": 3069.71,
       "drop_pct": -2.12,
       "intraday_low_drop_pct": -2.26,
       "sma_200": 2722.56
     },
     "soxx": {
-      "current": 512.19,
+      "current": 514.46,
       "high_52w": 655.95,
-      "drop_pct": -21.92,
+      "drop_pct": -21.57,
       "intraday_low_drop_pct": -22.3,
-      "sma_200": 422.57
+      "sma_200": 422.58
     }
   },
   "sector_rs": {
-    "XLK": 0.958,
-    "SMH": 0.9,
+    "XLK": 0.96,
+    "SMH": 0.903,
     "BOTZ": 0.858,
-    "IGV": 1.056,
-    "XLF": 1.103,
-    "XLE": 1.065
+    "IGV": 1.058,
+    "XLF": 1.104,
+    "XLE": 1.064
   },
   "signals": {
     "cnn_under_10": false,
@@ -120,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 58.82,
+    "tqqq_profit_pct": 59.63,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 114.34,
+    "soxl_profit_pct": 117.14,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.44,
+    "koru_profit_pct": -94.37,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -287,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.894,
+    "strategy_pct": 183.586,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -955,7 +962,7 @@
       },
       {
         "date": "2026-08-26",
-        "ret_pct": 183.894
+        "ret_pct": 183.586
       }
     ],
     "monthly_breakdown": [
@@ -1003,8 +1010,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 14.45,
-        "end_ret_pct": 183.89,
+        "return_pct": 14.15,
+        "end_ret_pct": 183.59,
         "max_dd_pct": 25.15
       }
     ],
