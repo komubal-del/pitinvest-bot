@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-26T03:51:22.387449+09:00",
+  "timestamp": "2026-08-26T04:39:03.807092+09:00",
   "sentiment": {
-    "cnn_fng": 58.8857142857143,
+    "cnn_fng": 58.7428571428571,
     "cnn_components": {
-      "momentum": 37.4,
+      "momentum": 37.0,
       "strength": 27.0,
-      "breadth": 60.0,
-      "put_call": 73.6,
+      "breadth": 60.2,
+      "put_call": 74.2,
       "junk_bond": 89.2,
       "volatility": 50.0,
-      "safe_haven": 75.0
+      "safe_haven": 74.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 유니콘팩토리",
@@ -24,12 +24,19 @@
           "source": "유니콘팩토리"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "非반도체 순환매 확산… 코스피, 급락 딛고 극적 반등 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLMkdMUDd0elh4T294UWxsVmxULVRrWUgtZmdyQ2o2YVRUQjBteGdmWUJKRDZXZmF2akZnbnRyelNobWpGZnh1Rld0cXlCYnctTFdiU1o3ZFJkN2g0bGl6MVlaR3kyS3Nx0gFuQVVfeXFMTVNEY0ZRQl9abXhjUlFPSlJDTWZqWjAzTDR6ZGFYLTd6UWFSeks1aGNKRVAwVDJ3d0pYMU1iV2pJYXR4YjJXcDEwa0tXbWdDR0NybzZGQmRJc3g2SjFGRnhJYUc3eXpKV0h2Tk1sdXc?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 19:03:00 GMT",
+          "source": "머니투데이"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 15.47,
-    "vvix": 86.2,
+    "vix": 15.49,
+    "vvix": 86.23,
     "skew": 145.64,
     "move": 73.98
   },
@@ -43,11 +50,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26131.53,
+      "current": 26110.28,
       "high_52w": 27190.21,
-      "drop_pct": -3.89,
+      "drop_pct": -3.97,
       "intraday_low_drop_pct": -4.25,
-      "sma_200": 24268.16
+      "sma_200": 24268.05
     },
     "kospi": {
       "current": 6696.96,
@@ -64,34 +71,34 @@
       "sma_200": 993.19
     },
     "sp500": {
-      "current": 7674.84,
+      "current": 7670.6,
       "high_52w": 7816.7,
-      "drop_pct": -1.81,
+      "drop_pct": -1.87,
       "intraday_low_drop_pct": -2.12,
-      "sma_200": 7104.52
+      "sma_200": 7104.5
     },
     "russell2k": {
-      "current": 3004.66,
+      "current": 3004.74,
       "high_52w": 3069.71,
       "drop_pct": -2.12,
       "intraday_low_drop_pct": -2.26,
       "sma_200": 2722.56
     },
     "soxx": {
-      "current": 514.46,
+      "current": 512.46,
       "high_52w": 655.95,
-      "drop_pct": -21.57,
+      "drop_pct": -21.87,
       "intraday_low_drop_pct": -22.3,
-      "sma_200": 422.58
+      "sma_200": 422.57
     }
   },
   "sector_rs": {
-    "XLK": 0.96,
-    "SMH": 0.903,
-    "BOTZ": 0.858,
-    "IGV": 1.058,
+    "XLK": 0.959,
+    "SMH": 0.9,
+    "BOTZ": 0.857,
+    "IGV": 1.059,
     "XLF": 1.104,
-    "XLE": 1.064
+    "XLE": 1.063
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +134,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 59.63,
+    "tqqq_profit_pct": 59.19,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 117.14,
+    "soxl_profit_pct": 114.58,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.37,
+    "koru_profit_pct": -94.42,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -294,7 +301,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.586,
+    "strategy_pct": 184.668,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -962,7 +969,7 @@
       },
       {
         "date": "2026-08-26",
-        "ret_pct": 183.586
+        "ret_pct": 184.668
       }
     ],
     "monthly_breakdown": [
@@ -1010,8 +1017,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 14.15,
-        "end_ret_pct": 183.59,
+        "return_pct": 15.23,
+        "end_ret_pct": 184.67,
         "max_dd_pct": 25.15
       }
     ],
