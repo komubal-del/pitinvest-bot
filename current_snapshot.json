@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T13:59:43.295045+09:00",
+  "timestamp": "2026-08-25T14:39:38.268057+09:00",
   "sentiment": {
     "cnn_fng": 54.9714285714286,
     "cnn_components": {
@@ -18,16 +18,16 @@
       "fear_count": 22,
       "greed_articles": [
         {
-          "title": "삼전닉스 빼면 코스피 0.5% 올랐다…쏠림 완화 기대 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JOFo1MFZzaEU3aTFmMGluU1VXTzFMcEZjVDdUOEVvMzJ5MU5feUFnR041c2g1WUFLUFdtczBTUTd1S1VvR3hvYlJicmpvdWZGNGR5YU14eExXaHFuTVo1Ukc1VnBKTURoQ3I1WFdqSWPSAXRBVV95cUxOdFBRTGhvQTVndVZPd0NNQ1ZsSWxhUUdkNWxUcU9kOHhMOUFrUEdKcUhCNVI3akFIZDBXdDRvTzBqVDQ0RnRvdHF4aUUzX2x2OGpzVHR1d09QVGVXbE5MTlBwLXBDTmM2NE9pYjU3TTlScFhqbA?oc=5",
-          "pub_date": "Mon, 24 Aug 2026 23:34:55 GMT",
-          "source": "연합인포맥스"
-        },
-        {
           "title": "\"코스피 거품? 일본 대비 1/4 저평가, 총수가 진심 주가 상승 원하는 이 주식 사라\" - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTUyZzM5Z3Jna0N2WUo4ZDZ5Rzh4TXZibXE5YjZnbFljMy1FOHJMT3BfNWp5cTFNNFlKSnZ3R296clNhTmM2ei1VLWg3MmNPeFJqejVQV2EzWXNzN0FYclVISWxfSzV5Y0tXQ1ZVSlMwLTg3bG1MNWFrYWUwT28xVg?oc=5",
           "pub_date": "Mon, 24 Aug 2026 20:50:29 GMT",
           "source": "조선일보"
+        },
+        {
+          "title": "삼전닉스 빼면 코스피 0.5% 올랐다…쏠림 완화 기대 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JOFo1MFZzaEU3aTFmMGluU1VXTzFMcEZjVDdUOEVvMzJ5MU5feUFnR041c2g1WUFLUFdtczBTUTd1S1VvR3hvYlJicmpvdWZGNGR5YU14eExXaHFuTVo1Ukc1VnBKTURoQ3I1WFdqSWPSAXRBVV95cUxOdFBRTGhvQTVndVZPd0NNQ1ZsSWxhUUdkNWxUcU9kOHhMOUFrUEdKcUhCNVI3akFIZDBXdDRvTzBqVDQ0RnRvdHF4aUUzX2x2OGpzVHR1d09QVGVXbE5MTlBwLXBDTmM2NE9pYjU3TTlScFhqbA?oc=5",
+          "pub_date": "Mon, 24 Aug 2026 23:34:55 GMT",
+          "source": "연합인포맥스"
         }
       ],
       "fear_articles": [
@@ -50,16 +50,16 @@
           "source": "연합뉴스"
         },
         {
+          "title": "[시황]코스피 장중 4% 급락·코스닥 800선 붕괴…반도체주 약세 확산 - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92al9la0hTNmtDdW4tNUphZS1CcVR6TTdJN1FZdGU5WUFQam93aUVKS3ZpQWlyWlVVcTNiQVdjZ3hNUG4wZVd0bTdzQnJlQWlrV3o2MmJTYXh3dWc?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 05:27:06 GMT",
+          "source": "에너지경제신문"
+        },
+        {
           "title": "4% 급락 뒤 낙폭 축소…코스피 6,500선 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CR1hMOG9KNy1MMS1FWXhkRWNSc0xIaHFBTldBTWFPM2ZJX3dIOVVldlRnejZhTl9RdU5DeHBoOXFEMk1TQU9xaHdkaUYySk0?oc=5",
           "pub_date": "Tue, 25 Aug 2026 03:02:13 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "코스피, 미국 반도체주 급락에 약세...삼성전자 4%, SK하이닉스 6% 하락 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbVA1VVVBaFVXRHBhRnR2M2YwcTJ3bTh0RUJYLWhHWkpTMW1HMWpHdEhzeEZ0LW11RXNEVXFub2JpVUNxdTAxNVpWRGVwWU5jSmVHQ0Vuejdzd3psMXZiaVJldTRDakRlZ1lISnlhUElsdGhBRmFWLVB6Z3ByVmxOQg?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 00:04:00 GMT",
-          "source": "조선일보"
         }
       ]
     }
@@ -71,8 +71,8 @@
     "move": 73.98
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2314100000000,
-    "retail_net_buy_krw": 1004799999999,
+    "foreign_inst_buy_krw": -2490800000000,
+    "retail_net_buy_krw": 985500000000,
     "margin_loan_krw": 31978500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +87,18 @@
       "sma_200": 24255.0
     },
     "kospi": {
-      "current": 6675.88,
+      "current": 6696.38,
       "high_52w": 9385.59,
-      "drop_pct": -28.87,
+      "drop_pct": -28.65,
       "intraday_low_drop_pct": -31.72,
-      "sma_200": 5955.59
+      "sma_200": 5955.69
     },
     "kosdaq": {
-      "current": 818.58,
+      "current": 821.19,
       "high_52w": 1229.42,
-      "drop_pct": -33.42,
+      "drop_pct": -33.21,
       "intraday_low_drop_pct": -36.4,
-      "sma_200": 992.83
+      "sma_200": 992.84
     },
     "sp500": {
       "current": 7652.86,
