@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-26T02:38:42.746759+09:00",
+  "timestamp": "2026-08-26T03:03:27.174083+09:00",
   "sentiment": {
-    "cnn_fng": 58.2571428571429,
+    "cnn_fng": 58.6,
     "cnn_components": {
       "momentum": 37.0,
       "strength": 27.0,
-      "breadth": 59.4,
-      "put_call": 71.2,
-      "junk_bond": 88.4,
+      "breadth": 59.6,
+      "put_call": 73.6,
+      "junk_bond": 89.2,
       "volatility": 50.0,
       "safe_haven": 74.6
     },
@@ -21,7 +21,7 @@
     }
   },
   "volatility": {
-    "vix": 15.53,
+    "vix": 15.56,
     "vvix": 86.57,
     "skew": 145.64,
     "move": 73.98
@@ -36,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26110.02,
+      "current": 26098.82,
       "high_52w": 27190.21,
-      "drop_pct": -3.97,
+      "drop_pct": -4.01,
       "intraday_low_drop_pct": -4.25,
-      "sma_200": 24268.05
+      "sma_200": 24268.0
     },
     "kospi": {
       "current": 6696.96,
@@ -57,32 +57,32 @@
       "sma_200": 993.19
     },
     "sp500": {
-      "current": 7667.55,
+      "current": 7667.42,
       "high_52w": 7816.7,
       "drop_pct": -1.91,
       "intraday_low_drop_pct": -2.12,
       "sma_200": 7104.49
     },
     "russell2k": {
-      "current": 3004.18,
+      "current": 3004.7,
       "high_52w": 3069.71,
-      "drop_pct": -2.13,
+      "drop_pct": -2.12,
       "intraday_low_drop_pct": -2.26,
       "sma_200": 2722.56
     },
     "soxx": {
-      "current": 513.12,
+      "current": 512.19,
       "high_52w": 655.95,
-      "drop_pct": -21.77,
+      "drop_pct": -21.92,
       "intraday_low_drop_pct": -22.3,
-      "sma_200": 422.58
+      "sma_200": 422.57
     }
   },
   "sector_rs": {
-    "XLK": 0.959,
-    "SMH": 0.901,
-    "BOTZ": 0.857,
-    "IGV": 1.058,
+    "XLK": 0.958,
+    "SMH": 0.9,
+    "BOTZ": 0.858,
+    "IGV": 1.056,
     "XLF": 1.103,
     "XLE": 1.065
   },
@@ -120,13 +120,13 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 59.13,
+    "tqqq_profit_pct": 58.82,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 115.55,
+    "soxl_profit_pct": 114.34,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -287,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 184.101,
+    "strategy_pct": 183.894,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -955,7 +955,7 @@
       },
       {
         "date": "2026-08-26",
-        "ret_pct": 184.101
+        "ret_pct": 183.894
       }
     ],
     "monthly_breakdown": [
@@ -1003,8 +1003,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 14.66,
-        "end_ret_pct": 184.1,
+        "return_pct": 14.45,
+        "end_ret_pct": 183.89,
         "max_dd_pct": 25.15
       }
     ],
