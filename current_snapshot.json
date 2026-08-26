@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T17:54:47.763221+09:00",
+  "timestamp": "2026-08-26T18:51:37.389732+09:00",
   "sentiment": {
     "cnn_fng": 59.0857142857143,
     "cnn_components": {
@@ -14,14 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
+      "greed_count": 2,
+      "fear_count": 2,
       "greed_articles": [
         {
           "title": "삼성전자·하이닉스 쏠림에도…대형 액티브펀드 절반 이상이 코스피 제쳐 - 에너지경제신문",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16RHkxQktnM0xMZEF4bTRveW9heXVMamtRTnl1bEZDbnQ2d09xZGdoak5VamJTZmVIeVZ2dGRNZWo3aHgyVVprVHF1RWNnc2lxZmhndkliTWt3YmxFZTZIMjhn?oc=5",
           "pub_date": "Wed, 26 Aug 2026 06:33:41 GMT",
           "source": "에너지경제신문"
+        },
+        {
+          "title": "특정 종목 쏠림에 유동성·자금조달 약화…“코스닥 키워야 산다” - 아시아투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yNzJCaUx6TEQyTjMyS191RVozajNvbEplUXFRRTVaX2tjNkRNa0pZdlJSb3dnQXhlOUlZUldtTUlzTGgtX2hyZ1piUXRQZ3NuY1pfamFkdnZWSkg1QzVRRE9IczZhcnFlaXlfWE1n?oc=5",
+          "pub_date": "Wed, 26 Aug 2026 09:12:45 GMT",
+          "source": "아시아투데이"
         }
       ],
       "fear_articles": [
@@ -36,12 +42,6 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmZ2w5bkh0QThnVHp0RUNqNXpnWnYzVWhRZlVKTjFVd1RkRngzNTZhWDhXUDhnSUlrV1pKX3ZKSnJzZkE3cjUySlJjT0QzbVdvRXFnUlR2RUstVXNwbm5LZDRyWW1aNTU2aVdma0VpWk8?oc=5",
           "pub_date": "Wed, 26 Aug 2026 07:03:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "증시 급락에도…금융·식품·화장품 업종은 올랐다 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wV0haOGc4M2dzOUsyQmxIYWdGcTJnSXpKV2hfbV9HRkgyT1JxcWdnRERnNGY2Ul9vQ3R1Qzc4dnBhVW1KV1hxNXc2dUF3RHQ2QnpoMVhGTEFLTjVXSDBpRElR?oc=5",
-          "pub_date": "Wed, 26 Aug 2026 08:12:00 GMT",
-          "source": "아시아경제"
         }
       ]
     }
@@ -53,8 +53,8 @@
     "move": 71.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 643200000000,
-    "retail_net_buy_krw": -2242600000000,
+    "foreign_inst_buy_krw": 646700000000,
+    "retail_net_buy_krw": -2246100000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -169,7 +169,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": true,
+      "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": false,
@@ -179,6 +179,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.26",
+            "close": 261500,
+            "change_pct": 1.75,
+            "retail_net": -3021858,
+            "inst_net": 503532,
+            "foreign_net": 2518326
+          },
           {
             "date": "2026.08.25",
             "close": 257000,
@@ -210,17 +218,17 @@
             "retail_net": -4821492,
             "inst_net": 599886,
             "foreign_net": 4221606
-          },
-          {
-            "date": "2026.08.19",
-            "close": 247500,
-            "change_pct": -7.82,
-            "retail_net": 7100814,
-            "inst_net": -2923301,
-            "foreign_net": -4177513
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.26",
+            "close": 1688000,
+            "change_pct": 0.6,
+            "retail_net": 225472,
+            "inst_net": 2290,
+            "foreign_net": -227762
+          },
           {
             "date": "2026.08.25",
             "close": 1678000,
@@ -252,14 +260,6 @@
             "retail_net": -299759,
             "inst_net": -13214,
             "foreign_net": 312973
-          },
-          {
-            "date": "2026.08.19",
-            "close": 1500000,
-            "change_pct": -9.75,
-            "retail_net": 1510628,
-            "inst_net": -311406,
-            "foreign_net": -1199222
           }
         ]
       }
