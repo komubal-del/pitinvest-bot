@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T10:51:14.623895+09:00",
+  "timestamp": "2026-08-26T12:13:37.239229+09:00",
   "sentiment": {
     "cnn_fng": 58.8,
     "cnn_components": {
@@ -19,16 +19,16 @@
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[어제장 오늘장] 4% 급락 딛고 반등한 코스피…외국인 매도에도 상승 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUQXJuX21UVmF4NWwyUmg0WU0yRkFNYUxicjZvenlzRXhRTGFuSnBfbUtNWWh4YnN4MlRxaTVZRUtBeEN5VC1kSzVRdTZUOFE?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 23:31:58 GMT",
-          "source": "v.daum.net"
-        },
-        {
           "title": "[0826개장체크] 美 증시, 국제유가 급락에 따른 인플레이션 우려 완화…반도체 업종 반등 By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yWnYyOUhrS0pkU3E2ajJ5cENHbDRxNkF0bWVTOFRDMW9YcnZXZUZROFJkMmlXaUczZzhUYkFFd3p1Um1xdDhqRG1rMEhuODROcUtUMWNNc0JPa0VHNWFnMEJoRlZuRGxiSXdnamcyYVc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 23:28:00 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[외국인 놀이터 코스피①] 사면 폭등, 팔면 폭락…증시 쥐락펴락 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aU3FkOVVYbW9YWWZkaFE5WGlaMmxVRnl5MFpkZHJkSDRRaVZnX1hZYTJyT19XTms3NHhTNGIyMHdCYkxPSDd5bUxxN1dhTnBsWGxpWExuTTRheTFxWjRXaWhnWXVhb2Vm?oc=5",
+          "pub_date": "Wed, 26 Aug 2026 02:14:45 GMT",
+          "source": "ebn.co.kr"
         }
       ]
     }
@@ -40,8 +40,8 @@
     "move": 71.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -607600000000,
-    "retail_net_buy_krw": 134000000000,
+    "foreign_inst_buy_krw": 122700000000,
+    "retail_net_buy_krw": -956900000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +56,18 @@
       "sma_200": 24268.26
     },
     "kospi": {
-      "current": 6725.52,
+      "current": 6847.96,
       "high_52w": 9385.59,
-      "drop_pct": -28.34,
+      "drop_pct": -27.04,
       "intraday_low_drop_pct": -28.57,
-      "sma_200": 5969.01
+      "sma_200": 5969.62
     },
     "kosdaq": {
-      "current": 815.55,
+      "current": 823.27,
       "high_52w": 1229.42,
-      "drop_pct": -33.66,
+      "drop_pct": -33.04,
       "intraday_low_drop_pct": -33.67,
-      "sma_200": 992.45
+      "sma_200": 992.48
     },
     "sp500": {
       "current": 7677.28,
@@ -254,7 +254,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-08-25",
