@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-26T13:07:16.484954+09:00",
+  "timestamp": "2026-08-26T13:52:13.018848+09:00",
   "sentiment": {
-    "cnn_fng": 58.8,
+    "cnn_fng": 58.6,
     "cnn_components": {
       "momentum": 38.6,
       "strength": 27.0,
       "breadth": 60.2,
       "put_call": 72.8,
-      "junk_bond": 88.4,
+      "junk_bond": 87.0,
       "volatility": 50.0,
       "safe_haven": 74.6
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 4,
+      "fear_count": 2,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -29,18 +29,6 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yWnYyOUhrS0pkU3E2ajJ5cENHbDRxNkF0bWVTOFRDMW9YcnZXZUZROFJkMmlXaUczZzhUYkFFd3p1Um1xdDhqRG1rMEhuODROcUtUMWNNc0JPa0VHNWFnMEJoRlZuRGxiSXdnamcyYVc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 23:28:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "장중...국제유가 '급락' 속, 아시아 6國 증시는 '혼조' - 초이스경제",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03Q0w0UWpMWm9ZVWxlM1VXV2ZzU1QwV24tRDB5RFVhcVB1blJOQ1d4WWItX3FnZHZiTVlQWURPOUwwNG5kalVuRlV3U1BEY3FWU0w1MEQtNVNiTE05Vjk4eFA0aXBIeS1zZkh4Q0VVbEhLRW_SAXNBVV95cUxNN0NMNFFqTFpvWVVsZTNVV1dmc1NUMFduLUQweURVYXFQdW5STkNXeFliLV9xZ2R2Yk1ZUFlETzlMMDRuZGpVbkZVd1NQRGNxVlNMNTBELTVTYkxNOVY5OHhQNGlwSHktc2ZIeENFVWxIS0Vv?oc=5",
-          "pub_date": "Wed, 26 Aug 2026 02:34:59 GMT",
-          "source": "초이스경제"
-        },
-        {
-          "title": "[외국인 놀이터 코스피①] 사면 폭등, 팔면 폭락…증시 쥐락펴락 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aU3FkOVVYbW9YWWZkaFE5WGlaMmxVRnl5MFpkZHJkSDRRaVZnX1hZYTJyT19XTms3NHhTNGIyMHdCYkxPSDd5bUxxN1dhTnBsWGxpWExuTTRheTFxWjRXaWhnWXVhb2Vm?oc=5",
-          "pub_date": "Wed, 26 Aug 2026 02:14:45 GMT",
-          "source": "ebn.co.kr"
         }
       ]
     }
@@ -52,8 +40,8 @@
     "move": 71.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 492300000000,
-    "retail_net_buy_krw": -1555800000000,
+    "foreign_inst_buy_krw": 671500000000,
+    "retail_net_buy_krw": -1954200000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -68,18 +56,18 @@
       "sma_200": 24268.26
     },
     "kospi": {
-      "current": 6875.46,
+      "current": 6884.46,
       "high_52w": 9385.59,
-      "drop_pct": -26.74,
+      "drop_pct": -26.65,
       "intraday_low_drop_pct": -28.57,
-      "sma_200": 5969.76
+      "sma_200": 5969.81
     },
     "kosdaq": {
-      "current": 826.08,
+      "current": 827.64,
       "high_52w": 1229.42,
-      "drop_pct": -32.81,
+      "drop_pct": -32.68,
       "intraday_low_drop_pct": -33.67,
-      "sma_200": 992.5
+      "sma_200": 992.51
     },
     "sp500": {
       "current": 7677.28,
@@ -270,7 +258,7 @@
   },
   "expert_analysis": {
     "date": "2026-08-26",
-    "analyzed_at": "2026-08-26T13:07:23.437250+09:00",
+    "analyzed_at": "2026-08-26T13:52:19.816716+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -286,8 +274,8 @@
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "제목은 시장의 긍정적인 추세(순환매 상승 강도 강화)를 설명하지만, 명확한 매수 권고나 매수 기회 강조와 같은 구체적인 행동 권고가 없습니다."
+          "stance": "bullish",
+          "reason": "영상 제목에서 '순환매 상승 강도가 점점 세지고 있다'고 명시하여 시장의 긍정적인 상승 동력이 강해지고 있음을 강조하고 있습니다."
         }
       },
       {
@@ -300,13 +288,13 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 반도체 급락과 반등 현상을 '어떻게 해석할지' 묻는 질문으로, 특정 시장 방향에 대한 행동 권고 없이 중립적인 분석을 시사합니다."
+          "reason": "제공된 영상 설명란에는 주식 시장에 대한 구체적인 매수/매도 권고나 방향성 제시가 없으며, 대부분 교육 플랫폼 홍보와 중립적인 분석을 시사하는 제목만 포함되어 있습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
+      "박병창": "bullish",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"

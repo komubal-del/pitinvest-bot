@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "analyzed_at": "2026-08-26T13:07:23.437250+09:00",
+  "analyzed_at": "2026-08-26T13:52:19.816716+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -16,8 +16,8 @@
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
-        "stance": "neutral",
-        "reason": "제목은 시장의 긍정적인 추세(순환매 상승 강도 강화)를 설명하지만, 명확한 매수 권고나 매수 기회 강조와 같은 구체적인 행동 권고가 없습니다."
+        "stance": "bullish",
+        "reason": "영상 제목에서 '순환매 상승 강도가 점점 세지고 있다'고 명시하여 시장의 긍정적인 상승 동력이 강해지고 있음을 강조하고 있습니다."
       }
     },
     {
@@ -30,13 +30,13 @@
       "is_stale_fallback": true,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목이 반도체 급락과 반등 현상을 '어떻게 해석할지' 묻는 질문으로, 특정 시장 방향에 대한 행동 권고 없이 중립적인 분석을 시사합니다."
+        "reason": "제공된 영상 설명란에는 주식 시장에 대한 구체적인 매수/매도 권고나 방향성 제시가 없으며, 대부분 교육 플랫폼 홍보와 중립적인 분석을 시사하는 제목만 포함되어 있습니다."
       }
     }
   ],
   "error": null,
   "expert_stance_map": {
-    "박병창": "neutral",
+    "박병창": "bullish",
     "윤지호": "neutral"
   },
   "prompt_version": "v4-api-1.2.4"
