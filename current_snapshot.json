@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T18:51:37.389732+09:00",
+  "timestamp": "2026-08-26T19:43:53.476491+09:00",
   "sentiment": {
     "cnn_fng": 59.0857142857143,
     "cnn_components": {
@@ -14,7 +14,7 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 1,
       "fear_count": 2,
       "greed_articles": [
         {
@@ -22,12 +22,6 @@
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16RHkxQktnM0xMZEF4bTRveW9heXVMamtRTnl1bEZDbnQ2d09xZGdoak5VamJTZmVIeVZ2dGRNZWo3aHgyVVprVHF1RWNnc2lxZmhndkliTWt3YmxFZTZIMjhn?oc=5",
           "pub_date": "Wed, 26 Aug 2026 06:33:41 GMT",
           "source": "에너지경제신문"
-        },
-        {
-          "title": "특정 종목 쏠림에 유동성·자금조달 약화…“코스닥 키워야 산다” - 아시아투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yNzJCaUx6TEQyTjMyS191RVozajNvbEplUXFRRTVaX2tjNkRNa0pZdlJSb3dnQXhlOUlZUldtTUlzTGgtX2hyZ1piUXRQZ3NuY1pfamFkdnZWSkg1QzVRRE9IczZhcnFlaXlfWE1n?oc=5",
-          "pub_date": "Wed, 26 Aug 2026 09:12:45 GMT",
-          "source": "아시아투데이"
         }
       ],
       "fear_articles": [
@@ -47,7 +41,7 @@
     }
   },
   "volatility": {
-    "vix": 15.7,
+    "vix": 15.71,
     "vvix": 85.67,
     "skew": 143.27,
     "move": 71.92
