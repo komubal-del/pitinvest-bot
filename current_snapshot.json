@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T16:03:47.801293+09:00",
+  "timestamp": "2026-08-26T16:53:53.682838+09:00",
   "sentiment": {
     "cnn_fng": 59.0857142857143,
     "cnn_components": {
@@ -32,23 +32,23 @@
       ],
       "fear_articles": [
         {
-          "title": "[어제장 오늘장] 4% 급락 딛고 반등한 코스피…외국인 매도에도 상승 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1rTW5naElDQk1sMkh2X3pSTlBJdWkxN1FvZzhIQ19zWVJVSEc2Z3VPcTBVTWo0SDgwQ2Uwa2JNM1hJOG1ZVWc?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 23:31:58 GMT",
-          "source": "v.daum.net"
+          "title": "원유 급락이 매파적 ECB 경고 상쇄하며 유럽 증시 소폭 상승 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmZ2w5bkh0QThnVHp0RUNqNXpnWnYzVWhRZlVKTjFVd1RkRngzNTZhWDhXUDhnSUlrV1pKX3ZKSnJzZkE3cjUySlJjT0QzbVdvRXFnUlR2RUstVXNwbm5LZDRyWW1aNTU2aVdma0VpWk8?oc=5",
+          "pub_date": "Wed, 26 Aug 2026 07:03:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.45,
+    "vix": 15.69,
     "vvix": 85.67,
     "skew": 143.27,
     "move": 71.92
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 643200000000,
-    "retail_net_buy_krw": -2241300000000,
+    "retail_net_buy_krw": -2242400000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
