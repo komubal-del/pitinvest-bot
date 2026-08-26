@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T08:59:10.611787+09:00",
+  "timestamp": "2026-08-26T10:51:14.623895+09:00",
   "sentiment": {
     "cnn_fng": 58.8,
     "cnn_components": {
@@ -14,29 +14,10 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 5,
-      "greed_articles": [
-        {
-          "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SSEhOWTluN21pRE1scnhYOFQyRkZVT2tGRlFpX0NjV3c4bGhGX0J5OWgxSnBxVXRIMUpYYzdNRXJ6NnFfVkRzNWdna1BQV2hjQ0xHSWJ5SnhDY3dROU1WMnVtbGVvdkcwRjY2dVpCRWhmb1ltbGpOUlF6akPSAXxBVV95cUxNUkhITlk5bjdtaURNbHJ4WDhUMkZGVU9rRkZRaV9DY1d3OGxoRl9CeTloMUpwcVV0SDFKWGM3TUVyejZxX1ZEczVnZ2tQUFdoY0NMR0lieUp4Q2N3UTlNVjJ1bWxlb3ZHMEY2NnVaQkVoZm9ZbWxqTlJRempD?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 19:40:00 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "'스탠다드=비우량 기업' 낙인…코스닥 승강제, '자금 쏠림'만 키운다 - 유니콘팩토리",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TWm5SaWJ6cEl5SGJqOFJzdG5KWVI4SUM5TjhYYnhmc1lKRDNEZUZkTTZ3eUM1UWtrZUFDZHN1SnlmMkZFTXNuUEdfLTJMekpzRUlqYV9mRVo3dXFkQnB2LTBsdUJXclZreTI4UQ?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 18:40:00 GMT",
-          "source": "유니콘팩토리"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 2,
+      "greed_articles": [],
       "fear_articles": [
-        {
-          "title": "非반도체 순환매 확산… 코스피, 급락 딛고 극적 반등 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLMkdMUDd0elh4T294UWxsVmxULVRrWUgtZmdyQ2o2YVRUQjBteGdmWUJKRDZXZmF2akZnbnRyelNobWpGZnh1Rld0cXlCYnctTFdiU1o3ZFJkN2g0bGl6MVlaR3kyS3Nx0gFuQVVfeXFMTVNEY0ZRQl9abXhjUlFPSlJDTWZqWjAzTDR6ZGFYLTd6UWFSeks1aGNKRVAwVDJ3d0pYMU1iV2pJYXR4YjJXcDEwa0tXbWdDR0NybzZGQmRJc3g2SjFGRnhJYUc3eXpKV0h2Tk1sdXc?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 19:03:00 GMT",
-          "source": "머니투데이"
-        },
         {
           "title": "[어제장 오늘장] 4% 급락 딛고 반등한 코스피…외국인 매도에도 상승 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUQXJuX21UVmF4NWwyUmg0WU0yRkFNYUxicjZvenlzRXhRTGFuSnBfbUtNWWh4YnN4MlRxaTVZRUtBeEN5VC1kSzVRdTZUOFE?oc=5",
@@ -48,18 +29,6 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yWnYyOUhrS0pkU3E2ajJ5cENHbDRxNkF0bWVTOFRDMW9YcnZXZUZROFJkMmlXaUczZzhUYkFFd3p1Um1xdDhqRG1rMEhuODROcUtUMWNNc0JPa0VHNWFnMEJoRlZuRGxiSXdnamcyYVc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 23:28:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "“세계서 가장 미친 韓주식시장, 공포의 놀이기구 됐다”…‘3배 뛰고 40% 급락’ 코스피에 美 ‘충격’ - twig24.com",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wbXQyX2UzdVFsNEtta29mYnhuX0VLSkRqRjJvcUZMVXFuZlJzUXBhTHgyeEhuWDJmZXVUOEY4elBQTTZBMXUwTmxvc0lmb0oyRDRpRXNrRnJKVEJhdHd1TWxrenNKN2hwV2FMRXRNZExHR2NYOU9TeDNVUEs?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 23:03:11 GMT",
-          "source": "twig24.com"
-        },
-        {
-          "title": "코스닥 새내기株 잇단 ‘첫날 급락’…지수보다 최대 9배 빠졌다 - 메트로신문",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41RXo4WVJQSXJfVVFUWGRnRFVlSE1ZWmVKbGZoOXFfUzV3UXpSeXMyOWRNRUlnOHpmRzFtTXh4Skl3NmM3NnNLalhBY0NvUFBpUHRBNXliLXR5UzdXLVBwSw?oc=5",
-          "pub_date": "Tue, 25 Aug 2026 21:20:22 GMT",
-          "source": "메트로신문"
         }
       ]
     }
@@ -71,8 +40,8 @@
     "move": 71.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2642900000000,
-    "retail_net_buy_krw": 1050900000000,
+    "foreign_inst_buy_krw": -607600000000,
+    "retail_net_buy_krw": 134000000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +56,18 @@
       "sma_200": 24268.26
     },
     "kospi": {
-      "current": 6696.96,
+      "current": 6725.52,
       "high_52w": 9385.59,
-      "drop_pct": -28.65,
-      "intraday_low_drop_pct": -29.08,
-      "sma_200": 5942.64
+      "drop_pct": -28.34,
+      "intraday_low_drop_pct": -28.57,
+      "sma_200": 5969.01
     },
     "kosdaq": {
-      "current": 813.33,
+      "current": 815.55,
       "high_52w": 1229.42,
-      "drop_pct": -33.84,
-      "intraday_low_drop_pct": -34.58,
-      "sma_200": 993.19
+      "drop_pct": -33.66,
+      "intraday_low_drop_pct": -33.67,
+      "sma_200": 992.45
     },
     "sp500": {
       "current": 7677.28,
