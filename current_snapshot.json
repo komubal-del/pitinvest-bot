@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T16:53:53.682838+09:00",
+  "timestamp": "2026-08-26T17:54:47.763221+09:00",
   "sentiment": {
     "cnn_fng": 59.0857142857143,
     "cnn_components": {
@@ -14,41 +14,47 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 1,
+      "greed_count": 1,
+      "fear_count": 3,
       "greed_articles": [
         {
           "title": "삼성전자·하이닉스 쏠림에도…대형 액티브펀드 절반 이상이 코스피 제쳐 - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xTE5Ea2tYMnJRakdxR0EyMU90T21ROHA1ZDV2ZUM3c01VLVd6Z3dOaHdqc1JERS12YVQ2QTJlVjVselBXbmlWeWZMYkpRamRNaU4ydkVZUjNYeVk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16RHkxQktnM0xMZEF4bTRveW9heXVMamtRTnl1bEZDbnQ2d09xZGdoak5VamJTZmVIeVZ2dGRNZWo3aHgyVVprVHF1RWNnc2lxZmhndkliTWt3YmxFZTZIMjhn?oc=5",
           "pub_date": "Wed, 26 Aug 2026 06:33:41 GMT",
           "source": "에너지경제신문"
-        },
-        {
-          "title": "증시 반등에 빚투 재점화... 신용융자 3주 새 5.4조↑ - 매일일보",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwQ3pYZkkteHZyd1ZFLV9mUUpTd3pnZVlnZDJSWWo4WHE3TXotbUVQY2ZRZXNDalNmQWtpajR1NDV2bXg0WVVCYnRleGJhQUJIWHl3RmM3SlBxU0J2ZGFjcUl4UHY?oc=5",
-          "pub_date": "Wed, 26 Aug 2026 06:26:18 GMT",
-          "source": "매일일보"
         }
       ],
       "fear_articles": [
+        {
+          "title": "6주 만에 40% 폭락…WSJ, 韓 롤러코스터 증시 조명 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wNHZvRHM1b1JhWFR2MVkzcWFfUzRXazBFaW5MdzRjRjBabG5XSXpfUTlBWmJxTFFESTQtbUtPb2tuZ3lzQTRGdVVEc1ItZEp4ZTJkNlhNTHpVSGRqWTlMNmc1dV9aZzBQOFk5NHc3Y2I?oc=5",
+          "pub_date": "Wed, 26 Aug 2026 05:42:00 GMT",
+          "source": "Investing.com 한국어"
+        },
         {
           "title": "원유 급락이 매파적 ECB 경고 상쇄하며 유럽 증시 소폭 상승 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmZ2w5bkh0QThnVHp0RUNqNXpnWnYzVWhRZlVKTjFVd1RkRngzNTZhWDhXUDhnSUlrV1pKX3ZKSnJzZkE3cjUySlJjT0QzbVdvRXFnUlR2RUstVXNwbm5LZDRyWW1aNTU2aVdma0VpWk8?oc=5",
           "pub_date": "Wed, 26 Aug 2026 07:03:00 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "증시 급락에도…금융·식품·화장품 업종은 올랐다 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wV0haOGc4M2dzOUsyQmxIYWdGcTJnSXpKV2hfbV9HRkgyT1JxcWdnRERnNGY2Ul9vQ3R1Qzc4dnBhVW1KV1hxNXc2dUF3RHQ2QnpoMVhGTEFLTjVXSDBpRElR?oc=5",
+          "pub_date": "Wed, 26 Aug 2026 08:12:00 GMT",
+          "source": "아시아경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.69,
+    "vix": 15.7,
     "vvix": 85.67,
     "skew": 143.27,
     "move": 71.92
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 643200000000,
-    "retail_net_buy_krw": -2242400000000,
+    "retail_net_buy_krw": -2242600000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
