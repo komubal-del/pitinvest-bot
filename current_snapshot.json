@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T12:13:37.239229+09:00",
+  "timestamp": "2026-08-26T13:07:16.484954+09:00",
   "sentiment": {
     "cnn_fng": 58.8,
     "cnn_components": {
@@ -15,14 +15,26 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 4,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "[어제장 오늘장] 4% 급락 딛고 반등한 코스피…외국인 매도에도 상승 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1rTW5naElDQk1sMkh2X3pSTlBJdWkxN1FvZzhIQ19zWVJVSEc2Z3VPcTBVTWo0SDgwQ2Uwa2JNM1hJOG1ZVWc?oc=5",
+          "pub_date": "Tue, 25 Aug 2026 23:31:58 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "[0826개장체크] 美 증시, 국제유가 급락에 따른 인플레이션 우려 완화…반도체 업종 반등 By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yWnYyOUhrS0pkU3E2ajJ5cENHbDRxNkF0bWVTOFRDMW9YcnZXZUZROFJkMmlXaUczZzhUYkFFd3p1Um1xdDhqRG1rMEhuODROcUtUMWNNc0JPa0VHNWFnMEJoRlZuRGxiSXdnamcyYVc?oc=5",
           "pub_date": "Tue, 25 Aug 2026 23:28:00 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "장중...국제유가 '급락' 속, 아시아 6國 증시는 '혼조' - 초이스경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03Q0w0UWpMWm9ZVWxlM1VXV2ZzU1QwV24tRDB5RFVhcVB1blJOQ1d4WWItX3FnZHZiTVlQWURPOUwwNG5kalVuRlV3U1BEY3FWU0w1MEQtNVNiTE05Vjk4eFA0aXBIeS1zZkh4Q0VVbEhLRW_SAXNBVV95cUxNN0NMNFFqTFpvWVVsZTNVV1dmc1NUMFduLUQweURVYXFQdW5STkNXeFliLV9xZ2R2Yk1ZUFlETzlMMDRuZGpVbkZVd1NQRGNxVlNMNTBELTVTYkxNOVY5OHhQNGlwSHktc2ZIeENFVWxIS0Vv?oc=5",
+          "pub_date": "Wed, 26 Aug 2026 02:34:59 GMT",
+          "source": "초이스경제"
         },
         {
           "title": "[외국인 놀이터 코스피①] 사면 폭등, 팔면 폭락…증시 쥐락펴락 - ebn.co.kr",
@@ -40,8 +52,8 @@
     "move": 71.92
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 122700000000,
-    "retail_net_buy_krw": -956900000000,
+    "foreign_inst_buy_krw": 492300000000,
+    "retail_net_buy_krw": -1555800000000,
     "margin_loan_krw": 32188100000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +68,18 @@
       "sma_200": 24268.26
     },
     "kospi": {
-      "current": 6847.96,
+      "current": 6875.46,
       "high_52w": 9385.59,
-      "drop_pct": -27.04,
+      "drop_pct": -26.74,
       "intraday_low_drop_pct": -28.57,
-      "sma_200": 5969.62
+      "sma_200": 5969.76
     },
     "kosdaq": {
-      "current": 823.27,
+      "current": 826.08,
       "high_52w": 1229.42,
-      "drop_pct": -33.04,
+      "drop_pct": -32.81,
       "intraday_low_drop_pct": -33.67,
-      "sma_200": 992.48
+      "sma_200": 992.5
     },
     "sp500": {
       "current": 7677.28,
@@ -257,8 +269,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-08-25",
-    "analyzed_at": "2026-08-25T13:59:48.459615+09:00",
+    "date": "2026-08-26",
+    "analyzed_at": "2026-08-26T13:07:23.437250+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -266,29 +278,29 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "uyEo7ST1dro",
-        "title": "삼성전자 8% 급락, 진짜 문제는 따로 있다…하반기 순환매 시작되나 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-08-25T00:09:06Z",
-        "url": "https://youtube.com/watch?v=uyEo7ST1dro",
+        "video_id": "bdCNvmcb0fI",
+        "title": "\"순환매 상승 강도가 점점 세지고 있다\" 달라진 시장의 흐름 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-26T00:05:20Z",
+        "url": "https://youtube.com/watch?v=bdCNvmcb0fI",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목은 삼성전자의 급락과 시장의 잠재적 문제, 하반기 순환매 가능성에 대한 분석적 질문을 던지고 있을 뿐, 구체적인 매수/매도/현금화 등의 투자 행동을 권고하지 않습니다."
+          "reason": "제목은 시장의 긍정적인 추세(순환매 상승 강도 강화)를 설명하지만, 명확한 매수 권고나 매수 기회 강조와 같은 구체적인 행동 권고가 없습니다."
         }
       },
       {
-        "video_id": "TXyhkjSn74E",
-        "title": "시장은 당신의 매수가격을 기억하지 않는다 (윤지호) | 인포맥스라이브 2026년 8월 19일 방송",
-        "published": "2026-08-19T12:17:36Z",
-        "url": "https://youtube.com/watch?v=TXyhkjSn74E",
+        "video_id": "OutXhDAMIaI",
+        "title": "반도체 급락과 반등...어떻게 해석해요? | 윤지호 경제평론가 [주말인터뷰]",
+        "published": "2026-08-01T23:00:32Z",
+        "url": "https://youtube.com/watch?v=OutXhDAMIaI",
         "text_source": "description",
         "transcript_available": false,
-        "is_stale_fallback": false,
+        "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제시된 내용은 시장 동향, 특정 산업 및 기업 분석에 대한 질문들로 구성되어 있으며, '현금화/비중 축소/매도'나 '매수 기회/저점 매수/반등'과 같은 구체적인 행동 권고가 명확히 없습니다."
+          "reason": "제목이 반도체 급락과 반등 현상을 '어떻게 해석할지' 묻는 질문으로, 특정 시장 방향에 대한 행동 권고 없이 중립적인 분석을 시사합니다."
         }
       }
     ],
