@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-27T07:21:24.705516+09:00",
+  "timestamp": "2026-08-27T12:23:34.563795+09:00",
   "sentiment": {
     "cnn_fng": 55.1714285714286,
     "cnn_components": {
@@ -15,9 +15,16 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "한은 '2연속 금리 인상'에 급등분 반납…코스피 0.6%대·코스닥 하락 전환 - 경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rakEwbFJUZ2RJaGdoYUF3eTg3a3ZPdmZwNTBSWVF0TmdIZkZIazNwNmhBRm5GQnBPVEo1ZUVoMDlmTmI2V2daakJtZWZFVkprTEVZ?oc=5",
+          "pub_date": "Thu, 27 Aug 2026 01:20:59 GMT",
+          "source": "경제타임스"
+        }
+      ]
     }
   },
   "volatility": {
@@ -27,9 +34,9 @@
     "move": 69.44
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 646700000000,
-    "retail_net_buy_krw": -2246100000000,
-    "margin_loan_krw": 32188100000000,
+    "foreign_inst_buy_krw": 579500000000,
+    "retail_net_buy_krw": -1442200000000,
+    "margin_loan_krw": 32402200000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -43,18 +50,18 @@
       "sma_200": 24283.64
     },
     "kospi": {
-      "current": 6742.74,
+      "current": 6957.59,
       "high_52w": 9385.59,
-      "drop_pct": -28.16,
-      "intraday_low_drop_pct": -31.72,
-      "sma_200": 5955.92
+      "drop_pct": -25.87,
+      "intraday_low_drop_pct": -27.1,
+      "sma_200": 5983.1
     },
     "kosdaq": {
-      "current": 827.15,
+      "current": 835.24,
       "high_52w": 1229.42,
-      "drop_pct": -32.72,
-      "intraday_low_drop_pct": -36.4,
-      "sma_200": 992.87
+      "drop_pct": -32.06,
+      "intraday_low_drop_pct": -32.96,
+      "sma_200": 992.11
     },
     "sp500": {
       "current": 7675.7,
@@ -146,10 +153,10 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": true,
       "hynix_at_60d_high": false,
-      "hynix_ok": false,
+      "hynix_ok": true,
       "gate_passed": false,
       "history": {
         "samsung": [
@@ -287,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.145,
+    "strategy_pct": 184.671,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -959,7 +966,7 @@
       },
       {
         "date": "2026-08-27",
-        "ret_pct": 185.145
+        "ret_pct": 184.671
       }
     ],
     "monthly_breakdown": [
@@ -1007,8 +1014,8 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 15.7,
-        "end_ret_pct": 185.15,
+        "return_pct": 15.23,
+        "end_ret_pct": 184.67,
         "max_dd_pct": 25.15
       }
     ],
