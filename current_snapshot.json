@@ -1,41 +1,47 @@
 {
-  "timestamp": "2026-08-27T12:23:34.563795+09:00",
+  "timestamp": "2026-08-27T23:22:16.099877+09:00",
   "sentiment": {
-    "cnn_fng": 55.1714285714286,
+    "cnn_fng": 58.1142857142857,
     "cnn_components": {
-      "momentum": 37.0,
-      "strength": 27.0,
-      "breadth": 61.4,
-      "put_call": 63.2,
-      "junk_bond": 88.4,
+      "momentum": 40.0,
+      "strength": 28.2,
+      "breadth": 61.6,
+      "put_call": 87.2,
+      "junk_bond": 87.6,
       "volatility": 50.0,
-      "safe_haven": 59.4
+      "safe_haven": 52.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_count": 2,
+      "fear_count": 0,
+      "greed_articles": [
         {
-          "title": "한은 '2연속 금리 인상'에 급등분 반납…코스피 0.6%대·코스닥 하락 전환 - 경제타임스",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rakEwbFJUZ2RJaGdoYUF3eTg3a3ZPdmZwNTBSWVF0TmdIZkZIazNwNmhBRm5GQnBPVEo1ZUVoMDlmTmI2V2daakJtZWZFVkprTEVZ?oc=5",
-          "pub_date": "Thu, 27 Aug 2026 01:20:59 GMT",
-          "source": "경제타임스"
+          "title": "증시서 돈 빠지는데 ‘빚투’는 급증…신용잔고 다시 33조 - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LaTczN1MzS1pmV2JzZzlMVmtmUDR3OG16VkFaeXR5VzFYdmJSOUtaOE9fUXZDN0VyN2tLOUJXelE3dVdnbWJtcnZ5cktwRGRHT3I4RmtvXzhOSUd5OEhWMnRR?oc=5",
+          "pub_date": "Thu, 27 Aug 2026 07:45:00 GMT",
+          "source": "이코노미스트"
+        },
+        {
+          "title": "단일레버리지 ETF 광풍 잦아들자…코스닥에 돈이 돈다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tMV9iaUJtMWU3OHdIZk5tOUpmb3hoZm1WQUdQNG1PdXlmRFloN0ZxMjB0TWJ4MF9VV0w4d3o5eTlkS2d3R3ExNnhKYlpJZWJEMnRyYXN3dDNoZEJkdkJyRVpXa1RHblRCQWw1bUxB0gFuQVVfeXFMTi0xX2JpQm0xZTc4d0hmTm05SmZveGhmbVZBR1A0bU91eWZEWWg3RnEyMHRNYngwX1VXTDh3ejl5OWRLZ3dHcTE2eEpiWkllYkQydHJhc3d0M2hkQmR2QnJFWldrVEduVEJBbDVtTEE?oc=5",
+          "pub_date": "Thu, 27 Aug 2026 08:20:00 GMT",
+          "source": "머니투데이"
         }
-      ]
+      ],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.21,
-    "vvix": 85.24,
+    "vix": 14.84,
+    "vvix": 84.02,
     "skew": 142.96,
     "move": 69.44
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 579500000000,
-    "retail_net_buy_krw": -1442200000000,
+    "foreign_inst_buy_krw": 316800000000,
+    "retail_net_buy_krw": -1911600000000,
     "margin_loan_krw": 32402200000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -43,55 +49,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26130.2,
+      "current": 26422.14,
       "high_52w": 27190.21,
-      "drop_pct": -3.9,
-      "intraday_low_drop_pct": -4.3,
-      "sma_200": 24283.64
+      "drop_pct": -2.82,
+      "intraday_low_drop_pct": -3.37,
+      "sma_200": 24300.73
     },
     "kospi": {
-      "current": 6957.59,
+      "current": 6912.37,
       "high_52w": 9385.59,
-      "drop_pct": -25.87,
+      "drop_pct": -26.35,
       "intraday_low_drop_pct": -27.1,
-      "sma_200": 5983.1
+      "sma_200": 5982.88
     },
     "kosdaq": {
-      "current": 835.24,
+      "current": 837.65,
       "high_52w": 1229.42,
-      "drop_pct": -32.06,
+      "drop_pct": -31.87,
       "intraday_low_drop_pct": -32.96,
-      "sma_200": 992.11
+      "sma_200": 992.12
     },
     "sp500": {
-      "current": 7675.7,
+      "current": 7710.21,
       "high_52w": 7816.7,
-      "drop_pct": -1.8,
-      "intraday_low_drop_pct": -2.04,
-      "sma_200": 7109.31
+      "drop_pct": -1.36,
+      "intraday_low_drop_pct": -1.62,
+      "sma_200": 7114.22
     },
     "russell2k": {
-      "current": 3005.9,
+      "current": 3001.46,
       "high_52w": 3069.71,
-      "drop_pct": -2.08,
-      "intraday_low_drop_pct": -2.27,
-      "sma_200": 2725.53
+      "drop_pct": -2.22,
+      "intraday_low_drop_pct": -2.22,
+      "sma_200": 2728.37
     },
     "soxx": {
-      "current": 515.4,
+      "current": 523.09,
       "high_52w": 655.95,
-      "drop_pct": -21.43,
-      "intraday_low_drop_pct": -22.36,
-      "sma_200": 423.68
+      "drop_pct": -20.25,
+      "intraday_low_drop_pct": -21.18,
+      "sma_200": 424.82
     }
   },
   "sector_rs": {
-    "XLK": 0.97,
-    "SMH": 0.912,
-    "BOTZ": 0.869,
-    "IGV": 1.075,
-    "XLF": 1.111,
-    "XLE": 1.078
+    "XLK": 0.989,
+    "SMH": 0.929,
+    "BOTZ": 0.878,
+    "IGV": 1.141,
+    "XLF": 1.098,
+    "XLE": 1.067
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +133,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 60.27,
+    "tqqq_profit_pct": 64.82,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 117.94,
+    "soxl_profit_pct": 127.69,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.43,
+    "koru_profit_pct": -94.19,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -160,6 +166,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.27",
+            "close": 266000,
+            "change_pct": 1.72,
+            "retail_net": -1284353,
+            "inst_net": -97433,
+            "foreign_net": 1381786
+          },
           {
             "date": "2026.08.26",
             "close": 261500,
@@ -191,17 +205,17 @@
             "retail_net": -2874001,
             "inst_net": 1306652,
             "foreign_net": 1567349
-          },
-          {
-            "date": "2026.08.20",
-            "close": 271000,
-            "change_pct": 9.49,
-            "retail_net": -4821492,
-            "inst_net": 599886,
-            "foreign_net": 4221606
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.27",
+            "close": 1730000,
+            "change_pct": 2.49,
+            "retail_net": 299714,
+            "inst_net": -140329,
+            "foreign_net": -159385
+          },
           {
             "date": "2026.08.26",
             "close": 1688000,
@@ -233,14 +247,6 @@
             "retail_net": -72272,
             "inst_net": 66258,
             "foreign_net": 6014
-          },
-          {
-            "date": "2026.08.20",
-            "close": 1691000,
-            "change_pct": 12.73,
-            "retail_net": -299759,
-            "inst_net": -13214,
-            "foreign_net": 312973
           }
         ]
       }
