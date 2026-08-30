@@ -1,74 +1,30 @@
 {
-  "timestamp": "2026-08-28T20:12:28.783129+09:00",
+  "timestamp": "2026-08-31T01:59:28.391983+09:00",
   "sentiment": {
-    "cnn_fng": 57.7428571428571,
+    "cnn_fng": 54.4285714285714,
     "cnn_components": {
-      "momentum": 44.0,
-      "strength": 29.2,
-      "breadth": 58.0,
-      "put_call": 81.8,
-      "junk_bond": 85.0,
+      "momentum": 40.0,
+      "strength": 29.0,
+      "breadth": 58.8,
+      "put_call": 73.2,
+      "junk_bond": 90.2,
       "volatility": 50.0,
-      "safe_haven": 56.2
+      "safe_haven": 39.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 12,
-      "greed_articles": [
-        {
-          "title": "과열 해소냐 동력 약화냐…코스피, 7000선 앞두고 거래 '뚝' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oaWhJanRPV1QtdWpPOUpVMEtUSlJ3cGVNeVBEeUN3Q0dRSDhwYWF0c283RW1BaVdJTmRGaXpkZWl2Q09rZXdSR1dUUDZXbUU?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 07:31:05 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"삼전닉스 무너지면 어쩌려고\"…코스피 '빚투' 40% 삼켰다 [증시는 왜] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nMFR2ck5EcEY5a2xtYjE1RlViZWRFTUtnRGNTYkRYOENDUHZuakx2ZHByZjF3b2t3NWRkbTZCNFA4SkUybDBUUkxzQlRTNzA?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 05:01:30 GMT",
-          "source": "v.daum.net"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피, ‘반도체 투톱’ 급락에 동반 하락…6,700선 마감 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqSm80S2xlQXRLODZBWjBLc25RaGRhd0dwWFlPRUwybk5YVENqM2pZTVVXUjhLOFRWLU5KSjhINlZHSmpGcUxJdGhYSFo3NFJTbUdnODJuUExzM3c?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 07:17:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "삼전닉스 급락…코스피 1.79% 하락 마감 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJOG5hYkk5Und0Y2ZEMnQ2czRkSlVPUGRaOVYyXzhXazlPVnFBSC1GNUNLMW9pR1ZSZXloMVZYd1lNbVdDV3AwdVBvZE1TZDduRVBNbVpVaEdaVEJPbnR5aWZCLXdseWM?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 08:14:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "삼전닉스 급락에 코스피 1.8% 하락… 다시 6700선 - IT조선",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jNnZFTXNqMnl5RU80RTR1QThCVWdBc1dfT2ctY2VqY3dGMDVzeWZhdTNYMWdHdVR3WXowc3A1ZDBPeW9OMTkyMEFqVl9WV3g1XzI2YktUS2hoUkR6SUdkSkxPQk9zZEtPQ2t6em9wUFd3X0tl0gF0QVVfeXFMTmM2dkVNc2oyeXlFTzRFNHVBOEJVZ0FzV19PZy1jZWpjd0YwNXN5ZmF1M1gxZ0d1VHdZejBzcDVkME95b04xOTIwQWpWX1ZXeDVfMjZiS1RLaGhSRHpJR2RKTE9CT3NkS09Da3p6b3BQV3dfS2U?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 09:06:51 GMT",
-          "source": "IT조선"
-        },
-        {
-          "title": "[오늘의증시] 코스피 1.79% 하락…반도체 급락에 6700선 후퇴 - 경인방송 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtWjA1WkZMZC1EN2lUNXg4MDYzaFZqYTRsU3RLc2FMcEtZeW8ySHhacWJfUkNzb1Q4NlBkTUxManBSVTFITjlSc3ZLOWhjemFyS0pRQlJFTzVSREZoWVlHVzQ0eG9vVUN10gFoQVVfeXFMUC1aMDVaRkxkLUQ3aVQ1eDgwNjNoVmphNGxTdEtzYUxwS1l5bzJIeFpxYl9SQ3NvVDg2UGRNTExqcFJVMUhOOVJzdks5aGN6YXJLSlFCUkVPNVJERmhZWUdXNDR4b29VQ3U?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 09:04:31 GMT",
-          "source": "경인방송 뉴스"
-        },
-        {
-          "title": "삼성전자·SK하이닉스 급락에 코스피 1.79% 하락 마감 - BBS불교방송",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BTEhFOHVNMjBnZFRaanNhUEFLOEVjdWxqWWtrUFBPZ0JvRG1Va3BjV2VNZ0xYV09MTVBoUnZ0NTktb1JYQzVEdE5VTFgwRVU2dmdRZTVVZ2xLbjdydVptbHFhQlV3cDNQekh3?oc=5",
-          "pub_date": "Fri, 28 Aug 2026 06:57:05 GMT",
-          "source": "BBS불교방송"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.48,
-    "vvix": 82.9,
-    "skew": 144.05,
-    "move": 69.86
+    "vix": 14.43,
+    "vvix": 86.63,
+    "skew": 149.77,
+    "move": 70.97
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -2040099999999,
@@ -80,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26541.35,
+      "current": 26402.42,
       "high_52w": 27190.21,
-      "drop_pct": -2.39,
-      "intraday_low_drop_pct": -3.37,
-      "sma_200": 24301.32
+      "drop_pct": -2.9,
+      "intraday_low_drop_pct": -3.06,
+      "sma_200": 24315.7
     },
     "kospi": {
       "current": 6788.88,
@@ -101,34 +57,34 @@
       "sma_200": 991.68
     },
     "sp500": {
-      "current": 7730.99,
+      "current": 7711.76,
       "high_52w": 7816.7,
-      "drop_pct": -1.1,
-      "intraday_low_drop_pct": -1.62,
-      "sma_200": 7114.32
+      "drop_pct": -1.34,
+      "intraday_low_drop_pct": -1.48,
+      "sma_200": 7118.72
     },
     "russell2k": {
-      "current": 3014.34,
+      "current": 2972.37,
       "high_52w": 3069.71,
-      "drop_pct": -1.8,
-      "intraday_low_drop_pct": -2.24,
-      "sma_200": 2728.43
+      "drop_pct": -3.17,
+      "intraday_low_drop_pct": -3.17,
+      "sma_200": 2731.02
     },
     "soxx": {
-      "current": 525.43,
+      "current": 508.62,
       "high_52w": 655.95,
-      "drop_pct": -19.9,
-      "intraday_low_drop_pct": -21.18,
-      "sma_200": 424.83
+      "drop_pct": -22.46,
+      "intraday_low_drop_pct": -22.73,
+      "sma_200": 425.87
     }
   },
   "sector_rs": {
-    "XLK": 0.986,
-    "SMH": 0.932,
-    "BOTZ": 0.876,
-    "IGV": 1.126,
-    "XLF": 1.106,
-    "XLE": 1.075
+    "XLK": 0.955,
+    "SMH": 0.906,
+    "BOTZ": 0.874,
+    "IGV": 1.057,
+    "XLF": 1.109,
+    "XLE": 1.1
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 66.7,
+    "tqqq_profit_pct": 63.41,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 130.0,
+    "soxl_profit_pct": 108.11,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.18,
+    "koru_profit_pct": -94.35,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
