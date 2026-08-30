@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T04:44:37.175424+09:00",
+  "timestamp": "2026-08-31T07:06:14.824346+09:00",
   "sentiment": {
     "cnn_fng": 54.4285714285714,
     "cnn_components": {
@@ -14,10 +14,24 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "코스닥 다시 시험대… 빚투 부담 커졌다 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fUXZFMjBHbUtSbUpwZnFRUzBWWnd3Y3dmQUF5SFd5Tm1YUk5pRG1OOERtT3I2UlQ3RWg1eTNKRjl4NENxdDdJVEE1MFR6SDZMZm1zYU1rTy1LczhCVjAtOWQ4cktza0FuWldlV9IBbEFVX3lxTE5fUXZFMjBHbUtSbUpwZnFRUzBWWnd3Y3dmQUF5SFd5Tm1YUk5pRG1OOERtT3I2UlQ3RWg1eTNKRjl4NENxdDdJVEE1MFR6SDZMZm1zYU1rTy1LczhCVjAtOWQ4cktza0FuWldlVw?oc=5",
+          "pub_date": "Sun, 30 Aug 2026 15:23:00 GMT",
+          "source": "국민일보"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "금리인상 우려에 美 반도체 급락…‘칠천피’ 재도전, 또 고비 맞나 [주간 증시 전망] - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04V0s5Rnh5WU9yVkpwc1l4WWFTV08xZ3lOVlN5QURTVzVaY2MxMWRkX2VBb2FrUlh4bWc2VjNQNnhBalFOVEszY0xfTURxZHlSYXc?oc=5",
+          "pub_date": "Sun, 30 Aug 2026 22:00:00 GMT",
+          "source": "서울경제"
+        }
+      ]
     }
   },
   "volatility": {
