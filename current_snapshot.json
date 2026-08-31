@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-31T15:12:52.183965+09:00",
+  "timestamp": "2026-08-31T23:08:59.830054+09:00",
   "sentiment": {
-    "cnn_fng": 54.4285714285714,
+    "cnn_fng": 50.3714285714286,
     "cnn_components": {
-      "momentum": 40.0,
-      "strength": 29.0,
-      "breadth": 58.8,
-      "put_call": 73.2,
-      "junk_bond": 90.2,
+      "momentum": 34.4,
+      "strength": 26.0,
+      "breadth": 55.0,
+      "put_call": 70.4,
+      "junk_bond": 91.6,
       "volatility": 50.0,
-      "safe_haven": 39.8
+      "safe_haven": 25.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
@@ -18,16 +18,16 @@
       "fear_count": 16,
       "greed_articles": [
         {
-          "title": "올해 7월까지 국세 274조…'성과급·증시 활황'에 41.4조 ↑ - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80VXNmbUxXblJTTzJpdXpkemZwcTdhTThDdVZFcEg1WnpYbGRBSEtlM05pN2I1Y1ZzRWk3cFh6OTE2aXEybzBoLXktZy1uUU14UXZZd1R4OFZadDJXbGJDRw?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 02:27:33 GMT",
-          "source": "뉴스토마토"
+          "title": "코스피 상승 전환···대형주 저가 매수에 6820선 회복 - 더리포트",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzb3ZfdlNCcVJBeEVUdDhwend3T01MTFl1aGdmRFMtdl9hX1U5UllXREljR0RCX3RfNVlkejhNMFdkUm9taE0zYnUzU09oSy13YlZOUnZIdWh5R01kUzZBSGRMZFRoNlRMM2RRRldn?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 07:34:04 GMT",
+          "source": "더리포트"
         },
         {
-          "title": "급락했던 코스피, 외국인 저가 매수세에 6600선 회복 [장중시황] - 2news.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tYTNpTTNyc1JJZTZ5Z244MkZVRFhZYWNHOWtBUDhjQnZTWXd4U2ZQc0VMemxFUGozQUtTUldzei1HSC1rdW95SmVzZmRLdlBCVzJQalpNMEg0SG04MVJPdDdPWjcwVVEx?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 04:50:00 GMT",
-          "source": "2news.co.kr"
+          "title": "‘큰돈 벌 기회 끝났다’ 코스피 조용해지니…진짜 거품이었나, 곧바로 반토막 [투자360] - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CZTJMaDkxV0JtOGNsRDRWelJidE1uQTI1NHdSdl91MmlqX2NSVjFBVm1MVjRoUXgtbTZFcG1DU19CclhkTnhndmNWOEhjRzdIUlZaYVlB?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 09:40:00 GMT",
+          "source": "헤럴드경제"
         }
       ],
       "fear_articles": [
@@ -38,41 +38,41 @@
           "source": "YTN"
         },
         {
-          "title": "코스피, 워시 매파 발언에 급락…반도체주 ’뚝’ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94clR5ZFBxcVV5RldUSWhwUlk0RDE2cHZzdTRMVFhzMGUzZEJCWWRqS2hOWGJ3bndFWkMxMEdMT0dCa0RxRlp3WWJHQXZCOFJqZXNybXlQRExxNlBYbXpOT2NmYXJZakk?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 01:24:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "장중 3%대 급락한 코스피…'삼전닉스' 자사주 매입에 6820선 회복 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsS05CYThPaTRpVGM5cEdFVDZFaEhWakxZN1VxbElqSVYyMDNtdlFNQ1k0QjZLM0p4TFJyNDljY25VdndPdG4yTmFRalVYYnI0Y3lOeGJKNklpdV9SN0t1SFowaFlST2RMd3c?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 07:38:35 GMT",
+          "source": "hidomin.com"
         },
         {
-          "title": "코스피, 워시 매파 발언에 급락…반도체주 '뚝' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wZTRLUnRoM1gxWE93MDVPUHI3X1ZuQU9wbXdIWHRDR05wQXlQbHNKQ2NDd2NuYnJubHpXLVFwd2tQTkJlUjE1cnF0OFUyeGRGUGdCOWxaWks1VFdkZ2hKatIBYEFVX3lxTE1wZTRLUnRoM1gxWE93MDVPUHI3X1ZuQU9wbXdIWHRDR05wQXlQbHNKQ2NDd2NuYnJubHpXLVFwd2tQTkJlUjE1cnF0OFUyeGRGUGdCOWxaWks1VFdkZ2hKag?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 01:24:52 GMT",
-          "source": "연합뉴스"
+          "title": "코스피, 장중 3.5% 급락 딛고 상승 전환…6820선 마감 - 스트레이트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1TkRLa0JtQ0xnOVFfYmt6a3JJdjQ1b1lhcFB1S0ZMdy1xNmJ1MzRuS19qU3pkMmtVMnZVZm5vQVoxcGlRbHlOTzJzM2ZzSGw1NWkzN0phRmFFOXB5RTdLdGcwSmJCX2xDTVBXYWdxcWQ3b3fSAXdBVV95cUxOMy1qbnJiNmE2cHRXZktLOHNGSFhzZTg1S3I4Z1o2UkRDVGFrNmVxRWFHNExodVdwamhpRGY4RElreXlkcElveWNlU2hyTjFNWC1ZempDOXlCTUxJYUdDOU5rNkF6OFFJWnNUWXRLa0VFX3RNREpCNA?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 07:09:57 GMT",
+          "source": "스트레이트뉴스"
         },
         {
-          "title": "코스피, 美 금리 부담에 급락 출발…한때 6,500선 후퇴 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZNUYxdGw5Ry1MUnJwbVB5X0ZRWWF5THlZcjZXNEVyZzNaTTVyVDJhZ0dtR3diYnlCREw2MTJhV2w0dHB2MF9saWdLYmR1c2xPR2pWNU1wYTRVUl9pRkp3ZlI3QTFEVDVabkUtUE1JNlVHcVh1?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 00:34:43 GMT",
-          "source": "연합인포맥스"
+          "title": "월간 코스피 22% 급락 후 3.4% '폴짝 반등'…9월 예상범위 6600~8350p - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmTUlqdTBvMTJWMGl2YkRNcjZ1Q0hPX19JWkwyZkpxN3RDTWdiWlRoMWZfOTZ6MUxVZVlVTXlod0dORWlhemJfLTdfb1BfVW9maFd3Y1V0UlkwTEhKSnh30gFkQVVfeXFMUG40QmMwS08zY1JKUTlRNFE5NngzeXNmTndsbEFoOFd2SzFvX1NZSV9uRG1tdmMxcTdMVU9vdE5IZ0U0dkdIYU5aTW5iWHhhN3BzTHFJeGxxR1gxVkNWemdfb2RScA?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 08:18:46 GMT",
+          "source": "뉴스1"
         },
         {
-          "title": "코스피, 장 초반 3% 급락 후 낙폭 축소…반도체주 약세에 6680선 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2ZWhSMi12cG8wXzI0NzBCVGhQUG5QNUwyTlZMOWo3NndZQ2t5TmhYS2xhQ2ZHZG9uVXZ3SnNYYUt6VDZtVG9tRUt6WDdfZw?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 00:41:43 GMT",
-          "source": "전자신문"
+          "title": "[증시 레이더] 코스피 3.55% 급락 딛고 반전⋯6,820선 회복 - 포커스온경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZTzFoeUFwdldkdUhnaVdQVUk1ckFZQWY3SWJvblhVWUJubDZObjR6Vy1nNm1LUk53bWg1Ukt4V2F5ME9rQWV0M0I4ZDZ0Y3FVY3VidlpQcVlDOE54U3c?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 06:48:09 GMT",
+          "source": "포커스온경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.43,
-    "vvix": 86.63,
+    "vix": 15.31,
+    "vvix": 90.38,
     "skew": 149.77,
     "move": 70.97
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1579400000000,
-    "retail_net_buy_krw": -2300000000,
+    "foreign_inst_buy_krw": -1432500000000,
+    "retail_net_buy_krw": -146400000000,
     "margin_loan_krw": 32899600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -80,55 +80,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26402.42,
+      "current": 26283.37,
       "high_52w": 27190.21,
-      "drop_pct": -2.9,
-      "intraday_low_drop_pct": -3.06,
-      "sma_200": 24315.7
+      "drop_pct": -3.34,
+      "intraday_low_drop_pct": -3.4,
+      "sma_200": 24329.77
     },
     "kospi": {
-      "current": 6766.4,
+      "current": 6820.02,
       "high_52w": 9385.59,
-      "drop_pct": -27.91,
+      "drop_pct": -27.34,
       "intraday_low_drop_pct": -30.24,
-      "sma_200": 6010.02
+      "sma_200": 6010.29
     },
     "kosdaq": {
-      "current": 830.15,
+      "current": 834.29,
       "high_52w": 1229.42,
-      "drop_pct": -32.48,
+      "drop_pct": -32.14,
       "intraday_low_drop_pct": -34.51,
-      "sma_200": 991.32
+      "sma_200": 991.34
     },
     "sp500": {
-      "current": 7711.76,
+      "current": 7675.16,
       "high_52w": 7816.7,
-      "drop_pct": -1.34,
-      "intraday_low_drop_pct": -1.48,
-      "sma_200": 7118.72
+      "drop_pct": -1.81,
+      "intraday_low_drop_pct": -1.85,
+      "sma_200": 7122.86
     },
     "russell2k": {
-      "current": 2972.37,
+      "current": 2953.52,
       "high_52w": 3069.71,
-      "drop_pct": -3.17,
-      "intraday_low_drop_pct": -3.17,
-      "sma_200": 2731.02
+      "drop_pct": -3.78,
+      "intraday_low_drop_pct": -3.8,
+      "sma_200": 2733.49
     },
     "soxx": {
-      "current": 508.62,
+      "current": 510.88,
       "high_52w": 655.95,
-      "drop_pct": -22.46,
-      "intraday_low_drop_pct": -22.73,
-      "sma_200": 425.87
+      "drop_pct": -22.12,
+      "intraday_low_drop_pct": -22.45,
+      "sma_200": 426.95
     }
   },
   "sector_rs": {
-    "XLK": 0.955,
-    "SMH": 0.906,
+    "XLK": 0.939,
+    "SMH": 0.904,
     "BOTZ": 0.874,
-    "IGV": 1.057,
-    "XLF": 1.109,
-    "XLE": 1.1
+    "IGV": 1.003,
+    "XLF": 1.114,
+    "XLE": 1.109
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 63.41,
+    "tqqq_profit_pct": 61.79,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 108.11,
+    "soxl_profit_pct": 110.64,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.35,
+    "koru_profit_pct": -94.23,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -197,6 +197,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.08.31",
+            "close": 260000,
+            "change_pct": 1.17,
+            "retail_net": 2352135,
+            "inst_net": -2349842,
+            "foreign_net": -2293
+          },
           {
             "date": "2026.08.28",
             "close": 257000,
@@ -228,17 +236,17 @@
             "retail_net": 4799833,
             "inst_net": 203484,
             "foreign_net": -5003317
-          },
-          {
-            "date": "2026.08.24",
-            "close": 257000,
-            "change_pct": -8.7,
-            "retail_net": 13151619,
-            "inst_net": -6269240,
-            "foreign_net": -6882379
           }
         ],
         "hynix": [
+          {
+            "date": "2026.08.31",
+            "close": 1674000,
+            "change_pct": 1.27,
+            "retail_net": 526229,
+            "inst_net": -314294,
+            "foreign_net": -211935
+          },
           {
             "date": "2026.08.28",
             "close": 1653000,
@@ -270,14 +278,6 @@
             "retail_net": 1037284,
             "inst_net": 197025,
             "foreign_net": -1234309
-          },
-          {
-            "date": "2026.08.24",
-            "close": 1671000,
-            "change_pct": -3.41,
-            "retail_net": 1086593,
-            "inst_net": -173328,
-            "foreign_net": -913265
           }
         ]
       }
