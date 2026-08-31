@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-01T05:12:54.037917+09:00",
+  "timestamp": "2026-09-01T08:56:07.927716+09:00",
   "sentiment": {
-    "cnn_fng": 49.8,
+    "cnn_fng": 49.7142857142857,
     "cnn_components": {
       "momentum": 35.4,
       "strength": 25.0,
-      "breadth": 55.0,
-      "put_call": 64.6,
+      "breadth": 53.8,
+      "put_call": 64.8,
       "junk_bond": 93.8,
       "volatility": 50.0,
       "safe_haven": 25.4
@@ -14,22 +14,35 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 2,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "코스피 이탈 자금, 코스닥 ‘빚투’로 이동… 신용잔고 9일 연속 증가 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPend0aThqa3h3SG1GN1VJVVVpVmdOV0pPVXRGNmYzbWNZYzNaQ3d4Wm5JTzBHa2FUVXhCclI1N0NJMjBRX2Y2bkF6ZGZhcjUyNXNfTEJvc2lDVlN6aGxUbjJUVWNYYXA5N2FuY0NVRHkxbnpfbWNXS2hpbFc1a19SdDhzendvYV9j0gGcAUFVX3lxTE1XOW1wSmZaM28zdnBFcWdhVkZCMWtRWFZ6TVR3YmxBQTVwUUNic1Z3ZnhYV1loY0tlNlVxTl90cXlQdXl2WjlpRUh0QUFJRlR2Q2NTV1hTNExBWUI2QmIyMWs3dmNEQ1R1TnBPUlFpR0VoMWw4R2t6UmRiUTRRREY4eXBNd2JOZng3NllGRDV1a2tKTFRFUzJnSm16dg?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 23:04:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피서 발빼고 어디로 갔나 봤더니…다시 늘어난 빚투, 코스닥 향했다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BZm51N1JQbVJsR0x5R3JhVWRQdHppeWM4TXhJS2NKUUEwSnNtSGc0dFdtTHNXcWZ0ekZ5VTZyZWdwR1h0TERhRlh3QWoyMzBPV3c?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 22:01:07 GMT",
+          "source": "매일경제"
+        }
+      ],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.9,
-    "vvix": 86.38,
-    "skew": 144.05,
-    "move": 70.97
+    "vix": 14.92,
+    "vvix": 86.29,
+    "skew": 148.53,
+    "move": 75.32
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -1432500000000,
     "retail_net_buy_krw": -146400000000,
-    "margin_loan_krw": 32899600000000,
+    "margin_loan_krw": 32903800000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -40,49 +53,49 @@
       "high_52w": 27190.21,
       "drop_pct": -3.01,
       "intraday_low_drop_pct": -3.46,
-      "sma_200": 24315.54
+      "sma_200": 24330.21
     },
     "kospi": {
-      "current": 6912.37,
+      "current": 6788.88,
       "high_52w": 9385.59,
-      "drop_pct": -26.35,
-      "intraday_low_drop_pct": -27.1,
-      "sma_200": 5982.88
+      "drop_pct": -27.67,
+      "intraday_low_drop_pct": -27.76,
+      "sma_200": 5996.21
     },
     "kosdaq": {
-      "current": 837.65,
+      "current": 838.41,
       "high_52w": 1229.42,
-      "drop_pct": -31.87,
-      "intraday_low_drop_pct": -32.96,
-      "sma_200": 992.12
+      "drop_pct": -31.8,
+      "intraday_low_drop_pct": -32.52,
+      "sma_200": 991.68
     },
     "sp500": {
       "current": 7686.14,
       "high_52w": 7816.7,
       "drop_pct": -1.67,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 7118.59
+      "sma_200": 7122.92
     },
     "russell2k": {
-      "current": 2956.02,
+      "current": 2956.45,
       "high_52w": 3069.71,
-      "drop_pct": -3.7,
+      "drop_pct": -3.69,
       "intraday_low_drop_pct": -4.08,
-      "sma_200": 2730.94
+      "sma_200": 2733.51
     },
     "soxx": {
       "current": 511.04,
       "high_52w": 655.95,
       "drop_pct": -22.09,
       "intraday_low_drop_pct": -22.7,
-      "sma_200": 425.88
+      "sma_200": 426.95
     }
   },
   "sector_rs": {
     "XLK": 0.941,
     "SMH": 0.903,
     "BOTZ": 0.872,
-    "IGV": 1.009,
+    "IGV": 1.007,
     "XLF": 1.111,
     "XLE": 1.109
   },
@@ -126,13 +139,13 @@
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 110.9,
+    "soxl_profit_pct": 110.82,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.31,
+    "koru_profit_pct": -94.3,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -287,7 +300,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.287,
+    "strategy_pct": 185.368,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -968,6 +981,10 @@
       {
         "date": "2026-08-31",
         "ret_pct": 185.287
+      },
+      {
+        "date": "2026-09-01",
+        "ret_pct": 185.368
       }
     ],
     "monthly_breakdown": [
@@ -1018,6 +1035,12 @@
         "return_pct": 15.85,
         "end_ret_pct": 185.29,
         "max_dd_pct": 25.15
+      },
+      {
+        "month": "2026-09",
+        "return_pct": 0.08,
+        "end_ret_pct": 185.37,
+        "max_dd_pct": 0.0
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
