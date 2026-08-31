@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T09:29:19.705991+09:00",
+  "timestamp": "2026-08-31T15:12:52.183965+09:00",
   "sentiment": {
     "cnn_fng": 54.4285714285714,
     "cnn_components": {
@@ -15,51 +15,51 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 9,
+      "fear_count": 16,
       "greed_articles": [
         {
-          "title": "코스닥 다시 시험대… 빚투 부담 커졌다 - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fUXZFMjBHbUtSbUpwZnFRUzBWWnd3Y3dmQUF5SFd5Tm1YUk5pRG1OOERtT3I2UlQ3RWg1eTNKRjl4NENxdDdJVEE1MFR6SDZMZm1zYU1rTy1LczhCVjAtOWQ4cktza0FuWldlV9IBbEFVX3lxTE5fUXZFMjBHbUtSbUpwZnFRUzBWWnd3Y3dmQUF5SFd5Tm1YUk5pRG1OOERtT3I2UlQ3RWg1eTNKRjl4NENxdDdJVEE1MFR6SDZMZm1zYU1rTy1LczhCVjAtOWQ4cktza0FuWldlVw?oc=5",
-          "pub_date": "Sun, 30 Aug 2026 15:23:00 GMT",
-          "source": "국민일보"
+          "title": "올해 7월까지 국세 274조…'성과급·증시 활황'에 41.4조 ↑ - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80VXNmbUxXblJTTzJpdXpkemZwcTdhTThDdVZFcEg1WnpYbGRBSEtlM05pN2I1Y1ZzRWk3cFh6OTE2aXEybzBoLXktZy1uUU14UXZZd1R4OFZadDJXbGJDRw?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 02:27:33 GMT",
+          "source": "뉴스토마토"
         },
         {
-          "title": "\"예탁금은 줄고 빚투는 늘어…증시 흔들리면 매도 압력 확대\" - 뉴스투데이",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLaUtnX3kzaWIyUU9ZUWdTd0J1VGx1eHdtV1pxcTRLb2hTRE1oYU1uMlFQSDE2cUpwWGQtSkVJQXF0TlFkTGluU1dJVldEQTRhNzFuVnBCWFRIU3Fqc0E?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 00:06:00 GMT",
-          "source": "뉴스투데이"
+          "title": "급락했던 코스피, 외국인 저가 매수세에 6600선 회복 [장중시황] - 2news.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tYTNpTTNyc1JJZTZ5Z244MkZVRFhZYWNHOWtBUDhjQnZTWXd4U2ZQc0VMemxFUGozQUtTUldzei1HSC1rdW95SmVzZmRLdlBCVzJQalpNMEg0SG04MVJPdDdPWjcwVVEx?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 04:50:00 GMT",
+          "source": "2news.co.kr"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 3%대 급락 출발…6,700선 밑돌아 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8taHFUcERjaWZHOFRLLXJ3VWRxWndEMnA4Y3lUd2o3Unp5NFNwRDBxVXpGWGV0MXQ5RWh4WURadkVxdVptV2xFTXN5a1htZ3d4T0E4dDRnTGhubE5rUDZxUXUtMTk4MjJNLW9sRURWM2PSAXRBVV95cUxNRF9temdDbXZmS0tyUmxWUU9TRnFEczNJTmtZNW0xcmhaNll4dzZQOXZGRm1wRTVFTDF2WUF0dFhvUFpDS0RVVDV4LWZLQVd2eWtKOHpNczRyWllDN19Sa21zMWU1UEpQQnVQeHdKMU5mWm9OMA?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 00:04:54 GMT",
+          "title": "케빈 워시 '매파적 발언'에...코스피·코스닥 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1c1VIb3Nmdm9RbFlnUWlJRmRuUU9NQXBQYmhiaHNaMzgzajZZX0tzZ29SLTJhZmNmT1hPdkpObmttZm9Ockpmd2dPLUJZby1TeGNxYkktQjRrY1NhRnc?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 02:56:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피, 워시 매파 발언에 급락…반도체주 ’뚝’ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94clR5ZFBxcVV5RldUSWhwUlk0RDE2cHZzdTRMVFhzMGUzZEJCWWRqS2hOWGJ3bndFWkMxMEdMT0dCa0RxRlp3WWJHQXZCOFJqZXNybXlQRExxNlBYbXpOT2NmYXJZakk?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 01:24:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스피, 워시 매파 발언에 급락…반도체주 '뚝' - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wZTRLUnRoM1gxWE93MDVPUHI3X1ZuQU9wbXdIWHRDR05wQXlQbHNKQ2NDd2NuYnJubHpXLVFwd2tQTkJlUjE1cnF0OFUyeGRGUGdCOWxaWks1VFdkZ2hKatIBYEFVX3lxTE1wZTRLUnRoM1gxWE93MDVPUHI3X1ZuQU9wbXdIWHRDR05wQXlQbHNKQ2NDd2NuYnJubHpXLVFwd2tQTkJlUjE1cnF0OFUyeGRGUGdCOWxaWks1VFdkZ2hKag?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 01:24:52 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피, 美 금리 부담에 급락 출발…한때 6,500선 후퇴 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZNUYxdGw5Ry1MUnJwbVB5X0ZRWWF5THlZcjZXNEVyZzNaTTVyVDJhZ0dtR3diYnlCREw2MTJhV2w0dHB2MF9saWdLYmR1c2xPR2pWNU1wYTRVUl9pRkp3ZlI3QTFEVDVabkUtUE1JNlVHcVh1?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 00:34:43 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "[개장시황] 코스피, 美 반도체 급락·금리 부담에 2%대 ↓…코스닥도 3%대 약세 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fT0VlbkF4YmxIQm9LZjVBTU4taEdnaVZnNkV2bFB5VXZvZldFUkZxa29jQkx3VzNpTUM0VDdncnhDQzluU29JSG1lOEFfZ1JhclEtUFpTRkpkZURj?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 00:20:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "지난 주말 美반도체 급락… 코스피 월요일 개장이 두렵다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PbDN1eTdUbDgzWURCWWo5ZkRZWlFrQkIwSUNEZkU4UkZHdjhwUG45N25tSnRTTlNhekY3Sk0wOFpaUUZ4Y2pQRnF6LTlGaE0?oc=5",
-          "pub_date": "Sun, 30 Aug 2026 23:06:00 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 3%대 급락 출발…장 초반 6500선으로 밀려 - 강원도민일보",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45RDZmSnZkTm1BY0FyaVQ4RXdvbjdJOUs0TE0yQ3BTSmhoZUQ3cDhoRG1EY2h2LTdjUEJSV1JuWkU3Y3Y3VGFUSldZVW4yNnNSRDZJQlduNTlwTmxPNmMtWWVrbjVnZw?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 00:26:41 GMT",
-          "source": "강원도민일보"
-        },
-        {
-          "title": "마벨 테크놀로지, 2분기 어닝서프라이즈에도 주가 10.28% 급락-[美증시 특징주] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11WmFZU2x0RUNadGpFdVpZVXZnUnVzaC1LSC1mdTI4Z3VGOE11YUdhQ2ZvRHliTWYyQ0g1cHpiXy1yNFY1aW5zcHBRMFRvRU0?oc=5",
-          "pub_date": "Sun, 30 Aug 2026 22:18:54 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 장 초반 3% 급락 후 낙폭 축소…반도체주 약세에 6680선 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2ZWhSMi12cG8wXzI0NzBCVGhQUG5QNUwyTlZMOWo3NndZQ2t5TmhYS2xhQ2ZHZG9uVXZ3SnNYYUt6VDZtVG9tRUt6WDdfZw?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 00:41:43 GMT",
+          "source": "전자신문"
         }
       ]
     }
@@ -71,8 +71,8 @@
     "move": 70.97
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -433200000000,
-    "retail_net_buy_krw": 327500000000,
+    "foreign_inst_buy_krw": -1579400000000,
+    "retail_net_buy_krw": -2300000000,
     "margin_loan_krw": 32899600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +87,18 @@
       "sma_200": 24315.7
     },
     "kospi": {
-      "current": 6564.28,
+      "current": 6766.4,
       "high_52w": 9385.59,
-      "drop_pct": -30.06,
+      "drop_pct": -27.91,
       "intraday_low_drop_pct": -30.24,
-      "sma_200": 6009.01
+      "sma_200": 6010.02
     },
     "kosdaq": {
-      "current": 807.52,
+      "current": 830.15,
       "high_52w": 1229.42,
-      "drop_pct": -34.32,
+      "drop_pct": -32.48,
       "intraday_low_drop_pct": -34.51,
-      "sma_200": 991.21
+      "sma_200": 991.32
     },
     "sp500": {
       "current": 7711.76,
@@ -285,7 +285,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-08-31",
