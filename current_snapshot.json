@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T07:06:14.824346+09:00",
+  "timestamp": "2026-08-31T09:29:19.705991+09:00",
   "sentiment": {
     "cnn_fng": 54.4285714285714,
     "cnn_components": {
@@ -14,22 +14,52 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
+      "greed_count": 2,
+      "fear_count": 9,
       "greed_articles": [
         {
           "title": "코스닥 다시 시험대… 빚투 부담 커졌다 - 국민일보",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fUXZFMjBHbUtSbUpwZnFRUzBWWnd3Y3dmQUF5SFd5Tm1YUk5pRG1OOERtT3I2UlQ3RWg1eTNKRjl4NENxdDdJVEE1MFR6SDZMZm1zYU1rTy1LczhCVjAtOWQ4cktza0FuWldlV9IBbEFVX3lxTE5fUXZFMjBHbUtSbUpwZnFRUzBWWnd3Y3dmQUF5SFd5Tm1YUk5pRG1OOERtT3I2UlQ3RWg1eTNKRjl4NENxdDdJVEE1MFR6SDZMZm1zYU1rTy1LczhCVjAtOWQ4cktza0FuWldlVw?oc=5",
           "pub_date": "Sun, 30 Aug 2026 15:23:00 GMT",
           "source": "국민일보"
+        },
+        {
+          "title": "\"예탁금은 줄고 빚투는 늘어…증시 흔들리면 매도 압력 확대\" - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLaUtnX3kzaWIyUU9ZUWdTd0J1VGx1eHdtV1pxcTRLb2hTRE1oYU1uMlFQSDE2cUpwWGQtSkVJQXF0TlFkTGluU1dJVldEQTRhNzFuVnBCWFRIU3Fqc0E?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 00:06:00 GMT",
+          "source": "뉴스투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "금리인상 우려에 美 반도체 급락…‘칠천피’ 재도전, 또 고비 맞나 [주간 증시 전망] - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04V0s5Rnh5WU9yVkpwc1l4WWFTV08xZ3lOVlN5QURTVzVaY2MxMWRkX2VBb2FrUlh4bWc2VjNQNnhBalFOVEszY0xfTURxZHlSYXc?oc=5",
-          "pub_date": "Sun, 30 Aug 2026 22:00:00 GMT",
-          "source": "서울경제"
+          "title": "코스피 3%대 급락 출발…6,700선 밑돌아 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8taHFUcERjaWZHOFRLLXJ3VWRxWndEMnA4Y3lUd2o3Unp5NFNwRDBxVXpGWGV0MXQ5RWh4WURadkVxdVptV2xFTXN5a1htZ3d4T0E4dDRnTGhubE5rUDZxUXUtMTk4MjJNLW9sRURWM2PSAXRBVV95cUxNRF9temdDbXZmS0tyUmxWUU9TRnFEczNJTmtZNW0xcmhaNll4dzZQOXZGRm1wRTVFTDF2WUF0dFhvUFpDS0RVVDV4LWZLQVd2eWtKOHpNczRyWllDN19Sa21zMWU1UEpQQnVQeHdKMU5mWm9OMA?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 00:04:54 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[개장시황] 코스피, 美 반도체 급락·금리 부담에 2%대 ↓…코스닥도 3%대 약세 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fT0VlbkF4YmxIQm9LZjVBTU4taEdnaVZnNkV2bFB5VXZvZldFUkZxa29jQkx3VzNpTUM0VDdncnhDQzluU29JSG1lOEFfZ1JhclEtUFpTRkpkZURj?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 00:20:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "지난 주말 美반도체 급락… 코스피 월요일 개장이 두렵다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PbDN1eTdUbDgzWURCWWo5ZkRZWlFrQkIwSUNEZkU4UkZHdjhwUG45N25tSnRTTlNhekY3Sk0wOFpaUUZ4Y2pQRnF6LTlGaE0?oc=5",
+          "pub_date": "Sun, 30 Aug 2026 23:06:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 3%대 급락 출발…장 초반 6500선으로 밀려 - 강원도민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45RDZmSnZkTm1BY0FyaVQ4RXdvbjdJOUs0TE0yQ3BTSmhoZUQ3cDhoRG1EY2h2LTdjUEJSV1JuWkU3Y3Y3VGFUSldZVW4yNnNSRDZJQlduNTlwTmxPNmMtWWVrbjVnZw?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 00:26:41 GMT",
+          "source": "강원도민일보"
+        },
+        {
+          "title": "마벨 테크놀로지, 2분기 어닝서프라이즈에도 주가 10.28% 급락-[美증시 특징주] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11WmFZU2x0RUNadGpFdVpZVXZnUnVzaC1LSC1mdTI4Z3VGOE11YUdhQ2ZvRHliTWYyQ0g1cHpiXy1yNFY1aW5zcHBRMFRvRU0?oc=5",
+          "pub_date": "Sun, 30 Aug 2026 22:18:54 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -41,9 +71,9 @@
     "move": 70.97
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -2040099999999,
-    "retail_net_buy_krw": 419400000000,
-    "margin_loan_krw": 32666100000000,
+    "foreign_inst_buy_krw": -433200000000,
+    "retail_net_buy_krw": 327500000000,
+    "margin_loan_krw": 32899600000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -57,18 +87,18 @@
       "sma_200": 24315.7
     },
     "kospi": {
-      "current": 6788.88,
+      "current": 6564.28,
       "high_52w": 9385.59,
-      "drop_pct": -27.67,
-      "intraday_low_drop_pct": -27.76,
-      "sma_200": 5996.21
+      "drop_pct": -30.06,
+      "intraday_low_drop_pct": -30.24,
+      "sma_200": 6009.01
     },
     "kosdaq": {
-      "current": 838.41,
+      "current": 807.52,
       "high_52w": 1229.42,
-      "drop_pct": -31.8,
-      "intraday_low_drop_pct": -32.52,
-      "sma_200": 991.68
+      "drop_pct": -34.32,
+      "intraday_low_drop_pct": -34.51,
+      "sma_200": 991.21
     },
     "sp500": {
       "current": 7711.76,
@@ -258,8 +288,8 @@
     "retail_net_buy_positive": true
   },
   "expert_analysis": {
-    "date": "2026-08-26",
-    "analyzed_at": "2026-08-26T13:52:19.816716+09:00",
+    "date": "2026-08-31",
+    "analyzed_at": "2026-08-31T09:29:24.433070+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -267,16 +297,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "bdCNvmcb0fI",
-        "title": "\"순환매 상승 강도가 점점 세지고 있다\" 달라진 시장의 흐름 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-08-26T00:05:20Z",
-        "url": "https://youtube.com/watch?v=bdCNvmcb0fI",
+        "video_id": "sWn4knwJJYQ",
+        "title": "매파로 돌아선 연준? 9월 금리인상 가능성에 코스피 어디까지 흔들리나 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-08-31T00:05:59Z",
+        "url": "https://youtube.com/watch?v=sWn4knwJJYQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "영상 제목에서 '순환매 상승 강도가 점점 세지고 있다'고 명시하여 시장의 긍정적인 상승 동력이 강해지고 있음을 강조하고 있습니다."
+          "stance": "neutral",
+          "reason": "영상 설명란에는 주식 시장에 대한 전문가의 구체적인 입장이나 행동 권고가 전혀 포함되어 있지 않고, 광고 및 채널 운영 정보만 있습니다."
         }
       },
       {
@@ -289,13 +319,13 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 주식 시장에 대한 구체적인 매수/매도 권고나 방향성 제시가 없으며, 대부분 교육 플랫폼 홍보와 중립적인 분석을 시사하는 제목만 포함되어 있습니다."
+          "reason": "영상 제목이 반도체 급락과 반등에 대한 '해석'을 묻고 있으며, 내용에 구체적인 행동 권고(매도, 매수, 현금화 등) 없이 교육 플랫폼 홍보만 포함되어 있습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "bullish",
+      "박병창": "neutral",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
