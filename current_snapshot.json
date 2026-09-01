@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-01T13:54:43.575680+09:00",
+  "timestamp": "2026-09-01T18:56:58.531209+09:00",
   "sentiment": {
-    "cnn_fng": 49.5714285714286,
+    "cnn_fng": 47.4,
     "cnn_components": {
       "momentum": 35.4,
-      "strength": 25.0,
-      "breadth": 53.8,
+      "strength": 22.0,
+      "breadth": 49.0,
       "put_call": 64.8,
       "junk_bond": 92.8,
       "volatility": 50.0,
@@ -14,59 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
+      "greed_count": 0,
       "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "8월 증시를 마치며, 광풍의 여름 증시도 지나가다. - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JeVhSRnE2WFpRV0M3SkNGMHE0UGxveWJRYW1MbmZtUVV6RVQ4NkVJRXFadlN0eUdxY1pPZ0xVVG1oRzg1OEwwWHpIYjh3T1I0eVVCamQ3NGtjcVE0Q2djVw?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 01:15:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 이탈 자금, 코스닥 ‘빚투’로 이동… 신용잔고 9일 연속 증가 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPend0aThqa3h3SG1GN1VJVVVpVmdOV0pPVXRGNmYzbWNZYzNaQ3d4Wm5JTzBHa2FUVXhCclI1N0NJMjBRX2Y2bkF6ZGZhcjUyNXNfTEJvc2lDVlN6aGxUbjJUVWNYYXA5N2FuY0NVRHkxbnpfbWNXS2hpbFc1a19SdDhzendvYV9j0gGcAUFVX3lxTE1XOW1wSmZaM28zdnBFcWdhVkZCMWtRWFZ6TVR3YmxBQTVwUUNic1Z3ZnhYV1loY0tlNlVxTl90cXlQdXl2WjlpRUh0QUFJRlR2Q2NTV1hTNExBWUI2QmIyMWs3dmNEQ1R1TnBPUlFpR0VoMWw4R2t6UmRiUTRRREY4eXBNd2JOZng3NllGRDV1a2tKTFRFUzJnSm16dg?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 23:04:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "“코스피 6000 답답해”…‘빚투’ 개미, 코스닥으로 옮겼다 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oMy1SRks3dldrR2JQMjVIbktPSkxTQUE4eVRvUEk4NzJNQ05EcGpzNTdrZktsWE9LR25mMVB6Ny1vQUUtckNPRzdlMzFGZ1I3Z1lweXVn?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 02:35:36 GMT",
-          "source": "매일경제"
-        },
-        {
-          "title": "[시론] 투자 과열 한국 증시와 청지기 투자원칙 - 기독신문",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2X3lISnBURjl1NmlDSjk3N3RUUkZUVFk1S2JFTmRDSGNfeVAxQVB0VHJaVHUwdE5STkxnV2JOeHlYelFtbGZGcjVDVHhXTHhBaWZBUENrbnNmd2ttaXFqZC1qWjhJY0E?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 01:29:52 GMT",
-          "source": "기독신문"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "쉬인, 홍콩 증시 데뷔 첫날 10% 급락…기업가치 대폭 하향 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eU8yQXI2VlhjYnhoTVB6dFFLYWtqUnFLTDVrd2pxTE52ajBTSWhzbkdrR2s5WHNIVjVYdWQ1YmhuY1pLa0JkWUE4UGM3dlI1cHVHMUl2WUp6dHpCUjhnNDNtT1B0eFN1cFloZlVMNUU?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 03:04:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "런던 증시, 연휴 후 하락…글로벌 채권 급락·중동 긴장 압박 - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPbzVXdl95QXFqeWw2c2Fqd0ZMN1pGU2Q1V1RqbHZteUd1S00wYVRQcnRyaE5tUGR5NllQdi1TeFR6SnE2dUtFOEZ2Sm9JbDNDY0QweFVHZTZqSU1ocVJlSFYzbEFXUmFFLXZXZmh2NXA?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 07:28:00 GMT",
+          "source": "Investing.com"
         },
         {
-          "title": "‘3.5% 급락→상승 마감’ 코스피…美증시 약세 딛고 오늘도 ‘후반 반등’ 나올까 [투자360] - 헤럴드경제",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vX2oyTFFuSWVndERubEhUMkVXb2NMOTZ3UUZiaHBGR1FnNkk3SDNPeXdCamxkRl9ibm9OV0ZjbWRFSWFmMXlCLWZGaVJvQ1BjZ2tZTDZDZw?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 23:20:04 GMT",
-          "source": "헤럴드경제"
+          "title": "채권 매도세·중동 긴장 고조에 유럽 증시 보합세 - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTUnpGcHYxdEoxdTQxbWRoSFFvUWRSY3dmRWFLNk1FbndkQ3dwNnVqN2Y0amxuQlRKZ21RT0hCUS1NblRXWTlsR0J1NFdmTXlySURHX3BRWmZLbGFZZzBfVE1aYzdpYUhnNjc5MzVTQlQ?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 07:08:00 GMT",
+          "source": "Investing.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.92,
+    "vix": 15.94,
     "vvix": 86.29,
     "skew": 148.53,
     "move": 75.32
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1341000000000,
-    "retail_net_buy_krw": -29600000000,
+    "foreign_inst_buy_krw": -1125400000000,
+    "retail_net_buy_krw": -540200000000,
     "margin_loan_krw": 32903800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,16 +56,16 @@
       "sma_200": 24315.54
     },
     "kospi": {
-      "current": 6819.9,
+      "current": 6835.8,
       "high_52w": 9385.59,
-      "drop_pct": -27.34,
+      "drop_pct": -27.17,
       "intraday_low_drop_pct": -28.27,
-      "sma_200": 6010.45
+      "sma_200": 6010.53
     },
     "kosdaq": {
-      "current": 820.48,
+      "current": 821.25,
       "high_52w": 1229.42,
-      "drop_pct": -33.26,
+      "drop_pct": -33.2,
       "intraday_low_drop_pct": -33.67,
       "sma_200": 991.25
     },
@@ -192,6 +167,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.09.01",
+            "close": 261000,
+            "change_pct": 0.38,
+            "retail_net": 1047379,
+            "inst_net": -339843,
+            "foreign_net": -707536
+          },
+          {
             "date": "2026.08.31",
             "close": 260000,
             "change_pct": 1.17,
@@ -222,17 +205,17 @@
             "retail_net": -3021858,
             "inst_net": 503532,
             "foreign_net": 2518326
-          },
-          {
-            "date": "2026.08.25",
-            "close": 257000,
-            "change_pct": 0.0,
-            "retail_net": 4799833,
-            "inst_net": 203484,
-            "foreign_net": -5003317
           }
         ],
         "hynix": [
+          {
+            "date": "2026.09.01",
+            "close": 1693000,
+            "change_pct": 1.14,
+            "retail_net": 50834,
+            "inst_net": -142669,
+            "foreign_net": 91835
+          },
           {
             "date": "2026.08.31",
             "close": 1674000,
@@ -264,14 +247,6 @@
             "retail_net": 225472,
             "inst_net": 2290,
             "foreign_net": -227762
-          },
-          {
-            "date": "2026.08.25",
-            "close": 1678000,
-            "change_pct": 0.42,
-            "retail_net": 1037284,
-            "inst_net": 197025,
-            "foreign_net": -1234309
           }
         ]
       }
