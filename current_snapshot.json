@@ -1,23 +1,29 @@
 {
-  "timestamp": "2026-09-02T02:58:53.739653+09:00",
+  "timestamp": "2026-09-02T05:57:35.258296+09:00",
   "sentiment": {
-    "cnn_fng": 45.2285714285714,
+    "cnn_fng": 44.5714285714286,
     "cnn_components": {
       "momentum": 30.8,
-      "strength": 22.0,
-      "breadth": 49.4,
-      "put_call": 47.6,
-      "junk_bond": 89.6,
+      "strength": 21.2,
+      "breadth": 49.2,
+      "put_call": 44.0,
+      "junk_bond": 88.8,
       "volatility": 50.0,
-      "safe_haven": 27.6
+      "safe_haven": 28.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 2,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "중동 긴장·유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YcXZGLWt6MEk4Q1prd013ZHp3ZzczMEVNVmNiZkhjYVJoMGxKUXo5allueG1WMkFUektxSWVjdzllNW5mcVR4NHFPNGlLSEE?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 20:32:00 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "인플레 우려에 글로벌 채권 매도세 심화…금리 폭등·증시 하락 - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfYzdJaFJPeDh6b3RvZVpEbUw0eFZQV2c1NGNQcVJfRzNZR3ZQa2hiMzkzbV92UFF0LW52QXBxWWcxb2pQVUNjZHpFbnhuZDFLTlBjZW9kNHTSAV5BVV95cUxOVy1pVW8wZ1VBeWpuSzlvYlVabTBkUUFLR0NuOFA5VGtJNVIwYk1BVmpXa0NjNWhfa2pOSV9XREpHc1RyRHpNakt1dmREbmlUUVBEVl9TekJEd1FYNEtB?oc=5",
@@ -28,10 +34,10 @@
     }
   },
   "volatility": {
-    "vix": 15.89,
-    "vvix": 89.63,
+    "vix": 16.34,
+    "vvix": 91.25,
     "skew": 148.53,
-    "move": 75.32
+    "move": 77.88
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -1125400000000,
@@ -43,11 +49,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26115.28,
+      "current": 26099.77,
       "high_52w": 27190.21,
-      "drop_pct": -3.95,
+      "drop_pct": -4.01,
       "intraday_low_drop_pct": -4.39,
-      "sma_200": 24343.76
+      "sma_200": 24343.68
     },
     "kospi": {
       "current": 6820.02,
@@ -64,34 +70,34 @@
       "sma_200": 991.34
     },
     "sp500": {
-      "current": 7633.64,
+      "current": 7631.47,
       "high_52w": 7816.7,
-      "drop_pct": -2.34,
-      "intraday_low_drop_pct": -2.44,
-      "sma_200": 7126.83
+      "drop_pct": -2.37,
+      "intraday_low_drop_pct": -2.63,
+      "sma_200": 7126.82
     },
     "russell2k": {
-      "current": 2924.57,
+      "current": 2920.13,
       "high_52w": 3069.71,
-      "drop_pct": -4.73,
-      "intraday_low_drop_pct": -4.84,
-      "sma_200": 2735.88
+      "drop_pct": -4.87,
+      "intraday_low_drop_pct": -4.98,
+      "sma_200": 2735.85
     },
     "soxx": {
-      "current": 498.51,
+      "current": 500.31,
       "high_52w": 655.95,
-      "drop_pct": -24.0,
+      "drop_pct": -23.73,
       "intraday_low_drop_pct": -24.52,
-      "sma_200": 427.95
+      "sma_200": 427.96
     }
   },
   "sector_rs": {
-    "XLK": 0.932,
-    "SMH": 0.889,
-    "BOTZ": 0.86,
-    "IGV": 0.981,
-    "XLF": 1.11,
-    "XLE": 1.129
+    "XLK": 0.923,
+    "SMH": 0.858,
+    "BOTZ": 0.861,
+    "IGV": 1.008,
+    "XLF": 1.109,
+    "XLE": 1.119
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +133,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 57.39,
+    "tqqq_profit_pct": 57.27,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 95.5,
+    "soxl_profit_pct": 97.96,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.75,
+    "koru_profit_pct": -94.78,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -294,7 +300,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 180.622,
+    "strategy_pct": 179.058,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -979,6 +985,10 @@
       {
         "date": "2026-09-01",
         "ret_pct": 180.622
+      },
+      {
+        "date": "2026-09-02",
+        "ret_pct": 179.058
       }
     ],
     "monthly_breakdown": [
@@ -1032,9 +1042,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -4.66,
-        "end_ret_pct": 180.62,
-        "max_dd_pct": 0.0
+        "return_pct": -6.23,
+        "end_ret_pct": 179.06,
+        "max_dd_pct": 1.56
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
