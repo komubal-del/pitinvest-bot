@@ -1,22 +1,28 @@
 {
-  "timestamp": "2026-09-01T08:56:07.927716+09:00",
+  "timestamp": "2026-09-01T13:54:43.575680+09:00",
   "sentiment": {
-    "cnn_fng": 49.7142857142857,
+    "cnn_fng": 49.5714285714286,
     "cnn_components": {
       "momentum": 35.4,
       "strength": 25.0,
       "breadth": 53.8,
       "put_call": 64.8,
-      "junk_bond": 93.8,
+      "junk_bond": 92.8,
       "volatility": 50.0,
       "safe_haven": 25.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 0,
+      "greed_count": 4,
+      "fear_count": 2,
       "greed_articles": [
+        {
+          "title": "8월 증시를 마치며, 광풍의 여름 증시도 지나가다. - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JeVhSRnE2WFpRV0M3SkNGMHE0UGxveWJRYW1MbmZtUVV6RVQ4NkVJRXFadlN0eUdxY1pPZ0xVVG1oRzg1OEwwWHpIYjh3T1I0eVVCamQ3NGtjcVE0Q2djVw?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 01:15:00 GMT",
+          "source": "Investing.com 한국어"
+        },
         {
           "title": "코스피 이탈 자금, 코스닥 ‘빚투’로 이동… 신용잔고 9일 연속 증가 - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPend0aThqa3h3SG1GN1VJVVVpVmdOV0pPVXRGNmYzbWNZYzNaQ3d4Wm5JTzBHa2FUVXhCclI1N0NJMjBRX2Y2bkF6ZGZhcjUyNXNfTEJvc2lDVlN6aGxUbjJUVWNYYXA5N2FuY0NVRHkxbnpfbWNXS2hpbFc1a19SdDhzendvYV9j0gGcAUFVX3lxTE1XOW1wSmZaM28zdnBFcWdhVkZCMWtRWFZ6TVR3YmxBQTVwUUNic1Z3ZnhYV1loY0tlNlVxTl90cXlQdXl2WjlpRUh0QUFJRlR2Q2NTV1hTNExBWUI2QmIyMWs3dmNEQ1R1TnBPUlFpR0VoMWw4R2t6UmRiUTRRREY4eXBNd2JOZng3NllGRDV1a2tKTFRFUzJnSm16dg?oc=5",
@@ -24,13 +30,32 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "코스피서 발빼고 어디로 갔나 봤더니…다시 늘어난 빚투, 코스닥 향했다 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BZm51N1JQbVJsR0x5R3JhVWRQdHppeWM4TXhJS2NKUUEwSnNtSGc0dFdtTHNXcWZ0ekZ5VTZyZWdwR1h0TERhRlh3QWoyMzBPV3c?oc=5",
-          "pub_date": "Mon, 31 Aug 2026 22:01:07 GMT",
+          "title": "“코스피 6000 답답해”…‘빚투’ 개미, 코스닥으로 옮겼다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oMy1SRks3dldrR2JQMjVIbktPSkxTQUE4eVRvUEk4NzJNQ05EcGpzNTdrZktsWE9LR25mMVB6Ny1vQUUtckNPRzdlMzFGZ1I3Z1lweXVn?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 02:35:36 GMT",
           "source": "매일경제"
+        },
+        {
+          "title": "[시론] 투자 과열 한국 증시와 청지기 투자원칙 - 기독신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2X3lISnBURjl1NmlDSjk3N3RUUkZUVFk1S2JFTmRDSGNfeVAxQVB0VHJaVHUwdE5STkxnV2JOeHlYelFtbGZGcjVDVHhXTHhBaWZBUENrbnNmd2ttaXFqZC1qWjhJY0E?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 01:29:52 GMT",
+          "source": "기독신문"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "쉬인, 홍콩 증시 데뷔 첫날 10% 급락…기업가치 대폭 하향 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eU8yQXI2VlhjYnhoTVB6dFFLYWtqUnFLTDVrd2pxTE52ajBTSWhzbkdrR2s5WHNIVjVYdWQ1YmhuY1pLa0JkWUE4UGM3dlI1cHVHMUl2WUp6dHpCUjhnNDNtT1B0eFN1cFloZlVMNUU?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 03:04:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "‘3.5% 급락→상승 마감’ 코스피…美증시 약세 딛고 오늘도 ‘후반 반등’ 나올까 [투자360] - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vX2oyTFFuSWVndERubEhUMkVXb2NMOTZ3UUZiaHBGR1FnNkk3SDNPeXdCamxkRl9ibm9OV0ZjbWRFSWFmMXlCLWZGaVJvQ1BjZ2tZTDZDZw?oc=5",
+          "pub_date": "Mon, 31 Aug 2026 23:20:04 GMT",
+          "source": "헤럴드경제"
+        }
+      ]
     }
   },
   "volatility": {
@@ -40,8 +65,8 @@
     "move": 75.32
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1432500000000,
-    "retail_net_buy_krw": -146400000000,
+    "foreign_inst_buy_krw": -1341000000000,
+    "retail_net_buy_krw": -29600000000,
     "margin_loan_krw": 32903800000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -53,35 +78,35 @@
       "high_52w": 27190.21,
       "drop_pct": -3.01,
       "intraday_low_drop_pct": -3.46,
-      "sma_200": 24330.21
+      "sma_200": 24315.54
     },
     "kospi": {
-      "current": 6788.88,
+      "current": 6819.9,
       "high_52w": 9385.59,
-      "drop_pct": -27.67,
-      "intraday_low_drop_pct": -27.76,
-      "sma_200": 5996.21
+      "drop_pct": -27.34,
+      "intraday_low_drop_pct": -28.27,
+      "sma_200": 6010.45
     },
     "kosdaq": {
-      "current": 838.41,
+      "current": 820.48,
       "high_52w": 1229.42,
-      "drop_pct": -31.8,
-      "intraday_low_drop_pct": -32.52,
-      "sma_200": 991.68
+      "drop_pct": -33.26,
+      "intraday_low_drop_pct": -33.67,
+      "sma_200": 991.25
     },
     "sp500": {
       "current": 7686.14,
       "high_52w": 7816.7,
       "drop_pct": -1.67,
       "intraday_low_drop_pct": -1.94,
-      "sma_200": 7122.92
+      "sma_200": 7118.59
     },
     "russell2k": {
       "current": 2956.45,
       "high_52w": 3069.71,
       "drop_pct": -3.69,
       "intraday_low_drop_pct": -4.08,
-      "sma_200": 2733.51
+      "sma_200": 2730.94
     },
     "soxx": {
       "current": 511.04,
@@ -257,8 +282,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-08-31",
-    "analyzed_at": "2026-08-31T09:29:24.433070+09:00",
+    "date": "2026-09-01",
+    "analyzed_at": "2026-09-01T13:54:48.057261+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -266,16 +291,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "sWn4knwJJYQ",
-        "title": "매파로 돌아선 연준? 9월 금리인상 가능성에 코스피 어디까지 흔들리나 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-08-31T00:05:59Z",
-        "url": "https://youtube.com/watch?v=sWn4knwJJYQ",
+        "video_id": "iCLS_QscPYQ",
+        "title": "\"9월은 종목 장세\" 반도체 쉬는 사이 수급 몰리는 곳은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-01T00:03:41Z",
+        "url": "https://youtube.com/watch?v=iCLS_QscPYQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 설명란에는 주식 시장에 대한 전문가의 구체적인 입장이나 행동 권고가 전혀 포함되어 있지 않고, 광고 및 채널 운영 정보만 있습니다."
+          "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없으며, 대부분 광고와 채널 정보로 이루어져 있고, 제목 또한 시장의 특성(종목 장세)을 언급하며 수급 쏠림 현상에 대한 질문을 던지는 수준이다."
         }
       },
       {
@@ -288,7 +313,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 반도체 급락과 반등에 대한 '해석'을 묻고 있으며, 내용에 구체적인 행동 권고(매도, 매수, 현금화 등) 없이 교육 플랫폼 홍보만 포함되어 있습니다."
+          "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 분석적인 내용이며, 매수/매도/현금화 등 구체적인 행동 권고가 전혀 없습니다."
         }
       }
     ],
@@ -300,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 185.368,
+    "strategy_pct": 185.346,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -984,7 +1009,7 @@
       },
       {
         "date": "2026-09-01",
-        "ret_pct": 185.368
+        "ret_pct": 185.346
       }
     ],
     "monthly_breakdown": [
@@ -1038,8 +1063,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 0.08,
-        "end_ret_pct": 185.37,
+        "return_pct": 0.06,
+        "end_ret_pct": 185.35,
         "max_dd_pct": 0.0
       }
     ],
