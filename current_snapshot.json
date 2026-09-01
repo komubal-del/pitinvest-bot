@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T05:57:35.258296+09:00",
+  "timestamp": "2026-09-02T08:14:30.479971+09:00",
   "sentiment": {
     "cnn_fng": 44.5714285714286,
     "cnn_components": {
@@ -14,21 +14,46 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 2,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 9,
+      "greed_articles": [
+        {
+          "title": "신한은 통합·메리츠는 AI…증시 활황에 MTS '각축전' - news2day.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FeDFkT3lBVFRieHlBX3luV2V0WkdGdGw5eVZxb1lNMTNQNU5kS2Q2aGFaSlJFaEYydTBvTHlhR1k3S3hlajdwZ2h3elJoV0xUZlpNQUtoaUEtY0pUeFE?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 21:09:00 GMT",
+          "source": "news2day.co.kr"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "중동 긴장·유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YcXZGLWt6MEk4Q1prd013ZHp3ZzczMEVNVmNiZkhjYVJoMGxKUXo5allueG1WMkFUektxSWVjdzllNW5mcVR4NHFPNGlLSEE?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 20:32:00 GMT",
-          "source": "v.daum.net"
+          "title": "중동 긴장 유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52VC1scW9razRLM19USll3N19fREVpU3hHWUxiQmItUXQxRnhabG5NMklwQU9jbDNWVjF4V2NCUVZKRkhCNmh6WUFjcE9oeG1TcnM3UWVuY2dfTVHSAWBBVV95cUxPVV8wWkFsS3k2REhWbG1uMnU3T3NoWm9rdFdQcnhCamU0ZVppN2Vlc2g3T2N3WU5SamlVN2gxaDAxTXF5YVJnYWJnTkVLZUFyN3ZHMy00Z2dCZ1BFMWJHZXo?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 21:42:05 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "인플레 우려에 글로벌 채권 매도세 심화…금리 폭등·증시 하락 - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfYzdJaFJPeDh6b3RvZVpEbUw0eFZQV2c1NGNQcVJfRzNZR3ZQa2hiMzkzbV92UFF0LW52QXBxWWcxb2pQVUNjZHpFbnhuZDFLTlBjZW9kNHTSAV5BVV95cUxOVy1pVW8wZ1VBeWpuSzlvYlVabTBkUUFLR0NuOFA5VGtJNVIwYk1BVmpXa0NjNWhfa2pOSV9XREpHc1RyRHpNakt1dmREbmlUUVBEVl9TekJEd1FYNEtB?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 16:50:14 GMT",
-          "source": "뉴스1"
+          "title": "중동 긴장·유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqWDkzQ2d2SUJJOFhLRVJwZWlWTjRISjVnM2xKTmdZdVI4dGZydmRNSkV3N2xsT1lfM20tSmwxWEJ6ZkZFY251M0JHdjNHT0VCNmh4WkdQWnlfb1k?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 20:50:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "중동 긴장에 채권 매도세까지...뉴욕 증시 동반 하락 마감 - ytn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JRWRFZlJYWS1lQUFVdUFORkJOT25uMmVfYS1hc3lJNmJUTkpJUl96UE8yaFBBdkVXNWU0RzY5NnVNYm1pel9JajM1TjhRQlUzZ2UyVGxacDR5Q1E2ekE?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 20:58:00 GMT",
+          "source": "ytn.co.kr"
+        },
+        {
+          "title": "중동 긴장·유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tNzJTdWptYVIwbGZWVERRZDdfWXZCOVkxZnppN3dzTkZZTEFsZ2MzS3lvNG9BOGNTQkpPeUlXbTNQTVA3M3pIWWdUdnB3a0FtaUE?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 20:29:49 GMT",
+          "source": "매일경제 마켓"
+        },
+        {
+          "title": "[오늘의 투자전략] 코스피, 유가ㆍ금리 부담에 하락 출발 전망⋯“급락 시 분할매수 대응” - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Cc29nbzFhSzdnV1lfOUFsSzNpNmp3Ym5HYW5jUmR3SUQtZDdsN0EyN1ZCVGlzenhtQ00xWWFPM0RQZUJQSm9MMEZTdkJIT3c?oc=5",
+          "pub_date": "Tue, 01 Sep 2026 22:53:00 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -36,13 +61,13 @@
   "volatility": {
     "vix": 16.34,
     "vvix": 91.25,
-    "skew": 148.53,
+    "skew": 149.23,
     "move": 77.88
   },
   "korea_flow": {
     "foreign_inst_buy_krw": -1125400000000,
     "retail_net_buy_krw": -540200000000,
-    "margin_loan_krw": 32903800000000,
+    "margin_loan_krw": 32813900000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -53,35 +78,35 @@
       "high_52w": 27190.21,
       "drop_pct": -4.01,
       "intraday_low_drop_pct": -4.39,
-      "sma_200": 24343.68
+      "sma_200": 24328.7
     },
     "kospi": {
       "current": 6820.02,
       "high_52w": 9385.59,
       "drop_pct": -27.34,
       "intraday_low_drop_pct": -30.24,
-      "sma_200": 6010.29
+      "sma_200": 5996.37
     },
     "kosdaq": {
       "current": 834.29,
       "high_52w": 1229.42,
       "drop_pct": -32.14,
       "intraday_low_drop_pct": -34.51,
-      "sma_200": 991.34
+      "sma_200": 991.66
     },
     "sp500": {
       "current": 7631.47,
       "high_52w": 7816.7,
       "drop_pct": -2.37,
       "intraday_low_drop_pct": -2.63,
-      "sma_200": 7126.82
+      "sma_200": 7122.52
     },
     "russell2k": {
       "current": 2920.13,
       "high_52w": 3069.71,
       "drop_pct": -4.87,
       "intraday_low_drop_pct": -4.98,
-      "sma_200": 2735.85
+      "sma_200": 2733.25
     },
     "soxx": {
       "current": 500.31,
@@ -300,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 179.058,
+    "strategy_pct": 179.143,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -988,7 +1013,7 @@
       },
       {
         "date": "2026-09-02",
-        "ret_pct": 179.058
+        "ret_pct": 179.143
       }
     ],
     "monthly_breakdown": [
@@ -1042,9 +1067,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -6.23,
-        "end_ret_pct": 179.06,
-        "max_dd_pct": 1.56
+        "return_pct": -6.14,
+        "end_ret_pct": 179.14,
+        "max_dd_pct": 1.48
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
