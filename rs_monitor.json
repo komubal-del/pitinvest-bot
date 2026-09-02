@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T06:44:36.222624+09:00",
+  "timestamp": "2026-09-03T08:34:35.134936+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -939,7 +939,7 @@
         },
         {
           "ticker": "MRK",
-          "rs_roc": 0.162,
+          "rs_roc": 0.1732,
           "price": 151.64
         }
       ],
@@ -2808,22 +2808,22 @@
       "tier2": [
         {
           "ticker": "JPM",
-          "rs_roc": -0.0007,
+          "rs_roc": 0.0079,
           "price": 356.22
         },
         {
           "ticker": "BRK-B",
-          "rs_roc": 0.0084,
+          "rs_roc": 0.0079,
           "price": 505.24
         },
         {
           "ticker": "BAC",
-          "rs_roc": -0.0077,
+          "rs_roc": -0.0012,
           "price": 62.6
         },
         {
           "ticker": "WFC",
-          "rs_roc": 0.009,
+          "rs_roc": -0.0062,
           "price": 89.27
         }
       ],
@@ -3755,12 +3755,12 @@
         },
         {
           "ticker": "ISRG",
-          "rs_roc": 0.0662,
+          "rs_roc": 0.0377,
           "price": 371.88
         },
         {
           "ticker": "KEYS",
-          "rs_roc": -0.0409,
+          "rs_roc": -0.0426,
           "price": 321.58
         }
       ],
@@ -4221,12 +4221,12 @@
         },
         {
           "ticker": "HD",
-          "rs_roc": -0.0613,
+          "rs_roc": -0.0618,
           "price": 318.51
         },
         {
           "ticker": "MCD",
-          "rs_roc": -0.0329,
+          "rs_roc": -0.0342,
           "price": 260.95
         },
         {
@@ -4240,7 +4240,7 @@
     {
       "ticker": "XLI",
       "name": "Industrials",
-      "rs_roc": -0.0563,
+      "rs_roc": -0.0553,
       "rs_line": [
         {
           "date": "2026-03-30",
@@ -4663,10 +4663,6 @@
           "value": 0.9357
         },
         {
-          "date": "2026-08-28",
-          "value": 0.9291
-        },
-        {
           "date": "2026-08-31",
           "value": 0.9213
         },
@@ -4692,7 +4688,7 @@
         },
         {
           "ticker": "RTX",
-          "rs_roc": 0.0064,
+          "rs_roc": 0.0127,
           "price": 200.78
         },
         {
@@ -5178,8 +5174,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1357.7,
-      "change_30d_pct": -8.25
+      "value": 1358.93,
+      "change_30d_pct": -7.91
     },
     "us10y": {
       "ticker": "^TNX",
