@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-02T14:57:24.296979+09:00",
+  "timestamp": "2026-09-02T20:08:41.815320+09:00",
   "sentiment": {
-    "cnn_fng": 44.2285714285714,
+    "cnn_fng": 31.2571428571429,
     "cnn_components": {
       "momentum": 30.8,
-      "strength": 21.2,
-      "breadth": 49.2,
+      "strength": 14.4,
+      "breadth": 39.2,
       "put_call": 44.0,
       "junk_bond": 86.4,
       "volatility": 50.0,
@@ -14,9 +14,27 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 12,
+      "greed_count": 4,
+      "fear_count": 26,
       "greed_articles": [
+        {
+          "title": "[증시 인사이트] 기타법인 방어막에도 코스피 약세…느는 건 빚투뿐? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pSmE2Zk55alpXSVpqMXJMMEJ5emFqZmhwR2M5QmpYUF9oNFBKWE1kaG5wX09JMGNBZFdXZWEzeHA1Q0hfLVpGRmtfQWpnMHM?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 07:40:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피 급락에 ‘빚투’ 후폭풍…반대매매 13배 폭증 - 시사저널",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzNTB4T3BnUnh3R0pzblpmODZFWFRGSGx6ZWFPTzdaZ1l2RXlTNkNjQVh3eW1zRWNqaW1vWTFMbTdNV2Fnbm56b2M4bEJqMF85YVY5S1VXQWx1dlBqckRnTVBBakdKN29kVXhDYmhFY1FtUlHSAXNBVV95cUxQMzUweE9wZ1J4d0dKc25aZjg2RVhURkhsemVhT083WmdZdkV5UzZDY0FYd3ltc0Vjamltb1kxTG03TVdhZ25uem9jOGxCajBfOWFWOUtVV0FsdXZQanJEZ01QQWpHSjdvZFV4Q2JoRWNRbVJR?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 07:05:15 GMT",
+          "source": "시사저널"
+        },
+        {
+          "title": "코스피 급락에 ‘빚투’ 후폭풍…반대매매 13배 폭증 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SZkd3TzFlT3JyVV9kS3h0NGhhRWxkQmwwS2RPZGdmczk5XzIwQUQ2S1hncU85WE9QSURzc2gwVXhldmlXRUttNHBwR1BidnM?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 06:51:48 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "中증시 활황에 사회보장기금 작년 수익률 13%…2021년 이후 최고 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55c25pV2ZiM1dlZHBzNzNnMlhBU3JOSkgwMlFpVFkyS0F0OXhxcUdleFBwYVNpdFFZdzFEY0hEUFQ3TXhlU2VxaEZuelZjWHh3QmJKdWt1U2tjMWRTU0g3btIBYEFVX3lxTE55c25pV2ZiM1dlZHBzNzNnMlhBU3JOSkgwMlFpVFkyS0F0OXhxcUdleFBwYVNpdFFZdzFEY0hEUFQ3TXhlU2VxaEZuelZjWHh3QmJKdWt1U2tjMWRTU0g3bg?oc=5",
@@ -26,47 +44,47 @@
       ],
       "fear_articles": [
         {
-          "title": "매크로 공포에 코스피 3% 급락 출발…'전자닉스' 동반 약세 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFeU5UODNNa2JWWDAzSEhaeXlfZHRfS0lYMHZZUUhpRHEtdDJUeE9DdXRQR0xUWHJ5aEI3UE0xMWV0S2w2VWxobnJ1aFFiOGd2eVJmMXRWZW02ZklremJMU2FOMW45YmN4amFiYnVwcnA?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 00:13:00 GMT",
+          "title": "흘러내리는 코스피…’삼전닉스’ 각각 4%대 급락 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWnoxdHR3WUpHWFVZd1BjenVMazdmMGw1NElUbTQyU2ZUWm5rTkE1LTJSamU0T0dXNGtOZmotY19RNThycmE3eHFwcWoxc3dCSjRVeXRuay1zT0N1akQtOTlDdjNOTlpuOG9vX3QwUDEzVk1aWFpleXY2cTFraWlVQw?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 05:29:06 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "[중국증시-마감] 글로벌 채권 매도세에 하락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OU3FmU0hMYjFBYVRVSTF1bkhzbGlHaGJWc3R6cHR2TEhmNW11N2dfaHl5akJ4NEtKU0c1cVBPbnpZS0FnMkg4cjBmRWVOTHRlR1p2WGJZRnd2MUNWLUxWYS1EcmFXbVQyekdJZVROVVI?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 09:18:27 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피, 중동 악재에 약세…삼전·닉스 3% 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83ekxMSG5tTTVabTFrVW1TX2tRQktLaDlWN1loY2JBWU5zQ2ZsMVp1SnpMdV9uNlFmU1lyMlZCSS02bDVJMnBUUzZrNXFVOFAxLU9Pa0ZodUJjbko4YW9mb3ZMX1REdGs?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 03:36:00 GMT",
+          "title": "[0902마감체크] 코스피, 중동 리스크 고조에 4% 급락… 6500선 후퇴 By 인포스탁데일리 - kr.investing.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BMVJHNFgxSzhuMlhGQ3JOWHdUN2laOGh0NVdxSFc0YzJmWWdpNm5lajlhRnRUQnQ3cE9GX0lyd3RRR0pmWGdBMlFuRmh5bWYxQmtCbWNpWkJoQm9Mc3JzYzh3NVpwanVUSDJDbWhGSUc?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 08:54:00 GMT",
+          "source": "kr.investing.com"
+        },
+        {
+          "title": "[증시-마감] 미·이란 충돌 공포 덮친 코스피, 3.99% 급락 - kbthink.com",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GdHNQUXhOclRiVC1odjRPLU1meGlnVzBMRklGWWRIb2RSS0dlWXQzdkNJRENKMW5vNGtpdm04ZVM2RjBUMzg0VWN3Q1RWYVdRQndJWU5GcTJsX1FCWkhzSVVhVHUtN3hLNDlremUyT1RfQQ?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 06:46:44 GMT",
+          "source": "kbthink.com"
+        },
+        {
+          "title": "유가·국채금리 부담에 코스피 급락…삼전·닉스 4% ↓ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UelNOeWIyeHB4Z2FMRERtQzk5MUh0NDNibGNaNTc0VjIwbUw0c0lCSG43NTJrY1Bmc2R1bXAtTWE3TDZveW92M0d1aU9uWjd2Yk11REwxWk5ZbUhaSWl4Y25kRlc1LWs?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 07:08:00 GMT",
           "source": "연합뉴스TV"
-        },
-        {
-          "title": "외국인·기관 동반 매도세에 힘 못 쓰는 코스피…3%대 하락세 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUdoY3pvVlhUVEFYQnM2VDM4ZGhjcmxpVEZrRlZqY1Jkc2ZZMU1mWTRLUkdROE9pUlVBQzZ6bzc0aE8yeGduREVvRGtGY2p3YmNUVlRmeEx0SEF6akFpcDRwLTJHdDlMUHVZb3pDUkl0T2RjYk82ZFZCbVIxVEJCWnhWVXMwMFNa0gGcAUFVX3lxTFBSYlI3Q0R6MUVTc01uN2t1M3k0M19DdGx2OVVXaFYwemRWOGN1RTAzUjJ1OVJUU3lYX0F5SW9feldic243aWtLOUZ1aW1kalp5RS10Y29NYmgtVGdOUlRFemZPU2FzME1DbVJQQzBRQU1TOS1rSUJOQUU3dmtSRFppQ2hzS0k1SGFlUnhZbnpRbmxULWFFOUZkY2ZIbQ?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 02:40:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "중동발 충격에 코스피 3%대 급락…외국인·기관 2조원 순매도 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uSWxlZ1h4WUJsYUFnY21SYkR1di1MV2JLd2Q2eC1xQ19PRGJUdVQ0dlU1dkZ2TFo4cHI3UGN2amczYlQ2M1BkT05fcjZpWUttUUY3SWpHYlI1Q1lFbW9EcmFmR2puSHNGaEZ4UTdFMHrSAXRBVV95cUxNdnV3TDJEbVViek9NODRmbDZ1Wm9vQTJ6WDE0T2JtWTVfTlI2N3JrSnpXVFZMbXp4N1VEX3h0b2VtSFgzc3VVVUxoblg2UWFUbS1kcmhGUU1YMG5sVUZUODA3WHFESzRMVEl4NHJWTjZLYTRVRQ?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 03:36:45 GMT",
-          "source": "산경투데이"
-        },
-        {
-          "title": "코스피, 지정학적 긴장에 3.08% 급락한 6,625.47 개장 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUFpKWXgtZTRsaDI0cnRXMHA3Y0FXX3ZLVnZKZEZjUkU4OG9JeFpxblhyZ21UeWhfYy1yWnM5UDlBelNXWHc4a0twZFJiU3FwVlVCZnQwUkhaUGFZQU5uREVQcUd5VUNJb09UWGNNTHjSAXRBVV95cUxOQ05WQ3gxemF5eXFBaEpYQWtHc1loNG44STU0Ql9VMXFZTVRUcl9hMW93eTZRdnZsOENxb2tlbWhIVlpNdG5nY1FUbWdZNWdMUkZkMk9ua3YzZTZsZ1UwaWpGQVdQNWhOMXBPV1NNQmstRmdZeQ?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 00:02:48 GMT",
-          "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.34,
+    "vix": 16.75,
     "vvix": 91.25,
     "skew": 149.23,
     "move": 77.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3835700000000,
-    "retail_net_buy_krw": 2200000000000,
+    "foreign_inst_buy_krw": -3953400000000,
+    "retail_net_buy_krw": 2302900000000,
     "margin_loan_krw": 32813900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -81,18 +99,18 @@
       "sma_200": 24328.7
     },
     "kospi": {
-      "current": 6590.96,
+      "current": 6562.72,
       "high_52w": 9385.59,
-      "drop_pct": -29.78,
-      "intraday_low_drop_pct": -30.1,
-      "sma_200": 6023.35
+      "drop_pct": -30.08,
+      "intraday_low_drop_pct": -30.12,
+      "sma_200": 6023.21
     },
     "kosdaq": {
-      "current": 809.99,
+      "current": 803.98,
       "high_52w": 1229.42,
-      "drop_pct": -34.12,
+      "drop_pct": -34.6,
       "intraday_low_drop_pct": -35.23,
-      "sma_200": 990.81
+      "sma_200": 990.78
     },
     "sp500": {
       "current": 7631.47,
@@ -192,6 +210,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.09.02",
+            "close": 250500,
+            "change_pct": -4.02,
+            "retail_net": 4299438,
+            "inst_net": -2977902,
+            "foreign_net": -1321536
+          },
+          {
             "date": "2026.09.01",
             "close": 261000,
             "change_pct": 0.38,
@@ -222,17 +248,17 @@
             "retail_net": -1284353,
             "inst_net": -97433,
             "foreign_net": 1381786
-          },
-          {
-            "date": "2026.08.26",
-            "close": 261500,
-            "change_pct": 1.75,
-            "retail_net": -3021858,
-            "inst_net": 503532,
-            "foreign_net": 2518326
           }
         ],
         "hynix": [
+          {
+            "date": "2026.09.02",
+            "close": 1613000,
+            "change_pct": -4.73,
+            "retail_net": 946726,
+            "inst_net": -295219,
+            "foreign_net": -651507
+          },
           {
             "date": "2026.09.01",
             "close": 1693000,
@@ -264,14 +290,6 @@
             "retail_net": 299714,
             "inst_net": -140329,
             "foreign_net": -159385
-          },
-          {
-            "date": "2026.08.26",
-            "close": 1688000,
-            "change_pct": 0.6,
-            "retail_net": 225472,
-            "inst_net": 2290,
-            "foreign_net": -227762
           }
         ]
       }
