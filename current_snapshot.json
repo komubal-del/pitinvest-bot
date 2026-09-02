@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T08:14:30.479971+09:00",
+  "timestamp": "2026-09-02T10:07:41.593862+09:00",
   "sentiment": {
     "cnn_fng": 44.5714285714286,
     "cnn_components": {
@@ -14,17 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 9,
-      "greed_articles": [
-        {
-          "title": "신한은 통합·메리츠는 AI…증시 활황에 MTS '각축전' - news2day.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FeDFkT3lBVFRieHlBX3luV2V0WkdGdGw5eVZxb1lNMTNQNU5kS2Q2aGFaSlJFaEYydTBvTHlhR1k3S3hlajdwZ2h3elJoV0xUZlpNQUtoaUEtY0pUeFE?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 21:09:00 GMT",
-          "source": "news2day.co.kr"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 12,
+      "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "매크로 공포에 코스피 3% 급락 출발…'전자닉스' 동반 약세 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CZVRfZjRrcmotN2FPR1NGY2hQVkk5X1JZa1pBTlJ4VkNRcXJYZ04zZW05cGJIMFhleENZLWpRREN6ZGRIM210UlpDTXVjRFlESk5La3JkWG9qMllwemhhSjYxdlMzWlJPOVBxeTJYNUVJZw?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 00:13:12 GMT",
+          "source": "KB Think"
+        },
         {
           "title": "중동 긴장 유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락(종합) - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52VC1scW9razRLM19USll3N19fREVpU3hHWUxiQmItUXQxRnhabG5NMklwQU9jbDNWVjF4V2NCUVZKRkhCNmh6WUFjcE9oeG1TcnM3UWVuY2dfTVHSAWBBVV95cUxPVV8wWkFsS3k2REhWbG1uMnU3T3NoWm9rdFdQcnhCamU0ZVppN2Vlc2g3T2N3WU5SamlVN2gxaDAxTXF5YVJnYWJnTkVLZUFyN3ZHMy00Z2dCZ1BFMWJHZXo?oc=5",
@@ -32,28 +31,22 @@
           "source": "연합뉴스"
         },
         {
+          "title": "코스피, 지정학적 긴장에 3.08% 급락한 6,625.47 개장 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uUFpKWXgtZTRsaDI0cnRXMHA3Y0FXX3ZLVnZKZEZjUkU4OG9JeFpxblhyZ21UeWhfYy1yWnM5UDlBelNXWHc4a0twZFJiU3FwVlVCZnQwUkhaUGFZQU5uREVQcUd5VUNJb09UWGNNTHjSAXRBVV95cUxOQ05WQ3gxemF5eXFBaEpYQWtHc1loNG44STU0Ql9VMXFZTVRUcl9hMW93eTZRdnZsOENxb2tlbWhIVlpNdG5nY1FUbWdZNWdMUkZkMk9ua3YzZTZsZ1UwaWpGQVdQNWhOMXBPV1NNQmstRmdZeQ?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 00:02:48 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피 3%대 급락 출발…유가·금리 급등 충격 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hbEptc1BnUUlXVWw3RmdKMTRvbnU2Tm83QnlsTTNQMURRWFZlNVRhYVdaUG1SZk9XbVJCLTRfM3d1dDYyd1VrU2R5ZGROa0x5Uk1BWjdKVGJKTEJDRjEwbU04TTc?oc=5",
+          "pub_date": "Wed, 02 Sep 2026 00:26:08 GMT",
+          "source": "서울경제TV"
+        },
+        {
           "title": "중동 긴장·유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락 - KBS 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqWDkzQ2d2SUJJOFhLRVJwZWlWTjRISjVnM2xKTmdZdVI4dGZydmRNSkV3N2xsT1lfM20tSmwxWEJ6ZkZFY251M0JHdjNHT0VCNmh4WkdQWnlfb1k?oc=5",
           "pub_date": "Tue, 01 Sep 2026 20:50:00 GMT",
           "source": "KBS 뉴스"
-        },
-        {
-          "title": "중동 긴장에 채권 매도세까지...뉴욕 증시 동반 하락 마감 - ytn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JRWRFZlJYWS1lQUFVdUFORkJOT25uMmVfYS1hc3lJNmJUTkpJUl96UE8yaFBBdkVXNWU0RzY5NnVNYm1pel9JajM1TjhRQlUzZ2UyVGxacDR5Q1E2ekE?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 20:58:00 GMT",
-          "source": "ytn.co.kr"
-        },
-        {
-          "title": "중동 긴장·유가 급등에 채권 매도세까지…뉴욕증시 일제히 하락 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tNzJTdWptYVIwbGZWVERRZDdfWXZCOVkxZnppN3dzTkZZTEFsZ2MzS3lvNG9BOGNTQkpPeUlXbTNQTVA3M3pIWWdUdnB3a0FtaUE?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 20:29:49 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "[오늘의 투자전략] 코스피, 유가ㆍ금리 부담에 하락 출발 전망⋯“급락 시 분할매수 대응” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Cc29nbzFhSzdnV1lfOUFsSzNpNmp3Ym5HYW5jUmR3SUQtZDdsN0EyN1ZCVGlzenhtQ00xWWFPM0RQZUJQSm9MMEZTdkJIT3c?oc=5",
-          "pub_date": "Tue, 01 Sep 2026 22:53:00 GMT",
-          "source": "v.daum.net"
         }
       ]
     }
@@ -65,8 +58,8 @@
     "move": 77.88
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -1125400000000,
-    "retail_net_buy_krw": -540200000000,
+    "foreign_inst_buy_krw": -1191500000000,
+    "retail_net_buy_krw": 892200000000,
     "margin_loan_krw": 32813900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -78,35 +71,35 @@
       "high_52w": 27190.21,
       "drop_pct": -4.01,
       "intraday_low_drop_pct": -4.39,
-      "sma_200": 24328.7
+      "sma_200": 24343.68
     },
     "kospi": {
-      "current": 6820.02,
+      "current": 6680.3,
       "high_52w": 9385.59,
-      "drop_pct": -27.34,
-      "intraday_low_drop_pct": -30.24,
-      "sma_200": 5996.37
+      "drop_pct": -28.82,
+      "intraday_low_drop_pct": -29.41,
+      "sma_200": 6023.56
     },
     "kosdaq": {
-      "current": 834.29,
+      "current": 817.32,
       "high_52w": 1229.42,
-      "drop_pct": -32.14,
-      "intraday_low_drop_pct": -34.51,
-      "sma_200": 991.66
+      "drop_pct": -33.52,
+      "intraday_low_drop_pct": -35.23,
+      "sma_200": 990.94
     },
     "sp500": {
       "current": 7631.47,
       "high_52w": 7816.7,
       "drop_pct": -2.37,
       "intraday_low_drop_pct": -2.63,
-      "sma_200": 7122.52
+      "sma_200": 7126.82
     },
     "russell2k": {
       "current": 2920.13,
       "high_52w": 3069.71,
       "drop_pct": -4.87,
       "intraday_low_drop_pct": -4.98,
-      "sma_200": 2733.25
+      "sma_200": 2735.85
     },
     "soxx": {
       "current": 500.31,
@@ -279,7 +272,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": false
+    "retail_net_buy_positive": true
   },
   "expert_analysis": {
     "date": "2026-09-01",
