@@ -1,84 +1,28 @@
 {
-  "timestamp": "2026-09-02T20:08:41.815320+09:00",
+  "timestamp": "2026-09-03T00:09:25.384576+09:00",
   "sentiment": {
-    "cnn_fng": 31.2571428571429,
+    "cnn_fng": 35.4571428571429,
     "cnn_components": {
-      "momentum": 30.8,
-      "strength": 14.4,
-      "breadth": 39.2,
-      "put_call": 44.0,
-      "junk_bond": 86.4,
+      "momentum": 32.8,
+      "strength": 17.4,
+      "breadth": 47.0,
+      "put_call": 56.4,
+      "junk_bond": 13.6,
       "volatility": 50.0,
-      "safe_haven": 28.0
+      "safe_haven": 29.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 26,
-      "greed_articles": [
-        {
-          "title": "[증시 인사이트] 기타법인 방어막에도 코스피 약세…느는 건 빚투뿐? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pSmE2Zk55alpXSVpqMXJMMEJ5emFqZmhwR2M5QmpYUF9oNFBKWE1kaG5wX09JMGNBZFdXZWEzeHA1Q0hfLVpGRmtfQWpnMHM?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 07:40:00 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "코스피 급락에 ‘빚투’ 후폭풍…반대매매 13배 폭증 - 시사저널",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzNTB4T3BnUnh3R0pzblpmODZFWFRGSGx6ZWFPTzdaZ1l2RXlTNkNjQVh3eW1zRWNqaW1vWTFMbTdNV2Fnbm56b2M4bEJqMF85YVY5S1VXQWx1dlBqckRnTVBBakdKN29kVXhDYmhFY1FtUlHSAXNBVV95cUxQMzUweE9wZ1J4d0dKc25aZjg2RVhURkhsemVhT083WmdZdkV5UzZDY0FYd3ltc0Vjamltb1kxTG03TVdhZ25uem9jOGxCajBfOWFWOUtVV0FsdXZQanJEZ01QQWpHSjdvZFV4Q2JoRWNRbVJR?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 07:05:15 GMT",
-          "source": "시사저널"
-        },
-        {
-          "title": "코스피 급락에 ‘빚투’ 후폭풍…반대매매 13배 폭증 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SZkd3TzFlT3JyVV9kS3h0NGhhRWxkQmwwS2RPZGdmczk5XzIwQUQ2S1hncU85WE9QSURzc2gwVXhldmlXRUttNHBwR1BidnM?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 06:51:48 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "中증시 활황에 사회보장기금 작년 수익률 13%…2021년 이후 최고 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55c25pV2ZiM1dlZHBzNzNnMlhBU3JOSkgwMlFpVFkyS0F0OXhxcUdleFBwYVNpdFFZdzFEY0hEUFQ3TXhlU2VxaEZuelZjWHh3QmJKdWt1U2tjMWRTU0g3btIBYEFVX3lxTE55c25pV2ZiM1dlZHBzNzNnMlhBU3JOSkgwMlFpVFkyS0F0OXhxcUdleFBwYVNpdFFZdzFEY0hEUFQ3TXhlU2VxaEZuelZjWHh3QmJKdWt1U2tjMWRTU0g3bg?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 02:47:33 GMT",
-          "source": "연합뉴스"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "흘러내리는 코스피…’삼전닉스’ 각각 4%대 급락 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWnoxdHR3WUpHWFVZd1BjenVMazdmMGw1NElUbTQyU2ZUWm5rTkE1LTJSamU0T0dXNGtOZmotY19RNThycmE3eHFwcWoxc3dCSjRVeXRuay1zT0N1akQtOTlDdjNOTlpuOG9vX3QwUDEzVk1aWFpleXY2cTFraWlVQw?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 05:29:06 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "[중국증시-마감] 글로벌 채권 매도세에 하락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OU3FmU0hMYjFBYVRVSTF1bkhzbGlHaGJWc3R6cHR2TEhmNW11N2dfaHl5akJ4NEtKU0c1cVBPbnpZS0FnMkg4cjBmRWVOTHRlR1p2WGJZRnd2MUNWLUxWYS1EcmFXbVQyekdJZVROVVI?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 09:18:27 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[0902마감체크] 코스피, 중동 리스크 고조에 4% 급락… 6500선 후퇴 By 인포스탁데일리 - kr.investing.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BMVJHNFgxSzhuMlhGQ3JOWHdUN2laOGh0NVdxSFc0YzJmWWdpNm5lajlhRnRUQnQ3cE9GX0lyd3RRR0pmWGdBMlFuRmh5bWYxQmtCbWNpWkJoQm9Mc3JzYzh3NVpwanVUSDJDbWhGSUc?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 08:54:00 GMT",
-          "source": "kr.investing.com"
-        },
-        {
-          "title": "[증시-마감] 미·이란 충돌 공포 덮친 코스피, 3.99% 급락 - kbthink.com",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GdHNQUXhOclRiVC1odjRPLU1meGlnVzBMRklGWWRIb2RSS0dlWXQzdkNJRENKMW5vNGtpdm04ZVM2RjBUMzg0VWN3Q1RWYVdRQndJWU5GcTJsX1FCWkhzSVVhVHUtN3hLNDlremUyT1RfQQ?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 06:46:44 GMT",
-          "source": "kbthink.com"
-        },
-        {
-          "title": "유가·국채금리 부담에 코스피 급락…삼전·닉스 4% ↓ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UelNOeWIyeHB4Z2FMRERtQzk5MUh0NDNibGNaNTc0VjIwbUw0c0lCSG43NTJrY1Bmc2R1bXAtTWE3TDZveW92M0d1aU9uWjd2Yk11REwxWk5ZbUhaSWl4Y25kRlc1LWs?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 07:08:00 GMT",
-          "source": "연합뉴스TV"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.75,
-    "vvix": 91.25,
+    "vix": 15.52,
+    "vvix": 88.24,
     "skew": 149.23,
     "move": 77.88
   },
@@ -92,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26099.77,
+      "current": 26191.86,
       "high_52w": 27190.21,
-      "drop_pct": -4.01,
-      "intraday_low_drop_pct": -4.39,
-      "sma_200": 24328.7
+      "drop_pct": -3.67,
+      "intraday_low_drop_pct": -4.15,
+      "sma_200": 24360.29
     },
     "kospi": {
-      "current": 6562.72,
+      "current": 6835.8,
       "high_52w": 9385.59,
-      "drop_pct": -30.08,
-      "intraday_low_drop_pct": -30.12,
-      "sma_200": 6023.21
+      "drop_pct": -27.17,
+      "intraday_low_drop_pct": -28.27,
+      "sma_200": 6024.34
     },
     "kosdaq": {
-      "current": 803.98,
+      "current": 821.25,
       "high_52w": 1229.42,
-      "drop_pct": -34.6,
-      "intraday_low_drop_pct": -35.23,
-      "sma_200": 990.78
+      "drop_pct": -33.2,
+      "intraday_low_drop_pct": -33.67,
+      "sma_200": 990.95
     },
     "sp500": {
-      "current": 7631.47,
+      "current": 7670.7,
       "high_52w": 7816.7,
-      "drop_pct": -2.37,
-      "intraday_low_drop_pct": -2.63,
-      "sma_200": 7122.52
+      "drop_pct": -1.87,
+      "intraday_low_drop_pct": -2.34,
+      "sma_200": 7131.49
     },
     "russell2k": {
-      "current": 2920.13,
+      "current": 2948.69,
       "high_52w": 3069.71,
-      "drop_pct": -4.87,
-      "intraday_low_drop_pct": -4.98,
-      "sma_200": 2733.25
+      "drop_pct": -3.94,
+      "intraday_low_drop_pct": -4.67,
+      "sma_200": 2738.68
     },
     "soxx": {
-      "current": 500.31,
+      "current": 500.45,
       "high_52w": 655.95,
-      "drop_pct": -23.73,
-      "intraday_low_drop_pct": -24.52,
-      "sma_200": 427.96
+      "drop_pct": -23.71,
+      "intraday_low_drop_pct": -24.79,
+      "sma_200": 429.02
     }
   },
   "sector_rs": {
-    "XLK": 0.923,
-    "SMH": 0.858,
-    "BOTZ": 0.861,
-    "IGV": 1.008,
-    "XLF": 1.109,
-    "XLE": 1.119
+    "XLK": 0.917,
+    "SMH": 0.861,
+    "BOTZ": 0.856,
+    "IGV": 0.982,
+    "XLF": 1.12,
+    "XLE": 1.114
   },
   "signals": {
     "cnn_under_10": false,
@@ -176,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 57.27,
+    "tqqq_profit_pct": 57.61,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 97.96,
+    "soxl_profit_pct": 97.83,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.78,
+    "koru_profit_pct": -94.61,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
