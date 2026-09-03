@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-03T20:27:00.958870+09:00",
+  "timestamp": "2026-09-04T00:05:52.174453+09:00",
   "sentiment": {
-    "cnn_fng": 33.0285714285714,
+    "cnn_fng": 34.4857142857143,
     "cnn_components": {
-      "momentum": 32.6,
-      "strength": 13.4,
-      "breadth": 48.4,
-      "put_call": 46.6,
+      "momentum": 35.2,
+      "strength": 17.0,
+      "breadth": 45.6,
+      "put_call": 53.4,
       "junk_bond": 11.6,
       "volatility": 50.0,
       "safe_haven": 28.6
@@ -15,45 +15,14 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 13,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "[증시-마감] 코스피, 기관 투매에 출렁였다 0.26% 상승…코스닥은 1.71% 하락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SN2dhc3pVZ1NvYm5VVENCcVp6RTBiZnRHXzFWbHFmTzdONm04M1FRM0RMSDBRUDVHclNDY0RIMV9idU8xbEpic2QyYVY1SW1XU003VFp4TndaZjgwNmFmclJpOWtFXzk0YWx5aDN2MFA?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 07:19:27 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[속보] 코스피, 돌연 하락 전환해 6,400대로…코스닥도 2%↓ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03RGZjWnpZbXd1QUszU3NvaEd3R08tWkdTLWVEN2tCNjlGZUtwTFNIMXFpUDNqOE5PaENja3BtRVRrM2NyWHdIaks0ajFsbDNrRlFQS3VCYlFKX3PSAWBBVV95cUxQU0JWZmIyU2Frc0VLOUJrTE5YSGpjNmJyTFlfTnhCdC1tN1pLMmJCclNBMHVuVWpqbXpfNF9CdmVERGtORnpCcWI0N0U3cUpuTi1PT0M2RS15aklLaW16OHc?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 05:24:24 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피, 이란의 미군 공격 소식에 한때 하락 전환‥6,500선에서 마감 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kZUlQZVpPRXQ0SkVWTkw5LUNId2ZsYldCYWFIaWN4U2ZsS2NkZVViVE15MmM3MnZNdXYwVmY5RVZTRnQtTFN3TlFaZ0szNzVGUFFSSUF6MXdyaXNVOFlReFZSWTlYN3NybWQ5SHl6SDdzbGlP0gF0QVVfeXFMT1E3UE5lRWZBWnV1eTd3aTR4dm5KSEVKOUMtdjNOYTF4bWFTTklMRzNrcWpRQTZ4VjJPUjZaMWlvZjBWcF9GcF9qZ2JKSGE4dUpOZk9BbUJvZDkzSk1UcVVMQTZxWVBfUnNxUFdxMHE5N1g5bDM?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 07:40:33 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "코스피 하락 전환, 6,500선 턱걸이…외인·개인·기관 1조4천억 순매도 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ldXFHbk1xSVZKOEktZC1VTDFFZ3FTeWFZbEJaVWN3YzdvVFYxcTJLZS1vMlZYcjlKS08ybC1PZ1JvTFQ3SXljS25NM1NOclpNRkhJTGZ6c1BYcXllTzVfbFd4dFVpeE5kWEhzMTdMQkc?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 05:48:42 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 장중 급락 이겨내고 소폭 상승…6500선 마감 - 경기신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RNmZoRmRkOE9LRXFNamJLdDUtMDR0djFVc0ZyY3ZDRGNjVGFUektUN2tjdjQ1SWNPVW5ZSm9WVGdXaldPaFVFRHY3d0l2SThNQWczUUF0dXp1ZGtDZFlpMXFR?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 07:08:26 GMT",
-          "source": "경기신문"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.28,
-    "vvix": 86.25,
+    "vix": 14.96,
+    "vvix": 86.24,
     "skew": 144.12,
     "move": 79.71
   },
@@ -67,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26217.83,
+      "current": 26481.23,
       "high_52w": 27190.21,
-      "drop_pct": -3.58,
-      "intraday_low_drop_pct": -4.15,
-      "sma_200": 24342.76
+      "drop_pct": -2.61,
+      "intraday_low_drop_pct": -3.18,
+      "sma_200": 24360.81
     },
     "kospi": {
-      "current": 6579.48,
+      "current": 6562.72,
       "high_52w": 9385.59,
-      "drop_pct": -29.9,
-      "intraday_low_drop_pct": -31.39,
-      "sma_200": 6036.34
+      "drop_pct": -30.08,
+      "intraday_low_drop_pct": -30.12,
+      "sma_200": 6023.21
     },
     "kosdaq": {
-      "current": 790.21,
+      "current": 803.98,
       "high_52w": 1229.42,
-      "drop_pct": -35.72,
-      "intraday_low_drop_pct": -36.32,
-      "sma_200": 990.35
+      "drop_pct": -34.6,
+      "intraday_low_drop_pct": -35.23,
+      "sma_200": 990.78
     },
     "sp500": {
-      "current": 7666.6,
+      "current": 7722.5,
       "high_52w": 7816.7,
-      "drop_pct": -1.92,
-      "intraday_low_drop_pct": -2.34,
-      "sma_200": 7126.59
+      "drop_pct": -1.21,
+      "intraday_low_drop_pct": -1.66,
+      "sma_200": 7131.52
     },
     "russell2k": {
-      "current": 2953.17,
+      "current": 2955.61,
       "high_52w": 3069.71,
-      "drop_pct": -3.8,
-      "intraday_low_drop_pct": -4.66,
-      "sma_200": 2735.76
+      "drop_pct": -3.72,
+      "intraday_low_drop_pct": -3.86,
+      "sma_200": 2738.62
     },
     "soxx": {
-      "current": 501.44,
+      "current": 499.16,
       "high_52w": 655.95,
-      "drop_pct": -23.56,
-      "intraday_low_drop_pct": -24.79,
-      "sma_200": 429.03
+      "drop_pct": -23.9,
+      "intraday_low_drop_pct": -25.42,
+      "sma_200": 430.08
     }
   },
   "sector_rs": {
-    "XLK": 0.921,
-    "SMH": 0.848,
-    "BOTZ": 0.86,
-    "IGV": 1.015,
-    "XLF": 1.118,
-    "XLE": 1.098
+    "XLK": 0.922,
+    "SMH": 0.839,
+    "BOTZ": 0.863,
+    "IGV": 1.04,
+    "XLF": 1.122,
+    "XLE": 1.094
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 58.29,
+    "tqqq_profit_pct": 62.38,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 98.79,
+    "soxl_profit_pct": 96.12,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.52,
+    "koru_profit_pct": -94.54,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
