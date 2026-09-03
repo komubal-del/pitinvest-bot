@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-09-03T10:27:22.868376+09:00",
+  "timestamp": "2026-09-03T15:08:55.716579+09:00",
   "sentiment": {
-    "cnn_fng": 33.2285714285714,
+    "cnn_fng": 33.2571428571429,
     "cnn_components": {
       "momentum": 32.6,
       "strength": 17.0,
       "breadth": 46.4,
       "put_call": 46.6,
-      "junk_bond": 11.4,
+      "junk_bond": 11.6,
       "volatility": 50.0,
       "safe_haven": 28.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 6,
+      "greed_count": 1,
+      "fear_count": 9,
       "greed_articles": [
         {
           "title": "코스피, 저가 매수세에 6,630선 회복…삼전·하이닉스 동반 상승 - 뉴스투데이",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1LWRrVXpHZjAtVHZ5MGxKNlE2MS04RFE3WDkyQU1nUXBfUVRKdlRhcHJqQTRYdl9FWGdLMVdMclBkRWRmR3ZHcjN4RGdZT2sySGw3WWF6ZThjNjNxOVE?oc=5",
           "pub_date": "Thu, 03 Sep 2026 00:57:00 GMT",
           "source": "뉴스투데이"
-        },
-        {
-          "title": "[뉴욕증시 마감] 美 국채금리 고점 찍고 진정…3대 지수 나흘만에 반등 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SaFpFOGQ1U2ZXMlBBd21KZ1E1VmRwMVRiNmNKdk92MHpNeGRIUi1JemtwbkxKRmlXVEZIX3JfNHYtSHo0RXA0SVJqQUZ0bkk?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 21:48:00 GMT",
-          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
         {
-          "title": "[개장시황] 코스피, 美 증시 반등에 상승 출발…코스닥 하락 전환 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01dEhGZXpZZUtTNHJraWJXRGhrNzFYRG1jdHdRenQtRXh2RGxWaUN5VEQzbS1SRm5PVWdVVmk0LThnZ2NZamlVbEtLVEpGOGtyYmNhQXAtTjl3dFRK?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 00:32:00 GMT",
-          "source": "뉴스핌"
+          "title": "뉴욕증시 반도체주 강세 영향에 코스피도 상승 출발‥코스닥, 개장 직후 하락 전환 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YdGlJVmMxUzZYc3NMWkJVZXhoYXlXLWtXdGg2dU81U2JHVUozU1RoSGc4Ml8tTFlnYVlHRU85LU1aNmJuZHJISUF3LVdjQWMtMlNuVzdfa0d4ME1HbFItTFc1S1dYcTNtWk9VVzJiQUJMNWVV0gF0QVVfeXFMT2loLWFSaS1VWGlJbHFDRFVCUF9KdDRnRG9zT3QwVTVSZ2ZXNUpPNFFCOTBkaHNyMl9lcFQ3V010RUZJcHoxMXZwWWF1bWxNU0oycWhqMUM1b2dBamZ6TS1JSDVNeG5IQlRLV0pST2x6UWZwNG4?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 00:52:40 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "코스피, 전날 급락 딛고 반등...1.3% 오른 6600선 출발 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdXNVUVlzVnZFeVRXWFBVTmVPSlZINTRkZXJ5aGV6ZTRwb0RqdU1iakJ1dG9NLUVrMkQ5U0dDV241bUpQYURoRHNEd1hLN2tUdWJ6cW9vM3o5QTNVYmpXd3pFdVlpWl9UUlVzLW5CeDdoYU95Y0tzR2UzVGVHVE9JYkwxdnQ2eTRG?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 00:22:41 GMT",
-          "source": "글로벌이코노믹"
+          "title": "[속보] 코스피 돌연 하락 전환…6400대로 밀려, 코스닥도 2%↓ - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UeDdmdUJnS1Z6R3otbGdDUVJxT0VlSk1YSmRpSHhTbEN0bnJsX0tSRVVRMnZTcERTZ2ZFZGhNMkZLTEluY2JLaEIyaXRhYnBab3c?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 05:30:05 GMT",
+          "source": "매일경제 마켓"
+        },
+        {
+          "title": "[속보] 코스피, 돌연 하락 전환해 6400대로…코스닥도 2%↓ - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WM21vWFBPeFFNdkxFZVE5NjRPZFVOX3Z2dEFXazZRMHNiZS1aOGdsbkxkUFFQcFhSSkZWQ19KOWFnWDExdy1sUGhLU2U2eDhQeDU5SDFUQnpHQQ?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 05:30:51 GMT",
+          "source": "한국경제"
         },
         {
           "title": "코스피, 급락 하루 만에 반등…외국인·기관 매도에 상승폭 축소 - sankyungtoday.com",
@@ -50,16 +50,10 @@
           "source": "sankyungtoday.com"
         },
         {
-          "title": "코스피, 3.99% 급락 딛고 반등할까…美반도체주 강세 ‘훈풍’ - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04WV9vNkljV3VqaUFHRmhyY2tPRnZSWG1KS1RRR2VUY3RQU3VHRWZpLXBoazJRSlBScTI1cXN6RTd6UzdIMURkUTRsMTV5UVM1a2RidzNCOTJZUQ?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 23:24:00 GMT",
-          "source": "경북매일"
-        },
-        {
-          "title": "치솟는 국채금리에 증시 '휘청'‥코스피 4% 급락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaZ2tEMEJXeDd3V1ZTR0N0TW1mQXViQVAyTUcyMWNhNjAtT1otV1RNTHpocHNoM05TOE1rR2tOSUowZXhpWEhwSnh0a19qTzNXLXlIeGpfTy02WDdnMlRwYl9aejNob01IVEt0bVdqcllMWjdJZjJ2RdIBeEFVX3lxTFB0X3JkYXZBRnNCRWJVcWIxQzVHU3M2RDl5LTE5eW5Wdi0xOXFLOFhtd2g0VWRPbnV1TWJYWFdJU3phZ0JoOXlodXJ3TEFQNkUyeGtQdVhEMjZXRGtuNVprS183QmVXU0RoRjVPT0c3eHI2MWVEN0YycQ?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 15:20:00 GMT",
-          "source": "MBC 뉴스"
+          "title": "코스피, 전날 급락 딛고 6600선 출발···삼전·닉스 1%대 상승 - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IdE9DM2dhUENNSTh6NVQxaERwRnY5NHhLSFZlYkREUFJzd1FQbkRpOGliRjNpQ3pnaFlJSjN3Q1lRTHpCbEhQNVVKVkFaUmdFVHkxZkwxNkZURHI1LVVxQzR0bE5NbUtHa1E?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 00:32:52 GMT",
+          "source": "서울파이낸스"
         }
       ]
     }
@@ -71,8 +65,8 @@
     "move": 79.71
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -199700000000,
-    "retail_net_buy_krw": -176300000000,
+    "foreign_inst_buy_krw": -836800000000,
+    "retail_net_buy_krw": -755900000000,
     "margin_loan_krw": 32989700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -87,18 +81,18 @@
       "sma_200": 24342.76
     },
     "kospi": {
-      "current": 6652.63,
+      "current": 6565.96,
       "high_52w": 9385.59,
-      "drop_pct": -29.12,
-      "intraday_low_drop_pct": -29.91,
-      "sma_200": 6023.66
+      "drop_pct": -30.04,
+      "intraday_low_drop_pct": -31.39,
+      "sma_200": 6036.27
     },
     "kosdaq": {
-      "current": 804.54,
+      "current": 790.64,
       "high_52w": 1229.42,
-      "drop_pct": -34.56,
-      "intraday_low_drop_pct": -35.1,
-      "sma_200": 990.79
+      "drop_pct": -35.69,
+      "intraday_low_drop_pct": -36.32,
+      "sma_200": 990.35
     },
     "sp500": {
       "current": 7666.6,
@@ -111,24 +105,24 @@
       "current": 2953.17,
       "high_52w": 3069.71,
       "drop_pct": -3.8,
-      "intraday_low_drop_pct": -4.67,
-      "sma_200": 2738.71
+      "intraday_low_drop_pct": -4.66,
+      "sma_200": 2735.76
     },
     "soxx": {
-      "current": 500.31,
+      "current": 501.44,
       "high_52w": 655.95,
-      "drop_pct": -23.73,
-      "intraday_low_drop_pct": -24.52,
-      "sma_200": 427.96
+      "drop_pct": -23.56,
+      "intraday_low_drop_pct": -24.79,
+      "sma_200": 429.03
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 0.921,
+    "SMH": 0.848,
+    "BOTZ": 0.86,
+    "IGV": 1.015,
+    "XLF": 1.118,
+    "XLE": 1.098
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +158,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 58.29,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 98.79,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -94.52,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -331,7 +325,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 181.162,
+    "strategy_pct": 126.616,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1023,7 +1017,7 @@
       },
       {
         "date": "2026-09-03",
-        "ret_pct": 181.162
+        "ret_pct": 126.616
       }
     ],
     "monthly_breakdown": [
@@ -1077,9 +1071,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -4.12,
-        "end_ret_pct": 181.16,
-        "max_dd_pct": 1.48
+        "return_pct": -58.67,
+        "end_ret_pct": 126.62,
+        "max_dd_pct": 54.01
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
