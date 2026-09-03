@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T06:20:37.981842+09:00",
+  "timestamp": "2026-09-04T08:21:11.808170+09:00",
   "sentiment": {
     "cnn_fng": 35.2571428571429,
     "cnn_components": {
@@ -15,14 +15,20 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 3,
+      "fear_count": 4,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "라틴 아메리카 증시, 채권 매도세 완화 및 달러 약세에 상승 - Investing.com 한국어",
+          "title": "라틴 아메리카 증시, 채권 매도세 완화 및 달러 약세에 상승 - kr.investing.com",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qUUs2NzNfRHRNa2Q5WG1zV2hnZTczRzd4Xy1NYTUzWmZkUTBjMllNTTdDSW9OUWdoMGhzNVJrQi12am5mcFNsb25Tam9BVldra3FSRXA3QkxjaXFUMG5TdUJCYTNVM1FHUXU0djMtVk9Eem1fenNJ?oc=5",
           "pub_date": "Thu, 03 Sep 2026 20:29:00 GMT",
-          "source": "Investing.com 한국어"
+          "source": "kr.investing.com"
+        },
+        {
+          "title": "[뉴욕증시] 美 국채금리 급락에 나스닥 366P 급등...금리 동결 기대감 확산 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWhGdjdwZFBWS3p3N001ZzBzWHZOX2kycC1jRkdLNER3RUFCYUJtRjY3NmkteDFyMzdUQkh6NzhiY1pNTF93Ti0talhaUzJNbmphZGwwUXp1U1pzVzl5S0JmdkZKM2I3bHF1NVRRX2ctY1drNU1FenRXdzB5LUxBSGQ0b0lFNkpB?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 20:22:35 GMT",
+          "source": "글로벌이코노믹"
         },
         {
           "title": "유럽증시, 글로벌 국채 매도세 다소 진정되자 일제히 상승… 佛 소이텍 10.3% 급등 - 뉴스핌",
@@ -31,10 +37,10 @@
           "source": "뉴스핌"
         },
         {
-          "title": "[뉴욕증시] 美 국채금리 급락에 나스닥 366P 급등...금리 동결 기대감 확산 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWhGdjdwZFBWS3p3N001ZzBzWHZOX2kycC1jRkdLNER3RUFCYUJtRjY3NmkteDFyMzdUQkh6NzhiY1pNTF93Ti0talhaUzJNbmphZGwwUXp1U1pzVzl5S0JmdkZKM2I3bHF1NVRRX2ctY1drNU1FenRXdzB5LUxBSGQ0b0lFNkpB?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 20:22:35 GMT",
-          "source": "글로벌이코노믹"
+          "title": "[26년 9월 4일(금)] 코스피, '급락후 급반등' 널뛰기에 6,500대 강보합 마감 - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbUVabnI3NXJJcGFWZ2UxMnJIcUlJZzgwN0ZUZVlLeUVTX2VfQmFfYVdHdmVGdVJ3QnFlby1WckxEMF8tNDFGdTJlNXBlM3ZJbko1aWVocnFQWnJWMWtjN29pSEJCZHM2Vkc1SG5yaDBaYnE5OFlVXy1HVjdTMjFocQ?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 21:20:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
         }
       ]
     }
@@ -48,7 +54,7 @@
   "korea_flow": {
     "foreign_inst_buy_krw": 955700000000,
     "retail_net_buy_krw": -955200000000,
-    "margin_loan_krw": 32989700000000,
+    "margin_loan_krw": 33007400000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -306,7 +312,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.65,
+    "strategy_pct": 183.434,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1002,7 +1008,7 @@
       },
       {
         "date": "2026-09-04",
-        "ret_pct": 183.65
+        "ret_pct": 183.434
       }
     ],
     "monthly_breakdown": [
@@ -1056,8 +1062,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -1.64,
-        "end_ret_pct": 183.65,
+        "return_pct": -1.85,
+        "end_ret_pct": 183.43,
         "max_dd_pct": 1.48
       }
     ],
