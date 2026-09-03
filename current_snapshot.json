@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T08:34:28.988335+09:00",
+  "timestamp": "2026-09-03T10:27:22.868376+09:00",
   "sentiment": {
     "cnn_fng": 33.2285714285714,
     "cnn_components": {
@@ -15,13 +15,13 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 5,
+      "fear_count": 6,
       "greed_articles": [
         {
-          "title": "뉴욕 증시, 미국·이란 공방전 와중에도 저가 매수세로 동반 상승세 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VLWJGUGE4RFR5NzlvTDVScFlMVEFubEhEZ1NLV0VXVGZ4YlhDSGY1Z1NvcjA0RXVwaWxSTE1pcjVkZlRMajJENU5ZclV4VHNHajJwcUFkZjk0a2E0aEE?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 15:21:00 GMT",
-          "source": "YTN"
+          "title": "코스피, 저가 매수세에 6,630선 회복…삼전·하이닉스 동반 상승 - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1LWRrVXpHZjAtVHZ5MGxKNlE2MS04RFE3WDkyQU1nUXBfUVRKdlRhcHJqQTRYdl9FWGdLMVdMclBkRWRmR3ZHcjN4RGdZT2sySGw3WWF6ZThjNjNxOVE?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 00:57:00 GMT",
+          "source": "뉴스투데이"
         },
         {
           "title": "[뉴욕증시 마감] 美 국채금리 고점 찍고 진정…3대 지수 나흘만에 반등 - v.daum.net",
@@ -32,10 +32,22 @@
       ],
       "fear_articles": [
         {
-          "title": "코스피 4% 급락 뒤 엔비디아 3%↑…외국인 ‘현·선물 4조 매도’가 첫 시험대 - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yU2UtM0dXRUtzZjc4RUJIUUh4UTJUQlZZbmdnSFBPU3NyU3MyZzU0TnY3ZUVFWmR1djk0c1NtQXB5bXZYQmlONWpUczFIS3RjQXV0U00wanhSRGdYR1c1T21YN0tHNEo2?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 16:38:16 GMT",
-          "source": "녹색경제신문"
+          "title": "[개장시황] 코스피, 美 증시 반등에 상승 출발…코스닥 하락 전환 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01dEhGZXpZZUtTNHJraWJXRGhrNzFYRG1jdHdRenQtRXh2RGxWaUN5VEQzbS1SRm5PVWdVVmk0LThnZ2NZamlVbEtLVEpGOGtyYmNhQXAtTjl3dFRK?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 00:32:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "코스피, 전날 급락 딛고 반등...1.3% 오른 6600선 출발 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdXNVUVlzVnZFeVRXWFBVTmVPSlZINTRkZXJ5aGV6ZTRwb0RqdU1iakJ1dG9NLUVrMkQ5U0dDV241bUpQYURoRHNEd1hLN2tUdWJ6cW9vM3o5QTNVYmpXd3pFdVlpWl9UUlVzLW5CeDdoYU95Y0tzR2UzVGVHVE9JYkwxdnQ2eTRG?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 00:22:41 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "코스피, 급락 하루 만에 반등…외국인·기관 매도에 상승폭 축소 - sankyungtoday.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0SF9KdUpnaGpWWlBZczZlZ21hRGVnUDFhc09OYVhZbm9IMnd0VElHN0oyczRaelhhb2NuNHZ6QU9OZjQxSlhtWEpXQXBPNVNwa3hVTkk4OHROS0hEUVEtYTJEQW1TNG1yNGdHWDNxRkzSAXRBVV95cUxNWG93b29SdjE3Ymg4OTFQY3JPY041d1VPX0RvbERBTVRYZUVjTkVUVG0wZzlLUGlFUUJRVEZnSUZZSHBxc2dzRE8wT2dWNXZqM2R3R1d3azhHNUlFNGtiYnZSdWVGRlQ5MmJqZjZmMWVTTEpZVQ?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 00:58:50 GMT",
+          "source": "sankyungtoday.com"
         },
         {
           "title": "코스피, 3.99% 급락 딛고 반등할까…美반도체주 강세 ‘훈풍’ - 경북매일",
@@ -48,18 +60,6 @@
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaZ2tEMEJXeDd3V1ZTR0N0TW1mQXViQVAyTUcyMWNhNjAtT1otV1RNTHpocHNoM05TOE1rR2tOSUowZXhpWEhwSnh0a19qTzNXLXlIeGpfTy02WDdnMlRwYl9aejNob01IVEt0bVdqcllMWjdJZjJ2RdIBeEFVX3lxTFB0X3JkYXZBRnNCRWJVcWIxQzVHU3M2RDl5LTE5eW5Wdi0xOXFLOFhtd2g0VWRPbnV1TWJYWFdJU3phZ0JoOXlodXJ3TEFQNkUyeGtQdVhEMjZXRGtuNVprS183QmVXU0RoRjVPT0c3eHI2MWVEN0YycQ?oc=5",
           "pub_date": "Wed, 02 Sep 2026 15:20:00 GMT",
           "source": "MBC 뉴스"
-        },
-        {
-          "title": "뉴욕증시, 미국 국채금리 하락반전 등 영향 4거래일만 반등⋯엔비디아 3%대 급등세- 마이크론 2%대, 인텔 1%대 상승-팔란티어 5%대 급락 - 이코노뉴스",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Q01iVFVjNDJoSU5GbzBvZGF3d21vZXZuLXp4ekJfa2dnTWExTWJfNGJKR1RQNXZXaWllcW5VaE1LTmVxSG9XbHJFcEtmMExzMVpwSU5zd2c2OFZpYnd1QjEtbFFTZ1VFVC1RYTV3?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 22:04:27 GMT",
-          "source": "이코노뉴스"
-        },
-        {
-          "title": "[증시키워드] 유가·금리 충격에 대형주 급락…삼전·SK하닉 4%대 동반 하락 - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sSHloX0syOHVuMjhHRHBSU1dmeHYyMGRxd0ZKTkZOTlI5LW5yVkRGWDRrckltQ3VzdE5HWjZ3YjZmVjdrRGJNUzVCNlhsZ2w2djB6OA?oc=5",
-          "pub_date": "Wed, 02 Sep 2026 23:08:00 GMT",
-          "source": "이투데이"
         }
       ]
     }
@@ -71,8 +71,8 @@
     "move": 79.71
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -3953400000000,
-    "retail_net_buy_krw": 2302900000000,
+    "foreign_inst_buy_krw": -199700000000,
+    "retail_net_buy_krw": -176300000000,
     "margin_loan_krw": 32989700000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -84,28 +84,28 @@
       "high_52w": 27190.21,
       "drop_pct": -3.58,
       "intraday_low_drop_pct": -4.15,
-      "sma_200": 24360.42
+      "sma_200": 24342.76
     },
     "kospi": {
-      "current": 6835.8,
+      "current": 6652.63,
       "high_52w": 9385.59,
-      "drop_pct": -27.17,
-      "intraday_low_drop_pct": -28.27,
-      "sma_200": 6024.34
+      "drop_pct": -29.12,
+      "intraday_low_drop_pct": -29.91,
+      "sma_200": 6023.66
     },
     "kosdaq": {
-      "current": 821.25,
+      "current": 804.54,
       "high_52w": 1229.42,
-      "drop_pct": -33.2,
-      "intraday_low_drop_pct": -33.67,
-      "sma_200": 990.95
+      "drop_pct": -34.56,
+      "intraday_low_drop_pct": -35.1,
+      "sma_200": 990.79
     },
     "sp500": {
       "current": 7666.6,
       "high_52w": 7816.7,
       "drop_pct": -1.92,
       "intraday_low_drop_pct": -2.34,
-      "sma_200": 7131.47
+      "sma_200": 7126.59
     },
     "russell2k": {
       "current": 2953.17,
@@ -115,20 +115,20 @@
       "sma_200": 2738.71
     },
     "soxx": {
-      "current": 501.44,
+      "current": 500.31,
       "high_52w": 655.95,
-      "drop_pct": -23.56,
-      "intraday_low_drop_pct": -24.79,
-      "sma_200": 429.03
+      "drop_pct": -23.73,
+      "intraday_low_drop_pct": -24.52,
+      "sma_200": 427.96
     }
   },
   "sector_rs": {
-    "XLK": 0.921,
-    "SMH": 0.848,
-    "BOTZ": 0.86,
-    "IGV": 1.015,
-    "XLF": 1.118,
-    "XLE": 1.098
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 58.29,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 98.79,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.52,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -285,7 +285,7 @@
     "expert_warning": true,
     "expert_videos_analyzed": 2,
     "expert_source": "auto_gemini",
-    "retail_net_buy_positive": true
+    "retail_net_buy_positive": false
   },
   "expert_analysis": {
     "date": "2026-09-01",
