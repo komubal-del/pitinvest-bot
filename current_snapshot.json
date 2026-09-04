@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T08:21:11.808170+09:00",
+  "timestamp": "2026-09-04T10:05:18.698809+09:00",
   "sentiment": {
     "cnn_fng": 35.2571428571429,
     "cnn_components": {
@@ -15,32 +15,14 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 4,
+      "fear_count": 1,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "라틴 아메리카 증시, 채권 매도세 완화 및 달러 약세에 상승 - kr.investing.com",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qUUs2NzNfRHRNa2Q5WG1zV2hnZTczRzd4Xy1NYTUzWmZkUTBjMllNTTdDSW9OUWdoMGhzNVJrQi12am5mcFNsb25Tam9BVldra3FSRXA3QkxjaXFUMG5TdUJCYTNVM1FHUXU0djMtVk9Eem1fenNJ?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 20:29:00 GMT",
-          "source": "kr.investing.com"
-        },
-        {
-          "title": "[뉴욕증시] 美 국채금리 급락에 나스닥 366P 급등...금리 동결 기대감 확산 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWhGdjdwZFBWS3p3N001ZzBzWHZOX2kycC1jRkdLNER3RUFCYUJtRjY3NmkteDFyMzdUQkh6NzhiY1pNTF93Ti0talhaUzJNbmphZGwwUXp1U1pzVzl5S0JmdkZKM2I3bHF1NVRRX2ctY1drNU1FenRXdzB5LUxBSGQ0b0lFNkpB?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 20:22:35 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "유럽증시, 글로벌 국채 매도세 다소 진정되자 일제히 상승… 佛 소이텍 10.3% 급등 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oZnRKcnFBUEw1WXZVVk9WZXVBalNQTmZ2aS1PVmJpYzlSU1BhVWxabkhyZW4wY2tLRER3ZmhqQUNkNXpYM25ndUh4X0JtdUJNV0tZRVJ6TTdjdUlR?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 17:14:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[26년 9월 4일(금)] 코스피, '급락후 급반등' 널뛰기에 6,500대 강보합 마감 - 비티의 오늘 주요 뉴스 요약 - 네이버 프리미엄콘텐츠",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbUVabnI3NXJJcGFWZ2UxMnJIcUlJZzgwN0ZUZVlLeUVTX2VfQmFfYVdHdmVGdVJ3QnFlby1WckxEMF8tNDFGdTJlNXBlM3ZJbko1aWVocnFQWnJWMWtjN29pSEJCZHM2Vkc1SG5yaDBaYnE5OFlVXy1HVjdTMjFocQ?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 21:20:00 GMT",
-          "source": "네이버 프리미엄콘텐츠"
+          "title": "일본은행 ‘빅스텝’ 전망까지…2년 전 ‘앤캐리 청산’ 증시 폭락 또? - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zMTFaMU1idW9zM1FHRzV6VDBadnlrVXVsTnlXS3phNE1yZ1Myc0h3bjZWNXlfOWhHMjdxT0pEcmROODJMdkIzQm1JbUhHUDlETW0ySFJjbC1VWXN5UU9sZTlYdm4yRTQ?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 22:53:00 GMT",
+          "source": "한겨레"
         }
       ]
     }
@@ -52,8 +34,8 @@
     "move": 74.68
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 955700000000,
-    "retail_net_buy_krw": -955200000000,
+    "foreign_inst_buy_krw": 781600000000,
+    "retail_net_buy_krw": -1049500000000,
     "margin_loan_krw": 33007400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -68,18 +50,18 @@
       "sma_200": 24378.83
     },
     "kospi": {
-      "current": 6562.72,
+      "current": 6664.25,
       "high_52w": 9385.59,
-      "drop_pct": -30.08,
-      "intraday_low_drop_pct": -30.12,
-      "sma_200": 6037.38
+      "drop_pct": -28.99,
+      "intraday_low_drop_pct": -29.1,
+      "sma_200": 6050.34
     },
     "kosdaq": {
-      "current": 803.98,
+      "current": 805.52,
       "high_52w": 1229.42,
-      "drop_pct": -34.6,
-      "intraday_low_drop_pct": -35.23,
-      "sma_200": 990.59
+      "drop_pct": -34.48,
+      "intraday_low_drop_pct": -34.87,
+      "sma_200": 990.18
     },
     "sp500": {
       "current": 7747.71,
@@ -96,20 +78,20 @@
       "sma_200": 2741.61
     },
     "soxx": {
-      "current": 502.2,
+      "current": 501.44,
       "high_52w": 655.95,
-      "drop_pct": -23.44,
-      "intraday_low_drop_pct": -25.42,
-      "sma_200": 430.1
+      "drop_pct": -23.56,
+      "intraday_low_drop_pct": -24.79,
+      "sma_200": 429.03
     }
   },
   "sector_rs": {
-    "XLK": 0.941,
-    "SMH": 0.86,
-    "BOTZ": 0.873,
-    "IGV": 1.044,
-    "XLF": 1.1,
-    "XLE": 1.082
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -145,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 63.82,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 99.51,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.37,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
