@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-04T10:05:18.698809+09:00",
+  "timestamp": "2026-09-04T14:46:58.824933+09:00",
   "sentiment": {
-    "cnn_fng": 35.2571428571429,
+    "cnn_fng": 35.2285714285714,
     "cnn_components": {
       "momentum": 42.6,
       "strength": 15.8,
       "breadth": 47.8,
       "put_call": 43.8,
-      "junk_bond": 12.2,
+      "junk_bond": 12.0,
       "volatility": 50.0,
       "safe_haven": 34.6
     },
@@ -19,23 +19,23 @@
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "일본은행 ‘빅스텝’ 전망까지…2년 전 ‘앤캐리 청산’ 증시 폭락 또? - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zMTFaMU1idW9zM1FHRzV6VDBadnlrVXVsTnlXS3phNE1yZ1Myc0h3bjZWNXlfOWhHMjdxT0pEcmROODJMdkIzQm1JbUhHUDlETW0ySFJjbC1VWXN5UU9sZTlYdm4yRTQ?oc=5",
-          "pub_date": "Thu, 03 Sep 2026 22:53:00 GMT",
-          "source": "한겨레"
+          "title": "[어제장 오늘장] 코스피 30분 급락 후 급반등…커지는 변동성, 오늘은? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fZk84ZFRoS3pvU01NOFZhUUtsYnNlMkxYNmxZQmFsaDcyMU9sYjI4Q01uU3FsYWRIS3AySjdhLVNCb3V6eVZrdDNVN3R3bk0?oc=5",
+          "pub_date": "Thu, 03 Sep 2026 23:34:00 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.32,
-    "vvix": 83.8,
-    "skew": 150.63,
-    "move": 74.68
+    "vix": 15.2,
+    "vvix": 86.25,
+    "skew": 144.12,
+    "move": 79.71
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 781600000000,
-    "retail_net_buy_krw": -1049500000000,
+    "foreign_inst_buy_krw": 1969100000000,
+    "retail_net_buy_krw": -3483900000000,
     "margin_loan_krw": 33007400000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -43,39 +43,39 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26584.06,
+      "current": 26217.83,
       "high_52w": 27190.21,
-      "drop_pct": -2.23,
-      "intraday_low_drop_pct": -3.18,
-      "sma_200": 24378.83
+      "drop_pct": -3.58,
+      "intraday_low_drop_pct": -4.15,
+      "sma_200": 24360.42
     },
     "kospi": {
-      "current": 6664.25,
+      "current": 6736.34,
       "high_52w": 9385.59,
-      "drop_pct": -28.99,
-      "intraday_low_drop_pct": -29.1,
-      "sma_200": 6050.34
+      "drop_pct": -28.23,
+      "intraday_low_drop_pct": -29.33,
+      "sma_200": 6050.7
     },
     "kosdaq": {
-      "current": 805.52,
+      "current": 814.49,
       "high_52w": 1229.42,
-      "drop_pct": -34.48,
-      "intraday_low_drop_pct": -34.87,
-      "sma_200": 990.18
+      "drop_pct": -33.75,
+      "intraday_low_drop_pct": -35.01,
+      "sma_200": 990.22
     },
     "sp500": {
-      "current": 7747.71,
+      "current": 7666.6,
       "high_52w": 7816.7,
-      "drop_pct": -0.88,
-      "intraday_low_drop_pct": -1.66,
-      "sma_200": 7136.53
+      "drop_pct": -1.92,
+      "intraday_low_drop_pct": -2.34,
+      "sma_200": 7131.47
     },
     "russell2k": {
-      "current": 2968.27,
+      "current": 2953.17,
       "high_52w": 3069.71,
-      "drop_pct": -3.3,
-      "intraday_low_drop_pct": -3.86,
-      "sma_200": 2741.61
+      "drop_pct": -3.8,
+      "intraday_low_drop_pct": -4.66,
+      "sma_200": 2738.71
     },
     "soxx": {
       "current": 501.44,
@@ -294,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 183.434,
+    "strategy_pct": 126.814,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -990,7 +990,7 @@
       },
       {
         "date": "2026-09-04",
-        "ret_pct": 183.434
+        "ret_pct": 126.814
       }
     ],
     "monthly_breakdown": [
@@ -1044,9 +1044,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -1.85,
-        "end_ret_pct": 183.43,
-        "max_dd_pct": 1.48
+        "return_pct": -58.47,
+        "end_ret_pct": 126.81,
+        "max_dd_pct": 54.35
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
