@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T01:20:34.498941+09:00",
+  "timestamp": "2026-09-07T03:25:15.198291+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -294,7 +294,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 188.807,
+    "strategy_pct": 191.538,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -991,6 +991,10 @@
       {
         "date": "2026-09-04",
         "ret_pct": 188.807
+      },
+      {
+        "date": "2026-09-07",
+        "ret_pct": 191.538
       }
     ],
     "monthly_breakdown": [
@@ -1044,8 +1048,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 3.52,
-        "end_ret_pct": 188.81,
+        "return_pct": 6.25,
+        "end_ret_pct": 191.54,
         "max_dd_pct": 1.48
       }
     ],
