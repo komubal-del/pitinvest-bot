@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T03:25:15.198291+09:00",
+  "timestamp": "2026-09-07T05:35:27.421209+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -19,10 +19,10 @@
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "개미, 증시 급락에 주식 다 뺏기고도 남은 빚 급증 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdlM5QnlQTTJSSGxNRUl0ZE5oU3c0amNOeHBqVVNwQ0xUY0hiMERNT0g1V2JFaUV3U2VTeF9BM3EzOU9jMGxlOFR2MGV1Vjk2cmZqOXpUazF1VnpKVlR5WUM2YlhROHpRZll1elM0UnJocGpsZjJJYktlc2ljUkpoMlg2WHRkbHR1S21V?oc=5",
+          "title": "개미, 증시 급락에 주식 다 뺏기고도 남은 빚 급증 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaXl4LUhDTU9DVjFPVk0xRzRaXzk5allYWFBDUTV0eGJWaU1oTy1rT2hwZG1iRVItOXBOanZSZTlRSkZYdEZmRXhvTFhual93Vmd2ZTdsVVA0SEJzNWtLME95VENsYWNWOTA4T1NpQmxKdDcxRGYzTlF2SUhBa3hvbG1INDlyaUdYLWFEZHBTSzhGMFBQeGhlb3ZUa0XSAZwBQVVfeXFMTWl5eC1IQ01PQ1YxT1ZNMUc0Wl85OWpZWFhQQ1E1dHhiVmlNaE8ta09ocGRtYkVSLTlwTmp2UmU5UUpGWHRGZkV4b0xYbmpfd1ZndmU3bFVQNEhCczVrSzBPeVRDbGFjVjkwOE9TaUJsSnQ3MURmM05RdklIQWt4b2xtSDQ5cmlHWC1hRGRwU0s4RjBQUHhoZW92VGtF?oc=5",
           "pub_date": "Sun, 06 Sep 2026 15:32:00 GMT",
-          "source": "조선일보"
+          "source": "Chosunbiz"
         }
       ]
     }
