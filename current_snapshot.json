@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T18:32:29.302905+09:00",
+  "timestamp": "2026-09-08T00:15:45.146833+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -14,27 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 0,
       "fear_count": 0,
-      "greed_articles": [
-        {
-          "title": "\"코스피 7000 돌파 저항 많을것…4분기께 전고점 회복 시도\" - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XSldUSllwUHozUlIwY0NhSjlUclhaOGRtc25pbEhWc1FEekJzZWJiUGZHN2ktMEJieGREUW1BWHdrN24ybWxsSEtoYXB1N2dmUkY2dnYwR09kdw?oc=5",
-          "pub_date": "Mon, 07 Sep 2026 04:46:22 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "증시 대기자금 8개월 만에 가장 낮아…빚투는 증가세 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ObjZuNi1kNTNsak44V0lLdFJ0c2xVT2V2cVRvd0d4UGhKNGNmTnpkQVZOUThjVldtYU41a08xdmc0T0xaQmUtVDZnR2RoeWM?oc=5",
-          "pub_date": "Mon, 07 Sep 2026 07:42:05 GMT",
-          "source": "v.daum.net"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.04,
+    "vix": 15.27,
     "vvix": 84.42,
     "skew": 151.58,
     "move": 73.1
@@ -56,18 +43,18 @@
       "sma_200": 24397.83
     },
     "kospi": {
-      "current": 6995.39,
+      "current": 6687.21,
       "high_52w": 9385.59,
-      "drop_pct": -25.47,
-      "intraday_low_drop_pct": -26.82,
-      "sma_200": 6077.04
+      "drop_pct": -28.75,
+      "intraday_low_drop_pct": -29.33,
+      "sma_200": 6062.82
     },
     "kosdaq": {
-      "current": 822.19,
+      "current": 813.5,
       "high_52w": 1229.42,
-      "drop_pct": -33.12,
-      "intraday_low_drop_pct": -33.32,
-      "sma_200": 989.32
+      "drop_pct": -33.83,
+      "intraday_low_drop_pct": -35.01,
+      "sma_200": 989.75
     },
     "sp500": {
       "current": 7718.6,
