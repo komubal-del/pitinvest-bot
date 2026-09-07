@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T04:16:05.263476+09:00",
+  "timestamp": "2026-09-08T07:07:21.846701+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "롤러코스피 시장에 공매도 비중 1년 내 최고…기관·외국인 쏠림 여전 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13Zy1pZmZzbEMwN0xHbXRrTV9uRGhTZHBYU0wtaG9hZHBMUUNDQU1BVzRJVTNocUNMak4xZXdaZWVnNGozTTdNWWhvN3QzZGdzMWhKZndESHY2SWw4?oc=5",
+          "pub_date": "Mon, 07 Sep 2026 21:07:00 GMT",
+          "source": "뉴스핌"
+        }
+      ],
       "fear_articles": []
     }
   },
