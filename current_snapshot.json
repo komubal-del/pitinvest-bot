@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T13:25:41.717902+09:00",
+  "timestamp": "2026-09-07T18:32:29.302905+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -14,28 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_count": 2,
+      "fear_count": 0,
+      "greed_articles": [
         {
-          "title": "CPI·동시만기 덮친 이번주 증시 … \"외국인 '롱' 청산 땐 급락\" 경고 - 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rSUNiZC1vQVRXZGZnaW5jeUp0bFRlOFctRzJoS3pzckE3SzNOLVJIMFgzeHBOa3ZmRGNMcjJ6OUEzSDZfNlBHdV9sOUpmZEV6bmxkX0E3d1A0VG13dHY0ZTlmeDVCSmdpRWZDSHBzbkdWVm8tX0p4Sl9LWdIBgAFBVV95cUxPU195OERHRGRtRGxTMlNaZFlyVmRVMHExYXVTNThqVFpnYkNNaGtsMzR6ODRGQW5BcS1YSERVU2dYbTlBMU9XZVpPYVBHYkZIb01QdWYzc2Ntc0xtM2JYcEE1d3hMVnpoLXE0MmRZVHVTTDl2VEplQV9yOEZpZlplQw?oc=5",
-          "pub_date": "Mon, 07 Sep 2026 01:13:47 GMT",
-          "source": "뉴데일리"
+          "title": "\"코스피 7000 돌파 저항 많을것…4분기께 전고점 회복 시도\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XSldUSllwUHozUlIwY0NhSjlUclhaOGRtc25pbEhWc1FEekJzZWJiUGZHN2ktMEJieGREUW1BWHdrN24ybWxsSEtoYXB1N2dmUkY2dnYwR09kdw?oc=5",
+          "pub_date": "Mon, 07 Sep 2026 04:46:22 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "증시 대기자금 8개월 만에 가장 낮아…빚투는 증가세 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ObjZuNi1kNTNsak44V0lLdFJ0c2xVT2V2cVRvd0d4UGhKNGNmTnpkQVZOUThjVldtYU41a08xdmc0T0xaQmUtVDZnR2RoeWM?oc=5",
+          "pub_date": "Mon, 07 Sep 2026 07:42:05 GMT",
+          "source": "v.daum.net"
         }
-      ]
+      ],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.53,
+    "vix": 15.04,
     "vvix": 84.42,
     "skew": 151.58,
     "move": 73.1
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 2891300000000,
-    "retail_net_buy_krw": -4067500000000,
+    "foreign_inst_buy_krw": 5202300000000,
+    "retail_net_buy_krw": -6837400000000,
     "margin_loan_krw": 33108600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -50,18 +56,18 @@
       "sma_200": 24397.83
     },
     "kospi": {
-      "current": 6923.3,
+      "current": 6995.39,
       "high_52w": 9385.59,
-      "drop_pct": -26.23,
+      "drop_pct": -25.47,
       "intraday_low_drop_pct": -26.82,
-      "sma_200": 6076.68
+      "sma_200": 6077.04
     },
     "kosdaq": {
-      "current": 822.61,
+      "current": 822.19,
       "high_52w": 1229.42,
-      "drop_pct": -33.09,
+      "drop_pct": -33.12,
       "intraday_low_drop_pct": -33.32,
-      "sma_200": 989.33
+      "sma_200": 989.32
     },
     "sp500": {
       "current": 7718.6,
@@ -161,6 +167,14 @@
       "history": {
         "samsung": [
           {
+            "date": "2026.09.07",
+            "close": 270000,
+            "change_pct": 5.68,
+            "retail_net": -7814674,
+            "inst_net": 4568427,
+            "foreign_net": 3246247
+          },
+          {
             "date": "2026.09.04",
             "close": 255500,
             "change_pct": 2.2,
@@ -191,17 +205,17 @@
             "retail_net": 1047379,
             "inst_net": -339843,
             "foreign_net": -707536
-          },
-          {
-            "date": "2026.08.31",
-            "close": 260000,
-            "change_pct": 1.17,
-            "retail_net": 2352135,
-            "inst_net": -2349842,
-            "foreign_net": -2293
           }
         ],
         "hynix": [
+          {
+            "date": "2026.09.07",
+            "close": 1783000,
+            "change_pct": 8.26,
+            "retail_net": -1137755,
+            "inst_net": 365719,
+            "foreign_net": 772036
+          },
           {
             "date": "2026.09.04",
             "close": 1647000,
@@ -233,14 +247,6 @@
             "retail_net": 50834,
             "inst_net": -142669,
             "foreign_net": 91835
-          },
-          {
-            "date": "2026.08.31",
-            "close": 1674000,
-            "change_pct": 1.27,
-            "retail_net": 526229,
-            "inst_net": -314294,
-            "foreign_net": -211935
           }
         ]
       }
