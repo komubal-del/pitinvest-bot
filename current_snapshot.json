@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T09:04:45.599264+09:00",
+  "timestamp": "2026-09-07T13:25:41.717902+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -14,22 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "증시 활황에 빚투…50대 이상 보험·카드 대출 늘어 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6UzBaTEpiOF81OEpJQVpYOTUwNUYwVDBiNGZtTlRZTmlPVk51a24ybzZYd3FUNS1BQWtqV1ZoVjU2c2VLb3A2Ny1LUjh3WnM?oc=5",
-          "pub_date": "Sun, 06 Sep 2026 22:12:04 GMT",
-          "source": "v.daum.net"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "개미, 증시 급락에 주식 다 뺏기고도 남은 빚 급증 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaXl4LUhDTU9DVjFPVk0xRzRaXzk5allYWFBDUTV0eGJWaU1oTy1rT2hwZG1iRVItOXBOanZSZTlRSkZYdEZmRXhvTFhual93Vmd2ZTdsVVA0SEJzNWtLME95VENsYWNWOTA4T1NpQmxKdDcxRGYzTlF2SUhBa3hvbG1INDlyaUdYLWFEZHBTSzhGMFBQeGhlb3ZUa0XSAZwBQVVfeXFMTWl5eC1IQ01PQ1YxT1ZNMUc0Wl85OWpZWFhQQ1E1dHhiVmlNaE8ta09ocGRtYkVSLTlwTmp2UmU5UUpGWHRGZkV4b0xYbmpfd1ZndmU3bFVQNEhCczVrSzBPeVRDbGFjVjkwOE9TaUJsSnQ3MURmM05RdklIQWt4b2xtSDQ5cmlHWC1hRGRwU0s4RjBQUHhoZW92VGtF?oc=5",
-          "pub_date": "Sun, 06 Sep 2026 15:32:00 GMT",
-          "source": "Chosunbiz"
+          "title": "CPI·동시만기 덮친 이번주 증시 … \"외국인 '롱' 청산 땐 급락\" 경고 - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rSUNiZC1vQVRXZGZnaW5jeUp0bFRlOFctRzJoS3pzckE3SzNOLVJIMFgzeHBOa3ZmRGNMcjJ6OUEzSDZfNlBHdV9sOUpmZEV6bmxkX0E3d1A0VG13dHY0ZTlmeDVCSmdpRWZDSHBzbkdWVm8tX0p4Sl9LWdIBgAFBVV95cUxPU195OERHRGRtRGxTMlNaZFlyVmRVMHExYXVTNThqVFpnYkNNaGtsMzR6ODRGQW5BcS1YSERVU2dYbTlBMU9XZVpPYVBHYkZIb01QdWYzc2Ntc0xtM2JYcEE1d3hMVnpoLXE0MmRZVHVTTDl2VEplQV9yOEZpZlplQw?oc=5",
+          "pub_date": "Mon, 07 Sep 2026 01:13:47 GMT",
+          "source": "뉴데일리"
         }
       ]
     }
@@ -41,8 +34,8 @@
     "move": 73.1
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 297800000000,
-    "retail_net_buy_krw": -302000000000,
+    "foreign_inst_buy_krw": 2891300000000,
+    "retail_net_buy_krw": -4067500000000,
     "margin_loan_krw": 33108600000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -57,18 +50,18 @@
       "sma_200": 24397.83
     },
     "kospi": {
-      "current": 6687.21,
+      "current": 6923.3,
       "high_52w": 9385.59,
-      "drop_pct": -28.75,
-      "intraday_low_drop_pct": -29.33,
-      "sma_200": 6062.82
+      "drop_pct": -26.23,
+      "intraday_low_drop_pct": -26.82,
+      "sma_200": 6076.68
     },
     "kosdaq": {
-      "current": 813.5,
+      "current": 822.61,
       "high_52w": 1229.42,
-      "drop_pct": -33.83,
-      "intraday_low_drop_pct": -35.01,
-      "sma_200": 989.75
+      "drop_pct": -33.09,
+      "intraday_low_drop_pct": -33.32,
+      "sma_200": 989.33
     },
     "sp500": {
       "current": 7718.6,
@@ -259,7 +252,7 @@
   },
   "expert_analysis": {
     "date": "2026-09-07",
-    "analyzed_at": "2026-09-07T09:04:51.541218+09:00",
+    "analyzed_at": "2026-09-07T13:25:45.308974+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -267,16 +260,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "bsZwRMOjOSw",
-        "title": "9월 금리 동결 가능성↑…반도체보다 중요한 건 '돈의 흐름' | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-09-04T00:14:20Z",
-        "url": "https://youtube.com/watch?v=bsZwRMOjOSw",
+        "video_id": "rhiaXoLMVBw",
+        "title": "반도체 상승 분위기 만들어졌다…삼성전자·SK하이닉스 이제 따라갈 차례? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-07T00:12:38Z",
+        "url": "https://youtube.com/watch?v=rhiaXoLMVBw",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 금리 동결 가능성 언급과 '돈의 흐름'의 중요성을 강조하는 중립적인 시장 분석이 있을 뿐, 현금화/매도/매수 등 구체적인 투자 행동 권고가 명시되어 있지 않습니다."
+          "stance": "bullish",
+          "reason": "제목에서 '반도체 상승 분위기 만들어졌다'고 명확히 언급하며 삼성전자, SK하이닉스가 '이제 따라갈 차례?'라고 긍정적인 반등을 시사하고 있기 때문이다."
         }
       },
       {
@@ -289,13 +282,13 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목은 반도체 급락과 반등에 대한 '해석'을 묻고 있으며, 내용에 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없기 때문에 중립적인 시장 분석으로 판단됩니다."
+          "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 분석적인 내용이며, 내용에 구체적인 매수/매도/현금화 등의 행동 권고가 없기 때문입니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
+      "박병창": "bullish",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
