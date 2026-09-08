@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T07:07:21.846701+09:00",
+  "timestamp": "2026-09-08T09:18:44.379556+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -14,17 +14,17 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 0,
-      "greed_articles": [
+      "greed_count": 0,
+      "fear_count": 1,
+      "greed_articles": [],
+      "fear_articles": [
         {
-          "title": "롤러코스피 시장에 공매도 비중 1년 내 최고…기관·외국인 쏠림 여전 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13Zy1pZmZzbEMwN0xHbXRrTV9uRGhTZHBYU0wtaG9hZHBMUUNDQU1BVzRJVTNocUNMak4xZXdaZWVnNGozTTdNWWhvN3QzZGdzMWhKZndESHY2SWw4?oc=5",
-          "pub_date": "Mon, 07 Sep 2026 21:07:00 GMT",
-          "source": "뉴스핌"
+          "title": "27% 폭락에도 골드만삭스 “코스피 1만2000” 유지…왜? - 뉴시안",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XSFV3M0doU3FWRmYzMG8wR1pKbjBSdll1d1FSWmpBN09fRFJPWUZGODdPWVRObWE1MGc1cXNDcHR4bWtDcGl3dTJza00ySE03RldZdFpHSDl2MnlNaWkyOGVEem9xNDRpVzVV0gFuQVVfeXFMT1hkRDhqVW1aS29pWEJQRnFMV1I5dnNPdTRZV2ZwN0dQSG1ONlJnSFBPYmNZLUR1TXRjOW5mTm05UDJqWkZfZ2g0djZ6dlNmTERnVXdHbTlTQTVVaEs5ZlJqemlpdkFXekNiNlJoY2c?oc=5",
+          "pub_date": "Mon, 07 Sep 2026 22:06:28 GMT",
+          "source": "뉴시안"
         }
-      ],
-      "fear_articles": []
+      ]
     }
   },
   "volatility": {
@@ -34,9 +34,9 @@
     "move": 73.1
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 5202300000000,
-    "retail_net_buy_krw": -6837400000000,
-    "margin_loan_krw": 33108600000000,
+    "foreign_inst_buy_krw": -39000000000,
+    "retail_net_buy_krw": -35800000000,
+    "margin_loan_krw": 33166000000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -251,8 +251,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-09-07",
-    "analyzed_at": "2026-09-07T13:25:45.308974+09:00",
+    "date": "2026-09-08",
+    "analyzed_at": "2026-09-08T09:18:49.113245+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -260,16 +260,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "rhiaXoLMVBw",
-        "title": "반도체 상승 분위기 만들어졌다…삼성전자·SK하이닉스 이제 따라갈 차례? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-09-07T00:12:38Z",
-        "url": "https://youtube.com/watch?v=rhiaXoLMVBw",
+        "video_id": "YfNd47ZAnlI",
+        "title": "삼성전자 전고점 돌파하면 매수세 붙는다…코스피 다음 시나리오는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-08T00:09:11Z",
+        "url": "https://youtube.com/watch?v=YfNd47ZAnlI",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "제목에서 '반도체 상승 분위기 만들어졌다'고 명확히 언급하며 삼성전자, SK하이닉스가 '이제 따라갈 차례?'라고 긍정적인 반등을 시사하고 있기 때문이다."
+          "stance": "neutral",
+          "reason": "제목은 특정 조건(삼성전자 전고점 돌파) 시 예상되는 시장 반응(매수세 유입)을 언급하고 코스피의 다음 시나리오를 묻는 중립적인 시장 분석 질문을 담고 있을 뿐, 구체적인 매수/매도 행동 권고가 없습니다."
         }
       },
       {
@@ -282,13 +282,13 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목이 반도체 급락과 반등에 대한 해석을 묻는 분석적인 내용이며, 내용에 구체적인 매수/매도/현금화 등의 행동 권고가 없기 때문입니다."
+          "reason": "제목은 반도체 급락과 반등에 대한 해석을 묻는 분석적인 내용이며, 본문에는 구체적인 매수/매도/현금화 등의 투자 행동 권고가 전혀 없습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "bullish",
+      "박병창": "neutral",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
