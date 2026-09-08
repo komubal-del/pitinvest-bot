@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T09:18:44.379556+09:00",
+  "timestamp": "2026-09-08T13:52:43.196143+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -15,16 +15,9 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "27% 폭락에도 골드만삭스 “코스피 1만2000” 유지…왜? - 뉴시안",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XSFV3M0doU3FWRmYzMG8wR1pKbjBSdll1d1FSWmpBN09fRFJPWUZGODdPWVRObWE1MGc1cXNDcHR4bWtDcGl3dTJza00ySE03RldZdFpHSDl2MnlNaWkyOGVEem9xNDRpVzVV0gFuQVVfeXFMT1hkRDhqVW1aS29pWEJQRnFMV1I5dnNPdTRZV2ZwN0dQSG1ONlJnSFBPYmNZLUR1TXRjOW5mTm05UDJqWkZfZ2g0djZ6dlNmTERnVXdHbTlTQTVVaEs5ZlJqemlpdkFXekNiNlJoY2c?oc=5",
-          "pub_date": "Mon, 07 Sep 2026 22:06:28 GMT",
-          "source": "뉴시안"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -34,8 +27,8 @@
     "move": 73.1
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -39000000000,
-    "retail_net_buy_krw": -35800000000,
+    "foreign_inst_buy_krw": 999400000000,
+    "retail_net_buy_krw": -2416500000000,
     "margin_loan_krw": 33166000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -50,18 +43,18 @@
       "sma_200": 24397.83
     },
     "kospi": {
-      "current": 6687.21,
+      "current": 7149.38,
       "high_52w": 9385.59,
-      "drop_pct": -28.75,
-      "intraday_low_drop_pct": -29.33,
-      "sma_200": 6062.82
+      "drop_pct": -23.83,
+      "intraday_low_drop_pct": -25.22,
+      "sma_200": 6091.94
     },
     "kosdaq": {
-      "current": 813.5,
+      "current": 829.43,
       "high_52w": 1229.42,
-      "drop_pct": -33.83,
-      "intraday_low_drop_pct": -35.01,
-      "sma_200": 989.75
+      "drop_pct": -32.53,
+      "intraday_low_drop_pct": -33.25,
+      "sma_200": 988.88
     },
     "sp500": {
       "current": 7718.6,
@@ -149,11 +142,11 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -252,7 +245,7 @@
   },
   "expert_analysis": {
     "date": "2026-09-08",
-    "analyzed_at": "2026-09-08T09:18:49.113245+09:00",
+    "analyzed_at": "2026-09-08T13:52:49.279270+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -269,7 +262,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 특정 조건(삼성전자 전고점 돌파) 시 예상되는 시장 반응(매수세 유입)을 언급하고 코스피의 다음 시나리오를 묻는 중립적인 시장 분석 질문을 담고 있을 뿐, 구체적인 매수/매도 행동 권고가 없습니다."
+          "reason": "제목은 특정 조건 시 시장 반응을 분석하고 향후 시나리오에 대한 질문을 던질 뿐, 구체적인 매수/매도 권고나 강한 낙관/비관적 입장을 표명하지 않습니다."
         }
       },
       {
@@ -282,7 +275,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 반도체 급락과 반등에 대한 해석을 묻는 분석적인 내용이며, 본문에는 구체적인 매수/매도/현금화 등의 투자 행동 권고가 전혀 없습니다."
+          "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 질문 형식이며, 내용에는 주식 시장에 대한 구체적인 매도/매수/보유 행동 권고나 방향성 제시 없이 영상 촬영일 정보와 전문가 학습 채널 홍보 내용만 포함되어 있습니다."
         }
       }
     ],
