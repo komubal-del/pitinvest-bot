@@ -1,34 +1,41 @@
 {
-  "timestamp": "2026-09-08T18:32:14.482890+09:00",
+  "timestamp": "2026-09-08T22:53:09.771048+09:00",
   "sentiment": {
-    "cnn_fng": 41.8571428571429,
+    "cnn_fng": 41.9142857142857,
     "cnn_components": {
-      "momentum": 36.6,
-      "strength": 12.6,
-      "breadth": 46.4,
-      "put_call": 45.2,
-      "junk_bond": 76.2,
+      "momentum": 33.2,
+      "strength": 12.0,
+      "breadth": 34.2,
+      "put_call": 69.4,
+      "junk_bond": 70.8,
       "volatility": 50.0,
-      "safe_haven": 26.0
+      "safe_haven": 28.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 6,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 5,
+      "greed_articles": [
+        {
+          "title": "조정 가능성 여전한데 … 코스피 3.4% 반등할때 빚투는 15% 급증 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GcEtmUmthc204TWNHejNicXJsdUtHY05PM01kSlRIZEh2RlRXdTlZb3VoenZBN051a0J2N3Z3Z2VhT3hoMkFpV3ZhQkxsMUVRU0E?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 08:49:30 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "조정 가능성 여전한데 … 코스피 3.4% 반등할때 빚투는 15% 급증 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WR1pfbEpqS04zbzk5ZFFwaFEtSkVZUUlNbXdMa3FsTTBWUFZvdkVhaEsyUG5rSHJ2R0Y1OWtrWk5KeWNwRmJDR2daMU85LUU?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 08:51:10 GMT",
+          "source": "v.daum.net"
+        }
+      ],
       "fear_articles": [
         {
           "title": "코스피, 상승분 반납 후 하락 전환...7천 탈환 실패 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51dnpGRm5tLWdveVY3dS1vZkNNUVdrUlNPZzNKYVljNnZNbFFWTHEyWDd4b2txOUJSeFlHMWM2UC1TX0F3czVUcnJsSzBvWlZmVUswLWVSa3V2UTF1V0E?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fZlZUcG15dHZkU1ZzOFN1czdwMTN5c0lMdUxVSGpPNF9HREsyTFBVUG8tX0ROcEFVLVBfYm9KVVZhdGR4bWF5bnBrc0VucmdfeFV1WjRDUlNtaHpYemxqdE96QjZzbEJmMmh6MGVjYWwzaWwzNUE?oc=5",
           "pub_date": "Tue, 08 Sep 2026 09:08:00 GMT",
           "source": "YTN"
-        },
-        {
-          "title": "[속보] 코스피, 하락 전환… 7000선 아래로 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTVFhWFk5UlNDaW55aV9oYmgwZlFLS2NuWHd1dmRDVk95b0J0OUp2TGxmeXQ2VmRJT2VpM3cxR0ViN1d1S0lZeFNWVHRFU19CZWw1SmRCdkxBeWNVczVZNzFMZDNXX1BNR2NSTkdhb3cyVHdHczI4U3VmaUE3OE1aTEc1SWpLN1RJ0gGcAUFVX3lxTE94ckFFRGQ3RFVVcEJYcDg2ZGdsdDVtbVQyb014RHNnQnNpazdGOF9vTk5ITnBtei1Ed0xIbUNmRWpPUTZUZ0xWbzdSMXpGN09rWTdTS0pLZDhSYjBMV0hnSFoxQ1dRQlJiTU84cWFvNk1ib2pHT1dqdE9JZVRDd2dRUUZvb0p6cVFmekpKV2p3WjctTFdiTjMxUnc1bw?oc=5",
-          "pub_date": "Tue, 08 Sep 2026 06:13:00 GMT",
-          "source": "Chosunbiz"
         },
         {
           "title": "코스피, 막판 하락 전환해 7000선 붕괴 - MTN 머니투데이방송",
@@ -37,23 +44,29 @@
           "source": "MTN 머니투데이방송"
         },
         {
-          "title": "코스피, 장중 7200선 넘보다 막판 급락… '7천피'도 반납 - hidomin.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAydTJ1UEttcG9CcENvOGpCWkhHR1dyVGh2c2J2Mm50Y0ZXekhqakhlMUNqR01PeFlWZU82bGdGb3JkQUlPR1NDVmJWMHpRR0kwMjNvUURxUGpXMU5kV0FMOUJZWHNGem02bEE?oc=5",
-          "pub_date": "Tue, 08 Sep 2026 06:49:26 GMT",
-          "source": "hidomin.com"
-        },
-        {
           "title": "코스피, 막판 하락 전환해 7000선 붕괴 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yQWpRUVdSanFQaW1tSHdPSHFNbENfbXpURVN5Q3p0cFhBQU1uNnQtQklITnJYbmRsNWRGUHByc0hySU50eWplU3JMMkMyN1U?oc=5",
           "pub_date": "Tue, 08 Sep 2026 08:34:00 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "장 막판 하락 전환… 코스피, 6954.52 마감 - 국제신문",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSktLT0gtdHdHbHo4bER0QXh4UERFeU13MUVWNFFzWFFQbks3R0Ezb0wzNHNyUjhFWHVyR0VCd0hjYnEtWDdIOHRQQUNzRVR0U2t0NXo0N3E3MEpnOG8zQ0NUUUlja2VVaXlOTEVWakFkR2syZU1NWE4zTmlIaEs5VGR1cWZUVVdtSXVvVGxtUEZVaXc?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 06:42:00 GMT",
+          "source": "국제신문"
+        },
+        {
+          "title": "장중 7170선 뚫던 코스피, 막판 하락 전환…'7천피' 내주고 6954 마감 - 진일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SVnlyb3I2eHFVZWY1SWE1b09nY0tUZHp3M1FoVy11NWhxOXg0NXdaeTc5Z3JVWXM3RHhTd1Q0VWVXcTVWWUhPd0xKTnNvc3VManVvaDRkWlFBVFpKR0UwV20wenRGamJuOFItVDdOUQ?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 07:05:32 GMT",
+          "source": "진일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.79,
-    "vvix": 84.42,
+    "vix": 15.48,
+    "vvix": 89.27,
     "skew": 151.58,
     "move": 73.1
   },
@@ -67,11 +80,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26506.99,
+      "current": 26385.5,
       "high_52w": 27190.21,
-      "drop_pct": -2.51,
-      "intraday_low_drop_pct": -2.74,
-      "sma_200": 24397.83
+      "drop_pct": -2.96,
+      "intraday_low_drop_pct": -2.97,
+      "sma_200": 24417.59
     },
     "kospi": {
       "current": 6954.52,
@@ -88,34 +101,34 @@
       "sma_200": 988.79
     },
     "sp500": {
-      "current": 7718.6,
+      "current": 7684.83,
       "high_52w": 7816.7,
-      "drop_pct": -1.26,
-      "intraday_low_drop_pct": -1.41,
-      "sma_200": 7141.76
+      "drop_pct": -1.69,
+      "intraday_low_drop_pct": -1.69,
+      "sma_200": 7147.1
     },
     "russell2k": {
-      "current": 2975.65,
+      "current": 2962.25,
       "high_52w": 3069.71,
-      "drop_pct": -3.06,
-      "intraday_low_drop_pct": -3.87,
-      "sma_200": 2744.78
+      "drop_pct": -3.5,
+      "intraday_low_drop_pct": -3.56,
+      "sma_200": 2747.84
     },
     "soxx": {
-      "current": 519.86,
+      "current": 526.51,
       "high_52w": 655.95,
-      "drop_pct": -20.75,
-      "intraday_low_drop_pct": -22.67,
-      "sma_200": 431.28
+      "drop_pct": -19.73,
+      "intraday_low_drop_pct": -19.89,
+      "sma_200": 432.53
     }
   },
   "sector_rs": {
-    "XLK": 0.993,
-    "SMH": 0.951,
-    "BOTZ": 0.905,
-    "IGV": 1.042,
-    "XLF": 1.065,
-    "XLE": 1.069
+    "XLK": 0.979,
+    "SMH": 0.921,
+    "BOTZ": 0.896,
+    "IGV": 1.027,
+    "XLF": 1.072,
+    "XLE": 1.074
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 64.59,
+    "tqqq_profit_pct": 62.82,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 119.21,
+    "soxl_profit_pct": 128.54,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -93.62,
+    "koru_profit_pct": -93.4,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
