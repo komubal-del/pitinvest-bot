@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T13:52:43.196143+09:00",
+  "timestamp": "2026-09-08T18:32:14.482890+09:00",
   "sentiment": {
     "cnn_fng": 41.8571428571429,
     "cnn_components": {
@@ -15,20 +15,51 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 6,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "코스피, 상승분 반납 후 하락 전환...7천 탈환 실패 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51dnpGRm5tLWdveVY3dS1vZkNNUVdrUlNPZzNKYVljNnZNbFFWTHEyWDd4b2txOUJSeFlHMWM2UC1TX0F3czVUcnJsSzBvWlZmVUswLWVSa3V2UTF1V0E?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 09:08:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "[속보] 코스피, 하락 전환… 7000선 아래로 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTVFhWFk5UlNDaW55aV9oYmgwZlFLS2NuWHd1dmRDVk95b0J0OUp2TGxmeXQ2VmRJT2VpM3cxR0ViN1d1S0lZeFNWVHRFU19CZWw1SmRCdkxBeWNVczVZNzFMZDNXX1BNR2NSTkdhb3cyVHdHczI4U3VmaUE3OE1aTEc1SWpLN1RJ0gGcAUFVX3lxTE94ckFFRGQ3RFVVcEJYcDg2ZGdsdDVtbVQyb014RHNnQnNpazdGOF9vTk5ITnBtei1Ed0xIbUNmRWpPUTZUZ0xWbzdSMXpGN09rWTdTS0pLZDhSYjBMV0hnSFoxQ1dRQlJiTU84cWFvNk1ib2pHT1dqdE9JZVRDd2dRUUZvb0p6cVFmekpKV2p3WjctTFdiTjMxUnc1bw?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 06:13:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피, 막판 하락 전환해 7000선 붕괴 - MTN 머니투데이방송",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53SDFERU11cVNKSF9idUxEek9wWnNIUjhET19kREtqUnFscFpBZTA3cm1hRDhydE5UeWVjUnBvQmJUUnRLV1NsLWdCWXAzVXJ0Ym5YV3VzYjZhMzNRSUwyV0pVSG4?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 08:33:02 GMT",
+          "source": "MTN 머니투데이방송"
+        },
+        {
+          "title": "코스피, 장중 7200선 넘보다 막판 급락… '7천피'도 반납 - hidomin.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAydTJ1UEttcG9CcENvOGpCWkhHR1dyVGh2c2J2Mm50Y0ZXekhqakhlMUNqR01PeFlWZU82bGdGb3JkQUlPR1NDVmJWMHpRR0kwMjNvUURxUGpXMU5kV0FMOUJZWHNGem02bEE?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 06:49:26 GMT",
+          "source": "hidomin.com"
+        },
+        {
+          "title": "코스피, 막판 하락 전환해 7000선 붕괴 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yQWpRUVdSanFQaW1tSHdPSHFNbENfbXpURVN5Q3p0cFhBQU1uNnQtQklITnJYbmRsNWRGUHByc0hySU50eWplU3JMMkMyN1U?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 08:34:00 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 15.3,
+    "vix": 15.79,
     "vvix": 84.42,
     "skew": 151.58,
     "move": 73.1
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 999400000000,
-    "retail_net_buy_krw": -2416500000000,
+    "foreign_inst_buy_krw": 1274300000000,
+    "retail_net_buy_krw": -3032900000000,
     "margin_loan_krw": 33166000000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -43,18 +74,18 @@
       "sma_200": 24397.83
     },
     "kospi": {
-      "current": 7149.38,
+      "current": 6954.52,
       "high_52w": 9385.59,
-      "drop_pct": -23.83,
-      "intraday_low_drop_pct": -25.22,
-      "sma_200": 6091.94
+      "drop_pct": -25.9,
+      "intraday_low_drop_pct": -25.93,
+      "sma_200": 6090.96
     },
     "kosdaq": {
-      "current": 829.43,
+      "current": 811.88,
       "high_52w": 1229.42,
-      "drop_pct": -32.53,
-      "intraday_low_drop_pct": -33.25,
-      "sma_200": 988.88
+      "drop_pct": -33.96,
+      "intraday_low_drop_pct": -33.96,
+      "sma_200": 988.79
     },
     "sp500": {
       "current": 7718.6,
@@ -142,7 +173,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
@@ -153,6 +184,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.09.08",
+            "close": 269500,
+            "change_pct": -0.19,
+            "retail_net": -5738778,
+            "inst_net": 2406250,
+            "foreign_net": 3332528
+          },
           {
             "date": "2026.09.07",
             "close": 270000,
@@ -184,17 +223,17 @@
             "retail_net": 4299438,
             "inst_net": -2977902,
             "foreign_net": -1321536
-          },
-          {
-            "date": "2026.09.01",
-            "close": 261000,
-            "change_pct": 0.38,
-            "retail_net": 1047379,
-            "inst_net": -339843,
-            "foreign_net": -707536
           }
         ],
         "hynix": [
+          {
+            "date": "2026.09.08",
+            "close": 1793000,
+            "change_pct": 0.56,
+            "retail_net": -82985,
+            "inst_net": -14560,
+            "foreign_net": 97545
+          },
           {
             "date": "2026.09.07",
             "close": 1783000,
@@ -226,14 +265,6 @@
             "retail_net": 946726,
             "inst_net": -295219,
             "foreign_net": -651507
-          },
-          {
-            "date": "2026.09.01",
-            "close": 1693000,
-            "change_pct": 1.14,
-            "retail_net": 50834,
-            "inst_net": -142669,
-            "foreign_net": 91835
           }
         ]
       }
