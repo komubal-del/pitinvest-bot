@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T06:03:10.839030+09:00",
+  "timestamp": "2026-09-09T08:19:11.320597+09:00",
   "sentiment": {
     "cnn_fng": 40.8,
     "cnn_components": {
@@ -15,9 +15,27 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 4,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "[마켓 프리뷰] 뒷심 부족했던 코스피, 금리·유가에 막판 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96cW5aR3VSRzVmWXJUbnpXdVAxOWdpYVBTWmRlV182S08xMEU4WU5WcjdEeUtXd3UtWE84TnFfUmluNjM4MXRMcERfNTNtblE?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 22:31:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NSlNhOGZXUUk0ZGgyVFVnRzZ1M1hoUTRFWE5rRU95VmVkUHE3OWsxNl91azVramxPREF2bzlwNWpZOFc1OFdSR21xNEg5WnJuZEE?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 22:50:42 GMT",
+          "source": "매일경제 마켓"
+        },
+        {
+          "title": "[마켓 프리뷰] 뒷심 부족했던 코스피, 금리·유가에 막판 하락 전환 - supple.kr",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yYTY2WDRsZkxwa3Q5a3RwMWxsQlVDeFhUWEtLNXJhQ0twZ05QZjVzMlpnbDJqdExBSFZnYnJTT1U2RkQ3UWF4ZG14X183VTM0VnlOSDQzcnM1bzdJ?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 22:27:52 GMT",
+          "source": "supple.kr"
+        },
         {
           "title": "유럽증시, 이틀 후 ECB 금리 인상 예견하며 보합권 혼조… 노바티스 10.9% 급락 - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wSjQ1bWdLR0lZTWRVN21nQ0x6QjlTM3ZHbGhwbWZDcFZ1YWRZdTdKeFlXdEtHV3Y5dkhKWW5rRnRWVlFDRFJYM1pod015S0trY21kOHlZanAxOGVn?oc=5",
@@ -28,15 +46,15 @@
     }
   },
   "volatility": {
-    "vix": 15.72,
+    "vix": 15.3,
     "vvix": 88.69,
-    "skew": 151.58,
+    "skew": 148.86,
     "move": 76.14
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 1274300000000,
     "retail_net_buy_krw": -3032900000000,
-    "margin_loan_krw": 33166000000000,
+    "margin_loan_krw": 32763900000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -294,7 +312,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 195.187,
+    "strategy_pct": 193.804,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1002,7 +1020,7 @@
       },
       {
         "date": "2026-09-09",
-        "ret_pct": 195.187
+        "ret_pct": 193.804
       }
     ],
     "monthly_breakdown": [
@@ -1056,8 +1074,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 9.9,
-        "end_ret_pct": 195.19,
+        "return_pct": 8.52,
+        "end_ret_pct": 193.8,
         "max_dd_pct": 1.48
       }
     ],
