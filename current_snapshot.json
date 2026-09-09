@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T06:13:22.160305+09:00",
+  "timestamp": "2026-09-10T08:22:14.468200+09:00",
   "sentiment": {
     "cnn_fng": 39.0285714285714,
     "cnn_components": {
@@ -14,41 +14,54 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 0,
+      "greed_count": 4,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "증시 활황에…증권사 2분기 순이익 5조 돌파 - 아시아경제",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLN1ZKenBtbEZkTGplT05SUWVMc0pRZXQ5TkNRMjRDSGtCSWVheE5qRGtWRkhDajJtM05iUFdsZFpvRU50cFhDS2liRHhSNEJ1VElULXNqbE4tWTBIVnpxcA?oc=5",
-          "pub_date": "Wed, 09 Sep 2026 21:00:00 GMT",
+          "pub_date": "Wed, 09 Sep 2026 22:07:10 GMT",
           "source": "아시아경제"
         },
         {
-          "title": "BTIG, AI주 쏠림 경고…“美증시 전반 동반하락 가능성” - marketin.edaily.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51MzY5T3VZSG5mWndSOFZ3V0h0dDFTLUtUU1M0S2tJM1M1cXFnNlpvLUhpckhBbkZLM0kxanZJWDR1b25tblIxaWt5VVFyTVROTDVITGR5SGFkN0k4V2dEdkNhT2dtUDVxNkV3WlJhM05vWmc?oc=5",
-          "pub_date": "Wed, 09 Sep 2026 19:37:35 GMT",
-          "source": "marketin.edaily.co.kr"
+          "title": "2분기 증시 활황에 증권사 순이익 5조 2000억원…두 분기 연속 역대 최대 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMURaY2VXZHBlLW5obTJnN3QwTDRQQk9uQ0dteFBnNGtpai1PMUg4WWtLel9wZ1owOGNmU3I4bXkxN3R3d05FaGVrM3RGVGJ5N2Jwd1FERVY2amlCRzktUXkxMi1jQjg5TVZoM0R6Zm1HWFJ0WDZIei1CZnM5Rl91MkIxLTdyZnl10gGcAUFVX3lxTFA3ZHFkZ0JtYk5DbFJzRzc1YzA1UE9hSll6N2d6WmRpRlFLQ29oSDFpY2hkbUx0NGlIOWM0cUpGLWNja2ppU2FlaXZSNjdVN0ZiRy10VzNHdTRuWFhOT29qcERVZXpVZ0NjY054ZzN1TDZRc1VmMmE3cDZaVDBCMXVDTTFra2wwblJBVFd0a2tMTmlVZEZ6NFVLRmNiNQ?oc=5",
+          "pub_date": "Wed, 09 Sep 2026 23:14:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "증권사 2분기 순익 5.2조…증시 활황에 수수료·자기매매 쑥 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFaE1RWUhaREtxU0FyV2RXTGcta2kwVUZQSzZlcHdiZmowOU5DWXZJMUZrd2dnT0J6bGNOWEFnSlcwY1hTY3lkZVZiRVVpVG15NHJYTzZ2RHdvUdIBWEFVX3lxTE55aGxya2w5OVhRaHNLNXJiZ1FpY1R6WC1TVFpuRzNaVUExYUQyMFFSbHJab3BFYmItWnc1cUtYbkF0WlJwcGtqaGhoSlVkOEhnOXJ4NnhjcWE?oc=5",
+          "title": "증시 활황에 증권사 2분기 순익 5.2조…전년보다 82% 급증 - 코리아리포트",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZUDRQb2RBa0xUTXpXaTNCUm9ublBZVDVTaHprMjN5ZEtYQ1RMUUdDMEpxbS1fMVhCZHdhOU9OQTlxOXZhVmp2V1hoOWtycURxZmhXNGhaX1I0dEViV3l1bVAydEZBMXFqbGdPVENyNXY?oc=5",
+          "pub_date": "Wed, 09 Sep 2026 22:34:07 GMT",
+          "source": "코리아리포트"
+        },
+        {
+          "title": "증시 활황에 2분기 증권사 순익 5.2조…전년比 82% 증가 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTa09BODFpdWE1SXJjMV9hWGw0MVNKQ3NnSXZ0YnFfeWZsdXc4SEV6V3Vub3ZpaXBaZzI3cjVVY3BadFhwZ0FDU2ZBcFlrYmlWQk9fYg?oc=5",
           "pub_date": "Wed, 09 Sep 2026 21:00:00 GMT",
-          "source": "아주경제"
+          "source": "이투데이"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[뉴욕증시] 유가 100달러 돌파·국채 수익률 폭등에 3대 지수 급락 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdjF0Sjc3MkJRMzBObmJZNjhuUjVIUkZ4VzEyY2VQUTZZck9lS1MwZ1VhR0N0TFF3XzJDUXNwdlZ0RmJFWWRxNFZuZnZVX2ctVVZiNm5zQ3N0SFNFOHg3NUJPNldHcHp0d19YOEJsLWdkOW9GM05ESnBhekljbEY2MkpOeFhGbjQ?oc=5",
+          "pub_date": "Wed, 09 Sep 2026 20:22:06 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 16.46,
     "vvix": 94.5,
-    "skew": 148.86,
+    "skew": 149.25,
     "move": 76.74
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 507399999999,
     "retail_net_buy_krw": -2287900000000,
-    "margin_loan_krw": 32763900000000,
+    "margin_loan_krw": 32318500000000,
     "news_count": 0,
     "short_sale_balance": null,
     "foreign_ownership_pct": null
@@ -306,7 +319,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 195.021,
+    "strategy_pct": 194.717,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1018,7 +1031,7 @@
       },
       {
         "date": "2026-09-10",
-        "ret_pct": 195.021
+        "ret_pct": 194.717
       }
     ],
     "monthly_breakdown": [
@@ -1072,8 +1085,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 9.73,
-        "end_ret_pct": 195.02,
+        "return_pct": 9.43,
+        "end_ret_pct": 194.72,
         "max_dd_pct": 1.48
       }
     ],
