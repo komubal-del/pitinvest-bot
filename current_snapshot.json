@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-09T15:06:46.910455+09:00",
+  "timestamp": "2026-09-09T20:14:54.264932+09:00",
   "sentiment": {
-    "cnn_fng": 40.4857142857143,
+    "cnn_fng": 39.4571428571429,
     "cnn_components": {
       "momentum": 32.0,
-      "strength": 12.0,
-      "breadth": 40.6,
+      "strength": 11.4,
+      "breadth": 34.0,
       "put_call": 51.6,
       "junk_bond": 71.2,
       "volatility": 50.0,
@@ -14,35 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "증시 조정에 '빚투' 주춤…8월 가계대출 증가폭 줄었다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aazdlY1NQSlRMU0RvM1I3YjNJbTF5YlNpcl9pX3cwcW04a2kyVW9vNU51Y1BmTXU1aTU0OEVndk55MmE2VXN3dkZBTlBTRFJqNGFUTzMwdGg4UXJPYmxIMHBUX3NoVmFOU1pr0gFwQVVfeXFMTWVSS2ZnbTVVQzFqbVk4V08xZkd1TzB3R1pqN1U3VHhLODRzQnJ2eVExbm81Vi1tdlFQN1R0QjFYSmhTZnY5dHJlY2pfdzhVeExPZmZQNldRZnNQQlQ5NzlHWC1XcXF6dnFCNXNXdUp3Qw?oc=5",
-          "pub_date": "Wed, 09 Sep 2026 03:00:00 GMT",
-          "source": "머니투데이"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[마켓 프리뷰] 뒷심 부족했던 코스피, 금리·유가에 막판 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96cW5aR3VSRzVmWXJUbnpXdVAxOWdpYVBTWmRlV182S08xMEU4WU5WcjdEeUtXd3UtWE84TnFfUmluNjM4MXRMcERfNTNtblE?oc=5",
-          "pub_date": "Tue, 08 Sep 2026 22:31:00 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.72,
+    "vix": 16.49,
     "vvix": 88.69,
     "skew": 148.86,
     "move": 76.14
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 563600000000,
-    "retail_net_buy_krw": -2337600000000,
+    "foreign_inst_buy_krw": 507399999999,
+    "retail_net_buy_krw": -2287900000000,
     "margin_loan_krw": 32763900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -57,18 +43,18 @@
       "sma_200": 24417.77
     },
     "kospi": {
-      "current": 7048.78,
+      "current": 7051.64,
       "high_52w": 9385.59,
-      "drop_pct": -24.9,
+      "drop_pct": -24.87,
       "intraday_low_drop_pct": -25.76,
-      "sma_200": 6106.15
+      "sma_200": 6106.16
     },
     "kosdaq": {
-      "current": 827.99,
+      "current": 830.37,
       "high_52w": 1229.42,
-      "drop_pct": -32.65,
+      "drop_pct": -32.46,
       "intraday_low_drop_pct": -33.73,
-      "sma_200": 988.44
+      "sma_200": 988.45
     },
     "sp500": {
       "current": 7673.52,
@@ -157,7 +143,7 @@
     "leading_stock_rising_3d": false,
     "leading_detail": {
       "samsung_3d_up": false,
-      "samsung_retail_buying": false,
+      "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
       "hynix_3d_up": true,
@@ -167,6 +153,14 @@
       "gate_passed": false,
       "history": {
         "samsung": [
+          {
+            "date": "2026.09.09",
+            "close": 269500,
+            "change_pct": 0.0,
+            "retail_net": 1144007,
+            "inst_net": 1740154,
+            "foreign_net": -2884161
+          },
           {
             "date": "2026.09.08",
             "close": 269500,
@@ -198,17 +192,17 @@
             "retail_net": 747776,
             "inst_net": -839601,
             "foreign_net": 91825
-          },
-          {
-            "date": "2026.09.02",
-            "close": 250500,
-            "change_pct": -4.02,
-            "retail_net": 4299438,
-            "inst_net": -2977902,
-            "foreign_net": -1321536
           }
         ],
         "hynix": [
+          {
+            "date": "2026.09.09",
+            "close": 1856000,
+            "change_pct": 3.51,
+            "retail_net": -116700,
+            "inst_net": 74984,
+            "foreign_net": 41716
+          },
           {
             "date": "2026.09.08",
             "close": 1793000,
@@ -240,14 +234,6 @@
             "retail_net": 421914,
             "inst_net": -187288,
             "foreign_net": -234626
-          },
-          {
-            "date": "2026.09.02",
-            "close": 1613000,
-            "change_pct": -4.73,
-            "retail_net": 946726,
-            "inst_net": -295219,
-            "foreign_net": -651507
           }
         ]
       }
@@ -301,7 +287,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 130.04,
+    "strategy_pct": 193.804,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1009,7 +995,7 @@
       },
       {
         "date": "2026-09-09",
-        "ret_pct": 130.04
+        "ret_pct": 193.804
       }
     ],
     "monthly_breakdown": [
@@ -1063,9 +1049,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -55.25,
-        "end_ret_pct": 130.04,
-        "max_dd_pct": 63.66
+        "return_pct": 8.52,
+        "end_ret_pct": 193.8,
+        "max_dd_pct": 1.48
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
