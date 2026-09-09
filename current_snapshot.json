@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-09T08:19:11.320597+09:00",
+  "timestamp": "2026-09-09T10:18:31.226193+09:00",
   "sentiment": {
-    "cnn_fng": 40.8,
+    "cnn_fng": 40.6285714285714,
     "cnn_components": {
       "momentum": 32.0,
       "strength": 12.0,
-      "breadth": 41.8,
+      "breadth": 40.6,
       "put_call": 51.6,
       "junk_bond": 72.2,
       "volatility": 50.0,
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 4,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 3,
+      "greed_articles": [
+        {
+          "title": "“오를 줄 알고 신용으로 물 탔는데”…변수투성이 증시, 빚투만 급증했다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZbTVtaXBIUk9GcHJkeVVtSFJzZnJkZU5FT1FjNTY4UjlSNUtJY0drS1l5amJ3RXJnU3kxV0FMclNUR3JHS1VnY2d6X19BSDA?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 22:00:00 GMT",
+          "source": "v.daum.net"
+        }
+      ],
       "fear_articles": [
         {
           "title": "[마켓 프리뷰] 뒷심 부족했던 코스피, 금리·유가에 막판 하락 전환 - v.daum.net",
@@ -25,35 +32,29 @@
           "source": "v.daum.net"
         },
         {
-          "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NSlNhOGZXUUk0ZGgyVFVnRzZ1M1hoUTRFWE5rRU95VmVkUHE3OWsxNl91azVramxPREF2bzlwNWpZOFc1OFdSR21xNEg5WnJuZEE?oc=5",
-          "pub_date": "Tue, 08 Sep 2026 22:50:42 GMT",
-          "source": "매일경제 마켓"
+          "title": "“레버리지때문에 한국 증시 바닥쳤다”…한달만에 39% 급락, 亞 곳곳서 문제 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xTDF3dDhwZGgtMjUwUHcwbThjS09HQ0lSNGtLZElTR3JzVzBlWGtRMUs5eDNFaHlrLVVacXFPZ2tuclkySGgwZHNUbnM3ZzQ?oc=5",
+          "pub_date": "Tue, 08 Sep 2026 22:51:00 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "[마켓 프리뷰] 뒷심 부족했던 코스피, 금리·유가에 막판 하락 전환 - supple.kr",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yYTY2WDRsZkxwa3Q5a3RwMWxsQlVDeFhUWEtLNXJhQ0twZ05QZjVzMlpnbDJqdExBSFZnYnJTT1U2RkQ3UWF4ZG14X183VTM0VnlOSDQzcnM1bzdJ?oc=5",
-          "pub_date": "Tue, 08 Sep 2026 22:27:52 GMT",
-          "source": "supple.kr"
-        },
-        {
-          "title": "유럽증시, 이틀 후 ECB 금리 인상 예견하며 보합권 혼조… 노바티스 10.9% 급락 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wSjQ1bWdLR0lZTWRVN21nQ0x6QjlTM3ZHbGhwbWZDcFZ1YWRZdTdKeFlXdEtHV3Y5dkhKWW5rRnRWVlFDRFJYM1pod015S0trY21kOHlZanAxOGVn?oc=5",
-          "pub_date": "Tue, 08 Sep 2026 17:20:00 GMT",
-          "source": "뉴스핌"
+          "title": "엔화 환율 급락에 불거진 ‘엔 캐리 청산’ 우려…증권가 “2024년 같은 글로벌 증시 하락 가능성 크지 않아” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNTJpM3JzZzV3TlJad1BvdzNhN21qWjNYUGY1cDE4MXRiazYzanBjN0pkY1RVZEpvZUV6QU1DTXhMUV95OGZXNnFPSW1fTVFvRDAtNEJ0SjZNSUNvMFpObGlwdXRkOFBGV3lmM3VGUldUcXpESHpmMFJTajNQUk5KN3AzaHEzZkxI0gGcAUFVX3lxTE9rSXh0elZMNlVhS0lRRkwwTldkbGx0dnlPUTBtMnl0UVBJOHhzYnZDaE5mby1zeVA1NkN6aDJlaE1aeXJJOFV1RnN2aGg1a0tPa1VqTUtVa2d4NjJxdlF2SVo2Q0p0MXlSZXhCa2c2ZmdvU1M3SGxmd01BSlI3TUdmdnItQWxoWW4tcnc0V21Cd3NJTXdndG5NQUJIdA?oc=5",
+          "pub_date": "Wed, 09 Sep 2026 00:20:00 GMT",
+          "source": "Chosunbiz"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.3,
+    "vix": 15.72,
     "vvix": 88.69,
     "skew": 148.86,
     "move": 76.14
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": 1274300000000,
-    "retail_net_buy_krw": -3032900000000,
+    "foreign_inst_buy_krw": 42300000000,
+    "retail_net_buy_krw": -403000000000,
     "margin_loan_krw": 32763900000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -68,18 +69,18 @@
       "sma_200": 24417.77
     },
     "kospi": {
-      "current": 6995.39,
+      "current": 7037.0,
       "high_52w": 9385.59,
-      "drop_pct": -25.47,
-      "intraday_low_drop_pct": -26.82,
-      "sma_200": 6077.04
+      "drop_pct": -25.02,
+      "intraday_low_drop_pct": -25.76,
+      "sma_200": 6091.38
     },
     "kosdaq": {
-      "current": 822.19,
+      "current": 828.92,
       "high_52w": 1229.42,
-      "drop_pct": -33.12,
-      "intraday_low_drop_pct": -33.32,
-      "sma_200": 989.32
+      "drop_pct": -32.58,
+      "intraday_low_drop_pct": -33.73,
+      "sma_200": 988.88
     },
     "sp500": {
       "current": 7673.52,
@@ -96,20 +97,20 @@
       "sma_200": 2747.83
     },
     "soxx": {
-      "current": 528.4,
+      "current": 519.86,
       "high_52w": 655.95,
-      "drop_pct": -19.45,
-      "intraday_low_drop_pct": -19.89,
-      "sma_200": 432.54
+      "drop_pct": -20.75,
+      "intraday_low_drop_pct": -22.67,
+      "sma_200": 431.28
     }
   },
   "sector_rs": {
-    "XLK": 0.999,
-    "SMH": 0.932,
-    "BOTZ": 0.909,
-    "IGV": 1.06,
-    "XLF": 1.052,
-    "XLE": 1.091
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -126,7 +127,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -145,19 +146,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 64.11,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 130.41,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -93.52,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
