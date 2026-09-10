@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T05:59:22.343233+09:00",
+  "timestamp": "2026-09-11T08:04:42.491409+09:00",
   "sentiment": {
     "cnn_fng": 33.2571428571429,
     "cnn_components": {
@@ -14,16 +14,42 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 3,
+      "fear_count": 1,
+      "greed_articles": [
+        {
+          "title": "자산운용사 2분기 순익 2.7조…증시 활황에 '역대급 실적 잔치' - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85RkIwSThlbmJpU3FaMVYyX0FjQXhHSXh5MzByMzlTd1BfZXNTNzVqNVVuT0EwMmxvV2RfVlNOWVBBNk0tRG01OW91N243d0kxcmNvU0hGNWtldzRLQmV3Zm5VSDNDeU0tZExCUVdnU3Q?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 22:39:47 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "증시 활황에 운용사 번 돈 늘었는데…양극화는 심화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JR21RQ3BxZWNvQmxKTHdsRHZvYVhlc3NGdVBWdDN6MURfRnVDYmdudklROG5lbEhSTmdqZlJJRS1aRFJ3ZHEzMUFNcXg2M3c?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 21:01:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "증시 활황에 운용사 순익 83% 늘었는데…10곳 중 4곳은 적자 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQUZ0YW5DSVQxMmlrUU5MZUxDdVhoRkhWY3BIQ1hGREYzWDJNRjJnX3RTcTA2dk5WUy1FazJUb0kzbnpUMlkwOXRKQWJ2b2Jwa3RRdDd2aHE0ZFJkU1FHNmZWaDhBcmNzQ0dPZjhWNDhKV3NtenlFbGpmNGFweHp1Z1YzM1F2VktXeEFV?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 23:01:06 GMT",
+          "source": "조선일보"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "美 반도체주 급락에 코스피도 조정 압력…외국인 향방 안갯속 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LSF80MW9fT0FrcHVqUmdhbDFXenNJWGZsbmJWQzZ4LWJXVldZSnhvYlRSejVtRFhCWTJLa2xRRHlmNzgyTlk0TWZKVU5KWDZVSlhQaWZjU3pyRW54ZFBhY0ZCM1JRaHdi?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 21:45:54 GMT",
+          "source": "ebn.co.kr"
+        }
+      ]
     }
   },
   "volatility": {
     "vix": 17.84,
     "vvix": 102.66,
-    "skew": 149.25,
+    "skew": 147.02,
     "move": 82.09
   },
   "korea_flow": {
@@ -205,7 +231,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 187.205,
+    "strategy_pct": 186.383,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -921,7 +947,7 @@
       },
       {
         "date": "2026-09-11",
-        "ret_pct": 187.205
+        "ret_pct": 186.383
       }
     ],
     "monthly_breakdown": [
@@ -975,9 +1001,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 1.92,
-        "end_ret_pct": 187.21,
-        "max_dd_pct": 7.51
+        "return_pct": 1.1,
+        "end_ret_pct": 186.38,
+        "max_dd_pct": 8.33
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
