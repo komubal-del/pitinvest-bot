@@ -1,33 +1,51 @@
 {
-  "timestamp": "2026-09-10T10:11:52.116628+09:00",
+  "timestamp": "2026-09-10T15:05:54.732979+09:00",
   "sentiment": {
-    "cnn_fng": 39.0285714285714,
+    "cnn_fng": 38.8857142857143,
     "cnn_components": {
       "momentum": 28.0,
       "strength": 10.0,
       "breadth": 32.0,
       "put_call": 61.2,
-      "junk_bond": 69.8,
+      "junk_bond": 68.8,
       "volatility": 50.0,
       "safe_haven": 22.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 8,
       "fear_count": 0,
       "greed_articles": [
         {
-          "title": "증시 활황에 증권사 2분기 순이익 5조 돌파 역대 '최대' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BbUZfYndfRXlQMmpJZ1pGYjZocTZseEotbEhDQ29hVzZLdW53OVA4YW4xVzBSczJzZ2hDMUY5Q0U3OHEzUjlNbUVDTjVSZm8?oc=5",
-          "pub_date": "Wed, 09 Sep 2026 23:57:06 GMT",
+          "title": "한 달여 만에 4000p 빠진 ‘롤러코스피’… 한은 “삼전닉스 쏠림에 레버리지 ETF 탓” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOek5YX1FhckhKc3FuSGRrMW1WdElGdVYyMFdfSy1DVERoY2ZnNThxMjRzbXZNSmlyLWtlN0oxZDR6ckRMWEZYbEdCbjlvdWxkejBOY3VEaWJyTnFhN2N2cngyYTVXa2FjZTl1Y0otZGhyVXhsRmVzemgxNmRyV21jRFUtSXNKUdIBmgFBVV95cUxQLVFTTkJQZkxSbTF5OWdwRmNnSXZUR2xwZzBwR2hpclpMN29Cb0w5WGRoSVlhb1ZGb1JaVWZTNkxsdEQ1Zk80Z19iaHNnX1RNTEYtc3lkQTBpN3lvRWtLeVVNeVk5YnFWTGR3WVRaYXNFa1VhZTk0SnNQVzlwb2RzOXdxQlBIOU1UbjVFM0Jlbm9uMHRBZlBBNC1n?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 03:11:15 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "코스피 하루 5% 급등락 ‘위기때 두 배’…반도체 쏠림·빚투가 키웠다 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BMGFCUGhzRzhFSDR5eTUwUG12TjZiSmdIRFBYcFlfWm85MDMyTTI0bGF0andOWTJkZ3d6cEhLaXBRNWRsZzF1dVFlN1ZPMWc?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 03:01:00 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "증시 활황에…증권사 2분기 순이익 5조 돌파 - asiae.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLN1ZKenBtbEZkTGplT05SUWVMc0pRZXQ5TkNRMjRDSGtCSWVheE5qRGtWRkhDajJtM05iUFdsZFpvRU50cFhDS2liRHhSNEJ1VElULXNqbE4tWTBIVnpxcA?oc=5",
-          "pub_date": "Wed, 09 Sep 2026 21:00:00 GMT",
+          "title": "한국은행 “코스피, 단일종목 레버리지 ETF 과열이 변동성 키워” - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11NEE4dDRRanMyRXlNdl8zMEhhbGMxNDhNRDFPcGZRb3NUY1Q4U1Q2NldlYXcyYVg3dkRaZi1FYkhIVVZwb0xwWEJWcGgyTWpYNmoyQkMxVThiSGZWTmhKSjBZMHrSAWhBVV95cUxPSjFxV2s0RjZEblZBQk1GLVUyckIxQnMyYkVaU1lqaHhJR01hOXVZakp3X01UTjl1OVo1R1h4ZzhyU0FycHRxVk5rVnpHUDl6ZFdwWU9YYlM4RmRUYWMwTmw4akdVWUZIQg?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 04:49:50 GMT",
+          "source": "매일일보"
+        },
+        {
+          "title": "한은 \"레버리지 ETF·빚투, 증시 변동성 원인…점검 강화·체질 개선해야\"(종합) - asiae.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GY0Utd2RFcE50LXNpUk5JM3daTUhlbUgzVFdTSzZ0SHNjcVRuVDliWTA1ekhldjBaZlUyZElxbXAzbHhvU0xwUW9STVVNcWk1RTNCd05maW16MnNGTzlSNg?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 04:30:14 GMT",
           "source": "asiae.co.kr"
+        },
+        {
+          "title": "한은 “코스피 변동성 세계 최고, 이유는 ‘빚투’·‘레버리지 ETF’” - kyeonggi.com",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSTThNbzhMbHQzem51RmRUNHAycGwyU2dMX2VDSGJGWHBIa19jYWVCS2Q5VFNWZUhiSVFVNFpRQWtzcTVSSkNMbG4wR1MxdWpDQWc3TkhqMm9Ja0E?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 04:56:37 GMT",
+          "source": "kyeonggi.com"
         }
       ],
       "fear_articles": []
@@ -40,8 +58,8 @@
     "move": 76.74
   },
   "korea_flow": {
-    "foreign_inst_buy_krw": -775700000000,
-    "retail_net_buy_krw": 448200000000,
+    "foreign_inst_buy_krw": -1802400000000,
+    "retail_net_buy_krw": 148200000000,
     "margin_loan_krw": 32318500000000,
     "news_count": 0,
     "short_sale_balance": null,
@@ -56,18 +74,18 @@
       "sma_200": 24436.22
     },
     "kospi": {
-      "current": 6960.39,
+      "current": 7060.03,
       "high_52w": 9385.59,
-      "drop_pct": -25.84,
-      "intraday_low_drop_pct": -25.84,
-      "sma_200": 6105.71
+      "drop_pct": -24.78,
+      "intraday_low_drop_pct": -26.5,
+      "sma_200": 6121.02
     },
     "kosdaq": {
-      "current": 816.74,
+      "current": 838.95,
       "high_52w": 1229.42,
-      "drop_pct": -33.57,
-      "intraday_low_drop_pct": -33.58,
-      "sma_200": 988.39
+      "drop_pct": -31.76,
+      "intraday_low_drop_pct": -33.82,
+      "sma_200": 988.14
     },
     "sp500": {
       "current": 7636.36,
@@ -77,27 +95,27 @@
       "sma_200": 7152.02
     },
     "russell2k": {
-      "current": 2921.23,
+      "current": 2921.24,
       "high_52w": 3069.71,
       "drop_pct": -4.84,
       "intraday_low_drop_pct": -4.91,
       "sma_200": 2750.7
     },
     "soxx": {
-      "current": 528.4,
+      "current": 532.0,
       "high_52w": 655.95,
-      "drop_pct": -19.45,
-      "intraday_low_drop_pct": -19.89,
-      "sma_200": 432.54
+      "drop_pct": -18.9,
+      "intraday_low_drop_pct": -19.99,
+      "sma_200": 433.8
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.011,
+    "SMH": 0.955,
+    "BOTZ": 0.922,
+    "IGV": 1.055,
+    "XLF": 1.04,
+    "XLE": 1.072
   },
   "signals": {
     "cnn_under_10": false,
@@ -114,7 +132,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -133,19 +151,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 62.72,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 135.27,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -93.42,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -159,7 +177,7 @@
       "samsung_retail_buying": true,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -300,7 +318,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 194.717,
+    "strategy_pct": 131.535,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1012,7 +1030,7 @@
       },
       {
         "date": "2026-09-10",
-        "ret_pct": 194.717
+        "ret_pct": 131.535
       }
     ],
     "monthly_breakdown": [
@@ -1066,9 +1084,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 9.43,
-        "end_ret_pct": 194.72,
-        "max_dd_pct": 1.48
+        "return_pct": -53.75,
+        "end_ret_pct": 131.53,
+        "max_dd_pct": 62.27
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
