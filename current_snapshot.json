@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T08:04:42.491409+09:00",
+  "timestamp": "2026-09-11T09:59:06.287003+09:00",
   "sentiment": {
     "cnn_fng": 33.2571428571429,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
+      "greed_count": 2,
+      "fear_count": 15,
       "greed_articles": [
         {
           "title": "자산운용사 2분기 순익 2.7조…증시 활황에 '역대급 실적 잔치' - 연합인포맥스",
@@ -24,24 +24,42 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "증시 활황에 운용사 번 돈 늘었는데…양극화는 심화 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JR21RQ3BxZWNvQmxKTHdsRHZvYVhlc3NGdVBWdDN6MURfRnVDYmdudklROG5lbEhSTmdqZlJJRS1aRFJ3ZHEzMUFNcXg2M3c?oc=5",
-          "pub_date": "Thu, 10 Sep 2026 21:01:00 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "증시 활황에 운용사 순익 83% 늘었는데…10곳 중 4곳은 적자 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQUZ0YW5DSVQxMmlrUU5MZUxDdVhoRkhWY3BIQ1hGREYzWDJNRjJnX3RTcTA2dk5WUy1FazJUb0kzbnpUMlkwOXRKQWJ2b2Jwa3RRdDd2aHE0ZFJkU1FHNmZWaDhBcmNzQ0dPZjhWNDhKV3NtenlFbGpmNGFweHp1Z1YzM1F2VktXeEFV?oc=5",
-          "pub_date": "Thu, 10 Sep 2026 23:01:06 GMT",
-          "source": "조선일보"
+          "title": "증시호황에 자산운용사 2분기 순익 2.7조 사상 최대 ... '빚투' 경고↑ - 파이낸셜신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tYTh0UmxfalFmZTJMTEdlVGhIblBjYTFiYS1jcDBXWTZxZUFmUHJuV0pvcENZUTJIS3k3c2hRbmtmRzJ2T0VfODdqRGdsRElGRi1KY2xqTVVZRlBvV3ctVTY3T29LdXlDSVlJ?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:41:00 GMT",
+          "source": "파이낸셜신문"
         }
       ],
       "fear_articles": [
         {
-          "title": "美 반도체주 급락에 코스피도 조정 압력…외국인 향방 안갯속 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LSF80MW9fT0FrcHVqUmdhbDFXenNJWGZsbmJWQzZ4LWJXVldZSnhvYlRSejVtRFhCWTJLa2xRRHlmNzgyTlk0TWZKVU5KWDZVSlhQaWZjU3pyRW54ZFBhY0ZCM1JRaHdi?oc=5",
-          "pub_date": "Thu, 10 Sep 2026 21:45:54 GMT",
-          "source": "ebn.co.kr"
+          "title": "코스피, 유가·금리 부담에 3.3% 급락 6800선 출발 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wak00a0hnQ05PVHJEMnNaQ0s4QWJMN1lNU0F1VnlVTy1MQ1JpdWN4TlZFUFA3NDBRTmVZQUd1bjVyT2pIOTBHYlozLTRyc0Rpb0xOTXZKdTE3cUdzMnpIaw?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:14:06 GMT",
+          "source": "뉴스토마토"
+        },
+        {
+          "title": "[속보] 코스피 3% 급락 출발…6,800선 후퇴 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ya1BWM09kdnliNEFMek5fVkR6OXRwRVJhNnNCUFNSSTlPdFJoaTJIalFCSHdiR1UzSDhLOUVUcElXS0ZaekF3a25zNWoxMTByOElFX0pacWRqaS0wSEQ0LVVqY0JqOTQ?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:12:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스피, 6800선까지 급락 출발…코스닥도 동반↓ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oS0xMR29IUGxlTnhOa1pSYUlpd002ZDNSanE5UnhfOW90Y3l6RkJ4cldZcndNYjhYTnJZLW9qSzNrYy04UTcwUlhhQnI0X1k?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:30:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[속보] 코스피, 3.3% 급락해 7천피 아래로…6,802 출발 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xamNQLUNLTmM1cHVUaDNkQ2NNam1FRnF3OVJPclk5SkN1RW8tcEk5dWRHcHlmLW55S2lEWGVKVzgzRVBkc1IyRDNJVXZPZEZ6ZnZPSUpEVHlTaEnSAWBBVV95cUxQaHpNZmZDeVRuRmU4alNQZzNra3pqSDJGRnJyandfbXJiSXdoY3Y4cnE4WV9ZR2RRU0JYQXZ2eHJFZFNqZ1lFN0RNb0Z2WWYyVXpZck9fWWx6QUtLT2lDMjE?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:01:45 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[속보]7000피 깨졌다…코스피 3.3% 급락한 6802.5 출발 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYWZZdWlvWEdBZnV0OVk5V2ltWXFWU0hNdzJtRDhSMjRoUko2QjFad0xXdkhaTFd3OG1zdlFtUUJGNS1NQ3lJTG1kTFFRWDVzd2dVSGprcF9zTExGcG9EalFrNXU2elpKWk81SjhuZE5uQ0lCQUhtVXNVUk5RRkRzN3ZyQ3FoQ1piS1cycUNxRURWX0d4d2RzMFliWjYzTW40WFlEMkg1V25PUdIBX0FVX3lxTE16S2tYSXBjbDVyWHF5T00wUlpvZWFrYi1MQTl3NjF3N3pqOFdfTmhaN0NJWjNfcDIta25DOU5HaF85ekkwX3FsdDdWMGUtbnRobHhOYlJRZjRTdTFPV0Y0?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:07:00 GMT",
+          "source": "경향신문"
         }
       ]
     }
@@ -69,18 +87,18 @@
       "sma_200": 24456.24
     },
     "kospi": {
-      "current": 7051.64,
+      "current": 6871.01,
       "high_52w": 9385.59,
-      "drop_pct": -24.87,
-      "intraday_low_drop_pct": -25.76,
-      "sma_200": 6106.16
+      "drop_pct": -26.79,
+      "intraday_low_drop_pct": -27.52,
+      "sma_200": 6120.07
     },
     "kosdaq": {
-      "current": 830.37,
+      "current": 822.9,
       "high_52w": 1229.42,
-      "drop_pct": -32.46,
-      "intraday_low_drop_pct": -33.73,
-      "sma_200": 988.45
+      "drop_pct": -33.07,
+      "intraday_low_drop_pct": -33.55,
+      "sma_200": 988.06
     },
     "sp500": {
       "current": 7591.7,
@@ -97,20 +115,20 @@
       "sma_200": 2753.63
     },
     "soxx": {
-      "current": 517.43,
+      "current": 532.0,
       "high_52w": 655.95,
-      "drop_pct": -21.12,
-      "intraday_low_drop_pct": -21.59,
-      "sma_200": 435.05
+      "drop_pct": -18.9,
+      "intraday_low_drop_pct": -19.99,
+      "sma_200": 433.8
     }
   },
   "sector_rs": {
-    "XLK": 0.983,
-    "SMH": 0.893,
-    "BOTZ": 0.906,
-    "IGV": 1.081,
-    "XLF": 1.053,
-    "XLE": 1.112
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,7 +145,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -146,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 57.4,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 116.37,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.24,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -188,8 +206,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-09-08",
-    "analyzed_at": "2026-09-08T13:52:49.279270+09:00",
+    "date": "2026-09-11",
+    "analyzed_at": "2026-09-11T09:59:15.863337+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -197,16 +215,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "YfNd47ZAnlI",
-        "title": "삼성전자 전고점 돌파하면 매수세 붙는다…코스피 다음 시나리오는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-09-08T00:09:11Z",
-        "url": "https://youtube.com/watch?v=YfNd47ZAnlI",
+        "video_id": "sgSwryZiQZY",
+        "title": "전쟁·유가·금리 5% 눈앞인데… 시장은 왜 버티나? 4분기 투자 핵심은 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-11T00:06:07Z",
+        "url": "https://youtube.com/watch?v=sgSwryZiQZY",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 특정 조건 시 시장 반응을 분석하고 향후 시나리오에 대한 질문을 던질 뿐, 구체적인 매수/매도 권고나 강한 낙관/비관적 입장을 표명하지 않습니다."
+          "reason": "제목에서 전쟁, 유가, 금리 상승 등 어려운 시장 환경을 언급하면서도 시장이 버티는 이유에 대한 분석을 예고하고, 4분기 투자 핵심을 다룬다고 하여 특정 방향의 구체적인 행동 권고보다는 시장 상황 분석 및 전략 제시의 중립적 입장으로 판단됩니다."
         }
       },
       {
@@ -219,7 +237,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 반도체 급락과 반등에 대한 해석을 묻는 질문 형식이며, 내용에는 주식 시장에 대한 구체적인 매도/매수/보유 행동 권고나 방향성 제시 없이 영상 촬영일 정보와 전문가 학습 채널 홍보 내용만 포함되어 있습니다."
+          "reason": "영상 제목은 반도체 급락과 반등에 대한 해석을 다루고 있으며, 내용에 매수/매도/현금화 등 구체적인 행동 권고나 시장 방향성을 제시하는 문구가 전혀 없습니다."
         }
       }
     ],
