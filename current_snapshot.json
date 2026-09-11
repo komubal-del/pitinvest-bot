@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-11T14:49:23.066113+09:00",
+  "timestamp": "2026-09-11T20:07:45.904132+09:00",
   "sentiment": {
-    "cnn_fng": 33.1142857142857,
+    "cnn_fng": 31.2,
     "cnn_components": {
       "momentum": 24.4,
-      "strength": 6.8,
-      "breadth": 19.2,
+      "strength": 3.4,
+      "breadth": 9.2,
       "put_call": 42.0,
       "junk_bond": 68.0,
       "volatility": 50.0,
@@ -14,64 +14,52 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 16,
+      "greed_count": 1,
+      "fear_count": 7,
       "greed_articles": [
         {
-          "title": "코스피 3% 하락, 국고채 3년 연고점…유가·금리 치솟자 금융시장 타격 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01NXdtbXQzd0ktZmM1ZnUyeEYyVFFCcHd5WGVFS1lyMFVpMHVsVE9oTHNpUWRjNTEzLXF6WUdEOXplTlRYSUJpN0RPaFNoWE94bGpweVYzeEdzbTJKMEY5dUU4TzAzMXM?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 04:27:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "증시·ETF 활황에 1년 만에 3배 성장한 자산운용업계 이익 - khan.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZmx3WHB5X1pxYkIxRWkxZlBFUlFhTUpqZXZBZ2p4cGpyMUhjYzQtaWZiQ2R6OXlhbi05RzZnREJnSmNray1qZHJHXzVYUzZHZm96V01QZ1Rfd9IBX0FVX3lxTFBiRURSRl8ta1ZUdy03OVhNb3JtcXJQLW9oMHRrSGNSS2dQVU1LcllxaE1pRFk3dGhtd2VnTlRLdmw2cEU3TlhkSEk4UXlnNVJkUm5LRUF3VG0ybGNOYmxR?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 01:52:00 GMT",
-          "source": "khan.co.kr"
-        },
-        {
-          "title": "증시 활황에 2분기 운용사 순익 83% 늘었는데…10곳 중 4곳은 적자 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQUZ0YW5DSVQxMmlrUU5MZUxDdVhoRkhWY3BIQ1hGREYzWDJNRjJnX3RTcTA2dk5WUy1FazJUb0kzbnpUMlkwOXRKQWJ2b2Jwa3RRdDd2aHE0ZFJkU1FHNmZWaDhBcmNzQ0dPZjhWNDhKV3NtenlFbGpmNGFweHp1Z1YzM1F2VktXeEFV?oc=5",
-          "pub_date": "Thu, 10 Sep 2026 23:06:04 GMT",
-          "source": "조선일보"
+          "title": "증시 활황에 웃었던 증권사…조정국면에 하반기 ‘긴장’ - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTNTVKdVAxYzFSSGV3VThJN21ydGg2RERtQlJEOVEzX1NfVXZ4UVdPbHpUY2dMVHJnT1hUQWlmaEc0MGtaNURfZ0djU0o3OHV2eTVFZzQyanpYaFRUSjlSYWZB?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 08:54:00 GMT",
+          "source": "이코노미스트"
         }
       ],
       "fear_articles": [
         {
-          "title": "[경제읽기] 유가·국채 금리 급등에 코스피 하락…삼전닉스 급락 - 연합뉴스TV",
+          "title": "[속보]'유가 쇼크·금리 부담' 코스피 1.76% 급락…7,000선 붕괴 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WT05kR0ZIX3RUNlB2aE5GaUw2UFRhV3M4VVpUakU4VHc0Q0NTcjBjYzFMSDlINGUwZExrLUtDMm9HZnlvaHNVM1hET1hpeVR0YXA5Tzk1M0xYbS1VTEJuOA?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 08:03:05 GMT",
+          "source": "KBC광주방송"
+        },
+        {
+          "title": "코스피, 미 CPI 경계감에 1.76% 급락…6900선은 지켜 - newstomato.com",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjbFRGM05SS0xRVGdjb0RtTFU1eTdwSzU3ekdNa0RyQTgzNTV4bzJ0M0I4dFdhOElPNTZMZmQ1VktYcnpTSWwwQVBVSlZJZGxfd2F0dHRpSElYOTJmWnZRbw?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 07:37:53 GMT",
+          "source": "newstomato.com"
+        },
+        {
+          "title": "[경제읽기] 유가·국채 금리 급등에 코스피 하락…삼전닉스 급락 - yonhapnewstv.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yT2JFMnJWZUpRQ0NfZnI0bUF4b3p1NlQ2RS1CVHNXczJzRTdTbFBuemktamZadzlyQnAtLV9EclUzejJsOGxKLXNwOXhFZGZCcTZ4bnhGakl2V3hsQlFLcTBZZ190RFk?oc=5",
           "pub_date": "Fri, 11 Sep 2026 04:42:00 GMT",
-          "source": "연합뉴스TV"
+          "source": "yonhapnewstv.co.kr"
         },
         {
-          "title": "[속보] 코스피 3% 급락 출발…6,800선 후퇴 - 연합뉴스TV",
+          "title": "코스피, 3거래일 만에 7000선 하회…외인·기관 매도에 1.76% 급락 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJTmpkQ2YzTXRfcFc3WVZOSENJYWZuRmEzRm1pRnd6eVJuSE1hX0ZmRTA3U2Jwb0Z3VmFXeEdDNlBXQmRnZUF3ZFpFXzhUYzNiOWxsSmc0dmdsZG4zWUhsbERWd1J0Y1R4UmJ1UjU0LWlRQQ?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 08:41:13 GMT",
+          "source": "인더스트리뉴스"
+        },
+        {
+          "title": "[속보] 코스피 3% 급락 출발…6,800선 후퇴 - yonhapnewstv.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ya1BWM09kdnliNEFMek5fVkR6OXRwRVJhNnNCUFNSSTlPdFJoaTJIalFCSHdiR1UzSDhLOUVUcElXS0ZaekF3a25zNWoxMTByOElFX0pacWRqaS0wSEQ0LVVqY0JqOTQ?oc=5",
           "pub_date": "Fri, 11 Sep 2026 00:12:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "국제유가·美국채금리 충격…코스피 3%대 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44bDNUTXpCcXhiTy04VkRLLWNhcXZfbUlYRlRpd2VWTDM2N0VscUpSTEdmY2FGcnpaVEgxTnNsVjhYcmx0Ri0xbm5QT2FtLUE5LXlrVjhDZ2YzU05jTW54SE9hNnpURWc?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 01:15:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "유가 급등·Fed 금리 인상 우려에 아시아 증시 급락 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lMEszMXl1WWgzODNlZWV5R1I2Ylh4QUZYX19abFp3T3FvVFpSa21pSlZzQXFoZ0lzN3BKR2NCZ1JyNmRjUmFqLTV4ZWJLVm5LWEFNUEpZQmRpZlJKYUxTRFRhZ045NlpQVkpDWmZJUkM?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 03:14:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피, 장중 3%대 급락...6800선 붕괴 위협 - 스트레이트뉴스",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WX3pfMmNoVENDSklfRjNHeVd1bER5RHZTcVhmTTdhZWYzQ1VJam9Ra3ZhVmc2bnNlYWxBallTZURfMUtweVhMaHFMY1hseFUzS3pKUlFQeHBaX0pGQUxPVG1VdzVVeVl5dklXUXNHNEJoOXPSAXdBVV95cUxOdUZtdTJZMHFhdHlaSzRVd2NmVkJqZWZkWGwwQjJ2TVpXd0NreFpkeUJiaHdIODBfOUo2cElwVFk5QmYtbk41eDZnQzdUZkFtTmk1a3A5TXJSZ1NnQnJ5QjRjRDcxalY5a0RNZXdRM1FlTVlTZEJ0QQ?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:55:17 GMT",
-          "source": "스트레이트뉴스"
+          "source": "yonhapnewstv.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.84,
+    "vix": 17.22,
     "vvix": 102.66,
     "skew": 147.02,
     "move": 82.09
@@ -93,18 +81,18 @@
       "sma_200": 24456.24
     },
     "kospi": {
-      "current": 6877.38,
+      "current": 6909.91,
       "high_52w": 9385.59,
-      "drop_pct": -26.72,
+      "drop_pct": -26.38,
       "intraday_low_drop_pct": -27.52,
-      "sma_200": 6135.51
+      "sma_200": 6135.67
     },
     "kosdaq": {
-      "current": 819.06,
+      "current": 820.64,
       "high_52w": 1229.42,
-      "drop_pct": -33.38,
+      "drop_pct": -33.25,
       "intraday_low_drop_pct": -33.55,
-      "sma_200": 987.83
+      "sma_200": 987.84
     },
     "sp500": {
       "current": 7591.7,
@@ -255,7 +243,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 132.165,
+    "strategy_pct": 186.383,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -971,7 +959,7 @@
       },
       {
         "date": "2026-09-11",
-        "ret_pct": 132.165
+        "ret_pct": 186.383
       }
     ],
     "monthly_breakdown": [
@@ -1025,9 +1013,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -53.12,
-        "end_ret_pct": 132.16,
-        "max_dd_pct": 62.55
+        "return_pct": 1.1,
+        "end_ret_pct": 186.38,
+        "max_dd_pct": 8.33
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
