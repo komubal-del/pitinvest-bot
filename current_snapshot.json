@@ -1,41 +1,47 @@
 {
-  "timestamp": "2026-09-11T09:59:06.287003+09:00",
+  "timestamp": "2026-09-11T14:49:23.066113+09:00",
   "sentiment": {
-    "cnn_fng": 33.2571428571429,
+    "cnn_fng": 33.1142857142857,
     "cnn_components": {
       "momentum": 24.4,
       "strength": 6.8,
       "breadth": 19.2,
       "put_call": 42.0,
-      "junk_bond": 69.0,
+      "junk_bond": 68.0,
       "volatility": 50.0,
       "safe_haven": 21.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 15,
+      "greed_count": 3,
+      "fear_count": 16,
       "greed_articles": [
         {
-          "title": "자산운용사 2분기 순익 2.7조…증시 활황에 '역대급 실적 잔치' - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85RkIwSThlbmJpU3FaMVYyX0FjQXhHSXh5MzByMzlTd1BfZXNTNzVqNVVuT0EwMmxvV2RfVlNOWVBBNk0tRG01OW91N243d0kxcmNvU0hGNWtldzRLQmV3Zm5VSDNDeU0tZExCUVdnU3Q?oc=5",
-          "pub_date": "Thu, 10 Sep 2026 22:39:47 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피 3% 하락, 국고채 3년 연고점…유가·금리 치솟자 금융시장 타격 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01NXdtbXQzd0ktZmM1ZnUyeEYyVFFCcHd5WGVFS1lyMFVpMHVsVE9oTHNpUWRjNTEzLXF6WUdEOXplTlRYSUJpN0RPaFNoWE94bGpweVYzeEdzbTJKMEY5dUU4TzAzMXM?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 04:27:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "증시호황에 자산운용사 2분기 순익 2.7조 사상 최대 ... '빚투' 경고↑ - 파이낸셜신문",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tYTh0UmxfalFmZTJMTEdlVGhIblBjYTFiYS1jcDBXWTZxZUFmUHJuV0pvcENZUTJIS3k3c2hRbmtmRzJ2T0VfODdqRGdsRElGRi1KY2xqTVVZRlBvV3ctVTY3T29LdXlDSVlJ?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:41:00 GMT",
-          "source": "파이낸셜신문"
+          "title": "증시·ETF 활황에 1년 만에 3배 성장한 자산운용업계 이익 - khan.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZmx3WHB5X1pxYkIxRWkxZlBFUlFhTUpqZXZBZ2p4cGpyMUhjYzQtaWZiQ2R6OXlhbi05RzZnREJnSmNray1qZHJHXzVYUzZHZm96V01QZ1Rfd9IBX0FVX3lxTFBiRURSRl8ta1ZUdy03OVhNb3JtcXJQLW9oMHRrSGNSS2dQVU1LcllxaE1pRFk3dGhtd2VnTlRLdmw2cEU3TlhkSEk4UXlnNVJkUm5LRUF3VG0ybGNOYmxR?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 01:52:00 GMT",
+          "source": "khan.co.kr"
+        },
+        {
+          "title": "증시 활황에 2분기 운용사 순익 83% 늘었는데…10곳 중 4곳은 적자 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQUZ0YW5DSVQxMmlrUU5MZUxDdVhoRkhWY3BIQ1hGREYzWDJNRjJnX3RTcTA2dk5WUy1FazJUb0kzbnpUMlkwOXRKQWJ2b2Jwa3RRdDd2aHE0ZFJkU1FHNmZWaDhBcmNzQ0dPZjhWNDhKV3NtenlFbGpmNGFweHp1Z1YzM1F2VktXeEFV?oc=5",
+          "pub_date": "Thu, 10 Sep 2026 23:06:04 GMT",
+          "source": "조선일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 유가·금리 부담에 3.3% 급락 6800선 출발 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wak00a0hnQ05PVHJEMnNaQ0s4QWJMN1lNU0F1VnlVTy1MQ1JpdWN4TlZFUFA3NDBRTmVZQUd1bjVyT2pIOTBHYlozLTRyc0Rpb0xOTXZKdTE3cUdzMnpIaw?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:14:06 GMT",
-          "source": "뉴스토마토"
+          "title": "[경제읽기] 유가·국채 금리 급등에 코스피 하락…삼전닉스 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yT2JFMnJWZUpRQ0NfZnI0bUF4b3p1NlQ2RS1CVHNXczJzRTdTbFBuemktamZadzlyQnAtLV9EclUzejJsOGxKLXNwOXhFZGZCcTZ4bnhGakl2V3hsQlFLcTBZZ190RFk?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 04:42:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
           "title": "[속보] 코스피 3% 급락 출발…6,800선 후퇴 - 연합뉴스TV",
@@ -44,22 +50,22 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피, 6800선까지 급락 출발…코스닥도 동반↓ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oS0xMR29IUGxlTnhOa1pSYUlpd002ZDNSanE5UnhfOW90Y3l6RkJ4cldZcndNYjhYTnJZLW9qSzNrYy04UTcwUlhhQnI0X1k?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:30:00 GMT",
-          "source": "v.daum.net"
+          "title": "국제유가·美국채금리 충격…코스피 3%대 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44bDNUTXpCcXhiTy04VkRLLWNhcXZfbUlYRlRpd2VWTDM2N0VscUpSTEdmY2FGcnpaVEgxTnNsVjhYcmx0Ri0xbm5QT2FtLUE5LXlrVjhDZ2YzU05jTW54SE9hNnpURWc?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 01:15:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[속보] 코스피, 3.3% 급락해 7천피 아래로…6,802 출발 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xamNQLUNLTmM1cHVUaDNkQ2NNam1FRnF3OVJPclk5SkN1RW8tcEk5dWRHcHlmLW55S2lEWGVKVzgzRVBkc1IyRDNJVXZPZEZ6ZnZPSUpEVHlTaEnSAWBBVV95cUxQaHpNZmZDeVRuRmU4alNQZzNra3pqSDJGRnJyandfbXJiSXdoY3Y4cnE4WV9ZR2RRU0JYQXZ2eHJFZFNqZ1lFN0RNb0Z2WWYyVXpZck9fWWx6QUtLT2lDMjE?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:01:45 GMT",
-          "source": "연합뉴스"
+          "title": "유가 급등·Fed 금리 인상 우려에 아시아 증시 급락 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lMEszMXl1WWgzODNlZWV5R1I2Ylh4QUZYX19abFp3T3FvVFpSa21pSlZzQXFoZ0lzN3BKR2NCZ1JyNmRjUmFqLTV4ZWJLVm5LWEFNUEpZQmRpZlJKYUxTRFRhZ045NlpQVkpDWmZJUkM?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 03:14:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "[속보]7000피 깨졌다…코스피 3.3% 급락한 6802.5 출발 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYWZZdWlvWEdBZnV0OVk5V2ltWXFWU0hNdzJtRDhSMjRoUko2QjFad0xXdkhaTFd3OG1zdlFtUUJGNS1NQ3lJTG1kTFFRWDVzd2dVSGprcF9zTExGcG9EalFrNXU2elpKWk81SjhuZE5uQ0lCQUhtVXNVUk5RRkRzN3ZyQ3FoQ1piS1cycUNxRURWX0d4d2RzMFliWjYzTW40WFlEMkg1V25PUdIBX0FVX3lxTE16S2tYSXBjbDVyWHF5T00wUlpvZWFrYi1MQTl3NjF3N3pqOFdfTmhaN0NJWjNfcDIta25DOU5HaF85ekkwX3FsdDdWMGUtbnRobHhOYlJRZjRTdTFPV0Y0?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:07:00 GMT",
-          "source": "경향신문"
+          "title": "코스피, 장중 3%대 급락...6800선 붕괴 위협 - 스트레이트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WX3pfMmNoVENDSklfRjNHeVd1bER5RHZTcVhmTTdhZWYzQ1VJam9Ra3ZhVmc2bnNlYWxBallTZURfMUtweVhMaHFMY1hseFUzS3pKUlFQeHBaX0pGQUxPVG1VdzVVeVl5dklXUXNHNEJoOXPSAXdBVV95cUxOdUZtdTJZMHFhdHlaSzRVd2NmVkJqZWZkWGwwQjJ2TVpXd0NreFpkeUJiaHdIODBfOUo2cElwVFk5QmYtbk41eDZnQzdUZkFtTmk1a3A5TXJSZ1NnQnJ5QjRjRDcxalY5a0RNZXdRM1FlTVlTZEJ0QQ?oc=5",
+          "pub_date": "Fri, 11 Sep 2026 00:55:17 GMT",
+          "source": "스트레이트뉴스"
         }
       ]
     }
@@ -87,18 +93,18 @@
       "sma_200": 24456.24
     },
     "kospi": {
-      "current": 6871.01,
+      "current": 6877.38,
       "high_52w": 9385.59,
-      "drop_pct": -26.79,
+      "drop_pct": -26.72,
       "intraday_low_drop_pct": -27.52,
-      "sma_200": 6120.07
+      "sma_200": 6135.51
     },
     "kosdaq": {
-      "current": 822.9,
+      "current": 819.06,
       "high_52w": 1229.42,
-      "drop_pct": -33.07,
+      "drop_pct": -33.38,
       "intraday_low_drop_pct": -33.55,
-      "sma_200": 988.06
+      "sma_200": 987.83
     },
     "sp500": {
       "current": 7591.7,
@@ -115,20 +121,20 @@
       "sma_200": 2753.63
     },
     "soxx": {
-      "current": 532.0,
+      "current": 517.43,
       "high_52w": 655.95,
-      "drop_pct": -18.9,
-      "intraday_low_drop_pct": -19.99,
-      "sma_200": 433.8
+      "drop_pct": -21.12,
+      "intraday_low_drop_pct": -21.59,
+      "sma_200": 435.05
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 0.983,
+    "SMH": 0.893,
+    "BOTZ": 0.906,
+    "IGV": 1.081,
+    "XLF": 1.053,
+    "XLE": 1.112
   },
   "signals": {
     "cnn_under_10": false,
@@ -145,7 +151,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -164,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 57.4,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 116.37,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -94.24,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -249,7 +255,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 186.383,
+    "strategy_pct": 132.165,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -965,7 +971,7 @@
       },
       {
         "date": "2026-09-11",
-        "ret_pct": 186.383
+        "ret_pct": 132.165
       }
     ],
     "monthly_breakdown": [
@@ -1019,9 +1025,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 1.1,
-        "end_ret_pct": 186.38,
-        "max_dd_pct": 8.33
+        "return_pct": -53.12,
+        "end_ret_pct": 132.16,
+        "max_dd_pct": 62.55
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
