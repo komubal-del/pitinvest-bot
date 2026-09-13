@@ -1,68 +1,30 @@
 {
-  "timestamp": "2026-09-11T20:07:45.904132+09:00",
+  "timestamp": "2026-09-14T00:03:09.648098+09:00",
   "sentiment": {
-    "cnn_fng": 31.2,
+    "cnn_fng": 33.3428571428571,
     "cnn_components": {
-      "momentum": 24.4,
-      "strength": 3.4,
-      "breadth": 9.2,
-      "put_call": 42.0,
+      "momentum": 28.8,
+      "strength": 5.0,
+      "breadth": 12.6,
+      "put_call": 38.4,
       "junk_bond": 68.0,
       "volatility": 50.0,
-      "safe_haven": 21.4
+      "safe_haven": 30.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 7,
-      "greed_articles": [
-        {
-          "title": "증시 활황에 웃었던 증권사…조정국면에 하반기 ‘긴장’ - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTNTVKdVAxYzFSSGV3VThJN21ydGg2RERtQlJEOVEzX1NfVXZ4UVdPbHpUY2dMVHJnT1hUQWlmaEc0MGtaNURfZ0djU0o3OHV2eTVFZzQyanpYaFRUSjlSYWZB?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 08:54:00 GMT",
-          "source": "이코노미스트"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[속보]'유가 쇼크·금리 부담' 코스피 1.76% 급락…7,000선 붕괴 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WT05kR0ZIX3RUNlB2aE5GaUw2UFRhV3M4VVpUakU4VHc0Q0NTcjBjYzFMSDlINGUwZExrLUtDMm9HZnlvaHNVM1hET1hpeVR0YXA5Tzk1M0xYbS1VTEJuOA?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 08:03:05 GMT",
-          "source": "KBC광주방송"
-        },
-        {
-          "title": "코스피, 미 CPI 경계감에 1.76% 급락…6900선은 지켜 - newstomato.com",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjbFRGM05SS0xRVGdjb0RtTFU1eTdwSzU3ekdNa0RyQTgzNTV4bzJ0M0I4dFdhOElPNTZMZmQ1VktYcnpTSWwwQVBVSlZJZGxfd2F0dHRpSElYOTJmWnZRbw?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 07:37:53 GMT",
-          "source": "newstomato.com"
-        },
-        {
-          "title": "[경제읽기] 유가·국채 금리 급등에 코스피 하락…삼전닉스 급락 - yonhapnewstv.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yT2JFMnJWZUpRQ0NfZnI0bUF4b3p1NlQ2RS1CVHNXczJzRTdTbFBuemktamZadzlyQnAtLV9EclUzejJsOGxKLXNwOXhFZGZCcTZ4bnhGakl2V3hsQlFLcTBZZ190RFk?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 04:42:00 GMT",
-          "source": "yonhapnewstv.co.kr"
-        },
-        {
-          "title": "코스피, 3거래일 만에 7000선 하회…외인·기관 매도에 1.76% 급락 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJTmpkQ2YzTXRfcFc3WVZOSENJYWZuRmEzRm1pRnd6eVJuSE1hX0ZmRTA3U2Jwb0Z3VmFXeEdDNlBXQmRnZUF3ZFpFXzhUYzNiOWxsSmc0dmdsZG4zWUhsbERWd1J0Y1R4UmJ1UjU0LWlRQQ?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 08:41:13 GMT",
-          "source": "인더스트리뉴스"
-        },
-        {
-          "title": "[속보] 코스피 3% 급락 출발…6,800선 후퇴 - yonhapnewstv.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ya1BWM09kdnliNEFMek5fVkR6OXRwRVJhNnNCUFNSSTlPdFJoaTJIalFCSHdiR1UzSDhLOUVUcElXS0ZaekF3a25zNWoxMTByOElFX0pacWRqaS0wSEQ0LVVqY0JqOTQ?oc=5",
-          "pub_date": "Fri, 11 Sep 2026 00:12:00 GMT",
-          "source": "yonhapnewstv.co.kr"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.22,
-    "vvix": 102.66,
-    "skew": 147.02,
-    "move": 82.09
+    "vix": 15.84,
+    "vvix": 91.28,
+    "skew": 154.49,
+    "move": 82.21
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -74,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26081.72,
+      "current": 26333.04,
       "high_52w": 27190.21,
-      "drop_pct": -4.08,
-      "intraday_low_drop_pct": -4.45,
-      "sma_200": 24456.24
+      "drop_pct": -3.15,
+      "intraday_low_drop_pct": -3.34,
+      "sma_200": 24476.53
     },
     "kospi": {
       "current": 6909.91,
@@ -95,34 +57,34 @@
       "sma_200": 987.84
     },
     "sp500": {
-      "current": 7591.7,
+      "current": 7656.98,
       "high_52w": 7816.7,
-      "drop_pct": -2.88,
-      "intraday_low_drop_pct": -3.03,
-      "sma_200": 7157.28
+      "drop_pct": -2.04,
+      "intraday_low_drop_pct": -2.3,
+      "sma_200": 7162.55
     },
     "russell2k": {
-      "current": 2890.95,
+      "current": 2903.94,
       "high_52w": 3069.71,
-      "drop_pct": -5.82,
-      "intraday_low_drop_pct": -5.95,
-      "sma_200": 2753.63
+      "drop_pct": -5.4,
+      "intraday_low_drop_pct": -5.43,
+      "sma_200": 2756.3
     },
     "soxx": {
-      "current": 517.43,
+      "current": 527.07,
       "high_52w": 655.95,
-      "drop_pct": -21.12,
-      "intraday_low_drop_pct": -21.59,
-      "sma_200": 435.05
+      "drop_pct": -19.65,
+      "intraday_low_drop_pct": -20.55,
+      "sma_200": 436.33
     }
   },
   "sector_rs": {
-    "XLK": 0.983,
-    "SMH": 0.893,
-    "BOTZ": 0.906,
-    "IGV": 1.081,
-    "XLF": 1.053,
-    "XLE": 1.112
+    "XLK": 0.984,
+    "SMH": 0.888,
+    "BOTZ": 0.92,
+    "IGV": 1.084,
+    "XLF": 1.043,
+    "XLE": 1.104
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 57.4,
+    "tqqq_profit_pct": 61.43,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 116.37,
+    "soxl_profit_pct": 127.7,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.24,
+    "koru_profit_pct": -93.73,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
