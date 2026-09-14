@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T07:37:57.442997+09:00",
+  "timestamp": "2026-09-14T09:27:39.696464+09:00",
   "sentiment": {
     "cnn_fng": 33.3428571428571,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 1,
+      "fear_count": 12,
       "greed_articles": [
         {
           "title": "美 증시, 닷컴버블 직전 닮았다…월가 \"그래도 주식 팔지 마라\" - ebn.co.kr",
@@ -26,10 +26,34 @@
       ],
       "fear_articles": [
         {
-          "title": "美 증시 헤지 전략도 '양극화'…폭락보다 '질서 있는 하락'에 베팅 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WcVhmb1ptZ0tTWHRpWXNMb0FFYUlIaS1HSk4wWGQwSExwaWRMYnJnUlhKcklEZjd1S19XTnZZVlJoeUxuUHZ2V0l1YzkwWVpPWUtjMFBEZmdVcXlZT3BXTzktZGlTUFRH?oc=5",
-          "pub_date": "Sun, 13 Sep 2026 21:42:37 GMT",
-          "source": "ebn.co.kr"
+          "title": "[개장시황] 코스피 3%대 급락 출발…외국인·기관 동반 '팔자' - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hVFRzcVhFS3J2X2tNbDlTZ09vVHBiWXJPbEE3VVBIOVJoenotMDZPM0taQ0NmYkxuNGdvdS1LTmJ0a0dKWThmQXBpRFpnN3FWOVJheXJsaWtmUUs5?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 00:20:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "코스피, 3% 급락 출발하며 6600선으로...코스닥도 내림세 - 메트로신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mMWU0UDNCSTMtbmVjLWFOY3ZsYnFuc0JjelVSSjZzRFgwMGswbUVqSk5zR0hqU2FSbjRNMUtWcU5IdnR4VWRJbkI0QjFhdVhRc0xEWTBJMGtDS2otZWNBdg?oc=5",
+          "pub_date": "Sun, 13 Sep 2026 23:49:18 GMT",
+          "source": "메트로신문"
+        },
+        {
+          "title": "코스피, 3%대 급락 출발해 6,600대…코스닥도 내려 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hUWNXM0tMcTdvdlkyUUxHb09jdzVGUTd6UjBqVTRtRzZMbk1TQW94S3hzaWxrMlZBRmNHaWlQMmZVRGFaWDJ0ak9zUGlTTHc?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 00:07:54 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "코스피, 3%대 급락해 6600선…삼전·하이닉스 동반 약세 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBleW1BZmJDdWg2dFpBaTJxLU5YVzEzMDd3clo3T0pfMFVNWEVmZkljTUdtM3RacmNpRkJ6cW9BWFZ2dzlMTTRuejduajRpSFR5V1FzbFhoSnZQdw?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 00:18:24 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[속보] ‘유가 쇼크’ 코스피 -3% 급락 출발…SK하이닉스 -5%↓ - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlTHlDczdHQjU1aTFzeDNXa2NoRnFQZ2RPaGxWWEZ0U1BMVk1TU25hYXJmcjhCeUV2UU9wM2k2M3ltR19ua3NFUzNoaWRxTldTNmhseFhqWDRONFdwRzdVVlVmWnoxemkwZlNlRlZLRktkREJkaTVZcjJONzAwQQ?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 00:05:06 GMT",
+          "source": "서울신문"
         }
       ]
     }
@@ -64,11 +88,11 @@
       "sma_200": 6135.67
     },
     "kosdaq": {
-      "current": 820.64,
+      "current": 807.08,
       "high_52w": 1229.42,
-      "drop_pct": -33.25,
-      "intraday_low_drop_pct": -33.55,
-      "sma_200": 987.84
+      "drop_pct": -34.35,
+      "intraday_low_drop_pct": -34.95,
+      "sma_200": 987.51
     },
     "sp500": {
       "current": 7656.98,
@@ -176,8 +200,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-09-11",
-    "analyzed_at": "2026-09-11T09:59:15.863337+09:00",
+    "date": "2026-09-14",
+    "analyzed_at": "2026-09-14T09:27:45.820858+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -185,16 +209,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "sgSwryZiQZY",
-        "title": "전쟁·유가·금리 5% 눈앞인데… 시장은 왜 버티나? 4분기 투자 핵심은 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-09-11T00:06:07Z",
-        "url": "https://youtube.com/watch?v=sgSwryZiQZY",
+        "video_id": "X_Eazvu15vc",
+        "title": "9월 금리인상 가능성 커졌다? 시장이 주목하는 건 '파월의 한마디' | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-14T00:10:35Z",
+        "url": "https://youtube.com/watch?v=X_Eazvu15vc",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 전쟁, 유가, 금리 상승 등 어려운 시장 환경을 언급하면서도 시장이 버티는 이유에 대한 분석을 예고하고, 4분기 투자 핵심을 다룬다고 하여 특정 방향의 구체적인 행동 권고보다는 시장 상황 분석 및 전략 제시의 중립적 입장으로 판단됩니다."
+          "reason": "제목에서 금리 인상 가능성을 언급하며 시장의 불확실성을 시사하지만, 파월의 발언에 주목해야 한다고 하여 특정 방향으로의 행동 권고 없이 상황을 지켜보는 중립적인 관점을 나타냅니다."
         }
       },
       {
@@ -207,7 +231,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "영상 제목은 반도체 급락과 반등에 대한 해석을 다루고 있으며, 내용에 매수/매도/현금화 등 구체적인 행동 권고나 시장 방향성을 제시하는 문구가 전혀 없습니다."
+          "reason": "제목은 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 내용의 대부분은 주식 학습 및 전문가 소개 광고로, 특정 시장 방향이나 구체적인 투자 행동 권고가 없습니다."
         }
       }
     ],
