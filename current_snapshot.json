@@ -1,37 +1,55 @@
 {
-  "timestamp": "2026-09-15T01:56:00.917659+09:00",
+  "timestamp": "2026-09-15T05:53:06.373165+09:00",
   "sentiment": {
-    "cnn_fng": 30.9142857142857,
+    "cnn_fng": 31.0571428571429,
     "cnn_components": {
-      "momentum": 26.6,
+      "momentum": 25.4,
       "strength": 3.6,
-      "breadth": 9.4,
-      "put_call": 36.4,
-      "junk_bond": 61.0,
+      "breadth": 9.0,
+      "put_call": 35.8,
+      "junk_bond": 64.6,
       "volatility": 50.0,
-      "safe_haven": 29.2
+      "safe_haven": 29.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 4,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "\"미 금리인상 확률 87%\"...코스피 6600선 '털썩'·삼전닉스 '급락' - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtU296dFgyUWR2WmFBakZ0RjUwRVhWUlZoMjhRNF9WWmhkTmpEYWJISHFUakJiYW13VmJzYlFteDdpX191ZkZyMG5IX19ZM3ItNUg0ZVJaUTJYRUdMYkl3bHFPNUJNbjlTLTcyVWZiQQ?oc=5",
-          "pub_date": "Mon, 14 Sep 2026 15:13:00 GMT",
-          "source": "YTN"
+          "title": "뉴욕증시, AI 감속론에 반도체주 급락…3대 지수 동반 하락 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tZXBPTWlYanhzdHA2RFlZeER3dS03X195MUxpZEw0SWx4R1dWSWozemZQY01ncGQyWkw2ZzAtYlFDczd6Wml2RGFPVUVGaWVTS2Fwa0sxSTlTVlFy?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 20:19:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "[뉴욕증시] 금리 인상 우려에 하락…반도체 급락 속 'SOXL' 17% 폭락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IaVNVZzZIbTRsNkVtUnFsTk0yTENqR3hkWFduR2p5bTMtOGlkZW85TFB2OHR5ZkdlamdncWhhWVlRNkVEWDlvUW9KT2RQUVU?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 20:29:11 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "미 국채금리·유가 동반 상승에 AI주 급락…뉴욕증시 하락[뉴욕마감] - MTN 머니투데이방송",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01VWl6dFdHSlRwc2puazFsQVNkb0p6ZGI4Y3NIUk9kTGhOSWRBOGpEUGlBdF94WnJ0a0pDUTRvay0zM1h0elJsN2hlV3JBcEtIOENmUlh0MWpKX0VyNUJna2dpTEE?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 20:50:33 GMT",
+          "source": "MTN 머니투데이방송"
+        },
+        {
+          "title": "필라델피아 반도체지수 5.86%급락… 뉴욕증시 일제히 하락 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN1RRYTBwZU5tdGFHZzdVNk1fWG44MGRZNnVkclJYVDA4Q3paVDVpNGhWVEluWWM4d0F1aVpsMldUdzBWclhqcGx2aUJCQjQwaFdBM21NckFYREVjSzhXTzgzY01XbUJvMlZtenduOGV2bDJpanNpRV9wQVNZdGRkT1poSUZ2VzBXLW4ycDJrVjlCRU9sblHSAWxBVV95cUxPMlpYX0VJQmdwSm8yMllGb0ZVZ2ZxU2tjeEVkalN5dlFhU0FFN2NWclJFVWZCUW53NzlKUEhpMF9aSm5CN0xfR2k4YUEtbzZ6MWNuR2Q0cXhXLTV0SERkc1Z5YkZ4SGNvb0VOTUc?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 20:49:00 GMT",
+          "source": "국민일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.75,
-    "vvix": 94.7,
+    "vix": 17.1,
+    "vvix": 94.89,
     "skew": 154.49,
-    "move": 82.21
+    "move": 83.9
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -43,11 +61,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26302.54,
+      "current": 26186.41,
       "high_52w": 27190.21,
-      "drop_pct": -3.26,
+      "drop_pct": -3.69,
       "intraday_low_drop_pct": -4.4,
-      "sma_200": 24493.69
+      "sma_200": 24493.11
     },
     "kospi": {
       "current": 6909.91,
@@ -64,34 +82,34 @@
       "sma_200": 987.84
     },
     "sp500": {
-      "current": 7643.86,
+      "current": 7619.98,
       "high_52w": 7816.7,
-      "drop_pct": -2.21,
+      "drop_pct": -2.52,
       "intraday_low_drop_pct": -2.87,
-      "sma_200": 7167.25
+      "sma_200": 7167.13
     },
     "russell2k": {
-      "current": 2902.33,
+      "current": 2892.24,
       "high_52w": 3069.71,
-      "drop_pct": -5.45,
+      "drop_pct": -5.78,
       "intraday_low_drop_pct": -6.0,
-      "sma_200": 2758.74
+      "sma_200": 2758.69
     },
     "soxx": {
-      "current": 501.26,
+      "current": 497.4,
       "high_52w": 655.95,
-      "drop_pct": -23.58,
+      "drop_pct": -24.17,
       "intraday_low_drop_pct": -24.51,
-      "sma_200": 437.43
+      "sma_200": 437.41
     }
   },
   "sector_rs": {
-    "XLK": 0.955,
-    "SMH": 0.831,
-    "BOTZ": 0.901,
-    "IGV": 1.136,
-    "XLF": 1.06,
-    "XLE": 1.155
+    "XLK": 0.952,
+    "SMH": 0.828,
+    "BOTZ": 0.9,
+    "IGV": 1.139,
+    "XLF": 1.057,
+    "XLE": 1.158
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +145,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 59.34,
+    "tqqq_profit_pct": 57.54,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 94.45,
+    "soxl_profit_pct": 89.03,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.69,
+    "koru_profit_pct": -94.95,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -212,7 +230,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 192.353,
+    "strategy_pct": 181.361,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -933,6 +951,10 @@
       {
         "date": "2026-09-14",
         "ret_pct": 192.353
+      },
+      {
+        "date": "2026-09-15",
+        "ret_pct": 181.361
       }
     ],
     "monthly_breakdown": [
@@ -986,9 +1008,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 7.07,
-        "end_ret_pct": 192.35,
-        "max_dd_pct": 8.33
+        "return_pct": -3.93,
+        "end_ret_pct": 181.36,
+        "max_dd_pct": 13.36
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
