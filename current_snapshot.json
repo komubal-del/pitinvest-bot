@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-09-15T18:36:41.039137+09:00",
+  "timestamp": "2026-09-15T23:29:06.484552+09:00",
   "sentiment": {
-    "cnn_fng": 30.3428571428571,
+    "cnn_fng": 30.0857142857143,
     "cnn_components": {
-      "momentum": 25.4,
-      "strength": 2.6,
-      "breadth": 5.8,
-      "put_call": 35.8,
-      "junk_bond": 63.8,
+      "momentum": 23.2,
+      "strength": 2.8,
+      "breadth": 5.4,
+      "put_call": 33.4,
+      "junk_bond": 63.0,
       "volatility": 50.0,
-      "safe_haven": 29.0
+      "safe_haven": 32.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 4,
+      "fear_count": 5,
       "greed_articles": [
         {
           "title": "증시 활황에…국내 자산운용사 2분기 순이익 2조7000억원 육박 - 농민신문",
@@ -28,33 +28,39 @@
         {
           "title": "2022년엔 25% 급락…미국 기준금리 인상 앞둔 K-증시 이번엔 어디로? - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhUHFFRk9nWGZXSjJBZzlyUVZIcmprQzNXYWVab0J6RElOOWlyaDVTUGJoQ3lrX0hSVlB0SHAzaFZISXpnNzkzbXFSSkllOFU?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 08:42:00 GMT",
+          "pub_date": "Tue, 15 Sep 2026 08:42:15 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "코스피 급락에도 은행주는 상승한 네 가지 이유 - 한국경제",
+          "title": "코스피 급락에도 은행주는 상승한 네 가지 이유 - hankyung.com",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mMktOT21UVmRLX2ZtTGhrNUNVM1ZOTWo4d1dsRkIxbGJvbnpNOXQ4Zm0yQ21hM3A1eThOMHdVSG1FVGVwMERhLTNWVDYxRmlKaWdJdEN1NWRtdw?oc=5",
           "pub_date": "Mon, 14 Sep 2026 22:22:38 GMT",
-          "source": "한국경제"
+          "source": "hankyung.com"
+        },
+        {
+          "title": "외국인·기관 매도세에 코스피 하락 마감…0.85%↓ - asiae.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WcWdXTVpMc1daWnNBQ05jQUx3NGJ3TEJHUVczbHk1NTBRUzdRSWtHbmFYVlB1SkRVSkc3UHVySHFwQzZUQkktaEFvX2h2VDJVZ2pmWVNVV1gzUTRudm9CMA?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 06:54:35 GMT",
+          "source": "asiae.co.kr"
         },
         {
           "title": "외국인·기관 매도세에 코스피 하락 마감…0.85%↓ - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94aUZFdXg3Yzh4WkVLMGNSV1BEVFdRMFJULWQ2MnlyOGVkMVFmbUh2OE03ZlE4c1dVT0t4ZXdkYURvOUl4TzNnb3p3Wi1nLUU?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 06:56:51 GMT",
+          "pub_date": "Tue, 15 Sep 2026 06:56:00 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "[3분증시] 뉴욕증시, AI 속도조절론에 약세…반도체주 급락 - yonhapnewstv.co.kr",
+          "title": "[3분증시] 뉴욕증시, AI 속도조절론에 약세…반도체주 급락 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HYXAyZ19DcHhjSTdERGpQcHlJWGZ0RkdVMThCQld6Ql81U2FMc1ZFaUVCTGt6b1lTU0Z1bnVmMkdWR2lLREtKSVptZWFBVEVEb1BVQnBFY0FkMEVHVm5ySTJKOFYyTlk?oc=5",
           "pub_date": "Mon, 14 Sep 2026 23:00:00 GMT",
-          "source": "yonhapnewstv.co.kr"
+          "source": "연합뉴스TV"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.93,
-    "vvix": 94.89,
+    "vix": 17.43,
+    "vvix": 95.44,
     "skew": 152.09,
     "move": 83.9
   },
@@ -68,11 +74,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26186.41,
+      "current": 26040.88,
       "high_52w": 27190.21,
-      "drop_pct": -3.69,
-      "intraday_low_drop_pct": -4.4,
-      "sma_200": 24493.11
+      "drop_pct": -4.23,
+      "intraday_low_drop_pct": -4.33,
+      "sma_200": 24508.18
     },
     "kospi": {
       "current": 6627.26,
@@ -89,34 +95,34 @@
       "sma_200": 987.11
     },
     "sp500": {
-      "current": 7619.98,
+      "current": 7587.65,
       "high_52w": 7816.7,
-      "drop_pct": -2.52,
-      "intraday_low_drop_pct": -2.87,
-      "sma_200": 7167.13
+      "drop_pct": -2.93,
+      "intraday_low_drop_pct": -2.99,
+      "sma_200": 7171.23
     },
     "russell2k": {
-      "current": 2892.24,
+      "current": 2872.83,
       "high_52w": 3069.71,
-      "drop_pct": -5.78,
-      "intraday_low_drop_pct": -6.0,
-      "sma_200": 2758.69
+      "drop_pct": -6.41,
+      "intraday_low_drop_pct": -6.42,
+      "sma_200": 2760.73
     },
     "soxx": {
-      "current": 497.4,
+      "current": 502.16,
       "high_52w": 655.95,
-      "drop_pct": -24.17,
-      "intraday_low_drop_pct": -24.51,
-      "sma_200": 437.41
+      "drop_pct": -23.45,
+      "intraday_low_drop_pct": -23.77,
+      "sma_200": 438.51
     }
   },
   "sector_rs": {
-    "XLK": 0.952,
-    "SMH": 0.828,
-    "BOTZ": 0.9,
-    "IGV": 1.139,
-    "XLF": 1.057,
-    "XLE": 1.158
+    "XLK": 0.956,
+    "SMH": 0.837,
+    "BOTZ": 0.899,
+    "IGV": 1.128,
+    "XLF": 1.055,
+    "XLE": 1.178
   },
   "signals": {
     "cnn_under_10": false,
@@ -152,19 +158,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 57.54,
+    "tqqq_profit_pct": 55.79,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 89.03,
+    "soxl_profit_pct": 94.91,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.95,
+    "koru_profit_pct": -94.86,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
