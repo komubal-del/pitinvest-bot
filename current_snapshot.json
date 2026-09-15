@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-15T13:43:25.511890+09:00",
+  "timestamp": "2026-09-15T18:36:41.039137+09:00",
   "sentiment": {
-    "cnn_fng": 30.9428571428571,
+    "cnn_fng": 30.3428571428571,
     "cnn_components": {
       "momentum": 25.4,
-      "strength": 3.6,
-      "breadth": 9.0,
+      "strength": 2.6,
+      "breadth": 5.8,
       "put_call": 35.8,
       "junk_bond": 63.8,
       "volatility": 50.0,
@@ -15,16 +15,22 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 8,
+      "fear_count": 4,
       "greed_articles": [
         {
-          "title": "[美 금리 5％ 돌파] 월가 \"2007년 닮은 과열…상단 고착 시 증시 타격\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wQ0c2M05Xdm15cFdtOW9RSzdEUGE3aDBZeGtuOHVMTnVSdU5uYTlSMkNiSWFubTRpWnZQZVk3REVaMXc4ZjJSY1dQREhTUlhxTEs1YnJ2aXFmbXhNOUZhdmZ3MUoyQXNZcTVLaWkzZVI?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 01:51:24 GMT",
-          "source": "연합인포맥스"
+          "title": "증시 활황에…국내 자산운용사 2분기 순이익 2조7000억원 육박 - 농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yNkhNTC1ZS1dDWHE5SUExNGlxY084LTFnNGpsdmRDampXeXh2NjBDNjJwRlpUSXozcnAwTWctUDBYVGVJS0JPb1ZhNTZ4UVFQVGRUbjAxR1ZEZw?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 07:17:20 GMT",
+          "source": "농민신문"
         }
       ],
       "fear_articles": [
+        {
+          "title": "2022년엔 25% 급락…미국 기준금리 인상 앞둔 K-증시 이번엔 어디로? - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhUHFFRk9nWGZXSjJBZzlyUVZIcmprQzNXYWVab0J6RElOOWlyaDVTUGJoQ3lrX0hSVlB0SHAzaFZISXpnNzkzbXFSSkllOFU?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 08:42:00 GMT",
+          "source": "v.daum.net"
+        },
         {
           "title": "코스피 급락에도 은행주는 상승한 네 가지 이유 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mMktOT21UVmRLX2ZtTGhrNUNVM1ZOTWo4d1dsRkIxbGJvbnpNOXQ4Zm0yQ21hM3A1eThOMHdVSG1FVGVwMERhLTNWVDYxRmlKaWdJdEN1NWRtdw?oc=5",
@@ -32,34 +38,22 @@
           "source": "한국경제"
         },
         {
-          "title": "[3분증시] 뉴욕증시, AI 속도조절론에 약세…반도체주 급락 - 연합뉴스TV",
+          "title": "외국인·기관 매도세에 코스피 하락 마감…0.85%↓ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94aUZFdXg3Yzh4WkVLMGNSV1BEVFdRMFJULWQ2MnlyOGVkMVFmbUh2OE03ZlE4c1dVT0t4ZXdkYURvOUl4TzNnb3p3Wi1nLUU?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 06:56:51 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[3분증시] 뉴욕증시, AI 속도조절론에 약세…반도체주 급락 - yonhapnewstv.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HYXAyZ19DcHhjSTdERGpQcHlJWGZ0RkdVMThCQld6Ql81U2FMc1ZFaUVCTGt6b1lTU0Z1bnVmMkdWR2lLREtKSVptZWFBVEVEb1BVQnBFY0FkMEVHVm5ySTJKOFYyTlk?oc=5",
           "pub_date": "Mon, 14 Sep 2026 23:00:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "크레이머가 꼽은 美증시 급락 막은 3가지 요인은 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UZi1qcG0tT1h5NnVOakc1XzVGSzRiaHpFUkEwdG5nTnpqNExDYURpNW9GUHk0SHgtc0t5c0JvbkwzLUpoY1FSeEN4M0JKcld0ZzNvZU1BV0JFWnFibG01dUQ1MEgwdkhCdVZvR0lrOW4?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 00:33:29 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 전일 급락 딛고 6680선 공방…코스닥은 1%대 상승 - 스트레이트뉴스",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00alNDbnFtWEplUFFDRGJyOU9RV0lET3cxYUNPcmh1NkhNUWxZZW80dDNNeEZuTVYtQkN1b0k0eDJvanQ2RWltMTN5d0E2Wk9TQTU0VHlib1BQX2RYV3JqWFlxNnpqU3JpRm5VNHRrM2Z2cnfSAXdBVV95cUxOOTlUREw2cGFtR2RXZ3J0Wnd2RmY2Q19VVkQ2anlZbTZZVE9rRHNBN1hWbVg4dVpyOEpYZ25RcUN4eV9RYnlUS3V6bmQtaWl4ZmI4eV9yUXh2Q18xbXJ2aTI3WjQ1RVZlTVhXMjE0SzlacHpJNFFrSQ?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 00:35:09 GMT",
-          "source": "스트레이트뉴스"
-        },
-        {
-          "title": "미 국채 금리·유가 상승에 뉴욕증시 하락…반도체주 동반 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QQUJqZjFELXBmeDh0bGtadVpRT1M3WlA4SGZoRjM2aWNqNDhBZWY5UEFSak9ZekNzUklBbmJ3UDFOVjVKRVoxenZEY2NoRmpIU3R2ZW5OSEtNaVlvcTBTSXBXbGxHcms?oc=5",
-          "pub_date": "Mon, 14 Sep 2026 20:51:00 GMT",
-          "source": "연합뉴스TV"
+          "source": "yonhapnewstv.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.1,
+    "vix": 17.93,
     "vvix": 94.89,
     "skew": 152.09,
     "move": 83.9
@@ -81,18 +75,18 @@
       "sma_200": 24493.11
     },
     "kospi": {
-      "current": 6631.8,
+      "current": 6627.26,
       "high_52w": 9385.59,
-      "drop_pct": -29.34,
-      "intraday_low_drop_pct": -29.41,
-      "sma_200": 6162.58
+      "drop_pct": -29.39,
+      "intraday_low_drop_pct": -29.87,
+      "sma_200": 6162.55
     },
     "kosdaq": {
-      "current": 815.98,
+      "current": 812.41,
       "high_52w": 1229.42,
-      "drop_pct": -33.63,
+      "drop_pct": -33.92,
       "intraday_low_drop_pct": -34.77,
-      "sma_200": 987.13
+      "sma_200": 987.11
     },
     "sp500": {
       "current": 7619.98,
