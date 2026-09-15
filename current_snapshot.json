@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T06:45:53.996627+09:00",
+  "timestamp": "2026-09-16T08:44:23.591920+09:00",
   "sentiment": {
     "cnn_fng": 28.6571428571429,
     "cnn_components": {
@@ -14,15 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "[0916개장체크] 美 증시, 저가 매수세 유입에 따른 반도체주 반등 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KbGZaYkVBNDdyOFZfMU5EWnBPejdiUF82VVJMWnhxdFBPVU94RldteWk5ajBDODdJRFRoS1ZocEJ5bkhBZUZ1RG02dmViOTI5ckNHbmhXZGVxUnFVajQwM3ZTMjJYNlVlSFoyOC1ibnE?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 23:19:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "오를 땐 \"지수 견인\", 내릴 땐 \"급락 주도\"...코스피 ‘반도체 쏠림’의 두 얼굴 - youthdaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaZHkxN1VyRTZXOVdycGlEdmxtRUhrSTdMcTVxY09EMzhfTzNGTnFudmhYMHY2dnJwbUJfWjNaekNrM2xwMjVkaTBBdlN5dkJyWDFBU3VjOW1kaEplWEFMWTZraHNqaTQ?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 23:00:02 GMT",
+          "source": "youthdaily.co.kr"
+        }
+      ],
       "fear_articles": [
         {
           "title": "뉴욕증시 ‘금리ㆍ유가 덫’… 반도체 폭락은 일단 멈췄다 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIV2FvVXpjUzZLWDIxdlU1NFFaM0ktN21KakFnUGlBYmJnNzJYQ2dEUnVOWkVZaW91eHp5ZU5DZEYzazc5X0ZTdElzMk03OTg?oc=5",
           "pub_date": "Tue, 15 Sep 2026 20:48:07 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "[아주증시포커스] 2022년엔 25% 급락…미국 기준금리 인상 앞둔 K-증시 이번엔 어디로? 外 - ajunews.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BOEZJak1hbFFrdmIyQTRyMEFiaXZKMUR2RjhTSmxwRFJaWkZWVmZlUnlQVmxWV3RlVUhQUDVNYTkyd1YtRWM5WjBJREZ5LTF6alVrdUxHMi1CUQ?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 23:00:00 GMT",
+          "source": "ajunews.com"
         }
       ]
     }
@@ -212,7 +231,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 178.732,
+    "strategy_pct": 178.551,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -940,7 +959,7 @@
       },
       {
         "date": "2026-09-16",
-        "ret_pct": 178.732
+        "ret_pct": 178.551
       }
     ],
     "monthly_breakdown": [
@@ -994,9 +1013,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -6.56,
-        "end_ret_pct": 178.73,
-        "max_dd_pct": 15.99
+        "return_pct": -6.74,
+        "end_ret_pct": 178.55,
+        "max_dd_pct": 16.17
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
