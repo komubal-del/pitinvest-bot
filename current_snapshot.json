@@ -1,41 +1,30 @@
 {
-  "timestamp": "2026-09-15T08:49:36.369009+09:00",
+  "timestamp": "2026-09-15T13:43:25.511890+09:00",
   "sentiment": {
-    "cnn_fng": 31.0571428571429,
+    "cnn_fng": 30.9428571428571,
     "cnn_components": {
       "momentum": 25.4,
       "strength": 3.6,
       "breadth": 9.0,
       "put_call": 35.8,
-      "junk_bond": 64.6,
+      "junk_bond": 63.8,
       "volatility": 50.0,
       "safe_haven": 29.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 24,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_count": 1,
+      "fear_count": 8,
+      "greed_articles": [
         {
-          "title": "[3분증시] 뉴욕증시, AI 속도조절론에 약세…반도체주 급락 - yonhapnewstv.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HYXAyZ19DcHhjSTdERGpQcHlJWGZ0RkdVMThCQld6Ql81U2FMc1ZFaUVCTGt6b1lTU0Z1bnVmMkdWR2lLREtKSVptZWFBVEVEb1BVQnBFY0FkMEVHVm5ySTJKOFYyTlk?oc=5",
-          "pub_date": "Mon, 14 Sep 2026 23:00:00 GMT",
-          "source": "yonhapnewstv.co.kr"
-        },
-        {
-          "title": "[뉴욕증시] AI 속도 조절론에 '화들짝'…필리 지수 6% 급락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Wby1aWjEyLUM3TmpiSGdvc3lncUFDUTVuWkRQQXdXREJCSlpSVV9mTGJvUDdDakZHT2xuVFVBMk1SMm1GNDFWcGcxX1JBT2R5dm5nd3p2c3A1dHdGRFJmNEljczl6aTBvR1NVQnp0eTM?oc=5",
-          "pub_date": "Mon, 14 Sep 2026 20:56:28 GMT",
+          "title": "[美 금리 5％ 돌파] 월가 \"2007년 닮은 과열…상단 고착 시 증시 타격\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wQ0c2M05Xdm15cFdtOW9RSzdEUGE3aDBZeGtuOHVMTnVSdU5uYTlSMkNiSWFubTRpWnZQZVk3REVaMXc4ZjJSY1dQREhTUlhxTEs1YnJ2aXFmbXhNOUZhdmZ3MUoyQXNZcTVLaWkzZVI?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 01:51:24 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "AI 속도 조절론·유가급등에 코스피 급락 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90U0Q0MnowYXkwQURiRWRheThnNm5XamNvR1dLTUZSZ2NXcE5Qdko0QjRJM2FnWUN0Nm9qamFKQmozaFVia2NzTndSSGpyNXc?oc=5",
-          "pub_date": "Mon, 14 Sep 2026 21:53:44 GMT",
-          "source": "v.daum.net"
-        },
+        }
+      ],
+      "fear_articles": [
         {
           "title": "코스피 급락에도 은행주는 상승한 네 가지 이유 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mMktOT21UVmRLX2ZtTGhrNUNVM1ZOTWo4d1dsRkIxbGJvbnpNOXQ4Zm0yQ21hM3A1eThOMHdVSG1FVGVwMERhLTNWVDYxRmlKaWdJdEN1NWRtdw?oc=5",
@@ -43,10 +32,28 @@
           "source": "한국경제"
         },
         {
-          "title": "미 국채 금리·유가 상승에 뉴욕증시 하락…반도체주 동반 급락 - yonhapnewstv.co.kr",
+          "title": "[3분증시] 뉴욕증시, AI 속도조절론에 약세…반도체주 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HYXAyZ19DcHhjSTdERGpQcHlJWGZ0RkdVMThCQld6Ql81U2FMc1ZFaUVCTGt6b1lTU0Z1bnVmMkdWR2lLREtKSVptZWFBVEVEb1BVQnBFY0FkMEVHVm5ySTJKOFYyTlk?oc=5",
+          "pub_date": "Mon, 14 Sep 2026 23:00:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "크레이머가 꼽은 美증시 급락 막은 3가지 요인은 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UZi1qcG0tT1h5NnVOakc1XzVGSzRiaHpFUkEwdG5nTnpqNExDYURpNW9GUHk0SHgtc0t5c0JvbkwzLUpoY1FSeEN4M0JKcld0ZzNvZU1BV0JFWnFibG01dUQ1MEgwdkhCdVZvR0lrOW4?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 00:33:29 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 전일 급락 딛고 6680선 공방…코스닥은 1%대 상승 - 스트레이트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00alNDbnFtWEplUFFDRGJyOU9RV0lET3cxYUNPcmh1NkhNUWxZZW80dDNNeEZuTVYtQkN1b0k0eDJvanQ2RWltMTN5d0E2Wk9TQTU0VHlib1BQX2RYV3JqWFlxNnpqU3JpRm5VNHRrM2Z2cnfSAXdBVV95cUxOOTlUREw2cGFtR2RXZ3J0Wnd2RmY2Q19VVkQ2anlZbTZZVE9rRHNBN1hWbVg4dVpyOEpYZ25RcUN4eV9RYnlUS3V6bmQtaWl4ZmI4eV9yUXh2Q18xbXJ2aTI3WjQ1RVZlTVhXMjE0SzlacHpJNFFrSQ?oc=5",
+          "pub_date": "Tue, 15 Sep 2026 00:35:09 GMT",
+          "source": "스트레이트뉴스"
+        },
+        {
+          "title": "미 국채 금리·유가 상승에 뉴욕증시 하락…반도체주 동반 급락 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QQUJqZjFELXBmeDh0bGtadVpRT1M3WlA4SGZoRjM2aWNqNDhBZWY5UEFSak9ZekNzUklBbmJ3UDFOVjVKRVoxenZEY2NoRmpIU3R2ZW5OSEtNaVlvcTBTSXBXbGxHcms?oc=5",
           "pub_date": "Mon, 14 Sep 2026 20:51:00 GMT",
-          "source": "yonhapnewstv.co.kr"
+          "source": "연합뉴스TV"
         }
       ]
     }
@@ -74,18 +81,18 @@
       "sma_200": 24493.11
     },
     "kospi": {
-      "current": 6909.91,
+      "current": 6631.8,
       "high_52w": 9385.59,
-      "drop_pct": -26.38,
-      "intraday_low_drop_pct": -27.52,
-      "sma_200": 6135.67
+      "drop_pct": -29.34,
+      "intraday_low_drop_pct": -29.41,
+      "sma_200": 6162.58
     },
     "kosdaq": {
-      "current": 820.64,
+      "current": 815.98,
       "high_52w": 1229.42,
-      "drop_pct": -33.25,
-      "intraday_low_drop_pct": -33.55,
-      "sma_200": 987.84
+      "drop_pct": -33.63,
+      "intraday_low_drop_pct": -34.77,
+      "sma_200": 987.13
     },
     "sp500": {
       "current": 7619.98,
@@ -193,8 +200,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-09-14",
-    "analyzed_at": "2026-09-14T09:27:45.820858+09:00",
+    "date": "2026-09-15",
+    "analyzed_at": "2026-09-15T13:43:32.067989+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -202,16 +209,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "X_Eazvu15vc",
-        "title": "9월 금리인상 가능성 커졌다? 시장이 주목하는 건 '파월의 한마디' | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-09-14T00:10:35Z",
-        "url": "https://youtube.com/watch?v=X_Eazvu15vc",
+        "video_id": "MfVgbqtpZ7k",
+        "title": "10년물 금리 5% 터치…연준의 금리 결정, 시장은 어떻게 볼까 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-15T00:15:26Z",
+        "url": "https://youtube.com/watch?v=MfVgbqtpZ7k",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 금리 인상 가능성을 언급하며 시장의 불확실성을 시사하지만, 파월의 발언에 주목해야 한다고 하여 특정 방향으로의 행동 권고 없이 상황을 지켜보는 중립적인 관점을 나타냅니다."
+          "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 분석, 의견, 또는 행동 권고가 전혀 없으며, 대부분 광고, 프로그램 편성표, 서비스 안내 등으로만 구성되어 있어 특정 입장을 판단할 수 없습니다."
         }
       },
       {
@@ -224,7 +231,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 반도체 급락과 반등에 대한 해석을 묻는 질문이며, 내용의 대부분은 주식 학습 및 전문가 소개 광고로, 특정 시장 방향이나 구체적인 투자 행동 권고가 없습니다."
+          "reason": "제목이 '반도체 급락과 반등...어떻게 해석해요?'로 시장의 특정 움직임에 대한 분석을 예고할 뿐, 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없습니다."
         }
       }
     ],
