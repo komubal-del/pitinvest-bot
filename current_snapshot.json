@@ -1,48 +1,28 @@
 {
-  "timestamp": "2026-09-16T21:09:59.139723+09:00",
+  "timestamp": "2026-09-17T02:09:02.153955+09:00",
   "sentiment": {
-    "cnn_fng": 27.7142857142857,
+    "cnn_fng": 28.5142857142857,
     "cnn_components": {
-      "momentum": 22.8,
-      "strength": 0.2,
-      "breadth": 0.6,
-      "put_call": 32.2,
-      "junk_bond": 57.2,
+      "momentum": 24.6,
+      "strength": 3.2,
+      "breadth": 1.8,
+      "put_call": 33.6,
+      "junk_bond": 54.0,
       "volatility": 50.0,
-      "safe_haven": 31.0
+      "safe_haven": 32.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "[亞증시-종합] FOMC 대기 속 저가 매수세에 상승 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sSmthX2VvYjNza2NGZGlsR3hwNHEtUGFhaUpMNENRX3M0NkRRZ0x5UzJIVFljTk5YUnkwamFIQzVja0VFZGtjMmp3dkVCb0dQRXZZcWlKbHB1blhrSDRqbFVaTGZfMExfNEtfcjBlZ0lid2Zx?oc=5",
-          "pub_date": "Wed, 16 Sep 2026 10:23:43 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[인도증시] 저가 매수세에 상승했지만 유가·美 금리가 폭 제한...UPI 수수료 부과에 금융주 ↑ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GTnNsMjItT0dsMDhfZGNtSTNOWlJDNUFoZE9fejU3a3QzdXU3dGV1dFAwN2M1WE9PbmxGQ3dPa3g4cVZRMmlPSGJYa2pxMlpvajNnYXYzY2FjSWxi?oc=5",
-          "pub_date": "Wed, 16 Sep 2026 11:10:00 GMT",
-          "source": "뉴스핌"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[인도 특징주] 인도 증시, 美 금리·국채에 '부담'...추가 매도세 촉발 우려 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LTDRNdVR1X29UMFFEZWk1cUdqclNMSGRrVlRnOHlIUW1nSlRPM0h0NlNZYUppYWxpT3BoamUxS3p1WVRLOE5aR0lKdnFGck92ckZNR1lheWk3QW1u?oc=5",
-          "pub_date": "Wed, 16 Sep 2026 09:37:00 GMT",
-          "source": "뉴스핌"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.76,
-    "vvix": 94.91,
+    "vix": 16.79,
+    "vvix": 94.68,
     "skew": 146.61,
     "move": 83.71
   },
@@ -56,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25981.57,
+      "current": 26150.9,
       "high_52w": 27190.21,
-      "drop_pct": -4.45,
-      "intraday_low_drop_pct": -4.59,
-      "sma_200": 24507.89
+      "drop_pct": -3.82,
+      "intraday_low_drop_pct": -4.1,
+      "sma_200": 24522.57
     },
     "kospi": {
-      "current": 6717.97,
+      "current": 6627.26,
       "high_52w": 9385.59,
-      "drop_pct": -28.42,
-      "intraday_low_drop_pct": -29.69,
-      "sma_200": 6176.88
+      "drop_pct": -29.39,
+      "intraday_low_drop_pct": -29.87,
+      "sma_200": 6162.55
     },
     "kosdaq": {
-      "current": 815.98,
+      "current": 812.41,
       "high_52w": 1229.42,
-      "drop_pct": -33.63,
-      "intraday_low_drop_pct": -34.84,
-      "sma_200": 986.88
+      "drop_pct": -33.92,
+      "intraday_low_drop_pct": -34.77,
+      "sma_200": 987.11
     },
     "sp500": {
-      "current": 7585.73,
+      "current": 7606.53,
       "high_52w": 7816.7,
-      "drop_pct": -2.95,
-      "intraday_low_drop_pct": -3.12,
-      "sma_200": 7171.23
+      "drop_pct": -2.69,
+      "intraday_low_drop_pct": -2.8,
+      "sma_200": 7175.19
     },
     "russell2k": {
-      "current": 2870.29,
+      "current": 2884.6,
       "high_52w": 3069.71,
-      "drop_pct": -6.5,
-      "intraday_low_drop_pct": -6.78,
-      "sma_200": 2760.71
+      "drop_pct": -6.03,
+      "intraday_low_drop_pct": -6.38,
+      "sma_200": 2762.71
     },
     "soxx": {
-      "current": 498.85,
+      "current": 507.36,
       "high_52w": 655.95,
-      "drop_pct": -23.95,
-      "intraday_low_drop_pct": -24.3,
-      "sma_200": 438.21
+      "drop_pct": -22.65,
+      "intraday_low_drop_pct": -22.95,
+      "sma_200": 439.29
     }
   },
   "sector_rs": {
-    "XLK": 0.975,
-    "SMH": 0.87,
-    "BOTZ": 0.904,
-    "IGV": null,
-    "XLF": 1.037,
-    "XLE": 1.185
+    "XLK": 0.98,
+    "SMH": 0.88,
+    "BOTZ": 0.909,
+    "IGV": 1.136,
+    "XLF": 1.026,
+    "XLE": 1.16
   },
   "signals": {
     "cnn_under_10": false,
@@ -121,7 +101,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -140,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 54.42,
+    "tqqq_profit_pct": 57.58,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 91.25,
+    "soxl_profit_pct": 100.86,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.94,
+    "koru_profit_pct": -94.78,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
