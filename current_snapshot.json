@@ -1,22 +1,29 @@
 {
-  "timestamp": "2026-09-17T05:15:42.027397+09:00",
+  "timestamp": "2026-09-17T08:03:06.877096+09:00",
   "sentiment": {
-    "cnn_fng": 26.6,
+    "cnn_fng": 26.4857142857143,
     "cnn_components": {
       "momentum": 20.6,
       "strength": 1.8,
       "breadth": 0.6,
       "put_call": 28.2,
-      "junk_bond": 55.4,
+      "junk_bond": 54.6,
       "volatility": 50.0,
       "safe_haven": 29.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 2,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "[마켓 프리뷰] 반도체주 저가 매수에 코스피 상승…기관 매수에 '방긋' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHQlJ5MEhZcjYyTEozbC1ITFdxVHZOS2pXYXJZYlphaWlGQ2p1bGVLQmdKOEgwY19ldWtRallSWGxJSDlQb29QWXVtenBoUGs?oc=5",
+          "pub_date": "Wed, 16 Sep 2026 22:31:15 GMT",
+          "source": "v.daum.net"
+        }
+      ],
       "fear_articles": [
         {
           "title": "뉴욕증시 급락…美금리인상·추가긴축 예고 여파 - 머니투데이 - 머니투데이",
@@ -34,10 +41,10 @@
     }
   },
   "volatility": {
-    "vix": 17.58,
-    "vvix": 95.27,
-    "skew": 146.61,
-    "move": 83.71
+    "vix": 17.71,
+    "vvix": 95.41,
+    "skew": 145.95,
+    "move": 80.73
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -77,7 +84,7 @@
       "sma_200": 7174.92
     },
     "russell2k": {
-      "current": 2858.83,
+      "current": 2858.81,
       "high_52w": 3069.71,
       "drop_pct": -6.87,
       "intraday_low_drop_pct": -7.73,
@@ -218,7 +225,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 182.02,
+    "strategy_pct": 178.745,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -950,7 +957,7 @@
       },
       {
         "date": "2026-09-17",
-        "ret_pct": 182.02
+        "ret_pct": 178.745
       }
     ],
     "monthly_breakdown": [
@@ -1004,8 +1011,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -3.27,
-        "end_ret_pct": 182.02,
+        "return_pct": -6.54,
+        "end_ret_pct": 178.75,
         "max_dd_pct": 16.17
       }
     ],

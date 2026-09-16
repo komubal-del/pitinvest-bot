@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T05:15:47.380467+09:00",
+  "timestamp": "2026-09-17T08:03:15.404010+09:00",
   "benchmark": "SPY",
   "lookback_days": 30,
   "recovery_start": {
@@ -996,8 +996,8 @@
       "tier2": [
         {
           "ticker": "LLY",
-          "rs_roc": 0.0436,
-          "price": 1138.21
+          "rs_roc": 0.0432,
+          "price": 1137.82
         },
         {
           "ticker": "UNH",
@@ -4038,8 +4038,8 @@
         },
         {
           "ticker": "ABBV",
-          "rs_roc": 0.1017,
-          "price": 262.58
+          "rs_roc": 0.1014,
+          "price": 262.51
         },
         {
           "ticker": "ISRG",
@@ -5574,8 +5574,8 @@
   "macro": {
     "usdkrw": {
       "ticker": "KRW=X",
-      "value": 1377.67,
-      "change_30d_pct": -3.55
+      "value": 1377.21,
+      "change_30d_pct": -3.09
     },
     "us10y": {
       "ticker": "^TNX",
