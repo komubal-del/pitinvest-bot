@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-16T10:42:21.682668+09:00",
+  "timestamp": "2026-09-16T15:46:37.490369+09:00",
   "sentiment": {
-    "cnn_fng": 28.6571428571429,
+    "cnn_fng": 28.4571428571429,
     "cnn_components": {
       "momentum": 22.8,
       "strength": 1.0,
       "breadth": 5.0,
       "put_call": 32.2,
-      "junk_bond": 58.6,
+      "junk_bond": 57.2,
       "volatility": 50.0,
       "safe_haven": 31.0
     },
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 1,
+      "fear_count": 0,
       "greed_articles": [
         {
           "title": "[0916개장체크] 美 증시, 저가 매수세 유입에 따른 반도체주 반등 By 인포스탁데일리 - Investing.com 한국어",
@@ -24,14 +24,7 @@
           "source": "Investing.com 한국어"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "뉴욕증시 ‘금리ㆍ유가 덫’… 반도체 폭락은 일단 멈췄다 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIV2FvVXpjUzZLWDIxdlU1NFFaM0ktN21KakFnUGlBYmJnNzJYQ2dEUnVOWkVZaW91eHp5ZU5DZEYzazc5X0ZTdElzMk03OTg?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 20:48:07 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -57,18 +50,18 @@
       "sma_200": 24507.89
     },
     "kospi": {
-      "current": 6634.15,
+      "current": 6711.45,
       "high_52w": 9385.59,
-      "drop_pct": -29.32,
+      "drop_pct": -28.49,
       "intraday_low_drop_pct": -29.69,
-      "sma_200": 6162.59
+      "sma_200": 6176.85
     },
     "kosdaq": {
-      "current": 801.26,
+      "current": 815.47,
       "high_52w": 1229.42,
-      "drop_pct": -34.83,
+      "drop_pct": -33.67,
       "intraday_low_drop_pct": -34.84,
-      "sma_200": 987.06
+      "sma_200": 986.87
     },
     "sp500": {
       "current": 7585.73,
@@ -85,20 +78,20 @@
       "sma_200": 2760.71
     },
     "soxx": {
-      "current": 497.4,
+      "current": 498.85,
       "high_52w": 655.95,
-      "drop_pct": -24.17,
-      "intraday_low_drop_pct": -24.51,
-      "sma_200": 437.41
+      "drop_pct": -23.95,
+      "intraday_low_drop_pct": -24.3,
+      "sma_200": 438.21
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
+    "XLK": 0.975,
+    "SMH": 0.87,
+    "BOTZ": 0.904,
     "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLF": 1.037,
+    "XLE": 1.185
   },
   "signals": {
     "cnn_under_10": false,
@@ -134,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 54.42,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 91.25,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -94.94,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -219,7 +212,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 178.551,
+    "strategy_pct": 126.107,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -947,7 +940,7 @@
       },
       {
         "date": "2026-09-16",
-        "ret_pct": 178.551
+        "ret_pct": 126.107
       }
     ],
     "monthly_breakdown": [
@@ -1001,9 +994,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -6.74,
-        "end_ret_pct": 178.55,
-        "max_dd_pct": 16.17
+        "return_pct": -59.18,
+        "end_ret_pct": 126.11,
+        "max_dd_pct": 68.61
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
