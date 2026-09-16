@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-16T15:46:37.490369+09:00",
+  "timestamp": "2026-09-16T21:09:59.139723+09:00",
   "sentiment": {
-    "cnn_fng": 28.4571428571429,
+    "cnn_fng": 27.7142857142857,
     "cnn_components": {
       "momentum": 22.8,
-      "strength": 1.0,
-      "breadth": 5.0,
+      "strength": 0.2,
+      "breadth": 0.6,
       "put_call": 32.2,
       "junk_bond": 57.2,
       "volatility": 50.0,
@@ -14,21 +14,34 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 1,
       "greed_articles": [
         {
-          "title": "[0916개장체크] 美 증시, 저가 매수세 유입에 따른 반도체주 반등 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KbGZaYkVBNDdyOFZfMU5EWnBPejdiUF82VVJMWnhxdFBPVU94RldteWk5ajBDODdJRFRoS1ZocEJ5bkhBZUZ1RG02dmViOTI5ckNHbmhXZGVxUnFVajQwM3ZTMjJYNlVlSFoyOC1ibnE?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 23:19:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "[亞증시-종합] FOMC 대기 속 저가 매수세에 상승 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sSmthX2VvYjNza2NGZGlsR3hwNHEtUGFhaUpMNENRX3M0NkRRZ0x5UzJIVFljTk5YUnkwamFIQzVja0VFZGtjMmp3dkVCb0dQRXZZcWlKbHB1blhrSDRqbFVaTGZfMExfNEtfcjBlZ0lid2Zx?oc=5",
+          "pub_date": "Wed, 16 Sep 2026 10:23:43 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[인도증시] 저가 매수세에 상승했지만 유가·美 금리가 폭 제한...UPI 수수료 부과에 금융주 ↑ - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GTnNsMjItT0dsMDhfZGNtSTNOWlJDNUFoZE9fejU3a3QzdXU3dGV1dFAwN2M1WE9PbmxGQ3dPa3g4cVZRMmlPSGJYa2pxMlpvajNnYXYzY2FjSWxi?oc=5",
+          "pub_date": "Wed, 16 Sep 2026 11:10:00 GMT",
+          "source": "뉴스핌"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[인도 특징주] 인도 증시, 美 금리·국채에 '부담'...추가 매도세 촉발 우려 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LTDRNdVR1X29UMFFEZWk1cUdqclNMSGRrVlRnOHlIUW1nSlRPM0h0NlNZYUppYWxpT3BoamUxS3p1WVRLOE5aR0lKdnFGck92ckZNR1lheWk3QW1u?oc=5",
+          "pub_date": "Wed, 16 Sep 2026 09:37:00 GMT",
+          "source": "뉴스핌"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 17.2,
+    "vix": 16.76,
     "vvix": 94.91,
     "skew": 146.61,
     "move": 83.71
@@ -50,18 +63,18 @@
       "sma_200": 24507.89
     },
     "kospi": {
-      "current": 6711.45,
+      "current": 6717.97,
       "high_52w": 9385.59,
-      "drop_pct": -28.49,
+      "drop_pct": -28.42,
       "intraday_low_drop_pct": -29.69,
-      "sma_200": 6176.85
+      "sma_200": 6176.88
     },
     "kosdaq": {
-      "current": 815.47,
+      "current": 815.98,
       "high_52w": 1229.42,
-      "drop_pct": -33.67,
+      "drop_pct": -33.63,
       "intraday_low_drop_pct": -34.84,
-      "sma_200": 986.87
+      "sma_200": 986.88
     },
     "sp500": {
       "current": 7585.73,
@@ -212,7 +225,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 126.107,
+    "strategy_pct": 178.551,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -940,7 +953,7 @@
       },
       {
         "date": "2026-09-16",
-        "ret_pct": 126.107
+        "ret_pct": 178.551
       }
     ],
     "monthly_breakdown": [
@@ -994,9 +1007,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -59.18,
-        "end_ret_pct": 126.11,
-        "max_dd_pct": 68.61
+        "return_pct": -6.74,
+        "end_ret_pct": 178.55,
+        "max_dd_pct": 16.17
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
