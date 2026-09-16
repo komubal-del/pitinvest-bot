@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T08:44:23.591920+09:00",
+  "timestamp": "2026-09-16T10:42:21.682668+09:00",
   "sentiment": {
     "cnn_fng": 28.6571428571429,
     "cnn_components": {
@@ -14,20 +14,14 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 2,
+      "greed_count": 1,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "[0916개장체크] 美 증시, 저가 매수세 유입에 따른 반도체주 반등 By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KbGZaYkVBNDdyOFZfMU5EWnBPejdiUF82VVJMWnhxdFBPVU94RldteWk5ajBDODdJRFRoS1ZocEJ5bkhBZUZ1RG02dmViOTI5ckNHbmhXZGVxUnFVajQwM3ZTMjJYNlVlSFoyOC1ibnE?oc=5",
           "pub_date": "Tue, 15 Sep 2026 23:19:00 GMT",
           "source": "Investing.com 한국어"
-        },
-        {
-          "title": "오를 땐 \"지수 견인\", 내릴 땐 \"급락 주도\"...코스피 ‘반도체 쏠림’의 두 얼굴 - youthdaily.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaZHkxN1VyRTZXOVdycGlEdmxtRUhrSTdMcTVxY09EMzhfTzNGTnFudmhYMHY2dnJwbUJfWjNaekNrM2xwMjVkaTBBdlN5dkJyWDFBU3VjOW1kaEplWEFMWTZraHNqaTQ?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 23:00:02 GMT",
-          "source": "youthdaily.co.kr"
         }
       ],
       "fear_articles": [
@@ -36,12 +30,6 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIV2FvVXpjUzZLWDIxdlU1NFFaM0ktN21KakFnUGlBYmJnNzJYQ2dEUnVOWkVZaW91eHp5ZU5DZEYzazc5X0ZTdElzMk03OTg?oc=5",
           "pub_date": "Tue, 15 Sep 2026 20:48:07 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "[아주증시포커스] 2022년엔 25% 급락…미국 기준금리 인상 앞둔 K-증시 이번엔 어디로? 外 - ajunews.com",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BOEZJak1hbFFrdmIyQTRyMEFiaXZKMUR2RjhTSmxwRFJaWkZWVmZlUnlQVmxWV3RlVUhQUDVNYTkyd1YtRWM5WjBJREZ5LTF6alVrdUxHMi1CUQ?oc=5",
-          "pub_date": "Tue, 15 Sep 2026 23:00:00 GMT",
-          "source": "ajunews.com"
         }
       ]
     }
@@ -69,18 +57,18 @@
       "sma_200": 24507.89
     },
     "kospi": {
-      "current": 6684.37,
+      "current": 6634.15,
       "high_52w": 9385.59,
-      "drop_pct": -28.78,
-      "intraday_low_drop_pct": -29.1,
-      "sma_200": 6149.44
+      "drop_pct": -29.32,
+      "intraday_low_drop_pct": -29.69,
+      "sma_200": 6162.59
     },
     "kosdaq": {
-      "current": 806.79,
+      "current": 801.26,
       "high_52w": 1229.42,
-      "drop_pct": -34.38,
-      "intraday_low_drop_pct": -34.95,
-      "sma_200": 987.51
+      "drop_pct": -34.83,
+      "intraday_low_drop_pct": -34.84,
+      "sma_200": 987.06
     },
     "sp500": {
       "current": 7585.73,
@@ -97,20 +85,20 @@
       "sma_200": 2760.71
     },
     "soxx": {
-      "current": 498.85,
+      "current": 497.4,
       "high_52w": 655.95,
-      "drop_pct": -23.95,
-      "intraday_low_drop_pct": -24.3,
-      "sma_200": 438.49
+      "drop_pct": -24.17,
+      "intraday_low_drop_pct": -24.51,
+      "sma_200": 437.41
     }
   },
   "sector_rs": {
-    "XLK": 0.975,
-    "SMH": 0.87,
-    "BOTZ": 0.904,
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
     "IGV": null,
-    "XLF": 1.037,
-    "XLE": 1.185
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -146,19 +134,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 54.42,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 91.25,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.94,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
