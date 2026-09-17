@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-17T15:13:21.374696+09:00",
+  "timestamp": "2026-09-17T20:53:22.930505+09:00",
   "sentiment": {
-    "cnn_fng": 26.4,
+    "cnn_fng": 26.1142857142857,
     "cnn_components": {
       "momentum": 20.6,
-      "strength": 1.8,
-      "breadth": 0.6,
+      "strength": 0.4,
+      "breadth": 0.0,
       "put_call": 28.2,
       "junk_bond": 54.0,
       "volatility": 50.0,
@@ -14,40 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "증시 빚투·부동산 영끌 ‘금리 비상’… 기업도 자금조달 ‘충격파’ - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DNWRsd01KOHY5Wi10Y1lkNHRpQlpON2pRSmZtOHBYVklROGpvXzQ1QjVPNVI5SldQRTdEODlnRG5OaTFHalBoMVR2dHhwaDhy?oc=5",
-          "pub_date": "Thu, 17 Sep 2026 02:57:02 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "[마켓 프리뷰] 반도체주 저가 매수에 코스피 상승…기관 매수에 '방긋' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHQlJ5MEhZcjYyTEozbC1ITFdxVHZOS2pXYXJZYlphaWlGQ2p1bGVLQmdKOEgwY19ldWtRallSWGxJSDlQb29QWXVtenBoUGs?oc=5",
-          "pub_date": "Wed, 16 Sep 2026 22:31:15 GMT",
-          "source": "v.daum.net"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 1,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "그 땐 코스피 25% 폭락…2022년 공포 재현될까 - 한국경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMZVc3bTdtM0M5QUo1bElORlpQNlRNZE5KdlRwYjY4ZWhrVXU1TWY2NnBpOWV1R3hGcWk1QXZQOWxQZXBiMlNkUFhQZmZNdVk4Qjh3Q0pCcTVVUQ?oc=5",
           "pub_date": "Thu, 17 Sep 2026 05:13:10 GMT",
           "source": "한국경제"
-        },
-        {
-          "title": "외국인·기관 매도세 확대에…코스피, 6700선에서 강보합 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaWdieDNadWxhWG5jdGNpRmVqWUJKZzVGS0ZuWXRiY1AzSlB3MzJzeTFTSkJoNFdtSmFGSmFVNjVQbFg4NGtfdWR1Y0JUbjNSY2FZNEEyNWtIVVFUVElhN3NyYmtETXUyMVBydWVTcTl5UHVKdm1UNjdyOTB0RVNDVlh5MVo5c250bEdIdU9vaUllSmhqMW94eWs1VkPSAZwBQVVfeXFMTWlnYngzWnVsYVhuY3RjaUZlallCSmc1RktGbll0YmNQM0pQdzMyc3kxU0pCaDRXbUphRkphVTY1UGxYODRrX3VkdWNCVG4zUmNhWTRBMjVrSFVRVFRJYTdzcmJrRE11MjFQcnVlU3E5eVB1SnZtVDY3cjkwdEVTQ1ZYeTFaOXNudGxHSHVPb2lJZUpoajFveHlrNVZD?oc=5",
-          "pub_date": "Thu, 17 Sep 2026 02:48:00 GMT",
-          "source": "Chosunbiz"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.71,
+    "vix": 15.96,
     "vvix": 95.41,
     "skew": 145.95,
     "move": 80.73
@@ -69,16 +50,16 @@
       "sma_200": 24521.71
     },
     "kospi": {
-      "current": 6708.89,
+      "current": 6715.41,
       "high_52w": 9385.59,
-      "drop_pct": -28.52,
-      "intraday_low_drop_pct": -28.56,
-      "sma_200": 6191.19
+      "drop_pct": -28.45,
+      "intraday_low_drop_pct": -28.64,
+      "sma_200": 6191.23
     },
     "kosdaq": {
-      "current": 821.55,
+      "current": 822.18,
       "high_52w": 1229.42,
-      "drop_pct": -33.18,
+      "drop_pct": -33.12,
       "intraday_low_drop_pct": -33.71,
       "sma_200": 986.7
     },
@@ -231,7 +212,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 180.265,
+    "strategy_pct": 178.745,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -963,7 +944,7 @@
       },
       {
         "date": "2026-09-17",
-        "ret_pct": 180.265
+        "ret_pct": 178.745
       }
     ],
     "monthly_breakdown": [
@@ -1017,8 +998,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -5.02,
-        "end_ret_pct": 180.26,
+        "return_pct": -6.54,
+        "end_ret_pct": 178.75,
         "max_dd_pct": 16.17
       }
     ],
