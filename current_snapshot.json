@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T06:26:34.210967+09:00",
+  "timestamp": "2026-09-21T08:20:36.859332+09:00",
   "sentiment": {
     "cnn_fng": 29.1142857142857,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "[밤 사이 해외 뉴스 영상] 빚투 열풍에 결국…한국 증시, '글로벌 위험 요소' 낙인 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vTGtxd3FQTWVESkhlanV1cW9wV19xWFRTenViUlFsdHF1MEdhb3lZbHFVRkNZV2F4ZE5SZmczVUZ4VU5lbmYxZFRyUGNYSmpaMEFfOWxVMnMzUQ?oc=5",
+          "pub_date": "Sun, 20 Sep 2026 23:14:45 GMT",
+          "source": "한국경제"
+        }
+      ],
       "fear_articles": []
     }
   },
