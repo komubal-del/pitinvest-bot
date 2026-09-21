@@ -1,42 +1,28 @@
 {
-  "timestamp": "2026-09-21T22:22:05.167152+09:00",
+  "timestamp": "2026-09-22T03:48:55.350934+09:00",
   "sentiment": {
-    "cnn_fng": 29.1142857142857,
+    "cnn_fng": 34.5714285714286,
     "cnn_components": {
-      "momentum": 27.6,
-      "strength": 2.0,
+      "momentum": 40.8,
+      "strength": 2.4,
       "breadth": 0.0,
-      "put_call": 33.8,
-      "junk_bond": 52.6,
+      "put_call": 38.6,
+      "junk_bond": 52.0,
       "volatility": 50.0,
-      "safe_haven": 37.8
+      "safe_haven": 58.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "[인도증시] 저가 매수세 유입에 ↑...고유가·IPO가 상승 폭 제한 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oWVEzRjZLLUVZS0Y1d1NNQlVpR1Y1aWgwUEpaTDRBTkJ5VHB4bDU4VnZCb2xGTUZzbXViZzgtdm9oUGpRSmY5ME5uTHBRczhGd19ObEZVSkZMVWdu?oc=5",
-          "pub_date": "Mon, 21 Sep 2026 11:00:00 GMT",
-          "source": "뉴스핌"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "뉴욕증시 프리뷰, 유가 급락·美 국채 5% 아래로… 나스닥 선물 1%대 상승 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CY2VOZlVrNlNhQW5LMTA4bmRNUU1lVklJQU05ZVR1Qlh4ZTVaM3h2R0hTbHZPTm1Fa0t3TmJQODhac1ZXRHVHRy1KM3lTN1piQ1YwbzI4ZGVtXzNr?oc=5",
-          "pub_date": "Mon, 21 Sep 2026 12:44:00 GMT",
-          "source": "뉴스핌"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.87,
-    "vvix": 87.38,
+    "vix": 15.01,
+    "vvix": 86.15,
     "skew": 148.1,
     "move": 80.64
   },
@@ -50,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26522.54,
+      "current": 27122.39,
       "high_52w": 27190.21,
-      "drop_pct": -2.46,
-      "intraday_low_drop_pct": -3.15,
-      "sma_200": 24553.2
+      "drop_pct": -0.25,
+      "intraday_low_drop_pct": -1.78,
+      "sma_200": 24571.75
     },
     "kospi": {
-      "current": 7007.72,
+      "current": 6894.23,
       "high_52w": 9385.59,
-      "drop_pct": -25.34,
-      "intraday_low_drop_pct": -26.07,
-      "sma_200": 6221.64
+      "drop_pct": -26.54,
+      "intraday_low_drop_pct": -27.22,
+      "sma_200": 6206.41
     },
     "kosdaq": {
-      "current": 836.27,
+      "current": 827.12,
       "high_52w": 1229.42,
-      "drop_pct": -31.98,
-      "intraday_low_drop_pct": -33.11,
-      "sma_200": 986.35
+      "drop_pct": -32.72,
+      "intraday_low_drop_pct": -32.92,
+      "sma_200": 986.56
     },
     "sp500": {
-      "current": 7650.5,
+      "current": 7773.09,
       "high_52w": 7816.7,
-      "drop_pct": -2.13,
-      "intraday_low_drop_pct": -2.64,
-      "sma_200": 7183.05
+      "drop_pct": -0.56,
+      "intraday_low_drop_pct": -1.61,
+      "sma_200": 7187.77
     },
     "russell2k": {
-      "current": 2860.4,
+      "current": 2880.61,
       "high_52w": 3069.71,
-      "drop_pct": -6.82,
+      "drop_pct": -6.16,
       "intraday_low_drop_pct": -6.82,
-      "sma_200": 2768.38
+      "sma_200": 2768.48
     },
     "soxx": {
-      "current": 533.07,
+      "current": 558.19,
       "high_52w": 655.95,
-      "drop_pct": -18.73,
-      "intraday_low_drop_pct": -20.36,
-      "sma_200": 441.57
+      "drop_pct": -14.9,
+      "intraday_low_drop_pct": -17.45,
+      "sma_200": 442.85
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 0.971,
+    "SMH": 0.854,
+    "BOTZ": 0.898,
+    "IGV": 1.172,
+    "XLF": 1.0,
+    "XLE": 1.117
   },
   "signals": {
     "cnn_under_10": false,
@@ -134,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.2,
+    "tqqq_profit_pct": 79.27,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 131.16,
+    "soxl_profit_pct": 163.92,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.55,
+    "koru_profit_pct": -93.85,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
