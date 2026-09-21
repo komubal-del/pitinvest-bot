@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T10:15:48.285748+09:00",
+  "timestamp": "2026-09-21T15:33:36.950087+09:00",
   "sentiment": {
     "cnn_fng": 29.1142857142857,
     "cnn_components": {
@@ -14,9 +14,16 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 0,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "코스피 7000선 탈환에도 줄어든 실탄·늘어난 빚투 - 메트로신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JbmhrLTlqd0dET0t0RVdNZ1hTWkhQUGxpRFZ0TndwTldsWVctTFpKQjRtNkEzcENmZGQ2c2sya2VrY25FeWx4eUNsU3loZU5fdVhQdzJpWW5oVXdpakp2cw?oc=5",
+          "pub_date": "Mon, 21 Sep 2026 04:21:47 GMT",
+          "source": "메트로신문"
+        }
+      ],
       "fear_articles": []
     }
   },
@@ -43,18 +50,18 @@
       "sma_200": 24553.2
     },
     "kospi": {
-      "current": 6959.55,
+      "current": 6988.78,
       "high_52w": 9385.59,
-      "drop_pct": -25.85,
+      "drop_pct": -25.54,
       "intraday_low_drop_pct": -26.07,
-      "sma_200": 6221.4
+      "sma_200": 6221.55
     },
     "kosdaq": {
-      "current": 832.2,
+      "current": 835.29,
       "high_52w": 1229.42,
-      "drop_pct": -32.31,
+      "drop_pct": -32.06,
       "intraday_low_drop_pct": -33.11,
-      "sma_200": 986.33
+      "sma_200": 986.35
     },
     "sp500": {
       "current": 7650.5,
