@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T15:33:36.950087+09:00",
+  "timestamp": "2026-09-21T22:22:05.167152+09:00",
   "sentiment": {
     "cnn_fng": 29.1142857142857,
     "cnn_components": {
@@ -15,20 +15,27 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [
         {
-          "title": "코스피 7000선 탈환에도 줄어든 실탄·늘어난 빚투 - 메트로신문",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JbmhrLTlqd0dET0t0RVdNZ1hTWkhQUGxpRFZ0TndwTldsWVctTFpKQjRtNkEzcENmZGQ2c2sya2VrY25FeWx4eUNsU3loZU5fdVhQdzJpWW5oVXdpakp2cw?oc=5",
-          "pub_date": "Mon, 21 Sep 2026 04:21:47 GMT",
-          "source": "메트로신문"
+          "title": "[인도증시] 저가 매수세 유입에 ↑...고유가·IPO가 상승 폭 제한 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oWVEzRjZLLUVZS0Y1d1NNQlVpR1Y1aWgwUEpaTDRBTkJ5VHB4bDU4VnZCb2xGTUZzbXViZzgtdm9oUGpRSmY5ME5uTHBRczhGd19ObEZVSkZMVWdu?oc=5",
+          "pub_date": "Mon, 21 Sep 2026 11:00:00 GMT",
+          "source": "뉴스핌"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "뉴욕증시 프리뷰, 유가 급락·美 국채 5% 아래로… 나스닥 선물 1%대 상승 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CY2VOZlVrNlNhQW5LMTA4bmRNUU1lVklJQU05ZVR1Qlh4ZTVaM3h2R0hTbHZPTm1Fa0t3TmJQODhac1ZXRHVHRy1KM3lTN1piQ1YwbzI4ZGVtXzNr?oc=5",
+          "pub_date": "Mon, 21 Sep 2026 12:44:00 GMT",
+          "source": "뉴스핌"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 14.81,
+    "vix": 14.87,
     "vvix": 87.38,
     "skew": 148.1,
     "move": 80.64
@@ -50,16 +57,16 @@
       "sma_200": 24553.2
     },
     "kospi": {
-      "current": 6988.78,
+      "current": 7007.72,
       "high_52w": 9385.59,
-      "drop_pct": -25.54,
+      "drop_pct": -25.34,
       "intraday_low_drop_pct": -26.07,
-      "sma_200": 6221.55
+      "sma_200": 6221.64
     },
     "kosdaq": {
-      "current": 835.29,
+      "current": 836.27,
       "high_52w": 1229.42,
-      "drop_pct": -32.06,
+      "drop_pct": -31.98,
       "intraday_low_drop_pct": -33.11,
       "sma_200": 986.35
     },
@@ -74,8 +81,8 @@
       "current": 2860.4,
       "high_52w": 3069.71,
       "drop_pct": -6.82,
-      "intraday_low_drop_pct": -7.26,
-      "sma_200": 2766.4
+      "intraday_low_drop_pct": -6.82,
+      "sma_200": 2768.38
     },
     "soxx": {
       "current": 533.07,
