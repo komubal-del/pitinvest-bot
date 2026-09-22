@@ -1,28 +1,47 @@
 {
-  "timestamp": "2026-09-22T10:10:57.292611+09:00",
+  "timestamp": "2026-09-22T15:22:37.243152+09:00",
   "sentiment": {
-    "cnn_fng": 33.7142857142857,
+    "cnn_fng": 33.6571428571429,
     "cnn_components": {
       "momentum": 40.4,
       "strength": 1.8,
       "breadth": 0.0,
       "put_call": 37.8,
-      "junk_bond": 49.0,
+      "junk_bond": 48.6,
       "volatility": 50.0,
       "safe_haven": 57.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 3,
+      "greed_articles": [
+        {
+          "title": "美 증시 축포 터졌지만…1999년 닷컴버블 직전 ‘판박이 신호’ 어쩌나 [재테크+] - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nYmNvejNXd0x2UXpTVlRsX1dpcEdQS2hHM1ZrRUh6Y2x5RmM3REE1THppdTNXTl9YNm45ZVRaSEliMnNVSTNmSkVGbVlFeEtXRHo1YXNRSUFBNmxCUnVZdThpZ0lpLWxRMkJLMEJkNA?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 05:16:20 GMT",
+          "source": "서울신문"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "‘이머징마켓 편입’ 베트남증시, 시장 승격 첫날 1% 약세…빈그룹주 급락 - 인사이드비나",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zcEgzd0l2NWtHVDZFMjVoX29qNTUyYXZSWmR4ZlF5WHhXWEY1TVZZQ0JPdHN0blZTTWh5Rm5OajlWdmpyYXFqQkhqTmgza2x4VnFWVDI1YkZLdHZVNmVlMnJGakRSN0pDbE9peA?oc=5",
-          "pub_date": "Tue, 22 Sep 2026 00:00:00 GMT",
-          "source": "인사이드비나"
+          "title": "[食전食후] 코스피, 개미 2조원 '팔자'에 상승폭 축소…코스닥 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kZmhqdnliMm5FS3h3TkZYYnFNVUtnMXlLVjJpZ2ZNc3FKWFZuM1BsbThuUEZSR3paTy1zcnk4MG5UcjNWUm1jR201Q3FKRVU?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 05:10:36 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "상승 출발했던 코스피 장중 하락 전환…7,000선도 이탈 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTaXNkZS1IWnZzbzJtWHVXZFNHZW9qeElNM21kU2lNMkxNdWJoSUo2bFk0ZV9wR21IMVJWLUNnaUx3Vi1sNndBMFZSdXJqanlKTnFuR3ZUTW9HRGRkQkV5b1FqdFVJWlZoNkhwYU8tb1NCaW050gF0QVVfeXFMUFNpc2RlLUhadnNvMm1YdVdkU0dlb2p4SU0zbWRTaU0yTE11YmhJSjZsWTRlX3BHbUgxUlYtQ2dpTHdWLWw2d0EwVlJ1cmpqeUpOcW5HdlRNb0dEZGRCRXlvUWp0VUlaVmg2SHBhTy1vU0JpbTk?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 05:33:50 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "개인 1조원 매도세에도…1.77% 상승 중인 코스피 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX29rOHQ5Ukd6NW5JVTI4dGFwdU84RnJFMTNURl9YclZkQUlxNUFLV1pXR3ByZjJVUm1fbUcxMmo0Slg2VHE4TG1qY1g0LWRBTHlRdnNVWmhOVHVJWElLTmVRNmtyN2FFbkZCd1IxaTFSQ2NscGVWa0RsOWg5c2k1V1NVRWVidlZQaEIxam5IVW1ZR3dibFE5RWpvd2bSAZwBQVVfeXFMTl9vazh0OVJHejVuSVUyOHRhcHVPOEZyRTEzVEZfWHJWZEFJcTVBS1daV0dwcmYyVVJtX21HMTJqNEpYNlRxOExtamNYNC1kQUx5UXZzVVpoTlR1SVhJS05lUTZrcjdhRW5GQndSMWkxUkNjbHBlVmtEbDloOXNpNVdTVUVlYnZWUGhCMWpuSFVtWUd3YmxROUVqb3dm?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 02:57:00 GMT",
+          "source": "Chosunbiz"
         }
       ]
     }
@@ -50,18 +69,18 @@
       "sma_200": 24571.74
     },
     "kospi": {
-      "current": 7140.39,
+      "current": 7033.98,
       "high_52w": 9385.59,
-      "drop_pct": -23.92,
-      "intraday_low_drop_pct": -23.96,
-      "sma_200": 6222.31
+      "drop_pct": -25.06,
+      "intraday_low_drop_pct": -25.56,
+      "sma_200": 6236.88
     },
     "kosdaq": {
-      "current": 842.62,
+      "current": 836.04,
       "high_52w": 1229.42,
-      "drop_pct": -31.46,
-      "intraday_low_drop_pct": -31.61,
-      "sma_200": 986.39
+      "drop_pct": -32.0,
+      "intraday_low_drop_pct": -32.4,
+      "sma_200": 986.13
     },
     "sp500": {
       "current": 7764.7,
@@ -74,24 +93,24 @@
       "current": 2875.36,
       "high_52w": 3069.71,
       "drop_pct": -6.33,
-      "intraday_low_drop_pct": -6.82,
+      "intraday_low_drop_pct": -6.48,
       "sma_200": 2768.46
     },
     "soxx": {
-      "current": 533.07,
+      "current": 559.34,
       "high_52w": 655.95,
-      "drop_pct": -18.73,
-      "intraday_low_drop_pct": -20.36,
-      "sma_200": 441.57
+      "drop_pct": -14.73,
+      "intraday_low_drop_pct": -17.45,
+      "sma_200": 442.85
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 0.975,
+    "SMH": 0.855,
+    "BOTZ": 0.898,
+    "IGV": 1.178,
+    "XLF": 1.003,
+    "XLE": 1.116
   },
   "signals": {
     "cnn_under_10": false,
@@ -108,7 +127,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -127,19 +146,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 79.46,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 165.29,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -93.87,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -153,7 +172,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -212,7 +231,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 203.298,
+    "strategy_pct": 132.353,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -956,7 +975,7 @@
       },
       {
         "date": "2026-09-22",
-        "ret_pct": 203.298
+        "ret_pct": 132.353
       }
     ],
     "monthly_breakdown": [
@@ -1010,9 +1029,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 18.01,
-        "end_ret_pct": 203.3,
-        "max_dd_pct": 16.17
+        "return_pct": -52.93,
+        "end_ret_pct": 132.35,
+        "max_dd_pct": 62.36
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
