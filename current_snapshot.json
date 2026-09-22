@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-22T15:22:37.243152+09:00",
+  "timestamp": "2026-09-22T20:52:24.029577+09:00",
   "sentiment": {
     "cnn_fng": 33.6571428571429,
     "cnn_components": {
       "momentum": 40.4,
-      "strength": 1.8,
-      "breadth": 0.0,
+      "strength": 1.6,
+      "breadth": 0.2,
       "put_call": 37.8,
       "junk_bond": 48.6,
       "volatility": 50.0,
@@ -14,40 +14,58 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
+      "greed_count": 2,
+      "fear_count": 6,
       "greed_articles": [
         {
-          "title": "美 증시 축포 터졌지만…1999년 닷컴버블 직전 ‘판박이 신호’ 어쩌나 [재테크+] - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nYmNvejNXd0x2UXpTVlRsX1dpcEdQS2hHM1ZrRUh6Y2x5RmM3REE1THppdTNXTl9YNm45ZVRaSEliMnNVSTNmSkVGbVlFeEtXRHo1YXNRSUFBNmxCUnVZdThpZ0lpLWxRMkJLMEJkNA?oc=5",
-          "pub_date": "Tue, 22 Sep 2026 05:16:20 GMT",
-          "source": "서울신문"
+          "title": "코스닥에 공매도 과열 지정 85% 집중…'반도체·바이오' 몰려 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PMk53Si1SZG5VS3ZZMFNnbk5qczB1cWUzY240d0VZdnBCRjRkNFBESFBHVnRKWWxLXzQ2WFhLWk9yVlZ2MVFTYTRBWkxEaVBjdnBXQjk3ZWJHWnpo?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 08:01:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "’AI 거품론’에 발목 잡힌 코스피… 2% 급등하다 강보합 마감 - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jRkVDWFdDTk43OWM0LWt5dnFCY0c3ckR6NWVfLTRodXoxbm44OWZLOFhjOU9ralhGYVlwQ2JsR25sVURYYzlSNTB5bFNvREc1X3lYd0hKNjlON1ZrbFBJaEd3?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 08:05:00 GMT",
+          "source": "이코노미스트"
         }
       ],
       "fear_articles": [
         {
-          "title": "[食전食후] 코스피, 개미 2조원 '팔자'에 상승폭 축소…코스닥 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kZmhqdnliMm5FS3h3TkZYYnFNVUtnMXlLVjJpZ2ZNc3FKWFZuM1BsbThuUEZSR3paTy1zcnk4MG5UcjNWUm1jR201Q3FKRVU?oc=5",
-          "pub_date": "Tue, 22 Sep 2026 05:10:36 GMT",
-          "source": "v.daum.net"
+          "title": "코스피, 장 후반 상승폭 줄이며 7천 선에서 마감‥코스닥은 하락 전환 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45VWQzQW9Ccml1NUgwelBabW11RG1YbmU1bXZBb1lOUGJxbkR5bWgzUG83WUQ4NC0wNVY4VEQ0cWNVTGc5QndvS0xnZTRHaXRGNnp5MC12UVg3ZFdMeEEwemdDbFpTUUpzaDNXYnRNdl9feDYy0gF0QVVfeXFMUHpJWlBPa0J0elBSOFZOeVZpQ18wSTEzUEJEZFNqOGhWOF9GTmFsWmZXdjRnRWp0TEpJNWVVWDA3YUFIOUx2a3VTTnFTbkF0WURPUEpOQVQxQXl0R08wWGVUNlRUcWw1NVZlemh0RUVLZ3BvN2g?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 08:45:15 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "상승 출발했던 코스피 장중 하락 전환…7,000선도 이탈 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTaXNkZS1IWnZzbzJtWHVXZFNHZW9qeElNM21kU2lNMkxNdWJoSUo2bFk0ZV9wR21IMVJWLUNnaUx3Vi1sNndBMFZSdXJqanlKTnFuR3ZUTW9HRGRkQkV5b1FqdFVJWlZoNkhwYU8tb1NCaW050gF0QVVfeXFMUFNpc2RlLUhadnNvMm1YdVdkU0dlb2p4SU0zbWRTaU0yTE11YmhJSjZsWTRlX3BHbUgxUlYtQ2dpTHdWLWw2d0EwVlJ1cmpqeUpOcW5HdlRNb0dEZGRCRXlvUWp0VUlaVmg2SHBhTy1vU0JpbTk?oc=5",
-          "pub_date": "Tue, 22 Sep 2026 05:33:50 GMT",
+          "title": "상승 출발했던 코스피, 7,000선 두고 등락 거듭…한때 하락 전환하기도 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsbFRMZDRJM2xyRmhkZ1YzODhNZTNRTHdEbFNyTGxHZ1pKcVNCMnBKWUMzSWRIVmw4R2xhUWdhUWtnYmgxTEtiZHhqaUhLT3k3endXTENyMWpmVDhpN2ZZZi1nSVlwLW1ESGhfUEdHbm4?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 06:18:02 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "개인 1조원 매도세에도…1.77% 상승 중인 코스피 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX29rOHQ5Ukd6NW5JVTI4dGFwdU84RnJFMTNURl9YclZkQUlxNUFLV1pXR3ByZjJVUm1fbUcxMmo0Slg2VHE4TG1qY1g0LWRBTHlRdnNVWmhOVHVJWElLTmVRNmtyN2FFbkZCd1IxaTFSQ2NscGVWa0RsOWg5c2k1V1NVRWVidlZQaEIxam5IVW1ZR3dibFE5RWpvd2bSAZwBQVVfeXFMTl9vazh0OVJHejVuSVUyOHRhcHVPOEZyRTEzVEZfWHJWZEFJcTVBS1daV0dwcmYyVVJtX21HMTJqNEpYNlRxOExtamNYNC1kQUx5UXZzVVpoTlR1SVhJS05lUTZrcjdhRW5GQndSMWkxUkNjbHBlVmtEbDloOXNpNVdTVUVlYnZWUGhCMWpuSFVtWUd3YmxROUVqb3dm?oc=5",
-          "pub_date": "Tue, 22 Sep 2026 02:57:00 GMT",
-          "source": "Chosunbiz"
+          "title": "'전강후약' 코스피 7000선 사수…환율 1350원대 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tZk1ta1FrN044VUY0cmtMMUNhUkIzWUxnVWRxMlBCOHprdFFaLUFhZGNoS2k3SGVMb2FjdFJXa3cteUtRb01jNTZnVWE4eEk?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 09:16:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "한때 하락 전환한 코스피, 7,000선 지켜내…0.15% 상승 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04dVJtTV94UHltYWhRTW1KLWJqaWlRSE1GRUVQZHNWM01NeUxqUEt0WmdTdW9JTXRVQ3NqZndOS2VDa2hnQUdkNVBwVUgtbC1aRUIxVWx4Y1dES1I5UXlldEdiLTZ1TU12bEdWalRCekJPZGdW0gF0QVVfeXFMTTh1Um1NX3hQeW1haFFNbUotYmppaVFITUZFRVBkc1YzTU15TGpQS3RaZ1N1b0lNdFVDc2pmd05LZUNraGdBR2Q1UHBVSC1sLVpFQjFVbHhjV0RLUjlReWV0R2ItNnVNTXZsR1ZqVEJ6Qk9kZ1Y?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 06:44:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[食전食후] 코스피, 개미 2조원 '팔자'에 상승폭 축소…코스닥 하락 전환 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOZzVZWjd3MWxtMS1HR0dXUEllRmhucmQtNm5md2lXS05SN1AzZ0dtbHJWOTNxajMtdUNFcnFJbkdES0N3VmNlUFlTdGRxWGZQTTFGSA?oc=5",
+          "pub_date": "Tue, 22 Sep 2026 05:10:00 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 14.87,
+    "vix": 14.71,
     "vvix": 85.77,
     "skew": 142.19,
     "move": 81.2
@@ -69,16 +87,16 @@
       "sma_200": 24571.74
     },
     "kospi": {
-      "current": 7033.98,
+      "current": 7017.91,
       "high_52w": 9385.59,
-      "drop_pct": -25.06,
+      "drop_pct": -25.23,
       "intraday_low_drop_pct": -25.56,
-      "sma_200": 6236.88
+      "sma_200": 6236.8
     },
     "kosdaq": {
-      "current": 836.04,
+      "current": 834.38,
       "high_52w": 1229.42,
-      "drop_pct": -32.0,
+      "drop_pct": -32.13,
       "intraday_low_drop_pct": -32.4,
       "sma_200": 986.13
     },
@@ -231,7 +249,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 132.353,
+    "strategy_pct": 203.298,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -975,7 +993,7 @@
       },
       {
         "date": "2026-09-22",
-        "ret_pct": 132.353
+        "ret_pct": 203.298
       }
     ],
     "monthly_breakdown": [
@@ -1029,9 +1047,9 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -52.93,
-        "end_ret_pct": 132.35,
-        "max_dd_pct": 62.36
+        "return_pct": 18.01,
+        "end_ret_pct": 203.3,
+        "max_dd_pct": 16.17
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
