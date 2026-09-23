@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-23T15:12:34.686326+09:00",
+  "timestamp": "2026-09-23T20:52:05.386280+09:00",
   "sentiment": {
-    "cnn_fng": 35.2285714285714,
+    "cnn_fng": 35.1142857142857,
     "cnn_components": {
       "momentum": 40.0,
-      "strength": 2.4,
+      "strength": 1.6,
       "breadth": 0.0,
       "put_call": 48.4,
       "junk_bond": 47.6,
@@ -15,38 +15,13 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 4,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "'반도체 랠리'에 코스피 7,100선 재돌파...환율 1,340원대 급락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBURFNrZnNvdWdnTS1RMGNfTnVMd29aWDJ5bTVqdHhTWVkwMEJnQk1iYUZBeVhib2hUSDlPRW9VTzNaRE55cmtSeWpXWGVYQ19pdHZaTHJvVEZVVHFsaGc?oc=5",
-          "pub_date": "Wed, 23 Sep 2026 01:59:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "[食전食후] 코스피, 개인·외국인 매도에 상승폭 축소…하락 전환도 가능성 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpWjlPY2R1MDVuM1lSd29qSFZGYm5zZlVlc293TjRHSzJaQXkzY1Y2WDNjVTdKb3JIS3dRMk44SG5WQTl4RjFncWNMT0dXZ0E?oc=5",
-          "pub_date": "Wed, 23 Sep 2026 04:07:33 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "추석 앞두고 외인·개인 동반 매도…코스피, 장중 하락 전환하기도 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRG1IelpWYTUyeHpxdFo0TXJPVmQ0c3A3UmQ4VTJSSjNOakZuZ1hQM2VGdFVoSEwxeDdqMkpPYTNoTDQ1c2dYTjBEazZzVWt6R1d4V3BIU3F4MXh4aWY1MlNEQ3VNTDZlMVFVUzZhSFZ4cXd2bVVBNGpsakpRYTdfdXZyU29mTU5BZzdWYkxKWldyWU9MMDZiUWx6Q2TSAZwBQVVfeXFMTURtSHpaVmE1Mnh6cXRaNE1yT1ZkNHNwN1JkOFUyUkozTmpGbmdYUDNlRnRVaEhMMXg3ajJKT2EzaEw0NXNnWE4wRGs2c1VrekdXeFdwSFNxeDF4eGlmNTJTREN1TUw2ZTFRVVM2YUhWeHF3dm1VQTRqbGpKUWE3X3V2clNvZk1OQWc3VmJMSlpXcllPTDA2YlFsekNk?oc=5",
-          "pub_date": "Wed, 23 Sep 2026 02:43:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "[食전食후] 코스피, 개인·외국인 매도에 상승폭 축소…하락 전환도 가능성 - 아주경제",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qVjdMZmVnVXRsWFpjSThDX0VTNEsxb1hkYm5waThRYWZ3WWNZZk1nMnZYdGstYnNmX1JnUjFOenZkQzJoLW5RWEkzRTk3Mm53TE16TkQ2TUrSAVhBVV95cUxPalY3TGZlZ1V0bFhaY0k4Q19FUzRLMW9YZGJucGk4UWFmd1ljWWZNZzJ2WHRrLWJzZl9SZ1IxTnp2ZEMyaC1uUVhJM0U5NzJud0xNek5ENk1K?oc=5",
-          "pub_date": "Wed, 23 Sep 2026 04:07:26 GMT",
-          "source": "아주경제"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.87,
+    "vix": 14.31,
     "vvix": 85.77,
     "skew": 142.19,
     "move": 81.2
@@ -68,18 +43,18 @@
       "sma_200": 24571.74
     },
     "kospi": {
-      "current": 7062.35,
+      "current": 7080.92,
       "high_52w": 9385.59,
-      "drop_pct": -24.75,
+      "drop_pct": -24.56,
       "intraday_low_drop_pct": -25.26,
-      "sma_200": 6237.02
+      "sma_200": 6237.11
     },
     "kosdaq": {
-      "current": 842.55,
+      "current": 844.48,
       "high_52w": 1229.42,
-      "drop_pct": -31.47,
+      "drop_pct": -31.31,
       "intraday_low_drop_pct": -32.04,
-      "sma_200": 986.17
+      "sma_200": 986.18
     },
     "sp500": {
       "current": 7764.7,
