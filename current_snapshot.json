@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-25T05:22:02.848577+09:00",
+  "timestamp": "2026-09-25T08:15:59.165349+09:00",
   "sentiment": {
-    "cnn_fng": 36.1428571428571,
+    "cnn_fng": 36.1142857142857,
     "cnn_components": {
       "momentum": 31.8,
       "strength": 0.0,
       "breadth": 0.0,
-      "put_call": 53.8,
+      "put_call": 53.6,
       "junk_bond": 63.0,
       "volatility": 50.0,
       "safe_haven": 54.4
@@ -28,10 +28,10 @@
     }
   },
   "volatility": {
-    "vix": 15.64,
-    "vvix": 90.28,
-    "skew": 146.15,
-    "move": 95.45
+    "vix": 15.67,
+    "vvix": 90.57,
+    "skew": 146.04,
+    "move": 104.58
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -90,8 +90,8 @@
     "SMH": 0.9,
     "BOTZ": 0.919,
     "IGV": 1.207,
-    "XLF": 0.977,
-    "XLE": 1.111
+    "XLF": 0.978,
+    "XLE": 1.112
   },
   "signals": {
     "cnn_under_10": false,
@@ -212,7 +212,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 201.847,
+    "strategy_pct": 201.268,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -968,7 +968,7 @@
       },
       {
         "date": "2026-09-25",
-        "ret_pct": 201.847
+        "ret_pct": 201.268
       }
     ],
     "monthly_breakdown": [
@@ -1022,8 +1022,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 16.56,
-        "end_ret_pct": 201.85,
+        "return_pct": 15.98,
+        "end_ret_pct": 201.27,
         "max_dd_pct": 66.35
       }
     ],
