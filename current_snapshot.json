@@ -1,47 +1,35 @@
 {
-  "timestamp": "2026-09-24T20:59:08.852803+09:00",
+  "timestamp": "2026-09-25T02:02:01.035993+09:00",
   "sentiment": {
-    "cnn_fng": 34.6285714285714,
+    "cnn_fng": 34.9428571428571,
     "cnn_components": {
       "momentum": 31.8,
       "strength": 0.0,
       "breadth": 0.0,
-      "put_call": 49.0,
-      "junk_bond": 52.8,
+      "put_call": 55.6,
+      "junk_bond": 55.4,
       "volatility": 50.0,
-      "safe_haven": 58.8
+      "safe_haven": 52.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 3,
+      "fear_count": 1,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "美 국채금리 급등·유가 폭등 충격…뉴욕증시 선물 일제히 급락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDBBWlZrVE12d0NMVG13Q3pwcHJ6OTZ5OW00R1ZmRktIeXFXMGZ0MGFJSkJubk0yNVFhWFdXdUNTV3Zhc3M1V2tKaXNVMFZjT1BkUVhMYnotNENXUFJiLXhUVENUYjl5YVRzQkpZemg0RHVqc182Q0xJc2tzRHgyd1JoWTJJYUY2?oc=5",
-          "pub_date": "Thu, 24 Sep 2026 10:46:28 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "[인도증시] 유가·美 국채 금리 급등 속 10주래 최대 폭 하락...보험 수수료 상한선 제한 우려에 금융주 '급락' - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SQ3ltNF9rTmtkN3FvMDhfZ2ZsVXJwQWFMcUJSSlF4SG9zd2FTaDRsNnM0OC1mNmxEMlZzZlY0U25udUxMX0xqNHVib0RvR0VNaDRzTGpZOEJ4V1py?oc=5",
-          "pub_date": "Thu, 24 Sep 2026 11:38:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[뉴욕증시] 국채 수익률 또 '발작'...나스닥 308.24P 급락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa3pUWHlCNG9nM25lUU5iWDNYRWNqT19JTVp0V2ZKa1pWMWZTT1ZPQ1dHN0hXdjhsMDUtX05OWElobmtlc082WGR2ejV3dl9Bb3BteVdxUFNzT1EwU3hJbk16ajZlUnNhNkY3UmtLeUtpVHV1ekhaMV90OFZJMUQtdEZRNmRXa3l1?oc=5",
-          "pub_date": "Wed, 23 Sep 2026 20:25:59 GMT",
-          "source": "글로벌이코노믹"
+          "title": "유럽증시, 후티의 사우디 미사일 공격에 유가 급등하자 하락… 미 국채 매도세 확산 - newspim.com",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jbGt1UXgxX3NUSGxUN1dWWkp5QWJoaFpaeFpoSGxoREZ4VUo3VVdpa3I3ajRBaUFYOG5JVUctelVrUHNfeW5QN2kwa2tIb2wyQWcwU3NEX1l6VXlx?oc=5",
+          "pub_date": "Thu, 24 Sep 2026 16:58:00 GMT",
+          "source": "newspim.com"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.15,
-    "vvix": 88.6,
+    "vix": 15.51,
+    "vvix": 89.29,
     "skew": 146.15,
     "move": 95.45
   },
@@ -55,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26936.04,
+      "current": 26950.22,
       "high_52w": 27288.79,
-      "drop_pct": -1.29,
-      "intraday_low_drop_pct": -1.52,
-      "sma_200": 24589.15
+      "drop_pct": -1.24,
+      "intraday_low_drop_pct": -2.14,
+      "sma_200": 24606.38
     },
     "kospi": {
       "current": 7080.92,
@@ -76,34 +64,34 @@
       "sma_200": 986.18
     },
     "sp500": {
-      "current": 7706.03,
+      "current": 7711.06,
       "high_52w": 7816.7,
-      "drop_pct": -1.42,
-      "intraday_low_drop_pct": -1.56,
-      "sma_200": 7192.01
+      "drop_pct": -1.35,
+      "intraday_low_drop_pct": -1.97,
+      "sma_200": 7196.28
     },
     "russell2k": {
-      "current": 2838.66,
+      "current": 2834.53,
       "high_52w": 3069.71,
-      "drop_pct": -7.53,
-      "intraday_low_drop_pct": -7.54,
-      "sma_200": 2770.09
+      "drop_pct": -7.66,
+      "intraday_low_drop_pct": -8.44,
+      "sma_200": 2771.61
     },
     "soxx": {
-      "current": 565.72,
+      "current": 565.25,
       "high_52w": 655.95,
-      "drop_pct": -13.76,
-      "intraday_low_drop_pct": -15.08,
-      "sma_200": 445.48
+      "drop_pct": -13.83,
+      "intraday_low_drop_pct": -15.66,
+      "sma_200": 446.76
     }
   },
   "sector_rs": {
-    "XLK": 1.018,
-    "SMH": 0.926,
-    "BOTZ": 0.919,
-    "IGV": 1.195,
-    "XLF": 0.971,
-    "XLE": 1.116
+    "XLK": 1.016,
+    "SMH": 0.924,
+    "BOTZ": 0.918,
+    "IGV": 1.191,
+    "XLF": 0.968,
+    "XLE": 1.122
   },
   "signals": {
     "cnn_under_10": false,
@@ -139,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 78.89,
+    "tqqq_profit_pct": 79.12,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 173.36,
+    "soxl_profit_pct": 172.72,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.22,
+    "koru_profit_pct": -94.37,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
