@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T08:15:59.165349+09:00",
+  "timestamp": "2026-09-25T10:38:29.399189+09:00",
   "sentiment": {
     "cnn_fng": 36.1142857142857,
     "cnn_components": {
@@ -15,14 +15,20 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 2,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "유럽증시, 후티의 사우디 미사일 공격에 유가 급등하자 하락… 미 국채 매도세 확산 - 뉴스핌",
+          "title": "美증시 급락 딛고 보합…10년물 5.2%·SOX 약세, 월요일 반도체 시험대 - greened.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tWHhuT0I5aU85MHRGNUw4UXBLSjJ5bUx0U1hfRlRvQUdWdXRzaFlKZ2lOSi10aVlLT3cza0t2Ym1tanRESGlVV1dJRVVUZ1JRZzlNUGZzWjVUSmc5MFhZZnBlejNGN3hE?oc=5",
+          "pub_date": "Fri, 25 Sep 2026 00:58:20 GMT",
+          "source": "greened.kr"
+        },
+        {
+          "title": "유럽증시, 후티의 사우디 미사일 공격에 유가 급등하자 하락… 미 국채 매도세 확산 - newspim.com",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jbGt1UXgxX3NUSGxUN1dWWkp5QWJoaFpaeFpoSGxoREZ4VUo3VVdpa3I3ajRBaUFYOG5JVUctelVrUHNfeW5QN2kwa2tIb2wyQWcwU3NEX1l6VXlx?oc=5",
           "pub_date": "Thu, 24 Sep 2026 16:58:00 GMT",
-          "source": "뉴스핌"
+          "source": "newspim.com"
         }
       ]
     }
