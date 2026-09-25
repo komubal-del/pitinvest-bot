@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T15:36:59.205478+09:00",
+  "timestamp": "2026-09-25T21:15:57.230326+09:00",
   "sentiment": {
     "cnn_fng": 36.0,
     "cnn_components": {
@@ -14,12 +14,19 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 2,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "[인도증시] 저가 매수세 유입에 소폭 상승...주간으로는 6년래 최장인 7주 연속 하락 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUVXZkdE01MWZPc0pDLUlyUExza0lNVUZfcjhfa3hOQXlmWVMtOGFFZEdVVWU5MHp4YnpibWJCWEZaZEcyX0J2VnBKQ1JfVlN1Q0Rtem5WMUVYMlot?oc=5",
+          "pub_date": "Fri, 25 Sep 2026 11:53:00 GMT",
+          "source": "뉴스핌"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "채권 매도세에 아시아 증시 하락…트럼프-시진핑 회담 효과 제한적 - Investing.com 한국어",
+          "title": "아시아 증시, 채권 매도세 부담에 하락; 트럼프-시진핑 회담 큰 안도감 없어 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93ZDRneVdnQldnbmcxZmhfLU94SGV1UmVfQXc0QWwzWlFkTVNEdGhqb1Z5djhmUWVmQTlhYlZJUVBFVG1ocGU5dmtQYzgzMmxncUFKSEdoSmk5YV9rQTZQM0Mwckd4T2syd0RJTHVROVE?oc=5",
           "pub_date": "Fri, 25 Sep 2026 03:23:00 GMT",
           "source": "Investing.com 한국어"
@@ -34,7 +41,7 @@
     }
   },
   "volatility": {
-    "vix": 15.67,
+    "vix": 15.06,
     "vvix": 90.57,
     "skew": 146.04,
     "move": 104.58
