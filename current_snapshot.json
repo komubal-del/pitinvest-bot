@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T00:19:41.121391+09:00",
+  "timestamp": "2026-09-28T04:05:02.259619+09:00",
   "sentiment": {
     "cnn_fng": 37.0,
     "cnn_components": {
@@ -14,10 +14,30 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "155년 통계가 보낸 경고…미국 증시 과열에 시험대 오른 한국 수출주 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3NWdDRBdUQyMzFzaXc2R2IwZTBCblp3bHJ0Q25GRXVEeHJEQVdYX1hCd3BIWjRNMzd2OFlhWWRJZXhQTkQwREFkN0tFVGlxR3FPSGV0Q1BYQXFvQno5QzZjeFh6WUJXWk1TRUlJTXJzTHF1M3MzM3psLWVYU1dLOHJndEVOSjJF?oc=5",
+          "pub_date": "Sun, 27 Sep 2026 18:05:00 GMT",
+          "source": "글로벌이코노믹"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "폭락장 겪었어도… 올 최고 수익 자산은‘코스피200 ETF’ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFUFRjbm5TbzNjQ29CMXNsRldSZ3VvRkU4X3p6dWJiZENuODVrQjdvQ25obDFiemh3Ym5Nd3RYa0ZxX05HRHpnRWFLNXRZd3c?oc=5",
+          "pub_date": "Sun, 27 Sep 2026 15:26:08 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "폭락장 겪었어도… 올 최고 수익 자산은‘코스피200 ETF’ - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNjBrSkx6QmNIYVV4MEpIYzBpUVFjM0FZbHN4SVZvLW03M3dUbUExaXZ0UlIwVy1sX2t6ZXU5ZFc4d2JoczB6NG9meHV6M0UzOGdGRFNac2stMjRzSWFhOFFXZzRULVRhTklZVkhSckc2UHB0Y3ZTWkF0Sy13R0ZBWmNTTG9YTk1weWhaTHNGczc0Wlc3b1E?oc=5",
+          "pub_date": "Sun, 27 Sep 2026 15:25:00 GMT",
+          "source": "국민일보"
+        }
+      ]
     }
   },
   "volatility": {
@@ -205,7 +225,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 201.268,
+    "strategy_pct": 205.587,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -962,6 +982,10 @@
       {
         "date": "2026-09-25",
         "ret_pct": 201.268
+      },
+      {
+        "date": "2026-09-28",
+        "ret_pct": 205.587
       }
     ],
     "monthly_breakdown": [
@@ -1015,8 +1039,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 15.98,
-        "end_ret_pct": 201.27,
+        "return_pct": 20.3,
+        "end_ret_pct": 205.59,
         "max_dd_pct": 66.35
       }
     ],
