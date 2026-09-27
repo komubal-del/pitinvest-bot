@@ -1,50 +1,30 @@
 {
-  "timestamp": "2026-09-25T21:15:57.230326+09:00",
+  "timestamp": "2026-09-28T00:19:41.121391+09:00",
   "sentiment": {
-    "cnn_fng": 36.0,
+    "cnn_fng": 37.0,
     "cnn_components": {
-      "momentum": 31.8,
+      "momentum": 36.4,
       "strength": 0.0,
       "breadth": 0.0,
-      "put_call": 53.6,
-      "junk_bond": 62.2,
+      "put_call": 57.6,
+      "junk_bond": 60.2,
       "volatility": 50.0,
-      "safe_haven": 54.4
+      "safe_haven": 54.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 2,
-      "greed_articles": [
-        {
-          "title": "[인도증시] 저가 매수세 유입에 소폭 상승...주간으로는 6년래 최장인 7주 연속 하락 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUVXZkdE01MWZPc0pDLUlyUExza0lNVUZfcjhfa3hOQXlmWVMtOGFFZEdVVWU5MHp4YnpibWJCWEZaZEcyX0J2VnBKQ1JfVlN1Q0Rtem5WMUVYMlot?oc=5",
-          "pub_date": "Fri, 25 Sep 2026 11:53:00 GMT",
-          "source": "뉴스핌"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "아시아 증시, 채권 매도세 부담에 하락; 트럼프-시진핑 회담 큰 안도감 없어 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93ZDRneVdnQldnbmcxZmhfLU94SGV1UmVfQXc0QWwzWlFkTVNEdGhqb1Z5djhmUWVmQTlhYlZJUVBFVG1ocGU5dmtQYzgzMmxncUFKSEdoSmk5YV9rQTZQM0Mwckd4T2syd0RJTHVROVE?oc=5",
-          "pub_date": "Fri, 25 Sep 2026 03:23:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "美증시 급락 딛고 보합…10년물 5.2%·SOX 약세, 월요일 반도체 시험대 - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QQVhLV2hlRW0zeGNnNVQtTlg3UWluVDNNQ1BwM2taekNBNzBGbU9ObTllTE9WXzhmUWEyVFV6TmpqRzVjLWc2R2tud3RIWHY3dV9DanlJVWtqNzllWjRKV200czN0VzA?oc=5",
-          "pub_date": "Fri, 25 Sep 2026 00:58:20 GMT",
-          "source": "녹색경제신문"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.06,
-    "vvix": 90.57,
-    "skew": 146.04,
-    "move": 104.58
+    "vix": 14.87,
+    "vvix": 87.84,
+    "skew": 144.91,
+    "move": 96.0
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -56,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26939.37,
+      "current": 27068.72,
       "high_52w": 27288.79,
-      "drop_pct": -1.28,
-      "intraday_low_drop_pct": -2.14,
-      "sma_200": 24606.32
+      "drop_pct": -0.81,
+      "intraday_low_drop_pct": -1.51,
+      "sma_200": 24642.27
     },
     "kospi": {
       "current": 7080.92,
       "high_52w": 9385.59,
       "drop_pct": -24.56,
       "intraday_low_drop_pct": -25.26,
-      "sma_200": 6237.11
+      "sma_200": 6252.57
     },
     "kosdaq": {
       "current": 844.48,
       "high_52w": 1229.42,
       "drop_pct": -31.31,
       "intraday_low_drop_pct": -32.04,
-      "sma_200": 986.18
+      "sma_200": 985.78
     },
     "sp500": {
-      "current": 7704.13,
+      "current": 7743.41,
       "high_52w": 7816.7,
-      "drop_pct": -1.44,
-      "intraday_low_drop_pct": -1.97,
-      "sma_200": 7196.25
+      "drop_pct": -0.94,
+      "intraday_low_drop_pct": -1.58,
+      "sma_200": 7205.2
     },
     "russell2k": {
-      "current": 2835.57,
+      "current": 2837.55,
       "high_52w": 3069.71,
-      "drop_pct": -7.63,
-      "intraday_low_drop_pct": -8.44,
-      "sma_200": 2771.61
+      "drop_pct": -7.56,
+      "intraday_low_drop_pct": -7.91,
+      "sma_200": 2775.04
     },
     "soxx": {
-      "current": 566.07,
+      "current": 572.68,
       "high_52w": 655.95,
-      "drop_pct": -13.7,
-      "intraday_low_drop_pct": -15.66,
-      "sma_200": 446.77
+      "drop_pct": -12.69,
+      "intraday_low_drop_pct": -13.51,
+      "sma_200": 448.07
     }
   },
   "sector_rs": {
-    "XLK": 1.008,
-    "SMH": 0.9,
-    "BOTZ": 0.919,
-    "IGV": 1.207,
-    "XLF": 0.978,
-    "XLE": 1.112
+    "XLK": 1.023,
+    "SMH": 0.935,
+    "BOTZ": 0.927,
+    "IGV": 1.133,
+    "XLF": 0.969,
+    "XLE": 1.093
   },
   "signals": {
     "cnn_under_10": false,
@@ -140,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 78.71,
+    "tqqq_profit_pct": 81.03,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 173.51,
+    "soxl_profit_pct": 183.08,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.52,
+    "koru_profit_pct": -94.13,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
