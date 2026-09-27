@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T04:05:02.259619+09:00",
+  "timestamp": "2026-09-28T07:02:24.894738+09:00",
   "sentiment": {
     "cnn_fng": 37.0,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 2,
+      "fear_count": 1,
       "greed_articles": [
         {
           "title": "155년 통계가 보낸 경고…미국 증시 과열에 시험대 오른 한국 수출주 - 글로벌이코노믹",
@@ -27,15 +27,9 @@
       "fear_articles": [
         {
           "title": "폭락장 겪었어도… 올 최고 수익 자산은‘코스피200 ETF’ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFUFRjbm5TbzNjQ29CMXNsRldSZ3VvRkU4X3p6dWJiZENuODVrQjdvQ25obDFiemh3Ym5Nd3RYa0ZxX05HRHpnRWFLNXRZd3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzWVlBeGkxM0JPaHhfT0liWWY0TkFqcUd4c3VLcGh0ckFBS1BWdDhBMlRXb1hBOHZaaHV4UXZrOU4yLW5rSTZXOEY5Zw?oc=5",
           "pub_date": "Sun, 27 Sep 2026 15:26:08 GMT",
           "source": "v.daum.net"
-        },
-        {
-          "title": "폭락장 겪었어도… 올 최고 수익 자산은‘코스피200 ETF’ - 국민일보",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNjBrSkx6QmNIYVV4MEpIYzBpUVFjM0FZbHN4SVZvLW03M3dUbUExaXZ0UlIwVy1sX2t6ZXU5ZFc4d2JoczB6NG9meHV6M0UzOGdGRFNac2stMjRzSWFhOFFXZzRULVRhTklZVkhSckc2UHB0Y3ZTWkF0Sy13R0ZBWmNTTG9YTk1weWhaTHNGczc0Wlc3b1E?oc=5",
-          "pub_date": "Sun, 27 Sep 2026 15:25:00 GMT",
-          "source": "국민일보"
         }
       ]
     }
