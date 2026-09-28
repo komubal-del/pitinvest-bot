@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T07:02:24.894738+09:00",
+  "timestamp": "2026-09-28T09:32:19.846450+09:00",
   "sentiment": {
     "cnn_fng": 37.0,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 1,
+      "fear_count": 0,
       "greed_articles": [
         {
           "title": "155년 통계가 보낸 경고…미국 증시 과열에 시험대 오른 한국 수출주 - 글로벌이코노믹",
@@ -24,14 +24,7 @@
           "source": "글로벌이코노믹"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "폭락장 겪었어도… 올 최고 수익 자산은‘코스피200 ETF’ - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzWVlBeGkxM0JPaHhfT0liWWY0TkFqcUd4c3VLcGh0ckFBS1BWdDhBMlRXb1hBOHZaaHV4UXZrOU4yLW5rSTZXOEY5Zw?oc=5",
-          "pub_date": "Sun, 27 Sep 2026 15:26:08 GMT",
-          "source": "v.daum.net"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -57,18 +50,18 @@
       "sma_200": 24642.27
     },
     "kospi": {
-      "current": 7080.92,
+      "current": 7035.32,
       "high_52w": 9385.59,
-      "drop_pct": -24.56,
-      "intraday_low_drop_pct": -25.26,
-      "sma_200": 6252.57
+      "drop_pct": -25.04,
+      "intraday_low_drop_pct": -25.05,
+      "sma_200": 6268.14
     },
     "kosdaq": {
-      "current": 844.48,
+      "current": 850.62,
       "high_52w": 1229.42,
-      "drop_pct": -31.31,
-      "intraday_low_drop_pct": -32.04,
-      "sma_200": 985.78
+      "drop_pct": -30.81,
+      "intraday_low_drop_pct": -31.58,
+      "sma_200": 985.43
     },
     "sp500": {
       "current": 7743.41,
@@ -156,7 +149,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
@@ -176,8 +169,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-09-15",
-    "analyzed_at": "2026-09-15T13:43:32.067989+09:00",
+    "date": "2026-09-28",
+    "analyzed_at": "2026-09-28T09:32:25.414890+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -185,16 +178,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "MfVgbqtpZ7k",
-        "title": "10년물 금리 5% 터치…연준의 금리 결정, 시장은 어떻게 볼까 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-09-15T00:15:26Z",
-        "url": "https://youtube.com/watch?v=MfVgbqtpZ7k",
+        "video_id": "giCNupq2uLc",
+        "title": "고금리에도 AI 투자는 계속된다? 반도체·메모리 시장의 변화 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-09-28T00:05:30Z",
+        "url": "https://youtube.com/watch?v=giCNupq2uLc",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 분석, 의견, 또는 행동 권고가 전혀 없으며, 대부분 광고, 프로그램 편성표, 서비스 안내 등으로만 구성되어 있어 특정 입장을 판단할 수 없습니다."
+          "reason": "영상 설명란과 제목에는 고금리 상황에서의 AI 투자 지속 여부와 반도체 시장 변화에 대한 질문 및 분석적인 내용만 제시되어 있으며, 구체적인 매수/매도/현금화 등의 투자 행동 권고는 전혀 없습니다."
         }
       },
       {
@@ -207,7 +200,7 @@
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목이 '반도체 급락과 반등...어떻게 해석해요?'로 시장의 특정 움직임에 대한 분석을 예고할 뿐, 구체적인 매수/매도/현금화 등의 행동 권고가 전혀 없습니다."
+          "reason": "영상 설명란은 특정 주식 전문가의 시장 분석 주제를 제시하고 다른 전문가를 홍보하는 내용으로 구성되어 있으며, 매수/매도/현금화 등 구체적인 행동 권고가 없어 중립적인 입장으로 판단됩니다."
         }
       }
     ],
