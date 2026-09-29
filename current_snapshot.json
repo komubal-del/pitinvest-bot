@@ -1,65 +1,53 @@
 {
-  "timestamp": "2026-09-29T09:26:50.349401+09:00",
+  "timestamp": "2026-09-29T14:58:32.409322+09:00",
   "sentiment": {
-    "cnn_fng": 33.9428571428571,
+    "cnn_fng": 33.8285714285714,
     "cnn_components": {
       "momentum": 30.6,
       "strength": 0.0,
       "breadth": 0.0,
       "put_call": 40.2,
-      "junk_bond": 64.4,
+      "junk_bond": 63.6,
       "volatility": 50.0,
       "safe_haven": 52.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 4,
+      "greed_count": 2,
+      "fear_count": 3,
       "greed_articles": [
         {
-          "title": "7000선 무너진 코스피, 오늘도 금리·유가 압박…저가 매수세 유입 주목 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40bmNVN011cTNTNjFQZ0lYWFFOM3NhSjIya2pvSDMwT2ZldHNTaGRvRmdMVEY1eF9tNzBmOE5CX3ZQM0FWdmR0ZlZKTGd0NHhuTU9RQ1d5TWw5QQ?oc=5",
-          "pub_date": "Mon, 28 Sep 2026 23:36:00 GMT",
-          "source": "경북매일"
+          "title": "코스피, 낙폭 줄이며 보합권 등락… 반도체 대형주 ‘저가 매수’ 반등 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTDAwYTBrQWNMUVU1R28zelQxcy1HRndTU3hWeDV3aERwRWVOanJvVEYzN0RkS05YWmtHMVVvX2IyalI3X3o1M3NEbDBja19MclM4c0lVZlJzZGJfSHRKM1ZWX0tTUTJFQS1QMXY4TE1nRzZUbTMwOFpNWW1ySDFWRXpqRU80SWpQ0gGcAUFVX3lxTFBXd3d1QkVTc3lfZ0dyMVU2U21oc2prOUdFa3pwVXljdzZ3OEN0QlZENUF5bVR6bHVSR3pScG5BSXcxbWpSMTlrQXhybk9XTzk1YjV2WXllSG1OeG9MWk9WblV6alFSR3d1UlZXb3NLbFpuNGg0RmFtWWc5VWJTakdQNjhwWmZjZEsyU2N2RFhxSG5FYXBmUDhDWnU0aA?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 02:01:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "미·이란 대치 속 美국채금리 고점 경신…뉴욕증시 일제히 하락 - 서울경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EeGFMN1FxdGQ4SUtLY0t1QlZuZmZmei1oSUExVk13cmk2T2FQeVZOTGlhUTJIa1VsLWEzTTRIb0c2TWRzem5NVTBlbnJrVzlNTUFBOTFxN0oxZjdRV0k1M3RfLXU?oc=5",
-          "pub_date": "Mon, 28 Sep 2026 23:58:21 GMT",
-          "source": "서울경제TV"
-        },
-        {
-          "title": "상반기 증시 활황에 금융투자 민원 86% 급증 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPenpRNTNEM19zUE1fbmgxeHdtbFlOQkFjeEZYUzF0Z0toVmJXeWhUMUpDMXYzQVkxelhOQzhad25OUExRVERmRFRxRjhNTUp1SWxMYjlTUXFoN01IRXNIZnQ1Y1VSUjh3cHBIdDF0dzN1Q0ZHb0NNajd5NE00ODVzYUc3d04tNTNP?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 00:11:34 GMT",
-          "source": "글로벌이코노믹"
+          "title": "이찬진 금감원장, 출렁이는 증시에 증권사 빚투 관리 주문 - 비즈워치",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fM244UnBaWVUwZGdpT2hNaXlfRUp1ME03dGJwT09pU0hfczhPeEtGRTNLZ1J3THlXWktnRGFpWUtQcnFFVG5nbTdoNUo2Y21JVHZRMEZwcGRnaFYxQkZRQVVKZjVEUnVFQ0E?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 05:31:03 GMT",
+          "source": "비즈워치"
         }
       ],
       "fear_articles": [
         {
-          "title": "미국발 기술주·반도체주 급락 …코스피도 조정 압력 - ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tT1loLXh5anpQWlBxbG1yNG92NXhBZFNpZUZVc2xOdzl4ZkJSaXE1S2IxdEpRdnJoQkFmbW9DVmxLRDlhZ3liNVNFUW1jSC0yeUtrdEQxd2tCQlVXb0FuaV9rQVM4TmxX?oc=5",
-          "pub_date": "Mon, 28 Sep 2026 21:47:52 GMT",
-          "source": "ebn.co.kr"
+          "title": "건설주, 하루 만에 급락 전환…AI 기대감에도 증시 하락에 '휘청'[종목NOW] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWk0MEVneHkyUnN1ZlY3VDNqYzZGNkZsMjUtWlRZWFFEWlpqa25nUlhBVTFRRU9HRVlxeVpyMVBsbHFFWEJxOU1kaU10WG8?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 04:44:12 GMT",
+          "source": "v.daum.net"
         },
         {
-          "title": "실적 대박에도 폭락했던 코스피…'6월의 저주' 또 올까 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54UmNJOFpwRkE0OTBlNzc4bFplVm1LcDZJRFJyTHVZZ09BaW1nRTdTTW5mMzVNSjg4LVBpQmRpNTBmUXg5QlUzNkNjV1MzVlpnU29Id19Md3ByZw?oc=5",
-          "pub_date": "Mon, 28 Sep 2026 22:00:07 GMT",
-          "source": "한국경제"
+          "title": "부산주공 정리매매 첫 날 91% 급락… 코스피 거래상위 종목 희비 엇갈려 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RU0YtcWY4TERXem1jYWtYZnZmcGhOWXVHUHJYckU5UDdFZnVSZjBVcm5jcG41TkhCZEtFN1hYREljM05TLUxMZFZCMEVBOF9NRzdIbjNaVVZ0REJyWV9RMXpVbldaX2pPaWk3amRXZjJpUFVtWG1qNXdRbjEzQQ?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 04:54:18 GMT",
+          "source": "서울신문"
         },
         {
-          "title": "또 국채금리 쇼크...힘못쓴 기술주, 美 증시 급락 [월가월부] - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFVTRPVUNMWlRwWEdQOHhYcVpmQW1GZDBQenF1WGRHZjlPTXl4aGNidFpWc3J0UG5Vb2JtaVF4Z1NERUpjSENXcVhZUXFZWlAtU1M2Vw?oc=5",
-          "pub_date": "Mon, 28 Sep 2026 20:36:03 GMT",
-          "source": "매일경제"
-        },
-        {
-          "title": "코스피 2.7% 급락 뒤 美반도체도 2.7%↓…엔비디아만 1.9%↑ - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlT3NrOGtpdnlXTlRyQl8xbU9jZS1adFJ6Q3RrdGRfaEtUYWtxWVlob05jMGk1QU45d3prM29uel9KbUZGS21NaVQ2N2xWWHRNWU1RMk1mQTFFNWJrU09ncUs2ckpzdUU1?oc=5",
-          "pub_date": "Mon, 28 Sep 2026 16:32:08 GMT",
-          "source": "녹색경제신문"
+          "title": "코스피, 6800선 급락 출발 후 낙폭 축소…삼전·하닉 반등 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1md1JjbDRRVGFaeWxoTU11R0VUTm9wV1NiUVA5VV9rUncyNjhoY3JyWXpOMkhJQ0hUQ0pQM3h4RE5Pang0YmxZMkUwWW1VUUk?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 00:18:00 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
@@ -87,18 +75,18 @@
       "sma_200": 24658.49
     },
     "kospi": {
-      "current": 6855.61,
+      "current": 6784.73,
       "high_52w": 9385.59,
-      "drop_pct": -26.96,
-      "intraday_low_drop_pct": -27.18,
-      "sma_200": 6267.24
+      "drop_pct": -27.71,
+      "intraday_low_drop_pct": -27.71,
+      "sma_200": 6281.36
     },
     "kosdaq": {
-      "current": 844.31,
+      "current": 840.61,
       "high_52w": 1229.42,
-      "drop_pct": -31.32,
-      "intraday_low_drop_pct": -31.56,
-      "sma_200": 985.39
+      "drop_pct": -31.63,
+      "intraday_low_drop_pct": -32.19,
+      "sma_200": 984.97
     },
     "sp500": {
       "current": 7683.69,
@@ -115,20 +103,20 @@
       "sma_200": 2776.49
     },
     "soxx": {
-      "current": 572.68,
+      "current": 560.79,
       "high_52w": 655.95,
-      "drop_pct": -12.69,
-      "intraday_low_drop_pct": -13.51,
-      "sma_200": 448.07
+      "drop_pct": -14.51,
+      "intraday_low_drop_pct": -15.85,
+      "sma_200": 449.32
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.014,
+    "SMH": 0.917,
+    "BOTZ": 0.92,
+    "IGV": 1.132,
+    "XLF": 0.977,
+    "XLE": 1.126
   },
   "signals": {
     "cnn_under_10": false,
@@ -145,7 +133,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -164,19 +152,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 75.21,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 165.96,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -94.45,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -249,7 +237,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 200.02,
+    "strategy_pct": 139.288,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1013,7 +1001,7 @@
       },
       {
         "date": "2026-09-29",
-        "ret_pct": 200.02
+        "ret_pct": 139.288
       }
     ],
     "monthly_breakdown": [
@@ -1067,8 +1055,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 14.73,
-        "end_ret_pct": 200.02,
+        "return_pct": -46.0,
+        "end_ret_pct": 139.29,
         "max_dd_pct": 66.35
       }
     ],
