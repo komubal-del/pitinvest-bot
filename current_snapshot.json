@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T14:58:32.409322+09:00",
+  "timestamp": "2026-09-29T21:40:05.385919+09:00",
   "sentiment": {
     "cnn_fng": 33.8285714285714,
     "cnn_components": {
@@ -14,46 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 1,
       "fear_count": 3,
       "greed_articles": [
         {
-          "title": "코스피, 낙폭 줄이며 보합권 등락… 반도체 대형주 ‘저가 매수’ 반등 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTDAwYTBrQWNMUVU1R28zelQxcy1HRndTU3hWeDV3aERwRWVOanJvVEYzN0RkS05YWmtHMVVvX2IyalI3X3o1M3NEbDBja19MclM4c0lVZlJzZGJfSHRKM1ZWX0tTUTJFQS1QMXY4TE1nRzZUbTMwOFpNWW1ySDFWRXpqRU80SWpQ0gGcAUFVX3lxTFBXd3d1QkVTc3lfZ0dyMVU2U21oc2prOUdFa3pwVXljdzZ3OEN0QlZENUF5bVR6bHVSR3pScG5BSXcxbWpSMTlrQXhybk9XTzk1YjV2WXllSG1OeG9MWk9WblV6alFSR3d1UlZXb3NLbFpuNGg0RmFtWWc5VWJTakdQNjhwWmZjZEsyU2N2RFhxSG5FYXBmUDhDWnU0aA?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 02:01:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "이찬진 금감원장, 출렁이는 증시에 증권사 빚투 관리 주문 - 비즈워치",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fM244UnBaWVUwZGdpT2hNaXlfRUp1ME03dGJwT09pU0hfczhPeEtGRTNLZ1J3THlXWktnRGFpWUtQcnFFVG5nbTdoNUo2Y21JVHZRMEZwcGRnaFYxQkZRQVVKZjVEUnVFQ0E?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 05:31:03 GMT",
-          "source": "비즈워치"
+          "title": "[중국증시-마감] 저가 매수세·정책 지원 약속 등에 상승 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QbzE5T0xuam12S0JNVjFlWWM3Q2M2RVBfTFJ4UmhUVEJTY2JZRHdsV2sta1hmaHRUNUw5WnFKcXY2UmdKdG10WXUyRGhjRHkwalBlbmNCYV9wRnEzUnVZQzlpeEtPeW01SzJNaXZ1QVI?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 09:25:27 GMT",
+          "source": "연합인포맥스"
         }
       ],
       "fear_articles": [
         {
-          "title": "건설주, 하루 만에 급락 전환…AI 기대감에도 증시 하락에 '휘청'[종목NOW] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWk0MEVneHkyUnN1ZlY3VDNqYzZGNkZsMjUtWlRZWFFEWlpqa25nUlhBVTFRRU9HRVlxeVpyMVBsbHFFWEJxOU1kaU10WG8?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 04:44:12 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "부산주공 정리매매 첫 날 91% 급락… 코스피 거래상위 종목 희비 엇갈려 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RU0YtcWY4TERXem1jYWtYZnZmcGhOWXVHUHJYckU5UDdFZnVSZjBVcm5jcG41TkhCZEtFN1hYREljM05TLUxMZFZCMEVBOF9NRzdIbjNaVVZ0REJyWV9RMXpVbldaX2pPaWk3amRXZjJpUFVtWG1qNXdRbjEzQQ?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 04:54:18 GMT",
-          "source": "서울신문"
+          "title": "7월 국내증시 급락 후폭풍 … 국민연금, 182조원 줄었다 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EMDJlcGI1aGFiV2hacnE3WHJ5b1lTcGdLN3dRSHFDN0kxNVoxSC1KX1lac2s3U0d0R0hzTTI5V2JDWWpFNmJRcnp1VG9yc3hUUFE?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 10:22:40 GMT",
+          "source": "매일경제 마켓"
         },
         {
           "title": "코스피, 6800선 급락 출발 후 낙폭 축소…삼전·하닉 반등 - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1md1JjbDRRVGFaeWxoTU11R0VUTm9wV1NiUVA5VV9rUncyNjhoY3JyWXpOMkhJQ0hUQ0pQM3h4RE5Pang0YmxZMkUwWW1VUUk?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 00:18:00 GMT",
+          "pub_date": "Tue, 29 Sep 2026 00:18:11 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "[오늘의 주목주] SK이노베이션 주가 7%대 내려, 코스피 외국인 매도세에 6870선 약보합 마감 - businesspost.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzZVhKcVBlTEJDS3JlNkJ6SEkwYUt6cDJpQUVWRjJLWGJvc0FjZGVTaTdEVmFMYUQ4WDBocnByNC0zVnVFRVRNNEtBS1F2RldRdGVEdms2ZkNCZ2FuVXI2VG05bkRxb2VieWIzU0VmVTdJTlU?oc=5",
+          "pub_date": "Tue, 29 Sep 2026 08:47:38 GMT",
+          "source": "businesspost.co.kr"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.07,
+    "vix": 15.83,
     "vvix": 91.02,
     "skew": 146.25,
     "move": 101.82
@@ -75,18 +69,18 @@
       "sma_200": 24658.49
     },
     "kospi": {
-      "current": 6784.73,
+      "current": 6870.81,
       "high_52w": 9385.59,
-      "drop_pct": -27.71,
-      "intraday_low_drop_pct": -27.71,
-      "sma_200": 6281.36
+      "drop_pct": -26.79,
+      "intraday_low_drop_pct": -27.73,
+      "sma_200": 6281.79
     },
     "kosdaq": {
-      "current": 840.61,
+      "current": 849.8,
       "high_52w": 1229.42,
-      "drop_pct": -31.63,
+      "drop_pct": -30.88,
       "intraday_low_drop_pct": -32.19,
-      "sma_200": 984.97
+      "sma_200": 985.01
     },
     "sp500": {
       "current": 7683.69,
@@ -237,7 +231,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 139.288,
+    "strategy_pct": 199.963,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1001,7 +995,7 @@
       },
       {
         "date": "2026-09-29",
-        "ret_pct": 139.288
+        "ret_pct": 199.963
       }
     ],
     "monthly_breakdown": [
@@ -1055,8 +1049,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": -46.0,
-        "end_ret_pct": 139.29,
+        "return_pct": 14.68,
+        "end_ret_pct": 199.96,
         "max_dd_pct": 66.35
       }
     ],
