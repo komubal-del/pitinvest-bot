@@ -1,56 +1,30 @@
 {
-  "timestamp": "2026-09-29T21:40:05.385919+09:00",
+  "timestamp": "2026-09-30T03:16:12.153580+09:00",
   "sentiment": {
-    "cnn_fng": 33.8285714285714,
+    "cnn_fng": 31.8571428571429,
     "cnn_components": {
-      "momentum": 30.6,
+      "momentum": 27.4,
       "strength": 0.0,
       "breadth": 0.0,
-      "put_call": 40.2,
-      "junk_bond": 63.6,
+      "put_call": 35.0,
+      "junk_bond": 58.4,
       "volatility": 50.0,
-      "safe_haven": 52.4
+      "safe_haven": 51.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
-      "greed_articles": [
-        {
-          "title": "[중국증시-마감] 저가 매수세·정책 지원 약속 등에 상승 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QbzE5T0xuam12S0JNVjFlWWM3Q2M2RVBfTFJ4UmhUVEJTY2JZRHdsV2sta1hmaHRUNUw5WnFKcXY2UmdKdG10WXUyRGhjRHkwalBlbmNCYV9wRnEzUnVZQzlpeEtPeW01SzJNaXZ1QVI?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 09:25:27 GMT",
-          "source": "연합인포맥스"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "7월 국내증시 급락 후폭풍 … 국민연금, 182조원 줄었다 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EMDJlcGI1aGFiV2hacnE3WHJ5b1lTcGdLN3dRSHFDN0kxNVoxSC1KX1lac2s3U0d0R0hzTTI5V2JDWWpFNmJRcnp1VG9yc3hUUFE?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 10:22:40 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "코스피, 6800선 급락 출발 후 낙폭 축소…삼전·하닉 반등 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1md1JjbDRRVGFaeWxoTU11R0VUTm9wV1NiUVA5VV9rUncyNjhoY3JyWXpOMkhJQ0hUQ0pQM3h4RE5Pang0YmxZMkUwWW1VUUk?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 00:18:11 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "[오늘의 주목주] SK이노베이션 주가 7%대 내려, 코스피 외국인 매도세에 6870선 약보합 마감 - businesspost.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzZVhKcVBlTEJDS3JlNkJ6SEkwYUt6cDJpQUVWRjJLWGJvc0FjZGVTaTdEVmFMYUQ4WDBocnByNC0zVnVFRVRNNEtBS1F2RldRdGVEdms2ZkNCZ2FuVXI2VG05bkRxb2VieWIzU0VmVTdJTlU?oc=5",
-          "pub_date": "Tue, 29 Sep 2026 08:47:38 GMT",
-          "source": "businesspost.co.kr"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.83,
-    "vvix": 91.02,
+    "vix": 16.2,
+    "vvix": 91.04,
     "skew": 146.25,
-    "move": 101.82
+    "move": 107.49
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -62,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26820.38,
+      "current": 26774.79,
       "high_52w": 27288.79,
-      "drop_pct": -1.72,
-      "intraday_low_drop_pct": -2.12,
-      "sma_200": 24658.49
+      "drop_pct": -1.88,
+      "intraday_low_drop_pct": -2.09,
+      "sma_200": 24674.09
     },
     "kospi": {
-      "current": 6870.81,
+      "current": 6889.74,
       "high_52w": 9385.59,
-      "drop_pct": -26.79,
-      "intraday_low_drop_pct": -27.73,
-      "sma_200": 6281.79
+      "drop_pct": -26.59,
+      "intraday_low_drop_pct": -26.59,
+      "sma_200": 6267.42
     },
     "kosdaq": {
-      "current": 849.8,
+      "current": 846.58,
       "high_52w": 1229.42,
-      "drop_pct": -30.88,
-      "intraday_low_drop_pct": -32.19,
-      "sma_200": 985.01
+      "drop_pct": -31.14,
+      "intraday_low_drop_pct": -31.58,
+      "sma_200": 985.41
     },
     "sp500": {
-      "current": 7683.69,
+      "current": 7666.51,
       "high_52w": 7816.7,
-      "drop_pct": -1.7,
-      "intraday_low_drop_pct": -1.92,
-      "sma_200": 7209.42
+      "drop_pct": -1.92,
+      "intraday_low_drop_pct": -2.09,
+      "sma_200": 7213.32
     },
     "russell2k": {
-      "current": 2817.91,
+      "current": 2801.2,
       "high_52w": 3069.71,
-      "drop_pct": -8.2,
-      "intraday_low_drop_pct": -8.54,
-      "sma_200": 2776.49
+      "drop_pct": -8.75,
+      "intraday_low_drop_pct": -8.97,
+      "sma_200": 2777.7
     },
     "soxx": {
-      "current": 560.79,
+      "current": 569.05,
       "high_52w": 655.95,
-      "drop_pct": -14.51,
-      "intraday_low_drop_pct": -15.85,
-      "sma_200": 449.32
+      "drop_pct": -13.25,
+      "intraday_low_drop_pct": -13.82,
+      "sma_200": 450.59
     }
   },
   "sector_rs": {
-    "XLK": 1.014,
-    "SMH": 0.917,
-    "BOTZ": 0.92,
-    "IGV": 1.132,
-    "XLF": 0.977,
-    "XLE": 1.126
+    "XLK": 1.016,
+    "SMH": 0.931,
+    "BOTZ": 0.921,
+    "IGV": 1.125,
+    "XLF": 0.976,
+    "XLE": 1.119
   },
   "signals": {
     "cnn_under_10": false,
@@ -146,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 75.21,
+    "tqqq_profit_pct": 75.74,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 165.96,
+    "soxl_profit_pct": 177.25,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.45,
+    "koru_profit_pct": -94.22,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
