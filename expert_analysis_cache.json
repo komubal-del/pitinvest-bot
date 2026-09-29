@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-28",
-  "analyzed_at": "2026-09-28T09:32:25.414890+09:00",
+  "date": "2026-09-29",
+  "analyzed_at": "2026-09-29T09:26:56.550037+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,29 +8,29 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "giCNupq2uLc",
-      "title": "고금리에도 AI 투자는 계속된다? 반도체·메모리 시장의 변화 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-09-28T00:05:30Z",
-      "url": "https://youtube.com/watch?v=giCNupq2uLc",
+      "video_id": "4tvDoOem15Q",
+      "title": "삼성전자·SK하이닉스 급락에도 시장은 버텼다…지금 주목할 것은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-09-29T00:17:59Z",
+      "url": "https://youtube.com/watch?v=4tvDoOem15Q",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 설명란과 제목에는 고금리 상황에서의 AI 투자 지속 여부와 반도체 시장 변화에 대한 질문 및 분석적인 내용만 제시되어 있으며, 구체적인 매수/매도/현금화 등의 투자 행동 권고는 전혀 없습니다."
+        "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고가 없으며, 제목 또한 현재 상황을 분석하고 앞으로 주목할 점을 제시하는 중립적인 질문 형태를 띠고 있습니다."
       }
     },
     {
-      "video_id": "OutXhDAMIaI",
-      "title": "반도체 급락과 반등...어떻게 해석해요? | 윤지호 경제평론가 [주말인터뷰]",
-      "published": "2026-08-01T23:00:32Z",
-      "url": "https://youtube.com/watch?v=OutXhDAMIaI",
+      "video_id": "80IReKiMQLI",
+      "title": "윤지호, 빈센트, 장우진의 전략 대공개 | [하나증권 대규모 세미나 영상]",
+      "published": "2026-09-28T02:42:39Z",
+      "url": "https://youtube.com/watch?v=80IReKiMQLI",
       "text_source": "description",
       "transcript_available": false,
-      "is_stale_fallback": true,
+      "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 설명란은 특정 주식 전문가의 시장 분석 주제를 제시하고 다른 전문가를 홍보하는 내용으로 구성되어 있으며, 매수/매도/현금화 등 구체적인 행동 권고가 없어 중립적인 입장으로 판단됩니다."
+        "reason": "해당 내용은 과거 세미나 다시보기 영상을 홍보하는 글로, 현재 주식 시장에 대한 구체적인 분석이나 투자 행동 권고가 전혀 포함되어 있지 않습니다."
       }
     }
   ],

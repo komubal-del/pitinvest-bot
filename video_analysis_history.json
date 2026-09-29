@@ -986,5 +986,31 @@
         "reason": "영상 설명란과 제목에는 고금리 상황에서의 AI 투자 지속 여부와 반도체 시장 변화에 대한 질문 및 분석적인 내용만 제시되어 있으며, 구체적인 매수/매도/현금화 등의 투자 행동 권고는 전혀 없습니다."
       }
     }
+  },
+  "4tvDoOem15Q": {
+    "title": "삼성전자·SK하이닉스 급락에도 시장은 버텼다…지금 주목할 것은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+    "published": "2026-09-29T00:17:59Z",
+    "url": "https://youtube.com/watch?v=4tvDoOem15Q",
+    "text_source": "description",
+    "transcript_available": false,
+    "analyses": {
+      "v4-api-1.2.4": {
+        "stance": "neutral",
+        "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고가 없으며, 제목 또한 현재 상황을 분석하고 앞으로 주목할 점을 제시하는 중립적인 질문 형태를 띠고 있습니다."
+      }
+    }
+  },
+  "80IReKiMQLI": {
+    "title": "윤지호, 빈센트, 장우진의 전략 대공개 | [하나증권 대규모 세미나 영상]",
+    "published": "2026-09-28T02:42:39Z",
+    "url": "https://youtube.com/watch?v=80IReKiMQLI",
+    "text_source": "description",
+    "transcript_available": false,
+    "analyses": {
+      "v4-api-1.2.4": {
+        "stance": "neutral",
+        "reason": "해당 내용은 과거 세미나 다시보기 영상을 홍보하는 글로, 현재 주식 시장에 대한 구체적인 분석이나 투자 행동 권고가 전혀 포함되어 있지 않습니다."
+      }
+    }
   }
 }
