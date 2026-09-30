@@ -1,23 +1,67 @@
 {
-  "timestamp": "2026-09-30T10:23:02.658003+09:00",
+  "timestamp": "2026-09-30T15:52:29.120513+09:00",
   "sentiment": {
-    "cnn_fng": 31.6285714285714,
+    "cnn_fng": 31.5428571428571,
     "cnn_components": {
       "momentum": 28.6,
       "strength": 0.0,
       "breadth": 0.0,
       "put_call": 34.4,
-      "junk_bond": 56.8,
+      "junk_bond": 56.2,
       "volatility": 50.0,
       "safe_haven": 51.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 2,
+      "fear_count": 7,
+      "greed_articles": [
+        {
+          "title": "증시활황 틈탄 투자사기 속출… 지급정지 계좌 상반기 4.7만개 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLZFVWMWlUbE9lemZJX2tjTVhvNEhwYWhFUVF4Y19oeUE1YWJDZm5FZVNkYjRIcVFHYjdnR1FfS1J4QzRXcTJCRWE5aVRlTFhj?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 02:58:55 GMT",
+          "source": "문화일보"
+        },
+        {
+          "title": "금리 5%·유가·美 중간선거…10월 증시 '반도체 쏠림' 흔들리나 - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fUXFCbUZyX1h0NjRnQnNCRnJLWlNXNUJFMmVMVkJRWDQ1TlVpS1JsZXRoX0NlQTJWYzdQdmEzaFRFallybFBfbG5jM2MwX2RKeVZCYmVNNS1ZMTkzaEdkODVaRmwyUHhv?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 06:09:01 GMT",
+          "source": "ebn.co.kr"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "코스피, 장중 하락 전환…6,800선 움직임 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wWTJ1RVNFakdhaWhnLXRJU1VLTmJiSy1URjBySk54RjJrOUlPVXdteGxDeFJSbzhXVlRkV1lIYklnbnJOQUlZb01taldVRzhQc1d6NXdTQnZmTjNXRjhZV0tVTWhRb1k?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 03:10:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "7월 코스피 폭락하더니 함께 '출렁'…한달 만에 국민연금 182조 줄어 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15b281cmlyZnQyY2U5b09zak9pQlVEUXVQTU5zMlBnclZtNXQ1Wnd4RHV3M0hHcVJhRU9VX1V4OTZ1eWp6SGtrLVdMVS1wdG5aMGFJYTJzam9FVU56amRwUg?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 05:30:15 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "코스피, 외인·기관 동반 매도에 하락 전환…6800선 재차 후퇴 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZVFLU2FrOUlvUF9aUlNHVnVwZmN3NWhJam1fRGR3U3Mxb3JjeTVWV3Blc1poeFZiT3J5M1hXeTFDQV9OdjF2ZFlwbzFsWXBOWUlVZjVUaGdVYWo5ZUtKOHlUNkZPOGFkWXBvdkFNbUp4ekl3dXA5QVlyWHM4cDdQdVlpbzBGUFV1?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 04:13:56 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "美 장기금리 24년래 최고…코스피 1% 상승 뒤 하락 전환 - 엠에스투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmbDJzNEE0RzFnbTJMN2tXbEhPNjB1NGE3eXFkT1ZTd1BRUnFMTWtGcGktdWVfYkt4NlVndUpJeG5jSXNjTWlkaThFY1hkOW02VHdWdlBKVWNhWkhJSXNyRDRtTTJsWWt1WVMyb9IBcEFVX3lxTFAydXJMbHdQdExsTkQ1TXE3bklHd2VqMk9WQVJLUFktYTl4YlpkczhmSUdDTGU1UEV0VWs3SVNtM19RSGV6ZnBSdlFsZWlTcUNzOEdqWC1ZZ1h1RERXdnB5cGpqbzR0SzYtZW1fa2JSYVY?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 04:08:03 GMT",
+          "source": "엠에스투데이"
+        },
+        {
+          "title": "코스피 하락 전환…6800대로 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5dlNUbUlHYTJ1SU1kdnBhZUVzUC1pUmlfWXFUZEYwcW9UaDc2LVVsS0c1bWpWaFVsaTFtT0RDaDBweEgxUDhaaXNlTUxkNlBoWEZqSA?oc=5",
+          "pub_date": "Wed, 30 Sep 2026 03:03:06 GMT",
+          "source": "v.daum.net"
+        }
+      ]
     }
   },
   "volatility": {
@@ -43,18 +87,18 @@
       "sma_200": 24674.21
     },
     "kospi": {
-      "current": 6938.41,
+      "current": 6838.04,
       "high_52w": 9385.59,
-      "drop_pct": -26.07,
-      "intraday_low_drop_pct": -26.38,
-      "sma_200": 6282.13
+      "drop_pct": -27.14,
+      "intraday_low_drop_pct": -27.35,
+      "sma_200": 6295.8
     },
     "kosdaq": {
-      "current": 861.79,
+      "current": 855.91,
       "high_52w": 1229.42,
-      "drop_pct": -29.9,
-      "intraday_low_drop_pct": -30.6,
-      "sma_200": 985.07
+      "drop_pct": -30.38,
+      "intraday_low_drop_pct": -30.69,
+      "sma_200": 984.63
     },
     "sp500": {
       "current": 7670.84,
@@ -71,20 +115,20 @@
       "sma_200": 2777.74
     },
     "soxx": {
-      "current": 560.79,
+      "current": 567.44,
       "high_52w": 655.95,
-      "drop_pct": -14.51,
-      "intraday_low_drop_pct": -15.85,
-      "sma_200": 449.32
+      "drop_pct": -13.49,
+      "intraday_low_drop_pct": -13.82,
+      "sma_200": 450.58
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
+    "XLK": 0.996,
+    "SMH": 0.902,
     "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "IGV": 1.132,
+    "XLF": 0.986,
+    "XLE": 1.136
   },
   "signals": {
     "cnn_under_10": false,
@@ -101,7 +145,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -120,13 +164,13 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 76.17,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 174.77,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
@@ -205,7 +249,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 203.391,
+    "strategy_pct": 195.084,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -973,7 +1017,7 @@
       },
       {
         "date": "2026-09-30",
-        "ret_pct": 203.391
+        "ret_pct": 195.084
       }
     ],
     "monthly_breakdown": [
@@ -1027,8 +1071,8 @@
       },
       {
         "month": "2026-09",
-        "return_pct": 18.1,
-        "end_ret_pct": 203.39,
+        "return_pct": 9.8,
+        "end_ret_pct": 195.08,
         "max_dd_pct": 66.35
       }
     ],
