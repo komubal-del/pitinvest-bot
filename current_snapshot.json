@@ -1,30 +1,37 @@
 {
-  "timestamp": "2026-10-02T00:22:37.197853+09:00",
+  "timestamp": "2026-10-02T05:24:04.081133+09:00",
   "sentiment": {
-    "cnn_fng": 27.1142857142857,
+    "cnn_fng": 28.1142857142857,
     "cnn_components": {
-      "momentum": 23.4,
+      "momentum": 28.2,
       "strength": 0.4,
-      "breadth": 0.0,
-      "put_call": 36.8,
-      "junk_bond": 45.8,
+      "breadth": 0.2,
+      "put_call": 36.2,
+      "junk_bond": 45.4,
       "volatility": 50.0,
-      "safe_haven": 33.0
+      "safe_haven": 35.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 0,
+      "fear_count": 1,
       "greed_articles": [],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "유럽증시, 글로벌 국채 투매 양상에 일제히 하락… 범유럽 지수 4개월 만에 가장 낮은 수준 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kV1pRUXBRSFBueHZ3dzdFTEFDLU9HNnFNZ05GNl9scDN2bmx0MVctWkg5VkhaQmFLaEpsZG1JQXoyVWJIeWd5bVVyQTZybUhuS1k4WDZMVWM0a05F?oc=5",
+          "pub_date": "Thu, 01 Oct 2026 17:01:00 GMT",
+          "source": "뉴스핌"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 17.45,
-    "vvix": 94.77,
+    "vix": 16.43,
+    "vvix": 92.0,
     "skew": 141.92,
-    "move": 109.02
+    "move": 109.87
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -36,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26821.25,
+      "current": 26871.6,
       "high_52w": 27288.79,
-      "drop_pct": -1.71,
+      "drop_pct": -1.53,
       "intraday_low_drop_pct": -2.03,
-      "sma_200": 24708.67
+      "sma_200": 24708.92
     },
     "kospi": {
       "current": 6838.04,
@@ -57,34 +64,34 @@
       "sma_200": 984.63
     },
     "sp500": {
-      "current": 7636.46,
+      "current": 7666.45,
       "high_52w": 7816.7,
-      "drop_pct": -2.31,
+      "drop_pct": -1.92,
       "intraday_low_drop_pct": -2.56,
-      "sma_200": 7221.14
+      "sma_200": 7221.29
     },
     "russell2k": {
-      "current": 2780.74,
+      "current": 2806.63,
       "high_52w": 3069.71,
-      "drop_pct": -9.41,
+      "drop_pct": -8.57,
       "intraday_low_drop_pct": -9.59,
-      "sma_200": 2779.91
+      "sma_200": 2780.04
     },
     "soxx": {
-      "current": 569.93,
+      "current": 576.33,
       "high_52w": 655.95,
-      "drop_pct": -13.11,
+      "drop_pct": -12.14,
       "intraday_low_drop_pct": -14.01,
-      "sma_200": 453.21
+      "sma_200": 453.24
     }
   },
   "sector_rs": {
-    "XLK": 1.036,
-    "SMH": 0.964,
-    "BOTZ": 0.905,
-    "IGV": 1.122,
-    "XLF": 0.948,
-    "XLE": 1.161
+    "XLK": 1.066,
+    "SMH": 1.014,
+    "BOTZ": 0.921,
+    "IGV": 1.125,
+    "XLF": 0.938,
+    "XLE": 1.152
   },
   "signals": {
     "cnn_under_10": false,
@@ -120,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 76.64,
+    "tqqq_profit_pct": 79.05,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 178.24,
+    "soxl_profit_pct": 187.27,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.54,
+    "koru_profit_pct": -94.27,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -205,7 +212,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 201.721,
+    "strategy_pct": 202.0,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -978,6 +985,10 @@
       {
         "date": "2026-10-01",
         "ret_pct": 201.721
+      },
+      {
+        "date": "2026-10-02",
+        "ret_pct": 202.0
       }
     ],
     "monthly_breakdown": [
@@ -1037,8 +1048,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -1.68,
-        "end_ret_pct": 201.72,
+        "return_pct": -1.41,
+        "end_ret_pct": 202.0,
         "max_dd_pct": 0.0
       }
     ],
