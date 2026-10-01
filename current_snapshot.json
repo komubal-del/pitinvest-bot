@@ -1,59 +1,52 @@
 {
-  "timestamp": "2026-10-01T10:35:17.729440+09:00",
+  "timestamp": "2026-10-01T16:48:55.921289+09:00",
   "sentiment": {
-    "cnn_fng": 30.8285714285714,
+    "cnn_fng": 30.7428571428571,
     "cnn_components": {
       "momentum": 26.4,
-      "strength": 0.4,
+      "strength": 0.6,
       "breadth": 0.0,
       "put_call": 37.4,
-      "junk_bond": 55.4,
+      "junk_bond": 54.6,
       "volatility": 50.0,
       "safe_haven": 46.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 0,
       "fear_count": 4,
-      "greed_articles": [
-        {
-          "title": "증시 활황으로 '국세 수입'도 증가 - 매일일보",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oQXFkSGc2anYtOFdSM29ZTkxPd3F0dk1EbW1rWS03SWFWNW9tMFltN3QtSDJRdGlaVXFpN0FJM1BEOFlfU1JFcVV3MWdRcGozVEhCQnNqWWNYQTNWV1pRWS16STk?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 00:59:34 GMT",
-          "source": "매일일보"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "'빅 쇼트' 버리 \"증시 폭락해 오픈AI·앤트로픽 IPO 막는게 인류에 도움\" | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lWklqYVNvb08ydHJsTFZ0Qmx1VjlzM3Q0WHJrTEhXSmdfMy1jQ2tLb3NjeUlwQVp4LV8wX3h1eTIyNVR1UHVzRkw1M05qWXhVMEtyR29feWRqNXN5SjYxeDAzaWVibnNyWmdnaTlkRUxsdUdS?oc=5",
-          "pub_date": "Wed, 30 Sep 2026 22:44:04 GMT",
+          "title": "하락 전환했던 코스피, 장중 상승 전환…6,900선 회복 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeVdiQ3oyZF9nZFNUc3BzNHd2V3FERmxmSFVqZ2N2VFAtdFNycndGd3ZPYTBMcDFsYXhreDlZREU0cGdvazE5TmtZamJjNGJJemlhQjlqTEtzVDN6YVdSVldoY25ta3ZDQ1c2bDBHSlTSAXRBVV95cUxNLTF3VUNFNU5YTFVlbklYRU54RG9ySEdqZ1QySmRhdy1HZ0FVTjFPMlZWS0JuSHpKWkVGY2JabFlfNTNkYzN0azVWRHFmNFFMWUxuLTAxaF8wQWs4Rk1ENll3Vno1ek9CZEdRRlNNT2VkaW93WQ?oc=5",
+          "pub_date": "Thu, 01 Oct 2026 04:36:32 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피, 약보합 출발 후 외국인 매도세에 하락 전환 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsaFRZZS1XM3Q5NjM4Skk0RTE3anpVejR5X2hUZUxCdHFWZ1VWel9DNU5ybnRHa2dQbnA2aGV5RTRIMDQ3dllSYWpvdWxVaXc?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 00:44:30 GMT",
+          "title": "코스피, 외인·개인 매도세에도 기관 매수에 상승 마감 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZN3g0UFEyMl9SZEp6QlRrWlMxOWFMSDBEUHgtN3hwVFRVN3pGelJ1M2ExX203MFRyc19XenpYTmpwRGQyelpGZnlIbW5mTjg?oc=5",
+          "pub_date": "Thu, 01 Oct 2026 06:50:57 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "반도체 50% 급락, 게임주는 50% 급등…엇갈린 日증시 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3Z3BQVl9senlNclhWelFhUDdmZnpfdXMzWGstYzNQRTQ2NWJKWGlVblQxaFZLaEJNamJ4Z2RoR1ZQVnM0M3FXNzFjc1gxWGhHcGVwRDhzVFlsQQ?oc=5",
-          "pub_date": "Wed, 30 Sep 2026 22:58:41 GMT",
-          "source": "한국경제"
+          "title": "\"증시 폭락해서라도 AI 기업 IPO 막아야\"…마이클 버리의 강력 경고 - aitimes.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Wc2otTVdFLVczTEladFVlMEQwZGZXWm9GMkJqZktJQi1MM1V4eTFKRFVoV19Sak9rYzE1Nm9ha25OMS0tMHdra1BHaUF1bTNPSUt0SlZKMFUtR3hzem9FaFB2SWwxck9yYnc?oc=5",
+          "pub_date": "Thu, 01 Oct 2026 07:26:05 GMT",
+          "source": "aitimes.com"
         },
         {
-          "title": "코스피, 약보합 출발 후 외국인 매도세에 하락 전환 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXbmlUdjU2SlFSM3M0ZHlZd3ZoTVNNeFJMQlBROVlab0RZZUNKSEgyZkQ0clo5X09xSVJoY09YZkVXVmlNM1FadVp1ZGstVXpfT1lLSGR5YnljRFozdlhqVmZB?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 00:42:00 GMT",
+          "title": "코스피, 외인·개인 매도세에도 기관 매수에 상승 마감 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtZlB6T3ZHTGd2YnJXdXlBbzFWck5jQTd1TDRENzJBNzhFYlJTa294RllQQmlBRWw5UzJGa0RxWXh1dWgyMDdhbWJ6ampRWExuR0RRcTZSeHBQY1hIaGE3NUxn?oc=5",
+          "pub_date": "Thu, 01 Oct 2026 06:48:00 GMT",
           "source": "아시아경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.34,
+    "vix": 16.6,
     "vvix": 89.48,
     "skew": 141.92,
     "move": 110.45
@@ -75,18 +68,18 @@
       "sma_200": 24690.54
     },
     "kospi": {
-      "current": 6838.06,
+      "current": 6971.35,
       "high_52w": 9385.59,
-      "drop_pct": -27.14,
+      "drop_pct": -25.72,
       "intraday_low_drop_pct": -27.92,
-      "sma_200": 6309.85
+      "sma_200": 6310.52
     },
     "kosdaq": {
-      "current": 870.86,
+      "current": 894.29,
       "high_52w": 1229.42,
-      "drop_pct": -29.16,
+      "drop_pct": -27.26,
       "intraday_low_drop_pct": -30.71,
-      "sma_200": 984.34
+      "sma_200": 984.45
     },
     "sp500": {
       "current": 7651.54,
