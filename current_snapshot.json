@@ -1,55 +1,30 @@
 {
-  "timestamp": "2026-10-01T16:48:55.921289+09:00",
+  "timestamp": "2026-10-02T00:22:37.197853+09:00",
   "sentiment": {
-    "cnn_fng": 30.7428571428571,
+    "cnn_fng": 27.1142857142857,
     "cnn_components": {
-      "momentum": 26.4,
-      "strength": 0.6,
+      "momentum": 23.4,
+      "strength": 0.4,
       "breadth": 0.0,
-      "put_call": 37.4,
-      "junk_bond": 54.6,
+      "put_call": 36.8,
+      "junk_bond": 45.8,
       "volatility": 50.0,
-      "safe_haven": 46.2
+      "safe_haven": 33.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 4,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "하락 전환했던 코스피, 장중 상승 전환…6,900선 회복 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeVdiQ3oyZF9nZFNUc3BzNHd2V3FERmxmSFVqZ2N2VFAtdFNycndGd3ZPYTBMcDFsYXhreDlZREU0cGdvazE5TmtZamJjNGJJemlhQjlqTEtzVDN6YVdSVldoY25ta3ZDQ1c2bDBHSlTSAXRBVV95cUxNLTF3VUNFNU5YTFVlbklYRU54RG9ySEdqZ1QySmRhdy1HZ0FVTjFPMlZWS0JuSHpKWkVGY2JabFlfNTNkYzN0azVWRHFmNFFMWUxuLTAxaF8wQWs4Rk1ENll3Vno1ek9CZEdRRlNNT2VkaW93WQ?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 04:36:32 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 외인·개인 매도세에도 기관 매수에 상승 마감 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZN3g0UFEyMl9SZEp6QlRrWlMxOWFMSDBEUHgtN3hwVFRVN3pGelJ1M2ExX203MFRyc19XenpYTmpwRGQyelpGZnlIbW5mTjg?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 06:50:57 GMT",
-          "source": "v.daum.net"
-        },
-        {
-          "title": "\"증시 폭락해서라도 AI 기업 IPO 막아야\"…마이클 버리의 강력 경고 - aitimes.com",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Wc2otTVdFLVczTEladFVlMEQwZGZXWm9GMkJqZktJQi1MM1V4eTFKRFVoV19Sak9rYzE1Nm9ha25OMS0tMHdra1BHaUF1bTNPSUt0SlZKMFUtR3hzem9FaFB2SWwxck9yYnc?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 07:26:05 GMT",
-          "source": "aitimes.com"
-        },
-        {
-          "title": "코스피, 외인·개인 매도세에도 기관 매수에 상승 마감 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtZlB6T3ZHTGd2YnJXdXlBbzFWck5jQTd1TDRENzJBNzhFYlJTa294RllQQmlBRWw5UzJGa0RxWXh1dWgyMDdhbWJ6ampRWExuR0RRcTZSeHBQY1hIaGE3NUxn?oc=5",
-          "pub_date": "Thu, 01 Oct 2026 06:48:00 GMT",
-          "source": "아시아경제"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 16.6,
-    "vvix": 89.48,
+    "vix": 17.45,
+    "vvix": 94.77,
     "skew": 141.92,
-    "move": 110.45
+    "move": 109.02
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -61,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26861.06,
+      "current": 26821.25,
       "high_52w": 27288.79,
-      "drop_pct": -1.57,
-      "intraday_low_drop_pct": -1.57,
-      "sma_200": 24690.54
+      "drop_pct": -1.71,
+      "intraday_low_drop_pct": -2.03,
+      "sma_200": 24708.67
     },
     "kospi": {
-      "current": 6971.35,
+      "current": 6838.04,
       "high_52w": 9385.59,
-      "drop_pct": -25.72,
-      "intraday_low_drop_pct": -27.92,
-      "sma_200": 6310.52
+      "drop_pct": -27.14,
+      "intraday_low_drop_pct": -27.35,
+      "sma_200": 6295.8
     },
     "kosdaq": {
-      "current": 894.29,
+      "current": 855.91,
       "high_52w": 1229.42,
-      "drop_pct": -27.26,
-      "intraday_low_drop_pct": -30.71,
-      "sma_200": 984.45
+      "drop_pct": -30.38,
+      "intraday_low_drop_pct": -30.69,
+      "sma_200": 984.63
     },
     "sp500": {
-      "current": 7651.54,
+      "current": 7636.46,
       "high_52w": 7816.7,
-      "drop_pct": -2.11,
-      "intraday_low_drop_pct": -2.11,
-      "sma_200": 7217.09
+      "drop_pct": -2.31,
+      "intraday_low_drop_pct": -2.56,
+      "sma_200": 7221.14
     },
     "russell2k": {
-      "current": 2796.86,
+      "current": 2780.74,
       "high_52w": 3069.71,
-      "drop_pct": -8.89,
-      "intraday_low_drop_pct": -8.89,
-      "sma_200": 2778.77
+      "drop_pct": -9.41,
+      "intraday_low_drop_pct": -9.59,
+      "sma_200": 2779.91
     },
     "soxx": {
-      "current": 568.64,
+      "current": 569.93,
       "high_52w": 655.95,
-      "drop_pct": -13.31,
-      "intraday_low_drop_pct": -14.02,
-      "sma_200": 451.85
+      "drop_pct": -13.11,
+      "intraday_low_drop_pct": -14.01,
+      "sma_200": 453.21
     }
   },
   "sector_rs": {
-    "XLK": 1.03,
-    "SMH": 0.957,
-    "BOTZ": 0.903,
-    "IGV": 1.113,
-    "XLF": 0.954,
-    "XLE": 1.143
+    "XLK": 1.036,
+    "SMH": 0.964,
+    "BOTZ": 0.905,
+    "IGV": 1.122,
+    "XLF": 0.948,
+    "XLE": 1.161
   },
   "signals": {
     "cnn_under_10": false,
@@ -145,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 77.46,
+    "tqqq_profit_pct": 76.64,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 176.37,
+    "soxl_profit_pct": 178.24,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.56,
+    "koru_profit_pct": -94.54,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
