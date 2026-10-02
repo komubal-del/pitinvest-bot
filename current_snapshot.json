@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-02T14:24:13.559654+09:00",
+  "timestamp": "2026-10-02T20:12:06.691917+09:00",
   "sentiment": {
-    "cnn_fng": 28.0285714285714,
+    "cnn_fng": 27.1714285714286,
     "cnn_components": {
       "momentum": 28.2,
-      "strength": 0.4,
-      "breadth": 0.2,
+      "strength": 0.2,
+      "breadth": 0.8,
       "put_call": 36.0,
       "junk_bond": 45.6,
       "volatility": 50.0,
@@ -14,40 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
-      "greed_articles": [
-        {
-          "title": "[개장] 뉴욕증시, 국채금리 고점 후퇴에 소폭 상승..마이크론 3%↑ By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nQzlyVl8tX2x0ZVV6bUNELXF1T3p6SlNBN0VBWlpobUsxbEZ1YUJzbFZxVlYwR0hMdjZxTHlUSjZEaEhxN2JkSDZ4M2llRDItSDEzcUdNLU5CSVBoRWp3THMzTFRJalNETVpfZHRRcmM?oc=5",
-          "pub_date": "Fri, 02 Oct 2026 00:07:00 GMT",
-          "source": "Investing.com 한국어"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 1,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "日 증시, 차익 실현 매도세에 하락 개장 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BamlZZHFxZUJGb0xKblE2OFl3eGdWQmpUY2VlMm1XOWJKZzAxZHRNTzNxaWdKRUlta1dpbmFXbFZJUEhSbWhSejN5TjctT2l1ckZHWl9jbExCaUF2Qng1al9fcGFQdl9yX0piVXFBVFN6YWdW?oc=5",
-          "pub_date": "Fri, 02 Oct 2026 02:28:51 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "미국 고용지표 발표 앞두고 아시아 증시 혼조…홍콩 3% 급락 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKTVRSejNWcElXMkoyY3JTQm53d1lEWEdhMV9WRGhJZGdSRXN5VkwteVRCeE1TMzlLRHA5VktHbUdWTVFhVldzRVpVel84YWxlb2NvaVkwS1RfQVY2T015VUNnVFBuRG5PV2QwZXlLcmk?oc=5",
-          "pub_date": "Fri, 02 Oct 2026 03:33:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 외국인·기관 동반 매도세에 장중 하락전환 6940선, 코스닥도 소폭 내려 - 비즈니스포스트",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zZV9CVHVESXhCd1hFYTJxN2k2UkZzOHNSOUVZWV9QdHo3bE9wMk9iWjJKYUtjTlRPOGZJNl8yd3loRHhYYkFma0ZDamNBeWZ5aVJqWFRmYW5TVTIzQmUzU2dXdGNLUmhTNTc5OUgzREtibWM?oc=5",
-          "pub_date": "Fri, 02 Oct 2026 01:44:56 GMT",
-          "source": "비즈니스포스트"
+          "title": "연휴 앞두고 ’칠천피’ 탈환…코스닥은 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyQjg5dlFUOUZhUFp5TFBTX0ZQbjlNNmJlSFVMMzNfNUdudmluWE9WQzBwMXdDMXZNcnZYdV9KbFdzYzlYS1NIQ0FqUUhuR1hFUi1zWVJ3Zk80V0tRVm1CYnhnME5CUkU?oc=5",
+          "pub_date": "Fri, 02 Oct 2026 09:04:00 GMT",
+          "source": "연합뉴스TV"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.39,
+    "vix": 15.97,
     "vvix": 92.01,
     "skew": 142.77,
     "move": 108.13
@@ -69,18 +50,18 @@
       "sma_200": 24708.92
     },
     "kospi": {
-      "current": 6988.62,
+      "current": 7003.74,
       "high_52w": 9385.59,
-      "drop_pct": -25.54,
+      "drop_pct": -25.38,
       "intraday_low_drop_pct": -26.19,
-      "sma_200": 6324.96
+      "sma_200": 6325.04
     },
     "kosdaq": {
-      "current": 892.83,
+      "current": 893.29,
       "high_52w": 1229.42,
-      "drop_pct": -27.38,
+      "drop_pct": -27.34,
       "intraday_low_drop_pct": -27.96,
-      "sma_200": 984.29
+      "sma_200": 984.3
     },
     "sp500": {
       "current": 7666.45,
