@@ -1,37 +1,30 @@
 {
-  "timestamp": "2026-10-02T20:12:06.691917+09:00",
+  "timestamp": "2026-10-05T00:52:20.523827+09:00",
   "sentiment": {
-    "cnn_fng": 27.1714285714286,
+    "cnn_fng": 31.1714285714286,
     "cnn_components": {
-      "momentum": 28.2,
-      "strength": 0.2,
+      "momentum": 37.0,
+      "strength": 0.8,
       "breadth": 0.8,
-      "put_call": 36.0,
-      "junk_bond": 45.6,
+      "put_call": 33.0,
+      "junk_bond": 44.2,
       "volatility": 50.0,
-      "safe_haven": 35.8
+      "safe_haven": 52.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 1,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "연휴 앞두고 ’칠천피’ 탈환…코스닥은 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyQjg5dlFUOUZhUFp5TFBTX0ZQbjlNNmJlSFVMMzNfNUdudmluWE9WQzBwMXdDMXZNcnZYdV9KbFdzYzlYS1NIQ0FqUUhuR1hFUi1zWVJ3Zk80V0tRVm1CYnhnME5CUkU?oc=5",
-          "pub_date": "Fri, 02 Oct 2026 09:04:00 GMT",
-          "source": "연합뉴스TV"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.97,
-    "vvix": 92.01,
-    "skew": 142.77,
-    "move": 108.13
+    "vix": 15.31,
+    "vvix": 87.02,
+    "skew": 144.88,
+    "move": 107.29
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -43,11 +36,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26871.6,
-      "high_52w": 27288.79,
-      "drop_pct": -1.53,
-      "intraday_low_drop_pct": -2.03,
-      "sma_200": 24708.92
+      "current": 27190.86,
+      "high_52w": 27353.68,
+      "drop_pct": -0.6,
+      "intraday_low_drop_pct": -0.88,
+      "sma_200": 24729.59
     },
     "kospi": {
       "current": 7003.74,
@@ -64,34 +57,34 @@
       "sma_200": 984.3
     },
     "sp500": {
-      "current": 7666.45,
+      "current": 7722.72,
       "high_52w": 7816.7,
-      "drop_pct": -1.92,
-      "intraday_low_drop_pct": -2.56,
-      "sma_200": 7221.29
+      "drop_pct": -1.2,
+      "intraday_low_drop_pct": -1.49,
+      "sma_200": 7225.82
     },
     "russell2k": {
-      "current": 2806.63,
+      "current": 2832.9,
       "high_52w": 3069.71,
-      "drop_pct": -8.57,
-      "intraday_low_drop_pct": -9.59,
-      "sma_200": 2780.04
+      "drop_pct": -7.71,
+      "intraday_low_drop_pct": -7.96,
+      "sma_200": 2781.55
     },
     "soxx": {
-      "current": 576.33,
+      "current": 588.9,
       "high_52w": 655.95,
-      "drop_pct": -12.14,
-      "intraday_low_drop_pct": -14.01,
-      "sma_200": 453.24
+      "drop_pct": -10.22,
+      "intraday_low_drop_pct": -10.47,
+      "sma_200": 454.7
     }
   },
   "sector_rs": {
-    "XLK": 1.066,
-    "SMH": 1.014,
-    "BOTZ": 0.921,
-    "IGV": 1.125,
-    "XLF": 0.938,
-    "XLE": 1.152
+    "XLK": 1.061,
+    "SMH": 1.016,
+    "BOTZ": 0.917,
+    "IGV": 1.114,
+    "XLF": 0.931,
+    "XLE": 1.158
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 79.05,
+    "tqqq_profit_pct": 84.24,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 187.27,
+    "soxl_profit_pct": 206.0,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.27,
+    "koru_profit_pct": -93.76,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
