@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-05T10:17:33.012744+09:00",
+  "timestamp": "2026-10-05T16:13:35.104827+09:00",
   "sentiment": {
     "cnn_fng": 31.1714285714286,
     "cnn_components": {
@@ -14,8 +14,8 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 3,
+      "greed_count": 8,
+      "fear_count": 7,
       "greed_articles": [
         {
           "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄 - 연합뉴스",
@@ -24,36 +24,42 @@
           "source": "연합뉴스"
         },
         {
+          "title": "“퇴직연금 불리려다 날렸다”…코스피 고점에 DC 갈아탄 직장인들 '-10%' - economist.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzNVdKNnpIZkVUaG1acDlaa2NZMkZROGl1Vlh6ckk1WXNzT3R0NmFmcHFZb2tWWUVoQlhDRGE3aTRWTzBHeHIyMXJnS1FkMDFoQkR3dTFPWmQ5T3AycUlpYmJB?oc=5",
+          "pub_date": "Mon, 05 Oct 2026 00:40:00 GMT",
+          "source": "economist.co.kr"
+        },
+        {
+          "title": "증시 고점서 DB→DC 전환 15만명…투자 나선 일부는 두 달 만에 -10% - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JbnVWNlV4eFI0SFdzN3FEdktxTjBWT1hyOXlRSEFhS1NQb3BtSUxkTEg5Q19WNGNac2Fxam5lRGQxeVhOSlRNOUR1aFI4cjFBWmxzMTl5djg3QQ?oc=5",
+          "pub_date": "Mon, 05 Oct 2026 03:51:00 GMT",
+          "source": "브릿지경제"
+        },
+        {
           "title": "증시 고점에 DB→DC 전환 3배 급증…고점 뒤 수익률 -10% - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qUEhRdkhxTmlJUGZzTkplQXVFZy1URmRWLWp4NkgtdHNIWnZCWURMSHc5b0hsbXkxclZoWDVuRUtCMEtCb2VOTE85cmc3Vnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rQ2F3TF9DYkNVMGVWdnV1U1NWWG50RWJDamU5cEE3bVdiNy1aUkRqWW1qaUpuZUF1c0tzSEZyVktkZGprQjYtcmhreUJjUE5CQndpbA?oc=5",
           "pub_date": "Mon, 05 Oct 2026 00:10:12 GMT",
           "source": "v.daum.net"
         },
         {
-          "title": "AI·반도체 쏠림에 제약주 ‘찬바람’...코스닥 제약 한 달 새 10% 급락 - M이코노미뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0MVFDLTF4UEI0X2N5ZzJ1VWM5NjdCcTlyQVQ0UWZMWWhWMU15WnNud2NZcHhLRGZZRGV2eVJQblpJcE5GNm9yUjFjRnBBRXRWTHpWS2plVmpTa0dWZ1FlYkJtQldZYXM?oc=5",
-          "pub_date": "Sun, 04 Oct 2026 23:25:13 GMT",
-          "source": "M이코노미뉴스"
-        },
-        {
-          "title": "“퇴직연금 불리려다 날렸다”…코스피 고점에 DC 갈아탄 직장인들 '-10%' - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzNVdKNnpIZkVUaG1acDlaa2NZMkZROGl1Vlh6ckk1WXNzT3R0NmFmcHFZb2tWWUVoQlhDRGE3aTRWTzBHeHIyMXJnS1FkMDFoQkR3dTFPWmQ5T3AycUlpYmJB?oc=5",
-          "pub_date": "Mon, 05 Oct 2026 00:40:00 GMT",
-          "source": "이코노미스트"
-        },
-        {
-          "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄 - 한국경제TV",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQzJ6UF9YQklISElDYVJxb0ppd2NHaVMxWllxa3BudUN2RGFzcmxwSHZPMEJOZXdWeVFkSjZwMlpHaTY4XzNkTVNnWWZQZnRSLTRQRFBmdmdmOGFjOGg0YVZqS0lEQjlDb3FOYzFDWG1aTFpjdzhxMTFXdU10SDhSeQ?oc=5",
-          "pub_date": "Sun, 04 Oct 2026 21:20:00 GMT",
-          "source": "한국경제TV"
+          "title": "반도체 쏠림·고금리에 밀린 바이오…코스닥 제약 ‘최악의 한달’ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NWDNJNFM4VEZOODd3SzJPUFB1c0dGLUNEN3JjdEFDdDh5Um9fX2xpc281VUh0VEtEMERTM3oyeTFOUG5JN0NZTU84akFpRDMxSGNZTw?oc=5",
+          "pub_date": "Mon, 05 Oct 2026 00:22:03 GMT",
+          "source": "v.daum.net"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스닥서 '이 업종' 죽쒔다...악재 겹쳐 연초 대비 30% '폭락' - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSZkZjUG1aR3dRV2JZbmN2bUJNaF9sa29yT2JQVmJIZkcxcDlaTzRJTHAzWGpGdlVjbWVLLTFOTVp1Rnd0dUhjTlhnRjJLUkE?oc=5",
-          "pub_date": "Sun, 04 Oct 2026 21:42:32 GMT",
+          "title": "‘코스피 피크’에 급증했던 퇴직연금 DB→DC 갈아타기…두 달 새 -10% 급락 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QUVpKTG1lS2xVR1lMeXF3YTIwMHQ0RGZ0cmNIcDh1MGF0dTRXUGVlUzFtNmlsZy1tcF85Yk4tUFNjM2tfUnFZQ3FDNlMyWDB3TjZtUA?oc=5",
+          "pub_date": "Mon, 05 Oct 2026 02:16:14 GMT",
           "source": "v.daum.net"
+        },
+        {
+          "title": "AI·반도체에 밀린 코스닥 바이오…한 달 새 10% 넘게 급락 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zcGQtdk4xaTBuMGFEQU13RlZyNmlKNUJEUlRtMHdPWEczV2FqampnYVdoU1FSSkRRR0k1THVDeUpFZXZTMmx6VGhQdHczNXJHR2RwZGMyUV94VFVUVW5KX3ZnSzc5aTZVWS1MM0xIOFVQSjZu0gF0QVVfeXFMTXNwZC12TjFpMG4wYURBTXdGVnI2aUo1QkRSVG0wd09YRzNXYWpqamdhV2hTUVJKRFFHSTVMdUN5SkVldlMybHpUaFB0dzM1ckdHZHBkYzJRX3hUVVRVbkpfdmdLNzlpNlVZLUwzTEg4VVBKNm4?oc=5",
+          "pub_date": "Mon, 05 Oct 2026 01:18:15 GMT",
+          "source": "산경투데이"
         },
         {
           "title": "반도체로 돈 몰리자 제약주 ‘찬바람’…코스닥 제약 9월 10.51% 급락 - 경북매일",
@@ -62,10 +68,16 @@
           "source": "경북매일"
         },
         {
-          "title": "[긴급진단] 메모리 반도체 주가 돌연 폭락 \"도시바 HDD 쇼크\"... 뉴욕증시 대체 무슨 일? - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMWhyRmtEWlpXbGRiN3JkWjQyeTlNZUhReGZ5bTZrUmxpVGlrMkhPaVgwYWFXYU8zUjNKMFRhNEt1MXNIV25QSWRGNDR5dTVWZE9iOEZDTGJaNHJCWHFxUjBNUTdyRmVHMzRRM05MQ0I0Rkw2akVZNG5YTjVqSjdteXhVcw?oc=5",
-          "pub_date": "Sun, 04 Oct 2026 23:52:24 GMT",
-          "source": "글로벌이코노믹"
+          "title": "반도체 관련 업종 오를 때 제약은 급락…코스닥 수익률 온도차 - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aa0I3QUpoTGM1aFRDbHFEcUQ0SWUyX2QwV1JtVzJYUlBPYnRMSTZoWmtVR3VsNUYtUTdaa21uMFBKdTBUN1FRUmpqd0hPZ214cGw0dDlwcUV1ODFqdFE?oc=5",
+          "pub_date": "Mon, 05 Oct 2026 02:44:00 GMT",
+          "source": "뉴스투데이"
+        },
+        {
+          "title": "코스닥서 '이 업종' 죽쒔다...악재 겹쳐 연초 대비 30% '폭락' - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPeEJfMkxyWmFXNUcxc3psei1QY0pHaVBVM1VXZ0EzeTdGY1h1dFVUZF95Y01zd1Y0VjViQUFrUmJVZFoxREt0V2dkbHdKQVU1Vzc3eA?oc=5",
+          "pub_date": "Sun, 04 Oct 2026 21:42:32 GMT",
+          "source": "v.daum.net"
         }
       ]
     }
