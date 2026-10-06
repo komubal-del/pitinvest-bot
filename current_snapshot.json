@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T07:46:47.920236+09:00",
+  "timestamp": "2026-10-06T11:32:14.984856+09:00",
   "sentiment": {
     "cnn_fng": 43.1428571428571,
     "cnn_components": {
@@ -14,34 +14,21 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "코스닥 지난달 최악 수익률은 제약…금리인상·반도체 쏠림에 직격탄 - 한국의약통신",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sU2VuU1Joak9jX1I5YWJqYS1iTm9BcmdVVWhOOFNPUjU4b2ZIU1ZBN29LZl9JT1JTWGk1MTlVV0RsQ0lSZFF4czBmVGJubV9CcU44MFJadmllcUNLeFFBT1FZNE9ZcnhxZzUw?oc=5",
-          "pub_date": "Mon, 05 Oct 2026 20:12:06 GMT",
-          "source": "한국의약통신"
-        },
-        {
-          "title": "[속보]10년물 금리 고점 경신에도 뉴욕증시 상승 마감 - asiae.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5McVhfQzQ3NGVKUUY0U2VxempLQ3FWX1VMUi1rN2hwNnVnYnQzLVRqdjRhbThkNG1IeHl2NmctZ2xkWV9pamdfV1U5RFJKcDNTa2hCRW1kNGxzNlgyclJkRA?oc=5",
-          "pub_date": "Mon, 05 Oct 2026 20:10:08 GMT",
-          "source": "asiae.co.kr"
-        },
-        {
-          "title": "극심한 시장 분열 딛고 연말 8000선 향하는 美 증시…실적 장세가 거품 붕괴 우려 잠재운다 - g-enews.com",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdVIyVURzbGR4QWYxOUpfbFhxclVGRnhRTmVLMDk2REtQZmJpbmNnMWNjZ2M1U2JWR0FfNTdYZUVnOFdhTTJfQkl6djJOc083NGJwcGZ0bUM5eXFqZTJ5bWJrSXduTUpyQlo4M0pwTmRteGdMSVdYUWhqLU12Q2dsVXViYXk5aXhm?oc=5",
-          "pub_date": "Mon, 05 Oct 2026 18:15:00 GMT",
-          "source": "g-enews.com"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 2,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "워런 버핏, 폭락 공포 삼키고 장기 원칙 세워 증시 충격 넘는다 - g-enews.com",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZUVyWUF3dmhJZm1aX0RNaDFJU1lCeTYtTDZwaVdkMXhsN1NvX00xZmo5LUFFejlDZUxqTGh1TjdzN1h3TU9BcExUR3FvenhFOUh6S0J3TExyZkFFYWFoVklkdE1NZ21kWVF0NHZQNGxjYzRjMzFsZEFRSjNFS0pXejRfdzd3TnR0?oc=5",
-          "pub_date": "Mon, 05 Oct 2026 18:25:00 GMT",
-          "source": "g-enews.com"
+          "title": "日 증시, 美 강세장 힘입어 상승…일부 반도체주 차익 실현 매도세 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rMzZISHlFYnVaZ2t0dWFuUVFKSFlmbVBsTExTUy1kV05rUFBqb0ZIUjZCeWFGb1BUbnBsMjl4NXI0ZkFZQVJIT3dNWXU0LVNTV2Fka3JXZjFMZ2NnZ25teGJuMmpjU09seVBja3BaVFQ4NWdi?oc=5",
+          "pub_date": "Tue, 06 Oct 2026 00:36:47 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 美 AI 강세에도 6,990선 하락 전환…외국인 매도 속 기관 매수 - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IUl9LWmFmcGtQbHdzaUFQQUJaZ0t2cVBtSHczc19kZDFjLTlKVzRfNzBjV1JVM2YtUUZ2Vk96NGxudWFZYWh2eW5icnZYUUc4RjJwaGVSQnhCWms1SEE?oc=5",
+          "pub_date": "Tue, 06 Oct 2026 01:16:00 GMT",
+          "source": "뉴스투데이"
         }
       ]
     }
@@ -69,18 +56,18 @@
       "sma_200": 24751.42
     },
     "kospi": {
-      "current": 7003.74,
+      "current": 6970.3,
       "high_52w": 9385.59,
-      "drop_pct": -25.38,
-      "intraday_low_drop_pct": -26.19,
-      "sma_200": 6325.04
+      "drop_pct": -25.73,
+      "intraday_low_drop_pct": -25.8,
+      "sma_200": 6339.11
     },
     "kosdaq": {
-      "current": 893.29,
+      "current": 915.13,
       "high_52w": 1229.42,
-      "drop_pct": -27.34,
-      "intraday_low_drop_pct": -27.96,
-      "sma_200": 984.3
+      "drop_pct": -25.56,
+      "intraday_low_drop_pct": -26.68,
+      "sma_200": 984.23
     },
     "sp500": {
       "current": 7773.95,
@@ -172,7 +159,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -231,7 +218,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 212.355,
+    "strategy_pct": 213.17,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1015,7 +1002,7 @@
       },
       {
         "date": "2026-10-06",
-        "ret_pct": 212.355
+        "ret_pct": 213.17
       }
     ],
     "monthly_breakdown": [
@@ -1075,8 +1062,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": 8.95,
-        "end_ret_pct": 212.35,
+        "return_pct": 9.76,
+        "end_ret_pct": 213.17,
         "max_dd_pct": 0.0
       }
     ],
