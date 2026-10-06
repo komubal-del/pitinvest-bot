@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-06T11:32:14.984856+09:00",
+  "timestamp": "2026-10-06T18:26:17.458605+09:00",
   "sentiment": {
-    "cnn_fng": 43.1428571428571,
+    "cnn_fng": 43.1142857142857,
     "cnn_components": {
       "momentum": 51.4,
-      "strength": 1.2,
-      "breadth": 1.4,
+      "strength": 1.4,
+      "breadth": 1.8,
       "put_call": 32.4,
-      "junk_bond": 94.4,
+      "junk_bond": 93.6,
       "volatility": 50.0,
       "safe_haven": 71.2
     },
@@ -15,26 +15,20 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 1,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "日 증시, 美 강세장 힘입어 상승…일부 반도체주 차익 실현 매도세 | - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rMzZISHlFYnVaZ2t0dWFuUVFKSFlmbVBsTExTUy1kV05rUFBqb0ZIUjZCeWFGb1BUbnBsMjl4NXI0ZkFZQVJIT3dNWXU0LVNTV2Fka3JXZjFMZ2NnZ25teGJuMmpjU09seVBja3BaVFQ4NWdi?oc=5",
-          "pub_date": "Tue, 06 Oct 2026 00:36:47 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 美 AI 강세에도 6,990선 하락 전환…외국인 매도 속 기관 매수 - 뉴스투데이",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IUl9LWmFmcGtQbHdzaUFQQUJaZ0t2cVBtSHczc19kZDFjLTlKVzRfNzBjV1JVM2YtUUZ2Vk96NGxudWFZYWh2eW5icnZYUUc4RjJwaGVSQnhCWms1SEE?oc=5",
-          "pub_date": "Tue, 06 Oct 2026 01:16:00 GMT",
-          "source": "뉴스투데이"
+          "title": "[마감시황] 코스피, 외인 매도세·대형주 약세에 7000선 붕괴…6900선 마감 - 신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ob082cExUMkJfU1RTTEI2clFqakpoSjBicUxBNmo3S1lfcW96WDNzdWdEX1RuMkpOODVRamtRUV9Hc2llZzZ2S1RabV9BTHVFLVptVWVNMHZYWnJSdDV6cTVDWjIwM3A1RTZqTk9sMkQ?oc=5",
+          "pub_date": "Tue, 06 Oct 2026 07:34:46 GMT",
+          "source": "신아일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.52,
+    "vix": 15.44,
     "vvix": 85.46,
     "skew": 143.04,
     "move": 113.6
@@ -56,18 +50,18 @@
       "sma_200": 24751.42
     },
     "kospi": {
-      "current": 6970.3,
+      "current": 6941.39,
       "high_52w": 9385.59,
-      "drop_pct": -25.73,
-      "intraday_low_drop_pct": -25.8,
-      "sma_200": 6339.11
+      "drop_pct": -26.04,
+      "intraday_low_drop_pct": -26.51,
+      "sma_200": 6338.97
     },
     "kosdaq": {
-      "current": 915.13,
+      "current": 919.92,
       "high_52w": 1229.42,
-      "drop_pct": -25.56,
+      "drop_pct": -25.17,
       "intraday_low_drop_pct": -26.68,
-      "sma_200": 984.23
+      "sma_200": 984.26
     },
     "sp500": {
       "current": 7773.95,
