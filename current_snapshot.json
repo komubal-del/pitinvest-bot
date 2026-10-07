@@ -1,40 +1,47 @@
 {
-  "timestamp": "2026-10-07T09:34:58.345279+09:00",
+  "timestamp": "2026-10-07T15:29:59.197257+09:00",
   "sentiment": {
-    "cnn_fng": 47.3714285714286,
+    "cnn_fng": 47.2,
     "cnn_components": {
       "momentum": 72.4,
       "strength": 1.6,
       "breadth": 2.0,
       "put_call": 34.0,
-      "junk_bond": 95.0,
+      "junk_bond": 93.8,
       "volatility": 50.0,
       "safe_haven": 76.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 3,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 2,
+      "greed_articles": [
+        {
+          "title": "美·대만 등 최고치 찍는데…'횡보' 코스피는 연고점 대비 25%↓ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oTzlxUktRUWhNNlQ2V1J3Rm5vRXhnbEVVOUNBaDQ2UGxTZ2dLenVmcE1xbkJWVWk0OXZBdGV4Q1ZyNUREdG82RERrUVQ0YVNMaS1vbEdJWTZtd1XSAWBBVV95cUxPYmNaWFlGVjJvbGFiN2lKZk9DSVFwQ29rVFpSOFFRR1hBNUlNSUZHMEtOSVJTeURkQ0llQXp1UGw2RWZyTENQNGlCY2c3OURaelE0c3RTYnhYd00tdWRZZmk?oc=5",
+          "pub_date": "Wed, 07 Oct 2026 05:59:46 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "美 증시 활황에도 코스피 6900선 밑으로…SK하이닉스 장중 2% 넘게 하락 - Daum",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE44bzBWMTFNZXE3WG9RRUFucGFuLTd2NnA3OU9DSnNvMDdhQ0J1cjlfR0d3M1loTUhWWnhOSzJiR3FrY09HLUE?oc=5",
+          "pub_date": "Wed, 07 Oct 2026 02:40:14 GMT",
+          "source": "Daum"
+        }
+      ],
       "fear_articles": [
+        {
+          "title": "코스피, 외국인 2.2조원대 매도세에 6800선 후퇴[fn오후시황] - Daum",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYbUQwSXJMeFotMTVqWkF5aS1sYWhPZ3Blamkxc1JwVGRQNVBtTU41REV6X2tFbUR0NFRhYzRrTU8xMFdOeEhEUDJwT3VEZkE?oc=5",
+          "pub_date": "Wed, 07 Oct 2026 05:06:32 GMT",
+          "source": "Daum"
+        },
         {
           "title": "美증시 최고치에도 코스피 ‘긴장’…하이닉스 ADR 6.39% 급락 - 경북매일",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiMDY2Rzd4SWVpMEFKQnlWTzZvNENrbE9FM2dYTy1LODBfbDBKT1lrdkZhVUQwQkdSNWYtNUVScG1URklybDZKaDNOdXBUZ2NFYkhycVh5UXpVUQ?oc=5",
           "pub_date": "Tue, 06 Oct 2026 23:24:00 GMT",
           "source": "경북매일"
-        },
-        {
-          "title": "코스피, 장초반 6900 아래로...하이닉스 ADR 급락에 본주도 약세 - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NalZlNUVzWk5xR2E3WVZuVFI1ekpZVWtjY2otQXRDcXZyWFREc1lSZTQyZ3haaGdzcW52Z3NKdXQ4aTlueEJyTHBGRmhzYTZENVZwS2FsZDdGSlRqZFNPc1BJSWx1MU8tVlRSV3E3WGo?oc=5",
-          "pub_date": "Wed, 07 Oct 2026 00:28:47 GMT",
-          "source": "오피니언뉴스"
-        },
-        {
-          "title": "뉴욕증시 최고치…하이닉스ADR은 급락 [오늘 아침, 당신이 알아야 할 7가지] - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCeG9veExyekJuY2d3Qm9kYzNFN1N6cWo2cVVkZ2ZkUU5QV202Zk40bFZTcjNvN3hMVHlZejlTdmRoMTUtY1RnLXZkSHJBQWl0ZUpyanBQN3JoUQ?oc=5",
-          "pub_date": "Tue, 06 Oct 2026 22:53:09 GMT",
-          "source": "한국경제"
         }
       ]
     }
@@ -55,25 +62,25 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 27599.89,
+      "current": 27599.79,
       "high_52w": 27722.75,
       "drop_pct": -0.44,
       "intraday_low_drop_pct": -0.47,
       "sma_200": 24775.95
     },
     "kospi": {
-      "current": 6920.33,
+      "current": 6819.74,
       "high_52w": 9385.59,
-      "drop_pct": -26.27,
-      "intraday_low_drop_pct": -26.89,
-      "sma_200": 6352.85
+      "drop_pct": -27.34,
+      "intraday_low_drop_pct": -27.36,
+      "sma_200": 6352.35
     },
     "kosdaq": {
-      "current": 915.07,
+      "current": 900.21,
       "high_52w": 1229.42,
-      "drop_pct": -25.57,
-      "intraday_low_drop_pct": -25.7,
-      "sma_200": 984.23
+      "drop_pct": -26.78,
+      "intraday_low_drop_pct": -26.78,
+      "sma_200": 984.1
     },
     "sp500": {
       "current": 7818.93,
@@ -100,7 +107,7 @@
   "sector_rs": {
     "XLK": 1.081,
     "SMH": 1.041,
-    "BOTZ": null,
+    "BOTZ": 0.946,
     "IGV": 1.131,
     "XLF": 0.926,
     "XLE": 1.124
@@ -151,7 +158,7 @@
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -94.29,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -224,7 +231,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 211.1,
+    "strategy_pct": 212.597,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1012,7 +1019,7 @@
       },
       {
         "date": "2026-10-07",
-        "ret_pct": 211.1
+        "ret_pct": 212.597
       }
     ],
     "monthly_breakdown": [
@@ -1072,9 +1079,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": 7.69,
-        "end_ret_pct": 211.1,
-        "max_dd_pct": 2.07
+        "return_pct": 9.19,
+        "end_ret_pct": 212.6,
+        "max_dd_pct": 0.57
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
