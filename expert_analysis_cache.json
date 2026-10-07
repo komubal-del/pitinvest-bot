@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "analyzed_at": "2026-09-29T09:26:56.550037+09:00",
+  "date": "2026-10-07",
+  "analyzed_at": "2026-10-07T09:35:05.468539+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,29 +8,29 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "4tvDoOem15Q",
-      "title": "삼성전자·SK하이닉스 급락에도 시장은 버텼다…지금 주목할 것은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-09-29T00:17:59Z",
-      "url": "https://youtube.com/watch?v=4tvDoOem15Q",
+      "video_id": "Lacr3C3biDY",
+      "title": "삼성전자·SK하이닉스 왜 못 가나? 지금 강한 곳은 따로 있다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-10-07T00:11:15Z",
+      "url": "https://youtube.com/watch?v=Lacr3C3biDY",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제공된 영상 설명란에는 전문가의 주식 시장에 대한 구체적인 매수/매도/현금화 등의 행동 권고가 없으며, 제목 또한 현재 상황을 분석하고 앞으로 주목할 점을 제시하는 중립적인 질문 형태를 띠고 있습니다."
+        "reason": "영상 설명란에는 전문가의 구체적인 매매 행동 권고(매수, 매도, 비중 조절 등)가 전혀 없으며, 제목 또한 특정 종목의 부진을 언급하고 다른 강한 곳이 있다는 분석적 시사만 담고 있기 때문입니다."
       }
     },
     {
-      "video_id": "80IReKiMQLI",
-      "title": "윤지호, 빈센트, 장우진의 전략 대공개 | [하나증권 대규모 세미나 영상]",
-      "published": "2026-09-28T02:42:39Z",
-      "url": "https://youtube.com/watch?v=80IReKiMQLI",
+      "video_id": "cDD4L5M0QwA",
+      "title": "'천기누설' 윤지호 대표의 투자 아이디어 | 윤지호 대표  [더블 밸류업 세미나]",
+      "published": "2026-09-29T07:20:29Z",
+      "url": "https://youtube.com/watch?v=cDD4L5M0QwA",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "해당 내용은 과거 세미나 다시보기 영상을 홍보하는 글로, 현재 주식 시장에 대한 구체적인 분석이나 투자 행동 권고가 전혀 포함되어 있지 않습니다."
+        "reason": "제공된 영상 설명란은 하나증권 MTS 다운로드 및 과거 포럼 시청을 독려하는 홍보성 메시지이며, 현재 주식 시장에 대한 구체적인 매수/매도/축소 등의 행동 권고나 명확한 방향성 언급이 전혀 없습니다."
       }
     }
   ],
