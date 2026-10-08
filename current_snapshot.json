@@ -1,61 +1,37 @@
 {
-  "timestamp": "2026-10-08T22:17:34.096659+09:00",
+  "timestamp": "2026-10-09T04:19:29.076723+09:00",
   "sentiment": {
-    "cnn_fng": 44.6571428571429,
+    "cnn_fng": 37.7428571428571,
     "cnn_components": {
-      "momentum": 63.6,
-      "strength": 2.4,
-      "breadth": 2.6,
-      "put_call": 30.4,
-      "junk_bond": 92.8,
+      "momentum": 46.4,
+      "strength": 2.6,
+      "breadth": 2.8,
+      "put_call": 32.6,
+      "junk_bond": 82.8,
       "volatility": 50.0,
-      "safe_haven": 70.8
+      "safe_haven": 46.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 23,
+      "fear_count": 1,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "삼성전자 ‘역대급 실적’에도 코스피 2.62% 급락… 6,625.93 마감 - 경기일보",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZQWZLYUZEcFhHS005RkFQam05Y0VOSjdUQUdkYjBGQ3A4UHR6VHoxZEVvUU5XbkhLUkh3Y0xpZzd4UVlrQVNOVGFsUjdCSXhTY256S0pmX3cxUUU?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 07:22:00 GMT",
-          "source": "경기일보"
-        },
-        {
-          "title": "코스피, 외인·기관 3.6조 '팔자'에 2.6% 급락…6600선 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1bVc2bmpFbXpvaXpROENQRDA0OGRYWTdRX1RpMUJ1UHFXWXBzUGpYMlVpQWdtRjBST2FjSHhBNTkxS19IcC1kVWJXQk1iRUttdVJOUEtCTXAwdw?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 06:42:46 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "코스피, 삼전 영업익 107조에도 2.6% 급락해 6,600대로 털썩(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84V2l1d081SWJRRHhPeHBpalE5aXVhQmVQVmNYa1B5by0tZEdCWmFLQ25hZ1VLSzFtMzZ6U2JBUVRrdzZZT0xwSFl6Q1pPSE5yekFHb3ZvOVlJbXVfRFVHddIBYEFVX3lxTE84V2l1d081SWJRRHhPeHBpalE5aXVhQmVQVmNYa1B5by0tZEdCWmFLQ25hZ1VLSzFtMzZ6U2JBUVRrdzZZT0xwSFl6Q1pPSE5yekFHb3ZvOVlJbXVfRFVHdQ?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 07:09:55 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피, 2.6% 급락해 6,600대로 털썩…코스닥은 0.7% 하락 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KVHVNdmxhenFPdlZ6MVJhdENOZjl0R1EySloyUm5hNTdjMVJqZGJmNGRuV2xxSUNTbWhyVnkzbG5qVkNhbG9IaWNhaWx5YTNVMzFUQ0w0N0dLQUtJczVRQdIBYEFVX3lxTE9KVHVNdmxhenFPdlZ6MVJhdENOZjl0R1EySloyUm5hNTdjMVJqZGJmNGRuV2xxSUNTbWhyVnkzbG5qVkNhbG9IaWNhaWx5YTNVMzFUQ0w0N0dLQUtJczVRQQ?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 06:35:56 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 2%대 급락…삼전도 막지 못한 외국인 탈출 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sYmNBbE5yclVKRndYNUxyX0xRdy12Tmt2eS1YQ3FHVEZtLWR1MlQtemQtbG9jcXZEcVJySW5oNTVzZVFqZkxTaDNJVW5mNy1OZzdIcFBlZXVaS1I4M3JhYkUzSnk0dTBGbGt6TGpKdXQ?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 07:11:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "유럽증시, 국채 매도세 계속되며 일제히 하락… 범유럽 지수는 4개월 만에 최저치 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QcUM4UVd2S2dvWHQxS2hxMzNMTHF0TGstWGR6eUpFa0FILXpOZUcxYnFIUVpnekhQaG1BSHBYT3Z4blduZmVUSXlISmRHUWtHWWkxMDdHVkhwOTFD?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 17:38:00 GMT",
+          "source": "뉴스핌"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.63,
-    "vvix": 83.18,
+    "vix": 15.65,
+    "vvix": 88.18,
     "skew": 141.84,
-    "move": 104.66
+    "move": 100.62
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -67,55 +43,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 27538.69,
+      "current": 27150.22,
       "high_52w": 27722.75,
-      "drop_pct": -0.66,
-      "intraday_low_drop_pct": -1.38,
-      "sma_200": 24798.61
+      "drop_pct": -2.07,
+      "intraday_low_drop_pct": -2.37,
+      "sma_200": 24817.83
     },
     "kospi": {
-      "current": 6625.93,
+      "current": 6803.9,
       "high_52w": 9385.59,
-      "drop_pct": -29.4,
-      "intraday_low_drop_pct": -29.4,
-      "sma_200": 6364.73
+      "drop_pct": -27.51,
+      "intraday_low_drop_pct": -27.51,
+      "sma_200": 6352.27
     },
     "kosdaq": {
-      "current": 892.27,
+      "current": 898.43,
       "high_52w": 1229.42,
-      "drop_pct": -27.42,
-      "intraday_low_drop_pct": -28.11,
-      "sma_200": 983.88
+      "drop_pct": -26.92,
+      "intraday_low_drop_pct": -26.94,
+      "sma_200": 984.09
     },
     "sp500": {
-      "current": 7801.77,
+      "current": 7755.4,
       "high_52w": 7844.52,
-      "drop_pct": -0.54,
-      "intraday_low_drop_pct": -1.03,
-      "sma_200": 7241.31
+      "drop_pct": -1.14,
+      "intraday_low_drop_pct": -1.44,
+      "sma_200": 7245.91
     },
     "russell2k": {
-      "current": 2793.2,
+      "current": 2786.02,
       "high_52w": 3069.71,
-      "drop_pct": -9.01,
-      "intraday_low_drop_pct": -9.16,
-      "sma_200": 2786.31
+      "drop_pct": -9.24,
+      "intraday_low_drop_pct": -10.01,
+      "sma_200": 2787.59
     },
     "soxx": {
-      "current": 582.82,
+      "current": 559.39,
       "high_52w": 655.95,
-      "drop_pct": -11.15,
-      "intraday_low_drop_pct": -12.47,
-      "sma_200": 459.15
+      "drop_pct": -14.72,
+      "intraday_low_drop_pct": -15.26,
+      "sma_200": 460.45
     }
   },
   "sector_rs": {
-    "XLK": 1.063,
-    "SMH": 1.008,
-    "BOTZ": 0.948,
+    "XLK": 1.047,
+    "SMH": 0.979,
+    "BOTZ": 0.929,
     "IGV": 1.136,
-    "XLF": 0.939,
-    "XLE": 1.097
+    "XLF": 0.953,
+    "XLE": 1.139
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 90.18,
+    "tqqq_profit_pct": 81.15,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 197.03,
+    "soxl_profit_pct": 160.44,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -94.55,
+    "koru_profit_pct": -95.26,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
