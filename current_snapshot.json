@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-08T09:07:34.984472+09:00",
+  "timestamp": "2026-10-08T14:54:53.756469+09:00",
   "sentiment": {
-    "cnn_fng": 44.6,
+    "cnn_fng": 44.5428571428571,
     "cnn_components": {
       "momentum": 63.6,
       "strength": 1.8,
       "breadth": 2.4,
       "put_call": 30.4,
-      "junk_bond": 93.2,
+      "junk_bond": 92.8,
       "volatility": 50.0,
       "safe_haven": 70.8
     },
@@ -15,8 +15,14 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 3,
-      "fear_count": 2,
+      "fear_count": 7,
       "greed_articles": [
+        {
+          "title": "바클레이즈 \"美증시 실적상향 75%가 반도체·하드웨어…쏠림 심화\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vbkt3cmR1aUl1c1JKeEhPVlp2ZkowejZkbDZGWjdpYVpsd3lna183Y3RfU1Jta1ZudjJOZ2I3a3g1MUh2WlhETFJhekR0dFhwbmhva1NPOEhMbnp4Z3owZlQ5am4xN2x2WE1GR29CRlQ?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 02:31:16 GMT",
+          "source": "연합인포맥스"
+        },
         {
           "title": "[뉴욕증시] 채권 불안과 저가 매수의 혼조…약세 마감 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmc2FMbTNPdzVHa1JpdzhQRWRyemNSNUEwRENoVm5nU0k1V0dGaEJwZlYtcG8tMGlhT0FjR252RTlJLUpIcmFHN2NUVjYwMUFWc0ZMUDM1Nnh0MDhUQjdNM2dOYmZQSmlYQS1sS2VCUlY?oc=5",
@@ -28,26 +34,38 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZdl9sd0gyWm5WSHRhdU1wY2UzRjlodmtRelFNRGFyNzRzSGphQkZJTlBxUWdyM0ZmLWlvZ3o2YTZtaGRUTHRUbDZOdlAxT0g4MTdHa2RIRGxJLVNTVE5nejRvVUVDeGZMT0RxcDIyVTnSAXRBVV95cUxQcURGUmhIbU9nRVdLdlJla0pibnlJR0E4VlJiNGZ2dzZWZVB1QUZjQ19XY0JpMVBkS3dmUHFMNThHamJsQktUQjV5WUhLS0lwbElWRVFzS1Z6UEN4UTFCbU5zVHB5MnB1aTNPaHp6S3RIOGJoag?oc=5",
           "pub_date": "Wed, 07 Oct 2026 20:14:58 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피, 고점 대비 25%↓…외국인 이탈에 7000선 고전 - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FdUZqWmZsZnZiY1J5MEdxc2M1ZWUyYzE5V1NYRVFXOGRWQnExQzBjWDBjQkF6Q3ptUldIRzA2SFBpMnhUT1pibUs3ZVY2aGRn?oc=5",
-          "pub_date": "Wed, 07 Oct 2026 21:34:55 GMT",
-          "source": "블루밍비트"
         }
       ],
       "fear_articles": [
         {
-          "title": "\"폭락 예측말고 대비하라\"…'블랙스완'탈레브 美증시 경고 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmbk9NTDhlb2hQc3c0Sy1XXzNzc0E3alV3VS1WQm02Mm5PV3Y3ajMzcWxteDNQYlN2REQ4YnRpMVFKbkZXVUZyNVQza2hHNXpjd0IyeEZ5UUlXUQ?oc=5",
-          "pub_date": "Wed, 07 Oct 2026 15:45:34 GMT",
-          "source": "한국경제"
+          "title": "삼성전자 역대급 실적에도…코스피, 장 초반 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HcVIxMTJRb1RSZ05Yekh0YTdZUTlLZXM4bF84NFZldktoQWg0UGg5Y05XV3dzUjZKYS1laktWRVh5T01GS0liMkh6VEg2Zy1mVHU0S1E5WGJfR2ZrRlZ4aDZ0aENiQ0U?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 00:10:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "유럽증시, 글로벌 국채 매도세 속에 일제히 하락… 은행주 3.3% 급락 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83c3d3Z1M4UnJPaklkYUNuQXZCSC1KQzdHVlgxd0RiSi1la0tmQ2N1SWs3X0dyOVRUZlNWQzdHZG1LeWtiZXpmX0VySU43WHoyTlk3WWJTN2tsWXVn?oc=5",
-          "pub_date": "Wed, 07 Oct 2026 17:16:00 GMT",
+          "title": "코스피, 삼전 역대급 실적에도 약보합…상승출발 후 하락 전환 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yaHVqNEVDRzQ2a1d1Zk5fTHdaZ1JROXA1N2gwakpNZkhta0x5MU1kcUlHcFkzNVdEVnFndl9oTGlnVFhHdk5kY2VnYTNubXI2QWg2V29PbVlfX3Nsd0h6T1ZhYlZKR0NlZHFtVHpaeU_SAXRBVV95cUxPS0NiZjYxNWFEZ003WnJGMVctUGd5OWhMdU9iVFRDVjdGZFR5YkRfYUE4VWpqQ3lpZkI5VlBlWmN0MnlRamdiTVlxNDYtOWZxaHJxdmZidmlyRWJfOEVKaWU1dDNCRTc3MVU0OGUtb2pOT1R1Wg?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 00:17:52 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피, 삼전 ‘영역대급 실적’에도 하락 전환 6700선…코스닥 1%대↓ - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oWVEtSEhiZnhUYkNHZ2V3MEpCM0JBQmZ4NWthS3c3UHl2RVJGQnlBbkFhcTBPdEl2aDM3QkJBbUlIdmxRTWVCSW1IQmxPNlZKYTVveGNwaVhYV1R5Y2lpVkZwRDJMVzMybTl2RW5xT0FBZlk?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 00:24:25 GMT",
+          "source": "대한경제"
+        },
+        {
+          "title": "[개장시황] 삼성전자 역대급 실적에도…코스피, 상승 출발 후 하락 전환 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vM3gzbmVOTExJa1d0aGI3U1RZRlNLb0wxMVNtNXAyWjdPX0tmZzRnZkZRNmVvd04zLUdRM285R190d2ZEMkg0RkVJaVdpNnI4YkZhWmdCNEZ6bExx?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 00:13:00 GMT",
           "source": "뉴스핌"
+        },
+        {
+          "title": "코스피 6703선 후퇴... 외인 기관 2조 원 대량 매도 [장중시황] - https://www.2news.co.kr/",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CRlc0YUJsaUtMMkRBUGl2QVg3NTU1RkxRbG5hYVFFUDI2ZFpoNnQ4dHc5LTVBMUdGTThWYkpGMVVUcDZPVFFZeXpxT2YxZ2t6WHg3SzhCWEJ5eXhOQjFrY2p3UHRWa0Iz?oc=5",
+          "pub_date": "Thu, 08 Oct 2026 05:00:00 GMT",
+          "source": "https://www.2news.co.kr/"
         }
       ]
     }
@@ -75,18 +93,18 @@
       "sma_200": 24798.61
     },
     "kospi": {
-      "current": 6941.39,
+      "current": 6713.41,
       "high_52w": 9385.59,
-      "drop_pct": -26.04,
-      "intraday_low_drop_pct": -26.51,
-      "sma_200": 6338.97
+      "drop_pct": -28.47,
+      "intraday_low_drop_pct": -29.14,
+      "sma_200": 6365.16
     },
     "kosdaq": {
-      "current": 919.92,
+      "current": 897.95,
       "high_52w": 1229.42,
-      "drop_pct": -25.17,
-      "intraday_low_drop_pct": -26.68,
-      "sma_200": 984.26
+      "drop_pct": -26.96,
+      "intraday_low_drop_pct": -28.11,
+      "sma_200": 983.91
     },
     "sp500": {
       "current": 7801.77,
@@ -103,20 +121,20 @@
       "sma_200": 2786.31
     },
     "soxx": {
-      "current": 589.45,
+      "current": 582.82,
       "high_52w": 655.95,
-      "drop_pct": -10.14,
-      "intraday_low_drop_pct": -10.26,
-      "sma_200": 457.7
+      "drop_pct": -11.15,
+      "intraday_low_drop_pct": -12.47,
+      "sma_200": 459.15
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 1.063,
+    "SMH": 1.008,
+    "BOTZ": 0.948,
+    "IGV": 1.136,
+    "XLF": 0.939,
+    "XLE": 1.097
   },
   "signals": {
     "cnn_under_10": false,
@@ -133,7 +151,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -152,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 90.18,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 197.03,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -94.55,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -237,7 +255,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 208.078,
+    "strategy_pct": 142.225,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1029,7 +1047,7 @@
       },
       {
         "date": "2026-10-08",
-        "ret_pct": 208.078
+        "ret_pct": 142.225
       }
     ],
     "monthly_breakdown": [
@@ -1089,9 +1107,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": 4.67,
-        "end_ret_pct": 208.08,
-        "max_dd_pct": 8.35
+        "return_pct": -61.18,
+        "end_ret_pct": 142.22,
+        "max_dd_pct": 70.94
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
