@@ -1,30 +1,35 @@
 {
-  "timestamp": "2026-10-09T08:48:02.988656+09:00",
+  "timestamp": "2026-10-09T14:55:55.927121+09:00",
   "sentiment": {
-    "cnn_fng": 38.1142857142857,
+    "cnn_fng": 37.8857142857143,
     "cnn_components": {
       "momentum": 49.8,
       "strength": 2.6,
       "breadth": 2.8,
       "put_call": 31.0,
-      "junk_bond": 84.0,
+      "junk_bond": 82.4,
       "volatility": 50.0,
       "safe_haven": 46.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 4,
-      "greed_articles": [
-        {
-          "title": "AI 거품론에 美 반도체주 급락…韓日 증시 '먹구름' - www.ebn.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ubnpHcTV6SmdCZmd4Znhua0M1Vk9wQ3dFZjJ4SkhIVnd2dUVCZU5aSmEwejNRUXVSRW41MUtIV3Z5ZHYwT2pFeXVKVHpRcU9JQlJiWGdEOGhxYUtiWTBuMGNVQ015YVJx?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 22:24:07 GMT",
-          "source": "www.ebn.co.kr"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 10,
+      "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "日증시, 美 반도체 급락 여파에 하락 출발 후 낙폭 확대 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtR1R6RnhId2VSc21lTklzRFZ3bXIxaUZqMUZRMXA3VGFUejB3SUFlWEN6N213ODFlRG16YV9FNnEwRUhObldEX0FuTC02Z2dYNkQzRFJUN0F0aU5Gc0w5a1pkSThfRGgtNkYyMDJycnM?oc=5",
+          "pub_date": "Fri, 09 Oct 2026 00:32:23 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "아시아 증시 혼조세…OpenAI 매출 우려에 반도체주 급락 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yejhKd3pLSDVDUlNDZC0yajYtaFE4emhaVWRrYlRfUmRLQkhKUS10a2plUXU2ZUFzTFVacGZMeGVJY3NES1hEUVYzdlJsdmFwLU5ocXVib3lCSEZLVGdXeHRNOXRENVY1UXd3Zmp4dDQ?oc=5",
+          "pub_date": "Fri, 09 Oct 2026 04:08:00 GMT",
+          "source": "Investing.com 한국어"
+        },
         {
           "title": "유럽증시, 국채 매도세 계속되며 일제히 하락… 범유럽 지수는 4개월 만에 최저치 - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QcUM4UVd2S2dvWHQxS2hxMzNMTHF0TGstWGR6eUpFa0FILXpOZUcxYnFIUVpnekhQaG1BSHBYT3Z4blduZmVUSXlISmRHUWtHWWkxMDdHVkhwOTFD?oc=5",
@@ -32,22 +37,16 @@
           "source": "뉴스핌"
         },
         {
+          "title": "뉴욕증시, AI 성장성 우려에 기술주 급락…나스닥 1.25% 하락 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53Q0lOZFJrRTNwQ2xSVlJXaXU4eUdMazlubjllcjZodVFUcklSVkk2aTI2N0lWM0FaQlBPZFdHSnVXRml2RmRNcUNQTXZscmdSVEFKNlhrSEp2dTZJT3lwcW5tTjA5c3hvSmJCazUwYXnSAXRBVV95cUxPQzRGckh6aUJGSy1JeTFBTlMyN3pQVFZxeHhJVlh0UG9aWmJsZ2dBMy13NUstUzlJM09YZ0dkbzhfWjUySDFtcG1YcGZpblp6TlNlOGdWQXhDYXpZazIySjg2a1N3X25SZWd1Zm1SYnk5b2Nvag?oc=5",
+          "pub_date": "Fri, 09 Oct 2026 00:22:02 GMT",
+          "source": "산경투데이"
+        },
+        {
           "title": "세달만에 90만원 뚝, 33% 급락한 SK하닉…코스피 톱 10곳 중 8곳도 떨어졌다 - 매일경제",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Tc0h0SmVhMlluRGpBalpxMDlCMzVwMHk2ZnU1MzhYYk9kVzJQVmR1MWRpcmNWWTRLOEFoY3V3c3l5VEk1b3FTdXhyYkYycnhtZWc?oc=5",
           "pub_date": "Thu, 08 Oct 2026 22:07:33 GMT",
           "source": "매일경제"
-        },
-        {
-          "title": "AI 기대 꺾이자 뉴욕증시 휘청…나스닥 1.25% 급락, 다우는 소폭 상승 - 뉴스로드",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lQThHVk90UGFMSDN5YnREMWhVOVlDYzZoYzFfb0Y3VWowWjlydWwwLXVvdTBzdGd5N3UzVWpVWUdJckFxZ0IyV1V2RmZSajAyRGYyVnJRd2RGNjM2OVNJSmkzSWRwRktPbThF0gFvQVVfeXFMUDVwR0NJOVJpRlBQdnRGOEMtcnk0djZEa0tlQ19iYWJTMDNYZzljMENxdmYzSVVMTHQ2Q2VwSVRLQ1ZUeHFCUE9abXVkQnNGSzVaeDJURVFEOGtTSEhlb3htMFdTeWdrTlVES2NYZlV3?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 22:38:14 GMT",
-          "source": "뉴스로드"
-        },
-        {
-          "title": "미국증시 나스닥 1.25% 하락…유가 급등에 AI 수익성 우려, 반도체주 급락 - TopStarNews",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jaHROenNLS3lDLXltY2kzSzVWOGN6c1ZDM0Z0aFR5cnlkY2wyVEhFOWJUT2NTNlhZYXFvZmlwUnFHYzlDZ2M4M2ZELUNzNWMtQnoyeE1GTlhkTUxmd18wb1pGaFVlR1dPOEJFMTc2RWRwUQ?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 21:50:05 GMT",
-          "source": "TopStarNews"
         }
       ]
     }
@@ -75,18 +74,18 @@
       "sma_200": 24818.04
     },
     "kospi": {
-      "current": 6803.9,
+      "current": 6625.93,
       "high_52w": 9385.59,
-      "drop_pct": -27.51,
-      "intraday_low_drop_pct": -27.51,
-      "sma_200": 6352.27
+      "drop_pct": -29.4,
+      "intraday_low_drop_pct": -29.4,
+      "sma_200": 6364.73
     },
     "kosdaq": {
-      "current": 898.43,
+      "current": 892.27,
       "high_52w": 1229.42,
-      "drop_pct": -26.92,
-      "intraday_low_drop_pct": -26.94,
-      "sma_200": 984.09
+      "drop_pct": -27.42,
+      "intraday_low_drop_pct": -28.11,
+      "sma_200": 983.88
     },
     "sp500": {
       "current": 7765.36,
@@ -106,7 +105,7 @@
       "current": 563.28,
       "high_52w": 655.95,
       "drop_pct": -14.13,
-      "intraday_low_drop_pct": -15.26,
+      "intraday_low_drop_pct": -15.27,
       "sma_200": 460.47
     }
   },
@@ -237,7 +236,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 196.911,
+    "strategy_pct": 198.33,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1033,7 +1032,7 @@
       },
       {
         "date": "2026-10-09",
-        "ret_pct": 196.911
+        "ret_pct": 198.33
       }
     ],
     "monthly_breakdown": [
@@ -1093,9 +1092,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -6.49,
-        "end_ret_pct": 196.91,
-        "max_dd_pct": 16.26
+        "return_pct": -5.07,
+        "end_ret_pct": 198.33,
+        "max_dd_pct": 14.84
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
