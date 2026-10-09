@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-09T14:55:55.927121+09:00",
+  "timestamp": "2026-10-09T22:05:26.937908+09:00",
   "sentiment": {
-    "cnn_fng": 37.8857142857143,
+    "cnn_fng": 38.0571428571429,
     "cnn_components": {
       "momentum": 49.8,
-      "strength": 2.6,
-      "breadth": 2.8,
+      "strength": 3.2,
+      "breadth": 3.4,
       "put_call": 31.0,
       "junk_bond": 82.4,
       "volatility": 50.0,
@@ -15,9 +15,27 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 10,
+      "fear_count": 12,
       "greed_articles": [],
       "fear_articles": [
+        {
+          "title": "[중국증시-마감] AI 경계에 급락하다 내수·MLCC 반등에 강보합 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wdWZqdldqc053anprMDZMWlUtYVdRUWhldVJ3Q2NSbTl4ejlqOFVadkNkWVV3RG9uSGZFaVdjWS10LS1ZbTJhR0hpY1FoZU1zUnF6VVU1TG1LSi1DRUZVQUpMZmNCcXdjZ1RhNGcwQlg?oc=5",
+          "pub_date": "Fri, 09 Oct 2026 09:13:26 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[도쿄증시-마감] 美 급락 추종 후 낙폭 축소…닛케이 6만9천선 사수 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40V1Q5R25vTUxmeDR3cXloMjhqSHBpTGxMRUszLVlyWVlWdjlhMTZMMlRtSGU1US1US3pfVk1MajBYcE9KZVA4S2NDQTVRcTM5WnMwZ1hnZXhoajRaMHhXZGQtWi1DcFlfSFJQQ3dpeFM?oc=5",
+          "pub_date": "Fri, 09 Oct 2026 08:42:41 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[베트남 증시] 유동성 급증했지만 매도세 강력, 혼조 마감...NVL·PNJ, 약세 끊고 '상한가' - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fWUFFZU95WGZrOUNGdWVHaUZHaFJ0cEpsY2NlemZpTVE2clRMdW9BU25NdE0zREtGUW8zSXpaS2pSX29MZG9GXzduQjVPdnlCUGpyWjFFRGVSV0tS?oc=5",
+          "pub_date": "Fri, 09 Oct 2026 10:16:00 GMT",
+          "source": "뉴스핌"
+        },
         {
           "title": "日증시, 美 반도체 급락 여파에 하락 출발 후 낙폭 확대 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtR1R6RnhId2VSc21lTklzRFZ3bXIxaUZqMUZRMXA3VGFUejB3SUFlWEN6N213ODFlRG16YV9FNnEwRUhObldEX0FuTC02Z2dYNkQzRFJUN0F0aU5Gc0w5a1pkSThfRGgtNkYyMDJycnM?oc=5",
@@ -25,34 +43,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "아시아 증시 혼조세…OpenAI 매출 우려에 반도체주 급락 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yejhKd3pLSDVDUlNDZC0yajYtaFE4emhaVWRrYlRfUmRLQkhKUS10a2plUXU2ZUFzTFVacGZMeGVJY3NES1hEUVYzdlJsdmFwLU5ocXVib3lCSEZLVGdXeHRNOXRENVY1UXd3Zmp4dDQ?oc=5",
-          "pub_date": "Fri, 09 Oct 2026 04:08:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
           "title": "유럽증시, 국채 매도세 계속되며 일제히 하락… 범유럽 지수는 4개월 만에 최저치 - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QcUM4UVd2S2dvWHQxS2hxMzNMTHF0TGstWGR6eUpFa0FILXpOZUcxYnFIUVpnekhQaG1BSHBYT3Z4blduZmVUSXlISmRHUWtHWWkxMDdHVkhwOTFD?oc=5",
           "pub_date": "Thu, 08 Oct 2026 17:38:00 GMT",
           "source": "뉴스핌"
-        },
-        {
-          "title": "뉴욕증시, AI 성장성 우려에 기술주 급락…나스닥 1.25% 하락 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53Q0lOZFJrRTNwQ2xSVlJXaXU4eUdMazlubjllcjZodVFUcklSVkk2aTI2N0lWM0FaQlBPZFdHSnVXRml2RmRNcUNQTXZscmdSVEFKNlhrSEp2dTZJT3lwcW5tTjA5c3hvSmJCazUwYXnSAXRBVV95cUxPQzRGckh6aUJGSy1JeTFBTlMyN3pQVFZxeHhJVlh0UG9aWmJsZ2dBMy13NUstUzlJM09YZ0dkbzhfWjUySDFtcG1YcGZpblp6TlNlOGdWQXhDYXpZazIySjg2a1N3X25SZWd1Zm1SYnk5b2Nvag?oc=5",
-          "pub_date": "Fri, 09 Oct 2026 00:22:02 GMT",
-          "source": "산경투데이"
-        },
-        {
-          "title": "세달만에 90만원 뚝, 33% 급락한 SK하닉…코스피 톱 10곳 중 8곳도 떨어졌다 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Tc0h0SmVhMlluRGpBalpxMDlCMzVwMHk2ZnU1MzhYYk9kVzJQVmR1MWRpcmNWWTRLOEFoY3V3c3l5VEk1b3FTdXhyYkYycnhtZWc?oc=5",
-          "pub_date": "Thu, 08 Oct 2026 22:07:33 GMT",
-          "source": "매일경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 15.41,
+    "vix": 15.21,
     "vvix": 87.66,
     "skew": 149.19,
     "move": 100.7
