@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12T10:47:49.716894+09:00",
+  "timestamp": "2026-10-12T18:02:51.792490+09:00",
   "sentiment": {
     "cnn_fng": 45.0,
     "cnn_components": {
@@ -15,44 +15,13 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 9,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "코스피, 외국인 매도세에 장 초반 1%대 하락 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjN3JZYlhxNWMtR04tUTNqVjBYRnlSVzF0dkNHTHNPSFJEaFhPSDJpc2xnUTF4dzcyR0lsWFFXdjJRbnpzb0ZEQ1FZdmVDb2FpOUtuVk1YRWlYSHFINGVHSVlzVjY3OU1U0gFuQVVfeXFMT3h4UzFfMzBzSzY4U1Iycm01Y2YteFFqODRJX2wxQ0NNQko0akl2VjVtR3JWNHNHTVREWE9wOXRuQTRUbmNNR2hiMjRPajRLdWExbWtBTWRJZkNMY2Nremp6VjNtRF8wMEZudWVxeUE?oc=5",
-          "pub_date": "Mon, 12 Oct 2026 00:16:45 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "[개장시황] 연휴 끝 '코스피' 1% 급락…외국인 매도에 4거래일 연속↓ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaUVZRS2dTd2d5YVFrWGJOVDMyNkNBN3lvOEozVEdCX0tsRVFJZG4zXzZfYTJIR1R1S3l2UVdtamdxYmNyanVoYjZ4UHJLVjBIam9KeEdZTlh5ODdn?oc=5",
-          "pub_date": "Mon, 12 Oct 2026 00:28:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[개장시황] 코스피, 외인 매도세에 1%대 하락⋯6550선까지 밀려 - 브릿지경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqV1RyYlIxWmVLc3hOSGdrU1pycTh5Q0dPYTdlX0NIM3VRUnpxZTVqNUxyM3k5VDlCcFp2MF9Obld4NHVrUGhrX19KZUNCRVVBQmFFdGJCcF9qZw?oc=5",
-          "pub_date": "Mon, 12 Oct 2026 00:27:00 GMT",
-          "source": "브릿지경제"
-        },
-        {
-          "title": "코스피·코스닥, 외인 '팔자'에 동반 약세 … 오픈AI 쇼크·반도체 급락 여파 - 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80OW1sQ0VTY1I2MWhKRkl4dDB3N1YxQ0tBTkF4ektYWUVCcjk3TmVlR2hWUTRPOHVieVZSZ1BBWUxqdmlLZEFDSmw4TlBfVjl0VTdaR24wN0JyU0FlWENJUktTRy15eDR3T3paR1RFLUlLVUFibFZ3UlZlTdIBgAFBVV95cUxQRjZWczBIMDRkX0V3WG9XZDI3QnFmSXRjZTg5NzBVNjItdDJEVlE2Rnpnem96dFYyYjliVG5WamlWb3FVRFN2bU5GZjFzaV9OMXc5YnhZYVdmU0J3WG9sWmFmMTgwRXFtb3VCOWJXdjViaFhyOC1oS2Flb3ZMQW4xQw?oc=5",
-          "pub_date": "Mon, 12 Oct 2026 00:46:03 GMT",
-          "source": "뉴데일리"
-        },
-        {
-          "title": "코스피 장중 3% 급락...오픈AI 매출액 축소 논란으로 반도체주 약세 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYzRvRThpdGFlaWtBcFowWEh5cmx5Z3FfZDdKckhFcXllMjY1XzR1SG5pY1psLXNCTm04ZndSTENVMXkxcGFaT0pMb09DMWxUbWt5bWlhRFpLVVhKLUZ1c2xua2llV1dHTkRpM2l0dk1SZWxqYWhxem80V2xmY0dWb3JEY0duVVkw0gGcAUFVX3lxTE9EMW52OEFuZDlpdmNnRTRBd0hvOXlYZ1dIbjNtR2I2MEZqbU9iVHl5S0hRSW1iTERBOER0UE5UUnQ4RWdpcml4Uk5tejVSWVp5ZVJLX3k2RGZMQnl5TF9CWVVwSnlMTzBVc3JVeUw3R1dJcDhQeC1vNnlUcGlTbWdDLUlNZzdmOHlTdzI3S1FiOEwtMktYalI3WHY5cQ?oc=5",
-          "pub_date": "Mon, 12 Oct 2026 01:40:00 GMT",
-          "source": "Chosunbiz"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 14.84,
+    "vix": 15.47,
     "vvix": 84.88,
     "skew": 154.34,
     "move": 98.47
@@ -74,18 +43,18 @@
       "sma_200": 24837.73
     },
     "kospi": {
-      "current": 6443.47,
+      "current": 6384.24,
       "high_52w": 9385.59,
-      "drop_pct": -31.35,
-      "intraday_low_drop_pct": -31.63,
-      "sma_200": 6376.39
+      "drop_pct": -31.98,
+      "intraday_low_drop_pct": -32.15,
+      "sma_200": 6376.09
     },
     "kosdaq": {
-      "current": 862.09,
+      "current": 849.19,
       "high_52w": 1229.42,
-      "drop_pct": -29.88,
-      "intraday_low_drop_pct": -30.17,
-      "sma_200": 983.52
+      "drop_pct": -30.93,
+      "intraday_low_drop_pct": -30.94,
+      "sma_200": 983.45
     },
     "sp500": {
       "current": 7811.54,
