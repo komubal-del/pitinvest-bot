@@ -1,37 +1,74 @@
 {
-  "timestamp": "2026-10-15T04:16:27.003804+09:00",
+  "timestamp": "2026-10-15T07:24:02.156826+09:00",
   "sentiment": {
-    "cnn_fng": 29.9834101382488,
+    "cnn_fng": 32.4202764976959,
     "cnn_components": {
-      "momentum": 32.6,
+      "momentum": 35.6,
       "strength": 10.0,
-      "breadth": 7.0,
-      "put_call": 23.6,
-      "junk_bond": 60.6,
-      "volatility": 37.1,
-      "safe_haven": 40.6
+      "breadth": 7.8,
+      "put_call": 25.6,
+      "junk_bond": 59.2,
+      "volatility": 42.7,
+      "safe_haven": 46.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 0,
+      "greed_count": 2,
+      "fear_count": 7,
       "greed_articles": [
         {
           "title": "[현장] 댄 아이브스 \"AI 강세장 아직 초반… 코스피 6~12개월 내 전고점 돌파\" By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yRk5ySlhIdkphUTU4Sjh4b01QSFdYNVRIaW8xODlZcm5fTk5oS1YwS0x5anl3OHdoaTdEOGxzSXl1ZTNFYlZKaVFQQW1wN3lZTG5peTFHWktsMUVCNWctc2hucE43M3J2NGcydlJyZWc?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 15:05:40 GMT",
+          "pub_date": "Wed, 14 Oct 2026 15:39:03 GMT",
           "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[뉴욕증시] CPI 충격·AI 거품 우려, 기술주 '털썩'···'속슬' 13%↓·코어위브 15%↓ - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdjRCRllXSkRsLUFIQUtnaDgyMFhEYTY5N1ZBN0NlRGM1ZWF1WDl4S2FlcUhHSkNDVkp6QlFUclVTdlpscUZOVWcyM1E0RnpKLWxNTkZDSEl2ajNDUjhiR21lQjM3elFLWXc?oc=5",
+          "pub_date": "Wed, 14 Oct 2026 21:56:48 GMT",
+          "source": "서울파이낸스"
         }
       ],
-      "fear_articles": []
+      "fear_articles": [
+        {
+          "title": "[서울데이터랩]미국 증시, 기술주 급락에 나스닥 1.88%↓…반도체주 약세 두드러져 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LLTNhUWl5NkZhcnpZVFNyaEowYldpeG0tc1pqYmg3UGZwb2UwOXNqYWt0VkxxdU5NNXQtTXJWRmoxNDJ2MHpyQ3BXWFY1Y25wbVF4V3BSQzdSc3dYRUp6VllxZGJIUFhDcE5vVEh6bllMTjhldEVv?oc=5",
+          "pub_date": "Wed, 14 Oct 2026 21:18:08 GMT",
+          "source": "서울신문"
+        },
+        {
+          "title": "[뉴욕증시] 끈적한 물가에 AI 빚더미 경고...나스닥 1.88% 급락 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVmlreVd6OE56Q2N5SERPdnRlRTQxaktmaG1kSjRBM1hMOE83Tm9Obm5CMHk0TWprREhKU0hSZnpIeS1FWTkxOUJEVkRWQUVLNHlObjJPdV9iNno1RWNhMEczQUFneU5NdmFlWVVOaW8wWFpyZWlwLVVIWEFQMHN5Si1nWkJXYlk3?oc=5",
+          "pub_date": "Wed, 14 Oct 2026 20:34:45 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "뉴욕증시, 물가 충격에 일제히 하락…AI 인프라주 매도세 확산 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42NnNqNEJ4MTFwWktTVXVMdnA0OEZTWnlmdjhGQTRqWFRPb3hnbkhoRnpSdFZia19oaERELVNRTDdHNUFvSHJJZEFLdURHVHJuSjZ5c2h5Qmtsbng3bTY3Y0FJYnQ?oc=5",
+          "pub_date": "Wed, 14 Oct 2026 21:17:18 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "뉴욕증시, 물가 충격·반도체 약세에 하락…나스닥 1.9% 급락 - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oZ2hzeUlCQTZucUVTZTVXNDBpTC1RNGVsa3RRdGF4czJGQUp1VWVfaGczRDdoSnlxWDc0UzIzekpGeHRUM2h6Y05ybC1ueGhZTmNJbEpLUQ?oc=5",
+          "pub_date": "Wed, 14 Oct 2026 21:14:54 GMT",
+          "source": "헤럴드경제"
+        },
+        {
+          "title": "“코스피 급락할 때 이곳 주식은 뛴다” … 한달새 4조 몰린 브라질 EWZ - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aRlpuRjNSSFRTajBZSkpVYkF4ZC10U3BnNGdRdm44YlRoYk5QenI4ZDhXUlZ1M0wxZU1vTHUxQ3ZkQVpvbENuRENJNnQ5d1BBc0E?oc=5",
+          "pub_date": "Wed, 14 Oct 2026 20:00:00 GMT",
+          "source": "매일경제"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 17.24,
-    "vvix": 97.72,
-    "skew": 154.74,
-    "move": 99.12
+    "vix": 16.87,
+    "vvix": 94.45,
+    "skew": 157.3,
+    "move": 99.06
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -43,11 +80,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26634.19,
+      "current": 26692.87,
       "high_52w": 27722.75,
-      "drop_pct": -3.93,
+      "drop_pct": -3.71,
       "intraday_low_drop_pct": -4.04,
-      "sma_200": 24889.31
+      "sma_200": 24889.6
     },
     "kospi": {
       "current": 6035.35,
@@ -64,34 +101,34 @@
       "sma_200": 982.95
     },
     "sp500": {
-      "current": 7703.23,
+      "current": 7718.94,
       "high_52w": 7844.52,
-      "drop_pct": -1.8,
+      "drop_pct": -1.6,
       "intraday_low_drop_pct": -1.93,
-      "sma_200": 7263.35
+      "sma_200": 7263.43
     },
     "russell2k": {
-      "current": 2721.64,
+      "current": 2729.53,
       "high_52w": 3069.71,
-      "drop_pct": -11.34,
-      "intraday_low_drop_pct": -11.37,
-      "sma_200": 2792.25
+      "drop_pct": -11.08,
+      "intraday_low_drop_pct": -11.39,
+      "sma_200": 2792.29
     },
     "soxx": {
-      "current": 518.39,
+      "current": 519.42,
       "high_52w": 655.95,
-      "drop_pct": -20.97,
+      "drop_pct": -20.81,
       "intraday_low_drop_pct": -21.11,
-      "sma_200": 465.21
+      "sma_200": 465.22
     }
   },
   "sector_rs": {
-    "XLK": 1.012,
-    "SMH": 0.918,
-    "BOTZ": 0.927,
-    "IGV": 1.12,
-    "XLF": 0.949,
-    "XLE": 1.167
+    "XLK": 1.027,
+    "SMH": 0.935,
+    "BOTZ": 0.926,
+    "IGV": 1.121,
+    "XLF": 0.946,
+    "XLE": 1.178
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 67.26,
+    "tqqq_profit_pct": 68.57,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 104.77,
+    "soxl_profit_pct": 106.62,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.46,
+    "koru_profit_pct": -96.48,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -212,7 +249,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 182.077,
+    "strategy_pct": 177.4,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1024,7 +1061,7 @@
       },
       {
         "date": "2026-10-15",
-        "ret_pct": 182.077
+        "ret_pct": 177.4
       }
     ],
     "monthly_breakdown": [
@@ -1084,9 +1121,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -21.33,
-        "end_ret_pct": 182.08,
-        "max_dd_pct": 31.09
+        "return_pct": -26.0,
+        "end_ret_pct": 177.4,
+        "max_dd_pct": 35.77
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
