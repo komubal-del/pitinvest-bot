@@ -1,80 +1,30 @@
 {
-  "timestamp": "2026-10-14T19:05:20.484418+09:00",
+  "timestamp": "2026-10-15T00:01:59.270825+09:00",
   "sentiment": {
-    "cnn_fng": 45.0857142857143,
+    "cnn_fng": 37.3714285714286,
     "cnn_components": {
-      "momentum": 68.0,
-      "strength": 10.6,
-      "breadth": 8.4,
-      "put_call": 32.8,
-      "junk_bond": 74.2,
+      "momentum": 45.6,
+      "strength": 10.2,
+      "breadth": 7.0,
+      "put_call": 22.2,
+      "junk_bond": 69.0,
       "volatility": 50.0,
-      "safe_haven": 71.6
+      "safe_haven": 57.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 14,
-      "greed_articles": [
-        {
-          "title": "[현장] 댄 아이브스 \"AI 강세장 아직 초반… 코스피 6~12개월 내 전고점 돌파\" By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yRk5ySlhIdkphUTU4Sjh4b01QSFdYNVRIaW8xODlZcm5fTk5oS1YwS0x5anl3OHdoaTdEOGxzSXl1ZTNFYlZKaVFQQW1wN3lZTG5peTFHWktsMUVCNWctc2hucE43M3J2NGcydlJyZWc?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 07:04:44 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 추락에도 '빚투' 34조…반대매매 공포 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JemFYek5EdXp0QkNLRXp0N2pTTUhIcWlKQVRGcjZxSzNQRkh3em9WT242WC1VTzZXTFhwTzlidGxhcWhoZXMtdmF5VWI2VXJMN1R3QTJwNXItcGZXbWE1Qg?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 08:05:25 GMT",
-          "source": "뉴스토마토"
-        },
-        {
-          "title": "‘월가 족집게’ 댄 아이브스 “삼전닉스 저평가…코스피 전고점 돌파 전망” - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZVXhMWU84UlctdnhOaW5PeGhleWhlWTlqMXB3RjNwLXhsX2FBMEFrUnNMNnJqekJwTXM4UElfQUFHWnA4Z0tvTzdxUTFfWTdGUUh3cEJOc0RDcks1WHdqU2dn?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 04:50:00 GMT",
-          "source": "이코노미스트"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피, 하락 전환해 6000선 붕괴…23만전자·140만닉스 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOEdvU3d0VFZCOGRkRlJnZkFxLUl6Nk5MNVNUbTZvbGJYSEx4R25oNlBTYnNxZTFfV1lnMmdtU2NOanFZaWtwU21PQU1TMnVSSlU5aTZVNWxxdzRBQ0ZSekRzRGRSQ0l6UzFlY2ZJSFJSX19pd0dQNVNvenQ3TFJkcEVVYUFhamNJ0gGcAUFVX3lxTE9nSk8wZzZMa0h4c1ExRTRDRzJHRC04azlXcjdQTVMzcFYwckZVT21uVkN2N0lUQW0xYkNlT1VSQ2Jvak8xSHRsYjRFWHc3a1JuWElfSUFrQ1hzNjlWeUR3bUpuS0tmSlN0eklLQ1VzU25tZU1SOGtXbXJpWjNSWmlCOS1QWDVsWEx5SktNWWFQMlByY083enM4LWRDQw?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 06:10:00 GMT",
-          "source": "Chosunbiz"
-        },
-        {
-          "title": "코스피, 마감 직전 하락 전환‥8포인트 남기고 '6천피' 간신히 지켜 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbzhuWVliZkVVVEotMmdIMWdxZE5sOTNDM1RGclJtVjdYd3EzV0N0ZV9GYUJUS1hFRVVFRDQ5U05Mek55cE1wcmg0M1BuNjdldHY2VHc3V0pJay1qdHB5M3dUWC1MT1g5OWdNVGtRcklCQzBC0gF0QVVfeXFMTmRLS0dWRGsxWjExV05lNWFSQk8xRE9fSVBsTGs5VHVWaWpnanZlWDNaR1hoUmU4TlpUOVJxaVhkOVJOMGJ6WGtmOUs4OGgteWFWeTZkd1MyYkpvT3dSRHQ2bENJVlV0bkpaSGpKUXpiN05DRVY?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 07:15:55 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "[1014마감체크] 코스피, 외인 매도세에 반등 실패... 6거래일 연속 하락 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZY3BpRnNTTWRNSDl5WlFMMklYZjcwckNLNWkxSjYwNFZaNWEtQXk0ZDdKUFhSZWd3dlZ1d1ItU21SRVc3b1ZQMVlKT3J4TmliMnQ1M19nTks2bHVMV1VTVXBJYUJXNVJ3NkFUclFDcTA?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 09:47:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 급락한 '검은 화요일', 반대매매 두달여만에 최대로 증가 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YUVFIeW5hbG5IeWVqNGYwUTd5dXdQNWhBdkpWNm5sc0I4dW5WbWVTaGVBVm5fNFU4RXFDOE1JdWp5M0xMbHl5ZGpDQ0hDZ3RUNzJZbHlXWGtEX21YbkVzV9IBYEFVX3lxTE1YUVFIeW5hbG5IeWVqNGYwUTd5dXdQNWhBdkpWNm5sc0I4dW5WbWVTaGVBVm5fNFU4RXFDOE1JdWp5M0xMbHl5ZGpDQ0hDZ3RUNzJZbHlXWGtEX21YbkVzVw?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 06:58:48 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피 5% 급락한 화요일…반대매매 두 달 만에 최대 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVUpxNjhNLXlQR3Q4TDBuVzF6Q3B5T2JobzZFUzc5Rm1ILVFYbV9mYWMwY1l6dG5HRTM5OExEcHhIQkwtVGlXcHZWcDBFdFpDNnhUdVRfWng1N0Q5VzVsQ2x5Mk93UmlPeVlfSkZxMi1rYVVwWUtSV2NMWUo2MG9GTVJNTTg3VVE10gGcAUFVX3lxTE1FZDJwbEpkX1ZxX1JIQWZYRjFKeE04YXBNY2pMRERPZXY1Yk1sYnlITDg5RFp0NHJDS3l4eDA1U0toUVZOTENuLWttRENtblJzLXRkRmFGRUNxVWp5MnJpNHcwNUVtakNGZjUwN3Q5UVJpdloyZjNHbm5zUkxMdkFPd3pZR3p1WkM4TzVFYV9RUGg5MVZscWdPeE5weg?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 07:51:00 GMT",
-          "source": "Chosunbiz"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 15.18,
-    "vvix": 85.38,
+    "vix": 15.7,
+    "vvix": 89.8,
     "skew": 154.74,
-    "move": 101.09
+    "move": 101.32
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -86,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 27204.38,
+      "current": 26943.2,
       "high_52w": 27722.75,
-      "drop_pct": -1.87,
-      "intraday_low_drop_pct": -2.19,
-      "sma_200": 24874.11
+      "drop_pct": -2.81,
+      "intraday_low_drop_pct": -2.91,
+      "sma_200": 24890.86
     },
     "kospi": {
-      "current": 6008.81,
+      "current": 6035.35,
       "high_52w": 9385.59,
-      "drop_pct": -35.98,
-      "intraday_low_drop_pct": -36.66,
-      "sma_200": 6395.03
+      "drop_pct": -35.7,
+      "intraday_low_drop_pct": -37.02,
+      "sma_200": 6385.43
     },
     "kosdaq": {
-      "current": 823.88,
+      "current": 837.03,
       "high_52w": 1229.42,
-      "drop_pct": -32.99,
-      "intraday_low_drop_pct": -33.83,
-      "sma_200": 982.38
+      "drop_pct": -31.92,
+      "intraday_low_drop_pct": -34.69,
+      "sma_200": 982.95
     },
     "sp500": {
-      "current": 7805.45,
+      "current": 7745.8,
       "high_52w": 7844.52,
-      "drop_pct": -0.5,
-      "intraday_low_drop_pct": -0.74,
-      "sma_200": 7259.48
+      "drop_pct": -1.26,
+      "intraday_low_drop_pct": -1.29,
+      "sma_200": 7263.56
     },
     "russell2k": {
-      "current": 2783.37,
+      "current": 2751.68,
       "high_52w": 3069.71,
-      "drop_pct": -9.33,
-      "intraday_low_drop_pct": -9.62,
-      "sma_200": 2791.32
+      "drop_pct": -10.36,
+      "intraday_low_drop_pct": -10.6,
+      "sma_200": 2792.4
     },
     "soxx": {
-      "current": 543.9,
+      "current": 530.08,
       "high_52w": 655.95,
-      "drop_pct": -17.08,
-      "intraday_low_drop_pct": -19.63,
-      "sma_200": 464.15
+      "drop_pct": -19.19,
+      "intraday_low_drop_pct": -19.39,
+      "sma_200": 465.27
     }
   },
   "sector_rs": {
-    "XLK": 1.032,
-    "SMH": 0.944,
-    "BOTZ": 0.939,
-    "IGV": 1.143,
-    "XLF": 0.944,
-    "XLE": 1.144
+    "XLK": 1.024,
+    "SMH": 0.931,
+    "BOTZ": 0.93,
+    "IGV": 1.129,
+    "XLF": 0.939,
+    "XLE": 1.155
   },
   "signals": {
     "cnn_under_10": false,
@@ -170,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 79.24,
+    "tqqq_profit_pct": 73.24,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 138.45,
+    "soxl_profit_pct": 120.37,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.0,
+    "koru_profit_pct": -96.32,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
