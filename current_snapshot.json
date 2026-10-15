@@ -1,55 +1,92 @@
 {
-  "timestamp": "2026-10-16T04:02:16.429553+09:00",
+  "timestamp": "2026-10-16T07:07:32.396204+09:00",
   "sentiment": {
-    "cnn_fng": 30.6285714285714,
+    "cnn_fng": 31.5428571428571,
     "cnn_components": {
-      "momentum": 36.8,
-      "strength": 10.8,
-      "breadth": 10.0,
-      "put_call": 23.8,
-      "junk_bond": 50.4,
+      "momentum": 42.6,
+      "strength": 10.4,
+      "breadth": 10.4,
+      "put_call": 23.4,
+      "junk_bond": 50.6,
       "volatility": 50.0,
-      "safe_haven": 32.2
+      "safe_haven": 33.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 4,
-      "greed_articles": [],
+      "greed_count": 5,
+      "fear_count": 6,
+      "greed_articles": [
+        {
+          "title": "[뉴욕증시-1보] 코어위브 의구심에도 일단 저가 매수…상승 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RbzJJRGQ3N2s4OGphVW9pcFBEMm9sTWw4R0JITVVicjBVSmhQRGVCQ1dEWG5XeFcwSk1JNmFMQVpOSkFTbVBrMkZQdXkyVmQtVl9DdE5lSU5VVTN1SHNFcEJvM0J1OU9uNDVYUUJ4amzSAXRBVV95cUxOd3JRWjl5M2ptN3hGN2x6SmpMaVVqWkt5T0RtdEY3aHpWOUhpX2RFS2p6RWlGRHoyUElLaFJsSDVBc2Q4QnJrMWFuZlR6WGo2MFJiZ25VLUU2bzJJY2hRQjQ2dWdUYzZKXzFrM2tnRXZmQWs5UQ?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 20:13:32 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "반도체 ’빚투’ 10조…코스피 급락에 반대매매 경고등 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZSkRZX2tSUTliVzZMQklJVUFrM2phY1prOEZHWVZmczkyM3NlUVJyYktWZFVGZnpMWVc1aHp4TTNkZTRQbmJoYl82UmFEWkJBZjBxLWdaanFHYWoyU25pd045aGxkdVlkT0pPdEF3T2E?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 21:41:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "\"고금리에 AI 투자 지속가능한가\"…증시 덮친 '빅테크 빚투' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9td01lck1fcWFMazUtbHZhdng5WV8tdWRmN0hMRkptVFlpemJ5NnBrUDEycTRUbWpUYXNIMDJQcVVlN2NfYXZMeU4xYXBEbVBKeGplU1F2UEVVZw?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 20:32:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[뉴욕증시] 코어위브 의구심에도 일단 저가 매수…상승 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tVjU3VUpLUV9YdV9UWlREcTNlRXZrM1YzZi00X25xQTZrT0pBQVVmN2hCdGQ3R1Q1UlJ0akJlYkVKMTlWcTB2UERBem43TjBtd1NvWEFXcWp2dWJTWVAwejJ4NDJQVWdtbFkzUnNjRDY?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 20:55:19 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "고점 대비 40% 녹아내린 코스피…증시 전망도 '시계제로' - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ONTBPU2F1aDhEd1VEWEg4Q3N2VkRpQ05NdmRyYlZNSk96T3JjbXdqNnlhVENpUHdXN2lzQlhVUE1zalpqU0hHNEhNVjJpcndyQXJFUTZYVnBtT3BQY3ZsX3lPc0c5U1NlbThETmlJOHJBT202ZlZpM9IBeEFVX3lxTE1ONTBPU2F1aDhEd1VEWEg4Q3N2VkRpQ05NdmRyYlZNSk96T3JjbXdqNnlhVENpUHdXN2lzQlhVUE1zalpqU0hHNEhNVjJpcndyQXJFUTZYVnBtT3BQY3ZsX3lPc0c5U1NlbThETmlJOHJBT202ZlZpMw?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 21:00:00 GMT",
+          "source": "뉴시스"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "코스피·코스닥, 살 떨린 폭락장 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xalA5UXVEd2tZbFFlbjM1NzMxRjhnYUNFbURfRkp3QUFhVTgyTmlMLWtUUUV5dFBBVEhoUzI4QkZBZkZ6eGFpSG9HMGtROUVUYnJpb0Zld25QaFpOeGcwOUhueWpXSmFoUTlYbGJGZVA3TmF1RHVtZF9vbDhDZw?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 16:00:06 GMT",
-          "source": "서울신문"
+          "title": "코스피 5% 급락 출발…이틀 만에 매도 사이드카 발동 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14QVhoUnU2Ul9lbHdYVFItV0NBMUdoZmpQZTc1eVQybUFNT3F5S24zbmFfZm84ODRuWk9Ta3pYcDNkd193dDVqVmhnRXBndTgyRzQ5Y29TaHctakxDaUVSaHNjbDIwTjg?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 21:14:19 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "검은 목요일‥코스피·코스닥 7%대 동반 폭락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uM2lrMnZMMHZxbGZUZktFd25qeDhvY0Y1Z0VFdVVvazl4cDk3Q29oM1pZS2htOEU5WmcyVkJ3azI2eWJoZklidU9rRmtidGt4TkpYbjZ4d2VBUEJFNXNmYkxVR0VVckdLa19OUk9BYnRoWW5FWVAyMdIBeEFVX3lxTE1uM2lrMnZMMHZxbGZUZktFd25qeDhvY0Y1Z0VFdVVvazl4cDk3Q29oM1pZS2htOEU5WmcyVkJ3azI2eWJoZklidU9rRmtidGt4TkpYbjZ4d2VBUEJFNXNmYkxVR0VVckdLa19OUk9BYnRoWW5FWVAyMQ?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 15:02:08 GMT",
+          "title": "코스피·코스닥 7%대 동반 폭락‥AI 수익성 우려 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XUGczZHpvZ2NSVThTbWtuTzh5bmtsY25oWmIybzRqcVBYTXpnYW1YcVpUT1RyUkJWeFl4MjJMdU9qSXIzUnBvbHlkQ3hKcUZYVHdaT2FEeDAxQVpjRXNWU1YzM3liLTdBZ2Nia2hZY0ZMX1RwZ0R5T0R30gF6QVVfeXFMTWdKS3ZyQ21DdE5KUXVFMWNsbFdPQzJGV29jRTlWS3VqdTF0YkZLMmc0WEVraC1yOUJsS3hTSlgzQmE0QXJzVmx6R08tNU1TRzJ6R0g4Nk5wWksya1YxcTR1SGhtUXc5bVdUMHlSYS0xN1NramxldXFBa0E?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 21:09:31 GMT",
           "source": "MBC 뉴스"
-        },
-        {
-          "title": "주가·집값 패닉… 멀쩡한 시장이 없다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BcVNzcGtueVZ4dy1qaDRBcTYydEF2dE5PTVlILTMtbVZZcUUwVFdfZ1I1bDR6U3RrcVNRWFVsaGotQmpLYmNQQmlkMlRPQTNaTlpYdUxCM1NaYi1xY3BCclF4YjJjWndn0gFuQVVfeXFMT05uWEd6eV9mM3lJQ3BNUHRIdFlQblZ6ZVFVVDRQMDA5R1kxbEJSWW96U0dJWFEwR3Z1N0QzX0dXRFdWVkFhemN6cDBIYy12ZzdadnhXbnhUSEsxQm01UVE5NW8zMWxjQUJ0QXNneWc?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 18:05:00 GMT",
-          "source": "머니투데이"
         },
         {
           "title": "코스피 7.5% 폭락… 불안한 ‘반도체 코리아’ - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEpRLWxlRW5hVV9YNURmRUEwTzg3dVhNRW9LWkY5MHhtdVZNb1VhT2p2RjIxU0hDMnktYXdBRWUxSnFIdmlmam1TWE5DdzRWZHRTZFZfSUQzSlZHb3huN2lWa0FjTXlPODg5SzVxUHpZWk1haXlxUy1vbXFHRHlHZXUxWWRPbXFPb3FEMWt3?oc=5",
           "pub_date": "Thu, 15 Oct 2026 15:43:00 GMT",
           "source": "조선일보"
+        },
+        {
+          "title": "[여기는 논설실] 코스피 폭락…시장은 AI 투자의 수익성을 의심한다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuUTJrOTlHUmFBZzFvN2lZLTNYTE9jOVdMMFdaeGxYbGpkYTlmUi1CV1Y0WTFrc3NNV29ENHlfSDI3a1U2bzhxdHJUSzBmekJ4cFQ3VXh1dkNqUQ?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 21:00:07 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'코리아 디스카운트' 돌아오나…코스피 대폭락 원인은 - 노컷뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BMUlDaElNd2RQWlllYUliM29CbzF1d0VIdnMyNXRRbW8wTkx1Y2FsZC0xX1l3MEdIdE43RU5ScUJkd1RZU21QYVdWNU1BUXJPWkE?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 20:00:00 GMT",
+          "source": "노컷뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.69,
-    "vvix": 92.93,
-    "skew": 157.3,
-    "move": 102.58
+    "vix": 16.46,
+    "vvix": 92.57,
+    "skew": 160.45,
+    "move": 102.49
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -61,11 +98,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26665.18,
+      "current": 26713.03,
       "high_52w": 27722.75,
-      "drop_pct": -3.81,
+      "drop_pct": -3.64,
       "intraday_low_drop_pct": -5.1,
-      "sma_200": 24905.56
+      "sma_200": 24905.8
     },
     "kospi": {
       "current": 6008.81,
@@ -82,34 +119,34 @@
       "sma_200": 982.38
     },
     "sp500": {
-      "current": 7736.52,
+      "current": 7744.06,
       "high_52w": 7844.52,
-      "drop_pct": -1.38,
+      "drop_pct": -1.28,
       "intraday_low_drop_pct": -2.23,
-      "sma_200": 7267.58
+      "sma_200": 7267.62
     },
     "russell2k": {
-      "current": 2751.39,
+      "current": 2767.27,
       "high_52w": 3069.71,
-      "drop_pct": -10.37,
+      "drop_pct": -9.85,
       "intraday_low_drop_pct": -11.23,
-      "sma_200": 2793.45
+      "sma_200": 2793.53
     },
     "soxx": {
-      "current": 510.12,
+      "current": 514.71,
       "high_52w": 655.95,
-      "drop_pct": -22.23,
+      "drop_pct": -21.53,
       "intraday_low_drop_pct": -24.42,
-      "sma_200": 466.24
+      "sma_200": 466.27
     }
   },
   "sector_rs": {
-    "XLK": 1.014,
-    "SMH": 0.918,
-    "BOTZ": 0.912,
-    "IGV": 1.134,
-    "XLF": 0.957,
-    "XLE": 1.154
+    "XLK": 1.035,
+    "SMH": 0.953,
+    "BOTZ": 0.921,
+    "IGV": 1.135,
+    "XLF": 0.948,
+    "XLE": 1.139
   },
   "signals": {
     "cnn_under_10": false,
@@ -126,7 +163,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": false,
+      "sell_leverage": true,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -145,19 +182,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 66.53,
+    "tqqq_profit_pct": 67.89,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 95.14,
+    "soxl_profit_pct": 100.65,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.8,
+    "koru_profit_pct": -96.73,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -230,7 +267,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 170.754,
+    "strategy_pct": 172.887,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1043,6 +1080,10 @@
       {
         "date": "2026-10-15",
         "ret_pct": 170.754
+      },
+      {
+        "date": "2026-10-16",
+        "ret_pct": 172.887
       }
     ],
     "monthly_breakdown": [
@@ -1102,8 +1143,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -32.65,
-        "end_ret_pct": 170.75,
+        "return_pct": -30.52,
+        "end_ret_pct": 172.89,
         "max_dd_pct": 42.42
       }
     ],
