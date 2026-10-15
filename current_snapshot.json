@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T07:24:02.156826+09:00",
+  "timestamp": "2026-10-15T09:38:29.683386+09:00",
   "sentiment": {
     "cnn_fng": 32.4202764976959,
     "cnn_components": {
@@ -15,51 +15,51 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 7,
+      "fear_count": 40,
       "greed_articles": [
         {
-          "title": "[현장] 댄 아이브스 \"AI 강세장 아직 초반… 코스피 6~12개월 내 전고점 돌파\" By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yRk5ySlhIdkphUTU4Sjh4b01QSFdYNVRIaW8xODlZcm5fTk5oS1YwS0x5anl3OHdoaTdEOGxzSXl1ZTNFYlZKaVFQQW1wN3lZTG5peTFHWktsMUVCNWctc2hucE43M3J2NGcydlJyZWc?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 15:39:03 GMT",
-          "source": "Investing.com 한국어"
+          "title": "[속보] \"검은 목요일\"… 코스피, 美 물가 충격·AI 거품론에 5.6% 폭락 출발 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2xlVEVNSjlpTUtZOEF4Vzh4TE5UcmtybFVsVVRIQnhoZVpUMW5tSGNuMkdzcXJVazRrVlUtNV8xczU1d3hQVVEzRWFFNk1xVlpITF9IVmpFQU1YaXFta3hGTGw1emhzYUZrZThvU3ZUZFh1S0QxelF5NzhRZDBBUUxXM3BIa0Fq?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:02:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "[뉴욕증시] CPI 충격·AI 거품 우려, 기술주 '털썩'···'속슬' 13%↓·코어위브 15%↓ - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdjRCRllXSkRsLUFIQUtnaDgyMFhEYTY5N1ZBN0NlRGM1ZWF1WDl4S2FlcUhHSkNDVkp6QlFUclVTdlpscUZOVWcyM1E0RnpKLWxNTkZDSEl2ajNDUjhiR21lQjM3elFLWXc?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 21:56:48 GMT",
-          "source": "서울파이낸스"
+          "title": "댄 아이브스 “코스피 6∼12개월 내 전고점 돌파…SK하닉 유망” - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxWlFpc3ltaWg1UkI3aDFSVGhPMzNnZkdjSnVKWUVqUlZncndnMnRDRWtmMncwNWV5MFhkWmNsYlNmNUVlSHIzWVBXaHR1U3hIV3dJTXg5SDNWVzFFbGc4VnZRekQ?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:12:05 GMT",
+          "source": "서울경제TV"
         }
       ],
       "fear_articles": [
         {
-          "title": "[서울데이터랩]미국 증시, 기술주 급락에 나스닥 1.88%↓…반도체주 약세 두드러져 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LLTNhUWl5NkZhcnpZVFNyaEowYldpeG0tc1pqYmg3UGZwb2UwOXNqYWt0VkxxdU5NNXQtTXJWRmoxNDJ2MHpyQ3BXWFY1Y25wbVF4V3BSQzdSc3dYRUp6VllxZGJIUFhDcE5vVEh6bllMTjhldEVv?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 21:18:08 GMT",
-          "source": "서울신문"
+          "title": "코스피, 5.59% 급락 출발…코스닥도 4.79%↓ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xRkpvU3NjNUV4MzVZdzVsTzNuZ0RlRmpKZVFyTnZyUEZaQzUtN3V2clA3b3EyaWZhTGZxQXJOeDdib1ozV1FxUG1ybjJBLU95VXd2SGhEcUtzeEpkaDFCNXRySXJRMTg?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:05:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[뉴욕증시] 끈적한 물가에 AI 빚더미 경고...나스닥 1.88% 급락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVmlreVd6OE56Q2N5SERPdnRlRTQxaktmaG1kSjRBM1hMOE83Tm9Obm5CMHk0TWprREhKU0hSZnpIeS1FWTkxOUJEVkRWQUVLNHlObjJPdV9iNno1RWNhMEczQUFneU5NdmFlWVVOaW8wWFpyZWlwLVVIWEFQMHN5Si1nWkJXYlk3?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 20:34:45 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스피 5%대 급락 개장…장 초반 코스피·코스닥 모두 ‘매도 사이드카’ 발동 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rRnlyYWhzYmlhTDB2M1ljcXhQTGluVDlvZndQeVZsZ1YtVlQ4b2RvNU0tNTF5V0UwU1VQVU1ReU0wQ1JRZ0VnRHZVbzI5NFIwWnBhVW1ESmRMMjg?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:17:00 GMT",
+          "source": "KBS 뉴스"
         },
         {
-          "title": "뉴욕증시, 물가 충격에 일제히 하락…AI 인프라주 매도세 확산 - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42NnNqNEJ4MTFwWktTVXVMdnA0OEZTWnlmdjhGQTRqWFRPb3hnbkhoRnpSdFZia19oaERELVNRTDdHNUFvSHJJZEFLdURHVHJuSjZ5c2h5Qmtsbng3bTY3Y0FJYnQ?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 21:17:18 GMT",
-          "source": "디지털데일리"
+          "title": "[속보] 코스피, 5.6% 급락한 5673 개장…코스닥도 4.8% 내려 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OZ3hwVGNkZWdJZk9lelRVeHNMeXphSUxPWnJiZ3dnaVAxWnlTaFBfZEd5Tlh4RzRyTFlHQ0dVZG90dndRcVhGLTNNSHZncHh0QndLNHNR?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:02:55 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "뉴욕증시, 물가 충격·반도체 약세에 하락…나스닥 1.9% 급락 - 헤럴드경제",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oZ2hzeUlCQTZucUVTZTVXNDBpTC1RNGVsa3RRdGF4czJGQUp1VWVfaGczRDdoSnlxWDc0UzIzekpGeHRUM2h6Y05ybC1ueGhZTmNJbEpLUQ?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 21:14:54 GMT",
-          "source": "헤럴드경제"
+          "title": "[속보] 코스피 5% 급락 출발…이틀 만에 매도 사이드카 발동 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14QVhoUnU2Ul9lbHdYVFItV0NBMUdoZmpQZTc1eVQybUFNT3F5S24zbmFfZm84ODRuWk9Ta3pYcDNkd193dDVqVmhnRXBndTgyRzQ5Y29TaHctakxDaUVSaHNjbDIwTjg?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:16:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "“코스피 급락할 때 이곳 주식은 뛴다” … 한달새 4조 몰린 브라질 EWZ - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aRlpuRjNSSFRTajBZSkpVYkF4ZC10U3BnNGdRdm44YlRoYk5QenI4ZDhXUlZ1M0wxZU1vTHUxQ3ZkQVpvbENuRENJNnQ5d1BBc0E?oc=5",
-          "pub_date": "Wed, 14 Oct 2026 20:00:00 GMT",
-          "source": "매일경제"
+          "title": "[개장시황] 코스피·코스닥 6%대 급락…매도 사이드카 잇따라 발동 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RdnVDZWx0VEJfNzNUZlBmcElsYUZ6OWFjUnlQM29UbVBkWmhpb3Rkbzg5TTZUUUZRV1NWWEdoMmtuVVQ4MHllb2hSb0c5eFVBTEhJZ2tNOGJPQW5u?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 00:28:00 GMT",
+          "source": "뉴스핌"
         }
       ]
     }
@@ -87,18 +87,18 @@
       "sma_200": 24889.6
     },
     "kospi": {
-      "current": 6035.35,
+      "current": 5632.37,
       "high_52w": 9385.59,
-      "drop_pct": -35.7,
-      "intraday_low_drop_pct": -37.02,
-      "sma_200": 6385.43
+      "drop_pct": -39.99,
+      "intraday_low_drop_pct": -40.0,
+      "sma_200": 6403.19
     },
     "kosdaq": {
-      "current": 837.03,
+      "current": 769.53,
       "high_52w": 1229.42,
-      "drop_pct": -31.92,
-      "intraday_low_drop_pct": -34.69,
-      "sma_200": 982.95
+      "drop_pct": -37.41,
+      "intraday_low_drop_pct": -37.41,
+      "sma_200": 982.1
     },
     "sp500": {
       "current": 7718.94,
@@ -125,7 +125,7 @@
   "sector_rs": {
     "XLK": 1.027,
     "SMH": 0.935,
-    "BOTZ": 0.926,
+    "BOTZ": null,
     "IGV": 1.121,
     "XLF": 0.946,
     "XLE": 1.178
@@ -176,7 +176,7 @@
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.48,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -206,8 +206,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-10-14",
-    "analyzed_at": "2026-10-14T09:23:25.980141+09:00",
+    "date": "2026-10-15",
+    "analyzed_at": "2026-10-15T09:38:36.856617+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -215,16 +215,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "_b8mLMVqLno",
-        "title": "삼성전자·SK하이닉스 급락에 무너진 코스피…바닥은 아직인가? 외국인 수급과 반등 강도에 주목 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-10-14T00:17:46Z",
-        "url": "https://youtube.com/watch?v=_b8mLMVqLno",
+        "video_id": "GFc72FChxdQ",
+        "title": "6일간 14% 급락한 한국 증시…미국보다 더 빠지는 진짜 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-10-15T00:19:20Z",
+        "url": "https://youtube.com/watch?v=GFc72FChxdQ",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 코스피 급락 상황을 언급하며 '바닥은 아직인가?'라고 질문하고 '외국인 수급과 반등 강도에 주목'해야 한다고 하여, 시장의 방향을 예단하기보다 특정 지표들을 지켜보자는 중립적 입장을 취하고 있습니다."
+          "reason": "영상 설명란에는 전문가의 시장 분석이나 의견이 담겨 있지 않으며, 오직 제목만이 '6일간 14% 급락한 한국 증시…미국보다 더 빠지는 진짜 이유'라고 명시하여 시장의 하락 현상에 대한 분석을 예고하고 있을 뿐, 구체적인 행동 권고는 없습니다."
         }
       },
       {
@@ -236,20 +236,20 @@
         "transcript_available": false,
         "is_stale_fallback": true,
         "analysis": {
-          "stance": "bullish",
-          "reason": "영상 제목과 내용이 '투자 아이디어'와 '더블 밸류업 세미나', '투자인사이트 포럼' 등을 강조하여 현재 시장에 투자 기회가 있고 가치 성장이 가능하다는 긍정적인 전망을 제시합니다."
+          "stance": "neutral",
+          "reason": "제공된 영상 설명란은 하나증권 MTS 다운로드 및 과거 포럼 시청을 유도하는 홍보성 메시지이며, 현재 주식 시장에 대한 구체적인 매수/매도/비중 조절 등의 행동 권고나 시장 방향성을 제시하는 내용이 없습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
       "박병창": "neutral",
-      "윤지호": "bullish"
+      "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 177.4,
+    "strategy_pct": 177.679,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1061,7 +1061,7 @@
       },
       {
         "date": "2026-10-15",
-        "ret_pct": 177.4
+        "ret_pct": 177.679
       }
     ],
     "monthly_breakdown": [
@@ -1121,9 +1121,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -26.0,
-        "end_ret_pct": 177.4,
-        "max_dd_pct": 35.77
+        "return_pct": -25.73,
+        "end_ret_pct": 177.68,
+        "max_dd_pct": 35.49
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
