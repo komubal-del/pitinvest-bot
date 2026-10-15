@@ -1,27 +1,33 @@
 {
-  "timestamp": "2026-10-15T19:06:35.467342+09:00",
+  "timestamp": "2026-10-15T23:55:44.287971+09:00",
   "sentiment": {
-    "cnn_fng": 29.9138321995465,
+    "cnn_fng": 26.1691609977324,
     "cnn_components": {
-      "momentum": 35.6,
-      "strength": 9.6,
-      "breadth": 8.6,
-      "put_call": 25.6,
-      "junk_bond": 58.6,
-      "volatility": 25.4,
-      "safe_haven": 46.0
+      "momentum": 35.2,
+      "strength": 10.8,
+      "breadth": 9.8,
+      "put_call": 30.6,
+      "junk_bond": 43.8,
+      "volatility": 28.6,
+      "safe_haven": 25.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 60,
+      "greed_count": 4,
+      "fear_count": 55,
       "greed_articles": [
         {
           "title": "AI 거품론, ‘닷컴 버블’ 재림인가…코스피, 7거래일 연속·총 20.7% 폭락 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 08:56:00 GMT",
+          "pub_date": "Thu, 15 Oct 2026 12:14:00 GMT",
           "source": "한겨레"
+        },
+        {
+          "title": "[뉴스줌인]코스피 고점 대비 40% 추락에…'강제 청산' 충격까지 연일 확대 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDNkYtX0tlX3Y5eXFldE1NS0JNdFUyRzR2UmxqeXR3OFNGTFI5YWVpdlpIdnhvSW9ORldRN0s2UGxVY2Z5YUowV2c0NThyUQ?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 07:10:00 GMT",
+          "source": "전자신문"
         },
         {
           "title": "증시 급락에 '빚투' 청산 압력 가중…반대매매 900억 육박 - 연합인포맥스",
@@ -31,24 +37,24 @@
         },
         {
           "title": "AI 비관론·코스피 거품론 확산…\"5000까지 밀린다\" - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzZXVUOXJXY0xTZHg2SWtkRXQ4bnFOSGRXNm1OSGQxR0Nza3pJVDFucTFJOWk2RmkxbTI0WkE2VUlRQkhvMG95ZktoZXQwR2JrZUVZcjVqNTBkZmZCVk1v?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTRkk2Q05lRHhpbkxZOEFwU29lZUFzOXQ3STFvYm5FTktqX1J3YzJEZUZZcmpjNUozc2NZZUN1MUZhcElITjZtdjhLOHFuNGkxTFQtbDlldlotQllOMi1kcQ?oc=5",
           "pub_date": "Thu, 15 Oct 2026 07:51:40 GMT",
           "source": "뉴스토마토"
-        },
-        {
-          "title": "‘34조 빚투’ 증시 반등 없는 급락···반대매매 ‘도미노’ 공포 확산 - 시사저널e",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UUG93ejV0RkpuQ3gtSTRMdnZyRjF6bElEOWtwNlNUX0RqQXExaUtyWExtREVvay1iT0NMOGx4bXlYZlVIeGNiVlZXUUoyWHpVNHFXRnp1M05jdmQ5ZDZJclRfNDZ5eUdqWGs3aEhEQ283YnoyanfSAXZBVV95cUxNVFBvd3o1dEZKbkN4LUk0THZ2ckYxemxJRDlrcDZTVF9EakFxMWlLclhMbURFb2stYk9DTDhseG15WGZVSHhjYlZWV1FKMlh6VTRxV0Z6dTNOY3ZkOWQ2SXJUXzQ2eXlHalhrN2hIRENvN2J6Mmp3?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 08:24:52 GMT",
-          "source": "시사저널e"
-        },
-        {
-          "title": "\"코스피 5000이 1차 지지선\"…증권가 \"버티되 빚투는 금물\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kSjlFc3BIWHl0Rkt5cHVSM1IxVzhlYm9zUHBpSHNsbUhXVUQ2d1FxWVNtMmk1SHlUWVhsQTVROVh4V3dnVkp6SUZyWHFUVzhnc0NMb2p4TWpoSHVZdl9DMzkxSE8zb3dk0gFuQVVfeXFMTnZhODVYYXlSWklRVjdzaV9DbC1pNzFEV1phc2NnQ2hGOC1aS0dJQUh2T2x3WTlGM0V5aXpEUFZfVnFtZXg0Unk0UzR4WFdPNm9vRDI1U1p1Y1dfUUFDckVLbmlIeXExX2phSGpFOEE?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 07:56:24 GMT",
-          "source": "머니투데이"
         }
       ],
       "fear_articles": [
+        {
+          "title": "코스피 8% 넘게 떨어져 서킷 브레이커…‘7월 폭락장’ 이후 처음 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mZlRCTlllLTZnVDZHWF9HMHc5T2M2S05la1B6d1ZXbkpSamF3V3F2bjJzU3RnZlZPcVREMmFlRm0yTnJJUWFuQTR5bEhzX1pOVEdJZ1VpdEJXSmh0bFowcmNCallUY2s?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 07:51:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "’검은 목요일’ 코스피·코스닥 7%대 동반 폭락…’AI 수익성’ 의문 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42SjJ6dm1rLXBhRmJsSEEwN1ZHbEtTM19xR1lWaTdsYjZQbmlWOGY2cFhaX0toMlRiVXdQT041blJ5N0FZOVRZYTdGOFdNaVlRZVBYMm5BOGZQZHFOS2VUdTZVSlc3TGM?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 11:47:00 GMT",
+          "source": "연합뉴스TV"
+        },
         {
           "title": "증시 대폭락에 금융당국 긴급회의…\"비상대응 준비\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5haFJJbzRxY1VOZFZFXzU1VERPWXRNREJVQUxTUEJPdk9BWDhub2VwNlc1dkpHTVdRSGxYWUpTT0FZQXhkUlJMRkw0SG9ySTY3a2FqRjRtTDFZMkMzZjROdy1iQTBuZ0Q0WUswRG9BNk4?oc=5",
@@ -56,37 +62,25 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "[속보]'공포의 목요일' 증시 패닉...코스피·코스닥 7%대 폭락, 당국 긴급 점검 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqUFBxb0tUYURjb0dncW9PcGlRcXVLZGpzY1U4OUhkbGlURjdTX1ZLZUpxNzQ5YVJlQzRweDZrQnp0STRveVlxd2JsdXN0Umh5UW5hQTdXZVFkV2lKZ19UZA?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 08:00:04 GMT",
-          "source": "KBC광주방송"
+          "title": "“국민연금 240조 증발, 고갈 10년 빨라진다”?…코스피 폭락 후 퍼진 글 사실일까 - 주간경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OcW4teEY0b1B2QmVXVlZRTVJjWk9aU0JGT3ktcGpTUUVDUlV4UzR2bjFQV3poQW00bmRlZHZrTV9zazVvazdOSUJYckxZMzlaNkFycVR1OG5XME5MM0E?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 10:26:00 GMT",
+          "source": "주간경향"
         },
         {
-          "title": "코스피·코스닥, 7%대 폭락…양 시장 서킷브레이커 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02WVdyX3NfZW5CVTd5MWVNSFFvZUdsdlBvZnM2RTd1XzBCbGpaVkgxRnhhT1FFQmhHSUV5ZHNmTGJSdTJSdDAyYmpzM0JwWmc2X0NYU193QndCU1BiTHJGOHU1LV9SSHM?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 07:05:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피 5% 급락 출발…이틀 만에 매도 사이드카 발동 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14QVhoUnU2Ul9lbHdYVFItV0NBMUdoZmpQZTc1eVQybUFNT3F5S24zbmFfZm84ODRuWk9Ta3pYcDNkd193dDVqVmhnRXBndTgyRzQ5Y29TaHctakxDaUVSaHNjbDIwTjg?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 05:31:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "'검은 목요일' 패닉…코스피·코스닥, 7%대 급락 마감 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qempJc0tqejU5M1lOTS1yamNOMDIwTEsyM1I5UVBTU1piTVUxbGlFcHh1eDZlWk81NkRrQlhyOGdOMkN1b0J1SmwxdzU3WFdRaThzQ29uek91WXNDR2lmddIBYEFVX3lxTE1qempJc0tqejU5M1lOTS1yamNOMDIwTEsyM1I5UVBTU1piTVUxbGlFcHh1eDZlWk81NkRrQlhyOGdOMkN1b0J1SmwxdzU3WFdRaThzQ29uek91WXNDR2lmdQ?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 06:43:07 GMT",
-          "source": "연합뉴스"
+          "title": "\"20년간 딱 두 번 있었다\"…코스피 급락에 나온 섬뜩한 진단 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EZmRyNVVVM2dRdFFKTHozbU9kNDRmaVktMEtrbVJoSEFaVkthemE0UWhZWEZoNUpYSThmU05hZUFieUc2X1UwaHM1Uzlxd1JUelk2Tnk5cGl6Zw?oc=5",
+          "pub_date": "Thu, 15 Oct 2026 08:41:34 GMT",
+          "source": "한국경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.49,
-    "vvix": 94.45,
+    "vix": 17.35,
+    "vvix": 97.1,
     "skew": 157.3,
-    "move": 99.06
+    "move": 105.53
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -98,11 +92,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26692.87,
+      "current": 26559.31,
       "high_52w": 27722.75,
-      "drop_pct": -3.71,
-      "intraday_low_drop_pct": -4.04,
-      "sma_200": 24889.6
+      "drop_pct": -4.2,
+      "intraday_low_drop_pct": -5.1,
+      "sma_200": 24905.03
     },
     "kospi": {
       "current": 5554.22,
@@ -119,34 +113,34 @@
       "sma_200": 981.6
     },
     "sp500": {
-      "current": 7718.94,
+      "current": 7717.3,
       "high_52w": 7844.52,
-      "drop_pct": -1.6,
-      "intraday_low_drop_pct": -1.93,
-      "sma_200": 7263.43
+      "drop_pct": -1.62,
+      "intraday_low_drop_pct": -2.23,
+      "sma_200": 7267.49
     },
     "russell2k": {
-      "current": 2729.53,
+      "current": 2749.14,
       "high_52w": 3069.71,
-      "drop_pct": -11.08,
-      "intraday_low_drop_pct": -11.39,
-      "sma_200": 2792.29
+      "drop_pct": -10.44,
+      "intraday_low_drop_pct": -11.23,
+      "sma_200": 2793.44
     },
     "soxx": {
-      "current": 519.42,
+      "current": 505.69,
       "high_52w": 655.95,
-      "drop_pct": -20.81,
-      "intraday_low_drop_pct": -21.11,
-      "sma_200": 465.22
+      "drop_pct": -22.91,
+      "intraday_low_drop_pct": -24.42,
+      "sma_200": 466.22
     }
   },
   "sector_rs": {
-    "XLK": 1.027,
-    "SMH": 0.935,
-    "BOTZ": 0.926,
-    "IGV": 1.121,
-    "XLF": 0.946,
-    "XLE": 1.178
+    "XLK": 1.011,
+    "SMH": 0.912,
+    "BOTZ": 0.908,
+    "IGV": 1.125,
+    "XLF": 0.955,
+    "XLE": 1.164
   },
   "signals": {
     "cnn_under_10": false,
@@ -163,7 +157,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -182,19 +176,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 68.57,
+    "tqqq_profit_pct": 64.03,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 106.62,
+    "soxl_profit_pct": 89.89,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.48,
+    "koru_profit_pct": -96.89,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
