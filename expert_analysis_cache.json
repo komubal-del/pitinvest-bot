@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-15",
-  "analyzed_at": "2026-10-15T09:38:36.856617+09:00",
+  "date": "2026-10-16",
+  "analyzed_at": "2026-10-16T09:20:53.929364+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "GFc72FChxdQ",
-      "title": "6일간 14% 급락한 한국 증시…미국보다 더 빠지는 진짜 이유 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-10-15T00:19:20Z",
-      "url": "https://youtube.com/watch?v=GFc72FChxdQ",
+      "video_id": "Ttw3RE9iBrQ",
+      "title": "오늘은 반등해야만 하는 날…7일 연속 급락한 증시, 아직 저점이라 볼 수 없는 이유는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-10-16T00:09:29Z",
+      "url": "https://youtube.com/watch?v=Ttw3RE9iBrQ",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 설명란에는 전문가의 시장 분석이나 의견이 담겨 있지 않으며, 오직 제목만이 '6일간 14% 급락한 한국 증시…미국보다 더 빠지는 진짜 이유'라고 명시하여 시장의 하락 현상에 대한 분석을 예고하고 있을 뿐, 구체적인 행동 권고는 없습니다."
+        "reason": "제목에서 '7일 연속 급락한 증시, 아직 저점이라 볼 수 없는 이유는?'이라고 언급하며 시장의 추가 하락 가능성이나 현시점이 저점이 아님을 분석적으로 설명하고 있으나, 현금화/비중 축소/매도 등 구체적인 행동 권고는 명시되어 있지 않아 중립적 경고에 가깝습니다."
       }
     },
     {
@@ -29,15 +29,15 @@
       "transcript_available": false,
       "is_stale_fallback": true,
       "analysis": {
-        "stance": "neutral",
-        "reason": "제공된 영상 설명란은 하나증권 MTS 다운로드 및 과거 포럼 시청을 유도하는 홍보성 메시지이며, 현재 주식 시장에 대한 구체적인 매수/매도/비중 조절 등의 행동 권고나 시장 방향성을 제시하는 내용이 없습니다."
+        "stance": "bullish",
+        "reason": "제목과 세미나 내용 ('천기누설', '투자 아이디어', '더블 밸류업 세미나', '투자인사이트 포럼')은 시장에서 긍정적인 투자 기회와 가치 성장이 가능하다는 낙관적인 관점을 제시하고 있습니다."
       }
     }
   ],
   "error": null,
   "expert_stance_map": {
     "박병창": "neutral",
-    "윤지호": "neutral"
+    "윤지호": "bullish"
   },
   "prompt_version": "v4-api-1.2.4"
 }
