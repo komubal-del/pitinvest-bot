@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-16T13:44:10.363979+09:00",
+  "timestamp": "2026-10-16T18:18:34.608640+09:00",
   "sentiment": {
-    "cnn_fng": 31.4571428571429,
+    "cnn_fng": 32.0857142857143,
     "cnn_components": {
       "momentum": 42.6,
-      "strength": 10.4,
-      "breadth": 10.4,
+      "strength": 11.8,
+      "breadth": 13.4,
       "put_call": 23.4,
       "junk_bond": 50.0,
       "volatility": 50.0,
@@ -14,20 +14,20 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 47,
+      "greed_count": 4,
+      "fear_count": 20,
       "greed_articles": [
+        {
+          "title": "하락 일단 멈췄지만 … 코스피 빚투는 부담 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCNDA0Z3A3dmtabVA5VHBSZ1Zjc1hxREpXcHFVQnpKNXNHN1ROMDN2SnBlLXhhY0VBN3ZnWkFXSTRWUDllc2dXZC0yRmZvZnExY3c?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 08:41:56 GMT",
+          "source": "매일경제 마켓"
+        },
         {
           "title": "[경제읽기] 코스피, 저가 매수에 반등…삼전·하이닉스 상승세 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXV2pYSG1xNGxBNDdXZHgteldib2xhVmxZZ0xIMXV6U3c3V2RMVEZxX2JVaTJZdEpKTDdMaWJpc1p1YTIyUDN4TjR1dnhyZ2dsQWVCbkR2c3dwdEVxTW1UZVVPOGNwUEE?oc=5",
           "pub_date": "Fri, 16 Oct 2026 04:02:00 GMT",
           "source": "연합뉴스TV"
-        },
-        {
-          "title": "AI 거품론, ‘닷컴 버블’ 재림인가…코스피, 7거래일 연속·총 20.7% 폭락 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 03:45:06 GMT",
-          "source": "한겨레"
         },
         {
           "title": "코스피, 저가 매수에 3%대 반등…코스닥도 강세 - 연합뉴스TV",
@@ -36,54 +36,48 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "반도체 ’빚투’ 10조…코스피 급락에 반대매매 경고등 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZSkRZX2tSUTliVzZMQklJVUFrM2phY1prOEZHWVZmczkyM3NlUVJyYktWZFVGZnpMWVc1aHp4TTNkZTRQbmJoYl82UmFEWkJBZjBxLWdaanFHYWoyU25pd045aGxkdVlkT0pPdEF3T2E?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 00:27:05 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 급락에 ‘빚투’ 부메랑…하루 반대매매 900억원, 두 달만에 최대 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFNxQzIzNFBSWHBWWVNMNGJndWM2Q2I1TVhqR093aGNYRGFyZ0Q2ZzdjbFFZQkJSbFc5cXFyWWxqbXVLSVVCdXhKTHl2ZVFfWnItdThqZGlsZXR3ZVBJUUd1QkkyOWVfdDdHSjZYUGNVajdWd3RPV1AwTXc2eTB3Rg?oc=5",
-          "pub_date": "Thu, 15 Oct 2026 23:59:00 GMT",
-          "source": "조선일보"
+          "title": "코스피, AI 투자 우려 완화·저가 매수세에 '5660선 회복'…코스닥 4.46%↑ - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KMDJOekE3Q0hLWFJ1Q19iR2k1NVl2M0F3anpwS2FvV0tYQ1ZzM0RadmpQblYxRXRiT1VwdGpRS2dJbUQ1YUxIUHBnbmROUG45MEh6OENhbjVMRW83RkdOdjBFbXQ3dw?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 07:11:40 GMT",
+          "source": "프라임경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피·코스닥 동반 상승...급락 딛고 반등 시도 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrNFdQNV9XZTRadXh5S0FCekN6OFZENi1WM0dDQ2NrelhIbGhUUU9NMnpHa0tkYjFleUktWWg0WTdZX0NOa3ZzeWlDRVd2M2FhbnlsS0d5QzVHQkFYNFZNYVlQeFFDM1UwaWFkc3doSQ?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 02:55:00 GMT",
+          "title": "“지금 팔아? 좀 더 버텨?”…급락 뒤 반등한 코스피, 전문가 의견 보니 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsOElUU29YUlBVZEhBWjJlR0ktZnZxaUdHS2VZeDVqNFRtU2tDbmdyODl2Uy1BNlRUdW9iRHpZemVyek1ob01uNGt3Q3EtVUVmRlE?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 06:48:54 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "코스피·코스닥 나란히 상승 마감...급락 딛고 반등 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQTkFuM3JUa19PVnRJWEZacDUteUlXSzV3SXJTb1NQdkdzckw2Uml4YW8xUW1ZQjJXNFBqUC00YlhNd0d3ZGpDM05tS0hFak1ULU5WeTAwY1FETFRvVlliLUxPT3BHODFHd1g5OEg5Yw?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 07:33:00 GMT",
           "source": "YTN"
         },
         {
-          "title": "증시 폭락에 원화도 뒷걸음질…환율 방향 바뀔까 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TVk9OWnNoSmdKU2hkSFpVUlVaMk9ZbHJaT3BEVm4wbEwxSF9OeDZvdDZWRDVIWllNdWJNZ3RSM2ROX0dTOUVYaTV4b0FSRDRvSmFTQzBlZ3QtbUtUNkdLbWhHS3VlcXBMamh5eTUxckk?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 01:30:57 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피 7% 급락한 '검은 목요일'에 800억원대 또 강제청산 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9heTRITVJPek4yV2xCZWR4NEZNRHRmNmxwZlEzWXR4MENCRF9mZGNYamp1UU16RmpUalM4RFhKX3dEemtFVlZNX0g2dlczbXdXdzJHOHhxWVB2VnE0M2dmOdIBYEFVX3lxTE9heTRITVJPek4yV2xCZWR4NEZNRHRmNmxwZlEzWXR4MENCRF9mZGNYamp1UU16RmpUalM4RFhKX3dEemtFVlZNX0g2dlczbXdXdzJHOHhxWVB2VnE0M2dmOQ?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 07:28:30 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "[뉴스in뉴스] 코스피 7천에서 5천대로…폭락 언제까지? - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzRk5SX2c1Z0s4UWdKcmxkaGgxMWtESVRSUDJtZlF1M2ZGeFBZcFRZS2U4UmNrenFqMG5vWEpkWDh2U3BUN2xvdHd6eWhFX1ZKd2NjbUxmandoelU?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 03:37:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "코스피 급락 딛고 반등...코스닥은 '매수 사이드카' - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQYU5fUVlDWHRaTDFoWkJlbEszeGszakdZVHBKWWNfdEJKZ2pac0c3QTlBdUNIeGRmYjlDSF9NVGg3dzl6WUg4MG94UVVZblpQLUJhRFRRREk2TVMtU3Q0SFRiNkk2TmNNSXphaEY1Zw?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 05:51:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "코스피, 급락 딛고 2%대 반등…코스닥 3% 강세 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZdVpENjVwLTlsQ19NYkZwTGRVajFnTnFoY2ltelRhX3FtWi14VEdBVlhJZFB5Y2NEQ3liZ1RpUlFaeUhlLUxaUWpXaF93X3lxY2Z6dTI5R2J1bUZsempQSmlBckNBTk0?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 01:23:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "우르르 떠난 외국인에 코스피 '폭락'...언제까지 팔아치울까? [Y녹취록] - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xV2M1SzNROFl3MUE0NjhqYUFxVF9XczNjbTdIanBNTTd2Wml5Vld5c3JIcmxsdEhMcy1WVVVEcHdWLWc0N3QzNHVuV3dUTi1ndlhNUjB5dHpPNXZGT2c?oc=5",
-          "pub_date": "Fri, 16 Oct 2026 04:22:00 GMT",
+          "title": "[속보] 코스피, 급락 하루 만에 2% 상승...코스닥 4.46% ↑ - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uM0M1akJ3MDFibEI1UG9lTExXNFo0TVBiSi0zaVdCaUtMZTlqdXdjMy02aEFQV3pqT042M19JZlVEUm9CYlFmWUdpN2RsNm80ellBaUtuRnk5eUFoM0dXLVdYOUFQOU10aWNacUtmbw?oc=5",
+          "pub_date": "Fri, 16 Oct 2026 06:41:00 GMT",
           "source": "YTN"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.46,
+    "vix": 16.06,
     "vvix": 92.57,
     "skew": 160.45,
     "move": 102.49
@@ -105,18 +99,18 @@
       "sma_200": 24905.8
     },
     "kospi": {
-      "current": 5755.8,
+      "current": 5668.05,
       "high_52w": 9385.59,
-      "drop_pct": -38.67,
+      "drop_pct": -39.61,
       "intraday_low_drop_pct": -40.44,
-      "sma_200": 6411.3
+      "sma_200": 6410.86
     },
     "kosdaq": {
-      "current": 799.65,
+      "current": 794.78,
       "high_52w": 1229.42,
-      "drop_pct": -34.96,
+      "drop_pct": -35.35,
       "intraday_low_drop_pct": -37.78,
-      "sma_200": 981.04
+      "sma_200": 981.02
     },
     "sp500": {
       "current": 7744.06,
@@ -267,7 +261,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 129.962,
+    "strategy_pct": 174.696,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1083,7 +1077,7 @@
       },
       {
         "date": "2026-10-16",
-        "ret_pct": 129.962
+        "ret_pct": 174.696
       }
     ],
     "monthly_breakdown": [
@@ -1143,9 +1137,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -73.44,
-        "end_ret_pct": 129.96,
-        "max_dd_pct": 83.21
+        "return_pct": -28.71,
+        "end_ret_pct": 174.7,
+        "max_dd_pct": 42.42
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
