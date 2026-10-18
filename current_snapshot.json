@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T02:33:42.744569+09:00",
+  "timestamp": "2026-10-19T04:41:13.193387+09:00",
   "sentiment": {
     "cnn_fng": 17.9383219954649,
     "cnn_components": {
@@ -39,7 +39,7 @@
         },
         {
           "title": "\"국장 급락 두려워마라…엔저와 미국증시가 가져올 반등 기회\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wa2RIeFNHN0xsNW0wY3NzVllPVmtXOEJrODhMQ1NiNlBKeGg1ZDVxVUN0NDZNeWdQam5FNnhIVGJ1b1AzWi0xVm9HcUh6THZTT200SVpScUFuNUE3SkVWclBlSzRXT1lra0tWVkdUdWtVZ1hwRTN4RNIBeEFVX3lxTE1wa2RIeFNHN0xsNW0wY3NzVllPVmtXOEJrODhMQ1NiNlBKeGg1ZDVxVUN0NDZNeWdQam5FNnhIVGJ1b1AzWi0xVm9HcUh6THZTT200SVpScUFuNUE3SkVWclBlSzRXT1lra0tWVkdUdWtVZ1hwRTN4RA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4VjlRRFdUdEZYQ2F4emNMSTdHYi1kblRtRmh1Uk5JaGFxVkFsTXJnU0s0NDU1ejE2VlNnYk4yRXByek4zTjNVbkdwQTZpd1lHX253eGdKX1ZGalVhaF9HR9IBeEFVX3lxTE1wa2RIeFNHN0xsNW0wY3NzVllPVmtXOEJrODhMQ1NiNlBKeGg1ZDVxVUN0NDZNeWdQam5FNnhIVGJ1b1AzWi0xVm9HcUh6THZTT200SVpScUFuNUE3SkVWclBlSzRXT1lra0tWVkdUdWtVZ1hwRTN4RA?oc=5",
           "pub_date": "Sun, 18 Oct 2026 15:05:00 GMT",
           "source": "뉴시스"
         },
@@ -237,7 +237,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 170.147,
+    "strategy_pct": 164.538,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1054,6 +1054,10 @@
       {
         "date": "2026-10-16",
         "ret_pct": 170.147
+      },
+      {
+        "date": "2026-10-19",
+        "ret_pct": 164.538
       }
     ],
     "monthly_breakdown": [
@@ -1113,9 +1117,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -33.26,
-        "end_ret_pct": 170.15,
-        "max_dd_pct": 43.02
+        "return_pct": -38.87,
+        "end_ret_pct": 164.54,
+        "max_dd_pct": 48.63
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
