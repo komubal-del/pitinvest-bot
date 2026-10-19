@@ -1,83 +1,89 @@
 {
-  "timestamp": "2026-10-19T13:32:08.174216+09:00",
+  "timestamp": "2026-10-19T19:18:26.469692+09:00",
   "sentiment": {
-    "cnn_fng": 17.9383219954649,
+    "cnn_fng": 19.9383928571429,
     "cnn_components": {
       "momentum": 23.6,
       "strength": 12.0,
       "breadth": 12.0,
       "put_call": 16.4,
       "junk_bond": 42.6,
-      "volatility": 4.0,
+      "volatility": 18.0,
       "safe_haven": 15.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 40,
+      "greed_count": 10,
+      "fear_count": 27,
       "greed_articles": [
         {
-          "title": "AI 공포 커진 '코스피'…저가 매수 움직임도(종합) - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rNmFISWZxZUlaZlExeG5zSzVYYVdfU1c2cDlNTUt4azF3ZjhlUTk3SDNsMEJ0a1Q3T1hTMUVuQzRtUlhGV2F2aW9lSUlVQlAzOVVkcjVnaVFTTFFRUU05Tw?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 01:36:02 GMT",
-          "source": "아시아경제"
+          "title": "[마감] 코스피, 기관 저가 매수에 1.76% 상승…낙폭 지우고 고점 마감 By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfc0JobGE0dW80d0wxWVh0TzdsNUd0amRGUXFXNWVhR0dOV3BnNGlJN3gwaDBoSVFTRnEyQ2g2MndLNTFuaUVsczN6TjVVSVZrdEszVVFxcHI3NXNrLUJmdDFHOEdoMFoxdDZQQVd3TGU?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 09:23:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "기관 저가 매수세 유입에 코스피·코스닥 나란히 '양전' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QblFCSklURnRWRmNfMGpzWXpRQVFPTjA1TXlYVzFQazdWVjFlcG1fNEc3YWlKdlZ5TEszOWNITjhXQmlFY00xNWJOa2kwcUx4aDh4ZnJnbncwWGYyQ1h4ckhPdmhaXzBzS1ZwUlNB0gFuQVVfeXFMTVBuUUJKSVRGdFZGY18wanNZelFBUU9OMDVNeVhXMVBrN1ZWMWVwbV80RzdhaUp2VnlMSzM5Y0hOOFdCaUVjTTE1Yk5raTBxTHhoOHhmcmdudzBYZjJDWHhySE92aFpfMHNLVnBSU0E?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 01:36:08 GMT",
-          "source": "머니투데이"
+          "title": "코스피, 저가 매수세 유입에 급락 딛고 1.76% 상승…5760선 회복 - 더나은미래",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zYkhrOGItMml2MElEcTF4VzYxX3VPNXRWbHVjZUxHVlctNTJOQk1Kc0dra241eHM4Q2RaYW1RR3lzN3Zid3ZpUXVBbkN4M1RBX0E?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 08:13:00 GMT",
+          "source": "더나은미래"
         },
         {
-          "title": "李 대통령 띄웠던 '증시', 거품 깨지자 지지율 갉아먹는 '치명 독소'로 - 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15cUNMd2VwSDBfX0Fmc3ZZTnlMXzZiQmZkQzNVMmFrUHJaWjBFQ1hDUnYxd1JoVi1IakJyV2FLc0hjQk5HTC1BdnJ2aGxDM1YzSFJ0V0I4eXVSZUhGM09ORDM0YThwRjV5ckdDcG9QT1ZWX092OTFHSUxVd9IBgAFBVV95cUxPeFNEbFNnZzIybEtvdWZrMDBPeXFteXpiSFBMNlBZQ2RYQUxPSVZxTXFSX1oxSTBnYjRSVUk0SGowUnk0QWpKTXQzcmdXTC1DZW44TUlaV3FNSDRqZHM1NGJ0b3FKUnRWb0VtVWxHdXlKalpPWENnSUVxVjlVWlE3Mw?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 23:39:11 GMT",
-          "source": "뉴데일리"
+          "title": "“코스피 급락에 갇힌 개미들…팔기도, 빚투 물타기도 말라” - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HTEtBeXY4MEZzNi15T2xtOW9sNGhoQS1EWnFGLW1Id0VRYmI0U2pjUGpDMXk3RmNOeE5hNHhnb29hYlltN2RYRzdrOEJkR0FGTzd2RWJEc2FRengtbW1mc2ladjdCYzB6ZmJ0Nk1vOXBBVEVwZE1fRzFtenEzdw?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 09:06:16 GMT",
+          "source": "서울신문"
         },
         {
-          "title": "“美 신용위험 직격탄 맞은 코스피…반도체 쏠림이 급락 원인\" - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaUcwTm1ZeUt2TFhsdmhRRldFbkpiU3VwVHpHVE85aHpZcktiWmUydFUtdHFwbGVDR1JKZmlrVVNrenV0S2dBU3BEUHh4Wm56MWZRLVNjNFhwRFluRG9rVG9LbTZWZEFKTUhXUGR5NzRLblZ1NlpTaG5TUk5RUDFETTE4NGc1RXVH0gGcAUFVX3lxTFBFMnJHS3gyY21NbmJ4M2FiWWtqekNZbHdDMjhvTUUyOXFmLW9NUG84UUpvYzhtRVViN3FlbldfSzUwd0lhdi1aREVJQ1VmdS1DRVkwUVFhWHR1LUVocUkxcWQyc0xRaXJ5SnlaVDVJWERWTkZuZnVMZWJ1R0ZtTXFXTTgydjNweXpJdGhoeTZDYlN3UXFNU1M1SWljRg?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 23:46:00 GMT",
-          "source": "Chosunbiz"
+          "title": "다시 고개든 ‘AI 고점론’에 무너진 국내 증시···반등 시점에 시장 ‘촉각’ By 투데이코리아 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hUzd4Q1A5MVNTa0FUcEZVYU1Tb2NuWEdLT2dlWndyZEFESUVXWVVvRzg4WWVYbW5qaGdQaHJYMl91cUdFMVF5SFhzX2pTMTM2c3hUUjhWSmZSYlFkTUM0WjJZeTcwZ0Rha3ZQRG92ZTE?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 05:51:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "코스피·코스닥 장 막판 반등…저가 매수세에 상승 마감 - 데일리굿뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETDFHUF9jNlI5eEVhZlowTU9LSGtpdGdGT1ZFdnRhMFJrVFRrN01JNVY4R2t0eXVDOHYzQVZvaG0tS1k1a0lTM0lBSFB6elV2Wk1zaU9qbU9BNnNIeHFUS0x6Ny1CbXdWOWFBNQ?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 08:15:34 GMT",
+          "source": "데일리굿뉴스"
         }
       ],
       "fear_articles": [
         {
+          "title": "코스피, 급락 딛고 1% 반등…5,700선 회복 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SSTJfN3I4MWpxbGRQMTZWS3QtVk1wbVcyZkswMjNSRWdyb243eVVQZzlEWjhHcjBud0xMMmhqZnpLUlFaSG9OWW5BdURVcUcxOFRiVTZ5Zk1mQkxkNzltbjVoenBvczA?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 09:35:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
           "title": "[주간증시전망] \"폭락장에 주식 팔지 마라\"…코스피 반등 이끌 ’세 가지 변수’는 By EBN - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYVlOaEx1TE45VDFTczRINS1GWU1BQlBqYzNGMVl1WmRlQ2xUazlRaDdYVDVXUm5UTk9yRDQ0X1JtMktIT3hwZ21xeW1kVDZiRU1zZjVaaWxuYUtWN1hJdjdFN1hLeTk1ZGF4RkRTRzc?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 22:44:36 GMT",
+          "pub_date": "Mon, 19 Oct 2026 01:47:41 GMT",
           "source": "Investing.com 한국어"
         },
         {
-          "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNX3lVRGdTaFBOQ0JhWDN0MVd6Q2V5WlpYWkhCWWY1ZW1UbjRsZWlNVFlDb2RUbjZzRUtuSU85Vk1MMW9vWl9tVFoxZVJRQWpmSnVrWWIxZnVfZ3PSAWBBVV95cUxNaHhWd0J3el85eVBNdk1pR1FqQ0xNU1JhckdTTC1faS1jT1pJNTFCQnJTX1N3SVBoMXU4SjFCb1VEUlVab0ttLXA2Z1FlVTg1N1ZmbUdNY1JCZ3lMOXB5NUo?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 02:20:31 GMT",
-          "source": "연합뉴스"
+          "title": "코스피 진짜 바닥은 어디?...폭락장에도 주도주 모아가라는 이유 [몇층이세요] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xTkpYVU9VR25KVThSbzNfaW5teXpxaHd5bWtWYmwxaWI1bTFUbGFtbXhBOEpadHMzOG16NXhvRWt6Zm1mY0RNZDMyU3BwNHQ4SzNsMi14T0RLMThoSkE?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 08:49:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92S040WE5rNHBPX1RVNEZpOEtRMWpXQ1IzUjJuUmh0LTFjc0hfbTZDX1k0V056ZGdwUmhRVDAwOFZWREx4NXBKZUxqWm92OEdNZ093dS1iQnJXMW8?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 02:37:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "[증시-마감] '전약후강' 국내 증시…급락 출발 뒤 나란히 1.7%대 반등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93V0w0NVJUWjRYVmNBWHdyRWI5MU9yU3EwYkhmdmN2SlNLSjhPSTRqU1JKSjJmb0hpYVlQS1lRMnp5NVRMSHpJbEVGUGZOVzY3bTBqcmd1ZEplYTRPa0l0Vk9pWm5ZV0ZfeUJiY1RsRDE?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 06:53:01 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피, 3.2% 급락 개장 후 일부 되돌림‥1%대 초반 하락세 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wMzVpcWZfM2Y5UmZBenpaeGFudlVlamRNVS1lTWZwcFZTVkxMb21fSTBZc1BpZEppRjFudXdVQUd2TGRib2sySUZ3YmdMYjZiU2Y0TU53WEZfeW1BaFdTWEtDNlFFcVctTTZMQk9jRW8zb1ZB0gF0QVVfeXFMT0d0VEYxS2tfemJsVlZWV05QOHQ3UGNLbVhRc1pyTkN6TDhHWklSUTR3dEhDcll2TGZEVXdaSUd5azR0VkJIcDY0cllWbm15c2QxRXUtRmdjYkNyV3BsY3JZbXNsQ21RVHZBb0RkVlQwYXk5RmU?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 01:00:40 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "이찬진 \"증시 급락, 단종레 영향 일부 있어…송구하게 생각\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XT3NGTy1DNEEzRU04SGQ2OHh3aUxnNTg0Sjc1Qms4YXhBUllOODBzZ2VmTXlLTUxJM3JuTFJsNnpmaWhiV0wycF9rcmhTZG1xUHQtb25OcHRrMDhuNXhCWVROQjNfODlOV0FHcUhpQ2w?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 02:51:00 GMT",
+          "title": "'전약후강' 코스피, 급락 출발 딛고 1.76% 상승 마감…코스닥도 1.78%↑ - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hMjI4aGVveEpnaFFjT2dGc0RWSUM5V3JIZFAzbnJCeUZXZHk4bExYUHdNRmJCX2JLRDJfLVpiUXZTdTZqQ3pRV3pqWGF5UjhOMm1XSU9LNzAyc241bGd0WXZFZGQwM2xKeUNqUUlDNVHSAXRBVV95cUxONElBUG5nclEtUnkxdmlmV1kyc0V4QjJLSTBCYzJka3BfUVNHZ1lYVkRIUTZoM2Y5Z1cxUTYzNU5jdF95R0RBUjNnMDE3TGI5U2FhSEdRa0Nhczhlc1RTODJiYko3NlBqNnY1ZVZxd2VjWE9JUA?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 06:34:25 GMT",
           "source": "연합인포맥스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.99,
+    "vix": 18.61,
     "vvix": 109.91,
     "skew": 168.59,
     "move": 101.1
@@ -99,18 +105,18 @@
       "sma_200": 24919.4
     },
     "kospi": {
-      "current": 5705.98,
+      "current": 5768.01,
       "high_52w": 9385.59,
-      "drop_pct": -39.2,
+      "drop_pct": -38.54,
       "intraday_low_drop_pct": -41.52,
-      "sma_200": 6419.42
+      "sma_200": 6419.73
     },
     "kosdaq": {
-      "current": 799.71,
+      "current": 808.89,
       "high_52w": 1229.42,
-      "drop_pct": -34.95,
+      "drop_pct": -34.21,
       "intraday_low_drop_pct": -37.12,
-      "sma_200": 980.51
+      "sma_200": 980.56
     },
     "sp500": {
       "current": 7659.44,
