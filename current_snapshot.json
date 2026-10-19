@@ -1,92 +1,43 @@
 {
-  "timestamp": "2026-10-19T19:18:26.469692+09:00",
+  "timestamp": "2026-10-20T02:02:41.380248+09:00",
   "sentiment": {
-    "cnn_fng": 19.9383928571429,
+    "cnn_fng": 24.8830357142857,
     "cnn_components": {
-      "momentum": 23.6,
-      "strength": 12.0,
-      "breadth": 12.0,
+      "momentum": 32.6,
+      "strength": 12.6,
+      "breadth": 13.4,
       "put_call": 16.4,
-      "junk_bond": 42.6,
-      "volatility": 18.0,
-      "safe_haven": 15.0
+      "junk_bond": 53.4,
+      "volatility": 27.3,
+      "safe_haven": 20.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 10,
-      "fear_count": 27,
+      "greed_count": 2,
+      "fear_count": 0,
       "greed_articles": [
         {
-          "title": "[마감] 코스피, 기관 저가 매수에 1.76% 상승…낙폭 지우고 고점 마감 By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfc0JobGE0dW80d0wxWVh0TzdsNUd0amRGUXFXNWVhR0dOV3BnNGlJN3gwaDBoSVFTRnEyQ2g2MndLNTFuaUVsczN6TjVVSVZrdEszVVFxcHI3NXNrLUJmdDFHOEdoMFoxdDZQQVd3TGU?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 09:23:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피, 저가 매수세 유입에 급락 딛고 1.76% 상승…5760선 회복 - 더나은미래",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zYkhrOGItMml2MElEcTF4VzYxX3VPNXRWbHVjZUxHVlctNTJOQk1Kc0dra241eHM4Q2RaYW1RR3lzN3Zid3ZpUXVBbkN4M1RBX0E?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 08:13:00 GMT",
-          "source": "더나은미래"
-        },
-        {
-          "title": "“코스피 급락에 갇힌 개미들…팔기도, 빚투 물타기도 말라” - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HTEtBeXY4MEZzNi15T2xtOW9sNGhoQS1EWnFGLW1Id0VRYmI0U2pjUGpDMXk3RmNOeE5hNHhnb29hYlltN2RYRzdrOEJkR0FGTzd2RWJEc2FRengtbW1mc2ladjdCYzB6ZmJ0Nk1vOXBBVEVwZE1fRzFtenEzdw?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 09:06:16 GMT",
+          "title": "“코스피 급락에 갇힌 개미들… 팔기도, 빚투 물타기도 말라” - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YZjVfMGdjUWtJazhnWHBGYVdNT2R5TjBKNXk0ajJGM3ktOVpUV0g0Zkh0MjA1UnVScEJmZTVpZ1NISEJyZ3VCN0FoVzhGblFyOVUzcjBlSWN3TXhUZDkxQnl5Nk13RVk5NFRtTXU2cmEyQ2FuMzNaWnQ0S1lndw?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 15:01:12 GMT",
           "source": "서울신문"
         },
         {
-          "title": "다시 고개든 ‘AI 고점론’에 무너진 국내 증시···반등 시점에 시장 ‘촉각’ By 투데이코리아 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hUzd4Q1A5MVNTa0FUcEZVYU1Tb2NuWEdLT2dlWndyZEFESUVXWVVvRzg4WWVYbW5qaGdQaHJYMl91cUdFMVF5SFhzX2pTMTM2c3hUUjhWSmZSYlFkTUM0WjJZeTcwZ0Rha3ZQRG92ZTE?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 05:51:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피·코스닥 장 막판 반등…저가 매수세에 상승 마감 - 데일리굿뉴스",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETDFHUF9jNlI5eEVhZlowTU9LSGtpdGdGT1ZFdnRhMFJrVFRrN01JNVY4R2t0eXVDOHYzQVZvaG0tS1k1a0lTM0lBSFB6elV2Wk1zaU9qbU9BNnNIeHFUS0x6Ny1CbXdWOWFBNQ?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 08:15:34 GMT",
-          "source": "데일리굿뉴스"
+          "title": "\"코스피 7000 다시 간다?\"…전고점 회복 기대 키우는 외국인 매수세 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ERXlESWdWcXJaTnAxV2hOeWd1Q3dtR2pXWTdKSUd5TUNXMUkzc0pnWjRJTk5mOHhjUy0zeXQ0MjB4UUZjd0t5R0ZySTVHUnJBNzZwSE1TM2VUSTB3RGhlVVY4WWZrUHpGWmx6aXJtRkFHcklKc1lQR9IBeEFVX3lxTE5ERXlESWdWcXJaTnAxV2hOeWd1Q3dtR2pXWTdKSUd5TUNXMUkzc0pnWjRJTk5mOHhjUy0zeXQ0MjB4UUZjd0t5R0ZySTVHUnJBNzZwSE1TM2VUSTB3RGhlVVY4WWZrUHpGWmx6aXJtRkFHcklKc1lQRw?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 15:10:00 GMT",
+          "source": "뉴시스"
         }
       ],
-      "fear_articles": [
-        {
-          "title": "코스피, 급락 딛고 1% 반등…5,700선 회복 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SSTJfN3I4MWpxbGRQMTZWS3QtVk1wbVcyZkswMjNSRWdyb243eVVQZzlEWjhHcjBud0xMMmhqZnpLUlFaSG9OWW5BdURVcUcxOFRiVTZ5Zk1mQkxkNzltbjVoenBvczA?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 09:35:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "[주간증시전망] \"폭락장에 주식 팔지 마라\"…코스피 반등 이끌 ’세 가지 변수’는 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYVlOaEx1TE45VDFTczRINS1GWU1BQlBqYzNGMVl1WmRlQ2xUazlRaDdYVDVXUm5UTk9yRDQ0X1JtMktIT3hwZ21xeW1kVDZiRU1zZjVaaWxuYUtWN1hJdjdFN1hLeTk1ZGF4RkRTRzc?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 01:47:41 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피 진짜 바닥은 어디?...폭락장에도 주도주 모아가라는 이유 [몇층이세요] - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xTkpYVU9VR25KVThSbzNfaW5teXpxaHd5bWtWYmwxaWI1bTFUbGFtbXhBOEpadHMzOG16NXhvRWt6Zm1mY0RNZDMyU3BwNHQ4SzNsMi14T0RLMThoSkE?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 08:49:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "[증시-마감] '전약후강' 국내 증시…급락 출발 뒤 나란히 1.7%대 반등 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93V0w0NVJUWjRYVmNBWHdyRWI5MU9yU3EwYkhmdmN2SlNLSjhPSTRqU1JKSjJmb0hpYVlQS1lRMnp5NVRMSHpJbEVGUGZOVzY3bTBqcmd1ZEplYTRPa0l0Vk9pWm5ZV0ZfeUJiY1RsRDE?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 06:53:01 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "'전약후강' 코스피, 급락 출발 딛고 1.76% 상승 마감…코스닥도 1.78%↑ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hMjI4aGVveEpnaFFjT2dGc0RWSUM5V3JIZFAzbnJCeUZXZHk4bExYUHdNRmJCX2JLRDJfLVpiUXZTdTZqQ3pRV3pqWGF5UjhOMm1XSU9LNzAyc241bGd0WXZFZGQwM2xKeUNqUUlDNVHSAXRBVV95cUxONElBUG5nclEtUnkxdmlmV1kyc0V4QjJLSTBCYzJka3BfUVNHZ1lYVkRIUTZoM2Y5Z1cxUTYzNU5jdF95R0RBUjNnMDE3TGI5U2FhSEdRa0Nhczhlc1RTODJiYko3NlBqNnY1ZVZxd2VjWE9JUA?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 06:34:25 GMT",
-          "source": "연합인포맥스"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.61,
-    "vvix": 109.91,
+    "vix": 18.1,
+    "vvix": 103.07,
     "skew": 168.59,
-    "move": 101.1
+    "move": 101.29
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -98,55 +49,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26140.03,
+      "current": 26470.77,
       "high_52w": 27722.75,
-      "drop_pct": -5.71,
-      "intraday_low_drop_pct": -6.13,
-      "sma_200": 24919.4
+      "drop_pct": -4.52,
+      "intraday_low_drop_pct": -4.97,
+      "sma_200": 24935.55
     },
     "kospi": {
-      "current": 5768.01,
+      "current": 5668.05,
       "high_52w": 9385.59,
-      "drop_pct": -38.54,
-      "intraday_low_drop_pct": -41.52,
-      "sma_200": 6419.73
+      "drop_pct": -39.61,
+      "intraday_low_drop_pct": -40.44,
+      "sma_200": 6410.86
     },
     "kosdaq": {
-      "current": 808.89,
+      "current": 794.78,
       "high_52w": 1229.42,
-      "drop_pct": -34.21,
-      "intraday_low_drop_pct": -37.12,
-      "sma_200": 980.56
+      "drop_pct": -35.35,
+      "intraday_low_drop_pct": -37.78,
+      "sma_200": 981.02
     },
     "sp500": {
-      "current": 7659.44,
+      "current": 7699.78,
       "high_52w": 7844.52,
-      "drop_pct": -2.36,
-      "intraday_low_drop_pct": -2.71,
-      "sma_200": 7271.44
+      "drop_pct": -1.85,
+      "intraday_low_drop_pct": -2.04,
+      "sma_200": 7275.71
     },
     "russell2k": {
-      "current": 2721.37,
+      "current": 2733.67,
       "high_52w": 3069.71,
-      "drop_pct": -11.35,
-      "intraday_low_drop_pct": -11.52,
-      "sma_200": 2794.64
+      "drop_pct": -10.95,
+      "intraday_low_drop_pct": -11.22,
+      "sma_200": 2795.89
     },
     "soxx": {
-      "current": 493.39,
+      "current": 505.74,
       "high_52w": 655.95,
-      "drop_pct": -24.78,
-      "intraday_low_drop_pct": -24.87,
-      "sma_200": 467.21
+      "drop_pct": -22.9,
+      "intraday_low_drop_pct": -23.53,
+      "sma_200": 468.24
     }
   },
   "sector_rs": {
-    "XLK": 1.016,
-    "SMH": 0.942,
-    "BOTZ": 0.932,
-    "IGV": 1.092,
-    "XLF": 0.962,
-    "XLE": 1.156
+    "XLK": 1.025,
+    "SMH": 0.953,
+    "BOTZ": 0.942,
+    "IGV": 1.099,
+    "XLF": 0.953,
+    "XLE": 1.137
   },
   "signals": {
     "cnn_under_10": false,
@@ -182,19 +133,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 55.13,
+    "tqqq_profit_pct": 61.63,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 75.08,
+    "soxl_profit_pct": 88.23,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.11,
+    "koru_profit_pct": -96.71,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
