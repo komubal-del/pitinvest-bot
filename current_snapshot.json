@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T09:07:27.276040+09:00",
+  "timestamp": "2026-10-19T13:32:08.174216+09:00",
   "sentiment": {
     "cnn_fng": 17.9383219954649,
     "cnn_components": {
@@ -14,70 +14,64 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 25,
+      "greed_count": 4,
+      "fear_count": 40,
       "greed_articles": [
+        {
+          "title": "AI 공포 커진 '코스피'…저가 매수 움직임도(종합) - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rNmFISWZxZUlaZlExeG5zSzVYYVdfU1c2cDlNTUt4azF3ZjhlUTk3SDNsMEJ0a1Q3T1hTMUVuQzRtUlhGV2F2aW9lSUlVQlAzOVVkcjVnaVFTTFFRUU05Tw?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 01:36:02 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "기관 저가 매수세 유입에 코스피·코스닥 나란히 '양전' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QblFCSklURnRWRmNfMGpzWXpRQVFPTjA1TXlYVzFQazdWVjFlcG1fNEc3YWlKdlZ5TEszOWNITjhXQmlFY00xNWJOa2kwcUx4aDh4ZnJnbncwWGYyQ1h4ckhPdmhaXzBzS1ZwUlNB0gFuQVVfeXFMTVBuUUJKSVRGdFZGY18wanNZelFBUU9OMDVNeVhXMVBrN1ZWMWVwbV80RzdhaUp2VnlMSzM5Y0hOOFdCaUVjTTE1Yk5raTBxTHhoOHhmcmdudzBYZjJDWHhySE92aFpfMHNLVnBSU0E?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 01:36:08 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "李 대통령 띄웠던 '증시', 거품 깨지자 지지율 갉아먹는 '치명 독소'로 - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15cUNMd2VwSDBfX0Fmc3ZZTnlMXzZiQmZkQzNVMmFrUHJaWjBFQ1hDUnYxd1JoVi1IakJyV2FLc0hjQk5HTC1BdnJ2aGxDM1YzSFJ0V0I4eXVSZUhGM09ORDM0YThwRjV5ckdDcG9QT1ZWX092OTFHSUxVd9IBgAFBVV95cUxPeFNEbFNnZzIybEtvdWZrMDBPeXFteXpiSFBMNlBZQ2RYQUxPSVZxTXFSX1oxSTBnYjRSVUk0SGowUnk0QWpKTXQzcmdXTC1DZW44TUlaV3FNSDRqZHM1NGJ0b3FKUnRWb0VtVWxHdXlKalpPWENnSUVxVjlVWlE3Mw?oc=5",
+          "pub_date": "Sun, 18 Oct 2026 23:39:11 GMT",
+          "source": "뉴데일리"
+        },
         {
           "title": "“美 신용위험 직격탄 맞은 코스피…반도체 쏠림이 급락 원인\" - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaUcwTm1ZeUt2TFhsdmhRRldFbkpiU3VwVHpHVE85aHpZcktiWmUydFUtdHFwbGVDR1JKZmlrVVNrenV0S2dBU3BEUHh4Wm56MWZRLVNjNFhwRFluRG9rVG9LbTZWZEFKTUhXUGR5NzRLblZ1NlpTaG5TUk5RUDFETTE4NGc1RXVH0gGcAUFVX3lxTFBFMnJHS3gyY21NbmJ4M2FiWWtqekNZbHdDMjhvTUUyOXFmLW9NUG84UUpvYzhtRVViN3FlbldfSzUwd0lhdi1aREVJQ1VmdS1DRVkwUVFhWHR1LUVocUkxcWQyc0xRaXJ5SnlaVDVJWERWTkZuZnVMZWJ1R0ZtTXFXTTgydjNweXpJdGhoeTZDYlN3UXFNU1M1SWljRg?oc=5",
           "pub_date": "Sun, 18 Oct 2026 23:46:00 GMT",
           "source": "Chosunbiz"
-        },
-        {
-          "title": "요즘 증시, 닷컴버블 급락장과 꼭 닮았다…“긴 겨울 대비” 분석도 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdVpPaExZMEU1dDBXY3RaUUZET0RBNnptbWRhRFA5TlJPYU5wVDgzMlF6ajFGWE9oWmF5YlRLd3EtbDJqVG1ZS19nRmVGS0dWWlE?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 20:55:28 GMT",
-          "source": "매일경제"
-        },
-        {
-          "title": "“코스피 하단 5100선”…‘초단기 빚투’ 나흘 새 2563억원 강제청산 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vejg3MGlYdG1hVU43aWtlRVJEVXJyTk96LVFQN2ZQY2NRd2dkd3ZlX0RHT1VnQ2l6SEFCX1NHa1I2NmZHM2FOUFJrU0pLS2hLYkpVSWNETFU5V1BxYmV3RGwzWlNVaW8?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 15:34:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "\"코스피 급락은 반도체 쏠림 때문…편중 위험 줄여야\"-유진 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ObGI2eDBtNUkwWlYtZEp2M1lmS3RLUnZ2NTRsQUhwN2Z1YTlKLU9BcHBleTZ2aVQzUTh4Wi1PczM4Rm5XMXFrUHJlVXU0S0d6ZDVTOVotVVdVZw?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 23:00:34 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "\"빚내서 버텼는데\"…코스피 급락에 하루 800억씩 강제 청산[간추린 주말 뉴스] - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oYURyaUhoT1lpN3hrdzc3eW9wZ1hNRFI4dlFpQ0ZHNTgxeURjTGNRTml6aENxQWs1emowc3liNExQWlZiMGRmTkhKc25vMmZWX1ktNlFhLW5XUk96aHJhR3h1VldVY016ek8yeWZldVMwb2RJbU5hYtIBeEFVX3lxTE9oYURyaUhoT1lpN3hrdzc3eW9wZ1hNRFI4dlFpQ0ZHNTgxeURjTGNRTml6aENxQWs1emowc3liNExQWlZiMGRmTkhKc25vMmZWX1ktNlFhLW5XUk96aHJhR3h1VldVY016ek8yeWZldVMwb2RJbU5hYg?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 21:32:33 GMT",
-          "source": "뉴시스"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 급락에 ‘3천억 원’ 강제 청산…국민연금은 182조 증발 [잇슈 머니] - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WUXVYX3lHazZ0aDdXbU1vVk9LWG5ySHBJOHU0MTNHbFEybF8zelFrTjdKcEhEQ1hMT3RrdmlaejR4eThIMlpndGxxdVhEdTVDeFhjYUlEdk5tSlY0eU5aY296Qjk5dw?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 21:53:00 GMT",
-          "source": "KBS 뉴스"
-        },
-        {
-          "title": "[1019개장체크] 美 증시, AI 인프라 부채 및 수익성 우려에 따른 기술주·반도체주 폭락 By 인포스탁데일리 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxeGhWMlQwdGF4MWFiTG5UZWk1Q2lZTFY5NUxvYzZaTm84OHZNMUJaMTl0TGhwWG9tMkkwZjNITURRV0dXcWdmRXdZZ2t6ZHhtOXZHOUpJTXdwZFJNTEdWRFNJS28tX25ob01GV0lIeXo?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 23:29:00 GMT",
+          "title": "[주간증시전망] \"폭락장에 주식 팔지 마라\"…코스피 반등 이끌 ’세 가지 변수’는 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYVlOaEx1TE45VDFTczRINS1GWU1BQlBqYzNGMVl1WmRlQ2xUazlRaDdYVDVXUm5UTk9yRDQ0X1JtMktIT3hwZ21xeW1kVDZiRU1zZjVaaWxuYUtWN1hJdjdFN1hLeTk1ZGF4RkRTRzc?oc=5",
+          "pub_date": "Sun, 18 Oct 2026 22:44:36 GMT",
           "source": "Investing.com 한국어"
         },
         {
-          "title": "코스피 폭락에 인버스 ETF 독주... 수익률 상위 10개 싹쓸이 [주간 ETF] - 매일일보",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DVzRyY1c2Y19Pdnh4WkpBWHZ4OTQ0aUhjMnpmelNFR1gtWDVxLXRRaWRtVjJha1VvLXVzUFlHNE5QTFJSbEUyR0pMbkZFV3k2cDVQZUpaYmRPcllnVGhPdkFUZGg?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 23:20:54 GMT",
-          "source": "매일일보"
-        },
-        {
-          "title": "[마켓인사이트] 폭락장세 뒤 반등했지만 악재는 여전…이번주 코스피 향배는 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ydnlIamVzSWJSWkJhN1hyVTJDTWZtMGl0Ml9OSHpwR1k1R2E4YmMtX3dFdUJySElKQ1JUYmJQdGxuUUc0Sk5Ha0dsdlpGRUJXQ09oRVZoek9adDjSAWBBVV95cUxOSldGNUdJWm82MGhJVjNYN3FFREN4LVMyNU5aVEp2d0o0eXhNT2doSkQ1OFloOFAwS3JkeW5hSnZZODd2U0psWXM0blNWVVFEUlljNnQtYzl4S0FrcTZ5bmg?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 22:59:46 GMT",
+          "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNX3lVRGdTaFBOQ0JhWDN0MVd6Q2V5WlpYWkhCWWY1ZW1UbjRsZWlNVFlDb2RUbjZzRUtuSU85Vk1MMW9vWl9tVFoxZVJRQWpmSnVrWWIxZnVfZ3PSAWBBVV95cUxNaHhWd0J3el85eVBNdk1pR1FqQ0xNU1JhckdTTC1faS1jT1pJNTFCQnJTX1N3SVBoMXU4SjFCb1VEUlVab0ttLXA2Z1FlVTg1N1ZmbUdNY1JCZ3lMOXB5NUo?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 02:20:31 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "[모닝 리포트] \"코스피 급락, AI 불안 진정 여부에 촉각\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pTERUNVR6RXF2NGFiSHNmdGVZajhRRG1jN0RfY09CdXZqLVhVLXNNUXpYQV9xbklJbmRHYXppQ3pXZDl4b1ZwcF9hQWRrN0o1NUdqcm9qR3RRN0Fa?oc=5",
-          "pub_date": "Sun, 18 Oct 2026 23:46:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피, 한때 상승 전환 후 소폭 내려…외국인 다시 순매도세 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92S040WE5rNHBPX1RVNEZpOEtRMWpXQ1IzUjJuUmh0LTFjc0hfbTZDX1k0V056ZGdwUmhRVDAwOFZWREx4NXBKZUxqWm92OEdNZ093dS1iQnJXMW8?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 02:37:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "코스피, 3.2% 급락 개장 후 일부 되돌림‥1%대 초반 하락세 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wMzVpcWZfM2Y5UmZBenpaeGFudlVlamRNVS1lTWZwcFZTVkxMb21fSTBZc1BpZEppRjFudXdVQUd2TGRib2sySUZ3YmdMYjZiU2Y0TU53WEZfeW1BaFdTWEtDNlFFcVctTTZMQk9jRW8zb1ZB0gF0QVVfeXFMT0d0VEYxS2tfemJsVlZWV05QOHQ3UGNLbVhRc1pyTkN6TDhHWklSUTR3dEhDcll2TGZEVXdaSUd5azR0VkJIcDY0cllWbm15c2QxRXUtRmdjYkNyV3BsY3JZbXNsQ21RVHZBb0RkVlQwYXk5RmU?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 01:00:40 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "이찬진 \"증시 급락, 단종레 영향 일부 있어…송구하게 생각\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XT3NGTy1DNEEzRU04SGQ2OHh3aUxnNTg0Sjc1Qms4YXhBUllOODBzZ2VmTXlLTUxJM3JuTFJsNnpmaWhiV0wycF9rcmhTZG1xUHQtb25OcHRrMDhuNXhCWVROQjNfODlOV0FHcUhpQ2w?oc=5",
+          "pub_date": "Mon, 19 Oct 2026 02:51:00 GMT",
+          "source": "연합인포맥스"
         }
       ]
     }
@@ -105,18 +99,18 @@
       "sma_200": 24919.4
     },
     "kospi": {
-      "current": 5668.05,
+      "current": 5705.98,
       "high_52w": 9385.59,
-      "drop_pct": -39.61,
-      "intraday_low_drop_pct": -40.44,
-      "sma_200": 6410.86
+      "drop_pct": -39.2,
+      "intraday_low_drop_pct": -41.52,
+      "sma_200": 6419.42
     },
     "kosdaq": {
-      "current": 794.78,
+      "current": 799.71,
       "high_52w": 1229.42,
-      "drop_pct": -35.35,
-      "intraday_low_drop_pct": -37.78,
-      "sma_200": 981.02
+      "drop_pct": -34.95,
+      "intraday_low_drop_pct": -37.12,
+      "sma_200": 980.51
     },
     "sp500": {
       "current": 7659.44,
@@ -225,13 +219,26 @@
   },
   "expert_analysis": {
     "date": "2026-10-19",
-    "analyzed_at": "2026-10-19T09:07:33.921377+09:00",
+    "analyzed_at": "2026-10-19T13:32:14.612948+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
     ],
     "expert_warning": false,
     "videos": [
+      {
+        "video_id": "FPCy7xSHMJ0",
+        "title": "이번 주 저점 형성 시도 가능? 반도체 급락 이후 주목할 변수 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-10-19T00:07:38Z",
+        "url": "https://youtube.com/watch?v=FPCy7xSHMJ0",
+        "text_source": "description",
+        "transcript_available": false,
+        "is_stale_fallback": false,
+        "analysis": {
+          "stance": "neutral",
+          "reason": "제목이 '이번 주 저점 형성 시도 가능?'이라고 질문하고 '반도체 급락 이후 주목할 변수'를 언급하며, 특정 행동 권고 없이 시장 상황을 분석하고 관찰할 변수들을 제시하고 있습니다."
+        }
+      },
       {
         "video_id": "L2GG_DeUDa0",
         "title": "지옥 같은 코스피에서 살아남을 단어 '양극단' | 윤지호 경제평론가 [주말인터뷰]",
@@ -242,27 +249,14 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 현재 시장을 '지옥 같은 코스피'로 진단하며 위험성을 강조하지만, 현금화/비중 축소/매도와 같은 구체적인 행동 권고는 없으며 '양극단'이라는 단어로 시장을 이해하고 '살아남을' 방법을 제시하여 중립적인 시장 분석에 가깝습니다."
-        }
-      },
-      {
-        "video_id": "Ttw3RE9iBrQ",
-        "title": "오늘은 반등해야만 하는 날…7일 연속 급락한 증시, 아직 저점이라 볼 수 없는 이유는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-10-16T00:09:29Z",
-        "url": "https://youtube.com/watch?v=Ttw3RE9iBrQ",
-        "text_source": "description",
-        "transcript_available": false,
-        "is_stale_fallback": false,
-        "analysis": {
-          "stance": "neutral",
-          "reason": "제목에서 '7일 연속 급락한 증시, 아직 저점이라 볼 수 없는 이유는?'이라고 언급하며 시장 하방 리스크를 분석하지만, 현금화/비중 축소/매도와 같은 구체적인 행동 권고는 명시하지 않아 중립적인 시장 분석에 해당합니다."
+          "reason": "'지옥 같은 코스피'는 시장의 위험을 강하게 시사하지만, 현금화·비중 축소·매도 같은 구체적인 행동 권고가 없으며, '살아남을'이라는 표현은 시장 내에서 전략을 모색하는 중립적 분석에 가깝습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "윤지호": "neutral",
-      "박병창": "neutral"
+      "박병창": "neutral",
+      "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
