@@ -1,71 +1,71 @@
 {
-  "timestamp": "2026-10-20T14:19:56.353089+09:00",
+  "timestamp": "2026-10-20T19:12:08.948476+09:00",
   "sentiment": {
-    "cnn_fng": 22.9928571428571,
+    "cnn_fng": 23.1230769230769,
     "cnn_components": {
       "momentum": 29.4,
-      "strength": 12.4,
-      "breadth": 13.4,
+      "strength": 13.2,
+      "breadth": 13.8,
       "put_call": 15.4,
       "junk_bond": 51.6,
-      "volatility": 18.8,
+      "volatility": 18.5,
       "safe_haven": 20.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 34,
+      "fear_count": 45,
       "greed_articles": [
         {
-          "title": "[3분증시] 뉴욕증시, 저가 매수세 유입 속 혼조 마감 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FYTc4MVNaMnpBZ1haX0pVd3BOeHNDVFRHNEd3dXlmejU5a2JYVm1DSEhoZTBIR3pEMm1HRExhNjNtTzdYdXF5WHFaQUFNLTkzbmFQbzN6WFlxamQ2SUtINmxuZHkwRUU?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 23:00:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "증시 급락에 ‘고점 발행’ ELS 불안…멀어진 ‘조기상환’에 ‘원금손실’ 우려까지 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGZ1FqQmZMck5UQU5wTTdqc1BHMzdZcGhZLUh5MDNGdlNTMHl1U0JoR1V0SFFmTzRlLTlYMTloLU1zSXFGY1RTb0FpbGcxdXZBU0REbzhB?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 08:19:36 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "[3분증시] 뉴욕증시, 저가 매수세 유입 속 혼조 마감 - 연합뉴스 한민족센터",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zRTdhcWlaWW82cExZRUtjQmFPTGU5d1c3eGdkeTJIaXM4U19JWG1RRTJ2Z3VqZlpjU2h0ME1SN3hvRmZDYTdKZU9fYl9YZ18ySG43UTQ3M1RJbk5aVzhsQk5tOHZsYm5fT01vRWxrdG5jd1po?oc=5",
-          "pub_date": "Mon, 19 Oct 2026 23:00:56 GMT",
-          "source": "연합뉴스 한민족센터"
+          "title": "코스피 19% 빠질 때, 코스닥은 8%…'반도체 쏠림'이 가른 낙폭 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzT2wzYUJsWEk0ak1od1gtQ0h4enRnYWcwSWtBSW55TjViMkpWeGFXdjBPcEYyVUJMekJvSlhIMDNQTXJ6Zkk5VGZMaHY3NHlOUFJNMkRlNG0tZDhYbzQwekJiN010eXNWQV9SanZ30gFuQVVfeXFMUDNPbDNhQmxYSTRqTWh3WC1DSHh6dGdhZzBJa0FJbnlONWIySlZ4YVd2ME9wRjJVQkx6Qm9KWEgwM1BNcnpmSTlUZkxodjc0eU5QUk0yRGU0bS1kOFhvNDB6QmI3TXR5c1ZBX1Jqdnc?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 07:45:32 GMT",
+          "source": "머니투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 4% 급락해 5,600선 아래로 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52dXdPWU91SjRtNmE5REc2VWZQU3REZWJfZl90Smw0U1hxQUFoajg3SG1wSm1EMDVlVXBVYk9yTHhraldxVTlOQ3FLSXZZNnNBdGFXWnVBYjE1d3k2ekFnd0t5NEJNNFE?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 04:40:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "美 기술주 올랐는데 속절없이 무너졌다…코스피 폭락한 이유 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KQmt6NGdYVVM0X0M2dURudkJqQ2VNZ1VlTHBQeVNDTG1mNWw0U0lHbmxGZml6MVZvVkZWQVM3aXdLaFF0QzV0enM2dHpWNjU1VU9uaWdnaWFQQQ?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 06:40:36 GMT",
+          "source": "한국경제"
         },
         {
-          "title": "코스피 2%대 ↓...SK하이닉스 장중 한때 7% 급락 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uWHBmNnhiZHNXMGFnU3o5QTMwak1xM21wejZCelJoWlJtakw5bWVCTDlSR2FsMGNPZ3ZnaERfUmdqajlKT3JSN0hpM3k5OGdObmtnSjNLMkhpZnhGYUE?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 02:43:00 GMT",
+          "title": "코스피, 2거래일 만에 다시 5,500선...반도체주 급락 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsdnhKY2x4b3RwSGFrMU5fQ0FkbkZaWTI0V05oQ1VkTGRkTmt6VHJyWENhMUIzOEk2NU9VS2lwbTU5cnFLOS1JeTl1NC1PcnJDX29NQWxDLWFacVJnbVE?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 07:36:00 GMT",
           "source": "YTN"
         },
         {
-          "title": "대외금리 연동 속 코스피 급락에 채권 선방…국고 3년 0.5bp↑ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqQ2dRb3pNbXdzMlREMmxOT25yUVRHMzExZUVOSlY2NlpOallaMmplOXgzTHBMRkltZUROM3o4WXFXcjE2M0JCTmpiNDRrSFRrUDhNSWtfVzNRaTA0R3hsWWQtTm9icGJOZ0RpWkI5QXQ?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 04:08:57 GMT",
+          "title": "[증시-마감] 亞증시에서 코스피만 '급락'…5,500선 후퇴 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PQVJ5cFd5R0hvZ3p4c2RzN2thVldMUHdRTWJKNDJOdWFNSFNxUmduV1JyM09lWlZjNmZLaFVqNS1sVVYzaks3ZzIwd3JlU0owT0c4VW5sdDVuYkphZENfd05KRHFQZWlMVzFjUGR3VjE?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 06:58:54 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피 장 초반 급락…코스닥도 동반 하락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTFFnZ0MxSDJ5cGo2NFBXVnNZVzBTWWJiOWdMNFYtUWVsTWJwVlFuTk8xeXNXYk8wNXAtR1hqZVhFbnc1V2d2LWY2STR3dFFFLW41ZVdmcktZZXBMMmJfUjZzNDBtZw?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 01:34:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "급락한 주가...이재명 대통령이 언급한 ‘증시 대책’에 쏠리는 시장 관심 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TZW4tTmdaMWRLWDlHR0QzVVFBMlI5azREeFNVT3BYZzliTGdkQ0hLekVoa2V0YTZDRjg4ZkljRDJEaDNLQWY5S01mUWdhYU5Hcnc?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 08:42:15 GMT",
+          "source": "매일경제 마켓"
         },
         {
-          "title": "코스피 장 초반 2.3% 급락… 5634선까지 밀려 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jQllWYlVaTS1SWkd4TjYxeXRzVjdiSldiN1MzampldTdhS243Zy1OQktlX1FrUzNnSkhXdnI0RkFYUWRDbXFsVEFrSzdJV080YmRVWWxTZUxlMWpjSnFwejhVY3dRTGFUaU5BaHJRNmQ3UzY5YnhGbGZBd1J6Zw?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 00:28:00 GMT",
-          "source": "서울신문"
+          "title": "코스피 급락 후폭풍…주택 거래 위축·집값 하방 압력 커지나 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ORHpSQkotLWpybi0yZ3VZdTRhTUplRGdlV1dBbGlza0FNaGp2WV8tUVo2QTlHUlp2eXFBYUFJdTJ0Z2YxVGZkLWtGRVd5bUpLMTJwSGNTUDNfXy1D?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 06:23:00 GMT",
+          "source": "뉴스핌"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.44,
+    "vix": 18.71,
     "vvix": 106.93,
     "skew": 161.86,
     "move": 101.3
@@ -87,16 +87,16 @@
       "sma_200": 24935.35
     },
     "kospi": {
-      "current": 5520.68,
+      "current": 5552.74,
       "high_52w": 9385.59,
-      "drop_pct": -41.18,
+      "drop_pct": -40.84,
       "intraday_low_drop_pct": -41.47,
-      "sma_200": 6427.23
+      "sma_200": 6427.39
     },
     "kosdaq": {
-      "current": 782.79,
+      "current": 781.97,
       "high_52w": 1229.42,
-      "drop_pct": -36.33,
+      "drop_pct": -36.4,
       "intraday_low_drop_pct": -37.1,
       "sma_200": 979.89
     },
@@ -249,7 +249,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 125.405,
+    "strategy_pct": 170.702,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1073,7 +1073,7 @@
       },
       {
         "date": "2026-10-20",
-        "ret_pct": 125.405
+        "ret_pct": 170.702
       }
     ],
     "monthly_breakdown": [
@@ -1133,9 +1133,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -78.0,
-        "end_ret_pct": 125.41,
-        "max_dd_pct": 87.76
+        "return_pct": -32.7,
+        "end_ret_pct": 170.7,
+        "max_dd_pct": 48.63
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
