@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T07:26:57.867849+09:00",
+  "timestamp": "2026-10-21T09:44:13.220858+09:00",
   "sentiment": {
     "cnn_fng": 27.2,
     "cnn_components": {
@@ -14,9 +14,28 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 7,
-      "greed_articles": [],
+      "greed_count": 3,
+      "fear_count": 17,
+      "greed_articles": [
+        {
+          "title": "'고점서 41% 폭락' 왜 코스피만 공포에 질렸나…원화·국고채는 강세 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBraTZRSzRDNElMeGkzaHUwdndsaUNYVUZra3VRcGJYS3JycjhlQUpCNWtsaVNheXVnNl8yRXZjeHp6S2N2ZG5aQ3RQekVpQlRxbkNTeFU0QmE2a2hGWFZ3cTl6c2NHckNrZVRKNGlndW0?oc=5",
+          "pub_date": "Wed, 21 Oct 2026 00:31:12 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "코스피 폭락할때 고고히 상승한 대만…“메모리 쏠림 韓과 대비” [오늘 나온 보고서] - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Dc1RzZk5HbERWZUtTcVdxLXQ0dzluVXVtQ1FEMjJ0M3pRYWtOMWgzeFlxX2Z6amVUTkg1VExiUDZ5SnM0YVR0dnMzd0dkYXpkQUE?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 23:57:34 GMT",
+          "source": "매일경제 마켓"
+        },
+        {
+          "title": "[뉴욕증시] \"탄광의 카나리아\" AI 거품론 공포탄은 한국 기업? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hUDlnamg5d3dVbzliWTFzRnJXSEtNMzJxYllXUVo5V1FGaTBMRXdCc3M0c2hCUzFNN2k1bHdlR3c5VTltWGRFMXhtdXpBMGxjUUNhRzNQbXV2cmVuZHc?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 21:38:00 GMT",
+          "source": "YTN"
+        }
+      ],
       "fear_articles": [
         {
           "title": "코스피 급락에도 \"67만전자·470만닉스 전망\"...이유는? [스타트경제] - YTN",
@@ -25,28 +44,28 @@
           "source": "YTN"
         },
         {
-          "title": "코스피 4% 가까이 급락‥유럽발 악재도 덮쳐 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1V094UWxoOG55UjZ3bDV3ZGp0UmgtUWt3NVZIV19KTk9FZmpFeXhwVFBWYTg0cVRJNUVJTWN4ZjU1M2Fvd1YwMFdPNGJqUjVsM2p0RGZiRXlJWUx0QnBhX1dxcUlaZ3NjaXhxTlRCQVpZSDlNOTg3b9IBeEFVX3lxTE1VS1I4Q2NiNDkxdHJOVEVneF9NWmViZjdVbkx5ZTZkel9aODk2TTZ0ZEJubTZmc2hyaEhyWFg2Ml9Pd0RBU3FmTnRfaXE2dTlXZkZZMkVMUlY4dHNld1A4cjFFVGJBVTYtN1dHbzhiRjJXZEVsQjBLSQ?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 16:10:00 GMT",
-          "source": "MBC 뉴스"
+          "title": "“외국인들 돌아오나요?”…코스피 3%대 상승, 전날 급락 폭 회복 중 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nRk9mX2dBdnFNcnV1TDEzR3lpay1zOGFydXRiMzRVVVVxbHp6aElKQXJOMUhxZ2E0eDZnSmROaS1MMkJaUEVBU1ExamE3UmRVQnc?oc=5",
+          "pub_date": "Wed, 21 Oct 2026 00:36:28 GMT",
+          "source": "매일경제 마켓"
         },
         {
-          "title": "증시 반등했지만…'한국 AI 30% 폭락'에 숨죽인 빅테크[뉴욕마감] - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80NFIyRldjUzhWNUFoVzlpTlFIaXlxS21uYmxrT2FLY05WYWFMeEFOd2I3ZktCMTNDZDJzdjdlTGh6SGtQb0JxdmIxNlN0a1EzVE5adFM1bXFKUzJkcjU0c1Z2ZnpYR2tpVXpvcGM1YlJNaFp5TEHSAXtBVV95cUxQXzlIWGx1amxQQS1HNlJ3X2lRUW1OOFFMQlpUeURRMGZHX2Q0UFdGSWVaU0FIZkJHT2R0LVZ0cVJRNEh2QWI3TjRTenZMNFZmMXlwZXFBaVN0WWFNU1l1eGFMSWxaUXBCOVFGT011MnR6elZydEZmVnRXcms?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 21:52:25 GMT",
-          "source": "머니투데이"
+          "title": "대형주 급락에 반등세 꺾인 코스피...오늘 증시는? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16dXNkOTU0RnZMM2ZxZDJDRGFZd1dpNmRXc3NSaDV5LUhEVjNnQXdXaHhld3JBT2NxSU9sU3VxZ04tcjM2WDVlbTJ2ZWRsTHdKWXF6RGxKcG5OLTFpQ3c?oc=5",
+          "pub_date": "Wed, 21 Oct 2026 00:02:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "코스피 다시 3% 급락…우리만 왜 더 떨어지나 - SBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLXZUN3ZzR1NCRGp3VHdLNmcyU2JobzVtTkhzcFRoX0VabEpDeUJJenF0M0Y4OXprNkNkZDJadlJ2eXptaUdUZlJJUlNjeUJuZ3RyamRnWmdQcmQwM3QtYmNnYUEyaVdNb0cyVU9qN3FUaUpMd09rWW0zZ19tS05qWkxQU2tld9IBZkFVX3lxTFBza01tYVZtRkF1UFpMY2d0aVYzSjV1QWMzc0RsaW4taXlJX0F2eXdmY3EyVDlHbTlrLUxadnk1LThlcW81OEpyajFZYjQxck56d0QwaUJ0RmRCcV9nZWozWUZ1dWZ0dw?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 15:46:56 GMT",
-          "source": "SBS 뉴스"
+          "title": "캐피털이코노믹스 \"美증시 15% 이상 급락 전망…국채는 강세\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JYlhhSEt5eVlKNWhHeHFPT3ZHeHBOeWxvczktUHhLS2R4Vm94WXBMUG1kNlVzeTNVV0l6UWxLQ3gzUXh0V09nYlVRQVkzTzNGRHdmaTEtZ3JIWmVRZ0pZVGVYeXBFZW8zTjJwS3R0dzLSAXRBVV95cUxPaEd3MGVLY0lTMlZRSE9ib3ZrUThaV0hYWVgtYmJGWlM4QjRNbjQycWlSOGxXT0d1b096Q2J2RWNWbjU3dmlrSExJUy1CT2FqNUdqM09yX1k5bmlrRHZ1QjZGOGNYM3d0YXpQUEgxa0VhT3N1dg?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 22:59:26 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "\"급락한 코스피, 반등은 언제쯤\"…이달 말 빅테크 실적·AI 투자계획 주목 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiYWtSbWJDZEtlUVN1aG9IMzFOVUdUdi0xTllxV3ZNam13SFVlVTRnb29tMjJYdV9keHBWUXd2OXJNS0ZfZ0d5UEJzTHo4ZjQyTEhOSDhqYm1ISlgycC1fd9IBeEFVX3lxTE9lNDY3UktRV1hFTjJXeXVyWjV3VmZhN1padlF3S2NTVzR6U3RpMm16eXJaOEQtcE9zNWVjSDQ5RUlrZEJidGdDTFFGQkdkVGNMMV9LclM2NkIyUTVNcERDcjhibGdCejVhekVHRXB5ZUxJV3pVUFk0bQ?oc=5",
-          "pub_date": "Tue, 20 Oct 2026 21:50:00 GMT",
-          "source": "뉴시스"
+          "title": "코스피 3.73% 급락 뒤 반등할까…메타 실적에 쏠린 눈 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tLVEtUUtDaGxQczZFRE8wQ2tLSkxIckpad3UxZFpOZWJRQU1GemxrS09yOHdXSmY1QlJzeFhJN25xbHVudXRBcFB1eVRTd2h4WHdpZW1HWHNRdw?oc=5",
+          "pub_date": "Tue, 20 Oct 2026 23:22:00 GMT",
+          "source": "경북매일"
         }
       ]
     }
@@ -74,18 +93,18 @@
       "sma_200": 24951.29
     },
     "kospi": {
-      "current": 5768.01,
+      "current": 5728.15,
       "high_52w": 9385.59,
-      "drop_pct": -38.54,
-      "intraday_low_drop_pct": -41.52,
-      "sma_200": 6419.73
+      "drop_pct": -38.97,
+      "intraday_low_drop_pct": -40.01,
+      "sma_200": 6428.26
     },
     "kosdaq": {
-      "current": 808.89,
+      "current": 802.42,
       "high_52w": 1229.42,
-      "drop_pct": -34.21,
-      "intraday_low_drop_pct": -37.12,
-      "sma_200": 980.56
+      "drop_pct": -34.73,
+      "intraday_low_drop_pct": -35.53,
+      "sma_200": 979.99
     },
     "sp500": {
       "current": 7712.57,
@@ -102,20 +121,20 @@
       "sma_200": 2797.19
     },
     "soxx": {
-      "current": 500.01,
+      "current": 501.93,
       "high_52w": 655.95,
-      "drop_pct": -23.77,
-      "intraday_low_drop_pct": -25.34,
-      "sma_200": 469.15
+      "drop_pct": -23.48,
+      "intraday_low_drop_pct": -23.69,
+      "sma_200": 468.22
     }
   },
   "sector_rs": {
-    "XLK": 0.997,
-    "SMH": 0.908,
-    "BOTZ": 0.934,
-    "IGV": 1.13,
-    "XLF": 0.967,
-    "XLE": 1.134
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 60.13,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 82.34,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.92,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -193,8 +212,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-10-20",
-    "analyzed_at": "2026-10-20T09:28:47.125325+09:00",
+    "date": "2026-10-21",
+    "analyzed_at": "2026-10-21T09:44:19.976366+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -202,16 +221,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "ybCBD2N9zkU",
-        "title": "삼성전자·SK하이닉스가 살아나야 코스피도 산다…오늘 시장 3가지 포인트는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-10-20T00:09:15Z",
-        "url": "https://youtube.com/watch?v=ybCBD2N9zkU",
+        "video_id": "qj5F8MHFNKs",
+        "title": "코스피 폭락, 정말 위기일까? “급등 후유증 겪는 중”…외국인 매도세와 반등 조건 | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-10-21T00:21:07Z",
+        "url": "https://youtube.com/watch?v=qj5F8MHFNKs",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 시장의 특정 조건(삼성전자·SK하이닉스 상승)을 언급하며 코스피의 방향성을 분석하고, 오늘 시장의 핵심 포인트를 제시하는 질문 형태이며, 어떠한 구체적인 매수/매도/현금화 등의 행동 권고가 포함되어 있지 않습니다. 영상 설명란의 나머지 내용은 전부 광고 및 정보성 내용으로 시장 스탠스와 무관합니다."
+          "reason": "전문가는 코스피 폭락 상황을 진단하며 '급등 후유증'과 '외국인 매도세'를 언급하고 '반등 조건'을 분석하는 등 시장 상황에 대한 중립적인 설명을 제공할 뿐, 구체적인 매수 또는 매도 행동을 권고하지 않습니다."
         }
       },
       {
@@ -224,7 +243,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 시장 상황을 '지옥 같은 코스피'로 매우 부정적으로 진단하고 '살아남을' 단어를 언급하며 경각심을 표현하지만, 현금화, 비중 축소, 매도 등과 같은 구체적인 행동 권고가 명확히 제시되지 않아 엄격한 기준에 따라 neutral로 분류합니다."
+          "reason": "제목에서 '지옥 같은 코스피'로 시장 상황에 대한 부정적인 인식을 드러내지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 명확히 없어 'warning'으로 분류하기 어렵습니다."
         }
       }
     ],
@@ -236,7 +255,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 169.296,
+    "strategy_pct": 168.877,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1064,7 +1083,7 @@
       },
       {
         "date": "2026-10-21",
-        "ret_pct": 169.296
+        "ret_pct": 168.877
       }
     ],
     "monthly_breakdown": [
@@ -1124,8 +1143,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -34.11,
-        "end_ret_pct": 169.3,
+        "return_pct": -34.53,
+        "end_ret_pct": 168.88,
         "max_dd_pct": 48.63
       }
     ],
