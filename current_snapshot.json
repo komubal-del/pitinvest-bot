@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T07:30:36.338036+09:00",
+  "timestamp": "2026-10-22T09:54:43.503919+09:00",
   "sentiment": {
     "cnn_fng": 31.3714285714286,
     "cnn_components": {
@@ -15,22 +15,9 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "코스피 17% 빠질 때 32% 뛰기도…10월 급락장속 빛난 회사들 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zSTg3WjVYb01JWFl1UlZMbTRFQ216aUFmMVA4QlF2U1NzXy1KLVRtdmNIYlVoNDZJRWhRZFVJWUY1XzFoeXZab2pEcWZlc0xiNmxTS3NSN3Q4RDU0YU9RVS13?oc=5",
-          "pub_date": "Wed, 21 Oct 2026 22:13:00 GMT",
-          "source": "아시아경제"
-        },
-        {
-          "title": "[AI 카드뉴스] 증시 책갈피 | 'AI 빚' 의심에 급락, AI 실적에 반등…널뛴 코스피 - 메트로신문",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QWd6allTRUI5RFM4ODJKd2JHMHRjWTR0VWtCeHJGYVdyaVN6VzZRMm5BZFhUdmhpbldfTTFIbXgzaTB0c2VXbXJlOW5LUlR2Y0dRRnV3ejVCTTQ2SEFWMQ?oc=5",
-          "pub_date": "Wed, 21 Oct 2026 20:43:56 GMT",
-          "source": "메트로신문"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
@@ -56,18 +43,18 @@
       "sma_200": 24967.83
     },
     "kospi": {
-      "current": 5552.74,
+      "current": 5663.86,
       "high_52w": 9385.59,
-      "drop_pct": -40.84,
-      "intraday_low_drop_pct": -41.47,
-      "sma_200": 6427.39
+      "drop_pct": -39.65,
+      "intraday_low_drop_pct": -39.65,
+      "sma_200": 6435.18
     },
     "kosdaq": {
-      "current": 781.97,
+      "current": 781.52,
       "high_52w": 1229.42,
-      "drop_pct": -36.4,
-      "intraday_low_drop_pct": -37.1,
-      "sma_200": 979.89
+      "drop_pct": -36.43,
+      "intraday_low_drop_pct": -36.71,
+      "sma_200": 979.15
     },
     "sp500": {
       "current": 7757.17,
@@ -84,20 +71,20 @@
       "sma_200": 2798.36
     },
     "soxx": {
-      "current": 510.36,
+      "current": 500.01,
       "high_52w": 655.95,
-      "drop_pct": -22.2,
-      "intraday_low_drop_pct": -23.26,
-      "sma_200": 470.12
+      "drop_pct": -23.77,
+      "intraday_low_drop_pct": -25.34,
+      "sma_200": 469.15
     }
   },
   "sector_rs": {
-    "XLK": 1.01,
-    "SMH": 0.915,
-    "BOTZ": 0.928,
-    "IGV": 1.179,
-    "XLF": 0.968,
-    "XLE": 1.117
+    "XLK": null,
+    "SMH": null,
+    "BOTZ": null,
+    "IGV": null,
+    "XLF": null,
+    "XLE": null
   },
   "signals": {
     "cnn_under_10": false,
@@ -133,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.14,
+    "tqqq_profit_pct": null,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 92.97,
+    "soxl_profit_pct": null,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.75,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -175,8 +162,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-10-21",
-    "analyzed_at": "2026-10-21T09:44:19.976366+09:00",
+    "date": "2026-10-22",
+    "analyzed_at": "2026-10-22T09:54:49.038795+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -184,16 +171,16 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "qj5F8MHFNKs",
-        "title": "코스피 폭락, 정말 위기일까? “급등 후유증 겪는 중”…외국인 매도세와 반등 조건 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-10-21T00:21:07Z",
-        "url": "https://youtube.com/watch?v=qj5F8MHFNKs",
+        "video_id": "_lnx0OrZydU",
+        "title": "방향 잃은 코스피…앞으로 3주가 고비, 시장 대응 전략은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-10-22T00:16:42Z",
+        "url": "https://youtube.com/watch?v=_lnx0OrZydU",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 코스피 폭락 상황을 진단하며 '급등 후유증'과 '외국인 매도세'를 언급하고 '반등 조건'을 분석하는 등 시장 상황에 대한 중립적인 설명을 제공할 뿐, 구체적인 매수 또는 매도 행동을 권고하지 않습니다."
+          "reason": "영상 설명란에 전문가의 발언 내용이나 구체적인 투자 행동 권고가 없으며, 제목만으로는 리스크에 대한 경각심 수준으로 판단됩니다."
         }
       },
       {
@@ -206,7 +193,7 @@
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 '지옥 같은 코스피'로 시장 상황에 대한 부정적인 인식을 드러내지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 명확히 없어 'warning'으로 분류하기 어렵습니다."
+          "reason": "제목에서 현재 시장 상황(지옥 같은 코스피)을 언급하며 그 안에서 살아남을 방법(양극단)을 제시할 것으로 보이지만, 영상 설명란에는 구체적인 매수, 매도, 현금화 또는 비중 축소와 같은 행동 권고가 명시되어 있지 않습니다."
         }
       }
     ],
@@ -218,7 +205,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 172.93,
+    "strategy_pct": 173.6,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1050,7 +1037,7 @@
       },
       {
         "date": "2026-10-22",
-        "ret_pct": 172.93
+        "ret_pct": 173.6
       }
     ],
     "monthly_breakdown": [
@@ -1110,8 +1097,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -30.47,
-        "end_ret_pct": 172.93,
+        "return_pct": -29.81,
+        "end_ret_pct": 173.6,
         "max_dd_pct": 48.63
       }
     ],

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "analyzed_at": "2026-10-21T09:44:19.976366+09:00",
+  "date": "2026-10-22",
+  "analyzed_at": "2026-10-22T09:54:49.038795+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,16 +8,16 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "qj5F8MHFNKs",
-      "title": "코스피 폭락, 정말 위기일까? “급등 후유증 겪는 중”…외국인 매도세와 반등 조건 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-10-21T00:21:07Z",
-      "url": "https://youtube.com/watch?v=qj5F8MHFNKs",
+      "video_id": "_lnx0OrZydU",
+      "title": "방향 잃은 코스피…앞으로 3주가 고비, 시장 대응 전략은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-10-22T00:16:42Z",
+      "url": "https://youtube.com/watch?v=_lnx0OrZydU",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "전문가는 코스피 폭락 상황을 진단하며 '급등 후유증'과 '외국인 매도세'를 언급하고 '반등 조건'을 분석하는 등 시장 상황에 대한 중립적인 설명을 제공할 뿐, 구체적인 매수 또는 매도 행동을 권고하지 않습니다."
+        "reason": "영상 설명란에 전문가의 발언 내용이나 구체적인 투자 행동 권고가 없으며, 제목만으로는 리스크에 대한 경각심 수준으로 판단됩니다."
       }
     },
     {
@@ -30,7 +30,7 @@
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "제목에서 '지옥 같은 코스피'로 시장 상황에 대한 부정적인 인식을 드러내지만, 현금화, 비중 축소, 매도와 같은 구체적인 행동 권고가 명확히 없어 'warning'으로 분류하기 어렵습니다."
+        "reason": "제목에서 현재 시장 상황(지옥 같은 코스피)을 언급하며 그 안에서 살아남을 방법(양극단)을 제시할 것으로 보이지만, 영상 설명란에는 구체적인 매수, 매도, 현금화 또는 비중 축소와 같은 행동 권고가 명시되어 있지 않습니다."
       }
     }
   ],
