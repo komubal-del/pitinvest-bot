@@ -1,61 +1,37 @@
 {
-  "timestamp": "2026-10-22T20:38:34.420664+09:00",
+  "timestamp": "2026-10-23T01:01:50.782457+09:00",
   "sentiment": {
-    "cnn_fng": 28.7846153846154,
+    "cnn_fng": 20.5758241758242,
     "cnn_components": {
-      "momentum": 47.0,
+      "momentum": 22.2,
       "strength": 17.6,
-      "breadth": 20.2,
-      "put_call": 19.6,
-      "junk_bond": 49.4,
-      "volatility": 27.7,
-      "safe_haven": 20.0
+      "breadth": 20.0,
+      "put_call": 20.8,
+      "junk_bond": 34.6,
+      "volatility": 19.2,
+      "safe_haven": 10.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 34,
+      "fear_count": 1,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[亞증시-종합] 기술주 매도세 속 하락 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rMFNGWHUxT2RubDFrRjI5MnRlSWFuRmpPYVlDVUdKbTZqY01RLURqZUczOU1FVmR4M25CT2UzeDJNeXZMZ295Y1VxUWF6ZllxSU1ycUFiOWhaLWw5bkk0MTZ6czYtdk1DZ01NY0JJTHU?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 10:33:04 GMT",
+          "title": "美 국채가, 글로벌 증시 급락에 가파른 상승세 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JVWpDai1Dc2ViSDZyVWF6QkE5Q3JzWkVGS0VfODR4MEVsTjBHOUVvSFYxTURjOEpUeVU0VWpjWEdRT2k4LTNnLVp0UTk4cXVydGl5anNSUGRIaFhUdEVad1owdTFBUXVSemxBSkNZR00?oc=5",
+          "pub_date": "Thu, 22 Oct 2026 15:30:58 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "[마감] 코스피, AI 수익성 의구심·수급 공백에 3.52% 급락…5530선 후퇴 By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8waTZPNVVQekxnY19XN3UtaFVMaUJrNzBUdjVjblhFNk5QQzFhRWNmRHE5cjNsbnE1aUNJZko0dG9kSURSVTRaYkZWTWFiMmYyc2hxakdJTWhqYVBZdm9lZ0RMLTZDSmprZ2tDQ1pybUQ?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 08:28:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "코스피, 3.5% 급락한 5,533…메타 호실적에도 AI 의구심 지속(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44cjJFVk5pcXBlYnNqUURQRDFxRmZfMGllelhnaC1PZzJ3c25aOVQxWHYxbVNNbl9lRVBGaENyRFFqeXpJdjJPQUJxaHFOa2puUEd2eHF2U1dxOUnSAWBBVV95cUxNNlhlVl9aVEZHYVpjNXZWQ2lMd19GdXlzNDlBYWNfZlliM0hZZElVY2Y1R09FSU8wdDJpb1cxQ2cwNm9ZMGdVWmpObUlNOUY3YmdTYm0wUmRoaERSckJ4RGQ?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 07:25:52 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피·코스닥 3%대 동반 급락…투자심리 위축 - 팍스경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NQTFhTk9PTk9wWkVOaUZXZXQ3TTA2TnpmOUtJX0lIb1pITU1mNXZkTi1DVFZHbTVIZDAyXzJ3a0hUaXVNRTE0V2xBdGM4QzZXQjh4OTMwdmQ1cE1PRnNfQVFfcDA0Mnkw?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 08:30:16 GMT",
-          "source": "팍스경제TV"
-        },
-        {
-          "title": "코스피 하루만에 급락…AI 수익성·금리 이슈 작용 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hWDMyb0NNNTNYUDhFR0xIcEM3azJVYUk2VWtmRHVTNEVKSFNoX0ppSHo2dlQ2a2k2Tk53ai1ONVExZ3BKeE1PaHRDd0dvMlZWWDk3dTlYRzJWQVh5cEhsbnBoTS1fNjA?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 09:06:00 GMT",
-          "source": "연합뉴스TV"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.33,
-    "vvix": 94.55,
+    "vix": 18.77,
+    "vvix": 102.47,
     "skew": 150.36,
-    "move": 95.94
+    "move": 103.86
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -67,55 +43,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26702.86,
+      "current": 26171.04,
       "high_52w": 27722.75,
-      "drop_pct": -3.68,
-      "intraday_low_drop_pct": -4.39,
-      "sma_200": 24967.83
+      "drop_pct": -5.6,
+      "intraday_low_drop_pct": -5.98,
+      "sma_200": 24980.95
     },
     "kospi": {
-      "current": 5533.77,
+      "current": 5735.66,
       "high_52w": 9385.59,
-      "drop_pct": -41.04,
-      "intraday_low_drop_pct": -41.55,
-      "sma_200": 6442.62
+      "drop_pct": -38.89,
+      "intraday_low_drop_pct": -40.01,
+      "sma_200": 6435.54
     },
     "kosdaq": {
-      "current": 764.1,
+      "current": 792.76,
       "high_52w": 1229.42,
-      "drop_pct": -37.85,
-      "intraday_low_drop_pct": -38.06,
-      "sma_200": 978.43
+      "drop_pct": -35.52,
+      "intraday_low_drop_pct": -36.11,
+      "sma_200": 979.21
     },
     "sp500": {
-      "current": 7757.17,
+      "current": 7676.52,
       "high_52w": 7844.52,
-      "drop_pct": -1.11,
-      "intraday_low_drop_pct": -1.72,
-      "sma_200": 7284.21
+      "drop_pct": -2.14,
+      "intraday_low_drop_pct": -2.53,
+      "sma_200": 7287.87
     },
     "russell2k": {
-      "current": 2781.02,
+      "current": 2772.88,
       "high_52w": 3069.71,
-      "drop_pct": -9.4,
-      "intraday_low_drop_pct": -9.69,
-      "sma_200": 2798.36
+      "drop_pct": -9.67,
+      "intraday_low_drop_pct": -10.01,
+      "sma_200": 2799.31
     },
     "soxx": {
-      "current": 510.36,
+      "current": 482.42,
       "high_52w": 655.95,
-      "drop_pct": -22.2,
-      "intraday_low_drop_pct": -23.26,
-      "sma_200": 470.12
+      "drop_pct": -26.46,
+      "intraday_low_drop_pct": -27.19,
+      "sma_200": 470.89
     }
   },
   "sector_rs": {
-    "XLK": 1.01,
-    "SMH": 0.915,
-    "BOTZ": 0.928,
-    "IGV": 1.179,
-    "XLF": 0.968,
-    "XLE": 1.117
+    "XLK": 0.991,
+    "SMH": 0.88,
+    "BOTZ": 0.915,
+    "IGV": 1.198,
+    "XLF": 0.987,
+    "XLE": 1.107
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 65.14,
+    "tqqq_profit_pct": 54.55,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 92.97,
+    "soxl_profit_pct": 61.4,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.75,
+    "koru_profit_pct": -97.13,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
