@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T08:13:26.124959+09:00",
+  "timestamp": "2026-10-23T10:39:57.120495+09:00",
   "sentiment": {
     "cnn_fng": 19.8131868131868,
     "cnn_components": {
@@ -15,7 +15,7 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 25,
+      "fear_count": 41,
       "greed_articles": [],
       "fear_articles": [
         {
@@ -25,28 +25,28 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "[글로벌증시] AI 투자 우려 재부상…나스닥 2.6% 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pSVN2cDNHV0ktbm44N3diOEpJSTQzZnBxZjBINDFOVmlNRkQ4azVfREdBUGtlTDAzSkN4bjhhNFBCVlYwM3lSSFM5cTNBMzE0VmxCc1A3OXdCNnFpQjJNTWN4M2tMaHc?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 21:50:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "코스피 3% 급락에 5300선…AI 자금조달 우려, 빅테크로 번지나 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMW85WFhaTl9PcVctN09ZRlpmUms4TzhrWHNia2x6Ykg3NExNc2NvOGVxYXl5d2UtYTBBblRNR3VkM1dhN01zOFktYzAwaXpNWVQyNUIwTWRKU0dadTZ5M2NLY3VuX1k?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 00:42:00 GMT",
+          "source": "한겨레"
         },
         {
-          "title": "[뉴욕증시] 반도체주 '와르르'...나스닥 2.6% 폭락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb0ZWT1JnQWRYNHpXdGI5eXVQZnRjVUZrSHJDc3FQQVh3VTh0eUE5c0RyRkV4dmtlTDRsakpwM3ZJd19hdDNHQXlqUl9pbmFmQml4T0l0bXRwQ04wR1U4MDJDb1lPOGJRNHd4T0RhbEtheVY3OGc5YmZiOWpLQ3R4YTRPOE9Ua2Nl?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 20:48:28 GMT",
-          "source": "글로벌이코노믹"
+          "title": "미국 기술주 급락에 코스피 3.4%↓…코스닥도 3% 하락 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RX0NzZUR4RWxfcERacEJpNV9lRzVrSnhRdzZLdmVPTlNnZjVkYWpoZEQ3c0x1YTZDaTdVUUhNdHdMYnFvQzVoRlFGckxLb3RTam5LSTAzOFY3X1lHcjFIR2t6VHBuWmliSjdKelZFWklqUQ?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 00:37:31 GMT",
+          "source": "인더스트리뉴스"
         },
         {
-          "title": "뉴욕증시, AI 투자 회의론에 나스닥 2.6% 급락…메타 7%대↓ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QeG1lU1JaQTZWbTBWRlhDaEdDZzFmMFJpT0FXRGZuaWhrXzhrOXFEUkl0dGNTd0NkNDJGYVJaQ0w3US1PZ1FNUzQ2cG9JZWdIZHY4M3lmVUNqUC1f?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 20:25:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피, 美 AI·반도체주 급락에 3%대 하락...코스닥도 3%대 약세 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fZF9kdEhXNXZiMEYtX2J3YklFZmc3c21KV2RFOVRWZU1wU2doY2l2N2h1WmYxZW5FTDB0M2JZVEpwRGQyRTlxYWdfbVVwb2o3REJtLTNjZ29rbmQ4N2h6UmxJbWZFLTZu?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 00:54:06 GMT",
+          "source": "녹색경제신문"
         },
         {
-          "title": "‘AI 불안’에 고유가까지 겹악재…뉴욕 증시 급락 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XQ1FUWmpXN2ZSTTZnRVZCVTJOdGJEdVE3aElpa0lBZGl5WTFuWF91S08zNEw2a2l6cklMM2daaWl4QlhYdHFIUzladndWcUVyWURmLW52YmYtdTJxNkZpOHpPNW5XZw?oc=5",
-          "pub_date": "Thu, 22 Oct 2026 21:33:00 GMT",
-          "source": "KBS 뉴스"
+          "title": "“코스피 5000선도 깨질라”…이틀째 3%대 급락 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41a29VUmstSlpfanRpQTBWSThmNWplR2xvM2p1NVF3R3p3TTZkRWtPRnlwVW9NSXhkeXZXd3JldDJrSldjbjgwQW56S0xsSl84Tlpzc3VTSktBSEtfRkVESENRVWw?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 00:28:42 GMT",
+          "source": "디지털데일리"
         }
       ]
     }
@@ -74,18 +74,18 @@
       "sma_200": 24980.14
     },
     "kospi": {
-      "current": 5735.66,
+      "current": 5400.31,
       "high_52w": 9385.59,
-      "drop_pct": -38.89,
-      "intraday_low_drop_pct": -40.01,
-      "sma_200": 6435.54
+      "drop_pct": -42.46,
+      "intraday_low_drop_pct": -43.47,
+      "sma_200": 6449.08
     },
     "kosdaq": {
-      "current": 792.76,
+      "current": 739.58,
       "high_52w": 1229.42,
-      "drop_pct": -35.52,
-      "intraday_low_drop_pct": -36.11,
-      "sma_200": 979.21
+      "drop_pct": -39.84,
+      "intraday_low_drop_pct": -40.39,
+      "sma_200": 977.55
     },
     "sp500": {
       "current": 7663.43,
@@ -236,7 +236,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 159.125,
+    "strategy_pct": 159.288,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1072,7 +1072,7 @@
       },
       {
         "date": "2026-10-23",
-        "ret_pct": 159.125
+        "ret_pct": 159.288
       }
     ],
     "monthly_breakdown": [
@@ -1132,9 +1132,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -44.28,
-        "end_ret_pct": 159.12,
-        "max_dd_pct": 54.04
+        "return_pct": -44.12,
+        "end_ret_pct": 159.29,
+        "max_dd_pct": 53.88
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
