@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T10:39:57.120495+09:00",
+  "timestamp": "2026-10-23T15:29:11.795661+09:00",
   "sentiment": {
     "cnn_fng": 19.8131868131868,
     "cnn_components": {
@@ -14,9 +14,22 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 41,
-      "greed_articles": [],
+      "greed_count": 2,
+      "fear_count": 33,
+      "greed_articles": [
+        {
+          "title": "'중간선거 후 美 증시 상승' 공식 깨지나…AI 거품 우려에 경고음 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xZUdCT1dKU2lsTXhkNW1kNm1qRlZIOU93VnBxZU1yNEJsb1FMekg4cGZTTWtXQTctRW9EYTc1LVZMX1JzcVBfaDk0RGNZRmlrQkhBMWZaRGZZeEpJ?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 06:09:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "메타發 AI버블론 재점화… 코스피 장중 5400선 붕괴 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42OTQtQWdjNUZlV3ZYblZmaGNhN0d4NVY0ODdQbW5HaXB1d0tRX2pkOG0wY3NSM1hTYlpvX2UxNncydm9kclR5MlA4X2ZEbmlx?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 03:00:33 GMT",
+          "source": "문화일보"
+        }
+      ],
       "fear_articles": [
         {
           "title": "[뉴욕증시] 메타, AI의 늪에 빠져드나…나스닥 2.6% 급락 - 연합인포맥스",
@@ -25,28 +38,28 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "코스피, 美반도체주 급락에 약세…5,400선 내줘 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaTjRfRF9OSzk2bXJxejlHWWl4NU5lUHVnOTBuX0NERmJHMy1GOVd1QlN2YmVlbXVxd3IzTUpDOTlqOXJFM1Fpb0lhLVBrX09JWUVsUjg4R0ZhcllwTVZiMlMxeEJCTUk?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 03:03:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "증시 나란히 급락 출발...코스피 장중 5,400선 하회 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhNTkzS1E0STVkVkRjM3lQVXNrUGRvdmtZcVUtbWdtNDBSSHB0R3NEeTBXWXpXeWpabTRoY1RGOWVlekFPaWlRYy10Wl9fNDZ1RHpGanlpSXNxMVg4M0E?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 02:41:00 GMT",
+          "source": "YTN"
+        },
+        {
           "title": "코스피 3% 급락에 5300선…AI 자금조달 우려, 빅테크로 번지나 - 한겨레",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMW85WFhaTl9PcVctN09ZRlpmUms4TzhrWHNia2x6Ykg3NExNc2NvOGVxYXl5d2UtYTBBblRNR3VkM1dhN01zOFktYzAwaXpNWVQyNUIwTWRKU0dadTZ5M2NLY3VuX1k?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 00:42:00 GMT",
+          "pub_date": "Fri, 23 Oct 2026 04:20:00 GMT",
           "source": "한겨레"
         },
         {
-          "title": "미국 기술주 급락에 코스피 3.4%↓…코스닥도 3% 하락 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RX0NzZUR4RWxfcERacEJpNV9lRzVrSnhRdzZLdmVPTlNnZjVkYWpoZEQ3c0x1YTZDaTdVUUhNdHdMYnFvQzVoRlFGckxLb3RTam5LSTAzOFY3X1lHcjFIR2t6VHBuWmliSjdKelZFWklqUQ?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 00:37:31 GMT",
-          "source": "인더스트리뉴스"
-        },
-        {
-          "title": "코스피, 美 AI·반도체주 급락에 3%대 하락...코스닥도 3%대 약세 - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fZF9kdEhXNXZiMEYtX2J3YklFZmc3c21KV2RFOVRWZU1wU2doY2l2N2h1WmYxZW5FTDB0M2JZVEpwRGQyRTlxYWdfbVVwb2o3REJtLTNjZ29rbmQ4N2h6UmxJbWZFLTZu?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 00:54:06 GMT",
-          "source": "녹색경제신문"
-        },
-        {
-          "title": "“코스피 5000선도 깨질라”…이틀째 3%대 급락 - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41a29VUmstSlpfanRpQTBWSThmNWplR2xvM2p1NVF3R3p3TTZkRWtPRnlwVW9NSXhkeXZXd3JldDJrSldjbjgwQW56S0xsSl84Tlpzc3VTSktBSEtfRkVESENRVWw?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 00:28:42 GMT",
-          "source": "디지털데일리"
+          "title": "AI 충격에 한국·일본 증시 급락…아시아 전반 하락세 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2Wnp6anp0TThTaE9SbWRfTDZnZ29nT1psWkxZNXlFUVFRLXNBWmlDQWZLLVl4ZWVjdFhCaWRUNi1NRi1EYTAyeDNFbE52M18wUkFJTTZDajFMblRQY25uYmJkVU5pUTNScEdYUE5fQmg?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 03:25:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ]
     }
@@ -74,18 +87,18 @@
       "sma_200": 24980.14
     },
     "kospi": {
-      "current": 5400.31,
+      "current": 5532.27,
       "high_52w": 9385.59,
-      "drop_pct": -42.46,
+      "drop_pct": -41.06,
       "intraday_low_drop_pct": -43.47,
-      "sma_200": 6449.08
+      "sma_200": 6449.74
     },
     "kosdaq": {
-      "current": 739.58,
+      "current": 751.39,
       "high_52w": 1229.42,
-      "drop_pct": -39.84,
+      "drop_pct": -38.88,
       "intraday_low_drop_pct": -40.39,
-      "sma_200": 977.55
+      "sma_200": 977.61
     },
     "sp500": {
       "current": 7663.43,
