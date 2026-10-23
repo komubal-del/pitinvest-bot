@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-10-23T15:29:11.795661+09:00",
+  "timestamp": "2026-10-23T21:08:04.444845+09:00",
   "sentiment": {
-    "cnn_fng": 19.8131868131868,
+    "cnn_fng": 26.7012987012987,
     "cnn_components": {
       "momentum": 22.6,
-      "strength": 17.6,
-      "breadth": 20.8,
-      "put_call": 18.2,
+      "strength": 18.8,
+      "breadth": 26.0,
+      "put_call": 61.8,
       "junk_bond": 32.2,
-      "volatility": 17.7,
+      "volatility": 15.9,
       "safe_haven": 9.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 2,
-      "fear_count": 33,
+      "fear_count": 27,
       "greed_articles": [
+        {
+          "title": "“SK하이닉스가 구세주”…코스피 반등에 개미들, 저점 매수 나설까 [머니+] - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80VnJKYnREeUZaOU1kbXdEcjI0NGpZM19nNVFsZi14RW9lS2JZZWRiMUZhMGhwVlNYTmlxOHhaUHRaeGV2Q1RrWkQ1UTRzczY3QnZNT0dlTjJYdEE?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 07:08:28 GMT",
+          "source": "에너지경제신문"
+        },
         {
           "title": "'중간선거 후 美 증시 상승' 공식 깨지나…AI 거품 우려에 경고음 - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xZUdCT1dKU2lsTXhkNW1kNm1qRlZIOU93VnBxZU1yNEJsb1FMekg4cGZTTWtXQTctRW9EYTc1LVZMX1JzcVBfaDk0RGNZRmlrQkhBMWZaRGZZeEpJ?oc=5",
           "pub_date": "Fri, 23 Oct 2026 06:09:00 GMT",
           "source": "뉴스핌"
-        },
-        {
-          "title": "메타發 AI버블론 재점화… 코스피 장중 5400선 붕괴 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42OTQtQWdjNUZlV3ZYblZmaGNhN0d4NVY0ODdQbW5HaXB1d0tRX2pkOG0wY3NSM1hTYlpvX2UxNncydm9kclR5MlA4X2ZEbmlx?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 03:00:33 GMT",
-          "source": "문화일보"
         }
       ],
       "fear_articles": [
@@ -38,34 +38,34 @@
           "source": "연합인포맥스"
         },
         {
+          "title": "[마감] 코스피, SK하이닉스 반등에 0.30% 상승…장중 4% 급락 딛고 5550선 By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZQXJRMk1VWGRRUVJzSXFDOERDdW1UaGNTRWt2RkFtVzZSWU04TUVYT2E0aW12akRfU1ZuZjBjRkRIU0g5WW9XRURnaHB1djZBWDJENVl2djloZ2lTQVdZRFFPUzVQRWhGYXp0ako0dzA?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 09:03:18 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[1023마감체크] 코스피, 장중 4%대 급락 딛고 반등... 5500선 사수 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42TE10NTBzdVBPV1dJZDBiN0tBZFpzbkszdFZ5bFR4SDVDall0WVRwZm1Pa0dDejhkbXNsUXRYWFFYdWUxazZqd1dHZnI5bndfQm01dmtOb1VabThvd2JfXzdOMjc2NXRfbXVqOWZva0o?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 09:00:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
           "title": "코스피, 美반도체주 급락에 약세…5,400선 내줘 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaTjRfRF9OSzk2bXJxejlHWWl4NU5lUHVnOTBuX0NERmJHMy1GOVd1QlN2YmVlbXVxd3IzTUpDOTlqOXJFM1Fpb0lhLVBrX09JWUVsUjg4R0ZhcllwTVZiMlMxeEJCTUk?oc=5",
           "pub_date": "Fri, 23 Oct 2026 03:03:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "증시 나란히 급락 출발...코스피 장중 5,400선 하회 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhNTkzS1E0STVkVkRjM3lQVXNrUGRvdmtZcVUtbWdtNDBSSHB0R3NEeTBXWXpXeWpabTRoY1RGOWVlekFPaWlRYy10Wl9fNDZ1RHpGanlpSXNxMVg4M0E?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 02:41:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "코스피 3% 급락에 5300선…AI 자금조달 우려, 빅테크로 번지나 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMW85WFhaTl9PcVctN09ZRlpmUms4TzhrWHNia2x6Ykg3NExNc2NvOGVxYXl5d2UtYTBBblRNR3VkM1dhN01zOFktYzAwaXpNWVQyNUIwTWRKU0dadTZ5M2NLY3VuX1k?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 04:20:00 GMT",
-          "source": "한겨레"
-        },
-        {
-          "title": "AI 충격에 한국·일본 증시 급락…아시아 전반 하락세 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2Wnp6anp0TThTaE9SbWRfTDZnZ29nT1psWkxZNXlFUVFRLXNBWmlDQWZLLVl4ZWVjdFhCaWRUNi1NRi1EYTAyeDNFbE52M18wUkFJTTZDajFMblRQY25uYmJkVU5pUTNScEdYUE5fQmg?oc=5",
-          "pub_date": "Fri, 23 Oct 2026 03:25:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "코스피, 장중 4% 급락 딛고 0.30% 상승 마감…삼성전자·SK하이닉스 반등 - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55VWxJa3I4STByWS1FNDRRT1lZTzlRMDA4TGsxTjZHSjhWZXc4T1NJNVBvc3JrZHFJS3hnbUY4R0sxdDM4Z2lMOE9HcmY3Ql9FSHIxbG96WVV5WG9raXo5RDVGMWl0Sml6MGRNNlJZS2o2Zw?oc=5",
+          "pub_date": "Fri, 23 Oct 2026 08:52:21 GMT",
+          "source": "인더스트리뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.03,
+    "vix": 19.54,
     "vvix": 107.94,
     "skew": 152.39,
     "move": 106.84
@@ -87,16 +87,16 @@
       "sma_200": 24980.14
     },
     "kospi": {
-      "current": 5532.27,
+      "current": 5550.3,
       "high_52w": 9385.59,
-      "drop_pct": -41.06,
+      "drop_pct": -40.86,
       "intraday_low_drop_pct": -43.47,
-      "sma_200": 6449.74
+      "sma_200": 6449.83
     },
     "kosdaq": {
-      "current": 751.39,
+      "current": 751.69,
       "high_52w": 1229.42,
-      "drop_pct": -38.88,
+      "drop_pct": -38.86,
       "intraday_low_drop_pct": -40.39,
       "sma_200": 977.61
     },
