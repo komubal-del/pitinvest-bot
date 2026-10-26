@@ -1,92 +1,68 @@
 {
-  "timestamp": "2026-10-26T16:00:31.322613+09:00",
+  "timestamp": "2026-10-26T23:06:35.030038+09:00",
   "sentiment": {
-    "cnn_fng": 20.9809523809524,
+    "cnn_fng": 26.5744136460554,
     "cnn_components": {
-      "momentum": 17.6,
-      "strength": 18.6,
-      "breadth": 23.4,
-      "put_call": 21.2,
-      "junk_bond": 40.2,
-      "volatility": 16.7,
-      "safe_haven": 9.2
+      "momentum": 22.8,
+      "strength": 24.0,
+      "breadth": 24.6,
+      "put_call": 33.0,
+      "junk_bond": 36.2,
+      "volatility": 35.8,
+      "safe_haven": 10.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 5,
-      "fear_count": 10,
+      "greed_count": 1,
+      "fear_count": 8,
       "greed_articles": [
         {
-          "title": "코스닥, 고점 대비 38% 하락…SK증권 \"바닥 다지는 중\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FQUJGaUhyamxGUGVCb2Z0WmdOcDdvNnZYZFR2Yk9ucXB5RGZLRHNOSE42d1FSa3FoRnFvSS1LS01KcjIxYnhuM3J5aFFmdXFkUUlESE1oMmxYN0VXdDI1StIBYEFVX3lxTE9FQUJGaUhyamxGUGVCb2Z0WmdOcDdvNnZYZFR2Yk9ucXB5RGZLRHNOSE42d1FSa3FoRnFvSS1LS01KcjIxYnhuM3J5aFFmdXFkUUlESE1oMmxYN0VXdDI1Sg?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 01:20:57 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스닥, 고점 대비 38% '뚝'…SK증권 \"바닥 다지기 돌입\" - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ3ViQURCVlhuVUdPdmVadkJqRUpfU2todGtIeEY3SVpGU1JwalRnaUdaY2hjcmRLOFFpWk95RjZZUkpieUczM0pXUnh3amotQnN5YU1kN1UwSExrR3MyNFZjN1Y3MGllbmNydHluQzVyUFFacFJfb1k0S0tQOC1vTVhyX0cxckhh?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 04:39:40 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "코스닥, 고점 대비 38% 폭락에 신용청산 압력 완화…반등 신호?[SK證] - 조세일보",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FSldwdXl5NGV5WXk2RVdhX3VyeF9kd1JqZUwxUC1WZ2d0dVYteF9kSTJCNjRvbU42MG1RM3ZoWG1Pb1RvbWxoU1J5ak1ra0hGVEZFVFF0LTBGTjJULWtr?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 03:24:24 GMT",
-          "source": "조세일보"
-        },
-        {
-          "title": "고점 대비 38% 폭락한 코스닥…SK증권 \"악재 딛고 바닥 쳤다\" - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Lc3dWVHVYQmRtX19QQmctV1RpTWprTk1ubkN1clpjUTF0dnBCa1Q2QW1ORmZSZWc0T1ZsX0pyejJMTVFRQmFJWWlSeTYtWlNjdlJwYkw5c1h4cXU3Rko0b0MwdVlzVXJWNUlzN3F3QVJWdw?oc=5",
-          "pub_date": "Sun, 25 Oct 2026 23:24:12 GMT",
-          "source": "KB Think"
-        },
-        {
-          "title": "코스닥, 고점 대비 38% 하락…SK증권 \"바닥 다지는 중\" - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QNGFWZlR4bjhNWUdBY2dpSGgwQzhvRDB0UGQ2aFlmZ3o3czhyLVJKZ1c2YW9RZHJCdm9ISVNHdmNBUW1JQmVGNlJLVjRmMHczcmc?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 01:20:57 GMT",
-          "source": "매일경제 마켓"
+          "title": "빚투 급감하면 주가 바닥…코스닥 반등 공식 이번에도 통할까? - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91eG9oUjMxVlJyNXlXRUJmQlpINXk0ZXZsc2Fqa2F3azh6bDk0V0pkaklBR01HZi1MZDk5cEhuUFVYWlVQS0h6amVjSkdKVmtsS0NOOEpDLVZpQQ?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 07:05:53 GMT",
+          "source": "한국경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "[증시 레이더] 코스피 ↓ 5,469.47⋯7개월 만에 최저, 코스닥도 3%대 급락 - 포커스온경제",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZUXdCdElCZThvajNfbjZ6bDV4Zkg3Uzl6TFhydlF2RXNNcGpwUXBpM0xZcW5tMjZmQzhXcUJGTXhvb1lhNlVwU3I1UEJmM3pxX0EzRzRGRjNKN0RYdWc?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 06:56:09 GMT",
-          "source": "포커스온경제"
+          "title": "코스피, 6개월 만에 5,400선 마감···코스닥도 3%대 급락 - 대구MBC",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBLbHBtRDRkN08tUGcyM2h2UU9BMEFNZ1FfbzhETmp0RmZPNW1YemdKUVBpQ1B5cWdQdGJyMUtEck11b0xNenU1Rkc1bG4?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 07:28:57 GMT",
+          "source": "대구MBC"
         },
         {
-          "title": "1200→750 코스닥 38% 급락…SK증권 “바닥권 진입, 급반등은 아직” - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mRUpZeEdydkRtYjIzc0k0b0h4c1BoSmdKWU1zYzQwUXZEaTgxa3pOeXFuREY3R0NhRmpZTHR6QUx5WlpNRlFyczQxcW8yUTdvOXFteWFKcnQ1bWtHNHkxcTh3d3o?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 06:22:08 GMT",
-          "source": "디지털데일리"
+          "title": "룰라 재선에 브라질 금융시장 발작…증시 10% 급락·채권 금리 급등 - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQano5OHhNU0dNR0VYQmUwc1J5NzlDUnJMRG5EdW81dXJXbW43blFteDdMR3VqbVdkYmI5aktTNWdoYmhVTlUxRlRfeDBaYUJCZ0JZd1Jzc1V6YjJDejVjVmZpaWpuNnpaRlJxYVB1RmQxZw?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 13:30:31 GMT",
+          "source": "KB Think"
         },
         {
-          "title": "외국인 매도세에 낙폭 키우는 코스피…5400선으로 - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU09rbk56N0xTSzZ0RTlaUkFJYTVaeW5xdWVZU3E4VjVsOERtai1xM3dhTlBqZHI5OEM5bFNFSHdhYzloYTJNN0lHQy1NR3lvYXF6eG9YQW5SM1J4ZHBWTUpKclkwNVVkSzJyTVlLYVgtMlo1anZNeGc5bzAwS2l5M1ZzZ0xxTTI20gGcAUFVX3lxTE1hV2R3RDlRSkhiS1lYSjhsMlJWbFVHWTQzSkdWaVRxVkVlbHNib3RSNkpIbjd4S1JnYmd1aXRNQUlaVFVQU1dmYWxpRWZpMGhYdS11bzNmLWRGNktSOW44YzE2NmFOMmRzS1FXVHJDb0Fxc0tpT1haWjNNY3dUNWlOa1dlWnFiRXBjRTZyZkgtSnVHR0pfMWVPZFM3UQ?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 02:28:00 GMT",
-          "source": "Chosunbiz"
+          "title": "코스피, 6개월여 만에 최저치 5469.47로 내려앉아…코스닥은 3.26% 급락 📉 - 뉴닉",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1OcEI2VDlSbWY2ZVB3T0cxWUxscW1LRURUUW0wbEY3M2g0WTlXQ0JqeXIwc2taRmpMMjVkSTBIaXhRYmliNFlUNGVzTXZpSWNjdkJr?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 10:15:21 GMT",
+          "source": "뉴닉"
         },
         {
-          "title": "코스피·코스닥 낙폭 확대…SK하이닉스, 장중 하락 전환 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10cVpsWG5VeWVOVl9ZOGlyT29aN1c0dDhPQjBSQ1ZaYTZRVUNqdXJZYmJzVmdCWWx4cVZ0N21PRmhMWmxLTlU1M0RGMkM1R2xZTV9pNXpRTjd3cFJN?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 04:30:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피, 6개월여 만에 5,400선까지 밀리며 마감‥코스닥 3%대 급락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0cjRtOXV6a0pRZXpZaDJ1UDlkSnJRTDFfQkhGdlMyUEJwckR3QXNDSFZRZC1ocWlsSFpZYW5UQ3RWNHd0QTdqUG5EM1J4ZVlORWhKRlZqMUlCTkotMnJ5RjMwdThNek9QR2xmS0xPdEZfSjBF0gF0QVVfeXFMUDRyNG05dXprSlFlelloMnVQOWRKclFMMV9CSEZ2UzJQQnByRHdBc0NIVlFkLWhxaWxIWllhblRDdFY0d3RBN2pQbkQzUnhlWU5FaEpGVmoxSUJOSi0ycnlGMzB1OE16T1BHbGZLTE90Rl9KMEU?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 06:51:46 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "李대통령 지지율 소폭 내린 35.3%…\"증시급락·전세난에 하락세\"[리얼미터](종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNaTVfR05OWWU2Y2o5WGN5LXE1aDNvSWgtMjJrVGdsVmY5SmNOUVJFM1dGdDR4S1Z4ZDNjcnUtSXNXeWptbHFQdXhqWV9ramRpZ0Myb0Iwb2IxM1XSAWBBVV95cUxQYmZxUEdzUHNwbmVoYk1BWVlTVGZzNTVqT3VMVDlrbmlfbmVHbHlkWU9OUE9TVk5wbW9nMUt3eTZTM3I2OF9USC1NRy1uaEI4X2Y3ZzViOGRHTHQwakNoMzc?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 00:24:05 GMT",
-          "source": "연합뉴스"
+          "title": "외국인 매도세에 코스피 5400선으로 밀려… 코스닥도 7월 말 이후 최저(종합) - 천지일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80cVhrN2h2aE9PLXlIbjAyRGphaUtRR29SUUplbWc1ajFaWmRJVWhfanZSUmlxOC05MnB6Y0lmWFJEYks1MDA5RFVEbTJVNjNnbWh5VzA0OWx5TDB1T3hLX19IQm9kMFlGX2c?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 08:00:00 GMT",
+          "source": "천지일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.45,
-    "vvix": 109.7,
+    "vix": 18.53,
+    "vvix": 104.17,
     "skew": 151.8,
-    "move": 103.31
+    "move": 104.24
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -98,11 +74,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25955.34,
+      "current": 26013.77,
       "high_52w": 27722.75,
-      "drop_pct": -6.38,
-      "intraday_low_drop_pct": -6.7,
-      "sma_200": 24991.99
+      "drop_pct": -6.16,
+      "intraday_low_drop_pct": -6.26,
+      "sma_200": 25004.66
     },
     "kospi": {
       "current": 5469.47,
@@ -119,34 +95,34 @@
       "sma_200": 976.65
     },
     "sp500": {
-      "current": 7623.68,
+      "current": 7657.56,
       "high_52w": 7844.52,
-      "drop_pct": -2.82,
-      "intraday_low_drop_pct": -2.96,
-      "sma_200": 7291.31
+      "drop_pct": -2.38,
+      "intraday_low_drop_pct": -2.61,
+      "sma_200": 7295.0
     },
     "russell2k": {
-      "current": 2775.9,
+      "current": 2785.85,
       "high_52w": 3069.71,
-      "drop_pct": -9.57,
-      "intraday_low_drop_pct": -10.33,
-      "sma_200": 2800.37
+      "drop_pct": -9.25,
+      "intraday_low_drop_pct": -9.5,
+      "sma_200": 2801.28
     },
     "soxx": {
-      "current": 478.2,
+      "current": 480.79,
       "high_52w": 655.95,
-      "drop_pct": -27.1,
-      "intraday_low_drop_pct": -27.88,
-      "sma_200": 471.62
+      "drop_pct": -26.7,
+      "intraday_low_drop_pct": -26.77,
+      "sma_200": 472.43
     }
   },
   "sector_rs": {
-    "XLK": 1.012,
-    "SMH": 0.911,
-    "BOTZ": 0.947,
-    "IGV": 1.219,
-    "XLF": 0.966,
-    "XLE": 1.135
+    "XLK": 1.018,
+    "SMH": 0.936,
+    "BOTZ": 0.929,
+    "IGV": 1.169,
+    "XLF": 0.96,
+    "XLE": 1.158
   },
   "signals": {
     "cnn_under_10": false,
@@ -182,19 +158,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 50.76,
+    "tqqq_profit_pct": 52.1,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 56.19,
+    "soxl_profit_pct": 58.43,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.12,
+    "koru_profit_pct": -97.18,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
