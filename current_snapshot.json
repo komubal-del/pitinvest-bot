@@ -1,68 +1,49 @@
 {
-  "timestamp": "2026-10-26T23:06:35.030038+09:00",
+  "timestamp": "2026-10-27T04:52:35.787535+09:00",
   "sentiment": {
-    "cnn_fng": 26.5744136460554,
+    "cnn_fng": 27.2426439232409,
     "cnn_components": {
-      "momentum": 22.8,
-      "strength": 24.0,
-      "breadth": 24.6,
-      "put_call": 33.0,
-      "junk_bond": 36.2,
-      "volatility": 35.8,
-      "safe_haven": 10.4
+      "momentum": 25.8,
+      "strength": 23.6,
+      "breadth": 25.0,
+      "put_call": 23.4,
+      "junk_bond": 41.6,
+      "volatility": 40.3,
+      "safe_haven": 11.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 8,
-      "greed_articles": [
-        {
-          "title": "빚투 급감하면 주가 바닥…코스닥 반등 공식 이번에도 통할까? - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91eG9oUjMxVlJyNXlXRUJmQlpINXk0ZXZsc2Fqa2F3azh6bDk0V0pkaklBR01HZi1MZDk5cEhuUFVYWlVQS0h6amVjSkdKVmtsS0NOOEpDLVZpQQ?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 07:05:53 GMT",
-          "source": "한국경제"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 3,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "코스피, 6개월 만에 5,400선 마감···코스닥도 3%대 급락 - 대구MBC",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBLbHBtRDRkN08tUGcyM2h2UU9BMEFNZ1FfbzhETmp0RmZPNW1YemdKUVBpQ1B5cWdQdGJyMUtEck11b0xNenU1Rkc1bG4?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 07:28:57 GMT",
-          "source": "대구MBC"
+          "title": "[사설]급락장에 드러난 증시밸류업의 허상 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93eHdqbnJPT0w5UUozeUlzRWlpSFZadUxEV2FTV3kydXh2cXNjRUFvSjZTX3ZlSVIyRWxtcDlkdzNwSDVPQ2M2NDQ0OXRTaGdFZE5pWGJNaENlOWVBcUlqTmZ0T0g3MmhxZ2hB0gFwQVVfeXFMTUlMNUZiNm9WaExWTVg1UlY4T0xVZlZ2OVA3NXI4ekxjQmZQWmllRmZVZW5KMEJDUW1MekJhcUd0NE5lT0RpWkVyN0daOEhJU0J4Uy1YNkh0SHpXYzJicFRuT0JmdGhPNnRmSlZVTEZNXw?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 19:00:00 GMT",
+          "source": "머니투데이"
         },
         {
-          "title": "룰라 재선에 브라질 금융시장 발작…증시 10% 급락·채권 금리 급등 - KB Think",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQano5OHhNU0dNR0VYQmUwc1J5NzlDUnJMRG5EdW81dXJXbW43blFteDdMR3VqbVdkYmI5aktTNWdoYmhVTlUxRlRfeDBaYUJCZ0JZd1Jzc1V6YjJDejVjVmZpaWpuNnpaRlJxYVB1RmQxZw?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 13:30:31 GMT",
-          "source": "KB Think"
+          "title": "룰라 재선에 브라질 금융시장 발작…증시 10% 급락·채권 금리 급등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lTmRaQ0ZGVXVpSEdHX29BQXZ4TTVmS3FpNWlYcy1DMm5ZUVJUbVVZRFlXMGJaWHdjMlFqYzc3emtzTlpEaDhpZkxVNnJNZVJjZTB2UHE3VW15VDdwU0ExbnZNZGJVUjFKQ05vOE4tdU8?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 15:30:32 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "코스피, 6개월여 만에 최저치 5469.47로 내려앉아…코스닥은 3.26% 급락 📉 - 뉴닉",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1OcEI2VDlSbWY2ZVB3T0cxWUxscW1LRURUUW0wbEY3M2g0WTlXQ0JqeXIwc2taRmpMMjVkSTBIaXhRYmliNFlUNGVzTXZpSWNjdkJr?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 10:15:21 GMT",
-          "source": "뉴닉"
-        },
-        {
-          "title": "코스피, 6개월여 만에 5,400선까지 밀리며 마감‥코스닥 3%대 급락 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0cjRtOXV6a0pRZXpZaDJ1UDlkSnJRTDFfQkhGdlMyUEJwckR3QXNDSFZRZC1ocWlsSFpZYW5UQ3RWNHd0QTdqUG5EM1J4ZVlORWhKRlZqMUlCTkotMnJ5RjMwdThNek9QR2xmS0xPdEZfSjBF0gF0QVVfeXFMUDRyNG05dXprSlFlelloMnVQOWRKclFMMV9CSEZ2UzJQQnByRHdBc0NIVlFkLWhxaWxIWllhblRDdFY0d3RBN2pQbkQzUnhlWU5FaEpGVmoxSUJOSi0ycnlGMzB1OE16T1BHbGZLTE90Rl9KMEU?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 06:51:46 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "외국인 매도세에 코스피 5400선으로 밀려… 코스닥도 7월 말 이후 최저(종합) - 천지일보",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80cVhrN2h2aE9PLXlIbjAyRGphaUtRR29SUUplbWc1ajFaWmRJVWhfanZSUmlxOC05MnB6Y0lmWFJEYks1MDA5RFVEbTJVNjNnbWh5VzA0OWx5TDB1T3hLX19IQm9kMFlGX2c?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 08:00:00 GMT",
-          "source": "천지일보"
+          "title": "브라질 증시 급락에 헤알화 약세까지…달러 기준 투자 손실률 26% - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Rb2JJU00xNHhBdHhCQmxUbkUtNFplTUwtMUxSYjJZQUVRTmdkb3pRdWxfQWUxVTJUekpNcnAwaWpOdFpPaHZXMTR2aEkyZFQ3?oc=5",
+          "pub_date": "Mon, 26 Oct 2026 18:05:58 GMT",
+          "source": "블루밍비트"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.53,
-    "vvix": 104.17,
+    "vix": 18.33,
+    "vvix": 101.54,
     "skew": 151.8,
-    "move": 104.24
+    "move": 102.25
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -74,55 +55,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26013.77,
+      "current": 26183.44,
       "high_52w": 27722.75,
-      "drop_pct": -6.16,
+      "drop_pct": -5.55,
       "intraday_low_drop_pct": -6.26,
-      "sma_200": 25004.66
+      "sma_200": 25005.51
     },
     "kospi": {
-      "current": 5469.47,
+      "current": 5550.3,
       "high_52w": 9385.59,
-      "drop_pct": -41.72,
-      "intraday_low_drop_pct": -41.88,
-      "sma_200": 6456.53
+      "drop_pct": -40.86,
+      "intraday_low_drop_pct": -43.47,
+      "sma_200": 6449.83
     },
     "kosdaq": {
-      "current": 727.21,
+      "current": 751.69,
       "high_52w": 1229.42,
-      "drop_pct": -40.85,
-      "intraday_low_drop_pct": -40.85,
-      "sma_200": 976.65
+      "drop_pct": -38.86,
+      "intraday_low_drop_pct": -40.39,
+      "sma_200": 977.61
     },
     "sp500": {
-      "current": 7657.56,
+      "current": 7677.01,
       "high_52w": 7844.52,
-      "drop_pct": -2.38,
+      "drop_pct": -2.14,
       "intraday_low_drop_pct": -2.61,
-      "sma_200": 7295.0
+      "sma_200": 7295.09
     },
     "russell2k": {
-      "current": 2785.85,
+      "current": 2789.76,
       "high_52w": 3069.71,
-      "drop_pct": -9.25,
+      "drop_pct": -9.12,
       "intraday_low_drop_pct": -9.5,
-      "sma_200": 2801.28
+      "sma_200": 2801.3
     },
     "soxx": {
-      "current": 480.79,
+      "current": 492.37,
       "high_52w": 655.95,
-      "drop_pct": -26.7,
-      "intraday_low_drop_pct": -26.77,
-      "sma_200": 472.43
+      "drop_pct": -24.94,
+      "intraday_low_drop_pct": -26.84,
+      "sma_200": 472.49
     }
   },
   "sector_rs": {
-    "XLK": 1.018,
-    "SMH": 0.936,
-    "BOTZ": 0.929,
-    "IGV": 1.169,
-    "XLF": 0.96,
-    "XLE": 1.158
+    "XLK": 1.032,
+    "SMH": 0.952,
+    "BOTZ": 0.931,
+    "IGV": 1.182,
+    "XLF": 0.952,
+    "XLE": 1.155
   },
   "signals": {
     "cnn_under_10": false,
@@ -158,19 +139,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 52.1,
+    "tqqq_profit_pct": 55.96,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 58.43,
+    "soxl_profit_pct": 69.69,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.18,
+    "koru_profit_pct": -97.03,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -243,7 +224,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 160.91,
+    "strategy_pct": 161.314,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1083,7 +1064,7 @@
       },
       {
         "date": "2026-10-26",
-        "ret_pct": 160.91
+        "ret_pct": 161.314
       }
     ],
     "monthly_breakdown": [
@@ -1143,8 +1124,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -42.5,
-        "end_ret_pct": 160.91,
+        "return_pct": -42.09,
+        "end_ret_pct": 161.31,
         "max_dd_pct": 53.88
       }
     ],
