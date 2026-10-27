@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T08:44:38.507680+09:00",
+  "timestamp": "2026-10-27T11:26:35.014088+09:00",
   "sentiment": {
     "cnn_fng": 27.0788912579957,
     "cnn_components": {
@@ -14,28 +14,9 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 3,
-      "fear_count": 12,
-      "greed_articles": [
-        {
-          "title": "[엄브렐라] 미 중간선거 후 웃었던 코스피…올해는 고점 대비 40% 급락에 통계 전제 깨졌다 - 알파경제",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9heTZHazk2RmhLa3k1NkxENk0xSHo5RlpiaGJqdGpOWjZfYjB1LVhhamE1eFFrOFFSamtwTG9QUWRCMnNuZW5FTVI2cDZ4U2Q1ZVVpNnM2UktmVmJ3ekxuRS0xQ3lzcmNLclhvVnJB?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 23:21:49 GMT",
-          "source": "알파경제"
-        },
-        {
-          "title": "닷컴버블보다 더 힘든 장세? 증시 상승 위한 ‘마지막 고비’는 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PM2JVSW5ZNmNOZ1gxUW1VRTZtQllpX0VEQ3VGeHdhcTNIdmo3TlhRWVJFZ29ndDBaRl91YVZCNDA4REM3SHVKS1daaXI4VjBodFE?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 23:25:38 GMT",
-          "source": "매일경제"
-        },
-        {
-          "title": "[밤 사이 해외뉴스] 엔비디아·마이크론이 다 먹었다? 미 증시 폭등 뒤에 숨겨진 AI 거품 경고 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qM2V5TFh3RjJhczFFSWQ4R2FnbDVZRzNTejZwbFZhWWc1R1RURWxkS0ltby1xbTd5UXp1b0JvQjJJVHNVdE1ERlp3WVFuQmQ1TVc3dDhWU0xDUQ?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 23:01:53 GMT",
-          "source": "한국경제"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 3,
+      "greed_articles": [],
       "fear_articles": [
         {
           "title": "[기자수첩] 증시 폭락, 숫자 뒤에 가려진 것들 - 조선비즈 - Chosunbiz",
@@ -44,28 +25,16 @@
           "source": "Chosunbiz"
         },
         {
-          "title": "룰라 당선에 브라질 증시 장중 17% 폭락…서킷브레이커 발동 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53NFVYVzZhdEJBUXhqS0EyRzJFbXVEcDFIS1A0YWI2NVZ0M1NEOUprUTZ6empobDRtWXhzZW5rZ3B5TEpCbUtDbDA2MUFEdnVTUGpQMFBB?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 21:41:31 GMT",
-          "source": "중앙일보"
+          "title": "룰라 예상 밖 대선 승리에 브라질 증시 14% 폭락 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pMWI5R0Y2UGZOWkowd3NoY0hfWGlFRV9fazJQX3VsRGNVTjJqaWo2WHdrMUJVUC10cTZQN1JDR3d0aDRja1ZoZmZrZFdabF94emY5dXZISWExTGl2SmxRcw?oc=5",
+          "pub_date": "Tue, 27 Oct 2026 02:06:00 GMT",
+          "source": "아시아경제"
         },
         {
-          "title": "룰라 당선에…브라질 증시 17% 폭락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTZGw5SmFZbGdFN1k4QW9DTmVwTzV3ZDF4bXhFVHFoN256MXBXZ01GanpSRVZzRjctanhSb3NiR0kwRFhJUkNReExKekF5ZnJGM0RBR1gwV09CcFg5a1c4NkhnT0cwRUk?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 20:10:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "룰라 당선에 브라질 증시 17% 폭락…금융시장 요동 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QbE9Cb0xWUms5S3VIUTk2cF94RXJJOTE5NWZibm9WN0Exb1NnclpqdFhfTUR6eGJTRnVmQUhtNDBrcC1JUWZRWVRJdF9KUWsyQTdiRkJERUZSbnl3anZPZUloMFlwVG8?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 20:11:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "룰라 재선에 브라질 증시 17% 급락‥금융시장 '요동' - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lMjFVVVNnQ21TaXZySERxdVlXZGpFM0xheW8xY1dtWTgxSDlZdWVvOG13QVFqb2VQX1dyc1VLV2YyRlVjRlVsUWljUFdUZVVDRlNnc2tNVWtPdm11RDQteDdENk9MNWZ4TUliNzEtY2ZOc1RieF91RlhR0gF6QVVfeXFMTllzbW5IbmJEUGlvZ1Z5b3RwbTRMVW05MHhQYzB4LU5JS3A2RW1wU1c0ZW5Eb3JrSUVGd2tFdmJvZWQ2QlotLXZXelFFOV8tcWhhYl8wYTlmOTZKaWE5OFRKQm4xUGQ1SEVjSzJYOWkwMl9DYUNVRDZXRmc?oc=5",
-          "pub_date": "Mon, 26 Oct 2026 21:34:08 GMT",
-          "source": "MBC 뉴스"
+          "title": "브라질 증시, 룰라 당선에 17% 급락…코로나 후 첫 서킷브레이커 발동 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hQlRtVDhUOEw5Tk1nME5nWE1VNlM3ZkNwYVdnVVJMbFVsZHp1RmhIT3ZmR1UwY3gtSEE5VWxDM0tnNUtNSUFTSnlieVNIVUJzZ09CUE53QTNWZTJJU3JJXzdxZko5Yl9ZbUtuOEpuSHlBVGfSAWZBVV95cUxQUFRiSzJSVnhVcW04MnlvSDVrV2t6NWlDcVRJanR0U0dDUTU0UmVKTUtXRHIwSjBkbVR3MS1qVmxYR21Uc3pjMEdHNU1xVjRPYk8ydzFuYms1b21TQmZzOWdPMERVQ2c?oc=5",
+          "pub_date": "Tue, 27 Oct 2026 02:05:00 GMT",
+          "source": "동아일보"
         }
       ]
     }
@@ -93,18 +62,18 @@
       "sma_200": 25005.44
     },
     "kospi": {
-      "current": 5550.3,
+      "current": 5689.52,
       "high_52w": 9385.59,
-      "drop_pct": -40.86,
-      "intraday_low_drop_pct": -43.47,
-      "sma_200": 6449.83
+      "drop_pct": -39.38,
+      "intraday_low_drop_pct": -39.75,
+      "sma_200": 6463.87
     },
     "kosdaq": {
-      "current": 751.69,
+      "current": 755.67,
       "high_52w": 1229.42,
-      "drop_pct": -38.86,
-      "intraday_low_drop_pct": -40.39,
-      "sma_200": 977.61
+      "drop_pct": -38.53,
+      "intraday_low_drop_pct": -39.58,
+      "sma_200": 975.77
     },
     "sp500": {
       "current": 7676.77,
@@ -255,7 +224,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 165.829,
+    "strategy_pct": 165.574,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1099,7 +1068,7 @@
       },
       {
         "date": "2026-10-27",
-        "ret_pct": 165.829
+        "ret_pct": 165.574
       }
     ],
     "monthly_breakdown": [
@@ -1159,8 +1128,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -37.58,
-        "end_ret_pct": 165.83,
+        "return_pct": -37.83,
+        "end_ret_pct": 165.57,
         "max_dd_pct": 53.88
       }
     ],
