@@ -1,43 +1,37 @@
 {
-  "timestamp": "2026-10-27T17:09:54.184203+09:00",
+  "timestamp": "2026-10-27T23:41:06.791924+09:00",
   "sentiment": {
-    "cnn_fng": 27.9201680672269,
+    "cnn_fng": 31.1428571428571,
     "cnn_components": {
-      "momentum": 25.4,
-      "strength": 27.2,
-      "breadth": 27.0,
-      "put_call": 22.8,
-      "junk_bond": 41.6,
-      "volatility": 40.4,
-      "safe_haven": 11.0
+      "momentum": 28.2,
+      "strength": 28.4,
+      "breadth": 27.8,
+      "put_call": 30.2,
+      "junk_bond": 42.0,
+      "volatility": 50.0,
+      "safe_haven": 11.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 2,
+      "fear_count": 1,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "패배 하루만에 출국금지 당한 보우소나루…브라질 증시는 14% 급락 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GczhjR3UzSGQ0WUlPcUljbUxuNm5KTWZnYllZREctdi1sUWQ5YlQ4UTM2YVR3VDV4ZFZkbEpYTzc3czkxWmVPQ29UTmpPaTQxdGo0Vm1R?oc=5",
-          "pub_date": "Tue, 27 Oct 2026 07:46:33 GMT",
-          "source": "중앙일보"
-        },
-        {
-          "title": "[중국증시 마감] 기술주 투매에 '커촹50' 4.81%↓…모터∙은행주로 자금 이동 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TOHhvRHdUN3E0MGJUb1UxN0oxekY3a0FIeHZUTmlXcGNGRTNQeUxDbFhkZUhrOUpOU1VqT1V6VTIzM1p4aVNHdHByUHpyZkNmN3MyQkExbUlKVUVD?oc=5",
-          "pub_date": "Tue, 27 Oct 2026 07:18:00 GMT",
-          "source": "뉴스핌"
+          "title": "유럽 증시 보합…HSBC·레킷 급락이 기술주 상승분 상쇄 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBVDQ1b3BXcnpDcUFjTmNCNHFLbTc2a2xJRmREQlVmNHlXN0U5S19kRURhb004ODVRM21nRzdSMnhqd1owOHIyWXVsaG5tOVlkRUlodG5lZ1BtTk16RVFJMnFzRjRFQ3Z2WDAyam1HQzg?oc=5",
+          "pub_date": "Tue, 27 Oct 2026 08:13:00 GMT",
+          "source": "Investing.com 한국어"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.43,
-    "vvix": 101.43,
+    "vix": 17.97,
+    "vvix": 100.1,
     "skew": 150.97,
-    "move": 102.19
+    "move": 100.34
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -49,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26169.38,
+      "current": 26346.72,
       "high_52w": 27722.75,
-      "drop_pct": -5.6,
-      "intraday_low_drop_pct": -6.26,
-      "sma_200": 25005.44
+      "drop_pct": -4.96,
+      "intraday_low_drop_pct": -5.42,
+      "sma_200": 25018.82
     },
     "kospi": {
       "current": 5638.34,
@@ -70,34 +64,34 @@
       "sma_200": 975.71
     },
     "sp500": {
-      "current": 7676.77,
+      "current": 7698.69,
       "high_52w": 7844.52,
-      "drop_pct": -2.14,
-      "intraday_low_drop_pct": -2.61,
-      "sma_200": 7295.09
+      "drop_pct": -1.86,
+      "intraday_low_drop_pct": -2.13,
+      "sma_200": 7298.75
     },
     "russell2k": {
-      "current": 2786.42,
+      "current": 2792.37,
       "high_52w": 3069.71,
-      "drop_pct": -9.23,
-      "intraday_low_drop_pct": -9.5,
-      "sma_200": 2801.28
+      "drop_pct": -9.03,
+      "intraday_low_drop_pct": -9.16,
+      "sma_200": 2802.12
     },
     "soxx": {
-      "current": 491.83,
+      "current": 502.21,
       "high_52w": 655.95,
-      "drop_pct": -25.02,
-      "intraday_low_drop_pct": -26.84,
-      "sma_200": 472.49
+      "drop_pct": -23.44,
+      "intraday_low_drop_pct": -24.02,
+      "sma_200": 473.36
     }
   },
   "sector_rs": {
-    "XLK": 1.031,
-    "SMH": 0.951,
-    "BOTZ": 0.93,
-    "IGV": 1.18,
-    "XLF": 0.952,
-    "XLE": 1.156
+    "XLK": 1.039,
+    "SMH": 0.964,
+    "BOTZ": 0.934,
+    "IGV": 1.179,
+    "XLF": 0.947,
+    "XLE": 1.137
   },
   "signals": {
     "cnn_under_10": false,
@@ -133,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 55.63,
+    "tqqq_profit_pct": 58.96,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 69.16,
+    "soxl_profit_pct": 79.74,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.04,
+    "koru_profit_pct": -96.86,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
