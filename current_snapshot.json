@@ -1,44 +1,30 @@
 {
-  "timestamp": "2026-10-28T17:47:41.004033+09:00",
+  "timestamp": "2026-10-29T00:55:10.295874+09:00",
   "sentiment": {
-    "cnn_fng": 34.2857142857143,
+    "cnn_fng": 35.1142857142857,
     "cnn_components": {
-      "momentum": 36.4,
+      "momentum": 41.6,
       "strength": 30.0,
-      "breadth": 30.8,
-      "put_call": 28.6,
-      "junk_bond": 49.6,
+      "breadth": 29.0,
+      "put_call": 24.6,
+      "junk_bond": 54.0,
       "volatility": 50.0,
-      "safe_haven": 14.6
+      "safe_haven": 16.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "코스피 반등에 투자자예탁금 90조원 회복…빚투는 30조원 하회 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51enlQM295Y3hueTE1c0JEN05PMlJUM29YSWVBV3ppelBvTnRLdzltQ21GcXYydmhFMl9sdEQ5Q0twZ0ZhalZMd3I3ZWFNSGh4cFFDel9KcGhsSXg2TGstZNIBYEFVX3lxTE51enlQM295Y3hueTE1c0JEN05PMlJUM29YSWVBV3ppelBvTnRLdzltQ21GcXYydmhFMl9sdEQ5Q0twZ0ZhalZMd3I3ZWFNSGh4cFFDel9KcGhsSXg2TGstZA?oc=5",
-          "pub_date": "Wed, 28 Oct 2026 07:12:42 GMT",
-          "source": "연합뉴스"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "하루는 급등, 하루는 급락 코스피 ‘공포지수’도 올랐어요 - 네이버페이 머니스토리",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NTkZVN3B0VkhGZ3p0TkVOOTVFVmNXcG1xemlVNXU0ZzlQWmpKVmNFcy1SVGcxRjEwRV9ZdHN3ME1JXzhBMXBGa3F0RG80RUJPNThrQVFJSG8?oc=5",
-          "pub_date": "Wed, 28 Oct 2026 05:47:47 GMT",
-          "source": "네이버페이 머니스토리"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.57,
-    "vvix": 99.45,
+    "vix": 17.2,
+    "vvix": 96.16,
     "skew": 149.22,
-    "move": 97.87
+    "move": 92.88
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -50,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26477.81,
+      "current": 26455.74,
       "high_52w": 27722.75,
-      "drop_pct": -4.49,
-      "intraday_low_drop_pct": -5.42,
-      "sma_200": 25019.47
+      "drop_pct": -4.57,
+      "intraday_low_drop_pct": -4.67,
+      "sma_200": 25033.08
     },
     "kospi": {
-      "current": 6012.44,
+      "current": 5638.34,
       "high_52w": 9385.59,
-      "drop_pct": -35.94,
-      "intraday_low_drop_pct": -38.78,
-      "sma_200": 6472.61
+      "drop_pct": -39.93,
+      "intraday_low_drop_pct": -40.2,
+      "sma_200": 6463.61
     },
     "kosdaq": {
-      "current": 771.28,
+      "current": 743.83,
       "high_52w": 1229.42,
-      "drop_pct": -37.26,
-      "intraday_low_drop_pct": -38.46,
-      "sma_200": 974.94
+      "drop_pct": -39.5,
+      "intraday_low_drop_pct": -39.8,
+      "sma_200": 975.71
     },
     "sp500": {
-      "current": 7722.6,
+      "current": 7736.22,
       "high_52w": 7844.52,
-      "drop_pct": -1.55,
-      "intraday_low_drop_pct": -2.13,
-      "sma_200": 7298.87
+      "drop_pct": -1.38,
+      "intraday_low_drop_pct": -1.61,
+      "sma_200": 7302.67
     },
     "russell2k": {
-      "current": 2818.87,
+      "current": 2819.48,
       "high_52w": 3069.71,
-      "drop_pct": -8.17,
-      "intraday_low_drop_pct": -9.16,
-      "sma_200": 2802.25
+      "drop_pct": -8.15,
+      "intraday_low_drop_pct": -8.29,
+      "sma_200": 2803.17
     },
     "soxx": {
-      "current": 511.06,
+      "current": 515.97,
       "high_52w": 655.95,
-      "drop_pct": -22.09,
-      "intraday_low_drop_pct": -24.03,
-      "sma_200": 473.4
+      "drop_pct": -21.34,
+      "intraday_low_drop_pct": -22.0,
+      "sma_200": 474.33
     }
   },
   "sector_rs": {
     "XLK": 1.065,
-    "SMH": 1.012,
-    "BOTZ": 0.946,
-    "IGV": 1.169,
-    "XLF": 0.935,
-    "XLE": 1.144
+    "SMH": 1.021,
+    "BOTZ": 0.956,
+    "IGV": 1.16,
+    "XLF": 0.938,
+    "XLE": 1.153
   },
   "signals": {
     "cnn_under_10": false,
@@ -134,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 61.56,
+    "tqqq_profit_pct": 61.99,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 88.93,
+    "soxl_profit_pct": 94.15,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.78,
+    "koru_profit_pct": -96.35,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
