@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T08:13:43.992269+09:00",
+  "timestamp": "2026-10-28T11:25:49.845122+09:00",
   "sentiment": {
     "cnn_fng": 33.6,
     "cnn_components": {
@@ -14,28 +14,22 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 1,
       "fear_count": 1,
       "greed_articles": [
         {
-          "title": "“AI 버블 붕괴? 수요 안 꺾였다”…SK證 “코스피 사모을 때”[줍줍리포트] - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11QzRFZVpzZ3AyTWw0Vk4zRjlXMEZlN3FBZDBjNGZQcEVFNnF1cnlBSG9kVjRYdDg2aHFFRmZLWXB0MWtUV2h3LUNUYzNCYVYza2fSAVNBVV95cUxPRzNzamx3UERBTEVNVXBkWHZrcE9Uak9ybnRXdXF1V0h1SF9EOUtOUVhkTGFCb3BMXzRaQ01DYUR3NURMUGQ2VkNFTXVlV0g4cHRSWQ?oc=5",
-          "pub_date": "Tue, 27 Oct 2026 21:30:00 GMT",
-          "source": "서울경제"
-        },
-        {
-          "title": "\"진짜 바닥 왔나?\"…빚투 급감에 '증시 반등 기대감 vs 신중론'[증시 반등의 조건②] - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXM09tRUtOLTV1NTNrLTNmVkNWUkFJVFBoRk5xVGY3am03OUloQ3NkbkE5cmtLczYzTjJpcFhLbkpBbEprUGJVTll5X1NxZ2RhOGdORQ?oc=5",
-          "pub_date": "Tue, 27 Oct 2026 21:00:00 GMT",
-          "source": "이투데이"
+          "title": "BofA \"美증시, 갈수록 거품에 가까운 상태로 이동\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMQ21Sb1ZkTTZOS3l2WWFaOU9ub1NZdkRmTDJudFNKVW4wUzlxeUliTHE1RHZMS0p1Y2tFcTExZ0dxUm1mX1E2dTdaX1RzbGZnSkZQcm1MQUdoSjdiWm8tOWhRUzlydkp3NnJzek9lMEo?oc=5",
+          "pub_date": "Wed, 28 Oct 2026 01:29:12 GMT",
+          "source": "연합인포맥스"
         }
       ],
       "fear_articles": [
         {
-          "title": "룰라 당선 다음날 브라질 증시 14% 급락 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xeUFpdGU3R21Pd1RwUWZRbUxwZUphVFNMdUYwR0s4cTIxc0FqWTVHSWJ2ZVN2R1B1QWNoNU05LVgwd3dNXy1UWHVTRzlQLUVVVTVoOWVVTi1WRjZfd0pndjYxRHBCRWFiam5oSE50ekZOYmfSAWZBVV95cUxNQUtwdVBVMXF3U1lLbEFjRXF4MS0zMjVPelBpakl6aHFfZDZ5LTF0ZEdpTE10enZSY0tVUjZwOWVUZEROamlqbm14Z0h5OE1kS0c5Y1piMERQZkl5X055dGF2U3NxYVE?oc=5",
-          "pub_date": "Tue, 27 Oct 2026 19:30:00 GMT",
-          "source": "동아일보"
+          "title": "하루는 급등, 하루는 급락 코스피 ‘공포지수’도 올랐어요 - 네이버페이 머니스토리",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZHNOOE5PR2FzeERONC1zaVphbmZRSEIzS25hRGtpWk9TUTZLMXZUa0ZJdVFoX21YU3ZHU2Q4TjBTbTR5VUJqT0xaVGEtN25CNlE?oc=5",
+          "pub_date": "Tue, 27 Oct 2026 23:43:04 GMT",
+          "source": "네이버페이 머니스토리"
         }
       ]
     }
@@ -63,18 +57,18 @@
       "sma_200": 25019.47
     },
     "kospi": {
-      "current": 5469.47,
+      "current": 5982.51,
       "high_52w": 9385.59,
-      "drop_pct": -41.72,
-      "intraday_low_drop_pct": -41.88,
-      "sma_200": 6456.53
+      "drop_pct": -36.26,
+      "intraday_low_drop_pct": -38.78,
+      "sma_200": 6472.46
     },
     "kosdaq": {
-      "current": 727.21,
+      "current": 769.05,
       "high_52w": 1229.42,
-      "drop_pct": -40.85,
-      "intraday_low_drop_pct": -40.85,
-      "sma_200": 976.65
+      "drop_pct": -37.45,
+      "intraday_low_drop_pct": -38.46,
+      "sma_200": 974.92
     },
     "sp500": {
       "current": 7722.6,
@@ -94,7 +88,7 @@
       "current": 511.06,
       "high_52w": 655.95,
       "drop_pct": -22.09,
-      "intraday_low_drop_pct": -24.02,
+      "intraday_low_drop_pct": -24.03,
       "sma_200": 473.4
     }
   },
@@ -225,7 +219,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 173.694,
+    "strategy_pct": 173.283,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1073,7 +1067,7 @@
       },
       {
         "date": "2026-10-28",
-        "ret_pct": 173.694
+        "ret_pct": 173.283
       }
     ],
     "monthly_breakdown": [
@@ -1133,8 +1127,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -29.71,
-        "end_ret_pct": 173.69,
+        "return_pct": -30.12,
+        "end_ret_pct": 173.28,
         "max_dd_pct": 53.88
       }
     ],
