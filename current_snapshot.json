@@ -1,30 +1,54 @@
 {
-  "timestamp": "2026-10-29T15:31:02.582695+09:00",
+  "timestamp": "2026-10-29T22:44:01.747020+09:00",
   "sentiment": {
-    "cnn_fng": 35.8285714285714,
+    "cnn_fng": 32.6285714285714,
     "cnn_components": {
-      "momentum": 43.4,
-      "strength": 30.0,
-      "breadth": 29.6,
-      "put_call": 26.6,
+      "momentum": 30.8,
+      "strength": 31.8,
+      "breadth": 32.2,
+      "put_call": 20.4,
       "junk_bond": 53.8,
       "volatility": 50.0,
-      "safe_haven": 17.4
+      "safe_haven": 9.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 19,
+      "greed_count": 2,
+      "fear_count": 24,
       "greed_articles": [
         {
-          "title": "中 CSI300 고점 대비 20% 급락…정부 돈으로 증시 방어 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nS0N1NmRFeVZYZVpMQzlqSHI1QlFaaFEzdVhMNzBkQURLQUU4SGdTcWpHWnZ2UnZObnZBY1Ezam1mM0syYU56ZlV3OVE4WUJ2dWhHZ1FzN0JHdw?oc=5",
-          "pub_date": "Wed, 28 Oct 2026 23:33:15 GMT",
-          "source": "한국경제"
+          "title": "‘무규제 대출’의 역습…폭증한 예담대, ‘빚투’로? 증시 폭락 시 위험 눈덩이 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GVlBHYnU2WHR3RHFOR0dvcWNBY0tCcHVpSHdLc3JZX1VzUnYxcm0wSVJSNTZ0Zm5wbnZSZUJOcVJ1akNLanNPMVBTX1JGdjU0cnVyRHpn?oc=5",
+          "pub_date": "Thu, 29 Oct 2026 08:48:13 GMT",
+          "source": "중앙일보"
+        },
+        {
+          "title": "버블경제 넘어선 日 증시 호황에 K-증권사도 베팅카드 만지작 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVFVFYmtxRWxjVDNkdkFSM2JQSEtaQlpHaGhsdDNtelBGQUVIQ3hVc21fMkRaZFlOeEk3S2N2bUlZdG5lYjh2SERQdnY2VGZJakhfcXo1VndzQ0tYVkpidE5GNU5qR3hkekZ2ZWNTNl9PcXFONURQckVSaG0wY0lKUXY1Yw?oc=5",
+          "pub_date": "Thu, 29 Oct 2026 08:57:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
         }
       ],
       "fear_articles": [
+        {
+          "title": "삼성전자 최대 실적에도 급락…코스피 6,000선 반납 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FVk45UTlvbHhwcnVkdnlRWWRNdU9QN1JIUVhHbUxKTnI0cW9iTGR0cWZhMjVJNDBGTFl4UFBXcFkyNVBjdWxKRWpHa0dmazNWN1NRQlgwZFgwVm5qYlBZX1pIc1ZtMkk?oc=5",
+          "pub_date": "Thu, 29 Oct 2026 09:55:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "코스피, 1.2% 내려 '6천피' 반납…최대실적 삼전 4.1% 급락(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vOXVkb29rM1ZRMUxWaTYyVVpJVkxRWmFZU1J0d1NhTW5PR2JNakU3TjZJSk1aX2dGUzMxdEttWlQxYlFlUTlURVUwOVBBYVBSN3dTTFgtQTNlRW_SAWBBVV95cUxQRVZJOXpxVHFnTDhrZnZPcFF1NVpwVVF2aUlsLVk5NHJmX1plMjdYb3lJdUxublVyck5SaG4xVUxqQTVCN05LcVY3c2l4Y0hqME43YVVlYU5lT3E0Y1h3U08?oc=5",
+          "pub_date": "Thu, 29 Oct 2026 07:06:21 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피, 1.2% 하락 마감…삼성전자 4.1% 급락 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TVE5jVFhOMWIycE12VVd1S3JqYmV1aXM1d0tyYkRHTnZqVWUwSl9oYVA0WV82TFFRSl9SdGVhR2FrSmNoN3BVYzh1cXVnY1FPT2tNOTNycGtFRWc?oc=5",
+          "pub_date": "Thu, 29 Oct 2026 07:19:00 GMT",
+          "source": "KBS 뉴스"
+        },
         {
           "title": "코스피, 삼성전자 실적 발표 후 2%대 급락…6천선 다시 하회 - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43ZnVqNVRGUVg5X240cXFxd24wYWJDYnJjZVN0ZnVwclJ4LWpEOUlzanRJbnJMOUxibHRueHNfeklXc0l1YVV4LXlOLXZYSnpNeUlITnRvd2g4Rm80Z1lXSHItLVUxUmgtQnYwNVRyQ0Q?oc=5",
@@ -32,34 +56,16 @@
           "source": "연합인포맥스"
         },
         {
-          "title": "코스피, 삼성전자 실적 발표 후 하락 전환 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xclZyeHZjQkhPbDZQcExNXzdZcGxwZVNBdzgzY0MzN2t1cVNvYW05TTJpZm5USTFQMzVyV1lRNEY3YmkyWmNObTF6bzZRQndPOUZ5ZmV0aXptbE84VXc?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 02:43:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "코스피, '세부실적' 삼성전자 급락에 하락전환…2%대 하락세 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzb0RsTFl4ZzBUYzZDWGN5cUc3WXhNNWhVeTFCak1ZTzlzdnV0c3cyVEI0RVgzajN2eVRwMnlVVk5KMWVTZDlhazY4Y3JUNEVLQV9STGw2UHlLTHfSAWBBVV95cUxPUmxvdUJUd0NjNldTcHlETUVtOFZ1ZENFSEVFMFN3MGFJTTJkYlJSQ3lvMlYtTC1HNW54d19IZ0pwSlhYY1dQdXlPdkdqRFVkcVFYSlMxVHAzTU5Sd0d2NlU?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 02:08:24 GMT",
-          "source": "연합뉴스"
-        },
-        {
           "title": "[경제읽기] 삼성전자 3분기 영업익 107조…코스피 하락 전환 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtTkpJOExpN3ZiLXNyMFQ3a3hnVzc0NGFaUC1sbkowLU9wZWZhY3pXNUl6OXVnY3NnZGdMRlV1WWdxTTd0UXRRY3phdWRtemVaa3ljUC0tU2lMemROTVdWa3FUZHhWUEU?oc=5",
           "pub_date": "Thu, 29 Oct 2026 04:20:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "삼성전자 실적 발표 후 급락…코스피 5,800선 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aUWYzWWNmckhiYnlGRHQ1QzlIcU5sc0xIYVBzb1NuaHRISG5MNm03SU4ta05LcEQ5ek1yalB2ZGNXRkVhTFoxVndTTUhNalQ2WGhLMXVIZGpvR2ZxNkVsOVZQTFJLYzg?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 02:40:00 GMT",
           "source": "연합뉴스TV"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 16.91,
+    "vix": 16.99,
     "vvix": 96.61,
     "skew": 148.74,
     "move": 94.55
@@ -74,32 +80,32 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 26549.85,
+      "current": 26174.3,
       "high_52w": 27722.75,
-      "drop_pct": -4.23,
-      "intraday_low_drop_pct": -4.72,
-      "sma_200": 25033.55
+      "drop_pct": -5.59,
+      "intraday_low_drop_pct": -6.02,
+      "sma_200": 25045.87
     },
     "kospi": {
-      "current": 5940.13,
+      "current": 5937.66,
       "high_52w": 9385.59,
-      "drop_pct": -36.71,
+      "drop_pct": -36.74,
       "intraday_low_drop_pct": -38.01,
-      "sma_200": 6480.76
+      "sma_200": 6480.75
     },
     "kosdaq": {
-      "current": 751.62,
+      "current": 753.23,
       "high_52w": 1229.42,
-      "drop_pct": -38.86,
+      "drop_pct": -38.73,
       "intraday_low_drop_pct": -39.65,
       "sma_200": 973.97
     },
     "sp500": {
-      "current": 7743.98,
+      "current": 7707.73,
       "high_52w": 7844.52,
-      "drop_pct": -1.28,
-      "intraday_low_drop_pct": -1.61,
-      "sma_200": 7302.71
+      "drop_pct": -1.74,
+      "intraday_low_drop_pct": -1.9,
+      "sma_200": 7306.43
     },
     "russell2k": {
       "current": 2830.51,
@@ -109,20 +115,20 @@
       "sma_200": 2803.23
     },
     "soxx": {
-      "current": 521.94,
+      "current": 511.76,
       "high_52w": 655.95,
-      "drop_pct": -20.43,
-      "intraday_low_drop_pct": -22.0,
-      "sma_200": 474.36
+      "drop_pct": -21.98,
+      "intraday_low_drop_pct": -22.51,
+      "sma_200": 475.26
     }
   },
   "sector_rs": {
-    "XLK": 1.082,
-    "SMH": 1.061,
-    "BOTZ": 0.952,
-    "IGV": 1.141,
-    "XLF": 0.936,
-    "XLE": 1.106
+    "XLK": 1.077,
+    "SMH": 1.052,
+    "BOTZ": 0.935,
+    "IGV": 1.108,
+    "XLF": 0.954,
+    "XLE": 1.115
   },
   "signals": {
     "cnn_under_10": false,
@@ -139,7 +145,7 @@
       "cnn_under_10": false,
       "vix_over_25": false,
       "margin_call_trigger": false,
-      "sell_leverage": true,
+      "sell_leverage": false,
       "sell_leading": false,
       "sell_expert": true
     },
@@ -158,19 +164,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 64.57,
+    "tqqq_profit_pct": 56.97,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 100.65,
+    "soxl_profit_pct": 88.73,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -96.25,
+    "koru_profit_pct": -96.62,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -243,7 +249,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 128.499,
+    "strategy_pct": 180.488,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1095,7 +1101,7 @@
       },
       {
         "date": "2026-10-29",
-        "ret_pct": 128.499
+        "ret_pct": 180.488
       }
     ],
     "monthly_breakdown": [
@@ -1155,9 +1161,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -74.91,
-        "end_ret_pct": 128.5,
-        "max_dd_pct": 84.67
+        "return_pct": -22.92,
+        "end_ret_pct": 180.49,
+        "max_dd_pct": 53.88
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
