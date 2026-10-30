@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T08:24:16.720041+09:00",
+  "timestamp": "2026-10-30T11:44:06.920928+09:00",
   "sentiment": {
     "cnn_fng": 34.6,
     "cnn_components": {
@@ -15,38 +15,38 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 14,
+      "fear_count": 62,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[AI MY 증시전망] 美 기술주 급락…코스피에도 영향, 하락 출발 전망 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpblFwbzE4alVJRlczYl94ajFVbDBMWkZBVHVvU01naHpxdU9EYjVJM0gzQklPTmo2WHJib3RNcnJyX2xOa08yMEw2SFhna09zajJEcVFLQ2U3MGpY?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 23:02:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "[속보]알파벳 12.6%↓폭락에 뉴욕증시 일제히 하락 - 문화일보",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MR1pDVmJlYVVtQmNrSXRtRS1aUFZHekZoZGpLX1puMUw4SlVuV3hiM0xaUGd6REpmYkxhYmxScThPZklqd1Z0d0Z6UnpLYkVz?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 21:15:26 GMT",
-          "source": "문화일보"
-        },
-        {
-          "title": "[글로벌증시] 뉴욕증시 하락…알파벳 급락에 나스닥 1.4%↓ - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zVk1Fb3BObEtNcDkybm1DcW5kWlJ6QTBfZkJ4NzJ3cmFnMmJNN1hUcVNWMjR0Q0lOTE4zc19rTnE0cnpOaW1SVGxmRU1mRkkta3M3UGNDd1JPRXNZNUZCaWVOaHg0aVE?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 21:49:00 GMT",
+          "title": "미국발 AI 쇼크에 코스피 급락…5,700선 후퇴 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84dHc5c0djTUZPSHkzc2pJUlFSVTRKYk9CLS1ZZHI0MEpkTE5mT1ZkTWxIRHdRRmlVVnZCQ2pzUkw3SE92V1lCREM0ZGxTaVJXSHZtM09qMWVrWnJrc1JFeGJZWUJxYTg?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 01:21:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "뉴욕증시, 알파벳 폭락에 하락 마감…나스닥 1.38%↓ - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaMEZka2xSRWRFMzN6SXNDbXg2ZVdzOWo1YlBNLXhtYzNBcWJ1RkF2X0NWWkd5RDFwaTNjc0RjRFN4WHU1NkpfTTEyNkRYbEU1Y1NuV3pmQ2RsSFN1?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 20:25:00 GMT",
-          "source": "뉴스핌"
+          "title": "[속보]코스피, 장중 4%대 급락...'매도 사이드카' 발동 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NMXF3U2lNNWxVWmtiemxSVU9GQWNKR2NrblBGdzYtb053OEFxUkQtV0tSTGVwVzNGNkdXMGdsZXp5NC14OEJ2ZWJlMTA5dmlpUXBPTzU1LXc5dXNyQmJnaw?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 01:23:32 GMT",
+          "source": "KBC광주방송"
         },
         {
-          "title": "알파벳 12% 급락 충격…코스피 하락 출발 전망 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ISlBCN3JWelRleFdaajdDUUhsUkg1OTJmOHlnZXg5M245emNSNHNyNmNiWTNoM0tHajN6amdUUEMxUWEtRkplN2FQcHh1T29MTHlVQWtUX2Zqdw?oc=5",
-          "pub_date": "Thu, 29 Oct 2026 23:13:00 GMT",
-          "source": "경북매일"
+          "title": "코스피 4%대 급락에 매도 사이드카 발동…'삼전닉스' 5~8%대↓ - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1dFB4N19KNmM5MTlBSFllQ05lWGdvS19TQ3Y4QWhjWnI0Mkppc193Nk1zN0FVV25uWTRjQ0tJaFpGLTlkTXN3MEp2LXZvWkFjSTdlSWlmeVVmQWxMX3lWSGh2UThfT3c4dDNHaWdZYnI?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 01:18:14 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[속보] 코스피 4%대 급락‥11거래일만에 '매도 사이드카' 발동 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83aklpckczTUtvVmxCUko3SVVGTXNrUzhJTjhncUp2bnRyNW5uRDk3QVJnMEZfOURqUlhHb1Z5RFJveEowQWlxWW9sZmRKaWV2QWRHZFlYczRVSVBhMFZnU2RScFMydW9xa0RCUnFmQ29nUVlz0gF0QVVfeXFMTVFCM2FNQ0h5Nkp5YmJ4YUlLX0hfTXg1SW1wNExaTEdrTDRINzB5OEZ5ZlRteldFUEJSY0lHN0xTTHFwdUZxeFFYUi01V3BSWGZoYVh4dGduaV9pZ3BFY0xMNUluUEZzY3l1eFRNX1AxVTVMT20?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 01:07:37 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "멀미나는 코스피, 오늘은 5%대 급락…코스닥도 3%대 하락 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wVFpENXpnQXBfeGNRdWpacXBMZVd2S2FGenN0UFIwdzNDbjRsanB6cUJBZTEyQldXWlB2bk5vNldJckczVVhIa0xQSlNKY1EzUG5zRw?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 01:08:00 GMT",
+          "source": "JTBC"
         }
       ]
     }
@@ -74,18 +74,18 @@
       "sma_200": 25045.93
     },
     "kospi": {
-      "current": 6012.44,
+      "current": 5632.16,
       "high_52w": 9385.59,
-      "drop_pct": -35.94,
-      "intraday_low_drop_pct": -38.78,
-      "sma_200": 6472.61
+      "drop_pct": -39.99,
+      "intraday_low_drop_pct": -40.34,
+      "sma_200": 6486.62
     },
     "kosdaq": {
-      "current": 771.28,
+      "current": 721.85,
       "high_52w": 1229.42,
-      "drop_pct": -37.26,
-      "intraday_low_drop_pct": -38.46,
-      "sma_200": 974.94
+      "drop_pct": -41.29,
+      "intraday_low_drop_pct": -41.53,
+      "sma_200": 972.8
     },
     "sp500": {
       "current": 7720.39,
@@ -177,7 +177,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -236,7 +236,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 172.893,
+    "strategy_pct": 175.188,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1092,7 +1092,7 @@
       },
       {
         "date": "2026-10-30",
-        "ret_pct": 172.893
+        "ret_pct": 175.188
       }
     ],
     "monthly_breakdown": [
@@ -1152,8 +1152,8 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -30.51,
-        "end_ret_pct": 172.89,
+        "return_pct": -28.22,
+        "end_ret_pct": 175.19,
         "max_dd_pct": 53.88
       }
     ],
