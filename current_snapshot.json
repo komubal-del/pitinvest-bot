@@ -1,58 +1,65 @@
 {
-  "timestamp": "2026-10-30T11:44:06.920928+09:00",
+  "timestamp": "2026-10-30T18:01:30.198393+09:00",
   "sentiment": {
-    "cnn_fng": 34.6,
+    "cnn_fng": 34.5310924369748,
     "cnn_components": {
       "momentum": 35.4,
-      "strength": 32.0,
-      "breadth": 35.4,
+      "strength": 32.6,
+      "breadth": 40.2,
       "put_call": 29.8,
       "junk_bond": 50.0,
-      "volatility": 50.0,
+      "volatility": 44.1,
       "safe_haven": 9.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 62,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 46,
+      "greed_articles": [
+        {
+          "title": "AI 거품론에 코스피 급락…매도 사이드카 발동 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xS3pvTXVVYk5PQlB6Q2ZjOUVRcUdUZTBENkpzMjBSTllDQjU5OVFwdFNIU2ZiTUJTcFpZdjF3TEExRmdXYjJrOHhlTHZhWkNrTk4wdlRCWDJ6ZDdaWGJQWmRRZXU5Rzg?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 02:40:00 GMT",
+          "source": "연합뉴스TV"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "미국발 AI 쇼크에 코스피 급락…5,700선 후퇴 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84dHc5c0djTUZPSHkzc2pJUlFSVTRKYk9CLS1ZZHI0MEpkTE5mT1ZkTWxIRHdRRmlVVnZCQ2pzUkw3SE92V1lCREM0ZGxTaVJXSHZtM09qMWVrWnJrc1JFeGJZWUJxYTg?oc=5",
-          "pub_date": "Fri, 30 Oct 2026 01:21:00 GMT",
+          "title": "코스피 3.48% 급락…삼성전자 3%·SK하이닉스 7%↓ - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81a1NTQkMxZGxreVdCVlphRHctNjBPdHMxX0tnOEt5ZXVET3hYWEd6MTdpSE1hTVFoX2RIYnBGeVBRWVZRc0I4UWZZNWlVRkdNS0dXckdvOFJSZw?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 06:40:44 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "코스피·코스닥, 美 빅테크 실적 부진에 3%대 급락 마감(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RSGl6VlA2ejRTVDE5UF8zTGpROUFGX2p6bEc1a0I5U0pueTE0ZFpkNjBpcEkzeGxVTlpOeWw0ZWZIZTNGS1pQb183QzBZOFN0MzZiUklRN25HeW_SAWBBVV95cUxOQkhoaDJyenhOYm5SS3JsQWx3TFV4TmhVUmllQy1ubjhmODFnNGpuVzZJd0lPOXBPWVZjaDFsSmgzYnRhTEVTVTlDSHhobzNVSVhIZ3RTRkItTXFGSDRiaGM?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 07:06:05 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "‘구글 쇼크’에 코스피 와르르…3.5% 급락해 5730선 마감 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84djRuODZhbk1oUng3WkticXdwcUEzQ1BDR0ZFYkNMZDAtSXdPYXBxZ0YxZnp4YXVub0RsTGJhVkhNZEZFTWs5V25QWElKNl9mY2I2ZF9PS0hWZ9IBX0FVX3lxTE05bUNTZ3MxSmxwMmJ1bFVpdE5qdkZOdUt2UHlxcV91T1B4TmJkVUpoWFZaOEd0WGk2Y1VGZXctc0xDZllfZzNQWEhwaENSc3hXM0c3TGlsQy1hNnNSOWFj?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 07:16:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "’AI 투자 회의론’ 재점화…코스피 3%대 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ialU0bzY4bTNEa3VRLXFmb0tXMEVNdTlMeE0xNjN4U0lJdXZIeVdlU2wxOHRSOFN5WWlueklNQy04U19Vc2JDc0plMDBtTGxDcHlxWWIwOWE0NlU5cGJYMU02ZTdHSjg?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 07:16:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "[속보]코스피, 장중 4%대 급락...'매도 사이드카' 발동 - KBC광주방송",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NMXF3U2lNNWxVWmtiemxSVU9GQWNKR2NrblBGdzYtb053OEFxUkQtV0tSTGVwVzNGNkdXMGdsZXp5NC14OEJ2ZWJlMTA5dmlpUXBPTzU1LXc5dXNyQmJnaw?oc=5",
-          "pub_date": "Fri, 30 Oct 2026 01:23:32 GMT",
-          "source": "KBC광주방송"
-        },
-        {
-          "title": "코스피 4%대 급락에 매도 사이드카 발동…'삼전닉스' 5~8%대↓ - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1dFB4N19KNmM5MTlBSFllQ05lWGdvS19TQ3Y4QWhjWnI0Mkppc193Nk1zN0FVV25uWTRjQ0tJaFpGLTlkTXN3MEp2LXZvWkFjSTdlSWlmeVVmQWxMX3lWSGh2UThfT3c4dDNHaWdZYnI?oc=5",
-          "pub_date": "Fri, 30 Oct 2026 01:18:14 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[속보] 코스피 4%대 급락‥11거래일만에 '매도 사이드카' 발동 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83aklpckczTUtvVmxCUko3SVVGTXNrUzhJTjhncUp2bnRyNW5uRDk3QVJnMEZfOURqUlhHb1Z5RFJveEowQWlxWW9sZmRKaWV2QWRHZFlYczRVSVBhMFZnU2RScFMydW9xa0RCUnFmQ29nUVlz0gF0QVVfeXFMTVFCM2FNQ0h5Nkp5YmJ4YUlLX0hfTXg1SW1wNExaTEdrTDRINzB5OEZ5ZlRteldFUEJSY0lHN0xTTHFwdUZxeFFYUi01V3BSWGZoYVh4dGduaV9pZ3BFY0xMNUluUEZzY3l1eFRNX1AxVTVMT20?oc=5",
-          "pub_date": "Fri, 30 Oct 2026 01:07:37 GMT",
+          "title": "코스피, 美 빅테크 실적 부진에 3%대 급락 마감 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3YjlocnlWbFE3SFVGYmo0cmhMYmxuTGg5TDRzVGtpOVlSQjFWcmdRVFBSTGZuLUh4ZmZMQUpGSGNDWFlHaS1Wem1SU25IdnZ4d0F6N21ndjBibHk4b25kcldFcmhta1FPck04V2pUaWpZZFhf0gF0QVVfeXFMT2o3blBrbVQ4U3oyVlJMR3lYUzhWSDZOX0dVSzl1VlBKR0o2Y3hpX1l0aTAzV1E3NHVpR3hhQ0dFM29zVDJOUHN6YU50YVBORXlxVnI4ZG16QTFNbUhtSVlVcXVJTHpKNFc5NW1VMG1XT0hwdGw?oc=5",
+          "pub_date": "Fri, 30 Oct 2026 07:59:53 GMT",
           "source": "MBC 뉴스"
-        },
-        {
-          "title": "멀미나는 코스피, 오늘은 5%대 급락…코스닥도 3%대 하락 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wVFpENXpnQXBfeGNRdWpacXBMZVd2S2FGenN0UFIwdzNDbjRsanB6cUJBZTEyQldXWlB2bk5vNldJckczVVhIa0xQSlNKY1EzUG5zRw?oc=5",
-          "pub_date": "Fri, 30 Oct 2026 01:08:00 GMT",
-          "source": "JTBC"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.2,
+    "vix": 18.26,
     "vvix": 98.01,
     "skew": 151.03,
     "move": 93.54
@@ -71,21 +78,21 @@
       "high_52w": 27722.75,
       "drop_pct": -5.55,
       "intraday_low_drop_pct": -6.02,
-      "sma_200": 25045.93
+      "sma_200": 25045.92
     },
     "kospi": {
-      "current": 5632.16,
+      "current": 5730.74,
       "high_52w": 9385.59,
-      "drop_pct": -39.99,
+      "drop_pct": -38.94,
       "intraday_low_drop_pct": -40.34,
-      "sma_200": 6486.62
+      "sma_200": 6487.11
     },
     "kosdaq": {
-      "current": 721.85,
+      "current": 724.38,
       "high_52w": 1229.42,
-      "drop_pct": -41.29,
-      "intraday_low_drop_pct": -41.53,
-      "sma_200": 972.8
+      "drop_pct": -41.08,
+      "intraday_low_drop_pct": -41.66,
+      "sma_200": 972.81
     },
     "sp500": {
       "current": 7720.39,
