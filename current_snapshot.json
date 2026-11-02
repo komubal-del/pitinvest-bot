@@ -1,74 +1,37 @@
 {
-  "timestamp": "2026-11-02T14:48:10.434242+09:00",
+  "timestamp": "2026-11-03T00:34:02.976611+09:00",
   "sentiment": {
-    "cnn_fng": 26.2386554621849,
+    "cnn_fng": 31.9428571428571,
     "cnn_components": {
-      "momentum": 14.6,
-      "strength": 32.4,
-      "breadth": 37.2,
-      "put_call": 27.8,
-      "junk_bond": 43.0,
-      "volatility": 26.5,
-      "safe_haven": 2.2
+      "momentum": 20.2,
+      "strength": 34.6,
+      "breadth": 40.8,
+      "put_call": 35.6,
+      "junk_bond": 38.0,
+      "volatility": 50.0,
+      "safe_haven": 4.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 19,
-      "greed_articles": [
-        {
-          "title": "코스피, 자사주 효과·저가 매수에 반등…5800선 회복 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0Rjbjhib05lTld4NXVNQ08zQ1gtNHRYb3ByUXRUT25lWXFPdFdFbTM5akJBZERBV2xFcmxkZ2Z1Z0k1ZUg1bzNMUk1kb3BSNDBlR2VQZDE0a0ZuWHByQUhjNjZYR3NBZzB4MDNMa1lrcEF2MUxqbWJBbEtYMkFjcDhGczN3bmdX?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 04:24:05 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "코스피 장중 상승 전환 5750선 위로, '인텔 충격'에도 저가 매수세 유입 - 비즈니스포스트",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LZ3EwRlhoM3VTYnR0UWNfalVMcnN5aWNZU0xrSXB3VDJIMTFRNUxlYS1YNmtxb0JTMmFUTUpQYzBZVjhKYWZNYXY5d0hodHY3Nlo5UllmYk1sSXFidnRQOEVBLXF0alZxcEROTWhXUzFETUE?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 01:32:16 GMT",
-          "source": "비즈니스포스트"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 1,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "美 기술주 급락에도 코스피 반등…기관이 떠받쳤다 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IQnFRdUVfa1RzYUFYVHowNjVvRTQ1MU8zTEZtVkp0cVlpVUNEUnNwYmtJZWNVT0M2NWJsNmV5blEyMzJ1QnJMbElwdjQ3eTZqVnBucG41R1RxT21oX2lHWkJSQ19tdTQ?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 02:08:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "급락 공포 털어낸 코스피…기관 매수에 5,800선 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ET1JpZF82R0NzSWlWS2V2VGIxSmg3RkxHRHFrMnpLYkVLNUZTWmUwbzd3ZnNrNC0xdWQydE5qR2JDQU1BaWRQWEV4Q2RhRk9NY0gxLUd6N2RmWlgtOHZiZzJTbHdUU1U?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 02:49:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피 1.7% 하락 출발…美 기술주 급락 여파 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xNVZ2c2xXTzZIejRkeXNiSWJENmVGeTg1cGJkcV90S1VjOFNmYmJwS1pmY3VtcjJkV3B1LXJob2lUeUNVUExGbFhHd0xtYTNBWGFEM1ZuMmRPdTZibm84OTdYUXFoNEJ5eU9udGMtTXM?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 02:40:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "美 기술주 급락에 코스피 부담…AI 투자 우려에 5700 사수전 예상 By EBN - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EUjh2MERrWjB4NDN0WDJ2Zl9MMnJKXzd0THZBUGIzSWVMbzUzWGhRRFB5THlLMUptak1ON2hVMkI4TkpsTWZIMV81cG9CczJGX2hPXzZXOXV1amV3MDVBSU01VVhYa0haOFFjN1dHRGk?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 02:40:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "기술주 급락에 미국 증시 변동성 급등…투자자들 하락 방어 수요 확대 - 더구루",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Ic18yQXZOa1ZkZE5XaHFHTHpKMFhXNmprRlliMUVJcUVnSjRVcWxMam9Hc3ZEM29ldGJ6am1SWFlwV1ZqcXZmX0h1MUFPSmpUaU5jWk1RTGpLb3h3bHl5SnIyQQ?oc=5",
-          "pub_date": "Mon, 02 Nov 2026 03:57:16 GMT",
-          "source": "더구루"
+          "title": "美나스닥 반등·유가 6% 급락…코스피 2.24% 상승에도 외국인 '삼전닉스' 수급 엇갈려 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04QnNvRGhiczQwM0NYLVpHVXJJaHA3clVnNG9qWVhhXzJ3UWp5dFZ0Z1pEOUc4VzRXR1VTWlpVZ1BTZGI4MUZFbmRTby1qUTY1akw1OUxiS2VaUlhYU3ZiQmpUY2pqaEhz?oc=5",
+          "pub_date": "Mon, 02 Nov 2026 15:03:35 GMT",
+          "source": "녹색경제신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.42,
-    "vvix": 106.43,
+    "vix": 18.15,
+    "vvix": 101.47,
     "skew": 149.76,
-    "move": 100.2
+    "move": 101.13
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -80,55 +43,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25437.0,
+      "current": 25760.96,
       "high_52w": 27722.75,
-      "drop_pct": -8.25,
-      "intraday_low_drop_pct": -9.18,
-      "sma_200": 25055.75
+      "drop_pct": -7.08,
+      "intraday_low_drop_pct": -7.77,
+      "sma_200": 25066.91
     },
     "kospi": {
-      "current": 5871.78,
+      "current": 5730.74,
       "high_52w": 9385.59,
-      "drop_pct": -37.44,
-      "intraday_low_drop_pct": -40.16,
-      "sma_200": 6493.84
+      "drop_pct": -38.94,
+      "intraday_low_drop_pct": -40.34,
+      "sma_200": 6487.11
     },
     "kosdaq": {
-      "current": 733.6,
+      "current": 724.38,
       "high_52w": 1229.42,
-      "drop_pct": -40.33,
-      "intraday_low_drop_pct": -41.74,
-      "sma_200": 971.7
+      "drop_pct": -41.08,
+      "intraday_low_drop_pct": -41.66,
+      "sma_200": 972.81
     },
     "sp500": {
-      "current": 7580.07,
+      "current": 7651.74,
       "high_52w": 7844.52,
-      "drop_pct": -3.37,
-      "intraday_low_drop_pct": -4.04,
-      "sma_200": 7309.76
+      "drop_pct": -2.46,
+      "intraday_low_drop_pct": -2.99,
+      "sma_200": 7313.29
     },
     "russell2k": {
-      "current": 2811.84,
+      "current": 2839.87,
       "high_52w": 3069.71,
-      "drop_pct": -8.4,
-      "intraday_low_drop_pct": -9.21,
-      "sma_200": 2805.16
+      "drop_pct": -7.49,
+      "intraday_low_drop_pct": -8.02,
+      "sma_200": 2805.98
     },
     "soxx": {
-      "current": 471.51,
+      "current": 477.36,
       "high_52w": 655.95,
-      "drop_pct": -28.12,
-      "intraday_low_drop_pct": -29.86,
-      "sma_200": 475.97
+      "drop_pct": -27.23,
+      "intraday_low_drop_pct": -28.22,
+      "sma_200": 476.67
     }
   },
   "sector_rs": {
-    "XLK": 1.011,
-    "SMH": 0.953,
-    "BOTZ": 0.902,
-    "IGV": 1.087,
-    "XLF": 0.982,
-    "XLE": 1.166
+    "XLK": 1.005,
+    "SMH": 0.964,
+    "BOTZ": 0.906,
+    "IGV": 1.065,
+    "XLF": 0.995,
+    "XLE": 1.169
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 41.03,
+    "tqqq_profit_pct": 45.61,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 44.02,
+    "soxl_profit_pct": 49.15,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.11,
+    "koru_profit_pct": -96.81,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
