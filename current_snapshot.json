@@ -1,74 +1,37 @@
 {
-  "timestamp": "2026-11-03T20:49:34.538107+09:00",
+  "timestamp": "2026-11-04T04:25:26.661199+09:00",
   "sentiment": {
-    "cnn_fng": 18.7739130434783,
+    "cnn_fng": 19.9913043478261,
     "cnn_components": {
-      "momentum": 13.2,
-      "strength": 35.0,
-      "breadth": 44.4,
-      "put_call": 20.4,
-      "junk_bond": 36.4,
-      "volatility": 15.2,
-      "safe_haven": 1.8
+      "momentum": 14.4,
+      "strength": 34.8,
+      "breadth": 42.6,
+      "put_call": 20.0,
+      "junk_bond": 2.2,
+      "volatility": 21.7,
+      "safe_haven": 4.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 33,
-      "greed_articles": [
-        {
-          "title": "AI 버블론에 휘청이는 亞 증시…대만 3.59% 급락[Asia마감] - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SMFZCUEhGSlh1UWRDNEZsMzI1OGtRNlU5bHdFZGphYzlDTU5COWRIY0pxMW51N1RUYUxhSlBYY2V3THhWbWlHYlpQcDh0YjBPQjBiT3hnbHpRcFI0WU9DZXZJNDdNVm1P0gFuQVVfeXFMUDhfRl8zby1neDZfaUM3MU9oQ05uQXVJVFItcUtfZHN6UzN2QjdTRU4xNUpGTk9JWkh3bTE2OTgwSmVXVXEyR1RJX2I4eFpaeHRXUWlOQWRxaTFZNjBocGtKZTdsbmMzOXREZ1BBR2c?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 08:47:45 GMT",
-          "source": "머니투데이"
-        },
-        {
-          "title": "美 ‘AI 거품론’에 코스피 3.59% 하락…삼성전자·SK하이닉스 동반 휘청 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iQVVIcDJ2MldXTjc0QkdpUlZueGt5VWJVVlM1QnFfS1BXRkNkeUdlaU1EZnllTHctV2xLcGpUdF9xSlRjeUo5SGZmWU9nMThPZm16ZFNKMThGSVB4elpLRG9zeXFJUXkwanFqT3V3TWJTd19ieHfSAWZBVV95cUxQY0VZWHJaMG52bGdNdVU3TGZUWTI5UDBNT21oWmRkVjFSX3VfdU9NS3M0NlFlRk9xVWRRZzgxSURQdk9HSHRpLU5iNUFvc1NOWmhpb05pRkRnZUxPSVRfNmx1QVFJZ2c?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 07:41:12 GMT",
-          "source": "동아일보"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 1,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "코스피, 외국인 1.5조 '매도'에 3.59% 급락…5600선서 마감 - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rV3lRSHpBQ1BUOExCanVGR2Y5aU05MHd4cl92WU04RVRoemIwUXlycVZzWm91bVVYbnV0cDRob1R3NGxzYmw5NDBnSnlqQ08zR2tja1FfOXRDVlRrOVFwNFVBS2ozYXhySVR6b3VfSXJQQQ?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 09:01:51 GMT",
-          "source": "인더스트리뉴스"
-        },
-        {
-          "title": "코스피, 美기술주 하락 영향에 3.6% 급락…코스닥도 4%↓(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iOGdTaWhmb1Fna0Nsd01GS0JzUF9JeVFjQzVEaEl6QnE1SC1idjByWmhPaVJ1WDZ0b1RPU2ZTX1g5Z1c0cm43TERxOGtTanUxZW1McnJ4OUhMN2Y1SUluZdIBYEFVX3lxTE5iOGdTaWhmb1Fna0Nsd01GS0JzUF9JeVFjQzVEaEl6QnE1SC1idjByWmhPaVJ1WDZ0b1RPU2ZTX1g5Z1c0cm43TERxOGtTanUxZW1McnJ4OUhMN2Y1SUluZQ?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 07:10:59 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "코스피·코스닥 3%대 급락…AI 투자 수익성 우려에 반도체주 '휘청' - 팍스경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NdUhVTXJvVFNVcmRqTTc0WTJZaFhEVTBzaTM2WHRmS2tWcTRCMHRUczdmWE42QjBzN1NncjJ6amhwbVJMVjZuTG5oc0F1c0lnanphYkFmM21qZFoyeXlJYjJyT3E1a1E?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 09:21:05 GMT",
-          "source": "팍스경제TV"
-        },
-        {
-          "title": "AI 우려에 외국인 매도 폭탄…코스피 3%대 급락 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80VTgwU1UzNW5xaE9EWWFNY0ltbzM3WDdWME85UFBhd2RnUlFEbHJWalQySjNKQVRncEdDeHJoQ3pOSGwtdEtzYURwcWVQWXh6YV9xLVY1S29fNi14d2VPcHZBWUFrcEU?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 07:08:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피 3.59% 내린 5648 마감...삼성전자 4.2%, SK하이닉스 5% 급락 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNlFUUjRjZkRYaUpuWTlqbW5TdnliNDdsM19NN0FTSGM0U0dmSE5UbnNKWGFQSVhkakc3Sy1JRXRJWEJLS210UFI2X0ZBdXkyV0dlNUZDRVc1TWg1U3B5ZW1FMjJwSmkyQnJhb0szUU1zdUFIa0Z3OVI2NF9pUmZ0dA?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 07:21:00 GMT",
-          "source": "조선일보"
+          "title": "​​​​​​​외국인 1.5조 매도에 코스피 3.6% 급락…美반도체 반등에도 삼성·하이닉스 수급 불안 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1T2NSRFpfcTk1alpTXzk0a1VESEJPVUc4dGNOZmVMVGdWaEpacWVJWTA0ZHVVdkdCUDlMVlE3NW5mamJkcmwxOFBjcm44SExxM0hQV0xESmhCckh2Nk5xaWFOQXpXREk4?oc=5",
+          "pub_date": "Tue, 03 Nov 2026 15:57:39 GMT",
+          "source": "녹색경제신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 21.37,
-    "vvix": 110.47,
+    "vix": 20.63,
+    "vvix": 107.64,
     "skew": 152.78,
-    "move": 100.36
+    "move": 99.93
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -80,55 +43,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25164.31,
+      "current": 25395.18,
       "high_52w": 27722.75,
-      "drop_pct": -9.23,
-      "intraday_low_drop_pct": -9.29,
-      "sma_200": 25063.92
+      "drop_pct": -8.4,
+      "intraday_low_drop_pct": -8.93,
+      "sma_200": 25073.32
     },
     "kospi": {
-      "current": 5648.79,
+      "current": 5859.08,
       "high_52w": 9385.59,
-      "drop_pct": -39.81,
-      "intraday_low_drop_pct": -40.17,
-      "sma_200": 6499.27
+      "drop_pct": -37.57,
+      "intraday_low_drop_pct": -40.16,
+      "sma_200": 6493.78
     },
     "kosdaq": {
-      "current": 704.39,
+      "current": 734.36,
       "high_52w": 1229.42,
-      "drop_pct": -42.71,
-      "intraday_low_drop_pct": -42.87,
-      "sma_200": 970.49
+      "drop_pct": -40.27,
+      "intraday_low_drop_pct": -41.74,
+      "sma_200": 971.7
     },
     "sp500": {
-      "current": 7541.4,
+      "current": 7576.31,
       "high_52w": 7844.52,
-      "drop_pct": -3.86,
-      "intraday_low_drop_pct": -3.89,
-      "sma_200": 7312.74
+      "drop_pct": -3.42,
+      "intraday_low_drop_pct": -3.81,
+      "sma_200": 7315.92
     },
     "russell2k": {
-      "current": 2805.88,
+      "current": 2825.48,
       "high_52w": 3069.71,
-      "drop_pct": -8.59,
-      "intraday_low_drop_pct": -8.62,
-      "sma_200": 2805.81
+      "drop_pct": -7.96,
+      "intraday_low_drop_pct": -8.38,
+      "sma_200": 2806.55
     },
     "soxx": {
-      "current": 453.65,
+      "current": 463.95,
       "high_52w": 655.95,
-      "drop_pct": -30.84,
-      "intraday_low_drop_pct": -31.08,
-      "sma_200": 476.56
+      "drop_pct": -29.27,
+      "intraday_low_drop_pct": -29.4,
+      "sma_200": 477.17
     }
   },
   "sector_rs": {
-    "XLK": 0.984,
-    "SMH": 0.936,
-    "BOTZ": 0.903,
-    "IGV": 1.051,
-    "XLF": 1.012,
-    "XLE": 1.156
+    "XLK": 0.992,
+    "SMH": 0.95,
+    "BOTZ": 0.901,
+    "IGV": 1.054,
+    "XLF": 1.003,
+    "XLE": 1.145
   },
   "signals": {
     "cnn_under_10": false,
@@ -164,19 +127,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 35.23,
+    "tqqq_profit_pct": 37.92,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 27.42,
+    "soxl_profit_pct": 36.06,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.18,
+    "koru_profit_pct": -97.03,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
