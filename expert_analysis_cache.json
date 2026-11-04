@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "analyzed_at": "2026-10-29T09:46:23.063106+09:00",
+  "date": "2026-11-04",
+  "analyzed_at": "2026-11-04T09:02:30.107289+09:00",
   "experts_queried": [
     "박병창",
     "윤지호"
@@ -8,29 +8,29 @@
   "expert_warning": false,
   "videos": [
     {
-      "video_id": "qlJE6Mrs9qY",
-      "title": "\"뭐가 더 센지 가려낼 시간\"…급등장에선 몰랐던 강한 종목, 조정장에서 드러난다 | 박병창 MP파트너스 대표 [마켓 인사이드]",
-      "published": "2026-10-29T00:18:11Z",
-      "url": "https://youtube.com/watch?v=qlJE6Mrs9qY",
+      "video_id": "A4Ke8oH4m4Q",
+      "title": "중간선거 이후 반도체 반등 가능성…지금 주목할 변화는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+      "published": "2026-11-03T00:14:19Z",
+      "url": "https://youtube.com/watch?v=A4Ke8oH4m4Q",
       "text_source": "description",
       "transcript_available": false,
       "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "영상 제목이 '조정장'에서 강한 종목을 가려내는 시기임을 설명하며 시장 상황을 분석하고 있지만, 구체적인 매수/매도/현금화 등 행동 권고는 없습니다."
+        "reason": "제공된 영상 설명란은 주로 광고, 채널 홍보, 프로그램 정보 등으로 구성되어 있으며, 전문가의 구체적인 매매 권고나 시장 방향성을 직접적으로 제시하는 문구가 없어 특정 스탠스를 판단할 수 없습니다."
       }
     },
     {
-      "video_id": "L2GG_DeUDa0",
-      "title": "지옥 같은 코스피에서 살아남을 단어 &#39;양극단&#39; | 윤지호 경제평론가 [주말인터뷰]",
-      "published": "2026-10-16T23:00:13Z",
-      "url": "https://youtube.com/watch?v=L2GG_DeUDa0",
+      "video_id": "Ga_R5lZOVao",
+      "title": "AI도 IT 버블처럼 끝날까 (윤지호) | 저녁7시 인포맥스라이브",
+      "published": "2026-11-04T00:00:10Z",
+      "url": "https://youtube.com/watch?v=Ga_R5lZOVao",
       "text_source": "description",
       "transcript_available": false,
-      "is_stale_fallback": true,
+      "is_stale_fallback": false,
       "analysis": {
         "stance": "neutral",
-        "reason": "현재 시장을 '지옥 같은 코스피'로 표현하며 리스크를 언급하고 있지만, 현금화/비중 축소/매도와 같은 구체적인 행동 권고가 명확히 제시되지 않고 '양극단'이라는 생존 전략을 암시하고 있기 때문에 'warning'으로 분류하기 어렵습니다."
+        "reason": "제목에서 AI 시장의 과열 가능성과 과거 IT 버블 붕괴에 대한 질문을 던지며 잠재적 리스크를 언급하지만, 구체적인 매도 또는 비중 축소 행동을 권고하지는 않는다."
       }
     }
   ],
