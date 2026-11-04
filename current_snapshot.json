@@ -1,61 +1,30 @@
 {
-  "timestamp": "2026-11-04T23:18:57.624110+09:00",
+  "timestamp": "2026-11-05T05:51:28.544461+09:00",
   "sentiment": {
-    "cnn_fng": 22.6285714285714,
+    "cnn_fng": 28.0571428571429,
     "cnn_components": {
-      "momentum": 14.2,
-      "strength": 37.6,
-      "breadth": 42.6,
-      "put_call": 7.6,
-      "junk_bond": 2.4,
+      "momentum": 28.8,
+      "strength": 39.4,
+      "breadth": 45.2,
+      "put_call": 18.0,
+      "junk_bond": 2.6,
       "volatility": 50.0,
-      "safe_haven": 4.0
+      "safe_haven": 9.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 20,
+      "fear_count": 0,
       "greed_articles": [],
-      "fear_articles": [
-        {
-          "title": "[증시-마감] 코스피, 美 중간선거에 출렁…4% 급락 딛고 상승 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5YXp4MDkyeUZyQ0RRVkNaYk02VFlzQndJVEY0TlVraFJRYl9kUHdNMDZWbGdXTWI1S0Y4R2VKNjFwOTNxNldKX05ueUg5NTNyZ2p0V3ZaX250RC1UOUxsZGs5MU5rNVVZUDBKQmZGUjc?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 07:17:56 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "코스피 '블루웨이브'에 롤러코스터…급락 딛고 0.62% 상승 - 뉴스토마토",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZLU1ITHBuQ0J6Y05VU2JnNlluRzEwNHk0R3U5ZVV5Ny1zMGhnYnZvQm5hRGdWbmxkaXBhUG1LMHRhSEdWMnBBN0Z4NGI3YXY1am9ETjJLQWVSZ2RFbUlLRw?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 07:59:38 GMT",
-          "source": "뉴스토마토"
-        },
-        {
-          "title": "코스피, 美 중간선거에 ’널뛰기’…4% 급락 후 반등 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fNnUtOHFMeHd2VVY4Z3FwWFlNWWdEcDhoR0M1aWw2NFdQbkRvbjVVcTBKNmhvUjBidDd6NUxtZWtBOUgzV0YyRGU5NjdUR1QyTHNoZDZOWmFCRk50VW55VVZibVZDSWc?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 09:39:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "美 중간선거에 증시 ’출렁’…코스피 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WZ1AzdmtRRjNLWTZ5dEZuejRfR0NnaDhPWjVfN3ZVeUZDVDZ0MGs1emhtQXFNUHM0UTVRY0VtUWFqUFVkMDdPcnkwdUpDM212b3g3d2dCVzZkMGd6dHAwdVo3cVBGUWs?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 02:52:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "\"美 중간선거발 증시 급락…관망 후 대응이 현실적\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43a0h6dXNyLWpTdWpsbnM5aEpNeHJnT0pkV2R2WXZKUXY4X0NSVnFyZ25PN0hPM3BEQURaRzBUaDM5eG50eWg4UzVqM0h5U0FsQWR6elZrcjNGS2hCMW9lRUplYXplaTV6LTRxMi1TOEY?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 06:06:23 GMT",
-          "source": "연합인포맥스"
-        }
-      ]
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 18.14,
-    "vvix": 107.4,
+    "vix": 16.64,
+    "vvix": 89.92,
     "skew": 150.01,
-    "move": 97.76
+    "move": 93.87
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -67,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25372.01,
+      "current": 25741.7,
       "high_52w": 27722.75,
-      "drop_pct": -8.48,
-      "intraday_low_drop_pct": -8.93,
-      "sma_200": 25073.21
+      "drop_pct": -7.15,
+      "intraday_low_drop_pct": -7.65,
+      "sma_200": 25087.14
     },
     "kospi": {
-      "current": 5683.8,
+      "current": 5648.79,
       "high_52w": 9385.59,
-      "drop_pct": -39.44,
-      "intraday_low_drop_pct": -42.23,
-      "sma_200": 6504.93
+      "drop_pct": -39.81,
+      "intraday_low_drop_pct": -40.17,
+      "sma_200": 6499.27
     },
     "kosdaq": {
-      "current": 714.95,
+      "current": 704.39,
       "high_52w": 1229.42,
-      "drop_pct": -41.85,
-      "intraday_low_drop_pct": -44.39,
-      "sma_200": 969.34
+      "drop_pct": -42.71,
+      "intraday_low_drop_pct": -42.87,
+      "sma_200": 970.49
     },
     "sp500": {
-      "current": 7568.92,
+      "current": 7691.06,
       "high_52w": 7844.52,
-      "drop_pct": -3.51,
-      "intraday_low_drop_pct": -3.81,
-      "sma_200": 7315.89
+      "drop_pct": -1.96,
+      "intraday_low_drop_pct": -2.66,
+      "sma_200": 7320.36
     },
     "russell2k": {
-      "current": 2812.45,
+      "current": 2855.77,
       "high_52w": 3069.71,
-      "drop_pct": -8.38,
-      "intraday_low_drop_pct": -8.44,
-      "sma_200": 2806.49
+      "drop_pct": -6.97,
+      "intraday_low_drop_pct": -7.76,
+      "sma_200": 2807.54
     },
     "soxx": {
-      "current": 465.0,
+      "current": 447.85,
       "high_52w": 655.95,
-      "drop_pct": -29.11,
-      "intraday_low_drop_pct": -29.59,
-      "sma_200": 477.17
+      "drop_pct": -31.72,
+      "intraday_low_drop_pct": -32.67,
+      "sma_200": 477.73
     }
   },
   "sector_rs": {
-    "XLK": 0.964,
-    "SMH": 0.919,
-    "BOTZ": 0.889,
-    "IGV": 1.027,
-    "XLF": 1.011,
-    "XLE": 1.169
+    "XLK": 0.947,
+    "SMH": 0.876,
+    "BOTZ": 0.887,
+    "IGV": 1.019,
+    "XLF": 1.029,
+    "XLE": 1.097
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +120,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 37.71,
+    "tqqq_profit_pct": 41.25,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 36.67,
+    "soxl_profit_pct": 21.98,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.01,
+    "koru_profit_pct": -97.16,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
