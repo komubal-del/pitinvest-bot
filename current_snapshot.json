@@ -1,36 +1,41 @@
 {
-  "timestamp": "2026-11-04T15:00:37.428382+09:00",
+  "timestamp": "2026-11-04T23:18:57.624110+09:00",
   "sentiment": {
-    "cnn_fng": 19.1486542443064,
+    "cnn_fng": 22.6285714285714,
     "cnn_components": {
       "momentum": 14.2,
-      "strength": 34.6,
-      "breadth": 42.0,
-      "put_call": 18.0,
+      "strength": 37.6,
+      "breadth": 42.6,
+      "put_call": 7.6,
       "junk_bond": 2.4,
-      "volatility": 18.8,
+      "volatility": 50.0,
       "safe_haven": 4.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 26,
-      "greed_articles": [
+      "greed_count": 0,
+      "fear_count": 20,
+      "greed_articles": [],
+      "fear_articles": [
         {
-          "title": "[美중간선거] '블루 쇼크' 덮쳤다…亞증시 폭락, 안전자산 쏠림(종합) - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WS09kTzZyVlpkb2tvWmNDOFhTUTVncC1UWGRtOEpENko0RThZSGRqTU1JRG1WN2lLLTE4cDFKVHFoMjFodGVTaEZJbUxjVTdMZ0hBalNPYmMzLUM1azFKU9IBeEFVX3lxTE8wUHdRUDhxaUtucFZLMUJOUlBJOVRlS1RzQW9Zdjc1Nld1WnpKRlIzRzh6ZHJ6Y25IZm5LYkdOa1JPbVJObnhDTTVwNFdPS3dfdTFsdUM2RVNQMlNEcFZhX0hib1BfdDZJS0k3ZDE0R1hCQ2FMYlRpVg?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 04:28:30 GMT",
-          "source": "뉴시스"
+          "title": "[증시-마감] 코스피, 美 중간선거에 출렁…4% 급락 딛고 상승 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5YXp4MDkyeUZyQ0RRVkNaYk02VFlzQndJVEY0TlVraFJRYl9kUHdNMDZWbGdXTWI1S0Y4R2VKNjFwOTNxNldKX05ueUg5NTNyZ2p0V3ZaX250RC1UOUxsZGs5MU5rNVVZUDBKQmZGUjc?oc=5",
+          "pub_date": "Wed, 04 Nov 2026 07:17:56 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "[오늘의 글로벌마켓] 뉴욕증시, 중간선거 경계감...기술주는 저가 매수세 유입 - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lSHNxdWRMWHo1Mi11UGNXS0ZhNjRvbjVKZnlDazZNa2hyTWFqQVBSTTFaSlZDckt3TXlKMm5sM0ZRem5TeXc1dTVva2ZyOE9pOE12Ym13WHhFTkJGVmhkY2E5RXRWN3JvNDFQNjBxVjA?oc=5",
-          "pub_date": "Tue, 03 Nov 2026 22:41:58 GMT",
-          "source": "오피니언뉴스"
-        }
-      ],
-      "fear_articles": [
+          "title": "코스피 '블루웨이브'에 롤러코스터…급락 딛고 0.62% 상승 - 뉴스토마토",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZLU1ITHBuQ0J6Y05VU2JnNlluRzEwNHk0R3U5ZVV5Ny1zMGhnYnZvQm5hRGdWbmxkaXBhUG1LMHRhSEdWMnBBN0Z4NGI3YXY1am9ETjJLQWVSZ2RFbUlLRw?oc=5",
+          "pub_date": "Wed, 04 Nov 2026 07:59:38 GMT",
+          "source": "뉴스토마토"
+        },
+        {
+          "title": "코스피, 美 중간선거에 ’널뛰기’…4% 급락 후 반등 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fNnUtOHFMeHd2VVY4Z3FwWFlNWWdEcDhoR0M1aWw2NFdQbkRvbjVVcTBKNmhvUjBidDd6NUxtZWtBOUgzV0YyRGU5NjdUR1QyTHNoZDZOWmFCRk50VW55VVZibVZDSWc?oc=5",
+          "pub_date": "Wed, 04 Nov 2026 09:39:00 GMT",
+          "source": "연합뉴스TV"
+        },
         {
           "title": "美 중간선거에 증시 ’출렁’…코스피 하락 전환 - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WZ1AzdmtRRjNLWTZ5dEZuejRfR0NnaDhPWjVfN3ZVeUZDVDZ0MGs1emhtQXFNUHM0UTVRY0VtUWFqUFVkMDdPcnkwdUpDM212b3g3d2dCVzZkMGd6dHAwdVo3cVBGUWs?oc=5",
@@ -38,37 +43,19 @@
           "source": "연합뉴스TV"
         },
         {
-          "title": "코스피, 3% 급등 뒤 3% 급락…美 민주당 압승 관측에 AI투자 위축 우려 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ZF9YWnBDY3hpUElhbV92aHA1aHd5WUpQenRhcURla2ZCX2xuSTlwT2FBY20yWUlDWFA0blRWQl9NbXJyMUNIcTFQUjlnVmhXendqT3ByRk0xcjR3YmpPTk9ZMVg3RnI5QmlYSmgwN2Y?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 04:06:49 GMT",
+          "title": "\"美 중간선거발 증시 급락…관망 후 대응이 현실적\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43a0h6dXNyLWpTdWpsbnM5aEpNeHJnT0pkV2R2WXZKUXY4X0NSVnFyZ25PN0hPM3BEQURaRzBUaDM5eG50eWg4UzVqM0h5U0FsQWR6elZrcjNGS2hCMW9lRUplYXplaTV6LTRxMi1TOEY?oc=5",
+          "pub_date": "Wed, 04 Nov 2026 06:06:23 GMT",
           "source": "연합인포맥스"
-        },
-        {
-          "title": "증시 10년 만의 최악 급락에…中, IPO·대주주 지분 매각까지 막는다 [차이나 워치] - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VUlkNHFLYkg0ZF9KbnliR2t4QVRDbFZjMW9NbjVwWXVqRjN3MFNSNDMwTXJWbVdPYnhNVkFnSy1pdWV2Q1R1V0dpLXA2Ukd5dlhZQUVla3dwZw?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 04:58:21 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "코스피, 美 중간선거 경계감에 3%대 하락 전환 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CLS1raGg4NDFEYVlNSnZRY1dVbVZvNEV5QmY0Uk1xb3Z6Z3ZjeEZ2SXJMd2dvRkVkam4yNFNVWDRMLWlrOFdWNlpDNklpb0xaZ25iYVEyazhPT21Q?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 05:10:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "코스피, 외인 1조 순매도에 하락 전환…\"美선거 개표 경계감\"(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TRmVYRWFRSEdUUzBNdS1LTkxNWjd1OHhpdklvc0lfNlBqVTNYZkZBVU5kTGhaaWp4VnRHa0lsalhySEo5LTZ5cHl0azVXOXpoNVFFbFdXbHRCRnpxaWFGdNIBYEFVX3lxTE9TRmVYRWFRSEdUUzBNdS1LTkxNWjd1OHhpdklvc0lfNlBqVTNYZkZBVU5kTGhaaWp4VnRHa0lsalhySEo5LTZ5cHl0azVXOXpoNVFFbFdXbHRCRnpxaWFGdA?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 02:20:01 GMT",
-          "source": "연합뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 20.83,
+    "vix": 18.14,
     "vvix": 107.4,
     "skew": 150.01,
-    "move": 99.97
+    "move": 97.76
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -87,18 +74,18 @@
       "sma_200": 25073.21
     },
     "kospi": {
-      "current": 5649.26,
+      "current": 5683.8,
       "high_52w": 9385.59,
-      "drop_pct": -39.81,
+      "drop_pct": -39.44,
       "intraday_low_drop_pct": -42.23,
-      "sma_200": 6504.75
+      "sma_200": 6504.93
     },
     "kosdaq": {
-      "current": 708.28,
+      "current": 714.95,
       "high_52w": 1229.42,
-      "drop_pct": -42.39,
+      "drop_pct": -41.85,
       "intraday_low_drop_pct": -44.39,
-      "sma_200": 969.31
+      "sma_200": 969.34
     },
     "sp500": {
       "current": 7568.92,
