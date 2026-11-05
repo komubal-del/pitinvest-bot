@@ -1,52 +1,71 @@
 {
-  "timestamp": "2026-11-05T10:25:39.328998+09:00",
+  "timestamp": "2026-11-05T17:04:24.543872+09:00",
   "sentiment": {
-    "cnn_fng": 27.2857142857143,
+    "cnn_fng": 27.3142857142857,
     "cnn_components": {
       "momentum": 26.4,
       "strength": 39.2,
       "breadth": 45.4,
       "put_call": 17.6,
-      "junk_bond": 2.6,
+      "junk_bond": 2.8,
       "volatility": 50.0,
       "safe_haven": 9.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 34,
-      "greed_articles": [],
+      "greed_count": 3,
+      "fear_count": 55,
+      "greed_articles": [
+        {
+          "title": "국고채 금리 사흘째 하락…코스피 급락에 '안전자산' 쏠림 - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OV3dIQ0lYTFNjdnA1c2xLRU04dzFZTnN1Q3FlQ2FOYl84YnV5cXUtLTBoUmdMOEU3cHB6bEJsTVpBMll0MV9iMUQxRHcwRV9BZ0EwNWNLVGxGNllUdWJCVFlPb3RFV1NzRVlUUXRwQUxuMm8?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 06:47:24 GMT",
+          "source": "마켓인"
+        },
+        {
+          "title": "코스피 추락에… 빚투·레버리지 개미 비명 - 메트로신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHR3lOc3VaSTgwbE8wVENKbEh4RWVab1pJcXZJel9OeTVEVDRHN2tIUXg2Y2gya21tWXh0c0d5VTk3Rk83N01YcG52Ym13dlRyc2dIYlNpV1RaQWtoZldVaQ?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 05:55:07 GMT",
+          "source": "메트로신문"
+        },
+        {
+          "title": "박근배 신한證 상무, \"반도체 쏠림에 레버리지... 증시 더 흔들려\" - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nNUZ0UnRXS0k2QUZGM29UWk5UU2hDY1dnWVJuekxPTVZRQ0pNUFBxcjdGVjBPNEVRbzczRHNlNGpzd1NhOW5lUl9NWmNhY29UeC1BeXhnMEx4VXBsekF4bDZTTUw?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 07:39:59 GMT",
+          "source": "매일일보"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "코스피, 미 중간선거 여파에 하락 출발…삼전·닉스 3~6% 급락 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5feGVYLUxCTHl0RnlicEJoOGw5eVA5YjRZZHYtTkJkeWtMZDBVRlJHZTRuX0NqYXRQOFNuLXVXNnhobHN4VjlJVXRxVDJhYXJrN3c?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 00:31:52 GMT",
-          "source": "매일경제 마켓"
+          "title": "[속보] 코스피, 5.28% 하락 마감...삼성전자 7%,SK하이닉스 9% 폭락 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZUtNalFyRHRTcXdrdXdqRkFycC1LeTg5VWhWLXF2NmlvMnNUcWxIajRwYy1pMlZVLVhnRGJQcjc3VW51WnU3SWp5cUthT3lXZ1FDVjZPb2FuSjhvbHNlY0ZONUJ1ZnRqa1FkaV9tdno3UEZMUWlHZUIySUVyTGFFeg?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 06:32:00 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "[속보] “반도체만 급락” 하이닉스 -6%…코스피 5600 무너졌다 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TUWlFaU94Q3ItMHpwMXVQT1ZldDFGeFFiOXZGZ0szY2x3TGlDblhfY2ptdzRyQWxURXhhRXN4dzdaT1VZSFBfZC1GWGtyQUEyY2R4ZFFHaDB6bU9BNm96S1A1ak1LaGh2eWYwd1E3Mm1PbWZQb3V3c1R1TmFwUQ?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 00:01:39 GMT",
-          "source": "서울신문"
+          "title": "코스피·코스닥지수 5%대 하락…반도체주 ‘급락’ - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TRGlTNW1UbzlGT2NZMmQtRWQ3NDE0RTNVM003cWQ0aG5xSjgxd29LUzI2X25QR21WYTM3anVHS3BGMnpTbXBtQXR6WWUwd1FyZlhkRFZsWEFPVUU?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 07:32:00 GMT",
+          "source": "KBS 뉴스"
         },
         {
-          "title": "[속보] 코스피 4%대 급락…매도 사이드카 발동 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkVkhaVzF1UldKd09Ea2Z5blhmRElGbUxvZWpNcVRaZ0hDV0Qxekd1T1pzN3hYcG9ZVlU4TFE2eERGZ0xIaU40M1hFeUMwVjY2RW84SXZTT1hBNlZoOVRkVFhCVXZXZ0k?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 01:18:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "[마켓뷰] 美증시 올랐지만 반도체주 급락…코스피 방향성 주목 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QeC1xR0VMX1NQYWhVMGJ3c3RPd1hobXNHSU1BM0tUY2tpdW1ySlppa3d4RTFIX3prYmRJaWpHSEEzSEFkMEtoYWVBSldHRTQ4VDJfdXNtU3hNeUXSAWBBVV95cUxOS25QQ0oxVDBhd2hURXBNdUhiLThzQzRMdE44NXpYMjJlYWIwdnRHeVR4aFVmdmlhSXg0SXc4OEJ3azhva2xWbTRzRmJCTHFvY2t5aHlSbW9GcDRLd09BYkY?oc=5",
-          "pub_date": "Wed, 04 Nov 2026 22:53:28 GMT",
+          "title": "'블루웨이브 쇼크' 코스피·코스닥, 5%대 급락…반도체주 '추락'(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yZERDaU43akRnMlR4M2Z3TThjclpndWNnN2JmME5kalM3NmF1NkRhekdKWElxdHU2Y3dFNWNGOW1zT2FKaGl1QnZmdHd3aVFKWmE4WW1DeUxPVzDSAWBBVV95cUxQSVFQbFdMT2ZhX1BBc29zblc3LUFYNk9EWHZLNGtmT1hkbVlnNkZPOGhZUGhsWHR4dE01Y19CQWlReVlXZHNDOWcyQWd4cjUtSDB4ZnVMdERNMXNIN25VRXk?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 07:19:09 GMT",
           "source": "연합뉴스"
         },
         {
-          "title": "美 중간선거 여파, 코스피 하락 출발… 반도체·AI주 급락 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGJkU0dzUi1VOUd2ZjZyT1BIMmVrYlNpdG13eGtBekstM1lPOWFwNDZjenZ0ZllDcGFOaUx3TVlxdGhCcG96aVR2Rm1ZenMtZHZjNDR6MHc4Q0ZWU2s2VHYwRXZDRDdrZ1JTWU56M0lGWkl1Vm9ITEZYeXZMYnpIbHNwSFRTZVpy0gGcAUFVX3lxTE5RY1JEUlN1Q21YczJ4SnVBYTA2NURpUWtKZE54TlUzd0JONUFNZnZOMXV5SlZsajgta2haY2Y1bUdpa1ZpZldINy1kVEhsX21BVDRYQl9IR0hEREVmdlU0eDdoNnA2cmdVV2p3OFdhMGljQ1FiZ0JIZGVraV9OQ3ZmdDFKNlNUcGtnX1R6R0NrQXF3WGdsY2FRN2s2VQ?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 00:20:00 GMT",
-          "source": "Chosunbiz"
+          "title": "코스피 이어 코스닥에도 매도 사이드카 발동‥5% 급락 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1maEVqLTRId200R2ozRW9VUi03Q0JuNkxWN1pkM0JhUEpnbDctN29VeWJOekxPRm01QVhkSDBUMWRMTVZBV2M5NE50bVo0M1d2ejZzS1h2aXNnMVUwcFo3b0tKUDIxcW1sM1NkWks2RGtjUmd10gF0QVVfeXFMTmVwMTVNOG9ycFM4UEpmXzQxVFJjd3gzbk9iYmJybXFNUTRNNjJKelNYWHVLTHppWnBlZlFTbHA5MDNTY1BKSXJaaERxOFE4aWdEM2xCLThQZTFNYjlDcFg2ZjVZZ2VESkx1OEc5aUxNMXh6ckM?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 05:32:35 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "[속보] 미 블루웨이브 쇼크에 코스피·코스닥, 5%대 급락 마감 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZkg1MHBlcnJtcHlvRTFIb0NJdnVJREZZLV9KeERaZkpaY0ZVUGxOYjZEQzFlVkVKS2F2S3J1QmtHenJVSGNlXzcyS2V6LXlOcS1DSw?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 06:35:00 GMT",
+          "source": "JTBC"
         }
       ]
     }
@@ -74,18 +93,18 @@
       "sma_200": 25087.12
     },
     "kospi": {
-      "current": 5485.58,
+      "current": 5383.8,
       "high_52w": 9385.59,
-      "drop_pct": -41.55,
-      "intraday_low_drop_pct": -41.81,
-      "sma_200": 6503.93
+      "drop_pct": -42.64,
+      "intraday_low_drop_pct": -43.14,
+      "sma_200": 6508.91
     },
     "kosdaq": {
-      "current": 691.48,
+      "current": 678.41,
       "high_52w": 1229.42,
-      "drop_pct": -43.76,
-      "intraday_low_drop_pct": -43.8,
-      "sma_200": 969.22
+      "drop_pct": -44.82,
+      "intraday_low_drop_pct": -45.23,
+      "sma_200": 967.99
     },
     "sp500": {
       "current": 7688.62,
@@ -102,20 +121,20 @@
       "sma_200": 2807.55
     },
     "soxx": {
-      "current": 465.0,
+      "current": 450.41,
       "high_52w": 655.95,
-      "drop_pct": -29.11,
-      "intraday_low_drop_pct": -29.59,
-      "sma_200": 477.17
+      "drop_pct": -31.33,
+      "intraday_low_drop_pct": -32.67,
+      "sma_200": 477.74
     }
   },
   "sector_rs": {
-    "XLK": null,
-    "SMH": null,
-    "BOTZ": null,
-    "IGV": null,
-    "XLF": null,
-    "XLE": null
+    "XLK": 0.952,
+    "SMH": 0.886,
+    "BOTZ": 0.881,
+    "IGV": 1.024,
+    "XLF": 1.026,
+    "XLE": 1.117
   },
   "signals": {
     "cnn_under_10": false,
@@ -151,19 +170,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": null,
+    "tqqq_profit_pct": 41.55,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": null,
+    "soxl_profit_pct": 24.64,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": null,
+    "koru_profit_pct": -97.16,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -236,7 +255,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 153.18,
+    "strategy_pct": 120.434,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1108,7 +1127,7 @@
       },
       {
         "date": "2026-11-05",
-        "ret_pct": 153.18
+        "ret_pct": 120.434
       }
     ],
     "monthly_breakdown": [
@@ -1174,9 +1193,9 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -22.01,
-        "end_ret_pct": 153.18,
-        "max_dd_pct": 5.65
+        "return_pct": -54.75,
+        "end_ret_pct": 120.43,
+        "max_dd_pct": 37.69
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
