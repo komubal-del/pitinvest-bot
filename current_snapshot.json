@@ -1,49 +1,61 @@
 {
-  "timestamp": "2026-11-06T01:24:17.043870+09:00",
+  "timestamp": "2026-11-06T07:08:20.129760+09:00",
   "sentiment": {
-    "cnn_fng": 20.7510204081633,
+    "cnn_fng": 19.8775510204082,
     "cnn_components": {
-      "momentum": 9.6,
-      "strength": 43.2,
-      "breadth": 46.2,
-      "put_call": 8.8,
-      "junk_bond": 33.0,
-      "volatility": 2.9,
-      "safe_haven": 1.4
+      "momentum": 6.4,
+      "strength": 41.8,
+      "breadth": 45.4,
+      "put_call": 8.4,
+      "junk_bond": 34.4,
+      "volatility": 2.1,
+      "safe_haven": 0.6
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 0,
-      "fear_count": 3,
+      "fear_count": 39,
       "greed_articles": [],
       "fear_articles": [
         {
-          "title": "미국 ‘AI 규제 우려’에 국내 증시 급락 ‘검은 목요일’ - 베이비타임즈",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mc3E5YU5kR05aNV9aekFXdE90akEtcm92ZEZlVHNPWFp0eUhaaGZuU3hxc0tzQXAxQ3VHb0VKQmdYcFlWWUtqVmpfTzdlajhFRi1jMzFsVXQtdGd0N3Mzb3RYZGVjLWVoR01Baw?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 15:40:00 GMT",
-          "source": "베이비타임즈"
+          "title": "뉴욕증시 급락 반전…나스닥 장중 4% 이상↓ 조정국면 진입 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rUF9wVHpjMlAwcTZnNGpfMlNQenFwX1dVSjExRm90aHlwMGduM2hKS2VBYTd3eDByeXZmLUt6V1NmRmUwZHhJZGVfUmZyME82OUN4U2t0MmhBQWfSAWBBVV95cUxONmlGcld3ZnNzRFVwdXROT05nOU1vVHp2Zk55NGllSG5yc1F6WWRrUndWMWVfdVpqY2VrLU9ybUdTVjc5MHA0el9PVlliTXozR3RPMWtBQUtWTVB1Q2dmM1Q?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 16:50:05 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "코스피도 ‘블루 쓰나미’… 반도체 투톱 폭락 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUpHOGgwT0ZzcnpCRkhqSGtMUXBrcnJfLWxXVWhoMjZhcnhZLS1vMVBTbERZbWVrRUx5SnVwTklVZ3N6SDc0bHh3OVFMeV9YMU1BTjRVWE9sVUdxX0s4Y3p2OG00TXJfemVFTmtmOTJVZFRuZnY2ek4yaU44MDEzak45XzY0WldlYTAyQXZB?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 15:44:00 GMT",
-          "source": "조선일보"
+          "title": "[속보] 뉴욕증시, 기술주 투매에 급락…나스닥 5.5%↓ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YTUwyX3pDdzNjSGw1bkdTZjVzSThtNVgxMWl4Q0ZNS3F1NlNCWjJVYzNobmg0cHVmQ285c0gyZzNhOGptcVRGbWFVbVRJT3RWWHM2dVZzV05XNktUUlJyeFNONjJ5Q3c?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 21:35:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[뉴욕증시]'블루 쓰나미'로 AI 규제 우려에 나스닥 3%대 급락 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GUE9tZXF0cHJpTE5JU213YU43NndPZ1lBblhPNGhBdFRCQlFlak56VVNiejhfZFVJZ25yZWlKRE5hbzlJbGJseTRBQ292eGFpSm5hTHFzMjZ4RzVIcV9OYw?oc=5",
-          "pub_date": "Thu, 05 Nov 2026 15:16:47 GMT",
-          "source": "아시아경제"
+          "title": "[뉴욕증시-1보] 퍼렇게 질린 진짜 블루 웨이브…필리 12.3% 폭락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5NXp2LWhveDlIbTFmY3JXMzZNcFVWU0tpTE16MVA5VWN1TG9qbWpPNjViN1dZR25sWVJRa21xdjBoYnhsdXFmRWlqU3RfU2Q4VWRQaFNucGJLem02aE5CSHVPV2o2LTBKZ01ybTJvYUTSAXRBVV95cUxObnhrcDJWM1VmMUplSWVOQ0d2U2VQaG14cjNZT0FtVVdOaXQwRXZ4Y0pabWY4dmJwaDl6dkFBb251STRaZUtEcl84WG5FczBEV2RMenZEQkdnOXE0WmllMHRnUzNpRDRwaWVtMUh1TlNoVTI0Sw?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 21:14:27 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "'푸른 쓰나미'에 증시 급락‥반도체주 새 시험대 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83bHk4eU85NjRtUjRQVzNJbFJiNlpQRjlPekVIdVhhVzdPbzhnVjNvWkM0MVlaa0xoNmdpT0l0OHkxY0dlLUhHcDcxNTh2d1lDdW9DWVoyYjYySHV6REpxamtRNHlxUWpySktKcVQxZk9PbkRjT0pQb2hR0gF6QVVfeXFMTW54bExLN2tvSFRCTlU1SnVCRjRNWjk4X0hGb0lTOUtZVGNqUkdIRGFLYnlGSG5yYkZTbGRfWkRjT1BUdVpYRUJtT3BPb1kyMHZKek91UlA1MGhlOERITE9sM2NjdVJibzEzZHB2Y09JZjJTcGdneVF1WkE?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 21:10:30 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "뉴욕증시 하루 만에 급락 반전…반도체주 폭락세 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NUVZsR3l0dWJYaXNzMXJvXzh0OHpjczBPcXQ0SjhUMnBQcDd6WFhmUDAwZ1NXYVNjZTNlYVF6RFdqMi1MSlZxMU5fd2lDLWtHdjZUNnJPYVZJVE0?oc=5",
+          "pub_date": "Thu, 05 Nov 2026 21:01:00 GMT",
+          "source": "KBS 뉴스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 25.26,
-    "vvix": 124.82,
+    "vix": 28.18,
+    "vvix": 134.99,
     "skew": 150.9,
-    "move": 92.69
+    "move": 97.92
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -55,11 +67,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24726.69,
+      "current": 24315.0,
       "high_52w": 27722.75,
-      "drop_pct": -10.81,
+      "drop_pct": -12.29,
       "intraday_low_drop_pct": -12.48,
-      "sma_200": 25094.63
+      "sma_200": 25092.57
     },
     "kospi": {
       "current": 5683.8,
@@ -76,34 +88,34 @@
       "sma_200": 969.34
     },
     "sp500": {
-      "current": 7474.8,
+      "current": 7353.73,
       "high_52w": 7844.52,
-      "drop_pct": -4.71,
-      "intraday_low_drop_pct": -5.74,
-      "sma_200": 7323.34
+      "drop_pct": -6.26,
+      "intraday_low_drop_pct": -6.3,
+      "sma_200": 7322.74
     },
     "russell2k": {
-      "current": 2767.39,
+      "current": 2729.89,
       "high_52w": 3069.71,
-      "drop_pct": -9.85,
-      "intraday_low_drop_pct": -9.99,
-      "sma_200": 2807.89
+      "drop_pct": -11.07,
+      "intraday_low_drop_pct": -11.26,
+      "sma_200": 2807.7
     },
     "soxx": {
-      "current": 137.1,
+      "current": 131.9,
       "high_52w": 655.95,
-      "drop_pct": -79.1,
-      "intraday_low_drop_pct": -79.9,
-      "sma_200": 159.1
+      "drop_pct": -79.89,
+      "intraday_low_drop_pct": -80.07,
+      "sma_200": 163.63
     }
   },
   "sector_rs": {
-    "XLK": 0.925,
-    "SMH": 0.839,
-    "BOTZ": 0.86,
-    "IGV": 1.021,
-    "XLF": 1.036,
-    "XLE": 1.157
+    "XLK": 0.917,
+    "SMH": 0.819,
+    "BOTZ": 0.868,
+    "IGV": 1.042,
+    "XLF": 1.044,
+    "XLE": 1.115
   },
   "signals": {
     "cnn_under_10": false,
@@ -127,10 +139,11 @@
     "first_fired": {
       "sell_leverage": "2026-04-24",
       "sell_leading": "2026-05-07",
-      "sell_expert": "2026-06-04"
+      "sell_expert": "2026-06-04",
+      "buy_vix": "2026-11-06"
     },
     "last_fired": {
-      "buy_vix": "2026-03-02",
+      "buy_vix": "2026-11-06",
       "buy_cnn": "2026-03-23",
       "buy_margin": "2026-03-30",
       "sell_leverage": "2026-04-24",
@@ -139,19 +152,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 22.54,
+    "tqqq_profit_pct": 14.77,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": -8.34,
+    "soxl_profit_pct": -23.61,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.85,
+    "koru_profit_pct": -98.22,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -224,7 +237,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 153.667,
+    "strategy_pct": 87.18,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1097,6 +1110,10 @@
       {
         "date": "2026-11-05",
         "ret_pct": 153.667
+      },
+      {
+        "date": "2026-11-06",
+        "ret_pct": 87.18
       }
     ],
     "monthly_breakdown": [
@@ -1162,9 +1179,9 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -21.52,
-        "end_ret_pct": 153.67,
-        "max_dd_pct": 5.65
+        "return_pct": -88.01,
+        "end_ret_pct": 87.18,
+        "max_dd_pct": 70.94
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
