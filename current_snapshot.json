@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T05:24:51.559451+09:00",
+  "timestamp": "2026-11-09T08:50:40.933811+09:00",
   "sentiment": {
     "cnn_fng": 22.0792756539235,
     "cnn_components": {
@@ -14,39 +14,64 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 6,
-      "greed_articles": [],
+      "greed_count": 4,
+      "fear_count": 26,
+      "greed_articles": [
+        {
+          "title": "[1109개장체크] 美 증시, 지난 주 폭락 여파 속 AI·반도체주 저가 매수세 유입 By 인포스탁데일리 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kNkhTUjU2MFB1MTlUVDVxcm9Scng3bXNLdm1oc19WcVM0ci00V1c2OWc5ODVxNW9ZcU5FTlpRcTFPSGs1WGlubWlSbUgtN0ZiWEJKTmF6bDNLcjIyV2hvVTRCNGJabVZKMEEyTGVKYTg?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:23:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[개장] 뉴욕증시, AI 기술주 저가 매수에 반등 성공..물가지표 주목 By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95TDd6TmFwOXQ1Y2xJWWY1cFlHTkNHWV92bGo2d0NuUTRNUzBvZlN1c3ExZUVnaVRad19JMU51RDV4c3JrYzZsQVVwUDVnT1JiNDU3ZWtxVDdHNlg4ajM5VmVxdUNDclA1SnhlMEV1TGY?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:35:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[시황] 미국증시, 전일 반도체 업종 과대 낙폭에 저가 매수세 유입되며 주요 지수 혼조 마감 - 버핏연구소",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UZEJ4V25GUy1BTkJING5uQm90OFA0V1dkaDVjclVWN3FKcWFuT0ltR2haYzNJMFQweTRUTjdwQ1BqcUZzb0pUeFF1N2UzWWVPMGdPQkQ0blp6aUJzelJxZElB?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:11:42 GMT",
+          "source": "버핏연구소"
+        },
+        {
+          "title": "‘빚투’ 청산 막고자 담보 비율 의무 면제해준 정부...시장 개입 실효성 논란, 빚투 증가 우려도 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZE5sM1NJdDVBOTFyMDlDNU1UdV9OVFJQQjd4bldicUh3eDV5THhVQ0hzeEpzRlFiV3VFNE8tMk9jQldCcHlSMWRvektpTUg4dTNuUjBvbl9jNWN0RUVrbGw3cEItRm1mQzVLRl9sR3d3Q1BMTHlrMk13V0s0TUxoeg?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:19:00 GMT",
+          "source": "조선일보"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "[사설] 증시 폭락, ‘반도체 파티’ 조기 종결 경고다 - 아시아투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoS0J3SWVVQ19uT28zUE8xN3JOcExCdUtMUU9pMllxN1Q5akRrY2x5RGkzV0wzaVdrbEoyNWdOVTlXdnlNTlg0TG5mUExWblhmeENXU0RENExEZEtQX0sybVhnVkxUR1lxekE0T0Rn?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 15:01:00 GMT",
-          "source": "아시아투데이"
+          "title": "[AI MY 증시전망] 美 반도체주 반등에 국내 증시 급락 딛나…외국인 수급이 관건 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpVkhmdUs1Tm4tNFA0NW5pcnNXS2NZVU93Wkl3V2Y1NFdDdTRMSXpzY0lLNVdqR0dYcVJSMVJsUW1mR2lfVXNhbFhibjdYR3NCWnVibXJGVDlpcjdE?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:31:00 GMT",
+          "source": "뉴스핌"
         },
         {
-          "title": "증시 폭락에도 멘탈 지키려면? … 장기 투자 방패 TDF에 주목 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SNjZxXzh1djlnRkJBSVpsbFJXZkd5LXpTa0RQU0plWHpCc0IzNFd4TUFZOWpBYnJUbVh4S1U2WTRGM3F4S2Y0LXNZYkFlcGVSYUE?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 20:00:00 GMT",
-          "source": "매일경제"
+          "title": "코스피 폭락에 인버스 ETF 독주... 반도체 레버리지 최대 38% 급락 [주간 ETF] - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsUWY4RTV0MWpqbW95dk1PUENpM2o1LUdrN05KeXpjd29yQk91eVpXaEo1MjMtZ0I0Wk5XandrNHRyZHpaSFBVbGFjNGs5Sk5EYkNlOWlRQUliT2RheF9jdHRqSlo?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:25:28 GMT",
+          "source": "매일일보"
         },
         {
-          "title": "골드만삭스 美 증시 공포지수 9.57…극단적 패닉 신호 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDY4SmF3UG5TYmhPdEZoekZua3VPN3dFYTJ1WTdhUlpGamxwQUNUbWZIbDhlelc0TkdzSzJncDNsV0tDNDhoV0tSbjk5aEZZdDhzR0lBaGowTUFOOVRYSi1ySFlXYVJiSnBuWU0teEhlU3BOSW5FU2lJZkh1ZWpoY0dPbXRsR3Z1?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 18:00:00 GMT",
-          "source": "글로벌이코노믹"
+          "title": "6% 급락한 코스피, ‘5000피’ 지킬까 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90Q2dGcHgzdTlLSlZGOVc5MG5wYVZzZjlIbUhFaU94SjV3aEJnbWtIM18zUVdBUUl5M2Z2R1pETEJpUnhqVkloV1ltWWx5ajlUUTJucU0zdmNBUQ?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:18:00 GMT",
+          "source": "경북매일"
         },
         {
-          "title": "美 증시 급락에 헤지펀드도 10여년만에 최대 포지션 축소 - SBS Biz",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cbk43aUROazZhT3BrUFpWWmtxbW9rTTd0djZ2bW05d1ZDLUhWdWNsM2RHLUlLejROTHBnSG5PMUZhd3VWUkpuUGtfdzMzUXVtVG000gFYQVVfeXFMTXNIcU4tQzhaMVZrTDJCZGJIczhCVWduMUpHV0JOV0xmb0ZBRkdnemlMRVlRMDB2aW1CQjliR1BSUmN5MnJFOU5Xb0xxWXV5aWttNDZsWTF0cw?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 18:54:00 GMT",
-          "source": "SBS Biz"
+          "title": "[모닝 리포트] \"증시 급락에도 한은 금리인상 전망...이달 0.25%p↑ 예상\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAycDhZYXBiMUV1aFB5NzJoUGwtVUZldFdYUV9CVjZSN05sSlQ2WWJ2cl9mY1lIbVl4NHVZMmpOMWxQUTMxcXdVcGhMRDVvZ0hURW05RDFoRUZwNUNN?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:36:00 GMT",
+          "source": "뉴스핌"
         },
         {
-          "title": "[글로벌 비즈 브리핑] 美 증시 급락에 헤지펀드도 10여년만에 최대 포지션 축소 外 - SBS Biz",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5R0MzZGZ6RG9sbFBNTl9SMng2bmdSbGJvaHg5dldiN2M4dW95bUNjeEtZYjRXSHJYZVo3TC1RSDhncVMxMFBvaC00ZXBhR2JOcDlB0gFYQVVfeXFMT0tZNl9zWjhtSEs0SE0zZ2oydWszS0dGTzdZQjl6ZHE5dUg3eE15M0JMWDd6M0lqSU1SbmxnRGFQcWI4VmFqLTFzY2toUC0wT0JtOHNDS1BzMQ?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 19:13:00 GMT",
-          "source": "SBS Biz"
+          "title": "[모닝 리포트] \"코스피, 지난주 급락분 만회 시도…반도체·IT 저가매수 주목\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wbG5HNWxrRmhQRTJnNngtcEZCMGdUdmY0MHhhdU9OenNZZTF0b3FpbVpncHdVaWZvSS1pZXljSHZ5QnU3UjBqdExjbFphWTN2WHFQY1hEa2xORUVL?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:36:00 GMT",
+          "source": "뉴스핌"
         }
       ]
     }
