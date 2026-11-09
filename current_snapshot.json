@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T08:50:40.933811+09:00",
+  "timestamp": "2026-11-09T15:01:13.232880+09:00",
   "sentiment": {
     "cnn_fng": 22.0792756539235,
     "cnn_components": {
@@ -14,9 +14,15 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 26,
+      "greed_count": 3,
+      "fear_count": 12,
       "greed_articles": [
+        {
+          "title": "최근 폭락에 저가 매수 기대...증시 만회 나서나? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JS0ZVb0R5cjJfN0tRV0J4QjI2V0pVNmNfS1dwb0ZhS2p0MXlrTjc3S0c0cEYyRTV1SEVPM2kybjNmN2drVFI3d1ladXlEaktyOXFpazFQcHY4NFFWaXc?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 00:06:00 GMT",
+          "source": "YTN"
+        },
         {
           "title": "[1109개장체크] 美 증시, 지난 주 폭락 여파 속 AI·반도체주 저가 매수세 유입 By 인포스탁데일리 - Investing.com 한국어",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kNkhTUjU2MFB1MTlUVDVxcm9Scng3bXNLdm1oc19WcVM0ci00V1c2OWc5ODVxNW9ZcU5FTlpRcTFPSGs1WGlubWlSbUgtN0ZiWEJKTmF6bDNLcjIyV2hvVTRCNGJabVZKMEEyTGVKYTg?oc=5",
@@ -24,54 +30,42 @@
           "source": "Investing.com 한국어"
         },
         {
-          "title": "[개장] 뉴욕증시, AI 기술주 저가 매수에 반등 성공..물가지표 주목 By 알파경제 alphabiz - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95TDd6TmFwOXQ1Y2xJWWY1cFlHTkNHWV92bGo2d0NuUTRNUzBvZlN1c3ExZUVnaVRad19JMU51RDV4c3JrYzZsQVVwUDVnT1JiNDU3ZWtxVDdHNlg4ajM5VmVxdUNDclA1SnhlMEV1TGY?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:35:00 GMT",
-          "source": "Investing.com 한국어"
-        },
-        {
-          "title": "[시황] 미국증시, 전일 반도체 업종 과대 낙폭에 저가 매수세 유입되며 주요 지수 혼조 마감 - 버핏연구소",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UZEJ4V25GUy1BTkJING5uQm90OFA0V1dkaDVjclVWN3FKcWFuT0ltR2haYzNJMFQweTRUTjdwQ1BqcUZzb0pUeFF1N2UzWWVPMGdPQkQ0blp6aUJzelJxZElB?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:11:42 GMT",
-          "source": "버핏연구소"
-        },
-        {
-          "title": "‘빚투’ 청산 막고자 담보 비율 의무 면제해준 정부...시장 개입 실효성 논란, 빚투 증가 우려도 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZE5sM1NJdDVBOTFyMDlDNU1UdV9OVFJQQjd4bldicUh3eDV5THhVQ0hzeEpzRlFiV3VFNE8tMk9jQldCcHlSMWRvektpTUg4dTNuUjBvbl9jNWN0RUVrbGw3cEItRm1mQzVLRl9sR3d3Q1BMTHlrMk13V0s0TUxoeg?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:19:00 GMT",
-          "source": "조선일보"
+          "title": "코스피, 기관 저가 매수 유입에 반등…5100선 회복 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX212NVdER2FQWTB5bTczeGt6VkNaZ25QVUlFaHpnOHZxT3VNd0ViNjJGSldwejZ6NTItcEtGTnpzdHk1UFhUdVdNWmJuYnlJY195SlhkcENfSDFReFF2ZmtvN0hPVXpmRGQ5MlZLdnU4MFJZQ0VMcm9ZclNrS2Q0eEZjQmIwYTEz?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 02:06:31 GMT",
+          "source": "글로벌이코노믹"
         }
       ],
       "fear_articles": [
         {
-          "title": "[AI MY 증시전망] 美 반도체주 반등에 국내 증시 급락 딛나…외국인 수급이 관건 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpVkhmdUs1Tm4tNFA0NW5pcnNXS2NZVU93Wkl3V2Y1NFdDdTRMSXpzY0lLNVdqR0dYcVJSMVJsUW1mR2lfVXNhbFhibjdYR3NCWnVibXJGVDlpcjdE?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:31:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피 11% 급락할 때 8% 반등한 중국 기술주…증시 부양책에 ‘바닥론’ 고개 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lajdOWWhOY2hVVkxiU0pqTVM2bUcwWUFsdTJfTmpuUzQ0dlJBZFZGNkRnUGZqUkZlSXBNYUxQd0NDZkFRZDBaX3VqYXkxbjZtOEE?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 05:00:16 GMT",
+          "source": "매일경제 마켓"
         },
         {
-          "title": "코스피 폭락에 인버스 ETF 독주... 반도체 레버리지 최대 38% 급락 [주간 ETF] - 매일일보",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsUWY4RTV0MWpqbW95dk1PUENpM2o1LUdrN05KeXpjd29yQk91eVpXaEo1MjMtZ0I0Wk5XandrNHRyZHpaSFBVbGFjNGs5Sk5EYkNlOWlRQUliT2RheF9jdHRqSlo?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:25:28 GMT",
-          "source": "매일일보"
+          "title": "'증시 폭락' 책임 공방...\"사과해야\" vs \"정책 논의\" [뉴스퀘어10] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PeWUxSEV3NnBKcEJCVHVWemVvU0JqU245WGZZQnpTcjFvYmtvQ0dMUU40emttTnlRX2ItUHgwYUg0TnBlQnVkUXJXVGVDdjVWZmVLQnhEWl8xRGZLeHc?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 00:50:00 GMT",
+          "source": "YTN"
         },
         {
-          "title": "6% 급락한 코스피, ‘5000피’ 지킬까 - 경북매일",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90Q2dGcHgzdTlLSlZGOVc5MG5wYVZzZjlIbUhFaU94SjV3aEJnbWtIM18zUVdBUUl5M2Z2R1pETEJpUnhqVkloV1ltWWx5ajlUUTJucU0zdmNBUQ?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:18:00 GMT",
-          "source": "경북매일"
+          "title": "[부동산 인사이트] 코스피 이틀 새 11% 폭락, 부동산은 ‘다음 차례’일까 - 비즈한국",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DTUhCeU9CbEpJYXZGUkdvd050V1o2T0tYLXZISmxJMHNVX2oxS25KSGptbzVScUFrY1N3c2dWZkFNQUM0NlAwcTBMLUJNdlJoTklqanBpbmhQOUdzZWt1RFZJYVpMT1V6RlpmaGtVOHltUHA1TXc?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 02:08:26 GMT",
+          "source": "비즈한국"
         },
         {
-          "title": "[모닝 리포트] \"증시 급락에도 한은 금리인상 전망...이달 0.25%p↑ 예상\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAycDhZYXBiMUV1aFB5NzJoUGwtVUZldFdYUV9CVjZSN05sSlQ2WWJ2cl9mY1lIbVl4NHVZMmpOMWxQUTMxcXdVcGhMRDVvZ0hURW05RDFoRUZwNUNN?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:36:00 GMT",
-          "source": "뉴스핌"
+          "title": "코스피 10% 넘게 폭락했는데…통신3사·네카오는 급등 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BOEhnYlM5dXVDQWJ1Tl9tVUpjWlFQYUhOQzBZY3RTTV9xenhmU2o1U3RXbDNHZkJlQU51bXJIQTBwMEJNaGdabFh3WjNGWXhVMEJnc21IdmNTWUFOUTliNWdtWG0zTFM1VzNOc24zTXI?oc=5",
+          "pub_date": "Sun, 08 Nov 2026 23:50:34 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "[모닝 리포트] \"코스피, 지난주 급락분 만회 시도…반도체·IT 저가매수 주목\" - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wbG5HNWxrRmhQRTJnNngtcEZCMGdUdmY0MHhhdU9OenNZZTF0b3FpbVpncHdVaWZvSS1pZXljSHZ5QnU3UjBqdExjbFphWTN2WHFQY1hEa2xORUVL?oc=5",
-          "pub_date": "Sun, 08 Nov 2026 23:36:00 GMT",
-          "source": "뉴스핌"
+          "title": "이 대통령 지지율 소폭 하락해 35.9%…\"증시 급락 영향인 듯\"ㅣ리얼미터 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsZWt6QXNLY29MUTY4Wno5N0J5LXpmUGRHQk04bExCWGYwc2tjYjNuVVRvMzRCZ2ZpaUNYT2xjRTlQTkpzWi10cE1nZHJHSWg5eERoQQ?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 00:25:00 GMT",
+          "source": "JTBC"
         }
       ]
     }
@@ -99,18 +93,18 @@
       "sma_200": 25098.28
     },
     "kospi": {
-      "current": 5059.69,
+      "current": 5059.9,
       "high_52w": 9385.59,
       "drop_pct": -46.09,
-      "intraday_low_drop_pct": -47.67,
-      "sma_200": 6511.09
+      "intraday_low_drop_pct": -46.83,
+      "sma_200": 6512.92
     },
     "kosdaq": {
-      "current": 644.27,
+      "current": 645.2,
       "high_52w": 1229.42,
-      "drop_pct": -47.6,
-      "intraday_low_drop_pct": -48.82,
-      "sma_200": 966.46
+      "drop_pct": -47.52,
+      "intraday_low_drop_pct": -48.54,
+      "sma_200": 964.95
     },
     "sp500": {
       "current": 7376.86,
