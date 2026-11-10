@@ -1,74 +1,30 @@
 {
-  "timestamp": "2026-11-10T16:30:57.598846+09:00",
+  "timestamp": "2026-11-11T00:47:47.551171+09:00",
   "sentiment": {
-    "cnn_fng": 31.6857142857143,
+    "cnn_fng": 34.0857142857143,
     "cnn_components": {
-      "momentum": 13.8,
-      "strength": 44.6,
-      "breadth": 48.4,
-      "put_call": 17.4,
-      "junk_bond": 42.2,
+      "momentum": 13.0,
+      "strength": 47.8,
+      "breadth": 48.8,
+      "put_call": 19.2,
+      "junk_bond": 49.8,
       "volatility": 50.0,
-      "safe_haven": 5.4
+      "safe_haven": 10.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 5,
-      "greed_articles": [
-        {
-          "title": "코스피, ‘블루웨이브’ 충격 딛고 4% 반등···기술주 반등·유가 하락에 ‘저가 매수세’ 유입 - 경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04WG51VTJjRlhXdXQ4NEVvWFJON0FrWG1xdnBKcVVPTWJCVnBvb0RaSENYTGVLMVBqcjhhaTE3Qno2RkI3MWlOVWR2T09vZHdJUjcxRHo0MDg4QdIBX0FVX3lxTFBsUFpmM2Y1d1JuQ0lwLTRuVXIxSjk2VERZN09WbGlnbndUY19JWjZ2Z2o4QXBfRC15UV8yTzRMb2kxNUUwb2t0OGd3ZDNSNW5IZzBWODZrOEhLWUgzNXhj?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 07:20:00 GMT",
-          "source": "경향신문"
-        },
-        {
-          "title": "[오늘의증시] \"지금이 제일 쌀걸?\" 저가 매수세에 코스피 '활짝' - 이코노미스트",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yYVF3YVJnZkJxM0NZRS14emloYV9vREJRLXh1enlGVGk3R29ySFpvdlVPcmRoQjRROEl1M0NEbkVqcUE3QUVLWnZuT0paZ21kQ0xnSFJvZGhoQ2ExR0oxM2NR?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 06:54:00 GMT",
-          "source": "이코노미스트"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "코스피·코스닥, 급락딛고 4거래일 만에 반등…4%대 급등 마감 - 국제신문",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT2pOMGJIeXRBcHFiNExodDJsaGZleEJUZm9Jei1tX29QRnAwcU5zYVRkMEpfNkhYT09VaFhndy1ydjZ0R1ZmY0lLUFhHNXFBZjFJU3JhV09HYkprb3Q2SEJBei1RYzNuQzhlcGwtMG1rejVJY0EzMmZLWmtfdlJaSk5PZFI3WTVFemI5ZWZn?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 07:30:33 GMT",
-          "source": "국제신문"
-        },
-        {
-          "title": "“폭락 사흘 만에 매수 사이드카”…코스피 4.4% 급등, 5200선 탈환 - 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uQ3R2cW5hdzBVR1BiQzc1cWVPTDVXVUVWR3BWSlFWeDV0VnhfVjF5X05PcjVkZ0o3N051RDEzUHp5NVZaVl9ucFZDRWd5Mm13VXBNTkNSdjlCOWNTdkdJcGtVN00?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 07:09:02 GMT",
-          "source": "디지털데일리"
-        },
-        {
-          "title": "[ETF 특징주] 증시 급락에도 미국 ETF 한 주간 141억달러 유입 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NSXVoY1Racl9yd3Z0a2hhQ1lZelBFZVpkRVVFMmF3clhRbDRraDhRSmR6Mnh5YkNlNXc2YnNncmdNN2trcTFkcnByRlh0RWZsNXF6QU1NNW1lZTky?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 07:15:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "코스피 '-30%' 급락장서 상승 헬스케어주…경기 방어 성격에 견조한 실적 더해 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LZnc4N09Xako3a1dlU04yekwzeHVsaVU1ZkZtYzZFbUZ2d1RhRWJ4V3Bqb0kzNHJZd2JiNmVnaEZuUjBvNmZ1SGY4eUhHV21UVmxoOEVPLUQtWkcx?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 04:57:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "민주, 증시 급락에 개미 불만 진화 부심…국힘 향해 “정쟁소재 이용” 비판 - 기호일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbC1RM2FmZ0VxVVlNbVBrMDZRQTV4YzRXQzYyNVpUOHJpek91OE5EZ3RvN2g1cW5iQ3RYN0M5QVRPUW5hZG93WW1CbXhveE1XRnRqQVE4UE1BOU5RY0IxcElITWlLdjdaVkVWdW5nSQ?oc=5",
-          "pub_date": "Tue, 10 Nov 2026 05:54:30 GMT",
-          "source": "기호일보"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 19.92,
-    "vvix": 98.43,
+    "vix": 20.13,
+    "vvix": 99.3,
     "skew": 150.34,
-    "move": 85.98
+    "move": 92.07
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -80,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25253.14,
+      "current": 25030.77,
       "high_52w": 27722.75,
-      "drop_pct": -8.91,
-      "intraday_low_drop_pct": -10.68,
-      "sma_200": 25107.04
+      "drop_pct": -9.71,
+      "intraday_low_drop_pct": -9.97,
+      "sma_200": 25114.19
     },
     "kospi": {
-      "current": 5239.13,
+      "current": 5018.85,
       "high_52w": 9385.59,
-      "drop_pct": -44.18,
-      "intraday_low_drop_pct": -44.87,
-      "sma_200": 6515.3
+      "drop_pct": -46.53,
+      "intraday_low_drop_pct": -46.83,
+      "sma_200": 6512.72
     },
     "kosdaq": {
-      "current": 667.61,
+      "current": 638.97,
       "high_52w": 1229.42,
-      "drop_pct": -45.7,
-      "intraday_low_drop_pct": -46.72,
-      "sma_200": 963.54
+      "drop_pct": -48.03,
+      "intraday_low_drop_pct": -48.54,
+      "sma_200": 964.91
     },
     "sp500": {
-      "current": 7549.94,
+      "current": 7493.55,
       "high_52w": 7844.52,
-      "drop_pct": -3.76,
-      "intraday_low_drop_pct": -5.38,
-      "sma_200": 7328.22
+      "drop_pct": -4.47,
+      "intraday_low_drop_pct": -4.51,
+      "sma_200": 7330.94
     },
     "russell2k": {
-      "current": 2840.81,
+      "current": 2815.88,
       "high_52w": 3069.71,
-      "drop_pct": -7.46,
-      "intraday_low_drop_pct": -9.31,
-      "sma_200": 2808.74
+      "drop_pct": -8.27,
+      "intraday_low_drop_pct": -8.54,
+      "sma_200": 2809.52
     },
     "soxx": {
-      "current": 146.76,
+      "current": 145.32,
       "high_52w": 655.95,
-      "drop_pct": -77.63,
-      "intraday_low_drop_pct": -78.97,
-      "sma_200": 159.59
+      "drop_pct": -77.85,
+      "intraday_low_drop_pct": -78.18,
+      "sma_200": 159.75
     }
   },
   "sector_rs": {
-    "XLK": 0.941,
-    "SMH": 0.877,
-    "BOTZ": 0.873,
-    "IGV": 0.99,
-    "XLF": 1.031,
-    "XLE": 1.061
+    "XLK": 0.936,
+    "SMH": 0.871,
+    "BOTZ": 0.87,
+    "IGV": 0.983,
+    "XLF": 1.038,
+    "XLE": 1.065
   },
   "signals": {
     "cnn_under_10": false,
@@ -143,7 +99,7 @@
     "stage_key_raw": "reset",
     "today": {
       "cnn_under_10": false,
-      "vix_over_25": true,
+      "vix_over_25": false,
       "margin_call_trigger": false,
       "sell_leverage": false,
       "sell_leading": false,
@@ -165,19 +121,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 30.95,
+    "tqqq_profit_pct": 27.68,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 5.05,
+    "soxl_profit_pct": 2.22,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.91,
+    "koru_profit_pct": -98.04,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
