@@ -1,37 +1,92 @@
 {
-  "timestamp": "2026-11-10T00:59:23.759490+09:00",
+  "timestamp": "2026-11-10T09:08:10.467042+09:00",
   "sentiment": {
-    "cnn_fng": 32.3714285714286,
+    "cnn_fng": 31.7142857142857,
     "cnn_components": {
-      "momentum": 13.2,
+      "momentum": 13.8,
       "strength": 44.6,
       "breadth": 48.4,
-      "put_call": 24.0,
-      "junk_bond": 41.2,
+      "put_call": 17.4,
+      "junk_bond": 42.4,
       "volatility": 50.0,
-      "safe_haven": 5.0
+      "safe_haven": 5.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
+      "greed_count": 8,
+      "fear_count": 34,
+      "greed_articles": [
+        {
+          "title": "[모닝 리포트] \"코스피 반등 전망…저가 매수 기회\" - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OakVlOWR6aEJ5SEFDRFQ1NkQ5WEx0a3JyaTRUbGtBXzRRT1hSdkQ4V1h1LWIxOXhFQ2RueHpkYU9pdG1pQ3R1VE91cUZEc0RYTWQ0NFlSTThyaUFS?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 23:50:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "[3분증시] 뉴욕증시, 저가 매수에 3대 지수 상승 - 연합뉴스 한민족센터",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02TTlfMGpZOHAyMjUxa1J4S2tIRHBtTXlfZmxiZ3MxUEM3Mk5xQ3lGWTdWV1dabEliT0txVlZ6NGRfMGJWdE5ocmY2aXprUWROLUhnOEJEZTdRUjYtVUhhOEZJOFR0a0hTSVZGNTl3dVlDal80?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 22:53:05 GMT",
+          "source": "연합뉴스 한민족센터"
+        },
+        {
+          "title": "기술주 저가 매수세…美 뉴욕증시 3대 지수 급등 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxOWxLazNJMk5oS0FkY2tNanlHeURKZl9vZXdaVGpLU3RQazJmUEpsdnhGZHBKdERUVU1oQy1qUm1hOWxCLXU1YjFPeG1icEhXempYRFdjZVV1TGdFSFlLVnU4d3dRNHN2OVgyemEtRi0?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 23:19:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[1110개장체크] 美 증시, AI 규제 우려 진정 속 기술주·반도체주 저가 매수세 유입 - 인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GQXlJZVFtN3dDNjZSRGZYbmdDSEpVX3doNFYyNHFSakFNclI4ZDQ1MEQxRkZISUoxSG1OVnZRZHp1eXV3NFA2bVpvdXI4N1FaZjh3RW9ydDZwQkJmNWxSb0tSOU02dVNRVktoeFZQMG1fZGtnT2c?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 22:53:46 GMT",
+          "source": "인포스탁데일리"
+        },
+        {
+          "title": "[해외시황] 뉴욕증시, 반도체株 저가 매수세·유가 급락에 '상승'…나스닥 2.74%↑ - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wdGFkYklpWlBkZ1VrNXdzWVFyYmxZSjNEME91SmpFOERpRkh4dW5HN0VZa1RXLW45QmNPLXlqMFNQODdKMnBUd09vRXVQeldwMjBRV3J1S0NVUVR1N0VQcA?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 23:28:00 GMT",
+          "source": "프라임경제"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "[뉴욕증시]국제유가 하락에 일제히 상승세…엔비디아 4% 급락 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEdjV4VnRoc2ZKajJuenhHZ0pKbmhGV25mRTVMQk5YblhBN2tDNWkzRXpiZkNvMDZ4Nkg1RnQzdlBDRElpRktRSktQa2x0TWdPaFpNRUlrNVViS216X2t6aA?oc=5",
-          "pub_date": "Mon, 09 Nov 2026 15:35:37 GMT",
-          "source": "아시아경제"
+          "title": "美 증시 폭락 끝났나…월가 \"연말 랠리 온다\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84QVpLa3JBQnpzSWt4MVJjcXhBX1FpV1BPWmVFdHltdWQ2YldhRWNiTmx4QlpyWElQSF9fblphTXkzeGpncnpNb0NGNlF0dnVQellrMFNsdExLbllEUnhjZFFvcXdvcXFKN2d0dDNEVnnSAXRBVV95cUxQeWxoUVRKNW1ZTjcxTG4wZi1qbEQ1NXcyekU3bUNwX2g3TVRvTE5JNmlRejRKR0k0MkcxTFJKWHN0VWlUY25PbEozcEloWWg2UFJvemN5ZkZPX3hSM2t0NFdNczE1MlFIS3VkQUlpNU83aDZyVg?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 23:04:24 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "뉴욕증시 반등 속 엔비디아 홀로 '폭락'...젠슨 황 스캔들 영향? [굿모닝경제] - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Dem53VDA5blhhYUxCd2drRXFkakpBaTV6UjF6TThNRFlTcldQenFWcjlLdDQ2ZXFveWtLdU9UcGEzQmx0X3gyWFFhazVxS3lvYUEtRjlJM3RkUU9fS2c?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 23:21:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "뉴욕증시, AI주 급락 충격 딛고 반등…엔비디아만 4%대 급락 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wU1hhcVNBN3JiemI5MUdmMzZOMXA0aEQwTF9tZF96NVY0djBpT0FWT1V3cG1WTVg2dWF2YWNMRmxCNW42ZHRNbWVBYWN1b3BNOFZRQzlSRnFTMXPSAWBBVV95cUxOYkZGOGlucl9SdGYxaDNpZzFIT2x1a2F1WF9yUFl0TzFzWFlzdzVMT0p1cTVDdE9KMEhSQmR5RWNCZWE2SnBMaTZhU1RYZlZDQ2J0UEx3NkpuU3hJbHBuRUk?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 21:15:36 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "美 증시 급반등에 코스피 탄력 기대감…외인 매도세가 변수 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wXzBKenlKM3pzbjJ5b3pqMG1yeUFTT1owM1pzZklvY2QtUHg4b0I4MldOSVJBNlRCbXdRQTlaLXoxTzdBbHZWMmlaNkFUUmdlQXlXQ2dnNEhYY09KMk9ZbnpnbU9RUlo2MHZNb1ZDcF8?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 23:19:00 GMT",
+          "source": "Investing.com 한국어"
+        },
+        {
+          "title": "[마켓뷰] 美 기술주 급반등·유가 급락…코스피 급락 딛고 반등할까 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3SHdRaC0yS3AwTmpvdmxWTmw0ZkU5cUJRV0lOUHpwNTZVX2h0M0QxX1dxNzZKRjFoVmlvUngtamNOaEJ1b1hKMHhfQTNSLXc1dXc?oc=5",
+          "pub_date": "Mon, 09 Nov 2026 22:57:05 GMT",
+          "source": "매일경제 마켓"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 20.92,
-    "vvix": 105.88,
-    "skew": 153.55,
-    "move": 88.82
+    "vix": 19.92,
+    "vvix": 98.43,
+    "skew": 150.34,
+    "move": 85.98
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -43,11 +98,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25267.5,
+      "current": 25253.14,
       "high_52w": 27722.75,
-      "drop_pct": -8.86,
+      "drop_pct": -8.91,
       "intraday_low_drop_pct": -10.68,
-      "sma_200": 25107.12
+      "sma_200": 25107.04
     },
     "kospi": {
       "current": 5059.69,
@@ -64,34 +119,34 @@
       "sma_200": 966.46
     },
     "sp500": {
-      "current": 7540.08,
+      "current": 7549.94,
       "high_52w": 7844.52,
-      "drop_pct": -3.88,
+      "drop_pct": -3.76,
       "intraday_low_drop_pct": -5.38,
-      "sma_200": 7328.18
+      "sma_200": 7328.22
     },
     "russell2k": {
-      "current": 2815.93,
+      "current": 2840.81,
       "high_52w": 3069.71,
-      "drop_pct": -8.27,
+      "drop_pct": -7.46,
       "intraday_low_drop_pct": -9.31,
-      "sma_200": 2808.62
+      "sma_200": 2808.74
     },
     "soxx": {
-      "current": 146.55,
+      "current": 146.76,
       "high_52w": 655.95,
-      "drop_pct": -77.66,
+      "drop_pct": -77.63,
       "intraday_low_drop_pct": -78.97,
       "sma_200": 159.59
     }
   },
   "sector_rs": {
     "XLK": 0.941,
-    "SMH": 0.879,
+    "SMH": 0.877,
     "BOTZ": 0.873,
-    "IGV": 0.989,
-    "XLF": 1.029,
-    "XLE": 1.062
+    "IGV": 0.99,
+    "XLF": 1.031,
+    "XLE": 1.061
   },
   "signals": {
     "cnn_under_10": false,
@@ -128,19 +183,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 30.79,
+    "tqqq_profit_pct": 30.95,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 4.67,
+    "soxl_profit_pct": 5.05,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.92,
+    "koru_profit_pct": -97.91,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -170,8 +225,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-11-04",
-    "analyzed_at": "2026-11-04T09:02:30.107289+09:00",
+    "date": "2026-11-10",
+    "analyzed_at": "2026-11-10T09:08:16.200821+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -179,41 +234,41 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "A4Ke8oH4m4Q",
-        "title": "중간선거 이후 반도체 반등 가능성…지금 주목할 변화는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-11-03T00:14:19Z",
-        "url": "https://youtube.com/watch?v=A4Ke8oH4m4Q",
+        "video_id": "D2UA_ZnlaFI",
+        "title": "5,000선 깨지면 추가 투매 나올까…외국인 매도에도 반등을 기대하는 이유ㅣ홍선애, 박병창 MP파트너스 [여의도 인사이트]",
+        "published": "2026-11-09T09:15:38Z",
+        "url": "https://youtube.com/watch?v=D2UA_ZnlaFI",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "제공된 영상 설명란은 주로 광고, 채널 홍보, 프로그램 정보 등으로 구성되어 있으며, 전문가의 구체적인 매매 권고나 시장 방향성을 직접적으로 제시하는 문구가 없어 특정 스탠스를 판단할 수 없습니다."
+          "stance": "bullish",
+          "reason": "영상 제목에서 '외국인 매도에도 반등을 기대하는 이유'를 언급하며 시장 반등에 대한 긍정적 기대를 표출하고 있습니다."
         }
       },
       {
-        "video_id": "Ga_R5lZOVao",
-        "title": "AI도 IT 버블처럼 끝날까 (윤지호) | 저녁7시 인포맥스라이브",
-        "published": "2026-11-04T00:00:10Z",
-        "url": "https://youtube.com/watch?v=Ga_R5lZOVao",
+        "video_id": "Q0fcmTdN2Ck",
+        "title": "속도조절론을 나쁘게만 봐야 할까요 (윤지호) | 저녁7시 인포맥스라이브",
+        "published": "2026-11-04T07:00:10Z",
+        "url": "https://youtube.com/watch?v=Q0fcmTdN2Ck",
         "text_source": "description",
         "transcript_available": false,
-        "is_stale_fallback": false,
+        "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 AI 시장의 과열 가능성과 과거 IT 버블 붕괴에 대한 질문을 던지며 잠재적 리스크를 언급하지만, 구체적인 매도 또는 비중 축소 행동을 권고하지는 않는다."
+          "reason": "제목에서 '속도조절론을 나쁘게만 봐야 할까요?'라는 질문을 던지며 특정 행동을 권고하기보다는 시장 상황에 대한 분석적 논의를 예고하고 있으며, 본문에는 시장 포지션에 대한 어떠한 구체적인 언급도 없습니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "neutral",
+      "박병창": "bullish",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 84.57,
+    "strategy_pct": 92.494,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1094,6 +1149,10 @@
       {
         "date": "2026-11-09",
         "ret_pct": 84.57
+      },
+      {
+        "date": "2026-11-10",
+        "ret_pct": 92.494
       }
     ],
     "monthly_breakdown": [
@@ -1159,8 +1218,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -90.62,
-        "end_ret_pct": 84.57,
+        "return_pct": -82.69,
+        "end_ret_pct": 92.49,
         "max_dd_pct": 78.66
       }
     ],
