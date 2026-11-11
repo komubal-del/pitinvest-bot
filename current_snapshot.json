@@ -1,48 +1,35 @@
 {
-  "timestamp": "2026-11-11T17:23:47.980399+09:00",
+  "timestamp": "2026-11-12T01:23:41.756699+09:00",
   "sentiment": {
-    "cnn_fng": 33.8,
+    "cnn_fng": 37.5142857142857,
     "cnn_components": {
-      "momentum": 13.2,
-      "strength": 50.6,
-      "breadth": 50.6,
-      "put_call": 16.2,
-      "junk_bond": 45.8,
+      "momentum": 16.0,
+      "strength": 50.8,
+      "breadth": 53.0,
+      "put_call": 22.8,
+      "junk_bond": 52.2,
       "volatility": 50.0,
-      "safe_haven": 10.6
+      "safe_haven": 17.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
+      "greed_count": 0,
       "fear_count": 1,
-      "greed_articles": [
-        {
-          "title": "증시대기자금·빚투 올들어 최저…반대매매 600억대로↑ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ERS1veHp3UHU2UElvYzc1SlB3Vjh4cS1GSGQwS1FjdmVSY2VUajg4ckNqQUtPOTZMMEVNS3ZkazRXVllYRU9MQlFwMTVLMmVRdlFldGpVakxLcGvSAWBBVV95cUxNX2k0Zkl2eVZHODNGVEE4ZWYyUklpalRqM2hvOXhZdF8wY2hwT0VNaVNGMGs4R3RBcHFIei1ZMENxTlVzZVNvT2ZlcDU5MnhhY1FnOUl2R3lYcUd5XzNRNVY?oc=5",
-          "pub_date": "Wed, 11 Nov 2026 07:01:26 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "저가 매수·AI기업 호재에 코스피·코스닥 동반 상승 - 매일신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FOFV6QnhxblJxN2MtYmlFM0JpY0R0Znd6bHVtWUc0Y2hVV2tZMUY4MThIdkd0NkhHclpLWm1YVEYyQ1BGcjJ2Rm92ZllOM044WTgwYjdhOE52aWxDb2tXUHpB?oc=5",
-          "pub_date": "Wed, 11 Nov 2026 07:37:53 GMT",
-          "source": "매일신문"
-        }
-      ],
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "지난주엔 투매, 이번 주엔 사이드카…코스닥 롤러코스터, 지금 타도 될까 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hSFZ3LWZPMnB0UzJXcHh4dFlGNDA3ZFJOcTZHeFk0QTg1d0tweWRkM2FiTFFTM1B2dS1QSTN0bHZFOXg0QUNGaVdEMlRlQUZuS3lfMFRSOGdVZUVPZDdjWV9uUnFhdkNQZkktemhVUTk?oc=5",
-          "pub_date": "Wed, 11 Nov 2026 07:28:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "역대 최악과 최고의 날은 '한 끗 차이'…증시 폭락 뒤에 '강한 반등' 공식 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EQkx5eU8ybHJHdmZtOFdubDdPT1dLbUxPZi03S04ySFJlQV9mYnBHMWc3U3dfNTg3dGF3X2doRmVmR2FjMTk4LVVaTFlHc093bzE1a2dEYWx2TGNWQkV3adIBeEFVX3lxTE01aExRYmFKODlONnJ2T3VNSllYeTZIS29TdDlpdkcxU1BlTmZrdTN3VHR1LTJMVGV6enhJcDFvZThDQzhkeFZ3MDNSRWlaa1NvLTBybXhPeVB1ek9vQTBSMWlwajB4MkxmX213dngzTmR0Q1pjdE0wZQ?oc=5",
+          "pub_date": "Wed, 11 Nov 2026 15:00:00 GMT",
+          "source": "뉴시스"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 19.46,
-    "vvix": 96.63,
+    "vix": 17.75,
+    "vvix": 93.76,
     "skew": 151.12,
     "move": 92.43
   },
@@ -56,55 +43,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25065.87,
+      "current": 25519.95,
       "high_52w": 27722.75,
-      "drop_pct": -9.58,
-      "intraday_low_drop_pct": -10.48,
-      "sma_200": 25114.37
+      "drop_pct": -7.95,
+      "intraday_low_drop_pct": -8.64,
+      "sma_200": 25122.88
     },
     "kospi": {
-      "current": 5375.36,
+      "current": 5239.13,
       "high_52w": 9385.59,
-      "drop_pct": -42.73,
-      "intraday_low_drop_pct": -44.52,
-      "sma_200": 6518.19
+      "drop_pct": -44.18,
+      "intraday_low_drop_pct": -44.87,
+      "sma_200": 6515.3
     },
     "kosdaq": {
-      "current": 705.1,
+      "current": 667.61,
       "high_52w": 1229.42,
-      "drop_pct": -42.65,
-      "intraday_low_drop_pct": -45.63,
-      "sma_200": 962.31
+      "drop_pct": -45.7,
+      "intraday_low_drop_pct": -46.72,
+      "sma_200": 963.54
     },
     "sp500": {
-      "current": 7520.93,
+      "current": 7609.4,
       "high_52w": 7844.52,
-      "drop_pct": -4.13,
-      "intraday_low_drop_pct": -4.77,
-      "sma_200": 7331.08
+      "drop_pct": -3.0,
+      "intraday_low_drop_pct": -3.48,
+      "sma_200": 7334.23
     },
     "russell2k": {
-      "current": 2821.38,
+      "current": 2843.19,
       "high_52w": 3069.71,
-      "drop_pct": -8.09,
-      "intraday_low_drop_pct": -8.81,
-      "sma_200": 2809.55
+      "drop_pct": -7.38,
+      "intraday_low_drop_pct": -7.73,
+      "sma_200": 2810.43
     },
     "soxx": {
-      "current": 146.59,
+      "current": 156.42,
       "high_52w": 655.95,
-      "drop_pct": -77.65,
-      "intraday_low_drop_pct": -78.18,
-      "sma_200": 159.75
+      "drop_pct": -76.15,
+      "intraday_low_drop_pct": -77.0,
+      "sma_200": 159.95
     }
   },
   "sector_rs": {
-    "XLK": 0.931,
-    "SMH": 0.865,
-    "BOTZ": 0.863,
-    "IGV": 0.99,
-    "XLF": 1.037,
-    "XLE": 1.053
+    "XLK": 0.955,
+    "SMH": 0.903,
+    "BOTZ": 0.874,
+    "IGV": 1.0,
+    "XLF": 1.025,
+    "XLE": 1.054
   },
   "signals": {
     "cnn_under_10": false,
@@ -141,19 +128,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 28.63,
+    "tqqq_profit_pct": 38.11,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 4.79,
+    "soxl_profit_pct": 25.68,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.04,
+    "koru_profit_pct": -97.61,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -163,11 +150,11 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -226,7 +213,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 64.711,
+    "strategy_pct": 90.693,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1114,7 +1101,7 @@
       },
       {
         "date": "2026-11-11",
-        "ret_pct": 64.711
+        "ret_pct": 90.693
       }
     ],
     "monthly_breakdown": [
@@ -1180,9 +1167,9 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -110.48,
-        "end_ret_pct": 64.71,
-        "max_dd_pct": 93.41
+        "return_pct": -84.49,
+        "end_ret_pct": 90.69,
+        "max_dd_pct": 78.66
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
