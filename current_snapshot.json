@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-11-12T01:23:41.756699+09:00",
+  "timestamp": "2026-11-12T07:51:41.896549+09:00",
   "sentiment": {
-    "cnn_fng": 37.5142857142857,
+    "cnn_fng": 36.9714285714286,
     "cnn_components": {
-      "momentum": 16.0,
-      "strength": 50.8,
-      "breadth": 53.0,
-      "put_call": 22.8,
-      "junk_bond": 52.2,
+      "momentum": 17.0,
+      "strength": 50.6,
+      "breadth": 53.4,
+      "put_call": 19.4,
+      "junk_bond": 51.0,
       "volatility": 50.0,
-      "safe_haven": 17.2
+      "safe_haven": 17.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 1,
-      "greed_articles": [],
-      "fear_articles": [
+      "greed_count": 1,
+      "fear_count": 0,
+      "greed_articles": [
         {
-          "title": "역대 최악과 최고의 날은 '한 끗 차이'…증시 폭락 뒤에 '강한 반등' 공식 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EQkx5eU8ybHJHdmZtOFdubDdPT1dLbUxPZi03S04ySFJlQV9mYnBHMWc3U3dfNTg3dGF3X2doRmVmR2FjMTk4LVVaTFlHc093bzE1a2dEYWx2TGNWQkV3adIBeEFVX3lxTE01aExRYmFKODlONnJ2T3VNSllYeTZIS29TdDlpdkcxU1BlTmZrdTN3VHR1LTJMVGV6enhJcDFvZThDQzhkeFZ3MDNSRWlaa1NvLTBybXhPeVB1ek9vQTBSMWlwajB4MkxmX213dngzTmR0Q1pjdE0wZQ?oc=5",
-          "pub_date": "Wed, 11 Nov 2026 15:00:00 GMT",
-          "source": "뉴시스"
+          "title": "증시 꺾이자 또 빚투… 지난달 가계대출 6.4조 늘어 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUml4QzBKV0cyU2RGbjJWS0JHUmdrOEVzZ1ctSW83X2p2RTJKeThjWG01Z1UtWnE4UkpubmZmUHpvUEN2dVNLVi05eUo5NDJtaUtDUXNiSmpyVEZ6V0JKWlNaSGFlS2tTWDJmM1dCNU9jOEYyaXfSAWZBVV95cUxPcDROYWdSRHJVS1dmQ1FwZG1fWUNkSFI1QmNlaDZ6WXRTNW5LbS10R18wb0RrRl96c1llWXpOUzd4Q0tmdGxFWVpETGp1bzRFdDVKNXY3S0FQNHdvYk14MEhERWhycmc?oc=5",
+          "pub_date": "Wed, 11 Nov 2026 15:30:00 GMT",
+          "source": "동아일보"
         }
-      ]
+      ],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 17.75,
-    "vvix": 93.76,
-    "skew": 151.12,
+    "vix": 17.49,
+    "vvix": 90.47,
+    "skew": 149.09,
     "move": 92.43
   },
   "korea_flow": {
@@ -43,11 +43,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25519.95,
+      "current": 25466.19,
       "high_52w": 27722.75,
-      "drop_pct": -7.95,
+      "drop_pct": -8.14,
       "intraday_low_drop_pct": -8.64,
-      "sma_200": 25122.88
+      "sma_200": 25122.61
     },
     "kospi": {
       "current": 5239.13,
@@ -64,34 +64,34 @@
       "sma_200": 963.54
     },
     "sp500": {
-      "current": 7609.4,
+      "current": 7619.38,
       "high_52w": 7844.52,
-      "drop_pct": -3.0,
+      "drop_pct": -2.87,
       "intraday_low_drop_pct": -3.48,
-      "sma_200": 7334.23
+      "sma_200": 7334.28
     },
     "russell2k": {
-      "current": 2843.19,
+      "current": 2846.26,
       "high_52w": 3069.71,
-      "drop_pct": -7.38,
+      "drop_pct": -7.28,
       "intraday_low_drop_pct": -7.73,
-      "sma_200": 2810.43
+      "sma_200": 2810.45
     },
     "soxx": {
-      "current": 156.42,
+      "current": 155.4,
       "high_52w": 655.95,
-      "drop_pct": -76.15,
+      "drop_pct": -76.31,
       "intraday_low_drop_pct": -77.0,
-      "sma_200": 159.95
+      "sma_200": 159.94
     }
   },
   "sector_rs": {
-    "XLK": 0.955,
-    "SMH": 0.903,
-    "BOTZ": 0.874,
-    "IGV": 1.0,
-    "XLF": 1.025,
-    "XLE": 1.054
+    "XLK": 0.937,
+    "SMH": 0.879,
+    "BOTZ": 0.864,
+    "IGV": 1.006,
+    "XLF": 1.03,
+    "XLE": 1.059
   },
   "signals": {
     "cnn_under_10": false,
@@ -128,19 +128,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 38.11,
+    "tqqq_profit_pct": 37.46,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 25.68,
+    "soxl_profit_pct": 23.42,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.61,
+    "koru_profit_pct": -97.68,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -150,11 +150,11 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": false,
+      "samsung_3d_up": true,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -213,7 +213,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 90.693,
+    "strategy_pct": 100.596,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1102,6 +1102,10 @@
       {
         "date": "2026-11-11",
         "ret_pct": 90.693
+      },
+      {
+        "date": "2026-11-12",
+        "ret_pct": 100.596
       }
     ],
     "monthly_breakdown": [
@@ -1167,8 +1171,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -84.49,
-        "end_ret_pct": 90.69,
+        "return_pct": -74.59,
+        "end_ret_pct": 100.6,
         "max_dd_pct": 78.66
       }
     ],
