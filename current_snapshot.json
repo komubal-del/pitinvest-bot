@@ -1,65 +1,71 @@
 {
-  "timestamp": "2026-11-12T12:44:44.342825+09:00",
+  "timestamp": "2026-11-12T20:53:18.406119+09:00",
   "sentiment": {
-    "cnn_fng": 36.9714285714286,
+    "cnn_fng": 37.4571428571429,
     "cnn_components": {
       "momentum": 17.0,
-      "strength": 50.6,
-      "breadth": 53.4,
+      "strength": 51.0,
+      "breadth": 56.6,
       "put_call": 19.4,
-      "junk_bond": 51.0,
+      "junk_bond": 50.8,
       "volatility": 50.0,
       "safe_haven": 17.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
+      "greed_count": 2,
       "fear_count": 6,
       "greed_articles": [
         {
-          "title": "美증시, 기관은 저가 매수…개인은 매도 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wWXpiWGlleGRFMGt4WVhHa3VBczBrZkg0VDdCZDVGTkxkUXZ1UDdWeFpXQ3lHeVNtQ1V6elA3TlByYktRT0c5SHRSNE5MdUttYjBJYUJSM0tPUHd6SWJIS2FYUkRoNTlhODdrMkFxOTDSAXRBVV95cUxNLVVDWXZKd2VMSzVLX2JYcXhDTnVmamh2NThrSWk1UzBVWTBGRGtfNHVYcG1xOW9acnh3ZFZ3ZFJTMzJfUjdBU255cmVsTlNBdjZJdUhnY2VqQldPU0ZJRThSNm81VVdiX25RZTdzd3hyQWl5UQ?oc=5",
-          "pub_date": "Wed, 11 Nov 2026 23:04:44 GMT",
-          "source": "연합인포맥스"
+          "title": "코스피 조정에 빚투 주춤…대기자금도 연중 최저 - 국제신문",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckx0RlFxRUlON0RKam9JMmtYVi1GWkxsU0JIaUVjZWpHSXBxQkdIX20wZDhFVjdSaV9XXzRMYlBjY2VlRF8tUjFhRVc1UG13VUhIRzVPMHlVUFZ0S3B4WkcyaHRoX01fTTItQkRIWE95V0NTaTZKb1ZTMGU1UC1uRmsxZ1NEUjNHYjNBcnBB?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 10:17:00 GMT",
+          "source": "국제신문"
+        },
+        {
+          "title": "물거품이 된 기대 …올해 상장한 코스닥 ETF 모두 손실 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzRE5EWmpQUTZTOXY5bklKa3lwLWRDbWtMVzZmTTB4Uy1uZmpaak5LM2lCb18ydjJlQVF3cjk3LTVNWEVZZjY3eEdtdGI5S3R6LVE?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 10:19:31 GMT",
+          "source": "매일경제"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피 5360·코스닥 704선 약세 출발...외국인 매도세 - 오피니언뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE94cHFNcEpNSFJ1TFdUOGtvWWo0OWt2cktJYVo4dm5fN1lSaS0tQzVpOWhVS0hYclhYT0VKOXVIaVMxUllQWVBwYk05dUJTYy0wTXhkVHNWOEhRQ3hqOGJXb0hxc2NYanhHVm9fY055cldCdw?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 00:29:39 GMT",
-          "source": "오피니언뉴스"
+          "title": "코스피, 사흘 만에 하락 전환해 0.61% 내린 5342.73 마감…젠슨 황 해임설에 투자심리 '위축' - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQWHFCcXRYSF8zQUNIQ214V1JpMllMTHBBTW5TbDU0TURkY0FuT1loNDBmMG1Idlh6M3ZCc0FxQUpWQUx4SzVITjRsNkhWZFNrMTBlSFlRcFljNEVsMHVvY1R5VG5Ga3J6LXk5WFBsc3l4QQ?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 11:46:23 GMT",
+          "source": "인더스트리뉴스"
         },
         {
-          "title": "[특징주] 넥스아이, 코스닥 상장 첫날 25%대 급락 - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZRHpyU1A1b2l6LVJpRFNGeVM1TXJZUWRfN0JhVUJ0elFtNjZjTWNPVkV0cmlXeC1aMkJPVGpNRFlnUW9JWDB3WUIwSmJDM2tiTUFoTnJoLV8tV1U?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 00:34:28 GMT",
-          "source": "에너지경제신문"
+          "title": "[주식] 코스닥 700선 밑돌아...한스바이오메드 11% 급락 - 히트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfbmM1aHN4UElmdlprQm1LNW1KX2xrbkJFMWRCdFExSGJxTTBfQkF4UGRzVU0yVm8zeEctUVNNaDJhNDJqa0htN3RrT0ZxUkdvaXoxRkhkcmpGSF9KNHVGeC1XcFZYTk5MbkhF?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 09:18:53 GMT",
+          "source": "히트뉴스"
         },
         {
-          "title": "넥스아이, 코스닥 상장 첫날 14%대 급락 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85aTdySjBSNFNUbTBfUXlEajVCYXRZRTBRdmcxNlE3bENEdVZ0UzRic3ptSlRSV0EzZ0R0aFNYc1BuM0djOHp3SERpXzRKekcyaEh4NmRfdWczQQ?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 00:06:06 GMT",
-          "source": "한국경제"
+          "title": "[베트남 증시] 거시 지표 호조도 무용지물, 혼조세 지속...外人 매도세 몰리며 FPT 3년래 최저가 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wVHdjVjZCZVJrdTNpYkkzekFLWVp4UnZiQkJ1ZGg1VHZHbHYwTGdiUURXemlIWHZGNW12YXo2VVAxYVEwdjZUeG5TbGxweURYa2t5Umg3QmoxUG9v?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 09:56:00 GMT",
+          "source": "뉴스핌"
         },
         {
-          "title": "코스피, 5400 찍고 하락 전환…보합권 등락 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBNNWxMMm02bTduRUVMdHlUNFlaZUFYNmNCdUtoTVpjbV94R3dCZnlCUmdlY3B6eTU5RUYtN2Q3b3gtaEdXWGtZZnpmWEpYc3plZ3lLZWZHeDRqZ28tcldOOWVB?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 00:21:00 GMT",
-          "source": "아시아경제"
+          "title": "코스피, 기관・개인 매도세에 5340선 하락 마감...JYP엔터 ‘급등’도 - www.ksdaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlcWhTcFJwamlJZ1FkRDdwRjhOdnk3amxkYVRFTTRRd3VnZzdBWHR2MHZScjdpaTBmQkFXZmFnRGhRUWpSSWNMS3pQWm9QN0FHWVlEWXpfaU9NMFJwY1BYM3VUanZaaHFVQmJ3?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 10:57:38 GMT",
+          "source": "www.ksdaily.co.kr"
         },
         {
-          "title": "[개장시황] 코스피, 상승 출발 뒤 하락 전환…5360선 - 브릿지경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HLWVJNzZpSWlLSXB5RG96LWtsUXdOeUxtN19rTlVWMTZlcmxrY192aGlFQlpoVWdEeHJjRG1LX25FRUlMNEdhWURSOWxqeUhTbTUxVVp5ZTQ4Zw?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 00:24:00 GMT",
-          "source": "브릿지경제"
+          "title": "코스피 한 달 새 23.4% 급락…세계 주요 증시 중 하락률 1위 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTQnZkcGd0UjhLelBlRXBLWVJWWWpCRU9Qb2JXa0RBc0NtQWNQVHdSdE5UZVVyYXQwVDF6cGw5Q2tRU0tVTk5zQy1UenVfT01TMVFFM2NTaG15T0pmdjhVVWNlTDNjRE9Vanl2VUN1TThWa2FVYmfSAWZBVV95cUxQZHo1bmZlbkVDZzZfcGNmeE84bU1jeUtHXzNiUjVQMjdhWTVTd200YURXeDFHUElvWmw0aXF4bGQ3R1VSVHVzRzU0NzJNQ0o2UEhVWEphcWdUbVY3UG84ZThXV3dMa1E?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 06:30:00 GMT",
+          "source": "동아일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 17.49,
+    "vix": 18.3,
     "vvix": 90.47,
     "skew": 149.09,
     "move": 92.43
@@ -81,18 +87,18 @@
       "sma_200": 25122.61
     },
     "kospi": {
-      "current": 5387.27,
+      "current": 5342.73,
       "high_52w": 9385.59,
-      "drop_pct": -42.6,
-      "intraday_low_drop_pct": -43.25,
-      "sma_200": 6520.92
+      "drop_pct": -43.08,
+      "intraday_low_drop_pct": -43.6,
+      "sma_200": 6520.7
     },
     "kosdaq": {
-      "current": 697.85,
+      "current": 696.53,
       "high_52w": 1229.42,
-      "drop_pct": -43.24,
-      "intraday_low_drop_pct": -43.49,
-      "sma_200": 961.03
+      "drop_pct": -43.34,
+      "intraday_low_drop_pct": -44.09,
+      "sma_200": 961.02
     },
     "sp500": {
       "current": 7619.38,
@@ -185,7 +191,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
