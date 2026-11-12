@@ -1,74 +1,56 @@
 {
-  "timestamp": "2026-11-12T20:53:18.406119+09:00",
+  "timestamp": "2026-11-13T04:49:13.608427+09:00",
   "sentiment": {
-    "cnn_fng": 37.4571428571429,
+    "cnn_fng": 41.1142857142857,
     "cnn_components": {
-      "momentum": 17.0,
-      "strength": 51.0,
-      "breadth": 56.6,
-      "put_call": 19.4,
-      "junk_bond": 50.8,
+      "momentum": 16.0,
+      "strength": 49.6,
+      "breadth": 52.0,
+      "put_call": 31.0,
+      "junk_bond": 59.8,
       "volatility": 50.0,
-      "safe_haven": 17.4
+      "safe_haven": 29.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 6,
+      "greed_count": 1,
+      "fear_count": 3,
       "greed_articles": [
         {
-          "title": "코스피 조정에 빚투 주춤…대기자금도 연중 최저 - 국제신문",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckx0RlFxRUlON0RKam9JMmtYVi1GWkxsU0JIaUVjZWpHSXBxQkdIX20wZDhFVjdSaV9XXzRMYlBjY2VlRF8tUjFhRVc1UG13VUhIRzVPMHlVUFZ0S3B4WkcyaHRoX01fTTItQkRIWE95V0NTaTZKb1ZTMGU1UC1uRmsxZ1NEUjNHYjNBcnBB?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 10:17:00 GMT",
-          "source": "국제신문"
-        },
-        {
-          "title": "물거품이 된 기대 …올해 상장한 코스닥 ETF 모두 손실 - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzRE5EWmpQUTZTOXY5bklKa3lwLWRDbWtMVzZmTTB4Uy1uZmpaak5LM2lCb18ydjJlQVF3cjk3LTVNWEVZZjY3eEdtdGI5S3R6LVE?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 10:19:31 GMT",
-          "source": "매일경제"
+          "title": "뉴스후] 가계대출 반등의 실제 구조, 증시 하락에 촉발된 ‘빚투’와 집단대출 동시 실행 - 데일리연합",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tZkk2T3ZLSzkwM3lPd3V5RGhHNlRCNWtpa3NRTkVaUkN3N2xFekNQQlJia002a1lZazhidlhKa1hKUV83a1VoQ01UNkxkWkFUZUVRV0dqOVE2TlE?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 15:20:03 GMT",
+          "source": "데일리연합"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 사흘 만에 하락 전환해 0.61% 내린 5342.73 마감…젠슨 황 해임설에 투자심리 '위축' - 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQWHFCcXRYSF8zQUNIQ214V1JpMllMTHBBTW5TbDU0TURkY0FuT1loNDBmMG1Idlh6M3ZCc0FxQUpWQUx4SzVITjRsNkhWZFNrMTBlSFlRcFljNEVsMHVvY1R5VG5Ga3J6LXk5WFBsc3l4QQ?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 11:46:23 GMT",
-          "source": "인더스트리뉴스"
+          "title": "[최정혁의 마켓 나우] 증시 급락, 더 위험해지는 투자자 선택 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BYnRaUWc2NG9VU2dZOUFvWkpVclh0MW44TnJFOG5HX3REVEp3SVFoZ0Y3emRlNWl6S1ZjdTlfWnZxa1pHbHM5WTg4VFFrd2RQNkszUklB?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 15:04:00 GMT",
+          "source": "중앙일보"
         },
         {
-          "title": "[주식] 코스닥 700선 밑돌아...한스바이오메드 11% 급락 - 히트뉴스",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfbmM1aHN4UElmdlprQm1LNW1KX2xrbkJFMWRCdFExSGJxTTBfQkF4UGRzVU0yVm8zeEctUVNNaDJhNDJqa0htN3RrT0ZxUkdvaXoxRkhkcmpGSF9KNHVGeC1XcFZYTk5MbkhF?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 09:18:53 GMT",
-          "source": "히트뉴스"
+          "title": "[속보] 엔비디아, 젠슨 황 사퇴에 뉴욕증시서 13% 급락 출발 - 서울파이낸스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80UlpyTWxsWkV6NmsxWEJTSUtiTTBSOXdoNGFDVzl6ZGl3bDRXdHRiNlREVTBLa3ZIMHJTdndGaHVJVWJEdnpKOGRmMnViVmNEWHFKb1JIem80YVh6X19lbllBOG9YT2NvUGc?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 16:36:36 GMT",
+          "source": "서울파이낸스"
         },
         {
-          "title": "[베트남 증시] 거시 지표 호조도 무용지물, 혼조세 지속...外人 매도세 몰리며 FPT 3년래 최저가 - 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wVHdjVjZCZVJrdTNpYkkzekFLWVp4UnZiQkJ1ZGg1VHZHbHYwTGdiUURXemlIWHZGNW12YXo2VVAxYVEwdjZUeG5TbGxweURYa2t5Umg3QmoxUG9v?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 09:56:00 GMT",
-          "source": "뉴스핌"
-        },
-        {
-          "title": "코스피, 기관・개인 매도세에 5340선 하락 마감...JYP엔터 ‘급등’도 - www.ksdaily.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlcWhTcFJwamlJZ1FkRDdwRjhOdnk3amxkYVRFTTRRd3VnZzdBWHR2MHZScjdpaTBmQkFXZmFnRGhRUWpSSWNMS3pQWm9QN0FHWVlEWXpfaU9NMFJwY1BYM3VUanZaaHFVQmJ3?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 10:57:38 GMT",
-          "source": "www.ksdaily.co.kr"
-        },
-        {
-          "title": "코스피 한 달 새 23.4% 급락…세계 주요 증시 중 하락률 1위 - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTQnZkcGd0UjhLelBlRXBLWVJWWWpCRU9Qb2JXa0RBc0NtQWNQVHdSdE5UZVVyYXQwVDF6cGw5Q2tRU0tVTk5zQy1UenVfT01TMVFFM2NTaG15T0pmdjhVVWNlTDNjRE9Vanl2VUN1TThWa2FVYmfSAWZBVV95cUxQZHo1bmZlbkVDZzZfcGNmeE84bU1jeUtHXzNiUjVQMjdhWTVTd200YURXeDFHUElvWmw0aXF4bGQ3R1VSVHVzRzU0NzJNQ0o2UEhVWEphcWdUbVY3UG84ZThXV3dMa1E?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 06:30:00 GMT",
-          "source": "동아일보"
+          "title": "[속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발 - 아이뉴스24",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqQkczajhRTDdldWpCY292bzNER3U2X0tGdnVXa0JnMVE3cnVqZ0s5aVFTRVdISzJEZ3dSXzI2SjhyV2xxZDBTeWtMSQ?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 15:06:42 GMT",
+          "source": "아이뉴스24"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.3,
-    "vvix": 90.47,
+    "vix": 18.52,
+    "vvix": 97.81,
     "skew": 149.09,
-    "move": 92.43
+    "move": 97.76
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -80,55 +62,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25466.19,
+      "current": 25356.87,
       "high_52w": 27722.75,
-      "drop_pct": -8.14,
-      "intraday_low_drop_pct": -8.64,
-      "sma_200": 25122.61
+      "drop_pct": -8.53,
+      "intraday_low_drop_pct": -9.58,
+      "sma_200": 25130.11
     },
     "kospi": {
-      "current": 5342.73,
+      "current": 5375.36,
       "high_52w": 9385.59,
-      "drop_pct": -43.08,
-      "intraday_low_drop_pct": -43.6,
-      "sma_200": 6520.7
+      "drop_pct": -42.73,
+      "intraday_low_drop_pct": -44.52,
+      "sma_200": 6518.19
     },
     "kosdaq": {
-      "current": 696.53,
+      "current": 705.1,
       "high_52w": 1229.42,
-      "drop_pct": -43.34,
-      "intraday_low_drop_pct": -44.09,
-      "sma_200": 961.02
+      "drop_pct": -42.65,
+      "intraday_low_drop_pct": -45.63,
+      "sma_200": 962.31
     },
     "sp500": {
-      "current": 7619.38,
+      "current": 7600.65,
       "high_52w": 7844.52,
-      "drop_pct": -2.87,
-      "intraday_low_drop_pct": -3.48,
-      "sma_200": 7334.28
+      "drop_pct": -3.11,
+      "intraday_low_drop_pct": -3.74,
+      "sma_200": 7337.4
     },
     "russell2k": {
-      "current": 2846.26,
+      "current": 2809.57,
       "high_52w": 3069.71,
-      "drop_pct": -7.28,
-      "intraday_low_drop_pct": -7.73,
-      "sma_200": 2810.45
+      "drop_pct": -8.47,
+      "intraday_low_drop_pct": -8.66,
+      "sma_200": 2811.23
     },
     "soxx": {
-      "current": 155.4,
+      "current": 154.81,
       "high_52w": 655.95,
-      "drop_pct": -76.31,
-      "intraday_low_drop_pct": -77.0,
-      "sma_200": 159.94
+      "drop_pct": -76.4,
+      "intraday_low_drop_pct": -77.13,
+      "sma_200": 160.12
     }
   },
   "sector_rs": {
-    "XLK": 0.937,
-    "SMH": 0.879,
-    "BOTZ": 0.864,
-    "IGV": 1.006,
-    "XLF": 1.03,
-    "XLE": 1.059
+    "XLK": 0.935,
+    "SMH": 0.871,
+    "BOTZ": 0.845,
+    "IGV": 1.002,
+    "XLF": 1.029,
+    "XLE": 1.085
   },
   "signals": {
     "cnn_under_10": false,
@@ -165,19 +147,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 37.46,
+    "tqqq_profit_pct": 36.09,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 23.42,
+    "soxl_profit_pct": 22.04,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.68,
+    "koru_profit_pct": -97.81,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -191,7 +173,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": false,
+      "hynix_3d_up": true,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
