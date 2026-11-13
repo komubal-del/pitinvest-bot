@@ -1,56 +1,43 @@
 {
-  "timestamp": "2026-11-13T04:49:13.608427+09:00",
+  "timestamp": "2026-11-13T09:59:45.354758+09:00",
   "sentiment": {
-    "cnn_fng": 41.1142857142857,
+    "cnn_fng": 39.9428571428571,
     "cnn_components": {
       "momentum": 16.0,
-      "strength": 49.6,
-      "breadth": 52.0,
-      "put_call": 31.0,
-      "junk_bond": 59.8,
+      "strength": 48.8,
+      "breadth": 51.2,
+      "put_call": 26.2,
+      "junk_bond": 58.0,
       "volatility": 50.0,
       "safe_haven": 29.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 3,
-      "greed_articles": [
-        {
-          "title": "뉴스후] 가계대출 반등의 실제 구조, 증시 하락에 촉발된 ‘빚투’와 집단대출 동시 실행 - 데일리연합",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tZkk2T3ZLSzkwM3lPd3V5RGhHNlRCNWtpa3NRTkVaUkN3N2xFekNQQlJia002a1lZazhidlhKa1hKUV83a1VoQ01UNkxkWkFUZUVRV0dqOVE2TlE?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 15:20:03 GMT",
-          "source": "데일리연합"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 2,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "[최정혁의 마켓 나우] 증시 급락, 더 위험해지는 투자자 선택 - 중앙일보",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BYnRaUWc2NG9VU2dZOUFvWkpVclh0MW44TnJFOG5HX3REVEp3SVFoZ0Y3emRlNWl6S1ZjdTlfWnZxa1pHbHM5WTg4VFFrd2RQNkszUklB?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 15:04:00 GMT",
-          "source": "중앙일보"
+          "title": "코스피, 엔비디아 급락 충격에도 상승 개장 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb05FaHdOMkF0YUZNOHhNN3k0SHpMbDU5SHVJUkpGRHU1YVlyOHJwejhjUExJNDhYZGc3VExWQkJ5RFZuVTRtU29xazE1bkdkNEdUaVhTY0hkRFlWQ24xMlZidENIMkMza3Q1R3JSdUF4MFhWdTc1aVVfUDZEamU2ZzJ0bU1CQkxV0gGcAUFVX3lxTE1sanZBdG1SN2tzb21USGl4UVBJRUlLVUlHSDUtNGdSdWhvWXdnM0gwRE5oSlJ4YVBraGdSdEdWckhCeDVXbmVPbi1LcHpJZkFRWDFKUmpkeUdacThzN3RSeE9NSldEeXhzbzhleHJPSVZzZU4ybWllMmRUOGJMZFFwYlB1SUhzc3p2V0Yxcll4WDV0NlNQQWd4TUstbQ?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 00:05:00 GMT",
+          "source": "Chosunbiz"
         },
         {
-          "title": "[속보] 엔비디아, 젠슨 황 사퇴에 뉴욕증시서 13% 급락 출발 - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80UlpyTWxsWkV6NmsxWEJTSUtiTTBSOXdoNGFDVzl6ZGl3bDRXdHRiNlREVTBLa3ZIMHJTdndGaHVJVWJEdnpKOGRmMnViVmNEWHFKb1JIem80YVh6X19lbllBOG9YT2NvUGc?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 16:36:36 GMT",
-          "source": "서울파이낸스"
-        },
-        {
-          "title": "[속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발 - 아이뉴스24",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqQkczajhRTDdldWpCY292bzNER3U2X0tGdnVXa0JnMVE3cnVqZ0s5aVFTRVdISzJEZ3dSXzI2SjhyV2xxZDBTeWtMSQ?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 15:06:42 GMT",
-          "source": "아이뉴스24"
+          "title": "1400조 벌고도 폭락…개미들 울린 코스피의 '씁쓸한 이면' [분석+] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DaEdENGUtTmhKR2tOTlZYbXRXelVSenRHS21oVE81QXpNQ2gwT09ocmhPTkFhSVdMUk5qRFJ3WHVSay0tY2wzSGo5X0Rya3FwZURMcmpIRXRkZw?oc=5",
+          "pub_date": "Thu, 12 Nov 2026 21:30:13 GMT",
+          "source": "한국경제"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 18.52,
-    "vvix": 97.81,
-    "skew": 149.09,
-    "move": 97.76
+    "vix": 18.7,
+    "vvix": 96.71,
+    "skew": 150.16,
+    "move": 98.43
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -62,55 +49,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25356.87,
+      "current": 25366.09,
       "high_52w": 27722.75,
-      "drop_pct": -8.53,
+      "drop_pct": -8.5,
       "intraday_low_drop_pct": -9.58,
-      "sma_200": 25130.11
+      "sma_200": 25130.16
     },
     "kospi": {
-      "current": 5375.36,
+      "current": 5450.19,
       "high_52w": 9385.59,
-      "drop_pct": -42.73,
-      "intraday_low_drop_pct": -44.52,
-      "sma_200": 6518.19
+      "drop_pct": -41.93,
+      "intraday_low_drop_pct": -42.05,
+      "sma_200": 6521.24
     },
     "kosdaq": {
-      "current": 705.1,
+      "current": 722.86,
       "high_52w": 1229.42,
-      "drop_pct": -42.65,
-      "intraday_low_drop_pct": -45.63,
-      "sma_200": 962.31
+      "drop_pct": -41.2,
+      "intraday_low_drop_pct": -42.58,
+      "sma_200": 961.15
     },
     "sp500": {
-      "current": 7600.65,
+      "current": 7592.4,
       "high_52w": 7844.52,
-      "drop_pct": -3.11,
+      "drop_pct": -3.21,
       "intraday_low_drop_pct": -3.74,
-      "sma_200": 7337.4
+      "sma_200": 7337.35
     },
     "russell2k": {
-      "current": 2809.57,
+      "current": 2799.06,
       "high_52w": 3069.71,
-      "drop_pct": -8.47,
-      "intraday_low_drop_pct": -8.66,
-      "sma_200": 2811.23
+      "drop_pct": -8.82,
+      "intraday_low_drop_pct": -8.89,
+      "sma_200": 2811.17
     },
     "soxx": {
-      "current": 154.81,
+      "current": 154.99,
       "high_52w": 655.95,
-      "drop_pct": -76.4,
+      "drop_pct": -76.37,
       "intraday_low_drop_pct": -77.13,
       "sma_200": 160.12
     }
   },
   "sector_rs": {
     "XLK": 0.935,
-    "SMH": 0.871,
-    "BOTZ": 0.845,
-    "IGV": 1.002,
-    "XLF": 1.029,
-    "XLE": 1.085
+    "SMH": 0.873,
+    "BOTZ": 0.851,
+    "IGV": 0.978,
+    "XLF": 1.028,
+    "XLE": 1.086
   },
   "signals": {
     "cnn_under_10": false,
@@ -147,19 +134,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 36.09,
+    "tqqq_profit_pct": 36.18,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 22.04,
+    "soxl_profit_pct": 22.49,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.81,
+    "koru_profit_pct": -97.79,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -173,7 +160,7 @@
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
-      "hynix_3d_up": true,
+      "hynix_3d_up": false,
       "hynix_retail_buying": false,
       "hynix_at_60d_high": false,
       "hynix_ok": false,
@@ -189,8 +176,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-11-10",
-    "analyzed_at": "2026-11-10T09:08:16.200821+09:00",
+    "date": "2026-11-13",
+    "analyzed_at": "2026-11-13T09:59:52.324402+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -198,41 +185,41 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "D2UA_ZnlaFI",
-        "title": "5,000선 깨지면 추가 투매 나올까…외국인 매도에도 반등을 기대하는 이유ㅣ홍선애, 박병창 MP파트너스 [여의도 인사이트]",
-        "published": "2026-11-09T09:15:38Z",
-        "url": "https://youtube.com/watch?v=D2UA_ZnlaFI",
+        "video_id": "w9Xu28dD8tg",
+        "title": "\"외국인은 이미 움직였다\"…엔비디아 충격 이후 시장의 방향은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-11-13T00:22:26Z",
+        "url": "https://youtube.com/watch?v=w9Xu28dD8tg",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
-          "stance": "bullish",
-          "reason": "영상 제목에서 '외국인 매도에도 반등을 기대하는 이유'를 언급하며 시장 반등에 대한 긍정적 기대를 표출하고 있습니다."
+          "stance": "neutral",
+          "reason": "제공된 영상 설명란에는 전문가의 시장 분석이나 구체적인 투자 행동 권고가 포함되어 있지 않으며, 주로 홍보 및 안내 정보로 구성되어 있습니다."
         }
       },
       {
-        "video_id": "Q0fcmTdN2Ck",
-        "title": "속도조절론을 나쁘게만 봐야 할까요 (윤지호) | 저녁7시 인포맥스라이브",
-        "published": "2026-11-04T07:00:10Z",
-        "url": "https://youtube.com/watch?v=Q0fcmTdN2Ck",
+        "video_id": "L2GG_DeUDa0",
+        "title": "지옥 같은 코스피에서 살아남을 단어 &#39;양극단&#39; | 윤지호 경제평론가 [주말인터뷰]",
+        "published": "2026-10-16T23:00:13Z",
+        "url": "https://youtube.com/watch?v=L2GG_DeUDa0",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 '속도조절론을 나쁘게만 봐야 할까요?'라는 질문을 던지며 특정 행동을 권고하기보다는 시장 상황에 대한 분석적 논의를 예고하고 있으며, 본문에는 시장 포지션에 대한 어떠한 구체적인 언급도 없습니다."
+          "reason": "제목에서 현 시장을 '지옥 같은 코스피'로 표현하며 리스크를 강하게 언급하지만, 현금화/비중 축소/매도와 같은 구체적인 행동 권고가 명확히 없어 중립으로 판단됩니다."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
-      "박병창": "bullish",
+      "박병창": "neutral",
       "윤지호": "neutral"
     },
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 99.455,
+    "strategy_pct": 97.47,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1125,6 +1112,10 @@
       {
         "date": "2026-11-12",
         "ret_pct": 99.455
+      },
+      {
+        "date": "2026-11-13",
+        "ret_pct": 97.47
       }
     ],
     "monthly_breakdown": [
@@ -1190,8 +1181,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -75.73,
-        "end_ret_pct": 99.45,
+        "return_pct": -77.72,
+        "end_ret_pct": 97.47,
         "max_dd_pct": 78.66
       }
     ],
