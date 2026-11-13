@@ -1,34 +1,59 @@
 {
-  "timestamp": "2026-11-13T09:59:45.354758+09:00",
+  "timestamp": "2026-11-13T16:47:24.653675+09:00",
   "sentiment": {
-    "cnn_fng": 39.9428571428571,
+    "cnn_fng": 39.8285714285714,
     "cnn_components": {
       "momentum": 16.0,
       "strength": 48.8,
       "breadth": 51.2,
       "put_call": 26.2,
-      "junk_bond": 58.0,
+      "junk_bond": 57.2,
       "volatility": 50.0,
       "safe_haven": 29.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 2,
-      "greed_articles": [],
+      "greed_count": 1,
+      "fear_count": 7,
+      "greed_articles": [
+        {
+          "title": "[일본 증시] 닛케이 반등...엔저·반도체주 저가 매수에 6만1000선 회복 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15NzNRV19KeXRnbEJhTzJUbzM4X2EwbUFNT2NWTnc1ZUs1V2dVN3VPZGFaRW90NUo3aU1MeHROUW15elYtWmdqVlY2aERhYXZVaktwZDhKWUQ2Z1lX?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 07:19:00 GMT",
+          "source": "뉴스핌"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "코스피, 엔비디아 급락 충격에도 상승 개장 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb05FaHdOMkF0YUZNOHhNN3k0SHpMbDU5SHVJUkpGRHU1YVlyOHJwejhjUExJNDhYZGc3VExWQkJ5RFZuVTRtU29xazE1bkdkNEdUaVhTY0hkRFlWQ24xMlZidENIMkMza3Q1R3JSdUF4MFhWdTc1aVVfUDZEamU2ZzJ0bU1CQkxV0gGcAUFVX3lxTE1sanZBdG1SN2tzb21USGl4UVBJRUlLVUlHSDUtNGdSdWhvWXdnM0gwRE5oSlJ4YVBraGdSdEdWckhCeDVXbmVPbi1LcHpJZkFRWDFKUmpkeUdacThzN3RSeE9NSldEeXhzbzhleHJPSVZzZU4ybWllMmRUOGJMZFFwYlB1SUhzc3p2V0Yxcll4WDV0NlNQQWd4TUstbQ?oc=5",
-          "pub_date": "Fri, 13 Nov 2026 00:05:00 GMT",
-          "source": "Chosunbiz"
+          "title": "코스피 하락 전환, 5,200선 마감…반도체주↓ - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wWWxjT0p0OGhOZmozaHMzdzlzTXVBWjhYVHRwYVFkTU92MjlyaTNMZmVhS1I0X0htMGZUcjNhd3FhVHg4Q1NTM2lTU0pRN0EtYm10ekRfN3V0X1k?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 07:20:00 GMT",
+          "source": "KBS 뉴스"
         },
         {
-          "title": "1400조 벌고도 폭락…개미들 울린 코스피의 '씁쓸한 이면' [분석+] - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DaEdENGUtTmhKR2tOTlZYbXRXelVSenRHS21oVE81QXpNQ2gwT09ocmhPTkFhSVdMUk5qRFJ3WHVSay0tY2wzSGo5X0Rya3FwZURMcmpIRXRkZw?oc=5",
-          "pub_date": "Thu, 12 Nov 2026 21:30:13 GMT",
-          "source": "한국경제"
+          "title": "1년 새 지수 906→696 '급락'…이재명 정부, 코스닥 정책 성적표는 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOYUtzd1FQZVdHclZQZVE5U2Z5Qlo5bHRpdFBUSEtNUWJIUmxHb3o3V1UxRWYyaEJYRHhFZlZpQkQ5MFE1UDIyaTUtaW1tWnlhSU1RSm5zRzZPZU9O?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 04:49:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "'젠슨황 쇼크'에도 상승 출발한 코스피…외인 '팔자'에 하락 전환 - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmdUJqT2VUZTdsdlEweVU1VzItd0hKRnQxeVZibjl5aWNtZ3dkZEhjZDdGN0M4UUJkY3huQXBTUERGUWhzdFpXTFY5UjhqSExYc2dwTzc2ZGN3bDdPZ0NxaGhwanNmeTVfc3NacmlDRVBManM?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 05:21:12 GMT",
+          "source": "마켓인"
+        },
+        {
+          "title": "[중국증시 마감] 엔비디아 쇼크에 기술주 급락, 방어주로 자금 이동 뚜렷 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkSW9pV001bTBYNXRuaE9jajR5S0tqdXc1UW9MT3Axd3I5N3Ayd0hQRnduLU9mbEV0M1hsZTVGampJcGE0aEV1SWhscm9CekpNTkwzbTJ2ajg2QXpW?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 07:24:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "코스피, 장중 하락 전환...코스닥, 상승폭 축소 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lMnA0dFBNVXFuUVlycTZsazB2ZE42WU9EYnVnZnZaZkZrSmR6OWRadV8tbUlpd1gwTUVMTXpLOFVJUWpYaTJvRWZFOHc0RnlWbHBPNWNiME1YWlZxUG9vd1lkNzBwLWhVX3lpeG5zWFdRTUJPd0E?oc=5",
+          "pub_date": "Fri, 13 Nov 2026 04:48:00 GMT",
+          "source": "YTN"
         }
       ]
     }
@@ -56,18 +81,18 @@
       "sma_200": 25130.16
     },
     "kospi": {
-      "current": 5450.19,
+      "current": 5290.53,
       "high_52w": 9385.59,
-      "drop_pct": -41.93,
-      "intraday_low_drop_pct": -42.05,
-      "sma_200": 6521.24
+      "drop_pct": -43.63,
+      "intraday_low_drop_pct": -43.97,
+      "sma_200": 6522.63
     },
     "kosdaq": {
-      "current": 722.86,
+      "current": 699.66,
       "high_52w": 1229.42,
-      "drop_pct": -41.2,
-      "intraday_low_drop_pct": -42.58,
-      "sma_200": 961.15
+      "drop_pct": -43.09,
+      "intraday_low_drop_pct": -43.25,
+      "sma_200": 959.68
     },
     "sp500": {
       "current": 7592.4,
@@ -156,7 +181,7 @@
   "sell_signals": {
     "leading_stock_rising_3d": false,
     "leading_detail": {
-      "samsung_3d_up": true,
+      "samsung_3d_up": false,
       "samsung_retail_buying": false,
       "samsung_at_60d_high": false,
       "samsung_ok": false,
@@ -219,7 +244,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 97.47,
+    "strategy_pct": 66.152,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1115,7 +1140,7 @@
       },
       {
         "date": "2026-11-13",
-        "ret_pct": 97.47
+        "ret_pct": 66.152
       }
     ],
     "monthly_breakdown": [
@@ -1181,9 +1206,9 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -77.72,
-        "end_ret_pct": 97.47,
-        "max_dd_pct": 78.66
+        "return_pct": -109.04,
+        "end_ret_pct": 66.15,
+        "max_dd_pct": 91.97
       }
     ],
     "calc_note": "1/1 시작: 코어 60% / 위성 40% · 매수/매도 신호 발동 시 위성 ±33.33%p (균등). 일반 매도자금은 코어 균등 매수. 매도3종 충족 → 위성 전량 코어 매수. 매수3종 다 발동 → 카운터 리셋.",
