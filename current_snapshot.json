@@ -1,68 +1,30 @@
 {
-  "timestamp": "2026-11-16T15:09:02.051533+09:00",
+  "timestamp": "2026-11-17T01:08:18.013983+09:00",
   "sentiment": {
-    "cnn_fng": 38.6,
+    "cnn_fng": 35.3142857142857,
     "cnn_components": {
-      "momentum": 14.6,
+      "momentum": 12.0,
       "strength": 44.2,
-      "breadth": 52.2,
-      "put_call": 25.6,
-      "junk_bond": 62.4,
+      "breadth": 50.2,
+      "put_call": 22.0,
+      "junk_bond": 54.6,
       "volatility": 50.0,
-      "safe_haven": 21.2
+      "safe_haven": 14.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 22,
-      "greed_articles": [
-        {
-          "title": "증시 조정 속 되살아난 '빚투' 마이너스통장 잔액 44조원대 재진입의 의미 - 데일리연합",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1U1hXU2lpcXpXNzE5ZWo0dHdTTFdWSEllR3RqWEtEZWZsNnF6VThPZDllWnotb0hHWkdSSWN1cHpuekNsTHpxYlJ5dGJjUnBta293a0NWcmxkZw?oc=5",
-          "pub_date": "Mon, 16 Nov 2026 05:20:03 GMT",
-          "source": "데일리연합"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "[e마켓오프닝] 美 반도체지수 3.4% 급락···코스피 외국인 매매 향방은 - 시사저널e",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkMVRfaXBZZmRqZEoyeHpHUzRnVVB0NUstQllWWEFfQlFkYktQeVZ0cG1NbzdfQlpVQ2ZKMkV6ekR0ZGVienZfRHpmY3pMMWkyWEh2OHhnMHhQWGduZENXcGJuSm1CX19vLUJYeGZWQ1h5QQ?oc=5",
-          "pub_date": "Mon, 16 Nov 2026 00:07:21 GMT",
-          "source": "시사저널e"
-        },
-        {
-          "title": "코스피, 상승 출발…외국인 ’팔자’에 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mQmtwb21UZmsyVEhJNEJFcVF4ZFlBMEwzUzlOZm5NdGxkckhwOW9QWlhCNXk5cE5BZENyeDMxOVdSck93RUtiMFkwUkxqNk4wSlZtVDg1aTNPZE90WlBMS2ZKRmFWc0U?oc=5",
-          "pub_date": "Mon, 16 Nov 2026 01:24:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "코스피, 장중 3% 급락‥5,100선까지 밀려 - MBC 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NVG94SEc2dUItSmxmLXlJQnA1cnNDWDlXV0gyWjVwYlRLZ1plMFBySm9MNDNINlVOaHN0eVJocWJxbjNwVk9hdGxJMm5OT2E5aDJTNld6OXd2LUo1YXZFVmRhSHZqUlBIc0xMX2RubjU0c3M50gF0QVVfeXFMT2lNMzlaRU5mY09WSHZmakNmZnN5Ync4M25idU5pZHZNREFfbzNVYWY4SHhmN3JHbVFnejN5WUxrbV9DS0ZOUTd6OEhySGlrYkVFTVEtb1JyS1p0c0dpLUxPSm5FV3dzWnhYZWRiWVdnUjB1Q0c?oc=5",
-          "pub_date": "Mon, 16 Nov 2026 02:01:35 GMT",
-          "source": "MBC 뉴스"
-        },
-        {
-          "title": "코스피, 외인 매도 확대에 급락세…5,100선도 위태 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfY0MzdXBVMElseHF3VUttOWlZa0xLVkN5X012YmVFMXBITk1JX0tGZ0lPSG9OOUFNaFhzWFFoeDVkcGZlRlF3Qm1TZzJhWWZPanpqY2NXck9SR1FCR29CeTV4blhvRlBKZnl6OURoOXc?oc=5",
-          "pub_date": "Mon, 16 Nov 2026 02:16:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "\"개장 직후엔 괜찮았는데\"…코스피·코스닥, 美 금리·AI 우려에 '급락' - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56bGdxbllMcUxwU3lDYmtHdmtKTkVONEV4SXVLamdWbjEwSGg1d3dIRzdMUEVyelc4MlM4VjRCQUoyaThCV3hjbTFhUWVPbTVBZzI5d3hnNkdXQQ?oc=5",
-          "pub_date": "Mon, 16 Nov 2026 01:51:43 GMT",
-          "source": "한국경제"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 19.3,
-    "vvix": 101.53,
+    "vix": 20.81,
+    "vvix": 104.51,
     "skew": 147.14,
-    "move": 98.79
+    "move": 99.21
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -74,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 25136.27,
+      "current": 24762.28,
       "high_52w": 27722.75,
-      "drop_pct": -9.33,
-      "intraday_low_drop_pct": -10.28,
-      "sma_200": 25137.41
+      "drop_pct": -10.68,
+      "intraday_low_drop_pct": -11.37,
+      "sma_200": 25143.91
     },
     "kospi": {
-      "current": 5082.46,
+      "current": 5290.53,
       "high_52w": 9385.59,
-      "drop_pct": -45.85,
-      "intraday_low_drop_pct": -45.91,
-      "sma_200": 6523.61
+      "drop_pct": -43.63,
+      "intraday_low_drop_pct": -43.97,
+      "sma_200": 6522.63
     },
     "kosdaq": {
-      "current": 667.19,
+      "current": 699.66,
       "high_52w": 1229.42,
-      "drop_pct": -45.73,
-      "intraday_low_drop_pct": -45.76,
-      "sma_200": 958.13
+      "drop_pct": -43.09,
+      "intraday_low_drop_pct": -43.25,
+      "sma_200": 959.68
     },
     "sp500": {
-      "current": 7561.67,
+      "current": 7484.74,
       "high_52w": 7844.52,
-      "drop_pct": -3.61,
-      "intraday_low_drop_pct": -4.4,
-      "sma_200": 7340.32
+      "drop_pct": -4.59,
+      "intraday_low_drop_pct": -5.01,
+      "sma_200": 7343.05
     },
     "russell2k": {
-      "current": 2790.49,
+      "current": 2765.23,
       "high_52w": 3069.71,
-      "drop_pct": -9.1,
-      "intraday_low_drop_pct": -9.97,
-      "sma_200": 2811.85
+      "drop_pct": -9.92,
+      "intraday_low_drop_pct": -10.26,
+      "sma_200": 2812.61
     },
     "soxx": {
-      "current": 149.3,
+      "current": 143.1,
       "high_52w": 655.95,
-      "drop_pct": -77.24,
-      "intraday_low_drop_pct": -77.95,
-      "sma_200": 160.27
+      "drop_pct": -78.18,
+      "intraday_low_drop_pct": -78.52,
+      "sma_200": 160.4
     }
   },
   "sector_rs": {
-    "XLK": 0.921,
-    "SMH": 0.85,
-    "BOTZ": 0.849,
-    "IGV": 0.998,
-    "XLF": 1.039,
-    "XLE": 1.084
+    "XLK": 0.905,
+    "SMH": 0.814,
+    "BOTZ": 0.832,
+    "IGV": 1.012,
+    "XLF": 1.052,
+    "XLE": 1.066
   },
   "signals": {
     "cnn_under_10": false,
@@ -159,19 +121,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 31.18,
+    "tqqq_profit_pct": 24.45,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": 9.01,
+    "soxl_profit_pct": -4.62,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -97.91,
+    "koru_profit_pct": -98.08,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
