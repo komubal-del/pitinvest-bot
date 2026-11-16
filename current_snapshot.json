@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T08:55:09.414760+09:00",
+  "timestamp": "2026-11-16T15:09:02.051533+09:00",
   "sentiment": {
     "cnn_fng": 38.6,
     "cnn_components": {
@@ -15,33 +15,45 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 3,
+      "fear_count": 22,
       "greed_articles": [
         {
-          "title": "[코스피 급락과 기초자산 부진] '9천피' 고점 당시 발행된 고수익 ELS, 1년 이하 상품 만기 도래 - CBC뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44TGdsNWFCUUxTcWlDelRTdzdpV1NzTWNhakZWV3RNd1U1VTdZcGV5MjVsajROWUh6VjFVT3dJZG5HR0hXWVIzYW1sRlBUcVZHSk5Ua0RUMXBoS0dyZkVwRF9GYjVPOXBM?oc=5",
-          "pub_date": "Sun, 15 Nov 2026 15:30:00 GMT",
-          "source": "CBC뉴스"
+          "title": "증시 조정 속 되살아난 '빚투' 마이너스통장 잔액 44조원대 재진입의 의미 - 데일리연합",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1U1hXU2lpcXpXNzE5ZWo0dHdTTFdWSEllR3RqWEtEZWZsNnF6VThPZDllWnotb0hHWkdSSWN1cHpuekNsTHpxYlJ5dGJjUnBta293a0NWcmxkZw?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 05:20:03 GMT",
+          "source": "데일리연합"
         }
       ],
       "fear_articles": [
         {
-          "title": "[오늘의 증시]美 반도체주 급락·연준 '고평가' 경고…코스피, 또 하락하나 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02OGl2QTVjZGRaZW44QkVPcnRFS3V3Mm1NY1lLLUpoTVJlQkRlaTVJZ3dDTkw0aVVHeWxvWVlrRl9ZV2Eyd1lCYkdFbDNMbkhJVDRnaTBHbTJORUpyZHhiRtIBeEFVX3lxTE1fWlVRaGRVNFowRi1yakt4elRJODgtaHZ4aTE4eXZIazM1VjVjRDhtb09rdGxXaDlRTnZseU1BbGhIa3hFaUo4T0lDam9VSkNnRGhoSDFkLWw5MGdzQTBMTlpNeWd2bGlycW5ybWROc0QzVnhIVGhXNw?oc=5",
-          "pub_date": "Sun, 15 Nov 2026 22:50:38 GMT",
-          "source": "뉴시스"
+          "title": "[e마켓오프닝] 美 반도체지수 3.4% 급락···코스피 외국인 매매 향방은 - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkMVRfaXBZZmRqZEoyeHpHUzRnVVB0NUstQllWWEFfQlFkYktQeVZ0cG1NbzdfQlpVQ2ZKMkV6ekR0ZGVienZfRHpmY3pMMWkyWEh2OHhnMHhQWGduZENXcGJuSm1CX19vLUJYeGZWQ1h5QQ?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 00:07:21 GMT",
+          "source": "시사저널e"
         },
         {
-          "title": "[모닝 경제 브리핑] 美 증시, 연준 매파 발언에 금리 상승…반도체 3%대 급락에 나스닥 0.9%↓ - 프리진경제",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93S2ItTUV6empKWWotRUllOTZtaVNvUHN5TTJqQ1J5MS1OVkpYWTV3bFFESEVOTDNQSEk2MGR5cElNeHFqX1N5RC1EaVRUUmlFWUh5LWE0Z2pOdmI4d2tFT0tNUjF4dTliZ3hqSA?oc=5",
-          "pub_date": "Sun, 15 Nov 2026 23:25:22 GMT",
-          "source": "프리진경제"
+          "title": "코스피, 상승 출발…외국인 ’팔자’에 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mQmtwb21UZmsyVEhJNEJFcVF4ZFlBMEwzUzlOZm5NdGxkckhwOW9QWlhCNXk5cE5BZENyeDMxOVdSck93RUtiMFkwUkxqNk4wSlZtVDg1aTNPZE90WlBMS2ZKRmFWc0U?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 01:24:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "코스피 한 달간 12% 급락, AI·美 FOMC·엔비디아 실적⋯ ‘운명의 한주’ - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yQy1JY245Z3ZzXzhfazY5YkNnMmlRLTEtMmc2UXdoM1JMSnlfNE56WjQyNUROM3pIZGxvT3h4RXg4YWpINVBBSmVZVnRWd3U0U1p3aWItODBFdF9WMEVSNEJZc0tJb1JoakdQVjB3?oc=5",
-          "pub_date": "Sun, 15 Nov 2026 20:00:00 GMT",
-          "source": "이투데이"
+          "title": "코스피, 장중 3% 급락‥5,100선까지 밀려 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NVG94SEc2dUItSmxmLXlJQnA1cnNDWDlXV0gyWjVwYlRLZ1plMFBySm9MNDNINlVOaHN0eVJocWJxbjNwVk9hdGxJMm5OT2E5aDJTNld6OXd2LUo1YXZFVmRhSHZqUlBIc0xMX2RubjU0c3M50gF0QVVfeXFMT2lNMzlaRU5mY09WSHZmakNmZnN5Ync4M25idU5pZHZNREFfbzNVYWY4SHhmN3JHbVFnejN5WUxrbV9DS0ZOUTd6OEhySGlrYkVFTVEtb1JyS1p0c0dpLUxPSm5FV3dzWnhYZWRiWVdnUjB1Q0c?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 02:01:35 GMT",
+          "source": "MBC 뉴스"
+        },
+        {
+          "title": "코스피, 외인 매도 확대에 급락세…5,100선도 위태 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfY0MzdXBVMElseHF3VUttOWlZa0xLVkN5X012YmVFMXBITk1JX0tGZ0lPSG9OOUFNaFhzWFFoeDVkcGZlRlF3Qm1TZzJhWWZPanpqY2NXck9SR1FCR29CeTV4blhvRlBKZnl6OURoOXc?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 02:16:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "\"개장 직후엔 괜찮았는데\"…코스피·코스닥, 美 금리·AI 우려에 '급락' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56bGdxbllMcUxwU3lDYmtHdmtKTkVONEV4SXVLamdWbjEwSGg1d3dIRzdMUEVyelc4MlM4VjRCQUoyaThCV3hjbTFhUWVPbTVBZzI5d3hnNkdXQQ?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 01:51:43 GMT",
+          "source": "한국경제"
         }
       ]
     }
@@ -69,18 +81,18 @@
       "sma_200": 25137.41
     },
     "kospi": {
-      "current": 5290.53,
+      "current": 5082.46,
       "high_52w": 9385.59,
-      "drop_pct": -43.63,
-      "intraday_low_drop_pct": -43.97,
-      "sma_200": 6522.63
+      "drop_pct": -45.85,
+      "intraday_low_drop_pct": -45.91,
+      "sma_200": 6523.61
     },
     "kosdaq": {
-      "current": 699.66,
+      "current": 667.19,
       "high_52w": 1229.42,
-      "drop_pct": -43.09,
-      "intraday_low_drop_pct": -43.25,
-      "sma_200": 959.68
+      "drop_pct": -45.73,
+      "intraday_low_drop_pct": -45.76,
+      "sma_200": 958.13
     },
     "sp500": {
       "current": 7561.67,
