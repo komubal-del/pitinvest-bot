@@ -1,30 +1,68 @@
 {
-  "timestamp": "2026-11-17T01:08:18.013983+09:00",
+  "timestamp": "2026-11-17T09:19:22.644841+09:00",
   "sentiment": {
-    "cnn_fng": 35.3142857142857,
+    "cnn_fng": 31.0190476190476,
     "cnn_components": {
-      "momentum": 12.0,
-      "strength": 44.2,
-      "breadth": 50.2,
-      "put_call": 22.0,
-      "junk_bond": 54.6,
-      "volatility": 50.0,
-      "safe_haven": 14.8
+      "momentum": 9.2,
+      "strength": 41.4,
+      "breadth": 49.4,
+      "put_call": 19.6,
+      "junk_bond": 52.4,
+      "volatility": 33.3,
+      "safe_haven": 11.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 1,
+      "fear_count": 34,
+      "greed_articles": [
+        {
+          "title": "누구는 자금 쏠림 기대, 누구는 걱정…코스닥 승강제 딜레마 - 비즈워치",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91QTNZNmJ4UjdYcFpGTDhLZXUzT2EwQ1N3SHB5QjlyY0tLQk1JOVh6YzR1ajZiUWdzTUdBRVYtdndyZ0ZsWUZBSHZyeGtxNXlhTjE5LVNlVnJZS2NRNno2c0N6R3d6S2lld2c?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 22:00:02 GMT",
+          "source": "비즈워치"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "AI 매도세 계속, 뉴욕증시 일제히 하락…엔비디아 4.1%↓ - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBTzg1aDloUk5ZSFVtNkRITHNuWHdPeHNzQmg3UG0tMjFRUWxnYkFHaU9DRWVCdEttM1FxSXI5U2d4WkZJVmlDOExUaXE2OTg1X29nTXRiTlRfcGtUZEljU2hyVm0yUQ?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 22:13:00 GMT",
+          "source": "KBS 뉴스"
+        },
+        {
+          "title": "코스피, 美 AI주 급락에 하락 출발…삼전닉스 동반 약세 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoNmhhLWJNWUlwNS14WEhJcjBuSGVFX2ZfWFc4aVZGdTYwQ1ROMHlZdVp3Y1lYdkJMVVZwY281UThLNjBwUklxNXpveWRjLTlvcHV5bHNPZ3lEQQ?oc=5",
+          "pub_date": "Tue, 17 Nov 2026 00:11:52 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[뉴욕증시] 젠슨 황 거취에 휘둘린 증시…필리 반도체 지수 5% 급락 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oeEduX3kwZ0Nfd2dEWmJJY0JOVUVtcnZ2NkhpQ3lDMTZ5YnlPZlB0QS1jOEN0LXhtNmRBMHhhbWpacjBhdWxUTVhpS19YSEpvdklKV3hNalRYWXFGaXNfRkw5SWVrdF9YdE4zOGxGWk0?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 21:34:28 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[글로벌증시] 美 나스닥 2%대 급락…AI주 매도세 확산 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZOXJrdTAzXzJLeC1XbF8wZzBuaF9QU2dpZEdzc0h6ajczaTFOMC1WRW5JY1dZbVppenR5MjJ0TW85V0Q3VWc5cS1RMXQ4eDJCcGVFejAtdThjNkJ1ZlBtMlIwcEp0RFk?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 21:51:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "[뉴욕증시-1보] 젠슨 황 거취에 휘둘린 증시…필리 5% 급락하며 3일째↓ - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SYjdwa0xrcnVJei1jeWpocWZVTzVFeEh5NGlIZ09jNFNoZGp5WUIyb2U2MmVJVWtuZmljYmdxXzdLdXktWng5a0VPX1BnVWdUU3UtVHM0M1owOHlaZWhqUHhackw4cGZINFdiLWJCRks?oc=5",
+          "pub_date": "Mon, 16 Nov 2026 21:08:45 GMT",
+          "source": "연합인포맥스"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 20.81,
-    "vvix": 104.51,
-    "skew": 147.14,
-    "move": 99.21
+    "vix": 22.91,
+    "vvix": 114.23,
+    "skew": 146.33,
+    "move": 101.28
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -36,11 +74,11 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24762.28,
+      "current": 24509.76,
       "high_52w": 27722.75,
-      "drop_pct": -10.68,
-      "intraday_low_drop_pct": -11.37,
-      "sma_200": 25143.91
+      "drop_pct": -11.59,
+      "intraday_low_drop_pct": -11.77,
+      "sma_200": 25142.65
     },
     "kospi": {
       "current": 5290.53,
@@ -57,33 +95,33 @@
       "sma_200": 959.68
     },
     "sp500": {
-      "current": 7484.74,
+      "current": 7416.59,
       "high_52w": 7844.52,
-      "drop_pct": -4.59,
-      "intraday_low_drop_pct": -5.01,
-      "sma_200": 7343.05
+      "drop_pct": -5.46,
+      "intraday_low_drop_pct": -5.66,
+      "sma_200": 7342.71
     },
     "russell2k": {
-      "current": 2765.23,
+      "current": 2742.94,
       "high_52w": 3069.71,
-      "drop_pct": -9.92,
-      "intraday_low_drop_pct": -10.26,
-      "sma_200": 2812.61
+      "drop_pct": -10.64,
+      "intraday_low_drop_pct": -10.86,
+      "sma_200": 2812.5
     },
     "soxx": {
-      "current": 143.1,
+      "current": 141.22,
       "high_52w": 655.95,
-      "drop_pct": -78.18,
+      "drop_pct": -78.47,
       "intraday_low_drop_pct": -78.52,
       "sma_200": 160.4
     }
   },
   "sector_rs": {
-    "XLK": 0.905,
-    "SMH": 0.814,
-    "BOTZ": 0.832,
-    "IGV": 1.012,
-    "XLF": 1.052,
+    "XLK": 0.903,
+    "SMH": 0.81,
+    "BOTZ": 0.83,
+    "IGV": 1.011,
+    "XLF": 1.056,
     "XLE": 1.066
   },
   "signals": {
@@ -121,19 +159,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 24.45,
+    "tqqq_profit_pct": 20.6,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": -4.62,
+    "soxl_profit_pct": -8.86,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.08,
+    "koru_profit_pct": -98.19,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -163,8 +201,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-11-13",
-    "analyzed_at": "2026-11-13T09:59:52.324402+09:00",
+    "date": "2026-11-17",
+    "analyzed_at": "2026-11-17T09:19:29.456619+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -172,29 +210,29 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "w9Xu28dD8tg",
-        "title": "\"외국인은 이미 움직였다\"…엔비디아 충격 이후 시장의 방향은? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-11-13T00:22:26Z",
-        "url": "https://youtube.com/watch?v=w9Xu28dD8tg",
+        "video_id": "4xr3yoEKNS0",
+        "title": "\"지금은 더 떨어질지 논할 단계가 아니다\"…시장 버텨야 할까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-11-17T00:15:21Z",
+        "url": "https://youtube.com/watch?v=4xr3yoEKNS0",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란에는 전문가의 시장 분석이나 구체적인 투자 행동 권고가 포함되어 있지 않으며, 주로 홍보 및 안내 정보로 구성되어 있습니다."
+          "reason": "전문가는 지금은 더 떨어질지 논할 단계가 아니라고 말하며 시장이 버텨야 할지에 대한 질문을 던질 뿐, 특정 매수/매도 행동을 구체적으로 권고하지 않습니다."
         }
       },
       {
-        "video_id": "L2GG_DeUDa0",
-        "title": "지옥 같은 코스피에서 살아남을 단어 &#39;양극단&#39; | 윤지호 경제평론가 [주말인터뷰]",
-        "published": "2026-10-16T23:00:13Z",
-        "url": "https://youtube.com/watch?v=L2GG_DeUDa0",
+        "video_id": "Q0fcmTdN2Ck",
+        "title": "속도조절론을 나쁘게만 봐야 할까요 (윤지호) | 저녁7시 인포맥스라이브",
+        "published": "2026-11-04T07:00:10Z",
+        "url": "https://youtube.com/watch?v=Q0fcmTdN2Ck",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목에서 현 시장을 '지옥 같은 코스피'로 표현하며 리스크를 강하게 언급하지만, 현금화/비중 축소/매도와 같은 구체적인 행동 권고가 명확히 없어 중립으로 판단됩니다."
+          "reason": "제목은 '속도조절론을 나쁘게만 봐야 할까요'라는 질문을 던지며, 특정 방향의 매수/매도/현금화 권고 없이 중립적인 입장에서 시장 흐름이나 정책 변화에 대한 탐색적인 분석을 예고하고 있습니다. 구체적인 행동 권고가 없습니다."
         }
       }
     ],
@@ -206,7 +244,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 93.861,
+    "strategy_pct": 88.825,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1107,6 +1145,10 @@
       {
         "date": "2026-11-16",
         "ret_pct": 93.861
+      },
+      {
+        "date": "2026-11-17",
+        "ret_pct": 88.825
       }
     ],
     "monthly_breakdown": [
@@ -1172,8 +1214,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -81.33,
-        "end_ret_pct": 93.86,
+        "return_pct": -86.36,
+        "end_ret_pct": 88.83,
         "max_dd_pct": 78.66
       }
     ],
