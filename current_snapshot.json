@@ -1,62 +1,30 @@
 {
-  "timestamp": "2026-11-18T16:08:23.542440+09:00",
+  "timestamp": "2026-11-19T01:35:08.690230+09:00",
   "sentiment": {
-    "cnn_fng": 25.172602739726,
+    "cnn_fng": 24.6718146718147,
     "cnn_components": {
-      "momentum": 5.2,
-      "strength": 36.6,
-      "breadth": 44.6,
-      "put_call": 15.0,
-      "junk_bond": 49.6,
-      "volatility": 17.8,
-      "safe_haven": 7.2
+      "momentum": 3.0,
+      "strength": 35.0,
+      "breadth": 39.8,
+      "put_call": 12.4,
+      "junk_bond": 41.4,
+      "volatility": 26.4,
+      "safe_haven": 12.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 2,
-      "fear_count": 3,
-      "greed_articles": [
-        {
-          "title": "5000선 무너진 코스피...증권가 \"부풀려진 엔비디아 리스크, 앤트로픽 상장으로 자금 쏠림도\" - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHlZNlVpelJTUncxdzFnc1pMdk9hdEd3NDY4clJvQmQyVEZKZjVGbUoyQ0lHYXBzc1FKTGUtLXowUndHeXFzMElnQVlOYW5rTU5qbHRmOVlUSVVHZVZ2eXVYeEpRSm1pdHVjR29WTHFzX3FjUGRuZWdDdDVCTEVONg?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 23:50:00 GMT",
-          "source": "조선일보"
-        },
-        {
-          "title": "증시 조정에 빚투 줄었지만…가계빚 2030.5조원 ‘역대 최대’ 행진 - 산경일보",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tSm02Z29mNzdqMXFqTHBOQWVvUjlCLURubVNFbkZEZUhpUVRWYjNWM3VIdWlmZ00tU01IN3JpdTA0TkhWbVhvUXFvYnVDX1dmeVFEVkU5UkFQRy1wbklrSXZhY3BGWVAxcFJOZkEwN3Y?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 05:30:24 GMT",
-          "source": "산경일보"
-        }
-      ],
-      "fear_articles": [
-        {
-          "title": "엔비디아 호실적에도…코스피 장중 한때 하락 전환 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JOHgyME01TnB2aXBQZTFmYkU5Zm1PcXVSMmRDNzg3T19Oa19LYmRHZXdScjdaaE9IbDNoMXlEMHdDNEptdlpsWG9PLXhvclVzQW5qb1Bad3FRN1RrcVFKTGFvSm1lQWs?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 02:57:00 GMT",
-          "source": "연합뉴스TV"
-        },
-        {
-          "title": "엔비디아발 훈풍에 코스피 '활짝'…外人 매도세 진정되나 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdktLejlBX1k1TUFlUi1oQ2FvSjd5ZDVNVEVMSl9xNGpjRlJWZUZwSWtrUTItbUJqZ0JNaWJDR2ZVLVRiZF9BbElZeWotZFVNU3hhOGJxQnppdDg0XzNrR1ZKSG9lZ3ZlejU0LU1jOUpNb2t6R0VIZUhYc01VRG0xZWplWHpsLU5Y?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 06:58:34 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "증시 급락에 머니마켓 ETF로 뭉칫돈…KODEX 미국머니마켓액티브 순자산 1조원 돌파 - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MVlhrWVJNZnBld2FOejNZNG5QVEl3bFlTS2tYMTQ2ZmJzYXhGZENqeFZ4U1gwdEx2MXZFeVhBb01jQ1JqVFh2T3pkYTJPWWhkcWtlanRMVXk3ai1aSTlmQmZDVUVlcnU1?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 06:29:52 GMT",
-          "source": "녹색경제신문"
-        }
-      ]
+      "greed_count": 0,
+      "fear_count": 0,
+      "greed_articles": [],
+      "fear_articles": []
     }
   },
   "volatility": {
-    "vix": 25.46,
-    "vvix": 121.28,
+    "vix": 25.34,
+    "vvix": 120.75,
     "skew": 145.11,
-    "move": 101.88
+    "move": 98.46
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -68,55 +36,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24328.38,
+      "current": 24331.42,
       "high_52w": 27722.75,
-      "drop_pct": -12.24,
-      "intraday_low_drop_pct": -13.47,
-      "sma_200": 25146.33
+      "drop_pct": -12.23,
+      "intraday_low_drop_pct": -12.58,
+      "sma_200": 25151.71
     },
     "kospi": {
-      "current": 5067.44,
+      "current": 4968.48,
       "high_52w": 9385.59,
-      "drop_pct": -46.01,
-      "intraday_low_drop_pct": -47.33,
-      "sma_200": 6524.57
+      "drop_pct": -47.06,
+      "intraday_low_drop_pct": -47.18,
+      "sma_200": 6523.99
     },
     "kosdaq": {
-      "current": 662.81,
+      "current": 650.06,
       "high_52w": 1229.42,
-      "drop_pct": -46.09,
-      "intraday_low_drop_pct": -47.43,
-      "sma_200": 955.08
+      "drop_pct": -47.12,
+      "intraday_low_drop_pct": -47.16,
+      "sma_200": 956.62
     },
     "sp500": {
-      "current": 7340.53,
+      "current": 7310.83,
       "high_52w": 7844.52,
-      "drop_pct": -6.42,
-      "intraday_low_drop_pct": -7.09,
-      "sma_200": 7344.53
+      "drop_pct": -6.8,
+      "intraday_low_drop_pct": -7.12,
+      "sma_200": 7346.49
     },
     "russell2k": {
-      "current": 2701.87,
+      "current": 2709.32,
       "high_52w": 3069.71,
-      "drop_pct": -11.98,
-      "intraday_low_drop_pct": -12.17,
-      "sma_200": 2812.81
+      "drop_pct": -11.74,
+      "intraday_low_drop_pct": -12.12,
+      "sma_200": 2813.11
     },
     "soxx": {
-      "current": 141.46,
+      "current": 140.2,
       "high_52w": 655.95,
-      "drop_pct": -78.43,
-      "intraday_low_drop_pct": -79.24,
-      "sma_200": 160.52
+      "drop_pct": -78.63,
+      "intraday_low_drop_pct": -78.8,
+      "sma_200": 160.64
     }
   },
   "sector_rs": {
-    "XLK": 0.92,
-    "SMH": 0.844,
-    "BOTZ": 0.85,
-    "IGV": 0.981,
-    "XLF": 1.035,
-    "XLE": 1.046
+    "XLK": 0.921,
+    "SMH": 0.841,
+    "BOTZ": 0.853,
+    "IGV": 0.992,
+    "XLF": 1.03,
+    "XLE": 1.024
   },
   "signals": {
     "cnn_under_10": false,
@@ -153,19 +121,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 17.83,
+    "tqqq_profit_pct": 17.4,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": -8.28,
+    "soxl_profit_pct": -10.97,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.24,
+    "koru_profit_pct": -98.23,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
