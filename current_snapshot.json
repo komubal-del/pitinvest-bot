@@ -1,59 +1,53 @@
 {
-  "timestamp": "2026-11-18T08:57:50.825731+09:00",
+  "timestamp": "2026-11-18T16:08:23.542440+09:00",
   "sentiment": {
-    "cnn_fng": 25.2297455968689,
+    "cnn_fng": 25.172602739726,
     "cnn_components": {
       "momentum": 5.2,
       "strength": 36.6,
       "breadth": 44.6,
       "put_call": 15.0,
-      "junk_bond": 50.0,
+      "junk_bond": 49.6,
       "volatility": 17.8,
       "safe_haven": 7.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 8,
+      "greed_count": 2,
+      "fear_count": 3,
       "greed_articles": [
         {
-          "title": "코스피 5000 깨졌는데…'고점서 반토막' 삼전닉스, 번지는 '팔자' 공포 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85N0Q4WUs2SkdJVjg3Zm9rcmZBSEsyTEVnNzZ1VktFYldiMlhLdzJvR0dySUtyTlprX1lWaWZFTlBmX25uWFM4c2pUNGRvZ28wV29fNFNpS2JpZw?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 22:49:11 GMT",
-          "source": "파이낸셜뉴스"
+          "title": "5000선 무너진 코스피...증권가 \"부풀려진 엔비디아 리스크, 앤트로픽 상장으로 자금 쏠림도\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHlZNlVpelJTUncxdzFnc1pMdk9hdEd3NDY4clJvQmQyVEZKZjVGbUoyQ0lHYXBzc1FKTGUtLXowUndHeXFzMElnQVlOYW5rTU5qbHRmOVlUSVVHZVZ2eXVYeEpRSm1pdHVjR29WTHFzX3FjUGRuZWdDdDVCTEVONg?oc=5",
+          "pub_date": "Tue, 17 Nov 2026 23:50:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "증시 조정에 빚투 줄었지만…가계빚 2030.5조원 ‘역대 최대’ 행진 - 산경일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tSm02Z29mNzdqMXFqTHBOQWVvUjlCLURubVNFbkZEZUhpUVRWYjNWM3VIdWlmZ00tU01IN3JpdTA0TkhWbVhvUXFvYnVDX1dmeVFEVkU5UkFQRy1wbklrSXZhY3BGWVAxcFJOZkEwN3Y?oc=5",
+          "pub_date": "Wed, 18 Nov 2026 05:30:24 GMT",
+          "source": "산경일보"
         }
       ],
       "fear_articles": [
         {
-          "title": "뉴욕증시, 엔비디아 실적 경계에 일제히 하락…다우 848P 급락 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXbTV5QUpGN1M0V1hoRjl2bW5VOG1yZXJKbFhwNDk1ZVd1cTVnbUVLMUFjMENhQXA3N3IzS0FOUmJLQm84VmpmdjRfbjRXLVRCNXJRRk5IWC1IVU1Bb3BnMmVka3BDb1d6TWFLcmVtMHXSAXRBVV95cUxPVnlWTF9yN0RCX0czQVhNcnkxM25sQzl3S2JuVUpRYXo1SXFBdklVME43NW5XdjJJQUFzTVZrTFl2RFBZRHhhTmZtRTdKZGExcTQ4YzkyZlA0VWltVFJxRDNKM1ZlYmZzM2ZoUHMxMmpYUTI2Vw?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 22:07:35 GMT",
-          "source": "산경투데이"
+          "title": "엔비디아 호실적에도…코스피 장중 한때 하락 전환 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JOHgyME01TnB2aXBQZTFmYkU5Zm1PcXVSMmRDNzg3T19Oa19LYmRHZXdScjdaaE9IbDNoMXlEMHdDNEptdlpsWG9PLXhvclVzQW5qb1Bad3FRN1RrcVFKTGFvSm1lQWs?oc=5",
+          "pub_date": "Wed, 18 Nov 2026 02:57:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "[뉴욕증시] 반도체·기술주 투매로 3대 지수 급락…나스닥 장중 2.1% 폭락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUWJBaXhtTkRnd1dfRkQ5OXNMWnl6eVZ2OS00NGVFdHBrMXRnekZ4TGRULVJmeGxhYkEwRWtFWGhOV2JfRmZYUW5YSTE2QXl5cndpamVvRW51SVI1WmxXRGxBTVNfQ1A1VWJkZFd5c2J5SXFVbElJOXJ6d2VWX0xyRU5LamNkRl9p?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 21:26:09 GMT",
+          "title": "엔비디아발 훈풍에 코스피 '활짝'…外人 매도세 진정되나 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdktLejlBX1k1TUFlUi1oQ2FvSjd5ZDVNVEVMSl9xNGpjRlJWZUZwSWtrUTItbUJqZ0JNaWJDR2ZVLVRiZF9BbElZeWotZFVNU3hhOGJxQnppdDg0XzNrR1ZKSG9lZ3ZlejU0LU1jOUpNb2t6R0VIZUhYc01VRG0xZWplWHpsLU5Y?oc=5",
+          "pub_date": "Wed, 18 Nov 2026 06:58:34 GMT",
           "source": "글로벌이코노믹"
         },
         {
-          "title": "[뉴욕증시]엔비디아 실적 앞두고 2거래일 연속 급락 - 아시아경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IdHEyWHphb1dDRE5nRHlYRlh2a3NtYjNjbkpjSnlrdDNKU1NIVXFUMEFUV25tRE84Um1LVEFEUFVydl9mUmxnbi1PaUFKekxtSy03SXNKcUR6ZDFnMVhCLQ?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 21:48:39 GMT",
-          "source": "아시아경제"
-        },
-        {
-          "title": "뉴욕증시 3대 지수 일제히 하락...다우 848포인트 급락 - M이코노미뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00YUhUcEpyYjBTTWdueG40dmpKQ05jaXdhcGkxQXFwckMta1V1Yjg0R0dMVVctTEl6VzQyYm5QRmpCeG1UakVPSlE4aHk1YlVkangwU2M0LUlXUDJ6ZE5RVGhMaWRFQUU?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 22:44:47 GMT",
-          "source": "M이코노미뉴스"
-        },
-        {
-          "title": "[뉴욕증시] 다우 1.64% 급락, 반도체 반등···엔비디아 시간외 2%↑ - 서울파이낸스",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lREVsS3ZVMENmM2NkZ3JFXzBEano1V1hSMU9jUWVjaFlkNDJqN0t5ekpzd3F0eTlCVktVeWc1WGJzS0NhSEhUdDZVR1FDeGFzZnFvQlQ5RERERkRyZDZqVGs0ejl5a0owVFE?oc=5",
-          "pub_date": "Tue, 17 Nov 2026 21:55:39 GMT",
-          "source": "서울파이낸스"
+          "title": "증시 급락에 머니마켓 ETF로 뭉칫돈…KODEX 미국머니마켓액티브 순자산 1조원 돌파 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MVlhrWVJNZnBld2FOejNZNG5QVEl3bFlTS2tYMTQ2ZmJzYXhGZENqeFZ4U1gwdEx2MXZFeVhBb01jQ1JqVFh2T3pkYTJPWWhkcWtlanRMVXk3ai1aSTlmQmZDVUVlcnU1?oc=5",
+          "pub_date": "Wed, 18 Nov 2026 06:29:52 GMT",
+          "source": "녹색경제신문"
         }
       ]
     }
@@ -81,18 +75,18 @@
       "sma_200": 25146.33
     },
     "kospi": {
-      "current": 5100.5,
+      "current": 5067.44,
       "high_52w": 9385.59,
-      "drop_pct": -45.66,
-      "intraday_low_drop_pct": -45.98,
-      "sma_200": 6523.7
+      "drop_pct": -46.01,
+      "intraday_low_drop_pct": -47.33,
+      "sma_200": 6524.57
     },
     "kosdaq": {
-      "current": 665.65,
+      "current": 662.81,
       "high_52w": 1229.42,
-      "drop_pct": -45.86,
-      "intraday_low_drop_pct": -45.91,
-      "sma_200": 958.12
+      "drop_pct": -46.09,
+      "intraday_low_drop_pct": -47.43,
+      "sma_200": 955.08
     },
     "sp500": {
       "current": 7340.53,
@@ -244,7 +238,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 83.759,
+    "strategy_pct": 84.826,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1152,7 +1146,7 @@
       },
       {
         "date": "2026-11-18",
-        "ret_pct": 83.759
+        "ret_pct": 84.826
       }
     ],
     "monthly_breakdown": [
@@ -1218,8 +1212,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -91.43,
-        "end_ret_pct": 83.76,
+        "return_pct": -90.36,
+        "end_ret_pct": 84.83,
         "max_dd_pct": 78.66
       }
     ],
