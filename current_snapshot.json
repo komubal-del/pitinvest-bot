@@ -1,62 +1,68 @@
 {
-  "timestamp": "2026-11-19T22:34:03.024331+09:00",
+  "timestamp": "2026-11-20T06:48:59.064939+09:00",
   "sentiment": {
-    "cnn_fng": 29.5714285714286,
+    "cnn_fng": 18.6761904761905,
     "cnn_components": {
-      "momentum": 4.8,
-      "strength": 31.8,
-      "breadth": 35.0,
-      "put_call": 31.6,
-      "junk_bond": 41.2,
-      "volatility": 50.0,
-      "safe_haven": 12.6
+      "momentum": 1.2,
+      "strength": 31.2,
+      "breadth": 30.8,
+      "put_call": 7.2,
+      "junk_bond": 38.6,
+      "volatility": 13.3,
+      "safe_haven": 9.0
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 4,
+      "fear_count": 8,
       "greed_articles": [
         {
-          "title": "‘9000 광풍’ 코인판된 증시에 뺨 맞은 진짜 코인판 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTzg1alp3T25KWFhGTDRma2RlUmtnVFFmdVYtT0ZhYmV6bXh5N0RiOWlYOXBGUHVVcExjeW9RUEJ4cGcybjJGVG81cHpKZGxVd2RpNHZDeURDNnV6YXRFMWR4UFR3bVFjcHBCUTlMV202TmFuWVg1S0ZSd29vUmU2dFVVVlZ1Vzh4Z1g4?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 03:31:31 GMT",
-          "source": "조선일보"
+          "title": "고점 반토막 난 코스닥…상장사 80% 몰린 충청권 ‘빨간불’ - www.cctoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92WGlRZUNSaV9Xc2NHNXpkUV9pMDM5TlVCVktCZkhEdGx0SFhrU2RZZnNNdmlMZVhyVzZoUXZOUHRtS1FGSWw4Z1FWdHF1SEoxeVVXdldEektBRFJsVnhVSlVqNzZxYzRQV01ya1d3?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 21:00:00 GMT",
+          "source": "www.cctoday.co.kr"
         }
       ],
       "fear_articles": [
         {
-          "title": "[중국증시-마감] 반도체주 급락에 약세 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQRTNsdUwwcWJVenYzTERjLVoxcGJwU04wQjFzX29ibGsxbS1naW52M2plODRQLW1rYURnd0Vhck9RQVB1WEs2UFFrSUN5dTlUWlc4bldKMHJ4ZTZtcVBDeE1IaGpnU2Zsbm1lNEN5Q2Q?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 09:16:50 GMT",
+          "title": "[뉴욕증시-1보] 앤트로픽 상장은 매도 신호였나…2%대 급락 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1saFlwR2swOTJ3SE1QdFgzMmtjbEtsU0dZc3NVbHdIUmI2R0p0WjI3dktsSTNfQXJVYWhXaF9wQUZLMnowcGdteWVHVFFBNEsteExwblRlRHNtanBabmhjSlI0b25WSTNoM1RBLUZGLWnSAXRBVV95cUxNTUxmYWJrX3M1c0ctT0MzUzhEalRQN01WbTRMczdYbndMYXFUelBqdXZEQ0hMVXhBLVFzemZnRXV5VVNnVUlSRXc4UnZwNHV3VzJ5OXd6aE15WG5KV2JiX3dvUWlPMDlYSUVOUV84YVJMaF9oRw?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 21:13:37 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "대만, 증시 급락에 공매도 규제 강화 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Kd0lMZjR0Q0xLdFVhTDVRRC1qVVVybTNnaWFwQnJqVmtMSE5mcWo4NzNsMUtGdm4yWjdTNWs3TVZRZmVLenQ3X1BzTXdmZzh6TmthenVyUGpncE5sVktGZVZSVE1BV1dSU1JzdGZFOVQ?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 06:40:34 GMT",
-          "source": "연합인포맥스"
+          "title": "앤스로픽 기대에 뛰던 뉴욕증시… 유가·금리 오르자 다우·S&P500 하락 전환 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkozS3U3U05LNGRJZTcza3JMSmtaWVdGT00zUGdlMzVHcUdZc2tzRlJPcVIzbFhtSDhRZWNLZGtjZTVUemlNSnJQRUYtU0l0T2Q4ZGFLbUdEb1N3RFVkc0FLR0wxblBRSWVHZzQ5eDd5cU9BQTdVMzhwVVMzMUNaMWFab1AzRXUw?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 16:18:25 GMT",
+          "source": "조선일보"
         },
         {
-          "title": "코스피, 장중 급락 딛고 5100선 회복하며 상승 마감…코스닥 3%대 급등 - 녹색경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QNjNwb1lHLVJ1dUhET0EtU3pWRG5yV0ZmVG16ZHVOUjdYQjRLcXdFM1VVa3YwSWN3a2RvTGduR0YwX0haM05UNUlMVW16UUp3RTNYeUVMN2NndkxLMlVVOG5GdC1reVl1?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 08:35:18 GMT",
-          "source": "녹색경제신문"
+          "title": "앤트로픽 상장에도 뉴욕증시 2%대 급락…다우 50,000선 아래로 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyc0RNTklVVUNGSVVMLUk1czZjTGw5al9jTUtsbThxNnY3T3g0aHpkOWtSbDlrS1pSUGVybi1kVG9DU3hHTWxDWXA1UXp1WVlBbG5jamlYVlFUMVXSAWBBVV95cUxNRHNTbGJyQmZIM0VNUmpIZ2ZCdXdwZnhqV241RjFvem5GSFpicTdMYjRGdHlzS25yQkdiLW4yNVBBbWpseWtDQmoxT3padXJCV0t1ZDQ3SG5LTjZCSjB6MXg?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 21:18:40 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "대만 4% 급락·AI 불안감에 아시아 증시 하락 - Investing.com 한국어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaEFOdmlsVjZfTFVNeHpZX0JzeUZybHpQVnJZUGZJeWNhMXZpb2xMSkp1MkdwNU1GQW9sdHFQMS0zUDNHVVl6V1otazEtbW94Y0tHcmk1d0tWcFBYLVh5YzRFc2dzZElwbmx6azY1M3I?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 04:35:00 GMT",
-          "source": "Investing.com 한국어"
+          "title": "앤스로픽 상장에도 뉴욕증시 3대 지수 2%대 급락… 다우 5만선 붕괴 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWV9PanAybzhlYWk2aktENUpNRE45bDFhLU5RdkczS2tSc1hZNmR3ZFc4S3R3Q3VDQUpwZUNVNkF4RTh4WE1YVXcxWXZlQzYzTlhxdllrMWRaSVJDVzBNN19ZOTRubTlSbHVpajU3R0FKSHNDaHIxVDR0eU1kVDdmcWNHNGdSWGI4?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 21:31:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "뉴욕증시, AI 투자 회의론에 2%대 급락…다우 5만선 붕괴 - 뉴시안",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZnNpQUUwdkpLSXNDSVlRQjU1dGhsajllRm9nblI3Ymh4ajFKM0JWUXBLLUt5SHRCTHNEcFBqckt5dzc0ZVVtTGgwMFE3VFlKOEQ5SFIxZk1tSWU3ekdNSG5VS2NZTFhmQWczSA?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 21:33:03 GMT",
+          "source": "뉴시안"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 22.21,
-    "vvix": 118.37,
+    "vix": 28.44,
+    "vvix": 127.1,
     "skew": 142.84,
-    "move": 98.15
+    "move": 96.04
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -68,55 +74,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 24429.88,
+      "current": 23879.2,
       "high_52w": 27722.75,
-      "drop_pct": -11.88,
-      "intraday_low_drop_pct": -12.62,
-      "sma_200": 25152.21
+      "drop_pct": -13.86,
+      "intraday_low_drop_pct": -13.89,
+      "sma_200": 25157.08
     },
     "kospi": {
-      "current": 5137.89,
+      "current": 5067.44,
       "high_52w": 9385.59,
-      "drop_pct": -45.26,
-      "intraday_low_drop_pct": -47.11,
-      "sma_200": 6525.31
+      "drop_pct": -46.01,
+      "intraday_low_drop_pct": -47.33,
+      "sma_200": 6524.57
     },
     "kosdaq": {
-      "current": 684.81,
+      "current": 662.81,
       "high_52w": 1229.42,
-      "drop_pct": -44.3,
-      "intraday_low_drop_pct": -47.1,
-      "sma_200": 953.53
+      "drop_pct": -46.09,
+      "intraday_low_drop_pct": -47.43,
+      "sma_200": 955.08
     },
     "sp500": {
-      "current": 7323.63,
+      "current": 7175.83,
       "high_52w": 7844.52,
-      "drop_pct": -6.64,
-      "intraday_low_drop_pct": -7.12,
-      "sma_200": 7346.55
+      "drop_pct": -8.52,
+      "intraday_low_drop_pct": -8.55,
+      "sma_200": 7348.02
     },
     "russell2k": {
-      "current": 2714.31,
+      "current": 2655.11,
       "high_52w": 3069.71,
-      "drop_pct": -11.58,
-      "intraday_low_drop_pct": -12.12,
-      "sma_200": 2813.14
+      "drop_pct": -13.51,
+      "intraday_low_drop_pct": -13.54,
+      "sma_200": 2813.29
     },
     "soxx": {
-      "current": 141.85,
+      "current": 137.95,
       "high_52w": 655.95,
-      "drop_pct": -78.37,
-      "intraday_low_drop_pct": -78.8,
-      "sma_200": 160.65
+      "drop_pct": -78.97,
+      "intraday_low_drop_pct": -79.02,
+      "sma_200": 160.79
     }
   },
   "sector_rs": {
-    "XLK": 0.938,
-    "SMH": 0.861,
-    "BOTZ": 0.858,
-    "IGV": 0.991,
-    "XLF": 1.035,
-    "XLE": 1.019
+    "XLK": 0.934,
+    "SMH": 0.845,
+    "BOTZ": 0.861,
+    "IGV": 1.002,
+    "XLF": 1.041,
+    "XLE": 1.021
   },
   "signals": {
     "cnn_under_10": false,
@@ -153,19 +159,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 19.26,
+    "tqqq_profit_pct": 11.46,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": -7.93,
+    "soxl_profit_pct": -15.33,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.19,
+    "koru_profit_pct": -98.27,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
