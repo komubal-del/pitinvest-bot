@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T08:08:28.371828+09:00",
+  "timestamp": "2026-11-19T13:16:04.336538+09:00",
   "sentiment": {
     "cnn_fng": 24.607722007722,
     "cnn_components": {
@@ -14,39 +14,46 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
+      "greed_count": 1,
       "fear_count": 6,
-      "greed_articles": [],
+      "greed_articles": [
+        {
+          "title": "‘9000 광풍’ 코인판된 증시에 뺨 맞은 진짜 코인판 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTzg1alp3T25KWFhGTDRma2RlUmtnVFFmdVYtT0ZhYmV6bXh5N0RiOWlYOXBGUHVVcExjeW9RUEJ4cGcybjJGVG81cHpKZGxVd2RpNHZDeURDNnV6YXRFMWR4UFR3bVFjcHBCUTlMV202TmFuWVg1S0ZSd29vUmU2dFVVVlZ1Vzh4Z1g4?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 00:01:00 GMT",
+          "source": "조선일보"
+        }
+      ],
       "fear_articles": [
         {
-          "title": "[SFC IPO] 증시급락에 속수무책…연초 코스피 상장 재도전 - 딜사이트",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsQWZLOV9SMEtGUnR2S25CUlh6Umc4UUpVNThKMDNvRVVYMGtDNUhSamRrc0RldDk1N2NYWlZDZGVRaDk3TUZ1dXJZR29OQmc?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 21:45:00 GMT",
-          "source": "딜사이트"
+          "title": "코스피, 상승 출발 후 하락 전환…5,000선 부근 등락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WZmQ0YWQ0S0FpU25jbk9lWm5hUzJSQ0RRZUo0UlpmaVQwZExEYXFzcUQ3RFdjaWc3TmlWejJGbEt2Ykd3ZXh4bnBwRGdaaXV0MnEyZVVFVVdIWEg1SHdCbnAtZlVJc0k?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 02:13:00 GMT",
+          "source": "연합뉴스TV"
         },
         {
-          "title": "AI 증시 한파에 명품주 일제히 급락…미국 부유층 소비 심리 직격탄 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRXlseF9Temd0MkJnX1JCaUVMc2JRNjJpX1F4Z3VwNHNMdlFZdTE0UWVxLXN1RWFUa2ZZVnQxc3E5SWRTdmVPcE1JNFZGbHJ2d3h6LXBQWFJDZmZmLVVnbTBaMXVoNXBxRGNCY3Iwc0NpLTA2OXhUYU1Zd3BSbFlGMG0yZ0NNdUMt?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 21:00:00 GMT",
-          "source": "글로벌이코노믹"
+          "title": "코스피 외국인·기관 매도에 장중 5000선 아래로, 코스닥도 1%대 하락 전환 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41SXpSOUxSRS1MenIwM3pjUzZHWDdjREFDMlVCTjFzdm9BeU5zdk9jMXlST2EwbjVkMDRDOXRCV0dZdkduMndBTVlhUmt6RGhnWTRIOG0zb1lNald4OU1Bb0Q2eTNGeWxRY0JKRWVMdElwY2s?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 01:49:40 GMT",
+          "source": "비즈니스포스트"
         },
         {
-          "title": "뉴욕증시, 엔비디아 호실적에도 혼조…다우 561포인트 급락 - 산경투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vZ01jbDRiUlotSzNhdDdpU3NtVll1SlNyakJCMDh6WExnaDhtdjZ6RWxNSU9Wa2pQWmNWNjZXczE3bnpIak5wNlF2RFVqWVhuR0ZsVkNIR0YzRUN0X3lPRjVHYTAwQUF1WWRNTEx2ZWrSAXRBVV95cUxOS0I3WGVkbDVPS3U2V2VCRE45WEFrWDc5azk2SENNNnNVRDQ4ZVdqQ1dtSGFsMkJzN1dlLWJjNjh6bER3c1pQQlduSU1LX0lyQVB1dUNLSjdiaUk3eVZXQjhxTHk2UkZxbGFCcGk4X05ZZFFicg?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 22:47:26 GMT",
+          "title": "코스피, 앤트로픽 상장·연준 빅스텝 우려에 1%대 하락 전환 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmNjdQSXJNM3B0dzBBRWtzWDZ3LURuRlVnY3BWTkRuWE1EckZSRzlwMC1wX0RPMGpmUzNUeWlqajc4Q2MtNDg3VHlpNHhpbzRQbjhtYl85MjJ1cTMxdS1wU1dvRDM?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 01:59:24 GMT",
+          "source": "서울경제TV"
+        },
+        {
+          "title": "코스피 급락에 순대외금융자산 2807억달러 급증…역대 최대 증가 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jYzdDWDRBWlhhNDVGNGRUNzZvRm50aGQwM2NfU05SdjVMQ3dSWVpsRjJtbmlBZ3ZJb0xRcm1McFViYWZXVDA5ek1XNXE5SHNva2I1SjVzVHpHM0hYZ21JSzVCRUFWSGhwZUdJ0gFwQVVfeXFMTXlYVWVvMENGZU5pT1ZaaTdMaVdUd1RHLVJoYzVzdlFyTk16NEdqdHp6LXNhcnBjRXpSR0VNNFJoMUwtZFFjMGRVZEZ3MEI2X3FJNE5SdHBhRW42NjB5dldYaUFBUE5wUGliS0VXVmhLYQ?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 03:00:00 GMT",
+          "source": "머니투데이"
+        },
+        {
+          "title": "증시 급락에 ETF 희비…머니마켓 자금 몰리고 반도체·코스피200 급감 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OQVdSUHRBRGxCeVJEZ2lPSE5DWkMzRDFkN1NKUG10T0RtcmxOWGhmVXp0S2pBd3gyUy1HZUt2cWF2REdVbWxSc0hjLWJ1ZFRNTkEzTFhCNk4wd1Q3cDhWaURLOEo4ZzJ6S193a1ZuMUbSAXRBVV95cUxPU2RYcVBuYWlzOU9FTS12ZENvSWRvU1pFTGtfVEFQS2ZCbWJ3NTBuOUNUcE1XTHVmYTlSWnJoMUZMNHFnUk9YZHVabjNBSXlxUlF3cElFX01oTUEzUEpqeWlEVVBZM3JRVXJadHd3UXVtZVQ4Tw?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 03:09:04 GMT",
           "source": "산경투데이"
-        },
-        {
-          "title": "[뉴욕증시] 엔비디아 호실적 약발 안 먹혔다...다우 561P 급락 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRzl3SG9lOEtaRW9hMEJnVjJ0SHhTNjRkSXE4MkdyUUYzVzFMcDFNbC1vUjk2b2NJc1Y5WlZFN2NVYlFYWTNzX2tYQnJ2MVFTTndHQlZKb1pfZE5teUlKcFlwT0c2M3dlakZNUWh2dlZoTGVKNGNMcnI5TzQ5cXRBQ1RPb1JaV1k?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 21:26:30 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "코스피, 하루 만에 5000선 탈환…반도체주 반등에도 외국인 매도세 여전 - 지이코노미",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWC1Vck5wU3FNUFZReTh1NTVtbjlMaGNQNHg5ckt0SjBsZWs4Q3ZOb3c5T0hMb2ZjQWdkU2lVRlpIQXJOUjRReGx4X3J5RllpTzNvOWE1RXozTXM3X2Eza0wzUmp2b2M?oc=5",
-          "pub_date": "Wed, 18 Nov 2026 19:34:47 GMT",
-          "source": "지이코노미"
         }
       ]
     }
@@ -74,18 +81,18 @@
       "sma_200": 25152.21
     },
     "kospi": {
-      "current": 4968.48,
+      "current": 5062.31,
       "high_52w": 9385.59,
-      "drop_pct": -47.06,
-      "intraday_low_drop_pct": -47.18,
-      "sma_200": 6523.99
+      "drop_pct": -46.06,
+      "intraday_low_drop_pct": -47.11,
+      "sma_200": 6524.93
     },
     "kosdaq": {
-      "current": 650.06,
+      "current": 660.1,
       "high_52w": 1229.42,
-      "drop_pct": -47.12,
-      "intraday_low_drop_pct": -47.16,
-      "sma_200": 956.62
+      "drop_pct": -46.31,
+      "intraday_low_drop_pct": -47.1,
+      "sma_200": 953.41
     },
     "sp500": {
       "current": 7323.63,
@@ -194,8 +201,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-11-17",
-    "analyzed_at": "2026-11-17T09:19:29.456619+09:00",
+    "date": "2026-11-19",
+    "analyzed_at": "2026-11-19T13:16:09.910804+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -203,29 +210,29 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "4xr3yoEKNS0",
-        "title": "\"지금은 더 떨어질지 논할 단계가 아니다\"…시장 버텨야 할까? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-11-17T00:15:21Z",
-        "url": "https://youtube.com/watch?v=4xr3yoEKNS0",
+        "video_id": "AydkVh-c6GI",
+        "title": "외국인은 팔았는데 코스피는 반등…5,000선에서 반드시 봐야 할 포인트는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+        "published": "2026-11-19T00:29:05Z",
+        "url": "https://youtube.com/watch?v=AydkVh-c6GI",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "전문가는 지금은 더 떨어질지 논할 단계가 아니라고 말하며 시장이 버텨야 할지에 대한 질문을 던질 뿐, 특정 매수/매도 행동을 구체적으로 권고하지 않습니다."
+          "reason": "제공된 영상 설명란은 광고, 채널 정보, 프로그램 편성표 등으로만 구성되어 있으며, 전문가의 주식 시장에 대한 구체적인 매수/매도 권고나 방향성 있는 의견이 전혀 포함되어 있지 않습니다. 제목은 현재 시장 상황에 대한 분석 포인트를 제시하는 질문 형태이므로 중립적인 분석을 예고하는 것으로 판단됩니다."
         }
       },
       {
-        "video_id": "Q0fcmTdN2Ck",
-        "title": "속도조절론을 나쁘게만 봐야 할까요 (윤지호) | 저녁7시 인포맥스라이브",
-        "published": "2026-11-04T07:00:10Z",
-        "url": "https://youtube.com/watch?v=Q0fcmTdN2Ck",
+        "video_id": "L2GG_DeUDa0",
+        "title": "지옥 같은 코스피에서 살아남을 단어 &#39;양극단&#39; | 윤지호 경제평론가 [주말인터뷰]",
+        "published": "2026-10-16T23:00:13Z",
+        "url": "https://youtube.com/watch?v=L2GG_DeUDa0",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": true,
         "analysis": {
           "stance": "neutral",
-          "reason": "제목은 '속도조절론을 나쁘게만 봐야 할까요'라는 질문을 던지며, 특정 방향의 매수/매도/현금화 권고 없이 중립적인 입장에서 시장 흐름이나 정책 변화에 대한 탐색적인 분석을 예고하고 있습니다. 구체적인 행동 권고가 없습니다."
+          "reason": "제목에서 현재 코스피 시장을 '지옥 같다'고 표현하며 어려움을 강조하고, '살아남을 단어'를 제시하는 것은 시장의 리스크를 언급하며 분석적인 접근을 시사하지만, 현금화/매도/비중 축소와 같은 구체적인 행동 권고가 없으므로 중립으로 판단합니다."
         }
       }
     ],
@@ -237,7 +244,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 84.581,
+    "strategy_pct": 85.995,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1149,7 +1156,7 @@
       },
       {
         "date": "2026-11-19",
-        "ret_pct": 84.581
+        "ret_pct": 85.995
       }
     ],
     "monthly_breakdown": [
@@ -1215,8 +1222,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -90.61,
-        "end_ret_pct": 84.58,
+        "return_pct": -89.19,
+        "end_ret_pct": 86.0,
         "max_dd_pct": 78.66
       }
     ],
