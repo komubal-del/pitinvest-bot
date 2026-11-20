@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T06:48:59.064939+09:00",
+  "timestamp": "2026-11-20T11:59:36.216761+09:00",
   "sentiment": {
     "cnn_fng": 18.6761904761905,
     "cnn_components": {
@@ -15,45 +15,45 @@
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
       "greed_count": 1,
-      "fear_count": 8,
+      "fear_count": 42,
       "greed_articles": [
         {
-          "title": "고점 반토막 난 코스닥…상장사 80% 몰린 충청권 ‘빨간불’ - www.cctoday.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92WGlRZUNSaV9Xc2NHNXpkUV9pMDM5TlVCVktCZkhEdGx0SFhrU2RZZnNNdmlMZVhyVzZoUXZOUHRtS1FGSWw4Z1FWdHF1SEoxeVVXdldEektBRFJsVnhVSlVqNzZxYzRQV01ya1d3?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 21:00:00 GMT",
-          "source": "www.cctoday.co.kr"
+          "title": "[증시 포인트] 하락 출발 전망...장중 저가 매수세 가능성 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vSm85RkV2NDVfbzY3aWsyVlRjZFhTS3QxU2VQZ0FpZEJiNHNOR09tNzdFUUJkZ3FsOHcybHZaRXdVT0hlelRQSWFxSGlOd3k3UlBjYkFWNnozaGhMZ2hWcG5CSDFaVnhDLTJCOVVfZUR1UQ?oc=5",
+          "pub_date": "Thu, 19 Nov 2026 23:27:57 GMT",
+          "source": "오피니언뉴스"
         }
       ],
       "fear_articles": [
         {
-          "title": "[뉴욕증시-1보] 앤트로픽 상장은 매도 신호였나…2%대 급락 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1saFlwR2swOTJ3SE1QdFgzMmtjbEtsU0dZc3NVbHdIUmI2R0p0WjI3dktsSTNfQXJVYWhXaF9wQUZLMnowcGdteWVHVFFBNEsteExwblRlRHNtanBabmhjSlI0b25WSTNoM1RBLUZGLWnSAXRBVV95cUxNTUxmYWJrX3M1c0ctT0MzUzhEalRQN01WbTRMczdYbndMYXFUelBqdXZEQ0hMVXhBLVFzemZnRXV5VVNnVUlSRXc4UnZwNHV3VzJ5OXd6aE15WG5KV2JiX3dvUWlPMDlYSUVOUV84YVJMaF9oRw?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 21:13:37 GMT",
+          "title": "앤트로픽·AMD發 악재 겹친 코스피…4%대 급락 지속 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hbUY2X2VYTWxlTjd6anJWSnlfa0IyNWpHNU8xVHAzdkZDNXFvVzg0TzJkSkpyS1ZCQnNQdXA3RDhLTjMwcWdiSy13c19GdUhYamVSVG4zOU0yWERrUUZrb0xZVzdjc284a3hsTWJrVDk?oc=5",
+          "pub_date": "Fri, 20 Nov 2026 02:30:53 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "앤스로픽 기대에 뛰던 뉴욕증시… 유가·금리 오르자 다우·S&P500 하락 전환 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkozS3U3U05LNGRJZTcza3JMSmtaWVdGT00zUGdlMzVHcUdZc2tzRlJPcVIzbFhtSDhRZWNLZGtjZTVUemlNSnJQRUYtU0l0T2Q4ZGFLbUdEb1N3RFVkc0FLR0wxblBRSWVHZzQ5eDd5cU9BQTdVMzhwVVMzMUNaMWFab1AzRXUw?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 16:18:25 GMT",
-          "source": "조선일보"
+          "title": "코스피·코스닥 3%대 급락 출발…삼성전자·SK하이닉스 동반 약세 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MeU9JU2VBazB2Z1d3LWVobXMtOWY5V2U0QXF1U0lfZUFNU3Bsa3BlbzJnSV9MQzRwbjdtQzNZa2pzRTJFd1RsWHJCbVQzTFVOeGNBbjBSMkZqaEIwcDhKOFhaVlVlZFJxMndBOTdZYVI?oc=5",
+          "pub_date": "Fri, 20 Nov 2026 01:44:00 GMT",
+          "source": "Investing.com 한국어"
         },
         {
-          "title": "앤트로픽 상장에도 뉴욕증시 2%대 급락…다우 50,000선 아래로 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyc0RNTklVVUNGSVVMLUk1czZjTGw5al9jTUtsbThxNnY3T3g0aHpkOWtSbDlrS1pSUGVybi1kVG9DU3hHTWxDWXA1UXp1WVlBbG5jamlYVlFUMVXSAWBBVV95cUxNRHNTbGJyQmZIM0VNUmpIZ2ZCdXdwZnhqV241RjFvem5GSFpicTdMYjRGdHlzS25yQkdiLW4yNVBBbWpseWtDQmoxT3padXJCV0t1ZDQ3SG5LTjZCSjB6MXg?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 21:18:40 GMT",
-          "source": "연합뉴스"
+          "title": "[외환] 위험회피·증시 급락에 1,330원 후반대로…8.30원↑ - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lM1N1TUQwUEJaOUlVUXkwUHpqZDdDZ0o0TlNXUEpFMmhMd0lhR0w3Y1BidHdvSnl2S19raXlKSjBxYnR1RjNzTUJMcmJRaVh2WGtWbUVSczh5OHhJcFFjVVZQVmdsQUEyZEw0eUF2blFVZw?oc=5",
+          "pub_date": "Fri, 20 Nov 2026 02:13:49 GMT",
+          "source": "KB Think"
         },
         {
-          "title": "앤스로픽 상장에도 뉴욕증시 3대 지수 2%대 급락… 다우 5만선 붕괴 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWV9PanAybzhlYWk2aktENUpNRE45bDFhLU5RdkczS2tSc1hZNmR3ZFc4S3R3Q3VDQUpwZUNVNkF4RTh4WE1YVXcxWXZlQzYzTlhxdllrMWRaSVJDVzBNN19ZOTRubTlSbHVpajU3R0FKSHNDaHIxVDR0eU1kVDdmcWNHNGdSWGI4?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 21:31:00 GMT",
-          "source": "조선일보"
+          "title": "코스피, 4% 안팎 급락 출발‥다시 '5천피' 아래로 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpbEhBNXdVV0lETlJDX2dUdTFrSkVGT3RkSUhSaWFrWU4wUENzNGgwRGl0Ni16VWI2R0xvdU4wSlZaUVpMTFpFT1ByeE1mQkJ4anAtakd2T3pZRjhDVnZIaERlNEdick5Melhwa2JiU0RISFJo0gF0QVVfeXFMTm42Tl9GNl96OW5EajhtUjBfSjd5UmY5VGhyZ0RCYXoxcVphdXlJNjM0NHZqX0FURmd2YzZRa2ktb2R0dGxOYlNCTmxXZzlROVlTZERFcUY0MmJMdWI4dU9odVlsRHVJc001eVY5ZC1LT21wMnY?oc=5",
+          "pub_date": "Fri, 20 Nov 2026 00:16:24 GMT",
+          "source": "MBC 뉴스"
         },
         {
-          "title": "뉴욕증시, AI 투자 회의론에 2%대 급락…다우 5만선 붕괴 - 뉴시안",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZnNpQUUwdkpLSXNDSVlRQjU1dGhsajllRm9nblI3Ymh4ajFKM0JWUXBLLUt5SHRCTHNEcFBqckt5dzc0ZVVtTGgwMFE3VFlKOEQ5SFIxZk1tSWU3ekdNSG5VS2NZTFhmQWczSA?oc=5",
-          "pub_date": "Thu, 19 Nov 2026 21:33:03 GMT",
-          "source": "뉴시안"
+          "title": "[속보] 코스피, 3~4%대 급락 출발…다시 ‘5000피’ 아래로 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0waXdfQTRua3BiUE5pbmZLcUtkMHRpYURRdXpPYkY0WjY3YS1BNGE5R0tuRmJDSlpTbGQzTWhnSjRkbG5Sb3JLSE1KNHZSZ05YTVdNaDFB?oc=5",
+          "pub_date": "Fri, 20 Nov 2026 00:03:56 GMT",
+          "source": "중앙일보"
         }
       ]
     }
@@ -61,7 +61,7 @@
   "volatility": {
     "vix": 28.44,
     "vvix": 127.1,
-    "skew": 142.84,
+    "skew": 140.86,
     "move": 96.04
   },
   "korea_flow": {
@@ -81,18 +81,18 @@
       "sma_200": 25157.08
     },
     "kospi": {
-      "current": 5067.44,
+      "current": 4913.11,
       "high_52w": 9385.59,
-      "drop_pct": -46.01,
-      "intraday_low_drop_pct": -47.33,
-      "sma_200": 6524.57
+      "drop_pct": -47.65,
+      "intraday_low_drop_pct": -47.9,
+      "sma_200": 6525.13
     },
     "kosdaq": {
-      "current": 662.81,
+      "current": 656.61,
       "high_52w": 1229.42,
-      "drop_pct": -46.09,
-      "intraday_low_drop_pct": -47.43,
-      "sma_200": 955.08
+      "drop_pct": -46.59,
+      "intraday_low_drop_pct": -46.84,
+      "sma_200": 953.39
     },
     "sp500": {
       "current": 7175.83,
@@ -119,7 +119,7 @@
   "sector_rs": {
     "XLK": 0.934,
     "SMH": 0.845,
-    "BOTZ": 0.861,
+    "BOTZ": null,
     "IGV": 1.002,
     "XLF": 1.041,
     "XLE": 1.021
@@ -171,7 +171,7 @@
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.27,
+    "koru_profit_pct": null,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -244,7 +244,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 85.995,
+    "strategy_pct": 81.905,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1157,6 +1157,10 @@
       {
         "date": "2026-11-19",
         "ret_pct": 85.995
+      },
+      {
+        "date": "2026-11-20",
+        "ret_pct": 81.905
       }
     ],
     "monthly_breakdown": [
@@ -1222,8 +1226,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -89.19,
-        "end_ret_pct": 86.0,
+        "return_pct": -93.28,
+        "end_ret_pct": 81.91,
         "max_dd_pct": 78.66
       }
     ],
