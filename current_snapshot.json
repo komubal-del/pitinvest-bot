@@ -1,89 +1,83 @@
 {
-  "timestamp": "2026-11-23T11:55:31.311415+09:00",
+  "timestamp": "2026-11-23T21:12:20.152907+09:00",
   "sentiment": {
-    "cnn_fng": 9.67368421052632,
+    "cnn_fng": 10.5988868274583,
     "cnn_components": {
       "momentum": 0.2,
       "strength": 27.2,
       "breadth": 20.0,
       "put_call": 2.0,
       "junk_bond": 16.2,
-      "volatility": 1.3,
+      "volatility": 7.8,
       "safe_haven": 0.8
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 6,
-      "fear_count": 36,
+      "greed_count": 4,
+      "fear_count": 35,
       "greed_articles": [
         {
           "title": "[증시 AI충격파] \"코스피, 이미 IT버블 붕괴 수준…급락주 반등 가능성\" - 연합인포맥스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LVVJRZXl0b01sMmE0Y0JwdEQzelYwclh1WWVtTm5xajlmT3pFY1JnOFZrMjRaTXdEdGxqcUVVbTUtVjZucjNpNDBHcjBVY2dWdFg2NTd0RFlpRURCUHQ0S2tJZTlNQXkydjlJSlBuYmQ?oc=5",
-          "pub_date": "Sun, 22 Nov 2026 23:24:37 GMT",
+          "pub_date": "Sun, 22 Nov 2026 23:24:00 GMT",
           "source": "연합인포맥스"
         },
         {
-          "title": "장동혁 \"코스피 고점 대비 반토박…조작기소 아닌 주가조작 특검해야\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XVkJNY2pUalJIR3FFOEhIWmxoekNBWVpNRzFtc3lDTlR5aHBIa2d4WHVFWFVDUjBaY1BKcnF4ZEtaWXhmNk5vd3QtZVFodzBoQ1lBT0hPM09MTF9XbFZkY3A3QTZvdTgzZ0pYTzVyUWY?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 00:51:17 GMT",
-          "source": "연합인포맥스"
+          "title": "급락에 쪼그라든 코스피…고점 대비 반토막·올 수익률 11%로 뚝 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nb2pkV2NsdWhQWnpQbWItd1NaQVMzZHM1MlhibGlvV0VmQWZNeS1kWXktTEhfRVVVd3dpYzd1MktabjdETlcyR0p2TV9paUVUQWFoT3l0SFhpdjDSAWBBVV95cUxOSjNYWWlHRUVxR3dPdUZlRXIwYUN5QjdZV2liUTRnRWxmUmpKQWVoVnFvc0lOZ08yM25MZkZ2LUMzcHFfTDdiZ1ZZdnl6SS1tZVVld1lNOTJZSU4zelZINXI?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 07:29:45 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "고점 대비 46% 폭락한 코스피...“사야 할까 팔아야 할까” - 경기일보",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxQTkwcVZ6X21MVWRuR0JSRUdXU1QwZ0U5ZmN3MjVjbDYwbU1zWmN2XzB5NVlTM080YTNtb0pJNGFtanJDbTNRWVRGUzVjV25NUmNkZGVpSm1fQzg?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 01:11:24 GMT",
-          "source": "경기일보"
+          "title": "한미 증시 도미노 급락 속 또 출렁…코스피, 고점 대비 반토막(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Yc3plSkpmbWt1V1NDYVNyZW1kM3hYMFpzdXUySU5vRTZxeFlGc2lKTmIyLWhpZVNNekpCNjhvbFlRck9aTW44a0JtVE93U0E5UndQamhibnlsYlHSAWBBVV95cUxNTW9TQnlTdE5iOUF6UWZPODFOTTFmT2l3NnE3eVYwN0R0dkpEUUdrd2J1bTItUGRxUW1JSHlwSjRTSlhVMEhWeGx0M25NSks0SWhlenZ3WDlOQUI2SlQ3T28?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 07:08:28 GMT",
+          "source": "연합뉴스"
         },
         {
-          "title": "\"워스트 시나리오는 4200\"...고점에서 46% 빠진 코스피 전망은 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xTUplbkI0YnZNZk1mYVczTllwTUFDRjRjM1IzUV94VEo1ODA5bHdpOTA1YjdnbENjY0o1R255d2EweDZ4YWlXQ3QwU0JaZzFsNEtPUg?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 02:01:00 GMT",
-          "source": "JTBC"
-        },
-        {
-          "title": "\"한국 증시가 AI 거품 붕괴의 전형\"…美 월가의 섬뜩한 경고 - 티제이비",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13TzJGUjNNNDlIM2ptXzNydGtaRVJwRHBBVURqMFNLekpVN0NLaHNMVEFWWDR6d21JMVFOazl0VHk1X2x0Tzd4eUxvOWpvbURZajRnUENBT0Z6bmJ2?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 00:48:15 GMT",
-          "source": "티제이비"
+          "title": "반도체 급락, IT 거품 붕괴와 유사…“코스피 4200 열려 있어” - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIbHBZbTRWN0VscXRQcTFNWVBTSldZRVhrdnBQcENNbDFBR2pNdnRkVzFmT05udFhzREp4ZDNjWWJaU0RVdjh6Vm1SbmRuWW9sSGNGeUNYcDFKc0JpbmF6ZWxKUlZPOG8?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 10:54:00 GMT",
+          "source": "한겨레"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 미 반도체주 폭락에 4,700선 내줘 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UbnlreTE1TVVnVWJEX2wwVElqZ3l3Vk9VVGtJc1BSX3F0S2JuWmsyYmlSV2RzVWdZenRhNFg0ejdWblBIdHBmX2VWZFVMM0R5VVkxd09OQUV1dWtUQkN2Z2hDb3JRV2s?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 02:40:00 GMT",
+          "title": "코스피, 3%대 급락 4,700선 턱걸이…코스닥 2년만에 최저(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1TXc4R2ZwODZ0ZUEzRzh2aUctU0xrNVEwdzRvclFmclhiTGh1RlpzTEM2bFYwSkluSGhGUzhpbVlqYl9jcU5HWmsyZEYyZjh2aFU5Q0NtcExoNlXSAWBBVV95cUxNV3VNdEx6VzNJdkdqSFBXLUZJMlNwZElIR2RLb2NCSXdLLTBOcWw0a2dfVGxkYkN6MkFKMGxFSUh1VHVjR21JNVhVRDVrcmt2VU50ekhwOXFhdlBfZllqRUE?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 07:11:06 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "코스피 5% 폭락에 매도 사이드카…장중 4500선까지 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91Z1EyaE0xU2ttdmZsYW11ZkkzZU9IdmRVZWp1am0xbjY1Y0FJN2w0UE5nRmJrS2pYSV9EbkNvUFFpRkVKREF2NFNFTEJNcGU4bTlabnhHN0JCVmZ4Qk9BbS1OejZUcjA?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 06:13:00 GMT",
+          "source": "한겨레"
+        },
+        {
+          "title": "[증시-마감] 코스피, 외인·개인 '팔자'에 3%대 급락…'증안펀드' 주시 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LSzNQbWVtLXY1ejdXYTBlN2ZVTUVISDd1SUl0MEtnQVhqdnVVQ0lmc3k2QnBJek81TXFzLXdTY1l2dmxYNDk4bjZVRE1oZ1hwbTVZWmt2cjhkSzJuVVhBc0RsQmwyd2xTTW9xSl9KOWs?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 07:10:42 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "AI 공포에 급락…코스피 4,700선 턱걸이 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Wam43VUVOOUl3Q3B3U1NQem11bktwMng0WDJIbHBLbVVmNW5KLVJEbmtEVUo0cFpxRWxJZncwWW5ldVA4SEJpRHVYcFVpSGhyUklHS09TLXkwQXdlWGI4SWM1d2VmWWc?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 11:12:00 GMT",
           "source": "연합뉴스TV"
         },
         {
-          "title": "美 반도체주 폭락에 '블랙먼데이' 공포…코스피 4700선 붕괴 - 인베스트조선",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMFRpTnRibk1NbHRzOUtfTVZyVWV4N2RJZ2JsN1N5Vms0MVE3aE16Zl9hUjRtZHMxZUhFa2ZhQ0VJV3dBczJTUml0dEY0N1FkMVNSVlNfdTZ5Z0VRR1RwTERVWHMzTl94Q2R1VERYdFMyclRkNGNXc0Q3bUp4TVlDUmNoQQ?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 01:47:00 GMT",
-          "source": "인베스트조선"
-        },
-        {
-          "title": "코스피, 장중 4,600대로 후퇴...미국 증시 급락 여파 - YTN",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5SVY1X3pZS29ES1BGeGNJMWZXRHlxcjJOYnBwcWg3ZTFXRkpjSFRmUzVtTGpCTXFiQnZzWVNScWJKbHZTS1NYZklqVGRYUzhRYTNjUUZaSklDLW53WEE?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 02:26:00 GMT",
-          "source": "YTN"
-        },
-        {
-          "title": "[e마켓오프닝] 나스닥 5% 폭락 여파···코스피 2.77% 내린 4734 출발 - 시사저널e",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fZ1VVRnlfcUxRWDFjbzdNRVB0QnZPZzJ4X0VTMi1uUVExaU1icHg4NHJGbkMxOGZ0eXBtMWMwbE9JVHlDdGlCM3MxSGVfTGVJb0Z4MjVBRnh0Ql9RSEJLSUNjTDdoeVFpdGtxWGRtNzMtdw?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 00:21:46 GMT",
-          "source": "시사저널e"
-        },
-        {
-          "title": "[속보] 코스피 5%대 급락…매도 사이드카 발동 - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16c3Nxcmk4Y05aSGdiSEFyRy1senZKVXkyQjZmbklUcHFUU0VWbFE2aTRGbFdkdVJkWk03N2ExX282UDdJb2lmWE5OdHBJYTZPOGpHQg?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 02:35:00 GMT",
-          "source": "JTBC"
+          "title": "\"코스피 1만 시대 어디갔나\", 연이은 폭락에 개미들 한숨…정부 책임론 도마 - 매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwc3JoM3drMnFuMFBRUnpWbWMwVlFQYmNTbm5fWVZZaVRFNDhOMEZKNmNXTXllZ2NZZktSU1R0SHZZZWxPMHlYSUM0RVhNbHNoQmd0V1EtZk1LYzhxc2h3ZjZ3?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 08:13:40 GMT",
+          "source": "매일신문"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 35.89,
+    "vix": 30.18,
     "vvix": 138.03,
     "skew": 138.84,
     "move": 106.31
@@ -105,18 +99,18 @@
       "sma_200": 25157.46
     },
     "kospi": {
-      "current": 4623.33,
+      "current": 4708.54,
       "high_52w": 9385.59,
-      "drop_pct": -50.74,
-      "intraday_low_drop_pct": -50.75,
-      "sma_200": 6522.6
+      "drop_pct": -49.83,
+      "intraday_low_drop_pct": -51.13,
+      "sma_200": 6523.03
     },
     "kosdaq": {
-      "current": 621.5,
+      "current": 635.45,
       "high_52w": 1229.42,
-      "drop_pct": -49.45,
-      "intraday_low_drop_pct": -49.45,
-      "sma_200": 949.14
+      "drop_pct": -48.31,
+      "intraday_low_drop_pct": -49.67,
+      "sma_200": 949.21
     },
     "sp500": {
       "current": 6910.39,
