@@ -1,86 +1,68 @@
 {
-  "timestamp": "2026-11-23T21:12:20.152907+09:00",
+  "timestamp": "2026-11-24T09:06:12.645721+09:00",
   "sentiment": {
-    "cnn_fng": 10.5988868274583,
+    "cnn_fng": 16.9658627087199,
     "cnn_components": {
-      "momentum": 0.2,
-      "strength": 27.2,
-      "breadth": 20.0,
-      "put_call": 2.0,
-      "junk_bond": 16.2,
-      "volatility": 7.8,
-      "safe_haven": 0.8
+      "momentum": 3.2,
+      "strength": 28.4,
+      "breadth": 17.0,
+      "put_call": 6.6,
+      "junk_bond": 18.2,
+      "volatility": 39.0,
+      "safe_haven": 6.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 4,
-      "fear_count": 35,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "[증시 AI충격파] \"코스피, 이미 IT버블 붕괴 수준…급락주 반등 가능성\" - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LVVJRZXl0b01sMmE0Y0JwdEQzelYwclh1WWVtTm5xajlmT3pFY1JnOFZrMjRaTXdEdGxqcUVVbTUtVjZucjNpNDBHcjBVY2dWdFg2NTd0RFlpRURCUHQ0S2tJZTlNQXkydjlJSlBuYmQ?oc=5",
-          "pub_date": "Sun, 22 Nov 2026 23:24:00 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "급락에 쪼그라든 코스피…고점 대비 반토막·올 수익률 11%로 뚝 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nb2pkV2NsdWhQWnpQbWItd1NaQVMzZHM1MlhibGlvV0VmQWZNeS1kWXktTEhfRVVVd3dpYzd1MktabjdETlcyR0p2TV9paUVUQWFoT3l0SFhpdjDSAWBBVV95cUxOSjNYWWlHRUVxR3dPdUZlRXIwYUN5QjdZV2liUTRnRWxmUmpKQWVoVnFvc0lOZ08yM25MZkZ2LUMzcHFfTDdiZ1ZZdnl6SS1tZVVld1lNOTJZSU4zelZINXI?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 07:29:45 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "한미 증시 도미노 급락 속 또 출렁…코스피, 고점 대비 반토막(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Yc3plSkpmbWt1V1NDYVNyZW1kM3hYMFpzdXUySU5vRTZxeFlGc2lKTmIyLWhpZVNNekpCNjhvbFlRck9aTW44a0JtVE93U0E5UndQamhibnlsYlHSAWBBVV95cUxNTW9TQnlTdE5iOUF6UWZPODFOTTFmT2l3NnE3eVYwN0R0dkpEUUdrd2J1bTItUGRxUW1JSHlwSjRTSlhVMEhWeGx0M25NSks0SWhlenZ3WDlOQUI2SlQ3T28?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 07:08:28 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "반도체 급락, IT 거품 붕괴와 유사…“코스피 4200 열려 있어” - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIbHBZbTRWN0VscXRQcTFNWVBTSldZRVhrdnBQcENNbDFBR2pNdnRkVzFmT05udFhzREp4ZDNjWWJaU0RVdjh6Vm1SbmRuWW9sSGNGeUNYcDFKc0JpbmF6ZWxKUlZPOG8?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 10:54:00 GMT",
-          "source": "한겨레"
+          "title": "AI주 급락에 닷컴버블 경고…코스피, 6월 고점 대비 48% 하락 - 비즈중앙",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mWS0yZjg0R0N0eFdzMG81ZWgwOUxJbGQ3RDJfREp6RkpVSEhmUTczblpuWHdfa000djlnQ2R1ZnF6Yll3NkFJb1U4R19BWnRyanE4VV93Nzd5eDRmbXBYcUVFNW9jQV9RQ2NTa2FkV3g?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 22:23:14 GMT",
+          "source": "비즈중앙"
         }
       ],
       "fear_articles": [
         {
-          "title": "코스피, 3%대 급락 4,700선 턱걸이…코스닥 2년만에 최저(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1TXc4R2ZwODZ0ZUEzRzh2aUctU0xrNVEwdzRvclFmclhiTGh1RlpzTEM2bFYwSkluSGhGUzhpbVlqYl9jcU5HWmsyZEYyZjh2aFU5Q0NtcExoNlXSAWBBVV95cUxNV3VNdEx6VzNJdkdqSFBXLUZJMlNwZElIR2RLb2NCSXdLLTBOcWw0a2dfVGxkYkN6MkFKMGxFSUh1VHVjR21JNVhVRDVrcmt2VU50ekhwOXFhdlBfZllqRUE?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 07:11:06 GMT",
-          "source": "연합뉴스"
+          "title": "이틀 새 코스피 8.36% 급락…정부, 18년 만에 '증안펀드' 다시 꺼내 들었다 - 진일보 | 전남일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVGJyNmI1N3BobjI1ak0wUVFnREpndVBnOGZ3UXkyZ1VvTTJTejhrcnM4aF8wTm50ak8tQVVWWDVXQVJhWmhEenA5dGhESi1FbnNvazNrdnR2NndZUWN6Xy02aFg4U2R0QU5KN1JfRQ?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 18:00:00 GMT",
+          "source": "진일보 | 전남일보"
         },
         {
-          "title": "코스피 5% 폭락에 매도 사이드카…장중 4500선까지 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91Z1EyaE0xU2ttdmZsYW11ZkkzZU9IdmRVZWp1am0xbjY1Y0FJN2w0UE5nRmJrS2pYSV9EbkNvUFFpRkVKREF2NFNFTEJNcGU4bTlabnhHN0JCVmZ4Qk9BbS1OejZUcjA?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 06:13:00 GMT",
-          "source": "한겨레"
+          "title": "증시 급락에 또 꺼낸 '자사주 무제한 주문'…삼전·닉스 움직일까 - 비즈워치",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGSFA4YUNpNnMzTzd4SGF6aUhWNkZxQTNhcDI3dTZ4bXNOTVA5ODJ2YThteTNDWXM5VWVsUjNyNWN2bnZOQWxMS0JRcjFVdGI5RmRrUFhZM0RfbFZ0SEhRdTZkbGtjdTZyNWc?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 21:50:03 GMT",
+          "source": "비즈워치"
         },
         {
-          "title": "[증시-마감] 코스피, 외인·개인 '팔자'에 3%대 급락…'증안펀드' 주시 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LSzNQbWVtLXY1ejdXYTBlN2ZVTUVISDd1SUl0MEtnQVhqdnVVQ0lmc3k2QnBJek81TXFzLXdTY1l2dmxYNDk4bjZVRE1oZ1hwbTVZWmt2cjhkSzJuVVhBc0RsQmwyd2xTTW9xSl9KOWs?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 07:10:42 GMT",
-          "source": "연합인포맥스"
+          "title": "증시 급락에…소비자심리지수 7개월 만에 최저 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CbnM3VElNdW00dmFnZndQclpzcXBOSVhQOHpiQ2s0WnpGUnhNR3diRmM3dnpNRVpBTVp4Q2hqclM4Qjh3Wi0xb3QyU0tGc0xhMUE?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 21:54:34 GMT",
+          "source": "매일경제 마켓"
         },
         {
-          "title": "AI 공포에 급락…코스피 4,700선 턱걸이 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Wam43VUVOOUl3Q3B3U1NQem11bktwMng0WDJIbHBLbVVmNW5KLVJEbmtEVUo0cFpxRWxJZncwWW5ldVA4SEJpRHVYcFVpSGhyUklHS09TLXkwQXdlWGI4SWM1d2VmWWc?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 11:12:00 GMT",
-          "source": "연합뉴스TV"
+          "title": "中 증시 ‘AI 발 급락’ 방어 총력전… 신용거래 보증금 인하·수수료 추가 감면 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazVZVWp3ZDVZQVMzYkJQei1xZl92a25JSE1GT3o2LS1WaXptN1FBM0tId0RlUndNTGFPejVYeHU2SzI4M2FuSXV5QlVYVUxCM3dPVmJrZ2JwUFVxTW5HVXVpUTZfbGJJRkE4WEpxeURVYWNtd1VmcEtmdXQ2ZHl1dkl6SlpmWml1?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 21:05:00 GMT",
+          "source": "글로벌이코노믹"
         },
         {
-          "title": "\"코스피 1만 시대 어디갔나\", 연이은 폭락에 개미들 한숨…정부 책임론 도마 - 매일신문",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwc3JoM3drMnFuMFBRUnpWbWMwVlFQYmNTbm5fWVZZaVRFNDhOMEZKNmNXTXllZ2NZZktSU1R0SHZZZWxPMHlYSUM0RVhNbHNoQmd0V1EtZk1LYzhxc2h3ZjZ3?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 08:13:40 GMT",
-          "source": "매일신문"
+          "title": "일시적 반등?…美 증시 급락 뒤 급등할 때 추격 매수 조심해야 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vdnU2M1BhcHhFeHRETnVkWk1TT2JZSkZ2Z0xoWFNMVkFtaUg4MVZKWXhmWFFQaEdHRi1UaEJsRWJ1TkYxYy1HQU5NSjNJTHMyM1pTTjRKV25fMy1xQlBFN1ZEbmJVMnlkTGVsQWNRWFBJTjRUN3fSAXtBVV95cUxPTnNMRElLSTZNSlJqQUZrYndTWlUyN3VJZHc1RVpMbURXVTdBR21fVHRQb2Uwcmx4aVhQdjBCMzR2RGVLMDdQTFRqYVBLc3ZsTWpqa0V1emNDejBRa2w2WkFVemlUSjE2WW1WLXpBakVHTjNvbmp2Y3ZRTGc?oc=5",
+          "pub_date": "Mon, 23 Nov 2026 23:50:43 GMT",
+          "source": "머니투데이"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 30.18,
-    "vvix": 138.03,
-    "skew": 138.84,
-    "move": 106.31
+    "vix": 26.62,
+    "vvix": 117.36,
+    "skew": 140.37,
+    "move": 100.91
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -92,55 +74,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 22617.73,
+      "current": 24089.56,
       "high_52w": 27722.75,
-      "drop_pct": -18.41,
-      "intraday_low_drop_pct": -18.79,
-      "sma_200": 25157.46
+      "drop_pct": -13.11,
+      "intraday_low_drop_pct": -14.17,
+      "sma_200": 25162.76
     },
     "kospi": {
-      "current": 4708.54,
+      "current": 4869.96,
       "high_52w": 9385.59,
-      "drop_pct": -49.83,
-      "intraday_low_drop_pct": -51.13,
-      "sma_200": 6523.03
+      "drop_pct": -48.11,
+      "intraday_low_drop_pct": -48.52,
+      "sma_200": 6524.91
     },
     "kosdaq": {
-      "current": 635.45,
+      "current": 645.68,
       "high_52w": 1229.42,
-      "drop_pct": -48.31,
-      "intraday_low_drop_pct": -49.67,
-      "sma_200": 949.21
+      "drop_pct": -47.48,
+      "intraday_low_drop_pct": -47.77,
+      "sma_200": 951.44
     },
     "sp500": {
-      "current": 6910.39,
+      "current": 7237.17,
       "high_52w": 7844.52,
-      "drop_pct": -11.91,
-      "intraday_low_drop_pct": -12.26,
-      "sma_200": 7348.58
+      "drop_pct": -7.74,
+      "intraday_low_drop_pct": -8.82,
+      "sma_200": 7350.1
     },
     "russell2k": {
-      "current": 2581.79,
+      "current": 2669.66,
       "high_52w": 3069.71,
-      "drop_pct": -15.89,
-      "intraday_low_drop_pct": -16.05,
+      "drop_pct": -13.03,
+      "intraday_low_drop_pct": -14.27,
       "sma_200": 2813.31
     },
     "soxx": {
-      "current": 123.4,
+      "current": 140.22,
       "high_52w": 655.95,
-      "drop_pct": -81.19,
-      "intraday_low_drop_pct": -81.37,
-      "sma_200": 160.86
+      "drop_pct": -78.62,
+      "intraday_low_drop_pct": -79.17,
+      "sma_200": 160.98
     }
   },
   "sector_rs": {
-    "XLK": 0.901,
-    "SMH": 0.79,
-    "BOTZ": 0.84,
-    "IGV": 0.982,
-    "XLF": 1.055,
-    "XLE": 1.059
+    "XLK": 0.952,
+    "SMH": 0.887,
+    "BOTZ": 0.88,
+    "IGV": 0.98,
+    "XLF": 1.011,
+    "XLE": 1.006
   },
   "signals": {
     "cnn_under_10": true,
@@ -154,7 +136,7 @@
     "stage_key": "reset",
     "stage_key_raw": "reset",
     "today": {
-      "cnn_under_10": true,
+      "cnn_under_10": false,
       "vix_over_25": true,
       "margin_call_trigger": false,
       "sell_leverage": false,
@@ -178,19 +160,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": -6.3,
+    "tqqq_profit_pct": 11.67,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": -42.28,
+    "soxl_profit_pct": -19.23,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.71,
+    "koru_profit_pct": -98.33,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
@@ -220,8 +202,8 @@
     "retail_net_buy_positive": false
   },
   "expert_analysis": {
-    "date": "2026-11-19",
-    "analyzed_at": "2026-11-19T13:16:09.910804+09:00",
+    "date": "2026-11-24",
+    "analyzed_at": "2026-11-24T09:06:19.232848+09:00",
     "experts_queried": [
       "박병창",
       "윤지호"
@@ -229,36 +211,36 @@
     "expert_warning": false,
     "videos": [
       {
-        "video_id": "AydkVh-c6GI",
-        "title": "외국인은 팔았는데 코스피는 반등…5,000선에서 반드시 봐야 할 포인트는? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-        "published": "2026-11-19T00:29:05Z",
-        "url": "https://youtube.com/watch?v=AydkVh-c6GI",
+        "video_id": "vyuznP_KIJE",
+        "title": "손실 복구를 앞당기는 종목 선택법…급락장에선 매수 타이밍보다 보유 종목부터 점검하세요ㅣ홍선애, 박병창 MP파트너스 대표 [여의도 인사이트]",
+        "published": "2026-11-23T09:15:14Z",
+        "url": "https://youtube.com/watch?v=vyuznP_KIJE",
         "text_source": "description",
         "transcript_available": false,
         "is_stale_fallback": false,
         "analysis": {
           "stance": "neutral",
-          "reason": "제공된 영상 설명란은 광고, 채널 정보, 프로그램 편성표 등으로만 구성되어 있으며, 전문가의 주식 시장에 대한 구체적인 매수/매도 권고나 방향성 있는 의견이 전혀 포함되어 있지 않습니다. 제목은 현재 시장 상황에 대한 분석 포인트를 제시하는 질문 형태이므로 중립적인 분석을 예고하는 것으로 판단됩니다."
+          "reason": "영상 제목에서 '급락장에선 매수 타이밍보다 보유 종목부터 점검하세요'라고 언급하며 시장에 대한 경각심을 주지만, 구체적인 매도나 현금화와 같은 행동 권고는 명확히 제시되지 않고 신중한 접근을 유도하기 때문이다."
         }
       },
       {
-        "video_id": "L2GG_DeUDa0",
-        "title": "지옥 같은 코스피에서 살아남을 단어 &#39;양극단&#39; | 윤지호 경제평론가 [주말인터뷰]",
-        "published": "2026-10-16T23:00:13Z",
-        "url": "https://youtube.com/watch?v=L2GG_DeUDa0",
-        "text_source": "description",
+        "video_id": null,
+        "title": "윤지호 · 영상 없음",
+        "published": "",
+        "url": null,
+        "text_source": "missing",
         "transcript_available": false,
-        "is_stale_fallback": true,
+        "is_stale_fallback": false,
         "analysis": {
-          "stance": "neutral",
-          "reason": "제목에서 현재 코스피 시장을 '지옥 같다'고 표현하며 어려움을 강조하고, '살아남을 단어'를 제시하는 것은 시장의 리스크를 언급하며 분석적인 접근을 시사하지만, 현금화/매도/비중 축소와 같은 구체적인 행동 권고가 없으므로 중립으로 판단합니다."
+          "stance": "unknown",
+          "reason": "삼프로TV에서 \"윤지호\" 출연 영상이 발견되지 않음 (14일 내 + 채널 전체 검색)."
         }
       }
     ],
     "error": null,
     "expert_stance_map": {
       "박병창": "neutral",
-      "윤지호": "neutral"
+      "윤지호": "unknown"
     },
     "prompt_version": "v4-api-1.2.4"
   },
