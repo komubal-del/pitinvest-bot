@@ -1,65 +1,46 @@
 {
-  "timestamp": "2026-11-24T09:06:12.645721+09:00",
+  "timestamp": "2026-11-24T18:44:29.845149+09:00",
   "sentiment": {
-    "cnn_fng": 16.9658627087199,
+    "cnn_fng": 16.7340659340659,
     "cnn_components": {
       "momentum": 3.2,
-      "strength": 28.4,
-      "breadth": 17.0,
+      "strength": 28.6,
+      "breadth": 17.6,
       "put_call": 6.6,
       "junk_bond": 18.2,
-      "volatility": 39.0,
+      "volatility": 36.5,
       "safe_haven": 6.4
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 5,
-      "greed_articles": [
-        {
-          "title": "AI주 급락에 닷컴버블 경고…코스피, 6월 고점 대비 48% 하락 - 비즈중앙",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mWS0yZjg0R0N0eFdzMG81ZWgwOUxJbGQ3RDJfREp6RkpVSEhmUTczblpuWHdfa000djlnQ2R1ZnF6Yll3NkFJb1U4R19BWnRyanE4VV93Nzd5eDRmbXBYcUVFNW9jQV9RQ2NTa2FkV3g?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 22:23:14 GMT",
-          "source": "비즈중앙"
-        }
-      ],
+      "greed_count": 0,
+      "fear_count": 3,
+      "greed_articles": [],
       "fear_articles": [
         {
-          "title": "이틀 새 코스피 8.36% 급락…정부, 18년 만에 '증안펀드' 다시 꺼내 들었다 - 진일보 | 전남일보",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVGJyNmI1N3BobjI1ak0wUVFnREpndVBnOGZ3UXkyZ1VvTTJTejhrcnM4aF8wTm50ak8tQVVWWDVXQVJhWmhEenA5dGhESi1FbnNvazNrdnR2NndZUWN6Xy02aFg4U2R0QU5KN1JfRQ?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 18:00:00 GMT",
-          "source": "진일보 | 전남일보"
+          "title": "[기획] ‘젠슨 황 복귀’ 증시 급락세서 급반등 '환호' - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QaWU0OHU4SWtSa09tcTRHSUJsSm15N3VEVENhcjdwZVhiRVRRcVFWdENOaEJzVXR5QnNVVGxqTHNLaGU3cnh4ODNvbW1KSWxFWXFpQXdrZzlOaHJ0YVNMNHVjUFQ?oc=5",
+          "pub_date": "Tue, 24 Nov 2026 07:03:54 GMT",
+          "source": "매일일보"
         },
         {
-          "title": "증시 급락에 또 꺼낸 '자사주 무제한 주문'…삼전·닉스 움직일까 - 비즈워치",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGSFA4YUNpNnMzTzd4SGF6aUhWNkZxQTNhcDI3dTZ4bXNOTVA5ODJ2YThteTNDWXM5VWVsUjNyNWN2bnZOQWxMS0JRcjFVdGI5RmRrUFhZM0RfbFZ0SEhRdTZkbGtjdTZyNWc?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 21:50:03 GMT",
-          "source": "비즈워치"
+          "title": "정점식, “어제 또다시 증시가 폭락했다” - 영등포시대",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0JkSUU2dmNqWWpOaVVZMmdLd0d6T2l0VTdzZ2ZMVEdiUW1RN1NkUFgzMld6QmliYTdnRGlYMTN1QWVUNE9tUi1Xb09HOFcxVjl6Z0VLejBMazBVTnNTdC1aUk53Uko2OGZpM2thSzl5ZE9LSXRYSGp3NGVIdnI1WFBVdUVfUDhm?oc=5",
+          "pub_date": "Tue, 24 Nov 2026 07:37:56 GMT",
+          "source": "영등포시대"
         },
         {
-          "title": "증시 급락에…소비자심리지수 7개월 만에 최저 - 매일경제 마켓",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CbnM3VElNdW00dmFnZndQclpzcXBOSVhQOHpiQ2s0WnpGUnhNR3diRmM3dnpNRVpBTVp4Q2hqclM4Qjh3Wi0xb3QyU0tGc0xhMUE?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 21:54:34 GMT",
-          "source": "매일경제 마켓"
-        },
-        {
-          "title": "中 증시 ‘AI 발 급락’ 방어 총력전… 신용거래 보증금 인하·수수료 추가 감면 - 글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazVZVWp3ZDVZQVMzYkJQei1xZl92a25JSE1GT3o2LS1WaXptN1FBM0tId0RlUndNTGFPejVYeHU2SzI4M2FuSXV5QlVYVUxCM3dPVmJrZ2JwUFVxTW5HVXVpUTZfbGJJRkE4WEpxeURVYWNtd1VmcEtmdXQ2ZHl1dkl6SlpmWml1?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 21:05:00 GMT",
-          "source": "글로벌이코노믹"
-        },
-        {
-          "title": "일시적 반등?…美 증시 급락 뒤 급등할 때 추격 매수 조심해야 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vdnU2M1BhcHhFeHRETnVkWk1TT2JZSkZ2Z0xoWFNMVkFtaUg4MVZKWXhmWFFQaEdHRi1UaEJsRWJ1TkYxYy1HQU5NSjNJTHMyM1pTTjRKV25fMy1xQlBFN1ZEbmJVMnlkTGVsQWNRWFBJTjRUN3fSAXtBVV95cUxPTnNMRElLSTZNSlJqQUZrYndTWlUyN3VJZHc1RVpMbURXVTdBR21fVHRQb2Uwcmx4aVhQdjBCMzR2RGVLMDdQTFRqYVBLc3ZsTWpqa0V1emNDejBRa2w2WkFVemlUSjE2WW1WLXpBakVHTjNvbmp2Y3ZRTGc?oc=5",
-          "pub_date": "Mon, 23 Nov 2026 23:50:43 GMT",
-          "source": "머니투데이"
+          "title": "\"주식 -50%면 커트 할인\"...증시 급락 속 미용실 업주의 이색 이벤트 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VblhhVXRhdU9IUVZYOGVhS0laRTFGM0pJelp4WGo4d2N5NllpRGJwdTg0WFlZNTVaVmZKU25BdDNianFsTTNIVFZ1RXRTYVB5a013cVRFTVh5VEVqaVFNcmtR?oc=5",
+          "pub_date": "Tue, 24 Nov 2026 07:00:01 GMT",
+          "source": "KBC광주방송"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 26.62,
+    "vix": 27.46,
     "vvix": 117.36,
     "skew": 140.37,
     "move": 100.91
@@ -81,18 +62,18 @@
       "sma_200": 25162.76
     },
     "kospi": {
-      "current": 4869.96,
+      "current": 5006.03,
       "high_52w": 9385.59,
-      "drop_pct": -48.11,
-      "intraday_low_drop_pct": -48.52,
-      "sma_200": 6524.91
+      "drop_pct": -46.66,
+      "intraday_low_drop_pct": -48.0,
+      "sma_200": 6522.2
     },
     "kosdaq": {
-      "current": 645.68,
+      "current": 665.88,
       "high_52w": 1229.42,
-      "drop_pct": -47.48,
-      "intraday_low_drop_pct": -47.77,
-      "sma_200": 951.44
+      "drop_pct": -45.84,
+      "intraday_low_drop_pct": -46.95,
+      "sma_200": 946.87
     },
     "sp500": {
       "current": 7237.17,
@@ -245,7 +226,7 @@
     "prompt_version": "v4-api-1.2.4"
   },
   "ytd_returns": {
-    "strategy_pct": 67.545,
+    "strategy_pct": 94.838,
     "daily_series": [
       {
         "date": "2026-01-02",
@@ -1166,6 +1147,10 @@
       {
         "date": "2026-11-23",
         "ret_pct": 67.545
+      },
+      {
+        "date": "2026-11-24",
+        "ret_pct": 94.838
       }
     ],
     "monthly_breakdown": [
@@ -1231,8 +1216,8 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -107.64,
-        "end_ret_pct": 67.55,
+        "return_pct": -80.35,
+        "end_ret_pct": 94.84,
         "max_dd_pct": 90.58
       }
     ],
