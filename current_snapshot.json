@@ -1,30 +1,74 @@
 {
-  "timestamp": "2026-11-25T22:31:15.802507+09:00",
+  "timestamp": "2026-11-26T07:47:13.076715+09:00",
   "sentiment": {
-    "cnn_fng": 12.0278481012658,
+    "cnn_fng": 15.2253164556962,
     "cnn_components": {
-      "momentum": 3.0,
-      "strength": 29.2,
-      "breadth": 17.0,
-      "put_call": 5.4,
-      "junk_bond": 17.6,
-      "volatility": 7.6,
-      "safe_haven": 4.4
+      "momentum": 2.8,
+      "strength": 27.2,
+      "breadth": 17.2,
+      "put_call": 7.0,
+      "junk_bond": 13.2,
+      "volatility": 34.2,
+      "safe_haven": 5.2
     },
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 0,
-      "fear_count": 0,
-      "greed_articles": [],
-      "fear_articles": []
+      "greed_count": 2,
+      "fear_count": 23,
+      "greed_articles": [
+        {
+          "title": "[뉴욕증시] AI 불안에 또 출렁…저가 매수 속 보합권 혼조 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RX1dSWmR2bzRXTHBNc3Fzby1oWmcxNnRRVXA5Q3RXNGtJSW43TVlvZlVZZFlPaFZuQS1rSUtYQzZTdEd6WEtQVk85T2FCQWJfRnE5SzNCZGgxbWV1OGFVOWI4OC1XV0ZtWWUwQmkyLV8?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 21:20:24 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "[뉴욕증시-1보] AI 불안에 또 출렁…저가 매수 속 혼조 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VRXlIN3Rhb3d5RG1EY3BWVFQ3NjJGZ1FOU3ZHekU5Ukowbl91NkMwN0JvcVZuWGYxbVJfWlE0UV8yVEpVTVFWQ1BDSnBIbGVwQzl5cE9pNVFta09LTXlQQ29jNmJxREFpdlNMQWwwSzA?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 21:09:06 GMT",
+          "source": "연합인포맥스"
+        }
+      ],
+      "fear_articles": [
+        {
+          "title": "[뉴욕 금가격] 증시 급락 속 2% 안팎 하락…3천500달러 붕괴 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OckVmN09lV0RWNFh3c1pNVk4zNFEzbXZDemR4Z2QtUktJa1JFQzBrV3VCWUFhMjJfR1dSNnd1NDRJZzlQbUdNNWpYdzN2MEhoSmJ5SUQtcFl0OUVaVmFlekVyakpkNmcwWVlDT0pxTHU0c1J2?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 19:32:51 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "美 증시 장중 급락 후 회복…AI·금리 불안 여전 [월가 업&다운] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XX2hIa1BaeTFNZFFvMGFCb0I3cnpIYUdQMXFmRUIyaTI5aU9yYjVHSm9jYklXX1B1LWhWRkdRbGhPM0NsREVSb3J6N0dObUFvdlVBV0lRM0RGQQ?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 21:27:48 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[뉴욕증시] AI·반도체 급락 딛고 장중 낙폭 만회…다우 164P 반등 마감 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVHo0UVp5VUNnVTVhQWVwajFGX0ZrakdXV0UxYjZFd0lGc29oakxkNWxIMnl1TFM3NVkwUEFoSEhybC1mY2FPdElzVm8yR3lWZlNiVlJQOEVnOG5CRms0REtjMDFURVJSV0xGcXV0UGZrbGFYME5XUVc2ck5lWXNIbk01clpDalF6?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 21:26:27 GMT",
+          "source": "글로벌이코노믹"
+        },
+        {
+          "title": "인공지능 매도세·관세 우려에... 뉴욕증시 하락 출발 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPckh5NVl5VUotY3JKMVJScGpNUWhlWEROWXNtd0dYUEJIeFJzbHMtU3pTOExOREoxMEMyQVNQN1IwYlVxMXdGVDgwRWVXenZkWGt0N3RLQXRDVmpLYzY5ODVjZm85WGdBS2lVY053a0FrdlJsQ3otdU5pWW1Ma0pmOHQydlN1b0dvcVVZSEoyNzhwaTdsUTQ2RVRUVHRHZ9IBsgFBVV95cUxQbVl3V0dXUnR3M0d6b1dYMXhlQVFZZXFwWWlfNTdfR3hGM21jMzZ1UmVua3lWVV9zd2hybEIyejA4Vkl4ZkZwV1lWYUJsZW1uZ1l5THJGYlJMV1J0cEd1SHQ5bVlibG00Q1lCdjFRV1FtX1FqZmlxREh1TnNmMkkwRUhrOHlaUG1XRG9CZGg3RFZlZkMxTFJZdjQ2anZpS3FaRFNCTkQ1Vk1iSEpRMlNWODhR?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 15:30:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "뉴욕증시, AI주 투매에도 낙폭 축소…나스닥 0.6%↓ - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pYmhFQWVicExpVTNvQURpMEJMUGdSV1FISHRsTkc5dUUtLU10dzI4SGZ0N0RHV2tIN21UdmpCbEx5cTdWLXFQQVR6S1JCT3MxSkVmalZDWWhiMEc5blR4aURSb3dZd200amI1VU1reTk3RDjSAWZBVV95cUxOWExNanlzNTlHMWM1dDVGLTVCdUZWUFBNQURnQ3hPTlp3d1NEbXFxcUNzVjBINk5WMXJnOFBnVlNXVURCYjBvSTVFMW9UaGtXcFhTQXhzUFZ1d1RObGdhOVowYXFUcGc?oc=5",
+          "pub_date": "Wed, 25 Nov 2026 22:00:09 GMT",
+          "source": "동아일보"
+        }
+      ]
     }
   },
   "volatility": {
-    "vix": 30.98,
-    "vvix": 114.07,
-    "skew": 139.16,
-    "move": 98.84
+    "vix": 28.29,
+    "vvix": 115.38,
+    "skew": 142.06,
+    "move": 97.54
   },
   "korea_flow": {
     "foreign_inst_buy_krw": 0,
@@ -36,55 +80,55 @@
   },
   "indices": {
     "nasdaq": {
-      "current": 23733.54,
+      "current": 23585.8,
       "high_52w": 27722.75,
-      "drop_pct": -14.39,
-      "intraday_low_drop_pct": -15.39,
-      "sma_200": 25165.23
+      "drop_pct": -14.92,
+      "intraday_low_drop_pct": -18.36,
+      "sma_200": 25167.65
     },
     "kospi": {
-      "current": 4697.51,
+      "current": 5006.03,
       "high_52w": 9385.59,
-      "drop_pct": -49.95,
-      "intraday_low_drop_pct": -50.22,
-      "sma_200": 6519.59
+      "drop_pct": -46.66,
+      "intraday_low_drop_pct": -48.0,
+      "sma_200": 6522.2
     },
     "kosdaq": {
-      "current": 650.64,
+      "current": 665.88,
       "high_52w": 1229.42,
-      "drop_pct": -47.08,
-      "intraday_low_drop_pct": -47.86,
-      "sma_200": 944.3
+      "drop_pct": -45.84,
+      "intraday_low_drop_pct": -46.95,
+      "sma_200": 946.87
     },
     "sp500": {
-      "current": 7201.09,
+      "current": 7182.78,
       "high_52w": 7844.52,
-      "drop_pct": -8.2,
-      "intraday_low_drop_pct": -8.99,
-      "sma_200": 7351.29
+      "drop_pct": -8.44,
+      "intraday_low_drop_pct": -11.15,
+      "sma_200": 7352.49
     },
     "russell2k": {
-      "current": 2684.94,
+      "current": 2704.06,
       "high_52w": 3069.71,
-      "drop_pct": -12.53,
-      "intraday_low_drop_pct": -13.5,
-      "sma_200": 2813.28
+      "drop_pct": -11.91,
+      "intraday_low_drop_pct": -14.53,
+      "sma_200": 2813.41
     },
     "soxx": {
-      "current": 128.62,
+      "current": 127.98,
       "high_52w": 655.95,
-      "drop_pct": -80.39,
-      "intraday_low_drop_pct": -80.79,
-      "sma_200": 161.03
+      "drop_pct": -80.49,
+      "intraday_low_drop_pct": -81.98,
+      "sma_200": 161.09
     }
   },
   "sector_rs": {
-    "XLK": 0.92,
-    "SMH": 0.816,
-    "BOTZ": 0.874,
-    "IGV": 0.995,
-    "XLF": 1.026,
-    "XLE": 1.042
+    "XLK": 0.91,
+    "SMH": 0.81,
+    "BOTZ": 0.875,
+    "IGV": 0.99,
+    "XLF": 1.038,
+    "XLE": 1.046
   },
   "signals": {
     "cnn_under_10": true,
@@ -122,19 +166,19 @@
     }
   },
   "leverage_profit": {
-    "tqqq_profit_pct": 5.05,
+    "tqqq_profit_pct": 2.98,
     "tqqq_avg_used": 43.97,
     "tqqq_avg_theoretical": 43.97,
     "tqqq_avg_manual": 59.31,
     "tqqq_avg_source": "theoretical_locked",
     "tqqq_avg_locked_date": "2026-04-24",
-    "soxl_profit_pct": -39.07,
+    "soxl_profit_pct": -40.15,
     "soxl_avg_used": 53.5,
     "soxl_avg_theoretical": 53.5,
     "soxl_avg_manual": 131.98,
     "soxl_avg_source": "theoretical_locked",
     "soxl_avg_locked_date": "2026-04-24",
-    "koru_profit_pct": -98.51,
+    "koru_profit_pct": -98.57,
     "koru_avg_used": 367.77,
     "koru_avg_theoretical": 367.77,
     "koru_avg_manual": 946497.0,
