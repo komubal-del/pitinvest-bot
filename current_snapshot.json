@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T23:29:25.977180+09:00",
+  "timestamp": "2026-11-27T08:18:39.933865+09:00",
   "sentiment": {
     "cnn_fng": 14.9967450271248,
     "cnn_components": {
@@ -14,76 +14,52 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 10,
-      "fear_count": 9,
+      "greed_count": 1,
+      "fear_count": 5,
       "greed_articles": [
         {
-          "title": "AI 거품론 뚫고…\"내년에 코스피 ○○○○까지 간다\" 전망 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zd0wtTWxiTURaWk1FNTNoa1JCWGVDS0czUEIzNmpyNWl1SG54TE54NFFyWk5NWXRJSjJyMFNwUVZ1STdxanJhZU4xUGY4UG1qdENZT1ctemMxUQ?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 04:55:04 GMT",
-          "source": "한국경제"
-        },
-        {
-          "title": "널뛰는 코스피에 개미 투자금은 미국 대표지수 ETF로 '쏠림' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nY2NCSzdFVFZGNC0ybU5ETEh1aTdyeDBtV1ZUbEpJR0RZb1pTaHY1bnlVQU1LeS1jdzBKcEppVlQ5TndXNnhPUnFMaDhqVkVIbmJHb0Y1WjdGVEXSAWBBVV95cUxQRUwtZkNCUTNmemhnNEpIbEVsVEFWYjhDMlp2MHJBMzZSRFExbmVFeF8tSklMRlRJbThRSE9vTl9WWmUwRXQtS3lyOEFQNmFuem9QNGJfS3VxcEhFUEM4TkE?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 06:16:08 GMT",
-          "source": "연합뉴스"
-        },
-        {
-          "title": "[증시-마감] 저가 매수에 코스피 4,700선 회복…4,711.21 마감 - 연합인포맥스",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pTFl0S2ZFbFZCNmN3SWdxS2VfNkR3c1BaTENXQ0gwWC1CY0ItdHdTalVhdnlsQkxMLTdYZ25PNjFsNFlueG9SenZnSWJPS0xpMkg0bTFIZXdtQmdaWFhHV1lScDQtRmJMazdZcWFEOXc?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 07:07:39 GMT",
-          "source": "연합인포맥스"
-        },
-        {
-          "title": "[올댓차이나] 홍콩 증시, 저가 매수로 8거래일 만에 반등 마감… H주 1.47%↑ - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04RUszdFF4MWpZUkNUOEJKQzYzUVl5TXQ3VjVQRXlqSjE5Q0lrTTVnOEp3N1hObmIzYTdTM1VOdERLQnY3eG1oSjQ1ei15VlZvTC1YN2doVG1aSzF1RURCcdIBeEFVX3lxTE5pdkxCd2ZXQl91LXl3MUdJQ3dHdmxQLXJQRDJaYWNKbXM1NlVYM3lzRlY2SldaUjJORU0wTmdsM0FPbVVCa3F0RVhSU0JyNHREbk1wNm5JMm1odnpuU25jdERxQlRLOGQyNVpJV1JCV01WWHhlYTRtYw?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 09:53:13 GMT",
-          "source": "뉴시스"
-        },
-        {
-          "title": "코스피, 저가 매수에도 힘 빠진 반등…금리 인상·외국인 매도에 4700선 마감 - 경북도민일보",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xTldZYnpXRFR2VURrQ19uRjNPbHVwdTB5YnJnN013SmdCbVU4RzZNVHRTSlJoRXd3ejcyT1N6MGphcGpHSi1yWEh5RUg5akl4RGg4V2NpOG5udkprWDVSWWkySTVETExjMGc?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 07:35:28 GMT",
-          "source": "경북도민일보"
+          "title": "내년 성장 4%대 간다는데…고점 대비 '반토막' 코스피 - 노컷뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUMVNZbXlNWWpfN2w5YVVnQ3lYbVZNSVZrV1MwU0gzclVkQWtGbVU3NUVKNHZFbTl4bl9BOHhwRmFvaEhsWWFoT2V6Yno1bjhJR2c?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 20:00:00 GMT",
+          "source": "노컷뉴스"
         }
       ],
       "fear_articles": [
         {
-          "title": "'전강후약' 코스피, 0.29% 상승…전날 급락후 간신히 반등(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96TC1NUWNIbS1ESWVhc2lvSWFhYWlJRHlBSTQ5TWtSdkV6TWhrc0Q3eVpIMENpc1hhQXpQQTEtN0RTRWtCdkJCTGpoYUVaVmdKVDZVQWd1ZEVRbEnSAWBBVV95cUxOcVBfbWxoMEFZRW1zU1FkZUduUFNSOFBpODlxclJYSVM0NmVJVElvZl9PSDhfSG0zeHdWS0ZoRjk2VHV2Q0RGVGhEazF2RHRjNlNwdHFSVUxRTE1uUWd0eHU?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 07:12:19 GMT",
-          "source": "연합뉴스"
+          "title": "\"폭락장 끝난 줄 알았는데\"…코스피 급등에 숨은 '함정' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MSXBmcEo0M1RLU0dlZDVQNkdma0MzSVI2UkZaZkYwc3gtbElscHlDRThnZjB1LXJzYUlrenA4WTg4ZWIycEZHaks0NjhmdkpjVm93bmE4N3I1dw?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 21:00:12 GMT",
+          "source": "한국경제"
         },
         {
-          "title": "“삼성전자 15% 폭락 차트 보더니 결국 눈물”…생방송 중 무너진 증시 진행자, 무슨 일이 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9raXp3aEdENXNHdlgxNHJBTnczcjVMNmpvOGtiQjhzOFZBU2ZMZl96YnRwRWJSR0pVM2ZOU3ZrdjB6MGtoejU0bG5UZU4zUQ?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 08:50:00 GMT",
-          "source": "전자신문"
+          "title": "뉴욕증시, AI 투자 불안에 혼조 마감...마이크론 이틀 새 15% 급락 - M이코노미뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MeXB3R3FrTV9IUnR4YlVCZzFmeGZ1bDRWRDFFbFkzejdwTkhvTHFKNDFiLVZLdXNwQUhfRXlnb0dkWmNZN2JlcjVCWE91Z2NJTnNpVnZHNVdtZzRrUDRWR3ZDN0w5MG8?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 22:42:35 GMT",
+          "source": "M이코노미뉴스"
         },
         {
-          "title": "코스피, 급락 후 강보합 마감…4,711.21 - 데일리굿뉴스",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00ZEM0VTMyZEJhdlRYT25WQW9UcUQ1N2tSeEd6QUJFX2Uta1FhX2Q0UXJVVTZxSElPSzI1WmlHV010cmlTcVpJNm45TXZLYTJUclR2VHFfREhjdnpPTkxJdnREQnlZdzl5X04wStIBcEFVX3lxTE11VWZRRFZvcFU2NlBDd0djLWw4RkNkY29GT2VlSmxTdjUzMkEwRkkwZDFwZTZZUG0xeThBeDloanI5eUVVQTlnWXByUTIxNTNjeVJ2WEhhalFiZlU1Wkw4TnlkSnVpWENKT2xNWVd5MWQ?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 08:31:56 GMT",
-          "source": "데일리굿뉴스"
+          "title": "\"폭락장 끝난 줄 알았는데\"…코스피 급등에 숨은 '함정' - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xem1tYzRXRmRVUktuQm0xWU1PUW1uX3Rabm1VSEhrUFg1MlA1bGdVTWFuRWZIb3FNWVBreXh5V1ZEMHN6dnh5QnpUNnozOS1E?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 21:47:57 GMT",
+          "source": "블루밍비트"
         },
         {
-          "title": "코스피, 6% 폭락 뒤 0.29% 반등…4700선 턱걸이 - 스트레이트뉴스",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wR19LNFlSY0IydzRNeWRvZnFxbVFyOEhXNzNWOVVHWjNRekFDMWpzQ0xHR29YVFB6V2FYNVo4bUxYeEFOcVhSQzhLS054UnRVX2s3OVQ5Rjl0eFhOSWQ4OG5BMExBeFk3M2QzLXNNNDdRSDjSAXdBVV95cUxPTl81TWRIZm9UQXEyUVJ2RV9YME9vYzRhWFc0czhkMHVYNVd4UVY5eG85bDhONjN4VUVGM1RnZHFWZlUtdDJ0elFqb1JnTWFfNlJHcVBaYU1QSU1ZTjlWY2R5eFFuY19tYWkyYzZBOTc5dkIyMldVTQ?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 07:02:23 GMT",
-          "source": "스트레이트뉴스"
+          "title": "\"외국인 투기 세력 겁먹게 해야\"…증시 급락에 전문가의 조언 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JbE1ETDF0VjlEM00tVVhGcGJSemRrOXNDM080R1RJQThNNkgyemJMZF9IM1lNelUyOWdCOWkzTDJJWE9JUjcxU3JLZGptcWl3ZFVYZDUyWHVla1hXOVZ6ZdIBeEFVX3lxTE9vcC15Tlg1RmRIbXJmQVY5SHN4NVY2NzZuWlJkMERCYXNneUs1ZDJTa0o1WndPeUZYSkh5dE5MTEd0NzFrZVZ0Ml9oY25KSEV0YkRaVHFHLU52empzVVg0b3drcVZMR2d2UTNya1N0TUFpUHRRY0lFZA?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 15:00:00 GMT",
+          "source": "뉴시스"
         },
         {
-          "title": "'전강후약' 코스피, 0.29% 상승…“외국인 또 매도세” - 서울이코노미뉴스",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iRnl5NXBlQ01NWnJuZ2pQcnpvazRwanNOc0FGVmhCUFBfTjNQb0MyT3VrLW1sT1JwTlhKS2l4SVVNWVVCemZuV3hpN3l4bVRlOVhlRFFJOFlLQVBYalJMTG9IRFNjUi00SjdYaDVB?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 07:45:00 GMT",
-          "source": "서울이코노미뉴스"
+          "title": "생방송 중 울먹인 증시 전문가…삼성전자 레버리지 하루 만에 19% 폭락 [숫자 뒤의 진실] - 세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15eGRWcU5hUUN4cWJEWVlId1EyMGNPc1VCRk5ZaXN2MzU2VENFd09oclNwTFpBMDZLaWZpY0lET3JyaHpWSl9ZT1JsbDJsTWJGWF95RNIBVEFVX3lxTE15eGRWcU5hUUN4cWJEWVlId1EyMGNPc1VCRk5ZaXN2MzU2VENFd09oclNwTFpBMDZLaWZpY0lET3JyaHpWSl9ZT1JsbDJsTWJGWF95RA?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 20:00:00 GMT",
+          "source": "세계일보"
         }
       ]
     }
   },
   "volatility": {
-    "vix": 27.1,
+    "vix": 26.8,
     "vvix": 115.38,
     "skew": 142.06,
     "move": 97.54
@@ -105,18 +81,18 @@
       "sma_200": 25167.65
     },
     "kospi": {
-      "current": 4711.21,
+      "current": 4697.51,
       "high_52w": 9385.59,
-      "drop_pct": -49.8,
-      "intraday_low_drop_pct": -49.87,
-      "sma_200": 6517.02
+      "drop_pct": -49.95,
+      "intraday_low_drop_pct": -50.22,
+      "sma_200": 6519.59
     },
     "kosdaq": {
-      "current": 655.71,
+      "current": 650.64,
       "high_52w": 1229.42,
-      "drop_pct": -46.67,
-      "intraday_low_drop_pct": -46.74,
-      "sma_200": 941.83
+      "drop_pct": -47.08,
+      "intraday_low_drop_pct": -47.86,
+      "sma_200": 944.3
     },
     "sp500": {
       "current": 7182.78,
