@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T08:18:39.933865+09:00",
+  "timestamp": "2026-11-27T14:10:31.804551+09:00",
   "sentiment": {
     "cnn_fng": 14.9967450271248,
     "cnn_components": {
@@ -14,46 +14,40 @@
     "put_call_ratio": null,
     "aaii_bull_bear_spread": null,
     "news_sentiment": {
-      "greed_count": 1,
-      "fear_count": 5,
+      "greed_count": 3,
+      "fear_count": 2,
       "greed_articles": [
         {
-          "title": "내년 성장 4%대 간다는데…고점 대비 '반토막' 코스피 - 노컷뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUMVNZbXlNWWpfN2w5YVVnQ3lYbVZNSVZrV1MwU0gzclVkQWtGbVU3NUVKNHZFbTl4bl9BOHhwRmFvaEhsWWFoT2V6Yno1bjhJR2c?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 20:00:00 GMT",
-          "source": "노컷뉴스"
+          "title": "닷컴버블보다 큰 충격?…경제지표로 본 AI발 증시 급락 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yM1QwZ1NRbWM4cFZoR013MGo0ZE1NeU1TcWZyN3I5eVhPa2FaTEZUYkpKdWZpWG1RRG5fWWNsT1dKY1ZVakVCMXdIRW1PU1E?oc=5",
+          "pub_date": "Fri, 27 Nov 2026 03:14:39 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "간밤 미국 증시 휴장...\"저가 매수세 유입 기대\" - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVMkJFMlJrazlISThzay1hWlFMWFNib2NDUTdmbkJydlQwR3ZEbHdQYjdUVUt2RlNmSTM1S1pPeXExSnVWOXp4d1EwUTlnMWxsejdGdGFZR3VsTDlpaGc?oc=5",
+          "pub_date": "Fri, 27 Nov 2026 00:00:00 GMT",
+          "source": "YTN"
+        },
+        {
+          "title": "코스피·코스닥 동반 급등…외국인 저가 매수와 로봇주 강세 ‘견인’ - 파이낸셜투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81S2JNYWhySEJPYUNHdzZJa0xXNnIxMllpbWV2MTF1dWdlZXlUZnZQdUJST3hKSjI3TFViV1NNTU9OX295LUNHX3dFdTZKaF9zMVljampyQ01hYnpvclZVck1OdFVNU1ptWFHSAW5BVV95cUxOOG1FTlEtUmFpTnZkTTQ5VWlDSGt4endnMmRrX2V0OTkwYndaV29WY1VNVHdxWkU0RzR4ZFlHeGVCcVBKNVhOeXlfVXlpMHY1VnFJTXpxQlZKLUlNbW5lcnNMc3A4dHFCUUJtT01HUQ?oc=5",
+          "pub_date": "Fri, 27 Nov 2026 04:47:07 GMT",
+          "source": "파이낸셜투데이"
         }
       ],
       "fear_articles": [
         {
-          "title": "\"폭락장 끝난 줄 알았는데\"…코스피 급등에 숨은 '함정' - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MSXBmcEo0M1RLU0dlZDVQNkdma0MzSVI2UkZaZkYwc3gtbElscHlDRThnZjB1LXJzYUlrenA4WTg4ZWIycEZHaks0NjhmdkpjVm93bmE4N3I1dw?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 21:00:12 GMT",
-          "source": "한국경제"
+          "title": "코스피 상승 출발 후 하락 전환…증안펀드 기대 속 4,700선 공방 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JMG5MNVpwenV0TUYxX3dmQnR4Vm5SckcwQkVweE5Rcl82SjQxaWxlTzBtM3F5ekpVdEdaSElJWGswa0FlcHNuNGdISy0tM0Y0XzdjbnIydGJJc21YZlhjZUlHcExWVkN4dXQ3WFZYSkU?oc=5",
+          "pub_date": "Fri, 27 Nov 2026 00:38:29 GMT",
+          "source": "연합인포맥스"
         },
         {
-          "title": "뉴욕증시, AI 투자 불안에 혼조 마감...마이크론 이틀 새 15% 급락 - M이코노미뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MeXB3R3FrTV9IUnR4YlVCZzFmeGZ1bDRWRDFFbFkzejdwTkhvTHFKNDFiLVZLdXNwQUhfRXlnb0dkWmNZN2JlcjVCWE91Z2NJTnNpVnZHNVdtZzRrUDRWR3ZDN0w5MG8?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 22:42:35 GMT",
-          "source": "M이코노미뉴스"
-        },
-        {
-          "title": "\"폭락장 끝난 줄 알았는데\"…코스피 급등에 숨은 '함정' - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xem1tYzRXRmRVUktuQm0xWU1PUW1uX3Rabm1VSEhrUFg1MlA1bGdVTWFuRWZIb3FNWVBreXh5V1ZEMHN6dnh5QnpUNnozOS1E?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 21:47:57 GMT",
-          "source": "블루밍비트"
-        },
-        {
-          "title": "\"외국인 투기 세력 겁먹게 해야\"…증시 급락에 전문가의 조언 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JbE1ETDF0VjlEM00tVVhGcGJSemRrOXNDM080R1RJQThNNkgyemJMZF9IM1lNelUyOWdCOWkzTDJJWE9JUjcxU3JLZGptcWl3ZFVYZDUyWHVla1hXOVZ6ZdIBeEFVX3lxTE9vcC15Tlg1RmRIbXJmQVY5SHN4NVY2NzZuWlJkMERCYXNneUs1ZDJTa0o1WndPeUZYSkh5dE5MTEd0NzFrZVZ0Ml9oY25KSEV0YkRaVHFHLU52empzVVg0b3drcVZMR2d2UTNya1N0TUFpUHRRY0lFZA?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 15:00:00 GMT",
-          "source": "뉴시스"
-        },
-        {
-          "title": "생방송 중 울먹인 증시 전문가…삼성전자 레버리지 하루 만에 19% 폭락 [숫자 뒤의 진실] - 세계일보",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15eGRWcU5hUUN4cWJEWVlId1EyMGNPc1VCRk5ZaXN2MzU2VENFd09oclNwTFpBMDZLaWZpY0lET3JyaHpWSl9ZT1JsbDJsTWJGWF95RNIBVEFVX3lxTE15eGRWcU5hUUN4cWJEWVlId1EyMGNPc1VCRk5ZaXN2MzU2VENFd09oclNwTFpBMDZLaWZpY0lET3JyaHpWSl9ZT1JsbDJsTWJGWF95RA?oc=5",
-          "pub_date": "Thu, 26 Nov 2026 20:00:00 GMT",
-          "source": "세계일보"
+          "title": "신한증권 \"코스피 급락에도 바닥 판단 아직 일러\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1odmxkNGJrWmI0LTBqbWItallCWmprMWVyY3N5UXJJYTlZVXRZa3RHZk12UHQ4cEpFWUltODlEYk5oamxTd3ZtY1MwTkRDLVJPYUdjdjJsYkREcDl3UUhGVtIBYEFVX3lxTE1odmxkNGJrWmI0LTBqbWItallCWmprMWVyY3N5UXJJYTlZVXRZa3RHZk12UHQ4cEpFWUltODlEYk5oamxTd3ZtY1MwTkRDLVJPYUdjdjJsYkREcDl3UUhGVg?oc=5",
+          "pub_date": "Thu, 26 Nov 2026 23:40:26 GMT",
+          "source": "연합뉴스"
         }
       ]
     }
@@ -81,18 +75,18 @@
       "sma_200": 25167.65
     },
     "kospi": {
-      "current": 4697.51,
+      "current": 4890.49,
       "high_52w": 9385.59,
-      "drop_pct": -49.95,
-      "intraday_low_drop_pct": -50.22,
-      "sma_200": 6519.59
+      "drop_pct": -47.89,
+      "intraday_low_drop_pct": -50.11,
+      "sma_200": 6516.72
     },
     "kosdaq": {
-      "current": 650.64,
+      "current": 701.57,
       "high_52w": 1229.42,
-      "drop_pct": -47.08,
-      "intraday_low_drop_pct": -47.86,
-      "sma_200": 944.3
+      "drop_pct": -42.93,
+      "intraday_low_drop_pct": -45.95,
+      "sma_200": 939.85
     },
     "sp500": {
       "current": 7182.78,
@@ -1177,6 +1171,10 @@
       },
       {
         "date": "2026-11-26",
+        "ret_pct": 77.082
+      },
+      {
+        "date": "2026-11-27",
         "ret_pct": 77.082
       }
     ],
